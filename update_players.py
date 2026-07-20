@@ -57,9 +57,19 @@ def api_fetch(profile_id: int, page: int) -> list:
     params = urllib.parse.urlencode({"profile_ids": profile_id, "page": page})
     url = f"{BASE_URL}?{params}"
     req = urllib.request.Request(url, headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-        data = json.loads(resp.read().decode())
-    return data.get("matches", data) if isinstance(data, dict) else dataa
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                data = json.loads(resp.read().decode())
+            return data.get("matches", data) if isinstance(data, dict) else data
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = 30 * (attempt + 1)
+                print(f"  429 rate limit — waiting {wait}s before retry {attempt + 1}/3")
+                time.sleep(wait)
+            else:
+                raise
+    raise RuntimeError(f"Failed after 3 retries due to rate limiting")
 
 
 def parse_iso(ts: str | None) -> datetime | None:
@@ -289,7 +299,8 @@ def main():
         try:
             changed = update_player(player, data_dir, args.pages, args.dry_run)
             any_changed = any_changed or changed
-        except Exception as e:
+        time.sleep(2)
+            except Exception as e:
             msg = f"{player['name']} ({player['profileId']}): {type(e).__name__}: {e}"
             print(f"  ERROR — {msg}")
             errors.append(msg)
