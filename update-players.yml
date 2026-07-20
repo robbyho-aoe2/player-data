@@ -2,7 +2,6 @@ name: Update Player Data
 
 "on":
   schedule:
-    # Every Monday at 06:00 UTC (02:00 EDT / midnight PDT)
     - cron: "0 6 * * 1"
   workflow_dispatch:
     inputs:
@@ -11,7 +10,7 @@ name: Update Player Data
         required: false
         default: ""
       pages:
-        description: "Pages to fetch per player (default 5 = 100 matches)"
+        description: "Pages to fetch per player (default 5)"
         required: false
         default: "5"
       dry_run:
@@ -23,7 +22,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to push the commit
+      contents: write
 
     steps:
       - name: Checkout repo
@@ -34,16 +33,9 @@ jobs:
         with:
           python-version: "3.11"
 
-      # No external deps — stdlib only (urllib, json, pathlib)
-      # If you later add requests/httpx, pip install here:
-      # - run: pip install requests
-
-      - name: Run API test (fail fast if API unreachable)
+      - name: Run API test
         id: api_test
         run: python3 test_api.py
-        # If this step fails, the pipeline stops before writing any data.
-        # On first run, check the output carefully to confirm all field
-        # names are correct before letting the weekly cron run.
 
       - name: Update player data
         id: update
