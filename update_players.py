@@ -8,9 +8,9 @@ and writes updated files. Run inside the repo checkout; CI commits any diffs.
 
 Usage:
   python3 update_players.py
-  python3 update_players.py --player 13648083   # single player, for debugging
-  python3 update_players.py --pages 10          # override default 5 pages
-  python3 update_players.py --dry-run           # fetch but don't write files
+  python3 update_players.py --players 13648083,196240   # specific players only
+  python3 update_players.py --pages 10                  # override default 5 pages
+  python3 update_players.py --dry-run                   # fetch but don't write files
 """
 
 import argparse
@@ -20,16 +20,18 @@ import sys
 import time
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, timezone, date
 from pathlib import Path
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-BASE_URL   = "https://data.aoe2companion.com/api/matches"
-PAGES      = 5        # pages 1-5 = up to 100 most recent matches per fetch
-PAGE_DELAY = 0.5      # seconds between API calls (be polite)
-TIMEOUT    = 20       # request timeout seconds
-MAX_DUR    = 5 * 3600 # 5 hours in seconds — cap for corrupted duration records
+BASE_URL      = "https://data.aoe2companion.com/api/matches"
+PAGES         = 5        # pages 1-5 = up to 100 most recent matches per fetch
+PAGE_DELAY    = 1.0      # seconds between page fetches per player
+PLAYER_DELAY  = 3.0      # seconds between players
+TIMEOUT       = 20       # request timeout seconds
+MAX_DUR       = 5 * 3600 # 5 hours in seconds — cap for corrupted duration records
 
 LADDER_MAP = {
     "1v1 Random Map (Console)":    "1v1 Console",
@@ -56,7 +58,10 @@ PATCH_FIELD_CANDIDATES = ["version", "patch", "gameVersion"]
 def api_fetch(profile_id: int, page: int) -> list:
     params = urllib.parse.urlencode({"profile_ids": profile_id, "page": page})
     url = f"{BASE_URL}?{params}"
-    req = urllib.request.Request(url, headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"})
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"}
+    )
     for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
@@ -69,10 +74,10 @@ def api_fetch(profile_id: int, page: int) -> list:
                 time.sleep(wait)
             else:
                 raise
-    raise RuntimeError(f"Failed after 3 retries due to rate limiting")
+    raise RuntimeError("Failed after 3 retries due to rate limiting")
 
 
-def parse_iso(ts: str | None) -> datetime | None:
+def parse_iso(ts):
     if not ts:
         return None
     for fmt in ("%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ"):
@@ -83,7 +88,7 @@ def parse_iso(ts: str | None) -> datetime | None:
     return None
 
 
-def compute_duration(match: dict) -> int | None:
+def compute_duration(match):
     start = parse_iso(match.get("started"))
     end   = parse_iso(match.get("finished"))
     if not start or not end:
@@ -92,56 +97,49 @@ def compute_duration(match: dict) -> int | None:
     return dur if 0 < dur <= MAX_DUR else None
 
 
-def first_present(d: dict, candidates: list[str]):
+def first_present(d, candidates):
     for k in candidates:
         if k in d:
             return d[k]
     return None
 
 
-def normalize_civ(raw: str | None) -> str | None:
+def normalize_civ(raw):
     if raw is None:
         return None
     return CIV_NORM.get(raw, raw)
 
 
-def coerce_date(ts: str | None) -> str | None:
-    """Return YYYY-MM-DD from an ISO timestamp, or None."""
+def coerce_date(ts):
     dt = parse_iso(ts)
     return dt.strftime("%Y-%m-%d") if dt else None
 
 
-def extract_match(raw: dict, profile_id: int) -> tuple[str | None, dict | None]:
-    """
-    Parse one raw API match into (ladder_key, normalized_match_dict).
-    Returns (None, None) if the match should be skipped.
-    """
+def extract_match(raw, profile_id):
     lb_raw = raw.get("leaderboardName", "")
     ladder = LADDER_MAP.get(lb_raw)
     if not ladder:
-        return None, None  # unrecognised ladder (e.g. DM, Unranked) — skip
+        return None, None, None
 
     match_id = raw.get("matchId")
     if match_id is None:
-        return None, None  # can't dedup without matchId
+        return None, None, None
 
-    # Find our player object
     players = raw.get("players", [])
     our_player = next((p for p in players if p.get("profileId") == profile_id), None)
 
-    won  = our_player.get("won") if our_player else None
+    won    = our_player.get("won") if our_player else None
     rating = our_player.get("rating") if our_player else None
 
     civ_raw = first_present(raw, CIV_FIELD_CANDIDATES)
     if our_player:
-        # Some API versions put civ on the player object instead
         civ_raw = first_present(our_player, CIV_FIELD_CANDIDATES) or civ_raw
 
-    civ  = normalize_civ(civ_raw)
-    map_ = first_present(raw, MAP_FIELD_CANDIDATES)
+    civ   = normalize_civ(civ_raw)
+    map_  = first_present(raw, MAP_FIELD_CANDIDATES)
     patch = first_present(raw, PATCH_FIELD_CANDIDATES)
-    dur  = compute_duration(raw)
-    dt   = coerce_date(raw.get("started") or raw.get("finished"))
+    dur   = compute_duration(raw)
+    dt    = coerce_date(raw.get("started") or raw.get("finished"))
 
     record = {
         "matchId": match_id,
@@ -155,13 +153,9 @@ def extract_match(raw: dict, profile_id: int) -> tuple[str | None, dict | None]:
     return ladder, record, rating
 
 
-# ─── Per-player update ─────────────────────────────────────────────────────────
+# ─── Per-player update ────────────────────────────────────────────────────────
 
-def update_player(player_def: dict, data_dir: Path, pages: int, dry_run: bool) -> bool:
-    """
-    Fetch latest matches for one player, merge into their JSON file.
-    Returns True if the file was modified.
-    """
+def update_player(player_def, data_dir, pages, dry_run):
     name       = player_def["name"]
     profile_id = player_def["profileId"]
     group      = player_def.get("group", "console")
@@ -169,7 +163,6 @@ def update_player(player_def: dict, data_dir: Path, pages: int, dry_run: bool) -
 
     print(f"\n[{name}] profileId={profile_id}")
 
-    # Load existing file (or initialise empty)
     if out_path.exists():
         with open(out_path) as f:
             existing = json.load(f)
@@ -186,15 +179,12 @@ def update_player(player_def: dict, data_dir: Path, pages: int, dry_run: bool) -
             }
         }
 
-    # Build lookup of existing matchIds per ladder
-    existing_ids: dict[str, set] = {}
+    existing_ids = {}
     for ladder, ld in existing["ladders"].items():
         existing_ids[ladder] = {m["matchId"] for m in ld.get("matches", [])}
 
-    # Track the most recent rating seen per ladder this run
-    latest_rating: dict[str, int | None] = {}
-    # Track new matches to add
-    new_matches: dict[str, list] = {k: [] for k in existing["ladders"]}
+    latest_rating = {}
+    new_matches   = {k: [] for k in existing["ladders"]}
 
     total_fetched = 0
     total_new     = 0
@@ -213,12 +203,10 @@ def update_player(player_def: dict, data_dir: Path, pages: int, dry_run: bool) -
         total_fetched += len(raw_matches)
 
         for raw in raw_matches:
-            result = extract_match(raw, profile_id)
-            if result[0] is None:
+            ladder, record, rating = extract_match(raw, profile_id)
+            if ladder is None:
                 continue
-            ladder, record, rating = result
 
-            # Track latest rating (page 1 matches are most recent)
             if rating is not None and ladder not in latest_rating:
                 latest_rating[ladder] = rating
 
@@ -236,7 +224,6 @@ def update_player(player_def: dict, data_dir: Path, pages: int, dry_run: bool) -
         print(f"  no changes — skipping write")
         return False
 
-    # Merge new matches into existing (prepend — newest first)
     today = date.today().isoformat()
     for ladder in existing["ladders"]:
         if new_matches[ladder]:
@@ -245,7 +232,6 @@ def update_player(player_def: dict, data_dir: Path, pages: int, dry_run: bool) -
             )
             existing_ids[ladder].update(m["matchId"] for m in new_matches[ladder])
 
-        # Update meta
         meta = existing["ladders"][ladder].setdefault("meta", {})
         meta["totalGames"] = len(existing["ladders"][ladder]["matches"])
         meta["pulledDate"] = today
@@ -266,7 +252,7 @@ def update_player(player_def: dict, data_dir: Path, pages: int, dry_run: bool) -
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--player", type=int, help="Run for a single profileId only")
+    parser.add_argument("--players", type=str, help="Comma-separated profileIds to run (default: all)")
     parser.add_argument("--pages", type=int, default=PAGES, help=f"Pages to fetch per player (default {PAGES})")
     parser.add_argument("--dry-run", action="store_true", help="Fetch but don't write files")
     args = parser.parse_args()
@@ -283,10 +269,11 @@ def main():
     with open(players_path) as f:
         players = json.load(f)
 
-    if args.player:
-        players = [p for p in players if p["profileId"] == args.player]
+    if args.players:
+        ids = {int(x.strip()) for x in args.players.split(",") if x.strip()}
+        players = [p for p in players if p["profileId"] in ids]
         if not players:
-            print(f"ERROR: profileId {args.player} not in players.json", file=sys.stderr)
+            print("ERROR: none of the provided profileIds found in players.json", file=sys.stderr)
             sys.exit(1)
 
     print(f"=== update_players.py — {date.today()} ===")
@@ -295,15 +282,17 @@ def main():
     any_changed = False
     errors = []
 
-    for player in players:
+    for i, player in enumerate(players):
         try:
             changed = update_player(player, data_dir, args.pages, args.dry_run)
             any_changed = any_changed or changed
-        time.sleep(2)
-            except Exception as e:
+        except Exception as e:
             msg = f"{player['name']} ({player['profileId']}): {type(e).__name__}: {e}"
             print(f"  ERROR — {msg}")
             errors.append(msg)
+
+        if i < len(players) - 1:
+            time.sleep(PLAYER_DELAY)
 
     print(f"\n=== Done — changed={any_changed}, errors={len(errors)} ===")
     if errors:
@@ -312,8 +301,6 @@ def main():
             print(f"  - {e}")
         sys.exit(1)
 
-    # Signal to CI whether there's anything to commit
-    # GitHub Actions can check ${{ steps.update.outputs.changed }}
     if "GITHUB_OUTPUT" in os.environ:
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
             f.write(f"changed={'true' if any_changed else 'false'}\n")
