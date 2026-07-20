@@ -61,7 +61,8 @@ def api_fetch(profile_id: int, page: int) -> list:
         headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"}
     )
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-        return json.loads(resp.read().decode())
+  data = json.loads(resp.read().decode())
+        return data["matches"] if isinstance(data, dict) else data
 
 
 def parse_iso(ts: str | None) -> datetime | None:
