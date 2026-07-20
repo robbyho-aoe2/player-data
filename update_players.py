@@ -56,13 +56,10 @@ PATCH_FIELD_CANDIDATES = ["version", "patch", "gameVersion"]
 def api_fetch(profile_id: int, page: int) -> list:
     params = urllib.parse.urlencode({"profile_ids": profile_id, "page": page})
     url = f"{BASE_URL}?{params}"
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"}
-    )
+    req = urllib.request.Request(url, headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-  data = json.loads(resp.read().decode())
-        return data["matches"] if isinstance(data, dict) else data
+        data = json.loads(resp.read().decode())
+    return data.get("matches", data) if isinstance(data, dict) else dataa
 
 
 def parse_iso(ts: str | None) -> datetime | None:
