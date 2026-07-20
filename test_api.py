@@ -99,6 +99,8 @@ def main():
         print("\nFallback required: browser-push workaround needed.")
         sys.exit(1)
 
+    if isinstance(matches, dict) and "matches" in matches:
+        matches = matches["matches"]
     if not isinstance(matches, list):
         print(f"FAIL — Unexpected response type: {type(matches)}")
         print(f"Response: {json.dumps(matches)[:300]}")
