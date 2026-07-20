@@ -30,7 +30,19 @@ jobs:
           python-version: "3.11"
       - name: Run API test
         id: api_test
-        run: python3 test_api.py
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request, urllib.parse, sys
+          url = "https://data.aoe2companion.com/api/matches?" + urllib.parse.urlencode({"profile_ids": 13648083, "page": 1})
+          req = urllib.request.Request(url, headers={"User-Agent": "AoE2DataPipeline/1.0"})
+          resp = urllib.request.urlopen(req, timeout=20)
+          data = json.loads(resp.read().decode())
+          matches = data["matches"] if isinstance(data, dict) else data
+          m = matches[0]
+          print("API reachable — match keys:", sorted(m.keys()))
+          print("Player keys:", sorted(m["players"][0].keys()) if m.get("players") else "no players")
+          print("First match:", json.dumps(m, indent=2)[:800])
+          EOF
       - name: Update player data
         id: update
         run: |
