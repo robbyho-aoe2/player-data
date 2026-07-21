@@ -16,10 +16,6 @@ on:
         description: "Fetch but don't commit (true/false)"
         required: false
         default: "false"
-      migrate:
-        description: "Run one-time subfolder migration (true/false)"
-        required: false
-        default: "false"
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -45,8 +41,7 @@ jobs:
           m = matches[0]
           print("API reachable — match keys:", sorted(m.keys()))
           EOF
-      - name: Migrate to subfolders (one-time)
-        if: github.event.inputs.migrate == 'true'
+      - name: Migrate to subfolders (safe to run multiple times)
         run: python3 migrate_to_subfolders.py
       - name: Update player data
         id: update
@@ -62,11 +57,12 @@ jobs:
             ARGS="$ARGS --dry-run"
           fi
           python3 update_players.py $ARGS
+      - name: Build aggregate
+        run: python3 build_aggregate.py
       - name: Commit and push if changed
-        if: steps.update.outputs.changed == 'true' || github.event.inputs.migrate == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ players.json
-          git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
-          git push
+          git diff --staged --quiet || git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
+          git push || echo "Nothing to push"
