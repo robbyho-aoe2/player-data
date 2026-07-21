@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 """
 update_players.py — GitHub Actions pipeline script for robbyho-aoe2/player-data
-
-Reads players.json, fetches the latest matches for each player from
-aoe2companion, merges into data/<group>/<profileId>.json (dedup by matchId),
-and writes updated files. Run inside the repo checkout; CI commits any diffs.
-
-Usage:
-  python3 update_players.py
-  python3 update_players.py --players 13648083,196240   # specific players only
-  python3 update_players.py --pages 10                  # override default 5 pages
-  python3 update_players.py --dry-run                   # fetch but don't write files
 """
 
 import argparse
@@ -27,11 +17,11 @@ from pathlib import Path
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 BASE_URL      = "https://data.aoe2companion.com/api/matches"
-PAGES         = 5        # pages 1-5 = up to 100 most recent matches per fetch
-PAGE_DELAY    = 1.0      # seconds between page fetches per player
-PLAYER_DELAY  = 3.0      # seconds between players
-TIMEOUT       = 20       # request timeout seconds
-MAX_DUR       = 5 * 3600 # 5 hours in seconds — cap for corrupted duration records
+PAGES         = 5
+PAGE_DELAY    = 1.0
+PLAYER_DELAY  = 3.0
+TIMEOUT       = 20
+MAX_DUR       = 5 * 3600
 
 LADDER_MAP = {
     "1v1 Random Map (Console)":    "1v1 Console",
@@ -47,20 +37,18 @@ CIV_NORM = {
     "Inca":   "Incas",
 }
 
-CIV_FIELD_CANDIDATES   = ["civName", "civilizationName", "civ"]
-MAP_FIELD_CANDIDATES   = ["mapType", "mapName", "map"]
-PATCH_FIELD_CANDIDATES = ["version", "patch", "gameVersion"]
+MAP_FIELD_CANDIDATES   = ["mapName", "map"]
+PATCH_FIELD_CANDIDATES = ["patch", "version", "gameVersion"]
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
-def get_player_path(data_dir: Path, group: str, profile_id: int) -> Path:
-    """Return the correct output path based on player group."""
+def get_player_path(data_dir, group, profile_id):
     subfolder = data_dir / group
     subfolder.mkdir(parents=True, exist_ok=True)
     return subfolder / f"{profile_id}.json"
 
 
-def api_fetch(profile_id: int, page: int) -> list:
+def api_fetch(profile_id, page):
     params = urllib.parse.urlencode({"profile_ids": profile_id, "page": page})
     url = f"{BASE_URL}?{params}"
     req = urllib.request.Request(
@@ -120,6 +108,18 @@ def coerce_date(ts):
     return dt.strftime("%Y-%m-%d") if dt else None
 
 
+def find_our_player(match, profile_id):
+    """
+    API nests players inside teams[].players[].
+    Search all teams for our profileId.
+    """
+    for team in match.get("teams", []):
+        for player in team.get("players", []):
+            if player.get("profileId") == profile_id:
+                return player
+    return None
+
+
 def extract_match(raw, profile_id):
     lb_raw = raw.get("leaderboardName", "")
     ladder = LADDER_MAP.get(lb_raw)
@@ -130,15 +130,17 @@ def extract_match(raw, profile_id):
     if match_id is None:
         return None, None, None
 
-    players = raw.get("players", [])
-    our_player = next((p for p in players if p.get("profileId") == profile_id), None)
+    our_player = find_our_player(raw, profile_id)
 
-    won    = our_player.get("won") if our_player else None
+    won    = our_player.get("won")    if our_player else None
     rating = our_player.get("rating") if our_player else None
 
-    civ_raw = first_present(raw, CIV_FIELD_CANDIDATES)
+    # Civ is on the player object
+    civ_raw = None
     if our_player:
-        civ_raw = first_present(our_player, CIV_FIELD_CANDIDATES) or civ_raw
+        civ_raw = (our_player.get("civName")
+                   or our_player.get("civilizationName")
+                   or our_player.get("civ"))
 
     civ   = normalize_civ(civ_raw)
     map_  = first_present(raw, MAP_FIELD_CANDIDATES)
