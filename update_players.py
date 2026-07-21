@@ -3,7 +3,7 @@
 update_players.py — GitHub Actions pipeline script for robbyho-aoe2/player-data
 
 Reads players.json, fetches the latest matches for each player from
-aoe2companion, merges into data/<profileId>.json (dedup by matchId),
+aoe2companion, merges into data/<group>/<profileId>.json (dedup by matchId),
 and writes updated files. Run inside the repo checkout; CI commits any diffs.
 
 Usage:
@@ -42,18 +42,23 @@ LADDER_MAP = {
     "Team Random Map":             "Team PC",
 }
 
-# Civ name normalization: API name → internal tool name
 CIV_NORM = {
     "Mayans": "Maya",
     "Inca":   "Incas",
 }
 
-# Which field names the API might use for civ/map/patch (checked in order)
 CIV_FIELD_CANDIDATES   = ["civName", "civilizationName", "civ"]
 MAP_FIELD_CANDIDATES   = ["mapType", "mapName", "map"]
 PATCH_FIELD_CANDIDATES = ["version", "patch", "gameVersion"]
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
+
+def get_player_path(data_dir: Path, group: str, profile_id: int) -> Path:
+    """Return the correct output path based on player group."""
+    subfolder = data_dir / group
+    subfolder.mkdir(parents=True, exist_ok=True)
+    return subfolder / f"{profile_id}.json"
+
 
 def api_fetch(profile_id: int, page: int) -> list:
     params = urllib.parse.urlencode({"profile_ids": profile_id, "page": page})
@@ -159,9 +164,9 @@ def update_player(player_def, data_dir, pages, dry_run):
     name       = player_def["name"]
     profile_id = player_def["profileId"]
     group      = player_def.get("group", "console")
-    out_path   = data_dir / f"{profile_id}.json"
+    out_path   = get_player_path(data_dir, group, profile_id)
 
-    print(f"\n[{name}] profileId={profile_id}")
+    print(f"\n[{name}] profileId={profile_id} group={group}")
 
     if out_path.exists():
         with open(out_path) as f:
@@ -239,12 +244,12 @@ def update_player(player_def, data_dir, pages, dry_run):
             meta["latestRating"] = latest_rating[ladder]
 
     if dry_run:
-        print(f"  DRY RUN — would write {out_path.name}")
+        print(f"  DRY RUN — would write {out_path}")
         return False
 
     with open(out_path, "w") as f:
         json.dump(existing, f, indent=2)
-    print(f"  wrote {out_path.name}")
+    print(f"  wrote {out_path}")
     return True
 
 
