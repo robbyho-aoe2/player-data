@@ -16,6 +16,10 @@ on:
         description: "Fetch but don't commit (true/false)"
         required: false
         default: "false"
+      repair:
+        description: "Clear existing data before re-fetching, fixes null civ/won (true/false)"
+        required: false
+        default: "false"
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -55,6 +59,9 @@ jobs:
           fi
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ github.event.inputs.repair }}" = "true" ]; then
+            ARGS="$ARGS --repair"
           fi
           python3 update_players.py $ARGS
       - name: Build aggregate
