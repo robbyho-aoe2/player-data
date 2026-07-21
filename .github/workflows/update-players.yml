@@ -4,8 +4,8 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch:
     inputs:
-      player_id:
-        description: "Single profileId to update (leave empty for all)"
+      player_ids:
+        description: "Comma-separated profileIds to update (leave empty for all)"
         required: false
         default: ""
       pages:
@@ -14,6 +14,10 @@ on:
         default: "5"
       dry_run:
         description: "Fetch but don't commit (true/false)"
+        required: false
+        default: "false"
+      migrate:
+        description: "Run one-time subfolder migration (true/false)"
         required: false
         default: "false"
 jobs:
@@ -40,15 +44,16 @@ jobs:
           matches = data["matches"] if isinstance(data, dict) else data
           m = matches[0]
           print("API reachable — match keys:", sorted(m.keys()))
-          print("Player keys:", sorted(m["players"][0].keys()) if m.get("players") else "no players")
-          print("First match:", json.dumps(m, indent=2)[:800])
           EOF
+      - name: Migrate to subfolders (one-time)
+        if: github.event.inputs.migrate == 'true'
+        run: python3 migrate_to_subfolders.py
       - name: Update player data
         id: update
         run: |
           ARGS=""
-          if [ -n "${{ github.event.inputs.player_id }}" ]; then
-            ARGS="$ARGS --player ${{ github.event.inputs.player_id }}"
+          if [ -n "${{ github.event.inputs.player_ids }}" ]; then
+            ARGS="$ARGS --players ${{ github.event.inputs.player_ids }}"
           fi
           if [ -n "${{ github.event.inputs.pages }}" ]; then
             ARGS="$ARGS --pages ${{ github.event.inputs.pages }}"
@@ -58,7 +63,7 @@ jobs:
           fi
           python3 update_players.py $ARGS
       - name: Commit and push if changed
-        if: steps.update.outputs.changed == 'true'
+        if: steps.update.outputs.changed == 'true' || github.event.inputs.migrate == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
