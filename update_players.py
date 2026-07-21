@@ -109,10 +109,6 @@ def coerce_date(ts):
 
 
 def find_our_player(match, profile_id):
-    """
-    API nests players inside teams[].players[].
-    Search all teams for our profileId.
-    """
     for team in match.get("teams", []):
         for player in team.get("players", []):
             if player.get("profileId") == profile_id:
@@ -135,7 +131,6 @@ def extract_match(raw, profile_id):
     won    = our_player.get("won")    if our_player else None
     rating = our_player.get("rating") if our_player else None
 
-    # Civ is on the player object
     civ_raw = None
     if our_player:
         civ_raw = (our_player.get("civName")
@@ -162,7 +157,7 @@ def extract_match(raw, profile_id):
 
 # ─── Per-player update ────────────────────────────────────────────────────────
 
-def update_player(player_def, data_dir, pages, dry_run):
+def update_player(player_def, data_dir, pages, dry_run, repair):
     name       = player_def["name"]
     profile_id = player_def["profileId"]
     group      = player_def.get("group", "console")
@@ -173,6 +168,11 @@ def update_player(player_def, data_dir, pages, dry_run):
     if out_path.exists():
         with open(out_path) as f:
             existing = json.load(f)
+        if repair:
+            for ladder in existing["ladders"]:
+                existing["ladders"][ladder]["matches"] = []
+                existing["ladders"][ladder]["meta"] = {}
+            print(f"  REPAIR — cleared existing match data")
     else:
         existing = {
             "name": name,
@@ -262,6 +262,7 @@ def main():
     parser.add_argument("--players", type=str, help="Comma-separated profileIds to run (default: all)")
     parser.add_argument("--pages", type=int, default=PAGES, help=f"Pages to fetch per player (default {PAGES})")
     parser.add_argument("--dry-run", action="store_true", help="Fetch but don't write files")
+    parser.add_argument("--repair", action="store_true", help="Clear existing match data before re-fetching (fixes null civ/won)")
     args = parser.parse_args()
 
     repo_root = Path(__file__).parent
@@ -284,14 +285,14 @@ def main():
             sys.exit(1)
 
     print(f"=== update_players.py — {date.today()} ===")
-    print(f"Players: {len(players)}, Pages: {args.pages}, Dry-run: {args.dry_run}")
+    print(f"Players: {len(players)}, Pages: {args.pages}, Dry-run: {args.dry_run}, Repair: {args.repair}")
 
     any_changed = False
     errors = []
 
     for i, player in enumerate(players):
         try:
-            changed = update_player(player, data_dir, args.pages, args.dry_run)
+            changed = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
             any_changed = any_changed or changed
         except Exception as e:
             msg = f"{player['name']} ({player['profileId']}): {type(e).__name__}: {e}"
