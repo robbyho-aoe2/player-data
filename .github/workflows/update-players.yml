@@ -36,14 +36,24 @@ jobs:
         id: api_test
         run: |
           python3 - <<'EOF'
-          import json, urllib.request, urllib.parse, sys
+          import json, urllib.request, urllib.parse
           url = "https://data.aoe2companion.com/api/matches?" + urllib.parse.urlencode({"profile_ids": 13648083, "page": 1})
           req = urllib.request.Request(url, headers={"User-Agent": "AoE2DataPipeline/1.0"})
           resp = urllib.request.urlopen(req, timeout=20)
           data = json.loads(resp.read().decode())
           matches = data["matches"] if isinstance(data, dict) else data
           m = matches[0]
-          print("API reachable — match keys:", sorted(m.keys()))
+          print("Match keys:", sorted(m.keys()))
+          teams = m.get("teams", [])
+          print("Teams count:", len(teams))
+          if teams:
+              print("First team keys:", sorted(teams[0].keys()))
+              players = teams[0].get("players", [])
+              print("Players in first team:", len(players))
+              if players:
+                  print("First player keys:", sorted(players[0].keys()))
+                  print("First player data:", json.dumps(players[0], indent=2)[:500])
+          print("Full first match:", json.dumps(m, indent=2)[:1000])
           EOF
       - name: Migrate to subfolders (safe to run multiple times)
         run: python3 migrate_to_subfolders.py
