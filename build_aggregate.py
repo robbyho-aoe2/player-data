@@ -206,11 +206,32 @@ def main():
     print("\nProcessing PC...")
     pc_agg = process_group(pc_files)
 
+   # Build per-player summary for roster display
+    player_summary = []
+    for path in console_files + pc_files:
+        with open(path) as f:
+            p = json.load(f)
+        ratings = {}
+        total_games = 0
+        for ladder_name, ladder_data in p.get("ladders", {}).items():
+            meta = ladder_data.get("meta", {})
+            if meta.get("latestRating"):
+                ratings[ladder_name] = meta["latestRating"]
+            total_games += meta.get("totalGames", 0)
+        player_summary.append({
+            "name":       p["name"],
+            "profileId":  p["profileId"],
+            "group":      p.get("group", "console"),
+            "ratings":    ratings,
+            "totalGames": total_games,
+        })
+
     aggregate = {
         "lastUpdated":  date.today().isoformat(),
         "playerCounts": {"console": len(console_files), "pc": len(pc_files)},
-        "console": console_agg,
-        "pc":      pc_agg,
+        "players":      player_summary,
+        "console":      console_agg,
+        "pc":           pc_agg,
     }
 
     total_console = sum(v["games"] for v in aggregate["console"]["civWinRates"].values())
