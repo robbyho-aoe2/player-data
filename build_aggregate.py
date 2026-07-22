@@ -137,8 +137,7 @@ def process_group(player_files):
         "byEloBracket": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
         "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
     }
-
-def build_player_summary(all_files):
+       def build_player_summary(all_files):
     summary = []
     for path in all_files:
         with open(path) as f:
@@ -150,7 +149,7 @@ def build_player_summary(all_files):
             if meta.get("latestRating"):
                 ratings[ladder_name] = meta["latestRating"]
             total_games += meta.get("totalGames", 0)
-summary.append({
+        summary.append({
             "name":       p.get("name", str(p.get("profileId", "unknown"))),
             "profileId":  p["profileId"],
             "group":      p.get("group", "console"),
@@ -158,6 +157,7 @@ summary.append({
             "totalGames": total_games,
         })
     return summary
+
 
 def main():
     parser = argparse.ArgumentParser()
