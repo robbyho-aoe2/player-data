@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 """
 build_aggregate.py — Builds data/aggregate.json from all per-player files.
-
-Run after update_players.py in the GitHub Actions workflow. Reads
-data/console/*.json and data/pc/*.json, computes pooled win rates by
-civ, map, ELO bracket, and game phase, then writes data/aggregate.json.
-
-Usage:
-  python3 build_aggregate.py
-  python3 build_aggregate.py --dry-run   # print summary without writing
 """
 
 import argparse
@@ -17,8 +9,7 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
-# ─── ELO bracket thresholds (console 1v1) ─────────────────────────────────────
-# Matches the bracket pills in the civ-lookup tool
+# ─── ELO bracket thresholds ───────────────────────────────────────────────────
 ELO_BRACKETS = [
     ("high",   1700, 99999),
     ("himid",  1300, 1699),
@@ -33,9 +24,42 @@ PHASE_THRESHOLDS = [
     ("late",   2400, 99999),   # 40+ min
 ]
 
-# ─── Ladders that belong to each group ────────────────────────────────────────
-CONSOLE_LADDERS = {"1v1 Console", "Team Console"}
-PC_LADDERS      = {"1v1 PC", "Team PC"}
+# ─── Maps the tool actually surfaces ──────────────────────────────────────────
+# Keep only these in byMap; everything else goes into "Other"
+KNOWN_MAPS = {
+    "Arabia", "Arena", "Nomad", "Black Forest", "Islands", "Hideout",
+    "Mega Random", "MegaRandom", "Four Lakes", "Gold Rush", "Migration",
+    "Baltic", "Continental", "Fortress", "Ghost Lake", "Hill Fort",
+    "Lombardia", "Mediterranean", "Mongolia", "Serengeti", "Steppe",
+    "Valley", "Wolf Hill", "Alpine Lakes", "Amazon Tunnel", "Archipelago",
+    "Budapest", "Cenotes", "City of Lakes", "Coastal", "Coastal Forest",
+    "Cross", "Eruption", "Frigid Lake", "Golden Pit", "Haunted Wasteland",
+    "Kawasan", "Kilimanjaro", "Land Nomad", "Mountain Pass", "Nile Delta",
+    "Oasis", "Pacific Islands", "Ravines", "Rivers", "Sacred Springs",
+    "Scandinavia", "Shoals", "Team Islands", "Yucatan",
+}
+
+# ─── Civ name normalization ───────────────────────────────────────────────────
+# Canonical names used by the tool
+CIV_NORM = {
+    "Mayans":    "Maya",
+    "Inca":      "Incas",
+    "Mongol":    "Mongols",
+    "Chinese":   "Chinese",   # placeholder — remove if not needed
+}
+
+# ─── Known official civs (53) ─────────────────────────────────────────────────
+OFFICIAL_CIVS = {
+    "Armenians", "Aztecs", "Bengalis", "Berbers", "Bohemians", "Britons",
+    "Bulgarians", "Burgundians", "Burmese", "Byzantines", "Celts", "Chinese",
+    "Cumans", "Dravidians", "Ethiopians", "Franks", "Georgians", "Goths",
+    "Gurjaras", "Hindustanis", "Huns", "Incas", "Italians", "Japanese",
+    "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians",
+    "Mangudai", "Maya", "Mayans", "Mongols", "Persians", "Poles", "Portuguese",
+    "Romans", "Saracens", "Sicilians", "Slavs", "Spanish", "Tatars", "Teutons",
+    "Turks", "Vietnamese", "Vikings", "Cumans", "Dravidians", "Gurjaras",
+    "Hindustanis", "Bengalis", "Bohemians",
+}
 
 
 def get_bracket(rating):
@@ -56,6 +80,12 @@ def get_phase(dur):
     return None
 
 
+def normalize_civ(civ):
+    if civ is None:
+        return None
+    return CIV_NORM.get(civ, civ)
+
+
 def empty_civ_map():
     return defaultdict(lambda: {"games": 0, "wins": 0})
 
@@ -66,19 +96,31 @@ def add_win(d, key, won):
         d[key]["wins"] += 1
 
 
+def add_pick_rates(civ_dict):
+    """Add pickRate to each civ entry based on total games in this bucket."""
+    total = sum(v["games"] for v in civ_dict.values())
+    if total == 0:
+        return civ_dict
+    return {
+        civ: {
+            **v,
+            "pickRate": round(v["games"] / total, 4)
+        }
+        for civ, v in civ_dict.items()
+    }
+
+
 def process_group(player_files):
-    """
-    Aggregate all matches from a list of player JSON files.
-    Returns a dict with civWinRates, byMap, byLadder, byEloBracket, byPhase.
-    """
     civ_overall  = empty_civ_map()
-    by_map       = defaultdict(empty_civ_map)   # map → civ → {games, wins}
-    by_ladder    = defaultdict(empty_civ_map)   # ladder → civ → {games, wins}
-    by_bracket   = defaultdict(empty_civ_map)   # bracket → civ → {games, wins}
-    by_phase     = defaultdict(empty_civ_map)   # phase → civ → {games, wins}
+    by_map       = defaultdict(empty_civ_map)
+    by_ladder    = defaultdict(empty_civ_map)
+    by_bracket   = defaultdict(empty_civ_map)
+    by_phase     = defaultdict(empty_civ_map)
 
     total_matches = 0
     total_players = 0
+    unknown_civs  = defaultdict(int)
+    unknown_maps  = defaultdict(int)
 
     for path in player_files:
         with open(path) as f:
@@ -87,12 +129,11 @@ def process_group(player_files):
         total_players += 1
 
         for ladder_name, ladder_data in player.get("ladders", {}).items():
-            # Use latestRating as a proxy for the player's bracket
             rating  = ladder_data.get("meta", {}).get("latestRating")
             bracket = get_bracket(rating)
 
             for match in ladder_data.get("matches", []):
-                civ  = match.get("civ")
+                civ  = normalize_civ(match.get("civ"))
                 map_ = match.get("map")
                 won  = match.get("won")
                 dur  = match.get("dur")
@@ -103,10 +144,18 @@ def process_group(player_files):
                 total_matches += 1
                 phase = get_phase(dur)
 
+                # Track unknown civs for debugging
+                if civ not in OFFICIAL_CIVS:
+                    unknown_civs[civ] += 1
+
                 add_win(civ_overall, civ, won)
 
                 if map_:
-                    add_win(by_map[map_], civ, won)
+                    # Normalize map name
+                    display_map = map_ if map_ in KNOWN_MAPS else "Other"
+                    add_win(by_map[display_map], civ, won)
+                    if map_ not in KNOWN_MAPS:
+                        unknown_maps[map_] += 1
 
                 add_win(by_ladder[ladder_name], civ, won)
 
@@ -117,19 +166,28 @@ def process_group(player_files):
                     add_win(by_phase[phase], civ, won)
 
     print(f"  players={total_players}, matches={total_matches}")
+    print(f"  civs tracked: {len(civ_overall)}")
+
+    if unknown_civs:
+        print(f"  UNKNOWN CIVS (not in official list):")
+        for civ, count in sorted(unknown_civs.items(), key=lambda x: -x[1]):
+            print(f"    {civ!r}: {count} games")
+
+    print(f"  maps tracked: {len(by_map)}")
+    print(f"  All civ names found: {sorted(civ_overall.keys())}")
 
     return {
-        "civWinRates":  dict(civ_overall),
-        "byMap":        {m: dict(v) for m, v in by_map.items()},
-        "byLadder":     {l: dict(v) for l, v in by_ladder.items()},
-        "byEloBracket": {b: dict(v) for b, v in by_bracket.items()},
-        "byPhase":      {p: dict(v) for p, v in by_phase.items()},
+        "civWinRates":  add_pick_rates(dict(civ_overall)),
+        "byMap":        {m: add_pick_rates(dict(v)) for m, v in by_map.items()},
+        "byLadder":     {l: add_pick_rates(dict(v)) for l, v in by_ladder.items()},
+        "byEloBracket": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
+        "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
     }
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dry-run", action="store_true", help="Print summary without writing")
+    parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     repo_root = Path(__file__).parent
@@ -144,7 +202,7 @@ def main():
     print("\nProcessing console...")
     console_agg = process_group(console_files)
 
-    print("Processing PC...")
+    print("\nProcessing PC...")
     pc_agg = process_group(pc_files)
 
     aggregate = {
@@ -154,13 +212,10 @@ def main():
         "pc":      pc_agg,
     }
 
-    # Summary
     total_console = sum(v["games"] for v in aggregate["console"]["civWinRates"].values())
     total_pc      = sum(v["games"] for v in aggregate["pc"]["civWinRates"].values())
-    print(f"\nConsole total games in aggregate: {total_console:,}")
-    print(f"PC total games in aggregate:      {total_pc:,}")
-    print(f"Console civs tracked: {len(aggregate['console']['civWinRates'])}")
-    print(f"Console maps tracked: {len(aggregate['console']['byMap'])}")
+    print(f"\nConsole total games: {total_console:,}")
+    print(f"PC total games:      {total_pc:,}")
 
     if args.dry_run:
         print("\nDRY RUN — not writing aggregate.json")
