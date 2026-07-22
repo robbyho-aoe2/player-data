@@ -150,8 +150,8 @@ def build_player_summary(all_files):
             if meta.get("latestRating"):
                 ratings[ladder_name] = meta["latestRating"]
             total_games += meta.get("totalGames", 0)
-        summary.append({
-            "name":       p["name"],
+summary.append({
+            "name":       p.get("name", str(p.get("profileId", "unknown"))),
             "profileId":  p["profileId"],
             "group":      p.get("group", "console"),
             "ratings":    ratings,
