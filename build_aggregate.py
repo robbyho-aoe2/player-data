@@ -16,18 +16,6 @@ PHASE_THRESHOLDS = [
     ("mid",    1200,  2400),
     ("late",   2400, 99999),
 ]
-KNOWN_MAPS = {
-    "Arabia","Arena","Nomad","Black Forest","Islands","Hideout",
-    "Mega Random","MegaRandom","Four Lakes","Gold Rush","Migration",
-    "Baltic","Continental","Fortress","Ghost Lake","Hill Fort",
-    "Lombardia","Mediterranean","Mongolia","Serengeti","Steppe",
-    "Valley","Wolf Hill","Alpine Lakes","Amazon Tunnel","Archipelago",
-    "Budapest","Cenotes","City of Lakes","Coastal","Coastal Forest",
-    "Cross","Eruption","Frigid Lake","Golden Pit","Haunted Wasteland",
-    "Kawasan","Kilimanjaro","Land Nomad","Mountain Pass","Nile Delta",
-    "Oasis","Pacific Islands","Ravines","Rivers","Sacred Springs",
-    "Scandinavia","Shoals","Team Islands","Yucatan",
-}
 CIV_NORM = {
     "Mayans":  "Maya",
     "Inca":    "Incas",
@@ -113,8 +101,7 @@ def process_group(player_files):
                     unknown_civs[civ] += 1
                 add_win(civ_overall, civ, won)
                 if map_:
-                    display_map = map_ if map_ in KNOWN_MAPS else "Other"
-                    add_win(by_map[display_map], civ, won)
+                    add_win(by_map[map_], civ, won)
                 add_win(by_ladder[ladder_name], civ, won)
                 if bracket:
                     add_win(by_bracket[bracket], civ, won)
