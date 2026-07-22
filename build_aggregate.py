@@ -42,11 +42,12 @@ KNOWN_MAPS = {
 # ─── Civ name normalization ───────────────────────────────────────────────────
 # Canonical names used by the tool
 CIV_NORM = {
-    "Mayans":    "Maya",
-    "Inca":      "Incas",
-    "Mongol":    "Mongols",
-    "Chinese":   "Chinese",   # placeholder — remove if not needed
+    "Mayans":  "Maya",
+    "Inca":    "Incas",
+    "Indians": "Hindustanis",
 }
+
+CIV_SKIP = {"[civ.unknown]"}
 
 # ─── Known official civs (53) ─────────────────────────────────────────────────
 OFFICIAL_CIVS = {
@@ -138,7 +139,7 @@ def process_group(player_files):
                 won  = match.get("won")
                 dur  = match.get("dur")
 
-                if civ is None or won is None:
+                if civ is None or won is None or civ in CIV_SKIP:
                     continue
 
                 total_matches += 1
