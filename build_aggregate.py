@@ -34,6 +34,9 @@ OFFICIAL_CIVS = {
     "Khitans","Shu","Wu","Jurchens","Wei","Tupi","Muisca","Mapuche",
 }
 
+# All known groups — aggregate will have a section for each
+ALL_GROUPS = ["console", "pro", "pc", "streamer"]
+
 def get_bracket(rating):
     if rating is None:
         return None
@@ -81,13 +84,22 @@ def process_group(player_files):
     total_matches = 0
     total_players = 0
     unknown_civs  = defaultdict(int)
+
     for path in player_files:
         with open(path) as f:
             player = json.load(f)
         total_players += 1
+
+        # Use best available console rating for bracket classification
+        console_rating = (
+            player.get("ladders", {}).get("1v1 Console", {}).get("meta", {}).get("latestRating")
+            or player.get("ladders", {}).get("Team Console", {}).get("meta", {}).get("latestRating")
+            or player.get("ladders", {}).get("1v1 PC", {}).get("meta", {}).get("latestRating")
+            or player.get("ladders", {}).get("Team PC", {}).get("meta", {}).get("latestRating")
+        )
+        bracket = get_bracket(console_rating)
+
         for ladder_name, ladder_data in player.get("ladders", {}).items():
-            rating  = ladder_data.get("meta", {}).get("latestRating")
-            bracket = get_bracket(rating)
             for match in ladder_data.get("matches", []):
                 civ  = normalize_civ(match.get("civ"))
                 map_ = match.get("map")
@@ -107,6 +119,7 @@ def process_group(player_files):
                     add_win(by_bracket[bracket], civ, won)
                 if phase:
                     add_win(by_phase[phase], civ, won)
+
     print(f"  players={total_players}, matches={total_matches}")
     print(f"  civs tracked: {len(civ_overall)}")
     if unknown_civs:
@@ -114,6 +127,7 @@ def process_group(player_files):
         for civ, count in sorted(unknown_civs.items(), key=lambda x: -x[1]):
             print(f"    {civ!r}: {count} games")
     print(f"  maps tracked: {len(by_map)}")
+
     return {
         "civWinRates":  add_pick_rates(dict(civ_overall)),
         "byMap":        {m: add_pick_rates(dict(v)) for m, v in by_map.items()},
@@ -150,36 +164,89 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
+
     repo_root = Path(__file__).parent
     data_dir  = repo_root / "data"
-    console_files = sorted((data_dir / "console").glob("*.json")) if (data_dir / "console").exists() else []
-    pc_files      = sorted((data_dir / "pc").glob("*.json"))      if (data_dir / "pc").exists()      else []
+
+    # Load players.json to get group assignments
+    players_path = repo_root / "players.json"
+    with open(players_path) as f:
+        players_list = json.load(f)
+    group_map = {str(p["profileId"]): p.get("group", "console") for p in players_list}
+
+    # Collect all player files and sort by group
+    group_files = {g: [] for g in ALL_GROUPS}
+    all_files = []
+    for subdir in ["console", "pro", "pc", "streamer"]:
+        subpath = data_dir / subdir
+        if subpath.exists():
+            for f in sorted(subpath.glob("*.json")):
+                all_files.append(f)
+
+    # Also check flat data/ for any ungrouped files
+    for f in sorted(data_dir.glob("*.json")):
+        if f.name != "aggregate.json":
+            all_files.append(f)
+
+    # Assign each file to a group based on players.json
+    for path in all_files:
+        profile_id = path.stem
+        group = group_map.get(profile_id, "console")
+        if group in group_files:
+            group_files[group].append(path)
+
     print(f"=== build_aggregate.py === {date.today()} ===")
-    print(f"Console players: {len(console_files)}, PC players: {len(pc_files)}")
-    print("\nProcessing console...")
-    console_agg = process_group(console_files)
-    print("\nProcessing PC...")
-    pc_agg = process_group(pc_files)
+    for g in ALL_GROUPS:
+        print(f"  {g}: {len(group_files[g])} players")
+
+    # Process each group
+    group_aggs = {}
+    for g in ALL_GROUPS:
+        print(f"\nProcessing {g}...")
+        if group_files[g]:
+            group_aggs[g] = process_group(group_files[g])
+        else:
+            print(f"  no players — skipping")
+            group_aggs[g] = {
+                "civWinRates": {}, "byMap": {}, "byLadder": {},
+                "byEloBracket": {}, "byPhase": {}
+            }
+
+    # Build player summary
     print("\nBuilding player summary...")
-    player_summary = build_player_summary(console_files + pc_files)
+    player_summary = build_player_summary(
+        group_files["console"] + group_files["pro"] +
+        group_files["pc"] + group_files["streamer"]
+    )
     print(f"  players in summary: {len(player_summary)}")
+
+    # Count players per group
+    player_counts = {g: len(group_files[g]) for g in ALL_GROUPS}
+
     aggregate = {
-        "lastUpdated":  date.today().isoformat(),
-        "playerCounts": {"console": len(console_files), "pc": len(pc_files)},
-        "players":      player_summary,
-        "console":      console_agg,
-        "pc":           pc_agg,
+        "lastUpdated":    date.today().isoformat(),
+        "playerCounts":   player_counts,
+        "players":        player_summary,
+        "console":        group_aggs["console"],
+        "pro":            group_aggs["pro"],
+        "pc":             group_aggs["pc"],
+        "streamer":       group_aggs["streamer"],
     }
-    total_console = sum(v["games"] for v in aggregate["console"]["civWinRates"].values())
-    total_pc      = sum(v["games"] for v in aggregate["pc"]["civWinRates"].values())
-    print(f"\nConsole total games: {total_console:,}")
-    print(f"PC total games:      {total_pc:,}")
+
+    for g in ALL_GROUPS:
+        total = sum(v["games"] for v in aggregate[g]["civWinRates"].values())
+        if total:
+            wins = sum(v["wins"] for v in aggregate[g]["civWinRates"].values())
+            print(f"\n{g}: {total:,} games, {wins/total*100:.1f}% overall win rate")
+
     if args.dry_run:
         print("\nDRY RUN - not writing aggregate.json")
         return
+
     out_path = data_dir / "aggregate.json"
     with open(out_path, "w") as f:
         json.dump(aggregate, f, indent=2)
+
     size_kb = out_path.stat().st_size / 1024
     print(f"\nWrote {out_path} ({size_kb:.1f} KB)")
 
