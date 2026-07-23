@@ -34,7 +34,6 @@ OFFICIAL_CIVS = {
     "Khitans","Shu","Wu","Jurchens","Wei","Tupi","Muisca","Mapuche",
 }
 
-# All known groups — aggregate will have a section for each
 ALL_GROUPS = ["console", "pro", "pc", "streamer"]
 
 def get_bracket(rating):
@@ -81,6 +80,7 @@ def process_group(player_files):
     by_ladder   = defaultdict(empty_civ_map)
     by_bracket  = defaultdict(empty_civ_map)
     by_phase    = defaultdict(empty_civ_map)
+    by_patch    = defaultdict(empty_civ_map)
     total_matches = 0
     total_players = 0
     unknown_civs  = defaultdict(int)
@@ -90,7 +90,6 @@ def process_group(player_files):
             player = json.load(f)
         total_players += 1
 
-        # Use best available console rating for bracket classification
         console_rating = (
             player.get("ladders", {}).get("1v1 Console", {}).get("meta", {}).get("latestRating")
             or player.get("ladders", {}).get("Team Console", {}).get("meta", {}).get("latestRating")
@@ -101,24 +100,36 @@ def process_group(player_files):
 
         for ladder_name, ladder_data in player.get("ladders", {}).items():
             for match in ladder_data.get("matches", []):
-                civ  = normalize_civ(match.get("civ"))
-                map_ = match.get("map")
-                won  = match.get("won")
-                dur  = match.get("dur")
+                civ   = normalize_civ(match.get("civ"))
+                map_  = match.get("map")
+                won   = match.get("won")
+                dur   = match.get("dur")
+                patch = match.get("patch")
+
                 if civ is None or won is None or civ in CIV_SKIP:
                     continue
+
                 total_matches += 1
                 phase = get_phase(dur)
+
                 if civ not in OFFICIAL_CIVS:
                     unknown_civs[civ] += 1
+
                 add_win(civ_overall, civ, won)
+
                 if map_:
                     add_win(by_map[map_], civ, won)
+
                 add_win(by_ladder[ladder_name], civ, won)
+
                 if bracket:
                     add_win(by_bracket[bracket], civ, won)
+
                 if phase:
                     add_win(by_phase[phase], civ, won)
+
+                if patch is not None:
+                    add_win(by_patch[str(patch)], civ, won)
 
     print(f"  players={total_players}, matches={total_matches}")
     print(f"  civs tracked: {len(civ_overall)}")
@@ -127,6 +138,7 @@ def process_group(player_files):
         for civ, count in sorted(unknown_civs.items(), key=lambda x: -x[1]):
             print(f"    {civ!r}: {count} games")
     print(f"  maps tracked: {len(by_map)}")
+    print(f"  patches tracked: {len(by_patch)}")
 
     return {
         "civWinRates":  add_pick_rates(dict(civ_overall)),
@@ -134,6 +146,7 @@ def process_group(player_files):
         "byLadder":     {l: add_pick_rates(dict(v)) for l, v in by_ladder.items()},
         "byEloBracket": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
         "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
+        "byPatch":      {p: add_pick_rates(dict(v)) for p, v in by_patch.items()},
     }
 
 def build_player_summary(all_files):
@@ -168,27 +181,19 @@ def main():
     repo_root = Path(__file__).parent
     data_dir  = repo_root / "data"
 
-    # Load players.json to get group assignments
     players_path = repo_root / "players.json"
     with open(players_path) as f:
         players_list = json.load(f)
     group_map = {str(p["profileId"]): p.get("group", "console") for p in players_list}
 
-    # Collect all player files and sort by group
     group_files = {g: [] for g in ALL_GROUPS}
     all_files = []
-    for subdir in ["console", "pro", "pc", "streamer"]:
+    for subdir in ALL_GROUPS:
         subpath = data_dir / subdir
         if subpath.exists():
             for f in sorted(subpath.glob("*.json")):
                 all_files.append(f)
 
-    # Also check flat data/ for any ungrouped files
-    for f in sorted(data_dir.glob("*.json")):
-        if f.name != "aggregate.json":
-            all_files.append(f)
-
-    # Assign each file to a group based on players.json
     for path in all_files:
         profile_id = path.stem
         group = group_map.get(profile_id, "console")
@@ -199,7 +204,6 @@ def main():
     for g in ALL_GROUPS:
         print(f"  {g}: {len(group_files[g])} players")
 
-    # Process each group
     group_aggs = {}
     for g in ALL_GROUPS:
         print(f"\nProcessing {g}...")
@@ -209,10 +213,9 @@ def main():
             print(f"  no players — skipping")
             group_aggs[g] = {
                 "civWinRates": {}, "byMap": {}, "byLadder": {},
-                "byEloBracket": {}, "byPhase": {}
+                "byEloBracket": {}, "byPhase": {}, "byPatch": {}
             }
 
-    # Build player summary
     print("\nBuilding player summary...")
     player_summary = build_player_summary(
         group_files["console"] + group_files["pro"] +
@@ -220,17 +223,23 @@ def main():
     )
     print(f"  players in summary: {len(player_summary)}")
 
-    # Count players per group
     player_counts = {g: len(group_files[g]) for g in ALL_GROUPS}
 
+    # Determine current patch — highest patch number seen across all groups
+    all_patches = set()
+    for g in ALL_GROUPS:
+        all_patches.update(group_aggs[g]["byPatch"].keys())
+    current_patch = max(all_patches, key=lambda x: int(x)) if all_patches else None
+
     aggregate = {
-        "lastUpdated":    date.today().isoformat(),
-        "playerCounts":   player_counts,
-        "players":        player_summary,
-        "console":        group_aggs["console"],
-        "pro":            group_aggs["pro"],
-        "pc":             group_aggs["pc"],
-        "streamer":       group_aggs["streamer"],
+        "lastUpdated":  date.today().isoformat(),
+        "currentPatch": current_patch,
+        "playerCounts": player_counts,
+        "players":      player_summary,
+        "console":      group_aggs["console"],
+        "pro":          group_aggs["pro"],
+        "pc":           group_aggs["pc"],
+        "streamer":     group_aggs["streamer"],
     }
 
     for g in ALL_GROUPS:
@@ -238,6 +247,8 @@ def main():
         if total:
             wins = sum(v["wins"] for v in aggregate[g]["civWinRates"].values())
             print(f"\n{g}: {total:,} games, {wins/total*100:.1f}% overall win rate")
+
+    print(f"\ncurrentPatch: {current_patch}")
 
     if args.dry_run:
         print("\nDRY RUN - not writing aggregate.json")
