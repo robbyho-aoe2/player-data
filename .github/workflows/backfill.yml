@@ -1,0 +1,97 @@
+name: Backfill New Players
+on:
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: "Pages to fetch per player (default 1000)"
+        required: false
+        default: "1000"
+      dry_run:
+        description: "Fetch but don't commit (true/false)"
+        required: false
+        default: "false"
+  workflow_run:
+    workflows: ["Update Player Data"]
+    types:
+      - completed
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    # On workflow_run: only proceed if the update succeeded and the queue has players.
+    # On workflow_dispatch: always proceed (queue check happens inside).
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Read backfill queue
+        id: read_queue
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from pathlib import Path
+
+          queue_path = Path("data/backfill_queue.json")
+          if not queue_path.exists():
+              print("No backfill_queue.json found — nothing to do.")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                  f.write("has_queue=false\n")
+          else:
+              ids = json.loads(queue_path.read_text())
+              if not ids:
+                  print("Queue is empty — nothing to do.")
+                  with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                      f.write("has_queue=false\n")
+              else:
+                  id_str = ",".join(str(i) for i in ids)
+                  print(f"Queue has {len(ids)} players: {id_str}")
+                  with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                      f.write(f"has_queue=true\n")
+                      f.write(f"queue_ids={id_str}\n")
+                      f.write(f"queue_count={len(ids)}\n")
+          EOF
+
+      - name: Backfill player data
+        if: steps.read_queue.outputs.has_queue == 'true'
+        run: |
+          ARGS="--players ${{ steps.read_queue.outputs.queue_ids }} --pages ${{ github.event.inputs.pages || '1000' }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          echo "Running: python3 update_players.py $ARGS"
+          python3 update_players.py $ARGS
+
+      - name: Clear backfill queue
+        # Only clears on success — if backfill timed out or errored, queue stays
+        # intact so the next manual trigger picks up where we left off.
+        if: steps.read_queue.outputs.has_queue == 'true' && success() && github.event.inputs.dry_run != 'true'
+        run: |
+          echo "[]" > data/backfill_queue.json
+          echo "Backfill queue cleared."
+
+      - name: Build aggregate
+        if: steps.read_queue.outputs.has_queue == 'true' && github.event.inputs.dry_run != 'true'
+        run: python3 build_aggregate.py
+
+      - name: Commit and push if changed
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ players.json
+          git diff --staged --quiet || git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} new players $(date -u '+%Y-%m-%d')"
+          git push || echo "Nothing to push"
