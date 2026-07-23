@@ -342,6 +342,11 @@ def main() -> None:
     if remaining:
         print(f"Unchecked (cap reached): {remaining}")
 
+    if added:
+        backfill_ids = ",".join(str(p["profileId"]) for p in added)
+        print(f"\nBackfill IDs (paste into workflow_dispatch player_ids):")
+        print(f"  {backfill_ids}")
+
     if args.dry_run:
         print("\n[dry-run] Would add:")
         for p in added:
