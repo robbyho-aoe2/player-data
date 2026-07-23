@@ -2,7 +2,7 @@
 import argparse
 import json
 from collections import defaultdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 ELO_BRACKETS = [
@@ -57,6 +57,14 @@ def normalize_civ(civ):
         return None
     return CIV_NORM.get(civ, civ)
 
+def week_start(date_str):
+    """Return YYYY-MM-DD of the Monday on or before date_str."""
+    try:
+        d = date.fromisoformat(date_str)
+        return (d - timedelta(days=d.weekday())).isoformat()
+    except (ValueError, TypeError):
+        return None
+
 def empty_civ_map():
     return defaultdict(lambda: {"games": 0, "wins": 0})
 
@@ -74,6 +82,60 @@ def add_pick_rates(civ_dict):
         for civ, v in civ_dict.items()
     }
 
+def collect_files(data_dir, group_map, cleanup=False):
+    """
+    Scan data subfolders and build group_files dict.
+    Uses players.json group_map as the single source of truth:
+      - Files in the wrong subfolder are stale (player was reassigned) — skipped
+      - Duplicate profileIds are skipped (only first canonical location kept)
+      - aggregate.json nested files are skipped
+    Returns (group_files, stale_files).
+    If cleanup=True, stale files are deleted from disk.
+    """
+    group_files  = {g: [] for g in ALL_GROUPS}
+    seen_ids     = set()
+    stale_files  = []
+
+    for subdir in ALL_GROUPS:
+        subpath = data_dir / subdir
+        if not subpath.exists():
+            continue
+        for f in sorted(subpath.glob("*.json")):
+            if f.name == "aggregate.json":
+                continue
+            profile_id    = f.stem
+            correct_group = group_map.get(profile_id)
+
+            if correct_group is None:
+                # File exists but player is not in players.json
+                print(f"  [unknown]  {f.name} — not in players.json, skipping")
+                continue
+
+            if correct_group != subdir:
+                # File is in the wrong folder — stale after a group reassignment
+                print(f"  [stale]    {f.name} — belongs in {correct_group}/, found in {subdir}/")
+                stale_files.append(f)
+                continue
+
+            if profile_id in seen_ids:
+                # Duplicate — shouldn't happen but guard anyway
+                print(f"  [dup]      {profile_id} already collected, skipping {f}")
+                continue
+
+            seen_ids.add(profile_id)
+            group_files[subdir].append(f)
+
+    if stale_files:
+        print(f"\n  {len(stale_files)} stale file(s) in wrong group folders.")
+        if cleanup:
+            for f in stale_files:
+                f.unlink()
+                print(f"  Deleted {f}")
+        else:
+            print("  Run with --cleanup to delete them automatically.")
+
+    return group_files, stale_files
+
 def process_group(player_files):
     civ_overall = empty_civ_map()
     by_map      = defaultdict(empty_civ_map)
@@ -81,6 +143,7 @@ def process_group(player_files):
     by_bracket  = defaultdict(empty_civ_map)
     by_phase    = defaultdict(empty_civ_map)
     by_patch    = defaultdict(empty_civ_map)
+    by_week     = defaultdict(empty_civ_map)
     total_matches = 0
     total_players = 0
     unknown_civs  = defaultdict(int)
@@ -105,6 +168,7 @@ def process_group(player_files):
                 won   = match.get("won")
                 dur   = match.get("dur")
                 patch = match.get("patch")
+                week  = week_start(match.get("date"))
 
                 if civ is None or won is None or civ in CIV_SKIP:
                     continue
@@ -131,6 +195,9 @@ def process_group(player_files):
                 if patch is not None:
                     add_win(by_patch[str(patch)], civ, won)
 
+                if week is not None:
+                    add_win(by_week[week], civ, won)
+
     print(f"  players={total_players}, matches={total_matches}")
     print(f"  civs tracked: {len(civ_overall)}")
     if unknown_civs:
@@ -147,35 +214,56 @@ def process_group(player_files):
         "byEloBracket": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
         "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
         "byPatch":      {p: add_pick_rates(dict(v)) for p, v in by_patch.items()},
+        "byWeek":       {w: dict(v) for w, v in sorted(by_week.items(), reverse=True)},
     }
 
-def build_player_summary(all_files):
+def build_player_summary(players_list, group_files):
+    """
+    Build the players array from players.json as the single source of truth.
+    One entry per profileId, group from players.json (not from the file on disk).
+    Players with no match file yet (newly added) are included with zero stats.
+    """
+    # Build profileId -> file path lookup from the already-deduplicated group_files
+    file_lookup = {}
+    for files in group_files.values():
+        for path in files:
+            file_lookup[int(path.stem)] = path
+
     summary = []
-    for path in all_files:
-        with open(path) as f:
-            p = json.load(f)
-        if "profileId" not in p:
-            print(f"  WARNING: missing profileId in {path.name} — skipping")
-            continue
-        ratings = {}
+    for player in players_list:
+        pid  = player["profileId"]
+        path = file_lookup.get(pid)
+
+        ratings     = {}
         total_games = 0
-        for ladder_name, ladder_data in p.get("ladders", {}).items():
-            meta = ladder_data.get("meta", {})
-            if meta.get("latestRating"):
-                ratings[ladder_name] = meta["latestRating"]
-            total_games += meta.get("totalGames", 0)
+
+        if path is not None:
+            try:
+                with open(path) as f:
+                    p = json.load(f)
+                for ladder_name, ladder_data in p.get("ladders", {}).items():
+                    meta = ladder_data.get("meta", {})
+                    if meta.get("latestRating"):
+                        ratings[ladder_name] = meta["latestRating"]
+                    total_games += meta.get("totalGames", 0)
+            except Exception as e:
+                print(f"  WARNING: could not read {path}: {e}")
+
         summary.append({
-            "name":       p.get("name", str(p["profileId"])),
-            "profileId":  p["profileId"],
-            "group":      p.get("group", "console"),
+            "name":       player.get("name", str(pid)),
+            "profileId":  pid,
+            "group":      player["group"],   # authoritative — from players.json
             "ratings":    ratings,
             "totalGames": total_games,
         })
+
     return summary
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--cleanup", action="store_true",
+                        help="Delete stale player files found in wrong group folders")
     args = parser.parse_args()
 
     repo_root = Path(__file__).parent
@@ -186,21 +274,8 @@ def main():
         players_list = json.load(f)
     group_map = {str(p["profileId"]): p.get("group", "console") for p in players_list}
 
-    group_files = {g: [] for g in ALL_GROUPS}
-    all_files = []
-    for subdir in ALL_GROUPS:
-        subpath = data_dir / subdir
-        if subpath.exists():
-            for f in sorted(subpath.glob("*.json")):
-                if f.name == "aggregate.json":
-                    continue
-                all_files.append(f)
-
-    for path in all_files:
-        profile_id = path.stem
-        group = group_map.get(profile_id, "console")
-        if group in group_files:
-            group_files[group].append(path)
+    # Collect files — players.json is the source of truth for group assignment
+    group_files, stale_files = collect_files(data_dir, group_map, cleanup=args.cleanup)
 
     print(f"=== build_aggregate.py === {date.today()} ===")
     for g in ALL_GROUPS:
@@ -215,14 +290,11 @@ def main():
             print(f"  no players — skipping")
             group_aggs[g] = {
                 "civWinRates": {}, "byMap": {}, "byLadder": {},
-                "byEloBracket": {}, "byPhase": {}, "byPatch": {}
+                "byEloBracket": {}, "byPhase": {}, "byPatch": {}, "byWeek": {}
             }
 
     print("\nBuilding player summary...")
-    player_summary = build_player_summary(
-        group_files["console"] + group_files["pro"] +
-        group_files["pc"] + group_files["streamer"]
-    )
+    player_summary = build_player_summary(players_list, group_files)
     print(f"  players in summary: {len(player_summary)}")
 
     player_counts = {g: len(group_files[g]) for g in ALL_GROUPS}
