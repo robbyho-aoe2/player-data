@@ -30,7 +30,6 @@ import json
 import time
 import argparse
 import requests
-from pathlib import Path
 
 # ── Tunable constants ────────────────────────────────────────────────────────
 MIN_CONSOLE_GAMES  = 10   # Minimum console games (in probe window) to qualify
@@ -72,46 +71,57 @@ def save_players(players: list[dict], path: str) -> None:
 
 # ── Phase 1: Harvest ─────────────────────────────────────────────────────────
 
-def harvest_candidates(data_dir: str) -> dict[int, set[str]]:
+def harvest_candidates(players: list[dict], harvest_pages: int = 1) -> dict[int, set[str]]:
     """
-    Walk all player match files under data_dir/console/ and data_dir/pc/.
-    Collect every profileId seen in teams[*].players[*].
+    For each tracked player, fetch `harvest_pages` pages from the API and
+    collect every profileId seen in teams[*].players[*].
+
+    Local match files can't be used for this because update_players.py
+    normalises the API response and strips out opponent data before writing
+    to disk.  We therefore go back to the API for the harvest pass.
 
     Returns:
         { profileId: set_of_discovery_groups }
 
-    Discovery group is determined by the leaderboard the match was played on,
-    NOT by which subfolder the file lives in.  Console takes priority if a
-    player is discovered from both ladders.
+    Discovery group is determined by the leaderboard the match was played on.
     """
     candidates: dict[int, set[str]] = {}
-    root = Path(data_dir)
 
-    for subfolder in ("console", "pc"):
-        folder = root / subfolder
-        if not folder.exists():
-            continue
+    for i, player in enumerate(players, 1):
+        pid = player["profileId"]
+        print(f"  Harvesting {pid} ({player.get('name', '?')}) [{i}/{len(players)}]")
 
-        for filepath in sorted(folder.glob("*.json")):
+        for page in range(1, harvest_pages + 1):
             try:
-                player_data = json.loads(filepath.read_text())
+                resp = requests.get(
+                    API_BASE,
+                    params={"profileId": pid, "page": page, "perPage": 10},
+                    timeout=15,
+                )
+                resp.raise_for_status()
+                data = resp.json()
             except Exception as e:
-                print(f"  [warn] Could not read {filepath}: {e}")
-                continue
+                print(f"    [api error] id={pid} page={page}: {e}")
+                break
 
-            for match in player_data.get("matches", []):
+            matches = data.get("matches", [])
+            if not matches:
+                break
+
+            for match in matches:
                 mg = match_group(match)
                 if mg is None:
                     continue
-
                 for team in match.get("teams", []):
-                    for player in team.get("players", []):
-                        pid = player.get("profileId")
-                        if pid is None:
+                    for opponent in team.get("players", []):
+                        oid = opponent.get("profileId")
+                        if oid is None or oid == pid:
                             continue
-                        if pid not in candidates:
-                            candidates[pid] = set()
-                        candidates[pid].add(mg)
+                        if oid not in candidates:
+                            candidates[oid] = set()
+                        candidates[oid].add(mg)
+
+            time.sleep(RATE_LIMIT_DELAY)
 
     return candidates
 
@@ -213,10 +223,6 @@ def main() -> None:
         description="Spider for new AoE2 players from match history"
     )
     parser.add_argument(
-        "--data-dir", default="data",
-        help="Root data directory (default: data)",
-    )
-    parser.add_argument(
         "--players", default="players.json",
         help="Path to players.json (default: players.json)",
     )
@@ -241,6 +247,10 @@ def main() -> None:
         help=f"PC dominance ratio for override (default: {PC_DOMINANCE_RATIO})",
     )
     parser.add_argument(
+        "--harvest-pages", type=int, default=1,
+        help="API pages to fetch per tracked player during harvest (default: 1)",
+    )
+    parser.add_argument(
         "--console-only", action="store_true",
         help="Skip players classified as PC (console discovery only)",
     )
@@ -261,8 +271,8 @@ def main() -> None:
     print(f"Loaded {len(players)} tracked players from {args.players}")
 
     # ── Harvest ──────────────────────────────────────────────────────────────
-    print(f"\nHarvesting candidates from {args.data_dir}/ …")
-    all_candidates = harvest_candidates(args.data_dir)
+    print(f"\nHarvesting candidates via API ({args.harvest_pages} page(s) per player) …")
+    all_candidates = harvest_candidates(players, harvest_pages=args.harvest_pages)
     new_candidates = {
         pid: groups
         for pid, groups in all_candidates.items()
