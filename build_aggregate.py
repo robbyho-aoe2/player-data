@@ -2,7 +2,7 @@
 import argparse
 import json
 from collections import defaultdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 ELO_BRACKETS = [
@@ -52,6 +52,14 @@ def get_phase(dur):
             return name
     return None
 
+def week_start(date_str):
+    """Return YYYY-MM-DD of the Monday on or before date_str."""
+    try:
+        d = date.fromisoformat(date_str)
+        return (d - timedelta(days=d.weekday())).isoformat()
+    except (ValueError, TypeError):
+        return None
+
 def normalize_civ(civ):
     if civ is None:
         return None
@@ -81,6 +89,7 @@ def process_group(player_files):
     by_bracket  = defaultdict(empty_civ_map)
     by_phase    = defaultdict(empty_civ_map)
     by_patch    = defaultdict(empty_civ_map)
+    by_week     = defaultdict(empty_civ_map)
     total_matches = 0
     total_players = 0
     unknown_civs  = defaultdict(int)
@@ -105,6 +114,7 @@ def process_group(player_files):
                 won   = match.get("won")
                 dur   = match.get("dur")
                 patch = match.get("patch")
+                week  = week_start(match.get("date"))
 
                 if civ is None or won is None or civ in CIV_SKIP:
                     continue
@@ -131,6 +141,9 @@ def process_group(player_files):
                 if patch is not None:
                     add_win(by_patch[str(patch)], civ, won)
 
+                if week is not None:
+                    add_win(by_week[week], civ, won)
+
     print(f"  players={total_players}, matches={total_matches}")
     print(f"  civs tracked: {len(civ_overall)}")
     if unknown_civs:
@@ -147,6 +160,7 @@ def process_group(player_files):
         "byEloBracket": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
         "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
         "byPatch":      {p: add_pick_rates(dict(v)) for p, v in by_patch.items()},
+        "byWeek":       {w: dict(v) for w, v in sorted(by_week.items(), reverse=True)},
     }
 
 def build_player_summary(all_files):
@@ -213,7 +227,7 @@ def main():
             print(f"  no players — skipping")
             group_aggs[g] = {
                 "civWinRates": {}, "byMap": {}, "byLadder": {},
-                "byEloBracket": {}, "byPhase": {}, "byPatch": {}
+                "byEloBracket": {}, "byPhase": {}, "byPatch": {}, "byWeek": {}
             }
 
     print("\nBuilding player summary...")
