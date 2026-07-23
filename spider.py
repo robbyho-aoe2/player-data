@@ -31,6 +31,7 @@ import os
 import time
 import argparse
 import requests
+from pathlib import Path
 
 # ── Tunable constants ────────────────────────────────────────────────────────
 MIN_CONSOLE_GAMES  = 10   # Minimum console games (in probe window) to qualify
@@ -38,7 +39,7 @@ MIN_PC_GAMES       = 10   # Minimum PC games (in probe window) to qualify
 PC_DOMINANCE_RATIO = 8    # pc_games >= this × console_games → classify as PC
 MAX_NEW_PLAYERS    = 50   # Cap on new players added per spider run
 PROBE_PAGES        = 5    # Pages fetched per candidate (~50 matches)
-RATE_LIMIT_DELAY   = 0.3  # Seconds between API calls
+RATE_LIMIT_DELAY   = 1.0  # Seconds between API calls
 
 API_BASE = "https://data.aoe2companion.com/api/matches"
 HEADERS  = {"User-Agent": "AoE2DataPipeline/1.0"}
@@ -364,6 +365,13 @@ def main() -> None:
             players.extend(added)
             save_players(players, args.players)
             print(f"\nWrote {len(players)} total players to {args.players}")
+
+            # Append new IDs to the backfill queue
+            queue_path = Path("data") / "backfill_queue.json"
+            existing_queue = json.loads(queue_path.read_text()) if queue_path.exists() else []
+            existing_queue.extend(p["profileId"] for p in added)
+            queue_path.write_text(json.dumps(existing_queue, indent=2))
+            print(f"Queued {len(added)} players for backfill -> {queue_path}")
         else:
             print("\nNothing to write.")
 
