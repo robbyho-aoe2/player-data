@@ -27,6 +27,7 @@ Usage examples:
 """
 
 import json
+import os
 import time
 import argparse
 import requests
@@ -53,13 +54,13 @@ def api_get(profile_id: int, page: int) -> list[dict]:
         try:
             resp = requests.get(
                 API_BASE,
-                params={"profileId": profile_id, "page": page, "perPage": 10},
+                params={"profile_ids": profile_id, "page": page, "perPage": 10},
                 headers=HEADERS,
                 timeout=15,
             )
             if resp.status_code == 429:
-                wait = RATE_LIMIT_DELAY * (4 ** attempt)
-                print(f"    [429] rate limited — waiting {wait:.1f}s (attempt {attempt+1}/3)")
+                wait = [10, 30, 60][attempt]
+                print(f"    [429] rate limited — waiting {wait}s (attempt {attempt+1}/3)")
                 time.sleep(wait)
                 continue
             resp.raise_for_status()
@@ -346,6 +347,12 @@ def main() -> None:
         backfill_ids = ",".join(str(p["profileId"]) for p in added)
         print(f"\nBackfill IDs (paste into workflow_dispatch player_ids):")
         print(f"  {backfill_ids}")
+
+        # Write to GITHUB_OUTPUT so the backfill step can consume it
+        github_output = os.environ.get("GITHUB_OUTPUT")
+        if github_output:
+            with open(github_output, "a") as f:
+                f.write(f"new_ids={backfill_ids}\n")
 
     if args.dry_run:
         print("\n[dry-run] Would add:")
