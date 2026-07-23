@@ -40,8 +40,37 @@ PROBE_PAGES        = 5    # Pages fetched per candidate (~50 matches)
 RATE_LIMIT_DELAY   = 0.3  # Seconds between API calls
 
 API_BASE = "https://data.aoe2companion.com/api/matches"
+HEADERS  = {"User-Agent": "AoE2DataPipeline/1.0"}
 
 # Canonical ladder name → normalised group
+def api_get(profile_id: int, page: int) -> list[dict]:
+    """
+    Fetch one page of matches for profile_id.
+    Retries up to 3 times on 429 with exponential backoff.
+    Returns the matches list, or [] on unrecoverable error.
+    """
+    for attempt in range(3):
+        try:
+            resp = requests.get(
+                API_BASE,
+                params={"profileId": profile_id, "page": page, "perPage": 10},
+                headers=HEADERS,
+                timeout=15,
+            )
+            if resp.status_code == 429:
+                wait = RATE_LIMIT_DELAY * (4 ** attempt)
+                print(f"    [429] rate limited — waiting {wait:.1f}s (attempt {attempt+1}/3)")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json().get("matches", [])
+        except Exception as e:
+            print(f"    [api error] id={profile_id} page={page}: {e}")
+            return []
+    print(f"    [api error] id={profile_id} page={page}: gave up after 3 attempts")
+    return []
+
+
 LADDER_MAP = {
     "1v1 Random Map (Console)":    "console",
     "1v1 Random Map (Controller)": "console",
@@ -92,19 +121,7 @@ def harvest_candidates(players: list[dict], harvest_pages: int = 1) -> dict[int,
         print(f"  Harvesting {pid} ({player.get('name', '?')}) [{i}/{len(players)}]")
 
         for page in range(1, harvest_pages + 1):
-            try:
-                resp = requests.get(
-                    API_BASE,
-                    params={"profileId": pid, "page": page, "perPage": 10},
-                    timeout=15,
-                )
-                resp.raise_for_status()
-                data = resp.json()
-            except Exception as e:
-                print(f"    [api error] id={pid} page={page}: {e}")
-                break
-
-            matches = data.get("matches", [])
+            matches = api_get(pid, page)
             if not matches:
                 break
 
@@ -140,21 +157,9 @@ def probe_player(profile_id: int, pages: int) -> tuple[int, int, str | None]:
     name: str | None = None
 
     for page in range(1, pages + 1):
-        try:
-            resp = requests.get(
-                API_BASE,
-                params={"profileId": profile_id, "page": page, "perPage": 10},
-                timeout=15,
-            )
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception as e:
-            print(f"    [api error] id={profile_id} page={page}: {e}")
-            break
-
-        matches = data.get("matches", [])
+        matches = api_get(profile_id, page)
         if not matches:
-            break  # End of history
+            break
 
         for match in matches:
             mg = match_group(match)
