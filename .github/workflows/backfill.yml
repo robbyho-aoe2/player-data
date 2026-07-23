@@ -94,4 +94,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ players.json
           git diff --staged --quiet || git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} new players $(date -u '+%Y-%m-%d')"
-          git push || echo "Nothing to push"
+          git pull --rebase && git push || echo "Nothing to push"
