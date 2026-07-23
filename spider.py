@@ -207,6 +207,8 @@ def classify(
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
+    global MIN_CONSOLE_GAMES, MIN_PC_GAMES, PC_DOMINANCE_RATIO
+
     parser = argparse.ArgumentParser(
         description="Spider for new AoE2 players from match history"
     )
@@ -249,7 +251,6 @@ def main() -> None:
     args = parser.parse_args()
 
     # Override module-level constants with CLI args so classify() picks them up
-    global MIN_CONSOLE_GAMES, MIN_PC_GAMES, PC_DOMINANCE_RATIO
     MIN_CONSOLE_GAMES  = args.min_console
     MIN_PC_GAMES       = args.min_pc
     PC_DOMINANCE_RATIO = args.ratio
