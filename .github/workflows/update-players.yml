@@ -1,7 +1,7 @@
 name: Update Player Data
 on:
   schedule:
-    - cron: "0 6 * * 1"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
     inputs:
       player_ids:
