@@ -138,7 +138,11 @@ def collect_files(data_dir, group_map, cleanup=False):
 
 def process_group(player_files):
     civ_overall = empty_civ_map()
-    by_map      = defaultdict(empty_civ_map)
+    by_map      = defaultdict(lambda: {
+        "civWinRates":  empty_civ_map(),
+        "byEloBracket": defaultdict(empty_civ_map),
+        "byPatch":      defaultdict(empty_civ_map),
+    })
     by_ladder   = defaultdict(empty_civ_map)
     by_bracket  = defaultdict(empty_civ_map)
     by_phase    = defaultdict(empty_civ_map)
@@ -182,7 +186,11 @@ def process_group(player_files):
                 add_win(civ_overall, civ, won)
 
                 if map_:
-                    add_win(by_map[map_], civ, won)
+                    add_win(by_map[map_]["civWinRates"], civ, won)
+                    if bracket:
+                        add_win(by_map[map_]["byEloBracket"][bracket], civ, won)
+                    if patch is not None:
+                        add_win(by_map[map_]["byPatch"][str(patch)], civ, won)
 
                 add_win(by_ladder[ladder_name], civ, won)
 
@@ -209,7 +217,14 @@ def process_group(player_files):
 
     return {
         "civWinRates":  add_pick_rates(dict(civ_overall)),
-        "byMap":        {m: add_pick_rates(dict(v)) for m, v in by_map.items()},
+        "byMap":        {
+            m: {
+                "civWinRates":  add_pick_rates(dict(v["civWinRates"])),
+                "byEloBracket": {b: add_pick_rates(dict(bv)) for b, bv in v["byEloBracket"].items()},
+                "byPatch":      {p: add_pick_rates(dict(pv)) for p, pv in v["byPatch"].items()},
+            }
+            for m, v in by_map.items()
+        },
         "byLadder":     {l: add_pick_rates(dict(v)) for l, v in by_ladder.items()},
         "byEloBracket": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
         "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
