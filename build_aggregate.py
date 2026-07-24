@@ -142,9 +142,13 @@ def process_group(player_files):
         "civWinRates":  empty_civ_map(),
         "byEloBracket": defaultdict(empty_civ_map),
         "byPatch":      defaultdict(empty_civ_map),
+        "byWeek":       defaultdict(empty_civ_map),
     })
     by_ladder   = defaultdict(empty_civ_map)
-    by_bracket  = defaultdict(empty_civ_map)
+    by_bracket  = defaultdict(lambda: {
+        "civWinRates": empty_civ_map(),
+        "byWeek":      defaultdict(empty_civ_map),
+    })
     by_phase    = defaultdict(empty_civ_map)
     by_patch    = defaultdict(empty_civ_map)
     by_week     = defaultdict(empty_civ_map)
@@ -191,11 +195,15 @@ def process_group(player_files):
                         add_win(by_map[map_]["byEloBracket"][bracket], civ, won)
                     if patch is not None:
                         add_win(by_map[map_]["byPatch"][str(patch)], civ, won)
+                    if week is not None:
+                        add_win(by_map[map_]["byWeek"][week], civ, won)
 
                 add_win(by_ladder[ladder_name], civ, won)
 
                 if bracket:
-                    add_win(by_bracket[bracket], civ, won)
+                    add_win(by_bracket[bracket]["civWinRates"], civ, won)
+                    if week is not None:
+                        add_win(by_bracket[bracket]["byWeek"][week], civ, won)
 
                 if phase:
                     add_win(by_phase[phase], civ, won)
@@ -222,11 +230,18 @@ def process_group(player_files):
                 "civWinRates":  add_pick_rates(dict(v["civWinRates"])),
                 "byEloBracket": {b: add_pick_rates(dict(bv)) for b, bv in v["byEloBracket"].items()},
                 "byPatch":      {p: add_pick_rates(dict(pv)) for p, pv in v["byPatch"].items()},
+                "byWeek":       {w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)},
             }
             for m, v in by_map.items()
         },
         "byLadder":     {l: add_pick_rates(dict(v)) for l, v in by_ladder.items()},
-        "byEloBracket": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
+        "byEloBracket": {
+            b: {
+                "civWinRates": add_pick_rates(dict(v["civWinRates"])),
+                "byWeek":      {w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)},
+            }
+            for b, v in by_bracket.items()
+        },
         "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
         "byPatch":      {p: add_pick_rates(dict(v)) for p, v in by_patch.items()},
         "byWeek":       {w: dict(v) for w, v in sorted(by_week.items(), reverse=True)},
