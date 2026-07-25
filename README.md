@@ -4,6 +4,7 @@ Automated match history store for the [AoE2 Console Civ Lookup tool](https://rob
 
 Data is fetched weekly from the [AoE2Companion API](https://data.aoe2companion.com) via GitHub Actions and stored as JSON, one file per player. The civ-lookup tool fetches these files at runtime instead of bundling the data into `index.html`.
 
+
 ## Structure
 
 ```
