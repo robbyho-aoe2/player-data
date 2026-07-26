@@ -17,6 +17,7 @@ update_players.py     # pipeline script (run by CI, or locally)
   update-players.yml  # weekly cron + manual dispatch
 ```
 
+
 ## Per-player file schema
 
 ```json
