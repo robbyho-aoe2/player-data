@@ -107,6 +107,6 @@ jobs:
           github.event.inputs.dry_run != 'true' &&
           (github.event.inputs.loop == 'true' || github.event_name == 'workflow_run')
         run: |
-          gh workflow run update-players.yml             --ref main             --field spider=true             --field pages=5
+          gh workflow run update-players.yml             --ref main             --field spider=true             --field pages=2
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
