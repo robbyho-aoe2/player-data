@@ -11,23 +11,14 @@ on:
         required: false
         default: "false"
       loop:
-        description: "Re-trigger Update Player Data on completion (true/false)"
+        description: "Chain into Update Player Data on completion (true/false)"
         required: false
         default: "false"
-  workflow_run:
-    workflows: ["Update Player Data"]
-    types:
-      - completed
 
 jobs:
   backfill:
     runs-on: ubuntu-latest
     timeout-minutes: 340
-    # On workflow_run: only proceed if the update succeeded and the queue has players.
-    # On workflow_dispatch: always proceed (queue check happens inside).
-    if: >
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success'
     permissions:
       contents: write
       actions: write
@@ -81,8 +72,6 @@ jobs:
           python3 update_players.py $ARGS
 
       - name: Clear backfill queue
-        # Only clears on success — if backfill timed out or errored, queue stays
-        # intact so the next manual trigger picks up where we left off.
         if: steps.read_queue.outputs.has_queue == 'true' && success() && github.event.inputs.dry_run != 'true'
         run: |
           echo "[]" > data/backfill_queue.json
@@ -101,12 +90,13 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} new players $(date -u '+%Y-%m-%d')"
           git pull --rebase && git push || echo "Nothing to push"
 
-      - name: Re-trigger Update Player Data if looping
-        if: >
-          success() &&
-          github.event.inputs.dry_run != 'true' &&
-          (github.event.inputs.loop == 'true' || github.event_name == 'workflow_run')
+      - name: Trigger Update Player Data if looping
+        if: success() && github.event.inputs.loop == 'true' && github.event.inputs.dry_run != 'true'
         run: |
-          gh workflow run update-players.yml             --ref main             --field spider=true             --field pages=2
+          gh workflow run update-players.yml \
+            --ref main \
+            --field loop=true \
+            --field spider=true \
+            --field pages=5
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

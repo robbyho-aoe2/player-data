@@ -28,11 +28,16 @@ on:
         description: "Max new players to add per spider run (default 50)"
         required: false
         default: "50"
+      loop:
+        description: "Chain into Backfill on completion (true/false)"
+        required: false
+        default: "false"
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -91,3 +96,11 @@ jobs:
           git add data/ players.json
           git diff --staged --quiet || git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
           git pull --rebase && git push || echo "Nothing to push"
+      - name: Trigger Backfill if looping
+        if: success() && github.event.inputs.loop == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          gh workflow run backfill.yml \
+            --ref main \
+            --field loop=true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
