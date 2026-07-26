@@ -146,7 +146,10 @@ def process_group(player_files):
     })
     by_ladder   = defaultdict(lambda: {
         "civWinRates":  empty_civ_map(),
-        "byMap":        defaultdict(empty_civ_map),
+        "byMap":        defaultdict(lambda: {
+            "civWinRates": empty_civ_map(),
+            "byWeek":      defaultdict(empty_civ_map),
+        }),
         "byPatch":      defaultdict(empty_civ_map),
         "byWeek":       defaultdict(empty_civ_map),
     })
@@ -205,7 +208,9 @@ def process_group(player_files):
 
                 add_win(by_ladder[ladder_name]["civWinRates"], civ, won)
                 if map_:
-                    add_win(by_ladder[ladder_name]["byMap"][map_], civ, won)
+                    add_win(by_ladder[ladder_name]["byMap"][map_]["civWinRates"], civ, won)
+                    if week is not None:
+                        add_win(by_ladder[ladder_name]["byMap"][map_]["byWeek"][week], civ, won)
                 if patch is not None:
                     add_win(by_ladder[ladder_name]["byPatch"][str(patch)], civ, won)
                 if week is not None:
@@ -248,7 +253,13 @@ def process_group(player_files):
         "byLadder":     {
             l: {
                 "civWinRates": add_pick_rates(dict(v["civWinRates"])),
-                "byMap":       {m: {"civWinRates": add_pick_rates(dict(mv))} for m, mv in v["byMap"].items()},
+                "byMap":       {
+                    m: {
+                        "civWinRates": add_pick_rates(dict(mv["civWinRates"])),
+                        "byWeek":      {w: dict(wv) for w, wv in mv["byWeek"].items()},
+                    }
+                    for m, mv in v["byMap"].items()
+                },
                 "byPatch":     {p: add_pick_rates(dict(pv)) for p, pv in v["byPatch"].items()},
                 "byWeek":      {w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)},
             }
