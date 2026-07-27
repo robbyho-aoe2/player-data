@@ -9,9 +9,9 @@ on:
         required: false
         default: ""
       pages:
-        description: "Pages to fetch per player (default 5)"
+        description: "Pages to fetch per player (default 3)"
         required: false
-        default: "2"
+        default: "3"
       dry_run:
         description: "Fetch but don't commit (true/false)"
         required: false

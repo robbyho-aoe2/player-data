@@ -6,6 +6,10 @@ on:
         description: "Pages to fetch per player (default 1000)"
         required: false
         default: "1000"
+      max_players:
+        description: "Max players to process per run (default 40)"
+        required: false
+        default: "40"
       dry_run:
         description: "Fetch but don't commit (true/false)"
         required: false
@@ -41,41 +45,47 @@ jobs:
           import json, os
           from pathlib import Path
 
-          queue_path = Path("data/backfill_queue.json")
+          max_players = int(os.environ.get("MAX_PLAYERS", "15"))
+          queue_path  = Path("data/backfill_queue.json")
+
           if not queue_path.exists():
               print("No backfill_queue.json found — nothing to do.")
               with open(os.environ["GITHUB_OUTPUT"], "a") as f:
                   f.write("has_queue=false\n")
           else:
-              ids = json.loads(queue_path.read_text())
-              if not ids:
+              all_ids = json.loads(queue_path.read_text())
+              if not all_ids:
                   print("Queue is empty — nothing to do.")
                   with open(os.environ["GITHUB_OUTPUT"], "a") as f:
                       f.write("has_queue=false\n")
               else:
-                  id_str = ",".join(str(i) for i in ids)
-                  print(f"Queue has {len(ids)} players: {id_str}")
+                  batch    = all_ids[:max_players]
+                  remaining = all_ids[max_players:]
+                  id_str   = ",".join(str(i) for i in batch)
+                  print(f"Queue total: {len(all_ids)} — processing {len(batch)}, leaving {len(remaining)}")
+                  print(f"Batch: {id_str}")
+
+                  # Write remaining back to queue (not cleared until empty)
+                  queue_path.write_text(json.dumps(remaining, indent=2))
+
                   with open(os.environ["GITHUB_OUTPUT"], "a") as f:
                       f.write(f"has_queue=true\n")
                       f.write(f"queue_ids={id_str}\n")
-                      f.write(f"queue_count={len(ids)}\n")
+                      f.write(f"queue_count={len(batch)}\n")
+                      f.write(f"remaining={len(remaining)}\n")
           EOF
+        env:
+          MAX_PLAYERS: ${{ github.event.inputs.max_players || '15' }}
 
       - name: Backfill player data
         if: steps.read_queue.outputs.has_queue == 'true'
         run: |
-          ARGS="--players ${{ steps.read_queue.outputs.queue_ids }} --pages ${{ github.event.inputs.pages || '1000' }}"
+          ARGS="--players ${{ steps.read_queue.outputs.queue_ids }} --pages ${{ github.event.inputs.pages || '200' }}"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
           echo "Running: python3 update_players.py $ARGS"
           python3 update_players.py $ARGS
-
-      - name: Clear backfill queue
-        if: steps.read_queue.outputs.has_queue == 'true' && success() && github.event.inputs.dry_run != 'true'
-        run: |
-          echo "[]" > data/backfill_queue.json
-          echo "Backfill queue cleared."
 
       - name: Build aggregate
         if: steps.read_queue.outputs.has_queue == 'true' && github.event.inputs.dry_run != 'true'
@@ -87,7 +97,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ players.json
-          git diff --staged --quiet || git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} new players $(date -u '+%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} players, ${{ steps.read_queue.outputs.remaining }} remaining $(date -u '+%Y-%m-%d')"
           git pull --rebase && git push || echo "Nothing to push"
 
       - name: Trigger Update Player Data if looping
@@ -97,6 +107,6 @@ jobs:
             --ref main \
             --field loop=true \
             --field spider=true \
-            --field pages=5
+            --field pages=3
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
