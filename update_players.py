@@ -263,6 +263,8 @@ def main():
     parser.add_argument("--pages", type=int, default=PAGES, help=f"Pages to fetch per player (default {PAGES})")
     parser.add_argument("--dry-run", action="store_true", help="Fetch but don't write files")
     parser.add_argument("--repair", action="store_true", help="Clear existing match data before re-fetching (fixes null civ/won)")
+    parser.add_argument("--force", action="store_true", help="Add unknown profileIds to players.json automatically")
+    parser.add_argument("--group", type=str, default="console", help="Group to assign force-added players (default: console)")
     args = parser.parse_args()
 
     repo_root = Path(__file__).parent
@@ -279,7 +281,34 @@ def main():
 
     if args.players:
         ids = {int(x.strip()) for x in args.players.split(",") if x.strip()}
+        known_ids = {p["profileId"] for p in players}
         players = [p for p in players if p["profileId"] in ids]
+
+        unknown_ids = ids - {p["profileId"] for p in players}
+        if unknown_ids:
+            if args.force:
+                for uid in sorted(unknown_ids):
+                    new_player = {
+                        "profileId": uid,
+                        "name": f"player_{uid}",
+                        "group": args.group,
+                    }
+                    players.append(new_player)
+                    print(f"  [force] Adding {uid} as group={args.group}")
+                if not args.dry_run:
+                    all_players = json.load(open(players_path))
+                    all_players.extend(
+                        {"profileId": uid, "name": f"player_{uid}", "group": args.group}
+                        for uid in sorted(unknown_ids)
+                    )
+                    with open(players_path, "w") as f:
+                        json.dump(all_players, f, indent=2)
+                    print(f"  [force] Wrote {len(unknown_ids)} new player(s) to players.json")
+            else:
+                print(f"ERROR: profileId(s) {sorted(unknown_ids)} not found in players.json", file=sys.stderr)
+                print("Use --force to add them automatically.", file=sys.stderr)
+                sys.exit(1)
+
         if not players:
             print("ERROR: none of the provided profileIds found in players.json", file=sys.stderr)
             sys.exit(1)
