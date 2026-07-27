@@ -20,6 +20,14 @@ on:
         description: "Clear existing data before re-fetching, fixes null civ/won (true/false)"
         required: false
         default: "false"
+      force:
+        description: "Add unknown profileIds to players.json automatically (true/false)"
+        required: false
+        default: "false"
+      group:
+        description: "Group for force-added players (console/pro/pc/streamer)"
+        required: false
+        default: "console"
       spider:
         description: "Discover new players from match history (true/false)"
         required: false
@@ -77,6 +85,9 @@ jobs:
           fi
           if [ "${{ github.event.inputs.repair }}" = "true" ]; then
             ARGS="$ARGS --repair"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force --group ${{ github.event.inputs.group || 'console' }}"
           fi
           python3 update_players.py $ARGS
       - name: Spider new players
