@@ -82,6 +82,21 @@ def add_pick_rates(civ_dict):
         for civ, v in civ_dict.items()
     }
 
+# Recent Form decays with a 90-day half-life (see recentFormWeight in
+# index.html) — a week 2 years (730 days) old already carries under 0.4%
+# weight, and it only gets smaller from there. byWeek data currently goes
+# back to 2020 (5+ years) for every civ x map x ladder combination, which
+# is the single biggest contributor to aggregate.json's size and load
+# time, for data that's mathematically almost invisible to every
+# consumer of it. Trimming to a generous 2-year window cuts that dead
+# weight with no measurable effect on any Recent-Form-weighted grade —
+# All-Time grades are untouched either way, since those read civWinRates,
+# never byWeek.
+RECENT_WEEKS_TO_KEEP = 104  # ~2 years
+def trim_old_weeks(byweek_dict):
+    cutoff = (date.today() - timedelta(weeks=RECENT_WEEKS_TO_KEEP)).isoformat()
+    return {w: v for w, v in byweek_dict.items() if w >= cutoff}
+
 def collect_files(data_dir, group_map, cleanup=False):
     """
     Scan data subfolders and build group_files dict.
@@ -246,7 +261,7 @@ def process_group(player_files):
                 "civWinRates":  add_pick_rates(dict(v["civWinRates"])),
                 "byEloBracket": {b: add_pick_rates(dict(bv)) for b, bv in v["byEloBracket"].items()},
                 "byPatch":      {p: add_pick_rates(dict(pv)) for p, pv in v["byPatch"].items()},
-                "byWeek":       {w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)},
+                "byWeek":       trim_old_weeks({w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)}),
             }
             for m, v in by_map.items()
         },
@@ -256,25 +271,25 @@ def process_group(player_files):
                 "byMap":       {
                     m: {
                         "civWinRates": add_pick_rates(dict(mv["civWinRates"])),
-                        "byWeek":      {w: dict(wv) for w, wv in mv["byWeek"].items()},
+                        "byWeek":      trim_old_weeks({w: dict(wv) for w, wv in mv["byWeek"].items()}),
                     }
                     for m, mv in v["byMap"].items()
                 },
                 "byPatch":     {p: add_pick_rates(dict(pv)) for p, pv in v["byPatch"].items()},
-                "byWeek":      {w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)},
+                "byWeek":      trim_old_weeks({w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)}),
             }
             for l, v in by_ladder.items()
         },
         "byEloBracket": {
             b: {
                 "civWinRates": add_pick_rates(dict(v["civWinRates"])),
-                "byWeek":      {w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)},
+                "byWeek":      trim_old_weeks({w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)}),
             }
             for b, v in by_bracket.items()
         },
         "byPhase":      {p: add_pick_rates(dict(v)) for p, v in by_phase.items()},
         "byPatch":      {p: add_pick_rates(dict(v)) for p, v in by_patch.items()},
-        "byWeek":       {w: dict(v) for w, v in sorted(by_week.items(), reverse=True)},
+        "byWeek":       trim_old_weeks({w: dict(v) for w, v in sorted(by_week.items(), reverse=True)}),
     }
 
 def build_player_summary(players_list, group_files):
