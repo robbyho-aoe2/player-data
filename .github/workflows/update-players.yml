@@ -9,19 +9,15 @@ on:
         required: false
         default: ""
       pages:
-        description: "Pages to fetch per player (default 3)"
+        description: "Pages to fetch per player (default 1)"
         required: false
-        default: "3"
+        default: "1"
       dry_run:
         description: "Fetch but don't commit (true/false)"
         required: false
         default: "false"
       repair:
         description: "Clear existing data before re-fetching, fixes null civ/won (true/false)"
-        required: false
-        default: "false"
-      force:
-        description: "Add unknown profileIds to players.json automatically (true/false)"
         required: false
         default: "false"
       group:
@@ -86,8 +82,8 @@ jobs:
           if [ "${{ github.event.inputs.repair }}" = "true" ]; then
             ARGS="$ARGS --repair"
           fi
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then
-            ARGS="$ARGS --force --group ${{ github.event.inputs.group || 'console' }}"
+          if [ -n "${{ github.event.inputs.group }}" ]; then
+            ARGS="$ARGS --group ${{ github.event.inputs.group }}"
           fi
           python3 update_players.py $ARGS
       - name: Spider new players
