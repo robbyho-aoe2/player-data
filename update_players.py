@@ -17,7 +17,7 @@ from pathlib import Path
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 BASE_URL      = "https://data.aoe2companion.com/api/matches"
-PAGES         = 5
+PAGES         = 1
 PAGE_DELAY    = 1.0
 PLAYER_DELAY  = 3.0
 TIMEOUT       = 20
@@ -263,8 +263,7 @@ def main():
     parser.add_argument("--pages", type=int, default=PAGES, help=f"Pages to fetch per player (default {PAGES})")
     parser.add_argument("--dry-run", action="store_true", help="Fetch but don't write files")
     parser.add_argument("--repair", action="store_true", help="Clear existing match data before re-fetching (fixes null civ/won)")
-    parser.add_argument("--force", action="store_true", help="Add unknown profileIds to players.json automatically")
-    parser.add_argument("--group", type=str, default="console", help="Group to assign force-added players (default: console)")
+    parser.add_argument("--group", type=str, default="console", help="Group for newly added players (default: console)")
     args = parser.parse_args()
 
     repo_root = Path(__file__).parent
@@ -281,37 +280,26 @@ def main():
 
     if args.players:
         ids = {int(x.strip()) for x in args.players.split(",") if x.strip()}
-        known_ids = {p["profileId"] for p in players}
-        players = [p for p in players if p["profileId"] in ids]
+        known = {p["profileId"]: p for p in players}
+        players = []
+        new_players = []
 
-        unknown_ids = ids - {p["profileId"] for p in players}
-        if unknown_ids:
-            if args.force:
-                for uid in sorted(unknown_ids):
-                    new_player = {
-                        "profileId": uid,
-                        "name": f"player_{uid}",
-                        "group": args.group,
-                    }
-                    players.append(new_player)
-                    print(f"  [force] Adding {uid} as group={args.group}")
-                if not args.dry_run:
-                    all_players = json.load(open(players_path))
-                    all_players.extend(
-                        {"profileId": uid, "name": f"player_{uid}", "group": args.group}
-                        for uid in sorted(unknown_ids)
-                    )
-                    with open(players_path, "w") as f:
-                        json.dump(all_players, f, indent=2)
-                    print(f"  [force] Wrote {len(unknown_ids)} new player(s) to players.json")
+        for uid in sorted(ids):
+            if uid in known:
+                players.append(known[uid])
             else:
-                print(f"ERROR: profileId(s) {sorted(unknown_ids)} not found in players.json", file=sys.stderr)
-                print("Use --force to add them automatically.", file=sys.stderr)
-                sys.exit(1)
+                # Auto-add unknown players rather than failing
+                entry = {"profileId": uid, "name": f"player_{uid}", "group": args.group}
+                players.append(entry)
+                new_players.append(entry)
+                print(f"  [new] Adding {uid} as group={args.group}")
 
-        if not players:
-            print("ERROR: none of the provided profileIds found in players.json", file=sys.stderr)
-            sys.exit(1)
+        if new_players and not args.dry_run:
+            all_players = json.load(open(players_path))
+            all_players.extend(new_players)
+            with open(players_path, "w") as f:
+                json.dump(all_players, f, indent=2)
+            print(f"  Added {len(new_players)} new player(s) to players.json")
 
     print(f"=== update_players.py — {date.today()} ===")
     print(f"Players: {len(players)}, Pages: {args.pages}, Dry-run: {args.dry_run}, Repair: {args.repair}")
