@@ -295,7 +295,8 @@ def main():
                 print(f"  [new] Adding {uid} as group={args.group}")
 
         if new_players and not args.dry_run:
-            all_players = json.load(open(players_path))
+            with open(players_path) as f:
+                all_players = json.load(f)
             all_players.extend(new_players)
             with open(players_path, "w") as f:
                 json.dump(all_players, f, indent=2)
