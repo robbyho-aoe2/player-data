@@ -102,25 +102,30 @@ def save_players(players: list[dict], path: str) -> None:
 
 # ── Phase 1: Harvest ─────────────────────────────────────────────────────────
 
-def harvest_candidates(players: list[dict], harvest_pages: int = 1) -> dict[int, set[str]]:
+def harvest_candidates(
+    players: list[dict], harvest_pages: int = 1
+) -> tuple[dict[int, set[str]], dict[int, int]]:
     """
-    For each tracked player, fetch `harvest_pages` pages from the API and
-    collect every profileId seen in teams[*].players[*].
+    For each NON-PC tracked player, fetch `harvest_pages` pages from the API
+    and collect every profileId seen in teams[*].players[*].
 
-    Local match files can't be used for this because update_players.py
-    normalises the API response and strips out opponent data before writing
-    to disk.  We therefore go back to the API for the harvest pass.
+    PC players are skipped during harvest — they tend to play against huge
+    pools and slow the harvest down without adding useful console candidates.
 
     Returns:
-        { profileId: set_of_discovery_groups }
-
-    Discovery group is determined by the leaderboard the match was played on.
+        candidates  — { profileId: set_of_discovery_groups }
+        frequency   — { profileId: times_seen_across_all_harvested_matches }
     """
     candidates: dict[int, set[str]] = {}
+    frequency:  dict[int, int]      = {}
 
-    for i, player in enumerate(players, 1):
+    harvest_players = [p for p in players if p.get("group", "console") != "pc"]
+    print(f"  Harvesting from {len(harvest_players)} non-PC players "
+          f"(skipping {len(players) - len(harvest_players)} PC players)")
+
+    for i, player in enumerate(harvest_players, 1):
         pid = player["profileId"]
-        print(f"  Harvesting {pid} ({player.get('name', '?')}) [{i}/{len(players)}]")
+        print(f"  Harvesting {pid} ({player.get('name', '?')}) [{i}/{len(harvest_players)}]")
 
         for page in range(1, harvest_pages + 1):
             matches = api_get(pid, page)
@@ -138,11 +143,13 @@ def harvest_candidates(players: list[dict], harvest_pages: int = 1) -> dict[int,
                             continue
                         if oid not in candidates:
                             candidates[oid] = set()
+                            frequency[oid]  = 0
                         candidates[oid].add(mg)
+                        frequency[oid] += 1
 
             time.sleep(RATE_LIMIT_DELAY)
 
-    return candidates
+    return candidates, frequency
 
 
 # ── Phase 2: Probe ───────────────────────────────────────────────────────────
@@ -279,7 +286,7 @@ def main() -> None:
 
     # ── Harvest ──────────────────────────────────────────────────────────────
     print(f"\nHarvesting candidates via API ({args.harvest_pages} page(s) per player) …")
-    all_candidates = harvest_candidates(players, harvest_pages=args.harvest_pages)
+    all_candidates, frequency = harvest_candidates(players, harvest_pages=args.harvest_pages)
     new_candidates = {
         pid: groups
         for pid, groups in all_candidates.items()
@@ -294,6 +301,13 @@ def main() -> None:
         print("\nNo new candidates. Exiting.")
         return
 
+    # Sort: console-discovered first, then by frequency (most connected first)
+    def sort_priority(item: tuple[int, set[str]]) -> tuple[int, int]:
+        pid, groups = item
+        return (0 if "console" in groups else 1, -frequency.get(pid, 0))
+
+    sorted_candidates = sorted(new_candidates.items(), key=sort_priority)
+
     # ── Probe & classify ─────────────────────────────────────────────────────
     print(f"\nProbing up to {args.max_new} new players "
           f"({args.probe_pages} pages each) …")
@@ -301,9 +315,9 @@ def main() -> None:
     added: list[dict] = []
     skipped = 0
     probed = 0
-    total = len(new_candidates)
+    total = len(sorted_candidates)
 
-    for pid, discovery_groups in new_candidates.items():
+    for pid, discovery_groups in sorted_candidates:
         if len(added) >= args.max_new:
             print(f"\n  Cap of {args.max_new} reached — stopping.")
             break

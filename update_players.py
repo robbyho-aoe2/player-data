@@ -192,6 +192,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
 
     latest_rating = {}
     new_matches   = {k: [] for k in existing["ladders"]}
+    found_name    = None  # Real name if found in API response
 
     total_fetched = 0
     total_new     = 0
@@ -221,6 +222,14 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
                 new_matches[ladder].append(record)
                 total_new += 1
 
+            # Capture real name from match data if still unknown
+            if found_name is None:
+                our_player = find_our_player(raw, profile_id)
+                if our_player:
+                    candidate = our_player.get("name")
+                    if candidate and not candidate.startswith("player_"):
+                        found_name = candidate
+
         print(f"  page {page}: fetched {len(raw_matches)} matches")
         if page < pages:
             time.sleep(PAGE_DELAY)
@@ -229,7 +238,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
 
     if total_new == 0 and not latest_rating:
         print(f"  no changes — skipping write")
-        return False
+        return False, found_name
 
     today = date.today().isoformat()
     for ladder in existing["ladders"]:
@@ -247,12 +256,14 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
 
     if dry_run:
         print(f"  DRY RUN — would write {out_path}")
-        return False
+        return False, found_name
 
     with open(out_path, "w") as f:
         json.dump(existing, f, indent=2)
     print(f"  wrote {out_path}")
-    return True
+    if found_name and found_name != name:
+        print(f"  found real name: {found_name!r}")
+    return True, found_name
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
@@ -306,12 +317,17 @@ def main():
     print(f"Players: {len(players)}, Pages: {args.pages}, Dry-run: {args.dry_run}, Repair: {args.repair}")
 
     any_changed = False
+    needs_name_update = False
     errors = []
 
     for i, player in enumerate(players):
         try:
-            changed = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
+            changed, real_name = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
             any_changed = any_changed or changed
+            # Update players.json if we found a real name for a placeholder entry
+            if real_name and player["name"].startswith("player_") and not args.dry_run:
+                player["name"] = real_name
+                needs_name_update = True
         except Exception as e:
             msg = f"{player['name']} ({player['profileId']}): {type(e).__name__}: {e}"
             print(f"  ERROR — {msg}")
@@ -319,6 +335,17 @@ def main():
 
         if i < len(players) - 1:
             time.sleep(PLAYER_DELAY)
+
+    if needs_name_update and not args.dry_run:
+        with open(players_path) as f:
+            all_players = json.load(f)
+        name_map = {p["profileId"]: p["name"] for p in players}
+        for p in all_players:
+            if p["profileId"] in name_map:
+                p["name"] = name_map[p["profileId"]]
+        with open(players_path, "w") as f:
+            json.dump(all_players, f, indent=2)
+        print("  Updated player names in players.json")
 
     print(f"\n=== Done — changed={any_changed}, errors={len(errors)} ===")
     if errors:
