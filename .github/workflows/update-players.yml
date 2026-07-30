@@ -104,7 +104,7 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
           git pull --rebase && git push || echo "Nothing to push"
       - name: Trigger Backfill if looping
-        if: success() && github.event.inputs.loop == 'true' && github.event.inputs.dry_run != 'true'
+        if: success() && github.event.inputs.dry_run != 'true' && (github.event.inputs.loop == 'true' || github.event_name == 'schedule')
         run: |
           gh workflow run backfill.yml \
             --ref main \
