@@ -1,5 +1,7 @@
 name: Backfill New Players
 on:
+  schedule:
+    - cron: "0 */2 * * *"
   workflow_dispatch:
     inputs:
       pages:
@@ -18,6 +20,10 @@ on:
         description: "Chain into Update Player Data on completion (true/false)"
         required: false
         default: "false"
+
+concurrency:
+  group: player-data-write
+  cancel-in-progress: false
 
 jobs:
   backfill:
@@ -45,8 +51,9 @@ jobs:
           import json, os
           from pathlib import Path
 
-          max_players = int(os.environ.get("MAX_PLAYERS", "15"))
-          queue_path  = Path("data/backfill_queue.json")
+          max_players  = int(os.environ.get("MAX_PLAYERS", "40"))
+          queue_path   = Path("data/backfill_queue.json")
+          players_path = Path("players.json")
 
           if not queue_path.exists():
               print("No backfill_queue.json found — nothing to do.")
@@ -59,10 +66,20 @@ jobs:
                   with open(os.environ["GITHUB_OUTPUT"], "a") as f:
                       f.write("has_queue=false\n")
               else:
+                  # Prioritize console players — they move to the front of the
+                  # queue (stable sort, so arrival order is preserved within
+                  # each priority tier).
+                  group_of = {}
+                  if players_path.exists():
+                      for p in json.loads(players_path.read_text()):
+                          group_of[p["profileId"]] = p.get("group")
+
+                  all_ids.sort(key=lambda pid: 0 if group_of.get(pid) == "console" else 1)
+
                   batch    = all_ids[:max_players]
                   remaining = all_ids[max_players:]
                   id_str   = ",".join(str(i) for i in batch)
-                  print(f"Queue total: {len(all_ids)} — processing {len(batch)}, leaving {len(remaining)}")
+                  print(f"Queue total: {len(all_ids)} — processing {len(batch)} (console-prioritized), leaving {len(remaining)}")
                   print(f"Batch: {id_str}")
 
                   # Write remaining back to queue (not cleared until empty)
@@ -75,12 +92,12 @@ jobs:
                       f.write(f"remaining={len(remaining)}\n")
           EOF
         env:
-          MAX_PLAYERS: ${{ github.event.inputs.max_players || '15' }}
+          MAX_PLAYERS: ${{ github.event.inputs.max_players || '40' }}
 
       - name: Backfill player data
         if: steps.read_queue.outputs.has_queue == 'true'
         run: |
-          ARGS="--players ${{ steps.read_queue.outputs.queue_ids }} --pages ${{ github.event.inputs.pages || '200' }}"
+          ARGS="--players ${{ steps.read_queue.outputs.queue_ids }} --pages ${{ github.event.inputs.pages || '1000' }}"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi

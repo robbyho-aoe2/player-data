@@ -18,12 +18,17 @@ Classification logic (applied after probing PROBE_PAGES pages):
 
   below both thresholds                                  →  skip
 
+Console candidates fill the --max-new quota first; if there aren't enough
+qualifying console candidates, qualifying PC candidates seen along the way
+backfill the remaining slots. --console-only disables that fallback and
+skips PC candidates entirely.
+
 Usage examples:
   python spider.py                          # standard run, up to 50 new players
   python spider.py --dry-run               # show results without writing
   python spider.py --max-new 100           # raise per-run cap
   python spider.py --probe-pages 3         # faster probe, less accurate ratio
-  python spider.py --console-only          # skip PC classification
+  python spider.py --console-only          # never backfill with PC candidates
 """
 
 import json
@@ -309,17 +314,25 @@ def main() -> None:
     sorted_candidates = sorted(new_candidates.items(), key=sort_priority)
 
     # ── Probe & classify ─────────────────────────────────────────────────────
-    print(f"\nProbing up to {args.max_new} new players "
-          f"({args.probe_pages} pages each) …")
+    # Console candidates fill the quota first. If console supply runs short,
+    # qualifying PC candidates seen along the way backfill the remaining
+    # slots — unless --console-only, which never falls back to PC.
+    probe_cap = max(args.max_new * 3, args.max_new)
+    print(f"\nProbing up to {probe_cap} candidates to fill {args.max_new} slots, "
+          f"console-first ({args.probe_pages} pages each) …")
 
-    added: list[dict] = []
+    console_added: list[dict] = []
+    pc_added: list[dict] = []
     skipped = 0
     probed = 0
     total = len(sorted_candidates)
 
     for pid, discovery_groups in sorted_candidates:
-        if len(added) >= args.max_new:
-            print(f"\n  Cap of {args.max_new} reached — stopping.")
+        if len(console_added) >= args.max_new:
+            print(f"\n  Console quota of {args.max_new} reached — stopping.")
+            break
+        if probed >= probe_cap:
+            print(f"\n  Probe cap of {probe_cap} reached — stopping.")
             break
 
         probed += 1
@@ -334,7 +347,7 @@ def main() -> None:
             skipped += 1
             continue
 
-        if args.console_only and group == "pc":
+        if group == "pc" and args.console_only:
             print(f"  → SKIP (--console-only, would be pc): {reason}")
             skipped += 1
             continue
@@ -342,18 +355,26 @@ def main() -> None:
         # Name may be None if the API doesn't return it in match objects;
         # update_players.py will populate it on the first weekly run.
         display_name = name or f"player_{pid}"
-        print(f"  → ADD  group={group}  name={display_name!r}  ({reason})")
-        added.append({
-            "profileId": pid,
-            "name": display_name,
-            "group": group,
-        })
+        entry = {"profileId": pid, "name": display_name, "group": group}
+
+        if group == "console":
+            console_added.append(entry)
+            print(f"  → ADD (console)  name={display_name!r}  ({reason})")
+        else:
+            pc_added.append(entry)
+            print(f"  → HOLD (pc backup)  name={display_name!r}  ({reason})")
+
+    shortfall = args.max_new - len(console_added)
+    backfilled = pc_added[:shortfall] if shortfall > 0 else []
+    added = console_added + backfilled
 
     # ── Summary & write ──────────────────────────────────────────────────────
     print(f"\n{'─' * 50}")
-    print(f"Probed:  {probed}/{total}")
-    print(f"Added:   {len(added)}")
-    print(f"Skipped: {skipped}")
+    print(f"Probed:          {probed}/{total}")
+    print(f"Console added:   {len(console_added)}")
+    print(f"PC backfilled:   {len(backfilled)} (of {len(pc_added)} qualifying)")
+    print(f"Skipped:         {skipped}")
+    print(f"Total added:     {len(added)}")
     remaining = total - probed
     if remaining:
         print(f"Unchecked (cap reached): {remaining}")
