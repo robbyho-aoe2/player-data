@@ -380,35 +380,46 @@ def main():
         all_patches.update(group_aggs[g]["byPatch"].keys())
     current_patch = max(all_patches, key=lambda x: int(x)) if all_patches else None
 
-    aggregate = {
+    meta = {
         "lastUpdated":  date.today().isoformat(),
         "currentPatch": current_patch,
         "playerCounts": player_counts,
         "players":      player_summary,
-        "console":      group_aggs["console"],
-        "pro":          group_aggs["pro"],
-        "pc":           group_aggs["pc"],
-        "streamer":     group_aggs["streamer"],
     }
 
     for g in ALL_GROUPS:
-        total = sum(v["games"] for v in aggregate[g]["civWinRates"].values())
+        total = sum(v["games"] for v in group_aggs[g]["civWinRates"].values())
         if total:
-            wins = sum(v["wins"] for v in aggregate[g]["civWinRates"].values())
+            wins = sum(v["wins"] for v in group_aggs[g]["civWinRates"].values())
             print(f"\n{g}: {total:,} games, {wins/total*100:.1f}% overall win rate")
 
     print(f"\ncurrentPatch: {current_patch}")
 
     if args.dry_run:
-        print("\nDRY RUN - not writing aggregate.json")
+        print("\nDRY RUN - not writing aggregate files")
         return
 
-    out_path = data_dir / "aggregate.json"
-    with open(out_path, "w") as f:
-        json.dump(aggregate, f, indent=2)
+    # Split into one file per group (plus a small meta file) instead of one
+    # monolithic aggregate.json — pc alone is ~2/3 of all tracked games, so
+    # a single combined file crosses GitHub's 50MB soft file-size limit as
+    # the backfill grows. Per-group files also let small groups (pro/
+    # streamer) load fast client-side without waiting on the whole blob.
+    meta_path = data_dir / "aggregate-meta.json"
+    with open(meta_path, "w") as f:
+        json.dump(meta, f, indent=2)
+    print(f"\nWrote {meta_path} ({meta_path.stat().st_size / 1024:.1f} KB)")
 
-    size_kb = out_path.stat().st_size / 1024
-    print(f"\nWrote {out_path} ({size_kb:.1f} KB)")
+    for g in ALL_GROUPS:
+        out_path = data_dir / f"aggregate-{g}.json"
+        with open(out_path, "w") as f:
+            json.dump(group_aggs[g], f, indent=2)
+        size_kb = out_path.stat().st_size / 1024
+        print(f"Wrote {out_path} ({size_kb:.1f} KB)")
+
+    old_path = data_dir / "aggregate.json"
+    if old_path.exists():
+        old_path.unlink()
+        print(f"Removed stale {old_path}")
 
 if __name__ == "__main__":
     main()
