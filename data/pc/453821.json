@@ -19,11 +19,38 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 63,
+        "totalGames": 66,
         "pulledDate": "2026-08-02",
-        "latestRating": 2397
+        "latestRating": 2405
       },
       "matches": [
+        {
+          "matchId": 496672418,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-02",
+          "dur": 1241
+        },
+        {
+          "matchId": 496667037,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-02",
+          "dur": 1392
+        },
+        {
+          "matchId": 496662684,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-02",
+          "dur": 915
+        },
         {
           "matchId": 496507658,
           "civ": "Hindustanis",
@@ -595,10 +622,30 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-08-02"
+        "totalGames": 2,
+        "pulledDate": "2026-08-02",
+        "latestRating": 1837
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 496694940,
+          "civ": "Malians",
+          "map": "Gold Rush",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-08-02",
+          "dur": null
+        },
+        {
+          "matchId": 496688055,
+          "civ": "Gurjaras",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-02",
+          "dur": 1497
+        }
+      ]
     }
   }
 }
