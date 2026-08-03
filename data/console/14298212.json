@@ -5,11 +5,20 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 16,
+        "totalGames": 17,
         "pulledDate": "2026-08-03",
         "latestRating": 1055
       },
       "matches": [
+        {
+          "matchId": 244845681,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": null,
+          "date": "2023-07-05",
+          "dur": 610
+        },
         {
           "matchId": 496806070,
           "civ": "Japanese",
@@ -230,10 +239,29 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
+        "totalGames": 2,
         "pulledDate": "2026-08-03"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 236553048,
+          "civ": "Japanese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-05-27",
+          "dur": 2154
+        },
+        {
+          "matchId": 236552401,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": false,
+          "patch": null,
+          "date": "2023-05-27",
+          "dur": 28
+        }
+      ]
     }
   }
 }
