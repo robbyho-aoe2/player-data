@@ -124,6 +124,6 @@ jobs:
             --ref main \
             --field loop=true \
             --field spider=true \
-            --field pages=3
+            --field pages=1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
