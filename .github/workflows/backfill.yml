@@ -123,7 +123,6 @@ jobs:
           gh workflow run update-players.yml \
             --ref main \
             --field loop=true \
-            --field spider=true \
             --field pages=1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

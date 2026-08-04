@@ -24,18 +24,6 @@ on:
         description: "Group for force-added players (console/pro/pc/streamer)"
         required: false
         default: "console"
-      spider:
-        description: "Discover new players from match history (true/false)"
-        required: false
-        default: "true"
-      spider_max_new:
-        description: "Max new players to add per spider run (default 50)"
-        required: false
-        default: "50"
-      spider_console_only:
-        description: "Never backfill spider quota with PC players, even if console supply runs short (true/false)"
-        required: false
-        default: "false"
       loop:
         description: "Chain into Backfill on completion (true/false)"
         required: false
@@ -95,17 +83,6 @@ jobs:
             ARGS="$ARGS --group ${{ github.event.inputs.group }}"
           fi
           python3 update_players.py $ARGS
-      - name: Spider new players
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.spider != 'false' }}
-        run: |
-          ARGS="--max-new ${{ github.event.inputs.spider_max_new || '50' }}"
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            ARGS="$ARGS --dry-run"
-          fi
-          if [ "${{ github.event.inputs.spider_console_only || 'false' }}" = "true" ]; then
-            ARGS="$ARGS --console-only"
-          fi
-          python3 spider.py $ARGS
       - name: Build aggregate
         run: python3 build_aggregate.py
       - name: Commit and push if changed
