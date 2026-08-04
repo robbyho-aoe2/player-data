@@ -296,9 +296,17 @@ def build_player_summary(players_list, group_files):
     """
     Build the players array from players.json as the single source of truth.
     One entry per profileId, group from players.json (not from the file on disk).
-    Players with no match file yet (newly added) are included with zero stats.
+
+    Only players with an actual data file are included. This used to include
+    every queued-but-not-yet-backfilled player too ("zero stats" placeholder
+    rows), which was harmless when the queue was small — but leaderboard_sync
+    can add tens of thousands of players to players.json in one run, and this
+    array is embedded in aggregate-meta.json, fetched and JSON.parsed by every
+    site visitor, then used to build the browsable player picker client-side.
+    A player with no data yet has nothing to show and no business being in
+    that picker — they show up here automatically once backfill.yml actually
+    pulls their history.
     """
-    # Build profileId -> file path lookup from the already-deduplicated group_files
     file_lookup = {}
     for files in group_files.values():
         for path in files:
@@ -308,21 +316,23 @@ def build_player_summary(players_list, group_files):
     for player in players_list:
         pid  = player["profileId"]
         path = file_lookup.get(pid)
+        if path is None:
+            continue
 
         ratings     = {}
         total_games = 0
 
-        if path is not None:
-            try:
-                with open(path) as f:
-                    p = json.load(f)
-                for ladder_name, ladder_data in p.get("ladders", {}).items():
-                    meta = ladder_data.get("meta", {})
-                    if meta.get("latestRating"):
-                        ratings[ladder_name] = meta["latestRating"]
-                    total_games += meta.get("totalGames", 0)
-            except Exception as e:
-                print(f"  WARNING: could not read {path}: {e}")
+        try:
+            with open(path) as f:
+                p = json.load(f)
+            for ladder_name, ladder_data in p.get("ladders", {}).items():
+                meta = ladder_data.get("meta", {})
+                if meta.get("latestRating"):
+                    ratings[ladder_name] = meta["latestRating"]
+                total_games += meta.get("totalGames", 0)
+        except Exception as e:
+            print(f"  WARNING: could not read {path}: {e}")
+            continue
 
         summary.append({
             "name":       player.get("name", str(pid)),
