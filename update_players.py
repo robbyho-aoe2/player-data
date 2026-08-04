@@ -209,6 +209,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
             break
 
         total_fetched += len(raw_matches)
+        page_new = 0
 
         for raw in raw_matches:
             ladder, record, rating = extract_match(raw, profile_id)
@@ -221,6 +222,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
             if record["matchId"] not in existing_ids.get(ladder, set()):
                 new_matches[ladder].append(record)
                 total_new += 1
+                page_new += 1
 
             # Capture real name from match data if still unknown
             if found_name is None:
@@ -230,7 +232,18 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
                     if candidate and not candidate.startswith("player_"):
                         found_name = candidate
 
-        print(f"  page {page}: fetched {len(raw_matches)} matches")
+        print(f"  page {page}: fetched {len(raw_matches)} matches, {page_new} new")
+
+        # Matches come back newest-first, so once a page contributes zero
+        # new matches, every older page would too — no point paying for
+        # them. `pages` is just a safety cap for how far a genuinely
+        # inactive-since-last-check player might need; this makes the
+        # common case (routine refresh, already caught up) stop after one
+        # page instead of always walking the full cap.
+        if page_new == 0 and existing_ids and any(existing_ids.values()):
+            print(f"  page {page}: no new matches — caught up, stopping")
+            break
+
         if page < pages:
             time.sleep(PAGE_DELAY)
 
@@ -288,6 +301,22 @@ def main():
 
     with open(players_path) as f:
         players = json.load(f)
+
+    if not args.players:
+        # Default scope is "refresh players we've already backfilled at
+        # least once" — NOT everyone in players.json. leaderboard_sync.py
+        # can queue tens of thousands of newly-discovered players at a
+        # time, and most of those have no data file yet; a full-roster
+        # refresh pass would then try to touch all of them with no route
+        # to actually fetch their first history (that's backfill.yml's
+        # job), ballooning run time for no benefit and starving the
+        # shared concurrency lock. Only a data file on disk means a
+        # player is in this step's scope.
+        before = len(players)
+        players = [p for p in players if get_player_path(data_dir, p.get("group", "console"), p["profileId"]).exists()]
+        skipped = before - len(players)
+        if skipped:
+            print(f"Scoped to {len(players)} already-backfilled players (skipped {skipped} not yet backfilled)")
 
     if args.players:
         ids = {int(x.strip()) for x in args.players.split(",") if x.strip()}

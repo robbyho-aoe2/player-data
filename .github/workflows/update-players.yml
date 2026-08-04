@@ -9,9 +9,9 @@ on:
         required: false
         default: ""
       pages:
-        description: "Pages to fetch per player (default 1)"
+        description: "Max pages to fetch per player — safety cap only, update_players.py stops early once a page has zero new matches (default 10)"
         required: false
-        default: "1"
+        default: "10"
       dry_run:
         description: "Fetch but don't commit (true/false)"
         required: false
