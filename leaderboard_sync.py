@@ -8,9 +8,18 @@ directly from the API, so membership is exact — no probing/classifying
 needed, and no blind spots for players who haven't crossed paths with our
 existing roster.
 
+--brackets adds everyone in the missing set (no cap unless --sample is also
+given), but orders the resulting backfill-queue insertion by interleaving
+across brackets (fractional-position merge) rather than concatenating one
+bracket after another — so a months-long gradual backfill has a
+representative skill-bracket mix at any point along the way, not just at
+the end.
+
 Usage:
   python leaderboard_sync.py --leaderboards rm_1v1_console,rm_team_console --group console
   python leaderboard_sync.py --leaderboards rm_1v1_console,rm_team_console --group console --dry-run
+  python leaderboard_sync.py --leaderboards rm_1v1,rm_team --group pc \\
+      --brackets '[[0,740,0.216],[741,1225,0.537],[1226,1662,0.193],[1663,999999,0.054]]'
 """
 
 import json
@@ -111,24 +120,42 @@ def main() -> None:
 
     if args.brackets:
         bracket_defs = json.loads(args.brackets)
-        target_total = args.sample or len(missing)
-        selected: list[dict] = []
-        for lo, hi, share in bracket_defs:
-            quota = round(target_total * share)
+        by_bracket: list[list[dict]] = []
+        for lo, hi, *_rest in bracket_defs:
             pool = [p for p in missing if lo <= p.get("rating", 0) <= hi]
             pool.sort(key=lambda p: p.get("rating", 0), reverse=True)
-            # Even coverage across the bracket's range, not just its top —
-            # take an evenly-spaced stride through the sorted pool rather
-            # than the highest-rated slice, so the sample actually spans
-            # the bracket instead of clustering at its ceiling.
-            if quota >= len(pool):
-                chosen = pool
-            else:
-                step = len(pool) / quota
-                chosen = [pool[int(i * step)] for i in range(quota)]
-            selected.extend(chosen)
-            print(f"  bracket {lo}-{hi}: {len(chosen)}/{len(pool)} candidates (quota {quota})")
-        missing = selected
+            by_bracket.append(pool)
+
+        if args.sample:
+            # Optional cap: even stride through each bracket's pool down to
+            # its target share, so the sample spans the bracket's range
+            # rather than clustering at its ceiling.
+            capped = []
+            for pool, (lo, hi, share) in zip(by_bracket, bracket_defs):
+                quota = round(args.sample * share)
+                if quota >= len(pool):
+                    capped.append(pool)
+                else:
+                    step = len(pool) / quota
+                    capped.append([pool[int(i * step)] for i in range(quota)])
+            by_bracket = capped
+
+        for (lo, hi, *_rest), pool in zip(bracket_defs, by_bracket):
+            print(f"  bracket {lo}-{hi}: {len(pool)} players")
+
+        # Interleave brackets by fractional position (not a straight
+        # concatenation) so that ANY prefix of the resulting queue —
+        # not just the final total — has roughly the right bracket mix.
+        # A months-long backfill processes this queue gradually, and
+        # without interleaving we'd spend the first stretch only on
+        # whichever bracket happened to be listed first.
+        keyed: list[tuple[float, dict]] = []
+        for pool in by_bracket:
+            n = len(pool)
+            for j, item in enumerate(pool):
+                keyed.append(((j + 0.5) / n if n else 0.0, item))
+        keyed.sort(key=lambda x: x[0])
+        missing = [item for _, item in keyed]
     elif args.sample:
         missing.sort(key=lambda p: p.get("rating", 0), reverse=True)
         step = len(missing) / args.sample
