@@ -36,6 +36,14 @@ OFFICIAL_CIVS = {
 
 ALL_GROUPS = ["console", "pro", "pc", "streamer"]
 
+# Which ladders count toward each group's aggregate — see process_group().
+# pro/streamer are intentionally absent (unrestricted): those groups aren't
+# tied to one platform by definition.
+GROUP_LADDERS = {
+    "console": {"1v1 Console", "Team Console"},
+    "pc":      {"1v1 PC", "Team PC"},
+}
+
 def get_bracket(rating):
     if rating is None:
         return None
@@ -151,7 +159,16 @@ def collect_files(data_dir, group_map, cleanup=False):
 
     return group_files, stale_files
 
-def process_group(player_files):
+def process_group(player_files, group=None):
+    # Restrict which ladders count toward a group's aggregate. Without this,
+    # a console-group player's PC-ladder crossplay matches (or vice versa)
+    # get pooled into "console" stats just because that player happens to
+    # be tracked under that group — confirmed in practice: ~45% of console
+    # players have some PC matches recorded, ~13% of all "console" match
+    # volume was actually PC games. pro/streamer are left unrestricted
+    # since they aren't tied to one platform by definition.
+    allowed_ladders = GROUP_LADDERS.get(group)
+
     civ_overall = empty_civ_map()
     by_map      = defaultdict(lambda: {
         "civWinRates":  empty_civ_map(),
@@ -193,6 +210,8 @@ def process_group(player_files):
         bracket = get_bracket(console_rating)
 
         for ladder_name, ladder_data in player.get("ladders", {}).items():
+            if allowed_ladders is not None and ladder_name not in allowed_ladders:
+                continue
             for match in ladder_data.get("matches", []):
                 civ   = normalize_civ(match.get("civ"))
                 map_  = match.get("map")
@@ -292,6 +311,45 @@ def process_group(player_files):
         "byWeek":       trim_old_weeks({w: dict(v) for w, v in sorted(by_week.items(), reverse=True)}),
     }
 
+def process_civs_by_ladder(player_files, ladder_names):
+    """
+    Like process_group, but scoped to one or more specific ladders and only
+    computing civWinRates (overall + per skill bracket) — the minimal slice
+    Insights' per-ladder filter needs, without the map/patch/week
+    breakdowns process_group also builds. Bracket assignment still uses the
+    player's overall console rating (1v1 Console, falling back to Team
+    Console) regardless of which ladder's matches are being counted, so
+    "Low/Lo-Mid/Hi-Mid/High" means the same thing across every view.
+    """
+    civ_overall = empty_civ_map()
+    by_bracket  = defaultdict(empty_civ_map)
+
+    for path in player_files:
+        with open(path) as f:
+            player = json.load(f)
+
+        console_rating = (
+            player.get("ladders", {}).get("1v1 Console", {}).get("meta", {}).get("latestRating")
+            or player.get("ladders", {}).get("Team Console", {}).get("meta", {}).get("latestRating")
+        )
+        bracket = get_bracket(console_rating)
+
+        for ladder_name in ladder_names:
+            ladder_data = player.get("ladders", {}).get(ladder_name, {})
+            for match in ladder_data.get("matches", []):
+                civ = normalize_civ(match.get("civ"))
+                won = match.get("won")
+                if civ is None or won is None or civ in CIV_SKIP:
+                    continue
+                add_win(civ_overall, civ, won)
+                if bracket:
+                    add_win(by_bracket[bracket], civ, won)
+
+    return {
+        "overall":  add_pick_rates(dict(civ_overall)),
+        "brackets": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
+    }
+
 def build_player_summary(players_list, group_files):
     """
     Build the players array from players.json as the single source of truth.
@@ -322,10 +380,13 @@ def build_player_summary(players_list, group_files):
         ratings     = {}
         total_games = 0
 
+        allowed_ladders = GROUP_LADDERS.get(player["group"])
         try:
             with open(path) as f:
                 p = json.load(f)
             for ladder_name, ladder_data in p.get("ladders", {}).items():
+                if allowed_ladders is not None and ladder_name not in allowed_ladders:
+                    continue
                 meta = ladder_data.get("meta", {})
                 if meta.get("latestRating"):
                     ratings[ladder_name] = meta["latestRating"]
@@ -370,7 +431,7 @@ def main():
     for g in ALL_GROUPS:
         print(f"\nProcessing {g}...")
         if group_files[g]:
-            group_aggs[g] = process_group(group_files[g])
+            group_aggs[g] = process_group(group_files[g], group=g)
         else:
             print(f"  no players — skipping")
             group_aggs[g] = {
@@ -437,8 +498,15 @@ def main():
     # these as Insights grows rather than having it fetch the full files.
     console_civs = {
         "lastUpdated": date.today().isoformat(),
+        # Combined 1v1 + Team Console (also the default/"all" filter view).
         "overall":     group_aggs["console"]["civWinRates"],
         "brackets":    {b: v["civWinRates"] for b, v in group_aggs["console"]["byEloBracket"].items()},
+        # Same shape, scoped to one ladder at a time — powers the Insights
+        # civ leaderboard's 1v1/Team filter.
+        "ladders": {
+            "1v1 Console":  process_civs_by_ladder(group_files["console"], ["1v1 Console"]),
+            "Team Console": process_civs_by_ladder(group_files["console"], ["Team Console"]),
+        },
     }
     insights_path = data_dir / "insights-console-civs.json"
     with open(insights_path, "w") as f:
