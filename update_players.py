@@ -116,6 +116,29 @@ def find_our_player(match, profile_id):
     return None
 
 
+def get_opponents(match, profile_id):
+    """Players on any team OTHER than ours — one entry for 1v1s, several
+    for team games. Used for head-to-head stats (e.g. Player Spotlight's
+    top-opponents table)."""
+    teams = match.get("teams", [])
+    our_team_idx = None
+    for i, team in enumerate(teams):
+        if any(p.get("profileId") == profile_id for p in team.get("players", [])):
+            our_team_idx = i
+            break
+    if our_team_idx is None:
+        return []
+    opponents = []
+    for i, team in enumerate(teams):
+        if i == our_team_idx:
+            continue
+        for player in team.get("players", []):
+            pid = player.get("profileId")
+            if pid is not None:
+                opponents.append({"profileId": pid, "name": player.get("name")})
+    return opponents
+
+
 def extract_match(raw, profile_id):
     lb_raw = raw.get("leaderboardName", "")
     ladder = LADDER_MAP.get(lb_raw)
@@ -142,15 +165,17 @@ def extract_match(raw, profile_id):
     patch = first_present(raw, PATCH_FIELD_CANDIDATES)
     dur   = compute_duration(raw)
     dt    = coerce_date(raw.get("started") or raw.get("finished"))
+    opponents = get_opponents(raw, profile_id)
 
     record = {
-        "matchId": match_id,
-        "civ":     civ,
-        "map":     map_,
-        "won":     won,
-        "patch":   patch,
-        "date":    dt,
-        "dur":     dur,
+        "matchId":   match_id,
+        "civ":       civ,
+        "map":       map_,
+        "won":       won,
+        "patch":     patch,
+        "date":      dt,
+        "dur":       dur,
+        "opponents": opponents,
     }
     return ladder, record, rating
 
