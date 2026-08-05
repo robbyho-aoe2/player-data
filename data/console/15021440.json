@@ -5,11 +5,29 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 2254,
+        "totalGames": 2256,
         "pulledDate": "2026-08-05",
-        "latestRating": 1462
+        "latestRating": 1444
       },
       "matches": [
+        {
+          "matchId": 497312491,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 3075
+        },
+        {
+          "matchId": 497305605,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 2031
+        },
         {
           "matchId": 497302163,
           "civ": "Huns",
@@ -21290,10 +21308,21 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "totalGames": 1,
+        "pulledDate": "2026-08-05",
+        "latestRating": 1000
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 497309481,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1600
+        }
+      ]
     }
   }
 }
