@@ -431,5 +431,19 @@ def main():
         old_path.unlink()
         print(f"Removed stale {old_path}")
 
+    # Slim, purpose-built exports for the Insights page — a handful of KB
+    # instead of the full 25-30MB aggregate-<group>.json (which carries
+    # byMap/byPatch/byWeek breakdowns Insights doesn't need). Add more of
+    # these as Insights grows rather than having it fetch the full files.
+    console_civs = {
+        "lastUpdated": date.today().isoformat(),
+        "overall":     group_aggs["console"]["civWinRates"],
+        "brackets":    {b: v["civWinRates"] for b, v in group_aggs["console"]["byEloBracket"].items()},
+    }
+    insights_path = data_dir / "insights-console-civs.json"
+    with open(insights_path, "w") as f:
+        json.dump(console_civs, f, indent=2)
+    print(f"Wrote {insights_path} ({insights_path.stat().st_size / 1024:.1f} KB)")
+
 if __name__ == "__main__":
     main()
