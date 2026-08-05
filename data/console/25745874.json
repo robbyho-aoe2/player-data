@@ -5,18 +5,69 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "totalGames": 2,
+        "pulledDate": "2026-08-05",
+        "latestRating": 1000
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 497418939,
+          "civ": "Vietnamese",
+          "map": "Fortified Clearing",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 22941359,
+              "name": "MAH_Destructor"
+            }
+          ]
+        },
+        {
+          "matchId": 497414241,
+          "civ": "Teutons",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1221,
+          "opponents": [
+            {
+              "profileId": 24078624,
+              "name": "PreciousMagnets"
+            }
+          ]
+        }
+      ]
     },
     "Team Console": {
       "meta": {
-        "totalGames": 16,
+        "totalGames": 17,
         "pulledDate": "2026-08-05",
-        "latestRating": 1174
+        "latestRating": 1191
       },
       "matches": [
+        {
+          "matchId": 497393690,
+          "civ": "Vietnamese",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1005,
+          "opponents": [
+            {
+              "profileId": 21461301,
+              "name": "Matty030890"
+            },
+            {
+              "profileId": 8719373,
+              "name": "KnockedPeach50"
+            }
+          ]
+        },
         {
           "matchId": 497279656,
           "civ": "Teutons",
