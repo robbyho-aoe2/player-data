@@ -187,6 +187,7 @@ def process_group(player_files, group=None):
     })
     by_bracket  = defaultdict(lambda: {
         "civWinRates": empty_civ_map(),
+        "byPatch":     defaultdict(empty_civ_map),
         "byWeek":      defaultdict(empty_civ_map),
     })
     by_phase    = defaultdict(empty_civ_map)
@@ -252,6 +253,8 @@ def process_group(player_files, group=None):
 
                 if bracket:
                     add_win(by_bracket[bracket]["civWinRates"], civ, won)
+                    if patch is not None:
+                        add_win(by_bracket[bracket]["byPatch"][str(patch)], civ, won)
                     if week is not None:
                         add_win(by_bracket[bracket]["byWeek"][week], civ, won)
 
@@ -302,6 +305,7 @@ def process_group(player_files, group=None):
         "byEloBracket": {
             b: {
                 "civWinRates": add_pick_rates(dict(v["civWinRates"])),
+                "byPatch":     {p: add_pick_rates(dict(pv)) for p, pv in v["byPatch"].items()},
                 "byWeek":      trim_old_weeks({w: dict(wv) for w, wv in sorted(v["byWeek"].items(), reverse=True)}),
             }
             for b, v in by_bracket.items()
