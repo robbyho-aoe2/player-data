@@ -1,0 +1,63 @@
+name: Leaderboard Sync
+
+on:
+  schedule:
+    - cron: "30 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch but don't write players.json/backfill_queue.json (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: player-data-write
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Sync PC leaderboards
+        run: |
+          ARGS="--leaderboards rm_1v1,rm_team --group pc"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python3 leaderboard_sync.py $ARGS
+
+      - name: Sync console leaderboards
+        # Runs after PC on purpose — leaderboard_sync.py inserts new finds
+        # at the FRONT of backfill_queue.json, so whichever sync runs last
+        # ends up closest to the front. backfill.yml's own console-first
+        # sort already guarantees console jumps the PC backlog regardless,
+        # but this keeps the on-disk queue order intuitive too.
+        run: |
+          ARGS="--leaderboards rm_1v1_console,rm_team_console --group console"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python3 leaderboard_sync.py $ARGS
+
+      - name: Commit and push if changed
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add players.json data/backfill_queue.json
+          git diff --staged --quiet || git commit -m "chore: leaderboard sync — new players discovered $(date -u '+%Y-%m-%d')"
+          git pull --rebase && git push || echo "Nothing to push"
