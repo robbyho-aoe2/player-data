@@ -190,6 +190,21 @@ def get_opponents(match, profile_id):
     return opponents
 
 
+def get_teammates(match, profile_id):
+    """Players on the SAME team as us, excluding ourselves. Empty for 1v1s.
+    Used for squad detection (e.g. Insights' top duos/trios/quads)."""
+    teams = match.get("teams", [])
+    for team in teams:
+        players = team.get("players", [])
+        if any(p.get("profileId") == profile_id for p in players):
+            return [
+                {"profileId": p.get("profileId"), "name": p.get("name")}
+                for p in players
+                if p.get("profileId") is not None and p.get("profileId") != profile_id
+            ]
+    return []
+
+
 def extract_match(raw, profile_id):
     lb_raw = raw.get("leaderboardName", "")
     ladder = LADDER_MAP.get(lb_raw)
@@ -217,6 +232,7 @@ def extract_match(raw, profile_id):
     dur   = compute_duration(raw)
     dt    = coerce_date(raw.get("started") or raw.get("finished"))
     opponents = get_opponents(raw, profile_id)
+    teammates = get_teammates(raw, profile_id)
 
     record = {
         "matchId":   match_id,
@@ -227,6 +243,7 @@ def extract_match(raw, profile_id):
         "date":      dt,
         "dur":       dur,
         "opponents": opponents,
+        "teammates": teammates,
     }
     return ladder, record, rating
 
