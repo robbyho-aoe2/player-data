@@ -395,9 +395,14 @@ def build_player_summary(players_list, group_files):
                 # exists to keep civ win-rate aggregates from being
                 # contaminated by crossplay games, but "highest rating this
                 # account ever hit on any ladder" isn't a civ stat, so a
-                # console player's PC-crossplay peak still belongs here.
+                # console player's PC-crossplay peak (and their current
+                # rating alongside it, for the peak-vs-now comparison)
+                # still belongs here regardless of group.
                 if meta.get("peakRating"):
-                    peaks[ladder_name] = meta["peakRating"]
+                    peaks[ladder_name] = {
+                        "peak": meta["peakRating"],
+                        "current": meta.get("latestRating"),
+                    }
                 if allowed_ladders is not None and ladder_name not in allowed_ladders:
                     continue
                 if meta.get("latestRating"):
