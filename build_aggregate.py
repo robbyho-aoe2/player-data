@@ -382,6 +382,7 @@ def build_player_summary(players_list, group_files):
             continue
 
         ratings     = {}
+        peaks       = {}
         total_games = 0
 
         allowed_ladders = GROUP_LADDERS.get(player["group"])
@@ -389,9 +390,16 @@ def build_player_summary(players_list, group_files):
             with open(path) as f:
                 p = json.load(f)
             for ladder_name, ladder_data in p.get("ladders", {}).items():
+                meta = ladder_data.get("meta", {})
+                # peaks intentionally ignore allowed_ladders — GROUP_LADDERS
+                # exists to keep civ win-rate aggregates from being
+                # contaminated by crossplay games, but "highest rating this
+                # account ever hit on any ladder" isn't a civ stat, so a
+                # console player's PC-crossplay peak still belongs here.
+                if meta.get("peakRating"):
+                    peaks[ladder_name] = meta["peakRating"]
                 if allowed_ladders is not None and ladder_name not in allowed_ladders:
                     continue
-                meta = ladder_data.get("meta", {})
                 if meta.get("latestRating"):
                     ratings[ladder_name] = meta["latestRating"]
                 total_games += meta.get("totalGames", 0)
@@ -404,6 +412,7 @@ def build_player_summary(players_list, group_files):
             "profileId":  pid,
             "group":      player["group"],   # authoritative — from players.json
             "ratings":    ratings,
+            "peaks":      peaks,
             "totalGames": total_games,
         })
 

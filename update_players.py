@@ -17,6 +17,7 @@ from pathlib import Path
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 BASE_URL      = "https://data.aoe2companion.com/api/matches"
+PROFILE_URL   = "https://data.aoe2companion.com/api/profiles"
 PAGES         = 1
 PAGE_DELAY    = 1.0
 PLAYER_DELAY  = 3.0
@@ -30,6 +31,16 @@ LADDER_MAP = {
     "Team Random Map (Controller)":"Team Console",
     "1v1 Random Map":              "1v1 PC",
     "Team Random Map":             "Team PC",
+}
+
+# leaderboardId strings as returned by /api/profiles/{id} -> our internal
+# ladder names. Separate from LADDER_MAP (which parses match records) since
+# the profile endpoint uses its own short ids.
+PROFILE_LADDER_MAP = {
+    "rm_1v1_console":  "1v1 Console",
+    "rm_team_console": "Team Console",
+    "rm_1v1":          "1v1 PC",
+    "rm_team":         "Team PC",
 }
 
 CIV_NORM = {
@@ -68,6 +79,46 @@ def api_fetch(profile_id, page):
             else:
                 raise
     raise RuntimeError("Failed after 3 retries due to rate limiting")
+
+
+def fetch_peak_ratings(profile_id):
+    """Highest-ever rating per ladder, straight from aoe2companion's own
+    rating-change history (/api/profiles/{id}). meta.latestRating alone
+    understates a player who's since gone quiet — the live leaderboard
+    endpoint drops anyone not currently ranked this season, so a player's
+    true peak can only be recovered from their full history, not from
+    scanning the active leaderboard."""
+    url = f"{PROFILE_URL}/{profile_id}"
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"}
+    )
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                data = json.loads(resp.read().decode())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = 30 * (attempt + 1)
+                print(f"  429 rate limit (profile) — waiting {wait}s before retry {attempt + 1}/3")
+                time.sleep(wait)
+            elif e.code == 404:
+                return {}
+            else:
+                raise
+    else:
+        raise RuntimeError("Failed after 3 retries due to rate limiting (profile)")
+
+    peaks = {}
+    for entry in data.get("ratings", []):
+        ladder = PROFILE_LADDER_MAP.get(entry.get("leaderboardId"))
+        if not ladder:
+            continue
+        hist = [x["rating"] for x in (entry.get("ratings") or []) if x.get("rating") is not None]
+        if hist:
+            peaks[ladder] = max(hist)
+    return peaks
 
 
 def parse_iso(ts):
@@ -274,7 +325,18 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
 
     print(f"  total fetched={total_fetched}, new={total_new}")
 
-    if total_new == 0 and not latest_rating:
+    try:
+        peak_ratings = fetch_peak_ratings(profile_id)
+    except Exception as e:
+        print(f"  peak-rating fetch failed: {type(e).__name__}: {e}")
+        peak_ratings = {}
+
+    peak_changed = any(
+        (peak_ratings.get(ladder) or 0) > (existing["ladders"][ladder].get("meta", {}).get("peakRating") or 0)
+        for ladder in existing["ladders"]
+    )
+
+    if total_new == 0 and not latest_rating and not peak_changed:
         print(f"  no changes — skipping write")
         return False, found_name
 
@@ -291,6 +353,9 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         meta["pulledDate"] = today
         if ladder in latest_rating and latest_rating[ladder] is not None:
             meta["latestRating"] = latest_rating[ladder]
+        new_peak = peak_ratings.get(ladder)
+        if new_peak is not None:
+            meta["peakRating"] = max(meta.get("peakRating") or 0, new_peak)
 
     if dry_run:
         print(f"  DRY RUN — would write {out_path}")
