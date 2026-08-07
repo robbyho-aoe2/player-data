@@ -1,7 +1,7 @@
 name: Backfill New Players
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "17 */2 * * *"
   workflow_dispatch:
     inputs:
       pages:
