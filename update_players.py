@@ -338,7 +338,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
 
     if total_new == 0 and not latest_rating and not peak_changed:
         print(f"  no changes — skipping write")
-        return False, found_name
+        return False, found_name, None
 
     today = date.today().isoformat()
     for ladder in existing["ladders"]:
@@ -357,16 +357,42 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         if new_peak is not None:
             meta["peakRating"] = max(meta.get("peakRating") or 0, new_peak)
 
+    # Self-healing group check: crossplay means a "pc"-tracked account can
+    # turn out to have real console-ladder history (they were only found on
+    # a PC leaderboard scan first, or dabble in crossplay) — any console
+    # games at all means they're almost certainly a console player. Catching
+    # it here, at the moment their data is actually fetched, is far more
+    # scalable than a one-time bulk audit against the live API.
+    reclassified_group = None
+    if group == "pc":
+        console_games = (
+            len(existing["ladders"].get("1v1 Console", {}).get("matches", []))
+            + len(existing["ladders"].get("Team Console", {}).get("matches", []))
+        )
+        if console_games > 0:
+            print(f"  RECLASSIFY — {console_games} console-ladder games found, pc -> console")
+            reclassified_group = "console"
+            existing["group"] = "console"
+            new_out_path = get_player_path(data_dir, "console", profile_id)
+            if dry_run:
+                print(f"  DRY RUN — would move to {new_out_path}")
+            else:
+                with open(new_out_path, "w") as f:
+                    json.dump(existing, f, indent=2)
+                out_path.unlink(missing_ok=True)
+                print(f"  moved {out_path} -> {new_out_path}")
+            return True, found_name, reclassified_group
+
     if dry_run:
         print(f"  DRY RUN — would write {out_path}")
-        return False, found_name
+        return False, found_name, None
 
     with open(out_path, "w") as f:
         json.dump(existing, f, indent=2)
     print(f"  wrote {out_path}")
     if found_name and found_name != name:
         print(f"  found real name: {found_name!r}")
-    return True, found_name
+    return True, found_name, None
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
@@ -437,16 +463,20 @@ def main():
 
     any_changed = False
     needs_name_update = False
+    needs_group_update = False
     errors = []
 
     for i, player in enumerate(players):
         try:
-            changed, real_name = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
+            changed, real_name, new_group = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
             any_changed = any_changed or changed
             # Update players.json if we found a real name for a placeholder entry
             if real_name and player["name"].startswith("player_") and not args.dry_run:
                 player["name"] = real_name
                 needs_name_update = True
+            if new_group and not args.dry_run:
+                player["group"] = new_group
+                needs_group_update = True
         except Exception as e:
             msg = f"{player['name']} ({player['profileId']}): {type(e).__name__}: {e}"
             print(f"  ERROR — {msg}")
@@ -455,16 +485,22 @@ def main():
         if i < len(players) - 1:
             time.sleep(PLAYER_DELAY)
 
-    if needs_name_update and not args.dry_run:
+    if (needs_name_update or needs_group_update) and not args.dry_run:
         with open(players_path) as f:
             all_players = json.load(f)
         name_map = {p["profileId"]: p["name"] for p in players}
+        group_map = {p["profileId"]: p["group"] for p in players}
         for p in all_players:
             if p["profileId"] in name_map:
                 p["name"] = name_map[p["profileId"]]
+            if p["profileId"] in group_map:
+                p["group"] = group_map[p["profileId"]]
         with open(players_path, "w") as f:
             json.dump(all_players, f, indent=2)
-        print("  Updated player names in players.json")
+        if needs_name_update:
+            print("  Updated player names in players.json")
+        if needs_group_update:
+            print("  Updated player groups in players.json")
 
     print(f"\n=== Done — changed={any_changed}, errors={len(errors)} ===")
     if errors:
