@@ -605,6 +605,14 @@ def main():
             "1v1 Console":  process_civs_by_ladder(group_files["console"], ["1v1 Console"]),
             "Team Console": process_civs_by_ladder(group_files["console"], ["Team Console"]),
         },
+        # Total games per bracket per week (Monday-of-week -> games) — just
+        # enough for Play Intensity's date-range filter (All Time/This
+        # Year/Last 90 Days) without shipping the full per-civ byWeek
+        # breakdown, which Insights doesn't otherwise need.
+        "weeklyGamesByBracket": {
+            b: {w: sum(c["games"] for c in civmap.values()) for w, civmap in v.get("byWeek", {}).items()}
+            for b, v in group_aggs["console"]["byEloBracket"].items()
+        },
     }
     insights_path = data_dir / "insights-console-civs.json"
     with open(insights_path, "w") as f:
