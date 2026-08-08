@@ -599,7 +599,7 @@ def main():
     print(f"Wrote {insights_path} ({insights_path.stat().st_size / 1024:.1f} KB)")
 
     console_tracked_ids = {int(p.stem) for p in group_files["console"]}
-    console_squads = build_squad_stats(group_files["console"], ["Team Console"], console_tracked_ids)
+    console_squads = build_squad_stats(group_files["console"], ["Team Console", "Team PC"], console_tracked_ids)
     console_squads["lastUpdated"] = date.today().isoformat()
     squads_path = data_dir / "insights-console-squads.json"
     with open(squads_path, "w") as f:
