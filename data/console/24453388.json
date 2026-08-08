@@ -6,83 +6,11 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-08-05",
+        "pulledDate": "2026-08-08",
         "latestRating": 1074,
         "peakRating": 1074
       },
       "matches": [
-        {
-          "matchId": 487910767,
-          "civ": "Franks",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-25",
-          "dur": 1009
-        },
-        {
-          "matchId": 487704718,
-          "civ": "Franks",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-24",
-          "dur": 1535
-        },
-        {
-          "matchId": 487702078,
-          "civ": "Franks",
-          "map": "Loch Ness",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-24",
-          "dur": 1187
-        },
-        {
-          "matchId": 487700369,
-          "civ": "Franks",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-24",
-          "dur": 950
-        },
-        {
-          "matchId": 487698229,
-          "civ": "Khmer",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-24",
-          "dur": 1243
-        },
-        {
-          "matchId": 484761347,
-          "civ": "Bulgarians",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1796,
-          "date": "2026-06-12",
-          "dur": 1828
-        },
-        {
-          "matchId": 484754683,
-          "civ": "Bulgarians",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-12",
-          "dur": 856
-        },
-        {
-          "matchId": 484752994,
-          "civ": "Bulgarians",
-          "map": "Four Lakes",
-          "won": true,
-          "patch": 1796,
-          "date": "2026-06-12",
-          "dur": 635
-        },
         {
           "matchId": 493401985,
           "civ": "Bulgarians",
@@ -90,7 +18,14 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-19",
-          "dur": 544
+          "dur": 544,
+          "opponents": [
+            {
+              "profileId": 25141227,
+              "name": "wouterinho"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 493387732,
@@ -99,7 +34,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-19",
-          "dur": 1102
+          "dur": 1102,
+          "opponents": [
+            {
+              "profileId": 25301809,
+              "name": "reitesen"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 491402229,
@@ -108,7 +50,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-10",
-          "dur": 1029
+          "dur": 1029,
+          "opponents": [
+            {
+              "profileId": 24381647,
+              "name": "Mowtant"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 490221161,
@@ -117,26 +66,593 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-05",
-          "dur": 2044
+          "dur": 2044,
+          "opponents": [
+            {
+              "profileId": 25556218,
+              "name": "coju18"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 487910767,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-25",
+          "dur": 1009,
+          "opponents": [
+            {
+              "profileId": 22755336,
+              "name": "HighSkilla88"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 487704718,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-24",
+          "dur": 1535,
+          "opponents": [
+            {
+              "profileId": 25603814,
+              "name": "nerdkillerCORN"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 487702078,
+          "civ": "Franks",
+          "map": "Loch Ness",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-24",
+          "dur": 1187,
+          "opponents": [
+            {
+              "profileId": 24012791,
+              "name": "Esi_Nahka69"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 487700369,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-24",
+          "dur": 950,
+          "opponents": [
+            {
+              "profileId": 25603814,
+              "name": "nerdkillerCORN"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 487698229,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-24",
+          "dur": 1243,
+          "opponents": [
+            {
+              "profileId": 23194984,
+              "name": "MulletMad366d"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 484761347,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1796,
+          "date": "2026-06-12",
+          "dur": 1828,
+          "opponents": [
+            {
+              "profileId": 23190446,
+              "name": "Andre_D1991"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 484754683,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-12",
+          "dur": 856,
+          "opponents": [
+            {
+              "profileId": 22706515,
+              "name": "jasonmitch546"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 484752994,
+          "civ": "Bulgarians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1796,
+          "date": "2026-06-12",
+          "dur": 635,
+          "opponents": [
+            {
+              "profileId": 23762993,
+              "name": "DreckSa-ckBIase"
+            }
+          ],
+          "teammates": []
         }
       ]
     },
     "Team Console": {
       "meta": {
-        "totalGames": 137,
-        "pulledDate": "2026-08-05",
-        "latestRating": 1280,
+        "totalGames": 153,
+        "pulledDate": "2026-08-08",
+        "latestRating": 1200,
         "peakRating": 1306
       },
       "matches": [
         {
+          "matchId": 497874037,
+          "civ": "Aztecs",
+          "map": "Fortified Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 1344,
+          "opponents": [
+            {
+              "profileId": 22708107,
+              "name": "Hans_Wurst_89"
+            },
+            {
+              "profileId": 23300866,
+              "name": "MonsterCowboy24"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497869190,
+          "civ": "Turks",
+          "map": "Fortified Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 1292,
+          "opponents": [
+            {
+              "profileId": 22708107,
+              "name": "Hans_Wurst_89"
+            },
+            {
+              "profileId": 24975801,
+              "name": "robsogo_1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497865360,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 834,
+          "opponents": [
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            },
+            {
+              "profileId": 22840459,
+              "name": "CloudAth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497858654,
+          "civ": "Spanish",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 1539,
+          "opponents": [
+            {
+              "profileId": 24839705,
+              "name": "Candidus"
+            },
+            {
+              "profileId": 22840459,
+              "name": "CloudAth"
+            },
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            }
+          ]
+        },
+        {
+          "matchId": 497847861,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 1699,
+          "opponents": [
+            {
+              "profileId": 22801064,
+              "name": "Pantonio_LA"
+            },
+            {
+              "profileId": 22840459,
+              "name": "CloudAth"
+            },
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497843354,
+          "civ": "Tatars",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 155,
+          "opponents": [
+            {
+              "profileId": 22840459,
+              "name": "CloudAth"
+            },
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497656124,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-06",
+          "dur": 1606,
+          "opponents": [
+            {
+              "profileId": 22700626,
+              "name": "bouledogue-62"
+            },
+            {
+              "profileId": 23702367,
+              "name": "elunicosantander"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497649045,
+          "civ": "Tatars",
+          "map": "Fortified Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-06",
+          "dur": 1651,
+          "opponents": [
+            {
+              "profileId": 25426176,
+              "name": "Aimilios89pro"
+            },
+            {
+              "profileId": 24023240,
+              "name": "Nuage-Magicien"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497640453,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-06",
+          "dur": 2366,
+          "opponents": [
+            {
+              "profileId": 24117945,
+              "name": "JWC-J-BONE"
+            },
+            {
+              "profileId": 24115416,
+              "name": "HEAMAN-95"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497630436,
+          "civ": "Teutons",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-06",
+          "dur": 1367,
+          "opponents": [
+            {
+              "profileId": 22765180,
+              "name": "EnzoAmaral99"
+            },
+            {
+              "profileId": 22825942,
+              "name": "MultiFrugtJuice"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497625074,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-06",
+          "dur": 1060,
+          "opponents": [
+            {
+              "profileId": 23945386,
+              "name": "Kasas-9419"
+            },
+            {
+              "profileId": 24043382,
+              "name": "kendolong"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497442058,
+          "civ": "Saracens",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1828,
+          "opponents": [
+            {
+              "profileId": 24103874,
+              "name": "SarenS_pG"
+            },
+            {
+              "profileId": 23157237,
+              "name": "Arx_Based"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497435963,
+          "civ": "Malians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1854,
+          "opponents": [
+            {
+              "profileId": 22933131,
+              "name": "MyLittleCrabou"
+            },
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497430332,
+          "civ": "Malians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 23247685,
+              "name": "ServalFurtif"
+            },
+            {
+              "profileId": 22700626,
+              "name": "bouledogue-62"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497425936,
+          "civ": "Poles",
+          "map": "QS Runestones",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1109,
+          "opponents": [
+            {
+              "profileId": 23272470,
+              "name": "hamed-toxic"
+            },
+            {
+              "profileId": 25417882,
+              "name": "Dr-Moz89"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 497418855,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-05",
+          "dur": 1581,
+          "opponents": [
+            {
+              "profileId": 23597907,
+              "name": "ihaveahat24"
+            },
+            {
+              "profileId": 22889096,
+              "name": "kuppy321"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
           "matchId": 497232197,
           "civ": "Celts",
           "map": "Gold Rush",
-          "won": null,
+          "won": true,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": null
+          "dur": 1944,
+          "opponents": [
+            {
+              "profileId": 24835015,
+              "name": "Maxiga1998"
+            },
+            {
+              "profileId": 25679321,
+              "name": "preditore_98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497226448,
@@ -145,7 +661,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 1624
+          "dur": 1624,
+          "opponents": [
+            {
+              "profileId": 22753596,
+              "name": "SammyDiamonds"
+            },
+            {
+              "profileId": 25045597,
+              "name": "Taura_dospampas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497225139,
@@ -154,7 +686,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 48
+          "dur": 48,
+          "opponents": [
+            {
+              "profileId": 24067180,
+              "name": "Bacio_Tv"
+            },
+            {
+              "profileId": 22753596,
+              "name": "SammyDiamonds"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497217561,
@@ -163,7 +711,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 2119
+          "dur": 2119,
+          "opponents": [
+            {
+              "profileId": 25679321,
+              "name": "preditore_98"
+            },
+            {
+              "profileId": 24835015,
+              "name": "Maxiga1998"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497211475,
@@ -172,7 +736,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 1770
+          "dur": 1770,
+          "opponents": [
+            {
+              "profileId": 23406355,
+              "name": "messi57barca"
+            },
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497204637,
@@ -181,7 +761,23 @@
           "won": null,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": null
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            },
+            {
+              "profileId": 23343475,
+              "name": "DANY_THA_GOER559"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497197087,
@@ -190,7 +786,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 1358
+          "dur": 1358,
+          "opponents": [
+            {
+              "profileId": 25889227,
+              "name": "vTwin_UK"
+            },
+            {
+              "profileId": 22800241,
+              "name": "Griffin1294"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497186965,
@@ -199,7 +811,23 @@
           "won": null,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": null
+          "dur": 2471,
+          "opponents": [
+            {
+              "profileId": 22828998,
+              "name": "LibertTV"
+            },
+            {
+              "profileId": 22765180,
+              "name": "EnzoAmaral99"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497016085,
@@ -208,7 +836,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-03",
-          "dur": 1707
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 22800096,
+              "name": "Hysroo---"
+            },
+            {
+              "profileId": 22801184,
+              "name": "Flo-_-infernal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 497011462,
@@ -217,7 +861,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-03",
-          "dur": 1651
+          "dur": 1651,
+          "opponents": [
+            {
+              "profileId": 22889096,
+              "name": "kuppy321"
+            },
+            {
+              "profileId": 23597907,
+              "name": "ihaveahat24"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496997364,
@@ -226,7 +886,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-03",
-          "dur": 1069
+          "dur": 1069,
+          "opponents": [
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            },
+            {
+              "profileId": 22944623,
+              "name": "NobbertMitMoped"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496986738,
@@ -235,7 +911,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-03",
-          "dur": 2709
+          "dur": 2709,
+          "opponents": [
+            {
+              "profileId": 22944623,
+              "name": "NobbertMitMoped"
+            },
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496976722,
@@ -244,7 +936,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-03",
-          "dur": 282
+          "dur": 282,
+          "opponents": [
+            {
+              "profileId": 25445555,
+              "name": "Lucky_Strike_33_"
+            },
+            {
+              "profileId": 22700626,
+              "name": "bouledogue-62"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496972200,
@@ -253,7 +961,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-03",
-          "dur": 1096
+          "dur": 1096,
+          "opponents": [
+            {
+              "profileId": 23316121,
+              "name": "Kx2plus1xgut"
+            },
+            {
+              "profileId": 24415510,
+              "name": "karahan1993"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496774002,
@@ -262,16 +986,48 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-02",
-          "dur": 2103
+          "dur": 2103,
+          "opponents": [
+            {
+              "profileId": 23744474,
+              "name": "SirDunkTheBalls"
+            },
+            {
+              "profileId": 23210571,
+              "name": "Missioner-o"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496770134,
           "civ": "Slavs",
           "map": "Four Lakes",
-          "won": null,
+          "won": true,
           "patch": 1800,
           "date": "2026-08-02",
-          "dur": null
+          "dur": 502,
+          "opponents": [
+            {
+              "profileId": 22720902,
+              "name": "MaggusTheBeast"
+            },
+            {
+              "profileId": 22720994,
+              "name": "Russkiy-s-ak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496763101,
@@ -280,7 +1036,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-02",
-          "dur": 784
+          "dur": 784,
+          "opponents": [
+            {
+              "profileId": 25936364,
+              "name": "JohnsCrustySock"
+            },
+            {
+              "profileId": 25877215,
+              "name": "Muffin-Man454"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496758848,
@@ -289,7 +1061,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-02",
-          "dur": 743
+          "dur": 743,
+          "opponents": [
+            {
+              "profileId": 25877215,
+              "name": "Muffin-Man454"
+            },
+            {
+              "profileId": 25936364,
+              "name": "JohnsCrustySock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496743755,
@@ -298,583 +1086,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-02",
-          "dur": 1593
-        },
-        {
-          "matchId": 489443514,
-          "civ": "Poles",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-07-01",
-          "dur": 1038
-        },
-        {
-          "matchId": 489439388,
-          "civ": "Poles",
-          "map": "Team Moats",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-07-01",
-          "dur": 1098
-        },
-        {
-          "matchId": 489436482,
-          "civ": "Poles",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-07-01",
-          "dur": 666
-        },
-        {
-          "matchId": 489358846,
-          "civ": "Britons",
-          "map": "Glade",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-07-01",
-          "dur": 2679
-        },
-        {
-          "matchId": 489355686,
-          "civ": "Poles",
-          "map": "Team Moats",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-07-01",
-          "dur": 1007
-        },
-        {
-          "matchId": 489251915,
-          "civ": "Britons",
-          "map": "Fortress",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-30",
-          "dur": 2558
-        },
-        {
-          "matchId": 489248455,
-          "civ": "Britons",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-30",
-          "dur": 638
-        },
-        {
-          "matchId": 489243817,
-          "civ": "Britons",
-          "map": "Team Moats",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-30",
-          "dur": 1157
-        },
-        {
-          "matchId": 489237683,
-          "civ": "Britons",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-30",
-          "dur": 2082
-        },
-        {
-          "matchId": 489015708,
-          "civ": "Britons",
-          "map": "Glade",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-29",
-          "dur": 1047
-        },
-        {
-          "matchId": 488953475,
-          "civ": "Franks",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-29",
-          "dur": 2192
-        },
-        {
-          "matchId": 488826675,
-          "civ": "Franks",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-28",
-          "dur": 3081
-        },
-        {
-          "matchId": 488820250,
-          "civ": "Franks",
-          "map": "Fortress",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-28",
-          "dur": 1032
-        },
-        {
-          "matchId": 488812981,
-          "civ": "Franks",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-28",
-          "dur": 1154
-        },
-        {
-          "matchId": 488807094,
-          "civ": "Franks",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-28",
-          "dur": 1321
-        },
-        {
-          "matchId": 488804292,
-          "civ": "Franks",
-          "map": "Team Moats",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-28",
-          "dur": 269
-        },
-        {
-          "matchId": 488545661,
-          "civ": "Franks",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 609
-        },
-        {
-          "matchId": 488537569,
-          "civ": "Franks",
-          "map": "Arena",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 1850
-        },
-        {
-          "matchId": 488525021,
-          "civ": "Franks",
-          "map": "Arena",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 2873
-        },
-        {
-          "matchId": 488516401,
-          "civ": "Franks",
-          "map": "Glade",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 718
-        },
-        {
-          "matchId": 488509293,
-          "civ": "Franks",
-          "map": "Fortress",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 1014
-        },
-        {
-          "matchId": 488276318,
-          "civ": "Franks",
-          "map": "Glade",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-26",
-          "dur": 1064
-        },
-        {
-          "matchId": 488266647,
-          "civ": "Franks",
-          "map": "Team Moats",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-26",
-          "dur": 2299
-        },
-        {
-          "matchId": 488261370,
-          "civ": "Franks",
-          "map": "Team Moats",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-26",
-          "dur": 1197
-        },
-        {
-          "matchId": 488254752,
-          "civ": "Franks",
-          "map": "Team Moats",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-26",
-          "dur": 1107
-        },
-        {
-          "matchId": 487613381,
-          "civ": "Ethiopians",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 1670
-        },
-        {
-          "matchId": 487606814,
-          "civ": "Ethiopians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 1269
-        },
-        {
-          "matchId": 487606266,
-          "civ": "Ethiopians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 26
-        },
-        {
-          "matchId": 487596212,
-          "civ": "Italians",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 2638
-        },
-        {
-          "matchId": 487592813,
-          "civ": "Italians",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 834
-        },
-        {
-          "matchId": 487586551,
-          "civ": "Mongols",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 1060
-        },
-        {
-          "matchId": 487497598,
-          "civ": "Bulgarians",
-          "map": "Socotra",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 1242
-        },
-        {
-          "matchId": 487495089,
-          "civ": "Khmer",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-23",
-          "dur": 1166
-        },
-        {
-          "matchId": 487385502,
-          "civ": "Ethiopians",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 1857
-        },
-        {
-          "matchId": 487378989,
-          "civ": "Teutons",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 1590
-        },
-        {
-          "matchId": 487369684,
-          "civ": "Burgundians",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 2051
-        },
-        {
-          "matchId": 487361426,
-          "civ": "Khmer",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 1747
-        },
-        {
-          "matchId": 487301935,
-          "civ": "Burgundians",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 1746
-        },
-        {
-          "matchId": 487301025,
-          "civ": "Goths",
-          "map": "Socotra",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 76
-        },
-        {
-          "matchId": 487297662,
-          "civ": "Goths",
-          "map": "Socotra",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 1006
-        },
-        {
-          "matchId": 487296545,
-          "civ": "Burgundians",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 343
-        },
-        {
-          "matchId": 487292177,
-          "civ": "Burgundians",
-          "map": "Highland",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 1468
-        },
-        {
-          "matchId": 486394632,
-          "civ": "Khmer",
-          "map": "Highland",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-18",
-          "dur": 1347
-        },
-        {
-          "matchId": 486390905,
-          "civ": "Cumans",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-18",
-          "dur": 1062
-        },
-        {
-          "matchId": 486383774,
-          "civ": "Cumans",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-18",
-          "dur": 1995
-        },
-        {
-          "matchId": 486254130,
-          "civ": "Cumans",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-18",
-          "dur": 2106
-        },
-        {
-          "matchId": 486044943,
-          "civ": "Khmer",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-17",
-          "dur": 1771
-        },
-        {
-          "matchId": 486041489,
-          "civ": "Khmer",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-17",
-          "dur": 1382
-        },
-        {
-          "matchId": 486039924,
-          "civ": "Khmer",
-          "map": "Highland",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-17",
-          "dur": 808
-        },
-        {
-          "matchId": 486038008,
-          "civ": "Khmer",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-17",
-          "dur": 702
-        },
-        {
-          "matchId": 486034505,
-          "civ": "Khmer",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-17",
-          "dur": 1584
-        },
-        {
-          "matchId": 485924085,
-          "civ": "Bulgarians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-16",
-          "dur": 969
-        },
-        {
-          "matchId": 484429328,
-          "civ": "Byzantines",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1796,
-          "date": "2026-06-10",
-          "dur": 905
-        },
-        {
-          "matchId": 484426071,
-          "civ": "Byzantines",
-          "map": "Black Forest",
-          "won": null,
-          "patch": 1796,
-          "date": "2026-06-10",
-          "dur": null
-        },
-        {
-          "matchId": 484422948,
-          "civ": "Byzantines",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1796,
-          "date": "2026-06-10",
-          "dur": 694
-        },
-        {
-          "matchId": 484419589,
-          "civ": "Byzantines",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1796,
-          "date": "2026-06-10",
-          "dur": 666
-        },
-        {
-          "matchId": 484412905,
-          "civ": "Turks",
-          "map": "Budapest",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-10",
-          "dur": 1666
-        },
-        {
-          "matchId": 477473632,
-          "civ": "Turks",
-          "map": "Arena",
-          "won": false,
-          "patch": 1792,
-          "date": "2026-05-13",
-          "dur": 1542
-        },
-        {
-          "matchId": 477470824,
-          "civ": "Ethiopians",
-          "map": "Northern Isles",
-          "won": true,
-          "patch": 1792,
-          "date": "2026-05-13",
-          "dur": 733
-        },
-        {
-          "matchId": 472860294,
-          "civ": "Ethiopians",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1791,
-          "date": "2026-04-24",
-          "dur": 4625
-        },
-        {
-          "matchId": 466013263,
-          "civ": "Persians",
-          "map": "Mountain Ridge",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-27",
-          "dur": 2343
-        },
-        {
-          "matchId": 460708145,
-          "civ": "Turks",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-04",
-          "dur": 1740
-        },
-        {
-          "matchId": 460698529,
-          "civ": "Byzantines",
-          "map": "Arena",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-04",
-          "dur": 2011
-        },
-        {
-          "matchId": 460696313,
-          "civ": "Portuguese",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-04",
-          "dur": 286
+          "dur": 1593,
+          "opponents": [
+            {
+              "profileId": 23503200,
+              "name": "toon_vw"
+            },
+            {
+              "profileId": 23525138,
+              "name": "Zwelgbeer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496518140,
@@ -883,7 +1111,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 1871
+          "dur": 1871,
+          "opponents": [
+            {
+              "profileId": 23888450,
+              "name": "ManlikeMuu"
+            },
+            {
+              "profileId": 23790891,
+              "name": "Sam_Sesh3000"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496513881,
@@ -892,7 +1136,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 953
+          "dur": 953,
+          "opponents": [
+            {
+              "profileId": 23888450,
+              "name": "ManlikeMuu"
+            },
+            {
+              "profileId": 23790891,
+              "name": "Sam_Sesh3000"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496508870,
@@ -901,7 +1161,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 47
+          "dur": 47,
+          "opponents": [
+            {
+              "profileId": 22720902,
+              "name": "MaggusTheBeast"
+            },
+            {
+              "profileId": 22720994,
+              "name": "Russkiy-s-ak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496499627,
@@ -910,7 +1186,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 2026
+          "dur": 2026,
+          "opponents": [
+            {
+              "profileId": 22720994,
+              "name": "Russkiy-s-ak"
+            },
+            {
+              "profileId": 22720902,
+              "name": "MaggusTheBeast"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496494621,
@@ -919,7 +1211,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 946
+          "dur": 946,
+          "opponents": [
+            {
+              "profileId": 22720994,
+              "name": "Russkiy-s-ak"
+            },
+            {
+              "profileId": 22720902,
+              "name": "MaggusTheBeast"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 496489159,
@@ -928,7 +1236,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 1236
+          "dur": 1236,
+          "opponents": [
+            {
+              "profileId": 25889227,
+              "name": "vTwin_UK"
+            },
+            {
+              "profileId": 22800241,
+              "name": "Griffin1294"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494885133,
@@ -937,7 +1261,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-25",
-          "dur": 1876
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 24070003,
+              "name": "xerrinho"
+            },
+            {
+              "profileId": 22869677,
+              "name": "peguan4"
+            },
+            {
+              "profileId": 23701812,
+              "name": "RuubenESP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494622060,
@@ -946,7 +1294,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-24",
-          "dur": 615
+          "dur": 615,
+          "opponents": [
+            {
+              "profileId": 22708107,
+              "name": "Hans_Wurst_89"
+            },
+            {
+              "profileId": 25863377,
+              "name": "side_break14"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494612980,
@@ -955,7 +1319,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-24",
-          "dur": 2411
+          "dur": 2411,
+          "opponents": [
+            {
+              "profileId": 23157237,
+              "name": "Arx_Based"
+            },
+            {
+              "profileId": 24975801,
+              "name": "robsogo_1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494602112,
@@ -964,7 +1344,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-24",
-          "dur": 2008
+          "dur": 2008,
+          "opponents": [
+            {
+              "profileId": 22869677,
+              "name": "peguan4"
+            },
+            {
+              "profileId": 25745874,
+              "name": "whiteboytroy82"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494591890,
@@ -973,7 +1369,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-24",
-          "dur": 1504
+          "dur": 1504,
+          "opponents": [
+            {
+              "profileId": 23632088,
+              "name": "sonniesmith123"
+            },
+            {
+              "profileId": 22974493,
+              "name": "LukeWLondon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494586802,
@@ -982,7 +1394,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-24",
-          "dur": 1107
+          "dur": 1107,
+          "opponents": [
+            {
+              "profileId": 23632088,
+              "name": "sonniesmith123"
+            },
+            {
+              "profileId": 22974493,
+              "name": "LukeWLondon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494389619,
@@ -991,7 +1419,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 1971
+          "dur": 1971,
+          "opponents": [
+            {
+              "profileId": 23597907,
+              "name": "ihaveahat24"
+            },
+            {
+              "profileId": 22889096,
+              "name": "kuppy321"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494382092,
@@ -1000,7 +1444,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 2004
+          "dur": 2004,
+          "opponents": [
+            {
+              "profileId": 23597907,
+              "name": "ihaveahat24"
+            },
+            {
+              "profileId": 22889096,
+              "name": "kuppy321"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494370506,
@@ -1009,7 +1469,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 2244
+          "dur": 2244,
+          "opponents": [
+            {
+              "profileId": 22768756,
+              "name": "kdobbyd"
+            },
+            {
+              "profileId": 25141227,
+              "name": "wouterinho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494364366,
@@ -1018,7 +1494,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 1546
+          "dur": 1546,
+          "opponents": [
+            {
+              "profileId": 22789481,
+              "name": "ptena92"
+            },
+            {
+              "profileId": 22703421,
+              "name": "Macaroni-LGA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 494357171,
@@ -1027,7 +1519,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 1034
+          "dur": 1034,
+          "opponents": [
+            {
+              "profileId": 25398160,
+              "name": "Mauro_Castro33"
+            },
+            {
+              "profileId": 22768756,
+              "name": "kdobbyd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493956718,
@@ -1036,7 +1544,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 2250
+          "dur": 2250,
+          "opponents": [
+            {
+              "profileId": 23368991,
+              "name": "DiabloZz76"
+            },
+            {
+              "profileId": 24103874,
+              "name": "SarenS_pG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493948431,
@@ -1045,7 +1569,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 2326
+          "dur": 2326,
+          "opponents": [
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            },
+            {
+              "profileId": 22944623,
+              "name": "NobbertMitMoped"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493944761,
@@ -1054,7 +1594,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 781
+          "dur": 781,
+          "opponents": [
+            {
+              "profileId": 24067180,
+              "name": "Bacio_Tv"
+            },
+            {
+              "profileId": 22801064,
+              "name": "Pantonio_LA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493939841,
@@ -1063,7 +1619,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 1212
+          "dur": 1212,
+          "opponents": [
+            {
+              "profileId": 23632088,
+              "name": "sonniesmith123"
+            },
+            {
+              "profileId": 22974493,
+              "name": "LukeWLondon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493933507,
@@ -1072,7 +1644,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 1428
+          "dur": 1428,
+          "opponents": [
+            {
+              "profileId": 23632088,
+              "name": "sonniesmith123"
+            },
+            {
+              "profileId": 22974493,
+              "name": "LukeWLondon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493920600,
@@ -1081,7 +1669,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 2801
+          "dur": 2801,
+          "opponents": [
+            {
+              "profileId": 22765180,
+              "name": "EnzoAmaral99"
+            },
+            {
+              "profileId": 22978867,
+              "name": "Antho-XC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493868692,
@@ -1090,7 +1694,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 1319
+          "dur": 1319,
+          "opponents": [
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            },
+            {
+              "profileId": 23000413,
+              "name": "Mr-Lama-31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493857252,
@@ -1099,7 +1719,23 @@
           "won": null,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": null
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 24460749,
+              "name": "McSeb1807"
+            },
+            {
+              "profileId": 24839705,
+              "name": "Candidus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493405590,
@@ -1108,7 +1744,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-19",
-          "dur": 1514
+          "dur": 1514,
+          "opponents": [
+            {
+              "profileId": 22749768,
+              "name": "itz_slicks_world"
+            },
+            {
+              "profileId": 23088458,
+              "name": "saulys"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493255282,
@@ -1117,7 +1769,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-18",
-          "dur": 3749
+          "dur": 3749,
+          "opponents": [
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            },
+            {
+              "profileId": 22944623,
+              "name": "NobbertMitMoped"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493252161,
@@ -1126,7 +1794,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-18",
-          "dur": 547
+          "dur": 547,
+          "opponents": [
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            },
+            {
+              "profileId": 22944623,
+              "name": "NobbertMitMoped"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 493238670,
@@ -1135,7 +1819,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-18",
-          "dur": 3166
+          "dur": 3166,
+          "opponents": [
+            {
+              "profileId": 22729411,
+              "name": "zSkittlzV2"
+            },
+            {
+              "profileId": 22930485,
+              "name": "F-elix_TNM"
+            },
+            {
+              "profileId": 22732392,
+              "name": "yDreamyy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 492772341,
@@ -1144,7 +1852,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-16",
-          "dur": 2958
+          "dur": 2958,
+          "opponents": [
+            {
+              "profileId": 22769977,
+              "name": "pacific568jour"
+            },
+            {
+              "profileId": 23527519,
+              "name": "irontitouan"
+            },
+            {
+              "profileId": 22794373,
+              "name": "brunouch2023"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 24381647,
+              "name": "Mowtant"
+            }
+          ]
         },
         {
           "matchId": 492758924,
@@ -1153,7 +1885,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-16",
-          "dur": 3534
+          "dur": 3534,
+          "opponents": [
+            {
+              "profileId": 22755336,
+              "name": "HighSkilla88"
+            },
+            {
+              "profileId": 22744367,
+              "name": "No-Way_023"
+            },
+            {
+              "profileId": 22723057,
+              "name": "JonGhbaK88"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381647,
+              "name": "Mowtant"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491927419,
@@ -1162,7 +1918,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-12",
-          "dur": 1795
+          "dur": 1795,
+          "opponents": [
+            {
+              "profileId": 25426176,
+              "name": "Aimilios89pro"
+            },
+            {
+              "profileId": 23406355,
+              "name": "messi57barca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491919572,
@@ -1171,7 +1943,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-12",
-          "dur": 1266
+          "dur": 1266,
+          "opponents": [
+            {
+              "profileId": 25841660,
+              "name": "co-cancowboy"
+            },
+            {
+              "profileId": 25504972,
+              "name": "AhnelReaper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491914291,
@@ -1180,7 +1968,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-12",
-          "dur": 1156
+          "dur": 1156,
+          "opponents": [
+            {
+              "profileId": 22834382,
+              "name": "Velid743"
+            },
+            {
+              "profileId": 22742821,
+              "name": "Mihi1326"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491897812,
@@ -1189,7 +1993,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-12",
-          "dur": 1167
+          "dur": 1167,
+          "opponents": [
+            {
+              "profileId": 23406355,
+              "name": "messi57barca"
+            },
+            {
+              "profileId": 23016384,
+              "name": "JohnnyJarhead050"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491679466,
@@ -1198,7 +2018,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-11",
-          "dur": 90
+          "dur": 90,
+          "opponents": [
+            {
+              "profileId": 25824781,
+              "name": "nymphwitchkay"
+            },
+            {
+              "profileId": 25166648,
+              "name": "Prop1aNea"
+            },
+            {
+              "profileId": 22706764,
+              "name": "Dr_GoldThumbs33"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381647,
+              "name": "Mowtant"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491670511,
@@ -1207,7 +2051,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-11",
-          "dur": 2732
+          "dur": 2732,
+          "opponents": [
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            },
+            {
+              "profileId": 22702087,
+              "name": "D-Saboteur"
+            },
+            {
+              "profileId": 24087723,
+              "name": "MRM---84"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            }
+          ]
         },
         {
           "matchId": 491660618,
@@ -1216,7 +2084,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-11",
-          "dur": 1904
+          "dur": 1904,
+          "opponents": [
+            {
+              "profileId": 23210571,
+              "name": "Missioner-o"
+            },
+            {
+              "profileId": 23406355,
+              "name": "messi57barca"
+            },
+            {
+              "profileId": 24087723,
+              "name": "MRM---84"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            }
+          ]
         },
         {
           "matchId": 491421242,
@@ -1225,7 +2117,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-10",
-          "dur": 74
+          "dur": 74,
+          "opponents": [
+            {
+              "profileId": 25759982,
+              "name": "Flok-lash77"
+            },
+            {
+              "profileId": 24093345,
+              "name": "JRResBOCA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491055267,
@@ -1234,7 +2142,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-09",
-          "dur": 1872
+          "dur": 1872,
+          "opponents": [
+            {
+              "profileId": 22706977,
+              "name": "Sm0k1nG040"
+            },
+            {
+              "profileId": 23234165,
+              "name": "kaanhatipoglu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 491051707,
@@ -1243,7 +2167,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-09",
-          "dur": 1941
+          "dur": 1941,
+          "opponents": [
+            {
+              "profileId": 24008957,
+              "name": "patada-lavable5"
+            },
+            {
+              "profileId": 23141840,
+              "name": "SuperPaul2Turbo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490784118,
@@ -1252,7 +2192,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-07",
-          "dur": 1167
+          "dur": 1167,
+          "opponents": [
+            {
+              "profileId": 25308826,
+              "name": "Boozily_"
+            },
+            {
+              "profileId": 25809891,
+              "name": "JombieMR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490777888,
@@ -1261,7 +2217,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-07",
-          "dur": 1621
+          "dur": 1621,
+          "opponents": [
+            {
+              "profileId": 25809891,
+              "name": "JombieMR"
+            },
+            {
+              "profileId": 25308826,
+              "name": "Boozily_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490754950,
@@ -1270,7 +2242,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-07",
-          "dur": 1083
+          "dur": 1083,
+          "opponents": [
+            {
+              "profileId": 25308826,
+              "name": "Boozily_"
+            },
+            {
+              "profileId": 22768756,
+              "name": "kdobbyd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490354554,
@@ -1279,7 +2267,23 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-05",
-          "dur": 2319
+          "dur": 2319,
+          "opponents": [
+            {
+              "profileId": 22715564,
+              "name": "zaff007008"
+            },
+            {
+              "profileId": 25489880,
+              "name": "Quite-Cheesy01"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490349409,
@@ -1288,7 +2292,23 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-05",
-          "dur": 1170
+          "dur": 1170,
+          "opponents": [
+            {
+              "profileId": 25489880,
+              "name": "Quite-Cheesy01"
+            },
+            {
+              "profileId": 22715564,
+              "name": "zaff007008"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490348415,
@@ -1297,7 +2317,23 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-05",
-          "dur": 77
+          "dur": 77,
+          "opponents": [
+            {
+              "profileId": 22715564,
+              "name": "zaff007008"
+            },
+            {
+              "profileId": 25489880,
+              "name": "Quite-Cheesy01"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490233274,
@@ -1306,7 +2342,23 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-05",
-          "dur": 3446
+          "dur": 3446,
+          "opponents": [
+            {
+              "profileId": 22704848,
+              "name": "IWZI_Kiriyama"
+            },
+            {
+              "profileId": 24288677,
+              "name": "JoseppiRanga"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490229389,
@@ -1315,7 +2367,23 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-05",
-          "dur": 1482
+          "dur": 1482,
+          "opponents": [
+            {
+              "profileId": 22765996,
+              "name": "sebastian_us419"
+            },
+            {
+              "profileId": 22800096,
+              "name": "Hysroo---"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490123633,
@@ -1324,7 +2392,23 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-04",
-          "dur": 1320
+          "dur": 1320,
+          "opponents": [
+            {
+              "profileId": 24832067,
+              "name": "HD-Reaper135"
+            },
+            {
+              "profileId": 24830918,
+              "name": "araty24"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490117429,
@@ -1333,7 +2417,23 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-04",
-          "dur": 1639
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 25349640,
+              "name": "Laue_xo"
+            },
+            {
+              "profileId": 24753107,
+              "name": "WaZO271"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490111823,
@@ -1342,7 +2442,23 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-04",
-          "dur": 1454
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            },
+            {
+              "profileId": 22944623,
+              "name": "NobbertMitMoped"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490102743,
@@ -1351,7 +2467,31 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-04",
-          "dur": 1266
+          "dur": 1266,
+          "opponents": [
+            {
+              "profileId": 22852899,
+              "name": "Pl4y-Mak3r-1990"
+            },
+            {
+              "profileId": 23701812,
+              "name": "RuubenESP"
+            },
+            {
+              "profileId": 24070003,
+              "name": "xerrinho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         },
         {
           "matchId": 490098822,
@@ -1360,33 +2500,1704 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-04",
-          "dur": 117
+          "dur": 117,
+          "opponents": [
+            {
+              "profileId": 22752032,
+              "name": "PhonyMcRingRing_"
+            },
+            {
+              "profileId": 22703421,
+              "name": "Macaroni-LGA"
+            },
+            {
+              "profileId": 24317360,
+              "name": "Egon_Shooter22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            }
+          ]
+        },
+        {
+          "matchId": 489443514,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-07-01",
+          "dur": 1038,
+          "opponents": [
+            {
+              "profileId": 23000413,
+              "name": "Mr-Lama-31"
+            },
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 489439388,
+          "civ": "Poles",
+          "map": "Team Moats",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-07-01",
+          "dur": 1098,
+          "opponents": [
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            },
+            {
+              "profileId": 23000413,
+              "name": "Mr-Lama-31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 489436482,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-07-01",
+          "dur": 666,
+          "opponents": [
+            {
+              "profileId": 22807215,
+              "name": "beef_breath"
+            },
+            {
+              "profileId": 22773229,
+              "name": "Clamslot69"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 489358846,
+          "civ": "Britons",
+          "map": "Glade",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-07-01",
+          "dur": 2679,
+          "opponents": [
+            {
+              "profileId": 22944623,
+              "name": "NobbertMitMoped"
+            },
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 489355686,
+          "civ": "Poles",
+          "map": "Team Moats",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-07-01",
+          "dur": 1007,
+          "opponents": [
+            {
+              "profileId": 24835015,
+              "name": "Maxiga1998"
+            },
+            {
+              "profileId": 25679321,
+              "name": "preditore_98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 489251915,
+          "civ": "Britons",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-30",
+          "dur": 2558,
+          "opponents": [
+            {
+              "profileId": 24835015,
+              "name": "Maxiga1998"
+            },
+            {
+              "profileId": 25679321,
+              "name": "preditore_98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24557626,
+              "name": "CthulhuVollbild"
+            }
+          ]
+        },
+        {
+          "matchId": 489248455,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-30",
+          "dur": 638,
+          "opponents": [
+            {
+              "profileId": 25536127,
+              "name": "Zaqueo91"
+            },
+            {
+              "profileId": 23406355,
+              "name": "messi57barca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24557626,
+              "name": "CthulhuVollbild"
+            }
+          ]
+        },
+        {
+          "matchId": 489243817,
+          "civ": "Britons",
+          "map": "Team Moats",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-30",
+          "dur": 1157,
+          "opponents": [
+            {
+              "profileId": 23406355,
+              "name": "messi57barca"
+            },
+            {
+              "profileId": 22708107,
+              "name": "Hans_Wurst_89"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24557626,
+              "name": "CthulhuVollbild"
+            }
+          ]
+        },
+        {
+          "matchId": 489237683,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-30",
+          "dur": 2082,
+          "opponents": [
+            {
+              "profileId": 22825942,
+              "name": "MultiFrugtJuice"
+            },
+            {
+              "profileId": 24787842,
+              "name": "jediniko8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24557626,
+              "name": "CthulhuVollbild"
+            }
+          ]
+        },
+        {
+          "matchId": 489015708,
+          "civ": "Britons",
+          "map": "Glade",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-29",
+          "dur": 1047,
+          "opponents": [
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            },
+            {
+              "profileId": 23000413,
+              "name": "Mr-Lama-31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488953475,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-29",
+          "dur": 2192,
+          "opponents": [
+            {
+              "profileId": 23368991,
+              "name": "DiabloZz76"
+            },
+            {
+              "profileId": 23290256,
+              "name": "hardymihir17"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24557626,
+              "name": "CthulhuVollbild"
+            }
+          ]
+        },
+        {
+          "matchId": 488826675,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-28",
+          "dur": 3081,
+          "opponents": [
+            {
+              "profileId": 22743644,
+              "name": "f-e-r-d-y"
+            },
+            {
+              "profileId": 22800096,
+              "name": "Hysroo---"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488820250,
+          "civ": "Franks",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-28",
+          "dur": 1032,
+          "opponents": [
+            {
+              "profileId": 24447826,
+              "name": "AudrysZbg"
+            },
+            {
+              "profileId": 23265392,
+              "name": "pelagic-loads5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488812981,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-28",
+          "dur": 1154,
+          "opponents": [
+            {
+              "profileId": 25684683,
+              "name": "Mercan54545454"
+            },
+            {
+              "profileId": 24087723,
+              "name": "MRM---84"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488807094,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-28",
+          "dur": 1321,
+          "opponents": [
+            {
+              "profileId": 23261414,
+              "name": "medzo_jul"
+            },
+            {
+              "profileId": 22834382,
+              "name": "Velid743"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488804292,
+          "civ": "Franks",
+          "map": "Team Moats",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-28",
+          "dur": 269,
+          "opponents": [
+            {
+              "profileId": 22800096,
+              "name": "Hysroo---"
+            },
+            {
+              "profileId": 23264386,
+              "name": "frite-maison7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488545661,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 609,
+          "opponents": [
+            {
+              "profileId": 25398160,
+              "name": "Mauro_Castro33"
+            },
+            {
+              "profileId": 23788106,
+              "name": "cayochabell"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488537569,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 1850,
+          "opponents": [
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            },
+            {
+              "profileId": 22895367,
+              "name": "till_11"
+            },
+            {
+              "profileId": 22716983,
+              "name": "Brenner198787"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488525021,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 2873,
+          "opponents": [
+            {
+              "profileId": 24087723,
+              "name": "MRM---84"
+            },
+            {
+              "profileId": 23265392,
+              "name": "pelagic-loads5"
+            },
+            {
+              "profileId": 22768756,
+              "name": "kdobbyd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488516401,
+          "civ": "Franks",
+          "map": "Glade",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 718,
+          "opponents": [
+            {
+              "profileId": 25696933,
+              "name": "amenazblefil5834"
+            },
+            {
+              "profileId": 24087723,
+              "name": "MRM---84"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488509293,
+          "civ": "Franks",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 1014,
+          "opponents": [
+            {
+              "profileId": 23265392,
+              "name": "pelagic-loads5"
+            },
+            {
+              "profileId": 23088458,
+              "name": "saulys"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488276318,
+          "civ": "Franks",
+          "map": "Glade",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-26",
+          "dur": 1064,
+          "opponents": [
+            {
+              "profileId": 24447826,
+              "name": "AudrysZbg"
+            },
+            {
+              "profileId": 25493153,
+              "name": "KIRA24ggpro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488266647,
+          "civ": "Franks",
+          "map": "Team Moats",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-26",
+          "dur": 2299,
+          "opponents": [
+            {
+              "profileId": 22727053,
+              "name": "Orreslayer"
+            },
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488261370,
+          "civ": "Franks",
+          "map": "Team Moats",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-26",
+          "dur": 1197,
+          "opponents": [
+            {
+              "profileId": 25181221,
+              "name": "IIIROXICOIII"
+            },
+            {
+              "profileId": 25691969,
+              "name": "AngelRolon1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 488254752,
+          "civ": "Franks",
+          "map": "Team Moats",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-26",
+          "dur": 1107,
+          "opponents": [
+            {
+              "profileId": 24447826,
+              "name": "AudrysZbg"
+            },
+            {
+              "profileId": 25181221,
+              "name": "IIIROXICOIII"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487613381,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 1670,
+          "opponents": [
+            {
+              "profileId": 23527519,
+              "name": "irontitouan"
+            },
+            {
+              "profileId": 22769977,
+              "name": "pacific568jour"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487606814,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 1269,
+          "opponents": [
+            {
+              "profileId": 23790891,
+              "name": "Sam_Sesh3000"
+            },
+            {
+              "profileId": 23888450,
+              "name": "ManlikeMuu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487606266,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 26,
+          "opponents": [
+            {
+              "profileId": 22869677,
+              "name": "peguan4"
+            },
+            {
+              "profileId": 25543829,
+              "name": "icemanCR7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487596212,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 2638,
+          "opponents": [
+            {
+              "profileId": 22869677,
+              "name": "peguan4"
+            },
+            {
+              "profileId": 25543829,
+              "name": "icemanCR7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487592813,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 834,
+          "opponents": [
+            {
+              "profileId": 25543829,
+              "name": "icemanCR7"
+            },
+            {
+              "profileId": 23968711,
+              "name": "r93robin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487586551,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 1060,
+          "opponents": [
+            {
+              "profileId": 25696933,
+              "name": "amenazblefil5834"
+            },
+            {
+              "profileId": 22798171,
+              "name": "xl1wuj"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487497598,
+          "civ": "Bulgarians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 1242,
+          "opponents": [
+            {
+              "profileId": 23665212,
+              "name": "Royal_Stud21"
+            },
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487495089,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-23",
+          "dur": 1166,
+          "opponents": [
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            },
+            {
+              "profileId": 22715564,
+              "name": "zaff007008"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487385502,
+          "civ": "Ethiopians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 1857,
+          "opponents": [
+            {
+              "profileId": 22869677,
+              "name": "peguan4"
+            },
+            {
+              "profileId": 22840459,
+              "name": "CloudAth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487378989,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 1590,
+          "opponents": [
+            {
+              "profileId": 23007305,
+              "name": "abo_esma3yl"
+            },
+            {
+              "profileId": 23145201,
+              "name": "abdulaziz_025"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487369684,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 2051,
+          "opponents": [
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            },
+            {
+              "profileId": 22728490,
+              "name": "CripKilla356"
+            },
+            {
+              "profileId": 22727053,
+              "name": "Orreslayer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487361426,
+          "civ": "Khmer",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 1747,
+          "opponents": [
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            },
+            {
+              "profileId": 22727053,
+              "name": "Orreslayer"
+            },
+            {
+              "profileId": 22728490,
+              "name": "CripKilla356"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487301935,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 1746,
+          "opponents": [
+            {
+              "profileId": 22871157,
+              "name": "el__magnicida"
+            },
+            {
+              "profileId": 22852899,
+              "name": "Pl4y-Mak3r-1990"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487301025,
+          "civ": "Goths",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 76,
+          "opponents": [
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            },
+            {
+              "profileId": 23000413,
+              "name": "Mr-Lama-31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487297662,
+          "civ": "Goths",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 1006,
+          "opponents": [
+            {
+              "profileId": 22764102,
+              "name": "Rroms93"
+            },
+            {
+              "profileId": 22839253,
+              "name": "Le_Convoyeur"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487296545,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 343,
+          "opponents": [
+            {
+              "profileId": 23999003,
+              "name": "unnamed-pill3"
+            },
+            {
+              "profileId": 24074084,
+              "name": "ChuckVDamm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 487292177,
+          "civ": "Burgundians",
+          "map": "Highland",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 1468,
+          "opponents": [
+            {
+              "profileId": 22839253,
+              "name": "Le_Convoyeur"
+            },
+            {
+              "profileId": 22764102,
+              "name": "Rroms93"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486394632,
+          "civ": "Khmer",
+          "map": "Highland",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-18",
+          "dur": 1347,
+          "opponents": [
+            {
+              "profileId": 22895367,
+              "name": "till_11"
+            },
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486390905,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-18",
+          "dur": 1062,
+          "opponents": [
+            {
+              "profileId": 22967008,
+              "name": "off_Neo_"
+            },
+            {
+              "profileId": 22895367,
+              "name": "till_11"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486383774,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-18",
+          "dur": 1995,
+          "opponents": [
+            {
+              "profileId": 24409897,
+              "name": "dep_RenEgade"
+            },
+            {
+              "profileId": 23694412,
+              "name": "educoll_13"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486254130,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-18",
+          "dur": 2106,
+          "opponents": [
+            {
+              "profileId": 24832067,
+              "name": "HD-Reaper135"
+            },
+            {
+              "profileId": 24830918,
+              "name": "araty24"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486044943,
+          "civ": "Khmer",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-17",
+          "dur": 1771,
+          "opponents": [
+            {
+              "profileId": 23088458,
+              "name": "saulys"
+            },
+            {
+              "profileId": 22958923,
+              "name": "hattivatti266"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486041489,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-17",
+          "dur": 1382,
+          "opponents": [
+            {
+              "profileId": 23088458,
+              "name": "saulys"
+            },
+            {
+              "profileId": 22958923,
+              "name": "hattivatti266"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486039924,
+          "civ": "Khmer",
+          "map": "Highland",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-17",
+          "dur": 808,
+          "opponents": [
+            {
+              "profileId": 25669230,
+              "name": "Janne_Pike"
+            },
+            {
+              "profileId": 24033109,
+              "name": "Klaaask"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486038008,
+          "civ": "Khmer",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-17",
+          "dur": 702,
+          "opponents": [
+            {
+              "profileId": 23040110,
+              "name": "Meddwest"
+            },
+            {
+              "profileId": 24459824,
+              "name": "Wool_biscuit"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 486034505,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-17",
+          "dur": 1584,
+          "opponents": [
+            {
+              "profileId": 24717840,
+              "name": "CARL-LFC-1892"
+            },
+            {
+              "profileId": 23040110,
+              "name": "Meddwest"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 485924085,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-16",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 22728490,
+              "name": "CripKilla356"
+            },
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 484429328,
+          "civ": "Byzantines",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1796,
+          "date": "2026-06-10",
+          "dur": 905,
+          "opponents": [
+            {
+              "profileId": 22907886,
+              "name": "janijvv-fut"
+            },
+            {
+              "profileId": 25426176,
+              "name": "Aimilios89pro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 484426071,
+          "civ": "Byzantines",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1796,
+          "date": "2026-06-10",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 23061927,
+              "name": "kleinekleynen"
+            },
+            {
+              "profileId": 22907886,
+              "name": "janijvv-fut"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 484422948,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1796,
+          "date": "2026-06-10",
+          "dur": 694,
+          "opponents": [
+            {
+              "profileId": 23061927,
+              "name": "kleinekleynen"
+            },
+            {
+              "profileId": 22907886,
+              "name": "janijvv-fut"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 484419589,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1796,
+          "date": "2026-06-10",
+          "dur": 666,
+          "opponents": [
+            {
+              "profileId": 22769977,
+              "name": "pacific568jour"
+            },
+            {
+              "profileId": 23527519,
+              "name": "irontitouan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 484412905,
+          "civ": "Turks",
+          "map": "Budapest",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-10",
+          "dur": 1666,
+          "opponents": [
+            {
+              "profileId": 22722411,
+              "name": "Pizzle730"
+            },
+            {
+              "profileId": 22707759,
+              "name": "mike_ezzy23"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 477473632,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1792,
+          "date": "2026-05-13",
+          "dur": 1542,
+          "opponents": [
+            {
+              "profileId": 22836632,
+              "name": "aegon_786"
+            },
+            {
+              "profileId": 23406355,
+              "name": "messi57barca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 477470824,
+          "civ": "Ethiopians",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1792,
+          "date": "2026-05-13",
+          "dur": 733,
+          "opponents": [
+            {
+              "profileId": 22742821,
+              "name": "Mihi1326"
+            },
+            {
+              "profileId": 24199043,
+              "name": "el_rey_jitano_5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 472860294,
+          "civ": "Ethiopians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1791,
+          "date": "2026-04-24",
+          "dur": 4625,
+          "opponents": [
+            {
+              "profileId": 23126611,
+              "name": "Ibrahim054755"
+            },
+            {
+              "profileId": 23915040,
+              "name": "Shoaib-yasin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            }
+          ]
+        },
+        {
+          "matchId": 466013263,
+          "civ": "Persians",
+          "map": "Mountain Ridge",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-27",
+          "dur": 2343,
+          "opponents": [
+            {
+              "profileId": 22974493,
+              "name": "LukeWLondon"
+            },
+            {
+              "profileId": 23632088,
+              "name": "sonniesmith123"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            }
+          ]
+        },
+        {
+          "matchId": 460708145,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-04",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            },
+            {
+              "profileId": 22728490,
+              "name": "CripKilla356"
+            },
+            {
+              "profileId": 22727053,
+              "name": "Orreslayer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 460698529,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-04",
+          "dur": 2011,
+          "opponents": [
+            {
+              "profileId": 22728490,
+              "name": "CripKilla356"
+            },
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            },
+            {
+              "profileId": 22727053,
+              "name": "Orreslayer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
+        },
+        {
+          "matchId": 460696313,
+          "civ": "Portuguese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-04",
+          "dur": 286,
+          "opponents": [
+            {
+              "profileId": 22727053,
+              "name": "Orreslayer"
+            },
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            },
+            {
+              "profileId": 22728490,
+              "name": "CripKilla356"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            }
+          ]
         }
       ]
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "pulledDate": "2026-08-08"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-08-05",
+        "pulledDate": "2026-08-08",
         "latestRating": 811
       },
       "matches": [
-        {
-          "matchId": 489449604,
-          "civ": "Franks",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-07-01",
-          "dur": 1457
-        },
         {
           "matchId": 491412424,
           "civ": "Britons",
@@ -1394,7 +4205,39 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-10",
-          "dur": 1749
+          "dur": 1749,
+          "opponents": [
+            {
+              "profileId": 21006580,
+              "name": "Fatih Sultan MEHMET"
+            },
+            {
+              "profileId": 1608067,
+              "name": "m4rt1d"
+            },
+            {
+              "profileId": 2355605,
+              "name": "Mr Killson"
+            },
+            {
+              "profileId": 4954891,
+              "name": "Manic_Douche"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 24381699,
+              "name": "ZlatanBratan007"
+            },
+            {
+              "profileId": 24381647,
+              "name": "Mowtant"
+            }
+          ]
         },
         {
           "matchId": 490763404,
@@ -1403,7 +4246,64 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-07",
-          "dur": 1720
+          "dur": 1720,
+          "opponents": [
+            {
+              "profileId": 24916617,
+              "name": "hoan"
+            },
+            {
+              "profileId": 25616625,
+              "name": "Necropulpectom\u00eda"
+            },
+            {
+              "profileId": 1711929,
+              "name": "comebackfred"
+            },
+            {
+              "profileId": 3504643,
+              "name": "Ursl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1145137,
+              "name": "ysf5353"
+            },
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            },
+            {
+              "profileId": 25355492,
+              "name": "Zedarr"
+            }
+          ]
+        },
+        {
+          "matchId": 489449604,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-07-01",
+          "dur": 1457,
+          "opponents": [
+            {
+              "profileId": 19827397,
+              "name": "Le Pat"
+            },
+            {
+              "profileId": 1304388,
+              "name": "Dezing"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24509460,
+              "name": "lechero1512"
+            }
+          ]
         }
       ]
     }

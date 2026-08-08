@@ -6,28 +6,10 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 6,
-        "pulledDate": "2026-08-05",
+        "pulledDate": "2026-08-08",
         "latestRating": 1074
       },
       "matches": [
-        {
-          "matchId": 427888212,
-          "civ": "Vikings",
-          "map": "Enclosed",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-23",
-          "dur": 71
-        },
-        {
-          "matchId": 427885812,
-          "civ": "Bulgarians",
-          "map": "Enclosed",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-23",
-          "dur": 1473
-        },
         {
           "matchId": 495915599,
           "civ": "Khmer",
@@ -35,7 +17,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-30",
-          "dur": 1599
+          "dur": 1599,
+          "opponents": [
+            {
+              "profileId": 25514284,
+              "name": "uguichan"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 495911725,
@@ -44,7 +33,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-30",
-          "dur": 1745
+          "dur": 1745,
+          "opponents": [
+            {
+              "profileId": 25906485,
+              "name": "viggoviktor95"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 495908594,
@@ -53,7 +49,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-30",
-          "dur": 1561
+          "dur": 1561,
+          "opponents": [
+            {
+              "profileId": 22790555,
+              "name": "HulioZieglesias"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 495893967,
@@ -62,1538 +65,331 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-30",
-          "dur": 3168
+          "dur": 3168,
+          "opponents": [
+            {
+              "profileId": 25929306,
+              "name": "ix_OPH"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 427888212,
+          "civ": "Vikings",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-23",
+          "dur": 71,
+          "opponents": [
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 427885812,
+          "civ": "Bulgarians",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-23",
+          "dur": 1473,
+          "opponents": [
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            }
+          ],
+          "teammates": []
         }
       ]
     },
     "Team Console": {
       "meta": {
-        "totalGames": 174,
-        "pulledDate": "2026-08-05",
-        "latestRating": 1318,
+        "totalGames": 185,
+        "pulledDate": "2026-08-08",
+        "latestRating": 1283,
         "peakRating": 1357
       },
       "matches": [
         {
-          "matchId": 472375875,
+          "matchId": 497955673,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-08-08",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 20260899,
+              "name": "SoupSalad47"
+            },
+            {
+              "profileId": 17944252,
+              "name": "AAron894880"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 497951480,
+          "civ": "Huns",
+          "map": "Land Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-08",
+          "dur": 937,
+          "opponents": [
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            },
+            {
+              "profileId": 12637242,
+              "name": "old peenuts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 497951044,
+          "civ": "Turks",
+          "map": "Land Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-08",
+          "dur": 28,
+          "opponents": [
+            {
+              "profileId": 14102907,
+              "name": "SlenderLocket53"
+            },
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 497945271,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-08",
+          "dur": 1925,
+          "opponents": [
+            {
+              "profileId": 25379815,
+              "name": "Vinksz-"
+            },
+            {
+              "profileId": 22728765,
+              "name": "SPAZMODIC-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 497939453,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-08",
+          "dur": 1513,
+          "opponents": [
+            {
+              "profileId": 23147426,
+              "name": "CrustyPotato313"
+            },
+            {
+              "profileId": 22826887,
+              "name": "CapytanBlud"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 497696711,
           "civ": "Italians",
           "map": "Black Forest",
           "won": true,
-          "patch": 1768,
-          "date": "2026-04-22",
-          "dur": 172
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 2393,
+          "opponents": [
+            {
+              "profileId": 12889472,
+              "name": "Xtrem Elite"
+            },
+            {
+              "profileId": 12911146,
+              "name": "VToti1991"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
-          "matchId": 472002296,
+          "matchId": 497692427,
           "civ": "Italians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-21",
-          "dur": 1970
-        },
-        {
-          "matchId": 470419619,
-          "civ": "Turks",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-14",
-          "dur": 1904
-        },
-        {
-          "matchId": 470092581,
-          "civ": "Burgundians",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-13",
-          "dur": 941
-        },
-        {
-          "matchId": 470078777,
-          "civ": "Georgians",
-          "map": "Hill Fort",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-13",
-          "dur": 969
-        },
-        {
-          "matchId": 469762964,
-          "civ": "Turks",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-12",
-          "dur": 2022
-        },
-        {
-          "matchId": 469467113,
-          "civ": "Turks",
           "map": "Arena",
           "won": false,
-          "patch": 1768,
-          "date": "2026-04-11",
-          "dur": 1969
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 971,
+          "opponents": [
+            {
+              "profileId": 25504514,
+              "name": "ReallyScaryPotat"
+            },
+            {
+              "profileId": 22826887,
+              "name": "CapytanBlud"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
-          "matchId": 469441219,
-          "civ": "Turks",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-10",
-          "dur": 2637
-        },
-        {
-          "matchId": 469435482,
-          "civ": "Turks",
-          "map": "Hill Fort",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-10",
-          "dur": 1400
-        },
-        {
-          "matchId": 469253303,
-          "civ": "Spanish",
-          "map": "Arena",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-10",
-          "dur": 1680
-        },
-        {
-          "matchId": 469006583,
+          "matchId": 497686149,
           "civ": "Bohemians",
           "map": "Arena",
           "won": false,
-          "patch": 1768,
-          "date": "2026-04-09",
-          "dur": 1141
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 1914,
+          "opponents": [
+            {
+              "profileId": 25504514,
+              "name": "ReallyScaryPotat"
+            },
+            {
+              "profileId": 22826887,
+              "name": "CapytanBlud"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
-          "matchId": 467780677,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-04",
-          "dur": 1002
-        },
-        {
-          "matchId": 467779214,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-04",
-          "dur": 230
-        },
-        {
-          "matchId": 467770137,
-          "civ": "Italians",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-04",
-          "dur": 1635
-        },
-        {
-          "matchId": 467765661,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-04",
-          "dur": 1097
-        },
-        {
-          "matchId": 467752805,
-          "civ": "Spanish",
-          "map": "Highland",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-04",
-          "dur": 3133
-        },
-        {
-          "matchId": 467747037,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-03",
-          "dur": 1370
-        },
-        {
-          "matchId": 467737134,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-03",
-          "dur": 1769
-        },
-        {
-          "matchId": 467734966,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-03",
-          "dur": 418
-        },
-        {
-          "matchId": 467730456,
-          "civ": "Bohemians",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-03",
-          "dur": 982
-        },
-        {
-          "matchId": 467726346,
-          "civ": "Spanish",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-03",
-          "dur": 918
-        },
-        {
-          "matchId": 467529375,
-          "civ": "Spanish",
-          "map": "Arena",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-03",
-          "dur": 2468
-        },
-        {
-          "matchId": 467463894,
-          "civ": "Spanish",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1423
-        },
-        {
-          "matchId": 467455884,
-          "civ": "Spanish",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1890
-        },
-        {
-          "matchId": 467447423,
-          "civ": "Spanish",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1513
-        },
-        {
-          "matchId": 467307156,
-          "civ": "Burgundians",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 3061
-        },
-        {
-          "matchId": 467303843,
-          "civ": "Burgundians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1413
-        },
-        {
-          "matchId": 467286886,
-          "civ": "Spanish",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1851
-        },
-        {
-          "matchId": 467281139,
-          "civ": "Bulgarians",
-          "map": "Hill Fort",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1666
-        },
-        {
-          "matchId": 467268676,
-          "civ": "Burgundians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1337
-        },
-        {
-          "matchId": 467264214,
-          "civ": "Burgundians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-04-02",
-          "dur": 1571
-        },
-        {
-          "matchId": 467093568,
-          "civ": "Burgundians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-04-01",
-          "dur": 2145
-        },
-        {
-          "matchId": 466836987,
+          "matchId": 497676387,
           "civ": "Hindustanis",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-31",
-          "dur": 2152
-        },
-        {
-          "matchId": 466632983,
-          "civ": "Turks",
           "map": "Black Forest",
           "won": true,
-          "patch": 1768,
-          "date": "2026-03-30",
-          "dur": 1645
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 3125,
+          "opponents": [
+            {
+              "profileId": 22704041,
+              "name": "El_Acziino"
+            },
+            {
+              "profileId": 22840459,
+              "name": "CloudAth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
-          "matchId": 466625459,
-          "civ": "Turks",
-          "map": "Black Forest",
+          "matchId": 497675525,
+          "civ": "Hindustanis",
+          "map": "QS Runestones",
           "won": true,
-          "patch": 1768,
-          "date": "2026-03-30",
-          "dur": 1779
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 75,
+          "opponents": [
+            {
+              "profileId": 22704041,
+              "name": "El_Acziino"
+            },
+            {
+              "profileId": 22840459,
+              "name": "CloudAth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
-          "matchId": 466057150,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-28",
-          "dur": 1668
-        },
-        {
-          "matchId": 465364067,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-24",
-          "dur": 3193
-        },
-        {
-          "matchId": 465348296,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-24",
-          "dur": 993
-        },
-        {
-          "matchId": 465217824,
-          "civ": "Sicilians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-24",
-          "dur": 1574
-        },
-        {
-          "matchId": 465001030,
-          "civ": "Sicilians",
-          "map": "Black Forest",
-          "won": null,
-          "patch": 1768,
-          "date": "2026-03-23",
-          "dur": null
-        },
-        {
-          "matchId": 464934125,
-          "civ": "Italians",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-22",
-          "dur": 1955
-        },
-        {
-          "matchId": 464468147,
-          "civ": "Italians",
-          "map": "Mountain Ridge",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-21",
-          "dur": 946
-        },
-        {
-          "matchId": 463805173,
-          "civ": "Italians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-18",
-          "dur": 2203
-        },
-        {
-          "matchId": 463797445,
-          "civ": "Italians",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-18",
-          "dur": 322
-        },
-        {
-          "matchId": 463699123,
-          "civ": "Italians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-17",
-          "dur": 1461
-        },
-        {
-          "matchId": 463606711,
-          "civ": "Italians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-17",
-          "dur": 2468
-        },
-        {
-          "matchId": 463603497,
-          "civ": "Italians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-17",
-          "dur": 2294
-        },
-        {
-          "matchId": 463566171,
-          "civ": "Italians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-17",
-          "dur": 4569
-        },
-        {
-          "matchId": 463562919,
-          "civ": "Italians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-17",
-          "dur": 637
-        },
-        {
-          "matchId": 463551134,
-          "civ": "Italians",
-          "map": "Fortress",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-17",
-          "dur": 2600
-        },
-        {
-          "matchId": 463545192,
-          "civ": "Italians",
-          "map": "Fortress",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-17",
-          "dur": 1486
-        },
-        {
-          "matchId": 463514200,
-          "civ": "Italians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-16",
-          "dur": 4706
-        },
-        {
-          "matchId": 463393343,
-          "civ": "Italians",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-16",
-          "dur": 1235
-        },
-        {
-          "matchId": 463390146,
-          "civ": "Italians",
-          "map": "Lombardia",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-16",
-          "dur": 1733
-        },
-        {
-          "matchId": 463386652,
-          "civ": "Italians",
-          "map": "Arena",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-16",
-          "dur": 1928
-        },
-        {
-          "matchId": 463134297,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-15",
-          "dur": 1974
-        },
-        {
-          "matchId": 463132648,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-15",
-          "dur": 252
-        },
-        {
-          "matchId": 463125913,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-15",
-          "dur": 2808
-        },
-        {
-          "matchId": 463114904,
-          "civ": "Vietnamese",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-15",
-          "dur": 3523
-        },
-        {
-          "matchId": 462852623,
-          "civ": "Vietnamese",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-14",
-          "dur": 1880
-        },
-        {
-          "matchId": 462844579,
-          "civ": "Lithuanians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-14",
-          "dur": 3858
-        },
-        {
-          "matchId": 462838801,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1768,
-          "date": "2026-03-14",
-          "dur": 2438
-        },
-        {
-          "matchId": 462600395,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-13",
-          "dur": 2395
-        },
-        {
-          "matchId": 462597099,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-13",
-          "dur": 2076
-        },
-        {
-          "matchId": 462522903,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1768,
-          "date": "2026-03-12",
-          "dur": 2381
-        },
-        {
-          "matchId": 462417847,
-          "civ": "Celts",
-          "map": "Arena",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-12",
-          "dur": 1719
-        },
-        {
-          "matchId": 462417147,
-          "civ": "Romans",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-12",
-          "dur": 210
-        },
-        {
-          "matchId": 462408329,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-12",
-          "dur": 3086
-        },
-        {
-          "matchId": 461923311,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-09",
-          "dur": 2132
-        },
-        {
-          "matchId": 461921237,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-09",
-          "dur": 199
-        },
-        {
-          "matchId": 461920416,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-09",
-          "dur": 85
-        },
-        {
-          "matchId": 461905459,
-          "civ": "Mongols",
-          "map": "Arena",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-09",
-          "dur": 1897
-        },
-        {
-          "matchId": 461787353,
-          "civ": "Mongols",
-          "map": "Oasis",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-09",
-          "dur": 2256
-        },
-        {
-          "matchId": 461785282,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-09",
-          "dur": 1070
-        },
-        {
-          "matchId": 461776210,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-09",
-          "dur": 3310
-        },
-        {
-          "matchId": 461486475,
-          "civ": "Italians",
-          "map": "Lombardia",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-08",
-          "dur": 2080
-        },
-        {
-          "matchId": 461216513,
-          "civ": "Italians",
-          "map": "Fortress",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-07",
-          "dur": 2424
-        },
-        {
-          "matchId": 460902266,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-05",
-          "dur": 1690
-        },
-        {
-          "matchId": 460458793,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-03",
-          "dur": 1826
-        },
-        {
-          "matchId": 460365178,
+          "matchId": 497632127,
           "civ": "Bohemians",
           "map": "Black Forest",
           "won": true,
-          "patch": 1749,
-          "date": "2026-03-03",
-          "dur": 3035
-        },
-        {
-          "matchId": 460362523,
-          "civ": "Bulgarians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-03",
-          "dur": 534
-        },
-        {
-          "matchId": 460142206,
-          "civ": "Bohemians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-02",
-          "dur": 1598
-        },
-        {
-          "matchId": 460134514,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-02",
-          "dur": 2160
-        },
-        {
-          "matchId": 459852584,
-          "civ": "Vikings",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-01",
-          "dur": 3901
-        },
-        {
-          "matchId": 459848943,
-          "civ": "Vikings",
-          "map": "Pilgrims",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-03-01",
-          "dur": 599
-        },
-        {
-          "matchId": 459838823,
-          "civ": "Vikings",
-          "map": "Coastal Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-03-01",
-          "dur": 2055
-        },
-        {
-          "matchId": 459559824,
-          "civ": "Vikings",
-          "map": "Pilgrims",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-02-28",
-          "dur": 1230
-        },
-        {
-          "matchId": 459553528,
-          "civ": "Vikings",
-          "map": "Glade",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-02-28",
-          "dur": 1454
-        },
-        {
-          "matchId": 459544652,
-          "civ": "Slavs",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-28",
-          "dur": 2548
-        },
-        {
-          "matchId": 459539195,
-          "civ": "Bulgarians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-02-28",
-          "dur": 1073
-        },
-        {
-          "matchId": 459534707,
-          "civ": "Slavs",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-02-28",
-          "dur": 567
-        },
-        {
-          "matchId": 459294313,
-          "civ": "Bulgarians",
-          "map": "Arena",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-26",
-          "dur": 4087
-        },
-        {
-          "matchId": 459281333,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-26",
-          "dur": 2385
-        },
-        {
-          "matchId": 459130966,
-          "civ": "Celts",
-          "map": "Arena",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-02-26",
-          "dur": 1484
-        },
-        {
-          "matchId": 459128988,
-          "civ": "Celts",
-          "map": "Arena",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-02-26",
-          "dur": 1051
-        },
-        {
-          "matchId": 458881088,
-          "civ": "Slavs",
-          "map": "Arena",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-25",
-          "dur": 1772
-        },
-        {
-          "matchId": 458870586,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-25",
-          "dur": 3126
-        },
-        {
-          "matchId": 458865678,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-25",
-          "dur": 1086
-        },
-        {
-          "matchId": 458854263,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-25",
-          "dur": 1202
-        },
-        {
-          "matchId": 458843474,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-24",
-          "dur": 2365
-        },
-        {
-          "matchId": 458831949,
-          "civ": "Vikings",
-          "map": "Coastal Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-24",
-          "dur": 2849
-        },
-        {
-          "matchId": 458686286,
-          "civ": "Celts",
-          "map": "Arena",
-          "won": false,
-          "patch": 1749,
-          "date": "2026-02-24",
-          "dur": 2286
-        },
-        {
-          "matchId": 458611076,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1749,
-          "date": "2026-02-23",
-          "dur": 2265
-        },
-        {
-          "matchId": 456316301,
-          "civ": "Celts",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1703,
-          "date": "2026-02-15",
-          "dur": 3040
-        },
-        {
-          "matchId": 456040655,
-          "civ": "Bulgarians",
-          "map": "African Clearing",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-14",
-          "dur": 601
-        },
-        {
-          "matchId": 455917708,
-          "civ": "Bulgarians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-13",
-          "dur": 1608
-        },
-        {
-          "matchId": 455784451,
-          "civ": "Slavs",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1703,
-          "date": "2026-02-13",
-          "dur": 3773
-        },
-        {
-          "matchId": 455772538,
-          "civ": "Vikings",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-13",
-          "dur": 2165
-        },
-        {
-          "matchId": 455685125,
-          "civ": "Vikings",
-          "map": "African Clearing",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-12",
-          "dur": 1375
-        },
-        {
-          "matchId": 455560231,
-          "civ": "Celts",
-          "map": "Arena",
-          "won": true,
-          "patch": 1703,
-          "date": "2026-02-12",
-          "dur": 2030
-        },
-        {
-          "matchId": 455457644,
-          "civ": "Celts",
-          "map": "Arena",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-11",
-          "dur": 3342
-        },
-        {
-          "matchId": 455357207,
-          "civ": "Bohemians",
-          "map": "Arena",
-          "won": true,
-          "patch": 1703,
-          "date": "2026-02-11",
-          "dur": 1914
-        },
-        {
-          "matchId": 455334308,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-11",
-          "dur": 2312
-        },
-        {
-          "matchId": 455326893,
-          "civ": "Portuguese",
-          "map": "Highland",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-11",
-          "dur": 1613
-        },
-        {
-          "matchId": 455127635,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-10",
-          "dur": 2094
-        },
-        {
-          "matchId": 454917718,
-          "civ": "Malians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1703,
-          "date": "2026-02-09",
-          "dur": 1393
-        },
-        {
-          "matchId": 429668071,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-30",
-          "dur": 2343
-        },
-        {
-          "matchId": 429658703,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-30",
-          "dur": 856
-        },
-        {
-          "matchId": 429649443,
-          "civ": "Bulgarians",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-30",
-          "dur": 1654
-        },
-        {
-          "matchId": 429647149,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-30",
-          "dur": 99
-        },
-        {
-          "matchId": 429519145,
-          "civ": "Britons",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-30",
-          "dur": 1543
-        },
-        {
-          "matchId": 429480975,
-          "civ": "Franks",
-          "map": "Arena",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-30",
-          "dur": 1827
-        },
-        {
-          "matchId": 429323300,
-          "civ": "Britons",
-          "map": "Graupel",
-          "won": null,
-          "patch": 1676,
-          "date": "2025-10-29",
-          "dur": null
-        },
-        {
-          "matchId": 428856572,
-          "civ": "Britons",
-          "map": "Bogland",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-27",
-          "dur": 1496
-        },
-        {
-          "matchId": 428848358,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-27",
-          "dur": 1744
-        },
-        {
-          "matchId": 428844769,
-          "civ": "Franks",
-          "map": "Arena",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-27",
-          "dur": 906
-        },
-        {
-          "matchId": 428833546,
-          "civ": "Franks",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-27",
-          "dur": 1326
-        },
-        {
-          "matchId": 428819965,
-          "civ": "Franks",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-26",
-          "dur": 1577
-        },
-        {
-          "matchId": 428775717,
-          "civ": "Franks",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-26",
-          "dur": 2821
-        },
-        {
-          "matchId": 428594220,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-26",
-          "dur": 2416
-        },
-        {
-          "matchId": 428584558,
-          "civ": "Teutons",
-          "map": "Arena",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-26",
-          "dur": 1931
-        },
-        {
-          "matchId": 428573627,
-          "civ": "Vikings",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-26",
-          "dur": 2035
-        },
-        {
-          "matchId": 428567520,
-          "civ": "Vikings",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-26",
-          "dur": 1894
-        },
-        {
-          "matchId": 428557024,
-          "civ": "Vikings",
-          "map": "Arena",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-26",
-          "dur": 2320
-        },
-        {
-          "matchId": 428547268,
-          "civ": "Britons",
-          "map": "Bogland",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-25",
-          "dur": 2985
-        },
-        {
-          "matchId": 428531752,
-          "civ": "Britons",
-          "map": "Graupel",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-25",
-          "dur": 3039
-        },
-        {
-          "matchId": 428337364,
-          "civ": "Britons",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-25",
-          "dur": 2363
-        },
-        {
-          "matchId": 428276137,
-          "civ": "Bulgarians",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-25",
-          "dur": 2003
-        },
-        {
-          "matchId": 427821175,
-          "civ": "Bulgarians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-22",
-          "dur": 1748
-        },
-        {
-          "matchId": 427470200,
-          "civ": "Vietnamese",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-21",
-          "dur": 2591
-        },
-        {
-          "matchId": 426896915,
-          "civ": "Bohemians",
-          "map": "Arena",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-19",
-          "dur": 1819
-        },
-        {
-          "matchId": 426869718,
-          "civ": "Malay",
-          "map": "Graupel",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-18",
-          "dur": 3297
-        },
-        {
-          "matchId": 426862670,
-          "civ": "Bohemians",
-          "map": "Arena",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-18",
-          "dur": 1843
-        },
-        {
-          "matchId": 426853134,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-18",
-          "dur": 2285
-        },
-        {
-          "matchId": 426667629,
-          "civ": "Malay",
-          "map": "Prairie",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-18",
-          "dur": 1190
-        },
-        {
-          "matchId": 426662087,
-          "civ": "Bohemians",
-          "map": "Prairie",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-18",
-          "dur": 1363
-        },
-        {
-          "matchId": 426656915,
-          "civ": "Bohemians",
-          "map": "Aftermath",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-18",
-          "dur": 2150
-        },
-        {
-          "matchId": 426651864,
-          "civ": "Persians",
-          "map": "Arena",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-18",
-          "dur": 1903
-        },
-        {
-          "matchId": 426540453,
-          "civ": "Britons",
-          "map": "Aftermath",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-17",
-          "dur": 5427
-        },
-        {
-          "matchId": 426527701,
-          "civ": "Britons",
-          "map": "Bogland",
-          "won": true,
-          "patch": 1676,
-          "date": "2025-10-17",
-          "dur": 2642
-        },
-        {
-          "matchId": 426124975,
-          "civ": "Bulgarians",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-16",
-          "dur": 1212
-        },
-        {
-          "matchId": 426121883,
-          "civ": "Vikings",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1676,
-          "date": "2025-10-16",
-          "dur": 971
-        },
-        {
-          "matchId": 425674058,
-          "civ": "Bulgarians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1664,
-          "date": "2025-10-14",
-          "dur": 1823
-        },
-        {
-          "matchId": 425669325,
-          "civ": "Bulgarians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-14",
-          "dur": 2856
-        },
-        {
-          "matchId": 425665872,
-          "civ": "Wei",
-          "map": "Hideout",
-          "won": false,
-          "patch": 1664,
-          "date": "2025-10-14",
-          "dur": 703
-        },
-        {
-          "matchId": 425657477,
-          "civ": "Bulgarians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-14",
-          "dur": 2820
-        },
-        {
-          "matchId": 425614576,
-          "civ": "Persians",
-          "map": "Arena",
-          "won": null,
-          "patch": 1664,
-          "date": "2025-10-14",
-          "dur": null
-        },
-        {
-          "matchId": 425573836,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-13",
-          "dur": 2708
-        },
-        {
-          "matchId": 425562273,
-          "civ": "Franks",
-          "map": "Arena",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-13",
-          "dur": 2138
-        },
-        {
-          "matchId": 425117091,
-          "civ": "Franks",
-          "map": "Arena",
-          "won": false,
-          "patch": 1664,
-          "date": "2025-10-12",
-          "dur": 3536
-        },
-        {
-          "matchId": 424749734,
-          "civ": "Franks",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-10",
-          "dur": 3515
-        },
-        {
-          "matchId": 424735577,
-          "civ": "Franks",
-          "map": "Arabia",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-10",
-          "dur": 3043
-        },
-        {
-          "matchId": 424510294,
-          "civ": "Bohemians",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1664,
-          "date": "2025-10-10",
-          "dur": 2086
-        },
-        {
-          "matchId": 424175488,
-          "civ": "Vikings",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-08",
-          "dur": 1886
-        },
-        {
-          "matchId": 424048542,
-          "civ": "Teutons",
-          "map": "Arena",
-          "won": false,
-          "patch": 1664,
-          "date": "2025-10-08",
-          "dur": 1793
-        },
-        {
-          "matchId": 424042962,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-08",
-          "dur": 2353
-        },
-        {
-          "matchId": 424037332,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-08",
-          "dur": 1884
-        },
-        {
-          "matchId": 423956125,
-          "civ": "Teutons",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1664,
-          "date": "2025-10-07",
-          "dur": 2199
-        },
-        {
-          "matchId": 423947764,
-          "civ": "Vikings",
-          "map": "Arabia",
-          "won": false,
-          "patch": 1664,
-          "date": "2025-10-07",
-          "dur": 2163
+          "patch": 1800,
+          "date": "2026-08-06",
+          "dur": 2234,
+          "opponents": [
+            {
+              "profileId": 25426176,
+              "name": "Aimilios89pro"
+            },
+            {
+              "profileId": 22719380,
+              "name": "blooodl1ne-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
           "matchId": 496324804,
@@ -1602,7 +398,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 1744
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 13408766,
+              "name": "LUISGATO27"
+            },
+            {
+              "profileId": 13692724,
+              "name": "RICHI EPIC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
           "matchId": 496049140,
@@ -1611,7 +423,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-31",
-          "dur": 1651
+          "dur": 1651,
+          "opponents": [
+            {
+              "profileId": 23671708,
+              "name": "YaKintYa"
+            },
+            {
+              "profileId": 24505037,
+              "name": "CriPe FusIonz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
           "matchId": 496046163,
@@ -1620,7 +448,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-30",
-          "dur": 948
+          "dur": 948,
+          "opponents": [
+            {
+              "profileId": 14081250,
+              "name": "paconazareth"
+            },
+            {
+              "profileId": 22743644,
+              "name": "f-e-r-d-y"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
           "matchId": 496045268,
@@ -1629,7 +473,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-30",
-          "dur": 95
+          "dur": 95,
+          "opponents": [
+            {
+              "profileId": 14081250,
+              "name": "paconazareth"
+            },
+            {
+              "profileId": 22743644,
+              "name": "f-e-r-d-y"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         },
         {
           "matchId": 495427700,
@@ -1638,21 +498,4926 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-28",
-          "dur": 1980
+          "dur": 1980,
+          "opponents": [
+            {
+              "profileId": 12665561,
+              "name": "bluekhezzy"
+            },
+            {
+              "profileId": 13696391,
+              "name": "Halapeano"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 472375875,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-22",
+          "dur": 172,
+          "opponents": [
+            {
+              "profileId": 22768756,
+              "name": "kdobbyd"
+            },
+            {
+              "profileId": 24087723,
+              "name": "MRM---84"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 472002296,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-21",
+          "dur": 1970,
+          "opponents": [
+            {
+              "profileId": 13770649,
+              "name": "DaBaws2990"
+            },
+            {
+              "profileId": 25272549,
+              "name": "Quesoboy17"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 470419619,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-14",
+          "dur": 1904,
+          "opponents": [
+            {
+              "profileId": 8719373,
+              "name": "KnockedPeach50"
+            },
+            {
+              "profileId": 24578011,
+              "name": "MrMike26786"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 470092581,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-13",
+          "dur": 941,
+          "opponents": [
+            {
+              "profileId": 12902452,
+              "name": "IrishmanDan5878"
+            },
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            },
+            {
+              "profileId": 15466529,
+              "name": "Tops 7793"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 24911949,
+              "name": "WDB-AlFredSad"
+            }
+          ]
+        },
+        {
+          "matchId": 470078777,
+          "civ": "Georgians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-13",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 18221392,
+              "name": "DEMLOUDBOYZ"
+            },
+            {
+              "profileId": 13479761,
+              "name": "Cain2point0"
+            },
+            {
+              "profileId": 12691630,
+              "name": "BeanWitDaBeam"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24911949,
+              "name": "WDB-AlFredSad"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 469762964,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-12",
+          "dur": 2022,
+          "opponents": [
+            {
+              "profileId": 22829186,
+              "name": "Machete0085"
+            },
+            {
+              "profileId": 23520107,
+              "name": "DerBob3003"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 469467113,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-11",
+          "dur": 1969,
+          "opponents": [
+            {
+              "profileId": 14602117,
+              "name": "not A theist"
+            },
+            {
+              "profileId": 16314476,
+              "name": "balinthusa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 469441219,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-10",
+          "dur": 2637,
+          "opponents": [
+            {
+              "profileId": 15424523,
+              "name": "kkrieger5718"
+            },
+            {
+              "profileId": 15634894,
+              "name": "ADOBO x PRODIGY"
+            },
+            {
+              "profileId": 13031902,
+              "name": "Ryan G0sIing"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 22753596,
+              "name": "SammyDiamonds"
+            }
+          ]
+        },
+        {
+          "matchId": 469435482,
+          "civ": "Turks",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-10",
+          "dur": 1400,
+          "opponents": [
+            {
+              "profileId": 22908655,
+              "name": "vendraminus"
+            },
+            {
+              "profileId": 12893749,
+              "name": "VolcanLoup"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 469253303,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-10",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 14132480,
+              "name": "SWISH 2EZ"
+            },
+            {
+              "profileId": 23457590,
+              "name": "axecowcox12"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 469006583,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-09",
+          "dur": 1141,
+          "opponents": [
+            {
+              "profileId": 23147426,
+              "name": "CrustyPotato313"
+            },
+            {
+              "profileId": 22826887,
+              "name": "CapytanBlud"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467780677,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-04",
+          "dur": 1002,
+          "opponents": [
+            {
+              "profileId": 22709937,
+              "name": "Fettig15"
+            },
+            {
+              "profileId": 24023178,
+              "name": "MR-Hankey22221"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467779214,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-04",
+          "dur": 230,
+          "opponents": [
+            {
+              "profileId": 13696391,
+              "name": "Halapeano"
+            },
+            {
+              "profileId": 13778695,
+              "name": "MediumMickey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467770137,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-04",
+          "dur": 1635,
+          "opponents": [
+            {
+              "profileId": 13096610,
+              "name": "Boagies"
+            },
+            {
+              "profileId": 12530431,
+              "name": "NickyD207"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467765661,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-04",
+          "dur": 1097,
+          "opponents": [
+            {
+              "profileId": 24133520,
+              "name": "OnkelG45"
+            },
+            {
+              "profileId": 25170472,
+              "name": "TiMSoN089"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467752805,
+          "civ": "Spanish",
+          "map": "Highland",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-04",
+          "dur": 3133,
+          "opponents": [
+            {
+              "profileId": 12903628,
+              "name": "PiniHutJr"
+            },
+            {
+              "profileId": 12903620,
+              "name": "kkager8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467747037,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-03",
+          "dur": 1370,
+          "opponents": [
+            {
+              "profileId": 12864758,
+              "name": "ITzzAhhMee"
+            },
+            {
+              "profileId": 14234235,
+              "name": "kwolf1010"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467737134,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-03",
+          "dur": 1769,
+          "opponents": [
+            {
+              "profileId": 24103918,
+              "name": "Voikos33"
+            },
+            {
+              "profileId": 22996240,
+              "name": "JW__97"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467734966,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-03",
+          "dur": 418,
+          "opponents": [
+            {
+              "profileId": 13420626,
+              "name": "Skrapykoko4140"
+            },
+            {
+              "profileId": 14081250,
+              "name": "paconazareth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467730456,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-03",
+          "dur": 982,
+          "opponents": [
+            {
+              "profileId": 12545582,
+              "name": "SquidJake96"
+            },
+            {
+              "profileId": 22707278,
+              "name": "THEPADDYDOC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467726346,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-03",
+          "dur": 918,
+          "opponents": [
+            {
+              "profileId": 24023178,
+              "name": "MR-Hankey22221"
+            },
+            {
+              "profileId": 22709937,
+              "name": "Fettig15"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467529375,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-03",
+          "dur": 2468,
+          "opponents": [
+            {
+              "profileId": 14209257,
+              "name": "hamdaddy82"
+            },
+            {
+              "profileId": 13020964,
+              "name": "JaculusPrime"
+            },
+            {
+              "profileId": 15131207,
+              "name": "Ki1LaH7"
+            },
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 13053888,
+              "name": "CDAVI400"
+            }
+          ]
+        },
+        {
+          "matchId": 467463894,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1423,
+          "opponents": [
+            {
+              "profileId": 23632088,
+              "name": "sonniesmith123"
+            },
+            {
+              "profileId": 22974493,
+              "name": "LukeWLondon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467455884,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1890,
+          "opponents": [
+            {
+              "profileId": 22889096,
+              "name": "kuppy321"
+            },
+            {
+              "profileId": 23062727,
+              "name": "Dr_Shenanigans47"
+            },
+            {
+              "profileId": 23597907,
+              "name": "ihaveahat24"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 13707612,
+              "name": "ItsWeathaMane"
+            }
+          ]
+        },
+        {
+          "matchId": 467447423,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1513,
+          "opponents": [
+            {
+              "profileId": 23597907,
+              "name": "ihaveahat24"
+            },
+            {
+              "profileId": 22889096,
+              "name": "kuppy321"
+            },
+            {
+              "profileId": 23062727,
+              "name": "Dr_Shenanigans47"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 14110584,
+              "name": "Stuffing Farts"
+            }
+          ]
+        },
+        {
+          "matchId": 467307156,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 3061,
+          "opponents": [
+            {
+              "profileId": 12647180,
+              "name": "HootaVoota"
+            },
+            {
+              "profileId": 14132480,
+              "name": "SWISH 2EZ"
+            },
+            {
+              "profileId": 13708794,
+              "name": "FAD3D WHHYY NOT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24911949,
+              "name": "WDB-AlFredSad"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467303843,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1413,
+          "opponents": [
+            {
+              "profileId": 23502052,
+              "name": "YoWhatsUp468"
+            },
+            {
+              "profileId": 15466529,
+              "name": "Tops 7793"
+            },
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 24911949,
+              "name": "WDB-AlFredSad"
+            }
+          ]
+        },
+        {
+          "matchId": 467286886,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1851,
+          "opponents": [
+            {
+              "profileId": 13841759,
+              "name": "CaptainWaltz"
+            },
+            {
+              "profileId": 12904117,
+              "name": "PigScratcher"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467281139,
+          "civ": "Bulgarians",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1666,
+          "opponents": [
+            {
+              "profileId": 13696391,
+              "name": "Halapeano"
+            },
+            {
+              "profileId": 12665561,
+              "name": "bluekhezzy"
+            },
+            {
+              "profileId": 13778695,
+              "name": "MediumMickey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13208376,
+              "name": "Strokes Chin"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 467268676,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1337,
+          "opponents": [
+            {
+              "profileId": 13032099,
+              "name": "Auburn1412"
+            },
+            {
+              "profileId": 12727678,
+              "name": "II Raya II"
+            },
+            {
+              "profileId": 12883482,
+              "name": "Bratton316"
+            },
+            {
+              "profileId": 13152506,
+              "name": "TeamBudRage"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23480142,
+              "name": "WhiteKong420847"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 24911949,
+              "name": "WDB-AlFredSad"
+            }
+          ]
+        },
+        {
+          "matchId": 467264214,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-04-02",
+          "dur": 1571,
+          "opponents": [
+            {
+              "profileId": 13031902,
+              "name": "Ryan G0sIing"
+            },
+            {
+              "profileId": 20879746,
+              "name": "SCOUT2KNIGHT"
+            },
+            {
+              "profileId": 17809375,
+              "name": "ThePromise87"
+            },
+            {
+              "profileId": 13021360,
+              "name": "CoolDude0p0"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24911949,
+              "name": "WDB-AlFredSad"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23965754,
+              "name": "ExXtendedwaranty"
+            }
+          ]
+        },
+        {
+          "matchId": 467093568,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-04-01",
+          "dur": 2145,
+          "opponents": [
+            {
+              "profileId": 24758747,
+              "name": "Jean-bouteilleQc"
+            },
+            {
+              "profileId": 24753107,
+              "name": "WaZO271"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 466836987,
+          "civ": "Hindustanis",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-31",
+          "dur": 2152,
+          "opponents": [
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            },
+            {
+              "profileId": 12902452,
+              "name": "IrishmanDan5878"
+            },
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            },
+            {
+              "profileId": 13727719,
+              "name": "samy19"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 24911949,
+              "name": "WDB-AlFredSad"
+            }
+          ]
+        },
+        {
+          "matchId": 466632983,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-30",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 23028377,
+              "name": "smiling_J"
+            },
+            {
+              "profileId": 23028294,
+              "name": "OKC_Number_6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 466625459,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-30",
+          "dur": 1779,
+          "opponents": [
+            {
+              "profileId": 14209257,
+              "name": "hamdaddy82"
+            },
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 466057150,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-28",
+          "dur": 1668,
+          "opponents": [
+            {
+              "profileId": 12639888,
+              "name": "COOOKI3 M0NSTER"
+            },
+            {
+              "profileId": 12587646,
+              "name": "tvilleTIGER"
+            },
+            {
+              "profileId": 12592061,
+              "name": "EmptyNetGoal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 465364067,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-24",
+          "dur": 3193,
+          "opponents": [
+            {
+              "profileId": 22709937,
+              "name": "Fettig15"
+            },
+            {
+              "profileId": 24023178,
+              "name": "MR-Hankey22221"
+            },
+            {
+              "profileId": 23199070,
+              "name": "AgentSquiddy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 465348296,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-24",
+          "dur": 993,
+          "opponents": [
+            {
+              "profileId": 15424523,
+              "name": "kkrieger5718"
+            },
+            {
+              "profileId": 12628194,
+              "name": "Roland420Green"
+            },
+            {
+              "profileId": 15634894,
+              "name": "ADOBO x PRODIGY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 465217824,
+          "civ": "Sicilians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-24",
+          "dur": 1574,
+          "opponents": [
+            {
+              "profileId": 14031619,
+              "name": "TRASH SLAYER421"
+            },
+            {
+              "profileId": 13709144,
+              "name": "TheBHslayer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 465001030,
+          "civ": "Sicilians",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1768,
+          "date": "2026-03-23",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            },
+            {
+              "profileId": 15088551,
+              "name": "Travinator1415"
+            },
+            {
+              "profileId": 22476975,
+              "name": "BenzDo2223"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 464934125,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-22",
+          "dur": 1955,
+          "opponents": [
+            {
+              "profileId": 24505037,
+              "name": "CriPe FusIonz"
+            },
+            {
+              "profileId": 13208376,
+              "name": "Strokes Chin"
+            },
+            {
+              "profileId": 1970248,
+              "name": "CeladonCrayon35"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 464468147,
+          "civ": "Italians",
+          "map": "Mountain Ridge",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-21",
+          "dur": 946,
+          "opponents": [
+            {
+              "profileId": 23053270,
+              "name": "I Move Soft"
+            },
+            {
+              "profileId": 14321448,
+              "name": "Mst Hatd"
+            },
+            {
+              "profileId": 13494026,
+              "name": "ShadiestCorn1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463805173,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-18",
+          "dur": 2203,
+          "opponents": [
+            {
+              "profileId": 25004617,
+              "name": "varela0323"
+            },
+            {
+              "profileId": 22906105,
+              "name": "Midlaner998"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463797445,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-18",
+          "dur": 322,
+          "opponents": [
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            },
+            {
+              "profileId": 12637242,
+              "name": "old peenuts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22826887,
+              "name": "CapytanBlud"
+            }
+          ]
+        },
+        {
+          "matchId": 463699123,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-17",
+          "dur": 1461,
+          "opponents": [
+            {
+              "profileId": 24023178,
+              "name": "MR-Hankey22221"
+            },
+            {
+              "profileId": 23109119,
+              "name": "Mordz94"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463606711,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-17",
+          "dur": 2468,
+          "opponents": [
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            },
+            {
+              "profileId": 22379875,
+              "name": "KingKiid935O"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463603497,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-17",
+          "dur": 2294,
+          "opponents": [
+            {
+              "profileId": 13687049,
+              "name": "Sniper9287"
+            },
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463566171,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-17",
+          "dur": 4569,
+          "opponents": [
+            {
+              "profileId": 13138536,
+              "name": "Tillman Tillman"
+            },
+            {
+              "profileId": 12628194,
+              "name": "Roland420Green"
+            },
+            {
+              "profileId": 12691193,
+              "name": "Rising Gears"
+            },
+            {
+              "profileId": 13313004,
+              "name": "bjharris17"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25036967,
+              "name": "plemenke19"
+            },
+            {
+              "profileId": 18554900,
+              "name": "Almontes Family"
+            },
+            {
+              "profileId": 17921304,
+              "name": "Assassin oG 809"
+            }
+          ]
+        },
+        {
+          "matchId": 463562919,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-17",
+          "dur": 637,
+          "opponents": [
+            {
+              "profileId": 15424523,
+              "name": "kkrieger5718"
+            },
+            {
+              "profileId": 13885770,
+              "name": "ryanp1001"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13492715,
+              "name": "XxXHu5TL3RXxX"
+            }
+          ]
+        },
+        {
+          "matchId": 463551134,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-17",
+          "dur": 2600,
+          "opponents": [
+            {
+              "profileId": 23767597,
+              "name": "Frampt-_"
+            },
+            {
+              "profileId": 23767454,
+              "name": "WOKELAND"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463545192,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-17",
+          "dur": 1486,
+          "opponents": [
+            {
+              "profileId": 13707612,
+              "name": "ItsWeathaMane"
+            },
+            {
+              "profileId": 12613690,
+              "name": "TxAg095919"
+            },
+            {
+              "profileId": 12479387,
+              "name": "lduzo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 463514200,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-16",
+          "dur": 4706,
+          "opponents": [
+            {
+              "profileId": 22728538,
+              "name": "armo345"
+            },
+            {
+              "profileId": 22728490,
+              "name": "CripKilla356"
+            },
+            {
+              "profileId": 22727053,
+              "name": "Orreslayer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463393343,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-16",
+          "dur": 1235,
+          "opponents": [
+            {
+              "profileId": 13036249,
+              "name": "Currentmob1"
+            },
+            {
+              "profileId": 1595465,
+              "name": "Prottardo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463390146,
+          "civ": "Italians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-16",
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 22711559,
+              "name": "MrGhendalf1"
+            },
+            {
+              "profileId": 24103874,
+              "name": "SarenS_pG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463386652,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-16",
+          "dur": 1928,
+          "opponents": [
+            {
+              "profileId": 22958923,
+              "name": "hattivatti266"
+            },
+            {
+              "profileId": 8719373,
+              "name": "KnockedPeach50"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463134297,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-15",
+          "dur": 1974,
+          "opponents": [
+            {
+              "profileId": 22831188,
+              "name": "esgedda"
+            },
+            {
+              "profileId": 22765143,
+              "name": "b1_upp"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463132648,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-15",
+          "dur": 252,
+          "opponents": [
+            {
+              "profileId": 8719373,
+              "name": "KnockedPeach50"
+            },
+            {
+              "profileId": 12930193,
+              "name": "cousin2602"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463125913,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-15",
+          "dur": 2808,
+          "opponents": [
+            {
+              "profileId": 12930193,
+              "name": "cousin2602"
+            },
+            {
+              "profileId": 23968711,
+              "name": "r93robin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 463114904,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-15",
+          "dur": 3523,
+          "opponents": [
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            },
+            {
+              "profileId": 23131113,
+              "name": "mogrin-1630"
+            },
+            {
+              "profileId": 13279763,
+              "name": "WaterB0YYYY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 462852623,
+          "civ": "Vietnamese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-14",
+          "dur": 1880,
+          "opponents": [
+            {
+              "profileId": 12930193,
+              "name": "cousin2602"
+            },
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462844579,
+          "civ": "Lithuanians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-14",
+          "dur": 3858,
+          "opponents": [
+            {
+              "profileId": 22703421,
+              "name": "Macaroni-LGA"
+            },
+            {
+              "profileId": 23525596,
+              "name": "Dyls_58"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462838801,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1768,
+          "date": "2026-03-14",
+          "dur": 2438,
+          "opponents": [
+            {
+              "profileId": 12977346,
+              "name": "Dprophet14"
+            },
+            {
+              "profileId": 13707612,
+              "name": "ItsWeathaMane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462600395,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-13",
+          "dur": 2395,
+          "opponents": [
+            {
+              "profileId": 22828708,
+              "name": "tjarnold07"
+            },
+            {
+              "profileId": 22949274,
+              "name": "GoodxGrizzly"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462597099,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-13",
+          "dur": 2076,
+          "opponents": [
+            {
+              "profileId": 13376506,
+              "name": "Syd Barrett3933"
+            },
+            {
+              "profileId": 24040000,
+              "name": "Stillwant2play"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462522903,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1768,
+          "date": "2026-03-12",
+          "dur": 2381,
+          "opponents": [
+            {
+              "profileId": 24023178,
+              "name": "MR-Hankey22221"
+            },
+            {
+              "profileId": 22709937,
+              "name": "Fettig15"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462417847,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-12",
+          "dur": 1719,
+          "opponents": [
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            },
+            {
+              "profileId": 13687049,
+              "name": "Sniper9287"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462417147,
+          "civ": "Romans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-12",
+          "dur": 210,
+          "opponents": [
+            {
+              "profileId": 24423708,
+              "name": "eemeliuot"
+            },
+            {
+              "profileId": 24377184,
+              "name": "vuokila1100"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 462408329,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-12",
+          "dur": 3086,
+          "opponents": [
+            {
+              "profileId": 12684984,
+              "name": "rrfrancky"
+            },
+            {
+              "profileId": 12664071,
+              "name": "El tRuCho1320"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 461923311,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-09",
+          "dur": 2132,
+          "opponents": [
+            {
+              "profileId": 13345945,
+              "name": "General Pigeris"
+            },
+            {
+              "profileId": 13691676,
+              "name": "Benthebrit20"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 461921237,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-09",
+          "dur": 199,
+          "opponents": [
+            {
+              "profileId": 22709937,
+              "name": "Fettig15"
+            },
+            {
+              "profileId": 23096729,
+              "name": "snuggly_puffz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 461920416,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-09",
+          "dur": 85,
+          "opponents": [
+            {
+              "profileId": 24023178,
+              "name": "MR-Hankey22221"
+            },
+            {
+              "profileId": 22709937,
+              "name": "Fettig15"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22834382,
+              "name": "Velid743"
+            }
+          ]
+        },
+        {
+          "matchId": 461905459,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-09",
+          "dur": 1897,
+          "opponents": [
+            {
+              "profileId": 23019757,
+              "name": "Monkeyskull69007"
+            },
+            {
+              "profileId": 22706078,
+              "name": "lyonnais--86"
+            },
+            {
+              "profileId": 23061156,
+              "name": "dylan10120"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22798171,
+              "name": "xl1wuj"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 461787353,
+          "civ": "Mongols",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-09",
+          "dur": 2256,
+          "opponents": [
+            {
+              "profileId": 12710924,
+              "name": "GloomyShroom338"
+            },
+            {
+              "profileId": 13036249,
+              "name": "Currentmob1"
+            },
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 461785282,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-09",
+          "dur": 1070,
+          "opponents": [
+            {
+              "profileId": 13222693,
+              "name": "Z0M6IE 117"
+            },
+            {
+              "profileId": 12711513,
+              "name": "iM0ySeSMs99"
+            },
+            {
+              "profileId": 10191887,
+              "name": "Quintero98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 461776210,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-09",
+          "dur": 3310,
+          "opponents": [
+            {
+              "profileId": 22748633,
+              "name": "BENGAA77"
+            },
+            {
+              "profileId": 22836632,
+              "name": "aegon_786"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 461486475,
+          "civ": "Italians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-08",
+          "dur": 2080,
+          "opponents": [
+            {
+              "profileId": 24062022,
+              "name": "dalolacopter"
+            },
+            {
+              "profileId": 23797460,
+              "name": "Famus-Last-Words"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 461216513,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-07",
+          "dur": 2424,
+          "opponents": [
+            {
+              "profileId": 13544160,
+              "name": "Tnagle2"
+            },
+            {
+              "profileId": 14035473,
+              "name": "Joey Steak1683"
+            },
+            {
+              "profileId": 15356326,
+              "name": "Dr HogsTooth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 460902266,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-05",
+          "dur": 1690,
+          "opponents": [
+            {
+              "profileId": 22946351,
+              "name": "BonelessTub"
+            },
+            {
+              "profileId": 22877982,
+              "name": "inglorious-dirty"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 460458793,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-03",
+          "dur": 1826,
+          "opponents": [
+            {
+              "profileId": 24995382,
+              "name": "Lorenzo10440"
+            },
+            {
+              "profileId": 22706078,
+              "name": "lyonnais--86"
+            },
+            {
+              "profileId": 24812041,
+              "name": "razors-38i"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 460365178,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-03",
+          "dur": 3035,
+          "opponents": [
+            {
+              "profileId": 24753107,
+              "name": "WaZO271"
+            },
+            {
+              "profileId": 22764804,
+              "name": "Maximus_XVl"
+            },
+            {
+              "profileId": 24758747,
+              "name": "Jean-bouteilleQc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 460362523,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-03",
+          "dur": 534,
+          "opponents": [
+            {
+              "profileId": 17765536,
+              "name": "mrk0s1605"
+            },
+            {
+              "profileId": 14448263,
+              "name": "ItsALEX10MVP"
+            },
+            {
+              "profileId": 22826887,
+              "name": "CapytanBlud"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 460142206,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-02",
+          "dur": 1598,
+          "opponents": [
+            {
+              "profileId": 23147426,
+              "name": "CrustyPotato313"
+            },
+            {
+              "profileId": 22826887,
+              "name": "CapytanBlud"
+            },
+            {
+              "profileId": 13216763,
+              "name": "moramora48"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 460134514,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-02",
+          "dur": 2160,
+          "opponents": [
+            {
+              "profileId": 14035473,
+              "name": "Joey Steak1683"
+            },
+            {
+              "profileId": 13544160,
+              "name": "Tnagle2"
+            },
+            {
+              "profileId": 15356326,
+              "name": "Dr HogsTooth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459852584,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-01",
+          "dur": 3901,
+          "opponents": [
+            {
+              "profileId": 22818653,
+              "name": "G-O-B-L-I-N_678"
+            },
+            {
+              "profileId": 13707612,
+              "name": "ItsWeathaMane"
+            },
+            {
+              "profileId": 2043915,
+              "name": "Pollathan Davis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 459848943,
+          "civ": "Vikings",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-03-01",
+          "dur": 599,
+          "opponents": [
+            {
+              "profileId": 13707612,
+              "name": "ItsWeathaMane"
+            },
+            {
+              "profileId": 23933015,
+              "name": "meninfire4"
+            },
+            {
+              "profileId": 24887995,
+              "name": "III-_-III-_-III8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459838823,
+          "civ": "Vikings",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-03-01",
+          "dur": 2055,
+          "opponents": [
+            {
+              "profileId": 12508279,
+              "name": "YoSoyMeistro"
+            },
+            {
+              "profileId": 12659845,
+              "name": "Gojo41252"
+            },
+            {
+              "profileId": 12477390,
+              "name": "GirthSoWide"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459559824,
+          "civ": "Vikings",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-02-28",
+          "dur": 1230,
+          "opponents": [
+            {
+              "profileId": 13183359,
+              "name": "fazio touchedme"
+            },
+            {
+              "profileId": 16147954,
+              "name": "G BaeBY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459553528,
+          "civ": "Vikings",
+          "map": "Glade",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-02-28",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 22706078,
+              "name": "lyonnais--86"
+            },
+            {
+              "profileId": 22808251,
+              "name": "Sassomu"
+            },
+            {
+              "profileId": 23061156,
+              "name": "dylan10120"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459544652,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-28",
+          "dur": 2548,
+          "opponents": [
+            {
+              "profileId": 22729411,
+              "name": "zSkittlzV2"
+            },
+            {
+              "profileId": 22732392,
+              "name": "yDreamyy"
+            },
+            {
+              "profileId": 22930485,
+              "name": "F-elix_TNM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459539195,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-02-28",
+          "dur": 1073,
+          "opponents": [
+            {
+              "profileId": 23053270,
+              "name": "I Move Soft"
+            },
+            {
+              "profileId": 12510973,
+              "name": "DanishXX"
+            },
+            {
+              "profileId": 14132480,
+              "name": "SWISH 2EZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459534707,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-02-28",
+          "dur": 567,
+          "opponents": [
+            {
+              "profileId": 22930485,
+              "name": "F-elix_TNM"
+            },
+            {
+              "profileId": 22732392,
+              "name": "yDreamyy"
+            },
+            {
+              "profileId": 22729411,
+              "name": "zSkittlzV2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459294313,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-26",
+          "dur": 4087,
+          "opponents": [
+            {
+              "profileId": 23597907,
+              "name": "ihaveahat24"
+            },
+            {
+              "profileId": 23062727,
+              "name": "Dr_Shenanigans47"
+            },
+            {
+              "profileId": 22889096,
+              "name": "kuppy321"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 459281333,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-26",
+          "dur": 2385,
+          "opponents": [
+            {
+              "profileId": 24911256,
+              "name": "Elvira_9097"
+            },
+            {
+              "profileId": 24911232,
+              "name": "Conor_kelly2026"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 459130966,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-02-26",
+          "dur": 1484,
+          "opponents": [
+            {
+              "profileId": 13036249,
+              "name": "Currentmob1"
+            },
+            {
+              "profileId": 12710924,
+              "name": "GloomyShroom338"
+            },
+            {
+              "profileId": 14567595,
+              "name": "OGTxANGELESS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 459128988,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-02-26",
+          "dur": 1051,
+          "opponents": [
+            {
+              "profileId": 13036249,
+              "name": "Currentmob1"
+            },
+            {
+              "profileId": 14567595,
+              "name": "OGTxANGELESS"
+            },
+            {
+              "profileId": 12710924,
+              "name": "GloomyShroom338"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 458881088,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-25",
+          "dur": 1772,
+          "opponents": [
+            {
+              "profileId": 2851303,
+              "name": "saint6810"
+            },
+            {
+              "profileId": 1340989,
+              "name": "DEVILSFAN123"
+            },
+            {
+              "profileId": 23502052,
+              "name": "YoWhatsUp468"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 458870586,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-25",
+          "dur": 3126,
+          "opponents": [
+            {
+              "profileId": 22769193,
+              "name": "SplycX_"
+            },
+            {
+              "profileId": 23527519,
+              "name": "irontitouan"
+            },
+            {
+              "profileId": 22769977,
+              "name": "pacific568jour"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 458865678,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-25",
+          "dur": 1086,
+          "opponents": [
+            {
+              "profileId": 12832058,
+              "name": "InvolvedGrain25"
+            },
+            {
+              "profileId": 13562315,
+              "name": "YungT609"
+            },
+            {
+              "profileId": 21531956,
+              "name": "Kidvarola"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 458854263,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-25",
+          "dur": 1202,
+          "opponents": [
+            {
+              "profileId": 12459272,
+              "name": "Mx IFenrir I Bz"
+            },
+            {
+              "profileId": 12463221,
+              "name": "The Ghost117212"
+            },
+            {
+              "profileId": 12976513,
+              "name": "Oneill6179064"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 458843474,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-24",
+          "dur": 2365,
+          "opponents": [
+            {
+              "profileId": 12832058,
+              "name": "InvolvedGrain25"
+            },
+            {
+              "profileId": 23410688,
+              "name": "Woody_8253"
+            },
+            {
+              "profileId": 22379875,
+              "name": "KingKiid935O"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 458831949,
+          "civ": "Vikings",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-24",
+          "dur": 2849,
+          "opponents": [
+            {
+              "profileId": 23350910,
+              "name": "jintster"
+            },
+            {
+              "profileId": 23325460,
+              "name": "IcyBlackHand"
+            },
+            {
+              "profileId": 23324179,
+              "name": "skye490"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 458686286,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1749,
+          "date": "2026-02-24",
+          "dur": 2286,
+          "opponents": [
+            {
+              "profileId": 12710924,
+              "name": "GloomyShroom338"
+            },
+            {
+              "profileId": 8719373,
+              "name": "KnockedPeach50"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12635117,
+              "name": "PhoenixWRDN"
+            }
+          ]
+        },
+        {
+          "matchId": 458611076,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1749,
+          "date": "2026-02-23",
+          "dur": 2265,
+          "opponents": [
+            {
+              "profileId": 23364454,
+              "name": "DaRealDeeX2"
+            },
+            {
+              "profileId": 22708552,
+              "name": "LetsGoPatriots22"
+            },
+            {
+              "profileId": 23083968,
+              "name": "asxeem"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 456316301,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1703,
+          "date": "2026-02-15",
+          "dur": 3040,
+          "opponents": [
+            {
+              "profileId": 22893433,
+              "name": "ElPed11"
+            },
+            {
+              "profileId": 23525596,
+              "name": "Dyls_58"
+            },
+            {
+              "profileId": 22703421,
+              "name": "Macaroni-LGA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 456040655,
+          "civ": "Bulgarians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-14",
+          "dur": 601,
+          "opponents": [
+            {
+              "profileId": 22709937,
+              "name": "Fettig15"
+            },
+            {
+              "profileId": 24023178,
+              "name": "MR-Hankey22221"
+            },
+            {
+              "profileId": 24887995,
+              "name": "III-_-III-_-III8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 455917708,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-13",
+          "dur": 1608,
+          "opponents": [
+            {
+              "profileId": 18507119,
+              "name": "BallonPrince5"
+            },
+            {
+              "profileId": 13172605,
+              "name": "Brontosaurus647"
+            },
+            {
+              "profileId": 1970248,
+              "name": "CeladonCrayon35"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 455784451,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1703,
+          "date": "2026-02-13",
+          "dur": 3773,
+          "opponents": [
+            {
+              "profileId": 12665561,
+              "name": "bluekhezzy"
+            },
+            {
+              "profileId": 24851174,
+              "name": "dragon-cal-96"
+            },
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 455772538,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-13",
+          "dur": 2165,
+          "opponents": [
+            {
+              "profileId": 24851174,
+              "name": "dragon-cal-96"
+            },
+            {
+              "profileId": 12981532,
+              "name": "E1jefe28"
+            },
+            {
+              "profileId": 23933015,
+              "name": "meninfire4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 455685125,
+          "civ": "Vikings",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-12",
+          "dur": 1375,
+          "opponents": [
+            {
+              "profileId": 22703421,
+              "name": "Macaroni-LGA"
+            },
+            {
+              "profileId": 23525596,
+              "name": "Dyls_58"
+            },
+            {
+              "profileId": 24887995,
+              "name": "III-_-III-_-III8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 455560231,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1703,
+          "date": "2026-02-12",
+          "dur": 2030,
+          "opponents": [
+            {
+              "profileId": 12462324,
+              "name": "X SaLtEdNuTs X"
+            },
+            {
+              "profileId": 13585106,
+              "name": "X SaLtEdDiZzY X"
+            },
+            {
+              "profileId": 13432718,
+              "name": "XSaLtEdJeLyX"
+            },
+            {
+              "profileId": 13355194,
+              "name": "X SaLtEdTlTs X"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 14448263,
+              "name": "ItsALEX10MVP"
+            }
+          ]
+        },
+        {
+          "matchId": 455457644,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-11",
+          "dur": 3342,
+          "opponents": [
+            {
+              "profileId": 22798171,
+              "name": "xl1wuj"
+            },
+            {
+              "profileId": 12541010,
+              "name": "jackrabbit8888"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 455357207,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1703,
+          "date": "2026-02-11",
+          "dur": 1914,
+          "opponents": [
+            {
+              "profileId": 12500341,
+              "name": "T2j2b"
+            },
+            {
+              "profileId": 20271440,
+              "name": "II TH3 H1TMAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 455334308,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-11",
+          "dur": 2312,
+          "opponents": [
+            {
+              "profileId": 15088551,
+              "name": "Travinator1415"
+            },
+            {
+              "profileId": 13216763,
+              "name": "moramora48"
+            },
+            {
+              "profileId": 23364454,
+              "name": "DaRealDeeX2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 455326893,
+          "civ": "Portuguese",
+          "map": "Highland",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-11",
+          "dur": 1613,
+          "opponents": [
+            {
+              "profileId": 107377,
+              "name": "RamRod826"
+            },
+            {
+              "profileId": 16327254,
+              "name": "ShotByRey"
+            },
+            {
+              "profileId": 12977346,
+              "name": "Dprophet14"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 455127635,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-10",
+          "dur": 2094,
+          "opponents": [
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            },
+            {
+              "profileId": 22703421,
+              "name": "Macaroni-LGA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 454917718,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1703,
+          "date": "2026-02-09",
+          "dur": 1393,
+          "opponents": [
+            {
+              "profileId": 22808251,
+              "name": "Sassomu"
+            },
+            {
+              "profileId": 23061156,
+              "name": "dylan10120"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 429668071,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-30",
+          "dur": 2343,
+          "opponents": [
+            {
+              "profileId": 12585726,
+              "name": "W4IT ZeN"
+            },
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 429658703,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-30",
+          "dur": 856,
+          "opponents": [
+            {
+              "profileId": 12585726,
+              "name": "W4IT ZeN"
+            },
+            {
+              "profileId": 14110584,
+              "name": "Stuffing Farts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 429649443,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-30",
+          "dur": 1654,
+          "opponents": [
+            {
+              "profileId": 14110584,
+              "name": "Stuffing Farts"
+            },
+            {
+              "profileId": 12585726,
+              "name": "W4IT ZeN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 429647149,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-30",
+          "dur": 99,
+          "opponents": [
+            {
+              "profileId": 13449647,
+              "name": "Ron7456"
+            },
+            {
+              "profileId": 14357196,
+              "name": "jimpajan75"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 429519145,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-30",
+          "dur": 1543,
+          "opponents": [
+            {
+              "profileId": 21368978,
+              "name": "ShugWalker"
+            },
+            {
+              "profileId": 12545724,
+              "name": "StonedNTired710"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 429480975,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-30",
+          "dur": 1827,
+          "opponents": [
+            {
+              "profileId": 23468228,
+              "name": "Bridgoo"
+            },
+            {
+              "profileId": 23348096,
+              "name": "DavidBadeale1973"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 429323300,
+          "civ": "Britons",
+          "map": "Graupel",
+          "won": null,
+          "patch": 1676,
+          "date": "2025-10-29",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 23986022,
+              "name": "PersianAria95"
+            },
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428856572,
+          "civ": "Britons",
+          "map": "Bogland",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-27",
+          "dur": 1496,
+          "opponents": [
+            {
+              "profileId": 12471204,
+              "name": "KAIOSUSHIMASTER"
+            },
+            {
+              "profileId": 13112608,
+              "name": "Viperluvr"
+            },
+            {
+              "profileId": 12845395,
+              "name": "Shawn96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 428848358,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-27",
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 24039171,
+              "name": "John Smith17760"
+            },
+            {
+              "profileId": 22828708,
+              "name": "tjarnold07"
+            },
+            {
+              "profileId": 13468270,
+              "name": "He Mercee 38"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428844769,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-27",
+          "dur": 906,
+          "opponents": [
+            {
+              "profileId": 12769303,
+              "name": "gcsamjw"
+            },
+            {
+              "profileId": 15717181,
+              "name": "KFC DIRECTOR"
+            },
+            {
+              "profileId": 16267636,
+              "name": "SwisherDTR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428833546,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-27",
+          "dur": 1326,
+          "opponents": [
+            {
+              "profileId": 3452279,
+              "name": "OleCrookedWoody"
+            },
+            {
+              "profileId": 11828362,
+              "name": "Huskarls4"
+            },
+            {
+              "profileId": 13107937,
+              "name": "DarK Slaayer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428819965,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-26",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 24056983,
+              "name": "TTK-_-Sniper"
+            },
+            {
+              "profileId": 13020964,
+              "name": "JaculusPrime"
+            },
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 428775717,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-26",
+          "dur": 2821,
+          "opponents": [
+            {
+              "profileId": 7117712,
+              "name": "XAgamenon"
+            },
+            {
+              "profileId": 13326697,
+              "name": "beno27"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428594220,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-26",
+          "dur": 2416,
+          "opponents": [
+            {
+              "profileId": 14905356,
+              "name": "klangdon27"
+            },
+            {
+              "profileId": 14895191,
+              "name": "Stoned Rambo 8b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428584558,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-26",
+          "dur": 1931,
+          "opponents": [
+            {
+              "profileId": 23096729,
+              "name": "snuggly_puffz"
+            },
+            {
+              "profileId": 23770244,
+              "name": "zomBdylan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428573627,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-26",
+          "dur": 2035,
+          "opponents": [
+            {
+              "profileId": 23568880,
+              "name": "LlCHERO"
+            },
+            {
+              "profileId": 23984612,
+              "name": "Chinwa_93600"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428567520,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-26",
+          "dur": 1894,
+          "opponents": [
+            {
+              "profileId": 24019503,
+              "name": "TheGreatest2324"
+            },
+            {
+              "profileId": 23113461,
+              "name": "thehoBBitt645"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428557024,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-26",
+          "dur": 2320,
+          "opponents": [
+            {
+              "profileId": 13412012,
+              "name": "TMT DANIEL9575"
+            },
+            {
+              "profileId": 18772826,
+              "name": "TMT Alexis1607"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428547268,
+          "civ": "Britons",
+          "map": "Bogland",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-25",
+          "dur": 2985,
+          "opponents": [
+            {
+              "profileId": 23388165,
+              "name": "AHMED76440"
+            },
+            {
+              "profileId": 23260024,
+              "name": "maxon93220v"
+            },
+            {
+              "profileId": 22804671,
+              "name": "KeepCalm-42"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 22794373,
+              "name": "brunouch2023"
+            }
+          ]
+        },
+        {
+          "matchId": 428531752,
+          "civ": "Britons",
+          "map": "Graupel",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-25",
+          "dur": 3039,
+          "opponents": [
+            {
+              "profileId": 24008957,
+              "name": "patada-lavable5"
+            },
+            {
+              "profileId": 13692724,
+              "name": "RICHI EPIC"
+            },
+            {
+              "profileId": 13408766,
+              "name": "LUISGATO27"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23700488,
+              "name": "bl0ndvzL95"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428337364,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-25",
+          "dur": 2363,
+          "opponents": [
+            {
+              "profileId": 19558375,
+              "name": "Blass17"
+            },
+            {
+              "profileId": 18452734,
+              "name": "betosp27"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 428276137,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-25",
+          "dur": 2003,
+          "opponents": [
+            {
+              "profileId": 4192317,
+              "name": "BigMamaQc1647"
+            },
+            {
+              "profileId": 2851303,
+              "name": "saint6810"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 427821175,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-22",
+          "dur": 1748,
+          "opponents": [
+            {
+              "profileId": 22763813,
+              "name": "ab---yahya"
+            },
+            {
+              "profileId": 22780807,
+              "name": "USA_STAR-_-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 427470200,
+          "civ": "Vietnamese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-21",
+          "dur": 2591,
+          "opponents": [
+            {
+              "profileId": 22828708,
+              "name": "tjarnold07"
+            },
+            {
+              "profileId": 22771669,
+              "name": "Blaringtrain295"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426896915,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-19",
+          "dur": 1819,
+          "opponents": [
+            {
+              "profileId": 22780807,
+              "name": "USA_STAR-_-"
+            },
+            {
+              "profileId": 22763813,
+              "name": "ab---yahya"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426869718,
+          "civ": "Malay",
+          "map": "Graupel",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-18",
+          "dur": 3297,
+          "opponents": [
+            {
+              "profileId": 23493648,
+              "name": "m1ghty__x"
+            },
+            {
+              "profileId": 23364454,
+              "name": "DaRealDeeX2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426862670,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-18",
+          "dur": 1843,
+          "opponents": [
+            {
+              "profileId": 23364454,
+              "name": "DaRealDeeX2"
+            },
+            {
+              "profileId": 22871157,
+              "name": "el__magnicida"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426853134,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-18",
+          "dur": 2285,
+          "opponents": [
+            {
+              "profileId": 23536667,
+              "name": "Hollywood_frog67"
+            },
+            {
+              "profileId": 22869677,
+              "name": "peguan4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426667629,
+          "civ": "Malay",
+          "map": "Prairie",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-18",
+          "dur": 1190,
+          "opponents": [
+            {
+              "profileId": 23806433,
+              "name": "SagtLunaHatAss"
+            },
+            {
+              "profileId": 23616810,
+              "name": "praisedcolt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426662087,
+          "civ": "Bohemians",
+          "map": "Prairie",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-18",
+          "dur": 1363,
+          "opponents": [
+            {
+              "profileId": 23045784,
+              "name": "AntiCamper0107"
+            },
+            {
+              "profileId": 23520107,
+              "name": "DerBob3003"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426656915,
+          "civ": "Bohemians",
+          "map": "Aftermath",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-18",
+          "dur": 2150,
+          "opponents": [
+            {
+              "profileId": 22980725,
+              "name": "xfnafx"
+            },
+            {
+              "profileId": 23616810,
+              "name": "praisedcolt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426651864,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-18",
+          "dur": 1903,
+          "opponents": [
+            {
+              "profileId": 23616810,
+              "name": "praisedcolt"
+            },
+            {
+              "profileId": 23661723,
+              "name": "LucaBassi88"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426540453,
+          "civ": "Britons",
+          "map": "Aftermath",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-17",
+          "dur": 5427,
+          "opponents": [
+            {
+              "profileId": 23520107,
+              "name": "DerBob3003"
+            },
+            {
+              "profileId": 23045784,
+              "name": "AntiCamper0107"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426527701,
+          "civ": "Britons",
+          "map": "Bogland",
+          "won": true,
+          "patch": 1676,
+          "date": "2025-10-17",
+          "dur": 2642,
+          "opponents": [
+            {
+              "profileId": 23045784,
+              "name": "AntiCamper0107"
+            },
+            {
+              "profileId": 23520107,
+              "name": "DerBob3003"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 426124975,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-16",
+          "dur": 1212,
+          "opponents": [
+            {
+              "profileId": 20885601,
+              "name": "Combi l Noob"
+            },
+            {
+              "profileId": 12493963,
+              "name": "Darth masala"
+            },
+            {
+              "profileId": 19618639,
+              "name": "Wololo OG9666"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 426121883,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1676,
+          "date": "2025-10-16",
+          "dur": 971,
+          "opponents": [
+            {
+              "profileId": 20885601,
+              "name": "Combi l Noob"
+            },
+            {
+              "profileId": 12493963,
+              "name": "Darth masala"
+            },
+            {
+              "profileId": 19618639,
+              "name": "Wololo OG9666"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 425674058,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1664,
+          "date": "2025-10-14",
+          "dur": 1823,
+          "opponents": [
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            },
+            {
+              "profileId": 14599304,
+              "name": "Corrupted8174"
+            },
+            {
+              "profileId": 23053270,
+              "name": "I Move Soft"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 425669325,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-14",
+          "dur": 2856,
+          "opponents": [
+            {
+              "profileId": 22808251,
+              "name": "Sassomu"
+            },
+            {
+              "profileId": 23217655,
+              "name": "BrownEye1129"
+            },
+            {
+              "profileId": 16327254,
+              "name": "ShotByRey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 425665872,
+          "civ": "Wei",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1664,
+          "date": "2025-10-14",
+          "dur": 703,
+          "opponents": [
+            {
+              "profileId": 12507596,
+              "name": "A554551N8"
+            },
+            {
+              "profileId": 10785893,
+              "name": "big Conigz"
+            },
+            {
+              "profileId": 13162091,
+              "name": "skully1770"
+            },
+            {
+              "profileId": 12637242,
+              "name": "old peenuts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23468228,
+              "name": "Bridgoo"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 425657477,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-14",
+          "dur": 2820,
+          "opponents": [
+            {
+              "profileId": 12673172,
+              "name": "XblueBEARyX"
+            },
+            {
+              "profileId": 23955816,
+              "name": "NoiRxObscurA"
+            },
+            {
+              "profileId": 23477752,
+              "name": "sebay3500"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 425614576,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": null,
+          "patch": 1664,
+          "date": "2025-10-14",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 15717181,
+              "name": "KFC DIRECTOR"
+            },
+            {
+              "profileId": 12460348,
+              "name": "JANGEL4107"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 425573836,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-13",
+          "dur": 2708,
+          "opponents": [
+            {
+              "profileId": 23557537,
+              "name": "l9cmTrueDamage"
+            },
+            {
+              "profileId": 23277332,
+              "name": "DoppelbockWilly"
+            },
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 425562273,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-13",
+          "dur": 2138,
+          "opponents": [
+            {
+              "profileId": 23557537,
+              "name": "l9cmTrueDamage"
+            },
+            {
+              "profileId": 22940371,
+              "name": "Anthologie-"
+            },
+            {
+              "profileId": 23277332,
+              "name": "DoppelbockWilly"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 425117091,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1664,
+          "date": "2025-10-12",
+          "dur": 3536,
+          "opponents": [
+            {
+              "profileId": 13412012,
+              "name": "TMT DANIEL9575"
+            },
+            {
+              "profileId": 18772826,
+              "name": "TMT Alexis1607"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 424749734,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-10",
+          "dur": 3515,
+          "opponents": [
+            {
+              "profileId": 23494626,
+              "name": "punktoy"
+            },
+            {
+              "profileId": 22708552,
+              "name": "LetsGoPatriots22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 424735577,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-10",
+          "dur": 3043,
+          "opponents": [
+            {
+              "profileId": 22722548,
+              "name": "marrog26-1"
+            },
+            {
+              "profileId": 13053296,
+              "name": "napomaster5858"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 424510294,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1664,
+          "date": "2025-10-10",
+          "dur": 2086,
+          "opponents": [
+            {
+              "profileId": 12459272,
+              "name": "Mx IFenrir I Bz"
+            },
+            {
+              "profileId": 12463221,
+              "name": "The Ghost117212"
+            },
+            {
+              "profileId": 9197398,
+              "name": "Mx IAngel I Bz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 12638005,
+              "name": "Gundeck Miles"
+            }
+          ]
+        },
+        {
+          "matchId": 424175488,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-08",
+          "dur": 1886,
+          "opponents": [
+            {
+              "profileId": 23536667,
+              "name": "Hollywood_frog67"
+            },
+            {
+              "profileId": 22708552,
+              "name": "LetsGoPatriots22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 424048542,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1664,
+          "date": "2025-10-08",
+          "dur": 1793,
+          "opponents": [
+            {
+              "profileId": 13494026,
+              "name": "ShadiestCorn1"
+            },
+            {
+              "profileId": 23468228,
+              "name": "Bridgoo"
+            },
+            {
+              "profileId": 23960095,
+              "name": "Scrappydude9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 424042962,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-08",
+          "dur": 2353,
+          "opponents": [
+            {
+              "profileId": 23217655,
+              "name": "BrownEye1129"
+            },
+            {
+              "profileId": 22738045,
+              "name": "kc1hunna209"
+            },
+            {
+              "profileId": 23960095,
+              "name": "Scrappydude9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 424037332,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-08",
+          "dur": 1884,
+          "opponents": [
+            {
+              "profileId": 12665561,
+              "name": "bluekhezzy"
+            },
+            {
+              "profileId": 23960095,
+              "name": "Scrappydude9"
+            },
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            },
+            {
+              "profileId": 23588456,
+              "name": "AGSalom-96"
+            }
+          ]
+        },
+        {
+          "matchId": 423956125,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1664,
+          "date": "2025-10-07",
+          "dur": 2199,
+          "opponents": [
+            {
+              "profileId": 14081250,
+              "name": "paconazareth"
+            },
+            {
+              "profileId": 12465616,
+              "name": "JurgisLTU"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 423947764,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1664,
+          "date": "2025-10-07",
+          "dur": 2163,
+          "opponents": [
+            {
+              "profileId": 23439355,
+              "name": "Fillun1"
+            },
+            {
+              "profileId": 23440321,
+              "name": "stjo94"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         }
       ]
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "pulledDate": "2026-08-08"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-08-05",
+        "pulledDate": "2026-08-08",
         "latestRating": 1000
       },
       "matches": [
@@ -1663,7 +5428,31 @@
           "won": false,
           "patch": 1664,
           "date": "2025-10-06",
-          "dur": 1593
+          "dur": 1593,
+          "opponents": [
+            {
+              "profileId": 20725565,
+              "name": "hannibal"
+            },
+            {
+              "profileId": 20790106,
+              "name": "G\u0131LLo BeRKo"
+            },
+            {
+              "profileId": 20876947,
+              "name": "\u00c7alooo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23672803,
+              "name": "ElShawwaTv"
+            },
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
         }
       ]
     }
