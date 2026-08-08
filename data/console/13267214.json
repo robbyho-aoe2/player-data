@@ -6,38 +6,11 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 13,
-        "pulledDate": "2026-08-05",
+        "pulledDate": "2026-08-07",
         "latestRating": 941,
         "peakRating": 976
       },
       "matches": [
-        {
-          "matchId": 486204567,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-18",
-          "dur": 2753
-        },
-        {
-          "matchId": 229847069,
-          "civ": "Mongols",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": null,
-          "date": "2023-04-29",
-          "dur": 1693
-        },
-        {
-          "matchId": 227527472,
-          "civ": "Mongols",
-          "map": "Amazon Tunnel",
-          "won": true,
-          "patch": null,
-          "date": "2023-04-19",
-          "dur": 5492
-        },
         {
           "matchId": 493775692,
           "civ": "Shu",
@@ -45,7 +18,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 1097
+          "dur": 1097,
+          "opponents": [
+            {
+              "profileId": 13441720,
+              "name": "Korni5426"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 493769886,
@@ -54,7 +34,14 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-21",
-          "dur": 1814
+          "dur": 1814,
+          "opponents": [
+            {
+              "profileId": 12649145,
+              "name": "Shawzster"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 493063723,
@@ -63,7 +50,14 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-18",
-          "dur": 1783
+          "dur": 1783,
+          "opponents": [
+            {
+              "profileId": 13946554,
+              "name": "khalsasrule1"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 493052398,
@@ -72,7 +66,14 @@
           "won": null,
           "patch": 1800,
           "date": "2026-07-18",
-          "dur": null
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 15510754,
+              "name": "angusbeef48"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 491676659,
@@ -81,7 +82,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-11",
-          "dur": 779
+          "dur": 779,
+          "opponents": [
+            {
+              "profileId": 25836366,
+              "name": "Chino07018541"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 491674365,
@@ -90,7 +98,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-11",
-          "dur": 702
+          "dur": 702,
+          "opponents": [
+            {
+              "profileId": 25836366,
+              "name": "Chino07018541"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 491669867,
@@ -99,7 +114,14 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-11",
-          "dur": 1144
+          "dur": 1144,
+          "opponents": [
+            {
+              "profileId": 12886626,
+              "name": "NOMAARD"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 489916127,
@@ -108,7 +130,14 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-04",
-          "dur": 2369
+          "dur": 2369,
+          "opponents": [
+            {
+              "profileId": 19542078,
+              "name": "Ram2351"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 489887776,
@@ -117,7 +146,14 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-03",
-          "dur": 1265
+          "dur": 1265,
+          "opponents": [
+            {
+              "profileId": 13090818,
+              "name": "Matthiiias4183"
+            }
+          ],
+          "teammates": []
         },
         {
           "matchId": 489874870,
@@ -126,26 +162,204 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-03",
-          "dur": 1602
+          "dur": 1602,
+          "opponents": [
+            {
+              "profileId": 133292,
+              "name": "JoselitoRojas1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 486204567,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-18",
+          "dur": 2753,
+          "opponents": [
+            {
+              "profileId": 13619285,
+              "name": "tedster69"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 229847069,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": null,
+          "date": "2023-04-29",
+          "dur": 1693,
+          "opponents": [
+            {
+              "profileId": 13975084,
+              "name": "XxNoxGloryxX"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 227527472,
+          "civ": "Mongols",
+          "map": "Amazon Tunnel",
+          "won": true,
+          "patch": null,
+          "date": "2023-04-19",
+          "dur": 5492,
+          "opponents": [
+            {
+              "profileId": 12699472,
+              "name": "CobraSkill7"
+            }
+          ],
+          "teammates": []
         }
       ]
     },
     "Team Console": {
       "meta": {
-        "totalGames": 167,
-        "pulledDate": "2026-08-05",
-        "latestRating": 869,
+        "totalGames": 170,
+        "pulledDate": "2026-08-07",
+        "latestRating": 888,
         "peakRating": 1196
       },
       "matches": [
         {
+          "matchId": 497697305,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 2161,
+          "opponents": [
+            {
+              "profileId": 25670435,
+              "name": "icy owI"
+            },
+            {
+              "profileId": 23146980,
+              "name": "Pancha221930"
+            },
+            {
+              "profileId": 12478318,
+              "name": "dudeman42014"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 497682859,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-07",
+          "dur": 3132,
+          "opponents": [
+            {
+              "profileId": 12465616,
+              "name": "JurgisLTU"
+            },
+            {
+              "profileId": 23146980,
+              "name": "Pancha221930"
+            },
+            {
+              "profileId": 13078153,
+              "name": "DADDYDIESEL345"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 497474024,
+          "civ": "Gurjaras",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-06",
+          "dur": 4788,
+          "opponents": [
+            {
+              "profileId": 13022122,
+              "name": "Purblodvikng"
+            },
+            {
+              "profileId": 13135133,
+              "name": "KTHouse997974"
+            },
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
           "matchId": 497066419,
           "civ": "Shu",
           "map": "Arabia",
-          "won": null,
+          "won": false,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": null
+          "dur": 3172,
+          "opponents": [
+            {
+              "profileId": 14199913,
+              "name": "xNUNDAWISERx"
+            },
+            {
+              "profileId": 13022122,
+              "name": "Purblodvikng"
+            },
+            {
+              "profileId": 15021440,
+              "name": "IGotUonMute"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 497057008,
@@ -154,7 +368,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 2256
+          "dur": 2256,
+          "opponents": [
+            {
+              "profileId": 12819637,
+              "name": "HisokaSenpai870"
+            },
+            {
+              "profileId": 13997640,
+              "name": "Judge Cicco"
+            },
+            {
+              "profileId": 13432696,
+              "name": "General HAVOC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 497047788,
@@ -163,7 +401,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 2171
+          "dur": 2171,
+          "opponents": [
+            {
+              "profileId": 12931464,
+              "name": "KaYaTe2587"
+            },
+            {
+              "profileId": 13562315,
+              "name": "YungT609"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 496598185,
@@ -172,7 +426,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-02",
-          "dur": 2995
+          "dur": 2995,
+          "opponents": [
+            {
+              "profileId": 24951927,
+              "name": "ll EARTH ll"
+            },
+            {
+              "profileId": 13118876,
+              "name": "AShadyLlama43"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 496597343,
@@ -181,7 +451,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-02",
-          "dur": 269
+          "dur": 269,
+          "opponents": [
+            {
+              "profileId": 14289987,
+              "name": "DreJefe94"
+            },
+            {
+              "profileId": 14362532,
+              "name": "VTL Angexlz"
+            },
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 496327730,
@@ -190,7 +484,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 3702
+          "dur": 3702,
+          "opponents": [
+            {
+              "profileId": 6270415,
+              "name": "thegh0strider11"
+            },
+            {
+              "profileId": 12903439,
+              "name": "Frisky Dingo313"
+            },
+            {
+              "profileId": 14290076,
+              "name": "Mr Carter707955"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 496319742,
@@ -199,1060 +517,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-08-01",
-          "dur": 2552
-        },
-        {
-          "matchId": 488556540,
-          "civ": "Lithuanians",
-          "map": "Graupel",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 2012
-        },
-        {
-          "matchId": 488544130,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 1863
-        },
-        {
-          "matchId": 488527622,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-27",
-          "dur": 3086
-        },
-        {
-          "matchId": 488106014,
-          "civ": "Mongols",
-          "map": "Glade",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-26",
-          "dur": 1754
-        },
-        {
-          "matchId": 488100601,
-          "civ": "Turks",
-          "map": "Glade",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-26",
-          "dur": 1326
-        },
-        {
-          "matchId": 488092887,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-26",
-          "dur": 1467
-        },
-        {
-          "matchId": 487228402,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 2956
-        },
-        {
-          "matchId": 487224748,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 926
-        },
-        {
-          "matchId": 487209540,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 3683
-        },
-        {
-          "matchId": 487204860,
-          "civ": "Mongols",
-          "map": "African Clearing",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-22",
-          "dur": 1307
-        },
-        {
-          "matchId": 486706275,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1797,
-          "date": "2026-06-20",
-          "dur": 3652
-        },
-        {
-          "matchId": 486704828,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-20",
-          "dur": 234
-        },
-        {
-          "matchId": 486695228,
-          "civ": "Mongols",
-          "map": "Highland",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-20",
-          "dur": 3023
-        },
-        {
-          "matchId": 486449883,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-19",
-          "dur": 3722
-        },
-        {
-          "matchId": 486444004,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-19",
-          "dur": 1282
-        },
-        {
-          "matchId": 486015378,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-17",
-          "dur": 2272
-        },
-        {
-          "matchId": 485987367,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1797,
-          "date": "2026-06-17",
-          "dur": 2565
-        },
-        {
-          "matchId": 485248599,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-14",
-          "dur": 2145
-        },
-        {
-          "matchId": 485197393,
-          "civ": "Huns",
-          "map": "African Clearing",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-13",
-          "dur": 1934
-        },
-        {
-          "matchId": 485153308,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-13",
-          "dur": 2746
-        },
-        {
-          "matchId": 485137686,
-          "civ": "Mongols",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-13",
-          "dur": 2121
-        },
-        {
-          "matchId": 485124813,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-13",
-          "dur": 1352
-        },
-        {
-          "matchId": 484223654,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": 1796,
-          "date": "2026-06-10",
-          "dur": 3308
-        },
-        {
-          "matchId": 484016694,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-09",
-          "dur": 719
-        },
-        {
-          "matchId": 484008025,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-09",
-          "dur": 1585
-        },
-        {
-          "matchId": 484000490,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": 1796,
-          "date": "2026-06-09",
-          "dur": 1842
-        },
-        {
-          "matchId": 287222328,
-          "civ": "Spanish",
-          "map": "Arena",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-23",
-          "dur": 1760
-        },
-        {
-          "matchId": 287214152,
-          "civ": "Spanish",
-          "map": "Oasis",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-23",
-          "dur": 523
-        },
-        {
-          "matchId": 287009391,
-          "civ": "Spanish",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-22",
-          "dur": 3763
-        },
-        {
-          "matchId": 286997763,
-          "civ": "Spanish",
-          "map": "Oasis",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-22",
-          "dur": 2999
-        },
-        {
-          "matchId": 286984683,
-          "civ": "Spanish",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-22",
-          "dur": 2372
-        },
-        {
-          "matchId": 286895809,
-          "civ": "Spanish",
-          "map": "Lowland",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-21",
-          "dur": 2852
-        },
-        {
-          "matchId": 286724275,
-          "civ": "Spanish",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-21",
-          "dur": 3247
-        },
-        {
-          "matchId": 286041938,
-          "civ": "Burmese",
-          "map": "Arena",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-18",
-          "dur": 2414
-        },
-        {
-          "matchId": 286039394,
-          "civ": "Burmese",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-18",
-          "dur": 736
-        },
-        {
-          "matchId": 286014470,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-18",
-          "dur": 3129
-        },
-        {
-          "matchId": 285848627,
-          "civ": "Mongols",
-          "map": "Lowland",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-17",
-          "dur": 2517
-        },
-        {
-          "matchId": 285842069,
-          "civ": "Spanish",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-17",
-          "dur": 2373
-        },
-        {
-          "matchId": 285822489,
-          "civ": "Spanish",
-          "map": "Oasis",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-17",
-          "dur": 2750
-        },
-        {
-          "matchId": 285652157,
-          "civ": "Spanish",
-          "map": "Oasis",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-16",
-          "dur": 3097
-        },
-        {
-          "matchId": 285640965,
-          "civ": "Spanish",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-16",
-          "dur": 3016
-        },
-        {
-          "matchId": 285634407,
-          "civ": "Spanish",
-          "map": "Oasis",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-16",
-          "dur": 2679
-        },
-        {
-          "matchId": 285625518,
-          "civ": "Spanish",
-          "map": "Oasis",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-16",
-          "dur": 2248
-        },
-        {
-          "matchId": 285405024,
-          "civ": "Hindustanis",
-          "map": "Oasis",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-15",
-          "dur": 2376
-        },
-        {
-          "matchId": 285385396,
-          "civ": "Burmese",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-15",
-          "dur": 3177
-        },
-        {
-          "matchId": 285383954,
-          "civ": "Burmese",
-          "map": "Runestones",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-15",
-          "dur": 131
-        },
-        {
-          "matchId": 285177583,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": null,
-          "patch": null,
-          "date": "2024-01-14",
-          "dur": null
-        },
-        {
-          "matchId": 285145497,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-14",
-          "dur": 3007
-        },
-        {
-          "matchId": 284688744,
-          "civ": "Mongols",
-          "map": "Lowland",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-12",
-          "dur": 2607
-        },
-        {
-          "matchId": 284491141,
-          "civ": "Burmese",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-11",
-          "dur": 2543
-        },
-        {
-          "matchId": 284300803,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-10",
-          "dur": 3774
-        },
-        {
-          "matchId": 283542725,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-06",
-          "dur": 3797
-        },
-        {
-          "matchId": 283528639,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-06",
-          "dur": 2521
-        },
-        {
-          "matchId": 282910743,
-          "civ": "Burmese",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-04",
-          "dur": 5190
-        },
-        {
-          "matchId": 282898786,
-          "civ": "Burmese",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-04",
-          "dur": 2574
-        },
-        {
-          "matchId": 282890434,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-04",
-          "dur": 2568
-        },
-        {
-          "matchId": 282884621,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-04",
-          "dur": 1551
-        },
-        {
-          "matchId": 282695192,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-03",
-          "dur": 3027
-        },
-        {
-          "matchId": 282689557,
-          "civ": "Hindustanis",
-          "map": "Runestones",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-03",
-          "dur": 1735
-        },
-        {
-          "matchId": 282685740,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-03",
-          "dur": 1397
-        },
-        {
-          "matchId": 282674944,
-          "civ": "Hindustanis",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-03",
-          "dur": 3308
-        },
-        {
-          "matchId": 282462003,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-02",
-          "dur": 4268
-        },
-        {
-          "matchId": 282454365,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-02",
-          "dur": 2273
-        },
-        {
-          "matchId": 282442886,
-          "civ": "Mongols",
-          "map": "Yucatan",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-02",
-          "dur": 2474
-        },
-        {
-          "matchId": 282414132,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-02",
-          "dur": 5816
-        },
-        {
-          "matchId": 282395407,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-01",
-          "dur": 3761
-        },
-        {
-          "matchId": 282383072,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-01",
-          "dur": 2211
-        },
-        {
-          "matchId": 282220007,
-          "civ": "Mongols",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": null,
-          "date": "2024-01-01",
-          "dur": 1933
-        },
-        {
-          "matchId": 282209812,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2024-01-01",
-          "dur": 3799
-        },
-        {
-          "matchId": 282017942,
-          "civ": "Franks",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-31",
-          "dur": 1917
-        },
-        {
-          "matchId": 282011263,
-          "civ": "Franks",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-31",
-          "dur": 2016
-        },
-        {
-          "matchId": 282001900,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-31",
-          "dur": 2252
-        },
-        {
-          "matchId": 281990891,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-31",
-          "dur": 3360
-        },
-        {
-          "matchId": 281975021,
-          "civ": "Slavs",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-31",
-          "dur": 3704
-        },
-        {
-          "matchId": 281953953,
-          "civ": "Magyars",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-31",
-          "dur": 3112
-        },
-        {
-          "matchId": 281909367,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-30",
-          "dur": 2095
-        },
-        {
-          "matchId": 281485950,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-29",
-          "dur": 3197
-        },
-        {
-          "matchId": 281476767,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-29",
-          "dur": 2507
-        },
-        {
-          "matchId": 281459994,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-29",
-          "dur": 3825
-        },
-        {
-          "matchId": 280547309,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-25",
-          "dur": 2827
-        },
-        {
-          "matchId": 280540032,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-24",
-          "dur": 2583
-        },
-        {
-          "matchId": 280356793,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-24",
-          "dur": 1650
-        },
-        {
-          "matchId": 280337563,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-24",
-          "dur": 2964
-        },
-        {
-          "matchId": 279705548,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-21",
-          "dur": 2930
-        },
-        {
-          "matchId": 279697182,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-21",
-          "dur": 2403
-        },
-        {
-          "matchId": 279691295,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-21",
-          "dur": 1419
-        },
-        {
-          "matchId": 279529460,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-20",
-          "dur": 2966
-        },
-        {
-          "matchId": 279516005,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-20",
-          "dur": 4379
-        },
-        {
-          "matchId": 279510037,
-          "civ": "Magyars",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-20",
-          "dur": 2500
-        },
-        {
-          "matchId": 279507471,
-          "civ": "Magyars",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-20",
-          "dur": 762
-        },
-        {
-          "matchId": 279328576,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-19",
-          "dur": 2268
-        },
-        {
-          "matchId": 279318130,
-          "civ": "Huns",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-19",
-          "dur": 2496
-        },
-        {
-          "matchId": 279119010,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-18",
-          "dur": 3609
-        },
-        {
-          "matchId": 279095489,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-18",
-          "dur": 3154
-        },
-        {
-          "matchId": 279088416,
-          "civ": "Mongols",
-          "map": "MegaRandom",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-18",
-          "dur": 2675
-        },
-        {
-          "matchId": 279074740,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-17",
-          "dur": 3095
-        },
-        {
-          "matchId": 279060781,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-17",
-          "dur": 2053
-        },
-        {
-          "matchId": 278173109,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-13",
-          "dur": 1851
-        },
-        {
-          "matchId": 278163352,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-13",
-          "dur": 1977
-        },
-        {
-          "matchId": 277680298,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-11",
-          "dur": 1039
-        },
-        {
-          "matchId": 277678035,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-11",
-          "dur": 1319
-        },
-        {
-          "matchId": 277635548,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-11",
-          "dur": 3071
-        },
-        {
-          "matchId": 277620016,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-10",
-          "dur": 2076
-        },
-        {
-          "matchId": 277613013,
-          "civ": "Mongols",
-          "map": "Seize The Mountain",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-10",
-          "dur": 1776
-        },
-        {
-          "matchId": 277608921,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-10",
-          "dur": 266
-        },
-        {
-          "matchId": 276535044,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-12-06",
-          "dur": 4657
-        },
-        {
-          "matchId": 276526939,
-          "civ": "Mongols",
-          "map": "Eruption",
-          "won": false,
-          "patch": null,
-          "date": "2023-12-06",
-          "dur": 2378
-        },
-        {
-          "matchId": 274148396,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-11-25",
-          "dur": 3086
-        },
-        {
-          "matchId": 274130474,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-11-25",
-          "dur": 5005
-        },
-        {
-          "matchId": 274089920,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-11-25",
-          "dur": 2623
-        },
-        {
-          "matchId": 274083000,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-11-25",
-          "dur": 2142
-        },
-        {
-          "matchId": 274069131,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-11-24",
-          "dur": 1520
-        },
-        {
-          "matchId": 274032740,
-          "civ": "Mongols",
-          "map": "Coastal Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-11-24",
-          "dur": 1746
-        },
-        {
-          "matchId": 223763600,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": true,
-          "patch": null,
-          "date": "2023-04-04",
-          "dur": 2426
-        },
-        {
-          "matchId": 223754853,
-          "civ": "Mongols",
-          "map": "MegaRandom",
-          "won": true,
-          "patch": null,
-          "date": "2023-04-04",
-          "dur": 2409
-        },
-        {
-          "matchId": 213839156,
-          "civ": "Mongols",
-          "map": "Black Forest",
-          "won": false,
-          "patch": null,
-          "date": "2023-02-26",
-          "dur": 6999
-        },
-        {
-          "matchId": 213493852,
-          "civ": "Mongols",
-          "map": "Amazon Tunnel",
-          "won": false,
-          "patch": null,
-          "date": "2023-02-25",
-          "dur": 2723
+          "dur": 2552,
+          "opponents": [
+            {
+              "profileId": 13022122,
+              "name": "Purblodvikng"
+            },
+            {
+              "profileId": 13149918,
+              "name": "FlamesOfFire297"
+            },
+            {
+              "profileId": 13376506,
+              "name": "Syd Barrett3933"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 496069983,
@@ -1261,7 +550,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-31",
-          "dur": 2775
+          "dur": 2775,
+          "opponents": [
+            {
+              "profileId": 25911352,
+              "name": "ImDecentAtBest"
+            },
+            {
+              "profileId": 13030088,
+              "name": "Fedear08"
+            },
+            {
+              "profileId": 13770681,
+              "name": "GGDYOURMOM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 496067105,
@@ -1270,7 +583,39 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-31",
-          "dur": 889
+          "dur": 889,
+          "opponents": [
+            {
+              "profileId": 19195048,
+              "name": "Elmochicrak"
+            },
+            {
+              "profileId": 428877,
+              "name": "Razgado12"
+            },
+            {
+              "profileId": 12551734,
+              "name": "KronosX6104"
+            },
+            {
+              "profileId": 13216763,
+              "name": "moramora48"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 14289987,
+              "name": "DreJefe94"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 496049635,
@@ -1279,7 +624,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-31",
-          "dur": 1700
+          "dur": 1700,
+          "opponents": [
+            {
+              "profileId": 11828362,
+              "name": "Huskarls4"
+            },
+            {
+              "profileId": 13370763,
+              "name": "The Sasquatch53"
+            },
+            {
+              "profileId": 14708586,
+              "name": "KING SAM 22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 495646741,
@@ -1288,7 +657,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-29",
-          "dur": 1573
+          "dur": 1573,
+          "opponents": [
+            {
+              "profileId": 13711916,
+              "name": "IZoos"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 14289987,
+              "name": "DreJefe94"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 495431330,
@@ -1297,7 +690,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-28",
-          "dur": 1754
+          "dur": 1754,
+          "opponents": [
+            {
+              "profileId": 13904322,
+              "name": "x White Slice x"
+            },
+            {
+              "profileId": 12547926,
+              "name": "LONZO272"
+            },
+            {
+              "profileId": 23481233,
+              "name": "Zdogthe3rd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 495423097,
@@ -1306,7 +723,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-28",
-          "dur": 2204
+          "dur": 2204,
+          "opponents": [
+            {
+              "profileId": 14111851,
+              "name": "pigeonhawk18"
+            },
+            {
+              "profileId": 13940383,
+              "name": "PrisonedKitty34"
+            },
+            {
+              "profileId": 13213262,
+              "name": "Greenetown25"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 495410642,
@@ -1315,7 +756,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-28",
-          "dur": 3198
+          "dur": 3198,
+          "opponents": [
+            {
+              "profileId": 9266270,
+              "name": "mturk39"
+            },
+            {
+              "profileId": 9264999,
+              "name": "illest SCU"
+            },
+            {
+              "profileId": 13039741,
+              "name": "x ReMiNdZ x"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 495108245,
@@ -1324,7 +789,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-26",
-          "dur": 1510
+          "dur": 1510,
+          "opponents": [
+            {
+              "profileId": 4402331,
+              "name": "The Biaviian"
+            },
+            {
+              "profileId": 15717181,
+              "name": "KFC DIRECTOR"
+            },
+            {
+              "profileId": 14803965,
+              "name": "ZappyWarrior456"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 495090743,
@@ -1333,7 +822,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-26",
-          "dur": 2899
+          "dur": 2899,
+          "opponents": [
+            {
+              "profileId": 13305266,
+              "name": "OneNutHope"
+            },
+            {
+              "profileId": 13299164,
+              "name": "Made In Eng"
+            },
+            {
+              "profileId": 13177959,
+              "name": "doodlesplatinum"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13639280,
+              "name": "Hamster7779024"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 495080682,
@@ -1342,7 +855,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-26",
-          "dur": 2242
+          "dur": 2242,
+          "opponents": [
+            {
+              "profileId": 12567637,
+              "name": "X420XvandalismX"
+            },
+            {
+              "profileId": 13770681,
+              "name": "GGDYOURMOM"
+            },
+            {
+              "profileId": 25911352,
+              "name": "ImDecentAtBest"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 494943626,
@@ -1351,7 +888,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-26",
-          "dur": 2147
+          "dur": 2147,
+          "opponents": [
+            {
+              "profileId": 24200153,
+              "name": "Odin1147"
+            },
+            {
+              "profileId": 5233215,
+              "name": "LegionZxDooM"
+            },
+            {
+              "profileId": 13218644,
+              "name": "I ALFAMEGA I"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
         },
         {
           "matchId": 494887070,
@@ -1360,7 +921,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-25",
-          "dur": 1797
+          "dur": 1797,
+          "opponents": [
+            {
+              "profileId": 25901258,
+              "name": "AQUILES7776214"
+            },
+            {
+              "profileId": 12947444,
+              "name": "CHAOS2247"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
         },
         {
           "matchId": 494652218,
@@ -1369,7 +946,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-25",
-          "dur": 2952
+          "dur": 2952,
+          "opponents": [
+            {
+              "profileId": 25860903,
+              "name": "ixoxiu"
+            },
+            {
+              "profileId": 25888510,
+              "name": "DLN Soapz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 494641895,
@@ -1378,7 +971,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-24",
-          "dur": 2743
+          "dur": 2743,
+          "opponents": [
+            {
+              "profileId": 14905356,
+              "name": "klangdon27"
+            },
+            {
+              "profileId": 14895135,
+              "name": "EddyTheSir"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 494423683,
@@ -1387,7 +996,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-24",
-          "dur": 2391
+          "dur": 2391,
+          "opponents": [
+            {
+              "profileId": 12587646,
+              "name": "tvilleTIGER"
+            },
+            {
+              "profileId": 20617613,
+              "name": "nO hOpE 207"
+            },
+            {
+              "profileId": 12592061,
+              "name": "EmptyNetGoal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 494247733,
@@ -1396,7 +1029,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 2393
+          "dur": 2393,
+          "opponents": [
+            {
+              "profileId": 15961738,
+              "name": "Fierro6438"
+            },
+            {
+              "profileId": 13531390,
+              "name": "DeftDuchess278"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 494242566,
@@ -1405,7 +1054,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 1532
+          "dur": 1532,
+          "opponents": [
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            },
+            {
+              "profileId": 15131207,
+              "name": "Ki1LaH7"
+            },
+            {
+              "profileId": 13020964,
+              "name": "JaculusPrime"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 494208155,
@@ -1414,7 +1087,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-23",
-          "dur": 2945
+          "dur": 2945,
+          "opponents": [
+            {
+              "profileId": 15793449,
+              "name": "Zela4940"
+            },
+            {
+              "profileId": 13149918,
+              "name": "FlamesOfFire297"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 494008008,
@@ -1423,7 +1112,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-22",
-          "dur": 2694
+          "dur": 2694,
+          "opponents": [
+            {
+              "profileId": 7105959,
+              "name": "godofwar170210"
+            },
+            {
+              "profileId": 8394993,
+              "name": "Centix3678"
+            },
+            {
+              "profileId": 15147321,
+              "name": "Rexizq"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 494000828,
@@ -1432,7 +1145,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-22",
-          "dur": 1851
+          "dur": 1851,
+          "opponents": [
+            {
+              "profileId": 12625285,
+              "name": "BD4gAvEyouSWAG"
+            },
+            {
+              "profileId": 12782950,
+              "name": "MidnightHammer1"
+            },
+            {
+              "profileId": 12840197,
+              "name": "theTOshow93"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 493519174,
@@ -1441,7 +1178,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-19",
-          "dur": 1479
+          "dur": 1479,
+          "opponents": [
+            {
+              "profileId": 13149918,
+              "name": "FlamesOfFire297"
+            },
+            {
+              "profileId": 12544533,
+              "name": "Condogg69"
+            },
+            {
+              "profileId": 12542039,
+              "name": "K1NGSTON9404"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 493511365,
@@ -1450,7 +1211,39 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-19",
-          "dur": 1608
+          "dur": 1608,
+          "opponents": [
+            {
+              "profileId": 12614361,
+              "name": "BaseClient77868"
+            },
+            {
+              "profileId": 13344610,
+              "name": "B1ndin"
+            },
+            {
+              "profileId": 13370763,
+              "name": "The Sasquatch53"
+            },
+            {
+              "profileId": 14708586,
+              "name": "KING SAM 22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
         },
         {
           "matchId": 493504554,
@@ -1459,7 +1252,39 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-19",
-          "dur": 2151
+          "dur": 2151,
+          "opponents": [
+            {
+              "profileId": 12589193,
+              "name": "BigKnuckleXx"
+            },
+            {
+              "profileId": 13208376,
+              "name": "Strokes Chin"
+            },
+            {
+              "profileId": 14289987,
+              "name": "DreJefe94"
+            },
+            {
+              "profileId": 13841625,
+              "name": "Dorbleazy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 493493646,
@@ -1468,7 +1293,31 @@
           "won": null,
           "patch": 1800,
           "date": "2026-07-19",
-          "dur": null
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            },
+            {
+              "profileId": 13149918,
+              "name": "FlamesOfFire297"
+            },
+            {
+              "profileId": 13030884,
+              "name": "KAIBIL BALAM436"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 492637420,
@@ -1477,7 +1326,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-16",
-          "dur": 848
+          "dur": 848,
+          "opponents": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 14198873,
+              "name": "OdiousOx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 492400513,
@@ -1486,7 +1351,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-15",
-          "dur": 3186
+          "dur": 3186,
+          "opponents": [
+            {
+              "profileId": 9266270,
+              "name": "mturk39"
+            },
+            {
+              "profileId": 19326136,
+              "name": "Mistomical"
+            },
+            {
+              "profileId": 9264999,
+              "name": "illest SCU"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 492216570,
@@ -1495,7 +1384,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-14",
-          "dur": 4229
+          "dur": 4229,
+          "opponents": [
+            {
+              "profileId": 24195810,
+              "name": "Tear My ACL"
+            },
+            {
+              "profileId": 14000955,
+              "name": "I The Koun I"
+            },
+            {
+              "profileId": 24191322,
+              "name": "CleanFawn668251"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 492204274,
@@ -1504,7 +1417,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-14",
-          "dur": 3776
+          "dur": 3776,
+          "opponents": [
+            {
+              "profileId": 25824696,
+              "name": "John96398"
+            },
+            {
+              "profileId": 25844827,
+              "name": "lowboygirl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 492191555,
@@ -1513,7 +1442,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-14",
-          "dur": 2516
+          "dur": 2516,
+          "opponents": [
+            {
+              "profileId": 12770207,
+              "name": "tedd cluberlang"
+            },
+            {
+              "profileId": 16210880,
+              "name": "NatureLover4LIF"
+            },
+            {
+              "profileId": 13034697,
+              "name": "Ace Troll6371"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13897832,
+              "name": "Chontchadori"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 492186493,
@@ -1522,7 +1475,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-14",
-          "dur": 1657
+          "dur": 1657,
+          "opponents": [
+            {
+              "profileId": 13938546,
+              "name": "ii CARLSON ii"
+            },
+            {
+              "profileId": 13035485,
+              "name": "Mister Lazenby"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 491983069,
@@ -1531,7 +1500,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-13",
-          "dur": 2105
+          "dur": 2105,
+          "opponents": [
+            {
+              "profileId": 12819637,
+              "name": "HisokaSenpai870"
+            },
+            {
+              "profileId": 13413657,
+              "name": "AceMoMoLa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 491974643,
@@ -1540,7 +1525,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-13",
-          "dur": 2386
+          "dur": 2386,
+          "opponents": [
+            {
+              "profileId": 13022122,
+              "name": "Purblodvikng"
+            },
+            {
+              "profileId": 15472453,
+              "name": "tommy Da tickrr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 491472575,
@@ -1549,7 +1550,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-11",
-          "dur": 1998
+          "dur": 1998,
+          "opponents": [
+            {
+              "profileId": 20626497,
+              "name": "DonEstevez"
+            },
+            {
+              "profileId": 12628194,
+              "name": "Roland420Green"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 491232493,
@@ -1558,7 +1575,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-10",
-          "dur": 1478
+          "dur": 1478,
+          "opponents": [
+            {
+              "profileId": 13494026,
+              "name": "ShadiestCorn1"
+            },
+            {
+              "profileId": 1595465,
+              "name": "Prottardo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 491210321,
@@ -1567,7 +1600,31 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-10",
-          "dur": 1485
+          "dur": 1485,
+          "opponents": [
+            {
+              "profileId": 12614361,
+              "name": "BaseClient77868"
+            },
+            {
+              "profileId": 13059206,
+              "name": "SaberWolf7284"
+            },
+            {
+              "profileId": 13149918,
+              "name": "FlamesOfFire297"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 490998058,
@@ -1576,7 +1633,31 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-09",
-          "dur": 2393
+          "dur": 2393,
+          "opponents": [
+            {
+              "profileId": 12945877,
+              "name": "TripD5322"
+            },
+            {
+              "profileId": 2328852,
+              "name": "hmwheeler"
+            },
+            {
+              "profileId": 13542960,
+              "name": "StalePoet424128"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 490625509,
@@ -1585,7 +1666,31 @@
           "won": null,
           "patch": 1797,
           "date": "2026-07-07",
-          "dur": null
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 12672612,
+              "name": "L1T3Z"
+            },
+            {
+              "profileId": 13022122,
+              "name": "Purblodvikng"
+            },
+            {
+              "profileId": 3469055,
+              "name": "CanadianBeerGod"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 490411500,
@@ -1594,7 +1699,31 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-06",
-          "dur": 2524
+          "dur": 2524,
+          "opponents": [
+            {
+              "profileId": 13243631,
+              "name": "turmelqc"
+            },
+            {
+              "profileId": 12865382,
+              "name": "Sergxz091044"
+            },
+            {
+              "profileId": 2044422,
+              "name": "Brassard"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 490403170,
@@ -1603,7 +1732,31 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-06",
-          "dur": 2371
+          "dur": 2371,
+          "opponents": [
+            {
+              "profileId": 20617613,
+              "name": "nO hOpE 207"
+            },
+            {
+              "profileId": 622016,
+              "name": "c ya1985"
+            },
+            {
+              "profileId": 12903200,
+              "name": "CLAYM0RE GOD"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 489286772,
@@ -1612,7 +1765,31 @@
           "won": true,
           "patch": 1797,
           "date": "2026-07-01",
-          "dur": 2958
+          "dur": 2958,
+          "opponents": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 13312051,
+              "name": "AdmGoldschlager"
+            },
+            {
+              "profileId": 23816271,
+              "name": "tanner564"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 489276523,
@@ -1621,7 +1798,31 @@
           "won": false,
           "patch": 1797,
           "date": "2026-07-01",
-          "dur": 2279
+          "dur": 2279,
+          "opponents": [
+            {
+              "profileId": 12827080,
+              "name": "SourEmperor097"
+            },
+            {
+              "profileId": 14290076,
+              "name": "Mr Carter707955"
+            },
+            {
+              "profileId": 14111851,
+              "name": "pigeonhawk18"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
         },
         {
           "matchId": 488569914,
@@ -1630,7 +1831,39 @@
           "won": false,
           "patch": 1797,
           "date": "2026-06-28",
-          "dur": 1733
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 21117683,
+              "name": "SloppySteak 643"
+            },
+            {
+              "profileId": 24666595,
+              "name": "Evo x ReckIt"
+            },
+            {
+              "profileId": 12595052,
+              "name": "FibroidVenus3"
+            },
+            {
+              "profileId": 25449932,
+              "name": "Icyturtle42"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12728426,
+              "name": "Lolimalolnab"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
         },
         {
           "matchId": 488565245,
@@ -1639,21 +1872,4370 @@
           "won": true,
           "patch": 1797,
           "date": "2026-06-28",
-          "dur": 236
+          "dur": 236,
+          "opponents": [
+            {
+              "profileId": 24666595,
+              "name": "Evo x ReckIt"
+            },
+            {
+              "profileId": 13376506,
+              "name": "Syd Barrett3933"
+            },
+            {
+              "profileId": 3469055,
+              "name": "CanadianBeerGod"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 488556540,
+          "civ": "Lithuanians",
+          "map": "Graupel",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 2012,
+          "opponents": [
+            {
+              "profileId": 3455384,
+              "name": "SUPERMN52"
+            },
+            {
+              "profileId": 13564696,
+              "name": "Azarox I"
+            },
+            {
+              "profileId": 12597246,
+              "name": "JaffarisonLamar"
+            },
+            {
+              "profileId": 13297234,
+              "name": "Tuturinhoo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 488544130,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 1863,
+          "opponents": [
+            {
+              "profileId": 13512805,
+              "name": "MickSlayer15"
+            },
+            {
+              "profileId": 15087764,
+              "name": "THEDEEPSE4 KING"
+            },
+            {
+              "profileId": 12841931,
+              "name": "ClevelandSaiyan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 488527622,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-27",
+          "dur": 3086,
+          "opponents": [
+            {
+              "profileId": 13441727,
+              "name": "xXZiggyXx330x"
+            },
+            {
+              "profileId": 25240841,
+              "name": "JackMane4091"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 488106014,
+          "civ": "Mongols",
+          "map": "Glade",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-26",
+          "dur": 1754,
+          "opponents": [
+            {
+              "profileId": 13309536,
+              "name": "Tgonzo10"
+            },
+            {
+              "profileId": 13542960,
+              "name": "StalePoet424128"
+            },
+            {
+              "profileId": 12945877,
+              "name": "TripD5322"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 488100601,
+          "civ": "Turks",
+          "map": "Glade",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-26",
+          "dur": 1326,
+          "opponents": [
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            },
+            {
+              "profileId": 14209257,
+              "name": "hamdaddy82"
+            },
+            {
+              "profileId": 13020964,
+              "name": "JaculusPrime"
+            },
+            {
+              "profileId": 15131207,
+              "name": "Ki1LaH7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13376506,
+              "name": "Syd Barrett3933"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 488092887,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-26",
+          "dur": 1467,
+          "opponents": [
+            {
+              "profileId": 12910087,
+              "name": "Bullets Nonstop"
+            },
+            {
+              "profileId": 18518087,
+              "name": "SpursCOYS216040"
+            },
+            {
+              "profileId": 18507119,
+              "name": "BallonPrince5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 487228402,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 2956,
+          "opponents": [
+            {
+              "profileId": 12832058,
+              "name": "InvolvedGrain25"
+            },
+            {
+              "profileId": 14209257,
+              "name": "hamdaddy82"
+            },
+            {
+              "profileId": 15131207,
+              "name": "Ki1LaH7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 487224748,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 926,
+          "opponents": [
+            {
+              "profileId": 25023175,
+              "name": "CRad4272"
+            },
+            {
+              "profileId": 10344153,
+              "name": "Ccobrakai6063"
+            },
+            {
+              "profileId": 12832058,
+              "name": "InvolvedGrain25"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 487209540,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 3683,
+          "opponents": [
+            {
+              "profileId": 14035473,
+              "name": "Joey Steak1683"
+            },
+            {
+              "profileId": 13544160,
+              "name": "Tnagle2"
+            },
+            {
+              "profileId": 15356326,
+              "name": "Dr HogsTooth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 487204860,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-22",
+          "dur": 1307,
+          "opponents": [
+            {
+              "profileId": 17813469,
+              "name": "NecroNick69"
+            },
+            {
+              "profileId": 3455384,
+              "name": "SUPERMN52"
+            },
+            {
+              "profileId": 13630275,
+              "name": "Spanky2078"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 486706275,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1797,
+          "date": "2026-06-20",
+          "dur": 3652,
+          "opponents": [
+            {
+              "profileId": 6270415,
+              "name": "thegh0strider11"
+            },
+            {
+              "profileId": 13227565,
+              "name": "KKILLA04321"
+            },
+            {
+              "profileId": 13841625,
+              "name": "Dorbleazy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 486704828,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-20",
+          "dur": 234,
+          "opponents": [
+            {
+              "profileId": 13841625,
+              "name": "Dorbleazy"
+            },
+            {
+              "profileId": 6270415,
+              "name": "thegh0strider11"
+            },
+            {
+              "profileId": 13227565,
+              "name": "KKILLA04321"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 486695228,
+          "civ": "Mongols",
+          "map": "Highland",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-20",
+          "dur": 3023,
+          "opponents": [
+            {
+              "profileId": 12903439,
+              "name": "Frisky Dingo313"
+            },
+            {
+              "profileId": 520750,
+              "name": "AlanMariani"
+            },
+            {
+              "profileId": 14172882,
+              "name": "my MarshalLAW"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 486449883,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-19",
+          "dur": 3722,
+          "opponents": [
+            {
+              "profileId": 13108071,
+              "name": "killer ELBOSS"
+            },
+            {
+              "profileId": 12911146,
+              "name": "VToti1991"
+            },
+            {
+              "profileId": 12889472,
+              "name": "Xtrem Elite"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 486444004,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-19",
+          "dur": 1282,
+          "opponents": [
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            },
+            {
+              "profileId": 14172882,
+              "name": "my MarshalLAW"
+            },
+            {
+              "profileId": 15131207,
+              "name": "Ki1LaH7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 486015378,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-17",
+          "dur": 2272,
+          "opponents": [
+            {
+              "profileId": 14085462,
+              "name": "Sweet710"
+            },
+            {
+              "profileId": 6270415,
+              "name": "thegh0strider11"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 485987367,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1797,
+          "date": "2026-06-17",
+          "dur": 2565,
+          "opponents": [
+            {
+              "profileId": 12765966,
+              "name": "GODGIBin6"
+            },
+            {
+              "profileId": 13609732,
+              "name": "NickGonzo95"
+            },
+            {
+              "profileId": 13512805,
+              "name": "MickSlayer15"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 485248599,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-14",
+          "dur": 2145,
+          "opponents": [
+            {
+              "profileId": 12867391,
+              "name": "II Nose II"
+            },
+            {
+              "profileId": 16420475,
+              "name": "skipbaw"
+            },
+            {
+              "profileId": 13158707,
+              "name": "SbDoyle48"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 485197393,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-13",
+          "dur": 1934,
+          "opponents": [
+            {
+              "profileId": 12903439,
+              "name": "Frisky Dingo313"
+            },
+            {
+              "profileId": 8796118,
+              "name": "Tilade"
+            },
+            {
+              "profileId": 25240841,
+              "name": "JackMane4091"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 485153308,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-13",
+          "dur": 2746,
+          "opponents": [
+            {
+              "profileId": 14566413,
+              "name": "Ceebo Jr"
+            },
+            {
+              "profileId": 24666595,
+              "name": "Evo x ReckIt"
+            },
+            {
+              "profileId": 12585726,
+              "name": "W4IT ZeN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 485137686,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-13",
+          "dur": 2121,
+          "opponents": [
+            {
+              "profileId": 13208376,
+              "name": "Strokes Chin"
+            },
+            {
+              "profileId": 14085462,
+              "name": "Sweet710"
+            },
+            {
+              "profileId": 13376506,
+              "name": "Syd Barrett3933"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 485124813,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-13",
+          "dur": 1352,
+          "opponents": [
+            {
+              "profileId": 23364870,
+              "name": "Peterbilt5471"
+            },
+            {
+              "profileId": 12628194,
+              "name": "Roland420Green"
+            },
+            {
+              "profileId": 13223696,
+              "name": "DirtyRat4578"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 484223654,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1796,
+          "date": "2026-06-10",
+          "dur": 3308,
+          "opponents": [
+            {
+              "profileId": 25001019,
+              "name": "WheeledWings47"
+            },
+            {
+              "profileId": 12595052,
+              "name": "FibroidVenus3"
+            },
+            {
+              "profileId": 15088551,
+              "name": "Travinator1415"
+            },
+            {
+              "profileId": 14239410,
+              "name": "R Escabar2020"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 484016694,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-09",
+          "dur": 719,
+          "opponents": [
+            {
+              "profileId": 14268892,
+              "name": "xX NeOnEz Xx"
+            },
+            {
+              "profileId": 12868111,
+              "name": "MORIS0202"
+            },
+            {
+              "profileId": 12910087,
+              "name": "Bullets Nonstop"
+            },
+            {
+              "profileId": 3361127,
+              "name": "ADIO 001"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 484008025,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-09",
+          "dur": 1585,
+          "opponents": [
+            {
+              "profileId": 12691193,
+              "name": "Rising Gears"
+            },
+            {
+              "profileId": 13138536,
+              "name": "Tillman Tillman"
+            },
+            {
+              "profileId": 12628194,
+              "name": "Roland420Green"
+            },
+            {
+              "profileId": 13313004,
+              "name": "bjharris17"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 484000490,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1796,
+          "date": "2026-06-09",
+          "dur": 1842,
+          "opponents": [
+            {
+              "profileId": 12864758,
+              "name": "ITzzAhhMee"
+            },
+            {
+              "profileId": 15387513,
+              "name": "DrMeldy"
+            },
+            {
+              "profileId": 12488592,
+              "name": "Drinkn Molotovs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 287222328,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-23",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 14241201,
+              "name": "char127bop"
+            },
+            {
+              "profileId": 13031902,
+              "name": "Ryan G0sIing"
+            },
+            {
+              "profileId": 7544007,
+              "name": "I Lost This1"
+            },
+            {
+              "profileId": 15424523,
+              "name": "kkrieger5718"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 287214152,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-23",
+          "dur": 523,
+          "opponents": [
+            {
+              "profileId": 13379095,
+              "name": "ObelusCipher"
+            },
+            {
+              "profileId": 13025220,
+              "name": "The Symb0l"
+            },
+            {
+              "profileId": 12778519,
+              "name": "fridayfilms"
+            },
+            {
+              "profileId": 6230407,
+              "name": "AstonMartin7343"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            }
+          ]
+        },
+        {
+          "matchId": 287009391,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-22",
+          "dur": 3763,
+          "opponents": [
+            {
+              "profileId": 13014819,
+              "name": "fearsome4some60"
+            },
+            {
+              "profileId": 16979552,
+              "name": "SnappyLawyer689"
+            },
+            {
+              "profileId": 4311612,
+              "name": "SpacePanda912"
+            },
+            {
+              "profileId": 13039101,
+              "name": "BONN BONN912"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 286997763,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-22",
+          "dur": 2999,
+          "opponents": [
+            {
+              "profileId": 12883482,
+              "name": "Bratton316"
+            },
+            {
+              "profileId": 12660909,
+              "name": "Welches So Wavy"
+            },
+            {
+              "profileId": 13032099,
+              "name": "Auburn1412"
+            },
+            {
+              "profileId": 13393821,
+              "name": "Chase Wayne"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 286984683,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-22",
+          "dur": 2372,
+          "opponents": [
+            {
+              "profileId": 13725915,
+              "name": "Turcotte297222"
+            },
+            {
+              "profileId": 14085462,
+              "name": "Sweet710"
+            },
+            {
+              "profileId": 12838730,
+              "name": "olliver 083"
+            },
+            {
+              "profileId": 13775211,
+              "name": "momkila825"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 286895809,
+          "civ": "Spanish",
+          "map": "Lowland",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-21",
+          "dur": 2852,
+          "opponents": [
+            {
+              "profileId": 13349773,
+              "name": "NutMaclein"
+            },
+            {
+              "profileId": 12907460,
+              "name": "mercury987"
+            },
+            {
+              "profileId": 15739568,
+              "name": "RIP RECRUIT9321"
+            },
+            {
+              "profileId": 13020853,
+              "name": "IvanLedger"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12881891,
+              "name": "xxNikes Ownxx"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 286724275,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-21",
+          "dur": 3247,
+          "opponents": [
+            {
+              "profileId": 13413657,
+              "name": "AceMoMoLa"
+            },
+            {
+              "profileId": 622016,
+              "name": "c ya1985"
+            },
+            {
+              "profileId": 14829774,
+              "name": "Trixinator1382"
+            },
+            {
+              "profileId": 12675135,
+              "name": "H1ppY x Fr3aK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12881891,
+              "name": "xxNikes Ownxx"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            }
+          ]
+        },
+        {
+          "matchId": 286041938,
+          "civ": "Burmese",
+          "map": "Arena",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-18",
+          "dur": 2414,
+          "opponents": [
+            {
+              "profileId": 14567595,
+              "name": "OGTxANGELESS"
+            },
+            {
+              "profileId": 13326395,
+              "name": "Pastrylad3"
+            },
+            {
+              "profileId": 16393699,
+              "name": "vFewh"
+            },
+            {
+              "profileId": 13342200,
+              "name": "Donutboy3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 286039394,
+          "civ": "Burmese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-18",
+          "dur": 736,
+          "opponents": [
+            {
+              "profileId": 15277546,
+              "name": "Sopper916"
+            },
+            {
+              "profileId": 13355035,
+              "name": "tomascruze"
+            },
+            {
+              "profileId": 13273125,
+              "name": "S8ntofDeath"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 286014470,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-18",
+          "dur": 3129,
+          "opponents": [
+            {
+              "profileId": 17921304,
+              "name": "Assassin oG 809"
+            },
+            {
+              "profileId": 12783060,
+              "name": "JoeySnipes8300"
+            },
+            {
+              "profileId": 18554900,
+              "name": "Almontes Family"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 14085462,
+              "name": "Sweet710"
+            }
+          ]
+        },
+        {
+          "matchId": 285848627,
+          "civ": "Mongols",
+          "map": "Lowland",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-17",
+          "dur": 2517,
+          "opponents": [
+            {
+              "profileId": 14656051,
+              "name": "Quinixity6912"
+            },
+            {
+              "profileId": 14209257,
+              "name": "hamdaddy82"
+            },
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            },
+            {
+              "profileId": 13691676,
+              "name": "Benthebrit20"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 285842069,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-17",
+          "dur": 2373,
+          "opponents": [
+            {
+              "profileId": 13677719,
+              "name": "Spartan 585"
+            },
+            {
+              "profileId": 7764036,
+              "name": "theBEAR1836"
+            },
+            {
+              "profileId": 13428916,
+              "name": "Lunch Cyborg"
+            },
+            {
+              "profileId": 13837017,
+              "name": "NutmegCypress"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12845395,
+              "name": "Shawn96"
+            }
+          ]
+        },
+        {
+          "matchId": 285822489,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-17",
+          "dur": 2750,
+          "opponents": [
+            {
+              "profileId": 13725915,
+              "name": "Turcotte297222"
+            },
+            {
+              "profileId": 13775211,
+              "name": "momkila825"
+            },
+            {
+              "profileId": 13243413,
+              "name": "JAMESTOWN6238"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 285652157,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-16",
+          "dur": 3097,
+          "opponents": [
+            {
+              "profileId": 903253,
+              "name": "iiT3CK"
+            },
+            {
+              "profileId": 12729041,
+              "name": "Cwebbyyy"
+            },
+            {
+              "profileId": 13481000,
+              "name": "Nix Reaper"
+            },
+            {
+              "profileId": 12752430,
+              "name": "xXSomeNinjaXx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 285640965,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-16",
+          "dur": 3016,
+          "opponents": [
+            {
+              "profileId": 12753188,
+              "name": "julusss51"
+            },
+            {
+              "profileId": 13309536,
+              "name": "Tgonzo10"
+            },
+            {
+              "profileId": 13339490,
+              "name": "Sum Dum Bum5394"
+            },
+            {
+              "profileId": 13371536,
+              "name": "Pao2897"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12881891,
+              "name": "xxNikes Ownxx"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 285634407,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-16",
+          "dur": 2679,
+          "opponents": [
+            {
+              "profileId": 12477929,
+              "name": "stanpala"
+            },
+            {
+              "profileId": 13071819,
+              "name": "SauceKing3035"
+            },
+            {
+              "profileId": 12486259,
+              "name": "MyBabyTeena"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12881891,
+              "name": "xxNikes Ownxx"
+            },
+            {
+              "profileId": 12729041,
+              "name": "Cwebbyyy"
+            }
+          ]
+        },
+        {
+          "matchId": 285625518,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-16",
+          "dur": 2248,
+          "opponents": [
+            {
+              "profileId": 17609951,
+              "name": "The Pool Carp"
+            },
+            {
+              "profileId": 12679118,
+              "name": "charloup91"
+            },
+            {
+              "profileId": 14021223,
+              "name": "The Pool Trout"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12881891,
+              "name": "xxNikes Ownxx"
+            },
+            {
+              "profileId": 14448263,
+              "name": "ItsALEX10MVP"
+            }
+          ]
+        },
+        {
+          "matchId": 285405024,
+          "civ": "Hindustanis",
+          "map": "Oasis",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-15",
+          "dur": 2376,
+          "opponents": [
+            {
+              "profileId": 12669473,
+              "name": "Snailtrailz420"
+            },
+            {
+              "profileId": 12625346,
+              "name": "BoostAhollic"
+            },
+            {
+              "profileId": 12621727,
+              "name": "BayonetBanjo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12905398,
+              "name": "mighty mite99"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 285385396,
+          "civ": "Burmese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-15",
+          "dur": 3177,
+          "opponents": [
+            {
+              "profileId": 14089330,
+              "name": "Trunge021"
+            },
+            {
+              "profileId": 13129576,
+              "name": "Alexotic5360"
+            },
+            {
+              "profileId": 14074013,
+              "name": "Chango Bango86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13279763,
+              "name": "WaterB0YYYY"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 285383954,
+          "civ": "Burmese",
+          "map": "Runestones",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-15",
+          "dur": 131,
+          "opponents": [
+            {
+              "profileId": 13253950,
+              "name": "Wyldhur"
+            },
+            {
+              "profileId": 18082450,
+              "name": "Chosen846768"
+            },
+            {
+              "profileId": 13279763,
+              "name": "WaterB0YYYY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12838730,
+              "name": "olliver 083"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 285177583,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": null,
+          "patch": null,
+          "date": "2024-01-14",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 18340227,
+              "name": "xJSx Zurdo"
+            },
+            {
+              "profileId": 10991655,
+              "name": "xBHx Omeli"
+            },
+            {
+              "profileId": 14448263,
+              "name": "ItsALEX10MVP"
+            },
+            {
+              "profileId": 14342366,
+              "name": "Dv Praiim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 285145497,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-14",
+          "dur": 3007,
+          "opponents": [
+            {
+              "profileId": 12686940,
+              "name": "WooWoo3936"
+            },
+            {
+              "profileId": 18239868,
+              "name": "WakeUP6151"
+            },
+            {
+              "profileId": 12838730,
+              "name": "olliver 083"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12824591,
+              "name": "Denm4rk13"
+            }
+          ]
+        },
+        {
+          "matchId": 284688744,
+          "civ": "Mongols",
+          "map": "Lowland",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-12",
+          "dur": 2607,
+          "opponents": [
+            {
+              "profileId": 12692081,
+              "name": "STUMPYK1NG"
+            },
+            {
+              "profileId": 12480149,
+              "name": "Mista Matlock"
+            },
+            {
+              "profileId": 12693073,
+              "name": "sir powne alot9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13552121,
+              "name": "DirtyDankHoles"
+            }
+          ]
+        },
+        {
+          "matchId": 284491141,
+          "civ": "Burmese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-11",
+          "dur": 2543,
+          "opponents": [
+            {
+              "profileId": 18239868,
+              "name": "WakeUP6151"
+            },
+            {
+              "profileId": 13563664,
+              "name": "PROtektorKaiser"
+            },
+            {
+              "profileId": 14567595,
+              "name": "OGTxANGELESS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12491726,
+              "name": "CG ParmeSean"
+            }
+          ]
+        },
+        {
+          "matchId": 284300803,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-10",
+          "dur": 3774,
+          "opponents": [
+            {
+              "profileId": 16393699,
+              "name": "vFewh"
+            },
+            {
+              "profileId": 13453674,
+              "name": "NoobCyborg6"
+            },
+            {
+              "profileId": 13225548,
+              "name": "bunnp"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12686940,
+              "name": "WooWoo3936"
+            }
+          ]
+        },
+        {
+          "matchId": 283542725,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-06",
+          "dur": 3797,
+          "opponents": [
+            {
+              "profileId": 7208381,
+              "name": "davide2332"
+            },
+            {
+              "profileId": 18064183,
+              "name": "GuruArms"
+            },
+            {
+              "profileId": 12585726,
+              "name": "W4IT ZeN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 283528639,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-06",
+          "dur": 2521,
+          "opponents": [
+            {
+              "profileId": 13083877,
+              "name": "Elmameitor15"
+            },
+            {
+              "profileId": 14518748,
+              "name": "stxkrich85"
+            },
+            {
+              "profileId": 1344917,
+              "name": "BigRed05"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 282910743,
+          "civ": "Burmese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-04",
+          "dur": 5190,
+          "opponents": [
+            {
+              "profileId": 12558205,
+              "name": "iGameSkills7172"
+            },
+            {
+              "profileId": 12623071,
+              "name": "Choredios35553k"
+            },
+            {
+              "profileId": 12485724,
+              "name": "oriental500"
+            },
+            {
+              "profileId": 12496342,
+              "name": "ZeroGorgonMx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 282898786,
+          "civ": "Burmese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-04",
+          "dur": 2574,
+          "opponents": [
+            {
+              "profileId": 12623071,
+              "name": "Choredios35553k"
+            },
+            {
+              "profileId": 12558205,
+              "name": "iGameSkills7172"
+            },
+            {
+              "profileId": 12485724,
+              "name": "oriental500"
+            },
+            {
+              "profileId": 12551958,
+              "name": "iGS Theoryz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 282890434,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-04",
+          "dur": 2568,
+          "opponents": [
+            {
+              "profileId": 13227208,
+              "name": "TermedCanvas692"
+            },
+            {
+              "profileId": 13819109,
+              "name": "PlumSauce355786"
+            },
+            {
+              "profileId": 12687793,
+              "name": "domo1822"
+            },
+            {
+              "profileId": 13144346,
+              "name": "DrCHUNGUS9289"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 282884621,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-04",
+          "dur": 1551,
+          "opponents": [
+            {
+              "profileId": 12687793,
+              "name": "domo1822"
+            },
+            {
+              "profileId": 13819109,
+              "name": "PlumSauce355786"
+            },
+            {
+              "profileId": 13227208,
+              "name": "TermedCanvas692"
+            },
+            {
+              "profileId": 13144346,
+              "name": "DrCHUNGUS9289"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282695192,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-03",
+          "dur": 3027,
+          "opponents": [
+            {
+              "profileId": 12669889,
+              "name": "ByWatterson"
+            },
+            {
+              "profileId": 12699270,
+              "name": "IdocOhThree"
+            },
+            {
+              "profileId": 12637425,
+              "name": "Elasul22"
+            },
+            {
+              "profileId": 14567483,
+              "name": "OGTierraOz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 282689557,
+          "civ": "Hindustanis",
+          "map": "Runestones",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-03",
+          "dur": 1735,
+          "opponents": [
+            {
+              "profileId": 13624096,
+              "name": "CarefulTulip69"
+            },
+            {
+              "profileId": 6230407,
+              "name": "AstonMartin7343"
+            },
+            {
+              "profileId": 12709465,
+              "name": "CaramelocorexD"
+            },
+            {
+              "profileId": 13379095,
+              "name": "ObelusCipher"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282685740,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-03",
+          "dur": 1397,
+          "opponents": [
+            {
+              "profileId": 12687793,
+              "name": "domo1822"
+            },
+            {
+              "profileId": 13819109,
+              "name": "PlumSauce355786"
+            },
+            {
+              "profileId": 13227208,
+              "name": "TermedCanvas692"
+            },
+            {
+              "profileId": 8472048,
+              "name": "Girthy Neil"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            }
+          ]
+        },
+        {
+          "matchId": 282674944,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-03",
+          "dur": 3308,
+          "opponents": [
+            {
+              "profileId": 13272468,
+              "name": "Glixen"
+            },
+            {
+              "profileId": 6360986,
+              "name": "Kyrik0"
+            },
+            {
+              "profileId": 13005114,
+              "name": "UltraAliens"
+            },
+            {
+              "profileId": 1589645,
+              "name": "slug tugger"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282462003,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-02",
+          "dur": 4268,
+          "opponents": [
+            {
+              "profileId": 13097631,
+              "name": "Michoudu225507"
+            },
+            {
+              "profileId": 17692133,
+              "name": "Webbyyy8207"
+            },
+            {
+              "profileId": 14340648,
+              "name": "ImpetuousYeti46"
+            },
+            {
+              "profileId": 13683464,
+              "name": "CasmanianDVL"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282454365,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-02",
+          "dur": 2273,
+          "opponents": [
+            {
+              "profileId": 12531490,
+              "name": "Wookie Caulk"
+            },
+            {
+              "profileId": 13691676,
+              "name": "Benthebrit20"
+            },
+            {
+              "profileId": 16393699,
+              "name": "vFewh"
+            },
+            {
+              "profileId": 13977371,
+              "name": "MANlGOLDO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282442886,
+          "civ": "Mongols",
+          "map": "Yucatan",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-02",
+          "dur": 2474,
+          "opponents": [
+            {
+              "profileId": 14139039,
+              "name": "Tylerisbigpapa"
+            },
+            {
+              "profileId": 13279763,
+              "name": "WaterB0YYYY"
+            },
+            {
+              "profileId": 12646473,
+              "name": "CoachCal99"
+            },
+            {
+              "profileId": 12623398,
+              "name": "RealScottyP8619"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282414132,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-02",
+          "dur": 5816,
+          "opponents": [
+            {
+              "profileId": 12854275,
+              "name": "AJsotelo8"
+            },
+            {
+              "profileId": 5712953,
+              "name": "Dragonhell0106"
+            },
+            {
+              "profileId": 14163541,
+              "name": "IsurshockI"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 282395407,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-01",
+          "dur": 3761,
+          "opponents": [
+            {
+              "profileId": 13977371,
+              "name": "MANlGOLDO"
+            },
+            {
+              "profileId": 12892854,
+              "name": "LilPigLilPig295"
+            },
+            {
+              "profileId": 15763052,
+              "name": "Oshermoyal16"
+            },
+            {
+              "profileId": 12621704,
+              "name": "Juicywildcherry"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 282383072,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-01",
+          "dur": 2211,
+          "opponents": [
+            {
+              "profileId": 17692133,
+              "name": "Webbyyy8207"
+            },
+            {
+              "profileId": 17504741,
+              "name": "Ziya4734"
+            },
+            {
+              "profileId": 13139277,
+              "name": "Pedro Reis5943"
+            },
+            {
+              "profileId": 14157200,
+              "name": "LeyPrinces"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282220007,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": null,
+          "date": "2024-01-01",
+          "dur": 1933,
+          "opponents": [
+            {
+              "profileId": 16267636,
+              "name": "SwisherDTR"
+            },
+            {
+              "profileId": 14050390,
+              "name": "NC Buss"
+            },
+            {
+              "profileId": 13060298,
+              "name": "GoldSpoon7697"
+            },
+            {
+              "profileId": 14084756,
+              "name": "UnweariedSole8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282209812,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2024-01-01",
+          "dur": 3799,
+          "opponents": [
+            {
+              "profileId": 13571961,
+              "name": "HomemadeTable30"
+            },
+            {
+              "profileId": 14621063,
+              "name": "Milk o Monster"
+            },
+            {
+              "profileId": 13234804,
+              "name": "El Pixart"
+            },
+            {
+              "profileId": 17572606,
+              "name": "WildWillard6876"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282017942,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-31",
+          "dur": 1917,
+          "opponents": [
+            {
+              "profileId": 14342366,
+              "name": "Dv Praiim"
+            },
+            {
+              "profileId": 18340227,
+              "name": "xJSx Zurdo"
+            },
+            {
+              "profileId": 13247208,
+              "name": "True Mocho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 282011263,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-31",
+          "dur": 2016,
+          "opponents": [
+            {
+              "profileId": 12618283,
+              "name": "xliL C Dew777x"
+            },
+            {
+              "profileId": 6239606,
+              "name": "SneeringGnu4991"
+            },
+            {
+              "profileId": 13041263,
+              "name": "HughJanus146854"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 282001900,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-31",
+          "dur": 2252,
+          "opponents": [
+            {
+              "profileId": 13062607,
+              "name": "PeteyBoiii"
+            },
+            {
+              "profileId": 12984655,
+              "name": "RAiN9708"
+            },
+            {
+              "profileId": 12845395,
+              "name": "Shawn96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 281990891,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-31",
+          "dur": 3360,
+          "opponents": [
+            {
+              "profileId": 13011527,
+              "name": "FocusedHorse190"
+            },
+            {
+              "profileId": 13279763,
+              "name": "WaterB0YYYY"
+            },
+            {
+              "profileId": 622016,
+              "name": "c ya1985"
+            },
+            {
+              "profileId": 14621063,
+              "name": "Milk o Monster"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 281975021,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-31",
+          "dur": 3704,
+          "opponents": [
+            {
+              "profileId": 12770207,
+              "name": "tedd cluberlang"
+            },
+            {
+              "profileId": 13018682,
+              "name": "DerekDubstepA"
+            },
+            {
+              "profileId": 13034697,
+              "name": "Ace Troll6371"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 281953953,
+          "civ": "Magyars",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-31",
+          "dur": 3112,
+          "opponents": [
+            {
+              "profileId": 12894985,
+              "name": "R41D3R 44"
+            },
+            {
+              "profileId": 12683729,
+              "name": "Bonging Dro"
+            },
+            {
+              "profileId": 18294806,
+              "name": "HandmadeCobra"
+            },
+            {
+              "profileId": 13015806,
+              "name": "Gehoee31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 281909367,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-30",
+          "dur": 2095,
+          "opponents": [
+            {
+              "profileId": 14370536,
+              "name": "HasselHoff512"
+            },
+            {
+              "profileId": 12971868,
+              "name": "Stanek512"
+            },
+            {
+              "profileId": 12807242,
+              "name": "Chris Crazyy"
+            },
+            {
+              "profileId": 13205460,
+              "name": "ThaShotBoi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12794938,
+              "name": "POP A DON 100"
+            }
+          ]
+        },
+        {
+          "matchId": 281485950,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-29",
+          "dur": 3197,
+          "opponents": [
+            {
+              "profileId": 12665561,
+              "name": "bluekhezzy"
+            },
+            {
+              "profileId": 13011527,
+              "name": "FocusedHorse190"
+            },
+            {
+              "profileId": 12892350,
+              "name": "FutureFallen101"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 281476767,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-29",
+          "dur": 2507,
+          "opponents": [
+            {
+              "profileId": 14829774,
+              "name": "Trixinator1382"
+            },
+            {
+              "profileId": 12892350,
+              "name": "FutureFallen101"
+            },
+            {
+              "profileId": 13308217,
+              "name": "ForestGump29113"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 281459994,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-29",
+          "dur": 3825,
+          "opponents": [
+            {
+              "profileId": 13126753,
+              "name": "Alf0071553"
+            },
+            {
+              "profileId": 12569036,
+              "name": "DISCOsuperFLY5"
+            },
+            {
+              "profileId": 12536174,
+              "name": "GETINTHETRUNK94"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12608242,
+              "name": "schy teckler"
+            }
+          ]
+        },
+        {
+          "matchId": 280547309,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-25",
+          "dur": 2827,
+          "opponents": [
+            {
+              "profileId": 3426457,
+              "name": "DULCE K 47"
+            },
+            {
+              "profileId": 2889484,
+              "name": "Riesgo7"
+            },
+            {
+              "profileId": 8121245,
+              "name": "MASSAI M4RA"
+            },
+            {
+              "profileId": 13119079,
+              "name": "BENI B4NDINI"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12681114,
+              "name": "Kristodeath"
+            },
+            {
+              "profileId": 15587858,
+              "name": "Shawndre40"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 280540032,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-24",
+          "dur": 2583,
+          "opponents": [
+            {
+              "profileId": 12848935,
+              "name": "Javiaca"
+            },
+            {
+              "profileId": 12681114,
+              "name": "Kristodeath"
+            },
+            {
+              "profileId": 8267387,
+              "name": "Gamsmash"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12892854,
+              "name": "LilPigLilPig295"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 280356793,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-24",
+          "dur": 1650,
+          "opponents": [
+            {
+              "profileId": 13379095,
+              "name": "ObelusCipher"
+            },
+            {
+              "profileId": 12778519,
+              "name": "fridayfilms"
+            },
+            {
+              "profileId": 14590893,
+              "name": "IDWARE21"
+            },
+            {
+              "profileId": 13025220,
+              "name": "The Symb0l"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12984655,
+              "name": "RAiN9708"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 280337563,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-24",
+          "dur": 2964,
+          "opponents": [
+            {
+              "profileId": 12628194,
+              "name": "Roland420Green"
+            },
+            {
+              "profileId": 13152506,
+              "name": "TeamBudRage"
+            },
+            {
+              "profileId": 14020886,
+              "name": "uNdeRWoLRd23"
+            },
+            {
+              "profileId": 13138536,
+              "name": "Tillman Tillman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12612274,
+              "name": "BigJack5000"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 279705548,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-21",
+          "dur": 2930,
+          "opponents": [
+            {
+              "profileId": 14115419,
+              "name": "Nacham"
+            },
+            {
+              "profileId": 12681114,
+              "name": "Kristodeath"
+            },
+            {
+              "profileId": 13311898,
+              "name": "PickleBack1827"
+            },
+            {
+              "profileId": 4448786,
+              "name": "Enhmar 12"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 279697182,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-21",
+          "dur": 2403,
+          "opponents": [
+            {
+              "profileId": 13071819,
+              "name": "SauceKing3035"
+            },
+            {
+              "profileId": 12486259,
+              "name": "MyBabyTeena"
+            },
+            {
+              "profileId": 12894289,
+              "name": "HansBubbyGruber"
+            },
+            {
+              "profileId": 12477929,
+              "name": "stanpala"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 279691295,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-21",
+          "dur": 1419,
+          "opponents": [
+            {
+              "profileId": 12562323,
+              "name": "SpaciousBunion5"
+            },
+            {
+              "profileId": 9901272,
+              "name": "RaffaEP"
+            },
+            {
+              "profileId": 16837703,
+              "name": "Bathombre O4"
+            },
+            {
+              "profileId": 12798178,
+              "name": "DS Chowde"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 279529460,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-20",
+          "dur": 2966,
+          "opponents": [
+            {
+              "profileId": 12519397,
+              "name": "BigChungus8506"
+            },
+            {
+              "profileId": 13707612,
+              "name": "ItsWeathaMane"
+            },
+            {
+              "profileId": 14470242,
+              "name": "YTKneeGro13"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 18057439,
+              "name": "MrBerryThief"
+            }
+          ]
+        },
+        {
+          "matchId": 279516005,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-20",
+          "dur": 4379,
+          "opponents": [
+            {
+              "profileId": 12880900,
+              "name": "DexXantWolf3"
+            },
+            {
+              "profileId": 13327045,
+              "name": "camaron 1520"
+            },
+            {
+              "profileId": 12777338,
+              "name": "Mr R3YES"
+            },
+            {
+              "profileId": 15798753,
+              "name": "ThePenguin8889"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 279510037,
+          "civ": "Magyars",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-20",
+          "dur": 2500,
+          "opponents": [
+            {
+              "profileId": 13032099,
+              "name": "Auburn1412"
+            },
+            {
+              "profileId": 13252426,
+              "name": "PC is Easier"
+            },
+            {
+              "profileId": 13393821,
+              "name": "Chase Wayne"
+            },
+            {
+              "profileId": 12883482,
+              "name": "Bratton316"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 279507471,
+          "civ": "Magyars",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-20",
+          "dur": 762,
+          "opponents": [
+            {
+              "profileId": 13379095,
+              "name": "ObelusCipher"
+            },
+            {
+              "profileId": 12778519,
+              "name": "fridayfilms"
+            },
+            {
+              "profileId": 14590893,
+              "name": "IDWARE21"
+            },
+            {
+              "profileId": 13025220,
+              "name": "The Symb0l"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 279328576,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-19",
+          "dur": 2268,
+          "opponents": [
+            {
+              "profileId": 8796118,
+              "name": "Tilade"
+            },
+            {
+              "profileId": 7544007,
+              "name": "I Lost This1"
+            },
+            {
+              "profileId": 14567595,
+              "name": "OGTxANGELESS"
+            },
+            {
+              "profileId": 13707612,
+              "name": "ItsWeathaMane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 279318130,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-19",
+          "dur": 2496,
+          "opponents": [
+            {
+              "profileId": 13467931,
+              "name": "PrEyOnU1"
+            },
+            {
+              "profileId": 15230119,
+              "name": "TheProtagoniist"
+            },
+            {
+              "profileId": 13309536,
+              "name": "Tgonzo10"
+            },
+            {
+              "profileId": 12501266,
+              "name": "Dy3 003"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 279119010,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-18",
+          "dur": 3609,
+          "opponents": [
+            {
+              "profileId": 13506235,
+              "name": "WeezyFJavy"
+            },
+            {
+              "profileId": 13266994,
+              "name": "iHartTop"
+            },
+            {
+              "profileId": 13029238,
+              "name": "SpitOnIt7920"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 279095489,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-18",
+          "dur": 3154,
+          "opponents": [
+            {
+              "profileId": 13980874,
+              "name": "iTz xJ MvP Jx"
+            },
+            {
+              "profileId": 12503680,
+              "name": "aFriendlyBrumak"
+            },
+            {
+              "profileId": 18033308,
+              "name": "FreeSmokeWYA"
+            },
+            {
+              "profileId": 6368537,
+              "name": "conzoandally"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 279088416,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-18",
+          "dur": 2675,
+          "opponents": [
+            {
+              "profileId": 13418408,
+              "name": "Bobcat M17"
+            },
+            {
+              "profileId": 13021360,
+              "name": "CoolDude0p0"
+            },
+            {
+              "profileId": 12628593,
+              "name": "ITzMfMiyagi"
+            },
+            {
+              "profileId": 12904493,
+              "name": "Loudsmoke925"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            }
+          ]
+        },
+        {
+          "matchId": 279074740,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-17",
+          "dur": 3095,
+          "opponents": [
+            {
+              "profileId": 12583407,
+              "name": "Kramer Mc8arett"
+            },
+            {
+              "profileId": 12842390,
+              "name": "DrWattson3908"
+            },
+            {
+              "profileId": 12830947,
+              "name": "binouze57"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 279060781,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-17",
+          "dur": 2053,
+          "opponents": [
+            {
+              "profileId": 838565,
+              "name": "Athleticdv"
+            },
+            {
+              "profileId": 14241989,
+              "name": "UsedPegasus1484"
+            },
+            {
+              "profileId": 13107562,
+              "name": "MSU grizzbear"
+            },
+            {
+              "profileId": 13309536,
+              "name": "Tgonzo10"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12881891,
+              "name": "xxNikes Ownxx"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 278173109,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-13",
+          "dur": 1851,
+          "opponents": [
+            {
+              "profileId": 14590893,
+              "name": "IDWARE21"
+            },
+            {
+              "profileId": 13343674,
+              "name": "IFallen SaintI"
+            },
+            {
+              "profileId": 13025220,
+              "name": "The Symb0l"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13655521,
+              "name": "dasorux"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 278163352,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-13",
+          "dur": 1977,
+          "opponents": [
+            {
+              "profileId": 13017972,
+              "name": "Meant0yster"
+            },
+            {
+              "profileId": 14020886,
+              "name": "uNdeRWoLRd23"
+            },
+            {
+              "profileId": 12628194,
+              "name": "Roland420Green"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 277680298,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-11",
+          "dur": 1039,
+          "opponents": [
+            {
+              "profileId": 13343674,
+              "name": "IFallen SaintI"
+            },
+            {
+              "profileId": 13379095,
+              "name": "ObelusCipher"
+            },
+            {
+              "profileId": 13246342,
+              "name": "Dv Praim"
+            },
+            {
+              "profileId": 13025220,
+              "name": "The Symb0l"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 277678035,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-11",
+          "dur": 1319,
+          "opponents": [
+            {
+              "profileId": 13025220,
+              "name": "The Symb0l"
+            },
+            {
+              "profileId": 13246342,
+              "name": "Dv Praim"
+            },
+            {
+              "profileId": 13937919,
+              "name": "Treeman9221"
+            },
+            {
+              "profileId": 13379095,
+              "name": "ObelusCipher"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13352161,
+              "name": "BizzyDubz"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 277635548,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-11",
+          "dur": 3071,
+          "opponents": [
+            {
+              "profileId": 12554590,
+              "name": "xKxLitcy"
+            },
+            {
+              "profileId": 12847813,
+              "name": "SonDionysus"
+            },
+            {
+              "profileId": 12679529,
+              "name": "OZNDXN"
+            },
+            {
+              "profileId": 12503680,
+              "name": "aFriendlyBrumak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 13352161,
+              "name": "BizzyDubz"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 277620016,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-10",
+          "dur": 2076,
+          "opponents": [
+            {
+              "profileId": 16392359,
+              "name": "KillsFlowers"
+            },
+            {
+              "profileId": 12502082,
+              "name": "BigDragon 360"
+            },
+            {
+              "profileId": 12514588,
+              "name": "OvercomeCloud74"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            }
+          ]
+        },
+        {
+          "matchId": 277613013,
+          "civ": "Mongols",
+          "map": "Seize The Mountain",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-10",
+          "dur": 1776,
+          "opponents": [
+            {
+              "profileId": 13120549,
+              "name": "DuckySkydiver69"
+            },
+            {
+              "profileId": 12528989,
+              "name": "Locster777"
+            },
+            {
+              "profileId": 15306823,
+              "name": "DrinkinJake7"
+            },
+            {
+              "profileId": 12537432,
+              "name": "SonyaNina"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 277608921,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-10",
+          "dur": 266,
+          "opponents": [
+            {
+              "profileId": 12537432,
+              "name": "SonyaNina"
+            },
+            {
+              "profileId": 13027612,
+              "name": "MountainMan006"
+            },
+            {
+              "profileId": 12685186,
+              "name": "Bundeskovisk"
+            },
+            {
+              "profileId": 12881667,
+              "name": "Jeca108764"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 276535044,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-12-06",
+          "dur": 4657,
+          "opponents": [
+            {
+              "profileId": 13228993,
+              "name": "Juul Rips Plz"
+            },
+            {
+              "profileId": 13231892,
+              "name": "TopCheddaTTV"
+            },
+            {
+              "profileId": 14734917,
+              "name": "MuffintopX5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            }
+          ]
+        },
+        {
+          "matchId": 276526939,
+          "civ": "Mongols",
+          "map": "Eruption",
+          "won": false,
+          "patch": null,
+          "date": "2023-12-06",
+          "dur": 2378,
+          "opponents": [
+            {
+              "profileId": 12986764,
+              "name": "GL Dimmi"
+            },
+            {
+              "profileId": 13466153,
+              "name": "ForestFjord"
+            },
+            {
+              "profileId": 1851544,
+              "name": "BZDimmaDome"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 274148396,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-11-25",
+          "dur": 3086,
+          "opponents": [
+            {
+              "profileId": 12488929,
+              "name": "Sam i am 111118"
+            },
+            {
+              "profileId": 13531390,
+              "name": "DeftDuchess278"
+            },
+            {
+              "profileId": 13262262,
+              "name": "KinddaraRage"
+            },
+            {
+              "profileId": 12457961,
+              "name": "MrPicklesWorth7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 274130474,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-11-25",
+          "dur": 5005,
+          "opponents": [
+            {
+              "profileId": 15214098,
+              "name": "XxCHRISTIANx204"
+            },
+            {
+              "profileId": 13371601,
+              "name": "matticus23"
+            },
+            {
+              "profileId": 7544007,
+              "name": "I Lost This1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 274089920,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-11-25",
+          "dur": 2623,
+          "opponents": [
+            {
+              "profileId": 13086257,
+              "name": "SweetMig"
+            },
+            {
+              "profileId": 13693423,
+              "name": "AnthropGhost"
+            },
+            {
+              "profileId": 17633092,
+              "name": "ogAMERICANPRID3"
+            },
+            {
+              "profileId": 13091219,
+              "name": "yeou010"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            }
+          ]
+        },
+        {
+          "matchId": 274083000,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-11-25",
+          "dur": 2142,
+          "opponents": [
+            {
+              "profileId": 13119079,
+              "name": "BENI B4NDINI"
+            },
+            {
+              "profileId": 2889484,
+              "name": "Riesgo7"
+            },
+            {
+              "profileId": 8121245,
+              "name": "MASSAI M4RA"
+            },
+            {
+              "profileId": 3426457,
+              "name": "DULCE K 47"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 274069131,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-11-24",
+          "dur": 1520,
+          "opponents": [
+            {
+              "profileId": 12620586,
+              "name": "Taquero RK"
+            },
+            {
+              "profileId": 622016,
+              "name": "c ya1985"
+            },
+            {
+              "profileId": 6239606,
+              "name": "SneeringGnu4991"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12468408,
+              "name": "RoflMaiWofflez"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 274032740,
+          "civ": "Mongols",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-11-24",
+          "dur": 1746,
+          "opponents": [
+            {
+              "profileId": 12613775,
+              "name": "Bardiel3638"
+            },
+            {
+              "profileId": 14248504,
+              "name": "belial723"
+            },
+            {
+              "profileId": 11611477,
+              "name": "Dark Moyo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 223763600,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-04-04",
+          "dur": 2426,
+          "opponents": [
+            {
+              "profileId": 13517690,
+              "name": "GrizzlyPopTart"
+            },
+            {
+              "profileId": 13477303,
+              "name": "DEADASS FACTS B"
+            },
+            {
+              "profileId": 12696135,
+              "name": "Not Nicko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 223754853,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": null,
+          "date": "2023-04-04",
+          "dur": 2409,
+          "opponents": [
+            {
+              "profileId": 12801460,
+              "name": "Buzzyslayer"
+            },
+            {
+              "profileId": 12689330,
+              "name": "numnum snackems"
+            },
+            {
+              "profileId": 12606964,
+              "name": "Gloctavian"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 213839156,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": null,
+          "date": "2023-02-26",
+          "dur": 6999,
+          "opponents": [
+            {
+              "profileId": 13104405,
+              "name": "mxyor3"
+            },
+            {
+              "profileId": 12852108,
+              "name": "GuenterPreis"
+            },
+            {
+              "profileId": 12476156,
+              "name": "xHEAVYHUSTL1Nx"
+            },
+            {
+              "profileId": 13144432,
+              "name": "OxtailDragoon8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12712183,
+              "name": "HunCHo SuRG3"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            }
+          ]
+        },
+        {
+          "matchId": 213493852,
+          "civ": "Mongols",
+          "map": "Amazon Tunnel",
+          "won": false,
+          "patch": null,
+          "date": "2023-02-25",
+          "dur": 2723,
+          "opponents": [
+            {
+              "profileId": 12572280,
+              "name": "Trip c1748"
+            },
+            {
+              "profileId": 12719157,
+              "name": "ITSLILGONZO96"
+            },
+            {
+              "profileId": 12990602,
+              "name": "RiCHiERiCH8569"
+            },
+            {
+              "profileId": 12640603,
+              "name": "Lonewolf1982718"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12537477,
+              "name": "BiLLz Pickett"
+            },
+            {
+              "profileId": 12882826,
+              "name": "KingKash 559"
+            },
+            {
+              "profileId": 13012784,
+              "name": "SteezYFo0QKR"
+            }
+          ]
         }
       ]
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "pulledDate": "2026-08-07"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "pulledDate": "2026-08-07"
       },
       "matches": []
     }

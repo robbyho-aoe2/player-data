@@ -354,57 +354,46 @@ def process_civs_by_ladder(player_files, ladder_names):
         "brackets": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
     }
 
-def build_squad_stats(player_files, ladder_names, tracked_ids):
+def build_squad_stats(player_files, ladder_scopes, tracked_ids):
     """Find groups of TRACKED players who repeatedly queue together as
     teammates on team ladders. A match's full roster is only knowable to
     the extent we track its players — teammates not in tracked_ids are
     invisible to this, so squad detection quietly improves as roster
     coverage grows, rather than requiring every player to be tracked.
 
-    Dedup by matchId: the same match shows up once per tracked player who
-    played it, but all of them agree on the same teammate list, so the
-    first sighting is authoritative — no merging needed.
+    ladder_scopes: {scope_name: [ladder_name, ...]}, e.g.
+    {"all": ["Team Console", "Team PC"], "console": ["Team Console"], "pc": ["Team PC"]}
+    — computed together in one pass over the files (each is read once)
+    rather than once per scope, since scopes overlap heavily.
+
+    Dedup by matchId within each scope: the same match shows up once per
+    tracked player who played it, but all of them agree on the same
+    teammate list, so the first sighting per scope is authoritative — no
+    merging needed.
     """
     import itertools
 
-    seen_matches = {}  # matchId -> (frozenset of tracked profileIds incl. owner, won)
+    # scope -> matchId -> (frozenset of tracked profileIds incl. owner, won)
+    seen_matches = {scope: {} for scope in ladder_scopes}
     for path in player_files:
         with open(path) as f:
             player = json.load(f)
         owner_id = player.get("profileId")
-        for ladder_name in ladder_names:
-            for m in player.get("ladders", {}).get(ladder_name, {}).get("matches", []):
-                mid = m.get("matchId")
-                if mid is None or mid in seen_matches:
-                    continue
-                teammates = m.get("teammates") or []
-                squad = {owner_id} | {
-                    t["profileId"] for t in teammates
-                    if t.get("profileId") in tracked_ids
-                }
-                if len(squad) >= 2:
-                    seen_matches[mid] = (frozenset(squad), m.get("won"))
-
-    duo_stats  = defaultdict(lambda: {"games": 0, "wins": 0})
-    trio_stats = defaultdict(lambda: {"games": 0, "wins": 0})
-    quad_stats = defaultdict(lambda: {"games": 0, "wins": 0})
-
-    for squad, won in seen_matches.values():
-        size = len(squad)
-        for combo in itertools.combinations(sorted(squad), 2):
-            duo_stats[combo]["games"] += 1
-            if won:
-                duo_stats[combo]["wins"] += 1
-        if size >= 3:
-            for combo in itertools.combinations(sorted(squad), 3):
-                trio_stats[combo]["games"] += 1
-                if won:
-                    trio_stats[combo]["wins"] += 1
-        if size >= 4:
-            for combo in itertools.combinations(sorted(squad), 4):
-                quad_stats[combo]["games"] += 1
-                if won:
-                    quad_stats[combo]["wins"] += 1
+        ladders = player.get("ladders", {})
+        for scope, ladder_names in ladder_scopes.items():
+            scope_seen = seen_matches[scope]
+            for ladder_name in ladder_names:
+                for m in ladders.get(ladder_name, {}).get("matches", []):
+                    mid = m.get("matchId")
+                    if mid is None or mid in scope_seen:
+                        continue
+                    teammates = m.get("teammates") or []
+                    squad = {owner_id} | {
+                        t["profileId"] for t in teammates
+                        if t.get("profileId") in tracked_ids
+                    }
+                    if len(squad) >= 2:
+                        scope_seen[mid] = (frozenset(squad), m.get("won"))
 
     def serialize(stats, min_games):
         rows = [
@@ -414,11 +403,35 @@ def build_squad_stats(player_files, ladder_names, tracked_ids):
         rows.sort(key=lambda r: -r["games"])
         return rows
 
-    return {
-        "duos":  serialize(duo_stats, 3),
-        "trios": serialize(trio_stats, 3),
-        "quads": serialize(quad_stats, 3),
-    }
+    result = {}
+    for scope, matches in seen_matches.items():
+        duo_stats  = defaultdict(lambda: {"games": 0, "wins": 0})
+        trio_stats = defaultdict(lambda: {"games": 0, "wins": 0})
+        quad_stats = defaultdict(lambda: {"games": 0, "wins": 0})
+
+        for squad, won in matches.values():
+            size = len(squad)
+            for combo in itertools.combinations(sorted(squad), 2):
+                duo_stats[combo]["games"] += 1
+                if won:
+                    duo_stats[combo]["wins"] += 1
+            if size >= 3:
+                for combo in itertools.combinations(sorted(squad), 3):
+                    trio_stats[combo]["games"] += 1
+                    if won:
+                        trio_stats[combo]["wins"] += 1
+            if size >= 4:
+                for combo in itertools.combinations(sorted(squad), 4):
+                    quad_stats[combo]["games"] += 1
+                    if won:
+                        quad_stats[combo]["wins"] += 1
+
+        result[scope] = {
+            "duos":  serialize(duo_stats, 3),
+            "trios": serialize(trio_stats, 3),
+            "quads": serialize(quad_stats, 3),
+        }
+    return result
 
 
 def build_player_summary(players_list, group_files):
@@ -599,13 +612,20 @@ def main():
     print(f"Wrote {insights_path} ({insights_path.stat().st_size / 1024:.1f} KB)")
 
     console_tracked_ids = {int(p.stem) for p in group_files["console"]}
-    console_squads = build_squad_stats(group_files["console"], ["Team Console", "Team PC"], console_tracked_ids)
+    console_squads = build_squad_stats(group_files["console"], {
+        "all":     ["Team Console", "Team PC"],
+        "console": ["Team Console"],
+        "pc":      ["Team PC"],
+    }, console_tracked_ids)
     console_squads["lastUpdated"] = date.today().isoformat()
     squads_path = data_dir / "insights-console-squads.json"
     with open(squads_path, "w") as f:
         json.dump(console_squads, f, indent=2)
-    print(f"Wrote {squads_path} ({squads_path.stat().st_size / 1024:.1f} KB)"
-          f" — duos={len(console_squads['duos'])} trios={len(console_squads['trios'])} quads={len(console_squads['quads'])}")
+    counts = ", ".join(
+        f"{scope}: duos={len(v['duos'])} trios={len(v['trios'])} quads={len(v['quads'])}"
+        for scope, v in console_squads.items() if scope != "lastUpdated"
+    )
+    print(f"Wrote {squads_path} ({squads_path.stat().st_size / 1024:.1f} KB) — {counts}")
 
 if __name__ == "__main__":
     main()

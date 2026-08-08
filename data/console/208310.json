@@ -6,14 +6,14 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "pulledDate": "2026-08-07"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
-        "totalGames": 7,
-        "pulledDate": "2026-08-05",
+        "totalGames": 11,
+        "pulledDate": "2026-08-07",
         "latestRating": 970,
         "peakRating": 970
       },
@@ -25,7 +25,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-08-04",
-          "dur": 2850
+          "dur": 2850,
+          "opponents": [
+            {
+              "profileId": 13282666,
+              "name": "jameswanson"
+            },
+            {
+              "profileId": 18979823,
+              "name": "HittinCones7653"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24965016,
+              "name": "Mush-Watti"
+            }
+          ]
         },
         {
           "matchId": 495569786,
@@ -34,7 +50,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-28",
-          "dur": 2349
+          "dur": 2349,
+          "opponents": [
+            {
+              "profileId": 15147321,
+              "name": "Rexizq"
+            },
+            {
+              "profileId": 25863377,
+              "name": "side_break14"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24965016,
+              "name": "Mush-Watti"
+            }
+          ]
         },
         {
           "matchId": 492561347,
@@ -43,7 +75,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-15",
-          "dur": 1354
+          "dur": 1354,
+          "opponents": [
+            {
+              "profileId": 25425869,
+              "name": "TartarRush"
+            },
+            {
+              "profileId": 25119801,
+              "name": "PENAROZAx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24965016,
+              "name": "Mush-Watti"
+            }
+          ]
         },
         {
           "matchId": 492557723,
@@ -52,7 +100,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-15",
-          "dur": 1380
+          "dur": 1380,
+          "opponents": [
+            {
+              "profileId": 25119801,
+              "name": "PENAROZAx"
+            },
+            {
+              "profileId": 25425869,
+              "name": "TartarRush"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24965016,
+              "name": "Mush-Watti"
+            }
+          ]
         },
         {
           "matchId": 492556881,
@@ -61,7 +125,23 @@
           "won": true,
           "patch": 1800,
           "date": "2026-07-15",
-          "dur": 31
+          "dur": 31,
+          "opponents": [
+            {
+              "profileId": 13150575,
+              "name": "xATAx ProEra47"
+            },
+            {
+              "profileId": 25308826,
+              "name": "Boozily_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24965016,
+              "name": "Mush-Watti"
+            }
+          ]
         },
         {
           "matchId": 492552497,
@@ -70,7 +150,23 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-15",
-          "dur": 1621
+          "dur": 1621,
+          "opponents": [
+            {
+              "profileId": 25119801,
+              "name": "PENAROZAx"
+            },
+            {
+              "profileId": 25425869,
+              "name": "TartarRush"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24965016,
+              "name": "Mush-Watti"
+            }
+          ]
         },
         {
           "matchId": 492547251,
@@ -79,21 +175,137 @@
           "won": false,
           "patch": 1800,
           "date": "2026-07-15",
-          "dur": 1953
+          "dur": 1953,
+          "opponents": [
+            {
+              "profileId": 22769092,
+              "name": "mengler5121"
+            },
+            {
+              "profileId": 25556197,
+              "name": "FERMORTE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24965016,
+              "name": "Mush-Watti"
+            }
+          ]
+        },
+        {
+          "matchId": 218385206,
+          "civ": "Franks",
+          "map": "Nile Delta",
+          "won": false,
+          "patch": null,
+          "date": "2023-03-14",
+          "dur": 5495,
+          "opponents": [
+            {
+              "profileId": 13327426,
+              "name": "D Emmett Brown"
+            },
+            {
+              "profileId": 12513770,
+              "name": "sGs Reginald"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14296638,
+              "name": "fifalibya"
+            }
+          ]
+        },
+        {
+          "matchId": 212855839,
+          "civ": "Franks",
+          "map": "Amazon Tunnel",
+          "won": false,
+          "patch": null,
+          "date": "2023-02-22",
+          "dur": 3134,
+          "opponents": [
+            {
+              "profileId": 13372755,
+              "name": "Z0MBIE SLAYERr"
+            },
+            {
+              "profileId": 13462296,
+              "name": "Turnbot1337"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13680974,
+              "name": "OldGenKai"
+            }
+          ]
+        },
+        {
+          "matchId": 211526907,
+          "civ": "Franks",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": null,
+          "date": "2023-02-18",
+          "dur": 2130,
+          "opponents": [
+            {
+              "profileId": 6929325,
+              "name": "SalmonThread873"
+            },
+            {
+              "profileId": 13353462,
+              "name": "heyHERO603"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13620403,
+              "name": "cL CoNnecT"
+            }
+          ]
+        },
+        {
+          "matchId": 211524078,
+          "civ": "Teutons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": null,
+          "date": "2023-02-18",
+          "dur": 315,
+          "opponents": [
+            {
+              "profileId": 12745775,
+              "name": "Urself13"
+            },
+            {
+              "profileId": 13093216,
+              "name": "Doog1112"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13353462,
+              "name": "heyHERO603"
+            }
+          ]
         }
       ]
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-05"
+        "pulledDate": "2026-08-07"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-08-05"
+        "pulledDate": "2026-08-07"
       },
       "matches": [
         {
@@ -103,7 +315,39 @@
           "won": false,
           "patch": null,
           "date": "2023-03-31",
-          "dur": 2311
+          "dur": 2311,
+          "opponents": [
+            {
+              "profileId": 12029635,
+              "name": "Bean_aire"
+            },
+            {
+              "profileId": 14034217,
+              "name": "blacar"
+            },
+            {
+              "profileId": 9988578,
+              "name": "matteo"
+            },
+            {
+              "profileId": 535704,
+              "name": "jer0007"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10246327,
+              "name": "Teenytub"
+            },
+            {
+              "profileId": 12827974,
+              "name": "x Andrews Dad x"
+            },
+            {
+              "profileId": 12700340,
+              "name": "FlyingTurkey64"
+            }
+          ]
         }
       ]
     }
