@@ -613,6 +613,14 @@ def main():
             b: {w: sum(c["games"] for c in civmap.values()) for w, civmap in v.get("byWeek", {}).items()}
             for b, v in group_aggs["console"]["byEloBracket"].items()
         },
+        # Per-civ per-week games/wins for two specific slices — Console 1v1
+        # Arabia and PC 1v1 overall (all maps) — powers the "Console Arabia
+        # vs PC Overall" discrepancy insight. Shipped as raw byWeek rather
+        # than a precomputed win rate so recency-weighting stays live
+        # (computed against "today" client-side) instead of frozen as of
+        # the last build, matching how Form mode works everywhere else.
+        "consoleArabia1v1ByWeek": group_aggs["console"]["byLadder"].get("1v1 Console", {}).get("byMap", {}).get("Arabia", {}).get("byWeek", {}),
+        "pcOverall1v1ByWeek":     group_aggs["pc"]["byLadder"].get("1v1 PC", {}).get("byWeek", {}),
     }
     insights_path = data_dir / "insights-console-civs.json"
     with open(insights_path, "w") as f:
