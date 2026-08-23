@@ -36,6 +36,13 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # No explicit cap before meant a hang fell back to GitHub's 360min
+    # default — and because this shares the player-data-write concurrency
+    # group with cancel-in-progress:false, a single hung run blocked every
+    # subsequent scheduled/chained trigger behind it indefinitely (this is
+    # what caused the week-long update outage on 2026-08-23). A firm cap
+    # guarantees the lock frees up every cycle even if a run gets stuck.
+    timeout-minutes: 180
     permissions:
       contents: write
       actions: write
@@ -63,12 +70,62 @@ jobs:
           EOF
       - name: Migrate to subfolders (safe to run multiple times)
         run: python3 migrate_to_subfolders.py
+      - name: Compute refresh batch
+        id: batch
+        if: github.event.inputs.player_ids == ''
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from pathlib import Path
+
+          # Refreshing the FULL already-backfilled roster every run used to
+          # be fine, but that scope only grows as backfill.yml keeps adding
+          # players — by 2026-08-16 it had grown enough that a full pass
+          # started taking longer than this job's timeout, so every run got
+          # killed mid-way with nothing committed, forever (the root cause
+          # of the week-long outage this was added to fix). Rotating a
+          # bounded batch each run keeps runtime predictable regardless of
+          # how large the backfilled pool gets — freshness per player
+          # degrades gracefully (a full rotation just takes more cycles)
+          # instead of the whole pipeline breaking.
+          BATCH_SIZE = 2500
+
+          data_dir = Path("data")
+          players = json.loads(Path("players.json").read_text())
+          scoped = sorted(
+              p["profileId"] for p in players
+              if (data_dir / p.get("group", "console") / f"{p['profileId']}.json").exists()
+          )
+
+          cursor_path = data_dir / "refresh_cursor.json"
+          cursor = json.loads(cursor_path.read_text())["index"] if cursor_path.exists() else 0
+
+          if not scoped:
+              batch = []
+              next_cursor = 0
+          elif len(scoped) <= BATCH_SIZE:
+              batch = scoped
+              next_cursor = 0
+          else:
+              start = cursor % len(scoped)
+              # wrap around the end of the list back to the start
+              batch = (scoped[start:] + scoped[:start])[:BATCH_SIZE]
+              next_cursor = (start + BATCH_SIZE) % len(scoped)
+
+          cursor_path.write_text(json.dumps({"index": next_cursor}, indent=2))
+          print(f"Scoped pool: {len(scoped)} — refreshing {len(batch)} this run, cursor {cursor} -> {next_cursor}")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("player_ids=" + ",".join(str(i) for i in batch) + "\n")
+          EOF
       - name: Update player data
         id: update
         run: |
           ARGS=""
           if [ -n "${{ github.event.inputs.player_ids }}" ]; then
             ARGS="$ARGS --players ${{ github.event.inputs.player_ids }}"
+          elif [ -n "${{ steps.batch.outputs.player_ids }}" ]; then
+            ARGS="$ARGS --players ${{ steps.batch.outputs.player_ids }}"
           fi
           if [ -n "${{ github.event.inputs.pages }}" ]; then
             ARGS="$ARGS --pages ${{ github.event.inputs.pages }}"
