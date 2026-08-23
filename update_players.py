@@ -452,7 +452,18 @@ def main():
             print(f"Scoped to {len(players)} already-backfilled players (skipped {skipped} not yet backfilled)")
 
     if args.players:
-        ids = {int(x.strip()) for x in args.players.split(",") if x.strip()}
+        ids = set()
+        for tok in args.players.split(","):
+            tok = tok.strip()
+            if not tok:
+                continue
+            try:
+                ids.add(int(tok))
+            except ValueError:
+                # A single bad id (e.g. a stray null that crept into
+                # backfill_queue.json) shouldn't take down an entire
+                # batch of otherwise-valid players.
+                print(f"  WARNING — skipping invalid --players token: {tok!r}")
         known = {p["profileId"]: p for p in players}
         players = []
         new_players = []

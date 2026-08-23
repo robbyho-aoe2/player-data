@@ -61,6 +61,14 @@ jobs:
                   f.write("has_queue=false\n")
           else:
               all_ids = json.loads(queue_path.read_text())
+              # A bad entry (e.g. a stray null from a players.json record
+              # with no profileId) shouldn't crash the whole batch — drop
+              # it and keep going.
+              bad = [x for x in all_ids if not isinstance(x, int)]
+              if bad:
+                  print(f"Dropping {len(bad)} invalid queue entr{'y' if len(bad)==1 else 'ies'}: {bad!r}")
+                  all_ids = [x for x in all_ids if isinstance(x, int)]
+                  queue_path.write_text(json.dumps(all_ids, indent=2))
               if not all_ids:
                   print("Queue is empty — nothing to do.")
                   with open(os.environ["GITHUB_OUTPUT"], "a") as f:
