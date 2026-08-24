@@ -126,25 +126,26 @@ jobs:
           git pull --rebase && git push || echo "Nothing to push"
 
       - name: Trigger another Backfill round if looping
-        # Only chains on an EXPLICIT loop=true dispatch now — it used to
-        # also auto-chain whenever queue remained (i.e. always, given an
-        # 85k+ backlog), which meant this workflow re-claimed the shared
+        # Only chains on an EXPLICIT loop=true dispatch — it used to also
+        # auto-chain whenever queue remained (i.e. always, given an 85k+
+        # backlog), which meant this workflow re-claimed the shared
         # player-data-write concurrency lock the instant each ~80min batch
-        # finished. Update Player Data's 6h cron kept losing the race for
-        # the lock's single queued slot to that near-continuous self-chain
-        # and got starved out indefinitely (observed 2026-08-24 — routine
-        # refreshes weren't running at all despite backfill looking
-        # "healthy"). Dropping the auto-chain leaves a gap after each
-        # batch for the lock to sit free, so whichever of the 2h backfill
-        # cron / 6h update-players cron / update-players' one-shot nudge
-        # below comes next actually gets a turn instead of always losing
-        # to backfill re-triggering itself. Backfill still makes steady
-        # progress via its own 2h cron; explicit loop=true (manual
-        # dispatch) remains available for an intentional fast-drain burst.
+        # finished, starving Update Player Data's 6h cron out of the
+        # lock's single queued slot indefinitely (observed 2026-08-24).
+        #
+        # IMPORTANT: this dispatches the next round WITHOUT --field
+        # loop=true. The first fix here still passed loop=true forward,
+        # which meant any chain already seeded with loop=true (every
+        # link before this fix, and any future manual loop=true dispatch)
+        # kept perpetuating itself under the new gate too — same
+        # starvation, just relabeled. loop=true is now consumed by
+        # exactly one extra round: this step fires once for the run that
+        # requested it, then stops, instead of manufacturing a new
+        # opt-in each generation. Chain a longer burst explicitly (repeat
+        # manual loop=true dispatches) if one is ever actually wanted.
         if: success() && github.event.inputs.dry_run != 'true' && github.event.inputs.loop == 'true'
         run: |
           gh workflow run backfill.yml \
-            --ref main \
-            --field loop=true
+            --ref main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
