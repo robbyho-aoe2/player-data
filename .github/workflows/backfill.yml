@@ -126,19 +126,22 @@ jobs:
           git pull --rebase && git push || echo "Nothing to push"
 
       - name: Trigger another Backfill round if looping
-        # Self-chains whenever there's still queue left — not just on an
-        # explicit loop=true dispatch — so backfill drains back-to-back
-        # instead of waiting for the next cron tick. This used to chain
-        # into Update Player Data instead, but that meant every ~25min
-        # backfill batch paid a 2-3hr refresh-everyone-already-backfilled
-        # tax that only gets worse as the backfilled pool grows. The two
-        # are decoupled now: backfill self-sustains, update-players runs
-        # independently on its own 6h cron. The 2h backfill cron stays as
-        # a fallback in case a self-chain link ever dies mid-run.
-        if: >
-          success() && github.event.inputs.dry_run != 'true' &&
-          (github.event.inputs.loop == 'true' ||
-           (steps.read_queue.outputs.has_queue == 'true' && steps.read_queue.outputs.remaining != '0'))
+        # Only chains on an EXPLICIT loop=true dispatch now — it used to
+        # also auto-chain whenever queue remained (i.e. always, given an
+        # 85k+ backlog), which meant this workflow re-claimed the shared
+        # player-data-write concurrency lock the instant each ~80min batch
+        # finished. Update Player Data's 6h cron kept losing the race for
+        # the lock's single queued slot to that near-continuous self-chain
+        # and got starved out indefinitely (observed 2026-08-24 — routine
+        # refreshes weren't running at all despite backfill looking
+        # "healthy"). Dropping the auto-chain leaves a gap after each
+        # batch for the lock to sit free, so whichever of the 2h backfill
+        # cron / 6h update-players cron / update-players' one-shot nudge
+        # below comes next actually gets a turn instead of always losing
+        # to backfill re-triggering itself. Backfill still makes steady
+        # progress via its own 2h cron; explicit loop=true (manual
+        # dispatch) remains available for an intentional fast-drain burst.
+        if: success() && github.event.inputs.dry_run != 'true' && github.event.inputs.loop == 'true'
         run: |
           gh workflow run backfill.yml \
             --ref main \

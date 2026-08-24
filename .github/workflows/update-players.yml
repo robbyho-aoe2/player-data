@@ -150,10 +150,15 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
           git pull --rebase && git push || echo "Nothing to push"
       - name: Trigger Backfill if looping
+        # A one-shot nudge (no loop=true) — backfill.yml no longer
+        # auto-chains off queue-remaining, so this doesn't restart the
+        # continuous self-chain that was starving this very workflow's
+        # own cron out of the shared concurrency lock. Backfill still
+        # gets one extra round after each refresh, plus its normal 2h
+        # cron for ongoing progress.
         if: success() && github.event.inputs.dry_run != 'true' && (github.event.inputs.loop == 'true' || github.event_name == 'schedule')
         run: |
           gh workflow run backfill.yml \
-            --ref main \
-            --field loop=true
+            --ref main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
