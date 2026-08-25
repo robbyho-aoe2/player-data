@@ -1,13 +1,17 @@
 name: Unstick Pipeline
 
 # Runs independently of update-players.yml / backfill.yml (own concurrency
-# group) so it keeps working even while those are stuck. If either workflow
-# has a run that's been in_progress or queued longer than STUCK_MINUTES, it
-# cancels it — freeing the shared player-data-write concurrency lock so the
-# next scheduled/chained run can start. This is what makes the pipeline
-# self-heal from a hang without anyone needing to watch it: see the outage
-# on 2026-08-23 where Update Player Data hung past its timeout and every
-# later trigger just queued up and got cancelled behind it, forever.
+# group) so it keeps working even while those are stuck. Cancels a run
+# that's been queued too long with no job ever starting, or a job that's
+# run well past its own workflow's timeout-minutes without self-
+# terminating — freeing the shared player-data-write concurrency lock so
+# the next scheduled/chained run can start. This is what makes the
+# pipeline self-heal from a hang without anyone needing to watch it: see
+# the outage on 2026-08-23 where Update Player Data hung past its timeout
+# and every later trigger just queued up and got cancelled behind it,
+# forever. Queued and in-progress runs are timed from different clocks
+# (see below) — treating both as "age since createdAt" false-positived on
+# a run that queued for a while and was still legitimately mid-run.
 
 on:
   schedule:
@@ -29,28 +33,58 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
-          # Generous margin above each workflow's own timeout-minutes (180
-          # for update-players.yml, 340 for backfill.yml) — this is a
-          # backstop for the rare case a run doesn't self-terminate on
-          # time, not the primary timeout mechanism.
-          STUCK_MINUTES=200
+          # QUEUED runs (job never started): measure from createdAt — there's
+          # no execution to time yet, so queue-wait time IS the staleness
+          # signal. Backfill batches typically run ~80-100min, so waiting
+          # this long to even start is already abnormal.
+          QUEUE_STUCK_MINUTES=150
           now=$(date -u +%s)
 
           for wf in update-players.yml backfill.yml; do
-            for status in in_progress queued; do
-              echo "Checking $wf ($status runs) ..."
-              gh run list --repo "$REPO" --workflow "$wf" --status "$status" \
-                --json databaseId,createdAt,status --limit 20 |
-              jq -c '.[]' | while read -r run; do
-                id=$(echo "$run" | jq -r '.databaseId')
-                created=$(echo "$run" | jq -r '.createdAt')
-                created_ts=$(date -u -d "$created" +%s)
-                age_min=$(( (now - created_ts) / 60 ))
-                echo "  run $id created $created (${age_min}m ago)"
-                if [ "$age_min" -gt "$STUCK_MINUTES" ]; then
-                  echo "  -> stuck for ${age_min}m, cancelling"
-                  gh run cancel "$id" --repo "$REPO" || true
-                fi
-              done
+            echo "Checking $wf (queued runs) ..."
+            gh run list --repo "$REPO" --workflow "$wf" --status queued \
+              --json databaseId,createdAt --limit 20 |
+            jq -c '.[]' | while read -r run; do
+              id=$(echo "$run" | jq -r '.databaseId')
+              created=$(echo "$run" | jq -r '.createdAt')
+              created_ts=$(date -u -d "$created" +%s)
+              age_min=$(( (now - created_ts) / 60 ))
+              echo "  run $id queued since $created (${age_min}m ago)"
+              if [ "$age_min" -gt "$QUEUE_STUCK_MINUTES" ]; then
+                echo "  -> stuck queued for ${age_min}m, cancelling"
+                gh run cancel "$id" --repo "$REPO" || true
+              fi
+            done
+          done
+
+          # IN-PROGRESS runs: measuring from createdAt double-counts queue
+          # wait + run time, which false-positived on a run that queued for
+          # ~90min behind another job and was then only partway through a
+          # perfectly normal run when it got killed at the 200min mark
+          # (2026-08-25, run #231) — it wasn't stuck, the threshold just
+          # didn't account for legitimate queue time. Use each job's actual
+          # startedAt instead, with a margin above that workflow's own
+          # timeout-minutes (180 for update-players.yml, 340 for
+          # backfill.yml) so this only fires as a backstop for a run that
+          # blew past its own timeout without self-terminating.
+          declare -A RUN_TIMEOUT=( [update-players.yml]=210 [backfill.yml]=370 )
+          for wf in update-players.yml backfill.yml; do
+            echo "Checking $wf (in_progress runs) ..."
+            gh run list --repo "$REPO" --workflow "$wf" --status in_progress \
+              --json databaseId --limit 20 |
+            jq -r '.[].databaseId' | while read -r id; do
+              started=$(gh run view "$id" --repo "$REPO" --json jobs -q '.jobs[0].startedAt // empty')
+              if [ -z "$started" ]; then
+                echo "  run $id has no started job yet, skipping"
+                continue
+              fi
+              started_ts=$(date -u -d "$started" +%s)
+              age_min=$(( (now - started_ts) / 60 ))
+              limit=${RUN_TIMEOUT[$wf]}
+              echo "  run $id job started $started (${age_min}m ago, limit ${limit}m)"
+              if [ "$age_min" -gt "$limit" ]; then
+                echo "  -> running ${age_min}m past its own timeout, cancelling"
+                gh run cancel "$id" --repo "$REPO" || true
+              fi
             done
           done
