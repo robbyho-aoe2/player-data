@@ -140,6 +140,26 @@ jobs:
             ARGS="$ARGS --group ${{ github.event.inputs.group }}"
           fi
           python3 update_players.py $ARGS
+      - name: Sync with origin before building aggregate
+        # The aggregate/insights files under data/ are a full regeneration
+        # of every player's data, so committing them BEFORE syncing with
+        # origin means any commit that lands elsewhere while this run's
+        # multi-hour fetch is in flight (e.g. backfill.yml's own cron, or a
+        # manual push) turns into an unresolvable rebase conflict on those
+        # generated blobs later. Pulling now — before Build aggregate even
+        # runs — means the aggregate step always regenerates from
+        # already-merged data, so the final push below has nothing left to
+        # conflict on.
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git stash push -u -m "freshly fetched player data"
+            git pull --rebase
+            git stash pop
+          else
+            git pull --rebase
+          fi
       - name: Build aggregate
         run: python3 build_aggregate.py
       - name: Commit and push if changed
@@ -147,8 +167,33 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ players.json
-          git diff --staged --quiet || git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
-          git pull --rebase && git push || echo "Nothing to push"
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
+
+          # A commit that fails to push here used to be silently discarded
+          # by `|| echo "Nothing to push"` (see run 32888585741 on
+          # 2026-08-25: 2405 files / 4.76M insertions were fetched,
+          # committed locally, then lost to a swallowed rebase conflict —
+          # the job still reported conclusion=success). Retry instead of
+          # swallowing, and fail loudly if data genuinely can't be saved.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            git reset --soft HEAD^
+            git pull --rebase
+            python3 build_aggregate.py
+            git add data/ players.json
+            git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
+            sleep $((5 * attempt))
+          done
+          echo "::error::Failed to push player data after 3 attempts — this run's fetched data was NOT saved to origin"
+          exit 1
       - name: Trigger Backfill if looping
         # A one-shot nudge (no loop=true) — backfill.yml no longer
         # auto-chains off queue-remaining, so this doesn't restart the
