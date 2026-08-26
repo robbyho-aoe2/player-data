@@ -68,8 +68,6 @@ jobs:
           m = matches[0]
           print("API reachable — match keys:", sorted(m.keys()))
           EOF
-      - name: Migrate to subfolders (safe to run multiple times)
-        run: python3 migrate_to_subfolders.py
       - name: Compute refresh batch
         id: batch
         if: github.event.inputs.player_ids == ''
