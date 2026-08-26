@@ -2,7 +2,7 @@
 import argparse
 import json
 from collections import defaultdict
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ELO_BRACKETS = [
@@ -521,7 +521,13 @@ def main():
     # Collect files — players.json is the source of truth for group assignment
     group_files, stale_files = collect_files(data_dir, group_map, cleanup=args.cleanup)
 
-    print(f"=== build_aggregate.py === {date.today()} ===")
+    # Shared across every "lastUpdated" field this run writes, so they all
+    # reflect the same generation instant rather than drifting a few
+    # minutes apart across a multi-minute build. Full timestamp (not just
+    # a date) so the site can show real time-of-day, not just "today".
+    run_timestamp = datetime.now(timezone.utc).isoformat()
+
+    print(f"=== build_aggregate.py === {run_timestamp} ===")
     for g in ALL_GROUPS:
         print(f"  {g}: {len(group_files[g])} players")
 
@@ -550,7 +556,7 @@ def main():
     current_patch = max(all_patches, key=lambda x: int(x)) if all_patches else None
 
     meta = {
-        "lastUpdated":  date.today().isoformat(),
+        "lastUpdated":  run_timestamp,
         "currentPatch": current_patch,
         "playerCounts": player_counts,
         "players":      player_summary,
@@ -595,7 +601,7 @@ def main():
     # byMap/byPatch/byWeek breakdowns Insights doesn't need). Add more of
     # these as Insights grows rather than having it fetch the full files.
     console_civs = {
-        "lastUpdated": date.today().isoformat(),
+        "lastUpdated": run_timestamp,
         # Combined 1v1 + Team Console (also the default/"all" filter view).
         "overall":     group_aggs["console"]["civWinRates"],
         "brackets":    {b: v["civWinRates"] for b, v in group_aggs["console"]["byEloBracket"].items()},
@@ -633,7 +639,7 @@ def main():
         "console": ["Team Console"],
         "pc":      ["Team PC"],
     }, console_tracked_ids)
-    console_squads["lastUpdated"] = date.today().isoformat()
+    console_squads["lastUpdated"] = run_timestamp
     squads_path = data_dir / "insights-console-squads.json"
     with open(squads_path, "w") as f:
         json.dump(console_squads, f, indent=2)
