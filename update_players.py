@@ -81,13 +81,14 @@ def api_fetch(profile_id, page):
     raise RuntimeError("Failed after 3 retries due to rate limiting")
 
 
-def fetch_peak_ratings(profile_id):
-    """Highest-ever rating per ladder, straight from aoe2companion's own
-    rating-change history (/api/profiles/{id}). meta.latestRating alone
-    understates a player who's since gone quiet — the live leaderboard
-    endpoint drops anyone not currently ranked this season, so a player's
-    true peak can only be recovered from their full history, not from
-    scanning the active leaderboard."""
+def fetch_profile_ratings(profile_id):
+    """Current + highest-ever rating per ladder, straight from aoe2companion's
+    own rating-change history (/api/profiles/{id}) — the same authoritative
+    source for both numbers, so they can't drift apart. Deriving "current"
+    from whatever match happened to be newest in a paginated match fetch
+    understates a player who's since gone quiet on one ladder but not
+    another, and depends on that match's rating field being present; the
+    profile endpoint always has it if the player has ranked history at all."""
     url = f"{PROFILE_URL}/{profile_id}"
     req = urllib.request.Request(
         url,
@@ -110,15 +111,15 @@ def fetch_peak_ratings(profile_id):
     else:
         raise RuntimeError("Failed after 3 retries due to rate limiting (profile)")
 
-    peaks = {}
+    ratings = {}
     for entry in data.get("ratings", []):
         ladder = PROFILE_LADDER_MAP.get(entry.get("leaderboardId"))
         if not ladder:
             continue
         hist = [x["rating"] for x in (entry.get("ratings") or []) if x.get("rating") is not None]
         if hist:
-            peaks[ladder] = max(hist)
-    return peaks
+            ratings[ladder] = {"current": hist[0], "peak": max(hist)}
+    return ratings
 
 
 def parse_iso(ts):
@@ -209,16 +210,15 @@ def extract_match(raw, profile_id):
     lb_raw = raw.get("leaderboardName", "")
     ladder = LADDER_MAP.get(lb_raw)
     if not ladder:
-        return None, None, None
+        return None, None
 
     match_id = raw.get("matchId")
     if match_id is None:
-        return None, None, None
+        return None, None
 
     our_player = find_our_player(raw, profile_id)
 
-    won    = our_player.get("won")    if our_player else None
-    rating = our_player.get("rating") if our_player else None
+    won = our_player.get("won") if our_player else None
 
     civ_raw = None
     if our_player:
@@ -245,7 +245,7 @@ def extract_match(raw, profile_id):
         "opponents": opponents,
         "teammates": teammates,
     }
-    return ladder, record, rating
+    return ladder, record
 
 
 # ─── Per-player update ────────────────────────────────────────────────────────
@@ -283,7 +283,6 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     for ladder, ld in existing["ladders"].items():
         existing_ids[ladder] = {m["matchId"] for m in ld.get("matches", [])}
 
-    latest_rating = {}
     new_matches   = {k: [] for k in existing["ladders"]}
     found_name    = None  # Real name if found in API response
 
@@ -305,12 +304,9 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         page_new = 0
 
         for raw in raw_matches:
-            ladder, record, rating = extract_match(raw, profile_id)
+            ladder, record = extract_match(raw, profile_id)
             if ladder is None:
                 continue
-
-            if rating is not None and ladder not in latest_rating:
-                latest_rating[ladder] = rating
 
             if record["matchId"] not in existing_ids.get(ladder, set()):
                 new_matches[ladder].append(record)
@@ -343,17 +339,22 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     print(f"  total fetched={total_fetched}, new={total_new}")
 
     try:
-        peak_ratings = fetch_peak_ratings(profile_id)
+        profile_ratings = fetch_profile_ratings(profile_id)
     except Exception as e:
-        print(f"  peak-rating fetch failed: {type(e).__name__}: {e}")
-        peak_ratings = {}
+        print(f"  profile-rating fetch failed: {type(e).__name__}: {e}")
+        profile_ratings = {}
 
     peak_changed = any(
-        (peak_ratings.get(ladder) or 0) > (existing["ladders"][ladder].get("meta", {}).get("peakRating") or 0)
+        (profile_ratings.get(ladder, {}).get("peak") or 0) > (existing["ladders"][ladder].get("meta", {}).get("peakRating") or 0)
+        for ladder in existing["ladders"]
+    )
+    current_changed = any(
+        profile_ratings.get(ladder, {}).get("current") is not None
+        and profile_ratings[ladder]["current"] != existing["ladders"][ladder].get("meta", {}).get("latestRating")
         for ladder in existing["ladders"]
     )
 
-    if total_new == 0 and not latest_rating and not peak_changed:
+    if total_new == 0 and not current_changed and not peak_changed:
         print(f"  no changes — skipping write")
         return False, found_name, None
 
@@ -368,9 +369,10 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         meta = existing["ladders"][ladder].setdefault("meta", {})
         meta["totalGames"] = len(existing["ladders"][ladder]["matches"])
         meta["pulledDate"] = today
-        if ladder in latest_rating and latest_rating[ladder] is not None:
-            meta["latestRating"] = latest_rating[ladder]
-        new_peak = peak_ratings.get(ladder)
+        new_current = profile_ratings.get(ladder, {}).get("current")
+        if new_current is not None:
+            meta["latestRating"] = new_current
+        new_peak = profile_ratings.get(ladder, {}).get("peak")
         if new_peak is not None:
             meta["peakRating"] = max(meta.get("peakRating") or 0, new_peak)
 
