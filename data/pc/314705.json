@@ -6,25 +6,41 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-10"
+        "pulledDate": "2026-08-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-10"
+        "pulledDate": "2026-08-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 88,
-        "pulledDate": "2026-08-10",
-        "latestRating": 1515,
-        "peakRating": 1535
+        "totalGames": 89,
+        "pulledDate": "2026-08-28",
+        "latestRating": 1549,
+        "peakRating": 1549
       },
       "matches": [
+        {
+          "matchId": 500246649,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-18",
+          "dur": 1619,
+          "opponents": [
+            {
+              "profileId": 25367054,
+              "name": "HateLamer"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 496883720,
           "civ": "Spanish",
@@ -1437,12 +1453,176 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 288,
-        "pulledDate": "2026-08-10",
-        "latestRating": 1621,
-        "peakRating": 1632
+        "totalGames": 292,
+        "pulledDate": "2026-08-28",
+        "latestRating": 1630,
+        "peakRating": 1648
       },
       "matches": [
+        {
+          "matchId": 500357933,
+          "civ": "Britons",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-18",
+          "dur": 1063,
+          "opponents": [
+            {
+              "profileId": 10833211,
+              "name": "mongo"
+            },
+            {
+              "profileId": 4186884,
+              "name": "\u5f20\u6a2a"
+            },
+            {
+              "profileId": 21197557,
+              "name": "Dark_Shelly"
+            },
+            {
+              "profileId": 25438100,
+              "name": "76561198702828170"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 426448,
+              "name": "masa4_japan(\u914d\u4fe1)"
+            },
+            {
+              "profileId": 5648280,
+              "name": "Rito"
+            },
+            {
+              "profileId": 362758,
+              "name": "yu_k1"
+            }
+          ]
+        },
+        {
+          "matchId": 500353632,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-18",
+          "dur": 1224,
+          "opponents": [
+            {
+              "profileId": 10833211,
+              "name": "mongo"
+            },
+            {
+              "profileId": 25790397,
+              "name": "Liangyu"
+            },
+            {
+              "profileId": 14676610,
+              "name": "The Sage"
+            },
+            {
+              "profileId": 209186,
+              "name": "luff"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 362758,
+              "name": "yu_k1"
+            },
+            {
+              "profileId": 426448,
+              "name": "masa4_japan(\u914d\u4fe1)"
+            },
+            {
+              "profileId": 5648280,
+              "name": "Rito"
+            }
+          ]
+        },
+        {
+          "matchId": 500344229,
+          "civ": "Vikings",
+          "map": "QS Runestones",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-18",
+          "dur": 2635,
+          "opponents": [
+            {
+              "profileId": 23187696,
+              "name": "\u73a9UG\u5343\u4e07\u522b\u51faHY\u9f99\u5fc3"
+            },
+            {
+              "profileId": 12275729,
+              "name": "\u81ea\u6709\u5927\u5112\u4e3a\u6211\u8fa9\u7ecf"
+            },
+            {
+              "profileId": 15629212,
+              "name": "3046964519"
+            },
+            {
+              "profileId": 4515561,
+              "name": "czj136"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5648280,
+              "name": "Rito"
+            },
+            {
+              "profileId": 426448,
+              "name": "masa4_japan(\u914d\u4fe1)"
+            },
+            {
+              "profileId": 5676099,
+              "name": "YEBISU"
+            }
+          ]
+        },
+        {
+          "matchId": 500338930,
+          "civ": "Teutons",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-18",
+          "dur": 1493,
+          "opponents": [
+            {
+              "profileId": 12275729,
+              "name": "\u81ea\u6709\u5927\u5112\u4e3a\u6211\u8fa9\u7ecf"
+            },
+            {
+              "profileId": 4515561,
+              "name": "czj136"
+            },
+            {
+              "profileId": 23187696,
+              "name": "\u73a9UG\u5343\u4e07\u522b\u51faHY\u9f99\u5fc3"
+            },
+            {
+              "profileId": 15629212,
+              "name": "3046964519"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 426448,
+              "name": "masa4_japan(\u914d\u4fe1)"
+            },
+            {
+              "profileId": 5648280,
+              "name": "Rito"
+            },
+            {
+              "profileId": 5676099,
+              "name": "YEBISU"
+            }
+          ]
+        },
         {
           "matchId": 492289589,
           "civ": "Franks",
