@@ -6,22 +6,23 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-07"
+        "pulledDate": "2026-08-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-07"
+        "pulledDate": "2026-08-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 103,
-        "pulledDate": "2026-08-07",
-        "latestRating": 1047
+        "pulledDate": "2026-08-29",
+        "latestRating": 1030,
+        "peakRating": 1089
       },
       "matches": [
         {
@@ -1573,11 +1574,87 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 895,
-        "pulledDate": "2026-08-07",
-        "latestRating": 1223
+        "totalGames": 898,
+        "pulledDate": "2026-08-29",
+        "latestRating": 1179,
+        "peakRating": 1259
       },
       "matches": [
+        {
+          "matchId": 500479413,
+          "civ": "Ethiopians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-19",
+          "dur": 1482,
+          "opponents": [
+            {
+              "profileId": 708124,
+              "name": "zetsu"
+            },
+            {
+              "profileId": 949045,
+              "name": "pwlg.fede"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 926600,
+              "name": "Stupid Bob"
+            }
+          ]
+        },
+        {
+          "matchId": 500474986,
+          "civ": "Sicilians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-19",
+          "dur": 1427,
+          "opponents": [
+            {
+              "profileId": 14983736,
+              "name": "Thay_ragnar"
+            },
+            {
+              "profileId": 19781744,
+              "name": "HUSTEM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 926600,
+              "name": "Stupid Bob"
+            }
+          ]
+        },
+        {
+          "matchId": 500470108,
+          "civ": "Sicilians",
+          "map": "Land Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-19",
+          "dur": 1515,
+          "opponents": [
+            {
+              "profileId": 1002464,
+              "name": "PkMn-"
+            },
+            {
+              "profileId": 2994692,
+              "name": "Bitsark"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 926600,
+              "name": "Stupid Bob"
+            }
+          ]
+        },
         {
           "matchId": 497488409,
           "civ": "Franks",

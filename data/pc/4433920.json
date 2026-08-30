@@ -6,22 +6,22 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-13"
+        "pulledDate": "2026-08-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-13"
+        "pulledDate": "2026-08-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-08-13",
-        "latestRating": 1189,
+        "pulledDate": "2026-08-29",
+        "latestRating": 1175,
         "peakRating": 1393
       },
       "matches": [
@@ -685,12 +685,791 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 829,
-        "pulledDate": "2026-08-13",
-        "latestRating": 1571,
-        "peakRating": 1679
+        "totalGames": 848,
+        "pulledDate": "2026-08-29",
+        "latestRating": 1638,
+        "peakRating": 1755
       },
       "matches": [
+        {
+          "matchId": 502901336,
+          "civ": "Shu",
+          "map": "Coastal Forest",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-08-29",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 2445846,
+              "name": "DoubleZX"
+            },
+            {
+              "profileId": 14885239,
+              "name": "Lauti"
+            },
+            {
+              "profileId": 9407785,
+              "name": "Remo"
+            },
+            {
+              "profileId": 5476273,
+              "name": "ila"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24234552,
+              "name": "\u60f3\u8981\u4e86"
+            },
+            {
+              "profileId": 19484643,
+              "name": "\u65f6\u901d"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502899833,
+          "civ": "Malay",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-29",
+          "dur": 267,
+          "opponents": [
+            {
+              "profileId": 1996941,
+              "name": "El Kb"
+            },
+            {
+              "profileId": 18406865,
+              "name": "le ignacio"
+            },
+            {
+              "profileId": 15202260,
+              "name": "Teutonio"
+            },
+            {
+              "profileId": 2998163,
+              "name": "[GGnT] Nanito_Uy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24234552,
+              "name": "\u60f3\u8981\u4e86"
+            },
+            {
+              "profileId": 19484643,
+              "name": "\u65f6\u901d"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502892888,
+          "civ": "Maya",
+          "map": "QS Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-29",
+          "dur": 1471,
+          "opponents": [
+            {
+              "profileId": 20221063,
+              "name": "\u6d85\u69c3\u91cd\u751f"
+            },
+            {
+              "profileId": 18837608,
+              "name": "old f1sh"
+            },
+            {
+              "profileId": 18733580,
+              "name": "beneath mariana"
+            },
+            {
+              "profileId": 11669609,
+              "name": "yclin124"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24234552,
+              "name": "\u60f3\u8981\u4e86"
+            },
+            {
+              "profileId": 19484643,
+              "name": "\u65f6\u901d"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502888302,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-29",
+          "dur": 952,
+          "opponents": [
+            {
+              "profileId": 2900258,
+              "name": "\u80d6\u5b50\u4e8b\u60c5\u591a"
+            },
+            {
+              "profileId": 20221063,
+              "name": "\u6d85\u69c3\u91cd\u751f"
+            },
+            {
+              "profileId": 18837608,
+              "name": "old f1sh"
+            },
+            {
+              "profileId": 12130387,
+              "name": "\u53eb\u6211\u9753\u4ed4\u554a \u6251\u8857"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24234552,
+              "name": "\u60f3\u8981\u4e86"
+            },
+            {
+              "profileId": 19484643,
+              "name": "\u65f6\u901d"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502884659,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-29",
+          "dur": 773,
+          "opponents": [
+            {
+              "profileId": 23855872,
+              "name": "Aga"
+            },
+            {
+              "profileId": 20221063,
+              "name": "\u6d85\u69c3\u91cd\u751f"
+            },
+            {
+              "profileId": 18837608,
+              "name": "old f1sh"
+            },
+            {
+              "profileId": 1203670,
+              "name": "Zuvubii"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 24234552,
+              "name": "\u60f3\u8981\u4e86"
+            },
+            {
+              "profileId": 19484643,
+              "name": "\u65f6\u901d"
+            }
+          ]
+        },
+        {
+          "matchId": 502645394,
+          "civ": "Maya",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-28",
+          "dur": 1750,
+          "opponents": [
+            {
+              "profileId": 4623027,
+              "name": "thanh7531"
+            },
+            {
+              "profileId": 4062437,
+              "name": "Bo Zhi Shang"
+            },
+            {
+              "profileId": 4490211,
+              "name": "mylove__"
+            },
+            {
+              "profileId": 23332197,
+              "name": "FutureEwe5582"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 20867402,
+              "name": "\u65e5\u66ae\u9014\u8fdc"
+            },
+            {
+              "profileId": 4303008,
+              "name": "\u6708\u6708"
+            }
+          ]
+        },
+        {
+          "matchId": 502640196,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-28",
+          "dur": 1289,
+          "opponents": [
+            {
+              "profileId": 1208243,
+              "name": "Saraiva"
+            },
+            {
+              "profileId": 3066118,
+              "name": "\u5c0f\u80a5\u7f8a"
+            },
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            },
+            {
+              "profileId": 10343461,
+              "name": "Hommi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20867402,
+              "name": "\u65e5\u66ae\u9014\u8fdc"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 20361747,
+              "name": "edsfod"
+            }
+          ]
+        },
+        {
+          "matchId": 502638484,
+          "civ": "Hindustanis",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-28",
+          "dur": 163,
+          "opponents": [
+            {
+              "profileId": 227682,
+              "name": "Poggle-der-Fisch"
+            },
+            {
+              "profileId": 10980846,
+              "name": "hcenemod"
+            },
+            {
+              "profileId": 3066118,
+              "name": "\u5c0f\u80a5\u7f8a"
+            },
+            {
+              "profileId": 953670,
+              "name": "shogun"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20867402,
+              "name": "\u65e5\u66ae\u9014\u8fdc"
+            },
+            {
+              "profileId": 20361747,
+              "name": "edsfod"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502632391,
+          "civ": "Bengalis",
+          "map": "QS Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-28",
+          "dur": 1490,
+          "opponents": [
+            {
+              "profileId": 181876,
+              "name": "karbid"
+            },
+            {
+              "profileId": 258634,
+              "name": "Splitte"
+            },
+            {
+              "profileId": 2377516,
+              "name": "KanA"
+            },
+            {
+              "profileId": 15365225,
+              "name": "MAND_D\u00e3 qu\u1ef3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20867402,
+              "name": "\u65e5\u66ae\u9014\u8fdc"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 20361747,
+              "name": "edsfod"
+            }
+          ]
+        },
+        {
+          "matchId": 502625129,
+          "civ": "Vikings",
+          "map": "QS Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-28",
+          "dur": 1784,
+          "opponents": [
+            {
+              "profileId": 22211094,
+              "name": "MeXxX"
+            },
+            {
+              "profileId": 258634,
+              "name": "Splitte"
+            },
+            {
+              "profileId": 2079739,
+              "name": "Snitzelyd"
+            },
+            {
+              "profileId": 9464150,
+              "name": "\u0111\u01b0\u1eddng l\u00ean \u0111\u1ec9nh 1k8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5806233,
+              "name": "\u8d85\u53ef\u611b\u5c0f\u6d77\u8c79"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 20361747,
+              "name": "edsfod"
+            }
+          ]
+        },
+        {
+          "matchId": 502621919,
+          "civ": "Britons",
+          "map": "QS Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-28",
+          "dur": 326,
+          "opponents": [
+            {
+              "profileId": 3922722,
+              "name": "xxArMoRxx"
+            },
+            {
+              "profileId": 25198320,
+              "name": "Kempinho"
+            },
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 10533617,
+              "name": "113152737"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23895616,
+              "name": "\u54ed\u7a00\u996d\uff082125613428\uff09"
+            },
+            {
+              "profileId": 20361747,
+              "name": "edsfod"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502423909,
+          "civ": "Maya",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-27",
+          "dur": 1016,
+          "opponents": [
+            {
+              "profileId": 10085151,
+              "name": "knife"
+            },
+            {
+              "profileId": 487277,
+              "name": "No_English"
+            },
+            {
+              "profileId": 1203670,
+              "name": "Zuvubii"
+            },
+            {
+              "profileId": 22572361,
+              "name": "\u7b2c\u4e00\u6ef4\u8840"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23083217,
+              "name": "\u6267\u8005\u5982\u65d7"
+            },
+            {
+              "profileId": 23895616,
+              "name": "\u54ed\u7a00\u996d\uff082125613428\uff09"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502418193,
+          "civ": "Magyars",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-27",
+          "dur": 1708,
+          "opponents": [
+            {
+              "profileId": 5826400,
+              "name": "Breznsoiza"
+            },
+            {
+              "profileId": 6769946,
+              "name": "vR-MrReD"
+            },
+            {
+              "profileId": 218046,
+              "name": "Dekodie"
+            },
+            {
+              "profileId": 12466177,
+              "name": "Red Calypso"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23895616,
+              "name": "\u54ed\u7a00\u996d\uff082125613428\uff09"
+            },
+            {
+              "profileId": 23083217,
+              "name": "\u6267\u8005\u5982\u65d7"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502413861,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-27",
+          "dur": 1259,
+          "opponents": [
+            {
+              "profileId": 8588069,
+              "name": "Miss_Xue"
+            },
+            {
+              "profileId": 15242442,
+              "name": "JINX"
+            },
+            {
+              "profileId": 5082716,
+              "name": "Raspadori"
+            },
+            {
+              "profileId": 4750484,
+              "name": "TsuksEST"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24208347,
+              "name": "Make War, Not Love"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 2535962,
+              "name": "GAX | Flanq"
+            }
+          ]
+        },
+        {
+          "matchId": 502406555,
+          "civ": "Spanish",
+          "map": "QS Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-27",
+          "dur": 1597,
+          "opponents": [
+            {
+              "profileId": 8907224,
+              "name": "\u6551\u82e6\u6551\u96be\u52a0\u7279\u6797"
+            },
+            {
+              "profileId": 5243614,
+              "name": "\u8042\u706d\u77e5\u5317"
+            },
+            {
+              "profileId": 20125736,
+              "name": "PAYLOTO"
+            },
+            {
+              "profileId": 12400596,
+              "name": "\u5411\u9633\u82b1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 4031018,
+              "name": "\u6912\u8fa3\u5403\u4e0d"
+            },
+            {
+              "profileId": 9501721,
+              "name": "\u5c0f\u4f20\u5947"
+            }
+          ]
+        },
+        {
+          "matchId": 502400939,
+          "civ": "Maya",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-27",
+          "dur": 1667,
+          "opponents": [
+            {
+              "profileId": 3439585,
+              "name": "\u6211\u662fD\u5934\u5927\u54e5"
+            },
+            {
+              "profileId": 5842007,
+              "name": "where's' my joke teammate"
+            },
+            {
+              "profileId": 11799140,
+              "name": "forever666f"
+            },
+            {
+              "profileId": 11785412,
+              "name": "forever19f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9501721,
+              "name": "\u5c0f\u4f20\u5947"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 4031018,
+              "name": "\u6912\u8fa3\u5403\u4e0d"
+            }
+          ]
+        },
+        {
+          "matchId": 502210521,
+          "civ": "Franks",
+          "map": "QS Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-26",
+          "dur": 1673,
+          "opponents": [
+            {
+              "profileId": 23855872,
+              "name": "Aga"
+            },
+            {
+              "profileId": 3961194,
+              "name": "Ren"
+            },
+            {
+              "profileId": 1551876,
+              "name": "\u6795\u4e0a\u9e33\u9e2f\u7761\u7ea2\u83b2"
+            },
+            {
+              "profileId": 1008214,
+              "name": "eXitDenDoc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1863024,
+              "name": "lunaryash"
+            },
+            {
+              "profileId": 25673139,
+              "name": "\u5c0f\u767d77"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
+        {
+          "matchId": 502203306,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-26",
+          "dur": 2054,
+          "opponents": [
+            {
+              "profileId": 861067,
+              "name": "Voxer El Brazilian"
+            },
+            {
+              "profileId": 9247030,
+              "name": "Rossi"
+            },
+            {
+              "profileId": 5004823,
+              "name": "jimmy"
+            },
+            {
+              "profileId": 4062437,
+              "name": "Bo Zhi Shang"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25673139,
+              "name": "\u5c0f\u767d77"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            },
+            {
+              "profileId": 1863024,
+              "name": "lunaryash"
+            }
+          ]
+        },
+        {
+          "matchId": 502199021,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-26",
+          "dur": 1176,
+          "opponents": [
+            {
+              "profileId": 14976179,
+              "name": "\u798f\u565c\u565c"
+            },
+            {
+              "profileId": 22250489,
+              "name": "\u9ec4\u7247\u5e97\u5e97\u957f\u59b2\u59b2\u9e2d"
+            },
+            {
+              "profileId": 2972505,
+              "name": "XuanLv"
+            },
+            {
+              "profileId": 21503260,
+              "name": "CNZS_Dadaya"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25673139,
+              "name": "\u5c0f\u767d77"
+            },
+            {
+              "profileId": 1863024,
+              "name": "lunaryash"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ]
+        },
         {
           "matchId": 498768490,
           "civ": "Maya",
