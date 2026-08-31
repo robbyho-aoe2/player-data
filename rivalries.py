@@ -13,7 +13,7 @@ times (default 3) — filters out one-off matchmaking pairings while still
 surfacing genuinely recurring opponents, not just long-tenured ones.
 
 Usage:
-    python3 rivalries.py [--min-games N] [--top N] [--recent-games N]
+    python3 rivalries.py [--min-games N] [--top N] [--window-start YYYY-MM-DD --window-end YYYY-MM-DD]
 
 Reads data/console/<profileId>.json (per-player match histories, written
 by update_players.py / backfill.yml) and prints a JSON array to stdout —
@@ -59,7 +59,7 @@ def load_console_pairs(data_dir="data/console"):
     return pairs
 
 
-def build_rivalries(pairs, min_games=3, top=10, recent_games=3):
+def build_rivalries(pairs, min_games=3, top=10, window_start=None, window_end=None):
     qualifying = [(k, v) for k, v in pairs.items() if len(v) >= min_games]
     # Sort by most recent game date, descending — "constantly updating":
     # re-running this next week naturally surfaces whoever played most
@@ -90,20 +90,23 @@ def build_rivalries(pairs, min_games=3, top=10, recent_games=3):
         winner_id = lambda m: m["selfId"] if m["selfWon"] else m["oppId"]
         winsA = sum(1 for m in matches if winner_id(m) == idA)
         winsB = len(matches) - winsA
-        out.append({
+
+        row = {
             "nameA": nameA, "idA": idA,
             "nameB": nameB, "idB": idB,
             "allTimeGames": len(matches),
             "record": f"{winsA}-{winsB}",
             "lastPlayed": m0["date"],
-            "recentGames": [
-                {
-                    "date": m["date"], "map": m["map"],
-                    "winnerName": (m["selfName"] if m["selfWon"] else m["oppName"]),
-                }
-                for m in matches[:recent_games]
-            ],
-        })
+        }
+
+        if window_start and window_end:
+            window_matches = [m for m in matches if m["date"] and window_start <= m["date"] <= window_end]
+            wWinsA = sum(1 for m in window_matches if winner_id(m) == idA)
+            wWinsB = len(window_matches) - wWinsA
+            row["gamesThisWeek"] = len(window_matches)
+            row["recordThisWeek"] = f"{wWinsA}-{wWinsB}" if window_matches else None
+
+        out.append(row)
     return out
 
 
@@ -113,12 +116,13 @@ def main():
     ap.add_argument("--min-games", type=int, default=3,
                      help="minimum all-time games together to qualify as a rivalry (default 3)")
     ap.add_argument("--top", type=int, default=10, help="how many rivalries to output (default 10)")
-    ap.add_argument("--recent-games", type=int, default=3,
-                     help="how many of each rivalry's latest games to include (default 3)")
+    ap.add_argument("--window-start", default=None,
+                     help="if given (with --window-end), adds gamesThisWeek/recordThisWeek per rivalry")
+    ap.add_argument("--window-end", default=None)
     args = ap.parse_args()
 
     pairs = load_console_pairs(args.data_dir)
-    rivalries = build_rivalries(pairs, args.min_games, args.top, args.recent_games)
+    rivalries = build_rivalries(pairs, args.min_games, args.top, args.window_start, args.window_end)
     print(json.dumps(rivalries, indent=2))
 
 
