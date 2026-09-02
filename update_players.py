@@ -119,6 +119,15 @@ def fetch_profile_ratings(profile_id):
         hist = [x["rating"] for x in (entry.get("ratings") or []) if x.get("rating") is not None]
         if hist:
             ratings[ladder] = {"current": hist[0], "peak": max(hist)}
+    # A ladder legitimately missing from `ratings` here (empty `entry["ratings"]`
+    # or no `entry` for that leaderboardId at all) is not a fetch failure — a
+    # player under ~10 games on that ladder is still in their placement period
+    # and the API has no public Elo to return yet, even though their match
+    # history (fetched separately, above) is already real and complete. Confirmed
+    # 2026-09-02: of console players with real "1v1 PC" match history but no
+    # peakRating on file, ~100% had fewer than 10 games on that ladder, and the
+    # job logs across several full-batch runs show zero "profile-rating fetch
+    # failed" exceptions — so this dataset gap isn't something a retry fixes.
     return ratings
 
 
