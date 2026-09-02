@@ -10,12 +10,30 @@ Data is fetched weekly from the [AoE2Companion API](https://data.aoe2companion.c
 ```
 players.json          # seed list: [{name, profileId, group}]
 data/
-  <profileId>.json    # full match history + meta per player
-test_api.py           # one-shot API connectivity/field check
-update_players.py     # pipeline script (run by CI, or locally)
+  <profileId>.json         # full match history + meta per player
+  refresh_cursor.json      # rotation position for the batch scheduler below
+  pipeline_health.json     # per-run freshness snapshot, see below
+test_api.py            # one-shot API connectivity/field check
+update_players.py      # pipeline script (run by CI, or locally)
+write_pipeline_health.py  # writes data/pipeline_health.json each run
 .github/workflows/
   update-players.yml  # weekly cron + manual dispatch
 ```
+
+## Pipeline health
+
+Every `update-players.yml` run writes `data/pipeline_health.json`, a small
+snapshot answering "can I trust this week's numbers right now?": when the
+pipeline last ran, how many of the tracked (already-backfilled) players have
+data pulled within the last 7 days, and what fraction that is
+(`freshWithin7DaysPct`). Refresh runs rotate through the tracked pool in
+batches (`data/refresh_cursor.json` + `BATCH_SIZE`), so freshness lags behind
+"just ran" by design — this file exists so anyone consuming this data
+(notably the external weekly-report automation that reads/writes
+`data/weekly-reports/` and `data/snapshots/` in this repo) can check
+`freshWithin7DaysPct` before trusting a week's totals, instead of relying
+only on a report's own after-the-fact heuristics (e.g. "this total looks
+implausibly low").
 
 
 ## Per-player file schema

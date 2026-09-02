@@ -33,6 +33,31 @@ concurrency:
   group: player-data-write
   cancel-in-progress: false
 
+env:
+  # Single source of truth for the rotation batch size — read by both the
+  # "Compute refresh batch" step and write_pipeline_health.py, so the
+  # health file's reported batchSize can never drift from what actually ran.
+  #
+  # Sized from 4 real successful full-batch runs (all BATCH_SIZE=2500) during
+  # the 2026-08-25 -> 2026-09-02 timeout outage, using the "Update player
+  # data" step's own start/end timestamps from the job's step list:
+  #   2026-08-25 run: 10009s / 2500 players = 4.004s/player
+  #   2026-08-28 run: 10067s / 2500 players = 4.027s/player
+  #   2026-08-29 run:  9675s / 2500 players = 3.870s/player (commit landed
+  #     via a pushed cursor/data commit moments before the job was killed at
+  #     the 180min cap and reported conclusion=cancelled — the fetch itself
+  #     completed cleanly, so its timing is still valid)
+  #   2026-09-02 run:  9425s / 2500 players = 3.770s/player
+  #   average: 3.918s/player
+  # Target: keep "Update player data" itself under 120 minutes (7200s),
+  # leaving a full 60 minutes of the 180min timeout-minutes cap as real
+  # margin for checkout/sync/build/commit overhead (observed 15-25min) plus
+  # API slowness/variance:
+  #   7200s / 3.918s per player = ~1838 players
+  # Rounded down to 1800 for a clean number — worst-observed rate still
+  # finishes in ~121 minutes, comfortably inside the 60-minute margin.
+  REFRESH_BATCH_SIZE: "1800"
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -86,7 +111,7 @@ jobs:
           # how large the backfilled pool gets — freshness per player
           # degrades gracefully (a full rotation just takes more cycles)
           # instead of the whole pipeline breaking.
-          BATCH_SIZE = 2500
+          BATCH_SIZE = int(os.environ["REFRESH_BATCH_SIZE"])
 
           data_dir = Path("data")
           players = json.loads(Path("players.json").read_text())
@@ -116,6 +141,43 @@ jobs:
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write("player_ids=" + ",".join(str(i) for i in batch) + "\n")
           EOF
+      - name: Commit and push cursor advance
+        # Push the cursor's new position to origin NOW, before the slow
+        # "Update player data" fetch below even starts — not at the very end
+        # alongside the fetch results. This is what makes batch rotation
+        # actually rotate during an outage: the 2026-08-25 -> 2026-09-02
+        # timeout streak kept retrying the SAME batch run after run, because
+        # the cursor only advanced on a fully successful run and every run
+        # was getting killed by timeout-minutes:180 first. With the cursor
+        # committed up front, a fetch that later times out or fails just
+        # means that batch waits one full rotation to be retried — the next
+        # scheduled run tries a different batch instead of the pipeline
+        # being stuck on one forever. Safe to run with no prior `git pull`:
+        # the shared player-data-write concurrency group (cancel-in-progress
+        # false) guarantees no other writer workflow is running concurrently,
+        # so origin can't have moved since Checkout repo.
+        if: github.event.inputs.player_ids == ''
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/refresh_cursor.json
+          if git diff --staged --quiet; then
+            echo "Cursor unchanged — nothing to commit"
+            exit 0
+          fi
+          NEXT_INDEX=$(python3 -c "import json; print(json.load(open('data/refresh_cursor.json'))['index'])")
+          git commit -m "chore: advance refresh cursor to $NEXT_INDEX"
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Cursor pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::cursor push attempt $attempt failed — resyncing and retrying"
+            git pull --rebase
+            sleep $((5 * attempt))
+          done
+          echo "::error::Failed to push cursor advance after 3 attempts"
+          exit 1
       - name: Update player data
         id: update
         run: |
@@ -160,6 +222,19 @@ jobs:
           fi
       - name: Build aggregate
         run: python3 build_aggregate.py
+      - name: Write pipeline health
+        # DATA_CHANGED must be computed from `git status` here, before this
+        # writes data/pipeline_health.json — that file's own timestamp
+        # changes every run, so checking `git status` after writing it would
+        # always show a diff regardless of whether any player data actually
+        # changed.
+        run: |
+          if [ -n "$(git status --porcelain -- data/ players.json)" ]; then
+            export DATA_CHANGED=true
+          else
+            export DATA_CHANGED=false
+          fi
+          python3 write_pipeline_health.py
       - name: Commit and push if changed
         run: |
           git config user.name  "github-actions[bot]"
