@@ -230,7 +230,8 @@ def extract_match(raw, profile_id):
     map_  = first_present(raw, MAP_FIELD_CANDIDATES)
     patch = first_present(raw, PATCH_FIELD_CANDIDATES)
     dur   = compute_duration(raw)
-    dt    = coerce_date(raw.get("started") or raw.get("finished"))
+    started_source = raw.get("started") or raw.get("finished")
+    dt    = coerce_date(started_source)
     opponents = get_opponents(raw, profile_id)
     teammates = get_teammates(raw, profile_id)
 
@@ -241,6 +242,11 @@ def extract_match(raw, profile_id):
         "won":       won,
         "patch":     patch,
         "date":      dt,
+        # Full-precision timestamp alongside the truncated "date" — added
+        # for the Saturday Night Live window report, which needs to tell
+        # "after 6pm Saturday" from earlier the same day. "date" stays as
+        # the YYYY-MM-DD truncation other consumers already depend on.
+        "startedAt": started_source,
         "dur":       dur,
         "opponents": opponents,
         "teammates": teammates,

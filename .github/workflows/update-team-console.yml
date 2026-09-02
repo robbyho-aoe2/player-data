@@ -1,0 +1,111 @@
+name: Update Team Console Roster
+
+on:
+  schedule:
+    # Sunday 07:30 UTC = 3:30am EDT — right after the Saturday Night Live
+    # window's own 3am EDT cutoff, so this pass captures the full window
+    # before the separate Sunday 6am EDT (10:00 UTC) report routine reads it.
+    - cron: "30 7 * * 0"
+  workflow_dispatch:
+
+concurrency:
+  group: player-data-write
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    # Roster is 2671 players (see data/team_console_players.json) at
+    # 3.918s/player — the same empirical rate update-players.yml's
+    # REFRESH_BATCH_SIZE was sized from (4 full-batch runs, 2026-08-25 ->
+    # 2026-09-02, see that workflow's env comment for the per-run numbers):
+    #   2671 * 3.918s = 10465s = ~174.4 minutes just for the fetch step.
+    # Same 60-minute real margin update-players.yml carries for
+    # checkout/sync/build/commit overhead (this workflow mirrors those same
+    # steps, and build_aggregate.py's own runtime is independent of which
+    # roster was just refreshed — it always rebuilds from the full dataset
+    # on disk):
+    #   174.4 + 60 = ~234.4 minutes -> rounded up to 240 for a clean number,
+    # comfortably inside GitHub-hosted runners' 360-minute hard cap.
+    #
+    # NOTE: this is a "won't get killed mid-run" budget, not a "finishes
+    # before the report reads it" guarantee. At 174+ minutes for the fetch
+    # alone, a 07:30 UTC start does not reliably finish before 10:00 UTC —
+    # see the roster-size flag in this change's report.
+    timeout-minutes: 240
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install requests
+      - name: Read roster
+        id: roster
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from pathlib import Path
+
+          ids = json.loads(Path("data/team_console_players.json").read_text())
+          print(f"Team Console roster: {len(ids)} players")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("player_ids=" + ",".join(str(i) for i in ids) + "\n")
+          EOF
+      - name: Update player data
+        run: python3 update_players.py --players ${{ steps.roster.outputs.player_ids }}
+      - name: Sync with origin before building aggregate
+        # Same reasoning as update-players.yml's own step of this name: land
+        # any commit that happened elsewhere while this run's fetch was in
+        # flight BEFORE regenerating the aggregate/insights files, so the
+        # final push below has nothing left to conflict on.
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git stash push -u -m "freshly fetched player data"
+            git pull --rebase
+            git stash pop
+          else
+            git pull --rebase
+          fi
+      - name: Build aggregate
+        run: python3 build_aggregate.py
+      - name: Refresh Team Console roster
+        # Auto-growth: recompute the qualifying set from the data just
+        # fetched, so any player who crossed into real Team Console history
+        # this run is already in the roster the next scheduled run reads —
+        # no separate audit step needed.
+        run: python3 build_team_console_roster.py
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ players.json
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: refresh Team Console roster $(date -u '+%Y-%m-%d')"
+
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            git reset --soft HEAD^
+            git pull --rebase
+            python3 build_aggregate.py
+            python3 build_team_console_roster.py
+            git add data/ players.json
+            git commit -m "chore: refresh Team Console roster $(date -u '+%Y-%m-%d')"
+            sleep $((5 * attempt))
+          done
+          echo "::error::Failed to push Team Console roster refresh after 3 attempts — this run's fetched data was NOT saved to origin"
+          exit 1
