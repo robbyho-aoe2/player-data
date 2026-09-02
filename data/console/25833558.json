@@ -5,12 +5,28 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 18,
-        "pulledDate": "2026-08-08",
-        "latestRating": 1089,
-        "peakRating": 1099
+        "totalGames": 19,
+        "pulledDate": "2026-09-02",
+        "latestRating": 1110,
+        "peakRating": 1110
       },
       "matches": [
+        {
+          "matchId": 501557144,
+          "civ": "Turks",
+          "map": "QS Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-08-23",
+          "dur": 1360,
+          "opponents": [
+            {
+              "profileId": 22744367,
+              "name": "No-Way_023"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 497142449,
           "civ": "Bulgarians",
@@ -303,11 +319,36 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 3,
-        "pulledDate": "2026-08-08",
+        "totalGames": 4,
+        "pulledDate": "2026-09-02",
         "latestRating": 1041
       },
       "matches": [
+        {
+          "matchId": 500160107,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-17",
+          "dur": 1067,
+          "opponents": [
+            {
+              "profileId": 25389578,
+              "name": "J_BOURA"
+            },
+            {
+              "profileId": 24557626,
+              "name": "CthulhuVollbild"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22700566,
+              "name": "blumshugue1010"
+            }
+          ]
+        },
         {
           "matchId": 497799446,
           "civ": "Bulgarians",
@@ -387,15 +428,80 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-08-08"
+        "totalGames": 4,
+        "pulledDate": "2026-09-02"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 502052106,
+          "civ": "Turks",
+          "map": "QS Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-25",
+          "dur": 824,
+          "opponents": [
+            {
+              "profileId": 23146044,
+              "name": "Turquesa-4400"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 501570198,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-23",
+          "dur": 54,
+          "opponents": [
+            {
+              "profileId": 25036102,
+              "name": "irupower"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 501569413,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-23",
+          "dur": 12,
+          "opponents": [
+            {
+              "profileId": 25036102,
+              "name": "irupower"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 501564262,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-08-23",
+          "dur": 1079,
+          "opponents": [
+            {
+              "profileId": 25036102,
+              "name": "irupower"
+            }
+          ],
+          "teammates": []
+        }
+      ]
     },
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-08"
+        "pulledDate": "2026-09-02"
       },
       "matches": []
     }
