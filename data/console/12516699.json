@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 28,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-06",
         "latestRating": 710,
         "peakRating": 722
       },
@@ -463,10 +463,64 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 8,
-        "pulledDate": "2026-09-04"
+        "totalGames": 10,
+        "pulledDate": "2026-09-06",
+        "latestRating": 737,
+        "peakRating": 737
       },
       "matches": [
+        {
+          "matchId": 504391265,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T04:20:50.000Z",
+          "dur": 2245,
+          "opponents": [
+            {
+              "profileId": 13562315,
+              "name": "YungT609"
+            },
+            {
+              "profileId": 12859688,
+              "name": "MrFrachise"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15303198,
+              "name": "Alexis19949322"
+            }
+          ]
+        },
+        {
+          "matchId": 504384788,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T03:42:57.000Z",
+          "dur": 2138,
+          "opponents": [
+            {
+              "profileId": 12491326,
+              "name": "FuzzyFurball567"
+            },
+            {
+              "profileId": 12538978,
+              "name": "davedechantal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15303198,
+              "name": "Alexis19949322"
+            }
+          ]
+        },
         {
           "matchId": 504136245,
           "civ": "Bulgarians",
@@ -684,16 +738,95 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-06"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "totalGames": 3,
+        "pulledDate": "2026-09-06"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 504400610,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T05:19:51.000Z",
+          "dur": 1307,
+          "opponents": [
+            {
+              "profileId": 476793,
+              "name": "ojkarq87"
+            },
+            {
+              "profileId": 2289732,
+              "name": "B4rTTo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15303198,
+              "name": "Alexis19949322"
+            }
+          ]
+        },
+        {
+          "matchId": 504399165,
+          "civ": "Bulgarians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T05:10:19.000Z",
+          "dur": 14,
+          "opponents": [
+            {
+              "profileId": 12709229,
+              "name": "Bar0n von Beard"
+            },
+            {
+              "profileId": 12677375,
+              "name": "ATiredDad33"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15303198,
+              "name": "Alexis19949322"
+            }
+          ]
+        },
+        {
+          "matchId": 504398539,
+          "civ": "Bulgarians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T05:06:23.000Z",
+          "dur": 80,
+          "opponents": [
+            {
+              "profileId": 12709229,
+              "name": "Bar0n von Beard"
+            },
+            {
+              "profileId": 12677375,
+              "name": "ATiredDad33"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15303198,
+              "name": "Alexis19949322"
+            }
+          ]
+        }
+      ]
     }
   }
 }
