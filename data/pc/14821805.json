@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-06"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-06"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 12,
-        "pulledDate": "2026-09-04",
-        "latestRating": 942,
+        "totalGames": 13,
+        "pulledDate": "2026-09-06",
+        "latestRating": 913,
         "peakRating": 942
       },
       "matches": [
+        {
+          "matchId": 504355347,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T01:02:18.000Z",
+          "dur": 1627,
+          "opponents": [
+            {
+              "profileId": 1769536,
+              "name": "minichen50"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504134610,
           "civ": "Teutons",
@@ -233,12 +250,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 200,
-        "pulledDate": "2026-09-04",
-        "latestRating": 926,
-        "peakRating": 932
+        "totalGames": 202,
+        "pulledDate": "2026-09-06",
+        "latestRating": 960,
+        "peakRating": 960
       },
       "matches": [
+        {
+          "matchId": 504367269,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T02:09:11.000Z",
+          "dur": 976,
+          "opponents": [
+            {
+              "profileId": 2597367,
+              "name": "HeartyLog"
+            },
+            {
+              "profileId": 6907849,
+              "name": "peas pottage"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5459852,
+              "name": "Bulbu"
+            }
+          ]
+        },
+        {
+          "matchId": 504360514,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T01:32:07.000Z",
+          "dur": 1940,
+          "opponents": [
+            {
+              "profileId": 630478,
+              "name": "DangerWashington"
+            },
+            {
+              "profileId": 6126581,
+              "name": "LedgenP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 292703,
+              "name": "agamemnon_of_mycenae"
+            }
+          ]
+        },
         {
           "matchId": 503927952,
           "civ": "Celts",
