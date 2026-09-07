@@ -5,12 +5,29 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 24,
-        "pulledDate": "2026-09-05",
-        "latestRating": 749,
+        "totalGames": 25,
+        "pulledDate": "2026-09-07",
+        "latestRating": 769,
         "peakRating": 791
       },
       "matches": [
+        {
+          "matchId": 504756677,
+          "civ": "Spanish",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T14:14:45.000Z",
+          "dur": 5667,
+          "opponents": [
+            {
+              "profileId": 23093008,
+              "name": "davicinreal"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504037343,
           "civ": "Huns",
@@ -400,22 +417,75 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "totalGames": 2,
+        "pulledDate": "2026-09-07"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 504537202,
+          "civ": "Spanish",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T18:07:01.000Z",
+          "dur": 1271,
+          "opponents": [
+            {
+              "profileId": 25542734,
+              "name": "coreylee98"
+            },
+            {
+              "profileId": 25568480,
+              "name": "murry1981"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26062497,
+              "name": "KillYouToday--"
+            }
+          ]
+        },
+        {
+          "matchId": 504522632,
+          "civ": "Spanish",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-05",
+          "startedAt": "2026-09-05T17:00:22.000Z",
+          "dur": 3456,
+          "opponents": [
+            {
+              "profileId": 25568480,
+              "name": "murry1981"
+            },
+            {
+              "profileId": 25542734,
+              "name": "coreylee98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26062497,
+              "name": "KillYouToday--"
+            }
+          ]
+        }
+      ]
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-07"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-07"
       },
       "matches": []
     }
