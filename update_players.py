@@ -82,13 +82,15 @@ def api_fetch(profile_id, page):
 
 
 def fetch_profile_ratings(profile_id):
-    """Current + highest-ever rating per ladder, straight from aoe2companion's
-    own rating-change history (/api/profiles/{id}) — the same authoritative
-    source for both numbers, so they can't drift apart. Deriving "current"
-    from whatever match happened to be newest in a paginated match fetch
-    understates a player who's since gone quiet on one ladder but not
-    another, and depends on that match's rating field being present; the
-    profile endpoint always has it if the player has ranked history at all."""
+    """Returns (ratings, country). ratings: current + highest-ever rating per
+    ladder, straight from aoe2companion's own rating-change history
+    (/api/profiles/{id}) — the same authoritative source for both numbers, so
+    they can't drift apart. Deriving "current" from whatever match happened
+    to be newest in a paginated match fetch understates a player who's since
+    gone quiet on one ladder but not another, and depends on that match's
+    rating field being present; the profile endpoint always has it if the
+    player has ranked history at all. country: the player's self-reported
+    country (code/flag emoji/full name) — same response, no extra request."""
     url = f"{PROFILE_URL}/{profile_id}"
     req = urllib.request.Request(
         url,
@@ -105,7 +107,7 @@ def fetch_profile_ratings(profile_id):
                 print(f"  429 rate limit (profile) — waiting {wait}s before retry {attempt + 1}/3")
                 time.sleep(wait)
             elif e.code == 404:
-                return {}
+                return {}, {}
             else:
                 raise
     else:
@@ -128,7 +130,16 @@ def fetch_profile_ratings(profile_id):
     # peakRating on file, ~100% had fewer than 10 games on that ladder, and the
     # job logs across several full-batch runs show zero "profile-rating fetch
     # failed" exceptions — so this dataset gap isn't something a retry fixes.
-    return ratings
+
+    # Same /api/profiles/{id} response already carries the player's real
+    # country (2-letter code, flag emoji, full name) — free to grab
+    # alongside ratings, no extra request. Not every profile has one set.
+    country = {
+        "country":     data.get("country") or None,
+        "countryIcon": data.get("countryIcon") or None,
+        "countryName": data.get("countryName") or None,
+    }
+    return ratings, country
 
 
 def parse_iso(ts):
@@ -354,10 +365,10 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     print(f"  total fetched={total_fetched}, new={total_new}")
 
     try:
-        profile_ratings = fetch_profile_ratings(profile_id)
+        profile_ratings, profile_country = fetch_profile_ratings(profile_id)
     except Exception as e:
         print(f"  profile-rating fetch failed: {type(e).__name__}: {e}")
-        profile_ratings = {}
+        profile_ratings, profile_country = {}, {}
 
     peak_changed = any(
         (profile_ratings.get(ladder, {}).get("peak") or 0) > (existing["ladders"][ladder].get("meta", {}).get("peakRating") or 0)
@@ -368,10 +379,24 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         and profile_ratings[ladder]["current"] != existing["ladders"][ladder].get("meta", {}).get("latestRating")
         for ladder in existing["ladders"]
     )
+    # Fires once per player, the first time their country is ever seen (or
+    # if they later change it) — this is what actually gets country
+    # backfilled onto every already-tracked player over the next few
+    # rotation cycles, not just newly-added ones: without this check, a
+    # quiet player with no new matches/rating movement would keep hitting
+    # the early-return below every run and never get their first write.
+    country_changed = bool(profile_country.get("country")) and profile_country.get("country") != existing.get("country")
 
-    if total_new == 0 and not current_changed and not peak_changed:
+    if total_new == 0 and not current_changed and not peak_changed and not country_changed:
         print(f"  no changes — skipping write")
         return False, found_name, None
+
+    # Only overwrite on a real value — a transient fetch failure (empty
+    # profile_country) must never clobber a country already on file.
+    if profile_country.get("country"):
+        existing["country"]     = profile_country["country"]
+        existing["countryIcon"] = profile_country["countryIcon"]
+        existing["countryName"] = profile_country["countryName"]
 
     today = date.today().isoformat()
     for ladder in existing["ladders"]:

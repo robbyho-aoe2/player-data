@@ -493,12 +493,14 @@ def build_player_summary(players_list, group_files):
             continue
 
         summary.append({
-            "name":       player.get("name", str(pid)),
-            "profileId":  pid,
-            "group":      player["group"],   # authoritative — from players.json
-            "ratings":    ratings,
-            "peaks":      peaks,
-            "totalGames": total_games,
+            "name":        player.get("name", str(pid)),
+            "profileId":   pid,
+            "group":       player["group"],   # authoritative — from players.json
+            "ratings":     ratings,
+            "peaks":       peaks,
+            "totalGames":  total_games,
+            "countryIcon": p.get("countryIcon"),
+            "countryName": p.get("countryName"),
         })
 
     return summary
