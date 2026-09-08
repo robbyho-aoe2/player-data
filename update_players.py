@@ -48,6 +48,18 @@ CIV_NORM = {
     "Inca":   "Incas",
 }
 
+# Some players' AoE2Companion profile reports an unreliable/wrong country
+# (e.g. flips between neighboring countries depending on IP/VPN at the time
+# aoe2companion last recorded it) -- a manual correction here overrides
+# whatever fetch_profile_ratings gets back from the API for that one
+# profileId, so it stays correct across every future scheduled refresh
+# instead of being silently overwritten again next cycle.
+COUNTRY_OVERRIDES = {
+    # "not A theist" -- reports us/mx depending on the API's mood; real
+    # location is Guatemala (user-confirmed, profileId 14602117).
+    14602117: {"country": "gt", "countryIcon": "\U0001F1EC\U0001F1F9", "countryName": "Guatemala"},
+}
+
 MAP_FIELD_CANDIDATES   = ["mapName", "map"]
 PATCH_FIELD_CANDIDATES = ["patch", "version", "gameVersion"]
 
@@ -369,6 +381,8 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     except Exception as e:
         print(f"  profile-rating fetch failed: {type(e).__name__}: {e}")
         profile_ratings, profile_country = {}, {}
+    if profile_id in COUNTRY_OVERRIDES:
+        profile_country = COUNTRY_OVERRIDES[profile_id]
 
     peak_changed = any(
         (profile_ratings.get(ladder, {}).get("peak") or 0) > (existing["ladders"][ladder].get("meta", {}).get("peakRating") or 0)
