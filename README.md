@@ -60,6 +60,49 @@ implausibly low").
 
 Matches are stored newest-first. `matchId` is the dedup key — never dedup by `{civ, map, won, date}` (not unique for high-volume players).
 
+**Void/disconnected matches:** `won` (and usually `dur`) can be `null` on one
+side's copy of a matchId while the opponent's copy has a real result —
+confirmed by cross-checking several sampled pairs, the null side never had a
+recorded outcome at all (not a draw, not in-progress by the time of the pull).
+This looks like one side's client never reporting a result, e.g. a
+disconnect. `None` is falsy in Python, so `if m.get("won"):` silently treats
+a void match as a loss instead of skipping it — always check
+`m.get("won") is None` explicitly first (see `is_void_match()` in
+`weekly_extras.py`) before trusting a match's outcome. As of 2026-09-08 this
+affected ~163 matches in a single 5-day console window, so it's common
+enough to matter, not an edge case.
+
+## Weekly report conventions
+
+`weekly_extras.py` is the source of truth for how the window-scoped parts
+of the console weekly report are computed — read it (or run it with
+`--help`) rather than re-deriving the definitions:
+
+- **mostGames** (`compute_most_games`): combined 1v1 + Team Console games
+  this window, with each player's finishing (current) Elo and net change
+  per ladder. `elo1v1Change` diffs against `data/snapshots/console-<windowStart>.json`
+  (pass its path as `--snapshot-start`); `eloTeamChange` is null until a
+  `ratingTeam` field exists in two consecutive weekly snapshots — see below.
+- **biggestUpsets** (`compute_biggest_upsets`): current-rating-as-proxy
+  upsets, void matches excluded.
+- **civPopularity** (`compute_civ_popularity`): `topPicked`/`topWinRate` now
+  carry `pickRate` (share of this window's civ-picks, same definition as
+  `build_aggregate.py`'s `pickRate`); `biggestMovers` is sorted by *signed*
+  `pctPointChange` (gainers first, losers last), not by magnitude.
+- **topSquads** (`compute_squads` with `--roster-only`): restricted to
+  console-roster teammates only, matching `snl_report.py`'s ratstacks —
+  pass `roster_ids` (or `--roster-only` on the CLI) rather than the old
+  any-teammate behavior.
+
+**Team-rating snapshot bootstrap:** `data/snapshots/console-<date>.json` has
+historically only ever recorded `rating1v1` per player, so `eloTeamChange`
+has no baseline yet. `weekly_extras.py --window-start ... --window-end ...`
+now also emits `teamRatingSnapshot` (`{profileId: ratingTeam}`) — merge that
+into that day's `data/snapshots/console-<date>.json` as a `ratingTeam` field
+per player (alongside the existing `rating1v1`) every week from here on.
+Team Elo deltas become available starting the week *after* two consecutive
+snapshots carry `ratingTeam`.
+
 ## Triggering manually
 
 Go to **Actions → Update Player Data → Run workflow**. Optionally specify:
