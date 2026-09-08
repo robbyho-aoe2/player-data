@@ -499,6 +499,7 @@ def build_player_summary(players_list, group_files):
             "ratings":     ratings,
             "peaks":       peaks,
             "totalGames":  total_games,
+            "country":     p.get("country"),      # 2-letter code, for reliable region matching
             "countryIcon": p.get("countryIcon"),
             "countryName": p.get("countryName"),
         })
