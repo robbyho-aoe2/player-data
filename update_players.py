@@ -58,6 +58,9 @@ COUNTRY_OVERRIDES = {
     # "not A theist" -- reports us/mx depending on the API's mood; real
     # location is Guatemala (user-confirmed, profileId 14602117).
     14602117: {"country": "gt", "countryIcon": "\U0001F1EC\U0001F1F9", "countryName": "Guatemala"},
+    # BigDragon 360 -- API reports US; real location is Ecuador
+    # (user-confirmed, profileId 12502082).
+    12502082: {"country": "ec", "countryIcon": "\U0001F1EA\U0001F1E8", "countryName": "Ecuador"},
 }
 
 MAP_FIELD_CANDIDATES   = ["mapName", "map"]
