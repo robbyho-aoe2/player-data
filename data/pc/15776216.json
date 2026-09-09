@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 621,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1178,
         "peakRating": 1191
       },
@@ -9965,12 +9965,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1566,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1171,
+        "totalGames": 1568,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1139,
         "peakRating": 1286
       },
       "matches": [
+        {
+          "matchId": 505238536,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:41:20.000Z",
+          "dur": 1637,
+          "opponents": [
+            {
+              "profileId": 627794,
+              "name": "Sahm"
+            },
+            {
+              "profileId": 4879822,
+              "name": "SASHIME"
+            },
+            {
+              "profileId": 4306805,
+              "name": "slowcastle"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15713750,
+              "name": "Orb\u00e1n egy gheci"
+            },
+            {
+              "profileId": 15747739,
+              "name": "cskristof92"
+            }
+          ]
+        },
+        {
+          "matchId": 505229608,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:53:10.000Z",
+          "dur": 2201,
+          "opponents": [
+            {
+              "profileId": 483862,
+              "name": "\u8c93\u5996"
+            },
+            {
+              "profileId": 10849170,
+              "name": "\u6233\u4e2d\u4e4b\u9738 DY\u80fd\u5152"
+            },
+            {
+              "profileId": 3085218,
+              "name": "\u9ad8\u5fb7\u7d0d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15747739,
+              "name": "cskristof92"
+            },
+            {
+              "profileId": 15713750,
+              "name": "Orb\u00e1n egy gheci"
+            }
+          ]
+        },
         {
           "matchId": 504567687,
           "civ": "Persians",
@@ -57050,5 +57118,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "hu",
+  "countryIcon": "\ud83c\udded\ud83c\uddfa",
+  "countryName": "Hungary"
 }

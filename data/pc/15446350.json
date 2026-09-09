@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 30,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1093,
         "peakRating": 1096
       },
@@ -509,12 +509,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1224,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1176,
+        "totalGames": 1227,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1225,
         "peakRating": 1346
       },
       "matches": [
+        {
+          "matchId": 505152912,
+          "civ": "Chinese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:33:12.000Z",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 22335212,
+              "name": "\u6d6e\u69ce\u4e07\u91cc\u83b7\u661f\u6cb3"
+            },
+            {
+              "profileId": 10409187,
+              "name": "\u516b\u5341\u4e07\u7981\u519b\u6559\u5934"
+            },
+            {
+              "profileId": 5713976,
+              "name": "\u672a\u6642\u7a3b\u66b1\u7460"
+            },
+            {
+              "profileId": 536657,
+              "name": "Akane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 474349,
+              "name": "peaceman"
+            },
+            {
+              "profileId": 5055179,
+              "name": "KnightofAvalon77"
+            },
+            {
+              "profileId": 477811,
+              "name": "XxFrogxX"
+            }
+          ]
+        },
+        {
+          "matchId": 504869108,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T22:03:30.000Z",
+          "dur": 1474,
+          "opponents": [
+            {
+              "profileId": 1714166,
+              "name": "Garkamix"
+            },
+            {
+              "profileId": 2530148,
+              "name": "Zandocan77"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15540221,
+              "name": "Oscaro"
+            }
+          ]
+        },
+        {
+          "matchId": 504860622,
+          "civ": "Byzantines",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T21:23:04.000Z",
+          "dur": 1968,
+          "opponents": [
+            {
+              "profileId": 6178699,
+              "name": "Merkut"
+            },
+            {
+              "profileId": 6224514,
+              "name": "direnozgur60"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15540221,
+              "name": "Oscaro"
+            }
+          ]
+        },
         {
           "matchId": 504651869,
           "civ": "Franks",
@@ -42991,5 +43085,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

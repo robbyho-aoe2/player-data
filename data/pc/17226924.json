@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 77,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1239,
+        "totalGames": 80,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1227,
         "peakRating": 1239
       },
       "matches": [
+        {
+          "matchId": 505192002,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:46:12.000Z",
+          "dur": 1628,
+          "opponents": [
+            {
+              "profileId": 4361707,
+              "name": "laumeiernils"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505190222,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:26:03.000Z",
+          "dur": 1139,
+          "opponents": [
+            {
+              "profileId": 19676965,
+              "name": "pepzea"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505189087,
+          "civ": "Poles",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:13:27.000Z",
+          "dur": 547,
+          "opponents": [
+            {
+              "profileId": 2129149,
+              "name": "risingeagle3"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504134771,
           "civ": "Koreans",
@@ -1268,7 +1319,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 202,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-08",
         "latestRating": 1152,
         "peakRating": 1224
       },
@@ -8117,5 +8168,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

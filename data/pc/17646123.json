@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 915,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1570,
         "peakRating": 1592
       },
@@ -14684,12 +14684,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 316,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1337,
+        "totalGames": 318,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1366,
         "peakRating": 1393
       },
       "matches": [
+        {
+          "matchId": 504943308,
+          "civ": "Dravidians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T05:30:58.000Z",
+          "dur": 1027,
+          "opponents": [
+            {
+              "profileId": 4614204,
+              "name": "CMD_Zurac"
+            },
+            {
+              "profileId": 22747470,
+              "name": "ValkriaN"
+            },
+            {
+              "profileId": 18634874,
+              "name": "CMD_Black_Legion"
+            },
+            {
+              "profileId": 17632251,
+              "name": "AM | Rick2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20983011,
+              "name": "\u5f88\u84dd\u7684\u5566"
+            },
+            {
+              "profileId": 11693101,
+              "name": "Stalin"
+            },
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            }
+          ]
+        },
+        {
+          "matchId": 504939634,
+          "civ": "Celts",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T04:57:24.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 270562,
+              "name": "Johnny Walrus"
+            },
+            {
+              "profileId": 285327,
+              "name": "Tommy Kangaroo"
+            },
+            {
+              "profileId": 2160712,
+              "name": "Pierogi King"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            },
+            {
+              "profileId": 4644087,
+              "name": "SometimesUnlucky"
+            }
+          ]
+        },
         {
           "matchId": 464380957,
           "civ": "Mongols",
@@ -25208,5 +25284,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

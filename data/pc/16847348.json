@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1681,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 2766,
         "peakRating": 2772
       },
@@ -15262,12 +15262,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1612,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1986,
+        "totalGames": 1614,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1985,
         "peakRating": 2090
       },
       "matches": [
+        {
+          "matchId": 505200767,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:19:25.000Z",
+          "dur": 730,
+          "opponents": [
+            {
+              "profileId": 342201,
+              "name": "[TNT] RT_ego"
+            },
+            {
+              "profileId": 11400923,
+              "name": "\u563b\u563b\u54c8\u54c8"
+            },
+            {
+              "profileId": 15214143,
+              "name": "Rayz"
+            },
+            {
+              "profileId": 18857401,
+              "name": "\u8001\u5929\u9d5d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9750845,
+              "name": "Dai"
+            },
+            {
+              "profileId": 10046536,
+              "name": "[TNT] KKKFFFFFFCC"
+            },
+            {
+              "profileId": 18229983,
+              "name": "ANKR.Navvy"
+            }
+          ]
+        },
+        {
+          "matchId": 505198373,
+          "civ": "Huns",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T09:54:37.000Z",
+          "dur": 1174,
+          "opponents": [
+            {
+              "profileId": 18857401,
+              "name": "\u8001\u5929\u9d5d"
+            },
+            {
+              "profileId": 11400923,
+              "name": "\u563b\u563b\u54c8\u54c8"
+            },
+            {
+              "profileId": 15214143,
+              "name": "Rayz"
+            },
+            {
+              "profileId": 342201,
+              "name": "[TNT] RT_ego"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18229983,
+              "name": "ANKR.Navvy"
+            },
+            {
+              "profileId": 1556480,
+              "name": "b4ron1"
+            },
+            {
+              "profileId": 9750845,
+              "name": "Dai"
+            }
+          ]
+        },
         {
           "matchId": 504232868,
           "civ": "Burgundians",
@@ -30142,5 +30226,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

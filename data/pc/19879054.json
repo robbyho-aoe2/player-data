@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 56,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1009,
+        "totalGames": 57,
+        "pulledDate": "2026-09-08",
+        "latestRating": 995,
         "peakRating": 1074
       },
       "matches": [
+        {
+          "matchId": 505127429,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:04:51.000Z",
+          "dur": 825,
+          "opponents": [
+            {
+              "profileId": 13343674,
+              "name": "IFallen SaintI"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 486627350,
           "civ": "Cumans",
@@ -533,12 +550,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 589,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1074,
+        "totalGames": 590,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1089,
         "peakRating": 1233
       },
       "matches": [
+        {
+          "matchId": 505325155,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:06:28.000Z",
+          "dur": 2648,
+          "opponents": [
+            {
+              "profileId": 11521013,
+              "name": "Hakdonis"
+            },
+            {
+              "profileId": 9667860,
+              "name": "TheIrishMan"
+            },
+            {
+              "profileId": 17862674,
+              "name": "Kiki da 1.75Handed"
+            },
+            {
+              "profileId": 26018106,
+              "name": "V7DRAK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15256999,
+              "name": "Karthusxx"
+            },
+            {
+              "profileId": 3232216,
+              "name": "Monk Needer"
+            },
+            {
+              "profileId": 1765401,
+              "name": "[RbF] Stickly"
+            }
+          ]
+        },
         {
           "matchId": 504850331,
           "civ": "Malay",
@@ -6570,5 +6629,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ec",
+  "countryIcon": "\ud83c\uddea\ud83c\udde8",
+  "countryName": "Ecuador"
 }

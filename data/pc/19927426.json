@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 956,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1195,
+        "totalGames": 958,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1196,
         "peakRating": 1332
       },
       "matches": [
+        {
+          "matchId": 505109408,
+          "civ": "Bohemians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:17:45.000Z",
+          "dur": 2720,
+          "opponents": [
+            {
+              "profileId": 19012997,
+              "name": "hsynakan.95"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505103254,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:45:09.000Z",
+          "dur": 1812,
+          "opponents": [
+            {
+              "profileId": 788979,
+              "name": "secotify"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504655704,
           "civ": "Koreans",
@@ -15336,12 +15370,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 322,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1259,
+        "totalGames": 325,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1228,
         "peakRating": 1282
       },
       "matches": [
+        {
+          "matchId": 505099081,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:25:14.000Z",
+          "dur": 998,
+          "opponents": [
+            {
+              "profileId": 2859636,
+              "name": "Never_Enough"
+            },
+            {
+              "profileId": 1745329,
+              "name": "remo.ledermann"
+            },
+            {
+              "profileId": 928998,
+              "name": "Mormegil TBS"
+            },
+            {
+              "profileId": 21201556,
+              "name": "a.l.a.n.t"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15296180,
+              "name": "arzan"
+            },
+            {
+              "profileId": 23980613,
+              "name": "peona"
+            },
+            {
+              "profileId": 2866143,
+              "name": "zesen"
+            }
+          ]
+        },
+        {
+          "matchId": 504941136,
+          "civ": "Saracens",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T05:10:05.000Z",
+          "dur": 2341,
+          "opponents": [
+            {
+              "profileId": 2492306,
+              "name": "The Forbidden One"
+            },
+            {
+              "profileId": 2018735,
+              "name": "Jorge S"
+            },
+            {
+              "profileId": 4172649,
+              "name": "Kuriboh"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6088268,
+              "name": "BADY"
+            },
+            {
+              "profileId": 16078939,
+              "name": "Dr. Krauss"
+            }
+          ]
+        },
+        {
+          "matchId": 504934630,
+          "civ": "Byzantines",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T04:16:45.000Z",
+          "dur": 2241,
+          "opponents": [
+            {
+              "profileId": 155428,
+              "name": "Better Call Char"
+            },
+            {
+              "profileId": 18986496,
+              "name": "KleinTheSamurai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16078939,
+              "name": "Dr. Krauss"
+            }
+          ]
+        },
         {
           "matchId": 501425834,
           "civ": "Jurchens",
@@ -24749,5 +24885,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

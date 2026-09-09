@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 1000,
         "peakRating": 1000
       },
@@ -317,12 +317,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1455,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1389,
+        "totalGames": 1457,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1356,
         "peakRating": 1389
       },
       "matches": [
+        {
+          "matchId": 505269337,
+          "civ": "Persians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:26:28.000Z",
+          "dur": 2292,
+          "opponents": [
+            {
+              "profileId": 9855817,
+              "name": "TanLN"
+            },
+            {
+              "profileId": 21057618,
+              "name": "BB3097790"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21585555,
+              "name": "timoleon3"
+            }
+          ]
+        },
+        {
+          "matchId": 505265186,
+          "civ": "Persians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:04:39.000Z",
+          "dur": 1180,
+          "opponents": [
+            {
+              "profileId": 4819441,
+              "name": "[HAV] Papi de Jardin"
+            },
+            {
+              "profileId": 14816534,
+              "name": "Brutalitops"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21585555,
+              "name": "timoleon3"
+            }
+          ]
+        },
         {
           "matchId": 504474683,
           "civ": "Persians",
@@ -36731,5 +36783,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

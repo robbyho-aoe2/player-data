@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-08",
         "latestRating": 1026,
         "peakRating": 1074
       },
@@ -461,12 +461,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 430,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1269,
+        "totalGames": 433,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1254,
         "peakRating": 1290
       },
       "matches": [
+        {
+          "matchId": 505321214,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:43:40.000Z",
+          "dur": 2136,
+          "opponents": [
+            {
+              "profileId": 11686828,
+              "name": "Gaf"
+            },
+            {
+              "profileId": 9108180,
+              "name": "Sandeep_D_Cranky"
+            },
+            {
+              "profileId": 5418471,
+              "name": "AztecKiller2427"
+            },
+            {
+              "profileId": 18154746,
+              "name": "adi.rathore"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1153965,
+              "name": "CARACODUENDE"
+            },
+            {
+              "profileId": 470292,
+              "name": "Chloroxid"
+            },
+            {
+              "profileId": 301549,
+              "name": "Faelian the Unsuccessful"
+            }
+          ]
+        },
+        {
+          "matchId": 505314936,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:07:34.000Z",
+          "dur": 1730,
+          "opponents": [
+            {
+              "profileId": 854640,
+              "name": "engarvi"
+            },
+            {
+              "profileId": 2836315,
+              "name": "vagos.fran"
+            },
+            {
+              "profileId": 20909318,
+              "name": "PirloCorleone"
+            },
+            {
+              "profileId": 18062226,
+              "name": "Sahraoui"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9900750,
+              "name": "Fs.Caboclo"
+            },
+            {
+              "profileId": 1153965,
+              "name": "CARACODUENDE"
+            },
+            {
+              "profileId": 25855960,
+              "name": "grain8720"
+            }
+          ]
+        },
+        {
+          "matchId": 505308073,
+          "civ": "Portuguese",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:30:54.000Z",
+          "dur": 1958,
+          "opponents": [
+            {
+              "profileId": 4900361,
+              "name": "BaBaR"
+            },
+            {
+              "profileId": 5064764,
+              "name": "Pitipenix"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1153965,
+              "name": "CARACODUENDE"
+            }
+          ]
+        },
         {
           "matchId": 504101554,
           "civ": "Spanish",
@@ -14810,5 +14920,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

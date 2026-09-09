@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 279,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1564,
+        "totalGames": 283,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1590,
         "peakRating": 1651
       },
       "matches": [
+        {
+          "matchId": 505140574,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:23:12.000Z",
+          "dur": 1184,
+          "opponents": [
+            {
+              "profileId": 5315810,
+              "name": "Jake From State Farm"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505061792,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:47:45.000Z",
+          "dur": 232,
+          "opponents": [
+            {
+              "profileId": 18347694,
+              "name": "AmiraL_516"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504985669,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T12:27:31.000Z",
+          "dur": 936,
+          "opponents": [
+            {
+              "profileId": 419047,
+              "name": "\u897f\u6e56\u96c5\u5ea7"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504979682,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:44:41.000Z",
+          "dur": 2453,
+          "opponents": [
+            {
+              "profileId": 19004860,
+              "name": "\u5c0f\u7c73\u52a0\u6b65\u69cd"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504640657,
           "civ": "Magyars",
@@ -4773,7 +4841,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 46,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1254,
         "peakRating": 1304
       },
@@ -6352,5 +6420,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

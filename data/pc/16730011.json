@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 214,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1232,
         "peakRating": 1265
       },
@@ -3462,11 +3462,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 8,
-        "pulledDate": "2026-09-03",
-        "latestRating": 955
+        "totalGames": 10,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1086,
+        "peakRating": 1086
       },
       "matches": [
+        {
+          "matchId": 505249075,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:37:07.000Z",
+          "dur": 1343,
+          "opponents": [
+            {
+              "profileId": 5005336,
+              "name": "#South"
+            },
+            {
+              "profileId": 24681154,
+              "name": "juansrv"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4427601,
+              "name": "statere26"
+            }
+          ]
+        },
+        {
+          "matchId": 505246344,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:21:08.000Z",
+          "dur": 827,
+          "opponents": [
+            {
+              "profileId": 5005336,
+              "name": "#South"
+            },
+            {
+              "profileId": 9805842,
+              "name": "Hadi_K"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15099194,
+              "name": "Moo Deng"
+            }
+          ]
+        },
         {
           "matchId": 503642615,
           "civ": "Magyars",
@@ -3673,5 +3726,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

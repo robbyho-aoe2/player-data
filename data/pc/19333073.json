@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 348,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1557,
+        "totalGames": 351,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1536,
         "peakRating": 1628
       },
       "matches": [
+        {
+          "matchId": 505283522,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:34:44.000Z",
+          "dur": 1782,
+          "opponents": [
+            {
+              "profileId": 10737918,
+              "name": "ManWithScarf"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505278150,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:10:08.000Z",
+          "dur": 1420,
+          "opponents": [
+            {
+              "profileId": 10396450,
+              "name": "joethebro229"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505272458,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:41:38.000Z",
+          "dur": 1627,
+          "opponents": [
+            {
+              "profileId": 2020080,
+              "name": "olento"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503952395,
           "civ": "Mongols",
@@ -5608,12 +5659,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 735,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1620,
+        "totalGames": 736,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1632,
         "peakRating": 1657
       },
       "matches": [
+        {
+          "matchId": 505229777,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:54:08.000Z",
+          "dur": 1621,
+          "opponents": [
+            {
+              "profileId": 4026687,
+              "name": "Pipin"
+            },
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            },
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            },
+            {
+              "profileId": 22572361,
+              "name": "\u7b2c\u4e00\u6ef4\u8840"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18413925,
+              "name": "\u6478\u9c7c\u79cd\u7530"
+            },
+            {
+              "profileId": 11644143,
+              "name": "\u51ac\u7011"
+            },
+            {
+              "profileId": 21635878,
+              "name": "Pawo"
+            }
+          ]
+        },
         {
           "matchId": 504650679,
           "civ": "Huns",
@@ -35466,5 +35559,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

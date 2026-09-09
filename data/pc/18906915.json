@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2316,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1637,
+        "totalGames": 2317,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1649,
         "peakRating": 1718
       },
       "matches": [
+        {
+          "matchId": 505180099,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T06:26:20.000Z",
+          "dur": 1537,
+          "opponents": [
+            {
+              "profileId": 4146883,
+              "name": "Luka"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504172149,
           "civ": "Mongols",
@@ -37103,12 +37120,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 303,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1454,
+        "totalGames": 304,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1440,
         "peakRating": 1564
       },
       "matches": [
+        {
+          "matchId": 505132138,
+          "civ": "Saracens",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:34:34.000Z",
+          "dur": 1575,
+          "opponents": [
+            {
+              "profileId": 1855493,
+              "name": "GAX | B.Trufa"
+            },
+            {
+              "profileId": 1723050,
+              "name": "GAX | Mr.P"
+            },
+            {
+              "profileId": 1521124,
+              "name": "GAX | Sr. Spock"
+            },
+            {
+              "profileId": 694781,
+              "name": "A0A_Engs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3015786,
+              "name": "CORP_PysKo InKa-RreaBle"
+            },
+            {
+              "profileId": 2717801,
+              "name": "CORP_Solano"
+            },
+            {
+              "profileId": 401354,
+              "name": "Leveroy"
+            }
+          ]
+        },
         {
           "matchId": 498112549,
           "civ": "Saracens",
@@ -47758,5 +47817,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

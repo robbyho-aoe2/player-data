@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-08",
         "latestRating": 674,
         "peakRating": 674
       },
@@ -1220,12 +1220,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1499,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1141,
+        "totalGames": 1502,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1125,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 505272886,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:43:56.000Z",
+          "dur": 1030,
+          "opponents": [
+            {
+              "profileId": 21864751,
+              "name": "Orange_Samo"
+            },
+            {
+              "profileId": 1427747,
+              "name": "adretlan"
+            },
+            {
+              "profileId": 2281702,
+              "name": "LuskePer"
+            },
+            {
+              "profileId": 8945762,
+              "name": "Moa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 230176,
+              "name": "gw=ar"
+            },
+            {
+              "profileId": 17402207,
+              "name": "Vector"
+            },
+            {
+              "profileId": 8248889,
+              "name": "Harkonnen"
+            }
+          ]
+        },
+        {
+          "matchId": 505267341,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:15:29.000Z",
+          "dur": 1281,
+          "opponents": [
+            {
+              "profileId": 3398960,
+              "name": "SzabolcsVez\u00e9r"
+            },
+            {
+              "profileId": 13826353,
+              "name": "kispalb"
+            },
+            {
+              "profileId": 230514,
+              "name": "LGee"
+            },
+            {
+              "profileId": 929416,
+              "name": "Marcell97"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 59567,
+              "name": "COIL"
+            },
+            {
+              "profileId": 543471,
+              "name": "excboom"
+            },
+            {
+              "profileId": 5937928,
+              "name": "Poster3542"
+            }
+          ]
+        },
+        {
+          "matchId": 505260587,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:40:00.000Z",
+          "dur": 1345,
+          "opponents": [
+            {
+              "profileId": 1900403,
+              "name": "unzelfunzel"
+            },
+            {
+              "profileId": 4598367,
+              "name": "wouanou"
+            },
+            {
+              "profileId": 5539838,
+              "name": "DasEd86"
+            },
+            {
+              "profileId": 14698332,
+              "name": "WiLLeX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18703393,
+              "name": "[GDL] Hugo Logar"
+            },
+            {
+              "profileId": 25367254,
+              "name": "tzsmwwl"
+            },
+            {
+              "profileId": 4294531,
+              "name": "luzAK-47"
+            }
+          ]
+        },
         {
           "matchId": 504094125,
           "civ": "Huns",
@@ -61166,5 +61292,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

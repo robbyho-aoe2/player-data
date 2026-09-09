@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 201,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1676,
+        "totalGames": 203,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1671,
         "peakRating": 1676
       },
       "matches": [
+        {
+          "matchId": 505189583,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:18:43.000Z",
+          "dur": 1330,
+          "opponents": [
+            {
+              "profileId": 459050,
+              "name": "dragon1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505186187,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:39:42.000Z",
+          "dur": 2304,
+          "opponents": [
+            {
+              "profileId": 541729,
+              "name": "TheGusJ"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504682465,
           "civ": "Mongols",
@@ -3046,12 +3080,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 225,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1463,
+        "totalGames": 229,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1413,
         "peakRating": 1475
       },
       "matches": [
+        {
+          "matchId": 505168465,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:23:55.000Z",
+          "dur": 1939,
+          "opponents": [
+            {
+              "profileId": 15647575,
+              "name": "Inkas| OMNI"
+            },
+            {
+              "profileId": 1975031,
+              "name": "PANCHOLOCO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2884035,
+              "name": "bobross"
+            }
+          ]
+        },
+        {
+          "matchId": 505164853,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:54:38.000Z",
+          "dur": 1545,
+          "opponents": [
+            {
+              "profileId": 15647575,
+              "name": "Inkas| OMNI"
+            },
+            {
+              "profileId": 1975031,
+              "name": "PANCHOLOCO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2884035,
+              "name": "bobross"
+            }
+          ]
+        },
+        {
+          "matchId": 505163858,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:46:53.000Z",
+          "dur": 228,
+          "opponents": [
+            {
+              "profileId": 2873480,
+              "name": "luislm6621"
+            },
+            {
+              "profileId": 15090030,
+              "name": "TheTimeKeeper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2884035,
+              "name": "bobross"
+            }
+          ]
+        },
+        {
+          "matchId": 505161044,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:25:48.000Z",
+          "dur": 1037,
+          "opponents": [
+            {
+              "profileId": 2873480,
+              "name": "luislm6621"
+            },
+            {
+              "profileId": 949199,
+              "name": "PwNaSauRuS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2884035,
+              "name": "bobross"
+            }
+          ]
+        },
         {
           "matchId": 504676250,
           "civ": "Spanish",
@@ -8206,5 +8344,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 166,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1172,
         "peakRating": 1189
       },
@@ -2685,12 +2685,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 639,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1238,
-        "peakRating": 1238
+        "totalGames": 642,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1221,
+        "peakRating": 1253
       },
       "matches": [
+        {
+          "matchId": 505319969,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:35:54.000Z",
+          "dur": 1305,
+          "opponents": [
+            {
+              "profileId": 991088,
+              "name": "L\u00e4berk\u00e4swegge"
+            },
+            {
+              "profileId": 2184414,
+              "name": "EnglishFrank"
+            },
+            {
+              "profileId": 9385563,
+              "name": "offbyone"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23536793,
+              "name": "Eiti Leda"
+            },
+            {
+              "profileId": 21910978,
+              "name": "Greengetawn"
+            }
+          ]
+        },
+        {
+          "matchId": 505314467,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:04:54.000Z",
+          "dur": 1518,
+          "opponents": [
+            {
+              "profileId": 2715605,
+              "name": "Fighthausen"
+            },
+            {
+              "profileId": 23515619,
+              "name": "CTM | Kiara"
+            },
+            {
+              "profileId": 2382208,
+              "name": "PoLaiNas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23536793,
+              "name": "Eiti Leda"
+            },
+            {
+              "profileId": 21910978,
+              "name": "Greengetawn"
+            }
+          ]
+        },
+        {
+          "matchId": 505308001,
+          "civ": "Poles",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:30:43.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 24121305,
+              "name": "@Tomy"
+            },
+            {
+              "profileId": 1247558,
+              "name": "direct23"
+            },
+            {
+              "profileId": 4225956,
+              "name": "Jorgen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21910978,
+              "name": "Greengetawn"
+            },
+            {
+              "profileId": 23536793,
+              "name": "Eiti Leda"
+            }
+          ]
+        },
         {
           "matchId": 504274224,
           "civ": "Hindustanis",
@@ -21208,5 +21310,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

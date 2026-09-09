@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 668,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-08",
         "latestRating": 692,
         "peakRating": 806
       },
@@ -10736,12 +10736,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 397,
-        "pulledDate": "2026-09-04",
-        "latestRating": 847,
+        "totalGames": 398,
+        "pulledDate": "2026-09-08",
+        "latestRating": 830,
         "peakRating": 876
       },
       "matches": [
+        {
+          "matchId": 504947391,
+          "civ": "Burmese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T06:14:41.000Z",
+          "dur": 1800,
+          "opponents": [
+            {
+              "profileId": 22643337,
+              "name": "Mert"
+            },
+            {
+              "profileId": 11639976,
+              "name": "[CH-FR]Frog"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19796211,
+              "name": "chilthing"
+            }
+          ]
+        },
         {
           "matchId": 504164266,
           "civ": "Vikings",
@@ -22026,5 +22052,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

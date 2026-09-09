@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 641,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1230,
+        "totalGames": 644,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1249,
         "peakRating": 1275
       },
       "matches": [
+        {
+          "matchId": 505016241,
+          "civ": "Japanese",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:16:47.000Z",
+          "dur": 945,
+          "opponents": [
+            {
+              "profileId": 23684718,
+              "name": "VacaH8080"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505007524,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:33:03.000Z",
+          "dur": 2421,
+          "opponents": [
+            {
+              "profileId": 24806575,
+              "name": "Fuentelsaz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505001733,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:04:40.000Z",
+          "dur": 1515,
+          "opponents": [
+            {
+              "profileId": 7637004,
+              "name": "Sdts91"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503835917,
           "civ": "Poles",
@@ -10305,7 +10356,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1065,
         "peakRating": 1086
       },
@@ -10871,5 +10922,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

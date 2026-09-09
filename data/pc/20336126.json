@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 224,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1315,
+        "totalGames": 227,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1296,
         "peakRating": 1342
       },
       "matches": [
+        {
+          "matchId": 505233941,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:16:16.000Z",
+          "dur": 2074,
+          "opponents": [
+            {
+              "profileId": 20203306,
+              "name": "limitingfactor0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505009479,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:42:32.000Z",
+          "dur": 2038,
+          "opponents": [
+            {
+              "profileId": 3209710,
+              "name": "nico"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505008935,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:40:45.000Z",
+          "dur": 33,
+          "opponents": [
+            {
+              "profileId": 4062999,
+              "name": "\u7eb7\u7eb7\u6270\u6270"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504772570,
           "civ": "Byzantines",
@@ -3624,12 +3675,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 16,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1016,
+        "totalGames": 20,
+        "pulledDate": "2026-09-08",
+        "latestRating": 984,
         "peakRating": 1044
       },
       "matches": [
+        {
+          "matchId": 505036570,
+          "civ": "Tupi",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:57:20.000Z",
+          "dur": 2406,
+          "opponents": [
+            {
+              "profileId": 640909,
+              "name": "WELL-pack"
+            },
+            {
+              "profileId": 23372522,
+              "name": "efgpl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25944215,
+              "name": "AceLiteZero"
+            }
+          ]
+        },
+        {
+          "matchId": 505030315,
+          "civ": "Muisca",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:27:05.000Z",
+          "dur": 1502,
+          "opponents": [
+            {
+              "profileId": 1642856,
+              "name": "M-a-c-e"
+            },
+            {
+              "profileId": 11668383,
+              "name": "ExK^"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25944215,
+              "name": "AceLiteZero"
+            }
+          ]
+        },
+        {
+          "matchId": 505025944,
+          "civ": "Incas",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:05:42.000Z",
+          "dur": 951,
+          "opponents": [
+            {
+              "profileId": 21930612,
+              "name": "OLIFANT"
+            },
+            {
+              "profileId": 21659524,
+              "name": "Barcode"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25944215,
+              "name": "AceLiteZero"
+            }
+          ]
+        },
+        {
+          "matchId": 505017861,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:25:47.000Z",
+          "dur": 2202,
+          "opponents": [
+            {
+              "profileId": 230002,
+              "name": "Divine Odd"
+            },
+            {
+              "profileId": 10926524,
+              "name": "PIGGI A MAND!!!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25944215,
+              "name": "AceLiteZero"
+            }
+          ]
+        },
         {
           "matchId": 503608743,
           "civ": "Chinese",
@@ -4045,5 +4200,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "my",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfe",
+  "countryName": "Malaysia"
 }

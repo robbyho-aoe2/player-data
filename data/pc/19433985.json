@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 98,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1447,
         "peakRating": 1465
       },
@@ -911,12 +911,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 678,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1410,
+        "totalGames": 681,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1394,
         "peakRating": 1580
       },
       "matches": [
+        {
+          "matchId": 504960707,
+          "civ": "Incas",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T08:44:28.000Z",
+          "dur": 1778,
+          "opponents": [
+            {
+              "profileId": 10398498,
+              "name": "\u80f8\u6bdb\u5728\u71c3\u70e7"
+            },
+            {
+              "profileId": 20131717,
+              "name": "\u4f60\u53ef\u4ee5\u6253\u6211\u961f\u53cb\u5417"
+            },
+            {
+              "profileId": 20508011,
+              "name": "297539664"
+            },
+            {
+              "profileId": 20524164,
+              "name": "2067"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3109697,
+              "name": "Petit_Pois"
+            },
+            {
+              "profileId": 4338623,
+              "name": "Matt Cash"
+            },
+            {
+              "profileId": 8526904,
+              "name": "Tsunade"
+            }
+          ]
+        },
+        {
+          "matchId": 504958248,
+          "civ": "Koreans",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T08:16:56.000Z",
+          "dur": 1412,
+          "opponents": [
+            {
+              "profileId": 20524164,
+              "name": "2067"
+            },
+            {
+              "profileId": 15419053,
+              "name": "\u5e97\u5c0f\u8d30"
+            },
+            {
+              "profileId": 10556764,
+              "name": "\u85e5\u818f"
+            },
+            {
+              "profileId": 400139,
+              "name": "Gumndor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 416357,
+              "name": "Not Ben"
+            },
+            {
+              "profileId": 21419022,
+              "name": "\u6b50\u5409\u6851"
+            },
+            {
+              "profileId": 4338623,
+              "name": "Matt Cash"
+            }
+          ]
+        },
+        {
+          "matchId": 504956195,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T07:54:11.000Z",
+          "dur": 1556,
+          "opponents": [
+            {
+              "profileId": 24402699,
+              "name": "F1NBLOO"
+            },
+            {
+              "profileId": 7166478,
+              "name": "virttuallG"
+            },
+            {
+              "profileId": 3277072,
+              "name": "onon02122"
+            },
+            {
+              "profileId": 1773616,
+              "name": "green"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21855803,
+              "name": "\u65e0\u843dZenith"
+            },
+            {
+              "profileId": 20983011,
+              "name": "\u5f88\u84dd\u7684\u5566"
+            },
+            {
+              "profileId": 8564160,
+              "name": "PLEASE, PLEASE, PLEASE"
+            }
+          ]
+        },
         {
           "matchId": 504834128,
           "civ": "Poles",
@@ -8110,5 +8236,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

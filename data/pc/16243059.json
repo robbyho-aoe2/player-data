@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 580,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1175,
+        "totalGames": 581,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1159,
         "peakRating": 1412
       },
       "matches": [
+        {
+          "matchId": 505246327,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:20:44.000Z",
+          "dur": 951,
+          "opponents": [
+            {
+              "profileId": 15300241,
+              "name": "Roaring Moose"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503168238,
           "civ": "Wei",
@@ -9321,7 +9338,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 403,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1048,
         "peakRating": 1188
       },
@@ -22548,5 +22565,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

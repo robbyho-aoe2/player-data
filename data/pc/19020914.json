@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 173,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1107,
         "peakRating": 1138
       },
@@ -2797,12 +2797,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1551,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1090,
+        "totalGames": 1552,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1107,
         "peakRating": 1308
       },
       "matches": [
+        {
+          "matchId": 505009172,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:42:14.000Z",
+          "dur": 1715,
+          "opponents": [
+            {
+              "profileId": 5331851,
+              "name": "KingHeeze"
+            },
+            {
+              "profileId": 534969,
+              "name": "dirkwijers"
+            },
+            {
+              "profileId": 4296280,
+              "name": "nikos9730"
+            },
+            {
+              "profileId": 2887787,
+              "name": "northern_monk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17402207,
+              "name": "Vector"
+            },
+            {
+              "profileId": 11073411,
+              "name": "mipolin"
+            },
+            {
+              "profileId": 4695915,
+              "name": "2265138721"
+            }
+          ]
+        },
         {
           "matchId": 504666166,
           "civ": "Burgundians",
@@ -62796,5 +62838,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

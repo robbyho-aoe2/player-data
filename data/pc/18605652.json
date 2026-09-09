@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 930,
         "peakRating": 1108
       },
@@ -1213,12 +1213,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1944,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1200,
+        "totalGames": 1946,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1195,
         "peakRating": 1236
       },
       "matches": [
+        {
+          "matchId": 504950622,
+          "civ": "Wu",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T06:50:03.000Z",
+          "dur": 1661,
+          "opponents": [
+            {
+              "profileId": 14637437,
+              "name": "Rugs"
+            },
+            {
+              "profileId": 24716159,
+              "name": "Porkroll"
+            },
+            {
+              "profileId": 24918245,
+              "name": "\u9060\u65b9\u7684\u71c8"
+            },
+            {
+              "profileId": 8862895,
+              "name": "YYS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2572641,
+              "name": "Heretic Prophet"
+            },
+            {
+              "profileId": 10795544,
+              "name": "Hieronymous Bosch"
+            },
+            {
+              "profileId": 12071525,
+              "name": "GrandMasterTitties"
+            }
+          ]
+        },
+        {
+          "matchId": 504947914,
+          "civ": "Teutons",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T06:19:58.000Z",
+          "dur": 1701,
+          "opponents": [
+            {
+              "profileId": 10299074,
+              "name": "monkeyken7414"
+            },
+            {
+              "profileId": 19313242,
+              "name": "xxs_hjt"
+            },
+            {
+              "profileId": 21554268,
+              "name": "DazHkaka"
+            },
+            {
+              "profileId": 24918245,
+              "name": "\u9060\u65b9\u7684\u71c8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23220394,
+              "name": "Ratchet2krox"
+            },
+            {
+              "profileId": 2995916,
+              "name": "TIDE"
+            },
+            {
+              "profileId": 22663550,
+              "name": "Hypoli"
+            }
+          ]
+        },
         {
           "matchId": 504581633,
           "civ": "Slavs",
@@ -80208,5 +80292,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

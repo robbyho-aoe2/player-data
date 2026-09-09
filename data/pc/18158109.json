@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 432,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-08",
         "latestRating": 751,
         "peakRating": 833
       },
@@ -6941,12 +6941,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 179,
-        "pulledDate": "2026-09-04",
-        "latestRating": 696,
+        "totalGames": 181,
+        "pulledDate": "2026-09-08",
+        "latestRating": 708,
         "peakRating": 842
       },
       "matches": [
+        {
+          "matchId": 504983529,
+          "civ": "Sicilians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T12:12:33.000Z",
+          "dur": 1218,
+          "opponents": [
+            {
+              "profileId": 25618024,
+              "name": "\u88ab\u540a\u6253\u6210dog"
+            },
+            {
+              "profileId": 17570867,
+              "name": "Sparten gio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24380890,
+              "name": "<-_Oo> No GuNs$*"
+            }
+          ]
+        },
+        {
+          "matchId": 504979105,
+          "civ": "Spanish",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:40:49.000Z",
+          "dur": 1495,
+          "opponents": [
+            {
+              "profileId": 20740701,
+              "name": "joaquin5476"
+            },
+            {
+              "profileId": 5795242,
+              "name": "COSTAMDP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24380890,
+              "name": "<-_Oo> No GuNs$*"
+            }
+          ]
+        },
         {
           "matchId": 504235422,
           "civ": "Koreans",
@@ -11674,5 +11726,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "bg",
+  "countryIcon": "\ud83c\udde7\ud83c\uddec",
+  "countryName": "Bulgaria"
 }

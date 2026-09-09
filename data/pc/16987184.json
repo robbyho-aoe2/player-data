@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 78,
-        "pulledDate": "2026-09-04",
-        "latestRating": 735,
+        "totalGames": 81,
+        "pulledDate": "2026-09-08",
+        "latestRating": 751,
         "peakRating": 826
       },
       "matches": [
+        {
+          "matchId": 505275595,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:57:36.000Z",
+          "dur": 21,
+          "opponents": [
+            {
+              "profileId": 20268360,
+              "name": "barbar_gunduz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505098627,
+          "civ": "Incas",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:21:55.000Z",
+          "dur": 1784,
+          "opponents": [
+            {
+              "profileId": 24829801,
+              "name": "BVMandelbones"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504870060,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T22:07:37.000Z",
+          "dur": 1090,
+          "opponents": [
+            {
+              "profileId": 22567963,
+              "name": "andres simijaca"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504042114,
           "civ": "Incas",
@@ -1287,7 +1338,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 53,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-08",
         "latestRating": 729,
         "peakRating": 882
       },
@@ -2635,5 +2686,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

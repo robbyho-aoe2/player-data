@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 494,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1568,
         "peakRating": 1573
       },
@@ -7934,12 +7934,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 617,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1334,
+        "totalGames": 621,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1331,
         "peakRating": 1424
       },
       "matches": [
+        {
+          "matchId": 505299821,
+          "civ": "Japanese",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:51:44.000Z",
+          "dur": 522,
+          "opponents": [
+            {
+              "profileId": 735930,
+              "name": "CornelVS1"
+            },
+            {
+              "profileId": 304449,
+              "name": "Abhinavcj"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14446437,
+              "name": "naD"
+            }
+          ]
+        },
+        {
+          "matchId": 505293462,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:22:32.000Z",
+          "dur": 1558,
+          "opponents": [
+            {
+              "profileId": 23968795,
+              "name": "[Snats] Sjoerd&Naat Carrier"
+            },
+            {
+              "profileId": 23968769,
+              "name": "[Snats] Naat&Sjoerd Carrier"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14446437,
+              "name": "naD"
+            }
+          ]
+        },
+        {
+          "matchId": 505208862,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T11:32:07.000Z",
+          "dur": 1296,
+          "opponents": [
+            {
+              "profileId": 2229241,
+              "name": "Escumish"
+            },
+            {
+              "profileId": 1106922,
+              "name": "PhizzyBlue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6628310,
+              "name": "kovbalu | 144Hz peek. |"
+            }
+          ]
+        },
+        {
+          "matchId": 505204470,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:55:01.000Z",
+          "dur": 1590,
+          "opponents": [
+            {
+              "profileId": 24701167,
+              "name": "Georgia"
+            },
+            {
+              "profileId": 24943107,
+              "name": "jayantrathee"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6628310,
+              "name": "kovbalu | 144Hz peek. |"
+            }
+          ]
+        },
         {
           "matchId": 503671150,
           "civ": "Persians",
@@ -23780,5 +23884,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "hu",
+  "countryIcon": "\ud83c\udded\ud83c\uddfa",
+  "countryName": "Hungary"
 }

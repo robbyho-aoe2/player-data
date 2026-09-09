@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 237,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 768,
         "peakRating": 786
       },
@@ -3821,12 +3821,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 753,
-        "pulledDate": "2026-09-06",
-        "latestRating": 771,
+        "totalGames": 754,
+        "pulledDate": "2026-09-08",
+        "latestRating": 755,
         "peakRating": 928
       },
       "matches": [
+        {
+          "matchId": 505017618,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:24:18.000Z",
+          "dur": 1704,
+          "opponents": [
+            {
+              "profileId": 315519,
+              "name": "\u6d77\u65cb\u98ce"
+            },
+            {
+              "profileId": 24388645,
+              "name": "zuri_gos"
+            },
+            {
+              "profileId": 21251642,
+              "name": "aitorpevi"
+            },
+            {
+              "profileId": 21007502,
+              "name": "MoncusJBAJ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24954795,
+              "name": "\u8001\u6b6a"
+            },
+            {
+              "profileId": 24011524,
+              "name": "JoelReagan"
+            },
+            {
+              "profileId": 11748631,
+              "name": "\u6b64\u8eab\u4e3a\u5251\u6240\u5929\u6210"
+            }
+          ]
+        },
         {
           "matchId": 504781657,
           "civ": "Shu",
@@ -30163,5 +30205,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "vn",
+  "countryIcon": "\ud83c\uddfb\ud83c\uddf3",
+  "countryName": "Viet Nam"
 }

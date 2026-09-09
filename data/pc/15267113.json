@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 992,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1123,
+        "totalGames": 994,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1090,
         "peakRating": 1227
       },
       "matches": [
+        {
+          "matchId": 505322853,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:51:50.000Z",
+          "dur": 430,
+          "opponents": [
+            {
+              "profileId": 1820215,
+              "name": "Sir Napien"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505321449,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:43:51.000Z",
+          "dur": 453,
+          "opponents": [
+            {
+              "profileId": 11476945,
+              "name": "Pumpk1nL0rd"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504109734,
           "civ": "Mongols",
@@ -9053,12 +9087,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 727,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1075,
+        "totalGames": 729,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1105,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 505133233,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:40:56.000Z",
+          "dur": 1091,
+          "opponents": [
+            {
+              "profileId": 336831,
+              "name": "Kimster213"
+            },
+            {
+              "profileId": 22935868,
+              "name": "Yudgers555"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 292703,
+              "name": "agamemnon_of_mycenae"
+            }
+          ]
+        },
+        {
+          "matchId": 504895748,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:27:34.000Z",
+          "dur": 2012,
+          "opponents": [
+            {
+              "profileId": 22334084,
+              "name": "IceCube"
+            },
+            {
+              "profileId": 6475238,
+              "name": "Plague1s"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6402914,
+              "name": "ssartajg"
+            }
+          ]
+        },
         {
           "matchId": 504774231,
           "civ": "Mongols",
@@ -15774,5 +15860,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

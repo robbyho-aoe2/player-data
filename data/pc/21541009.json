@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 254,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1186,
+        "totalGames": 256,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1185,
         "peakRating": 1219
       },
       "matches": [
+        {
+          "matchId": 505121577,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:29:31.000Z",
+          "dur": 52,
+          "opponents": [
+            {
+              "profileId": 1783328,
+              "name": "General Ganja"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505117743,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:06:39.000Z",
+          "dur": 1245,
+          "opponents": [
+            {
+              "profileId": 455005,
+              "name": "ricalope27"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504109552,
           "civ": "Koreans",
@@ -4094,12 +4128,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 647,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1303,
-        "peakRating": 1309
+        "totalGames": 648,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1318,
+        "peakRating": 1318
       },
       "matches": [
+        {
+          "matchId": 505302289,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:03:31.000Z",
+          "dur": 54,
+          "opponents": [
+            {
+              "profileId": 25851315,
+              "name": "TVHG. Polac0 crhistF*-"
+            },
+            {
+              "profileId": 19227527,
+              "name": "AssassingBlue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3865998,
+              "name": "pilots_son93"
+            }
+          ]
+        },
         {
           "matchId": 504107496,
           "civ": "Burgundians",
@@ -26077,5 +26137,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

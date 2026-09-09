@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 770,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1664,
+        "totalGames": 773,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1616,
         "peakRating": 1694
       },
       "matches": [
+        {
+          "matchId": 505301468,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:59:13.000Z",
+          "dur": 1536,
+          "opponents": [
+            {
+              "profileId": 1341484,
+              "name": "Dark Horse"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505297684,
+          "civ": "Bohemians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:41:05.000Z",
+          "dur": 1014,
+          "opponents": [
+            {
+              "profileId": 11235159,
+              "name": "Freakadele"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505290640,
+          "civ": "Ethiopians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:09:33.000Z",
+          "dur": 1855,
+          "opponents": [
+            {
+              "profileId": 281802,
+              "name": "OX | JuDaS"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504809487,
           "civ": "Italians",
@@ -12368,12 +12419,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2203,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1353,
+        "totalGames": 2205,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1347,
         "peakRating": 1539
       },
       "matches": [
+        {
+          "matchId": 505307653,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:28:46.000Z",
+          "dur": 1530,
+          "opponents": [
+            {
+              "profileId": 12465743,
+              "name": "JITANOmaleant7"
+            },
+            {
+              "profileId": 18749773,
+              "name": "|GaoeG| flamingo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2865109,
+              "name": "JandR"
+            }
+          ]
+        },
+        {
+          "matchId": 505285159,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:43:01.000Z",
+          "dur": 1489,
+          "opponents": [
+            {
+              "profileId": 230564,
+              "name": "tlver"
+            },
+            {
+              "profileId": 276268,
+              "name": "padde1000"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12352555,
+              "name": "botik"
+            }
+          ]
+        },
         {
           "matchId": 504804699,
           "civ": "Spanish",
@@ -78055,5 +78158,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

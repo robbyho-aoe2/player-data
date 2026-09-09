@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 91,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1070,
         "peakRating": 1070
       },
@@ -1487,12 +1487,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1361,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1147,
+        "totalGames": 1363,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1144,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 504926761,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T03:24:01.000Z",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 19521267,
+              "name": "El Botascha 2.0"
+            },
+            {
+              "profileId": 1000514,
+              "name": "\u7b11\u6625\u98ce"
+            },
+            {
+              "profileId": 2237954,
+              "name": "Weafol"
+            },
+            {
+              "profileId": 4466899,
+              "name": "alvex"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20462975,
+              "name": "LordPoseid\u00f3n"
+            },
+            {
+              "profileId": 10053218,
+              "name": "EntrecoitoS"
+            },
+            {
+              "profileId": 12014048,
+              "name": "arq_lobo"
+            }
+          ]
+        },
+        {
+          "matchId": 504921462,
+          "civ": "Persians",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T02:51:21.000Z",
+          "dur": 1585,
+          "opponents": [
+            {
+              "profileId": 24839299,
+              "name": "diego02041989"
+            },
+            {
+              "profileId": 2981955,
+              "name": "dfernandojd"
+            },
+            {
+              "profileId": 944542,
+              "name": "Paquesito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10053218,
+              "name": "EntrecoitoS"
+            },
+            {
+              "profileId": 12014048,
+              "name": "arq_lobo"
+            }
+          ]
+        },
         {
           "matchId": 504415585,
           "civ": "Franks",
@@ -50535,5 +50611,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

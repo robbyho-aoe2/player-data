@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 105,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1638,
         "peakRating": 1657
       },
@@ -1814,12 +1814,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2554,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1515,
+        "totalGames": 2558,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1471,
         "peakRating": 1635
       },
       "matches": [
+        {
+          "matchId": 505091783,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:51:11.000Z",
+          "dur": 1473,
+          "opponents": [
+            {
+              "profileId": 5305810,
+              "name": "Jiav"
+            },
+            {
+              "profileId": 6913676,
+              "name": "[MRK] Feudal Forever"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23937783,
+              "name": "karamuk"
+            }
+          ]
+        },
+        {
+          "matchId": 505082146,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:08:59.000Z",
+          "dur": 997,
+          "opponents": [
+            {
+              "profileId": 23500663,
+              "name": "Ux'DonChauron"
+            },
+            {
+              "profileId": 13714194,
+              "name": "Ux'Tycho0201"
+            },
+            {
+              "profileId": 17001431,
+              "name": "Ux' Krupjm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6887873,
+              "name": "Guido"
+            },
+            {
+              "profileId": 8613625,
+              "name": "PapusPopus"
+            }
+          ]
+        },
+        {
+          "matchId": 505041570,
+          "civ": "Bengalis",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:20:55.000Z",
+          "dur": 1289,
+          "opponents": [
+            {
+              "profileId": 3176915,
+              "name": "[David]Dreamer"
+            },
+            {
+              "profileId": 273001,
+              "name": "\u30df\u30fc\u30e0\u5927\u597d\u304d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23264996,
+              "name": "ITzMfPDiddy"
+            }
+          ]
+        },
+        {
+          "matchId": 505014651,
+          "civ": "Gurjaras",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:09:16.000Z",
+          "dur": 973,
+          "opponents": [
+            {
+              "profileId": 15903848,
+              "name": "[S3nS3] Gr\u00f3f"
+            },
+            {
+              "profileId": 1071964,
+              "name": "MadeinIron"
+            },
+            {
+              "profileId": 4501039,
+              "name": "Leto Apor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26038519,
+              "name": "\u73a9\u5370\u5ea6\u7684\u54e5\u4eec\u786c\u4e0d\u8d77\u6765"
+            },
+            {
+              "profileId": 19186614,
+              "name": "FMG | Sawasha Takohida"
+            }
+          ]
+        },
         {
           "matchId": 504868864,
           "civ": "Bohemians",
@@ -83610,5 +83730,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

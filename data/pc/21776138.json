@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 95,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1503,
-        "peakRating": 1503
+        "totalGames": 99,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1517,
+        "peakRating": 1517
       },
       "matches": [
+        {
+          "matchId": 505009189,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:42:02.000Z",
+          "dur": 999,
+          "opponents": [
+            {
+              "profileId": 4416600,
+              "name": "kest"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504974644,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:02:25.000Z",
+          "dur": 1154,
+          "opponents": [
+            {
+              "profileId": 131953,
+              "name": "natkhattj"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504974110,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T10:57:19.000Z",
+          "dur": 164,
+          "opponents": [
+            {
+              "profileId": 2871783,
+              "name": "ConsciousCactus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504953890,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T07:26:57.000Z",
+          "dur": 2238,
+          "opponents": [
+            {
+              "profileId": 1304928,
+              "name": "Chang Hua"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503973006,
           "civ": "Incas",
@@ -1645,7 +1713,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1249,
         "peakRating": 1336
       },
@@ -3740,5 +3808,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

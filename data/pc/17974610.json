@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 273,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1147,
         "peakRating": 1152
       },
@@ -4409,12 +4409,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 746,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1164,
+        "totalGames": 750,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1194,
         "peakRating": 1257
       },
       "matches": [
+        {
+          "matchId": 505190543,
+          "civ": "Bengalis",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:29:58.000Z",
+          "dur": 2228,
+          "opponents": [
+            {
+              "profileId": 24201544,
+              "name": "jack.pangjw"
+            },
+            {
+              "profileId": 23618573,
+              "name": "\u6210\u5168"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15347306,
+              "name": "qinoa"
+            }
+          ]
+        },
+        {
+          "matchId": 505179915,
+          "civ": "Tatars",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T06:24:10.000Z",
+          "dur": 1753,
+          "opponents": [
+            {
+              "profileId": 1355052,
+              "name": "BlitzbeatOntheH"
+            },
+            {
+              "profileId": 1349367,
+              "name": "MotorTokamak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4196698,
+              "name": "Gigga"
+            }
+          ]
+        },
+        {
+          "matchId": 504930654,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T03:49:56.000Z",
+          "dur": 2234,
+          "opponents": [
+            {
+              "profileId": 3062422,
+              "name": "Wise Frog"
+            },
+            {
+              "profileId": 16524672,
+              "name": "jscheng35"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2921691,
+              "name": "Ranilla_Sr Bernabe"
+            }
+          ]
+        },
+        {
+          "matchId": 504925080,
+          "civ": "Turks",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T03:13:15.000Z",
+          "dur": 986,
+          "opponents": [
+            {
+              "profileId": 1515640,
+              "name": "alwinmonteiro"
+            },
+            {
+              "profileId": 4568495,
+              "name": "ItsameVolleyo"
+            },
+            {
+              "profileId": 24938577,
+              "name": "dannyicecold69"
+            },
+            {
+              "profileId": 25364311,
+              "name": "Lord Petrosky"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12067149,
+              "name": "Eros"
+            },
+            {
+              "profileId": 15152783,
+              "name": "\u6068\u6d77\u60c5\u5929"
+            },
+            {
+              "profileId": 21344050,
+              "name": "\u51b0\u68cd\u7838\u5927\u54e5"
+            }
+          ]
+        },
         {
           "matchId": 498218113,
           "civ": "Bohemians",
@@ -27723,5 +27843,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

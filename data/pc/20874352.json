@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 419,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1272,
+        "totalGames": 420,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1257,
         "peakRating": 1304
       },
       "matches": [
+        {
+          "matchId": 505037844,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:02:38.000Z",
+          "dur": 970,
+          "opponents": [
+            {
+              "profileId": 6365777,
+              "name": "enjoy"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504813302,
           "civ": "Burgundians",
@@ -6751,12 +6768,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 926,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1170,
+        "totalGames": 928,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1200,
         "peakRating": 1208
       },
       "matches": [
+        {
+          "matchId": 505041479,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:20:45.000Z",
+          "dur": 275,
+          "opponents": [
+            {
+              "profileId": 6083157,
+              "name": "CoorsBanquet258"
+            },
+            {
+              "profileId": 2881341,
+              "name": "Lancer"
+            },
+            {
+              "profileId": 11992983,
+              "name": "\u7ef5\u7ef5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 81628,
+              "name": "Nogard"
+            },
+            {
+              "profileId": 8952249,
+              "name": "xdmastorx"
+            }
+          ]
+        },
+        {
+          "matchId": 505036868,
+          "civ": "Celts",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:58:31.000Z",
+          "dur": 185,
+          "opponents": [
+            {
+              "profileId": 15115185,
+              "name": "86149343"
+            },
+            {
+              "profileId": 1681289,
+              "name": "12kg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 738216,
+              "name": "JohnnyNapalm"
+            }
+          ]
+        },
         {
           "matchId": 504512520,
           "civ": "Bohemians",
@@ -35676,5 +35753,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

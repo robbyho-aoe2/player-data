@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 28,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1204,
         "peakRating": 1226
       },
@@ -477,12 +477,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 715,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1219,
+        "totalGames": 718,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1237,
         "peakRating": 1333
       },
       "matches": [
+        {
+          "matchId": 505062710,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:52:19.000Z",
+          "dur": 1895,
+          "opponents": [
+            {
+              "profileId": 24926233,
+              "name": "eessddzz"
+            },
+            {
+              "profileId": 576637,
+              "name": "Mayor Meanswell"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4085761,
+              "name": "Pillage The Village"
+            }
+          ]
+        },
+        {
+          "matchId": 505057921,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:31:44.000Z",
+          "dur": 1068,
+          "opponents": [
+            {
+              "profileId": 2793048,
+              "name": "fantafahrt"
+            },
+            {
+              "profileId": 2116007,
+              "name": "wirsing"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4085761,
+              "name": "Pillage The Village"
+            }
+          ]
+        },
+        {
+          "matchId": 505053591,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:14:13.000Z",
+          "dur": 959,
+          "opponents": [
+            {
+              "profileId": 4088291,
+              "name": "AirForceOne"
+            },
+            {
+              "profileId": 23068052,
+              "name": "aKrasia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4085761,
+              "name": "Pillage The Village"
+            }
+          ]
+        },
         {
           "matchId": 503446453,
           "civ": "Mongols",
@@ -21648,5 +21726,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "be",
+  "countryIcon": "\ud83c\udde7\ud83c\uddea",
+  "countryName": "Belgium"
 }

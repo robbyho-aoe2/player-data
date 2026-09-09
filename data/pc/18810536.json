@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1138
       },
       "matches": [
@@ -92,12 +92,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 397,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1648,
+        "totalGames": 399,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1613,
         "peakRating": 1793
       },
       "matches": [
+        {
+          "matchId": 505029495,
+          "civ": "Khmer",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:23:01.000Z",
+          "dur": 1785,
+          "opponents": [
+            {
+              "profileId": 18631385,
+              "name": "2468899547"
+            },
+            {
+              "profileId": 17783464,
+              "name": "\u6c5f\u54e5"
+            },
+            {
+              "profileId": 17769996,
+              "name": "\u4e16\u4e00\u4e0a\u3001"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1584403,
+              "name": "lazybb"
+            },
+            {
+              "profileId": 6887873,
+              "name": "Guido"
+            }
+          ]
+        },
+        {
+          "matchId": 504955438,
+          "civ": "Japanese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T07:45:11.000Z",
+          "dur": 1730,
+          "opponents": [
+            {
+              "profileId": 22272794,
+              "name": "\u5c0f\u871c\u8702"
+            },
+            {
+              "profileId": 589368,
+              "name": "ANKR.Tank20089"
+            },
+            {
+              "profileId": 2440793,
+              "name": "Sumi"
+            },
+            {
+              "profileId": 11457005,
+              "name": "Rayz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1627966,
+              "name": "______\u5c0f\u5c0f\u7684\u84dd\u5929"
+            },
+            {
+              "profileId": 6313440,
+              "name": "YiMia"
+            },
+            {
+              "profileId": 20067454,
+              "name": "Embege"
+            }
+          ]
+        },
         {
           "matchId": 504815130,
           "civ": "Goths",
@@ -15731,5 +15807,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

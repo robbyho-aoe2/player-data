@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 86,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1337,
-        "peakRating": 1369
+        "totalGames": 90,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1366,
+        "peakRating": 1381
       },
       "matches": [
+        {
+          "matchId": 505342925,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:01:01.000Z",
+          "dur": 548,
+          "opponents": [
+            {
+              "profileId": 1719530,
+              "name": "ElecTro\u00b5earT"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504983911,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T12:14:45.000Z",
+          "dur": 1172,
+          "opponents": [
+            {
+              "profileId": 245341,
+              "name": "Cabeceo_e"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504982730,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T12:05:40.000Z",
+          "dur": 451,
+          "opponents": [
+            {
+              "profileId": 21850144,
+              "name": "HeyJoe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504979833,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:46:02.000Z",
+          "dur": 1057,
+          "opponents": [
+            {
+              "profileId": 6439922,
+              "name": "Black115"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504889732,
           "civ": "Spanish",
@@ -1492,7 +1560,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 76,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 992,
         "peakRating": 992
       },
@@ -3507,5 +3575,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pl",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
+  "countryName": "Poland"
 }

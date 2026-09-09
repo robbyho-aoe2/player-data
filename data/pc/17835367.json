@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1209,
         "peakRating": 1233
       },
@@ -218,12 +218,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1068,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1257,
+        "totalGames": 1069,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1274,
         "peakRating": 1441
       },
       "matches": [
+        {
+          "matchId": 505201237,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:24:06.000Z",
+          "dur": 2576,
+          "opponents": [
+            {
+              "profileId": 6571700,
+              "name": "Gbanger69"
+            },
+            {
+              "profileId": 3821149,
+              "name": "HonestWork"
+            },
+            {
+              "profileId": 369898,
+              "name": "TwinRaven"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3209710,
+              "name": "nico"
+            },
+            {
+              "profileId": 24322315,
+              "name": "ibrahim_arig"
+            }
+          ]
+        },
         {
           "matchId": 504684687,
           "civ": "Berbers",
@@ -10323,5 +10357,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

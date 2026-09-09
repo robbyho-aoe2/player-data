@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "peakRating": 1258,
         "latestRating": 1258
       },
@@ -46,12 +46,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 27,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1293,
+        "totalGames": 29,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1303,
         "peakRating": 1386
       },
       "matches": [
+        {
+          "matchId": 505139131,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:15:16.000Z",
+          "dur": 1120,
+          "opponents": [
+            {
+              "profileId": 5299358,
+              "name": "Urukubar"
+            },
+            {
+              "profileId": 4523034,
+              "name": "Oveja Not Toxic"
+            },
+            {
+              "profileId": 4504642,
+              "name": "Cleryus"
+            },
+            {
+              "profileId": 2929712,
+              "name": "Mr. Charles"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21566123,
+              "name": "CTM Nitto"
+            },
+            {
+              "profileId": 278125,
+              "name": "Leoo"
+            },
+            {
+              "profileId": 16388042,
+              "name": "[PVS]  JUANJOM98"
+            }
+          ]
+        },
+        {
+          "matchId": 505137478,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:05:47.000Z",
+          "dur": 314,
+          "opponents": [
+            {
+              "profileId": 813446,
+              "name": "J10KQ"
+            },
+            {
+              "profileId": 3416540,
+              "name": "[Legacy]Rian23"
+            },
+            {
+              "profileId": 5863231,
+              "name": "A6D2_4EVER"
+            },
+            {
+              "profileId": 9773532,
+              "name": "J4cK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 278125,
+              "name": "Leoo"
+            },
+            {
+              "profileId": 16388042,
+              "name": "[PVS]  JUANJOM98"
+            },
+            {
+              "profileId": 21566123,
+              "name": "CTM Nitto"
+            }
+          ]
+        },
         {
           "matchId": 500275713,
           "civ": "Vietnamese",
@@ -429,5 +513,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 447,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1193,
+        "totalGames": 450,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1182,
         "peakRating": 1363
       },
       "matches": [
+        {
+          "matchId": 505256507,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:18:23.000Z",
+          "dur": 857,
+          "opponents": [
+            {
+              "profileId": 310097,
+              "name": "Pez4"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505250631,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:45:49.000Z",
+          "dur": 1835,
+          "opponents": [
+            {
+              "profileId": 1050058,
+              "name": "scarabe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505090406,
+          "civ": "Goths",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:45:05.000Z",
+          "dur": 1859,
+          "opponents": [
+            {
+              "profileId": 1865679,
+              "name": "Marcelo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504370788,
           "civ": "Ethiopians",
@@ -7629,7 +7680,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 496,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-08",
         "latestRating": 946,
         "peakRating": 1186
       },
@@ -22252,5 +22303,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

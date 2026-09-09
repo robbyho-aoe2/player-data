@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 79,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1934,
+        "totalGames": 80,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1950,
         "peakRating": 1961
       },
       "matches": [
+        {
+          "matchId": 505160989,
+          "civ": "Slavs",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:25:02.000Z",
+          "dur": 1442,
+          "opponents": [
+            {
+              "profileId": 2871715,
+              "name": "Joselu9710"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503212548,
           "civ": "Burgundians",
@@ -1372,12 +1389,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 268,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1954,
-        "peakRating": 1954
+        "totalGames": 271,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1907,
+        "peakRating": 1960
       },
       "matches": [
+        {
+          "matchId": 505176381,
+          "civ": "Tatars",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T05:42:59.000Z",
+          "dur": 1367,
+          "opponents": [
+            {
+              "profileId": 1596766,
+              "name": "Fs.churacoRS"
+            },
+            {
+              "profileId": 419803,
+              "name": "saymyname"
+            },
+            {
+              "profileId": 1648383,
+              "name": "\u6211\u662f\u4f60\u5927\u98de\u54e5"
+            },
+            {
+              "profileId": 2734385,
+              "name": "^_^"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21435810,
+              "name": "Parcero Tico"
+            },
+            {
+              "profileId": 2507097,
+              "name": "VEN\u00d3N | Tomathinner"
+            },
+            {
+              "profileId": 19831974,
+              "name": "Mauricioae13"
+            }
+          ]
+        },
+        {
+          "matchId": 505173754,
+          "civ": "Magyars",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T05:13:22.000Z",
+          "dur": 1417,
+          "opponents": [
+            {
+              "profileId": 16840992,
+              "name": "Draga"
+            },
+            {
+              "profileId": 419803,
+              "name": "saymyname"
+            },
+            {
+              "profileId": 2910344,
+              "name": "\u88c2\u8f66\u957f"
+            },
+            {
+              "profileId": 3403063,
+              "name": "VNS_Duy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20466570,
+              "name": "VEN\u00d3N |  Kevin"
+            },
+            {
+              "profileId": 19831974,
+              "name": "Mauricioae13"
+            },
+            {
+              "profileId": 2507097,
+              "name": "VEN\u00d3N | Tomathinner"
+            }
+          ]
+        },
+        {
+          "matchId": 505166045,
+          "civ": "Incas",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:03:55.000Z",
+          "dur": 1473,
+          "opponents": [
+            {
+              "profileId": 221290,
+              "name": "VEN\u00d3N | Sk8_Morro"
+            },
+            {
+              "profileId": 3552908,
+              "name": "VENON | OIGRES"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19831974,
+              "name": "Mauricioae13"
+            }
+          ]
+        },
         {
           "matchId": 487673519,
           "civ": "Bohemians",
@@ -11604,5 +11731,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

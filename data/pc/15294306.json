@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 46,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-08",
         "latestRating": 1498,
         "peakRating": 1537
       },
@@ -765,12 +765,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 770,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1656,
+        "totalGames": 771,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1665,
         "peakRating": 1706
       },
       "matches": [
+        {
+          "matchId": 505135567,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:54:19.000Z",
+          "dur": 1259,
+          "opponents": [
+            {
+              "profileId": 5835790,
+              "name": "AeRo"
+            },
+            {
+              "profileId": 309389,
+              "name": "LVA - JC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11774083,
+              "name": "ButterNToastThe3rd"
+            }
+          ]
+        },
         {
           "matchId": 504136091,
           "civ": "Maya",
@@ -26513,5 +26539,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

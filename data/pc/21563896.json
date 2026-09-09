@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 567,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1621,
         "peakRating": 1665
       },
@@ -9103,12 +9103,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 936,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1693,
+        "totalGames": 937,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1706,
         "peakRating": 1719
       },
       "matches": [
+        {
+          "matchId": 505279494,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:16:32.000Z",
+          "dur": 1089,
+          "opponents": [
+            {
+              "profileId": 884638,
+              "name": "AnTeK"
+            },
+            {
+              "profileId": 1683458,
+              "name": "vaeVictis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25224741,
+              "name": "Cyndaquil"
+            }
+          ]
+        },
         {
           "matchId": 503038949,
           "civ": "Wei",
@@ -44697,5 +44723,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

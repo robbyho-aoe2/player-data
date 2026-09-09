@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 249,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1290,
+        "totalGames": 250,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1310,
         "peakRating": 1346
       },
       "matches": [
+        {
+          "matchId": 505066665,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:07:08.000Z",
+          "dur": 1180,
+          "opponents": [
+            {
+              "profileId": 22887011,
+              "name": "Saku007"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504817458,
           "civ": "Khmer",
@@ -4038,12 +4055,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 423,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1218,
+        "totalGames": 425,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1186,
         "peakRating": 1312
       },
       "matches": [
+        {
+          "matchId": 505318174,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:25:30.000Z",
+          "dur": 1696,
+          "opponents": [
+            {
+              "profileId": 17042626,
+              "name": "\u6211\u60f3\u7ed9\u81ea\u5df1\u6539\u4e2a\u7b80\u5355\u53c8\u4e0d\u91cd\u590d\u7684\u540d\u5b57"
+            },
+            {
+              "profileId": 9452613,
+              "name": "Slayer30"
+            },
+            {
+              "profileId": 6030169,
+              "name": "Levanius"
+            },
+            {
+              "profileId": 1767012,
+              "name": "KaiZerShift"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 298199,
+              "name": "savage!"
+            },
+            {
+              "profileId": 15584772,
+              "name": "Juanchan"
+            },
+            {
+              "profileId": 5114665,
+              "name": "\u9752\u7530\u91ce\u72fcale"
+            }
+          ]
+        },
+        {
+          "matchId": 505101583,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:37:17.000Z",
+          "dur": 1387,
+          "opponents": [
+            {
+              "profileId": 12465743,
+              "name": "JITANOmaleant7"
+            },
+            {
+              "profileId": 18749773,
+              "name": "|GaoeG| flamingo"
+            },
+            {
+              "profileId": 2589122,
+              "name": "|GaoeG| Tifus"
+            },
+            {
+              "profileId": 4279580,
+              "name": "|GaoeG| Joseba77"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20639921,
+              "name": "150490644"
+            },
+            {
+              "profileId": 5988364,
+              "name": "Pepelu_wins"
+            },
+            {
+              "profileId": 15584772,
+              "name": "Juanchan"
+            }
+          ]
+        },
         {
           "matchId": 504775325,
           "civ": "Khmer",
@@ -19943,5 +20044,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

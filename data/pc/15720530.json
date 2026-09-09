@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 209,
-        "pulledDate": "2026-09-06",
-        "latestRating": 694,
+        "totalGames": 210,
+        "pulledDate": "2026-09-08",
+        "latestRating": 711,
         "peakRating": 800
       },
       "matches": [
+        {
+          "matchId": 505166572,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:08:15.000Z",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 9902340,
+              "name": "Mejiro McQueen"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504400190,
           "civ": "Italians",
@@ -3374,12 +3391,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 366,
-        "pulledDate": "2026-09-06",
-        "latestRating": 783,
+        "totalGames": 370,
+        "pulledDate": "2026-09-08",
+        "latestRating": 775,
         "peakRating": 841
       },
       "matches": [
+        {
+          "matchId": 505159822,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:17:39.000Z",
+          "dur": 1699,
+          "opponents": [
+            {
+              "profileId": 22771005,
+              "name": "LordDirtytorg"
+            },
+            {
+              "profileId": 14795070,
+              "name": "DSoapy14TundraM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2767561,
+              "name": "danielcfelipe"
+            }
+          ]
+        },
+        {
+          "matchId": 504930611,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T03:49:44.000Z",
+          "dur": 2337,
+          "opponents": [
+            {
+              "profileId": 12408553,
+              "name": "DUIS12"
+            },
+            {
+              "profileId": 4682979,
+              "name": "DisorderWess"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13637077,
+              "name": "Renato243150"
+            }
+          ]
+        },
+        {
+          "matchId": 504923290,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T03:02:11.000Z",
+          "dur": 2314,
+          "opponents": [
+            {
+              "profileId": 26095398,
+              "name": "MAUTHOXIC"
+            },
+            {
+              "profileId": 12101833,
+              "name": "Wispi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13637077,
+              "name": "Renato243150"
+            }
+          ]
+        },
+        {
+          "matchId": 504917812,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T02:30:17.000Z",
+          "dur": 1602,
+          "opponents": [
+            {
+              "profileId": 26049960,
+              "name": "GibranRakatiwing"
+            },
+            {
+              "profileId": 4421225,
+              "name": "vicentejoaquin97"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13637077,
+              "name": "Renato243150"
+            }
+          ]
+        },
         {
           "matchId": 504394565,
           "civ": "Italians",
@@ -13256,5 +13377,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

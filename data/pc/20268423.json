@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 31,
-        "pulledDate": "2026-09-04",
-        "latestRating": 447,
+        "totalGames": 34,
+        "pulledDate": "2026-09-08",
+        "latestRating": 467,
         "peakRating": 675
       },
       "matches": [
+        {
+          "matchId": 505100481,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:31:04.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 24013060,
+              "name": "duke of downend"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505098361,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:21:25.000Z",
+          "dur": 285,
+          "opponents": [
+            {
+              "profileId": 3522659,
+              "name": "Gamstrum"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505036863,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:57:35.000Z",
+          "dur": 1022,
+          "opponents": [
+            {
+              "profileId": 25975356,
+              "name": "hongjunhaoren"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 498016273,
           "civ": "Magyars",
@@ -525,12 +576,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 133,
-        "pulledDate": "2026-09-04",
-        "latestRating": 743,
+        "totalGames": 135,
+        "pulledDate": "2026-09-08",
+        "latestRating": 754,
         "peakRating": 840
       },
       "matches": [
+        {
+          "matchId": 505118183,
+          "civ": "Aztecs",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:09:56.000Z",
+          "dur": 2134,
+          "opponents": [
+            {
+              "profileId": 21971877,
+              "name": "mikulas.ferjencik"
+            },
+            {
+              "profileId": 5380164,
+              "name": "ladek23"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2068619,
+              "name": "Perocat"
+            }
+          ]
+        },
+        {
+          "matchId": 505111675,
+          "civ": "Aztecs",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:30:08.000Z",
+          "dur": 1669,
+          "opponents": [
+            {
+              "profileId": 23008947,
+              "name": "sideways"
+            },
+            {
+              "profileId": 6821076,
+              "name": "Chris Hansen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2068619,
+              "name": "Perocat"
+            }
+          ]
+        },
         {
           "matchId": 503994979,
           "civ": "Aztecs",
@@ -4399,5 +4502,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

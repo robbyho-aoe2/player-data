@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 105,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1114,
         "peakRating": 1133
       },
@@ -1712,12 +1712,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1241,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1223,
-        "peakRating": 1233
+        "totalGames": 1245,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1228,
+        "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 505165601,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:00:09.000Z",
+          "dur": 1446,
+          "opponents": [
+            {
+              "profileId": 2187613,
+              "name": "Solrac Noctis"
+            },
+            {
+              "profileId": 2327850,
+              "name": "Estefi Errote"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20491386,
+              "name": "berenjena06"
+            }
+          ]
+        },
+        {
+          "matchId": 505162678,
+          "civ": "Armenians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:38:23.000Z",
+          "dur": 1083,
+          "opponents": [
+            {
+              "profileId": 4648492,
+              "name": "Flying_Ham"
+            },
+            {
+              "profileId": 3575014,
+              "name": "No Fox Given"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20491386,
+              "name": "berenjena06"
+            }
+          ]
+        },
+        {
+          "matchId": 505160025,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:18:57.000Z",
+          "dur": 879,
+          "opponents": [
+            {
+              "profileId": 1305477,
+              "name": "Hurut"
+            },
+            {
+              "profileId": 1264409,
+              "name": "Lehel_Kurt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20491386,
+              "name": "berenjena06"
+            }
+          ]
+        },
+        {
+          "matchId": 505148257,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:07:13.000Z",
+          "dur": 2136,
+          "opponents": [
+            {
+              "profileId": 1747782,
+              "name": "El batis"
+            },
+            {
+              "profileId": 4645583,
+              "name": "215"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20491386,
+              "name": "berenjena06"
+            }
+          ]
+        },
         {
           "matchId": 504141064,
           "civ": "Armenians",
@@ -41542,5 +41646,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

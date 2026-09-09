@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 248,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 1600,
         "peakRating": 1653
       },
@@ -3997,12 +3997,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 941,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1605,
+        "totalGames": 943,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1604,
         "peakRating": 1688
       },
       "matches": [
+        {
+          "matchId": 504896680,
+          "civ": "Jurchens",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:33:21.000Z",
+          "dur": 1262,
+          "opponents": [
+            {
+              "profileId": 16560445,
+              "name": "Kuroko"
+            },
+            {
+              "profileId": 5916133,
+              "name": "Mis"
+            },
+            {
+              "profileId": 11591214,
+              "name": "| ArCas |SirLaPonia"
+            },
+            {
+              "profileId": 12426692,
+              "name": "\u5fc3\u4e4b\u95fb\u540d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10421094,
+              "name": "\u8d64\u3044\u30c9\u30e9\u30b4\u30f3"
+            },
+            {
+              "profileId": 19586554,
+              "name": "ELEG | Kynby"
+            },
+            {
+              "profileId": 16333314,
+              "name": "PSX | Cristov"
+            }
+          ]
+        },
+        {
+          "matchId": 504891446,
+          "civ": "Armenians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:03:54.000Z",
+          "dur": 1486,
+          "opponents": [
+            {
+              "profileId": 21130149,
+              "name": "Fakkertt"
+            },
+            {
+              "profileId": 1367722,
+              "name": "Tylenol"
+            },
+            {
+              "profileId": 2466302,
+              "name": "|Thepejezombie"
+            },
+            {
+              "profileId": 11591214,
+              "name": "| ArCas |SirLaPonia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10421094,
+              "name": "\u8d64\u3044\u30c9\u30e9\u30b4\u30f3"
+            },
+            {
+              "profileId": 16333314,
+              "name": "PSX | Cristov"
+            },
+            {
+              "profileId": 19586554,
+              "name": "ELEG | Kynby"
+            }
+          ]
+        },
         {
           "matchId": 504352688,
           "civ": "Mongols",
@@ -40587,5 +40671,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

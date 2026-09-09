@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 949,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 894,
         "peakRating": 1061
       },
@@ -15213,12 +15213,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 764,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1275,
+        "totalGames": 765,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1254,
         "peakRating": 1367
       },
       "matches": [
+        {
+          "matchId": 505050915,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:03:06.000Z",
+          "dur": 851,
+          "opponents": [
+            {
+              "profileId": 2917980,
+              "name": "Mygstein"
+            },
+            {
+              "profileId": 9604932,
+              "name": "Aemon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6061231,
+              "name": "Bolchev"
+            }
+          ]
+        },
         {
           "matchId": 504358071,
           "civ": "Maya",
@@ -40410,5 +40436,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

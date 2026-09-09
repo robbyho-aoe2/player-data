@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 338,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1814,
         "peakRating": 1856
       },
@@ -5775,12 +5775,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 110,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1535,
+        "totalGames": 111,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1520,
         "peakRating": 1574
       },
       "matches": [
+        {
+          "matchId": 505045827,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:39:53.000Z",
+          "dur": 1562,
+          "opponents": [
+            {
+              "profileId": 8855907,
+              "name": "KeremS"
+            },
+            {
+              "profileId": 214911,
+              "name": "Erich M\u00fcller"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14816534,
+              "name": "Brutalitops"
+            }
+          ]
+        },
         {
           "matchId": 504843256,
           "civ": "Mapuche",
@@ -9155,5 +9181,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pt",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddf9",
+  "countryName": "Portugal"
 }

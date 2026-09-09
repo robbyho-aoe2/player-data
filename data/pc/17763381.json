@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 182,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1730,
         "peakRating": 1745
       },
@@ -2942,12 +2942,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 857,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1548,
+        "totalGames": 860,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1545,
         "peakRating": 1633
       },
       "matches": [
+        {
+          "matchId": 505312494,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:54:45.000Z",
+          "dur": 2065,
+          "opponents": [
+            {
+              "profileId": 2787704,
+              "name": "Rbase96"
+            },
+            {
+              "profileId": 506341,
+              "name": "Desyres"
+            },
+            {
+              "profileId": 42165,
+              "name": "Lorhey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15012195,
+              "name": "KickersEmden_AoE"
+            },
+            {
+              "profileId": 24145710,
+              "name": "Aremenius"
+            }
+          ]
+        },
+        {
+          "matchId": 505306492,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:22:45.000Z",
+          "dur": 1380,
+          "opponents": [
+            {
+              "profileId": 3158841,
+              "name": "dardo"
+            },
+            {
+              "profileId": 1921533,
+              "name": "PistonForjado"
+            },
+            {
+              "profileId": 2901187,
+              "name": "dont help"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15012195,
+              "name": "KickersEmden_AoE"
+            },
+            {
+              "profileId": 24145710,
+              "name": "Aremenius"
+            }
+          ]
+        },
+        {
+          "matchId": 505299045,
+          "civ": "Koreans",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:48:07.000Z",
+          "dur": 1229,
+          "opponents": [
+            {
+              "profileId": 25778486,
+              "name": "Mionel Lessi"
+            },
+            {
+              "profileId": 26080705,
+              "name": "throbbing_uncle"
+            },
+            {
+              "profileId": 15698916,
+              "name": "Mihoviliam"
+            },
+            {
+              "profileId": 303474,
+              "name": "This is Kawaii"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15588564,
+              "name": "4k1m"
+            },
+            {
+              "profileId": 6769946,
+              "name": "vR-MrReD"
+            },
+            {
+              "profileId": 24145710,
+              "name": "Aremenius"
+            }
+          ]
+        },
         {
           "matchId": 504707508,
           "civ": "Bengalis",
@@ -31723,5 +31833,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 48,
-        "pulledDate": "2026-09-06",
-        "latestRating": 254,
+        "totalGames": 50,
+        "pulledDate": "2026-09-08",
+        "latestRating": 242,
         "peakRating": 587
       },
       "matches": [
+        {
+          "matchId": 505327531,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:21:22.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 23303444,
+              "name": "sodomaw"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504875084,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T22:32:55.000Z",
+          "dur": 3639,
+          "opponents": [
+            {
+              "profileId": 2000611,
+              "name": "ragurto"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504631638,
           "civ": "Aztecs",
@@ -802,7 +836,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 699,
         "peakRating": 808
       },
@@ -1467,5 +1501,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

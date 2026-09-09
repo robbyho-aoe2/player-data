@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 707,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1718,
+        "totalGames": 710,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1739,
         "peakRating": 1840
       },
       "matches": [
+        {
+          "matchId": 505128865,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:14:19.000Z",
+          "dur": 605,
+          "opponents": [
+            {
+              "profileId": 26014356,
+              "name": "leswi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504896943,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:34:09.000Z",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 3432502,
+              "name": "Crosnay"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504890968,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:01:05.000Z",
+          "dur": 1463,
+          "opponents": [
+            {
+              "profileId": 527403,
+              "name": "[DH] JapoIroh"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504617446,
           "civ": "Wu",
@@ -12049,7 +12100,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 537,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1570,
         "peakRating": 1570
       },
@@ -33850,5 +33901,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

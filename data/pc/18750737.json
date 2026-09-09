@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 445,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1040,
         "peakRating": 1085
       },
@@ -7159,12 +7159,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 837,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1102,
+        "totalGames": 839,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1100,
         "peakRating": 1254
       },
       "matches": [
+        {
+          "matchId": 505064382,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:58:53.000Z",
+          "dur": 1534,
+          "opponents": [
+            {
+              "profileId": 10736818,
+              "name": "vyshi77"
+            },
+            {
+              "profileId": 10008048,
+              "name": "War Hero"
+            },
+            {
+              "profileId": 6113420,
+              "name": "MaLaya."
+            },
+            {
+              "profileId": 4770874,
+              "name": "jonaq"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17941101,
+              "name": "EL PAJA"
+            },
+            {
+              "profileId": 1900403,
+              "name": "unzelfunzel"
+            },
+            {
+              "profileId": 22625895,
+              "name": "Moritzbrandy"
+            }
+          ]
+        },
+        {
+          "matchId": 505055270,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:22:05.000Z",
+          "dur": 1748,
+          "opponents": [
+            {
+              "profileId": 2199741,
+              "name": "Klautsche"
+            },
+            {
+              "profileId": 2176729,
+              "name": "Tode[S]hrimp"
+            },
+            {
+              "profileId": 2175750,
+              "name": "MeanMachine"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1900403,
+              "name": "unzelfunzel"
+            },
+            {
+              "profileId": 22625895,
+              "name": "Moritzbrandy"
+            }
+          ]
+        },
         {
           "matchId": 504843062,
           "civ": "Armenians",
@@ -36103,5 +36179,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

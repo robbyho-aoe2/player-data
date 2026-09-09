@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 434,
         "peakRating": 684
       },
@@ -613,12 +613,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 27,
-        "pulledDate": "2026-09-03",
-        "latestRating": 748,
-        "peakRating": 769
+        "totalGames": 29,
+        "pulledDate": "2026-09-08",
+        "latestRating": 790,
+        "peakRating": 790
       },
       "matches": [
+        {
+          "matchId": 505098355,
+          "civ": "Britons",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:21:38.000Z",
+          "dur": 1298,
+          "opponents": [
+            {
+              "profileId": 5102944,
+              "name": "Maxen1988"
+            },
+            {
+              "profileId": 5425050,
+              "name": "Sr Abogatito"
+            },
+            {
+              "profileId": 10808313,
+              "name": "SerMan911"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18978489,
+              "name": "Johnny45c"
+            },
+            {
+              "profileId": 10609326,
+              "name": "Wamett"
+            }
+          ]
+        },
+        {
+          "matchId": 505090122,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:43:38.000Z",
+          "dur": 1845,
+          "opponents": [
+            {
+              "profileId": 3993934,
+              "name": "carlos.avd"
+            },
+            {
+              "profileId": 19270241,
+              "name": "navia.sebastian"
+            },
+            {
+              "profileId": 19270362,
+              "name": "squintremil"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10609326,
+              "name": "Wamett"
+            },
+            {
+              "profileId": 18978489,
+              "name": "Johnny45c"
+            }
+          ]
+        },
         {
           "matchId": 502993887,
           "civ": "Byzantines",
@@ -1419,5 +1487,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cz",
+  "countryIcon": "\ud83c\udde8\ud83c\uddff",
+  "countryName": "Czechia"
 }

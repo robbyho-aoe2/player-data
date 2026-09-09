@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 172,
-        "pulledDate": "2026-09-04",
-        "latestRating": 866,
+        "totalGames": 175,
+        "pulledDate": "2026-09-09",
+        "latestRating": 882,
         "peakRating": 983
       },
       "matches": [
+        {
+          "matchId": 505119620,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:17:28.000Z",
+          "dur": 1697,
+          "opponents": [
+            {
+              "profileId": 18881757,
+              "name": "jairak92"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505114225,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:45:04.000Z",
+          "dur": 1205,
+          "opponents": [
+            {
+              "profileId": 11269086,
+              "name": "ajax2207"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505109142,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:16:04.000Z",
+          "dur": 1622,
+          "opponents": [
+            {
+              "profileId": 6892468,
+              "name": "LOCO MALDI"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502633413,
           "civ": "Teutons",
@@ -2796,7 +2847,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 89,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1116,
         "peakRating": 1236
       },
@@ -5911,5 +5962,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

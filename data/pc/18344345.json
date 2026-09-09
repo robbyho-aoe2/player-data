@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 289,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1183,
         "peakRating": 1216
       },
@@ -4653,12 +4653,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 224,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1133,
+        "totalGames": 226,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1129,
         "peakRating": 1169
       },
       "matches": [
+        {
+          "matchId": 504941170,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T05:10:53.000Z",
+          "dur": 1683,
+          "opponents": [
+            {
+              "profileId": 19835084,
+              "name": "\u55f7\u545c\u4e00\u53e3\u5403\u6389"
+            },
+            {
+              "profileId": 19697058,
+              "name": "\u30a8\u30c9\u30ef\u30d5\u30e9\u30f3\u30fb\u30b9\u30ab\u30fc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24110395,
+              "name": "GdN_Roa"
+            }
+          ]
+        },
+        {
+          "matchId": 504938776,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T04:50:11.000Z",
+          "dur": 1004,
+          "opponents": [
+            {
+              "profileId": 19935765,
+              "name": "chikolastik"
+            },
+            {
+              "profileId": 12921513,
+              "name": "OnergameR 4569"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24110395,
+              "name": "GdN_Roa"
+            }
+          ]
+        },
         {
           "matchId": 488896447,
           "civ": "Bohemians",
@@ -10789,5 +10841,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

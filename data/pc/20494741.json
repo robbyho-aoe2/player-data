@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 154,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 724,
         "peakRating": 755
       },
@@ -1431,12 +1431,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 417,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1004,
+        "totalGames": 421,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1035,
         "peakRating": 1099
       },
       "matches": [
+        {
+          "matchId": 505245396,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:16:50.000Z",
+          "dur": 235,
+          "opponents": [
+            {
+              "profileId": 223350,
+              "name": "Zhulahardin"
+            },
+            {
+              "profileId": 4399593,
+              "name": "\u4e0d\u660e\u6b65\u884c\u4e0b\u9ad4"
+            },
+            {
+              "profileId": 21954954,
+              "name": "wujiang"
+            },
+            {
+              "profileId": 22927174,
+              "name": "\u79cd\u5730\u7684\u8001\u519c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23851612,
+              "name": "boo"
+            },
+            {
+              "profileId": 22505141,
+              "name": "Exteme77"
+            },
+            {
+              "profileId": 22687253,
+              "name": "Call_For_HD"
+            }
+          ]
+        },
+        {
+          "matchId": 505239075,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:44:38.000Z",
+          "dur": 2092,
+          "opponents": [
+            {
+              "profileId": 22085277,
+              "name": "GabberGandalf"
+            },
+            {
+              "profileId": 5830909,
+              "name": "Reverent of rats"
+            },
+            {
+              "profileId": 3300309,
+              "name": "IronDuck"
+            },
+            {
+              "profileId": 2116959,
+              "name": "novko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10312931,
+              "name": "276986605"
+            },
+            {
+              "profileId": 25893953,
+              "name": "1390003218"
+            },
+            {
+              "profileId": 3318300,
+              "name": "(PNG) Adrogue_PR"
+            }
+          ]
+        },
+        {
+          "matchId": 505236440,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:30:58.000Z",
+          "dur": 669,
+          "opponents": [
+            {
+              "profileId": 21597358,
+              "name": "fifox58"
+            },
+            {
+              "profileId": 13760414,
+              "name": "\u8bf4\u5531\u6b4c\u624b\u739b\u5361\u5df4\u5361"
+            },
+            {
+              "profileId": 21705490,
+              "name": "\u6e38\u4fa0\u4e0d\u8bed\u53ea\u4f1a\u5c60\u6c11"
+            },
+            {
+              "profileId": 17022270,
+              "name": "T - T"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2116959,
+              "name": "novko"
+            },
+            {
+              "profileId": 11660512,
+              "name": "senninha"
+            },
+            {
+              "profileId": 18463783,
+              "name": "mnich_bor"
+            }
+          ]
+        },
+        {
+          "matchId": 505235250,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:24:12.000Z",
+          "dur": 230,
+          "opponents": [
+            {
+              "profileId": 24449943,
+              "name": "\u8ffd\u98ce1\u5c11\u5e74"
+            },
+            {
+              "profileId": 1857472,
+              "name": "\u9489\u9489\u5728\u9003\u5b66\u5458"
+            },
+            {
+              "profileId": 8907663,
+              "name": "Q\u529b\u5c71\u5927\u4e00\u4e16"
+            },
+            {
+              "profileId": 17022270,
+              "name": "T - T"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2391944,
+              "name": "hadry2790"
+            },
+            {
+              "profileId": 10575244,
+              "name": "Croquetero"
+            },
+            {
+              "profileId": 11660512,
+              "name": "senninha"
+            }
+          ]
+        },
         {
           "matchId": 504750675,
           "civ": "Khmer",
@@ -6215,5 +6383,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mm",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddf2",
+  "countryName": "Myanmar"
 }

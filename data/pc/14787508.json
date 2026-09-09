@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 103,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1051,
         "peakRating": 1055
       },
@@ -1680,12 +1680,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 837,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1229,
+        "totalGames": 838,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1216,
         "peakRating": 1253
       },
       "matches": [
+        {
+          "matchId": 505152208,
+          "civ": "Goths",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:28:19.000Z",
+          "dur": 892,
+          "opponents": [
+            {
+              "profileId": 5803097,
+              "name": "Desert Haq"
+            },
+            {
+              "profileId": 4211177,
+              "name": "Ray"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1860045,
+              "name": "R Blong 2 me"
+            }
+          ]
+        },
         {
           "matchId": 504649993,
           "civ": "Maya",
@@ -22720,5 +22746,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

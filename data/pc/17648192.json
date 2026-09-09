@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 62,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 744,
         "peakRating": 749
       },
@@ -1033,12 +1033,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 21,
-        "pulledDate": "2026-09-06",
-        "latestRating": 808,
+        "totalGames": 24,
+        "pulledDate": "2026-09-08",
+        "latestRating": 794,
         "peakRating": 874
       },
       "matches": [
+        {
+          "matchId": 504896520,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:32:32.000Z",
+          "dur": 2873,
+          "opponents": [
+            {
+              "profileId": 26057008,
+              "name": "munheko"
+            },
+            {
+              "profileId": 15193710,
+              "name": "Jklmivan"
+            },
+            {
+              "profileId": 23434584,
+              "name": "Gabuchan8596"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23873756,
+              "name": "PeladoUwU3060"
+            },
+            {
+              "profileId": 23832205,
+              "name": "Bashynew"
+            }
+          ]
+        },
+        {
+          "matchId": 504890012,
+          "civ": "Bohemians",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T23:55:49.000Z",
+          "dur": 2029,
+          "opponents": [
+            {
+              "profileId": 2392922,
+              "name": "JACKOBTR"
+            },
+            {
+              "profileId": 1839128,
+              "name": "HinkeN"
+            },
+            {
+              "profileId": 466039,
+              "name": "Cwark San"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23873756,
+              "name": "PeladoUwU3060"
+            },
+            {
+              "profileId": 23832205,
+              "name": "Bashynew"
+            }
+          ]
+        },
+        {
+          "matchId": 504884711,
+          "civ": "Berbers",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T23:25:10.000Z",
+          "dur": 1612,
+          "opponents": [
+            {
+              "profileId": 15540598,
+              "name": "KcoasRaulMx"
+            },
+            {
+              "profileId": 1839128,
+              "name": "HinkeN"
+            },
+            {
+              "profileId": 509057,
+              "name": "teo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23832205,
+              "name": "Bashynew"
+            },
+            {
+              "profileId": 23873756,
+              "name": "PeladoUwU3060"
+            }
+          ]
+        },
         {
           "matchId": 504616642,
           "civ": "Burgundians",
@@ -1686,5 +1788,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

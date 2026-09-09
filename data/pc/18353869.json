@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 413,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1024,
         "peakRating": 1058
       },
@@ -6645,12 +6645,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 903,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1185,
+        "totalGames": 907,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1164,
         "peakRating": 1310
       },
       "matches": [
+        {
+          "matchId": 504897009,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:35:22.000Z",
+          "dur": 2147,
+          "opponents": [
+            {
+              "profileId": 9578338,
+              "name": "Oregonfail"
+            },
+            {
+              "profileId": 8675129,
+              "name": "AdamSvp21"
+            },
+            {
+              "profileId": 22222722,
+              "name": "WololoPy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8520112,
+              "name": "juanpasp2001825"
+            },
+            {
+              "profileId": 15186143,
+              "name": "HIRAMPLAS6"
+            }
+          ]
+        },
+        {
+          "matchId": 504890885,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T00:00:55.000Z",
+          "dur": 1793,
+          "opponents": [
+            {
+              "profileId": 3453865,
+              "name": "acme.xo"
+            },
+            {
+              "profileId": 19521267,
+              "name": "El Botascha 2.0"
+            },
+            {
+              "profileId": 11614074,
+              "name": "wolololigma"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15186143,
+              "name": "HIRAMPLAS6"
+            },
+            {
+              "profileId": 8520112,
+              "name": "juanpasp2001825"
+            }
+          ]
+        },
+        {
+          "matchId": 504884331,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T23:23:06.000Z",
+          "dur": 1569,
+          "opponents": [
+            {
+              "profileId": 10164608,
+              "name": "SpartanLee"
+            },
+            {
+              "profileId": 5715536,
+              "name": "BachWagner"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8520112,
+              "name": "juanpasp2001825"
+            }
+          ]
+        },
+        {
+          "matchId": 504879303,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T22:56:00.000Z",
+          "dur": 1224,
+          "opponents": [
+            {
+              "profileId": 21955204,
+              "name": "OPL"
+            },
+            {
+              "profileId": 22697674,
+              "name": "mercy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8520112,
+              "name": "juanpasp2001825"
+            }
+          ]
+        },
         {
           "matchId": 504868981,
           "civ": "Bulgarians",
@@ -29583,5 +29703,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

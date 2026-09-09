@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 519,
         "peakRating": 623
       },
@@ -381,12 +381,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 202,
-        "pulledDate": "2026-09-06",
-        "latestRating": 756,
-        "peakRating": 759
+        "totalGames": 205,
+        "pulledDate": "2026-09-09",
+        "latestRating": 768,
+        "peakRating": 782
       },
       "matches": [
+        {
+          "matchId": 505221425,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:04:18.000Z",
+          "dur": 2106,
+          "opponents": [
+            {
+              "profileId": 2839519,
+              "name": "ODOBrodo"
+            },
+            {
+              "profileId": 17768975,
+              "name": "\u661f\u7396"
+            },
+            {
+              "profileId": 20111988,
+              "name": "\u5496\u55b1\u68d2"
+            },
+            {
+              "profileId": 20658481,
+              "name": "\u5c0f\u7684\u5728"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 279118,
+              "name": "BLITZKRIEG"
+            },
+            {
+              "profileId": 4389320,
+              "name": "avvocatore"
+            },
+            {
+              "profileId": 6217998,
+              "name": "Felch Baby"
+            }
+          ]
+        },
+        {
+          "matchId": 504985853,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T12:29:37.000Z",
+          "dur": 1663,
+          "opponents": [
+            {
+              "profileId": 18901285,
+              "name": "\u6697\u591c\u60dc\u9ece"
+            },
+            {
+              "profileId": 19009192,
+              "name": "Inf3rnalSpark"
+            },
+            {
+              "profileId": 25882645,
+              "name": "cbarattic"
+            },
+            {
+              "profileId": 25907197,
+              "name": "CoWarDly DoG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24206952,
+              "name": "mike"
+            },
+            {
+              "profileId": 25064342,
+              "name": "Sigit4n"
+            },
+            {
+              "profileId": 1835342,
+              "name": "colon"
+            }
+          ]
+        },
+        {
+          "matchId": 504981999,
+          "civ": "Teutons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T12:01:55.000Z",
+          "dur": 3753,
+          "opponents": [
+            {
+              "profileId": 3559057,
+              "name": "\u660e\u541b"
+            },
+            {
+              "profileId": 25731545,
+              "name": "\u68ee\u6c38"
+            },
+            {
+              "profileId": 5952201,
+              "name": "KKZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25329048,
+              "name": "Richard"
+            },
+            {
+              "profileId": 6027923,
+              "name": "Michael Frederick"
+            }
+          ]
+        },
         {
           "matchId": 504446867,
           "civ": "Khmer",
@@ -6696,5 +6814,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "in",
+  "countryIcon": "\ud83c\uddee\ud83c\uddf3",
+  "countryName": "India"
 }

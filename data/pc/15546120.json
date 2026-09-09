@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 665,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1180,
+        "totalGames": 669,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1146,
         "peakRating": 1289
       },
       "matches": [
+        {
+          "matchId": 505140930,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:24:44.000Z",
+          "dur": 1880,
+          "opponents": [
+            {
+              "profileId": 1215431,
+              "name": "San"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505135542,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:53:56.000Z",
+          "dur": 1732,
+          "opponents": [
+            {
+              "profileId": 8434821,
+              "name": "Flairace"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504867410,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T21:54:17.000Z",
+          "dur": 1517,
+          "opponents": [
+            {
+              "profileId": 9475889,
+              "name": "PepperoniPizza"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504859664,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-06",
+          "startedAt": "2026-09-06T21:18:44.000Z",
+          "dur": 2060,
+          "opponents": [
+            {
+              "profileId": 25851160,
+              "name": "porkchop8732"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504624309,
           "civ": "Wei",
@@ -10682,12 +10750,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 122,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1414,
+        "totalGames": 123,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1422,
         "peakRating": 1454
       },
       "matches": [
+        {
+          "matchId": 505114784,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:49:20.000Z",
+          "dur": 1578,
+          "opponents": [
+            {
+              "profileId": 24207170,
+              "name": "Steppo"
+            },
+            {
+              "profileId": 4526062,
+              "name": "[CDM] Lam"
+            },
+            {
+              "profileId": 10956781,
+              "name": "asdF"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6117999,
+              "name": "PNAL | Lipe"
+            },
+            {
+              "profileId": 15542786,
+              "name": "PNAL | El Chill de Cojones"
+            }
+          ]
+        },
         {
           "matchId": 498653649,
           "civ": "Persians",
@@ -15484,5 +15586,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

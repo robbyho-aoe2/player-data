@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 714,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1984,
         "peakRating": 2003
       },
@@ -11453,12 +11453,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 755,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1584,
+        "totalGames": 757,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1575,
         "peakRating": 1677
       },
       "matches": [
+        {
+          "matchId": 505183424,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:08:03.000Z",
+          "dur": 196,
+          "opponents": [
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            },
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            },
+            {
+              "profileId": 3281624,
+              "name": "ValerioN__"
+            },
+            {
+              "profileId": 715704,
+              "name": "DarkPaladinX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9609343,
+              "name": "\u62c9\u62c9\u673a"
+            },
+            {
+              "profileId": 2440793,
+              "name": "Sumi"
+            },
+            {
+              "profileId": 1770168,
+              "name": "timembh"
+            }
+          ]
+        },
+        {
+          "matchId": 505171437,
+          "civ": "Burgundians",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:50:39.000Z",
+          "dur": 1789,
+          "opponents": [
+            {
+              "profileId": 308753,
+              "name": "EXILE | Obi"
+            },
+            {
+              "profileId": 18863417,
+              "name": "EXILE | NOPALITO"
+            },
+            {
+              "profileId": 2637273,
+              "name": "EXILE | Alebrije"
+            },
+            {
+              "profileId": 365799,
+              "name": "EXILE | Polag3K"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7665780,
+              "name": "Guilter"
+            },
+            {
+              "profileId": 2440793,
+              "name": "Sumi"
+            },
+            {
+              "profileId": 1101830,
+              "name": "Longbow"
+            }
+          ]
+        },
         {
           "matchId": 504248262,
           "civ": "Gurjaras",
@@ -42337,5 +42421,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland"
 }

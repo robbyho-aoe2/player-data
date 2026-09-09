@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 649,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1135,
+        "totalGames": 651,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1120,
         "peakRating": 1219
       },
       "matches": [
+        {
+          "matchId": 505330030,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:36:32.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 14667946,
+              "name": "Noso_vinci"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505325987,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:11:57.000Z",
+          "dur": 1318,
+          "opponents": [
+            {
+              "profileId": 2725077,
+              "name": "francolopre"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504330561,
           "civ": "Magyars",
@@ -10438,7 +10472,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 841,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 1466,
         "peakRating": 1492
       },
@@ -31482,5 +31516,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

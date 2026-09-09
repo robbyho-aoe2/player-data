@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 382,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1165,
+        "totalGames": 383,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1180,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 504955069,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T07:40:18.000Z",
+          "dur": 893,
+          "opponents": [
+            {
+              "profileId": 332854,
+              "name": "CrazyRock"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 500962412,
           "civ": "Mongols",
@@ -6142,7 +6159,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 891,
         "peakRating": 926
       },
@@ -6471,5 +6488,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ru",
+  "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
+  "countryName": "Russian Federation"
 }

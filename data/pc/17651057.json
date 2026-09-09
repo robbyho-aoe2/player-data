@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 158,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-08",
         "latestRating": 626,
         "peakRating": 850
       },
@@ -2557,12 +2557,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 191,
-        "pulledDate": "2026-09-06",
-        "latestRating": 711,
+        "totalGames": 194,
+        "pulledDate": "2026-09-08",
+        "latestRating": 697,
         "peakRating": 858
       },
       "matches": [
+        {
+          "matchId": 505299307,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:49:30.000Z",
+          "dur": 2665,
+          "opponents": [
+            {
+              "profileId": 15498188,
+              "name": "Arrowgans"
+            },
+            {
+              "profileId": 21095702,
+              "name": "jorgerizek"
+            },
+            {
+              "profileId": 5155445,
+              "name": "bat_red"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26088533,
+              "name": "huntrixLoL"
+            },
+            {
+              "profileId": 1486590,
+              "name": "krook"
+            }
+          ]
+        },
+        {
+          "matchId": 505294016,
+          "civ": "Poles",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:25:23.000Z",
+          "dur": 1280,
+          "opponents": [
+            {
+              "profileId": 4305843,
+              "name": "viniciussantos.dev"
+            },
+            {
+              "profileId": 2142901,
+              "name": "jonas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9191297,
+              "name": "King Kong"
+            }
+          ]
+        },
+        {
+          "matchId": 505076119,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:43:46.000Z",
+          "dur": 2274,
+          "opponents": [
+            {
+              "profileId": 25329048,
+              "name": "Richard"
+            },
+            {
+              "profileId": 25355681,
+              "name": "pussy noodles"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22414919,
+              "name": "Nico_24"
+            }
+          ]
+        },
         {
           "matchId": 504825811,
           "civ": "Poles",
@@ -8624,5 +8710,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "no",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf4",
+  "countryName": "Norway"
 }

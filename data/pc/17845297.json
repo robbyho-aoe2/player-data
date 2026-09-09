@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 229,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1233,
         "peakRating": 1265
       },
@@ -3693,12 +3693,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1689,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1136,
+        "totalGames": 1690,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1153,
         "peakRating": 1262
       },
       "matches": [
+        {
+          "matchId": 505251686,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:51:14.000Z",
+          "dur": 1459,
+          "opponents": [
+            {
+              "profileId": 23331555,
+              "name": "Noob_Forever"
+            },
+            {
+              "profileId": 23325705,
+              "name": "eric"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13914230,
+              "name": "PanicCastle"
+            }
+          ]
+        },
         {
           "matchId": 503567116,
           "civ": "Persians",
@@ -46930,5 +46956,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

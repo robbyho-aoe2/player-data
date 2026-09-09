@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 95,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 1159,
         "peakRating": 1222
       },
@@ -1570,12 +1570,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 96,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1198,
+        "totalGames": 97,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1217,
         "peakRating": 1280
       },
       "matches": [
+        {
+          "matchId": 505154864,
+          "civ": "Jurchens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:45:45.000Z",
+          "dur": 1081,
+          "opponents": [
+            {
+              "profileId": 2000794,
+              "name": "TheLowercasee"
+            },
+            {
+              "profileId": 23142352,
+              "name": "I tried but....."
+            },
+            {
+              "profileId": 11226412,
+              "name": "Ozz"
+            },
+            {
+              "profileId": 2176966,
+              "name": "Paspian"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18686148,
+              "name": "Jarcor"
+            },
+            {
+              "profileId": 17496256,
+              "name": "Trimetroprim"
+            },
+            {
+              "profileId": 6063806,
+              "name": "Slyterry007"
+            }
+          ]
+        },
         {
           "matchId": 503017964,
           "civ": "Romans",
@@ -5499,5 +5541,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

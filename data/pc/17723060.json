@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 321,
-        "pulledDate": "2026-09-06",
-        "latestRating": 741,
+        "totalGames": 322,
+        "pulledDate": "2026-09-08",
+        "latestRating": 754,
         "peakRating": 775
       },
       "matches": [
+        {
+          "matchId": 505113979,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:43:32.000Z",
+          "dur": 1746,
+          "opponents": [
+            {
+              "profileId": 67949,
+              "name": "CTGZealot"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504797883,
           "civ": "Franks",
@@ -5177,12 +5194,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 143,
-        "pulledDate": "2026-09-06",
+        "totalGames": 144,
+        "pulledDate": "2026-09-08",
         "latestRating": 780,
         "peakRating": 857
       },
       "matches": [
+        {
+          "matchId": 504932116,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T04:00:55.000Z",
+          "dur": 333,
+          "opponents": [
+            {
+              "profileId": 24625340,
+              "name": "HD"
+            },
+            {
+              "profileId": 1170786,
+              "name": "Ali"
+            },
+            {
+              "profileId": 9536986,
+              "name": "caihongjiuzi"
+            },
+            {
+              "profileId": 17451826,
+              "name": "LWwcnm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1713209,
+              "name": "Carpeado BR"
+            },
+            {
+              "profileId": 15502300,
+              "name": "Cavil"
+            },
+            {
+              "profileId": 15502665,
+              "name": "Leeoku"
+            }
+          ]
+        },
         {
           "matchId": 504792104,
           "civ": "Franks",
@@ -9767,5 +9826,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

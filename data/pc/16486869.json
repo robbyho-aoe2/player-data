@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-08"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2020,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1252,
+        "totalGames": 2024,
+        "pulledDate": "2026-09-08",
+        "latestRating": 1257,
         "peakRating": 1372
       },
       "matches": [
+        {
+          "matchId": 505261227,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:42:46.000Z",
+          "dur": 2008,
+          "opponents": [
+            {
+              "profileId": 8755287,
+              "name": "\u5d69\u5c71\u661f\u82b1\u843d"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505247382,
+          "civ": "Saracens",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:26:47.000Z",
+          "dur": 1097,
+          "opponents": [
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505243129,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:04:56.000Z",
+          "dur": 854,
+          "opponents": [
+            {
+              "profileId": 14760192,
+              "name": "mcriano22"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505239276,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:45:29.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 11809418,
+              "name": "Nemecsek"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503884528,
           "civ": "Italians",
@@ -32370,7 +32438,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-08",
         "latestRating": 1213,
         "peakRating": 1213
       },
@@ -32852,5 +32920,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }
