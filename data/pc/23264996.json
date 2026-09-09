@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 416,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1940,
+        "totalGames": 417,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1930,
         "peakRating": 1970
       },
       "matches": [
+        {
+          "matchId": 505016616,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:18:11.000Z",
+          "dur": 634,
+          "opponents": [
+            {
+              "profileId": 4756000,
+              "name": "Andi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504862242,
           "civ": "Mongols",
@@ -7101,12 +7118,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 172,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1427,
+        "totalGames": 173,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1445,
         "peakRating": 1464
       },
       "matches": [
+        {
+          "matchId": 505041570,
+          "civ": "Italians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:20:55.000Z",
+          "dur": 1289,
+          "opponents": [
+            {
+              "profileId": 273001,
+              "name": "\u30df\u30fc\u30e0\u5927\u597d\u304d"
+            },
+            {
+              "profileId": 3176915,
+              "name": "[David]Dreamer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17945164,
+              "name": "MXTS | Fayer"
+            }
+          ]
+        },
         {
           "matchId": 504204507,
           "civ": "Slavs",
@@ -13629,5 +13672,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

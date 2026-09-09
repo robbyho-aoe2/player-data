@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 203,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1131,
+        "totalGames": 206,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1112,
         "peakRating": 1176
       },
       "matches": [
+        {
+          "matchId": 505354399,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:16:24.000Z",
+          "dur": 1672,
+          "opponents": [
+            {
+              "profileId": 17057312,
+              "name": "[RZ] HardZeeiRa-BR"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505347156,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:29:41.000Z",
+          "dur": 1856,
+          "opponents": [
+            {
+              "profileId": 2878670,
+              "name": "MaximuS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505135276,
+          "civ": "Tatars",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:51:36.000Z",
+          "dur": 2101,
+          "opponents": [
+            {
+              "profileId": 10053218,
+              "name": "EntrecoitoS"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504451918,
           "civ": "Burmese",
@@ -3288,12 +3339,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 106,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1271,
+        "totalGames": 108,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1272,
         "peakRating": 1289
       },
       "matches": [
+        {
+          "matchId": 505132774,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:38:01.000Z",
+          "dur": 737,
+          "opponents": [
+            {
+              "profileId": 4527877,
+              "name": "-DOKO-"
+            },
+            {
+              "profileId": 4448442,
+              "name": "XEVER | JoKeR"
+            },
+            {
+              "profileId": 1881204,
+              "name": "Felipe !"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 380262,
+              "name": "seba_aof"
+            },
+            {
+              "profileId": 3133747,
+              "name": "[CL]TrunicC"
+            }
+          ]
+        },
+        {
+          "matchId": 505079245,
+          "civ": "Malians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:57:15.000Z",
+          "dur": 1336,
+          "opponents": [
+            {
+              "profileId": 4870336,
+              "name": "Makina"
+            },
+            {
+              "profileId": 11748418,
+              "name": "bianfa54"
+            },
+            {
+              "profileId": 4747386,
+              "name": "pela-mela"
+            },
+            {
+              "profileId": 2026345,
+              "name": "Dream of Patatas Revolconas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 575170,
+              "name": "Crackh\u00f6rnchen"
+            },
+            {
+              "profileId": 15455883,
+              "name": "Caronte"
+            },
+            {
+              "profileId": 2945932,
+              "name": "donte"
+            }
+          ]
+        },
         {
           "matchId": 503715128,
           "civ": "Malay",
@@ -6636,5 +6763,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

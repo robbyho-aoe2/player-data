@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 119,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1176,
         "peakRating": 1226
       },
@@ -1941,12 +1941,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 103,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1242,
+        "totalGames": 105,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1239,
         "peakRating": 1269
       },
       "matches": [
+        {
+          "matchId": 504998683,
+          "civ": "Saracens",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T13:48:11.000Z",
+          "dur": 1637,
+          "opponents": [
+            {
+              "profileId": 5724878,
+              "name": "Zarathustra"
+            },
+            {
+              "profileId": 5959372,
+              "name": "adai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24834326,
+              "name": "keshkamekorw"
+            }
+          ]
+        },
+        {
+          "matchId": 504993867,
+          "civ": "Berbers",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T13:21:25.000Z",
+          "dur": 1355,
+          "opponents": [
+            {
+              "profileId": 1917338,
+              "name": "PeacefulFarmer"
+            },
+            {
+              "profileId": 20878537,
+              "name": "QSHAUEDY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24834326,
+              "name": "keshkamekorw"
+            }
+          ]
+        },
         {
           "matchId": 504481356,
           "civ": "Maya",
@@ -4595,5 +4647,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

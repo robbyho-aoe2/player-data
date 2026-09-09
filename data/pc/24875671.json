@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 66,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 436,
         "peakRating": 832
       },
@@ -1085,12 +1085,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 512,
-        "pulledDate": "2026-09-07",
-        "latestRating": 728,
+        "totalGames": 515,
+        "pulledDate": "2026-09-09",
+        "latestRating": 764,
         "peakRating": 864
       },
       "matches": [
+        {
+          "matchId": 505068413,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:14:42.000Z",
+          "dur": 1148,
+          "opponents": [
+            {
+              "profileId": 1586867,
+              "name": "HALOF"
+            },
+            {
+              "profileId": 2118720,
+              "name": "frog"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24454367,
+              "name": "Spartans300"
+            }
+          ]
+        },
+        {
+          "matchId": 505066503,
+          "civ": "Persians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:07:14.000Z",
+          "dur": 290,
+          "opponents": [
+            {
+              "profileId": 2118720,
+              "name": "frog"
+            },
+            {
+              "profileId": 4145953,
+              "name": "zataras10"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24454367,
+              "name": "Spartans300"
+            }
+          ]
+        },
+        {
+          "matchId": 505060564,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:43:30.000Z",
+          "dur": 1035,
+          "opponents": [
+            {
+              "profileId": 7883859,
+              "name": "mowmipirat"
+            },
+            {
+              "profileId": 2944294,
+              "name": "[MCC] Bacteria-Am"
+            },
+            {
+              "profileId": 4389895,
+              "name": "likewegnu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24454367,
+              "name": "Spartans300"
+            },
+            {
+              "profileId": 24456578,
+              "name": "KiKiKinetic"
+            }
+          ]
+        },
         {
           "matchId": 504825213,
           "civ": "Persians",
@@ -16658,5 +16744,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

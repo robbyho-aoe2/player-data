@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 831,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1528,
+        "totalGames": 832,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1544,
         "peakRating": 1673
       },
       "matches": [
+        {
+          "matchId": 505371089,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:03:40.000Z",
+          "dur": 1244,
+          "opponents": [
+            {
+              "profileId": 14706308,
+              "name": "DukeClapperOfCheekville"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504845325,
           "civ": "Mongols",
@@ -13348,12 +13365,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 918,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1588,
+        "totalGames": 921,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1569,
         "peakRating": 1681
       },
       "matches": [
+        {
+          "matchId": 505155987,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:52:46.000Z",
+          "dur": 1609,
+          "opponents": [
+            {
+              "profileId": 10578512,
+              "name": "Kold"
+            },
+            {
+              "profileId": 25477540,
+              "name": "golo_face"
+            },
+            {
+              "profileId": 2090670,
+              "name": "xeneta_"
+            },
+            {
+              "profileId": 2032023,
+              "name": "Strat"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5607335,
+              "name": "HK | El Chairo"
+            },
+            {
+              "profileId": 3508796,
+              "name": "hK | TwisteR"
+            },
+            {
+              "profileId": 6368179,
+              "name": "hk | DedeadorBoing"
+            }
+          ]
+        },
+        {
+          "matchId": 505149472,
+          "civ": "Slavs",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:13:59.000Z",
+          "dur": 2167,
+          "opponents": [
+            {
+              "profileId": 283233,
+              "name": "ashleylynn"
+            },
+            {
+              "profileId": 5401100,
+              "name": "The_Night_Wolf"
+            },
+            {
+              "profileId": 25530156,
+              "name": "RohanAoE"
+            },
+            {
+              "profileId": 25053587,
+              "name": "DarkWolf110722"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3521287,
+              "name": "hK | KocainE"
+            },
+            {
+              "profileId": 3508796,
+              "name": "hK | TwisteR"
+            },
+            {
+              "profileId": 5607335,
+              "name": "HK | El Chairo"
+            }
+          ]
+        },
+        {
+          "matchId": 505145749,
+          "civ": "Koreans",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:52:18.000Z",
+          "dur": 1025,
+          "opponents": [
+            {
+              "profileId": 2409794,
+              "name": "Aurum"
+            },
+            {
+              "profileId": 5550891,
+              "name": "Dificult"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5607335,
+              "name": "HK | El Chairo"
+            }
+          ]
+        },
         {
           "matchId": 504120250,
           "civ": "Huns",
@@ -46294,5 +46421,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

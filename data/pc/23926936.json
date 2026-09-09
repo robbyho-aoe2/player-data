@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 118,
-        "pulledDate": "2026-09-07",
-        "latestRating": 859,
+        "totalGames": 120,
+        "pulledDate": "2026-09-09",
+        "latestRating": 893,
         "peakRating": 1049
       },
       "matches": [
+        {
+          "matchId": 505315156,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:08:34.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 3212677,
+              "name": "luidgi.demaynard"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505031918,
+          "civ": "Gurjaras",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:33:57.000Z",
+          "dur": 1321,
+          "opponents": [
+            {
+              "profileId": 15015865,
+              "name": "Glacier"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504870179,
           "civ": "Gurjaras",
@@ -1935,12 +1969,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 704,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1297,
-        "peakRating": 1326
+        "totalGames": 707,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1342,
+        "peakRating": 1342
       },
       "matches": [
+        {
+          "matchId": 505097829,
+          "civ": "Gurjaras",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:19:06.000Z",
+          "dur": 1423,
+          "opponents": [
+            {
+              "profileId": 2727471,
+              "name": "sasha"
+            },
+            {
+              "profileId": 16829609,
+              "name": "Dej\u00e1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20472282,
+              "name": "petr.savelka"
+            }
+          ]
+        },
+        {
+          "matchId": 505084573,
+          "civ": "Gurjaras",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:19:16.000Z",
+          "dur": 3430,
+          "opponents": [
+            {
+              "profileId": 4118084,
+              "name": "ELBIO"
+            },
+            {
+              "profileId": 4308749,
+              "name": "Steve the Ishvalan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20472282,
+              "name": "petr.savelka"
+            }
+          ]
+        },
+        {
+          "matchId": 505076678,
+          "civ": "Gurjaras",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:46:38.000Z",
+          "dur": 1868,
+          "opponents": [
+            {
+              "profileId": 6187060,
+              "name": "Ricardo Arjona"
+            },
+            {
+              "profileId": 6390017,
+              "name": "Purpo22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20472282,
+              "name": "petr.savelka"
+            }
+          ]
+        },
         {
           "matchId": 504576253,
           "civ": "Gurjaras",
@@ -19567,5 +19679,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cz",
+  "countryIcon": "\ud83c\udde8\ud83c\uddff",
+  "countryName": "Czechia"
 }

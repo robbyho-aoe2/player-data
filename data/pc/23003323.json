@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 24,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 511,
         "peakRating": 628
       },
@@ -416,12 +416,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 305,
-        "pulledDate": "2026-09-03",
-        "latestRating": 584,
+        "totalGames": 307,
+        "pulledDate": "2026-09-09",
+        "latestRating": 558,
         "peakRating": 881
       },
       "matches": [
+        {
+          "matchId": 505366533,
+          "civ": "Byzantines",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:34:53.000Z",
+          "dur": 3032,
+          "opponents": [
+            {
+              "profileId": 25914815,
+              "name": "Geltros"
+            },
+            {
+              "profileId": 19794509,
+              "name": "Mek666nix"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23030651,
+              "name": "IlDuce.xX82"
+            }
+          ]
+        },
+        {
+          "matchId": 505361088,
+          "civ": "Aztecs",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:00:04.000Z",
+          "dur": 1816,
+          "opponents": [
+            {
+              "profileId": 8847632,
+              "name": "mcnuggets"
+            },
+            {
+              "profileId": 5384604,
+              "name": "BEtUetetaetA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23030651,
+              "name": "IlDuce.xX82"
+            }
+          ]
+        },
         {
           "matchId": 502541832,
           "civ": "Byzantines",
@@ -11250,5 +11302,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

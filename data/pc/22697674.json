@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 53,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1183,
         "peakRating": 1197
       },
@@ -930,12 +930,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 45,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1198,
+        "totalGames": 49,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1255,
         "peakRating": 1282
       },
       "matches": [
+        {
+          "matchId": 505347289,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:30:43.000Z",
+          "dur": 3290,
+          "opponents": [
+            {
+              "profileId": 509602,
+              "name": "Guver"
+            },
+            {
+              "profileId": 2101880,
+              "name": "LoKogan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21955204,
+              "name": "OPL"
+            }
+          ]
+        },
+        {
+          "matchId": 505341899,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:55:27.000Z",
+          "dur": 1502,
+          "opponents": [
+            {
+              "profileId": 24978784,
+              "name": "CanarioAOE"
+            },
+            {
+              "profileId": 11478491,
+              "name": "jaiderreyes4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21955204,
+              "name": "OPL"
+            }
+          ]
+        },
+        {
+          "matchId": 505337380,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:24:07.000Z",
+          "dur": 1507,
+          "opponents": [
+            {
+              "profileId": 18280257,
+              "name": "DrJorgexx"
+            },
+            {
+              "profileId": 4792629,
+              "name": "Neverlookback.88"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21955204,
+              "name": "OPL"
+            }
+          ]
+        },
+        {
+          "matchId": 505332456,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:51:57.000Z",
+          "dur": 1517,
+          "opponents": [
+            {
+              "profileId": 3164969,
+              "name": "Xeero"
+            },
+            {
+              "profileId": 2525338,
+              "name": "Dunmer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21955204,
+              "name": "OPL"
+            }
+          ]
+        },
         {
           "matchId": 505107704,
           "civ": "Aztecs",
@@ -2108,5 +2212,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

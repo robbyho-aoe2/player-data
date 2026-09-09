@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 37,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1191,
         "peakRating": 1191
       },
@@ -627,12 +627,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 110,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1239,
+        "totalGames": 112,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1237,
         "peakRating": 1265
       },
       "matches": [
+        {
+          "matchId": 504998683,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T13:48:11.000Z",
+          "dur": 1637,
+          "opponents": [
+            {
+              "profileId": 5724878,
+              "name": "Zarathustra"
+            },
+            {
+              "profileId": 5959372,
+              "name": "adai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24827081,
+              "name": "faker yone"
+            }
+          ]
+        },
+        {
+          "matchId": 504993867,
+          "civ": "Magyars",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T13:21:25.000Z",
+          "dur": 1355,
+          "opponents": [
+            {
+              "profileId": 20878537,
+              "name": "QSHAUEDY"
+            },
+            {
+              "profileId": 1917338,
+              "name": "PeacefulFarmer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24827081,
+              "name": "faker yone"
+            }
+          ]
+        },
         {
           "matchId": 504481356,
           "civ": "Mongols",
@@ -3458,5 +3510,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

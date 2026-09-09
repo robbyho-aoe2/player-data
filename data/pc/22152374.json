@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 686,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1151,
+        "totalGames": 690,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1184,
         "peakRating": 1257
       },
       "matches": [
+        {
+          "matchId": 505098270,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:20:44.000Z",
+          "dur": 935,
+          "opponents": [
+            {
+              "profileId": 6175977,
+              "name": "Liberty"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505094223,
+          "civ": "Romans",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:01:42.000Z",
+          "dur": 1049,
+          "opponents": [
+            {
+              "profileId": 20085885,
+              "name": "76561199114178359"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505090571,
+          "civ": "Romans",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:45:06.000Z",
+          "dur": 727,
+          "opponents": [
+            {
+              "profileId": 218879,
+              "name": "FinalExodus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505043626,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:29:22.000Z",
+          "dur": 1644,
+          "opponents": [
+            {
+              "profileId": 22661914,
+              "name": "Karatasa"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504517034,
           "civ": "Italians",
@@ -11025,12 +11093,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 766,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1161,
+        "totalGames": 769,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1172,
         "peakRating": 1251
       },
       "matches": [
+        {
+          "matchId": 505073058,
+          "civ": "Ethiopians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:32:25.000Z",
+          "dur": 1190,
+          "opponents": [
+            {
+              "profileId": 4193258,
+              "name": "Jersey_TitanX"
+            },
+            {
+              "profileId": 1832859,
+              "name": "The Spectre One"
+            },
+            {
+              "profileId": 4677434,
+              "name": "KASPER"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22020958,
+              "name": "opus DEPPUS"
+            },
+            {
+              "profileId": 221373,
+              "name": "watchbreaker"
+            }
+          ]
+        },
+        {
+          "matchId": 505066636,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:07:34.000Z",
+          "dur": 1280,
+          "opponents": [
+            {
+              "profileId": 1247558,
+              "name": "direct23"
+            },
+            {
+              "profileId": 24121305,
+              "name": "@Tomy"
+            },
+            {
+              "profileId": 4193258,
+              "name": "Jersey_TitanX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22020958,
+              "name": "opus DEPPUS"
+            },
+            {
+              "profileId": 221373,
+              "name": "watchbreaker"
+            }
+          ]
+        },
+        {
+          "matchId": 505059743,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:40:05.000Z",
+          "dur": 1347,
+          "opponents": [
+            {
+              "profileId": 2984419,
+              "name": "jsmaradiaga"
+            },
+            {
+              "profileId": 5438189,
+              "name": "mattesjbg"
+            },
+            {
+              "profileId": 19453161,
+              "name": "546308830"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 221373,
+              "name": "watchbreaker"
+            },
+            {
+              "profileId": 22020958,
+              "name": "opus DEPPUS"
+            }
+          ]
+        },
         {
           "matchId": 504331642,
           "civ": "Portuguese",
@@ -36410,5 +36580,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

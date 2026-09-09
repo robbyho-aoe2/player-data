@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1000
       },
       "matches": [
@@ -44,12 +44,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 157,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1169,
+        "totalGames": 158,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1186,
         "peakRating": 1226
       },
       "matches": [
+        {
+          "matchId": 505034714,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:47:59.000Z",
+          "dur": 1339,
+          "opponents": [
+            {
+              "profileId": 25250339,
+              "name": "il caldo fa schifo"
+            },
+            {
+              "profileId": 5583128,
+              "name": "\u53ea\u67035TC"
+            },
+            {
+              "profileId": 372360,
+              "name": "Fruitsallad"
+            },
+            {
+              "profileId": 2512356,
+              "name": "FappingFuriously"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24796964,
+              "name": "stormgoing"
+            },
+            {
+              "profileId": 5021112,
+              "name": "ArtherRen"
+            },
+            {
+              "profileId": 2861042,
+              "name": "Murschann"
+            }
+          ]
+        },
         {
           "matchId": 504552328,
           "civ": "Armenians",
@@ -6439,5 +6481,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 805
       },
       "matches": [
@@ -156,12 +156,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 280,
-        "pulledDate": "2026-09-07",
-        "latestRating": 621,
+        "totalGames": 282,
+        "pulledDate": "2026-09-09",
+        "latestRating": 593,
         "peakRating": 863
       },
       "matches": [
+        {
+          "matchId": 505366533,
+          "civ": "Goths",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:34:53.000Z",
+          "dur": 3032,
+          "opponents": [
+            {
+              "profileId": 19794509,
+              "name": "Mek666nix"
+            },
+            {
+              "profileId": 25914815,
+              "name": "Geltros"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23003323,
+              "name": "KaiserB"
+            }
+          ]
+        },
+        {
+          "matchId": 505361088,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:00:04.000Z",
+          "dur": 1816,
+          "opponents": [
+            {
+              "profileId": 8847632,
+              "name": "mcnuggets"
+            },
+            {
+              "profileId": 5384604,
+              "name": "BEtUetetaetA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23003323,
+              "name": "KaiserB"
+            }
+          ]
+        },
         {
           "matchId": 504657799,
           "civ": "Goths",
@@ -10292,5 +10344,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

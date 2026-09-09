@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 302,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 1092,
         "peakRating": 1146
       },
@@ -4878,12 +4878,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 265,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1197,
+        "totalGames": 266,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1182,
         "peakRating": 1251
       },
       "matches": [
+        {
+          "matchId": 505335500,
+          "civ": "Slavs",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:12:45.000Z",
+          "dur": 194,
+          "opponents": [
+            {
+              "profileId": 15012195,
+              "name": "KickersEmden_AoE"
+            },
+            {
+              "profileId": 12317297,
+              "name": "leon36"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10137131,
+              "name": "PINK GIRL"
+            }
+          ]
+        },
         {
           "matchId": 504609205,
           "civ": "Poles",
@@ -11515,5 +11541,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

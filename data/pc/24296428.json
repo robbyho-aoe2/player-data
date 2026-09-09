@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1209,
         "peakRating": 1241
       },
@@ -317,12 +317,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 148,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1304,
+        "totalGames": 151,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1290,
         "peakRating": 1320
       },
       "matches": [
+        {
+          "matchId": 505117243,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:04:07.000Z",
+          "dur": 1631,
+          "opponents": [
+            {
+              "profileId": 669752,
+              "name": "DK_Nightclaim"
+            },
+            {
+              "profileId": 20451153,
+              "name": "Ego.rolplayer"
+            },
+            {
+              "profileId": 3323089,
+              "name": "kugat"
+            },
+            {
+              "profileId": 2947022,
+              "name": "DK_Akutuhaburu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21410154,
+              "name": "TheKingofKing"
+            },
+            {
+              "profileId": 12268924,
+              "name": "TheBrian"
+            },
+            {
+              "profileId": 12009703,
+              "name": "lotus!"
+            }
+          ]
+        },
+        {
+          "matchId": 505113289,
+          "civ": "Khmer",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:40:16.000Z",
+          "dur": 1029,
+          "opponents": [
+            {
+              "profileId": 6753104,
+              "name": "goenka"
+            },
+            {
+              "profileId": 2390746,
+              "name": "Solaire (Praise the Sun)"
+            },
+            {
+              "profileId": 826435,
+              "name": "Salty"
+            },
+            {
+              "profileId": 250656,
+              "name": "FullmetalZimm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12009703,
+              "name": "lotus!"
+            },
+            {
+              "profileId": 3450780,
+              "name": "B\u0130ZANS KARGASI POLEMON"
+            },
+            {
+              "profileId": 3297494,
+              "name": "SS_Creuzebeck"
+            }
+          ]
+        },
+        {
+          "matchId": 505107893,
+          "civ": "Maya",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:10:15.000Z",
+          "dur": 1576,
+          "opponents": [
+            {
+              "profileId": 575850,
+              "name": "Le Miel Jospin"
+            },
+            {
+              "profileId": 4638394,
+              "name": "Agux"
+            },
+            {
+              "profileId": 4054668,
+              "name": "Ux'Serenata"
+            },
+            {
+              "profileId": 813446,
+              "name": "J10KQ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12009703,
+              "name": "lotus!"
+            },
+            {
+              "profileId": 9648857,
+              "name": "jomanuel28"
+            },
+            {
+              "profileId": 5320540,
+              "name": "El Carajito De La Flecha"
+            }
+          ]
+        },
         {
           "matchId": 501626781,
           "civ": "Wei",
@@ -5777,5 +5903,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

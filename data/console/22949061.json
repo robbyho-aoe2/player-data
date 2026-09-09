@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 622,
         "peakRating": 622
       },
@@ -176,16 +176,50 @@
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 4,
-        "pulledDate": "2026-09-07"
+        "totalGames": 6,
+        "pulledDate": "2026-09-09"
       },
       "matches": [
+        {
+          "matchId": 505156281,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:53:52.000Z",
+          "dur": 1462,
+          "opponents": [
+            {
+              "profileId": 11613803,
+              "name": "Ger!!!"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505119941,
+          "civ": "Maya",
+          "map": "Migration",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:19:56.000Z",
+          "dur": 3456,
+          "opponents": [
+            {
+              "profileId": 24873579,
+              "name": "isaacetric"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504650981,
           "civ": "Franks",
@@ -255,10 +289,37 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "totalGames": 1,
+        "pulledDate": "2026-09-09"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 505293264,
+          "civ": "Vietnamese",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:21:42.000Z",
+          "dur": 603,
+          "opponents": [
+            {
+              "profileId": 18805383,
+              "name": "Requejo"
+            },
+            {
+              "profileId": 4588502,
+              "name": "Ferdi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26016900,
+              "name": "Mowgly"
+            }
+          ]
+        }
+      ]
     }
   },
   "country": "fr",

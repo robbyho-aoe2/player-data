@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-31"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-31"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 281,
-        "pulledDate": "2026-08-31",
-        "latestRating": 1042,
+        "totalGames": 282,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1057,
         "peakRating": 1060
       },
       "matches": [
+        {
+          "matchId": 505325253,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:07:12.000Z",
+          "dur": 618,
+          "opponents": [
+            {
+              "profileId": 13753948,
+              "name": "Shintao80"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501513690,
           "civ": "Persians",
@@ -4525,12 +4542,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 247,
-        "pulledDate": "2026-08-31",
-        "latestRating": 1241,
+        "totalGames": 248,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1224,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 505328225,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:25:18.000Z",
+          "dur": 1487,
+          "opponents": [
+            {
+              "profileId": 1722533,
+              "name": "El senor AOE"
+            },
+            {
+              "profileId": 4792629,
+              "name": "Neverlookback.88"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21303615,
+              "name": "SR1993"
+            }
+          ]
+        },
         {
           "matchId": 500694616,
           "civ": "Cumans",
@@ -12660,5 +12703,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "bd",
+  "countryIcon": "\ud83c\udde7\ud83c\udde9",
+  "countryName": "Bangladesh"
 }

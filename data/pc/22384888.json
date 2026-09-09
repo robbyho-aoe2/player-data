@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 942,
         "peakRating": 942
       },
@@ -205,12 +205,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 650,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1198,
+        "totalGames": 652,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1200,
         "peakRating": 1302
       },
       "matches": [
+        {
+          "matchId": 505196263,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T09:33:06.000Z",
+          "dur": 1994,
+          "opponents": [
+            {
+              "profileId": 11761834,
+              "name": "waitmanshu"
+            },
+            {
+              "profileId": 10084749,
+              "name": "Python 1.7.22"
+            },
+            {
+              "profileId": 10059561,
+              "name": "Oden"
+            },
+            {
+              "profileId": 427031,
+              "name": "\u963f\u59c6\u65af\u7279\u6717\u65cb\u98a8\u5674\u5c04\u9a0e\u9bca\u8056\u8c93"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 412139,
+              "name": "ProteinShake"
+            },
+            {
+              "profileId": 22391583,
+              "name": "Hawke"
+            },
+            {
+              "profileId": 6935904,
+              "name": "Freegan"
+            }
+          ]
+        },
+        {
+          "matchId": 504976136,
+          "civ": "Britons",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:15:44.000Z",
+          "dur": 2201,
+          "opponents": [
+            {
+              "profileId": 856103,
+              "name": "weiln"
+            },
+            {
+              "profileId": 6475393,
+              "name": "Mrcy"
+            },
+            {
+              "profileId": 8583273,
+              "name": "\u5f6d\u5927\u5e05"
+            },
+            {
+              "profileId": 23957710,
+              "name": "Sythe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 261026,
+              "name": "Hyp\u00e9rion"
+            },
+            {
+              "profileId": 1600769,
+              "name": "SoldatFou"
+            },
+            {
+              "profileId": 22391583,
+              "name": "Hawke"
+            }
+          ]
+        },
         {
           "matchId": 504694215,
           "civ": "Wei",
@@ -17497,5 +17581,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ph",
+  "countryIcon": "\ud83c\uddf5\ud83c\udded",
+  "countryName": "Philippines"
 }

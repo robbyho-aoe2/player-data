@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 79,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1779,
+        "totalGames": 82,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1766,
         "peakRating": 1855
       },
       "matches": [
+        {
+          "matchId": 505241477,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:56:22.000Z",
+          "dur": 336,
+          "opponents": [
+            {
+              "profileId": 1371787,
+              "name": "LLaRLLi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505235765,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:26:48.000Z",
+          "dur": 1702,
+          "opponents": [
+            {
+              "profileId": 720781,
+              "name": "Mutn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505235543,
+          "civ": "Wei",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:25:08.000Z",
+          "dur": 18,
+          "opponents": [
+            {
+              "profileId": 1108117,
+              "name": "Tommutjah"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504652526,
           "civ": "Portuguese",
@@ -1308,7 +1359,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1578,
         "peakRating": 1607
       },
@@ -4121,5 +4172,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

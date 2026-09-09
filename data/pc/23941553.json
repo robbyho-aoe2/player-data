@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 311,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1231,
+        "totalGames": 314,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1219,
         "peakRating": 1284
       },
       "matches": [
+        {
+          "matchId": 505347033,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:29:44.000Z",
+          "dur": 1385,
+          "opponents": [
+            {
+              "profileId": 1693432,
+              "name": "Cryptomage"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505124188,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:44:58.000Z",
+          "dur": 2128,
+          "opponents": [
+            {
+              "profileId": 396728,
+              "name": "afi012290"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505123786,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:43:22.000Z",
+          "dur": 30,
+          "opponents": [
+            {
+              "profileId": 23575088,
+              "name": "OROSP\u0130SENT"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504880521,
           "civ": "Romans",
@@ -4747,7 +4798,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 204,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1157,
         "peakRating": 1241
       },
@@ -8637,5 +8688,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 68,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 912,
         "peakRating": 958
       },
@@ -1120,12 +1120,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 311,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1295,
+        "totalGames": 314,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1282,
         "peakRating": 1328
       },
       "matches": [
+        {
+          "matchId": 505388898,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:36:16.000Z",
+          "dur": 1187,
+          "opponents": [
+            {
+              "profileId": 9874293,
+              "name": "MCWest"
+            },
+            {
+              "profileId": 4647899,
+              "name": "| ArCas | Cristiano Onagro"
+            },
+            {
+              "profileId": 22141917,
+              "name": "HAIPHONG u50"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6359534,
+              "name": "FERGA LARGA"
+            },
+            {
+              "profileId": 3161004,
+              "name": "El Cacas Vengador"
+            }
+          ]
+        },
+        {
+          "matchId": 505386388,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:09:55.000Z",
+          "dur": 1091,
+          "opponents": [
+            {
+              "profileId": 14684225,
+              "name": "Seifer"
+            },
+            {
+              "profileId": 3000413,
+              "name": "Tee"
+            },
+            {
+              "profileId": 6714817,
+              "name": "Anton Webern"
+            },
+            {
+              "profileId": 7166478,
+              "name": "virttuallG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3161004,
+              "name": "El Cacas Vengador"
+            },
+            {
+              "profileId": 6359534,
+              "name": "FERGA LARGA"
+            },
+            {
+              "profileId": 11594245,
+              "name": "Ux'DLM15"
+            }
+          ]
+        },
+        {
+          "matchId": 505381044,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:19:36.000Z",
+          "dur": 2828,
+          "opponents": [
+            {
+              "profileId": 2732294,
+              "name": "Maze"
+            },
+            {
+              "profileId": 14256461,
+              "name": "\u9633\u5149"
+            },
+            {
+              "profileId": 10809576,
+              "name": "PuneMahaWarrior"
+            },
+            {
+              "profileId": 2820597,
+              "name": "Josua_Deere"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11594245,
+              "name": "Ux'DLM15"
+            },
+            {
+              "profileId": 6359534,
+              "name": "FERGA LARGA"
+            },
+            {
+              "profileId": 3161004,
+              "name": "El Cacas Vengador"
+            }
+          ]
+        },
         {
           "matchId": 503964736,
           "civ": "Mongols",
@@ -12476,5 +12594,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

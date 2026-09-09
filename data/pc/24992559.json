@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 309,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1161,
+        "totalGames": 311,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1191,
         "peakRating": 1408
       },
       "matches": [
+        {
+          "matchId": 505390122,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:50:14.000Z",
+          "dur": 1629,
+          "opponents": [
+            {
+              "profileId": 8752681,
+              "name": "tapiatemo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505388663,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:33:19.000Z",
+          "dur": 650,
+          "opponents": [
+            {
+              "profileId": 22186895,
+              "name": "\u4f60\u662f\u4e00\u96bb\u597d\u72d7\u72d7"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504964592,
           "civ": "Malians",
@@ -5282,12 +5316,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 293,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1306,
+        "totalGames": 294,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1290,
         "peakRating": 1426
       },
       "matches": [
+        {
+          "matchId": 505340439,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:44:52.000Z",
+          "dur": 843,
+          "opponents": [
+            {
+              "profileId": 1993804,
+              "name": "Agron"
+            },
+            {
+              "profileId": 2363907,
+              "name": "Gannicus Dimachaerus"
+            },
+            {
+              "profileId": 3219489,
+              "name": "Crixus Murmillo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4210432,
+              "name": "\u0425\u0430\u0441\u0431\u0443\u043b\u043b\u0430"
+            },
+            {
+              "profileId": 25883445,
+              "name": "Specialist"
+            }
+          ]
+        },
         {
           "matchId": 484259073,
           "civ": "Vietnamese",
@@ -16468,5 +16536,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

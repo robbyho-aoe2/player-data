@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 53,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1114,
+        "totalGames": 55,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1117,
         "peakRating": 1223
       },
       "matches": [
+        {
+          "matchId": 505269566,
+          "civ": "Turks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:27:27.000Z",
+          "dur": 1670,
+          "opponents": [
+            {
+              "profileId": 10930130,
+              "name": "Robin Noob"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505265734,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:06:47.000Z",
+          "dur": 1148,
+          "opponents": [
+            {
+              "profileId": 1512759,
+              "name": "nicorafalestou"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503433179,
           "civ": "Spanish",
@@ -886,7 +920,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1099,
         "peakRating": 1099
       },
@@ -1241,5 +1275,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "jp",
+  "countryIcon": "\ud83c\uddef\ud83c\uddf5",
+  "countryName": "Japan"
 }

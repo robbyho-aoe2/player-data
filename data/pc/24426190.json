@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 165,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 803,
         "peakRating": 804
       },
@@ -2669,12 +2669,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 51,
-        "pulledDate": "2026-09-07",
-        "latestRating": 627,
+        "totalGames": 54,
+        "pulledDate": "2026-09-09",
+        "latestRating": 670,
         "peakRating": 735
       },
       "matches": [
+        {
+          "matchId": 505294800,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:28:21.000Z",
+          "dur": 1477,
+          "opponents": [
+            {
+              "profileId": 5418324,
+              "name": "jenjak"
+            },
+            {
+              "profileId": 19967246,
+              "name": "Javi_20i"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9563564,
+              "name": "AlarmingSquid25"
+            }
+          ]
+        },
+        {
+          "matchId": 505075698,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:41:44.000Z",
+          "dur": 1798,
+          "opponents": [
+            {
+              "profileId": 26084696,
+              "name": "Tompalol"
+            },
+            {
+              "profileId": 9630399,
+              "name": "Yung Torsten"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24483293,
+              "name": "Bugio"
+            }
+          ]
+        },
+        {
+          "matchId": 505070492,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:22:08.000Z",
+          "dur": 1035,
+          "opponents": [
+            {
+              "profileId": 5587062,
+              "name": "Nacho"
+            },
+            {
+              "profileId": 26099497,
+              "name": "Apple (Apps)"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 103507,
+              "name": "g_c_matthews_2000"
+            }
+          ]
+        },
         {
           "matchId": 504845914,
           "civ": "Franks",
@@ -3968,5 +4046,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fi",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddee",
+  "countryName": "Finland"
 }

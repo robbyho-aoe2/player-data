@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 199,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1149,
         "peakRating": 1161
       },
@@ -3213,12 +3213,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 57,
-        "pulledDate": "2026-09-03",
+        "totalGames": 59,
+        "pulledDate": "2026-09-09",
         "latestRating": 1239,
         "peakRating": 1257
       },
       "matches": [
+        {
+          "matchId": 505183296,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:06:16.000Z",
+          "dur": 1321,
+          "opponents": [
+            {
+              "profileId": 9522630,
+              "name": "General L\u00fcB\u00fc"
+            },
+            {
+              "profileId": 265700,
+              "name": "kama.Kroxa"
+            },
+            {
+              "profileId": 11006819,
+              "name": "\u4e00\u628a\u8471"
+            },
+            {
+              "profileId": 13707528,
+              "name": "volraththefallen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12344054,
+              "name": "MZTK | DarkLogan"
+            },
+            {
+              "profileId": 20548856,
+              "name": "Totemo"
+            },
+            {
+              "profileId": 23980613,
+              "name": "peona"
+            }
+          ]
+        },
+        {
+          "matchId": 505113992,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:44:25.000Z",
+          "dur": 846,
+          "opponents": [
+            {
+              "profileId": 2448185,
+              "name": "Peppyzizzle25"
+            },
+            {
+              "profileId": 3436772,
+              "name": "cortes.av"
+            },
+            {
+              "profileId": 3473693,
+              "name": "knight errant"
+            },
+            {
+              "profileId": 14691444,
+              "name": "Soaking Dill"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1966490,
+              "name": "zLIFE"
+            },
+            {
+              "profileId": 2763321,
+              "name": "| ArCas | Toruk Makto"
+            },
+            {
+              "profileId": 5265247,
+              "name": "battal hoplatan"
+            }
+          ]
+        },
         {
           "matchId": 504007069,
           "civ": "Romans",
@@ -5339,5 +5423,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 48,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1087,
         "peakRating": 1087
       },
@@ -797,12 +797,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 424,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1194,
+        "totalGames": 425,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1210,
         "peakRating": 1276
       },
       "matches": [
+        {
+          "matchId": 505037777,
+          "civ": "Jurchens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:02:41.000Z",
+          "dur": 1704,
+          "opponents": [
+            {
+              "profileId": 5511600,
+              "name": "Ibu"
+            },
+            {
+              "profileId": 14952387,
+              "name": "\u03c0 t"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22593165,
+              "name": "Gumpert"
+            }
+          ]
+        },
         {
           "matchId": 504821745,
           "civ": "Jurchens",
@@ -14504,5 +14530,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 344,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 671,
         "peakRating": 747
       },
@@ -5546,12 +5546,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 336,
-        "pulledDate": "2026-09-03",
-        "latestRating": 813,
+        "totalGames": 337,
+        "pulledDate": "2026-09-09",
+        "latestRating": 798,
         "peakRating": 813
       },
       "matches": [
+        {
+          "matchId": 505313374,
+          "civ": "Khitans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:59:16.000Z",
+          "dur": 1545,
+          "opponents": [
+            {
+              "profileId": 11966359,
+              "name": "Leuthifur"
+            },
+            {
+              "profileId": 456322,
+              "name": "Murtaent"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12475967,
+              "name": "TEAM MBG"
+            }
+          ]
+        },
         {
           "matchId": 500378605,
           "civ": "Turks",
@@ -16209,5 +16235,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

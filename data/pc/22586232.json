@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 157,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1016,
+        "totalGames": 158,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1032,
         "peakRating": 1062
       },
       "matches": [
+        {
+          "matchId": 505335856,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:13:49.000Z",
+          "dur": 1536,
+          "opponents": [
+            {
+              "profileId": 515617,
+              "name": "merk0"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502954034,
           "civ": "Goths",
@@ -2545,7 +2562,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 132,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1209,
         "peakRating": 1261
       },
@@ -6762,5 +6779,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1000
       },
       "matches": [
@@ -43,12 +43,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 325,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1255,
+        "totalGames": 328,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1293,
         "peakRating": 1293
       },
       "matches": [
+        {
+          "matchId": 505354593,
+          "civ": "Ethiopians",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:18:38.000Z",
+          "dur": 200,
+          "opponents": [
+            {
+              "profileId": 386806,
+              "name": "Skresh"
+            },
+            {
+              "profileId": 2820076,
+              "name": "UsK_Apocalipce"
+            },
+            {
+              "profileId": 5441049,
+              "name": "IRON MIKE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9253028,
+              "name": "Soon"
+            },
+            {
+              "profileId": 10524092,
+              "name": "Hotel"
+            }
+          ]
+        },
+        {
+          "matchId": 505352595,
+          "civ": "Ethiopians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:06:31.000Z",
+          "dur": 191,
+          "opponents": [
+            {
+              "profileId": 5441049,
+              "name": "IRON MIKE"
+            },
+            {
+              "profileId": 2691603,
+              "name": "[MLTS] RKotzen"
+            },
+            {
+              "profileId": 4222847,
+              "name": "Legate"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9253028,
+              "name": "Soon"
+            },
+            {
+              "profileId": 10524092,
+              "name": "Hotel"
+            }
+          ]
+        },
+        {
+          "matchId": 505347609,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:33:50.000Z",
+          "dur": 1528,
+          "opponents": [
+            {
+              "profileId": 326306,
+              "name": "CoterLee"
+            },
+            {
+              "profileId": 18546323,
+              "name": "Almost600"
+            },
+            {
+              "profileId": 20224108,
+              "name": "Ypsilon"
+            },
+            {
+              "profileId": 2069989,
+              "name": "[TodEs] JohnWCooke"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10524092,
+              "name": "Hotel"
+            },
+            {
+              "profileId": 9253028,
+              "name": "Soon"
+            },
+            {
+              "profileId": 2464316,
+              "name": "Husky"
+            }
+          ]
+        },
         {
           "matchId": 501877881,
           "civ": "Ethiopians",
@@ -7826,5 +7936,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

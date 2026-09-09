@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 971,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1098,
+        "totalGames": 972,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1113,
         "peakRating": 1193
       },
       "matches": [
+        {
+          "matchId": 504976691,
+          "civ": "Slavs",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:20:23.000Z",
+          "dur": 1773,
+          "opponents": [
+            {
+              "profileId": 23900950,
+              "name": "kjubab"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504771670,
           "civ": "Mongols",
@@ -15587,12 +15604,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 703,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1190,
+        "totalGames": 707,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1225,
         "peakRating": 1247
       },
       "matches": [
+        {
+          "matchId": 505013966,
+          "civ": "Slavs",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:05:58.000Z",
+          "dur": 1497,
+          "opponents": [
+            {
+              "profileId": 22906401,
+              "name": "[MMGVA] Pepitona"
+            },
+            {
+              "profileId": 19172227,
+              "name": "[MMGVA] PAPAITO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9469611,
+              "name": "potatochips"
+            }
+          ]
+        },
+        {
+          "matchId": 505009446,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:43:26.000Z",
+          "dur": 1108,
+          "opponents": [
+            {
+              "profileId": 16320954,
+              "name": "GestaLekgolo"
+            },
+            {
+              "profileId": 456872,
+              "name": "SleepDeprivedDaddy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9469611,
+              "name": "potatochips"
+            }
+          ]
+        },
+        {
+          "matchId": 505008728,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:39:50.000Z",
+          "dur": 67,
+          "opponents": [
+            {
+              "profileId": 906731,
+              "name": "Doge"
+            },
+            {
+              "profileId": 6776190,
+              "name": "bert1028"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9469611,
+              "name": "potatochips"
+            }
+          ]
+        },
+        {
+          "matchId": 505004960,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:21:17.000Z",
+          "dur": 965,
+          "opponents": [
+            {
+              "profileId": 10258919,
+              "name": "Wolong Qi"
+            },
+            {
+              "profileId": 3444829,
+              "name": "lenhhoxung"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9469611,
+              "name": "potatochips"
+            }
+          ]
+        },
         {
           "matchId": 504690516,
           "civ": "Franks",
@@ -33830,5 +33951,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 128,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1224,
         "peakRating": 1227
       },
@@ -2205,12 +2205,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 13,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1146,
+        "totalGames": 15,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1084,
         "peakRating": 1189
       },
       "matches": [
+        {
+          "matchId": 505262772,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:52:21.000Z",
+          "dur": 2181,
+          "opponents": [
+            {
+              "profileId": 5528889,
+              "name": "Veyron"
+            },
+            {
+              "profileId": 1388127,
+              "name": "salan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23592411,
+              "name": "can2k"
+            }
+          ]
+        },
+        {
+          "matchId": 505259320,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:33:14.000Z",
+          "dur": 953,
+          "opponents": [
+            {
+              "profileId": 22763742,
+              "name": "APG__Roy"
+            },
+            {
+              "profileId": 23068052,
+              "name": "aKrasia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23592411,
+              "name": "can2k"
+            }
+          ]
+        },
         {
           "matchId": 504463871,
           "civ": "Huns",
@@ -2663,5 +2715,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

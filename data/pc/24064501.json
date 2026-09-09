@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 548,
-        "pulledDate": "2026-09-07",
-        "latestRating": 2332,
+        "totalGames": 552,
+        "pulledDate": "2026-09-09",
+        "latestRating": 2302,
         "peakRating": 2499
       },
       "matches": [
+        {
+          "matchId": 505195124,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T09:20:41.000Z",
+          "dur": 2036,
+          "opponents": [
+            {
+              "profileId": 251265,
+              "name": "MbL"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504979613,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:44:03.000Z",
+          "dur": 1767,
+          "opponents": [
+            {
+              "profileId": 1878835,
+              "name": "Tomppa"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504978922,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:38:33.000Z",
+          "dur": 153,
+          "opponents": [
+            {
+              "profileId": 2301379,
+              "name": "Molle"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 504978333,
+          "civ": "Mongols",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T11:33:31.000Z",
+          "dur": 235,
+          "opponents": [
+            {
+              "profileId": 2301379,
+              "name": "Molle"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504811457,
           "civ": "Portuguese",
@@ -8807,7 +8875,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 158,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1568,
         "peakRating": 1712
       },
@@ -13540,5 +13608,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1008
       },
       "matches": [
@@ -76,12 +76,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 78,
-        "pulledDate": "2026-09-03",
-        "latestRating": 735,
+        "totalGames": 80,
+        "pulledDate": "2026-09-09",
+        "latestRating": 743,
         "peakRating": 902
       },
       "matches": [
+        {
+          "matchId": 505386974,
+          "civ": "Ethiopians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:16:04.000Z",
+          "dur": 1512,
+          "opponents": [
+            {
+              "profileId": 6800573,
+              "name": "stephenskocpol"
+            },
+            {
+              "profileId": 1358063,
+              "name": "Troy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25928778,
+              "name": "lucky.archer"
+            }
+          ]
+        },
+        {
+          "matchId": 505383247,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:39:28.000Z",
+          "dur": 1975,
+          "opponents": [
+            {
+              "profileId": 12349691,
+              "name": "Vinvinn"
+            },
+            {
+              "profileId": 6523175,
+              "name": "DaRealTurbo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25928778,
+              "name": "lucky.archer"
+            }
+          ]
+        },
         {
           "matchId": 500886293,
           "civ": "Goths",
@@ -2559,5 +2611,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

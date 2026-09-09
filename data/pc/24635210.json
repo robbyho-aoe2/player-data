@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 910
       },
       "matches": [
@@ -76,12 +76,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 225,
-        "pulledDate": "2026-09-07",
+        "totalGames": 227,
+        "pulledDate": "2026-09-09",
         "latestRating": 1184,
         "peakRating": 1276
       },
       "matches": [
+        {
+          "matchId": 505041841,
+          "civ": "Persians",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:22:12.000Z",
+          "dur": 1754,
+          "opponents": [
+            {
+              "profileId": 21757420,
+              "name": "haru"
+            },
+            {
+              "profileId": 19721842,
+              "name": "unspokenspecter"
+            },
+            {
+              "profileId": 9481121,
+              "name": "...ARX..."
+            },
+            {
+              "profileId": 5890432,
+              "name": "NightShade"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 243109,
+              "name": "Finarfin"
+            },
+            {
+              "profileId": 21745247,
+              "name": "BersaS2"
+            },
+            {
+              "profileId": 15684045,
+              "name": "Sr_Pika_mx"
+            }
+          ]
+        },
+        {
+          "matchId": 505009417,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:43:08.000Z",
+          "dur": 2493,
+          "opponents": [
+            {
+              "profileId": 20052143,
+              "name": "Firicel"
+            },
+            {
+              "profileId": 21160808,
+              "name": "Hilary"
+            },
+            {
+              "profileId": 19878443,
+              "name": "Azazel"
+            },
+            {
+              "profileId": 3075382,
+              "name": "\u5de8\u5927\u8c5a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15949256,
+              "name": "nguyenducminhhieu"
+            },
+            {
+              "profileId": 11089954,
+              "name": "Keanoob Reeves"
+            },
+            {
+              "profileId": 5963639,
+              "name": "\u6296\u97f3\u5e1d\u56fd\u963f\u98de"
+            }
+          ]
+        },
         {
           "matchId": 504506228,
           "civ": "Huns",
@@ -9267,5 +9351,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }
