@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 693,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1503,
         "peakRating": 1505
       },
@@ -6266,12 +6266,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 537,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1273,
+        "totalGames": 538,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1257,
         "peakRating": 1356
       },
       "matches": [
+        {
+          "matchId": 505258666,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:29:51.000Z",
+          "dur": 1704,
+          "opponents": [
+            {
+              "profileId": 3410244,
+              "name": "SwallowXII"
+            },
+            {
+              "profileId": 4967882,
+              "name": "Kingking2014"
+            },
+            {
+              "profileId": 8680091,
+              "name": "80\u540e\u5355\u624b\u73a9\u5e1d\u56fd"
+            },
+            {
+              "profileId": 17618476,
+              "name": "Valhalla9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4294373,
+              "name": "ARipoll"
+            },
+            {
+              "profileId": 15267938,
+              "name": "\u05c5"
+            },
+            {
+              "profileId": 17665782,
+              "name": "BoogStasher3000"
+            }
+          ]
+        },
         {
           "matchId": 504280594,
           "civ": "Huns",
@@ -11846,5 +11888,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

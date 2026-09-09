@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 309,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1171,
         "peakRating": 1172
       },
@@ -4649,12 +4649,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1306,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1279,
+        "totalGames": 1309,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1290,
         "peakRating": 1354
       },
       "matches": [
+        {
+          "matchId": 505438273,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:31:01.000Z",
+          "dur": 1372,
+          "opponents": [
+            {
+              "profileId": 5282855,
+              "name": "HAKUNA MATATA"
+            },
+            {
+              "profileId": 25933845,
+              "name": "3024770"
+            },
+            {
+              "profileId": 10110925,
+              "name": "Bear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5271927,
+              "name": "\u4e2d\u56fd\u8db3\u7403"
+            },
+            {
+              "profileId": 8607447,
+              "name": "TingA"
+            }
+          ]
+        },
+        {
+          "matchId": 505435923,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:17:21.000Z",
+          "dur": 681,
+          "opponents": [
+            {
+              "profileId": 758843,
+              "name": "MA"
+            },
+            {
+              "profileId": 373550,
+              "name": "Lumberjack"
+            },
+            {
+              "profileId": 9738996,
+              "name": "[ Wildpigs ] Mau"
+            },
+            {
+              "profileId": 3544244,
+              "name": "\u99ac\u514b\u8001\u5e2b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8607447,
+              "name": "TingA"
+            },
+            {
+              "profileId": 5271927,
+              "name": "\u4e2d\u56fd\u8db3\u7403"
+            },
+            {
+              "profileId": 25516529,
+              "name": "COBREL8A"
+            }
+          ]
+        },
+        {
+          "matchId": 505431055,
+          "civ": "Shu",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:45:52.000Z",
+          "dur": 1736,
+          "opponents": [
+            {
+              "profileId": 24058386,
+              "name": "rafaelpereira2007"
+            },
+            {
+              "profileId": 18584242,
+              "name": "cold killer"
+            },
+            {
+              "profileId": 11992983,
+              "name": "\u7ef5\u7ef5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8607447,
+              "name": "TingA"
+            },
+            {
+              "profileId": 5271927,
+              "name": "\u4e2d\u56fd\u8db3\u7403"
+            }
+          ]
+        },
         {
           "matchId": 504748184,
           "civ": "Persians",
@@ -34408,5 +34518,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

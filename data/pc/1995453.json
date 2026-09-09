@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3105,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1124,
+        "totalGames": 3106,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1107,
         "peakRating": 1325
       },
       "matches": [
+        {
+          "matchId": 505480435,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:18:16.000Z",
+          "dur": 1724,
+          "opponents": [
+            {
+              "profileId": 9448362,
+              "name": "Pjao"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504821272,
           "civ": "Khmer",
@@ -49725,12 +49742,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 608,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1072,
+        "totalGames": 609,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1056,
         "peakRating": 1286
       },
       "matches": [
+        {
+          "matchId": 505259885,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:36:33.000Z",
+          "dur": 2075,
+          "opponents": [
+            {
+              "profileId": 18846784,
+              "name": "\u62d6\u5c3c"
+            },
+            {
+              "profileId": 22865917,
+              "name": "Infuze_Sigma"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23726735,
+              "name": "nurlan-c"
+            }
+          ]
+        },
         {
           "matchId": 504737208,
           "civ": "Ethiopians",
@@ -65032,5 +65075,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

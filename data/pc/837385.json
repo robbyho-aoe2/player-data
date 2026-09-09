@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 548,
-        "pulledDate": "2026-08-28",
-        "latestRating": 1422,
+        "totalGames": 550,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1423,
         "peakRating": 1599
       },
       "matches": [
+        {
+          "matchId": 505053531,
+          "civ": "Portuguese",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:13:42.000Z",
+          "dur": 1000,
+          "opponents": [
+            {
+              "profileId": 3440529,
+              "name": "Pol"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505053243,
+          "civ": "Japanese",
+          "map": "Marketplace",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:12:55.000Z",
+          "dur": 13,
+          "opponents": [
+            {
+              "profileId": 2687699,
+              "name": "SwetOtto"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 494990143,
           "civ": "Saracens",
@@ -4962,7 +4996,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1171,
-        "pulledDate": "2026-08-28",
+        "pulledDate": "2026-09-09",
         "latestRating": 1434,
         "peakRating": 1519
       },
@@ -15508,5 +15542,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gr",
+  "countryIcon": "\ud83c\uddec\ud83c\uddf7",
+  "countryName": "Greece"
 }

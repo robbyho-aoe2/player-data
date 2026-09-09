@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 169,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1048,
+        "totalGames": 175,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1047,
         "peakRating": 1166
       },
       "matches": [
+        {
+          "matchId": 505288595,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:59:25.000Z",
+          "dur": 1504,
+          "opponents": [
+            {
+              "profileId": 23391867,
+              "name": "joaco.modon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505279867,
+          "civ": "Japanese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:18:05.000Z",
+          "dur": 1957,
+          "opponents": [
+            {
+              "profileId": 10055496,
+              "name": "Reibud"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505278504,
+          "civ": "Chinese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:11:59.000Z",
+          "dur": 39,
+          "opponents": [
+            {
+              "profileId": 24422617,
+              "name": "Quimimoshly06"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505237909,
+          "civ": "Romans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:37:59.000Z",
+          "dur": 1799,
+          "opponents": [
+            {
+              "profileId": 2622239,
+              "name": "Sim\u00e3o"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505233313,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:13:48.000Z",
+          "dur": 1336,
+          "opponents": [
+            {
+              "profileId": 5192391,
+              "name": "William"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505227665,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:41:43.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 12067335,
+              "name": "AggressiveAlgae"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504811829,
           "civ": "Franks",
@@ -2738,12 +2840,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 270,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1215,
+        "totalGames": 271,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1198,
         "peakRating": 1277
       },
       "matches": [
+        {
+          "matchId": 505297063,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:38:53.000Z",
+          "dur": 1805,
+          "opponents": [
+            {
+              "profileId": 19444635,
+              "name": "Pimbo"
+            },
+            {
+              "profileId": 24363093,
+              "name": "Jobington"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19526392,
+              "name": "Berenjena"
+            }
+          ]
+        },
         {
           "matchId": 504138178,
           "civ": "Turks",
@@ -10931,5 +11059,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 108,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1211,
+        "totalGames": 109,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1228,
         "peakRating": 1232
       },
       "matches": [
+        {
+          "matchId": 505419300,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T11:13:24.000Z",
+          "dur": 1935,
+          "opponents": [
+            {
+              "profileId": 21201556,
+              "name": "a.l.a.n.t"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504224895,
           "civ": "Malay",
@@ -1771,12 +1788,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 76,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1139,
+        "totalGames": 78,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1140,
         "peakRating": 1173
       },
       "matches": [
+        {
+          "matchId": 505425487,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:05:44.000Z",
+          "dur": 2084,
+          "opponents": [
+            {
+              "profileId": 387552,
+              "name": "Papa Fil"
+            },
+            {
+              "profileId": 2615203,
+              "name": "Eric212"
+            },
+            {
+              "profileId": 26108844,
+              "name": "carnicinha"
+            },
+            {
+              "profileId": 12379063,
+              "name": "emre_gul19"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11669770,
+              "name": "\u866b"
+            },
+            {
+              "profileId": 10695614,
+              "name": "w2k8m1w2762"
+            },
+            {
+              "profileId": 3378749,
+              "name": "\u5510\u5c1a\u4e66\u53f3\u4e1e\u738b\u7ef4"
+            }
+          ]
+        },
+        {
+          "matchId": 505412173,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:02:51.000Z",
+          "dur": 2133,
+          "opponents": [
+            {
+              "profileId": 21018051,
+              "name": "Giovanni_di_Pietro_di_Bernadone"
+            },
+            {
+              "profileId": 11471238,
+              "name": "Eule_Keule"
+            },
+            {
+              "profileId": 1330408,
+              "name": "KIV.Theo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25721019,
+              "name": "bumap"
+            },
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            }
+          ]
+        },
         {
           "matchId": 504191880,
           "civ": "Italians",
@@ -4236,5 +4329,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

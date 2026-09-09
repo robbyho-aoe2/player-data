@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 364,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1417,
         "peakRating": 1459
       },
@@ -5853,12 +5853,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1370,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1556,
+        "totalGames": 1373,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1522,
         "peakRating": 1714
       },
       "matches": [
+        {
+          "matchId": 505069300,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:18:03.000Z",
+          "dur": 963,
+          "opponents": [
+            {
+              "profileId": 4401192,
+              "name": "Simonz"
+            },
+            {
+              "profileId": 2014691,
+              "name": "pren"
+            },
+            {
+              "profileId": 5914852,
+              "name": "Vormit"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 300565,
+              "name": "Wean Dinchester"
+            },
+            {
+              "profileId": 2687195,
+              "name": "Mongolsbiene"
+            }
+          ]
+        },
+        {
+          "matchId": 505061446,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:46:57.000Z",
+          "dur": 1171,
+          "opponents": [
+            {
+              "profileId": 15480637,
+              "name": "Poeta_Virgilio"
+            },
+            {
+              "profileId": 4380674,
+              "name": "themad22"
+            },
+            {
+              "profileId": 3295803,
+              "name": "Tumber"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2687195,
+              "name": "Mongolsbiene"
+            },
+            {
+              "profileId": 300565,
+              "name": "Wean Dinchester"
+            }
+          ]
+        },
+        {
+          "matchId": 505055987,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:25:02.000Z",
+          "dur": 1155,
+          "opponents": [
+            {
+              "profileId": 15480637,
+              "name": "Poeta_Virgilio"
+            },
+            {
+              "profileId": 3295803,
+              "name": "Tumber"
+            },
+            {
+              "profileId": 4380674,
+              "name": "themad22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 300565,
+              "name": "Wean Dinchester"
+            },
+            {
+              "profileId": 2687195,
+              "name": "Mongolsbiene"
+            }
+          ]
+        },
         {
           "matchId": 503185985,
           "civ": "Burgundians",
@@ -50014,5 +50116,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

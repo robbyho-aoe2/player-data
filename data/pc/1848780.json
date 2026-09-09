@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 162,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1156,
         "peakRating": 1248
       },
@@ -2622,12 +2622,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1108,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1166,
+        "totalGames": 1109,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1182,
         "peakRating": 1347
       },
       "matches": [
+        {
+          "matchId": 505167766,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:18:06.000Z",
+          "dur": 1750,
+          "opponents": [
+            {
+              "profileId": 276970,
+              "name": "MOV | 5sparco0"
+            },
+            {
+              "profileId": 4289539,
+              "name": "Jack The Handless"
+            },
+            {
+              "profileId": 2539142,
+              "name": "Master"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4436321,
+              "name": "Madness_longbow"
+            },
+            {
+              "profileId": 2627091,
+              "name": "HD_montu"
+            }
+          ]
+        },
         {
           "matchId": 504630841,
           "civ": "Slavs",
@@ -43857,5 +43891,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

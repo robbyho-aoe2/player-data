@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 243,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1163,
         "peakRating": 1180
       },
@@ -3917,12 +3917,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 972,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1155,
+        "totalGames": 973,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1174,
         "peakRating": 1335
       },
       "matches": [
+        {
+          "matchId": 505343806,
+          "civ": "Incas",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:08:03.000Z",
+          "dur": 2629,
+          "opponents": [
+            {
+              "profileId": 275147,
+              "name": "ColdNapalm707"
+            },
+            {
+              "profileId": 15494076,
+              "name": "Disvara"
+            },
+            {
+              "profileId": 15479714,
+              "name": "DrTyrant"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1062897,
+              "name": "Willie Beamin"
+            },
+            {
+              "profileId": 768797,
+              "name": "YuriBluestar"
+            }
+          ]
+        },
         {
           "matchId": 503970999,
           "civ": "Magyars",
@@ -40693,5 +40727,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "au",
+  "countryIcon": "\ud83c\udde6\ud83c\uddfa",
+  "countryName": "Australia"
 }

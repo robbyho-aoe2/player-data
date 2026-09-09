@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1272,
         "peakRating": 1320
       },
@@ -365,12 +365,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 852,
-        "pulledDate": "2026-09-07",
+        "totalGames": 856,
+        "pulledDate": "2026-09-09",
         "latestRating": 1296,
         "peakRating": 1416
       },
       "matches": [
+        {
+          "matchId": 505399943,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:51:17.000Z",
+          "dur": 1077,
+          "opponents": [
+            {
+              "profileId": 1379558,
+              "name": "fox0503"
+            },
+            {
+              "profileId": 19073620,
+              "name": "MBouzek"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 986248,
+              "name": "StickyBladez"
+            }
+          ]
+        },
+        {
+          "matchId": 505185217,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:30:27.000Z",
+          "dur": 1655,
+          "opponents": [
+            {
+              "profileId": 9081550,
+              "name": "Polito"
+            },
+            {
+              "profileId": 6319329,
+              "name": "ChickenHunter"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 986248,
+              "name": "StickyBladez"
+            }
+          ]
+        },
+        {
+          "matchId": 505184908,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:26:36.000Z",
+          "dur": 79,
+          "opponents": [
+            {
+              "profileId": 6319329,
+              "name": "ChickenHunter"
+            },
+            {
+              "profileId": 9081550,
+              "name": "Polito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 986248,
+              "name": "StickyBladez"
+            }
+          ]
+        },
+        {
+          "matchId": 505167611,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:17:04.000Z",
+          "dur": 1528,
+          "opponents": [
+            {
+              "profileId": 3697801,
+              "name": "RuNico"
+            },
+            {
+              "profileId": 2837528,
+              "name": "EseTipo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 986248,
+              "name": "StickyBladez"
+            }
+          ]
+        },
         {
           "matchId": 504949902,
           "civ": "Khmer",
@@ -31308,5 +31412,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nz",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddff",
+  "countryName": "New Zealand"
 }

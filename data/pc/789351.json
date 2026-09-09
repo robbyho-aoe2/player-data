@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1569,
         "peakRating": 1623
       },
@@ -589,12 +589,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1214,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1712,
+        "totalGames": 1218,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1729,
         "peakRating": 1744
       },
       "matches": [
+        {
+          "matchId": 505321156,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:43:03.000Z",
+          "dur": 626,
+          "opponents": [
+            {
+              "profileId": 24057816,
+              "name": "twitch: aoe2_billybadbeat II"
+            },
+            {
+              "profileId": 8857814,
+              "name": "gabi98bac"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
+        {
+          "matchId": 505316364,
+          "civ": "Chinese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:15:15.000Z",
+          "dur": 1168,
+          "opponents": [
+            {
+              "profileId": 19438274,
+              "name": "yix_x_xio"
+            },
+            {
+              "profileId": 5802107,
+              "name": "SMY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
+        {
+          "matchId": 505312240,
+          "civ": "Chinese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:53:04.000Z",
+          "dur": 1079,
+          "opponents": [
+            {
+              "profileId": 13714194,
+              "name": "Ux'Tycho0201"
+            },
+            {
+              "profileId": 23500663,
+              "name": "Ux'DonChauron"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
+        {
+          "matchId": 505303764,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:10:19.000Z",
+          "dur": 2221,
+          "opponents": [
+            {
+              "profileId": 19401632,
+              "name": "[KMNB] Ded\u00e3o"
+            },
+            {
+              "profileId": 5407539,
+              "name": "[KMNB] Bandeira"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
         {
           "matchId": 504308771,
           "civ": "Maya",
@@ -31271,5 +31375,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "dk",
+  "countryIcon": "\ud83c\udde9\ud83c\uddf0",
+  "countryName": "Denmark"
 }

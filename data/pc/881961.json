@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 178,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1482,
+        "totalGames": 179,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1497,
         "peakRating": 1618
       },
       "matches": [
+        {
+          "matchId": 505280480,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:20:05.000Z",
+          "dur": 1598,
+          "opponents": [
+            {
+              "profileId": 20214635,
+              "name": "Warthog"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503891680,
           "civ": "Malians",
@@ -2891,7 +2908,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 631,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1271,
         "peakRating": 1407
       },
@@ -20551,5 +20568,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 204,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1117,
         "peakRating": 1223
       },
@@ -3293,12 +3293,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2258,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1187,
+        "totalGames": 2262,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1189,
         "peakRating": 1375
       },
       "matches": [
+        {
+          "matchId": 505380362,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:13:34.000Z",
+          "dur": 3022,
+          "opponents": [
+            {
+              "profileId": 22405882,
+              "name": "TVHG.Chacky09"
+            },
+            {
+              "profileId": 2977109,
+              "name": "TVHG.LALO_CAESTA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4957090,
+              "name": "Fasces"
+            }
+          ]
+        },
+        {
+          "matchId": 505140862,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:24:42.000Z",
+          "dur": 1654,
+          "opponents": [
+            {
+              "profileId": 325014,
+              "name": "superfrank1114"
+            },
+            {
+              "profileId": 2667632,
+              "name": "AoeAuthority.com"
+            },
+            {
+              "profileId": 3022630,
+              "name": "LumiSpirit"
+            },
+            {
+              "profileId": 18005665,
+              "name": "pegador"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4937101,
+              "name": "OfFspRlNg"
+            },
+            {
+              "profileId": 10809576,
+              "name": "PuneMahaWarrior"
+            },
+            {
+              "profileId": 11890096,
+              "name": "."
+            }
+          ]
+        },
+        {
+          "matchId": 505077729,
+          "civ": "Turks",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:51:08.000Z",
+          "dur": 2032,
+          "opponents": [
+            {
+              "profileId": 1050919,
+              "name": "Yoking"
+            },
+            {
+              "profileId": 11365300,
+              "name": "king_espo"
+            },
+            {
+              "profileId": 1051084,
+              "name": "Turtletamer11"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2557452,
+              "name": "(JP) JR"
+            },
+            {
+              "profileId": 718791,
+              "name": "TheKeeG_"
+            }
+          ]
+        },
+        {
+          "matchId": 505071175,
+          "civ": "Malians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:25:18.000Z",
+          "dur": 1223,
+          "opponents": [
+            {
+              "profileId": 14068737,
+              "name": "Herbo4046"
+            },
+            {
+              "profileId": 2082456,
+              "name": "schlettian"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9081550,
+              "name": "Polito"
+            }
+          ]
+        },
         {
           "matchId": 504938948,
           "civ": "Celts",
@@ -76353,5 +76481,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

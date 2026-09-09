@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 254,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1161,
+        "totalGames": 256,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1154,
         "peakRating": 1208
       },
       "matches": [
+        {
+          "matchId": 505415593,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:38:03.000Z",
+          "dur": 1626,
+          "opponents": [
+            {
+              "profileId": 11381589,
+              "name": "GL_black duck"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505413063,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:11:50.000Z",
+          "dur": 754,
+          "opponents": [
+            {
+              "profileId": 2413977,
+              "name": "Jamdalf"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505245945,
           "civ": "Wei",
@@ -4348,7 +4382,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 101,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1015,
         "peakRating": 1095
       },
@@ -6981,5 +7015,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland"
 }

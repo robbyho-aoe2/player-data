@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1223,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1727,
         "peakRating": 1925
       },
@@ -11064,12 +11064,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1617,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1686,
+        "totalGames": 1619,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1687,
         "peakRating": 1858
       },
       "matches": [
+        {
+          "matchId": 505274455,
+          "civ": "Burgundians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:51:59.000Z",
+          "dur": 1010,
+          "opponents": [
+            {
+              "profileId": 698455,
+              "name": "DK | MF"
+            },
+            {
+              "profileId": 10840748,
+              "name": "DK | Mauseren"
+            },
+            {
+              "profileId": 4453778,
+              "name": "Young Carter"
+            },
+            {
+              "profileId": 1710792,
+              "name": "DK | MadsKillz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15506619,
+              "name": "Zni.Locuss"
+            },
+            {
+              "profileId": 15242442,
+              "name": "JINX"
+            },
+            {
+              "profileId": 9369781,
+              "name": "Morris=w="
+            }
+          ]
+        },
+        {
+          "matchId": 505273889,
+          "civ": "Koreans",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:49:05.000Z",
+          "dur": 56,
+          "opponents": [
+            {
+              "profileId": 1710792,
+              "name": "DK | MadsKillz"
+            },
+            {
+              "profileId": 4453778,
+              "name": "Young Carter"
+            },
+            {
+              "profileId": 698455,
+              "name": "DK | MF"
+            },
+            {
+              "profileId": 10840748,
+              "name": "DK | Mauseren"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9369781,
+              "name": "Morris=w="
+            },
+            {
+              "profileId": 15242442,
+              "name": "JINX"
+            },
+            {
+              "profileId": 15506619,
+              "name": "Zni.Locuss"
+            }
+          ]
+        },
         {
           "matchId": 504063190,
           "civ": "Mongols",
@@ -26236,5 +26320,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "bg",
+  "countryIcon": "\ud83c\udde7\ud83c\uddec",
+  "countryName": "Bulgaria"
 }

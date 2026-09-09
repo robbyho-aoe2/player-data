@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1552,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1634,
+        "totalGames": 1556,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1643,
         "peakRating": 1809
       },
       "matches": [
+        {
+          "matchId": 505307253,
+          "civ": "Italians",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:26:19.000Z",
+          "dur": 1541,
+          "opponents": [
+            {
+              "profileId": 21479454,
+              "name": "tim"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505301468,
+          "civ": "Khitans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:59:13.000Z",
+          "dur": 1536,
+          "opponents": [
+            {
+              "profileId": 18274942,
+              "name": "Le Roi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505299396,
+          "civ": "Incas",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:49:03.000Z",
+          "dur": 544,
+          "opponents": [
+            {
+              "profileId": 1469620,
+              "name": "more"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505295395,
+          "civ": "Armenians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:31:27.000Z",
+          "dur": 992,
+          "opponents": [
+            {
+              "profileId": 2706460,
+              "name": "MrDiiego/twitch.tv"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505088939,
           "civ": "Bohemians",
@@ -24885,12 +24953,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3829,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1403,
+        "totalGames": 3831,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1434,
         "peakRating": 1721
       },
       "matches": [
+        {
+          "matchId": 505315262,
+          "civ": "Dravidians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:09:24.000Z",
+          "dur": 2245,
+          "opponents": [
+            {
+              "profileId": 11391854,
+              "name": "LvSP | NITRAMzin"
+            },
+            {
+              "profileId": 5452377,
+              "name": "DGHIR | Miloss"
+            },
+            {
+              "profileId": 2737895,
+              "name": "Hakka1_90"
+            },
+            {
+              "profileId": 1921533,
+              "name": "PistonForjado"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1270532,
+              "name": "_SHiX_"
+            },
+            {
+              "profileId": 3202788,
+              "name": "[ECU] Tecno>Luis"
+            },
+            {
+              "profileId": 23284016,
+              "name": "Bz_UavK"
+            }
+          ]
+        },
+        {
+          "matchId": 505289036,
+          "civ": "Jurchens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:02:25.000Z",
+          "dur": 1547,
+          "opponents": [
+            {
+              "profileId": 4014681,
+              "name": "Le Belliqueux"
+            },
+            {
+              "profileId": 24289559,
+              "name": "le suricate cocasse"
+            },
+            {
+              "profileId": 22314916,
+              "name": "Le Cheval"
+            },
+            {
+              "profileId": 10990866,
+              "name": "Le Strat\u00e8ge"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 235708,
+              "name": "Baron Morg Von Wigard"
+            },
+            {
+              "profileId": 5963639,
+              "name": "\u6296\u97f3\u5e1d\u56fd\u963f\u98de"
+            },
+            {
+              "profileId": 10574452,
+              "name": "Arbuz"
+            }
+          ]
+        },
         {
           "matchId": 505104215,
           "civ": "Spanish",
@@ -180968,5 +181120,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

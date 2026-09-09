@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-09",
         "latestRating": 887,
         "peakRating": 933
       },
@@ -205,12 +205,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 184,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1176,
+        "totalGames": 186,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1153,
         "peakRating": 1272
       },
       "matches": [
+        {
+          "matchId": 505480709,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:20:31.000Z",
+          "dur": 2178,
+          "opponents": [
+            {
+              "profileId": 2915760,
+              "name": "HeyByeQ"
+            },
+            {
+              "profileId": 18848614,
+              "name": "\u505a\u7a7a\u6211\u9a55\u50b2\u505a\u7a7a\u88ab\u560e\u7206"
+            },
+            {
+              "profileId": 5897535,
+              "name": "chrisQQ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4067129,
+              "name": "Artist163Rus"
+            },
+            {
+              "profileId": 3927667,
+              "name": "GELO163Rus"
+            }
+          ]
+        },
+        {
+          "matchId": 505474600,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:47:21.000Z",
+          "dur": 1741,
+          "opponents": [
+            {
+              "profileId": 5215227,
+              "name": "cuaiern"
+            },
+            {
+              "profileId": 10812309,
+              "name": "Lanzarote"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3927667,
+              "name": "GELO163Rus"
+            }
+          ]
+        },
         {
           "matchId": 502679858,
           "civ": "Persians",
@@ -7086,5 +7146,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ru",
+  "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
+  "countryName": "Russian Federation"
 }

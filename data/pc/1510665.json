@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 626,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1339,
+        "totalGames": 628,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1336,
         "peakRating": 1492
       },
       "matches": [
+        {
+          "matchId": 505459078,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:22:52.000Z",
+          "dur": 1779,
+          "opponents": [
+            {
+              "profileId": 23231565,
+              "name": "klose"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505453624,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:53:27.000Z",
+          "dur": 1683,
+          "opponents": [
+            {
+              "profileId": 20221063,
+              "name": "\u6d85\u69c3\u91cd\u751f"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503639827,
           "civ": "Romans",
@@ -10672,7 +10706,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 93,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 1380,
         "peakRating": 1429
       },
@@ -13841,5 +13875,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

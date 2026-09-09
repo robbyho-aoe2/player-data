@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 649,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1570,
+        "totalGames": 653,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1574,
         "peakRating": 1674
       },
       "matches": [
+        {
+          "matchId": 505313591,
+          "civ": "Koreans",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:59:56.000Z",
+          "dur": 879,
+          "opponents": [
+            {
+              "profileId": 20745044,
+              "name": "derekmanosalvas33"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505308052,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:29:58.000Z",
+          "dur": 1737,
+          "opponents": [
+            {
+              "profileId": 278252,
+              "name": "Tebini Koppini"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505264533,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:00:31.000Z",
+          "dur": 1236,
+          "opponents": [
+            {
+              "profileId": 2066735,
+              "name": "MFL91"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505259914,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:36:02.000Z",
+          "dur": 1402,
+          "opponents": [
+            {
+              "profileId": 4300176,
+              "name": "\u265e\u738b\u901a"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505061198,
           "civ": "Turks",
@@ -10420,7 +10488,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 497,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1462,
         "peakRating": 1531
       },
@@ -23726,5 +23794,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

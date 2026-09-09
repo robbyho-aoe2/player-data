@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 52,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1063,
         "peakRating": 1063
       },
@@ -861,12 +861,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 925,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1231,
+        "totalGames": 927,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1215,
         "peakRating": 1308
       },
       "matches": [
+        {
+          "matchId": 505504395,
+          "civ": "Mapuche",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:17:01.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 378356,
+              "name": "Creamy 'Baldursson' Jones"
+            },
+            {
+              "profileId": 12324203,
+              "name": "\u6c50\u4e4b"
+            },
+            {
+              "profileId": 4808911,
+              "name": "Frodon le Hobbit"
+            },
+            {
+              "profileId": 1187154,
+              "name": "Papa G"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23776395,
+              "name": "HeN.Chiron"
+            },
+            {
+              "profileId": 16427102,
+              "name": "HeN.Synfo"
+            },
+            {
+              "profileId": 3861332,
+              "name": "HeN.Wun"
+            }
+          ]
+        },
+        {
+          "matchId": 505499606,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:54:35.000Z",
+          "dur": 1127,
+          "opponents": [
+            {
+              "profileId": 2096786,
+              "name": "smyracula"
+            },
+            {
+              "profileId": 6168453,
+              "name": "Gouldy928"
+            },
+            {
+              "profileId": 8676912,
+              "name": "O P T I M U S"
+            },
+            {
+              "profileId": 20581635,
+              "name": "Sacks910"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3861332,
+              "name": "HeN.Wun"
+            },
+            {
+              "profileId": 23776395,
+              "name": "HeN.Chiron"
+            },
+            {
+              "profileId": 25915536,
+              "name": "Tek"
+            }
+          ]
+        },
         {
           "matchId": 504832145,
           "civ": "Franks",
@@ -35800,5 +35884,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

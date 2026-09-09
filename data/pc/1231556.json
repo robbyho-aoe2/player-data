@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1053
       },
       "matches": [
@@ -58,12 +58,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3555,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1282,
+        "totalGames": 3557,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1311,
         "peakRating": 1438
       },
       "matches": [
+        {
+          "matchId": 505431486,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:48:40.000Z",
+          "dur": 2080,
+          "opponents": [
+            {
+              "profileId": 24167083,
+              "name": "YUZ"
+            },
+            {
+              "profileId": 7576368,
+              "name": "\u6e21\u9e26family"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23010529,
+              "name": "yamaguchi"
+            }
+          ]
+        },
+        {
+          "matchId": 505426839,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:15:27.000Z",
+          "dur": 1828,
+          "opponents": [
+            {
+              "profileId": 1763156,
+              "name": "Joe"
+            },
+            {
+              "profileId": 21442346,
+              "name": "bsd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23010529,
+              "name": "yamaguchi"
+            }
+          ]
+        },
         {
           "matchId": 503590108,
           "civ": "Italians",
@@ -88612,5 +88664,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "jp",
+  "countryIcon": "\ud83c\uddef\ud83c\uddf5",
+  "countryName": "Japan"
 }

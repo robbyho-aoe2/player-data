@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3378,
-        "pulledDate": "2026-09-07",
-        "latestRating": 2612,
+        "totalGames": 3379,
+        "pulledDate": "2026-09-09",
+        "latestRating": 2604,
         "peakRating": 2690
       },
       "matches": [
+        {
+          "matchId": 505062289,
+          "civ": "Sicilians",
+          "map": "Marketplace",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:49:50.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 666976,
+              "name": "Barles"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504809767,
           "civ": "Vietnamese",
@@ -54105,12 +54122,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 301,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1857,
-        "peakRating": 1857
+        "totalGames": 302,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1864,
+        "peakRating": 1864
       },
       "matches": [
+        {
+          "matchId": 505071797,
+          "civ": "Tupi",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:27:32.000Z",
+          "dur": 1897,
+          "opponents": [
+            {
+              "profileId": 238305,
+              "name": "[TMG] purple"
+            },
+            {
+              "profileId": 677003,
+              "name": "[TMG] Lucipher"
+            },
+            {
+              "profileId": 2680347,
+              "name": "[TMG] zv"
+            },
+            {
+              "profileId": 3153351,
+              "name": "[TMG] sandriko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10372288,
+              "name": "\u6e05\u8fdc\u534e"
+            },
+            {
+              "profileId": 20801774,
+              "name": "Julio2"
+            },
+            {
+              "profileId": 785630,
+              "name": "EL MAYA"
+            }
+          ]
+        },
         {
           "matchId": 502906669,
           "civ": "Burgundians",
@@ -64815,5 +64874,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

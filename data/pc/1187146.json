@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 302,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1037,
         "peakRating": 1269
       },
@@ -4867,12 +4867,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 839,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1228,
+        "totalGames": 842,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1215,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 505481114,
+          "civ": "Chinese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:22:45.000Z",
+          "dur": 1620,
+          "opponents": [
+            {
+              "profileId": 708226,
+              "name": "Arq. Barbaelegante"
+            },
+            {
+              "profileId": 1573065,
+              "name": "Lic. Juan Sin Miedo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18893751,
+              "name": "borgff"
+            }
+          ]
+        },
+        {
+          "matchId": 505312792,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:56:16.000Z",
+          "dur": 1576,
+          "opponents": [
+            {
+              "profileId": 270201,
+              "name": "Icecreature"
+            },
+            {
+              "profileId": 449799,
+              "name": "Bite Hard"
+            },
+            {
+              "profileId": 11759590,
+              "name": "Zeisus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18589366,
+              "name": "Mathjohan"
+            },
+            {
+              "profileId": 18893751,
+              "name": "borgff"
+            }
+          ]
+        },
+        {
+          "matchId": 505308753,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:34:28.000Z",
+          "dur": 1127,
+          "opponents": [
+            {
+              "profileId": 993498,
+              "name": "anti.orthographe"
+            },
+            {
+              "profileId": 1257008,
+              "name": "AGS.Shirar"
+            },
+            {
+              "profileId": 11714659,
+              "name": "AGS.Pymp K-T"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18589366,
+              "name": "Mathjohan"
+            },
+            {
+              "profileId": 18893751,
+              "name": "borgff"
+            }
+          ]
+        },
         {
           "matchId": 505080399,
           "civ": "Mongols",
@@ -28029,5 +28123,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "se",
+  "countryIcon": "\ud83c\uddf8\ud83c\uddea",
+  "countryName": "Sweden"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 275,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1528,
         "peakRating": 1630
       },
@@ -4429,12 +4429,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3045,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1437,
+        "totalGames": 3048,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1422,
         "peakRating": 1554
       },
       "matches": [
+        {
+          "matchId": 505365072,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:25:19.000Z",
+          "dur": 1626,
+          "opponents": [
+            {
+              "profileId": 24632000,
+              "name": "M.d"
+            },
+            {
+              "profileId": 12011326,
+              "name": "Codiman"
+            },
+            {
+              "profileId": 12173627,
+              "name": "EnxameRTS"
+            },
+            {
+              "profileId": 22747470,
+              "name": "ValkriaN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 488037,
+              "name": "Casualstone"
+            },
+            {
+              "profileId": 2480833,
+              "name": "\u9038\u4e36\u7136"
+            },
+            {
+              "profileId": 4502050,
+              "name": "ACN_Mk"
+            }
+          ]
+        },
+        {
+          "matchId": 505323527,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:56:46.000Z",
+          "dur": 997,
+          "opponents": [
+            {
+              "profileId": 25458675,
+              "name": "AVCAMIR"
+            },
+            {
+              "profileId": 3413129,
+              "name": "Aspirante"
+            },
+            {
+              "profileId": 15117511,
+              "name": "Snavle"
+            },
+            {
+              "profileId": 17036083,
+              "name": "The_OFLi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1888905,
+              "name": "PaRappa56"
+            },
+            {
+              "profileId": 1921533,
+              "name": "PistonForjado"
+            },
+            {
+              "profileId": 336329,
+              "name": "sneaky"
+            }
+          ]
+        },
+        {
+          "matchId": 505319551,
+          "civ": "Lithuanians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:33:18.000Z",
+          "dur": 1943,
+          "opponents": [
+            {
+              "profileId": 19186614,
+              "name": "FMG | Sawasha Takohida"
+            },
+            {
+              "profileId": 4466765,
+              "name": "02288"
+            },
+            {
+              "profileId": 17264388,
+              "name": "860"
+            },
+            {
+              "profileId": 25146766,
+              "name": "\u8001\u72d0\u72f8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1551876,
+              "name": "\u6795\u4e0a\u9e33\u9e2f\u7761\u7ea2\u83b2"
+            },
+            {
+              "profileId": 5273051,
+              "name": "Serkan the Tank"
+            },
+            {
+              "profileId": 5443218,
+              "name": "EMI"
+            }
+          ]
+        },
         {
           "matchId": 504762284,
           "civ": "Teutons",
@@ -112657,5 +112783,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

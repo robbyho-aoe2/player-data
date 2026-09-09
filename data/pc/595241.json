@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 829,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1635,
+        "totalGames": 831,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1650,
         "peakRating": 1726
       },
       "matches": [
+        {
+          "matchId": 505487338,
+          "civ": "Wei",
+          "map": "Enclosed",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:54:45.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 9636885,
+              "name": "Nameless"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505486953,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:53:17.000Z",
+          "dur": 31,
+          "opponents": [
+            {
+              "profileId": 15752697,
+              "name": "j1nkerS"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504737034,
           "civ": "Bengalis",
@@ -13299,7 +13333,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 103,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1438,
         "peakRating": 1458
       },
@@ -16039,5 +16073,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "lv",
+  "countryIcon": "\ud83c\uddf1\ud83c\uddfb",
+  "countryName": "Latvia"
 }

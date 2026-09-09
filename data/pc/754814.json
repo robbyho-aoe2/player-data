@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 207,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1561,
         "peakRating": 1707
       },
@@ -3341,12 +3341,182 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1148,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1549,
+        "totalGames": 1153,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1585,
         "peakRating": 1644
       },
       "matches": [
+        {
+          "matchId": 505324248,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:00:48.000Z",
+          "dur": 2449,
+          "opponents": [
+            {
+              "profileId": 5449338,
+              "name": "Michel Ney"
+            },
+            {
+              "profileId": 3038783,
+              "name": "Falcao"
+            },
+            {
+              "profileId": 24500948,
+              "name": "Youssef"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 234813,
+              "name": "WARChris"
+            },
+            {
+              "profileId": 5271588,
+              "name": "Lukas_AoE"
+            }
+          ]
+        },
+        {
+          "matchId": 505321100,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:42:40.000Z",
+          "dur": 906,
+          "opponents": [
+            {
+              "profileId": 24335740,
+              "name": "Zenta"
+            },
+            {
+              "profileId": 5839022,
+              "name": "[GLD] Abu abdullah"
+            },
+            {
+              "profileId": 24926497,
+              "name": "Ghosty"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5271588,
+              "name": "Lukas_AoE"
+            },
+            {
+              "profileId": 234813,
+              "name": "WARChris"
+            }
+          ]
+        },
+        {
+          "matchId": 505316301,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:14:59.000Z",
+          "dur": 1368,
+          "opponents": [
+            {
+              "profileId": 5991771,
+              "name": "BeardyMan37"
+            },
+            {
+              "profileId": 5765800,
+              "name": "TomRiddle"
+            },
+            {
+              "profileId": 3387238,
+              "name": "WackieChan_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 234813,
+              "name": "WARChris"
+            },
+            {
+              "profileId": 5271588,
+              "name": "Lukas_AoE"
+            }
+          ]
+        },
+        {
+          "matchId": 505311035,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:46:20.000Z",
+          "dur": 1431,
+          "opponents": [
+            {
+              "profileId": 18430668,
+              "name": "Turbox"
+            },
+            {
+              "profileId": 1773539,
+              "name": "Ketan67"
+            },
+            {
+              "profileId": 13572755,
+              "name": "76nateK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 234813,
+              "name": "WARChris"
+            },
+            {
+              "profileId": 5271588,
+              "name": "Lukas_AoE"
+            }
+          ]
+        },
+        {
+          "matchId": 505306732,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:24:03.000Z",
+          "dur": 871,
+          "opponents": [
+            {
+              "profileId": 313288,
+              "name": "Tequila Sunset"
+            },
+            {
+              "profileId": 754845,
+              "name": "AceRx"
+            },
+            {
+              "profileId": 19012079,
+              "name": "GAX | Urubu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5271588,
+              "name": "Lukas_AoE"
+            },
+            {
+              "profileId": 234813,
+              "name": "WARChris"
+            }
+          ]
+        },
         {
           "matchId": 504340996,
           "civ": "Mongols",
@@ -42126,5 +42296,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

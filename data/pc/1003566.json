@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 446,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1125,
+        "totalGames": 448,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1124,
         "peakRating": 1266
       },
       "matches": [
+        {
+          "matchId": 505051769,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:06:57.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 303831,
+              "name": "Potatoe D"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505047110,
+          "civ": "Gurjaras",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:45:15.000Z",
+          "dur": 1179,
+          "opponents": [
+            {
+              "profileId": 501845,
+              "name": "#"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504855599,
           "civ": "Malians",
@@ -7173,12 +7207,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1020,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1167,
+        "totalGames": 1024,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1162,
         "peakRating": 1271
       },
       "matches": [
+        {
+          "matchId": 505088956,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:38:45.000Z",
+          "dur": 1662,
+          "opponents": [
+            {
+              "profileId": 1062897,
+              "name": "Willie Beamin"
+            },
+            {
+              "profileId": 3132605,
+              "name": "Jac12345"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1002468,
+              "name": "NobregaPF"
+            }
+          ]
+        },
+        {
+          "matchId": 505082955,
+          "civ": "Turks",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:12:29.000Z",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 2734367,
+              "name": "Tengurai"
+            },
+            {
+              "profileId": 1997619,
+              "name": "Avc\u0131-47"
+            },
+            {
+              "profileId": 3095259,
+              "name": "Mithrandir"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1002468,
+              "name": "NobregaPF"
+            },
+            {
+              "profileId": 16089567,
+              "name": "Pandareeen"
+            }
+          ]
+        },
+        {
+          "matchId": 505072820,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:31:43.000Z",
+          "dur": 2214,
+          "opponents": [
+            {
+              "profileId": 2085914,
+              "name": "PutridWind"
+            },
+            {
+              "profileId": 6396475,
+              "name": "Henrj"
+            },
+            {
+              "profileId": 1878713,
+              "name": "Oblivican"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 466036,
+              "name": "John Kalztan"
+            },
+            {
+              "profileId": 1002468,
+              "name": "NobregaPF"
+            }
+          ]
+        },
+        {
+          "matchId": 505036197,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:55:22.000Z",
+          "dur": 1602,
+          "opponents": [
+            {
+              "profileId": 13971126,
+              "name": "1453sultan"
+            },
+            {
+              "profileId": 1942628,
+              "name": "Jonas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2781832,
+              "name": "X Saint"
+            }
+          ]
+        },
         {
           "matchId": 505011864,
           "civ": "Spanish",
@@ -34320,5 +34474,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

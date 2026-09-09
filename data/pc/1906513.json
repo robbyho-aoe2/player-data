@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 100,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1204,
+        "totalGames": 101,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1189,
         "peakRating": 1220
       },
       "matches": [
+        {
+          "matchId": 505447764,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:22:57.000Z",
+          "dur": 1550,
+          "opponents": [
+            {
+              "profileId": 6227015,
+              "name": "Ciganino"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499174162,
           "civ": "Magyars",
@@ -1629,12 +1646,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1174,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1113,
+        "totalGames": 1175,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1129,
         "peakRating": 1313
       },
       "matches": [
+        {
+          "matchId": 505264086,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:59:33.000Z",
+          "dur": 1105,
+          "opponents": [
+            {
+              "profileId": 9867753,
+              "name": "AlibekYes"
+            },
+            {
+              "profileId": 25723671,
+              "name": "Element"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15775422,
+              "name": "NikolaiExpress"
+            }
+          ]
+        },
         {
           "matchId": 504292383,
           "civ": "Mongols",
@@ -39470,5 +39513,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

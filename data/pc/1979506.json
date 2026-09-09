@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "peakRating": 1170,
         "latestRating": 1156
       },
@@ -269,12 +269,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 958,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1265,
+        "totalGames": 961,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1253,
         "peakRating": 1401
       },
       "matches": [
+        {
+          "matchId": 505324590,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:02:07.000Z",
+          "dur": 2462,
+          "opponents": [
+            {
+              "profileId": 11819624,
+              "name": "[GDL] Good_Guys"
+            },
+            {
+              "profileId": 894155,
+              "name": "Mr. Xeba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2177331,
+              "name": "[DR]Agustojoder"
+            }
+          ]
+        },
+        {
+          "matchId": 505319369,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:32:09.000Z",
+          "dur": 1430,
+          "opponents": [
+            {
+              "profileId": 22568941,
+              "name": "aurelio"
+            },
+            {
+              "profileId": 26022338,
+              "name": "Bejuma_jhon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2177331,
+              "name": "[DR]Agustojoder"
+            }
+          ]
+        },
+        {
+          "matchId": 505315610,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:11:05.000Z",
+          "dur": 1084,
+          "opponents": [
+            {
+              "profileId": 1911445,
+              "name": "Urielo82"
+            },
+            {
+              "profileId": 2305498,
+              "name": "Obitwo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2177331,
+              "name": "[DR]Agustojoder"
+            }
+          ]
+        },
         {
           "matchId": 503702152,
           "civ": "Maya",
@@ -29843,5 +29921,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

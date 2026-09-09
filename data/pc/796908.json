@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 38,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1168,
         "peakRating": 1185
       },
@@ -637,12 +637,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 970,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1152,
+        "totalGames": 971,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1166,
         "peakRating": 1352
       },
       "matches": [
+        {
+          "matchId": 505133329,
+          "civ": "Japanese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:41:08.000Z",
+          "dur": 1917,
+          "opponents": [
+            {
+              "profileId": 1911970,
+              "name": "George 32533"
+            },
+            {
+              "profileId": 1911745,
+              "name": "Rola23"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8958399,
+              "name": "loczekk_95"
+            }
+          ]
+        },
         {
           "matchId": 504362507,
           "civ": "Chinese",
@@ -35196,5 +35222,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

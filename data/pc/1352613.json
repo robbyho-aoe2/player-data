@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "peakRating": 1402,
         "latestRating": 1332
       },
@@ -705,12 +705,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 198,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1684,
+        "totalGames": 199,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1690,
         "peakRating": 1725
       },
       "matches": [
+        {
+          "matchId": 505281924,
+          "civ": "Malians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:27:42.000Z",
+          "dur": 1291,
+          "opponents": [
+            {
+              "profileId": 5167841,
+              "name": "TheMasai"
+            },
+            {
+              "profileId": 2222724,
+              "name": "Moard"
+            },
+            {
+              "profileId": 5360631,
+              "name": "Foolish_Jester"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10082510,
+              "name": "doubleroko"
+            },
+            {
+              "profileId": 24478471,
+              "name": "Lianki"
+            }
+          ]
+        },
         {
           "matchId": 505099914,
           "civ": "Ethiopians",
@@ -7707,5 +7741,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

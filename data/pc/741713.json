@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 28,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1021,
         "peakRating": 1034
       },
@@ -479,12 +479,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 135,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1145,
+        "totalGames": 137,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1138,
         "peakRating": 1231
       },
       "matches": [
+        {
+          "matchId": 505049483,
+          "civ": "Magyars",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:55:54.000Z",
+          "dur": 2015,
+          "opponents": [
+            {
+              "profileId": 19848003,
+              "name": "sanyecki_08"
+            },
+            {
+              "profileId": 4874250,
+              "name": "archarry86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 78689,
+              "name": "Gohma"
+            }
+          ]
+        },
+        {
+          "matchId": 505039824,
+          "civ": "Magyars",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:12:12.000Z",
+          "dur": 2286,
+          "opponents": [
+            {
+              "profileId": 556690,
+              "name": "halcocerh"
+            },
+            {
+              "profileId": 21094117,
+              "name": "escaflownej"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 78689,
+              "name": "Gohma"
+            }
+          ]
+        },
         {
           "matchId": 504139958,
           "civ": "Turks",
@@ -4572,5 +4624,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

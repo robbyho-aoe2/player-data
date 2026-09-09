@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1181,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1309,
+        "totalGames": 1183,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1307,
         "peakRating": 1506
       },
       "matches": [
+        {
+          "matchId": 505154717,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:43:54.000Z",
+          "dur": 1226,
+          "opponents": [
+            {
+              "profileId": 18974867,
+              "name": "FOX"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505150911,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:21:31.000Z",
+          "dur": 1291,
+          "opponents": [
+            {
+              "profileId": 21964370,
+              "name": "Twist"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504268435,
           "civ": "Portuguese",
@@ -20107,7 +20141,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1173,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-09",
         "latestRating": 1440,
         "peakRating": 1464
       },
@@ -68010,5 +68044,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 43,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 620,
         "peakRating": 686
       },
@@ -717,12 +717,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 448,
-        "pulledDate": "2026-09-07",
-        "latestRating": 783,
+        "totalGames": 450,
+        "pulledDate": "2026-09-09",
+        "latestRating": 771,
         "peakRating": 891
       },
       "matches": [
+        {
+          "matchId": 505316363,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:15:29.000Z",
+          "dur": 2405,
+          "opponents": [
+            {
+              "profileId": 25652173,
+              "name": "Triumph"
+            },
+            {
+              "profileId": 23072140,
+              "name": "ThomBooges"
+            },
+            {
+              "profileId": 15261324,
+              "name": "[MIAAU] Gat\u00fabelO"
+            },
+            {
+              "profileId": 2919132,
+              "name": "Chafalote"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20619773,
+              "name": "MiguelAngel"
+            },
+            {
+              "profileId": 17069547,
+              "name": "gkalounias"
+            },
+            {
+              "profileId": 11817791,
+              "name": "glubix44"
+            }
+          ]
+        },
+        {
+          "matchId": 505314774,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:06:52.000Z",
+          "dur": 366,
+          "opponents": [
+            {
+              "profileId": 13242918,
+              "name": "Inky2163"
+            },
+            {
+              "profileId": 22340550,
+              "name": "SilverTigre"
+            },
+            {
+              "profileId": 25652173,
+              "name": "Triumph"
+            },
+            {
+              "profileId": 607274,
+              "name": "\u00d0\u00f2\u00f3M"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11817791,
+              "name": "glubix44"
+            },
+            {
+              "profileId": 17069547,
+              "name": "gkalounias"
+            },
+            {
+              "profileId": 20619773,
+              "name": "MiguelAngel"
+            }
+          ]
+        },
         {
           "matchId": 505098774,
           "civ": "Portuguese",
@@ -19089,5 +19173,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pt",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddf9",
+  "countryName": "Portugal"
 }

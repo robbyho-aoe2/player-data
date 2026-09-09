@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 188,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1044,
         "peakRating": 1111
       },
@@ -2814,12 +2814,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2323,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1152,
+        "totalGames": 2327,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1189,
         "peakRating": 1328
       },
       "matches": [
+        {
+          "matchId": 505359016,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:47:05.000Z",
+          "dur": 2232,
+          "opponents": [
+            {
+              "profileId": 5803097,
+              "name": "Desert Haq"
+            },
+            {
+              "profileId": 2669208,
+              "name": "[JRH]U2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3264448,
+              "name": "CMD_tomi"
+            }
+          ]
+        },
+        {
+          "matchId": 505352544,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:06:22.000Z",
+          "dur": 1636,
+          "opponents": [
+            {
+              "profileId": 12406812,
+              "name": "Fedepato"
+            },
+            {
+              "profileId": 5856394,
+              "name": "rukas"
+            },
+            {
+              "profileId": 3385063,
+              "name": "MACGP40"
+            },
+            {
+              "profileId": 3143484,
+              "name": "Bitt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3264448,
+              "name": "CMD_tomi"
+            },
+            {
+              "profileId": 19007246,
+              "name": "sada-aki"
+            },
+            {
+              "profileId": 14876203,
+              "name": "Azmaveth"
+            }
+          ]
+        },
+        {
+          "matchId": 505160566,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:22:32.000Z",
+          "dur": 1410,
+          "opponents": [
+            {
+              "profileId": 25286123,
+              "name": "Usuga"
+            },
+            {
+              "profileId": 22157075,
+              "name": "adrian_mg123"
+            },
+            {
+              "profileId": 5682074,
+              "name": "Hanyo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22467966,
+              "name": "CMD_VerruckT"
+            },
+            {
+              "profileId": 7786487,
+              "name": "CMD_perrito fiu fiu"
+            }
+          ]
+        },
+        {
+          "matchId": 505155609,
+          "civ": "Khitans",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:50:38.000Z",
+          "dur": 1671,
+          "opponents": [
+            {
+              "profileId": 1719341,
+              "name": "CarloMagno"
+            },
+            {
+              "profileId": 511854,
+              "name": "nanodan47"
+            },
+            {
+              "profileId": 1318399,
+              "name": "croj92"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7786487,
+              "name": "CMD_perrito fiu fiu"
+            },
+            {
+              "profileId": 22467966,
+              "name": "CMD_VerruckT"
+            }
+          ]
+        },
         {
           "matchId": 504925169,
           "civ": "Chinese",
@@ -60711,5 +60847,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

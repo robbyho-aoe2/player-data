@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 432,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1123,
         "peakRating": 1187
       },
@@ -6942,12 +6942,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3088,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1180,
+        "totalGames": 3091,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1159,
         "peakRating": 1373
       },
       "matches": [
+        {
+          "matchId": 505368128,
+          "civ": "Lithuanians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:45:03.000Z",
+          "dur": 2668,
+          "opponents": [
+            {
+              "profileId": 21963599,
+              "name": "snippedgentile"
+            },
+            {
+              "profileId": 21961202,
+              "name": "TinkyBoi"
+            },
+            {
+              "profileId": 21950452,
+              "name": "jrewdavis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3123028,
+              "name": "ReverbMate"
+            },
+            {
+              "profileId": 6225741,
+              "name": "kat_not_dog"
+            }
+          ]
+        },
+        {
+          "matchId": 505363867,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:17:15.000Z",
+          "dur": 1128,
+          "opponents": [
+            {
+              "profileId": 2917464,
+              "name": "jjb707"
+            },
+            {
+              "profileId": 3219687,
+              "name": "Yahms"
+            },
+            {
+              "profileId": 3226812,
+              "name": "RED"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6225741,
+              "name": "kat_not_dog"
+            },
+            {
+              "profileId": 2389844,
+              "name": "niquito0912"
+            }
+          ]
+        },
+        {
+          "matchId": 505094990,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:05:53.000Z",
+          "dur": 2322,
+          "opponents": [
+            {
+              "profileId": 5576963,
+              "name": "CHMB_Martin"
+            },
+            {
+              "profileId": 4917884,
+              "name": "CHMB_Kuc"
+            },
+            {
+              "profileId": 1994919,
+              "name": "CHMB Martincek"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3355815,
+              "name": "victor_mv7"
+            },
+            {
+              "profileId": 6225741,
+              "name": "kat_not_dog"
+            }
+          ]
+        },
         {
           "matchId": 504662612,
           "civ": "Malay",
@@ -121149,5 +121251,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

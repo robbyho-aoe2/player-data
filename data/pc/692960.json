@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 524,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1602,
         "peakRating": 1644
       },
@@ -8413,12 +8413,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 829,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1466,
+        "totalGames": 831,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1497,
         "peakRating": 1678
       },
       "matches": [
+        {
+          "matchId": 505397309,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:19:30.000Z",
+          "dur": 1369,
+          "opponents": [
+            {
+              "profileId": 15105271,
+              "name": "\u5b89\u5fc3"
+            },
+            {
+              "profileId": 5550891,
+              "name": "Dificult"
+            },
+            {
+              "profileId": 5924690,
+              "name": "JanVerplanken"
+            },
+            {
+              "profileId": 12400596,
+              "name": "\u5411\u9633\u82b1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227046,
+              "name": "DYS.K"
+            },
+            {
+              "profileId": 2674743,
+              "name": "\u9f20\u689d"
+            },
+            {
+              "profileId": 4062437,
+              "name": "Bo Zhi Shang"
+            }
+          ]
+        },
+        {
+          "matchId": 505395730,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:59:23.000Z",
+          "dur": 1027,
+          "opponents": [
+            {
+              "profileId": 24559202,
+              "name": "\u83dc\u83dc\u7684\u83dc\u83dc"
+            },
+            {
+              "profileId": 11463550,
+              "name": "\u7c73\u5170\u7684\u5c0f\u6b4c\u8ff7"
+            },
+            {
+              "profileId": 12400596,
+              "name": "\u5411\u9633\u82b1"
+            },
+            {
+              "profileId": 15105271,
+              "name": "\u5b89\u5fc3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6419653,
+              "name": "fumisaiji"
+            },
+            {
+              "profileId": 11431026,
+              "name": "609170940"
+            },
+            {
+              "profileId": 21419022,
+              "name": "\u6b50\u5409\u6851"
+            }
+          ]
+        },
         {
           "matchId": 504230484,
           "civ": "Wei",
@@ -40422,5 +40506,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

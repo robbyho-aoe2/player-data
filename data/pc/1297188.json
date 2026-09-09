@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 25,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1215,
         "peakRating": 1215
       },
@@ -429,12 +429,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 509,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1195,
-        "peakRating": 1203
+        "totalGames": 511,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1205,
+        "peakRating": 1205
       },
       "matches": [
+        {
+          "matchId": 505502819,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:09:48.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 25667003,
+              "name": "eneseymen8717"
+            },
+            {
+              "profileId": 26056,
+              "name": "83716497273"
+            },
+            {
+              "profileId": 5748848,
+              "name": "Atomic_Devildog"
+            },
+            {
+              "profileId": 4660886,
+              "name": "theDude"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4336468,
+              "name": "Simba"
+            },
+            {
+              "profileId": 21953041,
+              "name": "m-lindberg"
+            },
+            {
+              "profileId": 21677020,
+              "name": "Haakon"
+            }
+          ]
+        },
+        {
+          "matchId": 505497738,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:45:52.000Z",
+          "dur": 1365,
+          "opponents": [
+            {
+              "profileId": 25641788,
+              "name": "izaan"
+            },
+            {
+              "profileId": 17682053,
+              "name": "OBX"
+            },
+            {
+              "profileId": 24409544,
+              "name": "A G H A"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21953041,
+              "name": "m-lindberg"
+            },
+            {
+              "profileId": 21677020,
+              "name": "Haakon"
+            }
+          ]
+        },
         {
           "matchId": 504850105,
           "civ": "Khmer",
@@ -15990,5 +16066,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "no",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf4",
+  "countryName": "Norway"
 }

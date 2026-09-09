@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1008,
         "peakRating": 1074
       },
@@ -1181,12 +1181,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1631,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1234,
+        "totalGames": 1634,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1245,
         "peakRating": 1262
       },
       "matches": [
+        {
+          "matchId": 505149153,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:11:48.000Z",
+          "dur": 1830,
+          "opponents": [
+            {
+              "profileId": 2031428,
+              "name": "chomisplate"
+            },
+            {
+              "profileId": 6778067,
+              "name": "cubdie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
+        {
+          "matchId": 505146437,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:56:25.000Z",
+          "dur": 763,
+          "opponents": [
+            {
+              "profileId": 5845743,
+              "name": "Napoleonidass"
+            },
+            {
+              "profileId": 26033096,
+              "name": "ageheringod"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
+        {
+          "matchId": 505141134,
+          "civ": "Italians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:25:17.000Z",
+          "dur": 1755,
+          "opponents": [
+            {
+              "profileId": 19010145,
+              "name": "jueaadjx"
+            },
+            {
+              "profileId": 3996534,
+              "name": "nYqDadoomed"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
         {
           "matchId": 504896144,
           "civ": "Italians",
@@ -45880,5 +45958,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1195,
         "peakRating": 1209
       },
@@ -386,12 +386,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 80,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1088,
+        "totalGames": 82,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1092,
         "peakRating": 1168
       },
       "matches": [
+        {
+          "matchId": 505282773,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:31:46.000Z",
+          "dur": 1656,
+          "opponents": [
+            {
+              "profileId": 22454260,
+              "name": "davidsintana96"
+            },
+            {
+              "profileId": 6092864,
+              "name": "Hofgassler"
+            },
+            {
+              "profileId": 1910460,
+              "name": "Glenno93"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 190525,
+              "name": "GALARCON"
+            },
+            {
+              "profileId": 338085,
+              "name": "Citizzen"
+            }
+          ]
+        },
+        {
+          "matchId": 505259084,
+          "civ": "Turks",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:32:07.000Z",
+          "dur": 1294,
+          "opponents": [
+            {
+              "profileId": 25784978,
+              "name": "Toxytocin"
+            },
+            {
+              "profileId": 6662738,
+              "name": "jabibu"
+            },
+            {
+              "profileId": 660228,
+              "name": "Abel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19351120,
+              "name": "big niao"
+            },
+            {
+              "profileId": 14180481,
+              "name": "spicyP"
+            }
+          ]
+        },
         {
           "matchId": 504849413,
           "civ": "Vietnamese",
@@ -3284,5 +3352,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

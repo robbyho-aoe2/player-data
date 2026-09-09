@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 9,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1399,
-        "peakRating": 1404
+        "totalGames": 10,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1413,
+        "peakRating": 1413
       },
       "matches": [
+        {
+          "matchId": 505358133,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:40:19.000Z",
+          "dur": 2424,
+          "opponents": [
+            {
+              "profileId": 959867,
+              "name": "Atomic_Sausage"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 497047647,
           "civ": "Italians",
@@ -110,12 +127,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 104,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1422,
-        "peakRating": 1454
+        "totalGames": 107,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1463,
+        "peakRating": 1463
       },
       "matches": [
+        {
+          "matchId": 505375990,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:39:22.000Z",
+          "dur": 3445,
+          "opponents": [
+            {
+              "profileId": 6022089,
+              "name": "jpipo29"
+            },
+            {
+              "profileId": 5050869,
+              "name": "[GDL] HANNIBAL"
+            },
+            {
+              "profileId": 155654,
+              "name": "tech_auto"
+            },
+            {
+              "profileId": 11889032,
+              "name": "Guss"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9838418,
+              "name": "SeaPig"
+            },
+            {
+              "profileId": 6147622,
+              "name": "The Final Phoenix"
+            },
+            {
+              "profileId": 2404842,
+              "name": "Hotaco"
+            }
+          ]
+        },
+        {
+          "matchId": 505370905,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:03:29.000Z",
+          "dur": 1831,
+          "opponents": [
+            {
+              "profileId": 6740182,
+              "name": "Andres_bc81"
+            },
+            {
+              "profileId": 9051210,
+              "name": "GDL | RoadTo2K"
+            },
+            {
+              "profileId": 17632251,
+              "name": "AM | Rick2"
+            },
+            {
+              "profileId": 396178,
+              "name": "AM | Popeyin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4112150,
+              "name": "V1per"
+            },
+            {
+              "profileId": 4236403,
+              "name": "dL"
+            },
+            {
+              "profileId": 3580958,
+              "name": "Texas Mil"
+            }
+          ]
+        },
+        {
+          "matchId": 505365095,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:25:23.000Z",
+          "dur": 1891,
+          "opponents": [
+            {
+              "profileId": 25224741,
+              "name": "Cyndaquil"
+            },
+            {
+              "profileId": 12448952,
+              "name": "DL | El pata de las GTX"
+            },
+            {
+              "profileId": 2920151,
+              "name": "DL | Nato"
+            },
+            {
+              "profileId": 24548372,
+              "name": "Francisco Pizarron"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4112150,
+              "name": "V1per"
+            },
+            {
+              "profileId": 288698,
+              "name": "johnnyboy"
+            },
+            {
+              "profileId": 25950555,
+              "name": "double barrack mountain king"
+            }
+          ]
+        },
         {
           "matchId": 504892559,
           "civ": "Huns",
@@ -2399,5 +2542,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

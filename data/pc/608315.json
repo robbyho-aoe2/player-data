@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 472,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1235,
+        "totalGames": 475,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1252,
         "peakRating": 1389
       },
       "matches": [
+        {
+          "matchId": 505325419,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:08:08.000Z",
+          "dur": 1131,
+          "opponents": [
+            {
+              "profileId": 2139089,
+              "name": "Grogu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505105155,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:55:01.000Z",
+          "dur": 972,
+          "opponents": [
+            {
+              "profileId": 8157318,
+              "name": "CoeurLaurent"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505100869,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:33:42.000Z",
+          "dur": 1150,
+          "opponents": [
+            {
+              "profileId": 19032038,
+              "name": "|FMG| ROGELIO III"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505027932,
           "civ": "Mongols",
@@ -8054,7 +8105,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 532,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1374,
         "peakRating": 1401
       },
@@ -23286,5 +23337,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1341
       },
       "matches": [
@@ -172,12 +172,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 865,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1247,
+        "totalGames": 867,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1249,
         "peakRating": 1358
       },
       "matches": [
+        {
+          "matchId": 505458952,
+          "civ": "Malians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:22:14.000Z",
+          "dur": 1603,
+          "opponents": [
+            {
+              "profileId": 5838840,
+              "name": "\u5927\u54e5\u6c92\u6709\u8f38"
+            },
+            {
+              "profileId": 5853537,
+              "name": "\u5de7\u864e\u66f8\u751f"
+            },
+            {
+              "profileId": 5846234,
+              "name": "\u5357\u6e2f\u5bb6\u7684\u5c0f\u5152\u5b50"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1868204,
+              "name": "Levvy - Humanize"
+            },
+            {
+              "profileId": 670613,
+              "name": "OXYGEN"
+            }
+          ]
+        },
+        {
+          "matchId": 505227112,
+          "civ": "Dravidians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:39:21.000Z",
+          "dur": 1457,
+          "opponents": [
+            {
+              "profileId": 24167083,
+              "name": "YUZ"
+            },
+            {
+              "profileId": 23010529,
+              "name": "yamaguchi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3102367,
+              "name": "Anthony"
+            }
+          ]
+        },
         {
           "matchId": 504211507,
           "civ": "Dravidians",
@@ -25385,5 +25445,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 536,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1278,
         "peakRating": 1495
       },
@@ -8611,12 +8611,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 596,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1196,
+        "totalGames": 598,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1226,
         "peakRating": 1465
       },
       "matches": [
+        {
+          "matchId": 505186779,
+          "civ": "Maya",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:48:07.000Z",
+          "dur": 1811,
+          "opponents": [
+            {
+              "profileId": 10146065,
+              "name": "frumsPG"
+            },
+            {
+              "profileId": 2998486,
+              "name": "Edwin_ZM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11311669,
+              "name": "jeter4649"
+            }
+          ]
+        },
+        {
+          "matchId": 505184388,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:19:55.000Z",
+          "dur": 1436,
+          "opponents": [
+            {
+              "profileId": 25345410,
+              "name": "The OG PinkMan"
+            },
+            {
+              "profileId": 26096675,
+              "name": "Gandalff"
+            },
+            {
+              "profileId": 1660022,
+              "name": "cmpunk9489"
+            },
+            {
+              "profileId": 9056778,
+              "name": "a4895766000"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 536657,
+              "name": "Akane"
+            },
+            {
+              "profileId": 9517780,
+              "name": "Ra"
+            },
+            {
+              "profileId": 9733344,
+              "name": "8"
+            }
+          ]
+        },
         {
           "matchId": 504669923,
           "civ": "Mapuche",
@@ -28728,5 +28796,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

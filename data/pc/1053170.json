@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 452,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1250,
+        "totalGames": 453,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1235,
         "peakRating": 1268
       },
       "matches": [
+        {
+          "matchId": 505339716,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:39:17.000Z",
+          "dur": 1524,
+          "opponents": [
+            {
+              "profileId": 24892356,
+              "name": "Kraken"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505048375,
           "civ": "Italians",
@@ -7281,12 +7298,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1936,
-        "pulledDate": "2026-09-07",
-        "latestRating": 984,
+        "totalGames": 1939,
+        "pulledDate": "2026-09-09",
+        "latestRating": 979,
         "peakRating": 1310
       },
       "matches": [
+        {
+          "matchId": 505499994,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:56:45.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 10236413,
+              "name": "Ezio"
+            },
+            {
+              "profileId": 234407,
+              "name": "stk1908"
+            },
+            {
+              "profileId": 15365427,
+              "name": "Conquistatoooore"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25021291,
+              "name": "TuftedNut28"
+            },
+            {
+              "profileId": 23998297,
+              "name": "JoshMosh"
+            }
+          ]
+        },
+        {
+          "matchId": 505304217,
+          "civ": "Tatars",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:12:23.000Z",
+          "dur": 1899,
+          "opponents": [
+            {
+              "profileId": 24892356,
+              "name": "Kraken"
+            },
+            {
+              "profileId": 9631821,
+              "name": "agente47_m"
+            },
+            {
+              "profileId": 24881214,
+              "name": "AttaKE772136"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25021291,
+              "name": "TuftedNut28"
+            },
+            {
+              "profileId": 23998297,
+              "name": "JoshMosh"
+            }
+          ]
+        },
+        {
+          "matchId": 505300645,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:55:54.000Z",
+          "dur": 788,
+          "opponents": [
+            {
+              "profileId": 10341433,
+              "name": "maximusthefirst"
+            },
+            {
+              "profileId": 4288799,
+              "name": "Ks1lence"
+            },
+            {
+              "profileId": 15197702,
+              "name": "Vesapati"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25021291,
+              "name": "TuftedNut28"
+            },
+            {
+              "profileId": 23998297,
+              "name": "JoshMosh"
+            }
+          ]
+        },
         {
           "matchId": 504660736,
           "civ": "Persians",
@@ -70982,5 +71101,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

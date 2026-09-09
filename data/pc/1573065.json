@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1577,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1041,
         "peakRating": 1235
       },
@@ -25280,12 +25280,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1931,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1222,
+        "totalGames": 1936,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1273,
         "peakRating": 1273
       },
       "matches": [
+        {
+          "matchId": 505481114,
+          "civ": "Wu",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:22:45.000Z",
+          "dur": 1620,
+          "opponents": [
+            {
+              "profileId": 18893751,
+              "name": "borgff"
+            },
+            {
+              "profileId": 1187146,
+              "name": "Hammarn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 708226,
+              "name": "Arq. Barbaelegante"
+            }
+          ]
+        },
+        {
+          "matchId": 505353053,
+          "civ": "Wu",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:09:17.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 10164608,
+              "name": "SpartanLee"
+            },
+            {
+              "profileId": 6368511,
+              "name": "FC_diana2501"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 981805,
+              "name": "Dr. Pulgozoo0"
+            }
+          ]
+        },
+        {
+          "matchId": 505131729,
+          "civ": "Wu",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:31:58.000Z",
+          "dur": 43,
+          "opponents": [
+            {
+              "profileId": 4308749,
+              "name": "Steve the Ishvalan"
+            },
+            {
+              "profileId": 2256409,
+              "name": "Underwear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 981805,
+              "name": "Dr. Pulgozoo0"
+            }
+          ]
+        },
+        {
+          "matchId": 505130996,
+          "civ": "Khmer",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:27:31.000Z",
+          "dur": 120,
+          "opponents": [
+            {
+              "profileId": 2256409,
+              "name": "Underwear"
+            },
+            {
+              "profileId": 213517,
+              "name": "Cheesewheel24"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 981805,
+              "name": "Dr. Pulgozoo0"
+            }
+          ]
+        },
+        {
+          "matchId": 505126698,
+          "civ": "Khmer",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:00:54.000Z",
+          "dur": 1276,
+          "opponents": [
+            {
+              "profileId": 5803097,
+              "name": "Desert Haq"
+            },
+            {
+              "profileId": 6004832,
+              "name": "Atila el tres"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 981805,
+              "name": "Dr. Pulgozoo0"
+            }
+          ]
+        },
         {
           "matchId": 504038828,
           "civ": "Khmer",
@@ -87020,5 +87150,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

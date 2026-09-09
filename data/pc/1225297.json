@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 255,
-        "pulledDate": "2026-09-07",
-        "latestRating": 736,
+        "totalGames": 256,
+        "pulledDate": "2026-09-09",
+        "latestRating": 752,
         "peakRating": 799
       },
       "matches": [
+        {
+          "matchId": 505304763,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:13:41.000Z",
+          "dur": 1445,
+          "opponents": [
+            {
+              "profileId": 25653443,
+              "name": "riciu_number1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505052330,
           "civ": "Romans",
@@ -4126,7 +4143,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 162,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 674,
         "peakRating": 738
       },
@@ -10187,5 +10204,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

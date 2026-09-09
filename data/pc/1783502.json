@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 251,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1222,
         "peakRating": 1404
       },
@@ -4048,12 +4048,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 606,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1214,
+        "totalGames": 610,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1244,
         "peakRating": 1320
       },
       "matches": [
+        {
+          "matchId": 505464109,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:49:45.000Z",
+          "dur": 1958,
+          "opponents": [
+            {
+              "profileId": 654560,
+              "name": "\u677f\u6a4b\u4f10\u6728\u5de5"
+            },
+            {
+              "profileId": 1881022,
+              "name": "Viejo SuiCida"
+            },
+            {
+              "profileId": 24287923,
+              "name": "Provenza"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1547760,
+              "name": "Don Salluste"
+            },
+            {
+              "profileId": 15340778,
+              "name": "Miel"
+            }
+          ]
+        },
+        {
+          "matchId": 505458456,
+          "civ": "Sicilians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:18:50.000Z",
+          "dur": 897,
+          "opponents": [
+            {
+              "profileId": 19555322,
+              "name": "Sam"
+            },
+            {
+              "profileId": 6800149,
+              "name": "anoran"
+            },
+            {
+              "profileId": 6218405,
+              "name": "digitalpbk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15340778,
+              "name": "Miel"
+            },
+            {
+              "profileId": 1547760,
+              "name": "Don Salluste"
+            }
+          ]
+        },
+        {
+          "matchId": 505264980,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:03:55.000Z",
+          "dur": 2007,
+          "opponents": [
+            {
+              "profileId": 9575694,
+              "name": "Itz VJ"
+            },
+            {
+              "profileId": 808511,
+              "name": "gane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1547760,
+              "name": "Don Salluste"
+            }
+          ]
+        },
+        {
+          "matchId": 505258920,
+          "civ": "Sicilians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:31:10.000Z",
+          "dur": 1776,
+          "opponents": [
+            {
+              "profileId": 25760674,
+              "name": "Morgana"
+            },
+            {
+              "profileId": 25760612,
+              "name": "Momo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1547760,
+              "name": "Don Salluste"
+            }
+          ]
+        },
         {
           "matchId": 505105772,
           "civ": "Sicilians",
@@ -21922,5 +22042,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

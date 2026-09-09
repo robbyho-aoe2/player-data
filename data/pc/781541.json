@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 103,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1197,
         "peakRating": 1201
       },
@@ -1677,12 +1677,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 361,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1245,
+        "totalGames": 363,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1226,
         "peakRating": 1299
       },
       "matches": [
+        {
+          "matchId": 505260588,
+          "civ": "Magyars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:40:00.000Z",
+          "dur": 1990,
+          "opponents": [
+            {
+              "profileId": 3526533,
+              "name": "Doris"
+            },
+            {
+              "profileId": 15075870,
+              "name": "Beller"
+            },
+            {
+              "profileId": 325311,
+              "name": "Grimbel"
+            },
+            {
+              "profileId": 451383,
+              "name": "Sageata"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9636077,
+              "name": "sam0706"
+            },
+            {
+              "profileId": 1568067,
+              "name": "clp0526"
+            },
+            {
+              "profileId": 59567,
+              "name": "COIL"
+            }
+          ]
+        },
+        {
+          "matchId": 505252246,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:54:38.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 25760612,
+              "name": "Momo"
+            },
+            {
+              "profileId": 25760674,
+              "name": "Morgana"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20215304,
+              "name": "Cafernaun"
+            }
+          ]
+        },
         {
           "matchId": 505017717,
           "civ": "Magyars",
@@ -12747,5 +12815,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

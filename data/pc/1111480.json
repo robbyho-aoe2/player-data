@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 715,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1121,
+        "totalGames": 718,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1154,
         "peakRating": 1390
       },
       "matches": [
+        {
+          "matchId": 505499898,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:55:13.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 598855,
+              "name": "JGSC"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505492870,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:22:20.000Z",
+          "dur": 1872,
+          "opponents": [
+            {
+              "profileId": 10942583,
+              "name": "sAvAgE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505284309,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:39:16.000Z",
+          "dur": 1451,
+          "opponents": [
+            {
+              "profileId": 1042661,
+              "name": "serkanorbay"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505011779,
           "civ": "Bohemians",
@@ -11477,7 +11528,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 908,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1179,
         "peakRating": 1289
       },
@@ -43163,5 +43214,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

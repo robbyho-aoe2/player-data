@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 438,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1126,
+        "totalGames": 440,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1127,
         "peakRating": 1379
       },
       "matches": [
+        {
+          "matchId": 505483258,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:32:52.000Z",
+          "dur": 1808,
+          "opponents": [
+            {
+              "profileId": 12169290,
+              "name": "EL_DoN_TaPaS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505282988,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:32:13.000Z",
+          "dur": 1235,
+          "opponents": [
+            {
+              "profileId": 4229135,
+              "name": "revan"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505056948,
           "civ": "Magyars",
@@ -7048,7 +7082,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 316,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1228,
         "peakRating": 1326
       },
@@ -18374,5 +18408,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

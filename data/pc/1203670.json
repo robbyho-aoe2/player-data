@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 321,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1638,
         "peakRating": 1734
       },
@@ -5165,12 +5165,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2415,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1541,
+        "totalGames": 2416,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1524,
         "peakRating": 1683
       },
       "matches": [
+        {
+          "matchId": 505464361,
+          "civ": "Mongols",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:51:03.000Z",
+          "dur": 2053,
+          "opponents": [
+            {
+              "profileId": 2910344,
+              "name": "\u88c2\u8f66\u957f"
+            },
+            {
+              "profileId": 610515,
+              "name": "\u9524\u5b50"
+            },
+            {
+              "profileId": 23232396,
+              "name": "Hash-"
+            },
+            {
+              "profileId": 22114746,
+              "name": "\u963f\u8d24\u5012\u5730\u4e86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 478629,
+              "name": "QNA | Apachai Hopachai"
+            },
+            {
+              "profileId": 1551876,
+              "name": "\u6795\u4e0a\u9e33\u9e2f\u7761\u7ea2\u83b2"
+            },
+            {
+              "profileId": 18914697,
+              "name": "Miru"
+            }
+          ]
+        },
         {
           "matchId": 505023598,
           "civ": "Byzantines",
@@ -101109,5 +101151,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "lv",
+  "countryIcon": "\ud83c\uddf1\ud83c\uddfb",
+  "countryName": "Latvia"
 }

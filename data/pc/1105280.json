@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 470,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1216,
         "peakRating": 1284
       },
@@ -7549,12 +7549,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 148,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1141,
+        "totalGames": 150,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1136,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 505299752,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:51:27.000Z",
+          "dur": 2099,
+          "opponents": [
+            {
+              "profileId": 26082113,
+              "name": "gaspargarcia54"
+            },
+            {
+              "profileId": 6181349,
+              "name": "catstorm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25980053,
+              "name": "Jostoer"
+            }
+          ]
+        },
+        {
+          "matchId": 505292738,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:19:11.000Z",
+          "dur": 1793,
+          "opponents": [
+            {
+              "profileId": 222255,
+              "name": "Bayaz"
+            },
+            {
+              "profileId": 5611341,
+              "name": "proelium"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25980053,
+              "name": "Jostoer"
+            }
+          ]
+        },
         {
           "matchId": 504553563,
           "civ": "Berbers",
@@ -11340,5 +11392,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

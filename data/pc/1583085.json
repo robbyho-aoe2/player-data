@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 483,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1603,
         "peakRating": 1603
       },
@@ -7757,12 +7757,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2729,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1566,
+        "totalGames": 2731,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1549,
         "peakRating": 1644
       },
       "matches": [
+        {
+          "matchId": 505333906,
+          "civ": "Japanese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:02:16.000Z",
+          "dur": 1772,
+          "opponents": [
+            {
+              "profileId": 26054824,
+              "name": "Kvaratskhelia"
+            },
+            {
+              "profileId": 6048460,
+              "name": "dxq"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 311490,
+              "name": "IVIUSTANG"
+            }
+          ]
+        },
+        {
+          "matchId": 505329441,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:33:33.000Z",
+          "dur": 1559,
+          "opponents": [
+            {
+              "profileId": 26054824,
+              "name": "Kvaratskhelia"
+            },
+            {
+              "profileId": 6048460,
+              "name": "dxq"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 311490,
+              "name": "IVIUSTANG"
+            }
+          ]
+        },
         {
           "matchId": 505119373,
           "civ": "Jurchens",
@@ -94346,5 +94398,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

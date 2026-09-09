@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 955,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1719,
-        "peakRating": 1719
+        "totalGames": 957,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1716,
+        "peakRating": 1734
       },
       "matches": [
+        {
+          "matchId": 505462454,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:39:50.000Z",
+          "dur": 2558,
+          "opponents": [
+            {
+              "profileId": 220294,
+              "name": "Mercer"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505456791,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:10:29.000Z",
+          "dur": 1628,
+          "opponents": [
+            {
+              "profileId": 2560438,
+              "name": "L10N"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505027340,
           "civ": "Poles",
@@ -15319,7 +15353,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 203,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1429,
         "peakRating": 1501
       },
@@ -20404,5 +20438,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

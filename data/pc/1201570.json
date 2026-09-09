@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-30"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-30"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 222,
-        "pulledDate": "2026-08-30",
+        "pulledDate": "2026-09-09",
         "latestRating": 1178,
         "peakRating": 1239
       },
@@ -3581,12 +3581,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 531,
-        "pulledDate": "2026-08-30",
-        "latestRating": 1148,
+        "totalGames": 532,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1164,
         "peakRating": 1297
       },
       "matches": [
+        {
+          "matchId": 505311362,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:48:14.000Z",
+          "dur": 2153,
+          "opponents": [
+            {
+              "profileId": 14752440,
+              "name": "zeskpit"
+            },
+            {
+              "profileId": 376637,
+              "name": "WarGod_Jr"
+            },
+            {
+              "profileId": 379401,
+              "name": "Volcasten"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1666145,
+              "name": "HtoEvil"
+            },
+            {
+              "profileId": 1666789,
+              "name": "Yamazoo"
+            }
+          ]
+        },
         {
           "matchId": 502275276,
           "civ": "Vietnamese",
@@ -19615,5 +19649,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cz",
+  "countryIcon": "\ud83c\udde8\ud83c\uddff",
+  "countryName": "Czechia"
 }

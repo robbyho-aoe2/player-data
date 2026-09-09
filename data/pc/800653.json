@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 277,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1236,
         "peakRating": 1329
       },
@@ -4461,12 +4461,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1933,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1274,
+        "totalGames": 1934,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1259,
         "peakRating": 1419
       },
       "matches": [
+        {
+          "matchId": 505223760,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:18:40.000Z",
+          "dur": 1376,
+          "opponents": [
+            {
+              "profileId": 21408265,
+              "name": "dong"
+            },
+            {
+              "profileId": 246372,
+              "name": "Darealown"
+            },
+            {
+              "profileId": 15485195,
+              "name": "\u706f\u7a9d\u68ee\u66fe\u745e\u535c\u836f\u65b9\u677e\u6ef4"
+            },
+            {
+              "profileId": 17550790,
+              "name": "\u5e1d\u56fd\u5b59\u7b11\u5ddd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23977507,
+              "name": "Dd"
+            },
+            {
+              "profileId": 3004567,
+              "name": "GG"
+            },
+            {
+              "profileId": 3488187,
+              "name": "\u9ec4\u9ec4\u8d8a"
+            }
+          ]
+        },
         {
           "matchId": 504922963,
           "civ": "Aztecs",
@@ -67697,5 +67739,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

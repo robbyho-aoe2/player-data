@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 66,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 857,
         "peakRating": 964
       },
@@ -1085,12 +1085,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4108,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1013,
+        "totalGames": 4111,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1006,
         "peakRating": 1254
       },
       "matches": [
+        {
+          "matchId": 505129817,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:20:14.000Z",
+          "dur": 1532,
+          "opponents": [
+            {
+              "profileId": 21187,
+              "name": "Neto"
+            },
+            {
+              "profileId": 17840642,
+              "name": "mr.aaandrex"
+            },
+            {
+              "profileId": 22307867,
+              "name": "BS | DESTRAKER"
+            },
+            {
+              "profileId": 25971697,
+              "name": "Gamma Squeezee"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15057680,
+              "name": "EgyPerGreRom"
+            },
+            {
+              "profileId": 19480936,
+              "name": "alancazu"
+            },
+            {
+              "profileId": 23703360,
+              "name": "Victor_Wembanyama"
+            }
+          ]
+        },
+        {
+          "matchId": 505126830,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:02:07.000Z",
+          "dur": 932,
+          "opponents": [
+            {
+              "profileId": 23064793,
+              "name": "Baylon"
+            },
+            {
+              "profileId": 15199149,
+              "name": "mikrethor"
+            },
+            {
+              "profileId": 4781936,
+              "name": "unclesam613"
+            },
+            {
+              "profileId": 1959715,
+              "name": "camgcam"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19521542,
+              "name": "BBC Enjoyer"
+            },
+            {
+              "profileId": 15482374,
+              "name": "Tiger333"
+            },
+            {
+              "profileId": 13674854,
+              "name": "Led"
+            }
+          ]
+        },
+        {
+          "matchId": 505122040,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T23:33:16.000Z",
+          "dur": 1485,
+          "opponents": [
+            {
+              "profileId": 9815209,
+              "name": "PERCENT5175"
+            },
+            {
+              "profileId": 9923831,
+              "name": "L.A."
+            },
+            {
+              "profileId": 10471263,
+              "name": "Deja de llorar"
+            },
+            {
+              "profileId": 22527663,
+              "name": "tracter3515"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1280844,
+              "name": "Galluzzi"
+            },
+            {
+              "profileId": 6441812,
+              "name": "mR_GrincH_"
+            },
+            {
+              "profileId": 16251074,
+              "name": "Six"
+            }
+          ]
+        },
         {
           "matchId": 504612825,
           "civ": "Saracens",
@@ -167573,5 +167699,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1083,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1508,
+        "totalGames": 1084,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1527,
         "peakRating": 1640
       },
       "matches": [
+        {
+          "matchId": 505300180,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:52:38.000Z",
+          "dur": 1791,
+          "opponents": [
+            {
+              "profileId": 3157284,
+              "name": "JaniToPz"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502608893,
           "civ": "Italians",
@@ -17357,12 +17374,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1438,
-        "pulledDate": "2026-09-03",
+        "totalGames": 1440,
+        "pulledDate": "2026-09-09",
         "latestRating": 1425,
         "peakRating": 1544
       },
       "matches": [
+        {
+          "matchId": 505274898,
+          "civ": "Burgundians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:54:28.000Z",
+          "dur": 1001,
+          "opponents": [
+            {
+              "profileId": 1136264,
+              "name": "elgrantato"
+            },
+            {
+              "profileId": 1472624,
+              "name": "[Kachop] Baryuan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 616475,
+              "name": "Blackfire"
+            }
+          ]
+        },
+        {
+          "matchId": 505268060,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:19:29.000Z",
+          "dur": 1777,
+          "opponents": [
+            {
+              "profileId": 1138916,
+              "name": "TabA_RoseLG"
+            },
+            {
+              "profileId": 1915175,
+              "name": "TabA_Pas Charmant"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 616475,
+              "name": "Blackfire"
+            }
+          ]
+        },
         {
           "matchId": 503873658,
           "civ": "Cumans",
@@ -53327,5 +53396,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1000
       },
       "matches": [
@@ -44,12 +44,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1805,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1099,
+        "totalGames": 1807,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1069,
         "peakRating": 1217
       },
       "matches": [
+        {
+          "matchId": 505303479,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:08:58.000Z",
+          "dur": 1583,
+          "opponents": [
+            {
+              "profileId": 26073751,
+              "name": "Lautaro_aoe"
+            },
+            {
+              "profileId": 11465472,
+              "name": "TurdLips"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1815072,
+              "name": "Tazys"
+            }
+          ]
+        },
+        {
+          "matchId": 505297109,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:39:19.000Z",
+          "dur": 1451,
+          "opponents": [
+            {
+              "profileId": 12311964,
+              "name": "pedobear"
+            },
+            {
+              "profileId": 4298843,
+              "name": "Sheno"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1815072,
+              "name": "Tazys"
+            }
+          ]
+        },
         {
           "matchId": 505100276,
           "civ": "Bulgarians",
@@ -49437,5 +49489,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1109,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1280,
         "peakRating": 1280
       },
@@ -17773,12 +17773,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 639,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1141,
+        "totalGames": 643,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1143,
         "peakRating": 1317
       },
       "matches": [
+        {
+          "matchId": 505419142,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T11:12:17.000Z",
+          "dur": 574,
+          "opponents": [
+            {
+              "profileId": 529446,
+              "name": "Pandamonium"
+            },
+            {
+              "profileId": 2376301,
+              "name": "El Fuser"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7940203,
+              "name": "takoyaki"
+            }
+          ]
+        },
+        {
+          "matchId": 505400299,
+          "civ": "Incas",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:55:30.000Z",
+          "dur": 1205,
+          "opponents": [
+            {
+              "profileId": 1905516,
+              "name": "joueur1andre"
+            },
+            {
+              "profileId": 4200883,
+              "name": "Gilgamesh43499"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1114280,
+              "name": "McQuin007"
+            }
+          ]
+        },
+        {
+          "matchId": 505399305,
+          "civ": "Incas",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:44:20.000Z",
+          "dur": 520,
+          "opponents": [
+            {
+              "profileId": 1244262,
+              "name": "Kano"
+            },
+            {
+              "profileId": 12489294,
+              "name": "FlawlessMessage"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1905516,
+              "name": "joueur1andre"
+            }
+          ]
+        },
+        {
+          "matchId": 505305245,
+          "civ": "Incas",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:17:00.000Z",
+          "dur": 1148,
+          "opponents": [
+            {
+              "profileId": 25693849,
+              "name": "VeX"
+            },
+            {
+              "profileId": 4820769,
+              "name": "xKuesT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5682074,
+              "name": "Hanyo"
+            }
+          ]
+        },
         {
           "matchId": 505001941,
           "civ": "Incas",
@@ -35437,5 +35541,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

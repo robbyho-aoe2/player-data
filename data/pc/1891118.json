@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 329,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1298,
         "peakRating": 1331
       },
@@ -5296,12 +5296,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 887,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1052,
+        "totalGames": 888,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1039,
         "peakRating": 1222
       },
       "matches": [
+        {
+          "matchId": 505301753,
+          "civ": "Britons",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:00:48.000Z",
+          "dur": 2516,
+          "opponents": [
+            {
+              "profileId": 5724878,
+              "name": "Zarathustra"
+            },
+            {
+              "profileId": 24226727,
+              "name": "adnanca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1890831,
+              "name": "ferrossi405"
+            }
+          ]
+        },
         {
           "matchId": 504083194,
           "civ": "Spanish",
@@ -32450,5 +32476,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

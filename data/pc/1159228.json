@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 15,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1239,
+        "totalGames": 18,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1217,
         "peakRating": 1239
       },
       "matches": [
+        {
+          "matchId": 505339153,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:34:59.000Z",
+          "dur": 1705,
+          "opponents": [
+            {
+              "profileId": 5058073,
+              "name": "lhn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505335330,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:11:34.000Z",
+          "dur": 1294,
+          "opponents": [
+            {
+              "profileId": 10990140,
+              "name": "rrhaburn14"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505319561,
+          "civ": "Mongols",
+          "map": "Migration",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:32:29.000Z",
+          "dur": 1274,
+          "opponents": [
+            {
+              "profileId": 4298478,
+              "name": "[CI] VikingBlood87"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503851884,
           "civ": "Saracens",
@@ -285,7 +336,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": [
         {
@@ -358,5 +409,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

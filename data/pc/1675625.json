@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 223,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1240,
         "peakRating": 1300
       },
@@ -2036,12 +2036,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2460,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1244,
+        "totalGames": 2461,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1260,
         "peakRating": 1445
       },
       "matches": [
+        {
+          "matchId": 505298806,
+          "civ": "Sicilians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:46:32.000Z",
+          "dur": 1953,
+          "opponents": [
+            {
+              "profileId": 5239948,
+              "name": "CraftingLevi"
+            },
+            {
+              "profileId": 5239998,
+              "name": "erwin11"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3935824,
+              "name": "Chello"
+            }
+          ]
+        },
         {
           "matchId": 504839759,
           "civ": "Sicilians",
@@ -24902,5 +24928,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

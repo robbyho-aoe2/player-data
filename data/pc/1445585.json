@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 240,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1235,
         "peakRating": 1298
       },
@@ -3870,12 +3870,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 571,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1179,
+        "totalGames": 574,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1160,
         "peakRating": 1299
       },
       "matches": [
+        {
+          "matchId": 505496658,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:40:40.000Z",
+          "dur": 45,
+          "opponents": [
+            {
+              "profileId": 2672840,
+              "name": "SmnRndm"
+            },
+            {
+              "profileId": 2617511,
+              "name": "LordSandwich"
+            },
+            {
+              "profileId": 2617425,
+              "name": "Song Jin-Woo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4808911,
+              "name": "Frodon le Hobbit"
+            },
+            {
+              "profileId": 23011541,
+              "name": "MFN Dragon"
+            }
+          ]
+        },
+        {
+          "matchId": 505261753,
+          "civ": "Byzantines",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:46:39.000Z",
+          "dur": 1505,
+          "opponents": [
+            {
+              "profileId": 11977917,
+              "name": "The Great Khan"
+            },
+            {
+              "profileId": 1000774,
+              "name": "Murmandus"
+            },
+            {
+              "profileId": 1114280,
+              "name": "McQuin007"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2196791,
+              "name": "newworldorder"
+            },
+            {
+              "profileId": 5629367,
+              "name": "Sacrilegious"
+            }
+          ]
+        },
+        {
+          "matchId": 505258297,
+          "civ": "Aztecs",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:27:52.000Z",
+          "dur": 685,
+          "opponents": [
+            {
+              "profileId": 2659415,
+              "name": "Trash Panda"
+            },
+            {
+              "profileId": 23206029,
+              "name": "hemes"
+            },
+            {
+              "profileId": 466036,
+              "name": "John Kalztan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13914230,
+              "name": "PanicCastle"
+            },
+            {
+              "profileId": 1868411,
+              "name": "Kirara"
+            }
+          ]
+        },
         {
           "matchId": 505043270,
           "civ": "Byzantines",
@@ -20580,5 +20682,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

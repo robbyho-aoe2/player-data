@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1860,
-        "pulledDate": "2026-09-08",
-        "latestRating": 766,
+        "totalGames": 1863,
+        "pulledDate": "2026-09-09",
+        "latestRating": 750,
         "peakRating": 961
       },
       "matches": [
+        {
+          "matchId": 505320687,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:39:38.000Z",
+          "dur": 1088,
+          "opponents": [
+            {
+              "profileId": 7129800,
+              "name": "Miliuns"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505307674,
+          "civ": "Japanese",
+          "map": "Migration",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:28:09.000Z",
+          "dur": 4211,
+          "opponents": [
+            {
+              "profileId": 2304925,
+              "name": "Blazer2395"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505295776,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:33:05.000Z",
+          "dur": 3232,
+          "opponents": [
+            {
+              "profileId": 2290074,
+              "name": "Omar III9558"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504635450,
           "civ": "Byzantines",
@@ -29801,12 +29852,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 341,
-        "pulledDate": "2026-09-08",
-        "latestRating": 678,
+        "totalGames": 342,
+        "pulledDate": "2026-09-09",
+        "latestRating": 691,
         "peakRating": 1042
       },
       "matches": [
+        {
+          "matchId": 505287156,
+          "civ": "Byzantines",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:53:14.000Z",
+          "dur": 2253,
+          "opponents": [
+            {
+              "profileId": 25155948,
+              "name": "Korkens555z"
+            },
+            {
+              "profileId": 13211254,
+              "name": "El Fifou 8836"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5325461,
+              "name": "ONELIFE144"
+            }
+          ]
+        },
         {
           "matchId": 504631977,
           "civ": "Persians",
@@ -40523,5 +40600,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pr",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddf7",
+  "countryName": "Puerto Rico"
 }

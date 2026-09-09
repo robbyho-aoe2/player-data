@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 914,
         "peakRating": 944
       },
@@ -397,12 +397,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1025,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1230,
+        "totalGames": 1027,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1201,
         "peakRating": 1317
       },
       "matches": [
+        {
+          "matchId": 505383945,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:45:55.000Z",
+          "dur": 959,
+          "opponents": [
+            {
+              "profileId": 5453749,
+              "name": "mhn30"
+            },
+            {
+              "profileId": 5505647,
+              "name": "ConcernedApe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20911419,
+              "name": "Legend.PE"
+            }
+          ]
+        },
+        {
+          "matchId": 505379598,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:07:37.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 6220904,
+              "name": "Big Dog"
+            },
+            {
+              "profileId": 6220921,
+              "name": "Ray Allen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6343159,
+              "name": "juankmh"
+            }
+          ]
+        },
         {
           "matchId": 504937986,
           "civ": "Italians",
@@ -28830,5 +28882,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

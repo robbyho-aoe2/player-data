@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 241,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1136,
+        "totalGames": 243,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1137,
         "peakRating": 1185
       },
       "matches": [
+        {
+          "matchId": 505186362,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:42:18.000Z",
+          "dur": 1818,
+          "opponents": [
+            {
+              "profileId": 10904184,
+              "name": "\u7d05\u82b1\u6703\u65b0\u624b"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505185946,
+          "civ": "Bulgarians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:37:42.000Z",
+          "dur": 132,
+          "opponents": [
+            {
+              "profileId": 4738187,
+              "name": "General_Disaray"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503776025,
           "civ": "Malians",
@@ -3623,7 +3657,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 427,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1193,
         "peakRating": 1239
       },
@@ -14292,5 +14326,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

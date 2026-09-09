@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 755,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1864,
         "peakRating": 1864
       },
@@ -12112,12 +12112,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2993,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1680,
+        "totalGames": 2995,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1704,
         "peakRating": 1750
       },
       "matches": [
+        {
+          "matchId": 505165603,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:00:26.000Z",
+          "dur": 1537,
+          "opponents": [
+            {
+              "profileId": 25866888,
+              "name": "VX | El Venenudo"
+            },
+            {
+              "profileId": 22944156,
+              "name": "amtiky"
+            },
+            {
+              "profileId": 15396876,
+              "name": "Yucatan_water_supremacy"
+            },
+            {
+              "profileId": 3520125,
+              "name": "Guts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            },
+            {
+              "profileId": 11778762,
+              "name": "VL LocoBayas"
+            },
+            {
+              "profileId": 126305,
+              "name": "VL La Parca (Red Paladin)"
+            }
+          ]
+        },
+        {
+          "matchId": 505160962,
+          "civ": "Khmer",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:25:11.000Z",
+          "dur": 1416,
+          "opponents": [
+            {
+              "profileId": 5341991,
+              "name": "Yisaac"
+            },
+            {
+              "profileId": 3000704,
+              "name": "Ancalagon14"
+            },
+            {
+              "profileId": 1367722,
+              "name": "Tylenol"
+            },
+            {
+              "profileId": 6090060,
+              "name": "noru-ego"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            },
+            {
+              "profileId": 126305,
+              "name": "VL La Parca (Red Paladin)"
+            },
+            {
+              "profileId": 11778762,
+              "name": "VL LocoBayas"
+            }
+          ]
+        },
         {
           "matchId": 504685568,
           "civ": "Cumans",
@@ -127086,5 +127170,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

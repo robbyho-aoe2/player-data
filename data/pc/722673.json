@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 122,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1620,
+        "totalGames": 124,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1592,
         "peakRating": 1620
       },
       "matches": [
+        {
+          "matchId": 505151559,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:24:57.000Z",
+          "dur": 1149,
+          "opponents": [
+            {
+              "profileId": 567639,
+              "name": "Berrante"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505147761,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:03:10.000Z",
+          "dur": 1193,
+          "opponents": [
+            {
+              "profileId": 567639,
+              "name": "Berrante"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503323692,
           "civ": "Hindustanis",
@@ -1982,12 +2016,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1126,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1368,
+        "totalGames": 1128,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1367,
         "peakRating": 1466
       },
       "matches": [
+        {
+          "matchId": 505157336,
+          "civ": "Burgundians",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:01:14.000Z",
+          "dur": 1739,
+          "opponents": [
+            {
+              "profileId": 280099,
+              "name": "Hoost"
+            },
+            {
+              "profileId": 295502,
+              "name": "fudgeassassin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 648040,
+              "name": "Loco Saiti"
+            }
+          ]
+        },
+        {
+          "matchId": 505155025,
+          "civ": "Koreans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:46:15.000Z",
+          "dur": 788,
+          "opponents": [
+            {
+              "profileId": 10132562,
+              "name": "SpaceWolf"
+            },
+            {
+              "profileId": 7897782,
+              "name": "HaleDuck"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 648040,
+              "name": "Loco Saiti"
+            }
+          ]
+        },
         {
           "matchId": 504921589,
           "civ": "Koreans",
@@ -42750,5 +42836,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

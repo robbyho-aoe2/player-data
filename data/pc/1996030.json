@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1196,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1338,
+        "totalGames": 1198,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1337,
         "peakRating": 1503
       },
       "matches": [
+        {
+          "matchId": 505327038,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:18:00.000Z",
+          "dur": 941,
+          "opponents": [
+            {
+              "profileId": 5520343,
+              "name": "Ikki de Fenix"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505205075,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T11:00:01.000Z",
+          "dur": 1263,
+          "opponents": [
+            {
+              "profileId": 11655867,
+              "name": "JohnCena6"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504507653,
           "civ": "Magyars",
@@ -10959,12 +10993,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2530,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1260,
+        "totalGames": 2532,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1261,
         "peakRating": 1443
       },
       "matches": [
+        {
+          "matchId": 505330423,
+          "civ": "Koreans",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:39:47.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 4308395,
+              "name": "cliff"
+            },
+            {
+              "profileId": 4308749,
+              "name": "Steve the Ishvalan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8556596,
+              "name": "ACI Granmini"
+            }
+          ]
+        },
+        {
+          "matchId": 505299656,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:51:00.000Z",
+          "dur": 1916,
+          "opponents": [
+            {
+              "profileId": 10986957,
+              "name": "Magnificent"
+            },
+            {
+              "profileId": 4435839,
+              "name": "Sofia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1932866,
+              "name": "Lord_Juanuribe"
+            }
+          ]
+        },
         {
           "matchId": 504899102,
           "civ": "Wei",
@@ -34371,5 +34457,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

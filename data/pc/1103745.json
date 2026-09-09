@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 113,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1672,
         "peakRating": 1717
       },
@@ -1837,12 +1837,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3831,
-        "pulledDate": "2026-09-05",
+        "totalGames": 3834,
+        "pulledDate": "2026-09-09",
         "latestRating": 1481,
         "peakRating": 1658
       },
       "matches": [
+        {
+          "matchId": 505500824,
+          "civ": "Slavs",
+          "map": "MegaRandom",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:00:33.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1082604,
+              "name": "Lishen"
+            },
+            {
+              "profileId": 11381730,
+              "name": "\u7f51\u604b\u88ab\u9a9750\u5757"
+            },
+            {
+              "profileId": 5626825,
+              "name": "Degs"
+            },
+            {
+              "profileId": 506834,
+              "name": "CAXCAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3165542,
+              "name": "GdR_Salinaro"
+            },
+            {
+              "profileId": 2086496,
+              "name": "Jambonbeurre"
+            },
+            {
+              "profileId": 21611861,
+              "name": "Anatoly"
+            }
+          ]
+        },
+        {
+          "matchId": 505497942,
+          "civ": "Slavs",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:46:53.000Z",
+          "dur": 710,
+          "opponents": [
+            {
+              "profileId": 10393167,
+              "name": "Whop"
+            },
+            {
+              "profileId": 23232396,
+              "name": "Hash-"
+            },
+            {
+              "profileId": 23284016,
+              "name": "Bz_UavK"
+            },
+            {
+              "profileId": 1679925,
+              "name": "Tyrant"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1082604,
+              "name": "Lishen"
+            },
+            {
+              "profileId": 10971275,
+              "name": "Espresso"
+            },
+            {
+              "profileId": 3520125,
+              "name": "Guts"
+            }
+          ]
+        },
+        {
+          "matchId": 505275729,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:58:51.000Z",
+          "dur": 1905,
+          "opponents": [
+            {
+              "profileId": 287832,
+              "name": "DaKrankVieh"
+            },
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            },
+            {
+              "profileId": 2689803,
+              "name": "jardan1234"
+            },
+            {
+              "profileId": 248672,
+              "name": "AJC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5849718,
+              "name": "CrazyBen"
+            },
+            {
+              "profileId": 3043127,
+              "name": "Facetrollwakfu"
+            },
+            {
+              "profileId": 1321649,
+              "name": "Simon Stokvis"
+            }
+          ]
+        },
         {
           "matchId": 504407121,
           "civ": "Italians",
@@ -135584,5 +135710,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

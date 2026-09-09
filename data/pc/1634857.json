@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 452,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1122,
+        "totalGames": 455,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1136,
         "peakRating": 1312
       },
       "matches": [
+        {
+          "matchId": 505465014,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:54:37.000Z",
+          "dur": 1183,
+          "opponents": [
+            {
+              "profileId": 2651442,
+              "name": "blackbeard1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505449978,
+          "civ": "Armenians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:33:32.000Z",
+          "dur": 1515,
+          "opponents": [
+            {
+              "profileId": 5626724,
+              "name": "davidgv93"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505447385,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:19:50.000Z",
+          "dur": 73,
+          "opponents": [
+            {
+              "profileId": 1675278,
+              "name": "Gustav Gutenhein"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504540068,
           "civ": "Malians",
@@ -7277,12 +7328,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1369,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1255,
+        "totalGames": 1371,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1256,
         "peakRating": 1397
       },
       "matches": [
+        {
+          "matchId": 505473019,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:38:59.000Z",
+          "dur": 1860,
+          "opponents": [
+            {
+              "profileId": 21663757,
+              "name": "Not.MbL"
+            },
+            {
+              "profileId": 4411285,
+              "name": "George"
+            },
+            {
+              "profileId": 12235127,
+              "name": "Not.Vipper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23846092,
+              "name": "_Orca_"
+            },
+            {
+              "profileId": 243799,
+              "name": "Sense115"
+            }
+          ]
+        },
+        {
+          "matchId": 505438781,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:33:59.000Z",
+          "dur": 1378,
+          "opponents": [
+            {
+              "profileId": 15759569,
+              "name": "\u6069\u5e95\u5f25\u7fc1\u4e4b\u9e70"
+            },
+            {
+              "profileId": 17550790,
+              "name": "\u5e1d\u56fd\u5b59\u7b11\u5ddd"
+            },
+            {
+              "profileId": 2572641,
+              "name": "Heretic Prophet"
+            },
+            {
+              "profileId": 15485195,
+              "name": "\u706f\u7a9d\u68ee\u66fe\u745e\u535c\u836f\u65b9\u677e\u6ef4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10012148,
+              "name": "T\u043e\u0431\u0438\u0430s DaNie\u025b"
+            },
+            {
+              "profileId": 20164533,
+              "name": "Kyrieluo"
+            },
+            {
+              "profileId": 4657101,
+              "name": "\u5ff5"
+            }
+          ]
+        },
         {
           "matchId": 504832977,
           "civ": "Chinese",
@@ -52205,5 +52332,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

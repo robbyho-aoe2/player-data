@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1200,
         "peakRating": 1221
       },
@@ -397,12 +397,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 477,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1229,
+        "totalGames": 479,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1232,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 505130667,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:25:39.000Z",
+          "dur": 938,
+          "opponents": [
+            {
+              "profileId": 7940203,
+              "name": "takoyaki"
+            },
+            {
+              "profileId": 7636433,
+              "name": "pity.grillo26"
+            },
+            {
+              "profileId": 2451633,
+              "name": "Jumilka5029"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21254365,
+              "name": "ExxD96"
+            },
+            {
+              "profileId": 2281770,
+              "name": "Lorenzo de' Medici"
+            }
+          ]
+        },
+        {
+          "matchId": 505127532,
+          "civ": "Burmese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:06:13.000Z",
+          "dur": 950,
+          "opponents": [
+            {
+              "profileId": 12009975,
+              "name": "LMG_Leonardo"
+            },
+            {
+              "profileId": 12010648,
+              "name": "LMG_SON SABANDIJAS"
+            },
+            {
+              "profileId": 12168959,
+              "name": "LMG_HERA DE TEMU"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25836060,
+              "name": "jusart.92"
+            },
+            {
+              "profileId": 7636433,
+              "name": "pity.grillo26"
+            }
+          ]
+        },
         {
           "matchId": 504891886,
           "civ": "Tatars",
@@ -15938,5 +16006,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 137,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1193,
         "peakRating": 1308
       },
@@ -2358,12 +2358,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 122,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1286,
+        "totalGames": 124,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1283,
         "peakRating": 1326
       },
       "matches": [
+        {
+          "matchId": 505471896,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:32:45.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 12251369,
+              "name": "Redbeard"
+            },
+            {
+              "profileId": 12136167,
+              "name": "slbballman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25547224,
+              "name": "Fading"
+            }
+          ]
+        },
+        {
+          "matchId": 505471282,
+          "civ": "Slavs",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:29:28.000Z",
+          "dur": 29,
+          "opponents": [
+            {
+              "profileId": 1644337,
+              "name": "somaster94"
+            },
+            {
+              "profileId": 1910362,
+              "name": "Jambo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2721827,
+              "name": "Exellence"
+            }
+          ]
+        },
         {
           "matchId": 504860058,
           "civ": "Bohemians",
@@ -6282,5 +6334,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

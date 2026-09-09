@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 92,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1073,
         "peakRating": 1073
       },
@@ -1501,12 +1501,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1849,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1084,
+        "totalGames": 1851,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1085,
         "peakRating": 1271
       },
       "matches": [
+        {
+          "matchId": 505348121,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:36:41.000Z",
+          "dur": 1662,
+          "opponents": [
+            {
+              "profileId": 16842565,
+              "name": "Barbeituss"
+            },
+            {
+              "profileId": 20374450,
+              "name": "rugiero569"
+            },
+            {
+              "profileId": 24640324,
+              "name": "andres.sojo2809"
+            },
+            {
+              "profileId": 25355157,
+              "name": "hargir"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1099523,
+              "name": "Fpavoni"
+            },
+            {
+              "profileId": 397187,
+              "name": "dl_king"
+            },
+            {
+              "profileId": 3216552,
+              "name": "Chaves"
+            }
+          ]
+        },
+        {
+          "matchId": 505334839,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:08:45.000Z",
+          "dur": 1664,
+          "opponents": [
+            {
+              "profileId": 1506551,
+              "name": "\u68a3"
+            },
+            {
+              "profileId": 23064793,
+              "name": "Baylon"
+            },
+            {
+              "profileId": 26009685,
+              "name": "smurfrus"
+            },
+            {
+              "profileId": 26009973,
+              "name": "Oldman1976"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2982879,
+              "name": "Dj_HouseKarl"
+            },
+            {
+              "profileId": 9742686,
+              "name": "Fencer_Khan"
+            },
+            {
+              "profileId": 15436628,
+              "name": "Prushogamer"
+            }
+          ]
+        },
         {
           "matchId": 505124443,
           "civ": "Slavs",
@@ -64954,5 +65038,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

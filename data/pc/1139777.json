@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2789,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1241,
+        "totalGames": 2792,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1289,
         "peakRating": 1307
       },
       "matches": [
+        {
+          "matchId": 505245659,
+          "civ": "Cumans",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:17:07.000Z",
+          "dur": 1765,
+          "opponents": [
+            {
+              "profileId": 11236949,
+              "name": "Dexter"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505208828,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T11:31:47.000Z",
+          "dur": 1778,
+          "opponents": [
+            {
+              "profileId": 8429934,
+              "name": "Valhalla"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505194235,
+          "civ": "Cumans",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T09:10:52.000Z",
+          "dur": 2281,
+          "opponents": [
+            {
+              "profileId": 10252682,
+              "name": "JDIV"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504995893,
           "civ": "Khitans",
@@ -44681,12 +44732,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 289,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1143,
+        "totalGames": 292,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1125,
         "peakRating": 1242
       },
       "matches": [
+        {
+          "matchId": 505208512,
+          "civ": "Khitans",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T11:29:15.000Z",
+          "dur": 18,
+          "opponents": [
+            {
+              "profileId": 20045308,
+              "name": "JCUP"
+            },
+            {
+              "profileId": 22633053,
+              "name": "Yakamoon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6433225,
+              "name": "xBOYLANATORx"
+            }
+          ]
+        },
+        {
+          "matchId": 505192654,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:53:08.000Z",
+          "dur": 972,
+          "opponents": [
+            {
+              "profileId": 3495210,
+              "name": "Vussian spy"
+            },
+            {
+              "profileId": 854648,
+              "name": "Body Dysmorphia Tony"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18805383,
+              "name": "Requejo"
+            }
+          ]
+        },
+        {
+          "matchId": 505189690,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:20:38.000Z",
+          "dur": 1847,
+          "opponents": [
+            {
+              "profileId": 2623052,
+              "name": "sloth"
+            },
+            {
+              "profileId": 393988,
+              "name": "flame"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25969036,
+              "name": "ducthi.bds"
+            }
+          ]
+        },
         {
           "matchId": 504964618,
           "civ": "Burgundians",
@@ -52101,5 +52230,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

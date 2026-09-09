@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1382,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1756,
+        "totalGames": 1384,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1751,
         "peakRating": 1786
       },
       "matches": [
+        {
+          "matchId": 505400262,
+          "civ": "Romans",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:54:02.000Z",
+          "dur": 1312,
+          "opponents": [
+            {
+              "profileId": 667881,
+              "name": "tovra fans"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505399331,
+          "civ": "Malians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:44:22.000Z",
+          "dur": 435,
+          "opponents": [
+            {
+              "profileId": 4081503,
+              "name": "Raddygo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504557730,
           "civ": "Khitans",
@@ -22149,12 +22183,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1723,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1571,
+        "totalGames": 1727,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1523,
         "peakRating": 1656
       },
       "matches": [
+        {
+          "matchId": 505224746,
+          "civ": "Chinese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:24:32.000Z",
+          "dur": 731,
+          "opponents": [
+            {
+              "profileId": 4039792,
+              "name": "WryPig"
+            },
+            {
+              "profileId": 15677316,
+              "name": "twitch: aoe2_billybadbeat"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1236636,
+              "name": "\u2661 Laborchef Dr. Laugenm\u00e4usken"
+            }
+          ]
+        },
+        {
+          "matchId": 505218466,
+          "civ": "Incas",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:45:45.000Z",
+          "dur": 1952,
+          "opponents": [
+            {
+              "profileId": 19438274,
+              "name": "yix_x_xio"
+            },
+            {
+              "profileId": 5802107,
+              "name": "SMY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1236636,
+              "name": "\u2661 Laborchef Dr. Laugenm\u00e4usken"
+            }
+          ]
+        },
+        {
+          "matchId": 505214203,
+          "civ": "Chinese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:15:35.000Z",
+          "dur": 1643,
+          "opponents": [
+            {
+              "profileId": 22075249,
+              "name": "Player86688262"
+            },
+            {
+              "profileId": 10833211,
+              "name": "mongo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1236636,
+              "name": "\u2661 Laborchef Dr. Laugenm\u00e4usken"
+            }
+          ]
+        },
+        {
+          "matchId": 505210899,
+          "civ": "Bulgarians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T11:48:45.000Z",
+          "dur": 1416,
+          "opponents": [
+            {
+              "profileId": 2452014,
+              "name": "Pfienz"
+            },
+            {
+              "profileId": 1393734,
+              "name": "{ BP } K\u00e4pt`n Iglo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1236636,
+              "name": "\u2661 Laborchef Dr. Laugenm\u00e4usken"
+            }
+          ]
+        },
         {
           "matchId": 504717197,
           "civ": "Burgundians",
@@ -65959,5 +66097,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

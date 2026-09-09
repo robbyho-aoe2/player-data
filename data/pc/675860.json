@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 44,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1083,
         "peakRating": 1084
       },
@@ -425,12 +425,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 279,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1123,
+        "totalGames": 280,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1135,
         "peakRating": 1205
       },
       "matches": [
+        {
+          "matchId": 505099102,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:25:04.000Z",
+          "dur": 2944,
+          "opponents": [
+            {
+              "profileId": 8219109,
+              "name": "Kampfschafadmiral"
+            },
+            {
+              "profileId": 1520888,
+              "name": "Philister"
+            },
+            {
+              "profileId": 676438,
+              "name": "DS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10070366,
+              "name": "RLF_jcat"
+            },
+            {
+              "profileId": 2855709,
+              "name": "Age_noob"
+            }
+          ]
+        },
         {
           "matchId": 504856061,
           "civ": "Franks",
@@ -3878,5 +3912,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

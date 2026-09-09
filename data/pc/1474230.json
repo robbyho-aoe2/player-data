@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1007,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-09",
         "latestRating": 1179,
         "peakRating": 1491
       },
@@ -16141,12 +16141,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 527,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1217,
+        "totalGames": 528,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1228,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 505252625,
+          "civ": "Bohemians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:56:52.000Z",
+          "dur": 805,
+          "opponents": [
+            {
+              "profileId": 18775613,
+              "name": "\u812b\u5149\u770b\u5927\u8857"
+            },
+            {
+              "profileId": 18775909,
+              "name": "\u7fd2\u5305\u5b50\u5c0f\u5b78\u751f"
+            },
+            {
+              "profileId": 19199851,
+              "name": "\u5c3f\u5c3f\u5b8c\u8981\u81bd\u4e39\u4e39"
+            },
+            {
+              "profileId": 24322508,
+              "name": "\u9ad8\u5927\u7237"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1534893,
+              "name": "EL CID"
+            },
+            {
+              "profileId": 5395552,
+              "name": "Schleb"
+            },
+            {
+              "profileId": 17963733,
+              "name": "ELO800"
+            }
+          ]
+        },
         {
           "matchId": 495574578,
           "civ": "Vikings",
@@ -30220,5 +30262,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

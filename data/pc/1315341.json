@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 425,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-09",
         "latestRating": 1145,
         "peakRating": 1298
       },
@@ -6829,12 +6829,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1897,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1137,
+        "totalGames": 1898,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1115,
         "peakRating": 1298
       },
       "matches": [
+        {
+          "matchId": 505328193,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:25:13.000Z",
+          "dur": 2308,
+          "opponents": [
+            {
+              "profileId": 23255567,
+              "name": "Mito"
+            },
+            {
+              "profileId": 238507,
+              "name": "Hakim"
+            },
+            {
+              "profileId": 4307509,
+              "name": "AXRINN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15654262,
+              "name": "ruasebas"
+            },
+            {
+              "profileId": 5492924,
+              "name": "Ragnar"
+            }
+          ]
+        },
         {
           "matchId": 505098870,
           "civ": "Mongols",
@@ -69041,5 +69075,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

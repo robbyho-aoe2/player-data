@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2599,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1468,
+        "totalGames": 2600,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1451,
         "peakRating": 1519
       },
       "matches": [
+        {
+          "matchId": 505376506,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:42:05.000Z",
+          "dur": 1136,
+          "opponents": [
+            {
+              "profileId": 22328651,
+              "name": "\u540d\u5b57\u88ab\u9b3c\u5403\u6389\u4e86"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505033025,
           "civ": "Slavs",
@@ -23612,12 +23629,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2186,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1461,
+        "totalGames": 2187,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1444,
         "peakRating": 1626
       },
       "matches": [
+        {
+          "matchId": 505379018,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:02:59.000Z",
+          "dur": 1210,
+          "opponents": [
+            {
+              "profileId": 11504723,
+              "name": "De_Aztek"
+            },
+            {
+              "profileId": 6861509,
+              "name": "Herby"
+            },
+            {
+              "profileId": 2338580,
+              "name": "Dark Gundam"
+            },
+            {
+              "profileId": 553504,
+              "name": "[Pb] Komodo 3000"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3354046,
+              "name": "Sheepeehs"
+            },
+            {
+              "profileId": 2689803,
+              "name": "jardan1234"
+            },
+            {
+              "profileId": 22634615,
+              "name": "[GDL] ColimoteStudioS"
+            }
+          ]
+        },
         {
           "matchId": 505075619,
           "civ": "Celts",
@@ -44479,5 +44538,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }
