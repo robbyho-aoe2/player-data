@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 452,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1263,
         "peakRating": 1288
       },
@@ -7263,12 +7263,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 837,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1207,
+        "totalGames": 839,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1198,
         "peakRating": 1400
       },
       "matches": [
+        {
+          "matchId": 505364269,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:20:19.000Z",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 4442421,
+              "name": "Barquimides"
+            },
+            {
+              "profileId": 2657015,
+              "name": "Mariostoteles"
+            },
+            {
+              "profileId": 2407649,
+              "name": "Chorizo En Cajas"
+            },
+            {
+              "profileId": 5841227,
+              "name": "Blutt_SWD"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15485604,
+              "name": "MochiCochi"
+            },
+            {
+              "profileId": 22554706,
+              "name": "popibo"
+            },
+            {
+              "profileId": 26107849,
+              "name": "I ONLY MAKE SIEGE TOWERS"
+            }
+          ]
+        },
+        {
+          "matchId": 505359927,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:52:42.000Z",
+          "dur": 1414,
+          "opponents": [
+            {
+              "profileId": 196609,
+              "name": "Gabellius"
+            },
+            {
+              "profileId": 468922,
+              "name": "schupacalypse"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15485604,
+              "name": "MochiCochi"
+            }
+          ]
+        },
         {
           "matchId": 504343628,
           "civ": "Britons",
@@ -32678,5 +32746,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

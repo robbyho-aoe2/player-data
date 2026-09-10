@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 32,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1544,
         "peakRating": 1555
       },
@@ -541,12 +541,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1595,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1560,
+        "totalGames": 1598,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1542,
         "peakRating": 1744
       },
       "matches": [
+        {
+          "matchId": 505506921,
+          "civ": "Huns",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:28:38.000Z",
+          "dur": 2844,
+          "opponents": [
+            {
+              "profileId": 499526,
+              "name": "Nordigard"
+            },
+            {
+              "profileId": 2026144,
+              "name": "Monotone"
+            },
+            {
+              "profileId": 3520125,
+              "name": "Guts"
+            },
+            {
+              "profileId": 16214088,
+              "name": "Mr.stealyoBoar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18210484,
+              "name": "szabofeketeerika"
+            },
+            {
+              "profileId": 519728,
+              "name": "2ez Scipi"
+            },
+            {
+              "profileId": 2379458,
+              "name": "trombone"
+            }
+          ]
+        },
+        {
+          "matchId": 505502381,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:07:49.000Z",
+          "dur": 1050,
+          "opponents": [
+            {
+              "profileId": 25516155,
+              "name": "SadBoyz )"
+            },
+            {
+              "profileId": 1008214,
+              "name": "eXitDenDoc"
+            },
+            {
+              "profileId": 1911084,
+              "name": "JoPo21"
+            },
+            {
+              "profileId": 976625,
+              "name": "flowaway4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18210484,
+              "name": "szabofeketeerika"
+            },
+            {
+              "profileId": 2376066,
+              "name": "2EZ_Lui_"
+            },
+            {
+              "profileId": 519728,
+              "name": "2ez Scipi"
+            }
+          ]
+        },
+        {
+          "matchId": 505290314,
+          "civ": "Huns",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:08:12.000Z",
+          "dur": 2212,
+          "opponents": [
+            {
+              "profileId": 21694089,
+              "name": "Matzeking"
+            },
+            {
+              "profileId": 9585106,
+              "name": "Zni.Kark01"
+            },
+            {
+              "profileId": 478629,
+              "name": "QNA | Apachai Hopachai"
+            },
+            {
+              "profileId": 9369781,
+              "name": "Morris=w="
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18210484,
+              "name": "szabofeketeerika"
+            },
+            {
+              "profileId": 2379458,
+              "name": "trombone"
+            },
+            {
+              "profileId": 519728,
+              "name": "2ez Scipi"
+            }
+          ]
+        },
         {
           "matchId": 505067168,
           "civ": "Tatars",
@@ -56958,5 +57084,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "hu",
+  "countryIcon": "\ud83c\udded\ud83c\uddfa",
+  "countryName": "Hungary"
 }

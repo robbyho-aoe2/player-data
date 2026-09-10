@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 426,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1238,
         "peakRating": 1270
       },
@@ -3863,12 +3863,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4149,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1188,
+        "totalGames": 4151,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1183,
         "peakRating": 1477
       },
       "matches": [
+        {
+          "matchId": 505270526,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:32:18.000Z",
+          "dur": 2652,
+          "opponents": [
+            {
+              "profileId": 2140609,
+              "name": "fotolithos"
+            },
+            {
+              "profileId": 4760828,
+              "name": "ZFRSZN"
+            },
+            {
+              "profileId": 15479045,
+              "name": "SeppShover"
+            },
+            {
+              "profileId": 18996258,
+              "name": "NoStim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23397028,
+              "name": "adjorno"
+            },
+            {
+              "profileId": 3022630,
+              "name": "LumiSpirit"
+            },
+            {
+              "profileId": 8912029,
+              "name": "\u5e1d\u56fd\u6d6a\u5b50"
+            }
+          ]
+        },
+        {
+          "matchId": 505264318,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:00:18.000Z",
+          "dur": 1664,
+          "opponents": [
+            {
+              "profileId": 1129171,
+              "name": "Don"
+            },
+            {
+              "profileId": 23189483,
+              "name": "badeMJoon"
+            },
+            {
+              "profileId": 23001337,
+              "name": "Eenoon"
+            },
+            {
+              "profileId": 14784524,
+              "name": "Superhoops"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25252483,
+              "name": "halong1301"
+            },
+            {
+              "profileId": 2915164,
+              "name": "Liam"
+            },
+            {
+              "profileId": 2717098,
+              "name": "Hyderabad (Ind)"
+            }
+          ]
+        },
         {
           "matchId": 505046025,
           "civ": "Vietnamese",
@@ -42578,5 +42662,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "hk",
+  "countryIcon": "\ud83c\udded\ud83c\uddf0",
+  "countryName": "Hong Kong"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 153,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 729,
         "peakRating": 818
       },
@@ -2477,12 +2477,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1074,
-        "pulledDate": "2026-09-08",
-        "latestRating": 684,
+        "totalGames": 1075,
+        "pulledDate": "2026-09-10",
+        "latestRating": 700,
         "peakRating": 1000
       },
       "matches": [
+        {
+          "matchId": 505299086,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:48:29.000Z",
+          "dur": 1178,
+          "opponents": [
+            {
+              "profileId": 3586776,
+              "name": "Limo3616"
+            },
+            {
+              "profileId": 6535472,
+              "name": "Facundo\u2714\u266b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17204671,
+              "name": "Ketchup"
+            }
+          ]
+        },
         {
           "matchId": 504895555,
           "civ": "Poles",
@@ -36737,5 +36763,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

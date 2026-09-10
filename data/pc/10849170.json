@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 348,
-        "pulledDate": "2026-09-08",
-        "latestRating": 915,
+        "totalGames": 349,
+        "pulledDate": "2026-09-10",
+        "latestRating": 931,
         "peakRating": 1029
       },
       "matches": [
+        {
+          "matchId": 505403841,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:34:52.000Z",
+          "dur": 1596,
+          "opponents": [
+            {
+              "profileId": 9292395,
+              "name": "JENCKO"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505186328,
           "civ": "Bohemians",
@@ -5610,12 +5627,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 347,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1212,
+        "totalGames": 349,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1222,
         "peakRating": 1374
       },
       "matches": [
+        {
+          "matchId": 505650566,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T13:37:10.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1749778,
+              "name": "god comic"
+            },
+            {
+              "profileId": 341211,
+              "name": "K3L"
+            },
+            {
+              "profileId": 3116904,
+              "name": "\u7e41\u661f\u7684\u963f\u62c9\u4f2f\u534a\u5c9b\u4e4b\u65c5"
+            },
+            {
+              "profileId": 2744358,
+              "name": "[GRs]KillerJerry"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 483862,
+              "name": "\u8c93\u5996"
+            },
+            {
+              "profileId": 9905419,
+              "name": "\u70cf\u96f2\u4e2d"
+            },
+            {
+              "profileId": 3085218,
+              "name": "\u9ad8\u5fb7\u7d0d"
+            }
+          ]
+        },
+        {
+          "matchId": 505472059,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:33:31.000Z",
+          "dur": 1505,
+          "opponents": [
+            {
+              "profileId": 2057736,
+              "name": "Hieminator"
+            },
+            {
+              "profileId": 24126829,
+              "name": "botas.el.gato"
+            },
+            {
+              "profileId": 15600350,
+              "name": "BIC"
+            },
+            {
+              "profileId": 14831100,
+              "name": "1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3085218,
+              "name": "\u9ad8\u5fb7\u7d0d"
+            },
+            {
+              "profileId": 1783754,
+              "name": "\u597d\u8b66\u5bdf"
+            },
+            {
+              "profileId": 9905419,
+              "name": "\u70cf\u96f2\u4e2d"
+            }
+          ]
+        },
         {
           "matchId": 505237232,
           "civ": "Persians",
@@ -15142,5 +15243,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

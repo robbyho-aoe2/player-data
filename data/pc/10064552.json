@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1274,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1212,
+        "totalGames": 1276,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1243,
         "peakRating": 1339
       },
       "matches": [
+        {
+          "matchId": 505550972,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:36:33.000Z",
+          "dur": 2661,
+          "opponents": [
+            {
+              "profileId": 2429297,
+              "name": "Ref"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505356187,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:28:21.000Z",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 10990140,
+              "name": "rrhaburn14"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504925599,
           "civ": "Mongols",
@@ -20428,12 +20462,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1756,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1104,
+        "totalGames": 1760,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1133,
         "peakRating": 1190
       },
       "matches": [
+        {
+          "matchId": 505545489,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:01:17.000Z",
+          "dur": 1907,
+          "opponents": [
+            {
+              "profileId": 12231797,
+              "name": "TheRemover"
+            },
+            {
+              "profileId": 4792629,
+              "name": "Neverlookback.88"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12216867,
+              "name": "BarneyGumbleeeee"
+            }
+          ]
+        },
+        {
+          "matchId": 505368149,
+          "civ": "Burmese",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:44:46.000Z",
+          "dur": 649,
+          "opponents": [
+            {
+              "profileId": 2902943,
+              "name": "Carbage"
+            },
+            {
+              "profileId": 2749851,
+              "name": "Don Suero"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12216867,
+              "name": "BarneyGumbleeeee"
+            }
+          ]
+        },
+        {
+          "matchId": 505364722,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:23:00.000Z",
+          "dur": 1170,
+          "opponents": [
+            {
+              "profileId": 3298595,
+              "name": "Beaster"
+            },
+            {
+              "profileId": 2127727,
+              "name": "Karibou"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12216867,
+              "name": "BarneyGumbleeeee"
+            }
+          ]
+        },
+        {
+          "matchId": 505361340,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:01:42.000Z",
+          "dur": 1092,
+          "opponents": [
+            {
+              "profileId": 3298595,
+              "name": "Beaster"
+            },
+            {
+              "profileId": 2127727,
+              "name": "Karibou"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12216867,
+              "name": "BarneyGumbleeeee"
+            }
+          ]
+        },
         {
           "matchId": 503307531,
           "civ": "Mongols",
@@ -68416,5 +68554,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

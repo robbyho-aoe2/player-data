@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 17,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1210,
-        "peakRating": 1210
+        "totalGames": 19,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1259,
+        "peakRating": 1259
       },
       "matches": [
+        {
+          "matchId": 505606443,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T06:48:56.000Z",
+          "dur": 1429,
+          "opponents": [
+            {
+              "profileId": 2664812,
+              "name": "ErisFeet"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505604722,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T06:27:35.000Z",
+          "dur": 1201,
+          "opponents": [
+            {
+              "profileId": 2664812,
+              "name": "ErisFeet"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504952760,
           "civ": "Teutons",
@@ -302,12 +336,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 220,
-        "pulledDate": "2026-09-08",
-        "latestRating": 973,
+        "totalGames": 222,
+        "pulledDate": "2026-09-10",
+        "latestRating": 967,
         "peakRating": 988
       },
       "matches": [
+        {
+          "matchId": 505611273,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T07:48:22.000Z",
+          "dur": 2735,
+          "opponents": [
+            {
+              "profileId": 657059,
+              "name": "jeff.chang1205"
+            },
+            {
+              "profileId": 4816622,
+              "name": "love_88876515"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21058704,
+              "name": "Juuu136"
+            }
+          ]
+        },
+        {
+          "matchId": 505609135,
+          "civ": "Khmer",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T07:23:12.000Z",
+          "dur": 1272,
+          "opponents": [
+            {
+              "profileId": 24858059,
+              "name": "niels.leenders"
+            },
+            {
+              "profileId": 10424567,
+              "name": "Epileptic Pilot"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 591146,
+              "name": "War_Beast"
+            }
+          ]
+        },
         {
           "matchId": 504955776,
           "civ": "Italians",
@@ -8780,5 +8866,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

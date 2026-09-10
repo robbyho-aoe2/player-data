@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 158,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1297,
+        "totalGames": 162,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1265,
         "peakRating": 1357
       },
       "matches": [
+        {
+          "matchId": 505472044,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:32:58.000Z",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 1355102,
+              "name": "BeefJerky"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505407457,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:13:34.000Z",
+          "dur": 1407,
+          "opponents": [
+            {
+              "profileId": 1064001,
+              "name": "\u7121\u969b"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505405221,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:49:35.000Z",
+          "dur": 1300,
+          "opponents": [
+            {
+              "profileId": 4907091,
+              "name": "Fabulous_Fabian"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505402918,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:25:35.000Z",
+          "dur": 1294,
+          "opponents": [
+            {
+              "profileId": 209485,
+              "name": "BombayGypsy"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505189394,
           "civ": "Franks",
@@ -2716,7 +2784,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1104,
         "peakRating": 1132
       },
@@ -3459,5 +3527,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "in",
+  "countryIcon": "\ud83c\uddee\ud83c\uddf3",
+  "countryName": "India"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 857,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1750,
+        "totalGames": 860,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1725,
         "peakRating": 1858
       },
       "matches": [
+        {
+          "matchId": 505295908,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:34:04.000Z",
+          "dur": 1371,
+          "opponents": [
+            {
+              "profileId": 15142164,
+              "name": "MILFHUNTER2014"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505294931,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:29:32.000Z",
+          "dur": 151,
+          "opponents": [
+            {
+              "profileId": 15752697,
+              "name": "j1nkerS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505273679,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:48:00.000Z",
+          "dur": 1603,
+          "opponents": [
+            {
+              "profileId": 4518241,
+              "name": "Pen\u00e9fago"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504343009,
           "civ": "Magyars",
@@ -12905,12 +12956,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2688,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1562,
+        "totalGames": 2689,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1542,
         "peakRating": 1732
       },
       "matches": [
+        {
+          "matchId": 505301905,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:01:44.000Z",
+          "dur": 1569,
+          "opponents": [
+            {
+              "profileId": 21635878,
+              "name": "Pawo"
+            },
+            {
+              "profileId": 24152026,
+              "name": "darkwwww2015"
+            },
+            {
+              "profileId": 24402699,
+              "name": "F1NBLOO"
+            },
+            {
+              "profileId": 881666,
+              "name": "\u5c0f\u4e09\u8f2a\u53f8\u6a5f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1098324,
+              "name": "Firestorm"
+            },
+            {
+              "profileId": 3081957,
+              "name": "p1c0"
+            },
+            {
+              "profileId": 5963639,
+              "name": "\u6296\u97f3\u5e1d\u56fd\u963f\u98de"
+            }
+          ]
+        },
         {
           "matchId": 505080225,
           "civ": "Tupi",
@@ -82225,5 +82318,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

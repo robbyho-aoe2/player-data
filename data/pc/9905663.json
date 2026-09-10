@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 400,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1128,
         "peakRating": 1202
       },
@@ -6429,12 +6429,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 276,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1107,
+        "totalGames": 278,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1101,
         "peakRating": 1219
       },
       "matches": [
+        {
+          "matchId": 505417130,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:53:19.000Z",
+          "dur": 1424,
+          "opponents": [
+            {
+              "profileId": 14912175,
+              "name": "FOulerg"
+            },
+            {
+              "profileId": 9122301,
+              "name": "dragons_rock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1081166,
+              "name": "ReidTheWombat"
+            }
+          ]
+        },
+        {
+          "matchId": 505413732,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:19:21.000Z",
+          "dur": 1763,
+          "opponents": [
+            {
+              "profileId": 2926142,
+              "name": "scanya"
+            },
+            {
+              "profileId": 16995592,
+              "name": "MUCI"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1081166,
+              "name": "ReidTheWombat"
+            }
+          ]
+        },
         {
           "matchId": 505206516,
           "civ": "Romans",
@@ -13376,5 +13428,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "au",
+  "countryIcon": "\ud83c\udde6\ud83c\uddfa",
+  "countryName": "Australia"
 }

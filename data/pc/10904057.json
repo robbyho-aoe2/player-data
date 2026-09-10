@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 32,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 1047,
         "peakRating": 1047
       },
@@ -541,12 +541,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 258,
-        "pulledDate": "2026-09-02",
-        "latestRating": 1377,
+        "totalGames": 261,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1357,
         "peakRating": 1377
       },
       "matches": [
+        {
+          "matchId": 505645262,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T13:03:46.000Z",
+          "dur": 929,
+          "opponents": [
+            {
+              "profileId": 5440118,
+              "name": "cowoc"
+            },
+            {
+              "profileId": 7439243,
+              "name": "Lan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23884345,
+              "name": "AO2 - PoP"
+            }
+          ]
+        },
+        {
+          "matchId": 505640078,
+          "civ": "Incas",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T12:28:08.000Z",
+          "dur": 1976,
+          "opponents": [
+            {
+              "profileId": 4529581,
+              "name": "Astor"
+            },
+            {
+              "profileId": 6093175,
+              "name": "Tedik500"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23884345,
+              "name": "AO2 - PoP"
+            }
+          ]
+        },
+        {
+          "matchId": 505634542,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T11:45:23.000Z",
+          "dur": 1821,
+          "opponents": [
+            {
+              "profileId": 21698834,
+              "name": "anitiger9486"
+            },
+            {
+              "profileId": 2695242,
+              "name": "BeardyNath"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23884345,
+              "name": "AO2 - PoP"
+            }
+          ]
+        },
         {
           "matchId": 502710788,
           "civ": "Mongols",
@@ -7767,5 +7845,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

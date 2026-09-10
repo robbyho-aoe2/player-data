@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 183,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1652,
+        "totalGames": 184,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1637,
         "peakRating": 1670
       },
       "matches": [
+        {
+          "matchId": 505243855,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:08:28.000Z",
+          "dur": 1525,
+          "opponents": [
+            {
+              "profileId": 5557156,
+              "name": "Nepukad"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503629579,
           "civ": "Slavs",
@@ -2957,12 +2974,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 519,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1481,
+        "totalGames": 520,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1498,
         "peakRating": 1525
       },
       "matches": [
+        {
+          "matchId": 505471869,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:32:31.000Z",
+          "dur": 1584,
+          "opponents": [
+            {
+              "profileId": 1723050,
+              "name": "GAX | Mr.P"
+            },
+            {
+              "profileId": 17887021,
+              "name": "GAX | Poles Dance"
+            },
+            {
+              "profileId": 2918782,
+              "name": "GAX | This Game Isnt Fun"
+            },
+            {
+              "profileId": 6732409,
+              "name": "GAX | Thui"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1303753,
+              "name": "twitch.tv/konpitsa"
+            },
+            {
+              "profileId": 244538,
+              "name": "\u864e\u528d Siegebreaker\u2122"
+            },
+            {
+              "profileId": 345810,
+              "name": "naron"
+            }
+          ]
+        },
         {
           "matchId": 503865586,
           "civ": "Aztecs",
@@ -17711,5 +17770,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gr",
+  "countryIcon": "\ud83c\uddec\ud83c\uddf7",
+  "countryName": "Greece"
 }

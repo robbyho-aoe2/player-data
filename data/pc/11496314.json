@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 699,
-        "pulledDate": "2026-09-08",
-        "latestRating": 709,
+        "totalGames": 703,
+        "pulledDate": "2026-09-10",
+        "latestRating": 710,
         "peakRating": 889
       },
       "matches": [
+        {
+          "matchId": 505602051,
+          "civ": "Portuguese",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T05:54:07.000Z",
+          "dur": 1835,
+          "opponents": [
+            {
+              "profileId": 2147222,
+              "name": "simple-man"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505581858,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:56:45.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 13121292,
+              "name": "Tony Montana"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505574956,
+          "civ": "Portuguese",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:12:35.000Z",
+          "dur": 2323,
+          "opponents": [
+            {
+              "profileId": 19532968,
+              "name": "HOOD"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505567621,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:27:52.000Z",
+          "dur": 2214,
+          "opponents": [
+            {
+              "profileId": 2181864,
+              "name": "Manucha"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504957480,
           "civ": "Mongols",
@@ -11228,12 +11296,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 197,
-        "pulledDate": "2026-09-08",
-        "latestRating": 729,
+        "totalGames": 198,
+        "pulledDate": "2026-09-10",
+        "latestRating": 714,
         "peakRating": 1063
       },
       "matches": [
+        {
+          "matchId": 505604569,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T06:26:36.000Z",
+          "dur": 1903,
+          "opponents": [
+            {
+              "profileId": 12647476,
+              "name": "Sir ReideN x"
+            },
+            {
+              "profileId": 25787774,
+              "name": "kurogane352"
+            },
+            {
+              "profileId": 25239718,
+              "name": "emmatepozt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18189198,
+              "name": "przemyslawlatos"
+            },
+            {
+              "profileId": 23227540,
+              "name": "An\u0365gr\u0363y\u036b\u3084o\u2020\u03b1\u2020o \u0295\u2022\u1d25\u2022\u0294 [ESP]"
+            }
+          ]
+        },
         {
           "matchId": 504940971,
           "civ": "Burmese",
@@ -17177,5 +17279,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

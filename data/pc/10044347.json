@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 742,
-        "pulledDate": "2026-09-08",
-        "latestRating": 2211,
+        "totalGames": 747,
+        "pulledDate": "2026-09-10",
+        "latestRating": 2190,
         "peakRating": 2280
       },
       "matches": [
+        {
+          "matchId": 505427848,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:22:36.000Z",
+          "dur": 552,
+          "opponents": [
+            {
+              "profileId": 4116886,
+              "name": "sane"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505422921,
+          "civ": "Ethiopians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T11:44:19.000Z",
+          "dur": 1159,
+          "opponents": [
+            {
+              "profileId": 878378,
+              "name": "[V-VI] LemonJack"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505419419,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T11:14:38.000Z",
+          "dur": 1463,
+          "opponents": [
+            {
+              "profileId": 2266228,
+              "name": "Edgar Davids"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505406131,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:59:48.000Z",
+          "dur": 1646,
+          "opponents": [
+            {
+              "profileId": 25495124,
+              "name": "Player46887455"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505405790,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:55:52.000Z",
+          "dur": 56,
+          "opponents": [
+            {
+              "profileId": 25178401,
+              "name": "Predestined Jean Calvin"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505208928,
           "civ": "Mongols",
@@ -11938,7 +12023,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "peakRating": 1305,
         "latestRating": 1269
       },
@@ -12601,5 +12686,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

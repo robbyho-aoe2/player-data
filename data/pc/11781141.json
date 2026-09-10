@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1691,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1507,
+        "totalGames": 1694,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1489,
         "peakRating": 1560
       },
       "matches": [
+        {
+          "matchId": 505560756,
+          "civ": "Muisca",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:41:29.000Z",
+          "dur": 1641,
+          "opponents": [
+            {
+              "profileId": 794304,
+              "name": "a.salyers231"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505557093,
+          "civ": "Persians",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:17:02.000Z",
+          "dur": 1164,
+          "opponents": [
+            {
+              "profileId": 4734477,
+              "name": "dean_moriarty"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505551258,
+          "civ": "Muisca",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:38:29.000Z",
+          "dur": 2074,
+          "opponents": [
+            {
+              "profileId": 350782,
+              "name": "Joxer The Mighty"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505135708,
           "civ": "Japanese",
@@ -15644,12 +15695,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2876,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1406,
+        "totalGames": 2880,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1411,
         "peakRating": 1439
       },
       "matches": [
+        {
+          "matchId": 505349424,
+          "civ": "Tupi",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:45:14.000Z",
+          "dur": 1950,
+          "opponents": [
+            {
+              "profileId": 3021682,
+              "name": "Very ellegant player"
+            },
+            {
+              "profileId": 9220337,
+              "name": "Eros.99"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1937895,
+              "name": "PNAL | Machete"
+            }
+          ]
+        },
+        {
+          "matchId": 505345834,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:21:36.000Z",
+          "dur": 1197,
+          "opponents": [
+            {
+              "profileId": 25694758,
+              "name": "PWLG | Legend"
+            },
+            {
+              "profileId": 18628000,
+              "name": "the best BO's"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1937895,
+              "name": "PNAL | Machete"
+            }
+          ]
+        },
+        {
+          "matchId": 505342232,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:57:21.000Z",
+          "dur": 1136,
+          "opponents": [
+            {
+              "profileId": 12133808,
+              "name": "Vortex"
+            },
+            {
+              "profileId": 23405104,
+              "name": "Pug Carlino"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1937895,
+              "name": "PNAL | Machete"
+            }
+          ]
+        },
+        {
+          "matchId": 505334939,
+          "civ": "Bulgarians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:09:17.000Z",
+          "dur": 2094,
+          "opponents": [
+            {
+              "profileId": 10980846,
+              "name": "hcenemod"
+            },
+            {
+              "profileId": 16333314,
+              "name": "PSX | Cristov"
+            },
+            {
+              "profileId": 15117511,
+              "name": "Snavle"
+            },
+            {
+              "profileId": 10430787,
+              "name": "Kawa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11375916,
+              "name": "PNAL | chumbito"
+            },
+            {
+              "profileId": 15542786,
+              "name": "PNAL | El Chill de Cojones"
+            },
+            {
+              "profileId": 1937895,
+              "name": "PNAL | Machete"
+            }
+          ]
+        },
         {
           "matchId": 497254948,
           "civ": "Vietnamese",
@@ -41536,5 +41707,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

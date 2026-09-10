@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": [
         {
@@ -43,12 +43,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 49,
-        "pulledDate": "2026-09-08",
-        "latestRating": 606,
+        "totalGames": 51,
+        "pulledDate": "2026-09-10",
+        "latestRating": 607,
         "peakRating": 798
       },
       "matches": [
+        {
+          "matchId": 505527760,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:14:41.000Z",
+          "dur": 2062,
+          "opponents": [
+            {
+              "profileId": 10704102,
+              "name": "Mapuche Mayer"
+            },
+            {
+              "profileId": 25277339,
+              "name": "MRYFZHU"
+            },
+            {
+              "profileId": 11187681,
+              "name": "knarf"
+            },
+            {
+              "profileId": 12857705,
+              "name": "Boundless316"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12056887,
+              "name": "gpascual92"
+            },
+            {
+              "profileId": 15591540,
+              "name": "JUNIORPLAYBOY"
+            },
+            {
+              "profileId": 15778480,
+              "name": "ricardo_srs"
+            }
+          ]
+        },
+        {
+          "matchId": 505469272,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:18:39.000Z",
+          "dur": 3680,
+          "opponents": [
+            {
+              "profileId": 24951057,
+              "name": "OFLOCA"
+            },
+            {
+              "profileId": 12667557,
+              "name": "xCRAMxI3E4VE"
+            },
+            {
+              "profileId": 1237445,
+              "name": "Caligula"
+            },
+            {
+              "profileId": 889123,
+              "name": "ToniTuercas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25999141,
+              "name": "Dai Viet"
+            },
+            {
+              "profileId": 25031886,
+              "name": "pentrusmurf"
+            },
+            {
+              "profileId": 9015397,
+              "name": "KickAss"
+            }
+          ]
+        },
         {
           "matchId": 505266711,
           "civ": "Turks",
@@ -1923,5 +2007,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

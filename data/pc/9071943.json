@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1972,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1215,
+        "totalGames": 1975,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1168,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 505284536,
+          "civ": "Japanese",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:39:56.000Z",
+          "dur": 1598,
+          "opponents": [
+            {
+              "profileId": 16917505,
+              "name": "\u82b1\u96ea"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505279214,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:15:15.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 3972444,
+              "name": "GodZu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505238811,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:42:10.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 11173963,
+              "name": "farue001"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505216051,
           "civ": "Turks",
@@ -29651,12 +29702,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 709,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1023,
+        "totalGames": 711,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1019,
         "peakRating": 1180
       },
       "matches": [
+        {
+          "matchId": 505244939,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:14:23.000Z",
+          "dur": 812,
+          "opponents": [
+            {
+              "profileId": 25723452,
+              "name": "\u963f\u68ee"
+            },
+            {
+              "profileId": 21402591,
+              "name": "3129902668"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 604656,
+              "name": "Dont_forget_me"
+            }
+          ]
+        },
+        {
+          "matchId": 505235144,
+          "civ": "Malians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:23:32.000Z",
+          "dur": 1045,
+          "opponents": [
+            {
+              "profileId": 604656,
+              "name": "Dont_forget_me"
+            },
+            {
+              "profileId": 20693718,
+              "name": "285066173"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 684173,
+              "name": "Stoogemobile"
+            }
+          ]
+        },
         {
           "matchId": 505208364,
           "civ": "Japanese",
@@ -44163,5 +44266,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

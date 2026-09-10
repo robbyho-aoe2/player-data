@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 744,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1319,
+        "totalGames": 745,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1333,
         "peakRating": 1406
       },
       "matches": [
+        {
+          "matchId": 505329793,
+          "civ": "Burmese",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:35:03.000Z",
+          "dur": 1193,
+          "opponents": [
+            {
+              "profileId": 22476960,
+              "name": "alvareznico1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505157012,
           "civ": "Wei",
@@ -11234,12 +11251,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1373,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1250,
+        "totalGames": 1375,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1245,
         "peakRating": 1411
       },
       "matches": [
+        {
+          "matchId": 505561436,
+          "civ": "Burmese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:47:19.000Z",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 26107849,
+              "name": "I ONLY MAKE SIEGE TOWERS"
+            },
+            {
+              "profileId": 4763261,
+              "name": "365185124"
+            },
+            {
+              "profileId": 14059207,
+              "name": "Homestarr"
+            },
+            {
+              "profileId": 14266680,
+              "name": "wyrdJ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21642131,
+              "name": "Exalted_Problem"
+            },
+            {
+              "profileId": 2276477,
+              "name": "Astromantis"
+            },
+            {
+              "profileId": 6592330,
+              "name": "Togepi"
+            }
+          ]
+        },
+        {
+          "matchId": 505560098,
+          "civ": "Burmese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:38:00.000Z",
+          "dur": 196,
+          "opponents": [
+            {
+              "profileId": 2550219,
+              "name": "JC_Guzm\u00e1n"
+            },
+            {
+              "profileId": 14104560,
+              "name": "MrKarlos"
+            },
+            {
+              "profileId": 9688176,
+              "name": "rencud"
+            },
+            {
+              "profileId": 4632165,
+              "name": "ACI Lic. Sandra Cuevas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2276477,
+              "name": "Astromantis"
+            },
+            {
+              "profileId": 21642131,
+              "name": "Exalted_Problem"
+            },
+            {
+              "profileId": 6592330,
+              "name": "Togepi"
+            }
+          ]
+        },
         {
           "matchId": 504107994,
           "civ": "Wei",
@@ -47481,5 +47582,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

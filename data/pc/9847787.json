@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 328,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1352,
+        "totalGames": 330,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1322,
         "peakRating": 1418
       },
       "matches": [
+        {
+          "matchId": 505359313,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:47:36.000Z",
+          "dur": 1209,
+          "opponents": [
+            {
+              "profileId": 18676789,
+              "name": "joseja.0550"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505358237,
+          "civ": "Sicilians",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:41:16.000Z",
+          "dur": 333,
+          "opponents": [
+            {
+              "profileId": 15185652,
+              "name": "suny619"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505129399,
           "civ": "Gurjaras",
@@ -5605,12 +5639,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 157,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1221,
+        "totalGames": 158,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1238,
         "peakRating": 1307
       },
       "matches": [
+        {
+          "matchId": 505269575,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:27:30.000Z",
+          "dur": 1834,
+          "opponents": [
+            {
+              "profileId": 4729303,
+              "name": "Arkantos"
+            },
+            {
+              "profileId": 4683998,
+              "name": "Marcospx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 469885,
+              "name": "Dioblo"
+            }
+          ]
+        },
         {
           "matchId": 504906742,
           "civ": "Khmer",
@@ -11135,5 +11195,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

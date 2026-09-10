@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 435,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1109,
         "peakRating": 1308
       },
@@ -7424,12 +7424,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 68,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1046,
+        "totalGames": 70,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1073,
         "peakRating": 1199
       },
       "matches": [
+        {
+          "matchId": 505584621,
+          "civ": "Lithuanians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:16:48.000Z",
+          "dur": 1130,
+          "opponents": [
+            {
+              "profileId": 2577356,
+              "name": "SC_Dead \"el ancla\" Rabbit"
+            },
+            {
+              "profileId": 24475132,
+              "name": "GDN_Germanicus"
+            },
+            {
+              "profileId": 18376423,
+              "name": "GdN_Tio Roma"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25836060,
+              "name": "jusart.92"
+            },
+            {
+              "profileId": 14512171,
+              "name": "Mangudai de Oakley"
+            }
+          ]
+        },
+        {
+          "matchId": 505579478,
+          "civ": "Turks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:42:16.000Z",
+          "dur": 1864,
+          "opponents": [
+            {
+              "profileId": 6289078,
+              "name": "oh...it's...ken.."
+            },
+            {
+              "profileId": 23839003,
+              "name": "TROGDOR"
+            },
+            {
+              "profileId": 6280205,
+              "name": "Literal Bait"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9718388,
+              "name": "hobogenius"
+            },
+            {
+              "profileId": 9689647,
+              "name": "Ggryf"
+            }
+          ]
+        },
         {
           "matchId": 505178223,
           "civ": "Teutons",
@@ -9736,5 +9804,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

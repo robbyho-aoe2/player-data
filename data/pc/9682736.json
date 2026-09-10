@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1633,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1187,
+        "totalGames": 1636,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1204,
         "peakRating": 1368
       },
       "matches": [
+        {
+          "matchId": 505528000,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:15:45.000Z",
+          "dur": 1257,
+          "opponents": [
+            {
+              "profileId": 4805560,
+              "name": "R-Y"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505523107,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:48:55.000Z",
+          "dur": 1082,
+          "opponents": [
+            {
+              "profileId": 2550132,
+              "name": "Ryujin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505514343,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:03:33.000Z",
+          "dur": 1781,
+          "opponents": [
+            {
+              "profileId": 381071,
+              "name": "Oniller"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505091683,
           "civ": "Byzantines",
@@ -26162,7 +26213,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 670,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1323,
         "peakRating": 1374
       },
@@ -49647,5 +49698,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

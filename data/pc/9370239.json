@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 1138,
         "peakRating": 1159
       },
@@ -209,12 +209,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 296,
-        "pulledDate": "2026-09-02",
-        "latestRating": 1263,
+        "totalGames": 300,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1259,
         "peakRating": 1423
       },
       "matches": [
+        {
+          "matchId": 505413708,
+          "civ": "Shu",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:19:08.000Z",
+          "dur": 1050,
+          "opponents": [
+            {
+              "profileId": 341124,
+              "name": "Scruff McFluff"
+            },
+            {
+              "profileId": 396931,
+              "name": "Glue Balloons"
+            },
+            {
+              "profileId": 1184413,
+              "name": "Ptolemaeus"
+            },
+            {
+              "profileId": 329036,
+              "name": "GummyBear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3189283,
+              "name": "coolerwind"
+            },
+            {
+              "profileId": 11197881,
+              "name": "Leven\u4ed4\u4e0d\u4f1a\u73a9"
+            },
+            {
+              "profileId": 22335212,
+              "name": "\u6d6e\u69ce\u4e07\u91cc\u83b7\u661f\u6cb3"
+            }
+          ]
+        },
+        {
+          "matchId": 505411897,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:00:04.000Z",
+          "dur": 940,
+          "opponents": [
+            {
+              "profileId": 23423227,
+              "name": "AGS.Euphiebe"
+            },
+            {
+              "profileId": 1013995,
+              "name": "Babifort"
+            },
+            {
+              "profileId": 3534292,
+              "name": "TwoTemple"
+            },
+            {
+              "profileId": 6133008,
+              "name": "Bob64R"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 272778,
+              "name": "y3imy3"
+            },
+            {
+              "profileId": 1379558,
+              "name": "fox0503"
+            },
+            {
+              "profileId": 2302924,
+              "name": "hades"
+            }
+          ]
+        },
+        {
+          "matchId": 505411656,
+          "civ": "Armenians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:57:38.000Z",
+          "dur": 51,
+          "opponents": [
+            {
+              "profileId": 2453703,
+              "name": "Mode Bald"
+            },
+            {
+              "profileId": 12447681,
+              "name": "Ferraa"
+            },
+            {
+              "profileId": 23980613,
+              "name": "peona"
+            },
+            {
+              "profileId": 26096675,
+              "name": "Gandalff"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 272778,
+              "name": "y3imy3"
+            },
+            {
+              "profileId": 25758236,
+              "name": "only vills"
+            },
+            {
+              "profileId": 25977876,
+              "name": "flower soul"
+            }
+          ]
+        },
+        {
+          "matchId": 505238763,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:42:37.000Z",
+          "dur": 1507,
+          "opponents": [
+            {
+              "profileId": 14569061,
+              "name": "\u5144\u5f1f\u7cbe\u795e"
+            },
+            {
+              "profileId": 246372,
+              "name": "Darealown"
+            },
+            {
+              "profileId": 260528,
+              "name": "Cris Jr."
+            },
+            {
+              "profileId": 17938856,
+              "name": "BC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3080621,
+              "name": "INKAS | Cris'.sT"
+            },
+            {
+              "profileId": 5963639,
+              "name": "\u6296\u97f3\u5e1d\u56fd\u963f\u98de"
+            },
+            {
+              "profileId": 14590807,
+              "name": "\u83dc\u9e1f\u7684\u6625\u5929"
+            }
+          ]
+        },
         {
           "matchId": 501022739,
           "civ": "Jurchens",
@@ -3521,5 +3689,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

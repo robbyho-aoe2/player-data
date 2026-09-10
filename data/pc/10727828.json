@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 237,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1358,
+        "totalGames": 238,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1373,
         "peakRating": 1430
       },
       "matches": [
+        {
+          "matchId": 505425087,
+          "civ": "Italians",
+          "map": "Marketplace",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:01:49.000Z",
+          "dur": 1436,
+          "opponents": [
+            {
+              "profileId": 329773,
+              "name": "PTL_passthesugar"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505163389,
           "civ": "Bulgarians",
@@ -4058,12 +4075,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 168,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1373,
-        "peakRating": 1373
+        "totalGames": 170,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1370,
+        "peakRating": 1385
       },
       "matches": [
+        {
+          "matchId": 505515347,
+          "civ": "Tatars",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:09:13.000Z",
+          "dur": 1976,
+          "opponents": [
+            {
+              "profileId": 3014809,
+              "name": "TH3 P1NK UN1C0RN"
+            },
+            {
+              "profileId": 3292602,
+              "name": "CroustiPorc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4986125,
+              "name": "jenicek&marenka"
+            }
+          ]
+        },
+        {
+          "matchId": 505509935,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:42:52.000Z",
+          "dur": 1282,
+          "opponents": [
+            {
+              "profileId": 4473054,
+              "name": "TheVoice"
+            },
+            {
+              "profileId": 9144857,
+              "name": "Glutaeus Maximus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3165542,
+              "name": "GdR_Salinaro"
+            }
+          ]
+        },
         {
           "matchId": 250527130,
           "civ": "Burmese",
@@ -8506,5 +8575,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 166,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 976,
         "peakRating": 1051
       },
@@ -2685,12 +2685,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1370,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1277,
+        "totalGames": 1372,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1260,
         "peakRating": 1318
       },
       "matches": [
+        {
+          "matchId": 505553018,
+          "civ": "Jurchens",
+          "map": "Socotra",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:50:32.000Z",
+          "dur": 223,
+          "opponents": [
+            {
+              "profileId": 482172,
+              "name": "Luchod_95"
+            },
+            {
+              "profileId": 25892933,
+              "name": "Maniacvlr1"
+            },
+            {
+              "profileId": 3450572,
+              "name": "joseto.lld"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21734026,
+              "name": "Valenp34"
+            },
+            {
+              "profileId": 2884399,
+              "name": "SMNT - KMUS"
+            }
+          ]
+        },
+        {
+          "matchId": 505551470,
+          "civ": "Magyars",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:39:55.000Z",
+          "dur": 207,
+          "opponents": [
+            {
+              "profileId": 2636758,
+              "name": "_Gamo"
+            },
+            {
+              "profileId": 7940203,
+              "name": "takoyaki"
+            },
+            {
+              "profileId": 11755411,
+              "name": "TP200"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21734026,
+              "name": "Valenp34"
+            },
+            {
+              "profileId": 2884399,
+              "name": "SMNT - KMUS"
+            }
+          ]
+        },
         {
           "matchId": 505147775,
           "civ": "Maya",
@@ -53344,5 +53412,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

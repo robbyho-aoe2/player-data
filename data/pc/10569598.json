@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 50,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1147,
         "peakRating": 1147
       },
@@ -829,12 +829,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1255,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1047,
+        "totalGames": 1258,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1028,
         "peakRating": 1207
       },
       "matches": [
+        {
+          "matchId": 505364414,
+          "civ": "Georgians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:21:02.000Z",
+          "dur": 697,
+          "opponents": [
+            {
+              "profileId": 20117474,
+              "name": "wonderwild"
+            },
+            {
+              "profileId": 20098159,
+              "name": "uina99"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19619982,
+              "name": "Deivid"
+            }
+          ]
+        },
+        {
+          "matchId": 505359875,
+          "civ": "Georgians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:51:48.000Z",
+          "dur": 1627,
+          "opponents": [
+            {
+              "profileId": 20117474,
+              "name": "wonderwild"
+            },
+            {
+              "profileId": 20098159,
+              "name": "uina99"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19619982,
+              "name": "Deivid"
+            }
+          ]
+        },
+        {
+          "matchId": 505357947,
+          "civ": "Spanish",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:40:04.000Z",
+          "dur": 632,
+          "opponents": [
+            {
+              "profileId": 17840642,
+              "name": "mr.aaandrex"
+            },
+            {
+              "profileId": 4536450,
+              "name": "Tezcatlipoca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19619982,
+              "name": "Deivid"
+            }
+          ]
+        },
         {
           "matchId": 504930990,
           "civ": "Huns",
@@ -33830,5 +33908,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

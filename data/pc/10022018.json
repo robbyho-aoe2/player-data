@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 3228,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1189,
         "peakRating": 1278
       },
@@ -51677,12 +51677,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2388,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1164,
+        "totalGames": 2392,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1200,
         "peakRating": 1334
       },
       "matches": [
+        {
+          "matchId": 505512256,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:53:48.000Z",
+          "dur": 1470,
+          "opponents": [
+            {
+              "profileId": 4666541,
+              "name": "SlickPOPI"
+            },
+            {
+              "profileId": 4643475,
+              "name": "snowball I"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9337448,
+              "name": "stinkepete2000"
+            }
+          ]
+        },
+        {
+          "matchId": 505506395,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:25:43.000Z",
+          "dur": 1524,
+          "opponents": [
+            {
+              "profileId": 3071558,
+              "name": "Alfeternale"
+            },
+            {
+              "profileId": 3084589,
+              "name": "infinityphon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9337448,
+              "name": "stinkepete2000"
+            }
+          ]
+        },
+        {
+          "matchId": 505505589,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:22:13.000Z",
+          "dur": 98,
+          "opponents": [
+            {
+              "profileId": 1079021,
+              "name": "Jam Cat"
+            },
+            {
+              "profileId": 15021081,
+              "name": "sibus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9337448,
+              "name": "stinkepete2000"
+            }
+          ]
+        },
+        {
+          "matchId": 505499288,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:53:07.000Z",
+          "dur": 1171,
+          "opponents": [
+            {
+              "profileId": 5126952,
+              "name": "HeyZeusHayden"
+            },
+            {
+              "profileId": 18918485,
+              "name": "tjessup94"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9337448,
+              "name": "stinkepete2000"
+            }
+          ]
+        },
         {
           "matchId": 504852864,
           "civ": "Persians",
@@ -111475,5 +111579,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

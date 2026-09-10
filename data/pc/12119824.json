@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 60,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 985,
         "peakRating": 1050
       },
@@ -989,12 +989,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 188,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1082,
+        "totalGames": 189,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1083,
         "peakRating": 1189
       },
       "matches": [
+        {
+          "matchId": 505289462,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:04:12.000Z",
+          "dur": 1457,
+          "opponents": [
+            {
+              "profileId": 10776929,
+              "name": "saharamir6566"
+            },
+            {
+              "profileId": 10777033,
+              "name": "ozosep86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 643866,
+              "name": "d.migros"
+            }
+          ]
+        },
         {
           "matchId": 505282492,
           "civ": "Saracens",
@@ -6709,5 +6735,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

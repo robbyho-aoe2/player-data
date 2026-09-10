@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 934
       },
       "matches": [
@@ -156,12 +156,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2251,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1324,
+        "totalGames": 2254,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1343,
         "peakRating": 1391
       },
       "matches": [
+        {
+          "matchId": 505506569,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:26:55.000Z",
+          "dur": 182,
+          "opponents": [
+            {
+              "profileId": 21061891,
+              "name": "JAGR | GoodByeWorld"
+            },
+            {
+              "profileId": 439001,
+              "name": "Nanox"
+            },
+            {
+              "profileId": 903496,
+              "name": "Sir Monkey"
+            },
+            {
+              "profileId": 6192028,
+              "name": "MXTS | RazMM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21201556,
+              "name": "a.l.a.n.t"
+            },
+            {
+              "profileId": 1442762,
+              "name": "le Nain Becile"
+            },
+            {
+              "profileId": 4823259,
+              "name": "The REAL Pepsiman"
+            }
+          ]
+        },
+        {
+          "matchId": 505498755,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:50:36.000Z",
+          "dur": 2069,
+          "opponents": [
+            {
+              "profileId": 1328153,
+              "name": "Olli"
+            },
+            {
+              "profileId": 665986,
+              "name": "ComptixG"
+            },
+            {
+              "profileId": 512439,
+              "name": "SEFA"
+            },
+            {
+              "profileId": 261636,
+              "name": "Stuve"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21873884,
+              "name": "503058320"
+            },
+            {
+              "profileId": 9485261,
+              "name": "37581246"
+            },
+            {
+              "profileId": 3409983,
+              "name": "Ding-Dong"
+            }
+          ]
+        },
+        {
+          "matchId": 505491690,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:17:12.000Z",
+          "dur": 1818,
+          "opponents": [
+            {
+              "profileId": 23167724,
+              "name": "Flash"
+            },
+            {
+              "profileId": 261636,
+              "name": "Stuve"
+            },
+            {
+              "profileId": 15259511,
+              "name": "popsicle"
+            },
+            {
+              "profileId": 5112957,
+              "name": "Level"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1328153,
+              "name": "Olli"
+            },
+            {
+              "profileId": 3425638,
+              "name": "Cheetah"
+            },
+            {
+              "profileId": 9910024,
+              "name": "Mozenrath"
+            }
+          ]
+        },
         {
           "matchId": 505051560,
           "civ": "Bohemians",
@@ -92339,5 +92465,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "in",
+  "countryIcon": "\ud83c\uddee\ud83c\uddf3",
+  "countryName": "India"
 }

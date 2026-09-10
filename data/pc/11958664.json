@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 429,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1143,
+        "totalGames": 433,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1179,
         "peakRating": 1301
       },
       "matches": [
+        {
+          "matchId": 505601410,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T05:45:40.000Z",
+          "dur": 1480,
+          "opponents": [
+            {
+              "profileId": 19196139,
+              "name": "TacticalTiger"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505502314,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:06:45.000Z",
+          "dur": 1402,
+          "opponents": [
+            {
+              "profileId": 22785759,
+              "name": "ELEG VACASADA"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505496531,
+          "civ": "Armenians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:39:33.000Z",
+          "dur": 997,
+          "opponents": [
+            {
+              "profileId": 12019800,
+              "name": "Thorus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505491537,
+          "civ": "Armenians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:15:31.000Z",
+          "dur": 1128,
+          "opponents": [
+            {
+              "profileId": 501845,
+              "name": "#"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505196279,
           "civ": "Armenians",
@@ -6901,7 +6969,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 543,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1294,
         "peakRating": 1294
       },
@@ -22979,5 +23047,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "sk",
+  "countryIcon": "\ud83c\uddf8\ud83c\uddf0",
+  "countryName": "Slovakia"
 }

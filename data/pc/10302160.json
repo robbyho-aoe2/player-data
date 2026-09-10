@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 127,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1000,
         "peakRating": 1050
       },
@@ -1934,12 +1934,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1248,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1168,
+        "totalGames": 1249,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1186,
         "peakRating": 1270
       },
       "matches": [
+        {
+          "matchId": 505445673,
+          "civ": "Saracens",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:11:36.000Z",
+          "dur": 1340,
+          "opponents": [
+            {
+              "profileId": 20764532,
+              "name": "game007"
+            },
+            {
+              "profileId": 6873717,
+              "name": "\u5c0f\u516c\u5b50"
+            },
+            {
+              "profileId": 14578380,
+              "name": "\u6d1b\u4ea6\u4ea6\u4ea6\u4ea6\u4ea6\u4ea6"
+            },
+            {
+              "profileId": 16860528,
+              "name": "008062"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 919893,
+              "name": "Tintagel"
+            },
+            {
+              "profileId": 8857793,
+              "name": "02281"
+            },
+            {
+              "profileId": 17044115,
+              "name": "wang_03"
+            }
+          ]
+        },
         {
           "matchId": 505220097,
           "civ": "Cumans",
@@ -35398,5 +35440,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

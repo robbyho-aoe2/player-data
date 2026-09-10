@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 567,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1726,
         "peakRating": 1914
       },
@@ -9101,12 +9101,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1325,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1585,
+        "totalGames": 1328,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1574,
         "peakRating": 1730
       },
       "matches": [
+        {
+          "matchId": 505439295,
+          "civ": "Jurchens",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:36:47.000Z",
+          "dur": 1737,
+          "opponents": [
+            {
+              "profileId": 633548,
+              "name": "\u65e0\u8a00"
+            },
+            {
+              "profileId": 26082313,
+              "name": "\u65b0\u624b\u73a9\u5bb6"
+            },
+            {
+              "profileId": 25228388,
+              "name": "jakco"
+            },
+            {
+              "profileId": 5206617,
+              "name": "~mg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4031083,
+              "name": "TS-\u7cbe\u9510\u72d0\u72d0"
+            },
+            {
+              "profileId": 18677988,
+              "name": "I'm AOE2 Noob"
+            },
+            {
+              "profileId": 6416293,
+              "name": "\u6155\u534e\u82b1\u7e41"
+            }
+          ]
+        },
+        {
+          "matchId": 505434173,
+          "civ": "Khitans",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:06:17.000Z",
+          "dur": 1575,
+          "opponents": [
+            {
+              "profileId": 583117,
+              "name": "maxder"
+            },
+            {
+              "profileId": 2910344,
+              "name": "\u88c2\u8f66\u957f"
+            },
+            {
+              "profileId": 5577768,
+              "name": "Neorise"
+            },
+            {
+              "profileId": 15629212,
+              "name": "3046964519"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6416293,
+              "name": "\u6155\u534e\u82b1\u7e41"
+            },
+            {
+              "profileId": 4031083,
+              "name": "TS-\u7cbe\u9510\u72d0\u72d0"
+            },
+            {
+              "profileId": 18677988,
+              "name": "I'm AOE2 Noob"
+            }
+          ]
+        },
+        {
+          "matchId": 505426704,
+          "civ": "Bengalis",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:15:05.000Z",
+          "dur": 2879,
+          "opponents": [
+            {
+              "profileId": 23855872,
+              "name": "Hualbi"
+            },
+            {
+              "profileId": 2140711,
+              "name": "iFxrY"
+            },
+            {
+              "profileId": 17166,
+              "name": "lazypig"
+            },
+            {
+              "profileId": 5813399,
+              "name": "[InsecT] ScoTherroR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18677988,
+              "name": "I'm AOE2 Noob"
+            },
+            {
+              "profileId": 6416293,
+              "name": "\u6155\u534e\u82b1\u7e41"
+            },
+            {
+              "profileId": 2910344,
+              "name": "\u88c2\u8f66\u957f"
+            }
+          ]
+        },
         {
           "matchId": 504728051,
           "civ": "Khmer",
@@ -63023,5 +63149,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

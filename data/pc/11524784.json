@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 982,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1576,
+        "totalGames": 985,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1557,
         "peakRating": 1829
       },
       "matches": [
+        {
+          "matchId": 505608270,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T07:13:02.000Z",
+          "dur": 1184,
+          "opponents": [
+            {
+              "profileId": 15759246,
+              "name": "Gustav"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505607019,
+          "civ": "Huns",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T06:56:19.000Z",
+          "dur": 883,
+          "opponents": [
+            {
+              "profileId": 4355186,
+              "name": "TahRibat"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505595464,
+          "civ": "Romans",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T04:43:43.000Z",
+          "dur": 3211,
+          "opponents": [
+            {
+              "profileId": 5243137,
+              "name": "Ver.Zhang"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505184360,
           "civ": "Berbers",
@@ -15746,7 +15797,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2306,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1574,
         "peakRating": 1741
       },
@@ -97497,5 +97548,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

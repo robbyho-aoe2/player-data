@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 66,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1117,
         "peakRating": 1118
       },
@@ -1085,12 +1085,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2070,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1247,
+        "totalGames": 2072,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1248,
         "peakRating": 1407
       },
       "matches": [
+        {
+          "matchId": 505549847,
+          "civ": "Muisca",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:29:33.000Z",
+          "dur": 1519,
+          "opponents": [
+            {
+              "profileId": 70819,
+              "name": "Youtube Nimro7"
+            },
+            {
+              "profileId": 61097,
+              "name": "Verborrea de Elite"
+            },
+            {
+              "profileId": 7553941,
+              "name": "Tacris09"
+            },
+            {
+              "profileId": 4127566,
+              "name": "Pryzma"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15455883,
+              "name": "Caronte"
+            },
+            {
+              "profileId": 1917719,
+              "name": "Cattiva"
+            },
+            {
+              "profileId": 232939,
+              "name": "Diego"
+            }
+          ]
+        },
+        {
+          "matchId": 505548953,
+          "civ": "Mapuche",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:23:12.000Z",
+          "dur": 40,
+          "opponents": [
+            {
+              "profileId": 564716,
+              "name": "[BuluC]Not_the_Viper"
+            },
+            {
+              "profileId": 1700937,
+              "name": "BateFoFo"
+            },
+            {
+              "profileId": 4353964,
+              "name": "BO21 | Goku"
+            },
+            {
+              "profileId": 9114629,
+              "name": "Life Is But A Dream"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 232939,
+              "name": "Diego"
+            },
+            {
+              "profileId": 1917719,
+              "name": "Cattiva"
+            },
+            {
+              "profileId": 6411927,
+              "name": "SpawnShark"
+            }
+          ]
+        },
         {
           "matchId": 504307888,
           "civ": "Mapuche",
@@ -83522,5 +83606,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

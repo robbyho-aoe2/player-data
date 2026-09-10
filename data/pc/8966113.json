@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 117,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1208,
         "peakRating": 1314
       },
@@ -1784,12 +1784,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1320,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1619,
+        "totalGames": 1324,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1615,
         "peakRating": 1682
       },
       "matches": [
+        {
+          "matchId": 505450492,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:36:37.000Z",
+          "dur": 1754,
+          "opponents": [
+            {
+              "profileId": 21272476,
+              "name": "Ginger lee fondle your meatballs"
+            },
+            {
+              "profileId": 10578512,
+              "name": "Kold"
+            },
+            {
+              "profileId": 1265857,
+              "name": "Benitto Burrito"
+            },
+            {
+              "profileId": 337640,
+              "name": "bullseyes"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11242684,
+              "name": "i'm a pupil"
+            },
+            {
+              "profileId": 5409733,
+              "name": "Semisky"
+            },
+            {
+              "profileId": 3012618,
+              "name": "\u9b54\u5361\u5c11\u5973\u7b80\u72f8\u72f8"
+            }
+          ]
+        },
+        {
+          "matchId": 505445261,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:09:27.000Z",
+          "dur": 1519,
+          "opponents": [
+            {
+              "profileId": 2592963,
+              "name": "\u55da"
+            },
+            {
+              "profileId": 415635,
+              "name": "_"
+            },
+            {
+              "profileId": 337640,
+              "name": "bullseyes"
+            },
+            {
+              "profileId": 23307582,
+              "name": "lemon tea"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3012618,
+              "name": "\u9b54\u5361\u5c11\u5973\u7b80\u72f8\u72f8"
+            },
+            {
+              "profileId": 5409733,
+              "name": "Semisky"
+            },
+            {
+              "profileId": 11242684,
+              "name": "i'm a pupil"
+            }
+          ]
+        },
+        {
+          "matchId": 505438916,
+          "civ": "Persians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:34:58.000Z",
+          "dur": 1847,
+          "opponents": [
+            {
+              "profileId": 14547856,
+              "name": "\u65b0\u7af9"
+            },
+            {
+              "profileId": 20674927,
+              "name": "Jugband"
+            },
+            {
+              "profileId": 15480007,
+              "name": "CROVERS"
+            },
+            {
+              "profileId": 1038571,
+              "name": "\u5f20\u5b87\u817e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3012618,
+              "name": "\u9b54\u5361\u5c11\u5973\u7b80\u72f8\u72f8"
+            },
+            {
+              "profileId": 11242684,
+              "name": "i'm a pupil"
+            },
+            {
+              "profileId": 5409733,
+              "name": "Semisky"
+            }
+          ]
+        },
+        {
+          "matchId": 505435726,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:15:47.000Z",
+          "dur": 804,
+          "opponents": [
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            },
+            {
+              "profileId": 12341108,
+              "name": "Tatan"
+            },
+            {
+              "profileId": 15644016,
+              "name": "-GNG-Tenma"
+            },
+            {
+              "profileId": 2810387,
+              "name": "FlyingSaucer_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5409733,
+              "name": "Semisky"
+            },
+            {
+              "profileId": 11242684,
+              "name": "i'm a pupil"
+            },
+            {
+              "profileId": 3012618,
+              "name": "\u9b54\u5361\u5c11\u5973\u7b80\u72f8\u72f8"
+            }
+          ]
+        },
         {
           "matchId": 505010647,
           "civ": "Persians",
@@ -35973,5 +36141,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

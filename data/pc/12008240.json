@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 178,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1176,
         "peakRating": 1252
       },
@@ -2877,12 +2877,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1489,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1350,
+        "totalGames": 1490,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1333,
         "peakRating": 1425
       },
       "matches": [
+        {
+          "matchId": 505375348,
+          "civ": "Magyars",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:34:26.000Z",
+          "dur": 2676,
+          "opponents": [
+            {
+              "profileId": 2333338,
+              "name": "Bubbs"
+            },
+            {
+              "profileId": 9900750,
+              "name": "Fs.Caboclo"
+            },
+            {
+              "profileId": 17837312,
+              "name": "Kempachi"
+            },
+            {
+              "profileId": 24632000,
+              "name": "M.d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13988824,
+              "name": "Polestar"
+            },
+            {
+              "profileId": 19582011,
+              "name": "Element-Dy"
+            },
+            {
+              "profileId": 23063554,
+              "name": "Paparoni"
+            }
+          ]
+        },
         {
           "matchId": 505149009,
           "civ": "Persians",
@@ -62270,5 +62312,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

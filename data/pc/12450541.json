@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 733,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1172,
         "peakRating": 1248
       },
@@ -12490,12 +12490,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 237,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1215,
+        "totalGames": 240,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1194,
         "peakRating": 1233
       },
       "matches": [
+        {
+          "matchId": 505645149,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T13:03:00.000Z",
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 3477406,
+              "name": "\u3002"
+            },
+            {
+              "profileId": 2863728,
+              "name": "CC"
+            },
+            {
+              "profileId": 1548153,
+              "name": "\u65e0\u60c5\u7684\u62a5\u70b9\u673a\u5668"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15470199,
+              "name": "VNS_FFV"
+            },
+            {
+              "profileId": 1459846,
+              "name": "snek_fan"
+            }
+          ]
+        },
+        {
+          "matchId": 505638790,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T12:18:45.000Z",
+          "dur": 2514,
+          "opponents": [
+            {
+              "profileId": 1548153,
+              "name": "\u65e0\u60c5\u7684\u62a5\u70b9\u673a\u5668"
+            },
+            {
+              "profileId": 2863728,
+              "name": "CC"
+            },
+            {
+              "profileId": 3477406,
+              "name": "\u3002"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16360827,
+              "name": "TALKA to me"
+            },
+            {
+              "profileId": 22267285,
+              "name": "269776101"
+            }
+          ]
+        },
+        {
+          "matchId": 505407895,
+          "civ": "Burgundians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:18:34.000Z",
+          "dur": 2500,
+          "opponents": [
+            {
+              "profileId": 425213,
+              "name": "Bangputys"
+            },
+            {
+              "profileId": 2415311,
+              "name": "mingenbauer"
+            },
+            {
+              "profileId": 25721019,
+              "name": "bumap"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4221864,
+              "name": "\u9435\u4e4b\u8c9d\u514b"
+            },
+            {
+              "profileId": 3203196,
+              "name": "\u4e03\u91cc\u9999\u8c6c\u5c41\u6843"
+            }
+          ]
+        },
         {
           "matchId": 505003089,
           "civ": "Burgundians",
@@ -21100,5 +21202,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

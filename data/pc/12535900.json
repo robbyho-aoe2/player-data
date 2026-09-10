@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 259,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1290,
         "peakRating": 1290
       },
@@ -4174,12 +4174,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 133,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1312,
-        "peakRating": 1312
+        "totalGames": 134,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1320,
+        "peakRating": 1320
       },
       "matches": [
+        {
+          "matchId": 505599731,
+          "civ": "Magyars",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T05:26:46.000Z",
+          "dur": 31,
+          "opponents": [
+            {
+              "profileId": 1193961,
+              "name": "rafael9530"
+            },
+            {
+              "profileId": 12917575,
+              "name": "Rexona"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25845031,
+              "name": "Gumiho5606"
+            }
+          ]
+        },
         {
           "matchId": 501825673,
           "civ": "Italians",
@@ -8955,5 +8981,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

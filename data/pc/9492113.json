@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 847,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1656,
         "peakRating": 1677
       },
@@ -13581,12 +13581,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2029,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1650,
+        "totalGames": 2031,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1654,
         "peakRating": 1665
       },
       "matches": [
+        {
+          "matchId": 505587768,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:39:46.000Z",
+          "dur": 962,
+          "opponents": [
+            {
+              "profileId": 10427182,
+              "name": "VLC | GreenIsland"
+            },
+            {
+              "profileId": 6804806,
+              "name": "Bluskita"
+            },
+            {
+              "profileId": 6852563,
+              "name": "VLC | SnowBall"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18725512,
+              "name": "AxD | Cad Bane"
+            },
+            {
+              "profileId": 11343295,
+              "name": "AxD | MatrixWars"
+            }
+          ]
+        },
+        {
+          "matchId": 505583377,
+          "civ": "Slavs",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:07:51.000Z",
+          "dur": 1002,
+          "opponents": [
+            {
+              "profileId": 25477540,
+              "name": "golo_face"
+            },
+            {
+              "profileId": 2161095,
+              "name": "develement"
+            },
+            {
+              "profileId": 401359,
+              "name": "Lord Envidiates"
+            },
+            {
+              "profileId": 274337,
+              "name": "BoxHead"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11343295,
+              "name": "AxD | MatrixWars"
+            },
+            {
+              "profileId": 18725512,
+              "name": "AxD | Cad Bane"
+            },
+            {
+              "profileId": 6419082,
+              "name": "AxD | Keiokenkun-Uno-Puro"
+            }
+          ]
+        },
         {
           "matchId": 505159556,
           "civ": "Saracens",
@@ -92968,5 +93044,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "sv",
+  "countryIcon": "\ud83c\uddf8\ud83c\uddfb",
+  "countryName": "El Salvador"
 }

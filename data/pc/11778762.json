@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1653,
         "peakRating": 1679
       },
@@ -1213,12 +1213,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 428,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1690,
+        "totalGames": 430,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1654,
         "peakRating": 1709
       },
       "matches": [
+        {
+          "matchId": 505572300,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:57:02.000Z",
+          "dur": 1054,
+          "opponents": [
+            {
+              "profileId": 785630,
+              "name": "EL MAYA"
+            },
+            {
+              "profileId": 24853301,
+              "name": "SimmaHem7912"
+            },
+            {
+              "profileId": 6404650,
+              "name": "EXILE | Tulita de 2 cm oxidada"
+            },
+            {
+              "profileId": 20403334,
+              "name": "\u8521\u6b63\u5e73"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17719335,
+              "name": "kerwin"
+            },
+            {
+              "profileId": 25897989,
+              "name": "hzos6240"
+            },
+            {
+              "profileId": 23307582,
+              "name": "lemon tea"
+            }
+          ]
+        },
+        {
+          "matchId": 505356903,
+          "civ": "Incas",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:33:34.000Z",
+          "dur": 1659,
+          "opponents": [
+            {
+              "profileId": 1747642,
+              "name": "Ganso_lm"
+            },
+            {
+              "profileId": 14909136,
+              "name": "Mau5"
+            },
+            {
+              "profileId": 21694089,
+              "name": "Matzeking"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            },
+            {
+              "profileId": 2861274,
+              "name": "GALLO FINO"
+            }
+          ]
+        },
         {
           "matchId": 505165603,
           "civ": "Gurjaras",
@@ -17404,5 +17480,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

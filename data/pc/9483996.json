@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 812
       },
       "matches": [
@@ -108,12 +108,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 210,
-        "pulledDate": "2026-09-04",
-        "latestRating": 775,
+        "totalGames": 211,
+        "pulledDate": "2026-09-10",
+        "latestRating": 795,
         "peakRating": 880
       },
       "matches": [
+        {
+          "matchId": 505535707,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T22:00:31.000Z",
+          "dur": 1638,
+          "opponents": [
+            {
+              "profileId": 26037499,
+              "name": "BubbaJew91"
+            },
+            {
+              "profileId": 26031520,
+              "name": "phil_march19444"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18981008,
+              "name": "Ortegasmo 14"
+            }
+          ]
+        },
         {
           "matchId": 504106844,
           "civ": "Franks",
@@ -6177,5 +6203,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

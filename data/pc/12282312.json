@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 323,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 1634,
         "peakRating": 1805
       },
@@ -5197,12 +5197,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3674,
-        "pulledDate": "2026-09-02",
-        "latestRating": 1666,
+        "totalGames": 3676,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1691,
         "peakRating": 1691
       },
       "matches": [
+        {
+          "matchId": 505353367,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:11:12.000Z",
+          "dur": 1598,
+          "opponents": [
+            {
+              "profileId": 296704,
+              "name": "Brohio"
+            },
+            {
+              "profileId": 301023,
+              "name": "Ethan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10739159,
+              "name": "Arda Asar"
+            }
+          ]
+        },
+        {
+          "matchId": 505346077,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:23:22.000Z",
+          "dur": 1828,
+          "opponents": [
+            {
+              "profileId": 23165462,
+              "name": "ZEAN430"
+            },
+            {
+              "profileId": 6048460,
+              "name": "dxq"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2438694,
+              "name": "twitch.tv/markola86"
+            }
+          ]
+        },
         {
           "matchId": 499513587,
           "civ": "Berbers",
@@ -134398,5 +134450,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

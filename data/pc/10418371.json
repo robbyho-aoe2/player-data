@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 143,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1280,
         "peakRating": 1315
       },
@@ -2317,12 +2317,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 883,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1285,
+        "totalGames": 885,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1246,
         "peakRating": 1427
       },
       "matches": [
+        {
+          "matchId": 505339363,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:37:34.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 1961326,
+              "name": "Ganar Ganar Ganar"
+            },
+            {
+              "profileId": 2581897,
+              "name": "misko jones"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2478925,
+              "name": "B3lt0f"
+            }
+          ]
+        },
+        {
+          "matchId": 505327942,
+          "civ": "Slavs",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:23:41.000Z",
+          "dur": 1692,
+          "opponents": [
+            {
+              "profileId": 271036,
+              "name": "Chiripa605"
+            },
+            {
+              "profileId": 2828415,
+              "name": "Maverick8564"
+            },
+            {
+              "profileId": 1002468,
+              "name": "NobregaPF"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2560853,
+              "name": "Sindicato de Granjeros"
+            },
+            {
+              "profileId": 2478925,
+              "name": "B3lt0f"
+            }
+          ]
+        },
         {
           "matchId": 504405669,
           "civ": "Cumans",
@@ -29707,5 +29767,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

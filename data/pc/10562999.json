@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1372,
         "peakRating": 1418
       },
@@ -695,12 +695,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2266,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1386,
+        "totalGames": 2268,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1355,
         "peakRating": 1516
       },
       "matches": [
+        {
+          "matchId": 505444597,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:06:14.000Z",
+          "dur": 924,
+          "opponents": [
+            {
+              "profileId": 2544129,
+              "name": "smithy10w"
+            },
+            {
+              "profileId": 2038007,
+              "name": "nassio?"
+            },
+            {
+              "profileId": 4282179,
+              "name": "justinyang0104"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12023326,
+              "name": "[TAIDA] WH"
+            },
+            {
+              "profileId": 5872468,
+              "name": "[TAIDA]= ="
+            }
+          ]
+        },
+        {
+          "matchId": 505437534,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:26:44.000Z",
+          "dur": 1686,
+          "opponents": [
+            {
+              "profileId": 69933,
+              "name": "[TOX2] A-c-Syno-666"
+            },
+            {
+              "profileId": 6065441,
+              "name": "Monreson"
+            },
+            {
+              "profileId": 5090754,
+              "name": "Pielover757"
+            },
+            {
+              "profileId": 1098324,
+              "name": "Firestorm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14383606,
+              "name": "wun ren"
+            },
+            {
+              "profileId": 12023326,
+              "name": "[TAIDA] WH"
+            },
+            {
+              "profileId": 5872468,
+              "name": "[TAIDA]= ="
+            }
+          ]
+        },
         {
           "matchId": 504596442,
           "civ": "Mongols",
@@ -21820,5 +21896,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

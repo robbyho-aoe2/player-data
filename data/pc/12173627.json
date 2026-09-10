@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 160,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1609,
         "peakRating": 1639
       },
@@ -2593,12 +2593,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1353,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1367,
+        "totalGames": 1356,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1379,
         "peakRating": 1568
       },
       "matches": [
+        {
+          "matchId": 505564323,
+          "civ": "Muisca",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:06:38.000Z",
+          "dur": 1334,
+          "opponents": [
+            {
+              "profileId": 12125484,
+              "name": "[RZ] rj.renan"
+            },
+            {
+              "profileId": 14854164,
+              "name": "Le\u00e3o"
+            },
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3484520,
+              "name": "Jackzedd"
+            },
+            {
+              "profileId": 6914036,
+              "name": "MALAJUNTA"
+            }
+          ]
+        },
+        {
+          "matchId": 505365072,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:25:19.000Z",
+          "dur": 1626,
+          "opponents": [
+            {
+              "profileId": 488037,
+              "name": "Casualstone"
+            },
+            {
+              "profileId": 4502050,
+              "name": "ACN_Mk"
+            },
+            {
+              "profileId": 2480833,
+              "name": "\u9038\u4e36\u7136"
+            },
+            {
+              "profileId": 1305524,
+              "name": "[L_Clan]~Connotado~"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22747470,
+              "name": "ValkriaN"
+            },
+            {
+              "profileId": 12011326,
+              "name": "Codiman"
+            },
+            {
+              "profileId": 24632000,
+              "name": "M.d"
+            }
+          ]
+        },
+        {
+          "matchId": 505347751,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:34:31.000Z",
+          "dur": 2304,
+          "opponents": [
+            {
+              "profileId": 9705242,
+              "name": "FiveCatsATrebuchetandaDream"
+            },
+            {
+              "profileId": 6495834,
+              "name": "Eden"
+            },
+            {
+              "profileId": 3064960,
+              "name": "Rameranic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2934681,
+              "name": "Sastre \u1d3f\u02e2-"
+            },
+            {
+              "profileId": 1010383,
+              "name": "PapuKong"
+            }
+          ]
+        },
         {
           "matchId": 505134625,
           "civ": "Goths",
@@ -42746,5 +42856,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

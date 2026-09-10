@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 164,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1415,
         "peakRating": 1415
       },
@@ -2653,12 +2653,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2490,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1300,
+        "totalGames": 2491,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1315,
         "peakRating": 1413
       },
       "matches": [
+        {
+          "matchId": 505475635,
+          "civ": "Khmer",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:52:50.000Z",
+          "dur": 1912,
+          "opponents": [
+            {
+              "profileId": 25369530,
+              "name": "PeloDeElite"
+            },
+            {
+              "profileId": 21986796,
+              "name": "MedicenelMago"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1532168,
+              "name": "Zelda"
+            }
+          ]
+        },
         {
           "matchId": 505054133,
           "civ": "Cumans",
@@ -76726,5 +76752,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cz",
+  "countryIcon": "\ud83c\udde8\ud83c\uddff",
+  "countryName": "Czechia"
 }

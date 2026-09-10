@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 61,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 995,
         "peakRating": 1041
       },
@@ -1005,12 +1005,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 958,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1166,
+        "totalGames": 960,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1162,
         "peakRating": 1246
       },
       "matches": [
+        {
+          "matchId": 505453464,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:52:56.000Z",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 834633,
+              "name": "fom1106"
+            },
+            {
+              "profileId": 1533731,
+              "name": "kahohohoka"
+            },
+            {
+              "profileId": 17822242,
+              "name": "kenghsien77"
+            },
+            {
+              "profileId": 18456275,
+              "name": "satc1014"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2166724,
+              "name": "Luis"
+            },
+            {
+              "profileId": 16925988,
+              "name": "Green Assassin"
+            },
+            {
+              "profileId": 19726005,
+              "name": "XGFC"
+            }
+          ]
+        },
+        {
+          "matchId": 505452330,
+          "civ": "Britons",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:46:54.000Z",
+          "dur": 185,
+          "opponents": [
+            {
+              "profileId": 963617,
+              "name": "So many color in your home"
+            },
+            {
+              "profileId": 6737591,
+              "name": "==\u51fa\u8349=="
+            },
+            {
+              "profileId": 3577390,
+              "name": "Duncan"
+            },
+            {
+              "profileId": 2733432,
+              "name": "valkyrierandgrith"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18640205,
+              "name": "Snow"
+            },
+            {
+              "profileId": 17508365,
+              "name": "\u51fa\u5175\u4fdd\u8b77\u6211~"
+            },
+            {
+              "profileId": 3405443,
+              "name": "djsuperguillermo"
+            }
+          ]
+        },
         {
           "matchId": 505207517,
           "civ": "Ethiopians",
@@ -38303,5 +38387,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

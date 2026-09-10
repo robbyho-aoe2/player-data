@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 6160,
-        "pulledDate": "2026-09-08",
+        "totalGames": 6162,
+        "pulledDate": "2026-09-10",
         "latestRating": 1301,
         "peakRating": 1395
       },
       "matches": [
+        {
+          "matchId": 505528023,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:15:51.000Z",
+          "dur": 2916,
+          "opponents": [
+            {
+              "profileId": 22724177,
+              "name": "Nyxzio"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505474221,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:45:25.000Z",
+          "dur": 1761,
+          "opponents": [
+            {
+              "profileId": 5651772,
+              "name": "nmarc"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505256303,
           "civ": "Huns",
@@ -98626,7 +98660,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 457,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1092,
         "peakRating": 1190
       },
@@ -113490,5 +113524,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

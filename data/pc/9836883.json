@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 639,
-        "pulledDate": "2026-09-08",
-        "latestRating": 803,
+        "totalGames": 642,
+        "pulledDate": "2026-09-10",
+        "latestRating": 821,
         "peakRating": 1048
       },
       "matches": [
+        {
+          "matchId": 505482350,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:27:55.000Z",
+          "dur": 1181,
+          "opponents": [
+            {
+              "profileId": 20005772,
+              "name": "aoe2izg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505302695,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:04:20.000Z",
+          "dur": 1221,
+          "opponents": [
+            {
+              "profileId": 15426615,
+              "name": "albert.mv89"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505269810,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:27:49.000Z",
+          "dur": 1410,
+          "opponents": [
+            {
+              "profileId": 313879,
+              "name": "DarkCrystal"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505119381,
           "civ": "Vikings",
@@ -10267,7 +10318,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1030,
         "peakRating": 1103
       },
@@ -10863,5 +10914,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "in",
+  "countryIcon": "\ud83c\uddee\ud83c\uddf3",
+  "countryName": "India"
 }

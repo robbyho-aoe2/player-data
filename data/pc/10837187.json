@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1006,
         "peakRating": 1006
       },
@@ -589,12 +589,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 302,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1127,
+        "totalGames": 304,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1126,
         "peakRating": 1273
       },
       "matches": [
+        {
+          "matchId": 505425795,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:08:00.000Z",
+          "dur": 1909,
+          "opponents": [
+            {
+              "profileId": 11821651,
+              "name": "hakki"
+            },
+            {
+              "profileId": 3778928,
+              "name": "Majorian"
+            },
+            {
+              "profileId": 7968742,
+              "name": "630406632"
+            },
+            {
+              "profileId": 21879950,
+              "name": "\u8c37\u5f97\u8d85\u52c1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 487572,
+              "name": "richnoob575"
+            },
+            {
+              "profileId": 6426007,
+              "name": "Po_TaToH"
+            },
+            {
+              "profileId": 23688929,
+              "name": "Supertaxpayer"
+            }
+          ]
+        },
+        {
+          "matchId": 505419511,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T11:15:54.000Z",
+          "dur": 2631,
+          "opponents": [
+            {
+              "profileId": 24746148,
+              "name": "aLaNi"
+            },
+            {
+              "profileId": 10968445,
+              "name": "Karral"
+            },
+            {
+              "profileId": 6592330,
+              "name": "Togepi"
+            },
+            {
+              "profileId": 301549,
+              "name": "Faelian the Unsuccessful"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25252483,
+              "name": "halong1301"
+            },
+            {
+              "profileId": 23688929,
+              "name": "Supertaxpayer"
+            },
+            {
+              "profileId": 12686725,
+              "name": "MLTreekicker"
+            }
+          ]
+        },
         {
           "matchId": 505202179,
           "civ": "Cumans",
@@ -12006,5 +12090,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "in",
+  "countryIcon": "\ud83c\uddee\ud83c\uddf3",
+  "countryName": "India"
 }

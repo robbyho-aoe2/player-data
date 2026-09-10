@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 83,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1183,
+        "totalGames": 86,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1194,
         "peakRating": 1232
       },
       "matches": [
+        {
+          "matchId": 505639666,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T12:24:05.000Z",
+          "dur": 1587,
+          "opponents": [
+            {
+              "profileId": 22706593,
+              "name": "Klypabaarke"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505637641,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T12:09:59.000Z",
+          "dur": 820,
+          "opponents": [
+            {
+              "profileId": 17231024,
+              "name": "Allowuff"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505396609,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:10:25.000Z",
+          "dur": 1674,
+          "opponents": [
+            {
+              "profileId": 24661172,
+              "name": "Olthos"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504685100,
           "civ": "Franks",
@@ -1368,7 +1419,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 46,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1237,
         "peakRating": 1254
       },
@@ -2854,5 +2905,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

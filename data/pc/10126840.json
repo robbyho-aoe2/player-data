@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2688,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 896,
         "peakRating": 977
       },
@@ -24279,12 +24279,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1713,
-        "pulledDate": "2026-09-08",
-        "latestRating": 847,
+        "totalGames": 1716,
+        "pulledDate": "2026-09-10",
+        "latestRating": 874,
         "peakRating": 1162
       },
       "matches": [
+        {
+          "matchId": 505373217,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:18:37.000Z",
+          "dur": 2204,
+          "opponents": [
+            {
+              "profileId": 25872245,
+              "name": "Valky"
+            },
+            {
+              "profileId": 20116204,
+              "name": "sheikzn7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2438532,
+              "name": "Cornudoperofeliz"
+            }
+          ]
+        },
+        {
+          "matchId": 505368781,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:49:05.000Z",
+          "dur": 1488,
+          "opponents": [
+            {
+              "profileId": 19651622,
+              "name": "nesarths"
+            },
+            {
+              "profileId": 21139967,
+              "name": "Mowgli"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2438532,
+              "name": "Cornudoperofeliz"
+            }
+          ]
+        },
+        {
+          "matchId": 505362436,
+          "civ": "Spanish",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:08:37.000Z",
+          "dur": 2113,
+          "opponents": [
+            {
+              "profileId": 7426409,
+              "name": "Ekutoru"
+            },
+            {
+              "profileId": 11960704,
+              "name": "Zennx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2438532,
+              "name": "Cornudoperofeliz"
+            }
+          ]
+        },
         {
           "matchId": 505163732,
           "civ": "Britons",
@@ -39995,5 +40073,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

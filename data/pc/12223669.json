@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2079,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1132,
+        "totalGames": 2080,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1115,
         "peakRating": 1304
       },
       "matches": [
+        {
+          "matchId": 505373085,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:17:27.000Z",
+          "dur": 2147,
+          "opponents": [
+            {
+              "profileId": 995403,
+              "name": "rooster"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503751000,
           "civ": "Franks",
@@ -33293,12 +33310,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1482,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1260,
+        "totalGames": 1484,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1232,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 505382457,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:32:38.000Z",
+          "dur": 1583,
+          "opponents": [
+            {
+              "profileId": 4819441,
+              "name": "[HAV] Papi de Jardin"
+            },
+            {
+              "profileId": 5787692,
+              "name": "ImStillNakedBTW"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2283876,
+              "name": "[SENSEI] Milky"
+            }
+          ]
+        },
+        {
+          "matchId": 505378914,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:02:19.000Z",
+          "dur": 1531,
+          "opponents": [
+            {
+              "profileId": 8588401,
+              "name": "Principipe6724"
+            },
+            {
+              "profileId": 949199,
+              "name": "PwNaSauRuS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2283876,
+              "name": "[SENSEI] Milky"
+            }
+          ]
+        },
         {
           "matchId": 503946731,
           "civ": "Spanish",
@@ -80354,5 +80423,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

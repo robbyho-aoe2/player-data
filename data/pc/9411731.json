@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 34,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1027,
         "peakRating": 1059
       },
@@ -573,12 +573,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 319,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1224,
+        "totalGames": 322,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1246,
         "peakRating": 1358
       },
       "matches": [
+        {
+          "matchId": 505367924,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:43:37.000Z",
+          "dur": 3023,
+          "opponents": [
+            {
+              "profileId": 2092183,
+              "name": "[SotC] Maxeld"
+            },
+            {
+              "profileId": 1567353,
+              "name": "dario_def"
+            },
+            {
+              "profileId": 2900205,
+              "name": "Noobie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1816819,
+              "name": "Landshark"
+            },
+            {
+              "profileId": 1861188,
+              "name": "[QW] Chopinwaffles"
+            }
+          ]
+        },
+        {
+          "matchId": 505363600,
+          "civ": "Berbers",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:16:07.000Z",
+          "dur": 1413,
+          "opponents": [
+            {
+              "profileId": 604480,
+              "name": "Julian93"
+            },
+            {
+              "profileId": 5066038,
+              "name": "levoilierrouge"
+            },
+            {
+              "profileId": 4040353,
+              "name": "Izuru Alexandros R\u00c6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1861188,
+              "name": "[QW] Chopinwaffles"
+            },
+            {
+              "profileId": 1816819,
+              "name": "Landshark"
+            }
+          ]
+        },
+        {
+          "matchId": 505359067,
+          "civ": "Chinese",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:47:02.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 12406812,
+              "name": "Fedepato"
+            },
+            {
+              "profileId": 3434239,
+              "name": "Mishilover"
+            },
+            {
+              "profileId": 3385063,
+              "name": "MACGP40"
+            },
+            {
+              "profileId": 3270112,
+              "name": "King Gallas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1816819,
+              "name": "Landshark"
+            },
+            {
+              "profileId": 2732452,
+              "name": "Spider2YBanana"
+            },
+            {
+              "profileId": 1861188,
+              "name": "[QW] Chopinwaffles"
+            }
+          ]
+        },
         {
           "matchId": 504660776,
           "civ": "Berbers",
@@ -11226,5 +11336,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

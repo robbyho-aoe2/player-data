@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 458,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1204,
+        "totalGames": 459,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1222,
         "peakRating": 1311
       },
       "matches": [
+        {
+          "matchId": 505414144,
+          "civ": "Georgians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:22:24.000Z",
+          "dur": 1759,
+          "opponents": [
+            {
+              "profileId": 22632239,
+              "name": "MovableStatue95"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505225027,
           "civ": "Georgians",
@@ -7364,12 +7381,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 82,
-        "pulledDate": "2026-09-08",
-        "latestRating": 961,
+        "totalGames": 84,
+        "pulledDate": "2026-09-10",
+        "latestRating": 965,
         "peakRating": 1017
       },
       "matches": [
+        {
+          "matchId": 505422088,
+          "civ": "Wu",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T11:38:32.000Z",
+          "dur": 211,
+          "opponents": [
+            {
+              "profileId": 24495291,
+              "name": "WinniethePooh"
+            },
+            {
+              "profileId": 2926525,
+              "name": "wololoo-"
+            },
+            {
+              "profileId": 11568788,
+              "name": "Wiretrass"
+            },
+            {
+              "profileId": 1795541,
+              "name": "\u4e2d\u91ce\u4e00\u82b1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22681723,
+              "name": "Brandt9700"
+            },
+            {
+              "profileId": 5998661,
+              "name": "BIY"
+            },
+            {
+              "profileId": 24997808,
+              "name": "kagemusha"
+            }
+          ]
+        },
+        {
+          "matchId": 505417496,
+          "civ": "Wu",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:56:45.000Z",
+          "dur": 2335,
+          "opponents": [
+            {
+              "profileId": 16929387,
+              "name": "Not Dwight Kurt Schrute III"
+            },
+            {
+              "profileId": 21379932,
+              "name": "Mikar Barluq"
+            },
+            {
+              "profileId": 4188326,
+              "name": "Matcha"
+            },
+            {
+              "profileId": 5998661,
+              "name": "BIY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12035146,
+              "name": "1mmr"
+            },
+            {
+              "profileId": 12604632,
+              "name": "GermanWolf7"
+            },
+            {
+              "profileId": 25520387,
+              "name": "kocicky\u20ac\u20ac\u20ac"
+            }
+          ]
+        },
         {
           "matchId": 505203264,
           "civ": "Wu",
@@ -10706,5 +10807,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 170,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1079,
         "peakRating": 1094
       },
@@ -2749,12 +2749,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1333,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1114,
+        "totalGames": 1334,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1129,
         "peakRating": 1236
       },
       "matches": [
+        {
+          "matchId": 505594264,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T04:33:32.000Z",
+          "dur": 1506,
+          "opponents": [
+            {
+              "profileId": 15303487,
+              "name": "526875959"
+            },
+            {
+              "profileId": 5369992,
+              "name": "YLING"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9937677,
+              "name": "\u7279\u6717\u8461"
+            }
+          ]
+        },
         {
           "matchId": 504936194,
           "civ": "Romans",
@@ -39927,5 +39953,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

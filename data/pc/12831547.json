@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 622,
         "peakRating": 622
       },
@@ -205,12 +205,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 734,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1145,
+        "totalGames": 736,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1141,
         "peakRating": 1236
       },
       "matches": [
+        {
+          "matchId": 505552550,
+          "civ": "Khmer",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:47:33.000Z",
+          "dur": 1911,
+          "opponents": [
+            {
+              "profileId": 25987148,
+              "name": "DeepBlue_"
+            },
+            {
+              "profileId": 1881158,
+              "name": "Z\u00e9 Gui"
+            },
+            {
+              "profileId": 2445454,
+              "name": "rca"
+            },
+            {
+              "profileId": 20277782,
+              "name": "Mob Psycho 100"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1564527,
+              "name": "Alarich1000"
+            },
+            {
+              "profileId": 9397646,
+              "name": "Demon"
+            },
+            {
+              "profileId": 19108874,
+              "name": "Shell"
+            }
+          ]
+        },
+        {
+          "matchId": 505549121,
+          "civ": "Malians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:24:26.000Z",
+          "dur": 1159,
+          "opponents": [
+            {
+              "profileId": 6295941,
+              "name": "Spitfire"
+            },
+            {
+              "profileId": 3150959,
+              "name": "ElChupetometro"
+            },
+            {
+              "profileId": 1881158,
+              "name": "Z\u00e9 Gui"
+            },
+            {
+              "profileId": 1092761,
+              "name": "crosspunk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 865217,
+              "name": "Sniper_Wolf"
+            },
+            {
+              "profileId": 25260939,
+              "name": "Quemero"
+            },
+            {
+              "profileId": 9397646,
+              "name": "Demon"
+            }
+          ]
+        },
         {
           "matchId": 504863474,
           "civ": "Mongols",
@@ -30290,5 +30374,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

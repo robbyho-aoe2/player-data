@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1435,
         "peakRating": 1435
       },
@@ -205,12 +205,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 974,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1727,
+        "totalGames": 975,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1706,
         "peakRating": 1729
       },
       "matches": [
+        {
+          "matchId": 505576850,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:25:11.000Z",
+          "dur": 1516,
+          "opponents": [
+            {
+              "profileId": 270855,
+              "name": "Mati"
+            },
+            {
+              "profileId": 3291422,
+              "name": "ZarckNogh"
+            },
+            {
+              "profileId": 5953145,
+              "name": "Marlin"
+            },
+            {
+              "profileId": 8588069,
+              "name": "Miss_Xue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2373957,
+              "name": "NPG | DR@CA"
+            },
+            {
+              "profileId": 3475794,
+              "name": "NPG | Dequetelasdai"
+            },
+            {
+              "profileId": 5959775,
+              "name": "NPG | KaTeEse"
+            }
+          ]
+        },
         {
           "matchId": 505121420,
           "civ": "Bengalis",
@@ -38458,5 +38500,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

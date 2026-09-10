@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 394,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 957,
         "peakRating": 1153
       },
@@ -6333,12 +6333,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 351,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1194,
+        "totalGames": 353,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1192,
         "peakRating": 1259
       },
       "matches": [
+        {
+          "matchId": 505551690,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:41:43.000Z",
+          "dur": 1452,
+          "opponents": [
+            {
+              "profileId": 14240913,
+              "name": "XxMrKr0NiC420xX"
+            },
+            {
+              "profileId": 14316001,
+              "name": "SuBMiiTzz"
+            },
+            {
+              "profileId": 24217518,
+              "name": "guachalin"
+            },
+            {
+              "profileId": 24505037,
+              "name": "CriPe FusIonz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4127947,
+              "name": "NuMa | Reize"
+            },
+            {
+              "profileId": 5494859,
+              "name": "NMac42"
+            },
+            {
+              "profileId": 18759416,
+              "name": "joaopessoense"
+            }
+          ]
+        },
+        {
+          "matchId": 505339260,
+          "civ": "Romans",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:36:48.000Z",
+          "dur": 1047,
+          "opponents": [
+            {
+              "profileId": 25636902,
+              "name": "BondTrustee"
+            },
+            {
+              "profileId": 1767526,
+              "name": "coke diet"
+            },
+            {
+              "profileId": 2522733,
+              "name": "nikhdy"
+            },
+            {
+              "profileId": 9645493,
+              "name": "Fudgel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6389073,
+              "name": "JR91"
+            },
+            {
+              "profileId": 9923831,
+              "name": "L.A."
+            },
+            {
+              "profileId": 12334976,
+              "name": "VaaN."
+            }
+          ]
+        },
         {
           "matchId": 504875157,
           "civ": "Armenians",
@@ -20707,5 +20791,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

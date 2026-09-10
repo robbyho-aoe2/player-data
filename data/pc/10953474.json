@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 941,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1115,
+        "totalGames": 943,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1080,
         "peakRating": 1181
       },
       "matches": [
+        {
+          "matchId": 505394280,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:41:06.000Z",
+          "dur": 2726,
+          "opponents": [
+            {
+              "profileId": 1196891,
+              "name": "Edison"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505392434,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:18:59.000Z",
+          "dur": 1219,
+          "opponents": [
+            {
+              "profileId": 8752681,
+              "name": "tapiatemo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504903603,
           "civ": "Teutons",
@@ -15089,12 +15123,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1090,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1141,
-        "peakRating": 1159
+        "totalGames": 1092,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1174,
+        "peakRating": 1174
       },
       "matches": [
+        {
+          "matchId": 505603811,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T06:16:26.000Z",
+          "dur": 2101,
+          "opponents": [
+            {
+              "profileId": 403655,
+              "name": "WILL.I.AM"
+            },
+            {
+              "profileId": 24918245,
+              "name": "\u9060\u65b9\u7684\u71c8"
+            },
+            {
+              "profileId": 12175040,
+              "name": "raw0000"
+            },
+            {
+              "profileId": 6890504,
+              "name": "WING123456"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2362949,
+              "name": "[GDL]  Soy Un RUFIAN"
+            },
+            {
+              "profileId": 17974255,
+              "name": "kneehao"
+            },
+            {
+              "profileId": 1316105,
+              "name": "\u00b0\u0e56Blaze"
+            }
+          ]
+        },
+        {
+          "matchId": 505522800,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:47:21.000Z",
+          "dur": 1842,
+          "opponents": [
+            {
+              "profileId": 6022140,
+              "name": "Osorkon"
+            },
+            {
+              "profileId": 5860371,
+              "name": "argantonio65"
+            },
+            {
+              "profileId": 5936968,
+              "name": "Aurelius"
+            },
+            {
+              "profileId": 5939198,
+              "name": "Artema2525"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4292674,
+              "name": "Dustwalker"
+            },
+            {
+              "profileId": 17807192,
+              "name": "Bipedal_Man"
+            },
+            {
+              "profileId": 21423496,
+              "name": "PILDORO"
+            }
+          ]
+        },
         {
           "matchId": 504888054,
           "civ": "Cumans",
@@ -51351,5 +51469,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 332,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 1735,
         "peakRating": 1735
       },
@@ -5341,12 +5341,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1359,
-        "pulledDate": "2026-09-02",
-        "latestRating": 1540,
+        "totalGames": 1362,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1543,
         "peakRating": 1774
       },
       "matches": [
+        {
+          "matchId": 505512148,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:53:41.000Z",
+          "dur": 1557,
+          "opponents": [
+            {
+              "profileId": 358969,
+              "name": "Dasilva"
+            },
+            {
+              "profileId": 21816870,
+              "name": "FkeVriX"
+            },
+            {
+              "profileId": 23899675,
+              "name": "Spada_Arancio"
+            },
+            {
+              "profileId": 799097,
+              "name": "AML4554"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 354022,
+              "name": "tabig"
+            },
+            {
+              "profileId": 25146766,
+              "name": "\u8001\u72d0\u72f8"
+            },
+            {
+              "profileId": 26069249,
+              "name": "\u53ef\u4ee5\u5575\u5575\u54a9"
+            }
+          ]
+        },
+        {
+          "matchId": 505503590,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:13:31.000Z",
+          "dur": 2080,
+          "opponents": [
+            {
+              "profileId": 25379374,
+              "name": "NoobSlayer26202"
+            },
+            {
+              "profileId": 12313532,
+              "name": "N4Th-.-"
+            },
+            {
+              "profileId": 5781330,
+              "name": "23"
+            },
+            {
+              "profileId": 14094577,
+              "name": "Mezsar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25146766,
+              "name": "\u8001\u72d0\u72f8"
+            },
+            {
+              "profileId": 26069249,
+              "name": "\u53ef\u4ee5\u5575\u5575\u54a9"
+            },
+            {
+              "profileId": 25654114,
+              "name": "\u795e\u79d8"
+            }
+          ]
+        },
+        {
+          "matchId": 505501740,
+          "civ": "Vikings",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:04:43.000Z",
+          "dur": 61,
+          "opponents": [
+            {
+              "profileId": 8783027,
+              "name": "Estrella de David mata-n1\u00f10"
+            },
+            {
+              "profileId": 1679925,
+              "name": "Tyrant"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5644620,
+              "name": "El coun"
+            }
+          ]
+        },
         {
           "matchId": 503567447,
           "civ": "Vietnamese",
@@ -58732,5 +58842,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

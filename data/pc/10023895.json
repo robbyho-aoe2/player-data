@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 205,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1052,
-        "peakRating": 1053
+        "totalGames": 206,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1069,
+        "peakRating": 1069
       },
       "matches": [
+        {
+          "matchId": 505482120,
+          "civ": "Franks",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:27:01.000Z",
+          "dur": 1631,
+          "opponents": [
+            {
+              "profileId": 16436548,
+              "name": "PANIC"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504764404,
           "civ": "Romans",
@@ -3310,12 +3327,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1997,
-        "pulledDate": "2026-09-08",
+        "totalGames": 2000,
+        "pulledDate": "2026-09-10",
         "latestRating": 1305,
         "peakRating": 1353
       },
       "matches": [
+        {
+          "matchId": 505481441,
+          "civ": "Romans",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:24:25.000Z",
+          "dur": 47,
+          "opponents": [
+            {
+              "profileId": 5045761,
+              "name": "TowerRushsshhh"
+            },
+            {
+              "profileId": 25398740,
+              "name": "No se jugar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2454796,
+              "name": "KinomtheKaiser"
+            }
+          ]
+        },
+        {
+          "matchId": 505473407,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:41:03.000Z",
+          "dur": 2344,
+          "opponents": [
+            {
+              "profileId": 20604439,
+              "name": "Clint Southwood"
+            },
+            {
+              "profileId": 11819624,
+              "name": "[GDL] Good_Guys"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2454796,
+              "name": "KinomtheKaiser"
+            }
+          ]
+        },
+        {
+          "matchId": 505471204,
+          "civ": "Romans",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:29:04.000Z",
+          "dur": 498,
+          "opponents": [
+            {
+              "profileId": 625254,
+              "name": "Rotank"
+            },
+            {
+              "profileId": 1970693,
+              "name": "christar123 ten"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2454796,
+              "name": "KinomtheKaiser"
+            }
+          ]
+        },
         {
           "matchId": 504753353,
           "civ": "Ethiopians",
@@ -64894,5 +64989,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

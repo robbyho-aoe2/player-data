@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1516,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1227,
+        "totalGames": 1519,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1211,
         "peakRating": 1294
       },
       "matches": [
+        {
+          "matchId": 505521279,
+          "civ": "Persians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:38:31.000Z",
+          "dur": 1880,
+          "opponents": [
+            {
+              "profileId": 2175179,
+              "name": "LA SCALONETA"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505325705,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:10:09.000Z",
+          "dur": 733,
+          "opponents": [
+            {
+              "profileId": 2372497,
+              "name": "Madeen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505320366,
+          "civ": "Persians",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:37:34.000Z",
+          "dur": 1500,
+          "opponents": [
+            {
+              "profileId": 25575019,
+              "name": "PurplePhoenix"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504806838,
           "civ": "Teutons",
@@ -24293,7 +24344,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 157,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 985,
         "peakRating": 1096
       },
@@ -29489,5 +29540,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

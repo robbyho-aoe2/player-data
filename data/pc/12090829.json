@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1334,
         "peakRating": 1364
       },
@@ -284,12 +284,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 124,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1313,
+        "totalGames": 125,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1299,
         "peakRating": 1411
       },
       "matches": [
+        {
+          "matchId": 505555209,
+          "civ": "Burmese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:05:18.000Z",
+          "dur": 1927,
+          "opponents": [
+            {
+              "profileId": 22625558,
+              "name": "NotGG"
+            },
+            {
+              "profileId": 5288067,
+              "name": "Karzul"
+            },
+            {
+              "profileId": 1742969,
+              "name": "SS_Tioz\u00e3o"
+            },
+            {
+              "profileId": 1439621,
+              "name": "The Rohirrim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6740182,
+              "name": "Andres_bc81"
+            },
+            {
+              "profileId": 5863231,
+              "name": "A6D2_4EVER"
+            },
+            {
+              "profileId": 1050058,
+              "name": "scarabe"
+            }
+          ]
+        },
         {
           "matchId": 505133467,
           "civ": "Spanish",
@@ -5380,5 +5422,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

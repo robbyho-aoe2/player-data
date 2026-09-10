@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 91,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1336,
         "peakRating": 1364
       },
@@ -1485,12 +1485,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2980,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1479,
+        "totalGames": 2981,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1465,
         "peakRating": 1755
       },
       "matches": [
+        {
+          "matchId": 505645250,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T13:03:43.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 25926099,
+              "name": "woshinoob3"
+            },
+            {
+              "profileId": 19076073,
+              "name": "\u767d\u6cb3 \u8424"
+            },
+            {
+              "profileId": 9179714,
+              "name": "\u5783\u573e\u5c0f\u58eb\u5175"
+            },
+            {
+              "profileId": 6154853,
+              "name": "\u674e\u6e05\u7136"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3520125,
+              "name": "Guts"
+            },
+            {
+              "profileId": 15346824,
+              "name": "\u81ea\u5a31\u81ea\u4e50"
+            },
+            {
+              "profileId": 2680248,
+              "name": "verszomj"
+            }
+          ]
+        },
         {
           "matchId": 505238187,
           "civ": "Britons",
@@ -123384,5 +123426,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

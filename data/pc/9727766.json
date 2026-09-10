@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 66,
-        "pulledDate": "2026-09-08",
-        "latestRating": 725,
+        "totalGames": 67,
+        "pulledDate": "2026-09-10",
+        "latestRating": 742,
         "peakRating": 789
       },
       "matches": [
+        {
+          "matchId": 505273525,
+          "civ": "Magyars",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:46:41.000Z",
+          "dur": 3734,
+          "opponents": [
+            {
+              "profileId": 2369239,
+              "name": "JogaBoKnarze"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504719619,
           "civ": "Spanish",
@@ -1091,7 +1108,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 28,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 654,
         "peakRating": 811
       },
@@ -1822,5 +1839,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 30,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 727,
         "peakRating": 858
       },
@@ -509,12 +509,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 136,
-        "pulledDate": "2026-09-08",
-        "latestRating": 652,
+        "totalGames": 138,
+        "pulledDate": "2026-09-10",
+        "latestRating": 624,
         "peakRating": 840
       },
       "matches": [
+        {
+          "matchId": 505409921,
+          "civ": "Khitans",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:39:57.000Z",
+          "dur": 1519,
+          "opponents": [
+            {
+              "profileId": 4018057,
+              "name": "NebulaTR"
+            },
+            {
+              "profileId": 25031886,
+              "name": "pentrusmurf"
+            },
+            {
+              "profileId": 21610696,
+              "name": "SERE"
+            },
+            {
+              "profileId": 25865673,
+              "name": "amk1285"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25779837,
+              "name": "\u4e54\u5df4"
+            },
+            {
+              "profileId": 25568772,
+              "name": "adz0615"
+            },
+            {
+              "profileId": 22432446,
+              "name": "Chin0chelada"
+            }
+          ]
+        },
+        {
+          "matchId": 505407818,
+          "civ": "Khitans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:17:45.000Z",
+          "dur": 416,
+          "opponents": [
+            {
+              "profileId": 10195317,
+              "name": "LeVieuxMachin"
+            },
+            {
+              "profileId": 17387245,
+              "name": "-1071-"
+            },
+            {
+              "profileId": 25959083,
+              "name": "3591651431"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25841775,
+              "name": "KindBeetle9568"
+            },
+            {
+              "profileId": 24499735,
+              "name": "ORION"
+            }
+          ]
+        },
         {
           "matchId": 505235794,
           "civ": "Wu",
@@ -4969,5 +5045,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

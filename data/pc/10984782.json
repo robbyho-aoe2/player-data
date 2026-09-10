@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1008,
-        "pulledDate": "2026-09-02",
+        "totalGames": 1012,
+        "pulledDate": "2026-09-10",
         "latestRating": 1315,
         "peakRating": 1455
       },
       "matches": [
+        {
+          "matchId": 505600259,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T05:32:33.000Z",
+          "dur": 1894,
+          "opponents": [
+            {
+              "profileId": 722437,
+              "name": "Nenuco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505487326,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:54:40.000Z",
+          "dur": 1799,
+          "opponents": [
+            {
+              "profileId": 3107789,
+              "name": "\u6c34\u6cca\u6881\u5c71"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505390972,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:00:20.000Z",
+          "dur": 1888,
+          "opponents": [
+            {
+              "profileId": 3451346,
+              "name": "\u5927\u5200\u5411\u9b3c\u5b50\u5934\u4e0a\u780d\u53bb"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505388563,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:31:22.000Z",
+          "dur": 1640,
+          "opponents": [
+            {
+              "profileId": 2879731,
+              "name": "Bill Flounder"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503425162,
           "civ": "Cumans",
@@ -16158,7 +16226,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 3566,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 1545,
         "peakRating": 1599
       },
@@ -159267,5 +159335,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1719,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 2515,
         "peakRating": 2565
       },
@@ -27533,12 +27533,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3943,
-        "pulledDate": "2026-09-04",
-        "latestRating": 2024,
+        "totalGames": 3945,
+        "pulledDate": "2026-09-10",
+        "latestRating": 2030,
         "peakRating": 2133
       },
       "matches": [
+        {
+          "matchId": 505392422,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:18:51.000Z",
+          "dur": 83,
+          "opponents": [
+            {
+              "profileId": 25764620,
+              "name": "Ouch"
+            },
+            {
+              "profileId": 4902114,
+              "name": "APZz_"
+            },
+            {
+              "profileId": 2440793,
+              "name": "Sumi"
+            },
+            {
+              "profileId": 17719335,
+              "name": "kerwin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3552908,
+              "name": "VENON | OIGRES"
+            },
+            {
+              "profileId": 2598146,
+              "name": "SiNisTeR"
+            },
+            {
+              "profileId": 21433190,
+              "name": "VEN\u00d3N | gh0st"
+            }
+          ]
+        },
+        {
+          "matchId": 505389614,
+          "civ": "Malians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:44:30.000Z",
+          "dur": 1552,
+          "opponents": [
+            {
+              "profileId": 15019418,
+              "name": "PNAL | ale_petro"
+            },
+            {
+              "profileId": 15770941,
+              "name": "PNAL | Trafalgar"
+            },
+            {
+              "profileId": 18021913,
+              "name": "PNAL | DC-Jota"
+            },
+            {
+              "profileId": 1937895,
+              "name": "PNAL | Machete"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21433190,
+              "name": "VEN\u00d3N | gh0st"
+            },
+            {
+              "profileId": 2479622,
+              "name": "VEN\u00d3N | Nicky"
+            },
+            {
+              "profileId": 2598146,
+              "name": "SiNisTeR"
+            }
+          ]
+        },
         {
           "matchId": 503914974,
           "civ": "Turks",
@@ -158719,5 +158803,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }
