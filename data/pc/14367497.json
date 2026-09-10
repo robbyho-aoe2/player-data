@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 514,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1476,
+        "totalGames": 517,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1459,
         "peakRating": 1744
       },
       "matches": [
+        {
+          "matchId": 505527255,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:10:54.000Z",
+          "dur": 1634,
+          "opponents": [
+            {
+              "profileId": 5823451,
+              "name": "Fore_Ruthless"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505526474,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:06:36.000Z",
+          "dur": 207,
+          "opponents": [
+            {
+              "profileId": 5823451,
+              "name": "Fore_Ruthless"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505525006,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:58:33.000Z",
+          "dur": 449,
+          "opponents": [
+            {
+              "profileId": 348010,
+              "name": "YDRL"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504489370,
           "civ": "Mongols",
@@ -8768,7 +8819,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 89,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1319,
         "peakRating": 1340
       },
@@ -12505,5 +12556,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

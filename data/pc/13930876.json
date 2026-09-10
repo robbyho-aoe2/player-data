@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1409,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1112,
+        "totalGames": 1410,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1126,
         "peakRating": 1126
       },
       "matches": [
+        {
+          "matchId": 505331817,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:48:11.000Z",
+          "dur": 932,
+          "opponents": [
+            {
+              "profileId": 18841881,
+              "name": "Perchatca"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505295261,
           "civ": "Portuguese",
@@ -22603,12 +22620,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1572,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1202,
+        "totalGames": 1574,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1205,
         "peakRating": 1371
       },
       "matches": [
+        {
+          "matchId": 505368775,
+          "civ": "Khmer",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:48:59.000Z",
+          "dur": 1923,
+          "opponents": [
+            {
+              "profileId": 2847932,
+              "name": "Antonio Margarete"
+            },
+            {
+              "profileId": 4966425,
+              "name": "ALV-Compa Robemmanml"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5784650,
+              "name": "Tx8 | EtergenInvictus"
+            }
+          ]
+        },
+        {
+          "matchId": 505361394,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:01:58.000Z",
+          "dur": 2504,
+          "opponents": [
+            {
+              "profileId": 383701,
+              "name": "Flying Cap"
+            },
+            {
+              "profileId": 10472618,
+              "name": "Lord Captise"
+            },
+            {
+              "profileId": 10739779,
+              "name": "PotatoNate57"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 238307,
+              "name": "Tx8 | Morochimaru"
+            },
+            {
+              "profileId": 5784650,
+              "name": "Tx8 | EtergenInvictus"
+            }
+          ]
+        },
         {
           "matchId": 505171892,
           "civ": "Persians",
@@ -75004,5 +75081,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

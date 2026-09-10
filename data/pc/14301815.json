@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 179,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-10",
         "latestRating": 1624,
         "peakRating": 1723
       },
@@ -2893,12 +2893,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4273,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1476,
+        "totalGames": 4275,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1474,
         "peakRating": 1661
       },
       "matches": [
+        {
+          "matchId": 505589459,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:52:44.000Z",
+          "dur": 1663,
+          "opponents": [
+            {
+              "profileId": 5730244,
+              "name": "AM | Chuchito"
+            },
+            {
+              "profileId": 11265344,
+              "name": "AM | Tailor"
+            },
+            {
+              "profileId": 15482892,
+              "name": "AM |  DEMONIO_MX"
+            },
+            {
+              "profileId": 17632251,
+              "name": "AM | Rick2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 277648,
+              "name": "benji"
+            },
+            {
+              "profileId": 3504440,
+              "name": "Roooooooo"
+            },
+            {
+              "profileId": 19439088,
+              "name": "\u8d85\u7ea7\u786c\u90a6\u90a6"
+            }
+          ]
+        },
+        {
+          "matchId": 505587231,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:35:52.000Z",
+          "dur": 856,
+          "opponents": [
+            {
+              "profileId": 15698135,
+              "name": "DS_TheHeartless"
+            },
+            {
+              "profileId": 267991,
+              "name": "DS_Moai"
+            },
+            {
+              "profileId": 3497713,
+              "name": "DS_Exe19"
+            },
+            {
+              "profileId": 239485,
+              "name": "DS_Reg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 996662,
+              "name": "Mr. Snuss"
+            },
+            {
+              "profileId": 2538778,
+              "name": "Motta7Villa"
+            },
+            {
+              "profileId": 15172325,
+              "name": "Duwhite"
+            }
+          ]
+        },
         {
           "matchId": 503949761,
           "civ": "Malay",
@@ -159970,5 +160054,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

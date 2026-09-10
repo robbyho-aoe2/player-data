@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1281,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1726,
-        "peakRating": 1726
+        "totalGames": 1283,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1723,
+        "peakRating": 1743
       },
       "matches": [
+        {
+          "matchId": 505387056,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:16:11.000Z",
+          "dur": 2080,
+          "opponents": [
+            {
+              "profileId": 6800134,
+              "name": "A-V (JustOnePixeL)"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505326171,
+          "civ": "Maya",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:12:29.000Z",
+          "dur": 2590,
+          "opponents": [
+            {
+              "profileId": 2457324,
+              "name": "DS_MD"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504917605,
           "civ": "Burgundians",
@@ -11686,12 +11720,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2017,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1546,
+        "totalGames": 2020,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1555,
         "peakRating": 1637
       },
       "matches": [
+        {
+          "matchId": 505342922,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:01:47.000Z",
+          "dur": 2522,
+          "opponents": [
+            {
+              "profileId": 1383788,
+              "name": "paulovmcm"
+            },
+            {
+              "profileId": 25679705,
+              "name": "_______"
+            },
+            {
+              "profileId": 9365755,
+              "name": "hoffypianoman"
+            },
+            {
+              "profileId": 3157284,
+              "name": "JaniToPz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25436970,
+              "name": "UC | Chechito"
+            },
+            {
+              "profileId": 19500861,
+              "name": "CTM | PacoJaramillo"
+            },
+            {
+              "profileId": 391135,
+              "name": "David Rasie"
+            }
+          ]
+        },
+        {
+          "matchId": 505341623,
+          "civ": "Byzantines",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:53:23.000Z",
+          "dur": 312,
+          "opponents": [
+            {
+              "profileId": 303062,
+              "name": "Advanta09"
+            },
+            {
+              "profileId": 5341991,
+              "name": "Yisaac"
+            },
+            {
+              "profileId": 14166051,
+              "name": "chenst2020"
+            },
+            {
+              "profileId": 19439088,
+              "name": "\u8d85\u7ea7\u786c\u90a6\u90a6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 391135,
+              "name": "David Rasie"
+            },
+            {
+              "profileId": 19500861,
+              "name": "CTM | PacoJaramillo"
+            },
+            {
+              "profileId": 25436970,
+              "name": "UC | Chechito"
+            }
+          ]
+        },
+        {
+          "matchId": 505336992,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:22:03.000Z",
+          "dur": 1489,
+          "opponents": [
+            {
+              "profileId": 14166051,
+              "name": "chenst2020"
+            },
+            {
+              "profileId": 785630,
+              "name": "EL MAYA"
+            },
+            {
+              "profileId": 8154765,
+              "name": "GOAT Gobz"
+            },
+            {
+              "profileId": 11618367,
+              "name": "__67_7SmigoL._Arg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25436970,
+              "name": "UC | Chechito"
+            },
+            {
+              "profileId": 19500861,
+              "name": "CTM | PacoJaramillo"
+            },
+            {
+              "profileId": 391135,
+              "name": "David Rasie"
+            }
+          ]
+        },
         {
           "matchId": 505170846,
           "civ": "Khmer",
@@ -30343,5 +30503,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }
