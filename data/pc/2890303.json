@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1085,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1586,
+        "totalGames": 1086,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1569,
         "peakRating": 1634
       },
       "matches": [
+        {
+          "matchId": 505202387,
+          "civ": "Gurjaras",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:33:56.000Z",
+          "dur": 568,
+          "opponents": [
+            {
+              "profileId": 4295859,
+              "name": "Murits"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504737108,
           "civ": "Koreans",
@@ -17393,12 +17410,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2143,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1406,
+        "totalGames": 2145,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1404,
         "peakRating": 1481
       },
       "matches": [
+        {
+          "matchId": 505344307,
+          "civ": "Wu",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:11:30.000Z",
+          "dur": 1873,
+          "opponents": [
+            {
+              "profileId": 939034,
+              "name": "Bananaman651"
+            },
+            {
+              "profileId": 25561773,
+              "name": "BautiCrepeer"
+            },
+            {
+              "profileId": 10375536,
+              "name": "InaHolmes"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2890823,
+              "name": "The High Ground"
+            },
+            {
+              "profileId": 2870271,
+              "name": "Andraste"
+            }
+          ]
+        },
+        {
+          "matchId": 505338915,
+          "civ": "Lithuanians",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:34:16.000Z",
+          "dur": 1460,
+          "opponents": [
+            {
+              "profileId": 4253673,
+              "name": "ckookies__"
+            },
+            {
+              "profileId": 12370107,
+              "name": "slimeofmind on twitch"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2870271,
+              "name": "Andraste"
+            }
+          ]
+        },
         {
           "matchId": 505134862,
           "civ": "Wu",
@@ -82256,5 +82333,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

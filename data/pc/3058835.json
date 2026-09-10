@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 81,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1616,
         "peakRating": 1616
       },
@@ -1325,12 +1325,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1578,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1601,
+        "totalGames": 1580,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1621,
         "peakRating": 1751
       },
       "matches": [
+        {
+          "matchId": 505505702,
+          "civ": "Mapuche",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:22:46.000Z",
+          "dur": 1485,
+          "opponents": [
+            {
+              "profileId": 1693166,
+              "name": "KoNFeR"
+            },
+            {
+              "profileId": 2382926,
+              "name": "MiLLeNcOlin"
+            },
+            {
+              "profileId": 3569377,
+              "name": "Millo"
+            },
+            {
+              "profileId": 757886,
+              "name": "DarK_KnighT_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 260106,
+              "name": "Rex Caedis"
+            },
+            {
+              "profileId": 316084,
+              "name": "OMurchu"
+            },
+            {
+              "profileId": 451212,
+              "name": "Ulfaith"
+            }
+          ]
+        },
+        {
+          "matchId": 505494854,
+          "civ": "Khitans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:32:08.000Z",
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 211351,
+              "name": "Bad Koala"
+            },
+            {
+              "profileId": 15097184,
+              "name": "DongHaiDi"
+            },
+            {
+              "profileId": 17418195,
+              "name": "xan"
+            },
+            {
+              "profileId": 23521243,
+              "name": "\u4e91\u5c42\u8d29\u5356\u5fc3\u52a8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 451212,
+              "name": "Ulfaith"
+            },
+            {
+              "profileId": 260106,
+              "name": "Rex Caedis"
+            },
+            {
+              "profileId": 3550600,
+              "name": "Hans the Waller"
+            }
+          ]
+        },
         {
           "matchId": 505023518,
           "civ": "Burgundians",
@@ -57461,5 +57545,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

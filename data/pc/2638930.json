@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 538,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1401,
         "peakRating": 1431
       },
@@ -4927,12 +4927,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1324,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1448,
+        "totalGames": 1326,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1486,
         "peakRating": 1546
       },
       "matches": [
+        {
+          "matchId": 505152636,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:31:33.000Z",
+          "dur": 1446,
+          "opponents": [
+            {
+              "profileId": 6130970,
+              "name": "El_mexicano_S"
+            },
+            {
+              "profileId": 14139290,
+              "name": "LvT | ZcPeter"
+            },
+            {
+              "profileId": 6740182,
+              "name": "Andres_bc81"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5981668,
+              "name": "BTJ | ThC_Lobo"
+            },
+            {
+              "profileId": 298554,
+              "name": "Springles"
+            }
+          ]
+        },
+        {
+          "matchId": 505148967,
+          "civ": "Ethiopians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:11:06.000Z",
+          "dur": 887,
+          "opponents": [
+            {
+              "profileId": 6308248,
+              "name": "[CL] FARFANA"
+            },
+            {
+              "profileId": 5955809,
+              "name": "[CL] Solid Joso"
+            },
+            {
+              "profileId": 2676341,
+              "name": "[CL] Dubstepyzed"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 298554,
+              "name": "Springles"
+            },
+            {
+              "profileId": 5981668,
+              "name": "BTJ | ThC_Lobo"
+            }
+          ]
+        },
         {
           "matchId": 504939982,
           "civ": "Georgians",
@@ -17253,5 +17321,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

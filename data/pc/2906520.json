@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 471,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1278,
+        "totalGames": 474,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1293,
         "peakRating": 1311
       },
       "matches": [
+        {
+          "matchId": 505505105,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:19:25.000Z",
+          "dur": 1651,
+          "opponents": [
+            {
+              "profileId": 25845906,
+              "name": "SPRING"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505494583,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:30:09.000Z",
+          "dur": 1140,
+          "opponents": [
+            {
+              "profileId": 20221063,
+              "name": "\u6d85\u69c3\u91cd\u751f"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505478033,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:05:53.000Z",
+          "dur": 2453,
+          "opponents": [
+            {
+              "profileId": 18929365,
+              "name": "Maximus"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505055528,
           "civ": "Saracens",
@@ -7576,7 +7627,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 90,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 987,
         "peakRating": 1115
       },
@@ -9865,5 +9916,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

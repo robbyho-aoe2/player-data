@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 908
       },
       "matches": [
@@ -172,12 +172,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 138,
-        "pulledDate": "2026-09-08",
-        "latestRating": 755,
-        "peakRating": 772
+        "totalGames": 141,
+        "pulledDate": "2026-09-09",
+        "latestRating": 779,
+        "peakRating": 779
       },
       "matches": [
+        {
+          "matchId": 505320300,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:37:50.000Z",
+          "dur": 2337,
+          "opponents": [
+            {
+              "profileId": 1937414,
+              "name": "DrippyDude666"
+            },
+            {
+              "profileId": 22501372,
+              "name": "Luisilloelpillo"
+            },
+            {
+              "profileId": 11737830,
+              "name": "The Reich"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24769313,
+              "name": "TITAN"
+            },
+            {
+              "profileId": 22319689,
+              "name": "GLORY MUSTAF"
+            }
+          ]
+        },
+        {
+          "matchId": 505313893,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:01:58.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 190708,
+              "name": "BarroZo"
+            },
+            {
+              "profileId": 2549955,
+              "name": "SgtPeak"
+            },
+            {
+              "profileId": 5156268,
+              "name": "LappeN\u00b3 | 5eth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24769313,
+              "name": "TITAN"
+            },
+            {
+              "profileId": 22319689,
+              "name": "GLORY MUSTAF"
+            }
+          ]
+        },
+        {
+          "matchId": 505307277,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:26:52.000Z",
+          "dur": 1833,
+          "opponents": [
+            {
+              "profileId": 295858,
+              "name": "YasD_001"
+            },
+            {
+              "profileId": 24509023,
+              "name": "Level LPJ"
+            },
+            {
+              "profileId": 17338316,
+              "name": "BeyondAllWords"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24769313,
+              "name": "TITAN"
+            },
+            {
+              "profileId": 22319689,
+              "name": "GLORY MUSTAF"
+            }
+          ]
+        },
         {
           "matchId": 505098038,
           "civ": "Wei",
@@ -4635,5 +4737,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

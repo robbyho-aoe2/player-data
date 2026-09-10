@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 309,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1376,
+        "totalGames": 310,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1392,
         "peakRating": 1564
       },
       "matches": [
+        {
+          "matchId": 505486277,
+          "civ": "Magyars",
+          "map": "Marketplace",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:49:01.000Z",
+          "dur": 2860,
+          "opponents": [
+            {
+              "profileId": 1474287,
+              "name": "Carteiro Paulo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505076520,
           "civ": "Maya",
@@ -5282,12 +5299,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 807,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1502,
-        "peakRating": 1502
+        "totalGames": 809,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1509,
+        "peakRating": 1509
       },
       "matches": [
+        {
+          "matchId": 505512856,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:57:19.000Z",
+          "dur": 594,
+          "opponents": [
+            {
+              "profileId": 924217,
+              "name": "Window_of_Opportunity"
+            },
+            {
+              "profileId": 5813399,
+              "name": "[InsecT] ScoTherroR"
+            },
+            {
+              "profileId": 1911084,
+              "name": "JoPo21"
+            },
+            {
+              "profileId": 1469412,
+              "name": "Rank"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1902497,
+              "name": "FDr iv"
+            },
+            {
+              "profileId": 1864019,
+              "name": "siQ AoE"
+            },
+            {
+              "profileId": 1532970,
+              "name": "7Marill"
+            }
+          ]
+        },
+        {
+          "matchId": 505507210,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:30:13.000Z",
+          "dur": 1106,
+          "opponents": [
+            {
+              "profileId": 2554072,
+              "name": "Malice"
+            },
+            {
+              "profileId": 1911084,
+              "name": "JoPo21"
+            },
+            {
+              "profileId": 20302302,
+              "name": "\u00c7\u0131kmaz Sokak"
+            },
+            {
+              "profileId": 478629,
+              "name": "QNA | Apachai Hopachai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1532970,
+              "name": "7Marill"
+            },
+            {
+              "profileId": 1864019,
+              "name": "siQ AoE"
+            },
+            {
+              "profileId": 1902497,
+              "name": "FDr iv"
+            }
+          ]
+        },
         {
           "matchId": 504804564,
           "civ": "Spanish",
@@ -31562,5 +31663,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

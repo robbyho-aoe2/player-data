@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2182,
-        "pulledDate": "2026-09-08",
-        "latestRating": 2429,
+        "totalGames": 2183,
+        "pulledDate": "2026-09-09",
+        "latestRating": 2414,
         "peakRating": 2510
       },
       "matches": [
+        {
+          "matchId": 505254939,
+          "civ": "Incas",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:08:35.000Z",
+          "dur": 680,
+          "opponents": [
+            {
+              "profileId": 230475,
+              "name": "El_Matador"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504770350,
           "civ": "Burgundians",
@@ -34963,12 +34980,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 605,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1814,
+        "totalGames": 606,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1830,
         "peakRating": 1986
       },
       "matches": [
+        {
+          "matchId": 505254184,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:05:16.000Z",
+          "dur": 182,
+          "opponents": [
+            {
+              "profileId": 211351,
+              "name": "Bad Koala"
+            },
+            {
+              "profileId": 226575,
+              "name": "Lyx"
+            },
+            {
+              "profileId": 8774634,
+              "name": "\u9a6c\u5230\u6210\u529f"
+            },
+            {
+              "profileId": 22885869,
+              "name": "DT-Johnson\u3010\u4e1c\u3011"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10710012,
+              "name": "Vivi"
+            },
+            {
+              "profileId": 15629212,
+              "name": "3046964519"
+            },
+            {
+              "profileId": 19867271,
+              "name": "NeoZz"
+            }
+          ]
+        },
         {
           "matchId": 504465546,
           "civ": "Spanish",
@@ -59451,5 +59510,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cn",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf3",
+  "countryName": "China"
 }

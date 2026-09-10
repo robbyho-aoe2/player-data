@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 560,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1721,
+        "totalGames": 563,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1737,
         "peakRating": 1894
       },
       "matches": [
+        {
+          "matchId": 505395983,
+          "civ": "Italians",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:02:11.000Z",
+          "dur": 1597,
+          "opponents": [
+            {
+              "profileId": 21765271,
+              "name": "pienus23"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505394163,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:39:51.000Z",
+          "dur": 993,
+          "opponents": [
+            {
+              "profileId": 4349367,
+              "name": "You're a Lizard, Berry"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505393342,
+          "civ": "Britons",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:30:04.000Z",
+          "dur": 469,
+          "opponents": [
+            {
+              "profileId": 8167884,
+              "name": "cff"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503090554,
           "civ": "Vikings",
@@ -9550,7 +9601,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 341,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-09",
         "latestRating": 1505,
         "peakRating": 1619
       },
@@ -21651,5 +21702,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

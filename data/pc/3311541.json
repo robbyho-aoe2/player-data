@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-09",
         "latestRating": 1407,
         "peakRating": 1407
       },
@@ -461,12 +461,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 360,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1222,
+        "totalGames": 362,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1217,
         "peakRating": 1324
       },
       "matches": [
+        {
+          "matchId": 505395311,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:54:06.000Z",
+          "dur": 1802,
+          "opponents": [
+            {
+              "profileId": 1290777,
+              "name": "Uncle Dave"
+            },
+            {
+              "profileId": 1294126,
+              "name": "Non-Threatening Post-Imp Militia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2848828,
+              "name": "wdvr"
+            }
+          ]
+        },
+        {
+          "matchId": 505392209,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:16:05.000Z",
+          "dur": 1948,
+          "opponents": [
+            {
+              "profileId": 9157697,
+              "name": "[GDL] Sr. Yo"
+            },
+            {
+              "profileId": 10115892,
+              "name": "Anonymous"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2848828,
+              "name": "wdvr"
+            }
+          ]
+        },
         {
           "matchId": 502571568,
           "civ": "Ethiopians",
@@ -10454,5 +10506,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "be",
+  "countryIcon": "\ud83c\udde7\ud83c\uddea",
+  "countryName": "Belgium"
 }

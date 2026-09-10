@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 147,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1150,
         "peakRating": 1296
       },
@@ -2381,12 +2381,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 383,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1152,
+        "totalGames": 385,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1117,
         "peakRating": 1307
       },
       "matches": [
+        {
+          "matchId": 505252464,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:55:51.000Z",
+          "dur": 1684,
+          "opponents": [
+            {
+              "profileId": 21623954,
+              "name": "\u65af\u63d0\u91cc\u79d1"
+            },
+            {
+              "profileId": 26047366,
+              "name": "\u6625\u5c71\u6101"
+            },
+            {
+              "profileId": 20901005,
+              "name": "VTTRACT"
+            },
+            {
+              "profileId": 22193155,
+              "name": "\u7231\u6211\u522b\u8d70"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1924621,
+              "name": "Mother"
+            },
+            {
+              "profileId": 2867125,
+              "name": "RC"
+            },
+            {
+              "profileId": 3446206,
+              "name": "GoGoGo"
+            }
+          ]
+        },
+        {
+          "matchId": 505245679,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:18:16.000Z",
+          "dur": 1948,
+          "opponents": [
+            {
+              "profileId": 6662738,
+              "name": "jabibu"
+            },
+            {
+              "profileId": 25784978,
+              "name": "Toxytocin"
+            },
+            {
+              "profileId": 660228,
+              "name": "Abel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1924621,
+              "name": "Mother"
+            },
+            {
+              "profileId": 2867125,
+              "name": "RC"
+            }
+          ]
+        },
         {
           "matchId": 505020700,
           "civ": "Spanish",
@@ -16564,5 +16640,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "hk",
+  "countryIcon": "\ud83c\udded\ud83c\uddf0",
+  "countryName": "Hong Kong"
 }

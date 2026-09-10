@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 14,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 670,
         "peakRating": 696
       },
@@ -241,12 +241,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 59,
-        "pulledDate": "2026-09-04",
-        "latestRating": 796,
+        "totalGames": 62,
+        "pulledDate": "2026-09-09",
+        "latestRating": 781,
         "peakRating": 882
       },
       "matches": [
+        {
+          "matchId": 505373694,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:22:01.000Z",
+          "dur": 1669,
+          "opponents": [
+            {
+              "profileId": 164420,
+              "name": "tryhuba"
+            },
+            {
+              "profileId": 762252,
+              "name": "ThePotatoSack"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25456025,
+              "name": "JP"
+            }
+          ]
+        },
+        {
+          "matchId": 505365228,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:26:03.000Z",
+          "dur": 3081,
+          "opponents": [
+            {
+              "profileId": 15806092,
+              "name": "Raphael"
+            },
+            {
+              "profileId": 3437212,
+              "name": "Genghis Mike"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25456025,
+              "name": "JP"
+            }
+          ]
+        },
+        {
+          "matchId": 505360936,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:58:48.000Z",
+          "dur": 1488,
+          "opponents": [
+            {
+              "profileId": 22615475,
+              "name": "thiagopri"
+            },
+            {
+              "profileId": 24657728,
+              "name": "Rique"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25456025,
+              "name": "JP"
+            }
+          ]
+        },
         {
           "matchId": 503197006,
           "civ": "Maya",
@@ -1908,5 +1986,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

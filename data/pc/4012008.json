@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1809,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 2404,
         "peakRating": 2432
       },
@@ -16642,12 +16642,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 981,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1839,
+        "totalGames": 982,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1823,
         "peakRating": 2034
       },
       "matches": [
+        {
+          "matchId": 505327397,
+          "civ": "Romans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:20:10.000Z",
+          "dur": 1862,
+          "opponents": [
+            {
+              "profileId": 1955552,
+              "name": "ArcherX"
+            },
+            {
+              "profileId": 4300972,
+              "name": "Apocalyptos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14396288,
+              "name": "Croccia"
+            }
+          ]
+        },
         {
           "matchId": 504238191,
           "civ": "Mapuche",
@@ -25512,5 +25538,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

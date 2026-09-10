@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 317,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1273,
+        "totalGames": 319,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1241,
         "peakRating": 1290
       },
       "matches": [
+        {
+          "matchId": 505498133,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:46:54.000Z",
+          "dur": 1269,
+          "opponents": [
+            {
+              "profileId": 894155,
+              "name": "Mr. Xeba"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505486195,
+          "civ": "Incas",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:48:22.000Z",
+          "dur": 1030,
+          "opponents": [
+            {
+              "profileId": 219098,
+              "name": "Mr.Galleta"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504585944,
           "civ": "Byzantines",
@@ -5418,12 +5452,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 288,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1143,
-        "peakRating": 1145
+        "totalGames": 290,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1145,
+        "peakRating": 1159
       },
       "matches": [
+        {
+          "matchId": 505317773,
+          "civ": "Bulgarians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:23:31.000Z",
+          "dur": 2235,
+          "opponents": [
+            {
+              "profileId": 4188684,
+              "name": "R4bbit"
+            },
+            {
+              "profileId": 4792973,
+              "name": "cocinerok23"
+            },
+            {
+              "profileId": 5949943,
+              "name": "Arkh"
+            },
+            {
+              "profileId": 1745329,
+              "name": "remo.ledermann"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13132954,
+              "name": "Sir Gordon8100"
+            },
+            {
+              "profileId": 10965124,
+              "name": "Alex"
+            },
+            {
+              "profileId": 9537441,
+              "name": "Prenos"
+            }
+          ]
+        },
+        {
+          "matchId": 505316425,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:15:34.000Z",
+          "dur": 1209,
+          "opponents": [
+            {
+              "profileId": 15511330,
+              "name": "BiggM4k"
+            },
+            {
+              "profileId": 22323559,
+              "name": "Perdoname por ser Noob"
+            },
+            {
+              "profileId": 6128566,
+              "name": "\u2014\u00bb\u00ac \u00b0 \u2022 G \u00a1 \u00f8 49k  ."
+            },
+            {
+              "profileId": 25616202,
+              "name": "1. d4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2013083,
+              "name": "noumha"
+            },
+            {
+              "profileId": 22771555,
+              "name": "BjornLothbrok"
+            },
+            {
+              "profileId": 9313120,
+              "name": "Coffee Break Golden"
+            }
+          ]
+        },
         {
           "matchId": 504870757,
           "civ": "Teutons",
@@ -16197,5 +16315,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland"
 }

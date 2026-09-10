@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1359,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1192,
+        "totalGames": 1362,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1207,
         "peakRating": 1366
       },
       "matches": [
+        {
+          "matchId": 505405944,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:56:52.000Z",
+          "dur": 1151,
+          "opponents": [
+            {
+              "profileId": 5092625,
+              "name": "arec"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505390431,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:54:27.000Z",
+          "dur": 1532,
+          "opponents": [
+            {
+              "profileId": 2396555,
+              "name": "JCarvajal"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505186408,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:42:24.000Z",
+          "dur": 1662,
+          "opponents": [
+            {
+              "profileId": 11044720,
+              "name": "\u306f\u3061\u3084\u30a8\u30af\u30b9\u30c6\u30f3\u30c9"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505174463,
           "civ": "Franks",
@@ -21785,12 +21836,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2336,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1208,
+        "totalGames": 2337,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1222,
         "peakRating": 1422
       },
       "matches": [
+        {
+          "matchId": 505388888,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:36:23.000Z",
+          "dur": 996,
+          "opponents": [
+            {
+              "profileId": 11006819,
+              "name": "\u4e00\u628a\u8471"
+            },
+            {
+              "profileId": 6067001,
+              "name": "\u8acb\u7d66\u6211\u98df\u7269choogran"
+            },
+            {
+              "profileId": 14881715,
+              "name": "XNB"
+            },
+            {
+              "profileId": 24624568,
+              "name": "diudiudiu\u4e36"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 219369,
+              "name": "Gaflo"
+            },
+            {
+              "profileId": 4330470,
+              "name": "Grinder FN2R"
+            },
+            {
+              "profileId": 24571695,
+              "name": "likelisi017"
+            }
+          ]
+        },
         {
           "matchId": 505173016,
           "civ": "Romans",
@@ -92310,5 +92403,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

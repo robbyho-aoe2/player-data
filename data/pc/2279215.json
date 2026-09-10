@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1001,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1139,
+        "totalGames": 1003,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1138,
         "peakRating": 1281
       },
       "matches": [
+        {
+          "matchId": 505318711,
+          "civ": "Mongols",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:28:17.000Z",
+          "dur": 1399,
+          "opponents": [
+            {
+              "profileId": 3113429,
+              "name": "Rudnes"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505250244,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:43:27.000Z",
+          "dur": 2316,
+          "opponents": [
+            {
+              "profileId": 11569865,
+              "name": "mayool"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504977011,
           "civ": "Mongols",
@@ -16073,12 +16107,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 187,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1172,
+        "totalGames": 188,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1186,
         "peakRating": 1231
       },
       "matches": [
+        {
+          "matchId": 505249842,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:41:44.000Z",
+          "dur": 18,
+          "opponents": [
+            {
+              "profileId": 439277,
+              "name": "bluestorm"
+            },
+            {
+              "profileId": 1450330,
+              "name": "NickJiang"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2430344,
+              "name": "NathiousEsp"
+            }
+          ]
+        },
         {
           "matchId": 505000005,
           "civ": "Khmer",
@@ -20883,5 +20943,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

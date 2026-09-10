@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 492,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1223,
         "peakRating": 1294
       },
@@ -7901,12 +7901,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2238,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1196,
+        "totalGames": 2239,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1179,
         "peakRating": 1548
       },
       "matches": [
+        {
+          "matchId": 505433718,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:03:32.000Z",
+          "dur": 1468,
+          "opponents": [
+            {
+              "profileId": 919893,
+              "name": "Tintagel"
+            },
+            {
+              "profileId": 2808597,
+              "name": "tugou"
+            },
+            {
+              "profileId": 4217224,
+              "name": "55CAI"
+            },
+            {
+              "profileId": 6269655,
+              "name": "kongdu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16442713,
+              "name": "Bellygroup"
+            },
+            {
+              "profileId": 1447801,
+              "name": "Minerva"
+            },
+            {
+              "profileId": 11890096,
+              "name": "."
+            }
+          ]
+        },
         {
           "matchId": 504200696,
           "civ": "Italians",
@@ -90372,5 +90414,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "hu",
+  "countryIcon": "\ud83c\udded\ud83c\uddfa",
+  "countryName": "Hungary"
 }

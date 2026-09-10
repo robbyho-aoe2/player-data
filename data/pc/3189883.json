@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 698,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1613,
         "peakRating": 1644
       },
@@ -11197,12 +11197,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1520,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1508,
+        "totalGames": 1522,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1471,
         "peakRating": 1553
       },
       "matches": [
+        {
+          "matchId": 505508441,
+          "civ": "Ethiopians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:35:49.000Z",
+          "dur": 1530,
+          "opponents": [
+            {
+              "profileId": 5441049,
+              "name": "IRON MIKE"
+            },
+            {
+              "profileId": 25952124,
+              "name": "milesburkley"
+            },
+            {
+              "profileId": 8549763,
+              "name": "GL.Prodflop"
+            },
+            {
+              "profileId": 5646080,
+              "name": "tsubodai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 974325,
+              "name": "Zajic.skakajici"
+            },
+            {
+              "profileId": 24059813,
+              "name": "gg_Karlinx"
+            },
+            {
+              "profileId": 5302580,
+              "name": "Sirda"
+            }
+          ]
+        },
+        {
+          "matchId": 505501584,
+          "civ": "Malians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:04:07.000Z",
+          "dur": 1583,
+          "opponents": [
+            {
+              "profileId": 11607524,
+              "name": "_Mewtwo"
+            },
+            {
+              "profileId": 15117511,
+              "name": "Snavle"
+            },
+            {
+              "profileId": 23232396,
+              "name": "Hash-"
+            },
+            {
+              "profileId": 967013,
+              "name": "EoK_pr1ston"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 974325,
+              "name": "Zajic.skakajici"
+            },
+            {
+              "profileId": 5302580,
+              "name": "Sirda"
+            },
+            {
+              "profileId": 24059813,
+              "name": "gg_Karlinx"
+            }
+          ]
+        },
         {
           "matchId": 504553036,
           "civ": "Britons",
@@ -66925,5 +67009,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cz",
+  "countryIcon": "\ud83c\udde8\ud83c\uddff",
+  "countryName": "Czechia"
 }

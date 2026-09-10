@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1595,
         "peakRating": 1595
       },
@@ -397,12 +397,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3770,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1585,
+        "totalGames": 3771,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1596,
         "peakRating": 1775
       },
       "matches": [
+        {
+          "matchId": 505164450,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:51:33.000Z",
+          "dur": 1529,
+          "opponents": [
+            {
+              "profileId": 2637531,
+              "name": "Spank~"
+            },
+            {
+              "profileId": 1500963,
+              "name": "veni"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 748536,
+              "name": "Bet0"
+            }
+          ]
+        },
         {
           "matchId": 505138764,
           "civ": "Bengalis",
@@ -104808,5 +104834,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

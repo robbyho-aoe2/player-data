@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 639,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1254,
         "peakRating": 1327
       },
@@ -10253,12 +10253,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2511,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1156,
+        "totalGames": 2513,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1165,
         "peakRating": 1419
       },
       "matches": [
+        {
+          "matchId": 505465575,
+          "civ": "Saracens",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:57:45.000Z",
+          "dur": 618,
+          "opponents": [
+            {
+              "profileId": 2383475,
+              "name": "Dracarys2306"
+            },
+            {
+              "profileId": 2550219,
+              "name": "JC_Guzm\u00e1n"
+            },
+            {
+              "profileId": 5080241,
+              "name": "Rogfin"
+            },
+            {
+              "profileId": 23359815,
+              "name": "IceFish"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1910362,
+              "name": "Jambo"
+            },
+            {
+              "profileId": 2263137,
+              "name": "focuzng"
+            },
+            {
+              "profileId": 22883835,
+              "name": "kila"
+            }
+          ]
+        },
+        {
+          "matchId": 505461820,
+          "civ": "Ethiopians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:37:07.000Z",
+          "dur": 1181,
+          "opponents": [
+            {
+              "profileId": 24131185,
+              "name": "Telepateu"
+            },
+            {
+              "profileId": 1238051,
+              "name": "Lucky23"
+            },
+            {
+              "profileId": 209485,
+              "name": "BombayGypsy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19555322,
+              "name": "Sam"
+            },
+            {
+              "profileId": 12094851,
+              "name": "BetteraveRouge"
+            }
+          ]
+        },
         {
           "matchId": 504778220,
           "civ": "Hindustanis",
@@ -96879,5 +96955,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

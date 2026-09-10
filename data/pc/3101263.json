@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 209,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 737,
         "peakRating": 830
       },
@@ -3373,12 +3373,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 235,
-        "pulledDate": "2026-09-08",
-        "latestRating": 813,
+        "totalGames": 238,
+        "pulledDate": "2026-09-09",
+        "latestRating": 801,
         "peakRating": 865
       },
       "matches": [
+        {
+          "matchId": 505374055,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:24:16.000Z",
+          "dur": 1298,
+          "opponents": [
+            {
+              "profileId": 23292399,
+              "name": "enzomunarifiete"
+            },
+            {
+              "profileId": 10055931,
+              "name": "Maximo10"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3100539,
+              "name": "delgadosebas39"
+            }
+          ]
+        },
+        {
+          "matchId": 505369357,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:53:04.000Z",
+          "dur": 1670,
+          "opponents": [
+            {
+              "profileId": 2946733,
+              "name": "CarpinChurro"
+            },
+            {
+              "profileId": 18018159,
+              "name": "BenjaB1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3100539,
+              "name": "delgadosebas39"
+            }
+          ]
+        },
+        {
+          "matchId": 505366369,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:33:44.000Z",
+          "dur": 1012,
+          "opponents": [
+            {
+              "profileId": 16871821,
+              "name": "juancamilogarciah"
+            },
+            {
+              "profileId": 16854792,
+              "name": "AR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3100539,
+              "name": "delgadosebas39"
+            }
+          ]
+        },
         {
           "matchId": 505123706,
           "civ": "Persians",
@@ -9813,5 +9891,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

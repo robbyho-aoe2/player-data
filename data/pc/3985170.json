@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2428,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1619,
+        "totalGames": 2430,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1624,
         "peakRating": 1715
       },
       "matches": [
+        {
+          "matchId": 505371618,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:07:14.000Z",
+          "dur": 1343,
+          "opponents": [
+            {
+              "profileId": 217871,
+              "name": "_hugo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505368677,
+          "civ": "Jurchens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:48:27.000Z",
+          "dur": 875,
+          "opponents": [
+            {
+              "profileId": 2146417,
+              "name": "DS_Rene Lavand"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503514648,
           "civ": "Malians",
@@ -41306,7 +41340,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 90,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1277,
         "peakRating": 1374
       },
@@ -44783,5 +44817,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

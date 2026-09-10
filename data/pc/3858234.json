@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 420,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1339,
         "peakRating": 1345
       },
@@ -3809,12 +3809,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3631,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1327,
+        "totalGames": 3632,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1342,
         "peakRating": 1533
       },
       "matches": [
+        {
+          "matchId": 505309424,
+          "civ": "Romans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:38:02.000Z",
+          "dur": 844,
+          "opponents": [
+            {
+              "profileId": 229953,
+              "name": "Dawidowww"
+            },
+            {
+              "profileId": 22509384,
+              "name": "ZawiszaCzarny"
+            },
+            {
+              "profileId": 11646295,
+              "name": "jrox"
+            },
+            {
+              "profileId": 1607864,
+              "name": "PL_KOLO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6751830,
+              "name": "ccereal"
+            },
+            {
+              "profileId": 5516874,
+              "name": "La Momone 38"
+            },
+            {
+              "profileId": 4250502,
+              "name": "tony le gros rou"
+            }
+          ]
+        },
         {
           "matchId": 503167741,
           "civ": "Persians",
@@ -37167,5 +37209,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": [
         {
@@ -127,12 +127,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3298,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1255,
+        "totalGames": 3301,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1269,
         "peakRating": 1330
       },
       "matches": [
+        {
+          "matchId": 505340428,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:44:48.000Z",
+          "dur": 1667,
+          "opponents": [
+            {
+              "profileId": 17482680,
+              "name": "MaximoMGM"
+            },
+            {
+              "profileId": 18005396,
+              "name": "NT_Tiberius"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15502695,
+              "name": "elmariscal"
+            }
+          ]
+        },
+        {
+          "matchId": 505334073,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:03:51.000Z",
+          "dur": 2253,
+          "opponents": [
+            {
+              "profileId": 9680214,
+              "name": "SMNT-Chifuego"
+            },
+            {
+              "profileId": 5066038,
+              "name": "levoilierrouge"
+            },
+            {
+              "profileId": 4040353,
+              "name": "Izuru Alexandros R\u00c6"
+            },
+            {
+              "profileId": 25816486,
+              "name": "tomicoro7367"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5315836,
+              "name": "The Founding Titan"
+            },
+            {
+              "profileId": 21709561,
+              "name": "C42"
+            },
+            {
+              "profileId": 15502695,
+              "name": "elmariscal"
+            }
+          ]
+        },
+        {
+          "matchId": 505328384,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:26:47.000Z",
+          "dur": 1825,
+          "opponents": [
+            {
+              "profileId": 6127930,
+              "name": "MidlifeComet590"
+            },
+            {
+              "profileId": 15407535,
+              "name": "buzzkill"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15502695,
+              "name": "elmariscal"
+            }
+          ]
+        },
         {
           "matchId": 505126284,
           "civ": "Italians",
@@ -72579,5 +72673,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

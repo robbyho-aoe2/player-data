@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 233,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-09",
         "latestRating": 1056,
         "peakRating": 1126
       },
@@ -3757,12 +3757,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1309,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1196,
+        "totalGames": 1311,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1198,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 505326604,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:16:02.000Z",
+          "dur": 1342,
+          "opponents": [
+            {
+              "profileId": 5505647,
+              "name": "ConcernedApe"
+            },
+            {
+              "profileId": 398366,
+              "name": "Paint"
+            },
+            {
+              "profileId": 2879819,
+              "name": "EL T\u00cdO TUPAKIER"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5234801,
+              "name": "El Checo"
+            },
+            {
+              "profileId": 7084158,
+              "name": "EL LOCOMOTORA"
+            }
+          ]
+        },
+        {
+          "matchId": 505321228,
+          "civ": "Malians",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:43:37.000Z",
+          "dur": 1617,
+          "opponents": [
+            {
+              "profileId": 3389963,
+              "name": "brayanis_12"
+            },
+            {
+              "profileId": 5336334,
+              "name": "Lecter-"
+            },
+            {
+              "profileId": 2440186,
+              "name": "kendizzle555"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7084158,
+              "name": "EL LOCOMOTORA"
+            },
+            {
+              "profileId": 5234801,
+              "name": "El Checo"
+            }
+          ]
+        },
         {
           "matchId": 491147823,
           "civ": "Italians",
@@ -44794,5 +44862,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

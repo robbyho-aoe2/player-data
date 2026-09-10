@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 409,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1440,
         "peakRating": 1482
       },
@@ -6982,12 +6982,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1922,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1365,
+        "totalGames": 1924,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1398,
         "peakRating": 1552
       },
       "matches": [
+        {
+          "matchId": 505317039,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:19:02.000Z",
+          "dur": 2189,
+          "opponents": [
+            {
+              "profileId": 296682,
+              "name": "Protein Shake"
+            },
+            {
+              "profileId": 270947,
+              "name": "HardmanGunner"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9057448,
+              "name": "[Mosel] Raging"
+            }
+          ]
+        },
+        {
+          "matchId": 505313150,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:58:05.000Z",
+          "dur": 999,
+          "opponents": [
+            {
+              "profileId": 6319329,
+              "name": "ChickenHunter"
+            },
+            {
+              "profileId": 2438694,
+              "name": "twitch.tv/markola86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9057448,
+              "name": "[Mosel] Raging"
+            }
+          ]
+        },
         {
           "matchId": 504845572,
           "civ": "Persians",
@@ -67794,5 +67846,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

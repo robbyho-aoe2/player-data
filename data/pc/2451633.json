@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 101,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1176,
         "peakRating": 1193
       },
@@ -1645,12 +1645,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2119,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1147,
+        "totalGames": 2121,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1161,
         "peakRating": 1353
       },
       "matches": [
+        {
+          "matchId": 505151871,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:27:08.000Z",
+          "dur": 809,
+          "opponents": [
+            {
+              "profileId": 24580659,
+              "name": "THEREAPER"
+            },
+            {
+              "profileId": 24480460,
+              "name": "Sir Melcom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24437353,
+              "name": "Major Bedhead"
+            }
+          ]
+        },
+        {
+          "matchId": 505147403,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:02:06.000Z",
+          "dur": 713,
+          "opponents": [
+            {
+              "profileId": 2445308,
+              "name": "Walkman"
+            },
+            {
+              "profileId": 2443286,
+              "name": "MatandoWns"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22802579,
+              "name": "IBUYPAWS"
+            }
+          ]
+        },
         {
           "matchId": 505136609,
           "civ": "Georgians",
@@ -69471,5 +69523,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

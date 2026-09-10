@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1782,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1805,
+        "totalGames": 1784,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1834,
         "peakRating": 1851
       },
       "matches": [
+        {
+          "matchId": 505358620,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:43:56.000Z",
+          "dur": 727,
+          "opponents": [
+            {
+              "profileId": 12293520,
+              "name": "HT229"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505352706,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:06:23.000Z",
+          "dur": 1072,
+          "opponents": [
+            {
+              "profileId": 8660297,
+              "name": "..."
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505140337,
           "civ": "Georgians",
@@ -16307,12 +16341,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1972,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1637,
+        "totalGames": 1975,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1648,
         "peakRating": 1756
       },
       "matches": [
+        {
+          "matchId": 505374798,
+          "civ": "Burgundians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:29:51.000Z",
+          "dur": 1370,
+          "opponents": [
+            {
+              "profileId": 304436,
+              "name": "Josh"
+            },
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 5444451,
+              "name": "KootH."
+            },
+            {
+              "profileId": 881666,
+              "name": "\u5c0f\u4e09\u8f2a\u53f8\u6a5f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3449064,
+              "name": "JonnyTheMonkey"
+            },
+            {
+              "profileId": 2703822,
+              "name": "Ux'The Lord Daniel"
+            },
+            {
+              "profileId": 1596766,
+              "name": "Fs.churacoRS"
+            }
+          ]
+        },
+        {
+          "matchId": 505369913,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:56:49.000Z",
+          "dur": 1701,
+          "opponents": [
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 18999335,
+              "name": "zhazhahui"
+            },
+            {
+              "profileId": 19229556,
+              "name": "\u9e2d\u5b50"
+            },
+            {
+              "profileId": 415635,
+              "name": "_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1596766,
+              "name": "Fs.churacoRS"
+            },
+            {
+              "profileId": 2703822,
+              "name": "Ux'The Lord Daniel"
+            },
+            {
+              "profileId": 304436,
+              "name": "Josh"
+            }
+          ]
+        },
+        {
+          "matchId": 505362250,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:07:25.000Z",
+          "dur": 2824,
+          "opponents": [
+            {
+              "profileId": 23512242,
+              "name": "BooM!"
+            },
+            {
+              "profileId": 14909136,
+              "name": "Mau5"
+            },
+            {
+              "profileId": 1596766,
+              "name": "Fs.churacoRS"
+            },
+            {
+              "profileId": 4489200,
+              "name": "droginho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10931552,
+              "name": "Noxx"
+            },
+            {
+              "profileId": 12049179,
+              "name": "\u010ciko"
+            },
+            {
+              "profileId": 2703822,
+              "name": "Ux'The Lord Daniel"
+            }
+          ]
+        },
         {
           "matchId": 504939533,
           "civ": "Spanish",
@@ -34886,5 +35046,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

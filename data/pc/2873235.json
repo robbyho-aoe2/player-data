@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 922,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1484,
+        "totalGames": 926,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1514,
         "peakRating": 1699
       },
       "matches": [
+        {
+          "matchId": 505501208,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:01:47.000Z",
+          "dur": 1052,
+          "opponents": [
+            {
+              "profileId": 17466263,
+              "name": "abenza8"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505497698,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:44:52.000Z",
+          "dur": 953,
+          "opponents": [
+            {
+              "profileId": 22596682,
+              "name": "Jhoonas"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505355771,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:25:05.000Z",
+          "dur": 1474,
+          "opponents": [
+            {
+              "profileId": 6308248,
+              "name": "[CL] FARFANA"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505335442,
+          "civ": "Portuguese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:11:39.000Z",
+          "dur": 1139,
+          "opponents": [
+            {
+              "profileId": 17803251,
+              "name": "fightmeirl"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505135836,
           "civ": "Armenians",
@@ -15704,7 +15772,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 719,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1419,
         "peakRating": 1610
       },
@@ -45708,5 +45776,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

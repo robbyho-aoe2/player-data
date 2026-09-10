@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 994,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1268,
+        "totalGames": 996,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1300,
         "peakRating": 1326
       },
       "matches": [
+        {
+          "matchId": 505526705,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:08:53.000Z",
+          "dur": 781,
+          "opponents": [
+            {
+              "profileId": 248596,
+              "name": "Detective Gnorth"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505408620,
+          "civ": "Bulgarians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:24:41.000Z",
+          "dur": 985,
+          "opponents": [
+            {
+              "profileId": 4263492,
+              "name": "Lone Wolf"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503357354,
           "civ": "Bulgarians",
@@ -15937,7 +15971,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 64,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1037,
         "peakRating": 1068
       },
@@ -17537,5 +17571,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

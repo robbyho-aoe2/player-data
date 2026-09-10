@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 121,
-        "pulledDate": "2026-09-06",
+        "totalGames": 125,
+        "pulledDate": "2026-09-09",
         "latestRating": 1289,
         "peakRating": 1447
       },
       "matches": [
+        {
+          "matchId": 505292968,
+          "civ": "Maya",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:19:34.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 1779470,
+              "name": "Perlito"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505277328,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:05:31.000Z",
+          "dur": 2346,
+          "opponents": [
+            {
+              "profileId": 11936962,
+              "name": "ZeDjalma_85"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505263090,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:53:54.000Z",
+          "dur": 1068,
+          "opponents": [
+            {
+              "profileId": 22981150,
+              "name": "\u0161aman.\u0161auli\u0107"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505260208,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:37:07.000Z",
+          "dur": 856,
+          "opponents": [
+            {
+              "profileId": 367257,
+              "name": "Bambamdumm"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504599342,
           "civ": "Tatars",
@@ -2086,12 +2154,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 39,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1247,
+        "totalGames": 41,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1276,
         "peakRating": 1359
       },
       "matches": [
+        {
+          "matchId": 505286884,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:52:03.000Z",
+          "dur": 1555,
+          "opponents": [
+            {
+              "profileId": 15510007,
+              "name": "BigData"
+            },
+            {
+              "profileId": 15502812,
+              "name": "mx"
+            },
+            {
+              "profileId": 4232171,
+              "name": "Duck Rattlehead"
+            },
+            {
+              "profileId": 2875539,
+              "name": "[LBA] Menokio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1567202,
+              "name": "JokaDaJesta"
+            },
+            {
+              "profileId": 25307138,
+              "name": "m00n"
+            },
+            {
+              "profileId": 22709498,
+              "name": "Testing_123"
+            }
+          ]
+        },
+        {
+          "matchId": 505267366,
+          "civ": "Celts",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:15:58.000Z",
+          "dur": 2641,
+          "opponents": [
+            {
+              "profileId": 5055055,
+              "name": "Zen_Vampire"
+            },
+            {
+              "profileId": 15502812,
+              "name": "mx"
+            },
+            {
+              "profileId": 11299962,
+              "name": "\u9752\u6625\u5982\u6b64\u591a\u5a07"
+            },
+            {
+              "profileId": 9636077,
+              "name": "sam0706"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4404831,
+              "name": "vandut92"
+            },
+            {
+              "profileId": 11977917,
+              "name": "The Great Khan"
+            },
+            {
+              "profileId": 9539549,
+              "name": "BULLETS ARE SEXY"
+            }
+          ]
+        },
         {
           "matchId": 504603598,
           "civ": "Malay",
@@ -3307,5 +3459,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

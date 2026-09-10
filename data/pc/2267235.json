@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1357,
         "peakRating": 1499
       },
@@ -137,12 +137,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 76,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1234,
+        "totalGames": 77,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1248,
         "peakRating": 1351
       },
       "matches": [
+        {
+          "matchId": 505364204,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:19:35.000Z",
+          "dur": 1892,
+          "opponents": [
+            {
+              "profileId": 10111103,
+              "name": "Mustaf\u00e1 \u2122"
+            },
+            {
+              "profileId": 18022826,
+              "name": "cafifi(*_*)#"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17043106,
+              "name": "RyKer"
+            }
+          ]
+        },
         {
           "matchId": 504930414,
           "civ": "Vietnamese",
@@ -1474,5 +1500,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

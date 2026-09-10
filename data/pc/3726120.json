@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 93,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 1208,
         "peakRating": 1208
       },
@@ -1520,12 +1520,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 381,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1160,
+        "totalGames": 383,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1186,
         "peakRating": 1225
       },
       "matches": [
+        {
+          "matchId": 505240557,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:52:01.000Z",
+          "dur": 1144,
+          "opponents": [
+            {
+              "profileId": 9440022,
+              "name": "RogerFDM"
+            },
+            {
+              "profileId": 5114772,
+              "name": "Race-Poutine"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1535856,
+              "name": "quidroga"
+            }
+          ]
+        },
+        {
+          "matchId": 505235450,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:25:17.000Z",
+          "dur": 1351,
+          "opponents": [
+            {
+              "profileId": 24978784,
+              "name": "CanarioAOE"
+            },
+            {
+              "profileId": 24186041,
+              "name": "TuSaiyajin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1535856,
+              "name": "quidroga"
+            }
+          ]
+        },
         {
           "matchId": 504028888,
           "civ": "Spanish",
@@ -12216,5 +12268,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

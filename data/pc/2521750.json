@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 683,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1257,
+        "totalGames": 688,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1177,
         "peakRating": 1453
       },
       "matches": [
+        {
+          "matchId": 505469023,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:16:50.000Z",
+          "dur": 1830,
+          "opponents": [
+            {
+              "profileId": 3526833,
+              "name": "dguanying"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505445650,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:10:37.000Z",
+          "dur": 602,
+          "opponents": [
+            {
+              "profileId": 23846192,
+              "name": "what_is_your_strategy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505436508,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:20:39.000Z",
+          "dur": 1491,
+          "opponents": [
+            {
+              "profileId": 24540582,
+              "name": "[fgook] \u9c7c\u5858\u652f\u4ed8\u5b9d"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505247856,
+          "civ": "Cumans",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:29:38.000Z",
+          "dur": 2016,
+          "opponents": [
+            {
+              "profileId": 445513,
+              "name": "M.C.Grinchey"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505219319,
+          "civ": "Georgians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:50:28.000Z",
+          "dur": 1251,
+          "opponents": [
+            {
+              "profileId": 7563025,
+              "name": "MAVERICK"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504814670,
           "civ": "Burgundians",
@@ -11640,12 +11725,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1208,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1270,
+        "totalGames": 1211,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1288,
         "peakRating": 1421
       },
       "matches": [
+        {
+          "matchId": 505435763,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:15:56.000Z",
+          "dur": 38,
+          "opponents": [
+            {
+              "profileId": 5729931,
+              "name": "Pieronimus, el F\u00e9rreo"
+            },
+            {
+              "profileId": 5374240,
+              "name": "Vicius nishus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5026561,
+              "name": "\u8001\u606d"
+            }
+          ]
+        },
+        {
+          "matchId": 505263897,
+          "civ": "Portuguese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:58:19.000Z",
+          "dur": 1546,
+          "opponents": [
+            {
+              "profileId": 9490875,
+              "name": "orpic"
+            },
+            {
+              "profileId": 7341454,
+              "name": "Beisser"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1334547,
+              "name": "Filip"
+            }
+          ]
+        },
+        {
+          "matchId": 505260497,
+          "civ": "Bengalis",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:39:32.000Z",
+          "dur": 889,
+          "opponents": [
+            {
+              "profileId": 6721740,
+              "name": "berta"
+            },
+            {
+              "profileId": 247037,
+              "name": "U 99"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1334547,
+              "name": "Filip"
+            }
+          ]
+        },
         {
           "matchId": 505084022,
           "civ": "Berbers",
@@ -52370,5 +52533,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "be",
+  "countryIcon": "\ud83c\udde7\ud83c\uddea",
+  "countryName": "Belgium"
 }

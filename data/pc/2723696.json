@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 250,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1286,
+        "totalGames": 253,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1304,
         "peakRating": 1417
       },
       "matches": [
+        {
+          "matchId": 505484205,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:37:56.000Z",
+          "dur": 1576,
+          "opponents": [
+            {
+              "profileId": 17699184,
+              "name": "Babuali"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505368711,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:47:48.000Z",
+          "dur": 135,
+          "opponents": [
+            {
+              "profileId": 3688987,
+              "name": "TheRe@l_Milo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505364451,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:21:00.000Z",
+          "dur": 1474,
+          "opponents": [
+            {
+              "profileId": 2110797,
+              "name": "hamole"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505140939,
           "civ": "Cumans",
@@ -4045,12 +4096,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 264,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1132,
+        "totalGames": 265,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1151,
         "peakRating": 1235
       },
       "matches": [
+        {
+          "matchId": 505359308,
+          "civ": "Vikings",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:48:27.000Z",
+          "dur": 1703,
+          "opponents": [
+            {
+              "profileId": 11360397,
+              "name": "BP | ZoldyckF"
+            },
+            {
+              "profileId": 15029330,
+              "name": "Se me da\u00f1\u00f3 el mouse"
+            },
+            {
+              "profileId": 18686148,
+              "name": "Jarcor"
+            },
+            {
+              "profileId": 23523668,
+              "name": "Chaviux"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4628933,
+              "name": "akiles_contagio"
+            },
+            {
+              "profileId": 9685992,
+              "name": "\u9c7c\u96f7\u7279\u5927\u53f7"
+            },
+            {
+              "profileId": 17014248,
+              "name": "\u8001\u7236\u4eb2\u7684\u773c\u6cea"
+            }
+          ]
+        },
         {
           "matchId": 505116142,
           "civ": "Khmer",
@@ -13281,5 +13374,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

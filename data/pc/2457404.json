@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 336,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1116,
         "peakRating": 1169
       },
@@ -5410,12 +5410,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1270,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1199,
+        "totalGames": 1274,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1197,
         "peakRating": 1301
       },
       "matches": [
+        {
+          "matchId": 505167270,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:14:12.000Z",
+          "dur": 2999,
+          "opponents": [
+            {
+              "profileId": 25760674,
+              "name": "Morgana"
+            },
+            {
+              "profileId": 25760612,
+              "name": "Momo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4119870,
+              "name": "diegogv91"
+            }
+          ]
+        },
+        {
+          "matchId": 505163201,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:42:23.000Z",
+          "dur": 738,
+          "opponents": [
+            {
+              "profileId": 15630303,
+              "name": "Bubba5148786"
+            },
+            {
+              "profileId": 21588093,
+              "name": "Ruso!!!!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4119870,
+              "name": "diegogv91"
+            }
+          ]
+        },
+        {
+          "matchId": 505157298,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:00:57.000Z",
+          "dur": 2255,
+          "opponents": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            },
+            {
+              "profileId": 2585665,
+              "name": "Billiard"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4119870,
+              "name": "diegogv91"
+            }
+          ]
+        },
+        {
+          "matchId": 505153538,
+          "civ": "Saracens",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:37:23.000Z",
+          "dur": 1201,
+          "opponents": [
+            {
+              "profileId": 6501969,
+              "name": "Bigode Grosso"
+            },
+            {
+              "profileId": 12262005,
+              "name": "jichuo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4119870,
+              "name": "diegogv91"
+            }
+          ]
+        },
         {
           "matchId": 505087278,
           "civ": "Persians",
@@ -39600,5 +39704,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

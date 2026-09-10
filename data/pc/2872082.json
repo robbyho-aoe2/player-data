@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 217,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1718,
         "peakRating": 1809
       },
@@ -1982,12 +1982,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3698,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1629,
+        "totalGames": 3700,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1621,
         "peakRating": 1721
       },
       "matches": [
+        {
+          "matchId": 505348213,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:37:19.000Z",
+          "dur": 1999,
+          "opponents": [
+            {
+              "profileId": 242263,
+              "name": "\u56e2\u56e2\u56e2\u5b50"
+            },
+            {
+              "profileId": 5152704,
+              "name": "MZTK | V"
+            },
+            {
+              "profileId": 6415325,
+              "name": "MZTK | Foxy"
+            },
+            {
+              "profileId": 11608946,
+              "name": "Rojo, el camionero."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            },
+            {
+              "profileId": 1978291,
+              "name": "SS_Guxta"
+            },
+            {
+              "profileId": 6272906,
+              "name": "kurt"
+            }
+          ]
+        },
+        {
+          "matchId": 505344162,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:10:25.000Z",
+          "dur": 1149,
+          "opponents": [
+            {
+              "profileId": 4320570,
+              "name": "Batman"
+            },
+            {
+              "profileId": 4310812,
+              "name": "El ping\u00fcino"
+            },
+            {
+              "profileId": 4292429,
+              "name": "El Guason"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1978291,
+              "name": "SS_Guxta"
+            },
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            }
+          ]
+        },
         {
           "matchId": 505116212,
           "civ": "Burgundians",
@@ -37181,5 +37257,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

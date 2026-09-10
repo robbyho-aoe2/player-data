@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 163,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-09",
         "latestRating": 1035,
         "peakRating": 1074
       },
@@ -2637,12 +2637,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 276,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1222,
+        "totalGames": 278,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1217,
         "peakRating": 1307
       },
       "matches": [
+        {
+          "matchId": 505395311,
+          "civ": "Muisca",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:54:06.000Z",
+          "dur": 1802,
+          "opponents": [
+            {
+              "profileId": 1290777,
+              "name": "Uncle Dave"
+            },
+            {
+              "profileId": 1294126,
+              "name": "Non-Threatening Post-Imp Militia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3311541,
+              "name": "Yukotan"
+            }
+          ]
+        },
+        {
+          "matchId": 505392209,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:16:05.000Z",
+          "dur": 1948,
+          "opponents": [
+            {
+              "profileId": 9157697,
+              "name": "[GDL] Sr. Yo"
+            },
+            {
+              "profileId": 10115892,
+              "name": "Anonymous"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3311541,
+              "name": "Yukotan"
+            }
+          ]
+        },
         {
           "matchId": 502571568,
           "civ": "Franks",
@@ -9753,5 +9805,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

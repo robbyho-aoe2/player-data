@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 139,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 916,
         "peakRating": 938
       },
@@ -2253,12 +2253,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1562,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1129,
+        "totalGames": 1563,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1145,
         "peakRating": 1396
       },
       "matches": [
+        {
+          "matchId": 505222930,
+          "civ": "Aztecs",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:13:47.000Z",
+          "dur": 1400,
+          "opponents": [
+            {
+              "profileId": 17976490,
+              "name": "Dallo"
+            },
+            {
+              "profileId": 24681154,
+              "name": "juansrv"
+            },
+            {
+              "profileId": 4820874,
+              "name": "founderr"
+            },
+            {
+              "profileId": 10753444,
+              "name": "Vivine61"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1818249,
+              "name": "Barbaren"
+            },
+            {
+              "profileId": 2172232,
+              "name": "hgsteven"
+            },
+            {
+              "profileId": 8583273,
+              "name": "\u5f6d\u5927\u5e05"
+            }
+          ]
+        },
         {
           "matchId": 505067291,
           "civ": "Aztecs",
@@ -64941,5 +64983,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

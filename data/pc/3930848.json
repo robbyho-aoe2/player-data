@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 48,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1388,
         "peakRating": 1388
       },
@@ -468,12 +468,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3890,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1454,
+        "totalGames": 3893,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1458,
         "peakRating": 1608
       },
       "matches": [
+        {
+          "matchId": 505361205,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:00:49.000Z",
+          "dur": 1509,
+          "opponents": [
+            {
+              "profileId": 18864554,
+              "name": "Psalms18:2"
+            },
+            {
+              "profileId": 2538185,
+              "name": "Movinup14"
+            },
+            {
+              "profileId": 15275954,
+              "name": "Thire7"
+            },
+            {
+              "profileId": 15797666,
+              "name": "Zalmon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 958292,
+              "name": "[KKCK]elSalmon"
+            },
+            {
+              "profileId": 3583669,
+              "name": "[KKCK]nachoalbo_"
+            },
+            {
+              "profileId": 851383,
+              "name": "The Geo"
+            }
+          ]
+        },
+        {
+          "matchId": 505356698,
+          "civ": "Hindustanis",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:32:12.000Z",
+          "dur": 1555,
+          "opponents": [
+            {
+              "profileId": 197439,
+              "name": "Grumpy_Beto"
+            },
+            {
+              "profileId": 265901,
+              "name": "SlopMasta"
+            },
+            {
+              "profileId": 546731,
+              "name": "Mr. Curse"
+            },
+            {
+              "profileId": 5781330,
+              "name": "23"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 851383,
+              "name": "The Geo"
+            },
+            {
+              "profileId": 958292,
+              "name": "[KKCK]elSalmon"
+            },
+            {
+              "profileId": 967228,
+              "name": "john wick"
+            }
+          ]
+        },
+        {
+          "matchId": 505349922,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:48:28.000Z",
+          "dur": 1936,
+          "opponents": [
+            {
+              "profileId": 14230915,
+              "name": "Retired SweatLord"
+            },
+            {
+              "profileId": 584612,
+              "name": "King of Manzairra"
+            },
+            {
+              "profileId": 3212709,
+              "name": "The Deusifex Wil"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 967228,
+              "name": "john wick"
+            },
+            {
+              "profileId": 3583669,
+              "name": "[KKCK]nachoalbo_"
+            }
+          ]
+        },
         {
           "matchId": 505151707,
           "civ": "Malians",
@@ -36747,5 +36865,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

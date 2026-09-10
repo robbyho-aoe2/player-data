@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 26,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 965,
         "peakRating": 983
       },
@@ -445,12 +445,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 221,
-        "pulledDate": "2026-09-08",
-        "latestRating": 924,
+        "totalGames": 224,
+        "pulledDate": "2026-09-10",
+        "latestRating": 938,
         "peakRating": 1188
       },
       "matches": [
+        {
+          "matchId": 505551989,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:43:28.000Z",
+          "dur": 1667,
+          "opponents": [
+            {
+              "profileId": 3931031,
+              "name": "kawaki"
+            },
+            {
+              "profileId": 2975983,
+              "name": "Tibo Le Zigoto"
+            },
+            {
+              "profileId": 2945961,
+              "name": "Native_psychopath"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18594487,
+              "name": "Geromel"
+            },
+            {
+              "profileId": 24783457,
+              "name": "Your_Dad"
+            }
+          ]
+        },
+        {
+          "matchId": 505325471,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:09:06.000Z",
+          "dur": 2056,
+          "opponents": [
+            {
+              "profileId": 24695063,
+              "name": "GustavoErb"
+            },
+            {
+              "profileId": 19915566,
+              "name": "SalvadorErb"
+            },
+            {
+              "profileId": 19879026,
+              "name": "LorenzoErb"
+            },
+            {
+              "profileId": 24695310,
+              "name": "VirginiaBu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16584591,
+              "name": "Pancito"
+            },
+            {
+              "profileId": 5401143,
+              "name": "Tute"
+            },
+            {
+              "profileId": 16958439,
+              "name": "Alichok Rexxar"
+            }
+          ]
+        },
+        {
+          "matchId": 505268352,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:21:05.000Z",
+          "dur": 1976,
+          "opponents": [
+            {
+              "profileId": 1879264,
+              "name": "LA AMIGA FEA"
+            },
+            {
+              "profileId": 25155301,
+              "name": "Riky"
+            },
+            {
+              "profileId": 23889314,
+              "name": "xDakaaH"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2576433,
+              "name": "Red Death"
+            },
+            {
+              "profileId": 18401889,
+              "name": "Zeus GX"
+            }
+          ]
+        },
         {
           "matchId": 505002439,
           "civ": "Mongols",
@@ -8614,5 +8724,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

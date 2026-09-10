@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 101,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1140,
+        "totalGames": 102,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1158,
         "peakRating": 1251
       },
       "matches": [
+        {
+          "matchId": 505533788,
+          "civ": "Khmer",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:48:05.000Z",
+          "dur": 1947,
+          "opponents": [
+            {
+              "profileId": 314030,
+              "name": "Brown Kimchi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503880304,
           "civ": "Khmer",
@@ -1651,12 +1668,156 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3295,
-        "pulledDate": "2026-09-08",
-        "latestRating": 995,
+        "totalGames": 3299,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1018,
         "peakRating": 1245
       },
       "matches": [
+        {
+          "matchId": 505301513,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:59:47.000Z",
+          "dur": 1934,
+          "opponents": [
+            {
+              "profileId": 12167351,
+              "name": "all muted"
+            },
+            {
+              "profileId": 12166715,
+              "name": "OpidilO WalkeR"
+            },
+            {
+              "profileId": 12206961,
+              "name": "Abraham Fistelquist"
+            },
+            {
+              "profileId": 12167815,
+              "name": "snor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4711037,
+              "name": "Dzuk"
+            },
+            {
+              "profileId": 23605105,
+              "name": "-Slipstream/Matt"
+            },
+            {
+              "profileId": 18291246,
+              "name": "tomahawk"
+            }
+          ]
+        },
+        {
+          "matchId": 505154432,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:42:50.000Z",
+          "dur": 1559,
+          "opponents": [
+            {
+              "profileId": 17878397,
+              "name": "Maxirod"
+            },
+            {
+              "profileId": 1344427,
+              "name": "Gihren Zabi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 589050,
+              "name": "Panxhoculiao"
+            }
+          ]
+        },
+        {
+          "matchId": 505151623,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:25:33.000Z",
+          "dur": 891,
+          "opponents": [
+            {
+              "profileId": 11943074,
+              "name": "PapiChullo"
+            },
+            {
+              "profileId": 212713,
+              "name": "Tall Blonde Beautiful"
+            },
+            {
+              "profileId": 1274486,
+              "name": "Koality"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2894792,
+              "name": "SIR_RAZER_RAMON"
+            },
+            {
+              "profileId": 21849793,
+              "name": "mperez"
+            }
+          ]
+        },
+        {
+          "matchId": 505145205,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:49:03.000Z",
+          "dur": 2346,
+          "opponents": [
+            {
+              "profileId": 22623713,
+              "name": "Carpinchoherido"
+            },
+            {
+              "profileId": 11667571,
+              "name": "Thorfinn"
+            },
+            {
+              "profileId": 8918573,
+              "name": "Von peludo"
+            },
+            {
+              "profileId": 4295228,
+              "name": "mapachexfanfarron"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6203120,
+              "name": "Templario"
+            },
+            {
+              "profileId": 2894792,
+              "name": "SIR_RAZER_RAMON"
+            },
+            {
+              "profileId": 19157642,
+              "name": "Destroyer"
+            }
+          ]
+        },
         {
           "matchId": 505138753,
           "civ": "Khmer",
@@ -105643,5 +105804,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

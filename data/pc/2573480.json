@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1337,
-        "pulledDate": "2026-09-04",
-        "latestRating": 2251,
+        "totalGames": 1341,
+        "pulledDate": "2026-09-09",
+        "latestRating": 2248,
         "peakRating": 2253
       },
       "matches": [
+        {
+          "matchId": 505410733,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:47:07.000Z",
+          "dur": 1165,
+          "opponents": [
+            {
+              "profileId": 532184,
+              "name": "\u9759\u96c5"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505406906,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:07:24.000Z",
+          "dur": 1476,
+          "opponents": [
+            {
+              "profileId": 221816,
+              "name": "SonyToprano"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505404097,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:37:11.000Z",
+          "dur": 1769,
+          "opponents": [
+            {
+              "profileId": 221997,
+              "name": "Inc"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505401999,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:14:06.000Z",
+          "dur": 1263,
+          "opponents": [
+            {
+              "profileId": 221997,
+              "name": "Inc"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503245539,
           "civ": "Bengalis",
@@ -21423,7 +21491,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1425,
         "peakRating": 1425
       },
@@ -22113,5 +22181,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

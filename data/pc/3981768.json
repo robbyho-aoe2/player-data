@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 94,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1294,
         "peakRating": 1294
       },
@@ -1533,12 +1533,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2218,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1186,
+        "totalGames": 2220,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1218,
         "peakRating": 1381
       },
       "matches": [
+        {
+          "matchId": 505497463,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:43:51.000Z",
+          "dur": 1750,
+          "opponents": [
+            {
+              "profileId": 16352197,
+              "name": "\u53e3\u5b50\u54e5"
+            },
+            {
+              "profileId": 535679,
+              "name": "Belmont"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3992024,
+              "name": "moor_samara"
+            }
+          ]
+        },
+        {
+          "matchId": 505492217,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:19:47.000Z",
+          "dur": 1278,
+          "opponents": [
+            {
+              "profileId": 259363,
+              "name": "LaLoLo"
+            },
+            {
+              "profileId": 4428713,
+              "name": "The_King308"
+            },
+            {
+              "profileId": 2861042,
+              "name": "Murschann"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3992024,
+              "name": "moor_samara"
+            },
+            {
+              "profileId": 1535945,
+              "name": "Hanzani"
+            }
+          ]
+        },
         {
           "matchId": 505072123,
           "civ": "Spanish",
@@ -64746,5 +64806,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ru",
+  "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
+  "countryName": "Russian Federation"
 }

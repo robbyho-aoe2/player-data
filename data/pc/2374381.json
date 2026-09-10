@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 731,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1131,
+        "totalGames": 732,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1116,
         "peakRating": 1347
       },
       "matches": [
+        {
+          "matchId": 505259101,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:31:55.000Z",
+          "dur": 39,
+          "opponents": [
+            {
+              "profileId": 3601448,
+              "name": "rkor grddfil"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504784696,
           "civ": "Magyars",
@@ -11731,12 +11748,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 367,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1231,
+        "totalGames": 371,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1244,
         "peakRating": 1414
       },
       "matches": [
+        {
+          "matchId": 505283107,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:33:40.000Z",
+          "dur": 1413,
+          "opponents": [
+            {
+              "profileId": 4118084,
+              "name": "ELBIO"
+            },
+            {
+              "profileId": 4400925,
+              "name": "hazbro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2977109,
+              "name": "TVHG.LALO_CAESTA"
+            }
+          ]
+        },
+        {
+          "matchId": 505279903,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:18:24.000Z",
+          "dur": 713,
+          "opponents": [
+            {
+              "profileId": 4118084,
+              "name": "ELBIO"
+            },
+            {
+              "profileId": 24519837,
+              "name": "Maty"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2977109,
+              "name": "TVHG.LALO_CAESTA"
+            }
+          ]
+        },
+        {
+          "matchId": 505271191,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:35:17.000Z",
+          "dur": 1616,
+          "opponents": [
+            {
+              "profileId": 1133587,
+              "name": "j\u00fcrgen-"
+            },
+            {
+              "profileId": 1137259,
+              "name": "wolfgang"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2977109,
+              "name": "TVHG.LALO_CAESTA"
+            }
+          ]
+        },
+        {
+          "matchId": 505265018,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:03:43.000Z",
+          "dur": 1477,
+          "opponents": [
+            {
+              "profileId": 574189,
+              "name": "Ludoolo"
+            },
+            {
+              "profileId": 269783,
+              "name": "andreolo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2977109,
+              "name": "TVHG.LALO_CAESTA"
+            }
+          ]
+        },
         {
           "matchId": 504265063,
           "civ": "Franks",
@@ -23967,5 +24088,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

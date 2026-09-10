@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1365,
         "peakRating": 1505
       },
@@ -126,12 +126,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 71,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1323,
+        "totalGames": 74,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1306,
         "peakRating": 1470
       },
       "matches": [
+        {
+          "matchId": 505164420,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:51:20.000Z",
+          "dur": 1553,
+          "opponents": [
+            {
+              "profileId": 616934,
+              "name": "Fun4"
+            },
+            {
+              "profileId": 25116373,
+              "name": "b09581270"
+            },
+            {
+              "profileId": 15949256,
+              "name": "nguyenducminhhieu"
+            },
+            {
+              "profileId": 6233473,
+              "name": "\u5ba2\u5b98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8423819,
+              "name": "Bogo"
+            },
+            {
+              "profileId": 4510070,
+              "name": "Chaynis"
+            },
+            {
+              "profileId": 2562186,
+              "name": "Marlok"
+            }
+          ]
+        },
+        {
+          "matchId": 505158408,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:08:03.000Z",
+          "dur": 1315,
+          "opponents": [
+            {
+              "profileId": 416330,
+              "name": "[JaMx] McLovin"
+            },
+            {
+              "profileId": 3075586,
+              "name": "JaMx | SolidMonkey"
+            },
+            {
+              "profileId": 4489862,
+              "name": "Ananda"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 306975,
+              "name": "wimpyspud"
+            },
+            {
+              "profileId": 18430988,
+              "name": "HIX | Milongo"
+            }
+          ]
+        },
+        {
+          "matchId": 505154039,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:40:28.000Z",
+          "dur": 1432,
+          "opponents": [
+            {
+              "profileId": 15296180,
+              "name": "arzan"
+            },
+            {
+              "profileId": 6342817,
+              "name": "Mauzic"
+            },
+            {
+              "profileId": 25838908,
+              "name": "TenthCandy6011"
+            },
+            {
+              "profileId": 25252483,
+              "name": "halong1301"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24904249,
+              "name": "BSV | DiosdadoCamello"
+            },
+            {
+              "profileId": 2681836,
+              "name": "hdelaney"
+            },
+            {
+              "profileId": 380262,
+              "name": "seba_aof"
+            }
+          ]
+        },
         {
           "matchId": 504407805,
           "civ": "Maya",
@@ -1281,5 +1399,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

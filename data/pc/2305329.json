@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1000
       },
       "matches": [
@@ -44,12 +44,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 309,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1161,
+        "totalGames": 311,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1126,
         "peakRating": 1273
       },
       "matches": [
+        {
+          "matchId": 505273650,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:47:53.000Z",
+          "dur": 2182,
+          "opponents": [
+            {
+              "profileId": 16881376,
+              "name": "kraquen"
+            },
+            {
+              "profileId": 15754937,
+              "name": "henrygobaker"
+            },
+            {
+              "profileId": 8958399,
+              "name": "loczekk_95"
+            },
+            {
+              "profileId": 3382206,
+              "name": "tobias-bayer90"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1728579,
+              "name": "Santykins"
+            },
+            {
+              "profileId": 3810290,
+              "name": "Happy Pirate"
+            },
+            {
+              "profileId": 2535407,
+              "name": "AngryGoose"
+            }
+          ]
+        },
+        {
+          "matchId": 505266335,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:10:23.000Z",
+          "dur": 1694,
+          "opponents": [
+            {
+              "profileId": 5769344,
+              "name": "MACS-X"
+            },
+            {
+              "profileId": 4609718,
+              "name": "eward17"
+            },
+            {
+              "profileId": 4232171,
+              "name": "Duck Rattlehead"
+            },
+            {
+              "profileId": 4219944,
+              "name": "\u518d\u9e3d\u6211\u4eec\u4e00\u6b21"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1728579,
+              "name": "Santykins"
+            },
+            {
+              "profileId": 2535407,
+              "name": "AngryGoose"
+            },
+            {
+              "profileId": 3810290,
+              "name": "Happy Pirate"
+            }
+          ]
+        },
         {
           "matchId": 505026476,
           "civ": "Dravidians",
@@ -10939,5 +11023,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland"
 }

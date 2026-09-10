@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 65,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1429,
         "peakRating": 1429
       },
@@ -1069,12 +1069,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2256,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1205,
+        "totalGames": 2259,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1206,
         "peakRating": 1384
       },
       "matches": [
+        {
+          "matchId": 505529638,
+          "civ": "Goths",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:24:57.000Z",
+          "dur": 1724,
+          "opponents": [
+            {
+              "profileId": 4347380,
+              "name": "sloopy86"
+            },
+            {
+              "profileId": 5976462,
+              "name": "O salteador de ovelhas"
+            },
+            {
+              "profileId": 554895,
+              "name": "Kingping"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2607151,
+              "name": "[JGPTK] AntonioStekelenburg"
+            },
+            {
+              "profileId": 2647542,
+              "name": "[JGPTK] Doubleshot"
+            }
+          ]
+        },
+        {
+          "matchId": 505324788,
+          "civ": "Wu",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:04:17.000Z",
+          "dur": 2299,
+          "opponents": [
+            {
+              "profileId": 4031346,
+              "name": "TKBXPT2214"
+            },
+            {
+              "profileId": 2203107,
+              "name": "adriboubou"
+            },
+            {
+              "profileId": 19650418,
+              "name": "Newell's"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1188117,
+              "name": "[JGPTK] Almirante Ackbar"
+            },
+            {
+              "profileId": 2607151,
+              "name": "[JGPTK] AntonioStekelenburg"
+            }
+          ]
+        },
+        {
+          "matchId": 505319242,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:31:24.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 3476942,
+              "name": "Tonielx"
+            },
+            {
+              "profileId": 16930413,
+              "name": "Kaskarrabias"
+            },
+            {
+              "profileId": 3474277,
+              "name": "ELX93PEDRO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1188117,
+              "name": "[JGPTK] Almirante Ackbar"
+            },
+            {
+              "profileId": 2607151,
+              "name": "[JGPTK] AntonioStekelenburg"
+            }
+          ]
+        },
         {
           "matchId": 504733206,
           "civ": "Hindustanis",
@@ -79517,5 +79619,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

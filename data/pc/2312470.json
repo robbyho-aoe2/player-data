@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 181,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1400,
         "peakRating": 1400
       },
@@ -2925,12 +2925,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 709,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1252,
+        "totalGames": 711,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1287,
         "peakRating": 1374
       },
       "matches": [
+        {
+          "matchId": 505176906,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T05:48:30.000Z",
+          "dur": 1820,
+          "opponents": [
+            {
+              "profileId": 11780801,
+              "name": "LRNI_B\u00e9lico"
+            },
+            {
+              "profileId": 2761699,
+              "name": "LRNI_Thegar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2508252,
+              "name": "dani9milpz"
+            }
+          ]
+        },
+        {
+          "matchId": 505172046,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:56:25.000Z",
+          "dur": 2963,
+          "opponents": [
+            {
+              "profileId": 2045337,
+              "name": "papa cass"
+            },
+            {
+              "profileId": 2068499,
+              "name": "duncanhussey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2508252,
+              "name": "dani9milpz"
+            }
+          ]
+        },
         {
           "matchId": 504679406,
           "civ": "Byzantines",
@@ -23135,5 +23187,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cr",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf7",
+  "countryName": "Costa Rica"
 }

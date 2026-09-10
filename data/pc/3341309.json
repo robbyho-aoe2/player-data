@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 448,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1289,
+        "totalGames": 452,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1261,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 505455138,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:01:18.000Z",
+          "dur": 1642,
+          "opponents": [
+            {
+              "profileId": 3451346,
+              "name": "\u5927\u5200\u5411\u9b3c\u5b50\u5934\u4e0a\u780d\u53bb"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505452513,
+          "civ": "Chinese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:47:09.000Z",
+          "dur": 506,
+          "opponents": [
+            {
+              "profileId": 15546516,
+              "name": "joseguevara07-"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505448036,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:23:35.000Z",
+          "dur": 1372,
+          "opponents": [
+            {
+              "profileId": 400198,
+              "name": "yuzhonglu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505230590,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:57:54.000Z",
+          "dur": 1592,
+          "opponents": [
+            {
+              "profileId": 19710831,
+              "name": "KiwiSid"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505162623,
           "civ": "Byzantines",
@@ -7216,12 +7284,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 916,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1196,
+        "totalGames": 917,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1211,
         "peakRating": 1310
       },
       "matches": [
+        {
+          "matchId": 505235599,
+          "civ": "Malay",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:25:41.000Z",
+          "dur": 1094,
+          "opponents": [
+            {
+              "profileId": 5557093,
+              "name": "OBrien11"
+            },
+            {
+              "profileId": 9539549,
+              "name": "BULLETS ARE SEXY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6767009,
+              "name": "Dragerwoods"
+            }
+          ]
+        },
         {
           "matchId": 505154754,
           "civ": "Chinese",
@@ -36485,5 +36579,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1334,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1134,
+        "totalGames": 1339,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1155,
         "peakRating": 1214
       },
       "matches": [
+        {
+          "matchId": 505496857,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:41:08.000Z",
+          "dur": 2130,
+          "opponents": [
+            {
+              "profileId": 1565581,
+              "name": "Noklevann"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505466202,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:00:34.000Z",
+          "dur": 1565,
+          "opponents": [
+            {
+              "profileId": 580372,
+              "name": "Benjatn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505461829,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:36:58.000Z",
+          "dur": 1333,
+          "opponents": [
+            {
+              "profileId": 352012,
+              "name": "DirtyDog"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505461308,
+          "civ": "Cumans",
+          "map": "Marketplace",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:34:29.000Z",
+          "dur": 19,
+          "opponents": [
+            {
+              "profileId": 22064918,
+              "name": "alonso_66_06"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505238476,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:40:17.000Z",
+          "dur": 1640,
+          "opponents": [
+            {
+              "profileId": 445513,
+              "name": "M.C.Grinchey"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505010968,
           "civ": "Vietnamese",
@@ -21384,12 +21469,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1366,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1200,
+        "totalGames": 1368,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1168,
         "peakRating": 1248
       },
       "matches": [
+        {
+          "matchId": 505257801,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:24:51.000Z",
+          "dur": 1498,
+          "opponents": [
+            {
+              "profileId": 1208331,
+              "name": "LaKurt"
+            },
+            {
+              "profileId": 11418764,
+              "name": "CyberSex"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2553680,
+              "name": "CrazyM"
+            }
+          ]
+        },
+        {
+          "matchId": 505253906,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:03:51.000Z",
+          "dur": 1134,
+          "opponents": [
+            {
+              "profileId": 8945762,
+              "name": "Moa"
+            },
+            {
+              "profileId": 8157318,
+              "name": "CoeurLaurent"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2553680,
+              "name": "CrazyM"
+            }
+          ]
+        },
         {
           "matchId": 505029459,
           "civ": "Cumans",
@@ -55841,5 +55978,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

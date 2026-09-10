@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 626,
-        "pulledDate": "2026-09-08",
+        "totalGames": 627,
+        "pulledDate": "2026-09-09",
         "latestRating": 1182,
         "peakRating": 1240
       },
       "matches": [
+        {
+          "matchId": 505134685,
+          "civ": "Magyars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:49:10.000Z",
+          "dur": 1675,
+          "opponents": [
+            {
+              "profileId": 4455058,
+              "name": "Bidello"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505128642,
           "civ": "Magyars",
@@ -10052,12 +10069,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 393,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1063,
+        "totalGames": 396,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1106,
         "peakRating": 1248
       },
       "matches": [
+        {
+          "matchId": 505151046,
+          "civ": "Saracens",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:22:40.000Z",
+          "dur": 2068,
+          "opponents": [
+            {
+              "profileId": 6231805,
+              "name": "Juanparcero"
+            },
+            {
+              "profileId": 2443235,
+              "name": "\u5575\u5575\u9c7c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2706968,
+              "name": "Hueso76ers"
+            }
+          ]
+        },
+        {
+          "matchId": 505145336,
+          "civ": "Saracens",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:49:50.000Z",
+          "dur": 1785,
+          "opponents": [
+            {
+              "profileId": 319453,
+              "name": "Bvptistvs III"
+            },
+            {
+              "profileId": 21078260,
+              "name": "\u9aa8\u5ddd \u30b9\u30cd\u592b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2706968,
+              "name": "Hueso76ers"
+            }
+          ]
+        },
+        {
+          "matchId": 505139907,
+          "civ": "Saracens",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:19:30.000Z",
+          "dur": 1610,
+          "opponents": [
+            {
+              "profileId": 352012,
+              "name": "DirtyDog"
+            },
+            {
+              "profileId": 523886,
+              "name": "GaTTo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2706968,
+              "name": "Hueso76ers"
+            }
+          ]
+        },
         {
           "matchId": 502745474,
           "civ": "Saracens",
@@ -22612,5 +22707,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

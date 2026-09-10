@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 637,
         "peakRating": 669
       },
@@ -269,12 +269,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3765,
-        "pulledDate": "2026-09-05",
-        "latestRating": 655,
+        "totalGames": 3767,
+        "pulledDate": "2026-09-09",
+        "latestRating": 658,
         "peakRating": 1015
       },
       "matches": [
+        {
+          "matchId": 505346202,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:24:32.000Z",
+          "dur": 3229,
+          "opponents": [
+            {
+              "profileId": 8568997,
+              "name": "Ben Brankleton Sr"
+            },
+            {
+              "profileId": 12034133,
+              "name": "MoldyShelf59466"
+            },
+            {
+              "profileId": 17957130,
+              "name": "NaoNao"
+            },
+            {
+              "profileId": 24695315,
+              "name": "Ben Brankleton Jr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19441689,
+              "name": "Assisu2405"
+            },
+            {
+              "profileId": 21425612,
+              "name": "Cholo-Mochica"
+            },
+            {
+              "profileId": 1418042,
+              "name": "Giibier"
+            }
+          ]
+        },
+        {
+          "matchId": 505333854,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:02:09.000Z",
+          "dur": 2253,
+          "opponents": [
+            {
+              "profileId": 8127436,
+              "name": "Polsters73"
+            },
+            {
+              "profileId": 6243729,
+              "name": "HSSSJA"
+            },
+            {
+              "profileId": 3461609,
+              "name": "M4ster"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25059535,
+              "name": "tomoe"
+            },
+            {
+              "profileId": 25014445,
+              "name": "Azteca Beleren"
+            }
+          ]
+        },
         {
           "matchId": 504338493,
           "civ": "Mongols",
@@ -136424,5 +136500,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

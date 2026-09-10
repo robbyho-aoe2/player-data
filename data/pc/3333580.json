@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 581,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1041,
+        "totalGames": 585,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1071,
         "peakRating": 1203
       },
       "matches": [
+        {
+          "matchId": 505443314,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:59:13.000Z",
+          "dur": 1286,
+          "opponents": [
+            {
+              "profileId": 2902533,
+              "name": "[BANDY2]EvitaMontoGalactica"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505434987,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:11:03.000Z",
+          "dur": 1595,
+          "opponents": [
+            {
+              "profileId": 24688659,
+              "name": "yanyang"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505434252,
+          "civ": "Tupi",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:05:53.000Z",
+          "dur": 208,
+          "opponents": [
+            {
+              "profileId": 25160162,
+              "name": "g.mag"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505214414,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:16:30.000Z",
+          "dur": 1476,
+          "opponents": [
+            {
+              "profileId": 22753730,
+              "name": "Rogue Knight"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504982347,
           "civ": "Burgundians",
@@ -9363,7 +9431,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 88,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1242,
         "peakRating": 1264
       },
@@ -12202,5 +12270,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 966,
-        "pulledDate": "2026-09-08",
-        "latestRating": 910,
+        "totalGames": 968,
+        "pulledDate": "2026-09-09",
+        "latestRating": 909,
         "peakRating": 1174
       },
       "matches": [
+        {
+          "matchId": 505527838,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:14:49.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 18422456,
+              "name": "GENTIL PANDA"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505480036,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:16:08.000Z",
+          "dur": 974,
+          "opponents": [
+            {
+              "profileId": 21160180,
+              "name": "mcher"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504642217,
           "civ": "Turks",
@@ -15493,12 +15527,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1167,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1253,
+        "totalGames": 1169,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1288,
         "peakRating": 1289
       },
       "matches": [
+        {
+          "matchId": 505176906,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T05:48:30.000Z",
+          "dur": 1820,
+          "opponents": [
+            {
+              "profileId": 11780801,
+              "name": "LRNI_B\u00e9lico"
+            },
+            {
+              "profileId": 2761699,
+              "name": "LRNI_Thegar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2312470,
+              "name": "DS_Migno"
+            }
+          ]
+        },
+        {
+          "matchId": 505172046,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T04:56:25.000Z",
+          "dur": 2963,
+          "opponents": [
+            {
+              "profileId": 2045337,
+              "name": "papa cass"
+            },
+            {
+              "profileId": 2068499,
+              "name": "duncanhussey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2312470,
+              "name": "DS_Migno"
+            }
+          ]
+        },
         {
           "matchId": 504679406,
           "civ": "Turks",
@@ -49420,5 +49506,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cr",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf7",
+  "countryName": "Costa Rica"
 }

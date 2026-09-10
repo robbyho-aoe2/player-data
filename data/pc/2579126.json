@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 387,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1646,
+        "totalGames": 389,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1634,
         "peakRating": 1741
       },
       "matches": [
+        {
+          "matchId": 505407677,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:15:24.000Z",
+          "dur": 861,
+          "opponents": [
+            {
+              "profileId": 9250957,
+              "name": "Cosmosdd"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505404365,
+          "civ": "Japanese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:40:48.000Z",
+          "dur": 1830,
+          "opponents": [
+            {
+              "profileId": 14309408,
+              "name": "SPLINTER"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504233841,
           "civ": "Tatars",
@@ -6235,7 +6269,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 66,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-09",
         "latestRating": 1465,
         "peakRating": 1529
       },
@@ -8257,5 +8291,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "vn",
+  "countryIcon": "\ud83c\uddfb\ud83c\uddf3",
+  "countryName": "Viet Nam"
 }

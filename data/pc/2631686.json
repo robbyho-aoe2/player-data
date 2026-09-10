@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1072,
         "peakRating": 1072
       },
@@ -189,12 +189,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 597,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1202,
+        "totalGames": 600,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1186,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 505461512,
+          "civ": "Burmese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:35:31.000Z",
+          "dur": 2335,
+          "opponents": [
+            {
+              "profileId": 22157075,
+              "name": "adrian_mg123"
+            },
+            {
+              "profileId": 267377,
+              "name": "Miposhka"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11973605,
+              "name": "mengshueh"
+            }
+          ]
+        },
+        {
+          "matchId": 505455445,
+          "civ": "Hindustanis",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:03:44.000Z",
+          "dur": 1662,
+          "opponents": [
+            {
+              "profileId": 25529018,
+              "name": "gabriel_11205"
+            },
+            {
+              "profileId": 2717098,
+              "name": "Hyderabad (Ind)"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11973605,
+              "name": "mengshueh"
+            }
+          ]
+        },
+        {
+          "matchId": 505252916,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:58:24.000Z",
+          "dur": 2469,
+          "opponents": [
+            {
+              "profileId": 25885257,
+              "name": "IDIOT DONT PLAY"
+            },
+            {
+              "profileId": 2717098,
+              "name": "Hyderabad (Ind)"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11973605,
+              "name": "mengshueh"
+            }
+          ]
+        },
         {
           "matchId": 505018885,
           "civ": "Japanese",
@@ -15607,5 +15685,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

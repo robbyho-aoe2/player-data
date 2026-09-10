@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 636,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1138,
         "peakRating": 1269
       },
@@ -10206,12 +10206,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 523,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1169,
+        "totalGames": 525,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1162,
         "peakRating": 1363
       },
       "matches": [
+        {
+          "matchId": 505530052,
+          "civ": "Ethiopians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:27:19.000Z",
+          "dur": 1827,
+          "opponents": [
+            {
+              "profileId": 4131945,
+              "name": "Etibis"
+            },
+            {
+              "profileId": 17204078,
+              "name": "Roxdog"
+            },
+            {
+              "profileId": 9186057,
+              "name": "maxdu95"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 142908,
+              "name": "Dyragor"
+            },
+            {
+              "profileId": 4299918,
+              "name": "LittleNino"
+            }
+          ]
+        },
+        {
+          "matchId": 505215175,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:22:36.000Z",
+          "dur": 1664,
+          "opponents": [
+            {
+              "profileId": 6327332,
+              "name": "1"
+            },
+            {
+              "profileId": 9784727,
+              "name": "\u6b66\u7467"
+            },
+            {
+              "profileId": 13557872,
+              "name": "ragamuffin"
+            },
+            {
+              "profileId": 24924086,
+              "name": "oscaramba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1972073,
+              "name": "King LePrawn James"
+            },
+            {
+              "profileId": 1566516,
+              "name": "mark_aoe_2024"
+            },
+            {
+              "profileId": 5737746,
+              "name": "King Stannis"
+            }
+          ]
+        },
         {
           "matchId": 504965021,
           "civ": "Slavs",
@@ -30903,5 +30979,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "be",
+  "countryIcon": "\ud83c\udde7\ud83c\uddea",
+  "countryName": "Belgium"
 }

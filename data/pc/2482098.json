@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1604,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 2311,
         "peakRating": 2377
       },
@@ -25701,12 +25701,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2293,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1861,
+        "totalGames": 2297,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1845,
         "peakRating": 1962
       },
       "matches": [
+        {
+          "matchId": 505302022,
+          "civ": "Jurchens",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:02:10.000Z",
+          "dur": 1084,
+          "opponents": [
+            {
+              "profileId": 1350868,
+              "name": "Hannibal"
+            },
+            {
+              "profileId": 5839022,
+              "name": "[GLD] Abu abdullah"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5251192,
+              "name": "Sueta"
+            }
+          ]
+        },
+        {
+          "matchId": 505301033,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:57:36.000Z",
+          "dur": 48,
+          "opponents": [
+            {
+              "profileId": 1350868,
+              "name": "Hannibal"
+            },
+            {
+              "profileId": 5839022,
+              "name": "[GLD] Abu abdullah"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5251192,
+              "name": "Sueta"
+            }
+          ]
+        },
+        {
+          "matchId": 505297600,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:41:39.000Z",
+          "dur": 748,
+          "opponents": [
+            {
+              "profileId": 19438274,
+              "name": "yix_x_xio"
+            },
+            {
+              "profileId": 15677316,
+              "name": "twitch: aoe2_billybadbeat"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5251192,
+              "name": "Sueta"
+            }
+          ]
+        },
+        {
+          "matchId": 505290978,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:11:20.000Z",
+          "dur": 747,
+          "opponents": [
+            {
+              "profileId": 1969860,
+              "name": "Rand_AOE"
+            },
+            {
+              "profileId": 239345,
+              "name": "Pleb Guardiola"
+            },
+            {
+              "profileId": 335722,
+              "name": "PacmanStally"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19175274,
+              "name": "ELEOS | wosm"
+            },
+            {
+              "profileId": 3081957,
+              "name": "p1c0"
+            }
+          ]
+        },
         {
           "matchId": 504612562,
           "civ": "Spanish",
@@ -108463,5 +108575,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

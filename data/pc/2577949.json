@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 77,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1141,
         "peakRating": 1178
       },
@@ -1261,12 +1261,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1439,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1193,
+        "totalGames": 1441,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1194,
         "peakRating": 1401
       },
       "matches": [
+        {
+          "matchId": 505371171,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:05:03.000Z",
+          "dur": 2030,
+          "opponents": [
+            {
+              "profileId": 4666541,
+              "name": "SlickPOPI"
+            },
+            {
+              "profileId": 4643475,
+              "name": "snowball I"
+            },
+            {
+              "profileId": 4576441,
+              "name": "Freestyle98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2186364,
+              "name": "ibtip"
+            },
+            {
+              "profileId": 2820597,
+              "name": "Josua_Deere"
+            }
+          ]
+        },
+        {
+          "matchId": 505334747,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:07:54.000Z",
+          "dur": 1830,
+          "opponents": [
+            {
+              "profileId": 549959,
+              "name": "DKT | Ragnarr"
+            },
+            {
+              "profileId": 1519633,
+              "name": "Capit\u00e3o T"
+            },
+            {
+              "profileId": 2307150,
+              "name": "DKT | BRESSAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9909477,
+              "name": "CASTILLO88"
+            },
+            {
+              "profileId": 4511189,
+              "name": "Mourning Wood"
+            }
+          ]
+        },
         {
           "matchId": 504610847,
           "civ": "Britons",
@@ -55597,5 +55665,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

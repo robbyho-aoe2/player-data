@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 110,
-        "pulledDate": "2026-09-08",
-        "latestRating": 945,
+        "totalGames": 111,
+        "pulledDate": "2026-09-10",
+        "latestRating": 961,
         "peakRating": 1072
       },
       "matches": [
+        {
+          "matchId": 505318280,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:25:44.000Z",
+          "dur": 1774,
+          "opponents": [
+            {
+              "profileId": 19040358,
+              "name": "jmejiacardenas93"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505042057,
           "civ": "Khmer",
@@ -1797,12 +1814,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 493,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1061,
+        "totalGames": 494,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1050,
         "peakRating": 1231
       },
       "matches": [
+        {
+          "matchId": 505535661,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T22:00:29.000Z",
+          "dur": 1438,
+          "opponents": [
+            {
+              "profileId": 6148989,
+              "name": "ODIUM UA"
+            },
+            {
+              "profileId": 8613625,
+              "name": "PapusPopus"
+            },
+            {
+              "profileId": 25816486,
+              "name": "tomicoro7367"
+            },
+            {
+              "profileId": 271714,
+              "name": "Bile"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 282595,
+              "name": "Champet\u00fa"
+            },
+            {
+              "profileId": 21544549,
+              "name": "\u6211\u662f\u4f60\u7238\u7238\u554a"
+            },
+            {
+              "profileId": 4911839,
+              "name": "Pennon"
+            }
+          ]
+        },
         {
           "matchId": 503654917,
           "civ": "Khmer",
@@ -18638,5 +18697,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

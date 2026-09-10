@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1188,
         "peakRating": 1217
       },
@@ -589,12 +589,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 212,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1160,
+        "totalGames": 216,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1132,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 505320454,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:38:34.000Z",
+          "dur": 1325,
+          "opponents": [
+            {
+              "profileId": 725253,
+              "name": "mikeespin"
+            },
+            {
+              "profileId": 12077896,
+              "name": "WhatIf?"
+            },
+            {
+              "profileId": 10128244,
+              "name": "Fegelein"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4271846,
+              "name": "Professor Bubba"
+            },
+            {
+              "profileId": 4277125,
+              "name": "tommaso15"
+            }
+          ]
+        },
+        {
+          "matchId": 505315103,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:08:28.000Z",
+          "dur": 1691,
+          "opponents": [
+            {
+              "profileId": 5627652,
+              "name": "KaneGB"
+            },
+            {
+              "profileId": 725253,
+              "name": "mikeespin"
+            },
+            {
+              "profileId": 11997103,
+              "name": "Casca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4277125,
+              "name": "tommaso15"
+            },
+            {
+              "profileId": 4271846,
+              "name": "Professor Bubba"
+            }
+          ]
+        },
+        {
+          "matchId": 505307678,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:28:44.000Z",
+          "dur": 2470,
+          "opponents": [
+            {
+              "profileId": 725253,
+              "name": "mikeespin"
+            },
+            {
+              "profileId": 4507962,
+              "name": "Hazem"
+            },
+            {
+              "profileId": 432343,
+              "name": "Morty Smith"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4271846,
+              "name": "Professor Bubba"
+            },
+            {
+              "profileId": 4277125,
+              "name": "tommaso15"
+            }
+          ]
+        },
+        {
+          "matchId": 505300857,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:56:46.000Z",
+          "dur": 1788,
+          "opponents": [
+            {
+              "profileId": 1806458,
+              "name": "pickmyself or end"
+            },
+            {
+              "profileId": 25721019,
+              "name": "bumap"
+            },
+            {
+              "profileId": 18338248,
+              "name": "redchochorus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4277125,
+              "name": "tommaso15"
+            },
+            {
+              "profileId": 4271846,
+              "name": "Professor Bubba"
+            }
+          ]
+        },
         {
           "matchId": 504703155,
           "civ": "Muisca",
@@ -8245,5 +8381,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

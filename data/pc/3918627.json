@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 215,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 978,
         "peakRating": 1042
       },
@@ -3469,12 +3469,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 489,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1137,
+        "totalGames": 491,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1110,
         "peakRating": 1222
       },
       "matches": [
+        {
+          "matchId": 505505624,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:22:23.000Z",
+          "dur": 1338,
+          "opponents": [
+            {
+              "profileId": 2672840,
+              "name": "SmnRndm"
+            },
+            {
+              "profileId": 2617511,
+              "name": "LordSandwich"
+            },
+            {
+              "profileId": 2617425,
+              "name": "Song Jin-Woo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 671862,
+              "name": "modulo"
+            },
+            {
+              "profileId": 17976490,
+              "name": "Dallo"
+            }
+          ]
+        },
+        {
+          "matchId": 505498850,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:50:56.000Z",
+          "dur": 1657,
+          "opponents": [
+            {
+              "profileId": 246906,
+              "name": "Baron279"
+            },
+            {
+              "profileId": 3455920,
+              "name": "Chiggen Tendiezzz"
+            },
+            {
+              "profileId": 645604,
+              "name": "Cast"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17976490,
+              "name": "Dallo"
+            },
+            {
+              "profileId": 671862,
+              "name": "modulo"
+            }
+          ]
+        },
         {
           "matchId": 503888830,
           "civ": "Huns",
@@ -18034,5 +18102,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "be",
+  "countryIcon": "\ud83c\udde7\ud83c\uddea",
+  "countryName": "Belgium"
 }

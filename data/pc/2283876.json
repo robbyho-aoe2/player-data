@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 50,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1184,
         "peakRating": 1240
       },
@@ -784,12 +784,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2043,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1287,
+        "totalGames": 2045,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1257,
         "peakRating": 1362
       },
       "matches": [
+        {
+          "matchId": 505382457,
+          "civ": "Ethiopians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:32:38.000Z",
+          "dur": 1583,
+          "opponents": [
+            {
+              "profileId": 4819441,
+              "name": "[HAV] Papi de Jardin"
+            },
+            {
+              "profileId": 5787692,
+              "name": "ImStillNakedBTW"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12223669,
+              "name": "[SENSEI] ELPASTORE"
+            }
+          ]
+        },
+        {
+          "matchId": 505378914,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:02:19.000Z",
+          "dur": 1531,
+          "opponents": [
+            {
+              "profileId": 8588401,
+              "name": "Principipe6724"
+            },
+            {
+              "profileId": 949199,
+              "name": "PwNaSauRuS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12223669,
+              "name": "[SENSEI] ELPASTORE"
+            }
+          ]
+        },
         {
           "matchId": 503946731,
           "civ": "Italians",
@@ -47197,5 +47249,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

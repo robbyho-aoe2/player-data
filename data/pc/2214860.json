@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 682,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1009,
         "peakRating": 1064
       },
@@ -10941,12 +10941,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 899,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1234,
+        "totalGames": 901,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1217,
         "peakRating": 1351
       },
       "matches": [
+        {
+          "matchId": 505537047,
+          "civ": "Sicilians",
+          "map": "Hill Fort",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T22:08:02.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 223492,
+              "name": "Hacher23"
+            },
+            {
+              "profileId": 239757,
+              "name": "L0B0"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 703274,
+              "name": "fridgeroo"
+            }
+          ]
+        },
+        {
+          "matchId": 505532676,
+          "civ": "Sicilians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:41:58.000Z",
+          "dur": 1126,
+          "opponents": [
+            {
+              "profileId": 543752,
+              "name": "Erick14mar"
+            },
+            {
+              "profileId": 2653474,
+              "name": "Lord Polaris"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 703274,
+              "name": "fridgeroo"
+            }
+          ]
+        },
         {
           "matchId": 505104300,
           "civ": "Sicilians",
@@ -33404,5 +33456,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "za",
+  "countryIcon": "\ud83c\uddff\ud83c\udde6",
+  "countryName": "South Africa"
 }

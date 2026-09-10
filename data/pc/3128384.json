@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 351,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1188,
         "peakRating": 1322
       },
@@ -5645,12 +5645,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 528,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1121,
+        "totalGames": 529,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1103,
         "peakRating": 1245
       },
       "matches": [
+        {
+          "matchId": 505265851,
+          "civ": "Goths",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:08:02.000Z",
+          "dur": 3376,
+          "opponents": [
+            {
+              "profileId": 2715444,
+              "name": "Aalfisch"
+            },
+            {
+              "profileId": 20296836,
+              "name": "O815Fuchx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22675558,
+              "name": "Noctulo"
+            }
+          ]
+        },
         {
           "matchId": 505151225,
           "civ": "Goths",
@@ -19823,5 +19849,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

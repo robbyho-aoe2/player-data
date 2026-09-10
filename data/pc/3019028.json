@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1129,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1233,
+        "totalGames": 1131,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1236,
         "peakRating": 1314
       },
       "matches": [
+        {
+          "matchId": 505351584,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:59:25.000Z",
+          "dur": 1166,
+          "opponents": [
+            {
+              "profileId": 3972444,
+              "name": "GodZu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505350008,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:49:06.000Z",
+          "dur": 556,
+          "opponents": [
+            {
+              "profileId": 4965968,
+              "name": "Cesar El Magno"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504599905,
           "civ": "Dravidians",
@@ -18102,7 +18136,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 25,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 847,
         "peakRating": 924
       },
@@ -18734,5 +18768,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

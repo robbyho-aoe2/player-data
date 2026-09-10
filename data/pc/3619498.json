@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 908,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1135,
         "peakRating": 1186
       },
@@ -14563,12 +14563,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1002,
-        "pulledDate": "2026-09-08",
+        "totalGames": 1004,
+        "pulledDate": "2026-09-10",
         "latestRating": 1070,
         "peakRating": 1213
       },
       "matches": [
+        {
+          "matchId": 505329370,
+          "civ": "Saracens",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:33:06.000Z",
+          "dur": 1636,
+          "opponents": [
+            {
+              "profileId": 18112525,
+              "name": "feli.inoman"
+            },
+            {
+              "profileId": 2919023,
+              "name": "Chubi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6225466,
+              "name": "CarolusGulielmus"
+            }
+          ]
+        },
+        {
+          "matchId": 505326625,
+          "civ": "Saracens",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:16:10.000Z",
+          "dur": 867,
+          "opponents": [
+            {
+              "profileId": 253847,
+              "name": "dr_bounty"
+            },
+            {
+              "profileId": 349702,
+              "name": "Quatsch"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6225466,
+              "name": "CarolusGulielmus"
+            }
+          ]
+        },
         {
           "matchId": 505141848,
           "civ": "Saracens",
@@ -42929,5 +42981,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

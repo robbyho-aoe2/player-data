@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1166,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1161,
+        "totalGames": 1168,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1195,
         "peakRating": 1263
       },
       "matches": [
+        {
+          "matchId": 505143049,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:36:12.000Z",
+          "dur": 1699,
+          "opponents": [
+            {
+              "profileId": 11666995,
+              "name": "Magistral"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505139909,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:18:36.000Z",
+          "dur": 987,
+          "opponents": [
+            {
+              "profileId": 5075526,
+              "name": "xpp"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504919182,
           "civ": "Bengalis",
@@ -17490,12 +17524,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1278,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1112,
+        "totalGames": 1280,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1111,
         "peakRating": 1221
       },
       "matches": [
+        {
+          "matchId": 505153691,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:38:11.000Z",
+          "dur": 1923,
+          "opponents": [
+            {
+              "profileId": 399761,
+              "name": "Co-Yeyo"
+            },
+            {
+              "profileId": 1701336,
+              "name": "totonois"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2666611,
+              "name": "El oso rulo"
+            }
+          ]
+        },
+        {
+          "matchId": 505148283,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:07:23.000Z",
+          "dur": 1574,
+          "opponents": [
+            {
+              "profileId": 18296117,
+              "name": "HardKnocks11125"
+            },
+            {
+              "profileId": 4981446,
+              "name": "treetoptony"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2666611,
+              "name": "El oso rulo"
+            }
+          ]
+        },
         {
           "matchId": 504392823,
           "civ": "Tatars",
@@ -42375,5 +42461,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

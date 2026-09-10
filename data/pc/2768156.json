@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 525,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1170,
+        "totalGames": 527,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1201,
         "peakRating": 1339
       },
       "matches": [
+        {
+          "matchId": 505262722,
+          "civ": "Hindustanis",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:51:35.000Z",
+          "dur": 1753,
+          "opponents": [
+            {
+              "profileId": 4680289,
+              "name": "[KoM] SirFreddi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505249925,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:41:57.000Z",
+          "dur": 1318,
+          "opponents": [
+            {
+              "profileId": 3095444,
+              "name": "DS_Sir Rubio MX"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504314574,
           "civ": "Hindustanis",
@@ -8446,12 +8480,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 522,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1194,
+        "totalGames": 524,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1192,
         "peakRating": 1322
       },
       "matches": [
+        {
+          "matchId": 505273368,
+          "civ": "Hindustanis",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:46:23.000Z",
+          "dur": 1913,
+          "opponents": [
+            {
+              "profileId": 955354,
+              "name": "Tobias"
+            },
+            {
+              "profileId": 952927,
+              "name": "Cant Hide on Bush"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15271380,
+              "name": "Kyl"
+            }
+          ]
+        },
+        {
+          "matchId": 505269062,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:24:57.000Z",
+          "dur": 1185,
+          "opponents": [
+            {
+              "profileId": 4472754,
+              "name": "[MMGVA] Misterjavox"
+            },
+            {
+              "profileId": 22906401,
+              "name": "[MMGVA] Pepitona"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15271380,
+              "name": "Kyl"
+            }
+          ]
+        },
         {
           "matchId": 504318621,
           "civ": "Hindustanis",
@@ -23776,5 +23862,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 224,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1168,
         "peakRating": 1247
       },
@@ -2077,12 +2077,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 439,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1027,
+        "totalGames": 440,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1040,
         "peakRating": 1203
       },
       "matches": [
+        {
+          "matchId": 505364470,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:21:21.000Z",
+          "dur": 2199,
+          "opponents": [
+            {
+              "profileId": 17782233,
+              "name": "\u5df2\u60ef\u6c5f\u6e56\u4f5c\u6d6a\u6e38 \u4e14\u5c06\u6069\u6028\u8bf4\u4ece\u5934"
+            },
+            {
+              "profileId": 20493066,
+              "name": "\u5343\u9e1f\u6e0a\u7231\u97f3"
+            },
+            {
+              "profileId": 500360,
+              "name": "Sakurai Momoka"
+            },
+            {
+              "profileId": 1217587,
+              "name": "\u7231\u8389\u5e0c\u96c5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3234558,
+              "name": "[DM] Tito el Bambino"
+            },
+            {
+              "profileId": 3828060,
+              "name": "granada3660"
+            },
+            {
+              "profileId": 3231427,
+              "name": "LichaLo"
+            }
+          ]
+        },
         {
           "matchId": 505122293,
           "civ": "Ethiopians",
@@ -6564,5 +6606,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

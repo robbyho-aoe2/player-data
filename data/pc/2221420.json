@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 56,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1580,
         "peakRating": 1580
       },
@@ -925,12 +925,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 7650,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1337,
+        "totalGames": 7652,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1338,
         "peakRating": 1657
       },
       "matches": [
+        {
+          "matchId": 505149576,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:15:03.000Z",
+          "dur": 128,
+          "opponents": [
+            {
+              "profileId": 19694282,
+              "name": "GDL_arlekin_"
+            },
+            {
+              "profileId": 4995855,
+              "name": "[GDL] MancazoPaTodo!"
+            },
+            {
+              "profileId": 2623424,
+              "name": "[GDL]HULKMEN_GT"
+            },
+            {
+              "profileId": 903474,
+              "name": "[GDL] Killer Pollo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 45726,
+              "name": "Valodimer"
+            },
+            {
+              "profileId": 25988654,
+              "name": "Man Pig Bear"
+            },
+            {
+              "profileId": 6829024,
+              "name": "TanjiroK"
+            }
+          ]
+        },
+        {
+          "matchId": 505141154,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:26:11.000Z",
+          "dur": 2247,
+          "opponents": [
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            },
+            {
+              "profileId": 2226417,
+              "name": "[RZ] Matheus 1251"
+            },
+            {
+              "profileId": 14263220,
+              "name": "[RZ] Citrato de Sildenafila 50mg"
+            },
+            {
+              "profileId": 18160981,
+              "name": "[RZ] Italo_Rafael"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1344602,
+              "name": "SecretAgent1942"
+            },
+            {
+              "profileId": 2432919,
+              "name": "Returned_Legend"
+            },
+            {
+              "profileId": 4151392,
+              "name": "Muniz"
+            }
+          ]
+        },
         {
           "matchId": 504913901,
           "civ": "Poles",
@@ -306986,5 +307070,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "bo",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf4",
+  "countryName": "Bolivia, Plurinational State of"
 }

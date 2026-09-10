@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 740,
-        "pulledDate": "2026-09-08",
-        "latestRating": 2382,
-        "peakRating": 2382
+        "totalGames": 744,
+        "pulledDate": "2026-09-09",
+        "latestRating": 2385,
+        "peakRating": 2397
       },
       "matches": [
+        {
+          "matchId": 505424801,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T12:00:01.000Z",
+          "dur": 1542,
+          "opponents": [
+            {
+              "profileId": 292318,
+              "name": "Rayzor"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505415790,
+          "civ": "Bulgarians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:39:54.000Z",
+          "dur": 1942,
+          "opponents": [
+            {
+              "profileId": 2266228,
+              "name": "Edgar Davids"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505413767,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:19:12.000Z",
+          "dur": 960,
+          "opponents": [
+            {
+              "profileId": 2266228,
+              "name": "Edgar Davids"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505222127,
+          "civ": "Berbers",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:08:59.000Z",
+          "dur": 1699,
+          "opponents": [
+            {
+              "profileId": 2367335,
+              "name": "105er.Buttermilch"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504711929,
           "civ": "Sicilians",
@@ -11886,12 +11954,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3407,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1759,
+        "totalGames": 3408,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1771,
         "peakRating": 1914
       },
       "matches": [
+        {
+          "matchId": 505229910,
+          "civ": "Tatars",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:54:50.000Z",
+          "dur": 1317,
+          "opponents": [
+            {
+              "profileId": 17070540,
+              "name": "AutoClickerv3"
+            },
+            {
+              "profileId": 16822950,
+              "name": "CristinaLover"
+            },
+            {
+              "profileId": 10056970,
+              "name": "\u7ecf\u5178\u4e0d\u53d8\u7684\u56de\u5fc6 | memory"
+            },
+            {
+              "profileId": 12341108,
+              "name": "Tatan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22608779,
+              "name": "CNZS_knightk"
+            },
+            {
+              "profileId": 3283230,
+              "name": "abundzuehalt"
+            },
+            {
+              "profileId": 419803,
+              "name": "saymyname"
+            }
+          ]
+        },
         {
           "matchId": 504742840,
           "civ": "Japanese",
@@ -149507,5 +149617,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

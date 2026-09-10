@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 218,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1247,
         "peakRating": 1306
       },
@@ -3525,12 +3525,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1351,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1262,
+        "totalGames": 1354,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1255,
         "peakRating": 1436
       },
       "matches": [
+        {
+          "matchId": 505366200,
+          "civ": "Persians",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:32:38.000Z",
+          "dur": 1871,
+          "opponents": [
+            {
+              "profileId": 823210,
+              "name": "BlossomForce"
+            },
+            {
+              "profileId": 1831618,
+              "name": "AlohaInMyHeartForAOE2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4967572,
+              "name": "AASC | FreakinTinto"
+            }
+          ]
+        },
+        {
+          "matchId": 505322004,
+          "civ": "Goths",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:47:41.000Z",
+          "dur": 859,
+          "opponents": [
+            {
+              "profileId": 22625558,
+              "name": "NotGG"
+            },
+            {
+              "profileId": 6072665,
+              "name": "Still allgreen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4967572,
+              "name": "AASC | FreakinTinto"
+            }
+          ]
+        },
+        {
+          "matchId": 505318244,
+          "civ": "Gurjaras",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:25:55.000Z",
+          "dur": 1211,
+          "opponents": [
+            {
+              "profileId": 22625558,
+              "name": "NotGG"
+            },
+            {
+              "profileId": 3865998,
+              "name": "pilots_son93"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4967572,
+              "name": "AASC | FreakinTinto"
+            }
+          ]
+        },
         {
           "matchId": 503267508,
           "civ": "Bohemians",
@@ -42164,5 +42242,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

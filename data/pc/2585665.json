@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 7,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-09",
         "latestRating": 986
       },
       "matches": [
@@ -140,12 +140,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 118,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1245,
-        "peakRating": 1245
+        "totalGames": 122,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1239,
+        "peakRating": 1260
       },
       "matches": [
+        {
+          "matchId": 505157298,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:00:57.000Z",
+          "dur": 2255,
+          "opponents": [
+            {
+              "profileId": 2457404,
+              "name": "moramarlon18"
+            },
+            {
+              "profileId": 4119870,
+              "name": "diegogv91"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            }
+          ]
+        },
+        {
+          "matchId": 505151162,
+          "civ": "Italians",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:23:11.000Z",
+          "dur": 1932,
+          "opponents": [
+            {
+              "profileId": 1924166,
+              "name": "tarleton25"
+            },
+            {
+              "profileId": 2186364,
+              "name": "ibtip"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            }
+          ]
+        },
+        {
+          "matchId": 505147595,
+          "civ": "Ethiopians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:03:09.000Z",
+          "dur": 947,
+          "opponents": [
+            {
+              "profileId": 10075368,
+              "name": "joluga"
+            },
+            {
+              "profileId": 5200114,
+              "name": "sr.castillo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            }
+          ]
+        },
+        {
+          "matchId": 505143427,
+          "civ": "Maya",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:39:26.000Z",
+          "dur": 1132,
+          "opponents": [
+            {
+              "profileId": 20493066,
+              "name": "\u5343\u9e1f\u6e0a\u7231\u97f3"
+            },
+            {
+              "profileId": 17782233,
+              "name": "\u5df2\u60ef\u6c5f\u6e56\u4f5c\u6d6a\u6e38 \u4e14\u5c06\u6069\u6028\u8bf4\u4ece\u5934"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            }
+          ]
+        },
         {
           "matchId": 501147575,
           "civ": "Italians",
@@ -3626,5 +3730,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

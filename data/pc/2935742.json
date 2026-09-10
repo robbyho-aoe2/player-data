@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1034,
         "peakRating": 1034
       },
@@ -173,12 +173,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1241,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1143,
+        "totalGames": 1243,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1137,
         "peakRating": 1343
       },
       "matches": [
+        {
+          "matchId": 505460444,
+          "civ": "Mongols",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:30:10.000Z",
+          "dur": 3205,
+          "opponents": [
+            {
+              "profileId": 483319,
+              "name": "ShuShu"
+            },
+            {
+              "profileId": 591743,
+              "name": "steve95741886"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3891761,
+              "name": "Macumba"
+            }
+          ]
+        },
+        {
+          "matchId": 505456012,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:06:48.000Z",
+          "dur": 1269,
+          "opponents": [
+            {
+              "profileId": 21915163,
+              "name": "Andre114514"
+            },
+            {
+              "profileId": 17812964,
+              "name": "u990221"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3891761,
+              "name": "Macumba"
+            }
+          ]
+        },
         {
           "matchId": 503697665,
           "civ": "Cumans",
@@ -49820,5 +49872,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

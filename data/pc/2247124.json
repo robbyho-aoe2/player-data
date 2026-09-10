@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 261,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1106,
+        "totalGames": 264,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1123,
         "peakRating": 1140
       },
       "matches": [
+        {
+          "matchId": 505451159,
+          "civ": "Mongols",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:39:50.000Z",
+          "dur": 1936,
+          "opponents": [
+            {
+              "profileId": 5486051,
+              "name": "Waldi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505444151,
+          "civ": "Mongols",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:03:44.000Z",
+          "dur": 1789,
+          "opponents": [
+            {
+              "profileId": 12053774,
+              "name": "ELEG_Dk"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505319356,
+          "civ": "Mongols",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:31:11.000Z",
+          "dur": 399,
+          "opponents": [
+            {
+              "profileId": 23705690,
+              "name": "Racing corazon"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504861225,
           "civ": "Mongols",
@@ -4222,12 +4273,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3600,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1170,
+        "totalGames": 3603,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1168,
         "peakRating": 1285
       },
       "matches": [
+        {
+          "matchId": 505535662,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T22:00:10.000Z",
+          "dur": 473,
+          "opponents": [
+            {
+              "profileId": 23064793,
+              "name": "Baylon"
+            },
+            {
+              "profileId": 5785907,
+              "name": "T@n0 Loc0-!"
+            },
+            {
+              "profileId": 20235287,
+              "name": "Teodoro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4253317,
+              "name": "DS_Jaspe"
+            },
+            {
+              "profileId": 4288175,
+              "name": "Trinidad"
+            }
+          ]
+        },
+        {
+          "matchId": 505326244,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:14:06.000Z",
+          "dur": 1628,
+          "opponents": [
+            {
+              "profileId": 544387,
+              "name": "BIZZ9 | Zerkanoo"
+            },
+            {
+              "profileId": 13132954,
+              "name": "Sir Gordon8100"
+            },
+            {
+              "profileId": 11018970,
+              "name": "Filip_jede_Meso"
+            },
+            {
+              "profileId": 9537441,
+              "name": "Prenos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4253317,
+              "name": "DS_Jaspe"
+            },
+            {
+              "profileId": 4288175,
+              "name": "Trinidad"
+            },
+            {
+              "profileId": 2836315,
+              "name": "vagos.fran"
+            }
+          ]
+        },
+        {
+          "matchId": 505320782,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:40:41.000Z",
+          "dur": 1790,
+          "opponents": [
+            {
+              "profileId": 24031744,
+              "name": "BuhoBit"
+            },
+            {
+              "profileId": 23468777,
+              "name": "YemYesiL"
+            },
+            {
+              "profileId": 16749969,
+              "name": "Prusias"
+            },
+            {
+              "profileId": 25616202,
+              "name": "1. d4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4288175,
+              "name": "Trinidad"
+            },
+            {
+              "profileId": 4253317,
+              "name": "DS_Jaspe"
+            },
+            {
+              "profileId": 2836315,
+              "name": "vagos.fran"
+            }
+          ]
+        },
         {
           "matchId": 504878514,
           "civ": "Mongols",
@@ -116542,5 +116711,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1099,
         "peakRating": 1131
       },
@@ -137,12 +137,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 756,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1100,
+        "totalGames": 757,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1081,
         "peakRating": 1315
       },
       "matches": [
+        {
+          "matchId": 505335289,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:11:27.000Z",
+          "dur": 1648,
+          "opponents": [
+            {
+              "profileId": 21740975,
+              "name": "Josey Wales"
+            },
+            {
+              "profileId": 1765401,
+              "name": "[RbF] Stickly"
+            },
+            {
+              "profileId": 9067611,
+              "name": "DANICW82"
+            },
+            {
+              "profileId": 16106737,
+              "name": "Archimago del Kirin Tor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15524874,
+              "name": "Sir Tom the Tall"
+            },
+            {
+              "profileId": 22984009,
+              "name": "K-riok"
+            },
+            {
+              "profileId": 24980884,
+              "name": "Nbzinho"
+            }
+          ]
+        },
         {
           "matchId": 505153219,
           "civ": "Franks",
@@ -7776,5 +7818,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

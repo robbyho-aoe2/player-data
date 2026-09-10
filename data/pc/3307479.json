@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 717,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1065,
+        "totalGames": 719,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1063,
         "peakRating": 1199
       },
       "matches": [
+        {
+          "matchId": 505271750,
+          "civ": "Wei",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:37:46.000Z",
+          "dur": 462,
+          "opponents": [
+            {
+              "profileId": 2789832,
+              "name": "d54316533719"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505270899,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:33:16.000Z",
+          "dur": 73,
+          "opponents": [
+            {
+              "profileId": 11633383,
+              "name": "//strype//"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505131405,
           "civ": "Khitans",
@@ -11520,12 +11554,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 416,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1255,
+        "totalGames": 417,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1237,
         "peakRating": 1298
       },
       "matches": [
+        {
+          "matchId": 505269663,
+          "civ": "Khitans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:28:05.000Z",
+          "dur": 217,
+          "opponents": [
+            {
+              "profileId": 14952387,
+              "name": "\u03c0 t"
+            },
+            {
+              "profileId": 5511600,
+              "name": "Ibu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24108275,
+              "name": "sepo"
+            }
+          ]
+        },
         {
           "matchId": 505139868,
           "civ": "Persians",
@@ -24470,5 +24530,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

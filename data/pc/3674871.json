@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1578,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1515,
+        "totalGames": 1580,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1511,
         "peakRating": 1607
       },
       "matches": [
+        {
+          "matchId": 505283635,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:35:30.000Z",
+          "dur": 1217,
+          "opponents": [
+            {
+              "profileId": 743189,
+              "name": "Diablero"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505280391,
+          "civ": "Vikings",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:20:06.000Z",
+          "dur": 823,
+          "opponents": [
+            {
+              "profileId": 8895157,
+              "name": "PuffyCarrot"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505076333,
           "civ": "Celts",
@@ -26856,7 +26890,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 84,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1245,
         "peakRating": 1366
       },
@@ -29444,5 +29478,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "be",
+  "countryIcon": "\ud83c\udde7\ud83c\uddea",
+  "countryName": "Belgium"
 }

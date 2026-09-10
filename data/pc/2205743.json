@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": [
         {
@@ -59,12 +59,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1349,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1155,
+        "totalGames": 1351,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1154,
         "peakRating": 1270
       },
       "matches": [
+        {
+          "matchId": 505330546,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:39:45.000Z",
+          "dur": 1424,
+          "opponents": [
+            {
+              "profileId": 3384680,
+              "name": "VonPiatre"
+            },
+            {
+              "profileId": 3370092,
+              "name": "Cisco Beats"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25901023,
+              "name": "Korvus\u2022Core"
+            }
+          ]
+        },
+        {
+          "matchId": 505326914,
+          "civ": "Hindustanis",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:17:47.000Z",
+          "dur": 1228,
+          "opponents": [
+            {
+              "profileId": 4740695,
+              "name": "EL LEON"
+            },
+            {
+              "profileId": 1474918,
+              "name": "OhLawdHeComin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25901023,
+              "name": "Korvus\u2022Core"
+            }
+          ]
+        },
         {
           "matchId": 505101930,
           "civ": "Hindustanis",
@@ -51695,5 +51747,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

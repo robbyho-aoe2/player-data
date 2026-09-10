@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 152,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 2134,
         "peakRating": 2154
       },
@@ -1471,12 +1471,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 88,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1658,
+        "totalGames": 89,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1639,
         "peakRating": 1769
       },
       "matches": [
+        {
+          "matchId": 505373277,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:18:59.000Z",
+          "dur": 1151,
+          "opponents": [
+            {
+              "profileId": 4720124,
+              "name": "CTM | black forest best map"
+            },
+            {
+              "profileId": 12260619,
+              "name": "VNaif"
+            },
+            {
+              "profileId": 1404550,
+              "name": "DS_SayGG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5464646,
+              "name": "[VL] Lil Franco"
+            },
+            {
+              "profileId": 22576643,
+              "name": "VL Formolin"
+            }
+          ]
+        },
         {
           "matchId": 501101057,
           "civ": "Tatars",
@@ -2599,5 +2633,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

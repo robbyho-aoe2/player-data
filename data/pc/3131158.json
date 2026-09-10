@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-09",
         "latestRating": 686,
         "peakRating": 717
       },
@@ -461,12 +461,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 311,
-        "pulledDate": "2026-08-29",
-        "latestRating": 683,
+        "totalGames": 314,
+        "pulledDate": "2026-09-09",
+        "latestRating": 704,
         "peakRating": 866
       },
       "matches": [
+        {
+          "matchId": 505361202,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:00:47.000Z",
+          "dur": 1490,
+          "opponents": [
+            {
+              "profileId": 1364107,
+              "name": "Aventugabo"
+            },
+            {
+              "profileId": 24161424,
+              "name": "RSK | Nasif"
+            },
+            {
+              "profileId": 19603669,
+              "name": "elchoromota"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16887336,
+              "name": "danielrojaslaw"
+            },
+            {
+              "profileId": 6991,
+              "name": "ZeroFuqsGiven"
+            }
+          ]
+        },
+        {
+          "matchId": 505356054,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:26:55.000Z",
+          "dur": 1897,
+          "opponents": [
+            {
+              "profileId": 19603669,
+              "name": "elchoromota"
+            },
+            {
+              "profileId": 1364107,
+              "name": "Aventugabo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3216744,
+              "name": "Arn I"
+            }
+          ]
+        },
+        {
+          "matchId": 505355003,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:21:13.000Z",
+          "dur": 232,
+          "opponents": [
+            {
+              "profileId": 1364107,
+              "name": "Aventugabo"
+            },
+            {
+              "profileId": 19603669,
+              "name": "elchoromota"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15806092,
+              "name": "Raphael"
+            }
+          ]
+        },
         {
           "matchId": 501675439,
           "civ": "Romans",
@@ -9040,5 +9126,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

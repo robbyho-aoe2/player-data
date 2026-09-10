@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 1440,
         "peakRating": 1440
       },
@@ -1181,12 +1181,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3320,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1681,
+        "totalGames": 3322,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1703,
         "peakRating": 1876
       },
       "matches": [
+        {
+          "matchId": 505512627,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:56:01.000Z",
+          "dur": 1004,
+          "opponents": [
+            {
+              "profileId": 15003422,
+              "name": "Rafelso"
+            },
+            {
+              "profileId": 22464991,
+              "name": "Le_groOumf"
+            },
+            {
+              "profileId": 672107,
+              "name": "PironovskyII"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1966621,
+              "name": "Mystic"
+            },
+            {
+              "profileId": 258667,
+              "name": "Davve02"
+            }
+          ]
+        },
+        {
+          "matchId": 505506094,
+          "civ": "Lithuanians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:24:47.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 221614,
+              "name": "[RAT] Havik_AoE"
+            },
+            {
+              "profileId": 3478656,
+              "name": "2rich4u81"
+            },
+            {
+              "profileId": 15677316,
+              "name": "twitch: aoe2_billybadbeat"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1966621,
+              "name": "Mystic"
+            },
+            {
+              "profileId": 258667,
+              "name": "Davve02"
+            }
+          ]
+        },
         {
           "matchId": 505085668,
           "civ": "Malay",
@@ -116495,5 +116563,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

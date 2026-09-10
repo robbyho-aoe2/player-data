@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2668,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1201,
+        "totalGames": 2670,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1200,
         "peakRating": 1371
       },
       "matches": [
+        {
+          "matchId": 505248735,
+          "civ": "Mongols",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:34:14.000Z",
+          "dur": 1153,
+          "opponents": [
+            {
+              "profileId": 4660172,
+              "name": "Phabyon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505244869,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:13:17.000Z",
+          "dur": 1122,
+          "opponents": [
+            {
+              "profileId": 10000556,
+              "name": "M0k1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504005135,
           "civ": "Mongols",
@@ -42723,7 +42757,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2618,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1145,
         "peakRating": 1370
       },
@@ -109128,5 +109162,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

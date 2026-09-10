@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 703,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-09",
         "latestRating": 1705,
         "peakRating": 1725
       },
@@ -11279,12 +11279,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 60,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1720,
+        "totalGames": 61,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1730,
         "peakRating": 1736
       },
       "matches": [
+        {
+          "matchId": 505145177,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:48:55.000Z",
+          "dur": 1779,
+          "opponents": [
+            {
+              "profileId": 2445735,
+              "name": "TGT | Frep"
+            },
+            {
+              "profileId": 3448652,
+              "name": "TGT | Sera"
+            },
+            {
+              "profileId": 2885651,
+              "name": "FC_UnidadUnica"
+            },
+            {
+              "profileId": 2700518,
+              "name": "TGT | Diegote22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 285716,
+              "name": "pelufito.df"
+            },
+            {
+              "profileId": 6779041,
+              "name": "Monoz"
+            },
+            {
+              "profileId": 3893644,
+              "name": "Rockardo"
+            }
+          ]
+        },
         {
           "matchId": 498435112,
           "civ": "Portuguese",
@@ -13555,5 +13597,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

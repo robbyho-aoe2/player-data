@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1492,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-09",
         "latestRating": 615,
         "peakRating": 707
       },
@@ -23901,12 +23901,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2861,
-        "pulledDate": "2026-09-08",
-        "latestRating": 641,
+        "totalGames": 2863,
+        "pulledDate": "2026-09-09",
+        "latestRating": 629,
         "peakRating": 915
       },
       "matches": [
+        {
+          "matchId": 505320104,
+          "civ": "Britons",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:36:41.000Z",
+          "dur": 2194,
+          "opponents": [
+            {
+              "profileId": 25676156,
+              "name": "TopNoob666"
+            },
+            {
+              "profileId": 9877009,
+              "name": "Olen Mursu"
+            },
+            {
+              "profileId": 2369438,
+              "name": "kaktusmees"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22833671,
+              "name": "davidquiroz302"
+            },
+            {
+              "profileId": 4927064,
+              "name": "jose.rodarte"
+            }
+          ]
+        },
+        {
+          "matchId": 505305821,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:19:25.000Z",
+          "dur": 2190,
+          "opponents": [
+            {
+              "profileId": 22993489,
+              "name": "\u0413\u0440\u043e\u0437\u0430 \u041a\u0440\u0438\u043f\u043e\u0432"
+            },
+            {
+              "profileId": 1579014,
+              "name": "TRICKY, BUT STRONG, ZOG!"
+            },
+            {
+              "profileId": 430396,
+              "name": "STRONG, BUT TRICKY, ZOG!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 465994,
+              "name": "Heistergand"
+            },
+            {
+              "profileId": 20198535,
+              "name": "Minato-Uzumaki"
+            }
+          ]
+        },
         {
           "matchId": 505131350,
           "civ": "Britons",
@@ -114101,5 +114169,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

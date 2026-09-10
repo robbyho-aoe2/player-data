@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 94,
-        "pulledDate": "2026-08-29",
-        "latestRating": 716,
+        "totalGames": 95,
+        "pulledDate": "2026-09-09",
+        "latestRating": 700,
         "peakRating": 748
       },
       "matches": [
+        {
+          "matchId": 505464270,
+          "civ": "Japanese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:49:57.000Z",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 4285995,
+              "name": "gonzribe"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 500992836,
           "civ": "Turks",
@@ -1533,12 +1550,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 62,
-        "pulledDate": "2026-08-29",
-        "latestRating": 928,
+        "totalGames": 63,
+        "pulledDate": "2026-09-09",
+        "latestRating": 942,
         "peakRating": 992
       },
       "matches": [
+        {
+          "matchId": 505298632,
+          "civ": "Hindustanis",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:46:32.000Z",
+          "dur": 959,
+          "opponents": [
+            {
+              "profileId": 462591,
+              "name": "Q8_Rasheed"
+            },
+            {
+              "profileId": 25728644,
+              "name": "Oguz CareVia"
+            },
+            {
+              "profileId": 26092524,
+              "name": "wagonballs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3956464,
+              "name": "Steklowata"
+            },
+            {
+              "profileId": 18051654,
+              "name": "The Pig"
+            }
+          ]
+        },
         {
           "matchId": 500979134,
           "civ": "Hindustanis",
@@ -3395,5 +3446,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

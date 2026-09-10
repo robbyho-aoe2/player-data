@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 607,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1408,
+        "totalGames": 611,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1411,
         "peakRating": 1644
       },
       "matches": [
+        {
+          "matchId": 505521219,
+          "civ": "Saracens",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:38:50.000Z",
+          "dur": 1507,
+          "opponents": [
+            {
+              "profileId": 6895997,
+              "name": "Fr Spodo Komodo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505269614,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:27:46.000Z",
+          "dur": 3104,
+          "opponents": [
+            {
+              "profileId": 21577044,
+              "name": "No Pauses"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505263790,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:57:46.000Z",
+          "dur": 1670,
+          "opponents": [
+            {
+              "profileId": 11440373,
+              "name": "\u6c11\u529e\u5927A"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505245574,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:17:35.000Z",
+          "dur": 1483,
+          "opponents": [
+            {
+              "profileId": 22470219,
+              "name": "WSH"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505121412,
           "civ": "Maya",
@@ -10348,12 +10416,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 301,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1349,
+        "totalGames": 302,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1359,
         "peakRating": 1528
       },
       "matches": [
+        {
+          "matchId": 505528939,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:21:08.000Z",
+          "dur": 1038,
+          "opponents": [
+            {
+              "profileId": 17558663,
+              "name": "jbeltrankrisciunas"
+            },
+            {
+              "profileId": 17735778,
+              "name": "PAULXI"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9544590,
+              "name": "Damn!"
+            }
+          ]
+        },
         {
           "matchId": 505025612,
           "civ": "Maya",
@@ -20437,5 +20531,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

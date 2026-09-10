@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 213,
-        "pulledDate": "2026-09-08",
-        "latestRating": 999,
+        "totalGames": 214,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1015,
         "peakRating": 1015
       },
       "matches": [
+        {
+          "matchId": 505363676,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:16:27.000Z",
+          "dur": 1480,
+          "opponents": [
+            {
+              "profileId": 6352958,
+              "name": "Emperor Justinus Imperius"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 395348414,
           "civ": "Japanese",
@@ -3437,12 +3454,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1173,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1137,
+        "totalGames": 1174,
+        "pulledDate": "2026-09-09",
+        "latestRating": 1153,
         "peakRating": 1215
       },
       "matches": [
+        {
+          "matchId": 505368238,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:46:04.000Z",
+          "dur": 1832,
+          "opponents": [
+            {
+              "profileId": 2999434,
+              "name": "JU ju Ju"
+            },
+            {
+              "profileId": 2755655,
+              "name": "DevilRunner"
+            },
+            {
+              "profileId": 17388750,
+              "name": "Nichelson3360"
+            },
+            {
+              "profileId": 13771330,
+              "name": "711WasAPartTimeJob"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24954257,
+              "name": "\u8001\u6731"
+            },
+            {
+              "profileId": 12228445,
+              "name": "RzBol"
+            },
+            {
+              "profileId": 4104446,
+              "name": "RD | AlvaroMartp"
+            }
+          ]
+        },
         {
           "matchId": 504677661,
           "civ": "Spanish",
@@ -44063,5 +44122,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }
