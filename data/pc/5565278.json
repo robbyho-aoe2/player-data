@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 34,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1206,
         "peakRating": 1221
       },
@@ -573,12 +573,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3020,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1315,
+        "totalGames": 3022,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1310,
         "peakRating": 1376
       },
       "matches": [
+        {
+          "matchId": 505562418,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:53:42.000Z",
+          "dur": 2296,
+          "opponents": [
+            {
+              "profileId": 5342815,
+              "name": "SirEliasPeralta"
+            },
+            {
+              "profileId": 6715815,
+              "name": "Eldiano"
+            },
+            {
+              "profileId": 15143992,
+              "name": "|DD2E|  Poloisses"
+            },
+            {
+              "profileId": 21932495,
+              "name": "AiM | sAREMS;"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2794330,
+              "name": "\u00ae SEILERT \u00ae\u2122"
+            },
+            {
+              "profileId": 3413129,
+              "name": "Aspirante"
+            },
+            {
+              "profileId": 25307138,
+              "name": "m00n"
+            }
+          ]
+        },
+        {
+          "matchId": 505556035,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:10:17.000Z",
+          "dur": 2455,
+          "opponents": [
+            {
+              "profileId": 26110103,
+              "name": "Small_bang_theory"
+            },
+            {
+              "profileId": 19487315,
+              "name": "5419"
+            },
+            {
+              "profileId": 5840361,
+              "name": "12345"
+            },
+            {
+              "profileId": 1250965,
+              "name": "ozzyhapdo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25307138,
+              "name": "m00n"
+            },
+            {
+              "profileId": 3413129,
+              "name": "Aspirante"
+            },
+            {
+              "profileId": 2794330,
+              "name": "\u00ae SEILERT \u00ae\u2122"
+            }
+          ]
+        },
         {
           "matchId": 505144092,
           "civ": "Bengalis",
@@ -113438,5 +113522,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

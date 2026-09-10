@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1022,
         "peakRating": 1054
       },
@@ -301,12 +301,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 444,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1263,
+        "totalGames": 446,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1238,
         "peakRating": 1294
       },
       "matches": [
+        {
+          "matchId": 505567441,
+          "civ": "Slavs",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:27:07.000Z",
+          "dur": 2244,
+          "opponents": [
+            {
+              "profileId": 527030,
+              "name": "Levbo"
+            },
+            {
+              "profileId": 462724,
+              "name": "ldbootz9"
+            },
+            {
+              "profileId": 360662,
+              "name": "CptVkn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9689301,
+              "name": "MettatostonRay"
+            },
+            {
+              "profileId": 5521925,
+              "name": "Daralion"
+            }
+          ]
+        },
+        {
+          "matchId": 505559851,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:36:31.000Z",
+          "dur": 1515,
+          "opponents": [
+            {
+              "profileId": 1991425,
+              "name": "the_Mandalorian"
+            },
+            {
+              "profileId": 22794241,
+              "name": "Feathers McGraw"
+            },
+            {
+              "profileId": 664664,
+              "name": "kei 2026"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5521925,
+              "name": "Daralion"
+            },
+            {
+              "profileId": 9689301,
+              "name": "MettatostonRay"
+            }
+          ]
+        },
         {
           "matchId": 505126478,
           "civ": "Celts",
@@ -16513,5 +16581,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ve",
+  "countryIcon": "\ud83c\uddfb\ud83c\uddea",
+  "countryName": "Venezuela, Bolivarian Republic of"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 978,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1171,
         "peakRating": 1336
       },
@@ -15677,12 +15677,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2668,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1042,
+        "totalGames": 2670,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1011,
         "peakRating": 1387
       },
       "matches": [
+        {
+          "matchId": 505495412,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:34:47.000Z",
+          "dur": 3017,
+          "opponents": [
+            {
+              "profileId": 9065912,
+              "name": "Draco Dormiens"
+            },
+            {
+              "profileId": 18775613,
+              "name": "\u812b\u5149\u770b\u5927\u8857"
+            },
+            {
+              "profileId": 19199851,
+              "name": "\u5c3f\u5c3f\u5b8c\u8981\u81bd\u4e39\u4e39"
+            },
+            {
+              "profileId": 88159,
+              "name": "Captain10"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4038257,
+              "name": "Feed Me"
+            },
+            {
+              "profileId": 22352605,
+              "name": "Dostoyevski"
+            },
+            {
+              "profileId": 1798655,
+              "name": "PezMaza"
+            }
+          ]
+        },
+        {
+          "matchId": 505491901,
+          "civ": "Persians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:18:10.000Z",
+          "dur": 1001,
+          "opponents": [
+            {
+              "profileId": 9974530,
+              "name": "K.T."
+            },
+            {
+              "profileId": 22243356,
+              "name": "Dark"
+            },
+            {
+              "profileId": 26082557,
+              "name": "Legend Of 96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6426712,
+              "name": "WyZeR"
+            },
+            {
+              "profileId": 23827921,
+              "name": "FreakinAndry"
+            }
+          ]
+        },
         {
           "matchId": 504920324,
           "civ": "Persians",
@@ -98287,5 +98363,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

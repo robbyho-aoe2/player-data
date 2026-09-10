@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1023,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1224,
         "peakRating": 1226
       },
@@ -16397,12 +16397,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4708,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1038,
+        "totalGames": 4710,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1073,
         "peakRating": 1403
       },
       "matches": [
+        {
+          "matchId": 505563475,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:00:48.000Z",
+          "dur": 1546,
+          "opponents": [
+            {
+              "profileId": 23287845,
+              "name": "Magic3arth"
+            },
+            {
+              "profileId": 421814,
+              "name": "Dr.Bojingle"
+            },
+            {
+              "profileId": 387552,
+              "name": "Papa Fil"
+            },
+            {
+              "profileId": 23439986,
+              "name": "Predatory Shadow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19316760,
+              "name": "[BRTIM] Tupi"
+            },
+            {
+              "profileId": 11501807,
+              "name": "_InSaNe_"
+            },
+            {
+              "profileId": 24030796,
+              "name": "Jack Sparrow Nordestino"
+            }
+          ]
+        },
+        {
+          "matchId": 505555581,
+          "civ": "Muisca",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:07:39.000Z",
+          "dur": 2891,
+          "opponents": [
+            {
+              "profileId": 10397611,
+              "name": "mtph"
+            },
+            {
+              "profileId": 10153390,
+              "name": "Briando"
+            },
+            {
+              "profileId": 4214808,
+              "name": "scorpio"
+            },
+            {
+              "profileId": 4195765,
+              "name": "VolJeen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1783328,
+              "name": "General Ganja"
+            },
+            {
+              "profileId": 4911839,
+              "name": "Pennon"
+            },
+            {
+              "profileId": 21215144,
+              "name": "Governator01"
+            }
+          ]
+        },
         {
           "matchId": 504316132,
           "civ": "Huns",
@@ -193741,5 +193825,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

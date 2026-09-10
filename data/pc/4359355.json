@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 432,
         "peakRating": 653
       },
@@ -333,12 +333,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 428,
-        "pulledDate": "2026-09-05",
-        "latestRating": 817,
+        "totalGames": 429,
+        "pulledDate": "2026-09-10",
+        "latestRating": 803,
         "peakRating": 873
       },
       "matches": [
+        {
+          "matchId": 505577573,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:30:10.000Z",
+          "dur": 1912,
+          "opponents": [
+            {
+              "profileId": 20491497,
+              "name": "diossnefru1"
+            },
+            {
+              "profileId": 2493376,
+              "name": "lachrymose_pigeon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14022517,
+              "name": "Talerx3764"
+            }
+          ]
+        },
         {
           "matchId": 504547758,
           "civ": "Byzantines",
@@ -11831,5 +11857,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

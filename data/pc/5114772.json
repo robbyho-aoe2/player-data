@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 787,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1191,
+        "totalGames": 790,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1238,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 505445073,
+          "civ": "Sicilians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:07:55.000Z",
+          "dur": 2420,
+          "opponents": [
+            {
+              "profileId": 1715789,
+              "name": "\u62fc\u547d\u4e09\u90ce\u77f3\u79c0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505269023,
+          "civ": "Sicilians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:23:50.000Z",
+          "dur": 577,
+          "opponents": [
+            {
+              "profileId": 4361707,
+              "name": "laumeiernils"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505268666,
+          "civ": "Sicilians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:21:50.000Z",
+          "dur": 76,
+          "opponents": [
+            {
+              "profileId": 4361707,
+              "name": "laumeiernils"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505187868,
           "civ": "Sicilians",
@@ -12628,12 +12679,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 993,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1128,
+        "totalGames": 996,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1082,
         "peakRating": 1318
       },
       "matches": [
+        {
+          "matchId": 505240557,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:52:01.000Z",
+          "dur": 1144,
+          "opponents": [
+            {
+              "profileId": 3726120,
+              "name": "Kraltar"
+            },
+            {
+              "profileId": 1535856,
+              "name": "quidroga"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9440022,
+              "name": "RogerFDM"
+            }
+          ]
+        },
+        {
+          "matchId": 505228659,
+          "civ": "Sicilians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:46:46.000Z",
+          "dur": 957,
+          "opponents": [
+            {
+              "profileId": 10892220,
+              "name": "Arietediron"
+            },
+            {
+              "profileId": 5993236,
+              "name": "Nixon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13753948,
+              "name": "Shintao80"
+            }
+          ]
+        },
+        {
+          "matchId": 505225177,
+          "civ": "Sicilians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:27:20.000Z",
+          "dur": 1099,
+          "opponents": [
+            {
+              "profileId": 15099194,
+              "name": "Moo Deng"
+            },
+            {
+              "profileId": 332477,
+              "name": "Saritaxx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13753948,
+              "name": "Shintao80"
+            }
+          ]
+        },
         {
           "matchId": 504217038,
           "civ": "Sicilians",
@@ -37712,5 +37841,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

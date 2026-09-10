@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2530,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 990,
         "peakRating": 1086
       },
@@ -40525,12 +40525,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1608,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1211,
+        "totalGames": 1611,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1204,
         "peakRating": 1309
       },
       "matches": [
+        {
+          "matchId": 505478489,
+          "civ": "Bohemians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:08:56.000Z",
+          "dur": 1253,
+          "opponents": [
+            {
+              "profileId": 692414,
+              "name": "whyUniqueNames"
+            },
+            {
+              "profileId": 19699960,
+              "name": "Keega"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2380280,
+              "name": "[VPKT] MeelTex"
+            }
+          ]
+        },
+        {
+          "matchId": 505473666,
+          "civ": "Incas",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:42:07.000Z",
+          "dur": 1306,
+          "opponents": [
+            {
+              "profileId": 9081550,
+              "name": "Polito"
+            },
+            {
+              "profileId": 20375586,
+              "name": "mama_adisona"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2380280,
+              "name": "[VPKT] MeelTex"
+            }
+          ]
+        },
+        {
+          "matchId": 505469595,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:20:22.000Z",
+          "dur": 310,
+          "opponents": [
+            {
+              "profileId": 1742958,
+              "name": "God Of The Sea People"
+            },
+            {
+              "profileId": 4890047,
+              "name": "Make Infantry Great Again!!!"
+            },
+            {
+              "profileId": 3202441,
+              "name": "Lord Yarik"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2380280,
+              "name": "[VPKT] MeelTex"
+            },
+            {
+              "profileId": 2780487,
+              "name": "[VPKT] Semita"
+            }
+          ]
+        },
         {
           "matchId": 504989648,
           "civ": "Persians",
@@ -93261,5 +93347,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

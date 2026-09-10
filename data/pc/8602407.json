@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 34,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1361,
+        "totalGames": 41,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1313,
         "peakRating": 1411
       },
       "matches": [
+        {
+          "matchId": 505578886,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:37:39.000Z",
+          "dur": 346,
+          "opponents": [
+            {
+              "profileId": 23714791,
+              "name": "sabbag.gui"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505366607,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:34:17.000Z",
+          "dur": 36,
+          "opponents": [
+            {
+              "profileId": 11959372,
+              "name": "Jonas D'Arc"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505361444,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:01:28.000Z",
+          "dur": 1880,
+          "opponents": [
+            {
+              "profileId": 335739,
+              "name": "Heisenberg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505354686,
+          "civ": "Mongols",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:19:04.000Z",
+          "dur": 2491,
+          "opponents": [
+            {
+              "profileId": 10303083,
+              "name": "StadL"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505350053,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:48:52.000Z",
+          "dur": 1715,
+          "opponents": [
+            {
+              "profileId": 9862921,
+              "name": "Bearslayer9999"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505347016,
+          "civ": "Shu",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:28:59.000Z",
+          "dur": 1020,
+          "opponents": [
+            {
+              "profileId": 1780015,
+              "name": "Moririnnx"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505342489,
+          "civ": "Celts",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:58:42.000Z",
+          "dur": 1176,
+          "opponents": [
+            {
+              "profileId": 24421353,
+              "name": "BeepBeep"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503754413,
           "civ": "Magyars",
@@ -412,12 +531,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 74,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1340,
+        "totalGames": 75,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1329,
         "peakRating": 1457
       },
       "matches": [
+        {
+          "matchId": 505552833,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:49:07.000Z",
+          "dur": 1921,
+          "opponents": [
+            {
+              "profileId": 7151823,
+              "name": "alexgelas"
+            },
+            {
+              "profileId": 19012079,
+              "name": "GAX | Urubu"
+            },
+            {
+              "profileId": 5550891,
+              "name": "Dificult"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2332892,
+              "name": "LVH.Salven"
+            },
+            {
+              "profileId": 9824143,
+              "name": "LVH.Oteroz"
+            }
+          ]
+        },
         {
           "matchId": 505154493,
           "civ": "Vietnamese",
@@ -1679,5 +1832,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

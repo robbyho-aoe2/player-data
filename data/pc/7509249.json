@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 40,
-        "pulledDate": "2026-09-08",
-        "latestRating": 708,
+        "totalGames": 42,
+        "pulledDate": "2026-09-10",
+        "latestRating": 675,
         "peakRating": 749
       },
       "matches": [
+        {
+          "matchId": 505486348,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:49:11.000Z",
+          "dur": 1924,
+          "opponents": [
+            {
+              "profileId": 454902,
+              "name": "SELIM"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505416176,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:44:22.000Z",
+          "dur": 884,
+          "opponents": [
+            {
+              "profileId": 17319392,
+              "name": "Katavera"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505179227,
           "civ": "Bohemians",
@@ -671,12 +705,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 403,
-        "pulledDate": "2026-09-08",
-        "latestRating": 775,
+        "totalGames": 404,
+        "pulledDate": "2026-09-10",
+        "latestRating": 791,
         "peakRating": 851
       },
       "matches": [
+        {
+          "matchId": 505266076,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:09:04.000Z",
+          "dur": 1874,
+          "opponents": [
+            {
+              "profileId": 2588467,
+              "name": "eric.w.hof"
+            },
+            {
+              "profileId": 25303614,
+              "name": "jordicastillo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6892188,
+              "name": "\ud83d\udc14\u9e21\u4f60\u592a\u7f8e\ud83c\udfc0"
+            }
+          ]
+        },
         {
           "matchId": 504859805,
           "civ": "Bohemians",
@@ -15396,5 +15456,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

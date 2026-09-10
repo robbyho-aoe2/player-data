@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 665,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1549,
         "peakRating": 1572
       },
@@ -6014,12 +6014,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2760,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1410,
+        "totalGames": 2762,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1405,
         "peakRating": 1519
       },
       "matches": [
+        {
+          "matchId": 505278653,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:12:32.000Z",
+          "dur": 84,
+          "opponents": [
+            {
+              "profileId": 3413129,
+              "name": "Aspirante"
+            },
+            {
+              "profileId": 4167557,
+              "name": "Chompskee"
+            },
+            {
+              "profileId": 4274769,
+              "name": "Sain"
+            },
+            {
+              "profileId": 20400344,
+              "name": "tona1410"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10720439,
+              "name": "\u74e6\u5c1a\u786c"
+            },
+            {
+              "profileId": 5787215,
+              "name": "TwBestShaco"
+            },
+            {
+              "profileId": 10292121,
+              "name": "Jack"
+            }
+          ]
+        },
+        {
+          "matchId": 505272207,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:40:19.000Z",
+          "dur": 1829,
+          "opponents": [
+            {
+              "profileId": 20848201,
+              "name": "\u7d20\u7d20\u6751\u957f"
+            },
+            {
+              "profileId": 20834899,
+              "name": "L-loin"
+            },
+            {
+              "profileId": 5787215,
+              "name": "TwBestShaco"
+            },
+            {
+              "profileId": 1578407,
+              "name": "hester"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10980846,
+              "name": "hcenemod"
+            },
+            {
+              "profileId": 2915737,
+              "name": "\u865e\u5c0f\u6885"
+            },
+            {
+              "profileId": 378753,
+              "name": "EatEaty"
+            }
+          ]
+        },
         {
           "matchId": 505058984,
           "civ": "Armenians",
@@ -31865,5 +31949,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

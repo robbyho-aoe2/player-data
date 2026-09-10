@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1047
       },
       "matches": [
@@ -64,12 +64,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1300,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1252,
+        "totalGames": 1302,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1244,
         "peakRating": 1469
       },
       "matches": [
+        {
+          "matchId": 505396286,
+          "civ": "Vikings",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:06:25.000Z",
+          "dur": 2257,
+          "opponents": [
+            {
+              "profileId": 2092052,
+              "name": "[FW] Cray"
+            },
+            {
+              "profileId": 260202,
+              "name": "CaptKewl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16627796,
+              "name": "Vladimir \"Vlad\" Lem"
+            }
+          ]
+        },
+        {
+          "matchId": 505392847,
+          "civ": "Malay",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:23:59.000Z",
+          "dur": 1845,
+          "opponents": [
+            {
+              "profileId": 1408947,
+              "name": "CreasingCloth35"
+            },
+            {
+              "profileId": 224792,
+              "name": "bayruZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16627796,
+              "name": "Vladimir \"Vlad\" Lem"
+            }
+          ]
+        },
         {
           "matchId": 503536296,
           "civ": "Romans",
@@ -12359,5 +12411,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

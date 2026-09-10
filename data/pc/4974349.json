@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 212,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1124,
+        "totalGames": 216,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1121,
         "peakRating": 1299
       },
       "matches": [
+        {
+          "matchId": 505451697,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:42:55.000Z",
+          "dur": 1101,
+          "opponents": [
+            {
+              "profileId": 1620767,
+              "name": "J.D.Rehn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505236925,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:33:27.000Z",
+          "dur": 1956,
+          "opponents": [
+            {
+              "profileId": 9629538,
+              "name": "lukembarnes"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505232212,
+          "civ": "Incas",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:07:14.000Z",
+          "dur": 34,
+          "opponents": [
+            {
+              "profileId": 915908,
+              "name": "theoschuler"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505219064,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:48:53.000Z",
+          "dur": 998,
+          "opponents": [
+            {
+              "profileId": 18841881,
+              "name": "Perchatca"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504752891,
           "civ": "Bulgarians",
@@ -3424,12 +3492,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 140,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1200,
+        "totalGames": 142,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1199,
         "peakRating": 1298
       },
       "matches": [
+        {
+          "matchId": 505448647,
+          "civ": "Incas",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:27:43.000Z",
+          "dur": 772,
+          "opponents": [
+            {
+              "profileId": 4792973,
+              "name": "cocinerok23"
+            },
+            {
+              "profileId": 2749713,
+              "name": "Peru_o_O"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18356764,
+              "name": "\u7fd2\u8fd1\u5e73"
+            }
+          ]
+        },
+        {
+          "matchId": 505232389,
+          "civ": "Burgundians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:08:57.000Z",
+          "dur": 1384,
+          "opponents": [
+            {
+              "profileId": 23453256,
+              "name": "\u5c0f\u79bb\u7231\u5403\u7cd6"
+            },
+            {
+              "profileId": 12016487,
+              "name": "WenGeng"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1889181,
+              "name": "MCasals"
+            }
+          ]
+        },
         {
           "matchId": 501254172,
           "civ": "Magyars",
@@ -7866,5 +7986,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

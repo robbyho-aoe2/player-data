@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 40,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1186,
         "peakRating": 1218
       },
@@ -669,12 +669,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 636,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1073,
+        "totalGames": 640,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1140,
         "peakRating": 1201
       },
       "matches": [
+        {
+          "matchId": 505580546,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:49:24.000Z",
+          "dur": 2145,
+          "opponents": [
+            {
+              "profileId": 24559442,
+              "name": "[STT]Kratos_"
+            },
+            {
+              "profileId": 16030510,
+              "name": "[STT]Fe_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4294273,
+              "name": "martinete.avila"
+            }
+          ]
+        },
+        {
+          "matchId": 505573208,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:02:52.000Z",
+          "dur": 2422,
+          "opponents": [
+            {
+              "profileId": 1089819,
+              "name": "Vlad the Impaler"
+            },
+            {
+              "profileId": 1933380,
+              "name": "Abominable Joeman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4294273,
+              "name": "martinete.avila"
+            }
+          ]
+        },
+        {
+          "matchId": 505572445,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:57:59.000Z",
+          "dur": 120,
+          "opponents": [
+            {
+              "profileId": 24897940,
+              "name": "El Chileno del Norte"
+            },
+            {
+              "profileId": 10476461,
+              "name": "Vimabuma"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4294273,
+              "name": "martinete.avila"
+            }
+          ]
+        },
+        {
+          "matchId": 505570144,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:44:25.000Z",
+          "dur": 562,
+          "opponents": [
+            {
+              "profileId": 25386271,
+              "name": "joel.li90"
+            },
+            {
+              "profileId": 25386069,
+              "name": "mcrafter22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4294273,
+              "name": "martinete.avila"
+            }
+          ]
+        },
         {
           "matchId": 505156253,
           "civ": "Maya",
@@ -18069,5 +18173,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ec",
+  "countryIcon": "\ud83c\uddea\ud83c\udde8",
+  "countryName": "Ecuador"
 }

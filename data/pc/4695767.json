@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1295,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1173,
+        "totalGames": 1297,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1140,
         "peakRating": 1297
       },
       "matches": [
+        {
+          "matchId": 505270623,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:32:20.000Z",
+          "dur": 1660,
+          "opponents": [
+            {
+              "profileId": 1230224,
+              "name": "George Droyd"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505264450,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:59:55.000Z",
+          "dur": 1718,
+          "opponents": [
+            {
+              "profileId": 2570037,
+              "name": "teutonic30"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504007589,
           "civ": "Sicilians",
@@ -20755,12 +20789,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 835,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1128,
+        "totalGames": 837,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1163,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 505261012,
+          "civ": "Sicilians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:42:13.000Z",
+          "dur": 984,
+          "opponents": [
+            {
+              "profileId": 2717098,
+              "name": "Hyderabad (Ind)"
+            },
+            {
+              "profileId": 21211667,
+              "name": "buddy219755"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1917332,
+              "name": "Panellet"
+            }
+          ]
+        },
+        {
+          "matchId": 505254378,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:06:16.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 14025725,
+              "name": "\u6253\u5e1d\u56fd\u4eab\u80cc\u65f6\u4eba"
+            },
+            {
+              "profileId": 10522324,
+              "name": "\u4e94\u864e\u4e0a\u5c07-\u9ec3\u5fe0"
+            },
+            {
+              "profileId": 59567,
+              "name": "COIL"
+            },
+            {
+              "profileId": 17277398,
+              "name": "\u7121\u96d9\u6230\u795e-\u5442\u5e03"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2769328,
+              "name": "Le Ron"
+            },
+            {
+              "profileId": 2660916,
+              "name": "bastianbps"
+            },
+            {
+              "profileId": 2493518,
+              "name": "UNREAL"
+            }
+          ]
+        },
         {
           "matchId": 503636092,
           "civ": "Magyars",
@@ -45955,5 +46057,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

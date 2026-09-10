@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 438,
-        "pulledDate": "2026-09-08",
-        "latestRating": 972,
+        "totalGames": 442,
+        "pulledDate": "2026-09-10",
+        "latestRating": 944,
         "peakRating": 1021
       },
       "matches": [
+        {
+          "matchId": 505562668,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:54:09.000Z",
+          "dur": 3237,
+          "opponents": [
+            {
+              "profileId": 23829024,
+              "name": "goodlevis0206"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505558782,
+          "civ": "Mongols",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:29:21.000Z",
+          "dur": 1450,
+          "opponents": [
+            {
+              "profileId": 18593916,
+              "name": "INK | papapitufoprado"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505334171,
+          "civ": "Mongols",
+          "map": "Marketplace",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:04:20.000Z",
+          "dur": 589,
+          "opponents": [
+            {
+              "profileId": 6347850,
+              "name": "chtken11"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505331937,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:48:10.000Z",
+          "dur": 819,
+          "opponents": [
+            {
+              "profileId": 2858479,
+              "name": "Titch"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505123031,
           "civ": "Mongols",
@@ -4027,12 +4095,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4092,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1232,
-        "peakRating": 1232
+        "totalGames": 4094,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1266,
+        "peakRating": 1266
       },
       "matches": [
+        {
+          "matchId": 505571220,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:50:37.000Z",
+          "dur": 438,
+          "opponents": [
+            {
+              "profileId": 23568909,
+              "name": "VacaLoca"
+            },
+            {
+              "profileId": 5936277,
+              "name": "Soul Manus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2747191,
+              "name": "Fusilier649"
+            }
+          ]
+        },
+        {
+          "matchId": 505336080,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:16:19.000Z",
+          "dur": 2974,
+          "opponents": [
+            {
+              "profileId": 2761699,
+              "name": "LRNI_Thegar"
+            },
+            {
+              "profileId": 734028,
+              "name": "LRNI MarinM"
+            },
+            {
+              "profileId": 2093209,
+              "name": "LRNI_Cail"
+            },
+            {
+              "profileId": 11888188,
+              "name": "cagatepomelo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3716545,
+              "name": "darkdavixi"
+            },
+            {
+              "profileId": 5697189,
+              "name": "Bensun"
+            },
+            {
+              "profileId": 9685992,
+              "name": "\u9c7c\u96f7\u7279\u5927\u53f7"
+            }
+          ]
+        },
         {
           "matchId": 505133948,
           "civ": "Mongols",
@@ -42736,5 +42872,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

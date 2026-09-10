@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 192,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1135,
         "peakRating": 1184
       },
@@ -3101,12 +3101,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2026,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1275,
+        "totalGames": 2027,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1259,
         "peakRating": 1425
       },
       "matches": [
+        {
+          "matchId": 505602501,
+          "civ": "Maya",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T05:59:43.000Z",
+          "dur": 1801,
+          "opponents": [
+            {
+              "profileId": 6244565,
+              "name": "[CRX] CRIXTERO"
+            },
+            {
+              "profileId": 12052080,
+              "name": "[CRX] Darius"
+            },
+            {
+              "profileId": 22468457,
+              "name": "[GDL] SEVONENKO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17778243,
+              "name": "Veretheragna"
+            },
+            {
+              "profileId": 606402,
+              "name": "eugenibeto"
+            }
+          ]
+        },
         {
           "matchId": 504901952,
           "civ": "Maya",
@@ -68756,5 +68790,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "au",
+  "countryIcon": "\ud83c\udde6\ud83c\uddfa",
+  "countryName": "Australia"
 }

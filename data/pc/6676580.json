@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 907,
-        "pulledDate": "2026-09-04",
+        "totalGames": 909,
+        "pulledDate": "2026-09-10",
         "latestRating": 1555,
         "peakRating": 1636
       },
       "matches": [
+        {
+          "matchId": 505505359,
+          "civ": "Wu",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:20:23.000Z",
+          "dur": 1258,
+          "opponents": [
+            {
+              "profileId": 3521459,
+              "name": "TouchMyNeck"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505499079,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:51:21.000Z",
+          "dur": 1701,
+          "opponents": [
+            {
+              "profileId": 21577044,
+              "name": "No Pauses"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503890413,
           "civ": "Mongols",
@@ -14544,7 +14578,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 939,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1474,
         "peakRating": 1715
       },
@@ -48082,5 +48116,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

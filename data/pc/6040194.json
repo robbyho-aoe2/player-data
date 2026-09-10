@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1886,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1127,
+        "totalGames": 1889,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1115,
         "peakRating": 1295
       },
       "matches": [
+        {
+          "matchId": 505569542,
+          "civ": "Lithuanians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:40:24.000Z",
+          "dur": 1512,
+          "opponents": [
+            {
+              "profileId": 2772295,
+              "name": "Kazuma"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505561682,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:47:57.000Z",
+          "dur": 916,
+          "opponents": [
+            {
+              "profileId": 26080705,
+              "name": "throbbing_uncle"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505279804,
+          "civ": "Ethiopians",
+          "map": "Marketplace",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:17:05.000Z",
+          "dur": 1717,
+          "opponents": [
+            {
+              "profileId": 3715592,
+              "name": "juffie"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499760634,
           "civ": "Lithuanians",
@@ -30205,12 +30256,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2206,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1087,
+        "totalGames": 2208,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1085,
         "peakRating": 1283
       },
       "matches": [
+        {
+          "matchId": 505564912,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:10:13.000Z",
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 1279106,
+              "name": "Reimke"
+            },
+            {
+              "profileId": 3180687,
+              "name": "30FLY | Andrew_Heals"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25986406,
+              "name": "pabloi.arijon"
+            }
+          ]
+        },
+        {
+          "matchId": 505285860,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:46:48.000Z",
+          "dur": 1466,
+          "opponents": [
+            {
+              "profileId": 20730430,
+              "name": "dusen128371"
+            },
+            {
+              "profileId": 1872877,
+              "name": "Andrey4ik Pudge"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2150862,
+              "name": "clem3613"
+            }
+          ]
+        },
         {
           "matchId": 505056533,
           "civ": "Hindustanis",
@@ -103274,5 +103377,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

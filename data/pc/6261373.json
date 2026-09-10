@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1086,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1610,
         "peakRating": 1625
       },
@@ -17407,12 +17407,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2651,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1522,
+        "totalGames": 2653,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1533,
         "peakRating": 1654
       },
       "matches": [
+        {
+          "matchId": 505577791,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:31:17.000Z",
+          "dur": 1616,
+          "opponents": [
+            {
+              "profileId": 233625,
+              "name": "MooN | MooN"
+            },
+            {
+              "profileId": 10784041,
+              "name": "Ripthepie"
+            },
+            {
+              "profileId": 25477540,
+              "name": "golo_face"
+            },
+            {
+              "profileId": 5231402,
+              "name": "AttilathePun463"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4821372,
+              "name": "Ryblade"
+            },
+            {
+              "profileId": 4277642,
+              "name": "knightforchrist_11"
+            },
+            {
+              "profileId": 1668882,
+              "name": "RyskiNinja"
+            }
+          ]
+        },
+        {
+          "matchId": 505571669,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:53:24.000Z",
+          "dur": 1951,
+          "opponents": [
+            {
+              "profileId": 6419082,
+              "name": "AxD | Keiokenkun-Uno-Puro"
+            },
+            {
+              "profileId": 18725512,
+              "name": "AxD | Cad Bane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1668882,
+              "name": "RyskiNinja"
+            }
+          ]
+        },
         {
           "matchId": 505158074,
           "civ": "Huns",
@@ -99387,5 +99455,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 4169,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1221,
+        "totalGames": 4173,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1189,
         "peakRating": 1357
       },
       "matches": [
+        {
+          "matchId": 505587602,
+          "civ": "Bulgarians",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:38:34.000Z",
+          "dur": 1064,
+          "opponents": [
+            {
+              "profileId": 2162177,
+              "name": "Burgoman2"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505576598,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:23:21.000Z",
+          "dur": 1624,
+          "opponents": [
+            {
+              "profileId": 24577759,
+              "name": "theWarlock"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505572962,
+          "civ": "Bulgarians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:00:38.000Z",
+          "dur": 643,
+          "opponents": [
+            {
+              "profileId": 3130849,
+              "name": "Dary-o!"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505416028,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:42:59.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 574708,
+              "name": "\u5317\u6597\u661f\u53f8"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505178121,
           "civ": "Bulgarians",
@@ -66762,12 +66830,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1788,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1129,
+        "totalGames": 1789,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1115,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 505584378,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:15:02.000Z",
+          "dur": 1332,
+          "opponents": [
+            {
+              "profileId": 8520112,
+              "name": "juanpasp2001825"
+            },
+            {
+              "profileId": 18353869,
+              "name": "echebaum"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6767009,
+              "name": "Dragerwoods"
+            }
+          ]
+        },
         {
           "matchId": 504970192,
           "civ": "Bulgarians",
@@ -117073,5 +117167,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ru",
+  "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
+  "countryName": "Russian Federation"
 }

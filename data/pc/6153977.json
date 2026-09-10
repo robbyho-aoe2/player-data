@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 126,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1234,
+        "totalGames": 127,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1218,
         "peakRating": 1299
       },
       "matches": [
+        {
+          "matchId": 505345587,
+          "civ": "Britons",
+          "map": "Migration",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:19:52.000Z",
+          "dur": 52,
+          "opponents": [
+            {
+              "profileId": 10990140,
+              "name": "rrhaburn14"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505223289,
           "civ": "Teutons",
@@ -2171,12 +2188,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 588,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1256,
+        "totalGames": 590,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1275,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 505554886,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:03:31.000Z",
+          "dur": 165,
+          "opponents": [
+            {
+              "profileId": 24473133,
+              "name": "Cango"
+            },
+            {
+              "profileId": 4448442,
+              "name": "XEVER | JoKeR"
+            },
+            {
+              "profileId": 2873389,
+              "name": "Pipo"
+            },
+            {
+              "profileId": 2629484,
+              "name": "acm_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1250965,
+              "name": "ozzyhapdo"
+            },
+            {
+              "profileId": 22781963,
+              "name": "daxbordeaux"
+            },
+            {
+              "profileId": 4232171,
+              "name": "Duck Rattlehead"
+            }
+          ]
+        },
+        {
+          "matchId": 505549426,
+          "civ": "Armenians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:26:33.000Z",
+          "dur": 1650,
+          "opponents": [
+            {
+              "profileId": 9733677,
+              "name": "PSX | King"
+            },
+            {
+              "profileId": 20275312,
+              "name": "Matasariano9065"
+            },
+            {
+              "profileId": 1135896,
+              "name": "CTM | Franco*"
+            },
+            {
+              "profileId": 4255093,
+              "name": "Cristian Monzon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1700937,
+              "name": "BateFoFo"
+            },
+            {
+              "profileId": 2362315,
+              "name": "Melioth"
+            },
+            {
+              "profileId": 6411927,
+              "name": "SpawnShark"
+            }
+          ]
+        },
         {
           "matchId": 505217497,
           "civ": "Mapuche",
@@ -25195,5 +25296,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "au",
+  "countryIcon": "\ud83c\udde6\ud83c\uddfa",
+  "countryName": "Australia"
 }

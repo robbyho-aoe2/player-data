@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1518,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1188,
+        "totalGames": 1520,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1190,
         "peakRating": 1305
       },
       "matches": [
+        {
+          "matchId": 505557377,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:19:01.000Z",
+          "dur": 1522,
+          "opponents": [
+            {
+              "profileId": 3155426,
+              "name": "andru_m15"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505553905,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:55:46.000Z",
+          "dur": 1263,
+          "opponents": [
+            {
+              "profileId": 3361688,
+              "name": "The Mad King"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505111356,
           "civ": "Burmese",
@@ -25836,7 +25870,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1079,
         "peakRating": 1130
       },
@@ -26337,5 +26371,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

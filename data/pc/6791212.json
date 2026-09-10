@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 213,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1187,
         "peakRating": 1250
       },
@@ -3437,12 +3437,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 523,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1302,
+        "totalGames": 527,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1314,
         "peakRating": 1444
       },
       "matches": [
+        {
+          "matchId": 505463809,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:48:01.000Z",
+          "dur": 2072,
+          "opponents": [
+            {
+              "profileId": 749536,
+              "name": "DCCHEN"
+            },
+            {
+              "profileId": 21663757,
+              "name": "Not.MbL"
+            },
+            {
+              "profileId": 12235127,
+              "name": "Not.Vipper"
+            },
+            {
+              "profileId": 23852497,
+              "name": "NUR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23197787,
+              "name": "SCHNOBEL"
+            },
+            {
+              "profileId": 1900842,
+              "name": "Massarock"
+            },
+            {
+              "profileId": 1050058,
+              "name": "scarabe"
+            }
+          ]
+        },
+        {
+          "matchId": 505463016,
+          "civ": "Armenians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:43:40.000Z",
+          "dur": 48,
+          "opponents": [
+            {
+              "profileId": 24834789,
+              "name": "Demon Hunters"
+            },
+            {
+              "profileId": 6279198,
+              "name": "AN25"
+            },
+            {
+              "profileId": 5026561,
+              "name": "\u8001\u606d"
+            },
+            {
+              "profileId": 973735,
+              "name": "NyxXX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 649805,
+              "name": "mojotzotzo"
+            },
+            {
+              "profileId": 2983555,
+              "name": "elchinaleikazo"
+            },
+            {
+              "profileId": 2151684,
+              "name": "\u98db\u886b\u8d70\u5976"
+            }
+          ]
+        },
+        {
+          "matchId": 505462199,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:39:14.000Z",
+          "dur": 273,
+          "opponents": [
+            {
+              "profileId": 6279198,
+              "name": "AN25"
+            },
+            {
+              "profileId": 5026561,
+              "name": "\u8001\u606d"
+            },
+            {
+              "profileId": 973735,
+              "name": "NyxXX"
+            },
+            {
+              "profileId": 24834789,
+              "name": "Demon Hunters"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6432870,
+              "name": "Carter Mc"
+            },
+            {
+              "profileId": 3330818,
+              "name": "TonyMangtana"
+            },
+            {
+              "profileId": 19306967,
+              "name": "MZTK | ___Jaque_mate"
+            }
+          ]
+        },
+        {
+          "matchId": 505461573,
+          "civ": "Armenians",
+          "map": "Arena",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:35:53.000Z",
+          "dur": 184,
+          "opponents": [
+            {
+              "profileId": 5839175,
+              "name": "\u4e00\u500b\u7267\u7f8a\u4eba"
+            },
+            {
+              "profileId": 9416779,
+              "name": "Red bull | Andy chiou"
+            },
+            {
+              "profileId": 3098659,
+              "name": "Don't fight"
+            },
+            {
+              "profileId": 6428182,
+              "name": "Red bull-power off"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18199258,
+              "name": "."
+            },
+            {
+              "profileId": 25019416,
+              "name": "Hymp\u00e9riius"
+            },
+            {
+              "profileId": 649805,
+              "name": "mojotzotzo"
+            }
+          ]
+        },
         {
           "matchId": 505069511,
           "civ": "Armenians",
@@ -22362,5 +22530,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ru",
+  "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
+  "countryName": "Russian Federation"
 }

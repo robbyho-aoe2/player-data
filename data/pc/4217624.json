@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 751,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1164,
+        "totalGames": 754,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1182,
         "peakRating": 1495
       },
       "matches": [
+        {
+          "matchId": 505413550,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:16:36.000Z",
+          "dur": 2146,
+          "opponents": [
+            {
+              "profileId": 1136718,
+              "name": ".david2001"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505189379,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:16:35.000Z",
+          "dur": 754,
+          "opponents": [
+            {
+              "profileId": 14359889,
+              "name": "Balian Du 37"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505187163,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:51:17.000Z",
+          "dur": 1334,
+          "opponents": [
+            {
+              "profileId": 5571551,
+              "name": "[KT]bet52"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504454383,
           "civ": "Spanish",
@@ -12052,7 +12103,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 171,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 1375,
         "peakRating": 1375
       },
@@ -17684,5 +17735,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mn",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddf3",
+  "countryName": "Mongolia"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 206,
-        "pulledDate": "2026-09-04",
-        "latestRating": 2279,
+        "totalGames": 208,
+        "pulledDate": "2026-09-10",
+        "latestRating": 2312,
         "peakRating": 2365
       },
       "matches": [
+        {
+          "matchId": 505563135,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:57:49.000Z",
+          "dur": 1949,
+          "opponents": [
+            {
+              "profileId": 1516024,
+              "name": "Kiko"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505552405,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:46:14.000Z",
+          "dur": 1279,
+          "opponents": [
+            {
+              "profileId": 210872,
+              "name": "link_chaos"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503716642,
           "civ": "Chinese",
@@ -3328,7 +3362,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1545,
         "peakRating": 1562
       },
@@ -3874,5 +3908,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

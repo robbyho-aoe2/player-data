@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 41,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1210,
+        "totalGames": 44,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1197,
         "peakRating": 1441
       },
       "matches": [
+        {
+          "matchId": 505553941,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:56:33.000Z",
+          "dur": 1115,
+          "opponents": [
+            {
+              "profileId": 22005373,
+              "name": "Never Had"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505341053,
+          "civ": "Teutons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:48:29.000Z",
+          "dur": 1889,
+          "opponents": [
+            {
+              "profileId": 2055679,
+              "name": "N4nd0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505338841,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:33:01.000Z",
+          "dur": 888,
+          "opponents": [
+            {
+              "profileId": 25520710,
+              "name": "Marun14"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505152895,
           "civ": "Cumans",
@@ -726,12 +777,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 407,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1147,
+        "totalGames": 410,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1099,
         "peakRating": 1450
       },
       "matches": [
+        {
+          "matchId": 505553147,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:51:00.000Z",
+          "dur": 258,
+          "opponents": [
+            {
+              "profileId": 18506527,
+              "name": "ojalan"
+            },
+            {
+              "profileId": 2897772,
+              "name": "Kaiser Johannes Markus IV."
+            },
+            {
+              "profileId": 12023893,
+              "name": "BornForust"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2878989,
+              "name": "Ctrl Gio"
+            },
+            {
+              "profileId": 4235218,
+              "name": "Cheblin"
+            }
+          ]
+        },
+        {
+          "matchId": 505548650,
+          "civ": "Cumans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:21:09.000Z",
+          "dur": 1718,
+          "opponents": [
+            {
+              "profileId": 5641671,
+              "name": "Pepechuelo"
+            },
+            {
+              "profileId": 2000794,
+              "name": "TheLowercasee"
+            },
+            {
+              "profileId": 2700288,
+              "name": "bache22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18337619,
+              "name": "ennio2mil"
+            },
+            {
+              "profileId": 10139459,
+              "name": "\u5c0f\u660e"
+            }
+          ]
+        },
+        {
+          "matchId": 505330676,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:41:00.000Z",
+          "dur": 1824,
+          "opponents": [
+            {
+              "profileId": 235370,
+              "name": "Tupeck"
+            },
+            {
+              "profileId": 11676819,
+              "name": "Yazz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15362389,
+              "name": "cjblikstad"
+            }
+          ]
+        },
         {
           "matchId": 505114819,
           "civ": "Saracens",
@@ -14386,5 +14531,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

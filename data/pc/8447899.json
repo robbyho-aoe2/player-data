@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 156,
-        "pulledDate": "2026-09-04",
-        "latestRating": 2236,
+        "totalGames": 159,
+        "pulledDate": "2026-09-10",
+        "latestRating": 2245,
         "peakRating": 2355
       },
       "matches": [
+        {
+          "matchId": 505257762,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:24:36.000Z",
+          "dur": 845,
+          "opponents": [
+            {
+              "profileId": 220916,
+              "name": "Enzberg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505253544,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:01:32.000Z",
+          "dur": 1326,
+          "opponents": [
+            {
+              "profileId": 7240746,
+              "name": "Clearlove"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505249665,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:39:43.000Z",
+          "dur": 878,
+          "opponents": [
+            {
+              "profileId": 234400,
+              "name": "FelixAldi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504045785,
           "civ": "Wei",
@@ -1568,7 +1619,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1536,
         "peakRating": 1570
       },
@@ -1819,5 +1870,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

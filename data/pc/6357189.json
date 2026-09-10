@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 144,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1300,
+        "totalGames": 148,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1301,
         "peakRating": 1382
       },
       "matches": [
+        {
+          "matchId": 505571888,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:53:57.000Z",
+          "dur": 1568,
+          "opponents": [
+            {
+              "profileId": 3307237,
+              "name": "DS_Moustachon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505374846,
+          "civ": "Berbers",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:30:01.000Z",
+          "dur": 1557,
+          "opponents": [
+            {
+              "profileId": 21911155,
+              "name": "Balili"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505348034,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:35:55.000Z",
+          "dur": 1422,
+          "opponents": [
+            {
+              "profileId": 5167899,
+              "name": "echO48"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505340457,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:44:30.000Z",
+          "dur": 820,
+          "opponents": [
+            {
+              "profileId": 23714791,
+              "name": "sabbag.gui"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504892059,
           "civ": "Poles",
@@ -2478,7 +2546,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 448,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1355,
         "peakRating": 1371
       },
@@ -18605,5 +18673,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "uy",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
+  "countryName": "Uruguay"
 }

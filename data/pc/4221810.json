@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2232,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 2404,
         "peakRating": 2414
       },
@@ -35741,12 +35741,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2471,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1911,
+        "totalGames": 2473,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1890,
         "peakRating": 2104
       },
       "matches": [
+        {
+          "matchId": 505487114,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:54:14.000Z",
+          "dur": 1616,
+          "opponents": [
+            {
+              "profileId": 2747902,
+              "name": "hK | Anubis"
+            },
+            {
+              "profileId": 223830,
+              "name": "Fresh To Death"
+            },
+            {
+              "profileId": 6090060,
+              "name": "noru-ego"
+            },
+            {
+              "profileId": 3960822,
+              "name": "\u3046\u30fc\u307a\u30fc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21627884,
+              "name": "kazumakine"
+            },
+            {
+              "profileId": 19138519,
+              "name": "Gericault667"
+            },
+            {
+              "profileId": 11595998,
+              "name": "gjizhijian6866"
+            }
+          ]
+        },
+        {
+          "matchId": 505262511,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:51:04.000Z",
+          "dur": 1238,
+          "opponents": [
+            {
+              "profileId": 260740,
+              "name": "Hector"
+            },
+            {
+              "profileId": 1071925,
+              "name": "DeadlyEfficiency"
+            },
+            {
+              "profileId": 3304455,
+              "name": "ggmax"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 754845,
+              "name": "AceRx"
+            },
+            {
+              "profileId": 5648838,
+              "name": "happikon.6139"
+            }
+          ]
+        },
         {
           "matchId": 504860013,
           "civ": "Malay",
@@ -119931,5 +120007,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

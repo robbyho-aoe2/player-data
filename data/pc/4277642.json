@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1164,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1544,
+        "totalGames": 1165,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1563,
         "peakRating": 1624
       },
       "matches": [
+        {
+          "matchId": 505582313,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:00:09.000Z",
+          "dur": 1121,
+          "opponents": [
+            {
+              "profileId": 11131109,
+              "name": "NatheSpike"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504614496,
           "civ": "Bohemians",
@@ -18657,12 +18674,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1177,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1513,
+        "totalGames": 1178,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1504,
         "peakRating": 1599
       },
       "matches": [
+        {
+          "matchId": 505577791,
+          "civ": "Koreans",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:31:17.000Z",
+          "dur": 1616,
+          "opponents": [
+            {
+              "profileId": 25477540,
+              "name": "golo_face"
+            },
+            {
+              "profileId": 10784041,
+              "name": "Ripthepie"
+            },
+            {
+              "profileId": 5231402,
+              "name": "AttilathePun463"
+            },
+            {
+              "profileId": 233625,
+              "name": "MooN | MooN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6261373,
+              "name": "Kyrisser"
+            },
+            {
+              "profileId": 1668882,
+              "name": "RyskiNinja"
+            },
+            {
+              "profileId": 4821372,
+              "name": "Ryblade"
+            }
+          ]
+        },
         {
           "matchId": 505158074,
           "civ": "Georgians",
@@ -58279,5 +58338,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

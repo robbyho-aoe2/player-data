@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 171,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1224,
-        "peakRating": 1226
+        "totalGames": 175,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1204,
+        "peakRating": 1240
       },
       "matches": [
+        {
+          "matchId": 505258974,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:30:47.000Z",
+          "dur": 2986,
+          "opponents": [
+            {
+              "profileId": 2434471,
+              "name": "Jungle The Quest"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505240532,
+          "civ": "Chinese",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:51:09.000Z",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 2744358,
+              "name": "[GRs]KillerJerry"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505233631,
+          "civ": "Chinese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:14:45.000Z",
+          "dur": 1935,
+          "opponents": [
+            {
+              "profileId": 10922463,
+              "name": "\u671b\u8212\u82b7\u82e5\u6620\u6708"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505231571,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:03:18.000Z",
+          "dur": 636,
+          "opponents": [
+            {
+              "profileId": 6199858,
+              "name": "Lobster"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505225002,
           "civ": "Chinese",
@@ -2936,12 +3004,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 565,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1117,
+        "totalGames": 568,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1096,
         "peakRating": 1272
       },
       "matches": [
+        {
+          "matchId": 505406791,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T09:07:36.000Z",
+          "dur": 1059,
+          "opponents": [
+            {
+              "profileId": 292648,
+              "name": "Temporal Anomaly"
+            },
+            {
+              "profileId": 6072106,
+              "name": "_phlebas_"
+            },
+            {
+              "profileId": 1004697,
+              "name": "Ezer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25589831,
+              "name": "Black Wolf"
+            },
+            {
+              "profileId": 10604382,
+              "name": "Nagazuki"
+            }
+          ]
+        },
+        {
+          "matchId": 505403098,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:27:36.000Z",
+          "dur": 1378,
+          "opponents": [
+            {
+              "profileId": 24911236,
+              "name": "Mythos_Cowboi"
+            },
+            {
+              "profileId": 24911431,
+              "name": "TC"
+            },
+            {
+              "profileId": 23474401,
+              "name": "Ghostdog3053"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 377459,
+              "name": "Pandinus"
+            },
+            {
+              "profileId": 5603776,
+              "name": "Sonhero1"
+            }
+          ]
+        },
+        {
+          "matchId": 505252475,
+          "civ": "Saracens",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:55:57.000Z",
+          "dur": 1262,
+          "opponents": [
+            {
+              "profileId": 9197485,
+              "name": "Facha Matamoros"
+            },
+            {
+              "profileId": 1889894,
+              "name": "Alarma"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4884043,
+              "name": "Super Grek)"
+            }
+          ]
+        },
         {
           "matchId": 505038327,
           "civ": "Magyars",
@@ -22242,5 +22404,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "vn",
+  "countryIcon": "\ud83c\uddfb\ud83c\uddf3",
+  "countryName": "Viet Nam"
 }

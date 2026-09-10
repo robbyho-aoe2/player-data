@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 900,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1538,
+        "totalGames": 904,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1526,
         "peakRating": 1737
       },
       "matches": [
+        {
+          "matchId": 505580226,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:46:27.000Z",
+          "dur": 416,
+          "opponents": [
+            {
+              "profileId": 2750147,
+              "name": "AiM | Maggick"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505500747,
+          "civ": "Gurjaras",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:59:48.000Z",
+          "dur": 1796,
+          "opponents": [
+            {
+              "profileId": 14834421,
+              "name": "TabA_Falcostrix"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505399484,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:45:23.000Z",
+          "dur": 1456,
+          "opponents": [
+            {
+              "profileId": 2722048,
+              "name": "GLyBO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505398376,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:32:18.000Z",
+          "dur": 760,
+          "opponents": [
+            {
+              "profileId": 17816890,
+              "name": "\u591a\u4e48\u75db\u7684\u9886\u609f"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505228319,
           "civ": "Celts",
@@ -14456,12 +14524,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1240,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1392,
+        "totalGames": 1242,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1390,
         "peakRating": 1577
       },
       "matches": [
+        {
+          "matchId": 505584500,
+          "civ": "Khmer",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:16:02.000Z",
+          "dur": 1436,
+          "opponents": [
+            {
+              "profileId": 2365496,
+              "name": "AoG_Pipes"
+            },
+            {
+              "profileId": 15438238,
+              "name": "AoG_Bronco"
+            },
+            {
+              "profileId": 10054239,
+              "name": "AoG_Fernecito"
+            },
+            {
+              "profileId": 2737629,
+              "name": "AoG_Lotsen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24904249,
+              "name": "BSV | DiosdadoCamello"
+            },
+            {
+              "profileId": 10275220,
+              "name": "PocaChota"
+            },
+            {
+              "profileId": 3564195,
+              "name": "Eagles_SlGiap"
+            }
+          ]
+        },
+        {
+          "matchId": 505581382,
+          "civ": "Celts",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:54:49.000Z",
+          "dur": 1152,
+          "opponents": [
+            {
+              "profileId": 1343964,
+              "name": "J40 | Kylian dictador"
+            },
+            {
+              "profileId": 4305877,
+              "name": "el payasadas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2294778,
+              "name": "Killermofo"
+            }
+          ]
+        },
         {
           "matchId": 505017346,
           "civ": "Magyars",
@@ -55669,5 +55805,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "at",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf9",
+  "countryName": "Austria"
 }

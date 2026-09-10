@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1132,
         "peakRating": 1160
       },
@@ -236,12 +236,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1654,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1389,
+        "totalGames": 1656,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1387,
         "peakRating": 1506
       },
       "matches": [
+        {
+          "matchId": 505309424,
+          "civ": "Saracens",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:38:02.000Z",
+          "dur": 844,
+          "opponents": [
+            {
+              "profileId": 11646295,
+              "name": "jrox"
+            },
+            {
+              "profileId": 22509384,
+              "name": "ZawiszaCzarny"
+            },
+            {
+              "profileId": 229953,
+              "name": "Dawidowww"
+            },
+            {
+              "profileId": 1607864,
+              "name": "PL_KOLO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3858234,
+              "name": "Superbrasseur"
+            },
+            {
+              "profileId": 5516874,
+              "name": "La Momone 38"
+            },
+            {
+              "profileId": 6751830,
+              "name": "ccereal"
+            }
+          ]
+        },
+        {
+          "matchId": 505304706,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:14:39.000Z",
+          "dur": 731,
+          "opponents": [
+            {
+              "profileId": 24742141,
+              "name": "67 SKIRMiSHERS"
+            },
+            {
+              "profileId": 20400344,
+              "name": "tona1410"
+            },
+            {
+              "profileId": 18339205,
+              "name": "nostop333"
+            },
+            {
+              "profileId": 5909155,
+              "name": "WoodElf2501"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5661291,
+              "name": "EVA_Rinocherino"
+            },
+            {
+              "profileId": 871863,
+              "name": "Sergio"
+            },
+            {
+              "profileId": 4901308,
+              "name": "Radon Randell"
+            }
+          ]
+        },
         {
           "matchId": 504976094,
           "civ": "Saracens",
@@ -16540,5 +16624,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

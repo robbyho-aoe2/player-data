@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 1398,
         "peakRating": 1415
       },
@@ -1213,12 +1213,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1149,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1225,
+        "totalGames": 1152,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1220,
         "peakRating": 1483
       },
       "matches": [
+        {
+          "matchId": 505370899,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:03:25.000Z",
+          "dur": 1491,
+          "opponents": [
+            {
+              "profileId": 2145428,
+              "name": "[AFTM] PIPE FLAWERS"
+            },
+            {
+              "profileId": 2820383,
+              "name": "[AFTM] manimues"
+            },
+            {
+              "profileId": 357746,
+              "name": "AiM | BetaWolf"
+            },
+            {
+              "profileId": 2084359,
+              "name": "AiM | Mantequilla de Mani"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4543045,
+              "name": "[MassA]Azrael"
+            },
+            {
+              "profileId": 185667,
+              "name": "tg"
+            },
+            {
+              "profileId": 797594,
+              "name": "LukaZ17"
+            }
+          ]
+        },
+        {
+          "matchId": 505366645,
+          "civ": "Italians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:35:42.000Z",
+          "dur": 1579,
+          "opponents": [
+            {
+              "profileId": 9669463,
+              "name": "c_Roi"
+            },
+            {
+              "profileId": 25484260,
+              "name": "xrw"
+            },
+            {
+              "profileId": 322249,
+              "name": "devellabs"
+            },
+            {
+              "profileId": 2457272,
+              "name": "BocaJuniorsElMasGrande"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 185667,
+              "name": "tg"
+            },
+            {
+              "profileId": 797594,
+              "name": "LukaZ17"
+            },
+            {
+              "profileId": 4543045,
+              "name": "[MassA]Azrael"
+            }
+          ]
+        },
+        {
+          "matchId": 505358327,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:42:09.000Z",
+          "dur": 3032,
+          "opponents": [
+            {
+              "profileId": 4474098,
+              "name": "Rababy5"
+            },
+            {
+              "profileId": 1075004,
+              "name": "buildanavy"
+            },
+            {
+              "profileId": 789386,
+              "name": "Jacro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 797594,
+              "name": "LukaZ17"
+            },
+            {
+              "profileId": 185667,
+              "name": "tg"
+            }
+          ]
+        },
         {
           "matchId": 504386345,
           "civ": "Maya",
@@ -33881,5 +33999,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

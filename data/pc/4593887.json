@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 79,
-        "pulledDate": "2026-09-04",
-        "latestRating": 601,
+        "totalGames": 81,
+        "pulledDate": "2026-09-10",
+        "latestRating": 598,
         "peakRating": 786
       },
       "matches": [
+        {
+          "matchId": 505555930,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:08:43.000Z",
+          "dur": 2753,
+          "opponents": [
+            {
+              "profileId": 6053682,
+              "name": "Kras Treetall"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505365434,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:26:26.000Z",
+          "dur": 2418,
+          "opponents": [
+            {
+              "profileId": 2134043,
+              "name": "JuAn-ThEViPeR-"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504105102,
           "civ": "Hindustanis",
@@ -1296,7 +1330,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 77,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 736,
         "peakRating": 859
       },
@@ -3719,5 +3753,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

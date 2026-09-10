@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 230,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1584,
         "peakRating": 1687
       },
@@ -3711,12 +3711,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1479,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1367,
+        "totalGames": 1480,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1351,
         "peakRating": 1497
       },
       "matches": [
+        {
+          "matchId": 505533039,
+          "civ": "Chinese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:44:30.000Z",
+          "dur": 1698,
+          "opponents": [
+            {
+              "profileId": 2560734,
+              "name": "Voit3ch_"
+            },
+            {
+              "profileId": 14779803,
+              "name": "Anak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23282449,
+              "name": "billy bad beat III"
+            }
+          ]
+        },
         {
           "matchId": 504540625,
           "civ": "Vietnamese",
@@ -45325,5 +45351,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "hk",
+  "countryIcon": "\ud83c\udded\ud83c\uddf0",
+  "countryName": "Hong Kong"
 }

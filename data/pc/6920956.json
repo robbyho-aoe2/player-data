@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 577,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1181,
+        "totalGames": 578,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1166,
         "peakRating": 1182
       },
       "matches": [
+        {
+          "matchId": 505376884,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:46:13.000Z",
+          "dur": 1600,
+          "opponents": [
+            {
+              "profileId": 4640318,
+              "name": "EspadaDubiria"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505194630,
           "civ": "Spanish",
@@ -9268,12 +9285,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3362,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1072,
+        "totalGames": 3364,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1097,
         "peakRating": 1375
       },
       "matches": [
+        {
+          "matchId": 505392479,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:19:36.000Z",
+          "dur": 1728,
+          "opponents": [
+            {
+              "profileId": 5422119,
+              "name": "-\u8def\u53d1888"
+            },
+            {
+              "profileId": 18546488,
+              "name": "\u54c8\u54c8\u54c8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17442747,
+              "name": "alexisvaldezgervacio8"
+            }
+          ]
+        },
+        {
+          "matchId": 505380612,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:15:29.000Z",
+          "dur": 1378,
+          "opponents": [
+            {
+              "profileId": 15262788,
+              "name": "HeC_SantosFC"
+            },
+            {
+              "profileId": 23414493,
+              "name": "hig_sfc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10411674,
+              "name": "Thelostmeta"
+            }
+          ]
+        },
         {
           "matchId": 505180419,
           "civ": "Koreans",
@@ -123343,5 +123412,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "au",
+  "countryIcon": "\ud83c\udde6\ud83c\uddfa",
+  "countryName": "Australia"
 }

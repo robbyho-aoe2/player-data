@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1668,
-        "pulledDate": "2026-09-08",
+        "totalGames": 1670,
+        "pulledDate": "2026-09-10",
         "latestRating": 1472,
         "peakRating": 1556
       },
       "matches": [
+        {
+          "matchId": 505309623,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:38:18.000Z",
+          "dur": 1085,
+          "opponents": [
+            {
+              "profileId": 287650,
+              "name": "aleksey"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505299186,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:48:18.000Z",
+          "dur": 1597,
+          "opponents": [
+            {
+              "profileId": 219108,
+              "name": "Volrath"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505057267,
           "civ": "Mapuche",
@@ -28385,12 +28419,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 441,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1258,
+        "totalGames": 443,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1223,
         "peakRating": 1331
       },
       "matches": [
+        {
+          "matchId": 505292094,
+          "civ": "Georgians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:16:15.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 4967638,
+              "name": "mark.mate96"
+            },
+            {
+              "profileId": 5044531,
+              "name": "f.mark96"
+            },
+            {
+              "profileId": 4796183,
+              "name": "urmomSAXONdeeznuts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9781540,
+              "name": "elsuum_93"
+            },
+            {
+              "profileId": 461606,
+              "name": "Pinchost"
+            }
+          ]
+        },
+        {
+          "matchId": 505291414,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:13:12.000Z",
+          "dur": 102,
+          "opponents": [
+            {
+              "profileId": 388223,
+              "name": "cavidal1"
+            },
+            {
+              "profileId": 2000794,
+              "name": "TheLowercasee"
+            },
+            {
+              "profileId": 819714,
+              "name": "TheMetz001"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1316105,
+              "name": "\u00b0\u0e56Blaze"
+            },
+            {
+              "profileId": 188352,
+              "name": "Waschbaerkebab"
+            }
+          ]
+        },
         {
           "matchId": 504725210,
           "civ": "Bulgarians",
@@ -44074,5 +44176,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

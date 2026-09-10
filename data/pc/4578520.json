@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 434,
-        "pulledDate": "2026-09-08",
-        "latestRating": 826,
-        "peakRating": 849
+        "totalGames": 438,
+        "pulledDate": "2026-09-10",
+        "latestRating": 830,
+        "peakRating": 859
       },
       "matches": [
+        {
+          "matchId": 505373942,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:22:32.000Z",
+          "dur": 1527,
+          "opponents": [
+            {
+              "profileId": 22170525,
+              "name": "LP"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505369548,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:53:53.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 1223215,
+              "name": "Bornvibe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505367574,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:40:01.000Z",
+          "dur": 723,
+          "opponents": [
+            {
+              "profileId": 1157229,
+              "name": "kamikazejutsu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505366922,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:36:37.000Z",
+          "dur": 115,
+          "opponents": [
+            {
+              "profileId": 1866906,
+              "name": "PERRITO MALO"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504880264,
           "civ": "Lithuanians",
@@ -7003,7 +7071,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 66,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1081,
         "peakRating": 1102
       },
@@ -8876,5 +8944,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

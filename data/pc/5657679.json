@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 121,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1667,
         "peakRating": 1694
       },
@@ -1844,12 +1844,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 537,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1475,
+        "totalGames": 542,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1459,
         "peakRating": 1589
       },
       "matches": [
+        {
+          "matchId": 505535537,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:59:25.000Z",
+          "dur": 1186,
+          "opponents": [
+            {
+              "profileId": 253973,
+              "name": "The Chancellor"
+            },
+            {
+              "profileId": 272604,
+              "name": "Hornet-Wing"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1079443,
+              "name": "Dino_Mate"
+            }
+          ]
+        },
+        {
+          "matchId": 505528347,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:17:43.000Z",
+          "dur": 2152,
+          "opponents": [
+            {
+              "profileId": 672107,
+              "name": "PironovskyII"
+            },
+            {
+              "profileId": 22464991,
+              "name": "Le_groOumf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4325248,
+              "name": "Sunrise1988"
+            }
+          ]
+        },
+        {
+          "matchId": 505523585,
+          "civ": "Bohemians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:51:38.000Z",
+          "dur": 1427,
+          "opponents": [
+            {
+              "profileId": 10727245,
+              "name": "deadshot"
+            },
+            {
+              "profileId": 10025747,
+              "name": "Boyser"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1839023,
+              "name": "NuMa | JuanMan"
+            }
+          ]
+        },
+        {
+          "matchId": 505375222,
+          "civ": "Koreans",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:33:25.000Z",
+          "dur": 1177,
+          "opponents": [
+            {
+              "profileId": 3322326,
+              "name": "[HAV] Mitalca"
+            },
+            {
+              "profileId": 4819441,
+              "name": "[HAV] Papi de Jardin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13946690,
+              "name": "JohnnyBoii6393"
+            }
+          ]
+        },
+        {
+          "matchId": 505371841,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:09:12.000Z",
+          "dur": 1182,
+          "opponents": [
+            {
+              "profileId": 308129,
+              "name": "Destructious"
+            },
+            {
+              "profileId": 307588,
+              "name": "Leviathan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19407236,
+              "name": "Mistico"
+            }
+          ]
+        },
         {
           "matchId": 504785769,
           "civ": "Teutons",
@@ -12910,5 +13040,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

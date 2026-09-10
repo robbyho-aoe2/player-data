@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 213,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1294,
         "peakRating": 1325
       },
@@ -3650,12 +3650,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1241,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1368,
+        "totalGames": 1244,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1345,
         "peakRating": 1414
       },
       "matches": [
+        {
+          "matchId": 505304195,
+          "civ": "Slavs",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:12:15.000Z",
+          "dur": 1587,
+          "opponents": [
+            {
+              "profileId": 13573382,
+              "name": "Hades"
+            },
+            {
+              "profileId": 17158088,
+              "name": "_Snake_Khan_"
+            },
+            {
+              "profileId": 2303167,
+              "name": "KarlStrange"
+            },
+            {
+              "profileId": 2306642,
+              "name": "SirLeinad3455"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3525556,
+              "name": "KRYPTAERNN"
+            },
+            {
+              "profileId": 5948049,
+              "name": "T91Official"
+            },
+            {
+              "profileId": 10086960,
+              "name": "Morlhaw"
+            }
+          ]
+        },
+        {
+          "matchId": 505299391,
+          "civ": "Teutons",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:49:46.000Z",
+          "dur": 1091,
+          "opponents": [
+            {
+              "profileId": 650832,
+              "name": "11VillagerIdle"
+            },
+            {
+              "profileId": 2537767,
+              "name": "warden"
+            },
+            {
+              "profileId": 2750708,
+              "name": "PMA"
+            },
+            {
+              "profileId": 22844552,
+              "name": "JAGR | juankof"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 230424,
+              "name": "Bombadil"
+            },
+            {
+              "profileId": 275575,
+              "name": "chinsa_yama"
+            },
+            {
+              "profileId": 2385419,
+              "name": "WiSeMaN"
+            }
+          ]
+        },
+        {
+          "matchId": 505293276,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:21:47.000Z",
+          "dur": 1053,
+          "opponents": [
+            {
+              "profileId": 1522963,
+              "name": "TheFireKnight"
+            },
+            {
+              "profileId": 280118,
+              "name": "[Tumbis] The Fujur"
+            },
+            {
+              "profileId": 6342817,
+              "name": "Mauzic"
+            },
+            {
+              "profileId": 3209955,
+              "name": "Reis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12117933,
+              "name": "hirax34"
+            },
+            {
+              "profileId": 2641398,
+              "name": "Don Rats"
+            },
+            {
+              "profileId": 2640469,
+              "name": "viddie"
+            }
+          ]
+        },
         {
           "matchId": 505084811,
           "civ": "Teutons",
@@ -49171,5 +49297,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

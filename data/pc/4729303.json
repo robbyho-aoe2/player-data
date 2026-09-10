@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 442,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1233,
         "peakRating": 1266
       },
@@ -7104,12 +7104,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 642,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1199,
-        "peakRating": 1226
+        "totalGames": 645,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1214,
+        "peakRating": 1230
       },
       "matches": [
+        {
+          "matchId": 505269575,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:27:30.000Z",
+          "dur": 1834,
+          "opponents": [
+            {
+              "profileId": 469885,
+              "name": "Dioblo"
+            },
+            {
+              "profileId": 9847787,
+              "name": "Silly Walks"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4683998,
+              "name": "Marcospx"
+            }
+          ]
+        },
+        {
+          "matchId": 505263792,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:57:45.000Z",
+          "dur": 1360,
+          "opponents": [
+            {
+              "profileId": 2294160,
+              "name": "Brasserie"
+            },
+            {
+              "profileId": 25361982,
+              "name": "\u265a  \u2660 Rikito \u2665 \u265b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4683998,
+              "name": "Marcospx"
+            }
+          ]
+        },
+        {
+          "matchId": 505259196,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:32:38.000Z",
+          "dur": 1201,
+          "opponents": [
+            {
+              "profileId": 2864972,
+              "name": "Mata Ovejas 3000"
+            },
+            {
+              "profileId": 11188281,
+              "name": "ggeatom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4683998,
+              "name": "Marcospx"
+            }
+          ]
+        },
         {
           "matchId": 505033247,
           "civ": "Huns",
@@ -23210,5 +23288,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

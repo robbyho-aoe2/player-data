@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 176,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1150,
-        "peakRating": 1150
+        "totalGames": 179,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1133,
+        "peakRating": 1166
       },
       "matches": [
+        {
+          "matchId": 505508754,
+          "civ": "Armenians",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:36:45.000Z",
+          "dur": 1739,
+          "opponents": [
+            {
+              "profileId": 15126693,
+              "name": "cptpco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505504652,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:17:37.000Z",
+          "dur": 1075,
+          "opponents": [
+            {
+              "profileId": 10787015,
+              "name": "carlos_darder"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505292587,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:18:00.000Z",
+          "dur": 1929,
+          "opponents": [
+            {
+              "profileId": 4354504,
+              "name": "duplavtomi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504883810,
           "civ": "Bulgarians",
@@ -2863,12 +2914,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 408,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1157,
+        "totalGames": 411,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1172,
         "peakRating": 1209
       },
       "matches": [
+        {
+          "matchId": 505524138,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:54:35.000Z",
+          "dur": 1967,
+          "opponents": [
+            {
+              "profileId": 24529529,
+              "name": "Gaborovics"
+            },
+            {
+              "profileId": 24709209,
+              "name": "Schlekie Lawless"
+            },
+            {
+              "profileId": 22112964,
+              "name": "GL.Podiceps Cristatus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1038008,
+              "name": "dudelsack"
+            },
+            {
+              "profileId": 5391672,
+              "name": "Unlucky"
+            }
+          ]
+        },
+        {
+          "matchId": 505493470,
+          "civ": "Armenians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:25:46.000Z",
+          "dur": 3029,
+          "opponents": [
+            {
+              "profileId": 15511330,
+              "name": "BiggM4k"
+            },
+            {
+              "profileId": 15133533,
+              "name": "9630791"
+            },
+            {
+              "profileId": 881233,
+              "name": "ooo000ooo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24112142,
+              "name": "mxptlic"
+            },
+            {
+              "profileId": 10124728,
+              "name": "poky.pok"
+            }
+          ]
+        },
+        {
+          "matchId": 505285771,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:46:35.000Z",
+          "dur": 1818,
+          "opponents": [
+            {
+              "profileId": 2853205,
+              "name": "woodt"
+            },
+            {
+              "profileId": 212779,
+              "name": "taw"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2238048,
+              "name": "ARQUVICII \u25e2 \u25e4"
+            }
+          ]
+        },
         {
           "matchId": 505071392,
           "civ": "Armenians",
@@ -16822,5 +16967,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

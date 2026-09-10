@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 1077,
         "peakRating": 1077
       },
@@ -461,12 +461,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 175,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1191,
+        "totalGames": 176,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1173,
         "peakRating": 1264
       },
       "matches": [
+        {
+          "matchId": 505294962,
+          "civ": "Khitans",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:29:53.000Z",
+          "dur": 1164,
+          "opponents": [
+            {
+              "profileId": 2446109,
+              "name": "Bobby Hill"
+            },
+            {
+              "profileId": 301436,
+              "name": "aRawDeal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10581664,
+              "name": "\u732a\u961f\u53cb\u6015\u4e0d\u6015"
+            }
+          ]
+        },
         {
           "matchId": 503826603,
           "civ": "Bulgarians",
@@ -6278,5 +6304,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cz",
+  "countryIcon": "\ud83c\udde8\ud83c\uddff",
+  "countryName": "Czechia"
 }

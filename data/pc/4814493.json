@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 259,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1286,
+        "totalGames": 263,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1255,
         "peakRating": 1286
       },
       "matches": [
+        {
+          "matchId": 505570524,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:46:43.000Z",
+          "dur": 1771,
+          "opponents": [
+            {
+              "profileId": 314994,
+              "name": "[LCQL]Wlkr"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505568268,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:32:43.000Z",
+          "dur": 681,
+          "opponents": [
+            {
+              "profileId": 21001375,
+              "name": "NovaDev1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505562916,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:56:45.000Z",
+          "dur": 1165,
+          "opponents": [
+            {
+              "profileId": 20374450,
+              "name": "rugiero569"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505306728,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:23:54.000Z",
+          "dur": 852,
+          "opponents": [
+            {
+              "profileId": 11874963,
+              "name": "incolor"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505157433,
           "civ": "Ethiopians",
@@ -4188,7 +4256,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 34,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1137,
         "peakRating": 1197
       },
@@ -5146,5 +5214,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

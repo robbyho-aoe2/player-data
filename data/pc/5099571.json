@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1761,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-10",
         "latestRating": 1222,
         "peakRating": 1330
       },
@@ -26444,12 +26444,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 375,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1358,
-        "peakRating": 1358
+        "totalGames": 378,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1365,
+        "peakRating": 1369
       },
       "matches": [
+        {
+          "matchId": 505389159,
+          "civ": "Cumans",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:39:11.000Z",
+          "dur": 2040,
+          "opponents": [
+            {
+              "profileId": 3021033,
+              "name": "Qui\u00f1ones"
+            },
+            {
+              "profileId": 3018389,
+              "name": "fisho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10166854,
+              "name": "Chais"
+            }
+          ]
+        },
+        {
+          "matchId": 505386441,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:10:17.000Z",
+          "dur": 1601,
+          "opponents": [
+            {
+              "profileId": 2329095,
+              "name": "charlie parker"
+            },
+            {
+              "profileId": 12385895,
+              "name": "\u5929\u4e0b\u7b2c\u4e00\u5047\u5206\u54e5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10166854,
+              "name": "Chais"
+            }
+          ]
+        },
+        {
+          "matchId": 505383034,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:37:31.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 21090002,
+              "name": "Dwight5rhute010"
+            },
+            {
+              "profileId": 11985449,
+              "name": "kamasm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10166854,
+              "name": "Chais"
+            }
+          ]
+        },
         {
           "matchId": 383488938,
           "civ": "Cumans",
@@ -34645,5 +34723,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

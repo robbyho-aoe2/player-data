@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 995,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1102,
         "peakRating": 1415
       },
@@ -15966,12 +15966,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2057,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1171,
+        "totalGames": 2060,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1160,
         "peakRating": 1397
       },
       "matches": [
+        {
+          "matchId": 505353226,
+          "civ": "Malay",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:09:42.000Z",
+          "dur": 1669,
+          "opponents": [
+            {
+              "profileId": 2644259,
+              "name": "wangzijia313"
+            },
+            {
+              "profileId": 1060722,
+              "name": "Lochamp"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 704774,
+              "name": "FeliGar18"
+            }
+          ]
+        },
+        {
+          "matchId": 505350329,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:51:18.000Z",
+          "dur": 869,
+          "opponents": [
+            {
+              "profileId": 16557199,
+              "name": "Salgt27"
+            },
+            {
+              "profileId": 16552888,
+              "name": "carlos_lb"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 704774,
+              "name": "FeliGar18"
+            }
+          ]
+        },
+        {
+          "matchId": 505344331,
+          "civ": "Georgians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:10:52.000Z",
+          "dur": 2249,
+          "opponents": [
+            {
+              "profileId": 14206503,
+              "name": "Wilbur"
+            },
+            {
+              "profileId": 20280611,
+              "name": "BigPaco427"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 704774,
+              "name": "FeliGar18"
+            }
+          ]
+        },
         {
           "matchId": 504919816,
           "civ": "Portuguese",
@@ -85824,5 +85902,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

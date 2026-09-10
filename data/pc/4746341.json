@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 131,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 1124,
         "peakRating": 1355
       },
@@ -2125,12 +2125,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1166,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1159,
+        "totalGames": 1167,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1175,
         "peakRating": 1378
       },
       "matches": [
+        {
+          "matchId": 505288497,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:59:45.000Z",
+          "dur": 2050,
+          "opponents": [
+            {
+              "profileId": 21145430,
+              "name": "Delorean"
+            },
+            {
+              "profileId": 20483017,
+              "name": "Jota"
+            },
+            {
+              "profileId": 5769344,
+              "name": "MACS-X"
+            },
+            {
+              "profileId": 3159393,
+              "name": "[TYN] Shamburger"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2307703,
+              "name": "FABS"
+            },
+            {
+              "profileId": 22521513,
+              "name": "\u4e70\u5728\u65e0\u95ee\u5904\u5356\u5728\u4eba\u9f0e\u65f6"
+            },
+            {
+              "profileId": 11604337,
+              "name": "Thorin Escudo de Roble"
+            }
+          ]
+        },
         {
           "matchId": 504448483,
           "civ": "Georgians",
@@ -44088,5 +44130,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "by",
+  "countryIcon": "\ud83c\udde7\ud83c\uddfe",
+  "countryName": "Belarus"
 }

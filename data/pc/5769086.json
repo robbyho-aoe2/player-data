@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 56,
-        "pulledDate": "2026-09-08",
-        "latestRating": 824,
+        "totalGames": 59,
+        "pulledDate": "2026-09-10",
+        "latestRating": 837,
         "peakRating": 840
       },
       "matches": [
+        {
+          "matchId": 505316308,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T21:14:08.000Z",
+          "dur": 627,
+          "opponents": [
+            {
+              "profileId": 24428578,
+              "name": "SamuHosp1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505311818,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:49:55.000Z",
+          "dur": 1153,
+          "opponents": [
+            {
+              "profileId": 25348471,
+              "name": "frbbehrens"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505307210,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:26:31.000Z",
+          "dur": 1307,
+          "opponents": [
+            {
+              "profileId": 25357418,
+              "name": "jahsu1769"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504863981,
           "civ": "Turks",
@@ -934,7 +985,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 48,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 733,
         "peakRating": 953
       },
@@ -2328,5 +2379,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

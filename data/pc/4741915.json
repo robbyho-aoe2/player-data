@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 672,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1128,
+        "totalGames": 673,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1131,
         "peakRating": 1205
       },
       "matches": [
+        {
+          "matchId": 505398009,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:28:15.000Z",
+          "dur": 1379,
+          "opponents": [
+            {
+              "profileId": 1596205,
+              "name": "\u6473\u6473\u99ac"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505188556,
           "civ": "Malay",
@@ -10797,12 +10814,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 241,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1151,
+        "totalGames": 242,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1167,
         "peakRating": 1220
       },
       "matches": [
+        {
+          "matchId": 505199271,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:03:38.000Z",
+          "dur": 1859,
+          "opponents": [
+            {
+              "profileId": 38801,
+              "name": "Hispaniola"
+            },
+            {
+              "profileId": 18187544,
+              "name": "\u6211\u5e05\u6211\u5750\u4e2d"
+            },
+            {
+              "profileId": 5045811,
+              "name": "VVs00"
+            },
+            {
+              "profileId": 24716159,
+              "name": "Porkroll"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24712883,
+              "name": "Noa"
+            },
+            {
+              "profileId": 20494842,
+              "name": "ufokinw0tm8"
+            },
+            {
+              "profileId": 3392888,
+              "name": "Quetzalcoatl"
+            }
+          ]
+        },
         {
           "matchId": 504692603,
           "civ": "Malians",
@@ -18152,5 +18211,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

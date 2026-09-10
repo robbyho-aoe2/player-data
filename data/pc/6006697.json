@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 105,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-10",
         "latestRating": 1062,
         "peakRating": 1110
       },
@@ -1709,12 +1709,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 81,
-        "pulledDate": "2026-08-29",
-        "latestRating": 1170,
+        "totalGames": 84,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1154,
         "peakRating": 1238
       },
       "matches": [
+        {
+          "matchId": 505585127,
+          "civ": "Turks",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:20:31.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 9056694,
+              "name": "LiamJ5500"
+            },
+            {
+              "profileId": 19369292,
+              "name": "Segurola y Habana 4310"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4998445,
+              "name": "Mezcalito"
+            }
+          ]
+        },
+        {
+          "matchId": 505582981,
+          "civ": "Teutons",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:05:17.000Z",
+          "dur": 763,
+          "opponents": [
+            {
+              "profileId": 1905516,
+              "name": "joueur1andre"
+            },
+            {
+              "profileId": 19369292,
+              "name": "Segurola y Habana 4310"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4998445,
+              "name": "Mezcalito"
+            }
+          ]
+        },
+        {
+          "matchId": 505580064,
+          "civ": "Incas",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:45:33.000Z",
+          "dur": 1061,
+          "opponents": [
+            {
+              "profileId": 4211177,
+              "name": "Ray"
+            },
+            {
+              "profileId": 1905516,
+              "name": "joueur1andre"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4998445,
+              "name": "Mezcalito"
+            }
+          ]
+        },
         {
           "matchId": 498479420,
           "civ": "Magyars",
@@ -3957,5 +4035,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

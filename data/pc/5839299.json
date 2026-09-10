@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 960,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1228,
-        "peakRating": 1228
+        "totalGames": 963,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1240,
+        "peakRating": 1242
       },
       "matches": [
+        {
+          "matchId": 505481164,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:22:03.000Z",
+          "dur": 1883,
+          "opponents": [
+            {
+              "profileId": 11236949,
+              "name": "Dexter"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505476111,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:55:15.000Z",
+          "dur": 1308,
+          "opponents": [
+            {
+              "profileId": 2698653,
+              "name": "Cemaluri"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505286671,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:50:11.000Z",
+          "dur": 1690,
+          "opponents": [
+            {
+              "profileId": 8796742,
+              "name": "miguelantonio90"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504809045,
           "civ": "Hindustanis",
@@ -15398,12 +15449,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2233,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1192,
+        "totalGames": 2236,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1239,
         "peakRating": 1310
       },
       "matches": [
+        {
+          "matchId": 505489367,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:05:40.000Z",
+          "dur": 1826,
+          "opponents": [
+            {
+              "profileId": 5264033,
+              "name": "Malkovich_Monk"
+            },
+            {
+              "profileId": 259547,
+              "name": "mackmime"
+            },
+            {
+              "profileId": 2729490,
+              "name": "Exe188"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5839749,
+              "name": "Kamrul007"
+            },
+            {
+              "profileId": 4251102,
+              "name": "benno"
+            }
+          ]
+        },
+        {
+          "matchId": 505278979,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:14:04.000Z",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 10736797,
+              "name": "Sr. Sam"
+            },
+            {
+              "profileId": 23257227,
+              "name": "CTM | Fiducia"
+            },
+            {
+              "profileId": 23568909,
+              "name": "VacaLoca"
+            },
+            {
+              "profileId": 24475132,
+              "name": "GDN_Germanicus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5839749,
+              "name": "Kamrul007"
+            },
+            {
+              "profileId": 854712,
+              "name": "J. C. Maxwell"
+            },
+            {
+              "profileId": 5838649,
+              "name": "KupaiaDimu"
+            }
+          ]
+        },
+        {
+          "matchId": 505271045,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:34:39.000Z",
+          "dur": 1792,
+          "opponents": [
+            {
+              "profileId": 2776367,
+              "name": "impossible"
+            },
+            {
+              "profileId": 279323,
+              "name": "sybertuk"
+            },
+            {
+              "profileId": 6005915,
+              "name": "KINGUARDIANS"
+            },
+            {
+              "profileId": 21707799,
+              "name": "time0wner"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5838649,
+              "name": "KupaiaDimu"
+            },
+            {
+              "profileId": 5839749,
+              "name": "Kamrul007"
+            },
+            {
+              "profileId": 854712,
+              "name": "J. C. Maxwell"
+            }
+          ]
+        },
         {
           "matchId": 505047640,
           "civ": "Bengalis",
@@ -91301,5 +91470,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

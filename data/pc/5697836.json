@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 73,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1459,
         "peakRating": 1459
       },
@@ -1270,12 +1270,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 357,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1327,
+        "totalGames": 360,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1316,
         "peakRating": 1456
       },
       "matches": [
+        {
+          "matchId": 505584954,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:19:49.000Z",
+          "dur": 3399,
+          "opponents": [
+            {
+              "profileId": 25277921,
+              "name": "jerius02"
+            },
+            {
+              "profileId": 3270554,
+              "name": "[Traidor] Staun"
+            },
+            {
+              "profileId": 5414888,
+              "name": "Polenta"
+            },
+            {
+              "profileId": 21180734,
+              "name": "Anfauglir8434"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25074764,
+              "name": "gianghodd01"
+            },
+            {
+              "profileId": 10709324,
+              "name": "\u82cf\u82cf\u7684\u51b0\u6dc7\u6dcb"
+            },
+            {
+              "profileId": 21751761,
+              "name": "DSLG | Rommel"
+            }
+          ]
+        },
+        {
+          "matchId": 505482150,
+          "civ": "Mongols",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:27:45.000Z",
+          "dur": 1059,
+          "opponents": [
+            {
+              "profileId": 4159796,
+              "name": "Tonymontana"
+            },
+            {
+              "profileId": 5257013,
+              "name": "p0n0n0"
+            },
+            {
+              "profileId": 6751830,
+              "name": "ccereal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1742958,
+              "name": "God Of The Sea People"
+            },
+            {
+              "profileId": 17152590,
+              "name": "\u5c0f\u519c\u6c11"
+            }
+          ]
+        },
+        {
+          "matchId": 505381454,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:23:24.000Z",
+          "dur": 1643,
+          "opponents": [
+            {
+              "profileId": 3144554,
+              "name": "Mr. C"
+            },
+            {
+              "profileId": 2956046,
+              "name": "Mr. Bannon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4196693,
+              "name": "smbou"
+            }
+          ]
+        },
         {
           "matchId": 504583567,
           "civ": "Sicilians",
@@ -14448,5 +14550,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1207,
         "peakRating": 1280
       },
@@ -1213,12 +1213,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 755,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1281,
+        "totalGames": 759,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1248,
         "peakRating": 1401
       },
       "matches": [
+        {
+          "matchId": 505340037,
+          "civ": "Ethiopians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:42:03.000Z",
+          "dur": 2069,
+          "opponents": [
+            {
+              "profileId": 2529845,
+              "name": "Multani"
+            },
+            {
+              "profileId": 2070877,
+              "name": "Roig"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4308749,
+              "name": "Steve the Ishvalan"
+            }
+          ]
+        },
+        {
+          "matchId": 505336778,
+          "civ": "Huns",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:20:32.000Z",
+          "dur": 1605,
+          "opponents": [
+            {
+              "profileId": 2873389,
+              "name": "Pipo"
+            },
+            {
+              "profileId": 2420303,
+              "name": "poi"
+            },
+            {
+              "profileId": 9832482,
+              "name": "sk"
+            },
+            {
+              "profileId": 19442198,
+              "name": "\u5e1d\u56fd\u65f6\u4ee32--\u53f6\u67ab"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2512758,
+              "name": "Bad Panda"
+            },
+            {
+              "profileId": 4308749,
+              "name": "Steve the Ishvalan"
+            },
+            {
+              "profileId": 6380382,
+              "name": "Jinxo"
+            }
+          ]
+        },
+        {
+          "matchId": 505334008,
+          "civ": "Sicilians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:02:39.000Z",
+          "dur": 893,
+          "opponents": [
+            {
+              "profileId": 2201777,
+              "name": "oldxavier"
+            },
+            {
+              "profileId": 5505647,
+              "name": "ConcernedApe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4308749,
+              "name": "Steve the Ishvalan"
+            }
+          ]
+        },
+        {
+          "matchId": 505330423,
+          "civ": "Vikings",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:39:47.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 8556596,
+              "name": "ACI Granmini"
+            },
+            {
+              "profileId": 1996030,
+              "name": "Golozo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4308749,
+              "name": "Steve the Ishvalan"
+            }
+          ]
+        },
         {
           "matchId": 505003148,
           "civ": "Ethiopians",
@@ -23207,5 +23327,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

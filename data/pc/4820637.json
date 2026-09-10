@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1398,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1176,
+        "totalGames": 1400,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1210,
         "peakRating": 1302
       },
       "matches": [
+        {
+          "matchId": 505384831,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:54:01.000Z",
+          "dur": 2064,
+          "opponents": [
+            {
+              "profileId": 3401024,
+              "name": "MIGK"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505384615,
+          "civ": "Georgians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:52:17.000Z",
+          "dur": 9,
+          "opponents": [
+            {
+              "profileId": 6449379,
+              "name": "\u4e0d\u71ac\u591c\u9009\u624b"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504836526,
           "civ": "Saracens",
@@ -22420,12 +22454,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 255,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1171,
+        "totalGames": 256,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1191,
         "peakRating": 1203
       },
       "matches": [
+        {
+          "matchId": 505381435,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:23:10.000Z",
+          "dur": 1609,
+          "opponents": [
+            {
+              "profileId": 2637849,
+              "name": "JesusFreak"
+            },
+            {
+              "profileId": 735678,
+              "name": "Nijoru"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1193961,
+              "name": "rafael9530"
+            }
+          ]
+        },
         {
           "matchId": 504940069,
           "civ": "Shu",
@@ -29178,5 +29238,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

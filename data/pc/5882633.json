@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 347,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1126,
+        "totalGames": 348,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1109,
         "peakRating": 1214
       },
       "matches": [
+        {
+          "matchId": 505269328,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:25:28.000Z",
+          "dur": 874,
+          "opponents": [
+            {
+              "profileId": 4994202,
+              "name": "Acey"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504854531,
           "civ": "Franks",
@@ -5585,12 +5602,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 13,
-        "pulledDate": "2026-09-08",
-        "latestRating": 934,
+        "totalGames": 14,
+        "pulledDate": "2026-09-10",
+        "latestRating": 910,
         "peakRating": 934
       },
       "matches": [
+        {
+          "matchId": 505571665,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:52:37.000Z",
+          "dur": 862,
+          "opponents": [
+            {
+              "profileId": 24851444,
+              "name": "LAUTARO"
+            },
+            {
+              "profileId": 24973933,
+              "name": "hoasex12345"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3225293,
+              "name": "Zorrito_uzumaki"
+            }
+          ]
+        },
         {
           "matchId": 476143596,
           "civ": "Franks",
@@ -5973,5 +6016,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

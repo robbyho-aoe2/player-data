@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 7037,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1667,
+        "totalGames": 7040,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1691,
         "peakRating": 1817
       },
       "matches": [
+        {
+          "matchId": 505243855,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:08:28.000Z",
+          "dur": 1525,
+          "opponents": [
+            {
+              "profileId": 9402601,
+              "name": "samcro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505240530,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:51:01.000Z",
+          "dur": 1005,
+          "opponents": [
+            {
+              "profileId": 4535897,
+              "name": "NU Apartment"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505240035,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:49:29.000Z",
+          "dur": 17,
+          "opponents": [
+            {
+              "profileId": 4114146,
+              "name": "LowEloNobody"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505220610,
           "civ": "Spanish",
@@ -105720,7 +105771,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 809,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1396,
         "peakRating": 1479
       },
@@ -123158,5 +123209,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 123,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1206,
         "peakRating": 1207
       },
@@ -1997,12 +1997,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3160,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1105,
+        "totalGames": 3164,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1134,
         "peakRating": 1223
       },
       "matches": [
+        {
+          "matchId": 505512987,
+          "civ": "Magyars",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:57:50.000Z",
+          "dur": 1436,
+          "opponents": [
+            {
+              "profileId": 24447966,
+              "name": "simchen"
+            },
+            {
+              "profileId": 285887,
+              "name": "Joflongo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25885257,
+              "name": "IDIOT DONT PLAY"
+            }
+          ]
+        },
+        {
+          "matchId": 505301045,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:57:08.000Z",
+          "dur": 1500,
+          "opponents": [
+            {
+              "profileId": 2896937,
+              "name": "KarmaWin"
+            },
+            {
+              "profileId": 1928932,
+              "name": "babidi-zadmosk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6922958,
+              "name": "loremrexus"
+            }
+          ]
+        },
+        {
+          "matchId": 505296603,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:36:59.000Z",
+          "dur": 1142,
+          "opponents": [
+            {
+              "profileId": 17533189,
+              "name": "Icewind"
+            },
+            {
+              "profileId": 10115892,
+              "name": "Anonymous"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6922958,
+              "name": "loremrexus"
+            }
+          ]
+        },
+        {
+          "matchId": 505260587,
+          "civ": "Saracens",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:40:00.000Z",
+          "dur": 1345,
+          "opponents": [
+            {
+              "profileId": 25367254,
+              "name": "tzsmwwl"
+            },
+            {
+              "profileId": 4294531,
+              "name": "luzAK-47"
+            },
+            {
+              "profileId": 17014248,
+              "name": "\u8001\u7236\u4eb2\u7684\u773c\u6cea"
+            },
+            {
+              "profileId": 18703393,
+              "name": "[GDL] Hugo Logar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14698332,
+              "name": "WiLLeX"
+            },
+            {
+              "profileId": 1900403,
+              "name": "unzelfunzel"
+            },
+            {
+              "profileId": 4598367,
+              "name": "wouanou"
+            }
+          ]
+        },
         {
           "matchId": 505075909,
           "civ": "Saracens",
@@ -90457,5 +90577,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

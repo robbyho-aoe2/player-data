@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 44,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1222,
+        "totalGames": 48,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1188,
         "peakRating": 1300
       },
       "matches": [
+        {
+          "matchId": 505462809,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:41:42.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 18196462,
+              "name": "kasato"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505457079,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:11:11.000Z",
+          "dur": 1644,
+          "opponents": [
+            {
+              "profileId": 2607367,
+              "name": "The Great Lynx Paw"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505403624,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T08:32:06.000Z",
+          "dur": 587,
+          "opponents": [
+            {
+              "profileId": 12036396,
+              "name": "snailwidely"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505399533,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:45:48.000Z",
+          "dur": 1765,
+          "opponents": [
+            {
+              "profileId": 8434821,
+              "name": "Flairace"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504792697,
           "civ": "Britons",
@@ -777,12 +845,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 94,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1272,
+        "totalGames": 95,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1257,
         "peakRating": 1324
       },
       "matches": [
+        {
+          "matchId": 505385216,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:58:08.000Z",
+          "dur": 1439,
+          "opponents": [
+            {
+              "profileId": 8993147,
+              "name": "BaniWang"
+            },
+            {
+              "profileId": 8564160,
+              "name": "PLEASE, PLEASE, PLEASE"
+            },
+            {
+              "profileId": 7636433,
+              "name": "pity.grillo26"
+            },
+            {
+              "profileId": 9900750,
+              "name": "Fs.Caboclo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9430205,
+              "name": "King Nothing"
+            },
+            {
+              "profileId": 4884043,
+              "name": "Super Grek)"
+            },
+            {
+              "profileId": 865217,
+              "name": "Sniper_Wolf"
+            }
+          ]
+        },
         {
           "matchId": 505038327,
           "civ": "Vikings",
@@ -4315,5 +4425,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "jp",
+  "countryIcon": "\ud83c\uddef\ud83c\uddf5",
+  "countryName": "Japan"
 }

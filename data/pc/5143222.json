@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1612,
         "peakRating": 1616
       },
@@ -285,12 +285,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1126,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1805,
+        "totalGames": 1129,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1814,
         "peakRating": 1829
       },
       "matches": [
+        {
+          "matchId": 505443414,
+          "civ": "Chinese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:00:02.000Z",
+          "dur": 1503,
+          "opponents": [
+            {
+              "profileId": 5957596,
+              "name": "\u982d\u9435\u6295\u77f3\u6a5f"
+            },
+            {
+              "profileId": 3202788,
+              "name": "[ECU] Tecno>Luis"
+            },
+            {
+              "profileId": 2440793,
+              "name": "Sumi"
+            },
+            {
+              "profileId": 1157985,
+              "name": "Willox"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10546969,
+              "name": "\u56de\u5fc6\u91cc\u592a\u591a\u597d"
+            },
+            {
+              "profileId": 10372288,
+              "name": "\u6e05\u8fdc\u534e"
+            },
+            {
+              "profileId": 2821727,
+              "name": "Fish"
+            }
+          ]
+        },
+        {
+          "matchId": 505437532,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:26:43.000Z",
+          "dur": 1734,
+          "opponents": [
+            {
+              "profileId": 952733,
+              "name": "Tulendeena"
+            },
+            {
+              "profileId": 333360,
+              "name": "Vaemyre"
+            },
+            {
+              "profileId": 322534,
+              "name": "Noszombie"
+            },
+            {
+              "profileId": 221188,
+              "name": "Zain"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1955552,
+              "name": "ArcherX"
+            },
+            {
+              "profileId": 1157985,
+              "name": "Willox"
+            },
+            {
+              "profileId": 327431,
+              "name": "\u7231\u79cd\u7530\u7684\u592a\u5976"
+            }
+          ]
+        },
+        {
+          "matchId": 505435891,
+          "civ": "Gurjaras",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:16:48.000Z",
+          "dur": 437,
+          "opponents": [
+            {
+              "profileId": 210601,
+              "name": "Paladin"
+            },
+            {
+              "profileId": 18413925,
+              "name": "\u6478\u9c7c\u79cd\u7530"
+            },
+            {
+              "profileId": 3960822,
+              "name": "\u3046\u30fc\u307a\u30fc"
+            },
+            {
+              "profileId": 2272449,
+              "name": "\u6c5f\u4e1c\u5c0f\u9738\u738b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2821727,
+              "name": "Fish"
+            },
+            {
+              "profileId": 1955552,
+              "name": "ArcherX"
+            },
+            {
+              "profileId": 327431,
+              "name": "\u7231\u79cd\u7530\u7684\u592a\u5976"
+            }
+          ]
+        },
         {
           "matchId": 505084607,
           "civ": "Bohemians",
@@ -43958,5 +44084,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1419,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1573,
+        "totalGames": 1423,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1572,
         "peakRating": 1664
       },
       "matches": [
+        {
+          "matchId": 505462750,
+          "civ": "Vikings",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:41:49.000Z",
+          "dur": 56,
+          "opponents": [
+            {
+              "profileId": 2076692,
+              "name": "BomberC4"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505257242,
+          "civ": "Goths",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:21:59.000Z",
+          "dur": 1526,
+          "opponents": [
+            {
+              "profileId": 20189549,
+              "name": "hclay93"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505254172,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:05:05.000Z",
+          "dur": 931,
+          "opponents": [
+            {
+              "profileId": 323219,
+              "name": "\u5f20\u732e\u5fe0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505250598,
+          "civ": "Koreans",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:44:45.000Z",
+          "dur": 1088,
+          "opponents": [
+            {
+              "profileId": 4327398,
+              "name": "Hipopocrates"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505216835,
           "civ": "Celts",
@@ -22743,12 +22811,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 583,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1397,
+        "totalGames": 584,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1383,
         "peakRating": 1528
       },
       "matches": [
+        {
+          "matchId": 505463207,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:44:44.000Z",
+          "dur": 2596,
+          "opponents": [
+            {
+              "profileId": 9905419,
+              "name": "\u70cf\u96f2\u4e2d"
+            },
+            {
+              "profileId": 3085218,
+              "name": "\u9ad8\u5fb7\u7d0d"
+            },
+            {
+              "profileId": 1906236,
+              "name": "kkman86"
+            },
+            {
+              "profileId": 1783754,
+              "name": "\u597d\u8b66\u5bdf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 557,
+              "name": "robecha18"
+            },
+            {
+              "profileId": 24888125,
+              "name": "\u5976\u6cb9\u6843\u6843\u54c8\u54c8\u54c8"
+            },
+            {
+              "profileId": 23470110,
+              "name": "\u5c0f\u9e21"
+            }
+          ]
+        },
         {
           "matchId": 505210549,
           "civ": "Persians",
@@ -43056,5 +43166,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 263,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1074,
+        "totalGames": 267,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1110,
         "peakRating": 1162
       },
       "matches": [
+        {
+          "matchId": 505554553,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:00:39.000Z",
+          "dur": 1191,
+          "opponents": [
+            {
+              "profileId": 20710029,
+              "name": "skadooshkfp"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505537638,
+          "civ": "Saracens",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T22:11:42.000Z",
+          "dur": 1840,
+          "opponents": [
+            {
+              "profileId": 5119406,
+              "name": "josechos8"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505343695,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:07:02.000Z",
+          "dur": 695,
+          "opponents": [
+            {
+              "profileId": 951019,
+              "name": "fran.federico8"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505343506,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:05:04.000Z",
+          "dur": 16,
+          "opponents": [
+            {
+              "profileId": 2109615,
+              "name": "Gerrard8"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505142629,
           "civ": "Saracens",
@@ -4242,7 +4310,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 618,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1156,
         "peakRating": 1339
       },
@@ -27247,5 +27315,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

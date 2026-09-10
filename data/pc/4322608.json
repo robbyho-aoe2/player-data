@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 560,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1664,
+        "totalGames": 561,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1683,
         "peakRating": 1767
       },
       "matches": [
+        {
+          "matchId": 505504901,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:18:43.000Z",
+          "dur": 1146,
+          "opponents": [
+            {
+              "profileId": 200661,
+              "name": "[Mushu] Elgo Lazo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504830220,
           "civ": "Romans",
@@ -9000,12 +9017,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 980,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1520,
+        "totalGames": 981,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1508,
         "peakRating": 1644
       },
       "matches": [
+        {
+          "matchId": 505509493,
+          "civ": "Bulgarians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:40:50.000Z",
+          "dur": 1492,
+          "opponents": [
+            {
+              "profileId": 238305,
+              "name": "[TMG] purple"
+            },
+            {
+              "profileId": 2654497,
+              "name": "[TMG] Dito \ud83d\udd31"
+            },
+            {
+              "profileId": 2680347,
+              "name": "[TMG] zv"
+            },
+            {
+              "profileId": 3153351,
+              "name": "[TMG] sandriko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1118714,
+              "name": "BruToO"
+            },
+            {
+              "profileId": 2642963,
+              "name": "Cr3wCo"
+            },
+            {
+              "profileId": 3743981,
+              "name": "bruce6633"
+            }
+          ]
+        },
         {
           "matchId": 504848947,
           "civ": "Koreans",
@@ -41579,5 +41638,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

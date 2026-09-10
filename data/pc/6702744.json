@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1315,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1312,
         "peakRating": 1369
       },
@@ -22384,12 +22384,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1141,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1311,
+        "totalGames": 1143,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1310,
         "peakRating": 1347
       },
       "matches": [
+        {
+          "matchId": 505304188,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:12:00.000Z",
+          "dur": 2230,
+          "opponents": [
+            {
+              "profileId": 2617425,
+              "name": "Song Jin-Woo"
+            },
+            {
+              "profileId": 2672840,
+              "name": "SmnRndm"
+            },
+            {
+              "profileId": 2617511,
+              "name": "LordSandwich"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6514208,
+              "name": "Kaiser053"
+            },
+            {
+              "profileId": 1898636,
+              "name": "Barral"
+            }
+          ]
+        },
+        {
+          "matchId": 505295665,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:32:57.000Z",
+          "dur": 1429,
+          "opponents": [
+            {
+              "profileId": 5441049,
+              "name": "IRON MIKE"
+            },
+            {
+              "profileId": 1758380,
+              "name": "Skrepee"
+            },
+            {
+              "profileId": 1955412,
+              "name": "El Tucan de muerte"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6514208,
+              "name": "Kaiser053"
+            },
+            {
+              "profileId": 1898636,
+              "name": "Barral"
+            }
+          ]
+        },
         {
           "matchId": 505078560,
           "civ": "Slavs",
@@ -60934,5 +61002,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

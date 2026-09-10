@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 57,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1353,
-        "peakRating": 1353
+        "totalGames": 59,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1386,
+        "peakRating": 1386
       },
       "matches": [
+        {
+          "matchId": 505481690,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:25:39.000Z",
+          "dur": 1745,
+          "opponents": [
+            {
+              "profileId": 2693531,
+              "name": "Dent"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505312672,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:55:17.000Z",
+          "dur": 1579,
+          "opponents": [
+            {
+              "profileId": 14671332,
+              "name": "Jenys"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503877430,
           "civ": "Byzantines",
@@ -999,7 +1033,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 105,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-10",
         "latestRating": 1187,
         "peakRating": 1255
       },
@@ -4173,5 +4207,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

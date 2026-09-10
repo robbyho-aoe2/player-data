@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 24,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 977,
         "peakRating": 993
       },
@@ -413,12 +413,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 196,
-        "pulledDate": "2026-09-02",
-        "latestRating": 1204,
+        "totalGames": 197,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1191,
         "peakRating": 1340
       },
       "matches": [
+        {
+          "matchId": 505504128,
+          "civ": "Celts",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:15:50.000Z",
+          "dur": 3271,
+          "opponents": [
+            {
+              "profileId": 456135,
+              "name": "Hoppsywins"
+            },
+            {
+              "profileId": 1175522,
+              "name": "GreyZepher"
+            },
+            {
+              "profileId": 2333046,
+              "name": "Groundskeeper Willie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1492081,
+              "name": "Ford Prefect"
+            },
+            {
+              "profileId": 2377697,
+              "name": "Aei"
+            }
+          ]
+        },
         {
           "matchId": 494150125,
           "civ": "Celts",
@@ -6545,5 +6579,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 64,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 1500,
         "peakRating": 1500
       },
@@ -605,12 +605,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2796,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1516,
+        "totalGames": 2798,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1549,
         "peakRating": 1754
       },
       "matches": [
+        {
+          "matchId": 505238570,
+          "civ": "Chinese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:41:32.000Z",
+          "dur": 1435,
+          "opponents": [
+            {
+              "profileId": 4587302,
+              "name": "Kerrminator"
+            },
+            {
+              "profileId": 478629,
+              "name": "QNA | Apachai Hopachai"
+            },
+            {
+              "profileId": 11595998,
+              "name": "gjizhijian6866"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 212421,
+              "name": "\u5305\u8396"
+            },
+            {
+              "profileId": 5590854,
+              "name": "\u76ae\u773c\u6d3e\u5c0d"
+            }
+          ]
+        },
+        {
+          "matchId": 505234642,
+          "civ": "Chinese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:20:48.000Z",
+          "dur": 895,
+          "opponents": [
+            {
+              "profileId": 998741,
+              "name": "BEAR"
+            },
+            {
+              "profileId": 23140800,
+              "name": "Game project 0001"
+            },
+            {
+              "profileId": 1921533,
+              "name": "PistonForjado"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 212421,
+              "name": "\u5305\u8396"
+            },
+            {
+              "profileId": 5590854,
+              "name": "\u76ae\u773c\u6d3e\u5c0d"
+            }
+          ]
+        },
         {
           "matchId": 504495217,
           "civ": "Chinese",
@@ -26616,5 +26684,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

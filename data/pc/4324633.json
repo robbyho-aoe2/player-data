@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 508,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1222,
+        "totalGames": 509,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1239,
         "peakRating": 1356
       },
       "matches": [
+        {
+          "matchId": 505277647,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:07:52.000Z",
+          "dur": 711,
+          "opponents": [
+            {
+              "profileId": 289231,
+              "name": "Cassalleta"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505083235,
           "civ": "Mongols",
@@ -8665,12 +8682,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 773,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1239,
+        "totalGames": 775,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1208,
         "peakRating": 1342
       },
       "matches": [
+        {
+          "matchId": 505273633,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:47:25.000Z",
+          "dur": 1093,
+          "opponents": [
+            {
+              "profileId": 3263732,
+              "name": "garlic"
+            },
+            {
+              "profileId": 2052607,
+              "name": "FETTMANN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2448691,
+              "name": "TeWs"
+            }
+          ]
+        },
+        {
+          "matchId": 505267147,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:14:41.000Z",
+          "dur": 1193,
+          "opponents": [
+            {
+              "profileId": 1868411,
+              "name": "Kirara"
+            },
+            {
+              "profileId": 4110388,
+              "name": "Geoff"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2533645,
+              "name": "SaroTeff"
+            }
+          ]
+        },
         {
           "matchId": 505022364,
           "civ": "Persians",
@@ -32847,5 +32916,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

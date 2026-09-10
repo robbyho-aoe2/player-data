@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 550,
-        "pulledDate": "2026-09-02",
-        "latestRating": 1200,
+        "totalGames": 553,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1216,
         "peakRating": 1306
       },
       "matches": [
+        {
+          "matchId": 505397652,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T07:23:20.000Z",
+          "dur": 1763,
+          "opponents": [
+            {
+              "profileId": 2651442,
+              "name": "blackbeard1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505393887,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:36:21.000Z",
+          "dur": 2689,
+          "opponents": [
+            {
+              "profileId": 25255604,
+              "name": "bustybabloo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505393582,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:33:07.000Z",
+          "dur": 144,
+          "opponents": [
+            {
+              "profileId": 5395809,
+              "name": "FOX"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503136439,
           "civ": "Khmer",
@@ -8830,7 +8881,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 220,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 983,
         "peakRating": 1087
       },
@@ -14345,5 +14396,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "bg",
+  "countryIcon": "\ud83c\udde7\ud83c\uddec",
+  "countryName": "Bulgaria"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 104,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-10",
         "latestRating": 1231,
         "peakRating": 1262
       },
@@ -1694,12 +1694,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 281,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1141,
+        "totalGames": 282,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1125,
         "peakRating": 1348
       },
       "matches": [
+        {
+          "matchId": 505302006,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:02:08.000Z",
+          "dur": 1536,
+          "opponents": [
+            {
+              "profileId": 17533189,
+              "name": "Icewind"
+            },
+            {
+              "profileId": 4981446,
+              "name": "treetoptony"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 330296,
+              "name": "langotriel"
+            }
+          ]
+        },
         {
           "matchId": 504510832,
           "civ": "Burmese",
@@ -10868,5 +10894,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

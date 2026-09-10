@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1518,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1551,
+        "totalGames": 1522,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1489,
         "peakRating": 1610
       },
       "matches": [
+        {
+          "matchId": 505385742,
+          "civ": "Wei",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:02:09.000Z",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 3273273,
+              "name": "minor_seth"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505382788,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:34:36.000Z",
+          "dur": 1553,
+          "opponents": [
+            {
+              "profileId": 2570618,
+              "name": "vChilde"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505328944,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:29:26.000Z",
+          "dur": 876,
+          "opponents": [
+            {
+              "profileId": 294595,
+              "name": "Atula King"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505326567,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:14:51.000Z",
+          "dur": 830,
+          "opponents": [
+            {
+              "profileId": 24782691,
+              "name": "[LCDR] Chorobura"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505203146,
           "civ": "Wei",
@@ -24328,12 +24396,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 398,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1482,
+        "totalGames": 401,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1532,
         "peakRating": 1555
       },
       "matches": [
+        {
+          "matchId": 505349948,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:48:48.000Z",
+          "dur": 1424,
+          "opponents": [
+            {
+              "profileId": 2480833,
+              "name": "\u9038\u4e36\u7136"
+            },
+            {
+              "profileId": 19439088,
+              "name": "\u8d85\u7ea7\u786c\u90a6\u90a6"
+            },
+            {
+              "profileId": 14166051,
+              "name": "chenst2020"
+            },
+            {
+              "profileId": 5953145,
+              "name": "Marlin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17522964,
+              "name": "ATABEY"
+            },
+            {
+              "profileId": 3959793,
+              "name": "FNUL"
+            },
+            {
+              "profileId": 2150720,
+              "name": "Jrfear"
+            }
+          ]
+        },
+        {
+          "matchId": 505343285,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:04:20.000Z",
+          "dur": 2074,
+          "opponents": [
+            {
+              "profileId": 5341991,
+              "name": "Yisaac"
+            },
+            {
+              "profileId": 5607335,
+              "name": "HK | El Chairo"
+            },
+            {
+              "profileId": 1367722,
+              "name": "Tylenol"
+            },
+            {
+              "profileId": 308753,
+              "name": "EXILE | Obi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26062898,
+              "name": "heybrowazzup"
+            },
+            {
+              "profileId": 2150720,
+              "name": "Jrfear"
+            },
+            {
+              "profileId": 5272313,
+              "name": "G\u00f6kt\u00fcrk"
+            }
+          ]
+        },
+        {
+          "matchId": 505338266,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:30:05.000Z",
+          "dur": 1689,
+          "opponents": [
+            {
+              "profileId": 381651,
+              "name": "Madbun"
+            },
+            {
+              "profileId": 7128069,
+              "name": "Chris"
+            },
+            {
+              "profileId": 3427427,
+              "name": "Funkyton"
+            },
+            {
+              "profileId": 524610,
+              "name": "Rema Rema tu Bota"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26062898,
+              "name": "heybrowazzup"
+            },
+            {
+              "profileId": 5272313,
+              "name": "G\u00f6kt\u00fcrk"
+            },
+            {
+              "profileId": 2150720,
+              "name": "Jrfear"
+            }
+          ]
+        },
         {
           "matchId": 504852516,
           "civ": "Cumans",
@@ -38628,5 +38822,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

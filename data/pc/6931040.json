@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-02"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 42,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-10",
         "latestRating": 1013,
         "peakRating": 1061
       },
@@ -701,12 +701,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1652,
-        "pulledDate": "2026-09-02",
-        "latestRating": 1213,
+        "totalGames": 1655,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1195,
         "peakRating": 1278
       },
       "matches": [
+        {
+          "matchId": 505483184,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:33:34.000Z",
+          "dur": 1804,
+          "opponents": [
+            {
+              "profileId": 25557840,
+              "name": "estrellototota"
+            },
+            {
+              "profileId": 989067,
+              "name": "cpluk3"
+            },
+            {
+              "profileId": 21254365,
+              "name": "ExxD96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6932635,
+              "name": "ulasinberg"
+            },
+            {
+              "profileId": 8450356,
+              "name": "guvencaner"
+            }
+          ]
+        },
+        {
+          "matchId": 505304961,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:15:34.000Z",
+          "dur": 1302,
+          "opponents": [
+            {
+              "profileId": 9909477,
+              "name": "CASTILLO88"
+            },
+            {
+              "profileId": 1352134,
+              "name": "Holylight"
+            },
+            {
+              "profileId": 2184414,
+              "name": "EnglishFrank"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14820811,
+              "name": "narkdight"
+            },
+            {
+              "profileId": 21197484,
+              "name": "baha"
+            }
+          ]
+        },
+        {
+          "matchId": 505293484,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:22:51.000Z",
+          "dur": 2760,
+          "opponents": [
+            {
+              "profileId": 329901,
+              "name": "fortunes"
+            },
+            {
+              "profileId": 515090,
+              "name": "davidi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14820811,
+              "name": "narkdight"
+            }
+          ]
+        },
         {
           "matchId": 495804931,
           "civ": "Huns",
@@ -63517,5 +63611,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tr",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
+  "countryName": "Turkey"
 }

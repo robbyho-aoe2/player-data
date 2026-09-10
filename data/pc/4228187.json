@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 985,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1239,
         "peakRating": 1257
       },
@@ -15789,12 +15789,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2687,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1110,
+        "totalGames": 2691,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1147,
         "peakRating": 1404
       },
       "matches": [
+        {
+          "matchId": 505416655,
+          "civ": "Tupi",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:49:12.000Z",
+          "dur": 4025,
+          "opponents": [
+            {
+              "profileId": 1474918,
+              "name": "OhLawdHeComin"
+            },
+            {
+              "profileId": 2752526,
+              "name": "VirenMeghanSara"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8574663,
+              "name": "NIKA"
+            }
+          ]
+        },
+        {
+          "matchId": 505242391,
+          "civ": "Bohemians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T15:01:32.000Z",
+          "dur": 1502,
+          "opponents": [
+            {
+              "profileId": 23936355,
+              "name": "Clown baby II"
+            },
+            {
+              "profileId": 25454566,
+              "name": "Elficovich"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8574663,
+              "name": "NIKA"
+            }
+          ]
+        },
+        {
+          "matchId": 505237838,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T14:37:56.000Z",
+          "dur": 1267,
+          "opponents": [
+            {
+              "profileId": 8958399,
+              "name": "loczekk_95"
+            },
+            {
+              "profileId": 23726735,
+              "name": "nurlan-c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8574663,
+              "name": "NIKA"
+            }
+          ]
+        },
+        {
+          "matchId": 505227833,
+          "civ": "Dravidians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T13:43:10.000Z",
+          "dur": 3092,
+          "opponents": [
+            {
+              "profileId": 8952249,
+              "name": "xdmastorx"
+            },
+            {
+              "profileId": 6270470,
+              "name": "KeyMan_t"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8574663,
+              "name": "NIKA"
+            }
+          ]
+        },
         {
           "matchId": 505102897,
           "civ": "Byzantines",
@@ -98788,5 +98892,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 55,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1027,
         "peakRating": 1044
       },
@@ -909,12 +909,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3361,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1245,
+        "totalGames": 3365,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1216,
         "peakRating": 1319
       },
       "matches": [
+        {
+          "matchId": 505385482,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T05:00:36.000Z",
+          "dur": 1389,
+          "opponents": [
+            {
+              "profileId": 2669208,
+              "name": "[JRH]U2"
+            },
+            {
+              "profileId": 2823858,
+              "name": "[JRH]Aguila"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9085212,
+              "name": "seantricks"
+            }
+          ]
+        },
+        {
+          "matchId": 505339931,
+          "civ": "Britons",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:41:36.000Z",
+          "dur": 511,
+          "opponents": [
+            {
+              "profileId": 24978784,
+              "name": "CanarioAOE"
+            },
+            {
+              "profileId": 11478491,
+              "name": "jaiderreyes4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 869122,
+              "name": "{ST}Joker"
+            }
+          ]
+        },
+        {
+          "matchId": 505328384,
+          "civ": "Britons",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:26:47.000Z",
+          "dur": 1825,
+          "opponents": [
+            {
+              "profileId": 15502695,
+              "name": "elmariscal"
+            },
+            {
+              "profileId": 2451121,
+              "name": "juanag86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15407535,
+              "name": "buzzkill"
+            }
+          ]
+        },
+        {
+          "matchId": 505325557,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:09:40.000Z",
+          "dur": 771,
+          "opponents": [
+            {
+              "profileId": 269544,
+              "name": "[YOBA] \u2642\ufe0fCUM\u2642\ufe0fBACK"
+            },
+            {
+              "profileId": 736789,
+              "name": "[YOBA]Ermak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23788191,
+              "name": "King Spartacus"
+            }
+          ]
+        },
         {
           "matchId": 505173295,
           "civ": "Britons",
@@ -88439,5 +88543,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

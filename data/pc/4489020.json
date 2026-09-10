@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-29"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 28,
-        "pulledDate": "2026-08-29",
+        "pulledDate": "2026-09-10",
         "latestRating": 675,
         "peakRating": 823
       },
@@ -477,12 +477,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 102,
-        "pulledDate": "2026-08-29",
-        "latestRating": 738,
+        "totalGames": 104,
+        "pulledDate": "2026-09-10",
+        "latestRating": 705,
         "peakRating": 907
       },
       "matches": [
+        {
+          "matchId": 505340582,
+          "civ": "Georgians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:45:57.000Z",
+          "dur": 2630,
+          "opponents": [
+            {
+              "profileId": 23227540,
+              "name": "An\u0365gr\u0363y\u036b\u3084o\u2020\u03b1\u2020o \u0295\u2022\u1d25\u2022\u0294 [ESP]"
+            },
+            {
+              "profileId": 12105072,
+              "name": "Legolas"
+            },
+            {
+              "profileId": 6527746,
+              "name": "UZI"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2599959,
+              "name": "WillOfTheGodz"
+            },
+            {
+              "profileId": 1477248,
+              "name": "Mecenas Kaszewiak"
+            }
+          ]
+        },
+        {
+          "matchId": 505337127,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:22:32.000Z",
+          "dur": 1248,
+          "opponents": [
+            {
+              "profileId": 4256507,
+              "name": "Emperador1988"
+            },
+            {
+              "profileId": 17451611,
+              "name": "FatalDreamz7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2599959,
+              "name": "WillOfTheGodz"
+            }
+          ]
+        },
         {
           "matchId": 493711267,
           "civ": "Sicilians",
@@ -3411,5 +3471,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

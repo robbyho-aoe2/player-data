@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-10",
         "latestRating": 886,
         "peakRating": 915
       },
@@ -221,12 +221,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 109,
-        "pulledDate": "2026-09-04",
-        "latestRating": 777,
+        "totalGames": 112,
+        "pulledDate": "2026-09-10",
+        "latestRating": 802,
         "peakRating": 840
       },
       "matches": [
+        {
+          "matchId": 505305440,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:18:13.000Z",
+          "dur": 3435,
+          "opponents": [
+            {
+              "profileId": 10425604,
+              "name": "FURKAN"
+            },
+            {
+              "profileId": 19996592,
+              "name": "vainamoinen_"
+            },
+            {
+              "profileId": 21258999,
+              "name": "et_xereis_esy"
+            },
+            {
+              "profileId": 2535597,
+              "name": "lokigr13"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4616733,
+              "name": "Neon"
+            },
+            {
+              "profileId": 5279677,
+              "name": "Mitchiss"
+            },
+            {
+              "profileId": 6787064,
+              "name": "Dino"
+            }
+          ]
+        },
+        {
+          "matchId": 505297127,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:39:24.000Z",
+          "dur": 2129,
+          "opponents": [
+            {
+              "profileId": 23856842,
+              "name": "Gut Check"
+            },
+            {
+              "profileId": 6800573,
+              "name": "stephenskocpol"
+            },
+            {
+              "profileId": 738031,
+              "name": "sunshine1311"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5279677,
+              "name": "Mitchiss"
+            },
+            {
+              "profileId": 6787064,
+              "name": "Dino"
+            }
+          ]
+        },
+        {
+          "matchId": 505289408,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:04:11.000Z",
+          "dur": 1813,
+          "opponents": [
+            {
+              "profileId": 18401889,
+              "name": "Zeus GX"
+            },
+            {
+              "profileId": 8350946,
+              "name": "RockReborn"
+            },
+            {
+              "profileId": 21446026,
+              "name": "PatBateman7156"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6787064,
+              "name": "Dino"
+            },
+            {
+              "profileId": 5279677,
+              "name": "Mitchiss"
+            }
+          ]
+        },
         {
           "matchId": 503684776,
           "civ": "Portuguese",
@@ -4092,5 +4202,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cz",
+  "countryIcon": "\ud83c\udde8\ud83c\uddff",
+  "countryName": "Czechia"
 }

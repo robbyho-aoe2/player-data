@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1577,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-10",
         "latestRating": 1259,
         "peakRating": 1284
       },
@@ -25264,12 +25264,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2379,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1060,
+        "totalGames": 2382,
+        "pulledDate": "2026-09-10",
+        "latestRating": 1073,
         "peakRating": 1335
       },
       "matches": [
+        {
+          "matchId": 505272015,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:38:41.000Z",
+          "dur": 1987,
+          "opponents": [
+            {
+              "profileId": 6430241,
+              "name": "Kabelbinder"
+            },
+            {
+              "profileId": 6316546,
+              "name": "Kokosfett Klaus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11362652,
+              "name": "a3ik07"
+            }
+          ]
+        },
+        {
+          "matchId": 505262977,
+          "civ": "Celts",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:53:31.000Z",
+          "dur": 1700,
+          "opponents": [
+            {
+              "profileId": 44655,
+              "name": "BJ"
+            },
+            {
+              "profileId": 10538637,
+              "name": "Kurt <3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4877440,
+              "name": "dorshiffe10"
+            }
+          ]
+        },
+        {
+          "matchId": 505261634,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T16:45:26.000Z",
+          "dur": 438,
+          "opponents": [
+            {
+              "profileId": 1388127,
+              "name": "salan"
+            },
+            {
+              "profileId": 5528889,
+              "name": "Veyron"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 831501,
+              "name": "Chill"
+            }
+          ]
+        },
         {
           "matchId": 504795110,
           "civ": "Ethiopians",
@@ -98996,5 +99074,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }
