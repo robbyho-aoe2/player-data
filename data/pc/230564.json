@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 7,
-        "pulledDate": "2026-08-28",
+        "pulledDate": "2026-09-11",
         "latestRating": 1004,
         "peakRating": 1065
       },
@@ -141,12 +141,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 128,
-        "pulledDate": "2026-08-28",
-        "latestRating": 1198,
+        "totalGames": 131,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1189,
         "peakRating": 1276
       },
       "matches": [
+        {
+          "matchId": 505296460,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:36:19.000Z",
+          "dur": 1501,
+          "opponents": [
+            {
+              "profileId": 820209,
+              "name": "Reinaldo"
+            },
+            {
+              "profileId": 583418,
+              "name": "Adelfa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 276268,
+              "name": "padde1000"
+            }
+          ]
+        },
+        {
+          "matchId": 505291013,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:11:29.000Z",
+          "dur": 1158,
+          "opponents": [
+            {
+              "profileId": 469188,
+              "name": "DomBo"
+            },
+            {
+              "profileId": 467060,
+              "name": "Sergio Marquina"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 276268,
+              "name": "padde1000"
+            }
+          ]
+        },
+        {
+          "matchId": 505285159,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:43:01.000Z",
+          "dur": 1489,
+          "opponents": [
+            {
+              "profileId": 18274942,
+              "name": "Le Roi"
+            },
+            {
+              "profileId": 12352555,
+              "name": "botik"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 276268,
+              "name": "padde1000"
+            }
+          ]
+        },
         {
           "matchId": 502466345,
           "civ": "Mongols",
@@ -3549,5 +3627,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1573,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1247,
+        "totalGames": 1577,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1211,
         "peakRating": 1360
       },
       "matches": [
+        {
+          "matchId": 505508552,
+          "civ": "Saracens",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:35:34.000Z",
+          "dur": 1220,
+          "opponents": [
+            {
+              "profileId": 3063034,
+              "name": "Camar\u00f3n Caramelo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505504743,
+          "civ": "Celts",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:17:58.000Z",
+          "dur": 913,
+          "opponents": [
+            {
+              "profileId": 1201570,
+              "name": "Blazena_Bozena"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505297753,
+          "civ": "Byzantines",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:41:38.000Z",
+          "dur": 1686,
+          "opponents": [
+            {
+              "profileId": 11689209,
+              "name": "Dousethais"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505077782,
+          "civ": "Khmer",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:51:00.000Z",
+          "dur": 2046,
+          "opponents": [
+            {
+              "profileId": 1122473,
+              "name": "Gravian"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504721730,
           "civ": "Spanish",
@@ -25204,12 +25272,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 159,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1110,
+        "totalGames": 160,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1096,
         "peakRating": 1246
       },
       "matches": [
+        {
+          "matchId": 505304015,
+          "civ": "Byzantines",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:11:19.000Z",
+          "dur": 2094,
+          "opponents": [
+            {
+              "profileId": 1459846,
+              "name": "snek_fan"
+            },
+            {
+              "profileId": 19878443,
+              "name": "Azazel"
+            },
+            {
+              "profileId": 20052143,
+              "name": "Firicel"
+            },
+            {
+              "profileId": 21537359,
+              "name": "NotADuck"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 316872,
+              "name": "shemirage"
+            },
+            {
+              "profileId": 6210787,
+              "name": "VedtheAssasin"
+            },
+            {
+              "profileId": 23488791,
+              "name": "Gunslinger"
+            }
+          ]
+        },
         {
           "matchId": 504767921,
           "civ": "Magyars",
@@ -30534,5 +30644,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland"
 }

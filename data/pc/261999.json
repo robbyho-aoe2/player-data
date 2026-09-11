@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 401,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1198,
+        "totalGames": 402,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1215,
         "peakRating": 1273
       },
       "matches": [
+        {
+          "matchId": 505364753,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:22:23.000Z",
+          "dur": 1594,
+          "opponents": [
+            {
+              "profileId": 24558017,
+              "name": "TVHG - El Le\u00f3n de Riobamba"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 494644082,
           "civ": "Slavs",
@@ -6446,7 +6463,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 33,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-11",
         "latestRating": 1182,
         "peakRating": 1182
       },
@@ -7480,5 +7497,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pe",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddea",
+  "countryName": "Peru"
 }

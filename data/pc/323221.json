@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2619,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1213,
+        "totalGames": 2622,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1226,
         "peakRating": 1236
       },
       "matches": [
+        {
+          "matchId": 505784562,
+          "civ": "Bulgarians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T02:09:13.000Z",
+          "dur": 1356,
+          "opponents": [
+            {
+              "profileId": 12224806,
+              "name": "Hoveringpuppy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505776102,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T01:16:24.000Z",
+          "dur": 1523,
+          "opponents": [
+            {
+              "profileId": 3235340,
+              "name": "SergioBR"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505131826,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:31:41.000Z",
+          "dur": 1262,
+          "opponents": [
+            {
+              "profileId": 8434821,
+              "name": "Flairace"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504632481,
           "civ": "Portuguese",
@@ -41961,7 +42012,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 292,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1197,
         "peakRating": 1204
       },
@@ -52132,5 +52183,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "co",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf4",
+  "countryName": "Colombia"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 207,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 1640,
         "peakRating": 1706
       },
@@ -3092,12 +3092,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2090,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1613,
+        "totalGames": 2093,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1604,
         "peakRating": 1680
       },
       "matches": [
+        {
+          "matchId": 505073165,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:32:48.000Z",
+          "dur": 1689,
+          "opponents": [
+            {
+              "profileId": 5405126,
+              "name": "Ronnie Hotdogs"
+            },
+            {
+              "profileId": 2826149,
+              "name": "\u9f99\u867e\u5c0f\u5175"
+            },
+            {
+              "profileId": 322534,
+              "name": "Noszombie"
+            },
+            {
+              "profileId": 267857,
+              "name": "DanMT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5637894,
+              "name": "OIDA | sILVER"
+            },
+            {
+              "profileId": 4741867,
+              "name": "OIDA | Tasty"
+            },
+            {
+              "profileId": 2605120,
+              "name": "OIDA | onkyox"
+            }
+          ]
+        },
+        {
+          "matchId": 505061127,
+          "civ": "Malians",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:45:47.000Z",
+          "dur": 2377,
+          "opponents": [
+            {
+              "profileId": 786116,
+              "name": "Velky kanec"
+            },
+            {
+              "profileId": 20181185,
+              "name": "Santoryu"
+            },
+            {
+              "profileId": 18021038,
+              "name": "LSKingdom9970"
+            },
+            {
+              "profileId": 4574021,
+              "name": "Flux"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5637894,
+              "name": "OIDA | sILVER"
+            },
+            {
+              "profileId": 4741867,
+              "name": "OIDA | Tasty"
+            },
+            {
+              "profileId": 2605120,
+              "name": "OIDA | onkyox"
+            }
+          ]
+        },
+        {
+          "matchId": 505053235,
+          "civ": "Turks",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:13:14.000Z",
+          "dur": 1544,
+          "opponents": [
+            {
+              "profileId": 2053853,
+              "name": ".::North::."
+            },
+            {
+              "profileId": 230528,
+              "name": "DanielCZ"
+            },
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            },
+            {
+              "profileId": 10931552,
+              "name": "Noxx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 184422,
+              "name": "OIDA | Brix"
+            },
+            {
+              "profileId": 5637894,
+              "name": "OIDA | sILVER"
+            },
+            {
+              "profileId": 4741867,
+              "name": "OIDA | Tasty"
+            }
+          ]
+        },
         {
           "matchId": 503869746,
           "civ": "Bengalis",
@@ -54274,5 +54400,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 601,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 1579,
         "peakRating": 1654
       },
@@ -9645,12 +9645,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 600,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1458,
+        "totalGames": 605,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1479,
         "peakRating": 1501
       },
       "matches": [
+        {
+          "matchId": 505308724,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:33:47.000Z",
+          "dur": 1676,
+          "opponents": [
+            {
+              "profileId": 14148924,
+              "name": "Marcusscus"
+            },
+            {
+              "profileId": 23670557,
+              "name": "Narygol"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 505307623,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:28:20.000Z",
+          "dur": 36,
+          "opponents": [
+            {
+              "profileId": 67927,
+              "name": "Panicvectors"
+            },
+            {
+              "profileId": 1945020,
+              "name": "Ognoreglep"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 505304228,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T20:11:45.000Z",
+          "dur": 770,
+          "opponents": [
+            {
+              "profileId": 67927,
+              "name": "Panicvectors"
+            },
+            {
+              "profileId": 1945020,
+              "name": "Ognoreglep"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 505296562,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:36:50.000Z",
+          "dur": 1898,
+          "opponents": [
+            {
+              "profileId": 378753,
+              "name": "EatEaty"
+            },
+            {
+              "profileId": 4388701,
+              "name": "Chiro My Hero"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 505288196,
+          "civ": "Aztecs",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:58:13.000Z",
+          "dur": 1895,
+          "opponents": [
+            {
+              "profileId": 10236848,
+              "name": "manfred_da_pig"
+            },
+            {
+              "profileId": 378753,
+              "name": "EatEaty"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
         {
           "matchId": 503465591,
           "civ": "Saracens",
@@ -25133,5 +25263,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 511,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1680,
         "peakRating": 1721
       },
@@ -8216,12 +8216,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 6958,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1315,
+        "totalGames": 6961,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1329,
         "peakRating": 1602
       },
       "matches": [
+        {
+          "matchId": 505615165,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T08:32:03.000Z",
+          "dur": 2419,
+          "opponents": [
+            {
+              "profileId": 2443606,
+              "name": "DK_Grunchito"
+            },
+            {
+              "profileId": 669752,
+              "name": "DK_Nightclaim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15035552,
+              "name": "my teammate can 1v2"
+            }
+          ]
+        },
+        {
+          "matchId": 505183425,
+          "civ": "Poles",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:07:51.000Z",
+          "dur": 1868,
+          "opponents": [
+            {
+              "profileId": 23618573,
+              "name": "\u6210\u5168"
+            },
+            {
+              "profileId": 4281707,
+              "name": "opod"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 403683,
+              "name": "Yisus"
+            }
+          ]
+        },
+        {
+          "matchId": 505115644,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T22:54:33.000Z",
+          "dur": 1098,
+          "opponents": [
+            {
+              "profileId": 24546027,
+              "name": "[TLGA] - Wendy Sulka"
+            },
+            {
+              "profileId": 24471085,
+              "name": "[TLGA] - La Tigresa del Oriente"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21184178,
+              "name": "andresgonzalez24"
+            }
+          ]
+        },
         {
           "matchId": 504964582,
           "civ": "Spanish",
@@ -184664,5 +184742,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

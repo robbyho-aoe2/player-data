@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1052,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1235,
+        "totalGames": 1055,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1220,
         "peakRating": 1300
       },
       "matches": [
+        {
+          "matchId": 505476458,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:57:30.000Z",
+          "dur": 831,
+          "opponents": [
+            {
+              "profileId": 514338,
+              "name": "Cal1um2"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505472250,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:34:22.000Z",
+          "dur": 1316,
+          "opponents": [
+            {
+              "profileId": 176147,
+              "name": "entagir"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505288960,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:01:27.000Z",
+          "dur": 1273,
+          "opponents": [
+            {
+              "profileId": 5094836,
+              "name": "ErwinEgo1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504436444,
           "civ": "Persians",
@@ -16868,7 +16919,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 355,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-11",
         "latestRating": 1167,
         "peakRating": 1278
       },
@@ -27605,5 +27656,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 312,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1559,
+        "totalGames": 314,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1591,
         "peakRating": 1643
       },
       "matches": [
+        {
+          "matchId": 505712729,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:10:00.000Z",
+          "dur": 2827,
+          "opponents": [
+            {
+              "profileId": 11713316,
+              "name": "Alex"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505291371,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:12:37.000Z",
+          "dur": 2063,
+          "opponents": [
+            {
+              "profileId": 251750,
+              "name": "[BIER] FistTheFox"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504807912,
           "civ": "Teutons",
@@ -5334,7 +5368,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 634,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1267,
         "peakRating": 1420
       },
@@ -22100,5 +22134,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

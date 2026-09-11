@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-08-28",
+        "pulledDate": "2026-09-11",
         "latestRating": 1208,
         "peakRating": 1208
       },
@@ -45,11 +45,37 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 11,
-        "pulledDate": "2026-08-28",
+        "totalGames": 12,
+        "pulledDate": "2026-09-11",
         "latestRating": 1735
       },
       "matches": [
+        {
+          "matchId": 56315690,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 478,
+          "date": "2020-12-19",
+          "startedAt": "2020-12-19T16:57:06.000Z",
+          "dur": 1362,
+          "opponents": [
+            {
+              "profileId": 2407434,
+              "name": "La Chancha"
+            },
+            {
+              "profileId": 1941635,
+              "name": "Gonza005"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 220696,
+              "name": "C0ckroach"
+            }
+          ]
+        },
         {
           "matchId": 66863971,
           "civ": "Burgundians",
@@ -326,5 +352,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "il",
+  "countryIcon": "\ud83c\uddee\ud83c\uddf1",
+  "countryName": "Israel"
 }

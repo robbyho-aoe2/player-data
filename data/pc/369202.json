@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 124,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1317,
+        "totalGames": 125,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1335,
         "peakRating": 1349
       },
       "matches": [
+        {
+          "matchId": 505659008,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T14:24:10.000Z",
+          "dur": 1979,
+          "opponents": [
+            {
+              "profileId": 5911615,
+              "name": "harusame"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499319873,
           "civ": "Tatars",
@@ -2138,7 +2155,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-11",
         "latestRating": 1162,
         "peakRating": 1163
       },
@@ -3127,5 +3144,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 191,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1338,
         "peakRating": 1339
       },
@@ -3085,12 +3085,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2366,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1240,
+        "totalGames": 2369,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1224,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 505419142,
+          "civ": "Slavs",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T11:12:17.000Z",
+          "dur": 574,
+          "opponents": [
+            {
+              "profileId": 7940203,
+              "name": "takoyaki"
+            },
+            {
+              "profileId": 931734,
+              "name": "virgilus999"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2376301,
+              "name": "El Fuser"
+            }
+          ]
+        },
+        {
+          "matchId": 505416778,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:50:15.000Z",
+          "dur": 1154,
+          "opponents": [
+            {
+              "profileId": 2721827,
+              "name": "Exellence"
+            },
+            {
+              "profileId": 425374,
+              "name": "Olkem"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2376301,
+              "name": "El Fuser"
+            }
+          ]
+        },
+        {
+          "matchId": 505414398,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T10:25:59.000Z",
+          "dur": 1181,
+          "opponents": [
+            {
+              "profileId": 6721740,
+              "name": "berta"
+            },
+            {
+              "profileId": 8676912,
+              "name": "O P T I M U S"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2376301,
+              "name": "El Fuser"
+            }
+          ]
+        },
         {
           "matchId": 504715798,
           "civ": "Poles",
@@ -80105,5 +80183,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "au",
+  "countryIcon": "\ud83c\udde6\ud83c\uddfa",
+  "countryName": "Australia"
 }

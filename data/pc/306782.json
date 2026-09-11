@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 453,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-11",
         "latestRating": 1482,
         "peakRating": 1594
       },
@@ -7730,12 +7730,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 177,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1340,
+        "totalGames": 179,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1310,
         "peakRating": 1413
       },
       "matches": [
+        {
+          "matchId": 505557929,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:23:18.000Z",
+          "dur": 3325,
+          "opponents": [
+            {
+              "profileId": 20029200,
+              "name": "YAI"
+            },
+            {
+              "profileId": 9133759,
+              "name": "Pedrozadota"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 918587,
+              "name": "Tal\u00e3o"
+            }
+          ]
+        },
+        {
+          "matchId": 505551074,
+          "civ": "Vikings",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:37:04.000Z",
+          "dur": 2606,
+          "opponents": [
+            {
+              "profileId": 4048134,
+              "name": "Donezo"
+            },
+            {
+              "profileId": 3124803,
+              "name": "Pirulo222"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 918587,
+              "name": "Tal\u00e3o"
+            }
+          ]
+        },
         {
           "matchId": 504359379,
           "civ": "Jurchens",
@@ -13317,5 +13369,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "br",
+  "countryIcon": "\ud83c\udde7\ud83c\uddf7",
+  "countryName": "Brazil"
 }

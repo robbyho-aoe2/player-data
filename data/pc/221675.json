@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1615,
         "peakRating": 1637
       },
@@ -365,12 +365,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4797,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1600,
+        "totalGames": 4802,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1643,
         "peakRating": 1726
       },
       "matches": [
+        {
+          "matchId": 505687708,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T17:01:05.000Z",
+          "dur": 2727,
+          "opponents": [
+            {
+              "profileId": 19844462,
+              "name": "FMG | Esteban"
+            },
+            {
+              "profileId": 1701210,
+              "name": "YuriiVegas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 943109,
+              "name": "Emperor in a Bucket"
+            }
+          ]
+        },
+        {
+          "matchId": 505683324,
+          "civ": "Khmer",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T16:36:09.000Z",
+          "dur": 1305,
+          "opponents": [
+            {
+              "profileId": 5802107,
+              "name": "SMY"
+            },
+            {
+              "profileId": 19438274,
+              "name": "yix_x_xio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 943109,
+              "name": "Emperor in a Bucket"
+            }
+          ]
+        },
+        {
+          "matchId": 505682079,
+          "civ": "Poles",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T16:29:19.000Z",
+          "dur": 19,
+          "opponents": [
+            {
+              "profileId": 4039792,
+              "name": "WryPig"
+            },
+            {
+              "profileId": 4114146,
+              "name": "LowEloNobody"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 943109,
+              "name": "Emperor in a Bucket"
+            }
+          ]
+        },
+        {
+          "matchId": 505674990,
+          "civ": "Romans",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T15:49:11.000Z",
+          "dur": 1917,
+          "opponents": [
+            {
+              "profileId": 4139746,
+              "name": "\u5c0f\u751f\u6015\u6015"
+            },
+            {
+              "profileId": 3311817,
+              "name": "JESUS_is_SAVIOR3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 943109,
+              "name": "Emperor in a Bucket"
+            }
+          ]
+        },
+        {
+          "matchId": 505480618,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:19:35.000Z",
+          "dur": 2269,
+          "opponents": [
+            {
+              "profileId": 20073300,
+              "name": "sales96"
+            },
+            {
+              "profileId": 2599284,
+              "name": "wEEBER"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 943109,
+              "name": "Emperor in a Bucket"
+            }
+          ]
+        },
         {
           "matchId": 504825849,
           "civ": "Japanese",
@@ -149505,5 +149635,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

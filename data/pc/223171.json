@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1647,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1615,
         "peakRating": 1768
       },
@@ -26381,12 +26381,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2626,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1622,
+        "totalGames": 2629,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1589,
         "peakRating": 1673
       },
       "matches": [
+        {
+          "matchId": 505084514,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:19:27.000Z",
+          "dur": 2723,
+          "opponents": [
+            {
+              "profileId": 1495334,
+              "name": "Subclavian"
+            },
+            {
+              "profileId": 1427447,
+              "name": "Jozzif"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 239347,
+              "name": "Waaalter"
+            }
+          ]
+        },
+        {
+          "matchId": 505074702,
+          "civ": "Hindustanis",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:38:37.000Z",
+          "dur": 2214,
+          "opponents": [
+            {
+              "profileId": 1374470,
+              "name": "banzigerrastard"
+            },
+            {
+              "profileId": 2069989,
+              "name": "[TodEs] JohnWCooke"
+            },
+            {
+              "profileId": 18947729,
+              "name": "adrimelli"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 239347,
+              "name": "Waaalter"
+            },
+            {
+              "profileId": 4096048,
+              "name": "Kirays"
+            }
+          ]
+        },
+        {
+          "matchId": 505058710,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:36:00.000Z",
+          "dur": 1348,
+          "opponents": [
+            {
+              "profileId": 1301448,
+              "name": "Janissaire808"
+            },
+            {
+              "profileId": 3029618,
+              "name": "[IMGG]Poncho"
+            },
+            {
+              "profileId": 5934168,
+              "name": "antorse31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5986941,
+              "name": "ENTON"
+            },
+            {
+              "profileId": 4096048,
+              "name": "Kirays"
+            }
+          ]
+        },
         {
           "matchId": 504789546,
           "civ": "Persians",
@@ -100086,5 +100180,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

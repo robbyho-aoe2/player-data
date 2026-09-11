@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1247,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1701,
-        "peakRating": 1701
+        "totalGames": 1249,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1709,
+        "peakRating": 1719
       },
       "matches": [
+        {
+          "matchId": 505470466,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:24:06.000Z",
+          "dur": 1596,
+          "opponents": [
+            {
+              "profileId": 1792891,
+              "name": "LL | Enr1co"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505462454,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T15:39:50.000Z",
+          "dur": 2558,
+          "opponents": [
+            {
+              "profileId": 1483008,
+              "name": "Lungaharing"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502159913,
           "civ": "Huns",
@@ -19981,12 +20015,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 952,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1399,
+        "totalGames": 954,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1357,
         "peakRating": 1479
       },
       "matches": [
+        {
+          "matchId": 505733553,
+          "civ": "Burgundians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:49:57.000Z",
+          "dur": 1517,
+          "opponents": [
+            {
+              "profileId": 25992036,
+              "name": "\u8f6f\u811a\u867e5\u53f7(p6\u6709\u673a\u4f1a\u83b7\u5f97\u5999\u5361\u5976\u725b)"
+            },
+            {
+              "profileId": 21933114,
+              "name": "Eteus"
+            },
+            {
+              "profileId": 7883844,
+              "name": "yucky donut"
+            },
+            {
+              "profileId": 4932765,
+              "name": "myckro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 863943,
+              "name": "Cadros"
+            },
+            {
+              "profileId": 435157,
+              "name": "Mustmakemorevillagers"
+            },
+            {
+              "profileId": 340755,
+              "name": "T.M\u00fccke_63"
+            }
+          ]
+        },
+        {
+          "matchId": 505722393,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:55:11.000Z",
+          "dur": 2035,
+          "opponents": [
+            {
+              "profileId": 2906685,
+              "name": "Te Encanta Mi Chilo Flaxxido"
+            },
+            {
+              "profileId": 2905738,
+              "name": "el droga ni\u00f1os"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 213119,
+              "name": "DanielHD"
+            }
+          ]
+        },
         {
           "matchId": 504660274,
           "civ": "Bohemians",
@@ -50554,5 +50656,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland"
 }

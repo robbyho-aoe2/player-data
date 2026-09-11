@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1245,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1175,
+        "totalGames": 1247,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1174,
         "peakRating": 1372
       },
       "matches": [
+        {
+          "matchId": 505532577,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:41:11.000Z",
+          "dur": 1415,
+          "opponents": [
+            {
+              "profileId": 300496,
+              "name": "MrButler"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505491827,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:17:21.000Z",
+          "dur": 903,
+          "opponents": [
+            {
+              "profileId": 19314066,
+              "name": "ahmed_aliking"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504832628,
           "civ": "Vikings",
@@ -19968,7 +20002,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 112,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1188,
         "peakRating": 1285
       },
@@ -22894,5 +22928,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

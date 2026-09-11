@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1197,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1661,
         "peakRating": 1775
       },
@@ -18005,12 +18005,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1278,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1493,
+        "totalGames": 1282,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1504,
         "peakRating": 1607
       },
       "matches": [
+        {
+          "matchId": 505582773,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T03:04:02.000Z",
+          "dur": 2173,
+          "opponents": [
+            {
+              "profileId": 4971,
+              "name": "Nacho"
+            },
+            {
+              "profileId": 406100,
+              "name": "Ux'Abdi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 308129,
+              "name": "Destructious"
+            }
+          ]
+        },
+        {
+          "matchId": 505371841,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T03:09:12.000Z",
+          "dur": 1182,
+          "opponents": [
+            {
+              "profileId": 19407236,
+              "name": "Mistico"
+            },
+            {
+              "profileId": 5657679,
+              "name": "dzk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 308129,
+              "name": "Destructious"
+            }
+          ]
+        },
+        {
+          "matchId": 505024664,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:58:33.000Z",
+          "dur": 1349,
+          "opponents": [
+            {
+              "profileId": 25436970,
+              "name": "UC | Chechito"
+            },
+            {
+              "profileId": 3949167,
+              "name": "VX | Palva31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 308129,
+              "name": "Destructious"
+            }
+          ]
+        },
+        {
+          "matchId": 505020827,
+          "civ": "Vikings",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:39:41.000Z",
+          "dur": 1014,
+          "opponents": [
+            {
+              "profileId": 1723050,
+              "name": "GAX | Mr.P"
+            },
+            {
+              "profileId": 2504250,
+              "name": "Showbizz V3sk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 308129,
+              "name": "Destructious"
+            }
+          ]
+        },
         {
           "matchId": 505008805,
           "civ": "Bengalis",
@@ -42781,5 +42885,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

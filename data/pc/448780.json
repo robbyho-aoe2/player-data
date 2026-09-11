@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2340,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1438,
+        "totalGames": 2346,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1404,
         "peakRating": 1577
       },
       "matches": [
+        {
+          "matchId": 505788708,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T02:36:20.000Z",
+          "dur": 958,
+          "opponents": [
+            {
+              "profileId": 6158492,
+              "name": "TyrantT"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505783824,
+          "civ": "Burmese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T02:05:19.000Z",
+          "dur": 1298,
+          "opponents": [
+            {
+              "profileId": 2190330,
+              "name": "FGK | Tot\u00e9"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505330282,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:37:52.000Z",
+          "dur": 1848,
+          "opponents": [
+            {
+              "profileId": 2767887,
+              "name": "ILoveOrangeJelly"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505325214,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:06:39.000Z",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 20272030,
+              "name": "I hate Arabia"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505105196,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:55:07.000Z",
+          "dur": 1757,
+          "opponents": [
+            {
+              "profileId": 2954103,
+              "name": "LGN.Chelito_SM"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505101937,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:38:14.000Z",
+          "dur": 893,
+          "opponents": [
+            {
+              "profileId": 764199,
+              "name": "pierrehusson"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504806299,
           "civ": "Malians",
@@ -37490,12 +37592,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 739,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1369,
+        "totalGames": 741,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1341,
         "peakRating": 1448
       },
       "matches": [
+        {
+          "matchId": 505564903,
+          "civ": "Saracens",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:10:16.000Z",
+          "dur": 2339,
+          "opponents": [
+            {
+              "profileId": 22417369,
+              "name": "[KOF] JoakoM"
+            },
+            {
+              "profileId": 2668009,
+              "name": "[KOF] Kryzzozz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10159619,
+              "name": "Ca\u00f1a con ruda"
+            }
+          ]
+        },
+        {
+          "matchId": 505356825,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:33:01.000Z",
+          "dur": 4737,
+          "opponents": [
+            {
+              "profileId": 26014123,
+              "name": "Coloso MDP"
+            },
+            {
+              "profileId": 2516139,
+              "name": "LVA - Gleich"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10159619,
+              "name": "Ca\u00f1a con ruda"
+            }
+          ]
+        },
         {
           "matchId": 504600883,
           "civ": "Huns",
@@ -57203,5 +57357,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

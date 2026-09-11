@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 280,
-        "pulledDate": "2026-08-28",
+        "pulledDate": "2026-09-11",
         "latestRating": 1209,
         "peakRating": 1221
       },
@@ -4509,12 +4509,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 414,
-        "pulledDate": "2026-08-28",
-        "latestRating": 1111,
-        "peakRating": 1134
+        "totalGames": 416,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1125,
+        "peakRating": 1141
       },
       "matches": [
+        {
+          "matchId": 505347574,
+          "civ": "Shu",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:33:22.000Z",
+          "dur": 1626,
+          "opponents": [
+            {
+              "profileId": 22485483,
+              "name": "MaxTorres04"
+            },
+            {
+              "profileId": 17101625,
+              "name": "EiM | Tha_Kela96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1809932,
+              "name": "Standing Alone!"
+            }
+          ]
+        },
+        {
+          "matchId": 505344431,
+          "civ": "Shu",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:12:16.000Z",
+          "dur": 1148,
+          "opponents": [
+            {
+              "profileId": 902870,
+              "name": "[GDL] An\u00edbal"
+            },
+            {
+              "profileId": 18664312,
+              "name": "Tesistan\u00ed"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1905516,
+              "name": "joueur1andre"
+            }
+          ]
+        },
         {
           "matchId": 494428813,
           "civ": "Koreans",
@@ -15523,5 +15575,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

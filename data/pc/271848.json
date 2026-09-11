@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 199,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 1576,
         "peakRating": 1591
       },
@@ -3213,12 +3213,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2347,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1681,
-        "peakRating": 1707
+        "totalGames": 2350,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1689,
+        "peakRating": 1710
       },
       "matches": [
+        {
+          "matchId": 505574065,
+          "civ": "Malay",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:08:20.000Z",
+          "dur": 2030,
+          "opponents": [
+            {
+              "profileId": 25658087,
+              "name": "Vx | RhaegaL"
+            },
+            {
+              "profileId": 10578512,
+              "name": "Kold"
+            },
+            {
+              "profileId": 3044702,
+              "name": "Alita"
+            },
+            {
+              "profileId": 391135,
+              "name": "David Rasie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 183352,
+              "name": "\u0442\u0430\u0497\u0438\u043a"
+            },
+            {
+              "profileId": 25530156,
+              "name": "RohanAoE"
+            },
+            {
+              "profileId": 200661,
+              "name": "[Mushu] Elgo Lazo"
+            }
+          ]
+        },
+        {
+          "matchId": 505573181,
+          "civ": "Aztecs",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T02:02:48.000Z",
+          "dur": 735,
+          "opponents": [
+            {
+              "profileId": 10578512,
+              "name": "Kold"
+            },
+            {
+              "profileId": 6444362,
+              "name": "HKPDSUCKS"
+            },
+            {
+              "profileId": 6324435,
+              "name": "DL-\u0110\u1ec7Nh\u1ecb"
+            },
+            {
+              "profileId": 3044702,
+              "name": "Alita"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23083217,
+              "name": "\u6267\u8005\u5982\u65d7"
+            },
+            {
+              "profileId": 200661,
+              "name": "[Mushu] Elgo Lazo"
+            },
+            {
+              "profileId": 183352,
+              "name": "\u0442\u0430\u0497\u0438\u043a"
+            }
+          ]
+        },
+        {
+          "matchId": 505566707,
+          "civ": "Jurchens",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:22:44.000Z",
+          "dur": 1932,
+          "opponents": [
+            {
+              "profileId": 18406865,
+              "name": "le ignacio"
+            },
+            {
+              "profileId": 1996941,
+              "name": "El Kb"
+            },
+            {
+              "profileId": 2998163,
+              "name": "[GGnT] Nanito_Uy"
+            },
+            {
+              "profileId": 15202260,
+              "name": "Teutonio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 183352,
+              "name": "\u0442\u0430\u0497\u0438\u043a"
+            },
+            {
+              "profileId": 200661,
+              "name": "[Mushu] Elgo Lazo"
+            },
+            {
+              "profileId": 1888905,
+              "name": "PaRappa56"
+            }
+          ]
+        },
         {
           "matchId": 503309820,
           "civ": "Bengalis",
@@ -93985,5 +94111,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

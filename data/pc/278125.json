@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 181,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1628,
+        "totalGames": 182,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1642,
         "peakRating": 1660
       },
       "matches": [
+        {
+          "matchId": 505545001,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T22:57:20.000Z",
+          "dur": 1108,
+          "opponents": [
+            {
+              "profileId": 5760798,
+              "name": "598709438"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504584600,
           "civ": "Japanese",
@@ -2931,12 +2948,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 130,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1441,
+        "totalGames": 133,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1450,
         "peakRating": 1570
       },
       "matches": [
+        {
+          "matchId": 505552813,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T23:49:00.000Z",
+          "dur": 2005,
+          "opponents": [
+            {
+              "profileId": 257232,
+              "name": "eartahhj | GamingHouse"
+            },
+            {
+              "profileId": 25855960,
+              "name": "grain8720"
+            },
+            {
+              "profileId": 5050869,
+              "name": "[GDL] HANNIBAL"
+            },
+            {
+              "profileId": 271786,
+              "name": "Joestar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21566123,
+              "name": "CTM Nitto"
+            },
+            {
+              "profileId": 15577604,
+              "name": "CTM | Valquian"
+            },
+            {
+              "profileId": 15254033,
+              "name": "PVS-Ozuna"
+            }
+          ]
+        },
+        {
+          "matchId": 505139131,
+          "civ": "Aztecs",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:15:16.000Z",
+          "dur": 1120,
+          "opponents": [
+            {
+              "profileId": 5299358,
+              "name": "Urukubar"
+            },
+            {
+              "profileId": 4523034,
+              "name": "Oveja Not Toxic"
+            },
+            {
+              "profileId": 4504642,
+              "name": "Cleryus"
+            },
+            {
+              "profileId": 2929712,
+              "name": "Mr. Charles"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21566123,
+              "name": "CTM Nitto"
+            },
+            {
+              "profileId": 16388042,
+              "name": "[PVS]  JUANJOM98"
+            },
+            {
+              "profileId": 14765135,
+              "name": "[PVS] bieldan"
+            }
+          ]
+        },
+        {
+          "matchId": 505137478,
+          "civ": "Bohemians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:05:47.000Z",
+          "dur": 314,
+          "opponents": [
+            {
+              "profileId": 813446,
+              "name": "J10KQ"
+            },
+            {
+              "profileId": 3416540,
+              "name": "[Legacy]Rian23"
+            },
+            {
+              "profileId": 5863231,
+              "name": "A6D2_4EVER"
+            },
+            {
+              "profileId": 9773532,
+              "name": "J4cK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16388042,
+              "name": "[PVS]  JUANJOM98"
+            },
+            {
+              "profileId": 21566123,
+              "name": "CTM Nitto"
+            },
+            {
+              "profileId": 14765135,
+              "name": "[PVS] bieldan"
+            }
+          ]
+        },
         {
           "matchId": 504888528,
           "civ": "Persians",
@@ -7240,5 +7383,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

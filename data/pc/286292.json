@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 320,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1160,
         "peakRating": 1215
       },
@@ -5149,12 +5149,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3050,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1086,
+        "totalGames": 3051,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1102,
         "peakRating": 1233
       },
       "matches": [
+        {
+          "matchId": 505762884,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T23:48:17.000Z",
+          "dur": 1264,
+          "opponents": [
+            {
+              "profileId": 3581963,
+              "name": "Carmore3"
+            },
+            {
+              "profileId": 3275353,
+              "name": "Sunrostern"
+            },
+            {
+              "profileId": 605485,
+              "name": "THE REAL DEAL*"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10205429,
+              "name": "Nachoro"
+            },
+            {
+              "profileId": 2857077,
+              "name": "| SNV | AoEBengi"
+            }
+          ]
+        },
         {
           "matchId": 504789492,
           "civ": "Mongols",
@@ -96852,5 +96886,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

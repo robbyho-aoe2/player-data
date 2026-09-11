@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 260,
-        "pulledDate": "2026-08-28",
+        "pulledDate": "2026-09-11",
         "latestRating": 976,
         "peakRating": 1040
       },
@@ -4189,12 +4189,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 491,
-        "pulledDate": "2026-08-28",
-        "latestRating": 1091,
+        "totalGames": 494,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1099,
         "peakRating": 1239
       },
       "matches": [
+        {
+          "matchId": 505202389,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:34:53.000Z",
+          "dur": 1510,
+          "opponents": [
+            {
+              "profileId": 26012930,
+              "name": "Anth.OG"
+            },
+            {
+              "profileId": 9091611,
+              "name": "NoobLab"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 462736,
+              "name": "| | 1 8 6 0 | |"
+            }
+          ]
+        },
+        {
+          "matchId": 505198301,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T09:53:52.000Z",
+          "dur": 2330,
+          "opponents": [
+            {
+              "profileId": 5749500,
+              "name": "--[=====>"
+            },
+            {
+              "profileId": 12365193,
+              "name": "d55663"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 462736,
+              "name": "| | 1 8 6 0 | |"
+            }
+          ]
+        },
+        {
+          "matchId": 505193111,
+          "civ": "Khitans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T08:58:20.000Z",
+          "dur": 1914,
+          "opponents": [
+            {
+              "profileId": 25723452,
+              "name": "\u963f\u68ee"
+            },
+            {
+              "profileId": 477531,
+              "name": "\u91d1\u5149\u4e0a\u4eba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 462736,
+              "name": "| | 1 8 6 0 | |"
+            }
+          ]
+        },
         {
           "matchId": 502167929,
           "civ": "Italians",
@@ -16472,5 +16550,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

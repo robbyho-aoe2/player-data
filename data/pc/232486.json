@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": [
         {
@@ -187,12 +187,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 344,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1126,
+        "totalGames": 346,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1128,
         "peakRating": 1340
       },
       "matches": [
+        {
+          "matchId": 505498613,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:49:54.000Z",
+          "dur": 1990,
+          "opponents": [
+            {
+              "profileId": 9190867,
+              "name": "Don Pianito"
+            },
+            {
+              "profileId": 24571183,
+              "name": "MiloJ"
+            },
+            {
+              "profileId": 387552,
+              "name": "Papa Fil"
+            },
+            {
+              "profileId": 2638367,
+              "name": "Anziolitico"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9276379,
+              "name": "kriket"
+            },
+            {
+              "profileId": 6091561,
+              "name": "Sussy_Floppa"
+            },
+            {
+              "profileId": 3302335,
+              "name": "gipsyking"
+            }
+          ]
+        },
+        {
+          "matchId": 505494126,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:28:48.000Z",
+          "dur": 1185,
+          "opponents": [
+            {
+              "profileId": 2087743,
+              "name": "krakerIV"
+            },
+            {
+              "profileId": 2084877,
+              "name": "joan_march"
+            },
+            {
+              "profileId": 1338281,
+              "name": "Guifr\u00e9 el Pelut"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9155492,
+              "name": "Scheibenenteise"
+            },
+            {
+              "profileId": 2638367,
+              "name": "Anziolitico"
+            }
+          ]
+        },
         {
           "matchId": 504313623,
           "civ": "Mongols",
@@ -13066,5 +13142,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

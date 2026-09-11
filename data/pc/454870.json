@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-08-28",
+        "pulledDate": "2026-09-11",
         "latestRating": 1249,
         "peakRating": 1249
       },
@@ -61,12 +61,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 142,
-        "pulledDate": "2026-08-28",
-        "latestRating": 1219,
-        "peakRating": 1219
+        "totalGames": 145,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1231,
+        "peakRating": 1231
       },
       "matches": [
+        {
+          "matchId": 505090268,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:44:23.000Z",
+          "dur": 1462,
+          "opponents": [
+            {
+              "profileId": 4088291,
+              "name": "AirForceOne"
+            },
+            {
+              "profileId": 2894196,
+              "name": "ElMismisimo"
+            },
+            {
+              "profileId": 2860789,
+              "name": "dxdydz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3596781,
+              "name": "vinc1542"
+            },
+            {
+              "profileId": 2845137,
+              "name": "zenoli"
+            }
+          ]
+        },
+        {
+          "matchId": 505087492,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T20:32:42.000Z",
+          "dur": 447,
+          "opponents": [
+            {
+              "profileId": 5365534,
+              "name": "skarp"
+            },
+            {
+              "profileId": 10991336,
+              "name": "Replikator"
+            },
+            {
+              "profileId": 15496057,
+              "name": "COL | TheFaura"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2845137,
+              "name": "zenoli"
+            },
+            {
+              "profileId": 3596781,
+              "name": "vinc1542"
+            }
+          ]
+        },
+        {
+          "matchId": 505074062,
+          "civ": "Vietnamese",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:36:21.000Z",
+          "dur": 2990,
+          "opponents": [
+            {
+              "profileId": 199690,
+              "name": "BodokoS"
+            },
+            {
+              "profileId": 232247,
+              "name": "szotyesz"
+            },
+            {
+              "profileId": 5529374,
+              "name": "Mityus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3596781,
+              "name": "vinc1542"
+            },
+            {
+              "profileId": 2845137,
+              "name": "zenoli"
+            }
+          ]
+        },
         {
           "matchId": 494837288,
           "civ": "Khmer",
@@ -4704,5 +4806,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 704,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1301,
+        "totalGames": 707,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1320,
         "peakRating": 1393
       },
       "matches": [
+        {
+          "matchId": 505718827,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:37:16.000Z",
+          "dur": 1922,
+          "opponents": [
+            {
+              "profileId": 22113563,
+              "name": "edu@rdo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505710371,
+          "civ": "Bengalis",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:58:10.000Z",
+          "dur": 2280,
+          "opponents": [
+            {
+              "profileId": 5130349,
+              "name": "creece"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505437795,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T13:27:43.000Z",
+          "dur": 1370,
+          "opponents": [
+            {
+              "profileId": 9731661,
+              "name": "juu"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504838060,
           "civ": "Burmese",
@@ -11998,7 +12049,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 51,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1163,
         "peakRating": 1195
       },
@@ -13657,5 +13708,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "nl",
+  "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
+  "countryName": "Netherlands"
 }

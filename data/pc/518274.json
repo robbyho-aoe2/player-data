@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 430,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1382,
+        "totalGames": 433,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1370,
         "peakRating": 1453
       },
       "matches": [
+        {
+          "matchId": 505701014,
+          "civ": "Ethiopians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:12:13.000Z",
+          "dur": 1341,
+          "opponents": [
+            {
+              "profileId": 6778067,
+              "name": "cubdie"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505662880,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T14:45:25.000Z",
+          "dur": 1924,
+          "opponents": [
+            {
+              "profileId": 14257396,
+              "name": "sodsojf"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505026016,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:05:22.000Z",
+          "dur": 881,
+          "opponents": [
+            {
+              "profileId": 9555527,
+              "name": "KATOHHEI"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504980821,
           "civ": "Huns",
@@ -6523,7 +6574,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 288,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1190,
         "peakRating": 1239
       },
@@ -11911,5 +11962,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

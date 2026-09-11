@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 341,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1019,
         "peakRating": 1055
       },
@@ -5485,12 +5485,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2180,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1113,
+        "totalGames": 2183,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1129,
         "peakRating": 1306
       },
       "matches": [
+        {
+          "matchId": 505153051,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T02:33:48.000Z",
+          "dur": 1277,
+          "opponents": [
+            {
+              "profileId": 1198647,
+              "name": "DavidRhenals"
+            },
+            {
+              "profileId": 10035306,
+              "name": "B Rabbit"
+            },
+            {
+              "profileId": 11311008,
+              "name": "NutriaCriollaSinBachillerato"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23874383,
+              "name": "00xLulu"
+            },
+            {
+              "profileId": 13991871,
+              "name": "Smoochy"
+            }
+          ]
+        },
+        {
+          "matchId": 505144559,
+          "civ": "Malians",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T01:45:31.000Z",
+          "dur": 1858,
+          "opponents": [
+            {
+              "profileId": 10771772,
+              "name": "Dolisaurus"
+            },
+            {
+              "profileId": 605275,
+              "name": "Arender_98"
+            },
+            {
+              "profileId": 543074,
+              "name": "JIMBO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12218864,
+              "name": "Sprunger"
+            },
+            {
+              "profileId": 10471263,
+              "name": "Deja de llorar"
+            }
+          ]
+        },
+        {
+          "matchId": 505134322,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:47:02.000Z",
+          "dur": 2142,
+          "opponents": [
+            {
+              "profileId": 3022630,
+              "name": "\u222budv=uv-\u222bvdu"
+            },
+            {
+              "profileId": 18005665,
+              "name": "pegador"
+            },
+            {
+              "profileId": 325014,
+              "name": "superfrank1114"
+            },
+            {
+              "profileId": 2667632,
+              "name": "AoeAuthority.com"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23041519,
+              "name": "dafr1997"
+            },
+            {
+              "profileId": 9031301,
+              "name": "Dylan-23"
+            },
+            {
+              "profileId": 2754831,
+              "name": "MaxC"
+            }
+          ]
+        },
         {
           "matchId": 504908711,
           "civ": "Turks",
@@ -86597,5 +86707,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }

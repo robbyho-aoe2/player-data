@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1104,
         "peakRating": 1185
       },
@@ -285,12 +285,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1740,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1177,
+        "totalGames": 1743,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1158,
         "peakRating": 1349
       },
       "matches": [
+        {
+          "matchId": 505534817,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:54:41.000Z",
+          "dur": 1889,
+          "opponents": [
+            {
+              "profileId": 2897772,
+              "name": "Kaiser Johannes Markus IV."
+            },
+            {
+              "profileId": 18337619,
+              "name": "ennio2mil"
+            },
+            {
+              "profileId": 6753104,
+              "name": "goenka"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 332377,
+              "name": "tiwaz55"
+            },
+            {
+              "profileId": 1806925,
+              "name": "Pundabar"
+            }
+          ]
+        },
+        {
+          "matchId": 505529279,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T21:22:59.000Z",
+          "dur": 1745,
+          "opponents": [
+            {
+              "profileId": 25361982,
+              "name": "\u265a  \u2660 Rikito \u2665 \u265b"
+            },
+            {
+              "profileId": 2294160,
+              "name": "Brasserie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1806925,
+              "name": "Pundabar"
+            }
+          ]
+        },
+        {
+          "matchId": 505524997,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:59:14.000Z",
+          "dur": 1299,
+          "opponents": [
+            {
+              "profileId": 3203837,
+              "name": "Iced0ux"
+            },
+            {
+              "profileId": 1971867,
+              "name": "Flynxis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24673795,
+              "name": "WH\u0130TE.MAN.TR"
+            }
+          ]
+        },
         {
           "matchId": 504778220,
           "civ": "Celts",
@@ -55249,5 +55335,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }

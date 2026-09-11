@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 228,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1016,
+        "totalGames": 230,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1017,
         "peakRating": 1097
       },
       "matches": [
+        {
+          "matchId": 505486651,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:51:13.000Z",
+          "dur": 1351,
+          "opponents": [
+            {
+              "profileId": 4482103,
+              "name": "darthvader"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505068647,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:14:54.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 2258618,
+              "name": "vbustillos.iq86"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504293600,
           "civ": "Romans",
@@ -3681,12 +3715,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 325,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1163,
+        "totalGames": 327,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1166,
         "peakRating": 1246
       },
       "matches": [
+        {
+          "matchId": 505514902,
+          "civ": "Celts",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:07:14.000Z",
+          "dur": 1424,
+          "opponents": [
+            {
+              "profileId": 2518648,
+              "name": "Venko"
+            },
+            {
+              "profileId": 1512338,
+              "name": "Simie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2223324,
+              "name": "keredrom"
+            }
+          ]
+        },
+        {
+          "matchId": 505491358,
+          "civ": "Romans",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T18:15:42.000Z",
+          "dur": 1618,
+          "opponents": [
+            {
+              "profileId": 4303914,
+              "name": "itsDuDu"
+            },
+            {
+              "profileId": 1881158,
+              "name": "Z\u00e9 Gui"
+            },
+            {
+              "profileId": 953719,
+              "name": "Renannve"
+            },
+            {
+              "profileId": 25516529,
+              "name": "COBREL8A"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5313945,
+              "name": "Soul Ledger"
+            },
+            {
+              "profileId": 4726939,
+              "name": "matiev-82"
+            },
+            {
+              "profileId": 3962820,
+              "name": "Bantum"
+            }
+          ]
+        },
         {
           "matchId": 503712780,
           "civ": "Romans",
@@ -14855,5 +14957,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

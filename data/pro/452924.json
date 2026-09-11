@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 155,
-        "pulledDate": "2026-09-07",
-        "latestRating": 2365,
+        "totalGames": 159,
+        "pulledDate": "2026-09-11",
+        "latestRating": 2374,
         "peakRating": 2569
       },
       "matches": [
+        {
+          "matchId": 505719991,
+          "civ": "Bohemians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:43:28.000Z",
+          "dur": 1166,
+          "opponents": [
+            {
+              "profileId": 21516070,
+              "name": "ldx"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505706658,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:40:54.000Z",
+          "dur": 1306,
+          "opponents": [
+            {
+              "profileId": 738249,
+              "name": "Mr Greed"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505507403,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:30:52.000Z",
+          "dur": 1157,
+          "opponents": [
+            {
+              "profileId": 9558892,
+              "name": "WilliamS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505502569,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T19:07:53.000Z",
+          "dur": 1254,
+          "opponents": [
+            {
+              "profileId": 3302487,
+              "name": "AceRx"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504479226,
           "civ": "Britons",
@@ -2530,7 +2598,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1763,
         "peakRating": 1855
       },
@@ -2902,5 +2970,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "pl",
+  "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
+  "countryName": "Poland"
 }

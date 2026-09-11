@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 48,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1238,
+        "totalGames": 51,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1254,
         "peakRating": 1305
       },
       "matches": [
+        {
+          "matchId": 505765403,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T00:06:01.000Z",
+          "dur": 1200,
+          "opponents": [
+            {
+              "profileId": 9759429,
+              "name": "\u674e\u4f73\u9065\u8036\u8036\u8036"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505730115,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:31:56.000Z",
+          "dur": 1932,
+          "opponents": [
+            {
+              "profileId": 608315,
+              "name": "Bacan19"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505725630,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:09:56.000Z",
+          "dur": 1142,
+          "opponents": [
+            {
+              "profileId": 3210140,
+              "name": "cagadera"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505292211,
           "civ": "Bulgarians",
@@ -845,12 +896,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 11,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1136,
-        "peakRating": 1136
+        "totalGames": 13,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1168,
+        "peakRating": 1168
       },
       "matches": [
+        {
+          "matchId": 505520829,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:36:53.000Z",
+          "dur": 1855,
+          "opponents": [
+            {
+              "profileId": 3043164,
+              "name": "PeneTratoR_"
+            },
+            {
+              "profileId": 16697005,
+              "name": "likempcuser"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2864972,
+              "name": "Mata Ovejas 3000"
+            }
+          ]
+        },
+        {
+          "matchId": 505514250,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T20:04:01.000Z",
+          "dur": 1539,
+          "opponents": [
+            {
+              "profileId": 299804,
+              "name": "Snake"
+            },
+            {
+              "profileId": 10983660,
+              "name": "Viper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4074394,
+              "name": "Bob Tschigerillo"
+            }
+          ]
+        },
         {
           "matchId": 505336987,
           "civ": "Spanish",

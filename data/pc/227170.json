@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 645,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1339,
         "peakRating": 1500
       },
@@ -5909,12 +5909,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 706,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1413,
+        "totalGames": 707,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1437,
         "peakRating": 1505
       },
       "matches": [
+        {
+          "matchId": 505757617,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T23:12:38.000Z",
+          "dur": 1364,
+          "opponents": [
+            {
+              "profileId": 120105,
+              "name": "hchxie"
+            },
+            {
+              "profileId": 17212059,
+              "name": "KrazyHands"
+            },
+            {
+              "profileId": 2294644,
+              "name": "Fs.Nicolau Mendes"
+            },
+            {
+              "profileId": 618828,
+              "name": "MenaChuuni"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4818662,
+              "name": "Ds3.Herno"
+            },
+            {
+              "profileId": 3174913,
+              "name": "Ds3.War Machine"
+            },
+            {
+              "profileId": 2809718,
+              "name": "Ds3.FranCamet"
+            }
+          ]
+        },
         {
           "matchId": 504882376,
           "civ": "Teutons",
@@ -12894,5 +12936,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

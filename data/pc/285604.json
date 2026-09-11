@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1277,
-        "pulledDate": "2026-09-04",
+        "pulledDate": "2026-09-11",
         "latestRating": 1511,
         "peakRating": 1580
       },
@@ -21738,12 +21738,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 542,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1323,
+        "totalGames": 544,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1329,
         "peakRating": 1464
       },
       "matches": [
+        {
+          "matchId": 505732183,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:43:05.000Z",
+          "dur": 1549,
+          "opponents": [
+            {
+              "profileId": 4529581,
+              "name": "Astor"
+            },
+            {
+              "profileId": 6093175,
+              "name": "Tedik500"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 221685,
+              "name": "valmircampolino"
+            }
+          ]
+        },
+        {
+          "matchId": 505731330,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:38:45.000Z",
+          "dur": 122,
+          "opponents": [
+            {
+              "profileId": 6093175,
+              "name": "Tedik500"
+            },
+            {
+              "profileId": 4529581,
+              "name": "Astor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 221685,
+              "name": "valmircampolino"
+            }
+          ]
+        },
         {
           "matchId": 500230473,
           "civ": "Italians",
@@ -36514,5 +36566,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 568,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-11",
         "latestRating": 1232,
         "peakRating": 1265
       },
@@ -9117,12 +9117,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 992,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1209,
+        "totalGames": 993,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1222,
         "peakRating": 1331
       },
       "matches": [
+        {
+          "matchId": 505705483,
+          "civ": "Georgians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:36:13.000Z",
+          "dur": 2582,
+          "opponents": [
+            {
+              "profileId": 14497637,
+              "name": "veysipak"
+            },
+            {
+              "profileId": 1716525,
+              "name": "Ryu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5440341,
+              "name": "Dattelprinz"
+            }
+          ]
+        },
         {
           "matchId": 504296750,
           "civ": "Mapuche",
@@ -44270,5 +44296,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ch",
+  "countryIcon": "\ud83c\udde8\ud83c\udded",
+  "countryName": "Switzerland"
 }

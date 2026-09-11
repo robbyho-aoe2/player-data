@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 186,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 1024,
         "peakRating": 1205
       },
@@ -3005,12 +3005,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 293,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1184,
+        "totalGames": 295,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1178,
         "peakRating": 1272
       },
       "matches": [
+        {
+          "matchId": 505370356,
+          "civ": "Teutons",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:59:55.000Z",
+          "dur": 2842,
+          "opponents": [
+            {
+              "profileId": 1034465,
+              "name": "MADdu"
+            },
+            {
+              "profileId": 8513861,
+              "name": "tequilamockingbird"
+            },
+            {
+              "profileId": 14621468,
+              "name": "Preft"
+            },
+            {
+              "profileId": 13771330,
+              "name": "711WasAPartTimeJob"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25672141,
+              "name": "Unstoppable1237"
+            },
+            {
+              "profileId": 504277,
+              "name": "JusticeTheJust"
+            },
+            {
+              "profileId": 984704,
+              "name": "Boudabras"
+            }
+          ]
+        },
+        {
+          "matchId": 505365005,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:25:07.000Z",
+          "dur": 1878,
+          "opponents": [
+            {
+              "profileId": 23160111,
+              "name": "datdzvcl"
+            },
+            {
+              "profileId": 21127082,
+              "name": "\u6697\u604b\u5b89\u8054\u7684\u4e00\u5207"
+            },
+            {
+              "profileId": 14266680,
+              "name": "wyrdJ"
+            },
+            {
+              "profileId": 14059207,
+              "name": "Homestarr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 504277,
+              "name": "JusticeTheJust"
+            },
+            {
+              "profileId": 25672141,
+              "name": "Unstoppable1237"
+            },
+            {
+              "profileId": 984704,
+              "name": "Boudabras"
+            }
+          ]
+        },
         {
           "matchId": 503742927,
           "civ": "Teutons",
@@ -11211,5 +11295,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

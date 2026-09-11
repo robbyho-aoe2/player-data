@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 111,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1106,
         "peakRating": 1184
       },
@@ -1811,12 +1811,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1020,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1218,
-        "peakRating": 1218
+        "totalGames": 1021,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1233,
+        "peakRating": 1233
       },
       "matches": [
+        {
+          "matchId": 505073791,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:34:44.000Z",
+          "dur": 1773,
+          "opponents": [
+            {
+              "profileId": 3918149,
+              "name": "ponken"
+            },
+            {
+              "profileId": 8245310,
+              "name": "KRG_Redfish"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16713365,
+              "name": "david.down"
+            }
+          ]
+        },
         {
           "matchId": 502866233,
           "civ": "Khitans",
@@ -35522,5 +35548,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

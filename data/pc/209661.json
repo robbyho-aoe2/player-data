@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 1574,
         "peakRating": 1611
       },
@@ -349,12 +349,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 645,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1571,
+        "totalGames": 647,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1542,
         "peakRating": 1676
       },
       "matches": [
+        {
+          "matchId": 505602684,
+          "civ": "Wu",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T06:01:37.000Z",
+          "dur": 2131,
+          "opponents": [
+            {
+              "profileId": 13589582,
+              "name": "eL|Hooligan"
+            },
+            {
+              "profileId": 6876406,
+              "name": "EagleWarrior420"
+            },
+            {
+              "profileId": 545565,
+              "name": "eL| Barry_Allen"
+            },
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14909136,
+              "name": "Mau5"
+            },
+            {
+              "profileId": 10343461,
+              "name": "Hommi"
+            },
+            {
+              "profileId": 5059285,
+              "name": "\u4f60\u670b\u53cb"
+            }
+          ]
+        },
+        {
+          "matchId": 505602120,
+          "civ": "Shu",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T05:55:03.000Z",
+          "dur": 266,
+          "opponents": [
+            {
+              "profileId": 24152026,
+              "name": "darkwwww2015"
+            },
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            },
+            {
+              "profileId": 6876406,
+              "name": "EagleWarrior420"
+            },
+            {
+              "profileId": 10343461,
+              "name": "Hommi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6324435,
+              "name": "DL-\u0110\u1ec7Nh\u1ecb"
+            },
+            {
+              "profileId": 14909136,
+              "name": "Mau5"
+            },
+            {
+              "profileId": 18646920,
+              "name": "JINJIN"
+            }
+          ]
+        },
         {
           "matchId": 504013463,
           "civ": "Magyars",
@@ -26544,5 +26628,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

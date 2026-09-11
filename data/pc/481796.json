@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 44,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1088,
+        "totalGames": 45,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1102,
         "peakRating": 1103
       },
       "matches": [
+        {
+          "matchId": 505059237,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:37:54.000Z",
+          "dur": 1822,
+          "opponents": [
+            {
+              "profileId": 1246351,
+              "name": "Bongalonga"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 448108925,
           "civ": "Bohemians",
@@ -733,12 +750,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 824,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1177,
+        "totalGames": 827,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1165,
         "peakRating": 1280
       },
       "matches": [
+        {
+          "matchId": 505725393,
+          "civ": "Goths",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:09:19.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 215928,
+              "name": "Thrillho"
+            },
+            {
+              "profileId": 2220591,
+              "name": "Name Changed For Legal Reasons"
+            },
+            {
+              "profileId": 248711,
+              "name": "Scrooge McFuck"
+            },
+            {
+              "profileId": 218139,
+              "name": "Feathers McGraw"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18497347,
+              "name": "benthic sediment"
+            },
+            {
+              "profileId": 5313945,
+              "name": "Soul Ledger"
+            },
+            {
+              "profileId": 4253673,
+              "name": "ckookies__"
+            }
+          ]
+        },
+        {
+          "matchId": 505717155,
+          "civ": "Italians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:30:30.000Z",
+          "dur": 2034,
+          "opponents": [
+            {
+              "profileId": 12047204,
+              "name": "fritatorface"
+            },
+            {
+              "profileId": 227380,
+              "name": "Mavto"
+            },
+            {
+              "profileId": 282013,
+              "name": "Bernie Blindman"
+            },
+            {
+              "profileId": 276584,
+              "name": "Dr.Zock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4148600,
+              "name": "Akida"
+            },
+            {
+              "profileId": 22835419,
+              "name": "Gin"
+            },
+            {
+              "profileId": 5313945,
+              "name": "Soul Ledger"
+            }
+          ]
+        },
+        {
+          "matchId": 505709601,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:55:28.000Z",
+          "dur": 1796,
+          "opponents": [
+            {
+              "profileId": 1262421,
+              "name": "jax0n"
+            },
+            {
+              "profileId": 2053063,
+              "name": "Oracle"
+            },
+            {
+              "profileId": 2494129,
+              "name": "hurricanehoffmann"
+            },
+            {
+              "profileId": 22162602,
+              "name": "GaloDoido"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1129171,
+              "name": "Don"
+            },
+            {
+              "profileId": 1479462,
+              "name": "scurhun"
+            },
+            {
+              "profileId": 5313945,
+              "name": "Soul Ledger"
+            }
+          ]
+        },
         {
           "matchId": 504150564,
           "civ": "Japanese",
@@ -33695,5 +33838,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

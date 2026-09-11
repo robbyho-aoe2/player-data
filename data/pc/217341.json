@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-30"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-30"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 38,
-        "pulledDate": "2026-08-30",
+        "pulledDate": "2026-09-11",
         "latestRating": 1082,
         "peakRating": 1185
       },
@@ -637,12 +637,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 767,
-        "pulledDate": "2026-08-30",
-        "latestRating": 1209,
+        "totalGames": 771,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1210,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 505814488,
+          "civ": "Armenians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T06:12:28.000Z",
+          "dur": 1156,
+          "opponents": [
+            {
+              "profileId": 854648,
+              "name": "Body Dysmorphia Tony"
+            },
+            {
+              "profileId": 3495210,
+              "name": "Vussian spy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1180804,
+              "name": "The Strutting Scoundrel"
+            }
+          ]
+        },
+        {
+          "matchId": 505811470,
+          "civ": "Malians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T05:41:23.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 3141538,
+              "name": "[T41] Indian War Lord"
+            },
+            {
+              "profileId": 2717098,
+              "name": "Hyderabad (Ind)"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1180804,
+              "name": "The Strutting Scoundrel"
+            }
+          ]
+        },
+        {
+          "matchId": 505808067,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T05:06:29.000Z",
+          "dur": 1780,
+          "opponents": [
+            {
+              "profileId": 6160925,
+              "name": "[ECU] PALADINFRANCO"
+            },
+            {
+              "profileId": 270210,
+              "name": "[ECU] Shamash"
+            },
+            {
+              "profileId": 6154696,
+              "name": "CarpeFugit"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18391834,
+              "name": "jhandel6"
+            },
+            {
+              "profileId": 1180804,
+              "name": "The Strutting Scoundrel"
+            }
+          ]
+        },
+        {
+          "matchId": 505802950,
+          "civ": "Britons",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T04:19:53.000Z",
+          "dur": 2206,
+          "opponents": [
+            {
+              "profileId": 20056966,
+              "name": "Kerry Camilanga"
+            },
+            {
+              "profileId": 2287236,
+              "name": "Armando Estevi VOK"
+            },
+            {
+              "profileId": 21558616,
+              "name": "ElCidVuelve"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1180804,
+              "name": "The Strutting Scoundrel"
+            },
+            {
+              "profileId": 18391834,
+              "name": "jhandel6"
+            }
+          ]
+        },
         {
           "matchId": 501165569,
           "civ": "Malians",
@@ -28976,5 +29096,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

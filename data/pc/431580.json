@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 481,
-        "pulledDate": "2026-09-07",
-        "latestRating": 649,
+        "totalGames": 484,
+        "pulledDate": "2026-09-11",
+        "latestRating": 632,
         "peakRating": 902
       },
       "matches": [
+        {
+          "matchId": 505793786,
+          "civ": "Britons",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T03:09:37.000Z",
+          "dur": 2642,
+          "opponents": [
+            {
+              "profileId": 25908537,
+              "name": "416852568"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505787913,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T02:30:35.000Z",
+          "dur": 2178,
+          "opponents": [
+            {
+              "profileId": 24779868,
+              "name": "Redeemed1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505750873,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T22:28:34.000Z",
+          "dur": 2321,
+          "opponents": [
+            {
+              "profileId": 18465944,
+              "name": "dainis"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504983640,
           "civ": "Britons",
@@ -7739,7 +7790,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 722,
         "peakRating": 811
       },
@@ -8854,5 +8905,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

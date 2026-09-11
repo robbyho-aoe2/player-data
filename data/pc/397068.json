@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-08-28"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 122,
-        "pulledDate": "2026-08-28",
+        "pulledDate": "2026-09-11",
         "latestRating": 1552,
         "peakRating": 1552
       },
@@ -1981,12 +1981,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 557,
-        "pulledDate": "2026-08-28",
-        "latestRating": 1579,
+        "totalGames": 559,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1574,
         "peakRating": 1619
       },
       "matches": [
+        {
+          "matchId": 505843788,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T11:14:55.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 7225778,
+              "name": "\u5566\u5566\u5566\u5566\u5566\u5566"
+            },
+            {
+              "profileId": 24961348,
+              "name": "\u5341\u5927\u5730\u65b9"
+            },
+            {
+              "profileId": 2645406,
+              "name": "\u0110\u00e0 L\u1ea1t"
+            },
+            {
+              "profileId": 3117753,
+              "name": "\u6619\u82b1\u751f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 337640,
+              "name": "bullseyes"
+            },
+            {
+              "profileId": 1041990,
+              "name": "belgawizard"
+            },
+            {
+              "profileId": 4222847,
+              "name": "Legate"
+            }
+          ]
+        },
+        {
+          "matchId": 505841882,
+          "civ": "Aztecs",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T10:57:40.000Z",
+          "dur": 789,
+          "opponents": [
+            {
+              "profileId": 19201128,
+              "name": "DarWix 2.0"
+            },
+            {
+              "profileId": 5880110,
+              "name": "ken4403"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4222847,
+              "name": "Legate"
+            }
+          ]
+        },
         {
           "matchId": 497437885,
           "civ": "Berbers",
@@ -21882,5 +21950,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ru",
+  "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
+  "countryName": "Russian Federation"
 }

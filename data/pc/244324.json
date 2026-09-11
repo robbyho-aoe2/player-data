@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 269,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1411,
         "peakRating": 1455
       },
@@ -4333,12 +4333,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1228,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1474,
+        "totalGames": 1231,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1494,
         "peakRating": 1617
       },
       "matches": [
+        {
+          "matchId": 505131781,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:32:20.000Z",
+          "dur": 1253,
+          "opponents": [
+            {
+              "profileId": 1155307,
+              "name": "Diegazo"
+            },
+            {
+              "profileId": 2144309,
+              "name": "GAX | Braant1"
+            },
+            {
+              "profileId": 9241343,
+              "name": "PrimordiaL_"
+            },
+            {
+              "profileId": 11213814,
+              "name": "marvinpalomino"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20920045,
+              "name": "GorillaBear"
+            },
+            {
+              "profileId": 2860526,
+              "name": "Yukasha"
+            },
+            {
+              "profileId": 2860866,
+              "name": "Slowthinker"
+            }
+          ]
+        },
+        {
+          "matchId": 505129489,
+          "civ": "Persians",
+          "map": "Highland",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:18:26.000Z",
+          "dur": 649,
+          "opponents": [
+            {
+              "profileId": 21722649,
+              "name": "Pummeluff"
+            },
+            {
+              "profileId": 12049179,
+              "name": "\u010ciko"
+            },
+            {
+              "profileId": 10931552,
+              "name": "Noxx"
+            },
+            {
+              "profileId": 2395115,
+              "name": "sfcwallace"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20920045,
+              "name": "GorillaBear"
+            },
+            {
+              "profileId": 2860866,
+              "name": "Slowthinker"
+            },
+            {
+              "profileId": 2860526,
+              "name": "Yukasha"
+            }
+          ]
+        },
+        {
+          "matchId": 505060350,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T18:42:33.000Z",
+          "dur": 1908,
+          "opponents": [
+            {
+              "profileId": 5298644,
+              "name": "Ob\u00e9lix"
+            },
+            {
+              "profileId": 1937220,
+              "name": "Waylender"
+            },
+            {
+              "profileId": 23776400,
+              "name": "La Baguette"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20920045,
+              "name": "GorillaBear"
+            },
+            {
+              "profileId": 2860866,
+              "name": "Slowthinker"
+            }
+          ]
+        },
         {
           "matchId": 504924271,
           "civ": "Chinese",
@@ -48169,5 +48287,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 621,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1225,
         "peakRating": 1280
       },
@@ -9234,12 +9234,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1068,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1085,
+        "totalGames": 1071,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1100,
         "peakRating": 1374
       },
       "matches": [
+        {
+          "matchId": 505571934,
+          "civ": "Saracens",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T01:55:08.000Z",
+          "dur": 1503,
+          "opponents": [
+            {
+              "profileId": 4127031,
+              "name": "JSjuanX"
+            },
+            {
+              "profileId": 3791722,
+              "name": "JMtoXic19"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 777178,
+              "name": "Ruxin"
+            }
+          ]
+        },
+        {
+          "matchId": 505331989,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:49:27.000Z",
+          "dur": 1494,
+          "opponents": [
+            {
+              "profileId": 5247094,
+              "name": "Estatico1"
+            },
+            {
+              "profileId": 2976434,
+              "name": "^La Nutria Excitadora^"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1912944,
+              "name": "E1GHTZ"
+            }
+          ]
+        },
+        {
+          "matchId": 505131345,
+          "civ": "Saracens",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T00:29:47.000Z",
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 4294186,
+              "name": "Puerkoks"
+            },
+            {
+              "profileId": 4294273,
+              "name": "martinete.avila"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18821397,
+              "name": "fatmuddybear"
+            }
+          ]
+        },
         {
           "matchId": 504615696,
           "civ": "Saracens",
@@ -30958,5 +31036,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

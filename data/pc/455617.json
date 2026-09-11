@@ -6,32 +6,84 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 423,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1176,
+        "totalGames": 425,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1205,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 505710469,
+          "civ": "Teutons",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:59:36.000Z",
+          "dur": 1264,
+          "opponents": [
+            {
+              "profileId": 21773261,
+              "name": "|TT|-=UFO=-"
+            },
+            {
+              "profileId": 17626189,
+              "name": "pietro91"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ]
+        },
+        {
+          "matchId": 505703859,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:27:50.000Z",
+          "dur": 1611,
+          "opponents": [
+            {
+              "profileId": 467475,
+              "name": "Event 201"
+            },
+            {
+              "profileId": 381732,
+              "name": "Covid19"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ]
+        },
         {
           "matchId": 504820612,
           "civ": "Byzantines",
@@ -10645,5 +10697,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "se",
+  "countryIcon": "\ud83c\uddf8\ud83c\uddea",
+  "countryName": "Sweden"
 }

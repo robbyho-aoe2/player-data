@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 211,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1477,
         "peakRating": 1545
       },
@@ -1949,12 +1949,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3072,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1559,
+        "totalGames": 3076,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1520,
         "peakRating": 1653
       },
       "matches": [
+        {
+          "matchId": 505701761,
+          "civ": "Turks",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T18:17:04.000Z",
+          "dur": 1011,
+          "opponents": [
+            {
+              "profileId": 1156287,
+              "name": "Thomas Sankara"
+            },
+            {
+              "profileId": 786723,
+              "name": "TdB.victor2.01"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2643094,
+              "name": "Argos"
+            }
+          ]
+        },
+        {
+          "matchId": 505694418,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T17:37:13.000Z",
+          "dur": 1998,
+          "opponents": [
+            {
+              "profileId": 2598916,
+              "name": "Flow"
+            },
+            {
+              "profileId": 209917,
+              "name": "Envetel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2643094,
+              "name": "Argos"
+            }
+          ]
+        },
+        {
+          "matchId": 505687123,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T16:57:58.000Z",
+          "dur": 648,
+          "opponents": [
+            {
+              "profileId": 15513386,
+              "name": "OnlyzJxMs_v"
+            },
+            {
+              "profileId": 300654,
+              "name": "[BRANCA] Lord_FeDe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2643094,
+              "name": "Argos"
+            }
+          ]
+        },
+        {
+          "matchId": 505469563,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:20:10.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 589214,
+              "name": "SSx_SnowwW"
+            },
+            {
+              "profileId": 5200934,
+              "name": "AkiLLes"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2643094,
+              "name": "Argos"
+            }
+          ]
+        },
         {
           "matchId": 504470844,
           "civ": "Turks",
@@ -29804,5 +29908,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 64,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1163,
+        "totalGames": 65,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1180,
         "peakRating": 1471
       },
       "matches": [
+        {
+          "matchId": 505294038,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T19:24:57.000Z",
+          "dur": 1333,
+          "opponents": [
+            {
+              "profileId": 19131069,
+              "name": "DiO"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504429481,
           "civ": "Poles",
@@ -711,12 +728,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 765,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1376,
+        "totalGames": 768,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1362,
         "peakRating": 1432
       },
       "matches": [
+        {
+          "matchId": 505722675,
+          "civ": "Slavs",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:56:27.000Z",
+          "dur": 1746,
+          "opponents": [
+            {
+              "profileId": 6342817,
+              "name": "Mauzic"
+            },
+            {
+              "profileId": 2598720,
+              "name": "Mancodios"
+            },
+            {
+              "profileId": 609650,
+              "name": "Ranchy"
+            },
+            {
+              "profileId": 18430988,
+              "name": "HIX | Milongo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6144882,
+              "name": "venOm"
+            },
+            {
+              "profileId": 809309,
+              "name": "[H] Sir Benedict"
+            },
+            {
+              "profileId": 574367,
+              "name": "Mowgli"
+            }
+          ]
+        },
+        {
+          "matchId": 505718584,
+          "civ": "Huns",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:36:37.000Z",
+          "dur": 1185,
+          "opponents": [
+            {
+              "profileId": 4605833,
+              "name": "MonEwok"
+            },
+            {
+              "profileId": 17824807,
+              "name": "olDirty"
+            },
+            {
+              "profileId": 2550278,
+              "name": "MHT. Nahuel 047"
+            },
+            {
+              "profileId": 3122351,
+              "name": "Belkiane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 217941,
+              "name": "MarcusBrody"
+            },
+            {
+              "profileId": 270645,
+              "name": "[SP4RT] Petza IV."
+            },
+            {
+              "profileId": 574367,
+              "name": "Mowgli"
+            }
+          ]
+        },
+        {
+          "matchId": 505712458,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:08:58.000Z",
+          "dur": 1503,
+          "opponents": [
+            {
+              "profileId": 10042392,
+              "name": "Yee"
+            },
+            {
+              "profileId": 3922722,
+              "name": "xxArMoRxx"
+            },
+            {
+              "profileId": 1474774,
+              "name": "Mustafa90"
+            },
+            {
+              "profileId": 3396002,
+              "name": "Jeremy V"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 574367,
+              "name": "Mowgli"
+            },
+            {
+              "profileId": 5029300,
+              "name": "pauito79_ator"
+            },
+            {
+              "profileId": 3224536,
+              "name": "Tonix"
+            }
+          ]
+        },
         {
           "matchId": 504848351,
           "civ": "Hindustanis",
@@ -8099,5 +8242,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "se",
+  "countryIcon": "\ud83c\uddf8\ud83c\uddea",
+  "countryName": "Sweden"
 }
