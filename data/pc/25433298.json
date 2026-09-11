@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": [
         {
@@ -91,12 +91,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 60,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1674,
+        "totalGames": 61,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1649,
         "peakRating": 1708
       },
       "matches": [
+        {
+          "matchId": 504987186,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T12:39:03.000Z",
+          "dur": 1598,
+          "opponents": [
+            {
+              "profileId": 20124071,
+              "name": "fengyiwui"
+            },
+            {
+              "profileId": 2166771,
+              "name": "[LegendB] deadboi"
+            },
+            {
+              "profileId": 2086496,
+              "name": "Jambonbeurre"
+            },
+            {
+              "profileId": 1167872,
+              "name": "JohnnySniper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25065173,
+              "name": "\u6296\u97f3\u641c\u5c0b_\u6211\u60f3\u5403\u5c4e"
+            },
+            {
+              "profileId": 5783240,
+              "name": "YI00"
+            },
+            {
+              "profileId": 717782,
+              "name": "\u70cf\u62c9\u62c9"
+            }
+          ]
+        },
         {
           "matchId": 503611335,
           "civ": "Vietnamese",
@@ -2316,5 +2358,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

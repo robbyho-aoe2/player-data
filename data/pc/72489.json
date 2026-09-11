@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 254,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1267,
+        "totalGames": 257,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1254,
         "peakRating": 1466
       },
       "matches": [
+        {
+          "matchId": 505801319,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T04:05:12.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 13055012,
+              "name": "975141452"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505369307,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T02:51:55.000Z",
+          "dur": 432,
+          "opponents": [
+            {
+              "profileId": 22485483,
+              "name": "MaxTorres04"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505160396,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T03:20:24.000Z",
+          "dur": 889,
+          "opponents": [
+            {
+              "profileId": 19032038,
+              "name": "|FMG| ROGELIO III"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504384780,
           "civ": "Chinese",
@@ -4348,7 +4399,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 758,
-        "pulledDate": "2026-09-06",
+        "pulledDate": "2026-09-11",
         "latestRating": 1423,
         "peakRating": 1504
       },
@@ -31321,5 +31372,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

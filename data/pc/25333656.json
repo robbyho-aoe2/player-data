@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 145,
-        "pulledDate": "2026-09-07",
-        "latestRating": 807,
+        "totalGames": 148,
+        "pulledDate": "2026-09-11",
+        "latestRating": 824,
         "peakRating": 837
       },
       "matches": [
+        {
+          "matchId": 505357988,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:40:21.000Z",
+          "dur": 1020,
+          "opponents": [
+            {
+              "profileId": 15736939,
+              "name": "Snake46"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505014430,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T15:07:41.000Z",
+          "dur": 1791,
+          "opponents": [
+            {
+              "profileId": 315019,
+              "name": "jni_90"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505009940,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T14:45:00.000Z",
+          "dur": 1194,
+          "opponents": [
+            {
+              "profileId": 2509338,
+              "name": "ferrangesti"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504914447,
           "civ": "Magyars",
@@ -2380,10 +2431,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 8,
-        "pulledDate": "2026-09-07"
+        "totalGames": 11,
+        "pulledDate": "2026-09-11",
+        "latestRating": 982,
+        "peakRating": 1007
       },
       "matches": [
+        {
+          "matchId": 505783898,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T02:05:55.000Z",
+          "dur": 1513,
+          "opponents": [
+            {
+              "profileId": 6295941,
+              "name": "Spitfire"
+            },
+            {
+              "profileId": 304001,
+              "name": "Sunday"
+            },
+            {
+              "profileId": 3515714,
+              "name": "Rototom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24996863,
+              "name": "nightinglass"
+            },
+            {
+              "profileId": 14754374,
+              "name": "Vk_Kellen"
+            }
+          ]
+        },
+        {
+          "matchId": 505778739,
+          "civ": "Malay",
+          "map": "Hill Fort",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T01:33:11.000Z",
+          "dur": 1687,
+          "opponents": [
+            {
+              "profileId": 3296397,
+              "name": "Jalape\u00f1o Horsey"
+            },
+            {
+              "profileId": 3353599,
+              "name": "AMC_Stubs"
+            },
+            {
+              "profileId": 3563649,
+              "name": "Monotributista Furioso"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14754374,
+              "name": "Vk_Kellen"
+            },
+            {
+              "profileId": 24996863,
+              "name": "nightinglass"
+            }
+          ]
+        },
+        {
+          "matchId": 505074797,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T19:39:00.000Z",
+          "dur": 1849,
+          "opponents": [
+            {
+              "profileId": 2869751,
+              "name": "RenaultEspace4Life"
+            },
+            {
+              "profileId": 16584591,
+              "name": "Pancito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14754374,
+              "name": "Vk_Kellen"
+            }
+          ]
+        },
         {
           "matchId": 504637924,
           "civ": "Magyars",
@@ -2722,5 +2869,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

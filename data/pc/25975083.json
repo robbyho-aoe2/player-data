@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 73,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-11",
         "latestRating": 1111,
         "peakRating": 1179
       },
@@ -1270,12 +1270,150 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 67,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1278,
+        "totalGames": 72,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1322,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 505675132,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T15:49:17.000Z",
+          "dur": 2039,
+          "opponents": [
+            {
+              "profileId": 5513054,
+              "name": "Nighttake"
+            },
+            {
+              "profileId": 4545468,
+              "name": "Nomad enjoyer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7806050,
+              "name": "\u6771\u5761\u8089\u8089"
+            }
+          ]
+        },
+        {
+          "matchId": 505669786,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T15:22:03.000Z",
+          "dur": 1482,
+          "opponents": [
+            {
+              "profileId": 16195933,
+              "name": "\u9ebb\u7cec"
+            },
+            {
+              "profileId": 3005838,
+              "name": "[ITCF]yuli"
+            },
+            {
+              "profileId": 3052659,
+              "name": "[ITCF]Hentai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7806050,
+              "name": "\u6771\u5761\u8089\u8089"
+            },
+            {
+              "profileId": 8039370,
+              "name": "8757"
+            }
+          ]
+        },
+        {
+          "matchId": 505648308,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T13:23:02.000Z",
+          "dur": 1695,
+          "opponents": [
+            {
+              "profileId": 1839023,
+              "name": "NuMa | JuanMan"
+            },
+            {
+              "profileId": 25547224,
+              "name": "Fading"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7806050,
+              "name": "\u6771\u5761\u8089\u8089"
+            }
+          ]
+        },
+        {
+          "matchId": 505645157,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T13:03:05.000Z",
+          "dur": 1009,
+          "opponents": [
+            {
+              "profileId": 4308660,
+              "name": "LGN. Gerfel"
+            },
+            {
+              "profileId": 5387745,
+              "name": "Irrayskel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7806050,
+              "name": "\u6771\u5761\u8089\u8089"
+            }
+          ]
+        },
+        {
+          "matchId": 505453648,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:53:43.000Z",
+          "dur": 875,
+          "opponents": [
+            {
+              "profileId": 247960,
+              "name": "Saladin"
+            },
+            {
+              "profileId": 599268,
+              "name": "Del Roony"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7806050,
+              "name": "\u6771\u5761\u8089\u8089"
+            }
+          ]
+        },
         {
           "matchId": 505019392,
           "civ": "Magyars",
@@ -3132,5 +3270,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "tw",
+  "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
+  "countryName": "Taiwan"
 }

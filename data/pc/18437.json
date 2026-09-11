@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-04"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 234,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1502,
+        "totalGames": 236,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1470,
         "peakRating": 1536
       },
       "matches": [
+        {
+          "matchId": 505394025,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T06:38:00.000Z",
+          "dur": 1428,
+          "opponents": [
+            {
+              "profileId": 2620174,
+              "name": "legolas27"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505183284,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T07:06:02.000Z",
+          "dur": 1138,
+          "opponents": [
+            {
+              "profileId": 401857,
+              "name": "KFE@Vitalino"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503993430,
           "civ": "Burgundians",
@@ -4007,12 +4041,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 454,
-        "pulledDate": "2026-09-04",
-        "latestRating": 1215,
+        "totalGames": 455,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1226,
         "peakRating": 1477
       },
       "matches": [
+        {
+          "matchId": 505197740,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T09:48:30.000Z",
+          "dur": 1097,
+          "opponents": [
+            {
+              "profileId": 26096351,
+              "name": "Gemini 4.0 pro"
+            },
+            {
+              "profileId": 5437606,
+              "name": "zhuge2021"
+            },
+            {
+              "profileId": 2881341,
+              "name": "Lancer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 215281,
+              "name": "s"
+            },
+            {
+              "profileId": 2391944,
+              "name": "hadry2790"
+            }
+          ]
+        },
         {
           "matchId": 483937798,
           "civ": "Maya",
@@ -18861,5 +18929,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "be",
+  "countryIcon": "\ud83c\udde7\ud83c\uddea",
+  "countryName": "Belgium"
 }

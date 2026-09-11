@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 39,
-        "pulledDate": "2026-09-05",
+        "pulledDate": "2026-09-11",
         "latestRating": 1205,
         "peakRating": 1249
       },
@@ -653,12 +653,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1760,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1222,
+        "totalGames": 1763,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1261,
         "peakRating": 1394
       },
       "matches": [
+        {
+          "matchId": 505807006,
+          "civ": "Shu",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T04:55:48.000Z",
+          "dur": 1661,
+          "opponents": [
+            {
+              "profileId": 527410,
+              "name": "dime"
+            },
+            {
+              "profileId": 513274,
+              "name": "lgp1991"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 546476,
+              "name": "[SPK]ClayTime"
+            }
+          ]
+        },
+        {
+          "matchId": 505803398,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T04:23:29.000Z",
+          "dur": 1732,
+          "opponents": [
+            {
+              "profileId": 513274,
+              "name": "lgp1991"
+            },
+            {
+              "profileId": 527410,
+              "name": "dime"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 546476,
+              "name": "[SPK]ClayTime"
+            }
+          ]
+        },
+        {
+          "matchId": 505800001,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T03:55:27.000Z",
+          "dur": 1453,
+          "opponents": [
+            {
+              "profileId": 20209770,
+              "name": "gabrieloresp"
+            },
+            {
+              "profileId": 20182362,
+              "name": "alfredoruninm"
+            },
+            {
+              "profileId": 20161058,
+              "name": "Autopawn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17778243,
+              "name": "Veretheragna"
+            },
+            {
+              "profileId": 546476,
+              "name": "[SPK]ClayTime"
+            }
+          ]
+        },
         {
           "matchId": 504392777,
           "civ": "Italians",
@@ -53691,5 +53777,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ca",
+  "countryIcon": "\ud83c\udde8\ud83c\udde6",
+  "countryName": "Canada"
 }

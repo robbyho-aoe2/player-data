@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 591,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1258,
+        "totalGames": 594,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1246,
         "peakRating": 1261
       },
       "matches": [
+        {
+          "matchId": 505343425,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T00:04:52.000Z",
+          "dur": 194,
+          "opponents": [
+            {
+              "profileId": 22113563,
+              "name": "edu@rdo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505339266,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:36:11.000Z",
+          "dur": 1617,
+          "opponents": [
+            {
+              "profileId": 9594141,
+              "name": "my_dad"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505336003,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T23:14:51.000Z",
+          "dur": 1215,
+          "opponents": [
+            {
+              "profileId": 26008197,
+              "name": "DarK Slaayer"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503824500,
           "civ": "Chinese",
@@ -9489,7 +9540,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 317,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 1109,
         "peakRating": 1243
       },
@@ -17451,5 +17502,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ru",
+  "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
+  "countryName": "Russian Federation"
 }

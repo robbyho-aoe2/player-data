@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-05"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 832,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1625,
-        "peakRating": 1625
+        "totalGames": 834,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1621,
+        "peakRating": 1641
       },
       "matches": [
+        {
+          "matchId": 505332824,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T22:55:06.000Z",
+          "dur": 1656,
+          "opponents": [
+            {
+              "profileId": 5124028,
+              "name": "DGHIR | Lukera"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505102210,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:39:29.000Z",
+          "dur": 1794,
+          "opponents": [
+            {
+              "profileId": 1943745,
+              "name": "Riquelme X"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504062936,
           "civ": "Incas",
@@ -12505,12 +12539,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1386,
-        "pulledDate": "2026-09-05",
-        "latestRating": 1678,
+        "totalGames": 1389,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1707,
         "peakRating": 1707
       },
       "matches": [
+        {
+          "matchId": 505033320,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:41:30.000Z",
+          "dur": 1309,
+          "opponents": [
+            {
+              "profileId": 6265167,
+              "name": "\u6253\u9580\u4e94\u90ce"
+            },
+            {
+              "profileId": 25582945,
+              "name": "\u5305\u76ae\u7279\u9577\u7684\u72d7\u817f"
+            },
+            {
+              "profileId": 6161721,
+              "name": "\u6253\u76ae\u6253\u76ae"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2363000,
+              "name": "Its Jskillz"
+            },
+            {
+              "profileId": 23140800,
+              "name": "Game project 0001"
+            }
+          ]
+        },
+        {
+          "matchId": 505031952,
+          "civ": "Mongols",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:34:54.000Z",
+          "dur": 270,
+          "opponents": [
+            {
+              "profileId": 11496049,
+              "name": "postavi\u010d"
+            },
+            {
+              "profileId": 278576,
+              "name": "bipeng2008"
+            },
+            {
+              "profileId": 2053853,
+              "name": ".::North::."
+            },
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2363000,
+              "name": "Its Jskillz"
+            },
+            {
+              "profileId": 249261,
+              "name": "pascal sauvage"
+            },
+            {
+              "profileId": 810914,
+              "name": "Foskito"
+            }
+          ]
+        },
+        {
+          "matchId": 505025748,
+          "civ": "Goths",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:04:31.000Z",
+          "dur": 1547,
+          "opponents": [
+            {
+              "profileId": 215042,
+              "name": "pau795"
+            },
+            {
+              "profileId": 18747331,
+              "name": "DYN_BenderGC"
+            },
+            {
+              "profileId": 6433681,
+              "name": "Mike_Tango"
+            },
+            {
+              "profileId": 2616211,
+              "name": "DS_Maulet"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2363000,
+              "name": "Its Jskillz"
+            },
+            {
+              "profileId": 1397478,
+              "name": "Sorrateiro"
+            },
+            {
+              "profileId": 21465102,
+              "name": "osnolA odnanreF"
+            }
+          ]
+        },
         {
           "matchId": 503316066,
           "civ": "Teutons",
@@ -48147,5 +48299,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

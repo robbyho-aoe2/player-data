@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 63,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 653,
         "peakRating": 756
       },
@@ -1044,12 +1044,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 80,
-        "pulledDate": "2026-09-07",
-        "latestRating": 817,
+        "totalGames": 81,
+        "pulledDate": "2026-09-11",
+        "latestRating": 800,
         "peakRating": 863
       },
       "matches": [
+        {
+          "matchId": 505281559,
+          "civ": "Slavs",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T18:25:37.000Z",
+          "dur": 1316,
+          "opponents": [
+            {
+              "profileId": 25793669,
+              "name": "elgnberat"
+            },
+            {
+              "profileId": 6800573,
+              "name": "stephenskocpol"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2715175,
+              "name": "\u041b\u0451\u043b\u0438\u043a"
+            }
+          ]
+        },
         {
           "matchId": 504077308,
           "civ": "Slavs",
@@ -3158,5 +3184,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "kz",
+  "countryIcon": "\ud83c\uddf0\ud83c\uddff",
+  "countryName": "Kazakhstan"
 }

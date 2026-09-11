@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 41,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1222,
+        "totalGames": 44,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1238,
         "peakRating": 1240
       },
       "matches": [
+        {
+          "matchId": 505203331,
+          "civ": "Magyars",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:42:55.000Z",
+          "dur": 899,
+          "opponents": [
+            {
+              "profileId": 1690260,
+              "name": "dubeduba"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505201565,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:26:23.000Z",
+          "dur": 879,
+          "opponents": [
+            {
+              "profileId": 23198595,
+              "name": "Akademik_Komarov"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505199516,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T10:06:12.000Z",
+          "dur": 897,
+          "opponents": [
+            {
+              "profileId": 4880047,
+              "name": "kl4nd3s"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501953515,
           "civ": "Chinese",
@@ -686,7 +737,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1882,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1247,
         "peakRating": 1402
       },
@@ -75290,5 +75341,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "au",
+  "countryIcon": "\ud83c\udde6\ud83c\uddfa",
+  "countryName": "Australia"
 }

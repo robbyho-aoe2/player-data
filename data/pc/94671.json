@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 109,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1622,
+        "totalGames": 112,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1642,
         "peakRating": 1705
       },
       "matches": [
+        {
+          "matchId": 505786752,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T02:24:03.000Z",
+          "dur": 1730,
+          "opponents": [
+            {
+              "profileId": 21551930,
+              "name": "DS_I_LOVE_TS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505781560,
+          "civ": "Mapuche",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T01:51:23.000Z",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 11181673,
+              "name": "Jaguar82"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505779453,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T01:37:21.000Z",
+          "dur": 749,
+          "opponents": [
+            {
+              "profileId": 3461085,
+              "name": "Telo Bombeo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502749559,
           "civ": "Maya",
@@ -1776,7 +1827,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1033,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1546,
         "peakRating": 1650
       },
@@ -39712,5 +39763,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "cl",
+  "countryIcon": "\ud83c\udde8\ud83c\uddf1",
+  "countryName": "Chile"
 }

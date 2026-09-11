@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 105,
-        "pulledDate": "2026-09-07",
-        "latestRating": 297,
+        "totalGames": 110,
+        "pulledDate": "2026-09-11",
+        "latestRating": 309,
         "peakRating": 692
       },
       "matches": [
+        {
+          "matchId": 505644831,
+          "civ": "Goths",
+          "map": "Enclosed",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T13:00:48.000Z",
+          "dur": 2930,
+          "opponents": [
+            {
+              "profileId": 770351,
+              "name": "Isrordz17"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505454581,
+          "civ": "Bohemians",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T14:58:10.000Z",
+          "dur": 2851,
+          "opponents": [
+            {
+              "profileId": 2038058,
+              "name": "hubssha2"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505214605,
+          "civ": "Hindustanis",
+          "map": "Enclosed",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:17:34.000Z",
+          "dur": 18,
+          "opponents": [
+            {
+              "profileId": 11938155,
+              "name": "muddred12"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505095877,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:09:40.000Z",
+          "dur": 1698,
+          "opponents": [
+            {
+              "profileId": 5671894,
+              "name": "Onkel\u00d6nder"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505037045,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:58:34.000Z",
+          "dur": 1843,
+          "opponents": [
+            {
+              "profileId": 5785861,
+              "name": "Maro\u00f1o"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504843760,
           "civ": "Burmese",
@@ -1733,12 +1818,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 26,
-        "pulledDate": "2026-09-07",
-        "latestRating": 671,
+        "totalGames": 28,
+        "pulledDate": "2026-09-11",
+        "latestRating": 668,
         "peakRating": 845
       },
       "matches": [
+        {
+          "matchId": 505214724,
+          "civ": "Dravidians",
+          "map": "Socotra",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T12:19:32.000Z",
+          "dur": 2280,
+          "opponents": [
+            {
+              "profileId": 24048059,
+              "name": "Grimor91"
+            },
+            {
+              "profileId": 23975374,
+              "name": "SaintJimmy_21"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2028621,
+              "name": "Lukrat"
+            }
+          ]
+        },
+        {
+          "matchId": 505102090,
+          "civ": "Persians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T21:39:51.000Z",
+          "dur": 1362,
+          "opponents": [
+            {
+              "profileId": 14046363,
+              "name": "AgeofEmperor669"
+            },
+            {
+              "profileId": 5752348,
+              "name": "CoffeeByTheCasuals.com"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24253853,
+              "name": "julienPlvg91"
+            }
+          ]
+        },
         {
           "matchId": 504835820,
           "civ": "Tatars",
@@ -2413,5 +2550,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "es",
+  "countryIcon": "\ud83c\uddea\ud83c\uddf8",
+  "countryName": "Spain"
 }

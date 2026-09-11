@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-06"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 32,
-        "pulledDate": "2026-09-06",
-        "latestRating": 1357,
+        "totalGames": 34,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1325,
         "peakRating": 1357
       },
       "matches": [
+        {
+          "matchId": 505761573,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T23:39:24.000Z",
+          "dur": 1231,
+          "opponents": [
+            {
+              "profileId": 22113563,
+              "name": "edu@rdo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505560162,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T00:37:43.000Z",
+          "dur": 1247,
+          "opponents": [
+            {
+              "profileId": 1307404,
+              "name": "Wonderphil"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504530476,
           "civ": "Wu",
@@ -573,10 +607,36 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2,
-        "pulledDate": "2026-09-06"
+        "totalGames": 3,
+        "pulledDate": "2026-09-11"
       },
       "matches": [
+        {
+          "matchId": 505358799,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T01:44:46.000Z",
+          "dur": 1142,
+          "opponents": [
+            {
+              "profileId": 3417860,
+              "name": "MaHe"
+            },
+            {
+              "profileId": 6323709,
+              "name": "Herss1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25369530,
+              "name": "PeloDeElite"
+            }
+          ]
+        },
         {
           "matchId": 503270601,
           "civ": "Magyars",
@@ -631,5 +691,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

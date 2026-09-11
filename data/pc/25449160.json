@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 13,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1346,
         "peakRating": 1356
       },
@@ -239,12 +239,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 196,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1219,
+        "totalGames": 198,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1188,
         "peakRating": 1312
       },
       "matches": [
+        {
+          "matchId": 505480796,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T17:21:05.000Z",
+          "dur": 1177,
+          "opponents": [
+            {
+              "profileId": 12031018,
+              "name": "blizzopop"
+            },
+            {
+              "profileId": 20816896,
+              "name": "ryan20160922"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11556807,
+              "name": "Zyquore"
+            }
+          ]
+        },
+        {
+          "matchId": 505474735,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T16:48:07.000Z",
+          "dur": 1711,
+          "opponents": [
+            {
+              "profileId": 3572902,
+              "name": "stiks510"
+            },
+            {
+              "profileId": 4200883,
+              "name": "Gilgamesh43499"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11556807,
+              "name": "Zyquore"
+            }
+          ]
+        },
         {
           "matchId": 504742361,
           "civ": "Malians",
@@ -5374,5 +5426,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "de",
+  "countryIcon": "\ud83c\udde9\ud83c\uddea",
+  "countryName": "Germany"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 47,
-        "pulledDate": "2026-09-03",
-        "latestRating": 449,
+        "totalGames": 49,
+        "pulledDate": "2026-09-11",
+        "latestRating": 451,
         "peakRating": 583
       },
       "matches": [
+        {
+          "matchId": 505767560,
+          "civ": "Georgians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T00:20:07.000Z",
+          "dur": 1688,
+          "opponents": [
+            {
+              "profileId": 20906285,
+              "name": "Kanata"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505381412,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-09",
+          "startedAt": "2026-09-09T04:22:58.000Z",
+          "dur": 2949,
+          "opponents": [
+            {
+              "profileId": 2254366,
+              "name": "KverFernap"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503704942,
           "civ": "Armenians",
@@ -784,7 +818,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 675,
         "peakRating": 749
       },
@@ -1262,5 +1296,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }

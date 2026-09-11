@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-03"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 101,
-        "pulledDate": "2026-09-03",
+        "pulledDate": "2026-09-11",
         "latestRating": 2043,
         "peakRating": 2044
       },
@@ -1646,12 +1646,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 25,
-        "pulledDate": "2026-09-03",
-        "latestRating": 1712,
-        "peakRating": 1712
+        "totalGames": 27,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1734,
+        "peakRating": 1734
       },
       "matches": [
+        {
+          "matchId": 505039376,
+          "civ": "Bulgarians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T17:10:27.000Z",
+          "dur": 1263,
+          "opponents": [
+            {
+              "profileId": 7225778,
+              "name": "\u5566\u5566\u5566\u5566\u5566\u5566"
+            },
+            {
+              "profileId": 15396876,
+              "name": "Yucatan_water_supremacy"
+            },
+            {
+              "profileId": 1582820,
+              "name": "Jhih"
+            },
+            {
+              "profileId": 6164924,
+              "name": "\u79cd\u7530\u4eba\u53e3\u624d\u662f\u57fa\u672c\u76d8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 542233,
+              "name": "Bixiyo"
+            },
+            {
+              "profileId": 2947022,
+              "name": "DK_Akutuhaburu"
+            },
+            {
+              "profileId": 3810018,
+              "name": "[R1] Lil Capitolio"
+            }
+          ]
+        },
+        {
+          "matchId": 505034618,
+          "civ": "Tupi",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-07",
+          "startedAt": "2026-09-07T16:47:26.000Z",
+          "dur": 1052,
+          "opponents": [
+            {
+              "profileId": 9968309,
+              "name": "Daniel Chassagnez"
+            },
+            {
+              "profileId": 208976,
+              "name": "ClemoL45"
+            },
+            {
+              "profileId": 1352613,
+              "name": "Ouivoil\u00e0"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3810018,
+              "name": "[R1] Lil Capitolio"
+            },
+            {
+              "profileId": 542233,
+              "name": "Bixiyo"
+            }
+          ]
+        },
         {
           "matchId": 503357763,
           "civ": "Khitans",
@@ -2437,5 +2513,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "ar",
+  "countryIcon": "\ud83c\udde6\ud83c\uddf7",
+  "countryName": "Argentina"
 }

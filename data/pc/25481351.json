@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": [
         {
@@ -43,12 +43,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 139,
-        "pulledDate": "2026-09-07",
-        "latestRating": 852,
-        "peakRating": 870
+        "totalGames": 140,
+        "pulledDate": "2026-09-11",
+        "latestRating": 871,
+        "peakRating": 871
       },
       "matches": [
+        {
+          "matchId": 505273732,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-08",
+          "startedAt": "2026-09-08T17:48:02.000Z",
+          "dur": 2831,
+          "opponents": [
+            {
+              "profileId": 3573270,
+              "name": "Ince"
+            },
+            {
+              "profileId": 26046571,
+              "name": "Teblu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25481359,
+              "name": "kolhov"
+            }
+          ]
+        },
         {
           "matchId": 504790961,
           "civ": "Persians",
@@ -3954,5 +3980,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "kz",
+  "countryIcon": "\ud83c\uddf0\ud83c\uddff",
+  "countryName": "Kazakhstan"
 }

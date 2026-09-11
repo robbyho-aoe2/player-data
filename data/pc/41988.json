@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-07"
+        "pulledDate": "2026-09-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 52,
-        "pulledDate": "2026-09-07",
+        "pulledDate": "2026-09-11",
         "latestRating": 1233,
         "peakRating": 1282
       },
@@ -913,12 +913,150 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 238,
-        "pulledDate": "2026-09-07",
-        "latestRating": 1289,
+        "totalGames": 243,
+        "pulledDate": "2026-09-11",
+        "latestRating": 1335,
         "peakRating": 1446
       },
       "matches": [
+        {
+          "matchId": 505756685,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T23:06:48.000Z",
+          "dur": 1672,
+          "opponents": [
+            {
+              "profileId": 19357598,
+              "name": "Papa Francisco"
+            },
+            {
+              "profileId": 6914036,
+              "name": "MALAJUNTA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3188852,
+              "name": "Sitoux"
+            }
+          ]
+        },
+        {
+          "matchId": 505752610,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T22:39:39.000Z",
+          "dur": 1393,
+          "opponents": [
+            {
+              "profileId": 653846,
+              "name": "Catamenio"
+            },
+            {
+              "profileId": 1742362,
+              "name": "Chanuz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3188852,
+              "name": "Sitoux"
+            }
+          ]
+        },
+        {
+          "matchId": 505746700,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T22:03:05.000Z",
+          "dur": 1884,
+          "opponents": [
+            {
+              "profileId": 1636431,
+              "name": "Flying-Cucumber"
+            },
+            {
+              "profileId": 2259426,
+              "name": "chestnutplace77"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3188852,
+              "name": "Sitoux"
+            }
+          ]
+        },
+        {
+          "matchId": 505742112,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T21:36:18.000Z",
+          "dur": 1417,
+          "opponents": [
+            {
+              "profileId": 24856883,
+              "name": "PhiL"
+            },
+            {
+              "profileId": 1351622,
+              "name": "gschiebinger"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3188852,
+              "name": "Sitoux"
+            }
+          ]
+        },
+        {
+          "matchId": 505732746,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:45:41.000Z",
+          "dur": 1903,
+          "opponents": [
+            {
+              "profileId": 382346,
+              "name": "boluwatifeajibade"
+            },
+            {
+              "profileId": 6792809,
+              "name": "(o \u203f o)"
+            },
+            {
+              "profileId": 2000794,
+              "name": "TheLowercasee"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3188852,
+              "name": "Sitoux"
+            },
+            {
+              "profileId": 46615,
+              "name": "Drogly"
+            }
+          ]
+        },
         {
           "matchId": 504592518,
           "civ": "Turks",
@@ -9617,5 +9755,8 @@
         }
       ]
     }
-  }
+  },
+  "country": "fr",
+  "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
+  "countryName": "France"
 }
