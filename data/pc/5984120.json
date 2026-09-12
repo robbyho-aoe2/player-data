@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-12"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-12"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3584,
-        "pulledDate": "2026-09-10",
-        "latestRating": 2673,
-        "peakRating": 2673
+        "totalGames": 3586,
+        "pulledDate": "2026-09-12",
+        "latestRating": 2658,
+        "peakRating": 2679
       },
       "matches": [
+        {
+          "matchId": 505811429,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T05:40:16.000Z",
+          "dur": 1735,
+          "opponents": [
+            {
+              "profileId": 247224,
+              "name": "Survivalist"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 505747132,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T22:05:17.000Z",
+          "dur": 1826,
+          "opponents": [
+            {
+              "profileId": 1516024,
+              "name": "Kiko"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504654599,
           "civ": "Vikings",
@@ -53796,12 +53830,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2848,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1675,
+        "totalGames": 2851,
+        "pulledDate": "2026-09-12",
+        "latestRating": 1694,
         "peakRating": 1885
       },
       "matches": [
+        {
+          "matchId": 505734159,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:52:53.000Z",
+          "dur": 1863,
+          "opponents": [
+            {
+              "profileId": 259009,
+              "name": "GAX | ERV"
+            },
+            {
+              "profileId": 16351986,
+              "name": "GAX | Kareca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20727842,
+              "name": "Tiburoncin UAA"
+            }
+          ]
+        },
+        {
+          "matchId": 505726077,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T20:12:32.000Z",
+          "dur": 2229,
+          "opponents": [
+            {
+              "profileId": 228526,
+              "name": "OGN_EMPIRES"
+            },
+            {
+              "profileId": 895703,
+              "name": "[FrCo] Shenshenko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20727842,
+              "name": "Tiburoncin UAA"
+            }
+          ]
+        },
+        {
+          "matchId": 505719586,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-10",
+          "startedAt": "2026-09-10T19:41:37.000Z",
+          "dur": 1578,
+          "opponents": [
+            {
+              "profileId": 228526,
+              "name": "OGN_EMPIRES"
+            },
+            {
+              "profileId": 895703,
+              "name": "[FrCo] Shenshenko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20727842,
+              "name": "Tiburoncin UAA"
+            }
+          ]
+        },
         {
           "matchId": 504651647,
           "civ": "Muisca",
