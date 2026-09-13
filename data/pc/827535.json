@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-13"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-13"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 37,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-09-13",
         "latestRating": 1370,
         "peakRating": 1370
       },
@@ -621,12 +621,852 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4823,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1730,
+        "totalGames": 4843,
+        "pulledDate": "2026-09-13",
+        "latestRating": 1757,
         "peakRating": 1811
       },
       "matches": [
+        {
+          "matchId": 506404283,
+          "civ": "Khitans",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T14:07:54.000Z",
+          "dur": 1672,
+          "opponents": [
+            {
+              "profileId": 353222,
+              "name": "\u706f\u7b3c"
+            },
+            {
+              "profileId": 19333073,
+              "name": "SADXXX"
+            },
+            {
+              "profileId": 18413925,
+              "name": "\u6478\u9c7c\u79cd\u7530"
+            },
+            {
+              "profileId": 786116,
+              "name": "Velky kanec"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10343461,
+              "name": "Hommi"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 921446,
+              "name": "[GER] Paeco"
+            }
+          ]
+        },
+        {
+          "matchId": 506398297,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T13:42:12.000Z",
+          "dur": 1244,
+          "opponents": [
+            {
+              "profileId": 19333073,
+              "name": "SADXXX"
+            },
+            {
+              "profileId": 18413925,
+              "name": "\u6478\u9c7c\u79cd\u7530"
+            },
+            {
+              "profileId": 982632,
+              "name": "Rodney McKay"
+            },
+            {
+              "profileId": 353222,
+              "name": "\u706f\u7b3c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 921446,
+              "name": "[GER] Paeco"
+            },
+            {
+              "profileId": 786116,
+              "name": "Velky kanec"
+            }
+          ]
+        },
+        {
+          "matchId": 506393661,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T13:21:23.000Z",
+          "dur": 1018,
+          "opponents": [
+            {
+              "profileId": 256209,
+              "name": "MrDJM"
+            },
+            {
+              "profileId": 13167651,
+              "name": "\u725b\u6cb9\u679c"
+            },
+            {
+              "profileId": 11595998,
+              "name": "gjizhijian6866"
+            },
+            {
+              "profileId": 2810387,
+              "name": "FlyingSaucer_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23273858,
+              "name": "\u897f\u74dc"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 921446,
+              "name": "[GER] Paeco"
+            }
+          ]
+        },
+        {
+          "matchId": 506388388,
+          "civ": "Magyars",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T12:56:12.000Z",
+          "dur": 1295,
+          "opponents": [
+            {
+              "profileId": 15242442,
+              "name": "JINX"
+            },
+            {
+              "profileId": 337640,
+              "name": "bullseyes"
+            },
+            {
+              "profileId": 2810387,
+              "name": "FlyingSaucer_"
+            },
+            {
+              "profileId": 20455244,
+              "name": "Yann le Chef"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 13167651,
+              "name": "\u725b\u6cb9\u679c"
+            }
+          ]
+        },
+        {
+          "matchId": 506367915,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T11:04:12.000Z",
+          "dur": 1514,
+          "opponents": [
+            {
+              "profileId": 11242838,
+              "name": "\u9a91\u4eba\u673a\u7684\u9a91\u58eb"
+            },
+            {
+              "profileId": 20812281,
+              "name": "PIGGY FOR AGE"
+            },
+            {
+              "profileId": 22629697,
+              "name": "shenxu"
+            },
+            {
+              "profileId": 23992115,
+              "name": "\u961f\u53cb\u5f88\u5f3a\u6211\u5f88\u5dee\uff0c\u6c42\u653e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 921446,
+              "name": "[GER] Paeco"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 12278112,
+              "name": "Pelopincho"
+            }
+          ]
+        },
+        {
+          "matchId": 506363691,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T10:36:57.000Z",
+          "dur": 1434,
+          "opponents": [
+            {
+              "profileId": 496220,
+              "name": "iThink"
+            },
+            {
+              "profileId": 23992115,
+              "name": "\u961f\u53cb\u5f88\u5f3a\u6211\u5f88\u5dee\uff0c\u6c42\u653e"
+            },
+            {
+              "profileId": 22629697,
+              "name": "shenxu"
+            },
+            {
+              "profileId": 20812281,
+              "name": "PIGGY FOR AGE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14573418,
+              "name": "Mr Ozima"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 921446,
+              "name": "[GER] Paeco"
+            }
+          ]
+        },
+        {
+          "matchId": 506359267,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T10:07:02.000Z",
+          "dur": 1511,
+          "opponents": [
+            {
+              "profileId": 2645406,
+              "name": "\u0110\u00e0 L\u1ea1t"
+            },
+            {
+              "profileId": 496220,
+              "name": "iThink"
+            },
+            {
+              "profileId": 10957506,
+              "name": "darkovichhh"
+            },
+            {
+              "profileId": 18905727,
+              "name": "\u4e00\u751f\u6709\u7231\u4f55\u60e7\u98ce\u98de\u6c99"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 921446,
+              "name": "[GER] Paeco"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 9411369,
+              "name": "Eat_Rice"
+            }
+          ]
+        },
+        {
+          "matchId": 506355679,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T09:43:41.000Z",
+          "dur": 1177,
+          "opponents": [
+            {
+              "profileId": 22272794,
+              "name": "\u5c0f\u871c\u8702"
+            },
+            {
+              "profileId": 18857401,
+              "name": "\u8001\u5929\u9d5d"
+            },
+            {
+              "profileId": 11457005,
+              "name": "Rayz"
+            },
+            {
+              "profileId": 24983559,
+              "name": "\u6563\u6b65\u5c0f\u9d5d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2800609,
+              "name": "Valle"
+            },
+            {
+              "profileId": 921446,
+              "name": "[GER] Paeco"
+            },
+            {
+              "profileId": 788166,
+              "name": "Wuyen"
+            }
+          ]
+        },
+        {
+          "matchId": 506316412,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T05:06:20.000Z",
+          "dur": 743,
+          "opponents": [
+            {
+              "profileId": 8487038,
+              "name": "KaLong"
+            },
+            {
+              "profileId": 2986961,
+              "name": "BomBomB0"
+            },
+            {
+              "profileId": 2592963,
+              "name": "\u55da"
+            },
+            {
+              "profileId": 1966276,
+              "name": "Ming"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 348279,
+              "name": "MrDoDo"
+            }
+          ]
+        },
+        {
+          "matchId": 506311617,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T04:34:25.000Z",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 6452094,
+              "name": "NaaVyii_"
+            },
+            {
+              "profileId": 2636279,
+              "name": "GAX | \u00c1yaxx"
+            },
+            {
+              "profileId": 2003630,
+              "name": "Chap1nziiiin"
+            },
+            {
+              "profileId": 196593,
+              "name": "Hao_Arg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            },
+            {
+              "profileId": 2689374,
+              "name": "\u5feb\u6a02987"
+            }
+          ]
+        },
+        {
+          "matchId": 506307886,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T04:10:30.000Z",
+          "dur": 1164,
+          "opponents": [
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            },
+            {
+              "profileId": 10489189,
+              "name": "Fs.TARTARUGA VELOZ"
+            },
+            {
+              "profileId": 3423351,
+              "name": "Fs.Wolverine"
+            },
+            {
+              "profileId": 2928556,
+              "name": "TeTo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2090153,
+              "name": "E@GLE"
+            },
+            {
+              "profileId": 5953145,
+              "name": "Marlin"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            }
+          ]
+        },
+        {
+          "matchId": 506304212,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T03:48:49.000Z",
+          "dur": 1069,
+          "opponents": [
+            {
+              "profileId": 217485,
+              "name": "Nobu"
+            },
+            {
+              "profileId": 11008883,
+              "name": "GroomingJewel84"
+            },
+            {
+              "profileId": 4902114,
+              "name": "APZz_"
+            },
+            {
+              "profileId": 1751276,
+              "name": "Vegeta"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24742141,
+              "name": "67 SKIRMiSHERS"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            }
+          ]
+        },
+        {
+          "matchId": 506140122,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T14:55:52.000Z",
+          "dur": 1595,
+          "opponents": [
+            {
+              "profileId": 15242442,
+              "name": "JINX"
+            },
+            {
+              "profileId": 11242838,
+              "name": "\u9a91\u4eba\u673a\u7684\u9a91\u58eb"
+            },
+            {
+              "profileId": 782900,
+              "name": "MeHawK"
+            },
+            {
+              "profileId": 470376,
+              "name": "Grintoid"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9766616,
+              "name": "TheZero"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 21176946,
+              "name": "\u5112\u95e8\u5927\u540a-\u65e5\u98df"
+            }
+          ]
+        },
+        {
+          "matchId": 506130338,
+          "civ": "Japanese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T14:15:00.000Z",
+          "dur": 2200,
+          "opponents": [
+            {
+              "profileId": 25422171,
+              "name": "\u6446\u70c2pia"
+            },
+            {
+              "profileId": 23232396,
+              "name": "Hash-"
+            },
+            {
+              "profileId": 21677602,
+              "name": "\u8131\u8131\u8ff7\u5931"
+            },
+            {
+              "profileId": 11814498,
+              "name": "mmr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24853301,
+              "name": "SimmaHem7912"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 4515561,
+              "name": "czj136"
+            }
+          ]
+        },
+        {
+          "matchId": 506122925,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T13:42:05.000Z",
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 3589630,
+              "name": "ForeveR"
+            },
+            {
+              "profileId": 967423,
+              "name": "VL | Falu"
+            },
+            {
+              "profileId": 290453,
+              "name": "Dott_Berlu"
+            },
+            {
+              "profileId": 226575,
+              "name": "Lyx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 197964,
+              "name": "Yo"
+            },
+            {
+              "profileId": 24961348,
+              "name": "\u5341\u5927\u5730\u65b9"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            }
+          ]
+        },
+        {
+          "matchId": 506121943,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T13:37:15.000Z",
+          "dur": 323,
+          "opponents": [
+            {
+              "profileId": 21093855,
+              "name": "Chaos"
+            },
+            {
+              "profileId": 290453,
+              "name": "Dott_Berlu"
+            },
+            {
+              "profileId": 1229244,
+              "name": "Getsuga Tensho"
+            },
+            {
+              "profileId": 3589630,
+              "name": "ForeveR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3124889,
+              "name": "\u5012\u6302\u7740\u7684\u6811\u679d"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            },
+            {
+              "profileId": 10721552,
+              "name": "Tdb.Ricardo90"
+            }
+          ]
+        },
+        {
+          "matchId": 506119128,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T13:23:36.000Z",
+          "dur": 829,
+          "opponents": [
+            {
+              "profileId": 15242442,
+              "name": "JINX"
+            },
+            {
+              "profileId": 3589630,
+              "name": "ForeveR"
+            },
+            {
+              "profileId": 3124889,
+              "name": "\u5012\u6302\u7740\u7684\u6811\u679d"
+            },
+            {
+              "profileId": 1332828,
+              "name": "OX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18413925,
+              "name": "\u6478\u9c7c\u79cd\u7530"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            },
+            {
+              "profileId": 290453,
+              "name": "Dott_Berlu"
+            }
+          ]
+        },
+        {
+          "matchId": 506113310,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T12:54:41.000Z",
+          "dur": 1406,
+          "opponents": [
+            {
+              "profileId": 425768,
+              "name": "AncientKing"
+            },
+            {
+              "profileId": 786116,
+              "name": "Velky kanec"
+            },
+            {
+              "profileId": 4515561,
+              "name": "czj136"
+            },
+            {
+              "profileId": 2204002,
+              "name": "Mo_Tastic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17941193,
+              "name": "SHell | Denchik_Ne_Lohx"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            },
+            {
+              "profileId": 2900258,
+              "name": "\u80d6\u5b50\u4e8b\u60c5\u591a"
+            }
+          ]
+        },
+        {
+          "matchId": 506095389,
+          "civ": "Spanish",
+          "map": "Hill Fort",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T11:08:21.000Z",
+          "dur": 1548,
+          "opponents": [
+            {
+              "profileId": 213073,
+              "name": "\u4e0d\u897f\u897f"
+            },
+            {
+              "profileId": 1067749,
+              "name": "get wild"
+            },
+            {
+              "profileId": 15625581,
+              "name": "\u725b\u62c9\u677e"
+            },
+            {
+              "profileId": 20960432,
+              "name": "\u9006\u00b7\u98ce"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22944156,
+              "name": "amtiky"
+            },
+            {
+              "profileId": 1674502,
+              "name": "Don Roscon"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            }
+          ]
+        },
+        {
+          "matchId": 506092075,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-12",
+          "startedAt": "2026-09-12T10:44:51.000Z",
+          "dur": 1176,
+          "opponents": [
+            {
+              "profileId": 20428703,
+              "name": "[QHB] Noel Vermillion"
+            },
+            {
+              "profileId": 2191191,
+              "name": "Toblerone Order"
+            },
+            {
+              "profileId": 3509267,
+              "name": "QHB\u6302b\u6237\u53e3\u672c1\u9875"
+            },
+            {
+              "profileId": 6875947,
+              "name": "jwL"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            },
+            {
+              "profileId": 10020445,
+              "name": "\u7eff\u6cb9\u7cbe\u70b9\u773c\u775b"
+            },
+            {
+              "profileId": 22944156,
+              "name": "amtiky"
+            }
+          ]
+        },
         {
           "matchId": 505872419,
           "civ": "Japanese",
