@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-13"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-13"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 174,
-        "pulledDate": "2026-09-11",
+        "totalGames": 175,
+        "pulledDate": "2026-09-13",
         "latestRating": 1056,
         "peakRating": 1075
       },
       "matches": [
+        {
+          "matchId": 506516287,
+          "civ": "Mongols",
+          "map": "Enclosed",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-13",
+          "startedAt": "2026-09-13T22:00:33.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 8989,
+              "name": "[GI MONO] demon.void"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505055394,
           "civ": "Mongols",
@@ -2814,12 +2831,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 655,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1154,
+        "totalGames": 657,
+        "pulledDate": "2026-09-13",
+        "latestRating": 1134,
         "peakRating": 1220
       },
       "matches": [
+        {
+          "matchId": 505940745,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T19:39:59.000Z",
+          "dur": 2571,
+          "opponents": [
+            {
+              "profileId": 11709964,
+              "name": "taco"
+            },
+            {
+              "profileId": 6145606,
+              "name": "Greatness"
+            },
+            {
+              "profileId": 22990086,
+              "name": "pacmon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2654883,
+              "name": "Chechomont"
+            },
+            {
+              "profileId": 2117253,
+              "name": "MauriB"
+            }
+          ]
+        },
+        {
+          "matchId": 505935358,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-11",
+          "startedAt": "2026-09-11T19:16:38.000Z",
+          "dur": 1297,
+          "opponents": [
+            {
+              "profileId": 2696080,
+              "name": "Alcaz"
+            },
+            {
+              "profileId": 788243,
+              "name": "Evil Walks"
+            },
+            {
+              "profileId": 337856,
+              "name": "pr!x`"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2117253,
+              "name": "MauriB"
+            },
+            {
+              "profileId": 2654883,
+              "name": "Chechomont"
+            }
+          ]
+        },
         {
           "matchId": 505929353,
           "civ": "Mongols",
