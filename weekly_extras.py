@@ -43,7 +43,6 @@ civPopularity, teamRatingSnapshot.
 """
 import argparse
 import glob
-import itertools
 import json
 from collections import defaultdict
 
@@ -93,12 +92,20 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
     """Top-N duos/trios/quads by games played together within the window,
     Team Console only (matches the weekly report's console scope).
 
+    A duo is a squad that played an actual 2v2 together (not two players
+    who happened to both be in a larger 3v3/4v4) — likewise trios are
+    exactly 3v3s and quads exactly 4v4s. This does NOT take combinations()
+    of bigger squads down into smaller ones; each match counts once, under
+    its own true team size, or not at all.
+
     `roster_ids`, when given, restricts squad membership to teammates in
     that set — same convention as snl_report.py's ratstacks, so an
-    untracked teammate doesn't get folded into a squad we can't verify.
+    untracked teammate doesn't get folded into a squad we can't verify. A
+    match with even one untracked teammate is skipped entirely (we can't
+    confirm who the full squad was), rather than counting a partial subset.
     Pass the full console profileId set here to match the SNL report's
     behavior; omit (None) for the old any-teammate behavior."""
-    seen = {}  # matchId -> (frozenset profileIds, won)
+    seen = {}  # matchId -> (tuple sorted (pid,name) of exact size, won, size)
     for p in players:
         owner_id = p.get("profileId")
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
@@ -108,27 +115,29 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
             if mid in seen:
                 continue
             teammates = m.get("teammates") or []
-            squad = {(owner_id, p.get("name"))} | {
-                (t.get("profileId"), t.get("name")) for t in teammates
-                if t.get("profileId") is not None
-                and (roster_ids is None or t.get("profileId") in roster_ids)
-            }
-            if len(squad) >= 2:
-                seen[mid] = (frozenset(squad), m.get("won"))
+            true_size = 1 + len(teammates)
+            if true_size not in (2, 3, 4):
+                continue  # only exact 2v2/3v3/4v4 squads count
+            squad = [(owner_id, p.get("name"))]
+            fully_tracked = True
+            for t in teammates:
+                tid = t.get("profileId")
+                if tid is None or (roster_ids is not None and tid not in roster_ids):
+                    fully_tracked = False
+                    break
+                squad.append((tid, t.get("name")))
+            if not fully_tracked:
+                continue  # can't verify the whole squad — skip rather than guess
+            seen[mid] = (tuple(sorted(squad)), m.get("won"), true_size)
 
     stats = {2: defaultdict(lambda: {"games": 0, "wins": 0}),
               3: defaultdict(lambda: {"games": 0, "wins": 0}),
               4: defaultdict(lambda: {"games": 0, "wins": 0})}
 
-    for squad, won in seen.values():
-        size = len(squad)
-        for n in (2, 3, 4):
-            if size < n:
-                continue
-            for combo in itertools.combinations(sorted(squad), n):
-                stats[n][combo]["games"] += 1
-                if won:
-                    stats[n][combo]["wins"] += 1
+    for combo, won, size in seen.values():
+        stats[size][combo]["games"] += 1
+        if won:
+            stats[size][combo]["wins"] += 1
 
     def serialize(n):
         rows = []
