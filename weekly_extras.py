@@ -65,46 +65,59 @@ def in_window(date_str, start, end):
 
 
 def compute_alltime_and_growth(players, this_date, prior_date):
-    """All-time 1v1/Team totals as of `this_date`, and growth vs `prior_date`
-    — both RESTATED using today's full player roster, not the roster that
-    existed back on `prior_date`.
+    """All-time 1v1/Team totals as of `this_date` (normally today), and
+    growth vs `prior_date` — both counting DISTINCT MATCHES (deduped by
+    matchId), not per-player participations, so "a game" means the same
+    thing here as everywhere else in the report (compute_game_breakdown,
+    window1v1, etc).
 
-    The naive version of this (sum each player's current games1v1, diff
-    against a stored prior snapshot's sum) gets badly contaminated every
-    time the backfill pipeline finishes a batch of previously-untracked
-    players: each one's entire career game count lands in "growth" for
-    that single week, even though almost none of those games were actually
-    played that week. Restating means: for a given cutoff date, count every
-    currently-tracked player's matches dated on/before that cutoff. Diffing
-    two restated cutoffs (`prior_date`, `this_date]`) then counts exactly
-    the matches dated inside that window — nothing else — regardless of
-    when each player's file happened to get backfilled. `allTime1v1` as of
-    `this_date` (normally today) needs no restating itself, since "today"
-    already reflects the complete current roster; only the comparison point
-    for growth does.
+    Two past bugs this avoids:
+    1. A literal per-player sum (len(matches) added up across everyone)
+       double-, triple-, or quadruple-counts every match with more than one
+       currently-tracked participant — a 4v4 among four tracked players
+       would count as 4 games, not 1. Deduping by matchId fixes that for
+       BOTH allTime1v1/allTimeTeam and growth1v1/growthTeam.
+    2. Naively diffing two independently-computed all-time totals re-opens
+       the growth-contamination bug this function was written to fix in
+       the first place: whenever the backfill pipeline finishes a batch of
+       previously-untracked players, their entire (deduped) match history
+       would land in "growth" in one shot. So growth1v1/growthTeam are NOT
+       `allTime(this_date) - allTime(prior_date)` — they're literally
+       compute_game_breakdown's own window1v1/windowTeam counts for
+       (prior_date, this_date], which is already correctly scoped to
+       matches actually dated inside that window. This also guarantees the
+       "since last report" delta always equals the window segment's own
+       number — no more of the two disagreeing.
 
-    No cross-player dedup (matches the long-standing allTime1v1/allTimeTeam
-    convention of a literal per-player sum, not a unique-match count), and
-    void matches are still counted (a disconnect is still a game that was
+    allTime1v1/allTimeTeam DO still need restating by `this_date` when this
+    is being used to correct a PAST report, not just the current week: the
+    all-time headline for a given report has to mean "distinct matches
+    dated on/before THAT report's date," using today's complete roster —
+    not "every match that exists in today's data regardless of date,"
+    which would be today's final total misrepresented as already true back
+    then. For the current week's own report, `this_date` is today, so this
+    cutoff naturally includes everything and changes nothing.
+
+    Void matches are still counted (a disconnect is still a game that was
     started)."""
-    def restate(cutoff):
-        c1v1 = sum(
-            1 for p in players
-            for m in p.get("ladders", {}).get("1v1 Console", {}).get("matches", [])
-            if m.get("date") and m["date"] <= cutoff
-        )
-        cteam = sum(
-            1 for p in players
-            for m in p.get("ladders", {}).get("Team Console", {}).get("matches", [])
-            if m.get("date") and m["date"] <= cutoff
-        )
-        return c1v1, cteam
+    def alltime_matches(cutoff):
+        seen_1v1, seen_team = set(), set()
+        for p in players:
+            for m in p.get("ladders", {}).get("1v1 Console", {}).get("matches", []):
+                if m.get("date") and m["date"] <= cutoff:
+                    seen_1v1.add(m.get("matchId"))
+            for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
+                if m.get("date") and m["date"] <= cutoff:
+                    seen_team.add(m.get("matchId"))
+        return len(seen_1v1), len(seen_team)
 
-    now_1v1, now_team = restate(this_date)
-    prior_1v1, prior_team = restate(prior_date)
+    all_1v1, all_team = alltime_matches(this_date)
+    gb = compute_game_breakdown(players, prior_date, this_date)
+    window_1v1 = gb.get("1v1", 0)
+    window_team = gb.get("total", 0) - window_1v1
     return {
-        "allTime1v1": now_1v1, "allTimeTeam": now_team, "allTimeCombined": now_1v1 + now_team,
-        "growth1v1": now_1v1 - prior_1v1, "growthTeam": now_team - prior_team,
+        "allTime1v1": all_1v1, "allTimeTeam": all_team, "allTimeCombined": all_1v1 + all_team,
+        "growth1v1": window_1v1, "growthTeam": window_team,
     }
 
 
