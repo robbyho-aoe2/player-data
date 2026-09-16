@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-16"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-16"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 67,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1033,
+        "totalGames": 68,
+        "pulledDate": "2026-09-16",
+        "latestRating": 1050,
         "peakRating": 1097
       },
       "matches": [
+        {
+          "matchId": 506937469,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-15",
+          "startedAt": "2026-09-15T21:42:56.000Z",
+          "dur": 1912,
+          "opponents": [
+            {
+              "profileId": 20995884,
+              "name": "Borborema"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505728601,
           "civ": "Huns",
@@ -1104,12 +1121,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 529,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1153,
+        "totalGames": 532,
+        "pulledDate": "2026-09-16",
+        "latestRating": 1173,
         "peakRating": 1220
       },
       "matches": [
+        {
+          "matchId": 506934361,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-15",
+          "startedAt": "2026-09-15T21:24:46.000Z",
+          "dur": 892,
+          "opponents": [
+            {
+              "profileId": 23968795,
+              "name": "[Snats] Sjoerd&Naat Carrier"
+            },
+            {
+              "profileId": 3423804,
+              "name": "[Snats] Carried_Sjoerd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2230314,
+              "name": "Santiagoo"
+            }
+          ]
+        },
+        {
+          "matchId": 506933926,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-15",
+          "startedAt": "2026-09-15T21:22:13.000Z",
+          "dur": 22,
+          "opponents": [
+            {
+              "profileId": 23968795,
+              "name": "[Snats] Sjoerd&Naat Carrier"
+            },
+            {
+              "profileId": 3423804,
+              "name": "[Snats] Carried_Sjoerd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2230314,
+              "name": "Santiagoo"
+            }
+          ]
+        },
+        {
+          "matchId": 506693517,
+          "civ": "Franks",
+          "map": "Highland",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-14",
+          "startedAt": "2026-09-14T19:04:53.000Z",
+          "dur": 1147,
+          "opponents": [
+            {
+              "profileId": 3962449,
+              "name": "Il Gallaccio"
+            },
+            {
+              "profileId": 446340,
+              "name": "Silverchain"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2230314,
+              "name": "Santiagoo"
+            }
+          ]
+        },
         {
           "matchId": 501335796,
           "civ": "Huns",
