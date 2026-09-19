@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-18"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-18"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 912,
-        "pulledDate": "2026-09-12",
+        "totalGames": 913,
+        "pulledDate": "2026-09-18",
         "latestRating": 1043,
         "peakRating": 1244
       },
       "matches": [
+        {
+          "matchId": 507579335,
+          "civ": "Japanese",
+          "map": "Four Lakes",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-18",
+          "startedAt": "2026-09-18T21:55:15.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 17001917,
+              "name": "GhRand3x7"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499782051,
           "civ": "Mongols",
@@ -15533,12 +15550,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 378,
-        "pulledDate": "2026-09-12",
-        "latestRating": 1025,
+        "totalGames": 380,
+        "pulledDate": "2026-09-18",
+        "latestRating": 1026,
         "peakRating": 1248
       },
       "matches": [
+        {
+          "matchId": 507403791,
+          "civ": "Japanese",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-18",
+          "startedAt": "2026-09-18T02:51:06.000Z",
+          "dur": 1694,
+          "opponents": [
+            {
+              "profileId": 5613290,
+              "name": "Knight_Romero83"
+            },
+            {
+              "profileId": 4198527,
+              "name": "ReBeL_PuMa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 76872,
+              "name": "Lukogro"
+            }
+          ]
+        },
+        {
+          "matchId": 507400379,
+          "civ": "Berbers",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-18",
+          "startedAt": "2026-09-18T02:28:22.000Z",
+          "dur": 816,
+          "opponents": [
+            {
+              "profileId": 9409719,
+              "name": "The Gobbler"
+            },
+            {
+              "profileId": 13387393,
+              "name": "GJBrannock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 76872,
+              "name": "Lukogro"
+            }
+          ]
+        },
         {
           "matchId": 467294914,
           "civ": "Incas",
