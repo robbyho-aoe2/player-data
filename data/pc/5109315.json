@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-19"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-19"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 286,
-        "pulledDate": "2026-09-16",
-        "latestRating": 2086,
+        "totalGames": 287,
+        "pulledDate": "2026-09-19",
+        "latestRating": 2098,
         "peakRating": 2208
       },
       "matches": [
+        {
+          "matchId": 507477651,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-18",
+          "startedAt": "2026-09-18T13:45:53.000Z",
+          "dur": 1488,
+          "opponents": [
+            {
+              "profileId": 4078218,
+              "name": "Yusutia"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507133687,
           "civ": "Turks",
@@ -4629,12 +4646,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 816,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1692,
+        "totalGames": 819,
+        "pulledDate": "2026-09-19",
+        "latestRating": 1681,
         "peakRating": 1771
       },
       "matches": [
+        {
+          "matchId": 507313668,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-17",
+          "startedAt": "2026-09-17T18:01:49.000Z",
+          "dur": 884,
+          "opponents": [
+            {
+              "profileId": 25436970,
+              "name": "UC | Chechito"
+            },
+            {
+              "profileId": 11238618,
+              "name": "ThatMan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3028133,
+              "name": "fpl_whisperer"
+            }
+          ]
+        },
+        {
+          "matchId": 507306982,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-17",
+          "startedAt": "2026-09-17T17:26:51.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 6402519,
+              "name": "\u5c0f\u5c0f\u6ce2"
+            },
+            {
+              "profileId": 2174791,
+              "name": "[SST]_COCO"
+            },
+            {
+              "profileId": 5385117,
+              "name": "[SST]_Reality"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3028133,
+              "name": "fpl_whisperer"
+            },
+            {
+              "profileId": 837385,
+              "name": "jimmil"
+            }
+          ]
+        },
+        {
+          "matchId": 507300964,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-17",
+          "startedAt": "2026-09-17T16:53:48.000Z",
+          "dur": 1623,
+          "opponents": [
+            {
+              "profileId": 2174791,
+              "name": "[SST]_COCO"
+            },
+            {
+              "profileId": 5385117,
+              "name": "[SST]_Reality"
+            },
+            {
+              "profileId": 6402519,
+              "name": "\u5c0f\u5c0f\u6ce2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 837385,
+              "name": "jimmil"
+            },
+            {
+              "profileId": 3028133,
+              "name": "fpl_whisperer"
+            }
+          ]
+        },
         {
           "matchId": 503851194,
           "civ": "Spanish",
