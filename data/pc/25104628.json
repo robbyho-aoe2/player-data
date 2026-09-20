@@ -6,22 +6,22 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-20"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-20"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 198,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1320,
+        "pulledDate": "2026-09-20",
+        "latestRating": 1244,
         "peakRating": 1419
       },
       "matches": [
@@ -3215,12 +3215,844 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1463,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1325,
-        "peakRating": 1346
+        "totalGames": 1483,
+        "pulledDate": "2026-09-20",
+        "latestRating": 1241,
+        "peakRating": 1380
       },
       "matches": [
+        {
+          "matchId": 507985704,
+          "civ": "Shu",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T14:06:02.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 3006772,
+              "name": "moneyfusion06"
+            },
+            {
+              "profileId": 3251587,
+              "name": "emblazon3d"
+            },
+            {
+              "profileId": 5438495,
+              "name": "\u041c\u043e\u0440\u043e\u0437\u0435\u0446\u044c"
+            },
+            {
+              "profileId": 21128915,
+              "name": "Tom Bombadil's Chode"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1118915,
+              "name": "Tin's"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            },
+            {
+              "profileId": 19424343,
+              "name": "Spartacus"
+            }
+          ]
+        },
+        {
+          "matchId": 507977819,
+          "civ": "Goths",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T13:31:59.000Z",
+          "dur": 1650,
+          "opponents": [
+            {
+              "profileId": 16427116,
+              "name": "La Apple"
+            },
+            {
+              "profileId": 11204665,
+              "name": "Sennin"
+            },
+            {
+              "profileId": 6279593,
+              "name": "Ta.ToM"
+            },
+            {
+              "profileId": 1433902,
+              "name": "BerCioSilver"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19424343,
+              "name": "Spartacus"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            },
+            {
+              "profileId": 1118915,
+              "name": "Tin's"
+            }
+          ]
+        },
+        {
+          "matchId": 507956648,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T11:42:39.000Z",
+          "dur": 1704,
+          "opponents": [
+            {
+              "profileId": 6135808,
+              "name": "hirai"
+            },
+            {
+              "profileId": 6455037,
+              "name": "[82AD] WindCraft"
+            },
+            {
+              "profileId": 20494842,
+              "name": "ufokinw0tm8"
+            },
+            {
+              "profileId": 3004665,
+              "name": "Titan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12146413,
+              "name": "chanakya"
+            },
+            {
+              "profileId": 18427083,
+              "name": "Articuno"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            }
+          ]
+        },
+        {
+          "matchId": 507954046,
+          "civ": "Byzantines",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T11:26:36.000Z",
+          "dur": 765,
+          "opponents": [
+            {
+              "profileId": 9237333,
+              "name": "\u5176\u8272\u5b64\u767d"
+            },
+            {
+              "profileId": 19355233,
+              "name": "claretta's skirt"
+            },
+            {
+              "profileId": 19499280,
+              "name": "\u6211\u5011\u4e0d\u6703\u89e3\u6c7a\u554f\u984c\u6211\u5011\u6703\u89e3\u6c7a\u63d0\u51fa\u554f\u984c\u7684\u4eba"
+            },
+            {
+              "profileId": 19938055,
+              "name": "Leillow23"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5808154,
+              "name": "\u59ec\u4e03\u516e"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            },
+            {
+              "profileId": 19424343,
+              "name": "Spartacus"
+            }
+          ]
+        },
+        {
+          "matchId": 507950294,
+          "civ": "Armenians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T11:01:44.000Z",
+          "dur": 1022,
+          "opponents": [
+            {
+              "profileId": 235540,
+              "name": "hermelin*?"
+            },
+            {
+              "profileId": 1373672,
+              "name": "hypn0s"
+            },
+            {
+              "profileId": 3325088,
+              "name": "Just for fun"
+            },
+            {
+              "profileId": 26134461,
+              "name": "COMS1111"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4782615,
+              "name": "Basti8712"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            },
+            {
+              "profileId": 19424343,
+              "name": "Spartacus"
+            }
+          ]
+        },
+        {
+          "matchId": 507942167,
+          "civ": "Armenians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T10:04:29.000Z",
+          "dur": 2833,
+          "opponents": [
+            {
+              "profileId": 20924117,
+              "name": "contrau1"
+            },
+            {
+              "profileId": 11791584,
+              "name": "123456"
+            },
+            {
+              "profileId": 336655,
+              "name": "Baratticus"
+            },
+            {
+              "profileId": 319891,
+              "name": "\u30bf\u30f3\u30e4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25002204,
+              "name": "kirtokhan123"
+            },
+            {
+              "profileId": 19959571,
+              "name": "FatBaby"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            }
+          ]
+        },
+        {
+          "matchId": 507796174,
+          "civ": "Vikings",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T19:07:07.000Z",
+          "dur": 1800,
+          "opponents": [
+            {
+              "profileId": 2176966,
+              "name": "Paspian"
+            },
+            {
+              "profileId": 18443789,
+              "name": "christianperalta141"
+            },
+            {
+              "profileId": 4517470,
+              "name": "Oveja de Batalla"
+            },
+            {
+              "profileId": 4214577,
+              "name": "Arribia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 11655070,
+              "name": "Faxe_Kondi"
+            },
+            {
+              "profileId": 3194989,
+              "name": "RifRaf"
+            }
+          ]
+        },
+        {
+          "matchId": 507787711,
+          "civ": "Georgians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T18:30:52.000Z",
+          "dur": 1958,
+          "opponents": [
+            {
+              "profileId": 2670575,
+              "name": "GorDocho"
+            },
+            {
+              "profileId": 3216022,
+              "name": "Teniente Rada"
+            },
+            {
+              "profileId": 19653826,
+              "name": "\u9ed8\u9ed8\u53d1\u80b2"
+            },
+            {
+              "profileId": 1384124,
+              "name": "Peshgaldaramash"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12268924,
+              "name": "TheBrian"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 21410154,
+              "name": "TheKingofKing"
+            }
+          ]
+        },
+        {
+          "matchId": 507781112,
+          "civ": "Wei",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T18:00:41.000Z",
+          "dur": 1646,
+          "opponents": [
+            {
+              "profileId": 754955,
+              "name": "Capixo"
+            },
+            {
+              "profileId": 1384124,
+              "name": "Peshgaldaramash"
+            },
+            {
+              "profileId": 1881204,
+              "name": "Felipe !"
+            },
+            {
+              "profileId": 2670575,
+              "name": "GorDocho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19477236,
+              "name": "Nome(more distinct)"
+            },
+            {
+              "profileId": 2523265,
+              "name": "ijkabob"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            }
+          ]
+        },
+        {
+          "matchId": 507775219,
+          "civ": "Wei",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T17:32:54.000Z",
+          "dur": 1397,
+          "opponents": [
+            {
+              "profileId": 2612821,
+              "name": "h1kerb0i"
+            },
+            {
+              "profileId": 3487816,
+              "name": "mattmcneil9"
+            },
+            {
+              "profileId": 22677426,
+              "name": "\u9752\u67d1\u666e\u6d31"
+            },
+            {
+              "profileId": 24635210,
+              "name": "jinzhi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15440491,
+              "name": "Vtinglove"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 19477236,
+              "name": "Nome(more distinct)"
+            }
+          ]
+        },
+        {
+          "matchId": 507771076,
+          "civ": "Wei",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T17:12:19.000Z",
+          "dur": 1022,
+          "opponents": [
+            {
+              "profileId": 6812019,
+              "name": "ikaros"
+            },
+            {
+              "profileId": 18343678,
+              "name": "kerich732"
+            },
+            {
+              "profileId": 3366641,
+              "name": "SpiderAngel"
+            },
+            {
+              "profileId": 3365042,
+              "name": "Troll$"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5760613,
+              "name": "samarth310393"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 19477236,
+              "name": "Nome(more distinct)"
+            }
+          ]
+        },
+        {
+          "matchId": 507763293,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T16:35:38.000Z",
+          "dur": 2042,
+          "opponents": [
+            {
+              "profileId": 5938761,
+              "name": "Wandraak"
+            },
+            {
+              "profileId": 4043428,
+              "name": "kingou\u0161"
+            },
+            {
+              "profileId": 546119,
+              "name": "Theodore"
+            },
+            {
+              "profileId": 248102,
+              "name": "Floki"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24610905,
+              "name": "bthi68153"
+            },
+            {
+              "profileId": 19519052,
+              "name": "lequochuypy96"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            }
+          ]
+        },
+        {
+          "matchId": 507755301,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T15:58:02.000Z",
+          "dur": 1695,
+          "opponents": [
+            {
+              "profileId": 11963731,
+              "name": "Dany"
+            },
+            {
+              "profileId": 11963832,
+              "name": "PAWA"
+            },
+            {
+              "profileId": 15722352,
+              "name": "Haider_435"
+            },
+            {
+              "profileId": 9635802,
+              "name": "Black_Zer0"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 20229883,
+              "name": "Peter von Kerman"
+            },
+            {
+              "profileId": 4626085,
+              "name": "Donkerzs"
+            }
+          ]
+        },
+        {
+          "matchId": 507747022,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T15:18:49.000Z",
+          "dur": 1947,
+          "opponents": [
+            {
+              "profileId": 12373673,
+              "name": "\u5927\u6e05\u7b2c\u4e00\u5df4\u56fe\u9c81"
+            },
+            {
+              "profileId": 14205279,
+              "name": "\u9577\u5b89"
+            },
+            {
+              "profileId": 23665873,
+              "name": "CYJ8564"
+            },
+            {
+              "profileId": 9603027,
+              "name": "qiufen40"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5790794,
+              "name": "\u7159\u718f\u8c6c\u8089\u4e7e\u59d0\u59d0"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 5677909,
+              "name": "\u8f5f\u70b8\u96de\u8089\u4e7e\u5abd\u5abd"
+            }
+          ]
+        },
+        {
+          "matchId": 507742278,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T14:56:34.000Z",
+          "dur": 1121,
+          "opponents": [
+            {
+              "profileId": 24167083,
+              "name": "YUZ"
+            },
+            {
+              "profileId": 10248909,
+              "name": "ARM-Dahua"
+            },
+            {
+              "profileId": 7576368,
+              "name": "\u6e21\u9e26family"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            }
+          ]
+        },
+        {
+          "matchId": 507735051,
+          "civ": "Armenians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T14:22:45.000Z",
+          "dur": 1920,
+          "opponents": [
+            {
+              "profileId": 1107057,
+              "name": "Tim der Gothe"
+            },
+            {
+              "profileId": 1698869,
+              "name": "elgalle02"
+            },
+            {
+              "profileId": 2598213,
+              "name": "Xavier"
+            },
+            {
+              "profileId": 4525815,
+              "name": "Shenk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15030696,
+              "name": "HuynhSon"
+            },
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            }
+          ]
+        },
+        {
+          "matchId": 507727912,
+          "civ": "Cumans",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T13:49:19.000Z",
+          "dur": 1724,
+          "opponents": [
+            {
+              "profileId": 1557347,
+              "name": "\u4f11\u7720\u73a9\u5bb6 \u7cbe\u9510\u6761\u987f\u9a91\u58eb \u4e00\u6b65\u6740\u5341\u4eba"
+            },
+            {
+              "profileId": 5508593,
+              "name": "\u6253\u54a9\u54df~"
+            },
+            {
+              "profileId": 14208760,
+              "name": "TheDangerous"
+            },
+            {
+              "profileId": 19508033,
+              "name": "\u4e70\u9ebb\u8863\u4e5f\u7528\u52b5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5059285,
+              "name": "\u4f60\u670b\u53cb"
+            },
+            {
+              "profileId": 15030696,
+              "name": "HuynhSon"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            }
+          ]
+        },
+        {
+          "matchId": 507722136,
+          "civ": "Armenians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T13:20:51.000Z",
+          "dur": 1570,
+          "opponents": [
+            {
+              "profileId": 227063,
+              "name": "Cube_F22"
+            },
+            {
+              "profileId": 2011361,
+              "name": "Gaston"
+            },
+            {
+              "profileId": 6144035,
+              "name": "Wendysocute"
+            },
+            {
+              "profileId": 20526108,
+              "name": "\u8c22por"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20778242,
+              "name": "\u4f10\u4f10\u4f10\u4f10\u4f10\u6728\u5de5"
+            },
+            {
+              "profileId": 15030696,
+              "name": "HuynhSon"
+            },
+            {
+              "profileId": 19004851,
+              "name": "danganharmy"
+            }
+          ]
+        },
+        {
+          "matchId": 507715690,
+          "civ": "Shu",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T12:47:16.000Z",
+          "dur": 1593,
+          "opponents": [
+            {
+              "profileId": 19508033,
+              "name": "\u4e70\u9ebb\u8863\u4e5f\u7528\u52b5"
+            },
+            {
+              "profileId": 5508593,
+              "name": "\u6253\u54a9\u54df~"
+            },
+            {
+              "profileId": 5047454,
+              "name": "icu monster"
+            },
+            {
+              "profileId": 1557347,
+              "name": "\u4f11\u7720\u73a9\u5bb6 \u7cbe\u9510\u6761\u987f\u9a91\u58eb \u4e00\u6b65\u6740\u5341\u4eba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 793456,
+              "name": "iskk"
+            },
+            {
+              "profileId": 6812019,
+              "name": "ikaros"
+            },
+            {
+              "profileId": 914378,
+              "name": "ryaNNN"
+            }
+          ]
+        },
+        {
+          "matchId": 507708328,
+          "civ": "Shu",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-19",
+          "startedAt": "2026-09-19T12:06:27.000Z",
+          "dur": 2108,
+          "opponents": [
+            {
+              "profileId": 4167557,
+              "name": "Chompskee"
+            },
+            {
+              "profileId": 2648503,
+              "name": "taerue"
+            },
+            {
+              "profileId": 12336995,
+              "name": "salah.7nwiji"
+            },
+            {
+              "profileId": 23290629,
+              "name": "ansaro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5508593,
+              "name": "\u6253\u54a9\u54df~"
+            },
+            {
+              "profileId": 5047454,
+              "name": "icu monster"
+            },
+            {
+              "profileId": 1557347,
+              "name": "\u4f11\u7720\u73a9\u5bb6 \u7cbe\u9510\u6761\u987f\u9a91\u58eb \u4e00\u6b65\u6740\u5341\u4eba"
+            }
+          ]
+        },
         {
           "matchId": 507360840,
           "civ": "Wei",
