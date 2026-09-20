@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-17",
+        "pulledDate": "2026-09-20",
         "latestRating": 741,
         "peakRating": 866
       },
@@ -594,12 +594,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 385,
-        "pulledDate": "2026-09-17",
-        "latestRating": 693,
+        "totalGames": 386,
+        "pulledDate": "2026-09-20",
+        "latestRating": 720,
         "peakRating": 849
       },
       "matches": [
+        {
+          "matchId": 507919528,
+          "civ": "Khmer",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T07:09:28.000Z",
+          "dur": 4080,
+          "opponents": [
+            {
+              "profileId": 25684205,
+              "name": "Rustam8735"
+            },
+            {
+              "profileId": 25240841,
+              "name": "JackMane4091"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13210187,
+              "name": "YoinkYxK"
+            }
+          ]
+        },
         {
           "matchId": 505976661,
           "civ": "Khmer",
@@ -11008,15 +11034,33 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "totalGames": 1,
+        "pulledDate": "2026-09-20"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 507909216,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T05:46:00.000Z",
+          "dur": 404,
+          "opponents": [
+            {
+              "profileId": 6393811,
+              "name": "P4p0n"
+            }
+          ],
+          "teammates": []
+        }
+      ]
     },
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-09-20"
       },
       "matches": []
     }
