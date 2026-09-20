@@ -57,6 +57,21 @@ env:
   # Rounded down to 1800 for a clean number — worst-observed rate still
   # finishes in ~121 minutes, comfortably inside the 60-minute margin.
   REFRESH_BATCH_SIZE: "1800"
+  # Console gets its own reserved slice of every batch, rotated with its
+  # own cursor (data/refresh_cursor_console.json), instead of competing
+  # for freshness against the whole (much larger, still-growing) pool on
+  # a single shared cursor. The console weekly report needs the full
+  # console roster fresh every Monday — a flat rotation over all ~15k+
+  # tracked players (console/pro/pc/streamer) only cycles back to any
+  # given console player every ~2+ days and degrades further as the pool
+  # grows, which is what forced a manual 2-batch console-only refresh on
+  # 2026-09-19/20 just to fix that week's report. At 600/run x 4 runs/day
+  # = 2400/day, the ~2975-player console pool fully rotates in ~1.25
+  # days — several days of margin before the next Monday even if a run
+  # is skipped or fails outright. The remaining 1200 of the 1800 total
+  # still goes to everyone else via the pre-existing cursor, so overall
+  # runtime budget (and its timeout margin, see above) is unchanged.
+  CONSOLE_BATCH_SIZE: "600"
 
 jobs:
   update:
@@ -111,32 +126,46 @@ jobs:
           # how large the backfilled pool gets — freshness per player
           # degrades gracefully (a full rotation just takes more cycles)
           # instead of the whole pipeline breaking.
-          BATCH_SIZE = int(os.environ["REFRESH_BATCH_SIZE"])
+          #
+          # Console is carved out into its own rotation (own cursor, own
+          # batch size) so its freshness guarantee doesn't dilute as the
+          # rest of the pool grows — see CONSOLE_BATCH_SIZE's comment.
+          CONSOLE_BATCH_SIZE = int(os.environ["CONSOLE_BATCH_SIZE"])
+          REST_BATCH_SIZE = int(os.environ["REFRESH_BATCH_SIZE"]) - CONSOLE_BATCH_SIZE
+
+          def rotate(pool, batch_size, cursor_path):
+              cursor = json.loads(cursor_path.read_text())["index"] if cursor_path.exists() else 0
+              if not pool:
+                  batch, next_cursor = [], 0
+              elif len(pool) <= batch_size:
+                  batch, next_cursor = pool, 0
+              else:
+                  start = cursor % len(pool)
+                  # wrap around the end of the list back to the start
+                  batch = (pool[start:] + pool[:start])[:batch_size]
+                  next_cursor = (start + batch_size) % len(pool)
+              cursor_path.write_text(json.dumps({"index": next_cursor}, indent=2))
+              return batch, cursor, next_cursor
 
           data_dir = Path("data")
           players = json.loads(Path("players.json").read_text())
-          scoped = sorted(
-              p["profileId"] for p in players
+          tracked = [
+              p for p in players
               if (data_dir / p.get("group", "console") / f"{p['profileId']}.json").exists()
+          ]
+          console_pool = sorted(p["profileId"] for p in tracked if p.get("group", "console") == "console")
+          rest_pool = sorted(p["profileId"] for p in tracked if p.get("group", "console") != "console")
+
+          console_batch, console_cursor, console_next = rotate(
+              console_pool, CONSOLE_BATCH_SIZE, data_dir / "refresh_cursor_console.json"
           )
+          rest_batch, rest_cursor, rest_next = rotate(
+              rest_pool, REST_BATCH_SIZE, data_dir / "refresh_cursor.json"
+          )
+          batch = console_batch + rest_batch
 
-          cursor_path = data_dir / "refresh_cursor.json"
-          cursor = json.loads(cursor_path.read_text())["index"] if cursor_path.exists() else 0
-
-          if not scoped:
-              batch = []
-              next_cursor = 0
-          elif len(scoped) <= BATCH_SIZE:
-              batch = scoped
-              next_cursor = 0
-          else:
-              start = cursor % len(scoped)
-              # wrap around the end of the list back to the start
-              batch = (scoped[start:] + scoped[:start])[:BATCH_SIZE]
-              next_cursor = (start + BATCH_SIZE) % len(scoped)
-
-          cursor_path.write_text(json.dumps({"index": next_cursor}, indent=2))
-          print(f"Scoped pool: {len(scoped)} — refreshing {len(batch)} this run, cursor {cursor} -> {next_cursor}")
+          print(f"Console pool: {len(console_pool)} — refreshing {len(console_batch)} this run, cursor {console_cursor} -> {console_next}")
+          print(f"Rest pool: {len(rest_pool)} — refreshing {len(rest_batch)} this run, cursor {rest_cursor} -> {rest_next}")
 
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write("player_ids=" + ",".join(str(i) for i in batch) + "\n")
@@ -160,13 +189,14 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/refresh_cursor.json
+          git add data/refresh_cursor.json data/refresh_cursor_console.json
           if git diff --staged --quiet; then
             echo "Cursor unchanged — nothing to commit"
             exit 0
           fi
           NEXT_INDEX=$(python3 -c "import json; print(json.load(open('data/refresh_cursor.json'))['index'])")
-          git commit -m "chore: advance refresh cursor to $NEXT_INDEX"
+          NEXT_CONSOLE_INDEX=$(python3 -c "import json; print(json.load(open('data/refresh_cursor_console.json'))['index'])")
+          git commit -m "chore: advance refresh cursor to $NEXT_INDEX (console: $NEXT_CONSOLE_INDEX)"
           for attempt in 1 2 3; do
             if git push; then
               echo "Cursor pushed on attempt $attempt"

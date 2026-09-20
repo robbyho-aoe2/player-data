@@ -27,18 +27,25 @@ def main():
 
     players = json.loads((repo_root / "players.json").read_text())
     scoped_paths = [
-        data_dir / p.get("group", "console") / f"{p['profileId']}.json"
+        (p.get("group", "console"), data_dir / p.get("group", "console") / f"{p['profileId']}.json")
         for p in players
     ]
-    scoped_paths = [p for p in scoped_paths if p.exists()]
+    scoped_paths = [(group, path) for group, path in scoped_paths if path.exists()]
     scoped_pool_size = len(scoped_paths)
+    console_pool_size = sum(1 for group, _ in scoped_paths if group == "console")
 
     cursor_path = data_dir / "refresh_cursor.json"
     cursor_index = json.loads(cursor_path.read_text())["index"] if cursor_path.exists() else 0
+    console_cursor_path = data_dir / "refresh_cursor_console.json"
+    console_cursor_index = (
+        json.loads(console_cursor_path.read_text())["index"] if console_cursor_path.exists() else 0
+    )
+    console_batch_size = int(os.environ.get("CONSOLE_BATCH_SIZE", 0))
 
     cutoff = (date.today() - timedelta(days=FRESHNESS_WINDOW_DAYS)).isoformat()
     fresh_count = 0
-    for path in scoped_paths:
+    console_fresh_count = 0
+    for group, path in scoped_paths:
         try:
             player = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
@@ -50,8 +57,11 @@ def main():
         pulled_dates = [d for d in pulled_dates if d]
         if pulled_dates and max(pulled_dates) >= cutoff:
             fresh_count += 1
+            if group == "console":
+                console_fresh_count += 1
 
     fresh_pct = round(100 * fresh_count / scoped_pool_size) if scoped_pool_size else 0
+    console_fresh_pct = round(100 * console_fresh_count / console_pool_size) if console_pool_size else 0
 
     health = {
         "lastRunAt": datetime.now(timezone.utc).isoformat(),
@@ -61,6 +71,16 @@ def main():
         "batchSize": batch_size,
         "freshWithin7Days": fresh_count,
         "freshWithin7DaysPct": fresh_pct,
+        # Console-specific view — the weekly console report needs THIS
+        # number high (not the pool-wide one above, which is diluted by
+        # the much larger and still-growing pro/pc/streamer pool). See
+        # CONSOLE_BATCH_SIZE in update-players.yml for the rotation that
+        # keeps this fresh.
+        "consoleCursorIndex": console_cursor_index,
+        "consolePoolSize": console_pool_size,
+        "consoleBatchSize": console_batch_size,
+        "consoleFreshWithin7Days": console_fresh_count,
+        "consoleFreshWithin7DaysPct": console_fresh_pct,
     }
 
     health_path = data_dir / "pipeline_health.json"
