@@ -253,18 +253,29 @@ def compute_team_rating_snapshot(players):
     return out
 
 
-def compute_most_games(players, start, end, snapshot_start_ratings=None, top=10):
+def compute_most_games(players, start, end, snapshot_start_ratings=None, snapshot_end_ratings=None, top=10):
     """Top-N most-active players this window (1v1 + Team Console combined),
-    with finishing (current) Elo and net change vs. the window-start
-    snapshot, per ladder.
+    with finishing Elo (as of window end) and net change vs. the
+    window-start snapshot, per ladder.
 
     `snapshot_start_ratings` is the `players` dict loaded from
     data/snapshots/console-<windowStart>.json, e.g.
     `{"13623295": {"rating1v1": 1878, ...}}` — pass None to leave every
     *Change field null (bootstrap week / no snapshot found). `ratingTeam`
     in that dict is optional and only present once compute_team_rating_snapshot
-    output has been merged into snapshots for at least one prior week."""
+    output has been merged into snapshots for at least one prior week.
+
+    `snapshot_end_ratings` is the same shape, loaded from
+    data/snapshots/console-<windowEnd>.json. When given, "finishing Elo"
+    means the rating AS OF windowEnd, from that snapshot — required when
+    RESTATING a past report, since a player's live meta.latestRating
+    (the fallback below) reflects whatever they're rated TODAY, not what
+    they were rated at the end of that past window; the two silently
+    diverge for anyone who kept playing after that window closed. Pass
+    None only when generating the current week's own report same-day,
+    where live rating and window-end rating are the same thing."""
     snapshot_start_ratings = snapshot_start_ratings or {}
+    snapshot_end_ratings = snapshot_end_ratings or {}
     stats = defaultdict(lambda: {"games": 0, "wins": 0, "name": None})
     for p in players:
         pid = p.get("profileId")
@@ -284,8 +295,17 @@ def compute_most_games(players, start, end, snapshot_start_ratings=None, top=10)
         if v["games"] == 0:
             continue
         p = by_pid.get(pid, {})
-        elo1v1 = p.get("ladders", {}).get("1v1 Console", {}).get("meta", {}).get("latestRating")
-        eloTeam = p.get("ladders", {}).get("Team Console", {}).get("meta", {}).get("latestRating")
+        end_ratings = snapshot_end_ratings.get(str(pid)) or {}
+        # Fall back to live per-field, not per-player — a player present
+        # in the end snapshot but missing ratingTeam there (not every
+        # snapshot has merged Team Console ratings yet) should still get
+        # a live eloTeam rather than being reported as null.
+        elo1v1 = end_ratings.get("rating1v1")
+        if elo1v1 is None:
+            elo1v1 = p.get("ladders", {}).get("1v1 Console", {}).get("meta", {}).get("latestRating")
+        eloTeam = end_ratings.get("ratingTeam")
+        if eloTeam is None:
+            eloTeam = p.get("ladders", {}).get("Team Console", {}).get("meta", {}).get("latestRating")
         start_ratings = snapshot_start_ratings.get(str(pid)) or {}
         start_1v1 = start_ratings.get("rating1v1")
         start_team = start_ratings.get("ratingTeam")
@@ -303,18 +323,32 @@ def compute_most_games(players, start, end, snapshot_start_ratings=None, top=10)
     return rows[:top]
 
 
-def compute_biggest_upsets(players, start, end, top=5):
-    """Top-N upsets this window using each player's CURRENT rating as a
-    proxy for skill (not their rating at match time). Skips void/disconnected
-    matches (see is_void_match) and anything without exactly one opponent
-    (1v1-shaped only)."""
+def compute_biggest_upsets(players, start, end, snapshot_end_ratings=None, top=5):
+    """Top-N upsets this window using each player's rating as a proxy for
+    skill (not their rating at match time, which isn't tracked per-match).
+
+    `snapshot_end_ratings` (see compute_most_games) makes that proxy the
+    rating AS OF windowEnd rather than today's live rating — required
+    when RESTATING a past report, since live rating drifts from the
+    window-end rating for anyone who kept playing after that window
+    closed, which can change not just the displayed gap but which
+    matches even qualify as an upset at all. Pass None to fall back to
+    live rating (fine for the current week's own same-day report).
+
+    Skips void/disconnected matches (see is_void_match) and anything
+    without exactly one opponent (1v1-shaped only)."""
+    snapshot_end_ratings = snapshot_end_ratings or {}
+    snapshot_key = {"1v1 Console": "rating1v1", "Team Console": "ratingTeam"}
     rating_lookup = {}
     name_lookup = {}
     for p in players:
         pid = p.get("profileId")
         name_lookup[pid] = p.get("name")
         for ladder in ("1v1 Console", "Team Console"):
-            r = p.get("ladders", {}).get(ladder, {}).get("meta", {}).get("latestRating")
+            end_ratings = snapshot_end_ratings.get(str(pid))
+            r = end_ratings.get(snapshot_key[ladder]) if end_ratings is not None else None
+            if r is None:
+                r = p.get("ladders", {}).get(ladder, {}).get("meta", {}).get("latestRating")
             if r is not None:
                 rating_lookup[(pid, ladder)] = r
 
@@ -427,6 +461,7 @@ def main():
     ap.add_argument("--roster-only", action="store_true",
                      help="Restrict squads to console-roster teammates only, matching snl_report.py's ratstacks.")
     ap.add_argument("--snapshot-start", help="Path to data/snapshots/console-<windowStart>.json, for mostGames Elo deltas.")
+    ap.add_argument("--snapshot-end", help="Path to data/snapshots/console-<windowEnd>.json — use when RESTATING a past report so mostGames' finishing Elo reflects that window's end, not today's live rating.")
     ap.add_argument("--prior-window-start", help="Start of the prior window, for civPopularity.biggestMovers.")
     ap.add_argument("--prior-window-end", help="End of the prior window, for civPopularity.biggestMovers.")
     args = ap.parse_args()
@@ -439,13 +474,18 @@ def main():
         with open(args.snapshot_start, encoding="utf-8") as f:
             snapshot_start_ratings = json.load(f).get("players", {})
 
+    snapshot_end_ratings = None
+    if args.snapshot_end:
+        with open(args.snapshot_end, encoding="utf-8") as f:
+            snapshot_end_ratings = json.load(f).get("players", {})
+
     out = {
         "totalGames": compute_alltime_and_growth(players, args.window_end, args.window_start),
         "gameBreakdown": compute_game_breakdown(players, args.window_start, args.window_end),
         "squads": compute_squads(players, args.window_start, args.window_end, top=args.squad_top, roster_ids=roster_ids),
         "pc1v1Standings": compute_pc1v1_standings(players, args.window_start, args.window_end),
-        "mostGames": compute_most_games(players, args.window_start, args.window_end, snapshot_start_ratings),
-        "biggestUpsets": compute_biggest_upsets(players, args.window_start, args.window_end),
+        "mostGames": compute_most_games(players, args.window_start, args.window_end, snapshot_start_ratings, snapshot_end_ratings),
+        "biggestUpsets": compute_biggest_upsets(players, args.window_start, args.window_end, snapshot_end_ratings),
         "teamRatingSnapshot": compute_team_rating_snapshot(players),
     }
     if args.prior_window_start and args.prior_window_end:
