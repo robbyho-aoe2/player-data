@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-20"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-20"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 70,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1539,
+        "totalGames": 71,
+        "pulledDate": "2026-09-20",
+        "latestRating": 1552,
         "peakRating": 1638
       },
       "matches": [
+        {
+          "matchId": 507870383,
+          "civ": "Celts",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T01:30:01.000Z",
+          "dur": 1723,
+          "opponents": [
+            {
+              "profileId": 551527,
+              "name": "kinghandles"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 500449578,
           "civ": "Burmese",
@@ -1219,12 +1236,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 100,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1403,
+        "totalGames": 103,
+        "pulledDate": "2026-09-20",
+        "latestRating": 1381,
         "peakRating": 1496
       },
       "matches": [
+        {
+          "matchId": 507866158,
+          "civ": "Vikings",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T01:03:31.000Z",
+          "dur": 1328,
+          "opponents": [
+            {
+              "profileId": 3224536,
+              "name": "Tonix"
+            },
+            {
+              "profileId": 2155733,
+              "name": "mat.hey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 721771,
+              "name": "Diheadwarlord"
+            }
+          ]
+        },
+        {
+          "matchId": 507861072,
+          "civ": "Berbers",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T00:31:11.000Z",
+          "dur": 1277,
+          "opponents": [
+            {
+              "profileId": 721771,
+              "name": "Diheadwarlord"
+            },
+            {
+              "profileId": 11707859,
+              "name": "CTM | KLIN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 476973,
+              "name": "Koevanz"
+            }
+          ]
+        },
+        {
+          "matchId": 507858808,
+          "civ": "Saracens",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T00:16:41.000Z",
+          "dur": 654,
+          "opponents": [
+            {
+              "profileId": 6375380,
+              "name": "Calavera"
+            },
+            {
+              "profileId": 2667052,
+              "name": "Gary Beil"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 476973,
+              "name": "Koevanz"
+            }
+          ]
+        },
         {
           "matchId": 507398891,
           "civ": "Persians",
