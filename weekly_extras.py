@@ -213,10 +213,17 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
     return {"duos": serialize(2), "trios": serialize(3), "quads": serialize(4)}
 
 
-def compute_pc1v1_standings(players, start, end, top=15):
+def compute_pc1v1_standings(players, start, end, snapshot_start_ratings=None, top=15):
     """Current 1v1 PC rating + window games for console players with any
-    1v1 PC history — a starting point until a prior-week snapshot exists
-    to diff against for real rank movement."""
+    1v1 PC history, plus ratingChangePC1v1 vs the window-start snapshot.
+
+    `snapshot_start_ratings` is the same `players` dict passed to
+    compute_most_games (data/snapshots/console-<windowStart>.json), read
+    here for its `ratingPC1v1` field. That field is only populated once
+    build_snapshot.py has captured it for at least one prior week — pass
+    None (or a snapshot predating that) to leave ratingChangePC1v1 null,
+    same bootstrap-week convention as elo1v1Change elsewhere in this file."""
+    snapshot_start_ratings = snapshot_start_ratings or {}
     rows = []
     for p in players:
         pc1 = p.get("ladders", {}).get("1v1 PC", {})
@@ -227,15 +234,35 @@ def compute_pc1v1_standings(players, start, end, top=15):
         window_games = sum(
             1 for m in pc1.get("matches", []) if in_window(m.get("date"), start, end)
         )
+        start_rating = (snapshot_start_ratings.get(str(p.get("profileId"))) or {}).get("ratingPC1v1")
         rows.append({
             "name": p.get("name"),
             "profileId": p.get("profileId"),
             "rating": rating,
             "totalGamesPC1v1": meta.get("totalGames", 0),
             "windowGamesPC1v1": window_games,
+            "ratingChangePC1v1": (rating - start_rating) if start_rating is not None else None,
         })
     rows.sort(key=lambda r: -r["rating"])
     return rows[:top]
+
+
+def compute_active_players(players, start, end):
+    """Count of distinct console players with at least one non-void
+    1v1 Console or Team Console match dated in the window — "players
+    active this week." A void match (see is_void_match) is a disconnect
+    with no recorded result, not real activity, so it doesn't count."""
+    active = set()
+    for p in players:
+        pid = p.get("profileId")
+        for ladder in ("1v1 Console", "Team Console"):
+            for m in p.get("ladders", {}).get(ladder, {}).get("matches", []):
+                if in_window(m.get("date"), start, end) and not is_void_match(m):
+                    active.add(pid)
+                    break
+            if pid in active:
+                break
+    return len(active)
 
 
 def compute_team_rating_snapshot(players):
@@ -482,8 +509,9 @@ def main():
     out = {
         "totalGames": compute_alltime_and_growth(players, args.window_end, args.window_start),
         "gameBreakdown": compute_game_breakdown(players, args.window_start, args.window_end),
+        "activePlayers": compute_active_players(players, args.window_start, args.window_end),
         "squads": compute_squads(players, args.window_start, args.window_end, top=args.squad_top, roster_ids=roster_ids),
-        "pc1v1Standings": compute_pc1v1_standings(players, args.window_start, args.window_end),
+        "pc1v1Standings": compute_pc1v1_standings(players, args.window_start, args.window_end, snapshot_start_ratings),
         "mostGames": compute_most_games(players, args.window_start, args.window_end, snapshot_start_ratings, snapshot_end_ratings),
         "biggestUpsets": compute_biggest_upsets(players, args.window_start, args.window_end, snapshot_end_ratings),
         "teamRatingSnapshot": compute_team_rating_snapshot(players),
