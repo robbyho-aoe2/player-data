@@ -280,6 +280,69 @@ def compute_team_rating_snapshot(players):
     return out
 
 
+def _elo_snapshot_fields(p, snapshot_start_ratings, snapshot_end_ratings):
+    """Shared by compute_most_games and compute_player_index: finishing
+    Elo (as of window end) + net change vs. window-start, per ladder, with
+    the same per-field live fallback (see compute_most_games' docstring
+    for why per-field, not per-player)."""
+    pid = p.get("profileId")
+    end_ratings = snapshot_end_ratings.get(str(pid)) or {}
+    elo1v1 = end_ratings.get("rating1v1")
+    if elo1v1 is None:
+        elo1v1 = p.get("ladders", {}).get("1v1 Console", {}).get("meta", {}).get("latestRating")
+    eloTeam = end_ratings.get("ratingTeam")
+    if eloTeam is None:
+        eloTeam = p.get("ladders", {}).get("Team Console", {}).get("meta", {}).get("latestRating")
+    start_ratings = snapshot_start_ratings.get(str(pid)) or {}
+    start_1v1 = start_ratings.get("rating1v1")
+    start_team = start_ratings.get("ratingTeam")
+    return {
+        "elo1v1": elo1v1,
+        "elo1v1Change": (elo1v1 - start_1v1) if (elo1v1 is not None and start_1v1 is not None) else None,
+        "eloTeam": eloTeam,
+        "eloTeamChange": (eloTeam - start_team) if (eloTeam is not None and start_team is not None) else None,
+    }
+
+
+def compute_player_index(players, start, end, snapshot_start_ratings=None, snapshot_end_ratings=None):
+    """Per-player weekly stats for the FULL roster (not just a top-N),
+    so the site can look up any single player by search instead of only
+    whoever happens to land in mostGames' top 10. Same games/winRate/Elo
+    fields as compute_most_games, but every tracked player gets an entry
+    — including zero games this window, so a search for an inactive
+    player resolves to "0 games" rather than nothing at all.
+
+    Returns a dict keyed by str(profileId) (matches the snapshot files'
+    own convention) rather than a list, so the site can do an O(1)
+    lookup after resolving a name to an id instead of scanning."""
+    snapshot_start_ratings = snapshot_start_ratings or {}
+    snapshot_end_ratings = snapshot_end_ratings or {}
+    stats = defaultdict(lambda: {"games": 0, "wins": 0})
+    for p in players:
+        pid = p.get("profileId")
+        for ladder in ("1v1 Console", "Team Console"):
+            for m in p.get("ladders", {}).get(ladder, {}).get("matches", []):
+                if not in_window(m.get("date"), start, end) or is_void_match(m):
+                    continue
+                stats[pid]["games"] += 1
+                if m.get("won"):
+                    stats[pid]["wins"] += 1
+
+    out = {}
+    for p in players:
+        pid = p.get("profileId")
+        v = stats.get(pid, {"games": 0, "wins": 0})
+        games = v["games"]
+        row = {
+            "name": p.get("name"),
+            "games": games,
+            "winRate": round(v["wins"] / games, 4) if games else None,
+        }
+        row.update(_elo_snapshot_fields(p, snapshot_start_ratings, snapshot_end_ratings))
+        out[str(pid)] = row
+    return out
+
+
 def compute_most_games(players, start, end, snapshot_start_ratings=None, snapshot_end_ratings=None, top=10):
     """Top-N most-active players this window (1v1 + Team Console combined),
     with finishing Elo (as of window end) and net change vs. the
@@ -322,30 +385,14 @@ def compute_most_games(players, start, end, snapshot_start_ratings=None, snapsho
         if v["games"] == 0:
             continue
         p = by_pid.get(pid, {})
-        end_ratings = snapshot_end_ratings.get(str(pid)) or {}
-        # Fall back to live per-field, not per-player — a player present
-        # in the end snapshot but missing ratingTeam there (not every
-        # snapshot has merged Team Console ratings yet) should still get
-        # a live eloTeam rather than being reported as null.
-        elo1v1 = end_ratings.get("rating1v1")
-        if elo1v1 is None:
-            elo1v1 = p.get("ladders", {}).get("1v1 Console", {}).get("meta", {}).get("latestRating")
-        eloTeam = end_ratings.get("ratingTeam")
-        if eloTeam is None:
-            eloTeam = p.get("ladders", {}).get("Team Console", {}).get("meta", {}).get("latestRating")
-        start_ratings = snapshot_start_ratings.get(str(pid)) or {}
-        start_1v1 = start_ratings.get("rating1v1")
-        start_team = start_ratings.get("ratingTeam")
-        rows.append({
+        row = {
             "name": v["name"],
             "profileId": pid,
             "games": v["games"],
             "winRate": round(v["wins"] / v["games"], 4),
-            "elo1v1": elo1v1,
-            "elo1v1Change": (elo1v1 - start_1v1) if (elo1v1 is not None and start_1v1 is not None) else None,
-            "eloTeam": eloTeam,
-            "eloTeamChange": (eloTeam - start_team) if (eloTeam is not None and start_team is not None) else None,
-        })
+        }
+        row.update(_elo_snapshot_fields(p, snapshot_start_ratings, snapshot_end_ratings))
+        rows.append(row)
     rows.sort(key=lambda r: (-r["games"], -r["winRate"], r["name"] or ""))
     return rows[:top]
 
@@ -515,6 +562,7 @@ def main():
         "mostGames": compute_most_games(players, args.window_start, args.window_end, snapshot_start_ratings, snapshot_end_ratings),
         "biggestUpsets": compute_biggest_upsets(players, args.window_start, args.window_end, snapshot_end_ratings),
         "teamRatingSnapshot": compute_team_rating_snapshot(players),
+        "playerIndex": compute_player_index(players, args.window_start, args.window_end, snapshot_start_ratings, snapshot_end_ratings),
     }
     if args.prior_window_start and args.prior_window_end:
         out["civPopularity"] = compute_civ_popularity(
