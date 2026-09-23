@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-23"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-09-23"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 425,
-        "pulledDate": "2026-09-08",
-        "latestRating": 2200,
+        "totalGames": 429,
+        "pulledDate": "2026-09-23",
+        "latestRating": 2222,
         "peakRating": 2239
       },
       "matches": [
+        {
+          "matchId": 508505045,
+          "civ": "Burgundians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T20:19:25.000Z",
+          "dur": 1606,
+          "opponents": [
+            {
+              "profileId": 8448734,
+              "name": "Fury"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508497562,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T19:46:50.000Z",
+          "dur": 1782,
+          "opponents": [
+            {
+              "profileId": 1607693,
+              "name": "shegin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508488272,
+          "civ": "Varangians",
+          "map": "Runestones",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T19:06:31.000Z",
+          "dur": 1704,
+          "opponents": [
+            {
+              "profileId": 884134,
+              "name": "mouri"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 507932557,
+          "civ": "Wei",
+          "map": "Runestones",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-20",
+          "startedAt": "2026-09-20T08:52:42.000Z",
+          "dur": 1706,
+          "opponents": [
+            {
+              "profileId": 275455,
+              "name": "Open"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 496199238,
           "civ": "Sicilians",
@@ -6830,7 +6898,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 275,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-23",
         "latestRating": 1721,
         "peakRating": 1743
       },
