@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-24"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-24"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 45,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1079,
-        "peakRating": 1096
+        "totalGames": 50,
+        "pulledDate": "2026-09-24",
+        "latestRating": 1063,
+        "peakRating": 1113
       },
       "matches": [
+        {
+          "matchId": 508410506,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T12:07:38.000Z",
+          "dur": 2022,
+          "opponents": [
+            {
+              "profileId": 11926062,
+              "name": "Shark"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508405388,
+          "civ": "Khmer",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T11:23:59.000Z",
+          "dur": 2464,
+          "opponents": [
+            {
+              "profileId": 4413504,
+              "name": "Boeckle>.<"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508400669,
+          "civ": "Khmer",
+          "map": "Runestones",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T10:39:18.000Z",
+          "dur": 1893,
+          "opponents": [
+            {
+              "profileId": 22026279,
+              "name": "kiss"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508398085,
+          "civ": "Wu",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T10:13:39.000Z",
+          "dur": 1231,
+          "opponents": [
+            {
+              "profileId": 2750525,
+              "name": "kick/enriquepapagayo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508396479,
+          "civ": "Wu",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T09:55:22.000Z",
+          "dur": 916,
+          "opponents": [
+            {
+              "profileId": 19661301,
+              "name": "Gautier Sans-Avoir"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501231523,
           "civ": "Tupi",
@@ -794,12 +879,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 528,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1131,
+        "totalGames": 531,
+        "pulledDate": "2026-09-24",
+        "latestRating": 1113,
         "peakRating": 1280
       },
       "matches": [
+        {
+          "matchId": 508394079,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T09:30:35.000Z",
+          "dur": 1319,
+          "opponents": [
+            {
+              "profileId": 751326,
+              "name": "Dellifresh"
+            },
+            {
+              "profileId": 1852885,
+              "name": "sim.k"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5681217,
+              "name": "Kobas394"
+            }
+          ]
+        },
+        {
+          "matchId": 508377146,
+          "civ": "Wu",
+          "map": "Arena",
+          "won": false,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T06:18:30.000Z",
+          "dur": 1741,
+          "opponents": [
+            {
+              "profileId": 998862,
+              "name": "^_^"
+            },
+            {
+              "profileId": 3541312,
+              "name": "casuai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2955637,
+              "name": "Copybara"
+            }
+          ]
+        },
+        {
+          "matchId": 508373240,
+          "civ": "Wu",
+          "map": "Arena",
+          "won": true,
+          "patch": 1800,
+          "date": "2026-09-22",
+          "startedAt": "2026-09-22T05:35:22.000Z",
+          "dur": 2227,
+          "opponents": [
+            {
+              "profileId": 3541312,
+              "name": "casuai"
+            },
+            {
+              "profileId": 998862,
+              "name": "^_^"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6122868,
+              "name": "jaruk"
+            }
+          ]
+        },
         {
           "matchId": 506384290,
           "civ": "Khmer",
