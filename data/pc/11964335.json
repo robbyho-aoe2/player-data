@@ -6,24 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-26"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-26"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 8,
-        "pulledDate": "2026-09-22",
-        "latestRating": 954
+        "totalGames": 11,
+        "pulledDate": "2026-09-26",
+        "latestRating": 705,
+        "peakRating": 705
       },
       "matches": [
+        {
+          "matchId": 508598376,
+          "civ": "Teutons",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-23",
+          "startedAt": "2026-09-23T06:33:34.000Z",
+          "dur": 2697,
+          "opponents": [
+            {
+              "profileId": 2147222,
+              "name": "simple-man"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508597724,
+          "civ": "Teutons",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-23",
+          "startedAt": "2026-09-23T06:26:57.000Z",
+          "dur": 145,
+          "opponents": [
+            {
+              "profileId": 15946951,
+              "name": "\u4e61\u91cc\u4eba2K"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508590188,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-23",
+          "startedAt": "2026-09-23T05:09:11.000Z",
+          "dur": 258,
+          "opponents": [
+            {
+              "profileId": 24451274,
+              "name": "Manuel95"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508013820,
           "civ": "Teutons",
@@ -160,12 +212,222 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 462,
-        "pulledDate": "2026-09-22",
-        "latestRating": 776,
+        "totalGames": 467,
+        "pulledDate": "2026-09-26",
+        "latestRating": 750,
         "peakRating": 954
       },
       "matches": [
+        {
+          "matchId": 509095573,
+          "civ": "Saxons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:45:16.000Z",
+          "dur": 1815,
+          "opponents": [
+            {
+              "profileId": 25112996,
+              "name": "victorserranoalcazar"
+            },
+            {
+              "profileId": 366484,
+              "name": "Fasterk0"
+            },
+            {
+              "profileId": 15000588,
+              "name": "Toresafa"
+            },
+            {
+              "profileId": 17268348,
+              "name": "Dmitry Petrovich"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21429229,
+              "name": "ksffvbh"
+            },
+            {
+              "profileId": 2738701,
+              "name": "ALT1221"
+            },
+            {
+              "profileId": 10520261,
+              "name": "\u67a3\u4ea6\u4f9d"
+            }
+          ]
+        },
+        {
+          "matchId": 509088696,
+          "civ": "Saxons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:05:57.000Z",
+          "dur": 1679,
+          "opponents": [
+            {
+              "profileId": 14223724,
+              "name": "Scrap"
+            },
+            {
+              "profileId": 2339347,
+              "name": "bigame"
+            },
+            {
+              "profileId": 2766146,
+              "name": "bvh-*****"
+            },
+            {
+              "profileId": 20787688,
+              "name": "pagerbon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21429229,
+              "name": "ksffvbh"
+            },
+            {
+              "profileId": 593975,
+              "name": "\u8c5a\u30de\u30bd"
+            },
+            {
+              "profileId": 10520261,
+              "name": "\u67a3\u4ea6\u4f9d"
+            }
+          ]
+        },
+        {
+          "matchId": 509082910,
+          "civ": "Saxons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T12:29:26.000Z",
+          "dur": 1908,
+          "opponents": [
+            {
+              "profileId": 2190108,
+              "name": "minicap"
+            },
+            {
+              "profileId": 5371943,
+              "name": "MandrakePOE"
+            },
+            {
+              "profileId": 16784397,
+              "name": "baby"
+            },
+            {
+              "profileId": 26042745,
+              "name": "\u4e0d\u77e5\u540d\u5357\u6ce2\u6e7e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21429229,
+              "name": "ksffvbh"
+            },
+            {
+              "profileId": 10520261,
+              "name": "\u67a3\u4ea6\u4f9d"
+            },
+            {
+              "profileId": 12092992,
+              "name": "milton friedman"
+            }
+          ]
+        },
+        {
+          "matchId": 508872181,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T14:25:34.000Z",
+          "dur": 2424,
+          "opponents": [
+            {
+              "profileId": 24226092,
+              "name": "Smallfung"
+            },
+            {
+              "profileId": 20438089,
+              "name": "Dirty Harry"
+            },
+            {
+              "profileId": 14596433,
+              "name": "Paladin from Stormwind"
+            },
+            {
+              "profileId": 12532598,
+              "name": "Lucasavend"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1727758,
+              "name": "julian_venom"
+            },
+            {
+              "profileId": 5034918,
+              "name": "1222321"
+            },
+            {
+              "profileId": 10520261,
+              "name": "\u67a3\u4ea6\u4f9d"
+            }
+          ]
+        },
+        {
+          "matchId": 508861971,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T13:29:22.000Z",
+          "dur": 2860,
+          "opponents": [
+            {
+              "profileId": 623852,
+              "name": "zansob"
+            },
+            {
+              "profileId": 3154386,
+              "name": "kris10an"
+            },
+            {
+              "profileId": 5220863,
+              "name": "NewTrinity78"
+            },
+            {
+              "profileId": 24639415,
+              "name": "marwenskio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25249629,
+              "name": "food"
+            },
+            {
+              "profileId": 10520261,
+              "name": "\u67a3\u4ea6\u4f9d"
+            },
+            {
+              "profileId": 10520941,
+              "name": "RenHao"
+            }
+          ]
+        },
         {
           "matchId": 507714399,
           "civ": "Burgundians",
