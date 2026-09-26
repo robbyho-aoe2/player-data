@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-26"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-26"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 183,
-        "pulledDate": "2026-09-23",
+        "totalGames": 184,
+        "pulledDate": "2026-09-26",
         "latestRating": 1095,
         "peakRating": 1095
       },
       "matches": [
+        {
+          "matchId": 509042380,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T06:36:28.000Z",
+          "dur": 764,
+          "opponents": [
+            {
+              "profileId": 15068169,
+              "name": "S O L"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508374041,
           "civ": "Aztecs",
@@ -3140,12 +3157,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 309,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1096,
+        "totalGames": 311,
+        "pulledDate": "2026-09-26",
+        "latestRating": 1135,
         "peakRating": 1157
       },
       "matches": [
+        {
+          "matchId": 508676633,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-23",
+          "startedAt": "2026-09-23T16:22:07.000Z",
+          "dur": 1215,
+          "opponents": [
+            {
+              "profileId": 300817,
+              "name": "Rua"
+            },
+            {
+              "profileId": 21254365,
+              "name": "ExxD96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15663950,
+              "name": "bertieramkat"
+            }
+          ]
+        },
+        {
+          "matchId": 508673976,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-23",
+          "startedAt": "2026-09-23T16:07:57.000Z",
+          "dur": 562,
+          "opponents": [
+            {
+              "profileId": 23726735,
+              "name": "nurlan-c"
+            },
+            {
+              "profileId": 21654011,
+              "name": "WALLS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15663950,
+              "name": "bertieramkat"
+            }
+          ]
+        },
         {
           "matchId": 508264474,
           "civ": "Turks",
