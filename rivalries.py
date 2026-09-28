@@ -100,7 +100,11 @@ def build_rivalries(pairs, min_games=3, top=10, window_start=None, window_end=No
         }
 
         if window_start and window_end:
-            window_matches = [m for m in matches if m["date"] and window_start <= m["date"] <= window_end]
+            # Half-open (window_start, window_end] — see weekly_extras.in_window's
+            # docstring: window_start is the prior week's own window_end (the
+            # shared snapshot-date boundary), so an inclusive-both-ends check
+            # here double-counts that date's matches into both weeks' reports.
+            window_matches = [m for m in matches if m["date"] and window_start < m["date"] <= window_end]
             wWinsA = sum(1 for m in window_matches if winner_id(m) == idA)
             wWinsB = len(window_matches) - wWinsA
             row["gamesThisWeek"] = len(window_matches)

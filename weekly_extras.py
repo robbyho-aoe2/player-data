@@ -61,7 +61,15 @@ def load_players(data_dir="data/console"):
 
 
 def in_window(date_str, start, end):
-    return bool(date_str) and start <= date_str <= end
+    """Half-open (start, end]: excludes `start` itself, includes `end`.
+    Consecutive weekly windows share a boundary date (this week's `start`
+    is last week's `end`, both the snapshot date on which the prior report
+    was generated) — a fully-inclusive [start, end] would count anything
+    dated exactly on that shared date in BOTH weeks' reports (confirmed:
+    the 2026-09-21 broosethegreat/Chiefboy AK match showed up in both the
+    09-21 and 09-28 biggestUpsets). Excluding `start` gives that date to
+    the week that ended on it, not the week that begins on it."""
+    return bool(date_str) and start < date_str <= end
 
 
 def compute_alltime_and_growth(players, this_date, prior_date):
