@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 130,
-        "pulledDate": "2026-09-24",
-        "latestRating": 2538,
+        "totalGames": 133,
+        "pulledDate": "2026-09-28",
+        "latestRating": 2564,
         "peakRating": 2780
       },
       "matches": [
+        {
+          "matchId": 509578707,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:23:06.000Z",
+          "dur": 1341,
+          "opponents": [
+            {
+              "profileId": 2482098,
+              "name": "Faneth"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509310760,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:20:22.000Z",
+          "dur": 792,
+          "opponents": [
+            {
+              "profileId": 14725904,
+              "name": "Sziky"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509308263,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:03:26.000Z",
+          "dur": 761,
+          "opponents": [
+            {
+              "profileId": 23000509,
+              "name": "boanaan"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508834425,
           "civ": "Cumans",
@@ -1757,12 +1808,97 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-09-24",
+        "totalGames": 2,
+        "pulledDate": "2026-09-28",
         "peakRating": 2085,
-        "latestRating": 2022
+        "latestRating": 2048
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 509468503,
+          "civ": "Gurjaras",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:02:55.000Z",
+          "dur": 2029,
+          "opponents": [
+            {
+              "profileId": 21204924,
+              "name": "BuLLeT_"
+            },
+            {
+              "profileId": 8795483,
+              "name": "RudelyGreat"
+            },
+            {
+              "profileId": 2920057,
+              "name": "Lobo"
+            },
+            {
+              "profileId": 931567,
+              "name": "Yakul"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 264353,
+              "name": "Somero"
+            },
+            {
+              "profileId": 18025367,
+              "name": "Fritz Fantom"
+            },
+            {
+              "profileId": 1262267,
+              "name": "Grinchy"
+            }
+          ]
+        },
+        {
+          "matchId": 509460008,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:22:48.000Z",
+          "dur": 2190,
+          "opponents": [
+            {
+              "profileId": 599689,
+              "name": "Vodka_L_"
+            },
+            {
+              "profileId": 2859256,
+              "name": "Thofou05"
+            },
+            {
+              "profileId": 2473598,
+              "name": "Loris"
+            },
+            {
+              "profileId": 2463959,
+              "name": "Benanji"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 264353,
+              "name": "Somero"
+            },
+            {
+              "profileId": 1262267,
+              "name": "Grinchy"
+            },
+            {
+              "profileId": 18025367,
+              "name": "Fritz Fantom"
+            }
+          ]
+        }
+      ]
     }
   },
   "country": "fi",
