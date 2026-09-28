@@ -153,6 +153,9 @@ def fetch_profile_ratings(profile_id):
         "country":     data.get("country") or None,
         "countryIcon": data.get("countryIcon") or None,
         "countryName": data.get("countryName") or None,
+        # platform of the account ("PSN" / "Xbox" / "Steam"), same response —
+        # lets the site split console players by PSN vs Xbox.
+        "platform":    data.get("platformName") or None,
     }
     return ratings, country
 
@@ -385,7 +388,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         print(f"  profile-rating fetch failed: {type(e).__name__}: {e}")
         profile_ratings, profile_country = {}, {}
     if profile_id in COUNTRY_OVERRIDES:
-        profile_country = COUNTRY_OVERRIDES[profile_id]
+        profile_country = {**COUNTRY_OVERRIDES[profile_id], "platform": profile_country.get("platform")}
 
     peak_changed = any(
         (profile_ratings.get(ladder, {}).get("peak") or 0) > (existing["ladders"][ladder].get("meta", {}).get("peakRating") or 0)
@@ -404,7 +407,10 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     # the early-return below every run and never get their first write.
     country_changed = bool(profile_country.get("country")) and profile_country.get("country") != existing.get("country")
 
-    if total_new == 0 and not current_changed and not peak_changed and not country_changed:
+    # Same idea for platform: first write (or a change) fills it in even for a quiet player.
+    platform_changed = bool(profile_country.get("platform")) and profile_country.get("platform") != existing.get("platform")
+
+    if total_new == 0 and not current_changed and not peak_changed and not country_changed and not platform_changed:
         print(f"  no changes — skipping write")
         return False, found_name, None
 
@@ -414,6 +420,9 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         existing["country"]     = profile_country["country"]
         existing["countryIcon"] = profile_country["countryIcon"]
         existing["countryName"] = profile_country["countryName"]
+
+    if profile_country.get("platform"):
+        existing["platform"] = profile_country["platform"]
 
     today = date.today().isoformat()
     for ladder in existing["ladders"]:

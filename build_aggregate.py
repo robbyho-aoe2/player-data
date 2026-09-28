@@ -454,6 +454,17 @@ def build_player_summary(players_list, group_files):
         for path in files:
             file_lookup[int(path.stem)] = path
 
+    # Bridge for players whose own file doesn't carry "platform" yet (it fills in
+    # as update_players.py refreshes each one): data/platforms.json maps
+    # profileId -> "PSN"/"Xbox"/"Steam".
+    platform_fallback = {}
+    _plat_path = Path(__file__).parent / "data" / "platforms.json"
+    if _plat_path.exists():
+        try:
+            platform_fallback = json.loads(_plat_path.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"  WARNING: could not read platforms.json: {e}")
+
     summary = []
     for player in players_list:
         pid  = player["profileId"]
@@ -502,6 +513,7 @@ def build_player_summary(players_list, group_files):
             "country":     p.get("country"),      # 2-letter code, for reliable region matching
             "countryIcon": p.get("countryIcon"),
             "countryName": p.get("countryName"),
+            "platform":    p.get("platform") or platform_fallback.get(str(pid)),
         })
 
     return summary
