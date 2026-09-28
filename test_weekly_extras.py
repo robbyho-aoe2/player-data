@@ -94,21 +94,30 @@ def test_archived_reports_dont_share_matchids_across_weeks():
             check(f"{prev_date} -> {date}: no shared upset matchId", not overlap)
         prev_ids, prev_date = ids, date
 
-    # windowStart/windowEnd chain continuity is informational only, NOT a
-    # hard failure here: a gap (windowStart != prior windowEnd, e.g. a
-    # missed report) is a data-completeness issue, not the overlap bug this
-    # suite guards against, and asserting it would make this suite
-    # permanently red over old, already-known history instead of catching
-    # new regressions.
+    # Policy: every report must reflect exactly 1 week -- windowStart must
+    # chain from the immediately preceding report's windowEnd (no gap, no
+    # overlap), and that gives a 7-day span. The one allowed exception is
+    # the very first report in the archive, which is bounded by whenever
+    # snapshot tracking actually began, not by a missing predecessor.
+    # This used to be a soft "note" (a gap looked like a different bug than
+    # the overlap this suite was written for) -- it isn't: 09-07 shipped a
+    # 4-day window instead of 7 because it read windowStart from whatever
+    # snapshot existed rather than from the actual preceding report, and
+    # silently dropped ~2,400 games nobody's report ever counted. Fixed
+    # 2026-09-28; this is now a hard check so a future report can't repeat
+    # either failure mode (gap or overlap) silently.
+    import datetime
     prev_end = None
-    for date in dates:
+    for i, date in enumerate(dates):
         report_path = reports_dir / f"console-{date}.json"
         if not report_path.exists():
             continue
         report = json.loads(report_path.read_text())
-        if prev_end is not None and report["windowStart"] != prev_end:
-            print(f"  [note] {date}: windowStart ({report['windowStart']}) != prior windowEnd ({prev_end}) — "
-                  f"a gap, not an overlap; not treated as a failure here")
+        if prev_end is not None:
+            check(f"{date}: windowStart ({report['windowStart']}) chains from prior windowEnd ({prev_end})",
+                  report["windowStart"] == prev_end)
+            span = (datetime.date.fromisoformat(report["windowEnd"]) - datetime.date.fromisoformat(report["windowStart"])).days
+            check(f"{date}: window spans exactly 7 days (got {span})", span == 7)
         prev_end = report["windowEnd"]
 
 

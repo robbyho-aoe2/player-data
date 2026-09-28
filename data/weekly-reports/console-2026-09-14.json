@@ -397,33 +397,33 @@
     "biggestMovers": [
       {
         "civ": "Vietnamese",
-        "pctPointChange": 1.12,
+        "pctPointChange": 1.17,
         "nowShare": 0.0404,
-        "priorShare": 0.0292
+        "priorShare": 0.0287
       },
       {
         "civ": "Franks",
-        "pctPointChange": 0.66,
+        "pctPointChange": 0.54,
         "nowShare": 0.05,
-        "priorShare": 0.0434
+        "priorShare": 0.0446
       },
       {
-        "civ": "Gurjaras",
-        "pctPointChange": 0.57,
-        "nowShare": 0.013,
-        "priorShare": 0.0074
+        "civ": "Teutons",
+        "pctPointChange": 0.54,
+        "nowShare": 0.0328,
+        "priorShare": 0.0274
       },
       {
         "civ": "Britons",
-        "pctPointChange": -0.59,
+        "pctPointChange": -0.42,
         "nowShare": 0.0463,
-        "priorShare": 0.0522
+        "priorShare": 0.0504
       },
       {
         "civ": "Incas",
-        "pctPointChange": -0.75,
+        "pctPointChange": -0.76,
         "nowShare": 0.0138,
-        "priorShare": 0.0213
+        "priorShare": 0.0214
       }
     ]
   },
@@ -778,5 +778,6 @@
   "revisedAt": "2026-09-20",
   "revisionNote": "Recomputed after a console-only refresh (all ~2,975 console players) completed 2026-09-19/20 backfilled previously-missing matches, and after fixing weekly_extras.py so mostGames/biggestUpsets use each window's own end-of-window rating snapshot instead of today's live rating (which drifts for anyone who kept playing since). totalGames, mostGames, biggestUpsets, civPopularity, topSquads, and rivalries are now based on complete window data and point-in-time ratings. newPlayers and the player-level biggestMovers (top-level, rating-delta) sections are unaffected by either fix and left unchanged.",
   "boundaryOverlapFixed": true,
-  "boundaryOverlapFixedAt": "2026-09-28"
+  "boundaryOverlapFixedAt": "2026-09-28",
+  "gapFixCascade": "civPopularity.biggestMovers recomputed 2026-09-28 after 09-07's window was corrected (its civStatsThisWindow is this report's comparison baseline)."
 }

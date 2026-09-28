@@ -74,6 +74,22 @@ enough to matter, not an edge case.
 
 ## Weekly report conventions
 
+Every report must reflect exactly 1 week: `windowStart` MUST equal the
+immediately preceding entry in `data/weekly-reports/index.json`'s own
+`windowEnd` (a 7-day span), never derived from
+`data/snapshots/console-latest.json`. That pointer file has been wrong
+twice — once left stale (still pointing at the prior week after a new
+snapshot was written) and once seemingly touched by something other than
+the weekly report run, which fed the 09-07 report a 4-day window instead
+of 7 and silently dropped ~2,400 games that no report ever counted. Look
+up the real previous week's date from `index.json`, then load
+`data/snapshots/console-<that-date>.json` directly — never trust
+`console-latest.json` for this. `test_weekly_extras.py` (run in CI on any
+change to these scripts or to `data/weekly-reports/`) asserts this chain
+holds and that `in_window()`'s half-open bounds don't regress into
+double-counting a boundary date into two weeks — see its module docstring
+for the incident that prompted it.
+
 `weekly_extras.py` is the source of truth for how the window-scoped parts
 of the console weekly report are computed — read it (or run it with
 `--help`) rather than re-deriving the definitions:
