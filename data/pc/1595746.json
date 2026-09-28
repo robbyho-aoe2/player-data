@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 220,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1121,
+        "totalGames": 222,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1124,
         "peakRating": 1209
       },
       "matches": [
+        {
+          "matchId": 509893081,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:24:14.000Z",
+          "dur": 1619,
+          "opponents": [
+            {
+              "profileId": 2036972,
+              "name": "tafkams"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509579356,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:28:01.000Z",
+          "dur": 1414,
+          "opponents": [
+            {
+              "profileId": 20301400,
+              "name": "\u8054\u901a\u4e13\u4e1a\u6237"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508438507,
           "civ": "Italians",
@@ -3564,12 +3598,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 841,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1160,
+        "totalGames": 843,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1131,
         "peakRating": 1380
       },
       "matches": [
+        {
+          "matchId": 509899080,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:56:56.000Z",
+          "dur": 1968,
+          "opponents": [
+            {
+              "profileId": 25476865,
+              "name": "tyui18522"
+            },
+            {
+              "profileId": 5985976,
+              "name": "s28366648"
+            },
+            {
+              "profileId": 25173766,
+              "name": "Cara G"
+            },
+            {
+              "profileId": 25476839,
+              "name": "markmax444"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4535566,
+              "name": "\u9002\u5408\u7ed3\u5a5a\u7684\u597d\u59b9\u59b9"
+            },
+            {
+              "profileId": 4537377,
+              "name": "\u9047\u4e8b\u4e0d\u51b3\u9009\u5929\u671d"
+            },
+            {
+              "profileId": 14045542,
+              "name": "will troll if not arena"
+            }
+          ]
+        },
+        {
+          "matchId": 509583871,
+          "civ": "Vikings",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:58:34.000Z",
+          "dur": 1501,
+          "opponents": [
+            {
+              "profileId": 5126227,
+              "name": "RemarkabLeigh"
+            },
+            {
+              "profileId": 2937032,
+              "name": "captainmcawesome95"
+            },
+            {
+              "profileId": 388157,
+              "name": "smashbot"
+            },
+            {
+              "profileId": 318110,
+              "name": "Simo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 757747,
+              "name": "mydogqmi"
+            },
+            {
+              "profileId": 21420327,
+              "name": "Sega Mega Drive"
+            },
+            {
+              "profileId": 5891671,
+              "name": "Butcher"
+            }
+          ]
+        },
         {
           "matchId": 506655904,
           "civ": "Hindustanis",
@@ -29042,5 +29160,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

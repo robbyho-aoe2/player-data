@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 13,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1042,
         "peakRating": 1076
       },
@@ -237,12 +237,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1132,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1148,
+        "totalGames": 1135,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1198,
         "peakRating": 1424
       },
       "matches": [
+        {
+          "matchId": 509627058,
+          "civ": "Saracens",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:58:55.000Z",
+          "dur": 1897,
+          "opponents": [
+            {
+              "profileId": 3459475,
+              "name": "[CH] ab ins Sch\u00e4llem\u00e4tteli"
+            },
+            {
+              "profileId": 21420327,
+              "name": "Sega Mega Drive"
+            },
+            {
+              "profileId": 16947883,
+              "name": "\u5c0f\u5929"
+            },
+            {
+              "profileId": 9663901,
+              "name": "showland_wolf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24511665,
+              "name": "EPD_\u963f\u5409"
+            },
+            {
+              "profileId": 17048255,
+              "name": "\u71b1\u5fc3\u725b\u725b"
+            },
+            {
+              "profileId": 6833412,
+              "name": "\u53cb\u5584\u725b\u725b"
+            }
+          ]
+        },
+        {
+          "matchId": 509624804,
+          "civ": "Saracens",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:49:00.000Z",
+          "dur": 381,
+          "opponents": [
+            {
+              "profileId": 9719555,
+              "name": "raphael-974-"
+            },
+            {
+              "profileId": 21420327,
+              "name": "Sega Mega Drive"
+            },
+            {
+              "profileId": 5643832,
+              "name": "1903662431"
+            },
+            {
+              "profileId": 8862895,
+              "name": "YYS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17048255,
+              "name": "\u71b1\u5fc3\u725b\u725b"
+            },
+            {
+              "profileId": 3558673,
+              "name": "\u5c41\u5c41\u5bf6\u5bf6"
+            },
+            {
+              "profileId": 6833412,
+              "name": "\u53cb\u5584\u725b\u725b"
+            }
+          ]
+        },
+        {
+          "matchId": 509623271,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:42:35.000Z",
+          "dur": 142,
+          "opponents": [
+            {
+              "profileId": 5963769,
+              "name": "TLDR"
+            },
+            {
+              "profileId": 6179268,
+              "name": "-d"
+            },
+            {
+              "profileId": 15012318,
+              "name": "GabeUtseqs"
+            },
+            {
+              "profileId": 10353350,
+              "name": "GhosTSnihsa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3558673,
+              "name": "\u5c41\u5c41\u5bf6\u5bf6"
+            },
+            {
+              "profileId": 17048255,
+              "name": "\u71b1\u5fc3\u725b\u725b"
+            },
+            {
+              "profileId": 6833412,
+              "name": "\u53cb\u5584\u725b\u725b"
+            }
+          ]
+        },
         {
           "matchId": 508205957,
           "civ": "Spanish",
@@ -44663,5 +44789,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

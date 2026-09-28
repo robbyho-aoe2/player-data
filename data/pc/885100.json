@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 202,
-        "pulledDate": "2026-09-20",
-        "latestRating": 712,
+        "totalGames": 205,
+        "pulledDate": "2026-09-28",
+        "latestRating": 760,
         "peakRating": 904
       },
       "matches": [
+        {
+          "matchId": 509417166,
+          "civ": "Portuguese",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:22:58.000Z",
+          "dur": 871,
+          "opponents": [
+            {
+              "profileId": 25637628,
+              "name": "Salmonella"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509410074,
+          "civ": "Portuguese",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:52:01.000Z",
+          "dur": 1454,
+          "opponents": [
+            {
+              "profileId": 10603033,
+              "name": "El Viejo Verde"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509403064,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:21:59.000Z",
+          "dur": 1455,
+          "opponents": [
+            {
+              "profileId": 9826048,
+              "name": "Robock 01"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508007897,
           "civ": "Portuguese",
@@ -3270,7 +3321,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": [
         {
@@ -3311,5 +3362,6 @@
   },
   "country": "za",
   "countryIcon": "\ud83c\uddff\ud83c\udde6",
-  "countryName": "South Africa"
+  "countryName": "South Africa",
+  "platform": "Xbox"
 }

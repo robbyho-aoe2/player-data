@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 64,
-        "pulledDate": "2026-09-24",
-        "latestRating": 866,
-        "peakRating": 880
+        "totalGames": 65,
+        "pulledDate": "2026-09-28",
+        "latestRating": 882,
+        "peakRating": 882
       },
       "matches": [
+        {
+          "matchId": 509157426,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:47:18.000Z",
+          "dur": 2294,
+          "opponents": [
+            {
+              "profileId": 12192430,
+              "name": "El Magn\u00e0nim"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508894553,
           "civ": "Khmer",
@@ -1117,12 +1134,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 258,
-        "pulledDate": "2026-09-24",
-        "latestRating": 700,
+        "totalGames": 259,
+        "pulledDate": "2026-09-28",
+        "latestRating": 688,
         "peakRating": 947
       },
       "matches": [
+        {
+          "matchId": 509228556,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:45:34.000Z",
+          "dur": 1679,
+          "opponents": [
+            {
+              "profileId": 19852977,
+              "name": "glinesbrandon1"
+            },
+            {
+              "profileId": 2030908,
+              "name": "Dg"
+            },
+            {
+              "profileId": 1059294,
+              "name": "BlackKnight_01"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22263,
+              "name": "El Abuelo Morris"
+            },
+            {
+              "profileId": 4740728,
+              "name": "makia.man"
+            }
+          ]
+        },
         {
           "matchId": 506294592,
           "civ": "Khmer",
@@ -8421,5 +8472,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

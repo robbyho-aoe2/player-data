@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1453,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1172,
+        "totalGames": 1458,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1220,
         "peakRating": 1371
       },
       "matches": [
+        {
+          "matchId": 509797914,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:43:22.000Z",
+          "dur": 1865,
+          "opponents": [
+            {
+              "profileId": 11807300,
+              "name": "schtapler"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509735600,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:07:32.000Z",
+          "dur": 1415,
+          "opponents": [
+            {
+              "profileId": 5940779,
+              "name": "d1GaO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509445482,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:20:40.000Z",
+          "dur": 1434,
+          "opponents": [
+            {
+              "profileId": 283531,
+              "name": "Turbinera"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509411399,
+          "civ": "Saracens",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:57:38.000Z",
+          "dur": 2042,
+          "opponents": [
+            {
+              "profileId": 8767044,
+              "name": "dteeuwsen17"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509410479,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:54:18.000Z",
+          "dur": 121,
+          "opponents": [
+            {
+              "profileId": 2903056,
+              "name": "simon.ruiz"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506510056,
           "civ": "Goths",
@@ -23295,7 +23380,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 49,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-28",
         "latestRating": 1053,
         "peakRating": 1053
       },
@@ -24831,5 +24916,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1999,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1188,
+        "totalGames": 2006,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1160,
         "peakRating": 1345
       },
       "matches": [
+        {
+          "matchId": 509917108,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:30:30.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 3764820,
+              "name": "NihilB"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509913273,
+          "civ": "Britons",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:10:52.000Z",
+          "dur": 884,
+          "opponents": [
+            {
+              "profileId": 18778496,
+              "name": "woodyshaack"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509850145,
+          "civ": "Byzantines",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:49:43.000Z",
+          "dur": 1881,
+          "opponents": [
+            {
+              "profileId": 4900470,
+              "name": "Borderline"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509846781,
+          "civ": "Britons",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:18:32.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 1901272,
+              "name": "Djama"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509703880,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:04:14.000Z",
+          "dur": 2488,
+          "opponents": [
+            {
+              "profileId": 4235713,
+              "name": "Lianai"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509146061,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:54:38.000Z",
+          "dur": 2263,
+          "opponents": [
+            {
+              "profileId": 14589349,
+              "name": "ElderWisdom"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509139656,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:23:47.000Z",
+          "dur": 1278,
+          "opponents": [
+            {
+              "profileId": 14185260,
+              "name": "rine"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508706206,
           "civ": "Ethiopians",
@@ -34013,7 +34132,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 93,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 943,
         "peakRating": 1158
       },
@@ -36474,5 +36593,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

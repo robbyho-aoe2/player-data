@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 281,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1203,
+        "totalGames": 286,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1219,
         "peakRating": 1294
       },
       "matches": [
+        {
+          "matchId": 509861580,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:23:02.000Z",
+          "dur": 1911,
+          "opponents": [
+            {
+              "profileId": 3209710,
+              "name": "nico"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509144989,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:49:01.000Z",
+          "dur": 1783,
+          "opponents": [
+            {
+              "profileId": 1908792,
+              "name": "georbarz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509137969,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:15:08.000Z",
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 2614639,
+              "name": "Stihl"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509134252,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:57:18.000Z",
+          "dur": 913,
+          "opponents": [
+            {
+              "profileId": 9760604,
+              "name": "rubbiscuit"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509100608,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:11:27.000Z",
+          "dur": 1823,
+          "opponents": [
+            {
+              "profileId": 4680289,
+              "name": "[KoM] SirFreddi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508921174,
           "civ": "Varangians",
@@ -4528,7 +4613,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 47,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1109,
         "peakRating": 1161
       },
@@ -5905,5 +5990,6 @@
   },
   "country": "at",
   "countryIcon": "\ud83c\udde6\ud83c\uddf9",
-  "countryName": "Austria"
+  "countryName": "Austria",
+  "platform": "Steam"
 }

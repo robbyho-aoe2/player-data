@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 251,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1222,
         "peakRating": 1404
       },
@@ -4048,12 +4048,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 617,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1275,
+        "totalGames": 622,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1291,
         "peakRating": 1320
       },
       "matches": [
+        {
+          "matchId": 509687171,
+          "civ": "Sicilians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:03:34.000Z",
+          "dur": 930,
+          "opponents": [
+            {
+              "profileId": 959190,
+              "name": "Jonny Nuevo M\u00e9xico"
+            },
+            {
+              "profileId": 2256409,
+              "name": "Underwear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15340778,
+              "name": "Miel"
+            }
+          ]
+        },
+        {
+          "matchId": 509679349,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:31:47.000Z",
+          "dur": 1703,
+          "opponents": [
+            {
+              "profileId": 25309482,
+              "name": "228811348"
+            },
+            {
+              "profileId": 3259632,
+              "name": "po_v1ft!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15340778,
+              "name": "Miel"
+            }
+          ]
+        },
+        {
+          "matchId": 509619099,
+          "civ": "Vikings",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:23:41.000Z",
+          "dur": 1562,
+          "opponents": [
+            {
+              "profileId": 11959979,
+              "name": "Dancing Doggo"
+            },
+            {
+              "profileId": 446338,
+              "name": "mario.f.247"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15340778,
+              "name": "Miel"
+            }
+          ]
+        },
+        {
+          "matchId": 509611696,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:48:22.000Z",
+          "dur": 1617,
+          "opponents": [
+            {
+              "profileId": 21211667,
+              "name": "buddy219755"
+            },
+            {
+              "profileId": 24516268,
+              "name": "elitedurasteel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15340778,
+              "name": "Miel"
+            }
+          ]
+        },
+        {
+          "matchId": 509605870,
+          "civ": "Tupi",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:17:49.000Z",
+          "dur": 1562,
+          "opponents": [
+            {
+              "profileId": 347160,
+              "name": "Tactical Defending"
+            },
+            {
+              "profileId": 5487855,
+              "name": "MisterGabby"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15340778,
+              "name": "Miel"
+            }
+          ]
+        },
         {
           "matchId": 508692631,
           "civ": "Sicilians",
@@ -22275,5 +22405,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

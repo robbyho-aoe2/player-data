@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 74,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1154,
+        "totalGames": 75,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1170,
         "peakRating": 1202
       },
       "matches": [
+        {
+          "matchId": 509196626,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:42:04.000Z",
+          "dur": 1442,
+          "opponents": [
+            {
+              "profileId": 25581512,
+              "name": "OZA"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508766229,
           "civ": "Varangians",
@@ -1224,12 +1241,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 159,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1192,
+        "totalGames": 161,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1223,
         "peakRating": 1239
       },
       "matches": [
+        {
+          "matchId": 509213710,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:14:49.000Z",
+          "dur": 1565,
+          "opponents": [
+            {
+              "profileId": 9027109,
+              "name": "Yagatan"
+            },
+            {
+              "profileId": 5177138,
+              "name": "cobmouth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2040725,
+              "name": "Kavorr"
+            }
+          ]
+        },
+        {
+          "matchId": 509207037,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:35:46.000Z",
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 22945014,
+              "name": "hadji_andiyskiy"
+            },
+            {
+              "profileId": 23089631,
+              "name": "Saladin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2040725,
+              "name": "Kavorr"
+            }
+          ]
+        },
         {
           "matchId": 508100748,
           "civ": "Hindustanis",
@@ -6125,5 +6194,6 @@
   },
   "country": "lb",
   "countryIcon": "\ud83c\uddf1\ud83c\udde7",
-  "countryName": "Lebanon"
+  "countryName": "Lebanon",
+  "platform": "Steam"
 }

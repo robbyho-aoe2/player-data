@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1069,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1322,
+        "totalGames": 1072,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1302,
         "peakRating": 1470
       },
       "matches": [
+        {
+          "matchId": 509732745,
+          "civ": "Varangians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:55:55.000Z",
+          "dur": 1435,
+          "opponents": [
+            {
+              "profileId": 4681086,
+              "name": "Szwajson"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509718701,
+          "civ": "Varangians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:59:00.000Z",
+          "dur": 2543,
+          "opponents": [
+            {
+              "profileId": 646135,
+              "name": "Cry4nide"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509710005,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:26:46.000Z",
+          "dur": 1517,
+          "opponents": [
+            {
+              "profileId": 6121421,
+              "name": "M_E_P"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508955303,
           "civ": "Varangians",
@@ -9956,7 +10007,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 311,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1376,
         "peakRating": 1426
       },
@@ -12765,5 +12816,6 @@
   },
   "country": "at",
   "countryIcon": "\ud83c\udde6\ud83c\uddf9",
-  "countryName": "Austria"
+  "countryName": "Austria",
+  "platform": "Steam"
 }

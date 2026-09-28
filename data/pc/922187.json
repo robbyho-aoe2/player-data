@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 594,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1681,
         "peakRating": 1687
       },
@@ -9599,12 +9599,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 234,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1512,
+        "totalGames": 237,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1520,
         "peakRating": 1587
       },
       "matches": [
+        {
+          "matchId": 509614070,
+          "civ": "Hindustanis",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:59:32.000Z",
+          "dur": 1974,
+          "opponents": [
+            {
+              "profileId": 9049324,
+              "name": "\u6211\u6ca1\u533b\u4fdd\u6211\u4e0d\u4e0a"
+            },
+            {
+              "profileId": 6839916,
+              "name": "\u7cbe\u9510\u8499\u53e4\u7a81\u9a91"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2167495,
+              "name": "Jaha"
+            }
+          ]
+        },
+        {
+          "matchId": 509613591,
+          "civ": "Slavs",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:57:25.000Z",
+          "dur": 52,
+          "opponents": [
+            {
+              "profileId": 5569301,
+              "name": "Leandro Pared10s"
+            },
+            {
+              "profileId": 2034401,
+              "name": "flem.TheLastBender"
+            },
+            {
+              "profileId": 2266955,
+              "name": "Speaker"
+            },
+            {
+              "profileId": 3281624,
+              "name": "ValerioN__"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8400638,
+              "name": "Geo"
+            },
+            {
+              "profileId": 1972720,
+              "name": "boo"
+            },
+            {
+              "profileId": 3277072,
+              "name": "onon02122"
+            }
+          ]
+        },
+        {
+          "matchId": 509608715,
+          "civ": "Japanese",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:33:05.000Z",
+          "dur": 1217,
+          "opponents": [
+            {
+              "profileId": 614524,
+              "name": "Ares_Hong Bang- Trieu Dynasty"
+            },
+            {
+              "profileId": 1770168,
+              "name": "timembh"
+            },
+            {
+              "profileId": 8400638,
+              "name": "Geo"
+            },
+            {
+              "profileId": 19439088,
+              "name": "\u8d85\u7ea7\u786c\u90a6\u90a6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4204304,
+              "name": "usqyn"
+            },
+            {
+              "profileId": 4322608,
+              "name": "Figue"
+            },
+            {
+              "profileId": 4650054,
+              "name": "ahjol"
+            }
+          ]
+        },
         {
           "matchId": 503415801,
           "civ": "Khmer",
@@ -16743,5 +16853,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

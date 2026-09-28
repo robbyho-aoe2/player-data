@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1088,
         "peakRating": 1105
       },
@@ -355,12 +355,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3429,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1268,
+        "totalGames": 3431,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1235,
         "peakRating": 1358
       },
       "matches": [
+        {
+          "matchId": 509688009,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:06:56.000Z",
+          "dur": 1658,
+          "opponents": [
+            {
+              "profileId": 20510321,
+              "name": "kswistek"
+            },
+            {
+              "profileId": 11097032,
+              "name": "lukg"
+            },
+            {
+              "profileId": 19719673,
+              "name": "ALG1S"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12451032,
+              "name": "a.miro.amp"
+            },
+            {
+              "profileId": 18111459,
+              "name": "porta_sergi"
+            }
+          ]
+        },
+        {
+          "matchId": 509675044,
+          "civ": "Goths",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:14:23.000Z",
+          "dur": 2075,
+          "opponents": [
+            {
+              "profileId": 4440156,
+              "name": "Nghtly"
+            },
+            {
+              "profileId": 1459846,
+              "name": "snek_fan"
+            },
+            {
+              "profileId": 21537359,
+              "name": "NotADuck"
+            },
+            {
+              "profileId": 20052143,
+              "name": "Szorinx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3992024,
+              "name": "moor_samara"
+            },
+            {
+              "profileId": 3981768,
+              "name": "artemjunior"
+            },
+            {
+              "profileId": 1047257,
+              "name": "mothersky"
+            }
+          ]
+        },
         {
           "matchId": 508717046,
           "civ": "Poles",
@@ -128800,5 +128876,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

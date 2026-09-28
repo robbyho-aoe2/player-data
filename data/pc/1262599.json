@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1679,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1187,
         "peakRating": 1370
       },
@@ -26910,12 +26910,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 786,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1245,
+        "totalGames": 788,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1218,
         "peakRating": 1276
       },
       "matches": [
+        {
+          "matchId": 509664331,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:30:31.000Z",
+          "dur": 1575,
+          "opponents": [
+            {
+              "profileId": 3990440,
+              "name": "ExeQt0r"
+            },
+            {
+              "profileId": 550471,
+              "name": "Blackfish"
+            },
+            {
+              "profileId": 1304347,
+              "name": "McLagan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            },
+            {
+              "profileId": 829638,
+              "name": "vllanos60"
+            }
+          ]
+        },
+        {
+          "matchId": 509656467,
+          "civ": "Tatars",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:58:53.000Z",
+          "dur": 1783,
+          "opponents": [
+            {
+              "profileId": 10720271,
+              "name": "Sch\u00f6ner Pikser"
+            },
+            {
+              "profileId": 9402794,
+              "name": "__ynot__"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
         {
           "matchId": 507771802,
           "civ": "Tatars",
@@ -50446,5 +50506,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

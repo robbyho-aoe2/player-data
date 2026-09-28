@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-28",
         "latestRating": 1418,
         "peakRating": 1463
       },
@@ -422,12 +422,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1393,
-        "pulledDate": "2026-09-21",
+        "totalGames": 1396,
+        "pulledDate": "2026-09-28",
         "latestRating": 1554,
         "peakRating": 1671
       },
       "matches": [
+        {
+          "matchId": 509753622,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:35:30.000Z",
+          "dur": 1553,
+          "opponents": [
+            {
+              "profileId": 3423351,
+              "name": "Fs.Neras"
+            },
+            {
+              "profileId": 3130252,
+              "name": "Fs.zanatta"
+            },
+            {
+              "profileId": 1175237,
+              "name": "Fs.Jubileu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2607446,
+              "name": "SS_Bart"
+            },
+            {
+              "profileId": 2872082,
+              "name": "SS_T3q"
+            }
+          ]
+        },
+        {
+          "matchId": 509746758,
+          "civ": "Berbers",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:00:55.000Z",
+          "dur": 1703,
+          "opponents": [
+            {
+              "profileId": 440647,
+              "name": "CR | nwMan"
+            },
+            {
+              "profileId": 1206581,
+              "name": "DS_John III"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2607446,
+              "name": "SS_Bart"
+            }
+          ]
+        },
+        {
+          "matchId": 509179392,
+          "civ": "Berbers",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:25:05.000Z",
+          "dur": 1298,
+          "opponents": [
+            {
+              "profileId": 3813007,
+              "name": "orangefaser"
+            },
+            {
+              "profileId": 363470,
+              "name": "Saint Martinique"
+            },
+            {
+              "profileId": 17763381,
+              "name": "Falsche Haut"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2607446,
+              "name": "SS_Bart"
+            },
+            {
+              "profileId": 1978291,
+              "name": "SS_Guxta"
+            }
+          ]
+        },
         {
           "matchId": 507620763,
           "civ": "Spanish",
@@ -14100,5 +14194,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

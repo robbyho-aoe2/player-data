@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 97,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-28",
         "latestRating": 728,
         "peakRating": 864
       },
@@ -1581,12 +1581,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 277,
-        "pulledDate": "2026-09-18",
-        "latestRating": 860,
+        "totalGames": 278,
+        "pulledDate": "2026-09-28",
+        "latestRating": 876,
         "peakRating": 901
       },
       "matches": [
+        {
+          "matchId": 509581130,
+          "civ": "Chinese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:40:27.000Z",
+          "dur": 412,
+          "opponents": [
+            {
+              "profileId": 20301277,
+              "name": "luke_the_black_cat"
+            },
+            {
+              "profileId": 25073428,
+              "name": "yyyyyliber"
+            },
+            {
+              "profileId": 6258635,
+              "name": "Bongrel"
+            },
+            {
+              "profileId": 3550276,
+              "name": "Tormented Flexer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16229666,
+              "name": "cagrierdemir"
+            },
+            {
+              "profileId": 15627776,
+              "name": "Dx"
+            },
+            {
+              "profileId": 2728891,
+              "name": "[BF] Mister Leo"
+            }
+          ]
+        },
         {
           "matchId": 507449776,
           "civ": "Goths",
@@ -10151,5 +10193,6 @@
   },
   "country": "ba",
   "countryIcon": "\ud83c\udde7\ud83c\udde6",
-  "countryName": "Bosnia and Herzegovina"
+  "countryName": "Bosnia and Herzegovina",
+  "platform": "Steam"
 }

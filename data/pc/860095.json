@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 244,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1184,
         "peakRating": 1225
       },
@@ -3933,12 +3933,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 804,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1137,
+        "totalGames": 807,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1089,
         "peakRating": 1194
       },
       "matches": [
+        {
+          "matchId": 509781407,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:10:05.000Z",
+          "dur": 1887,
+          "opponents": [
+            {
+              "profileId": 5796413,
+              "name": "Ux'RaulitoMD"
+            },
+            {
+              "profileId": 17278846,
+              "name": "SIR LOOR FAAL"
+            },
+            {
+              "profileId": 278708,
+              "name": "killinserotonin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 958998,
+              "name": "Hughes80"
+            },
+            {
+              "profileId": 3123456,
+              "name": "sethbader85"
+            }
+          ]
+        },
+        {
+          "matchId": 509774090,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:29:52.000Z",
+          "dur": 1932,
+          "opponents": [
+            {
+              "profileId": 4288920,
+              "name": "kaaaboooom"
+            },
+            {
+              "profileId": 22692567,
+              "name": "TawdryCorn6602"
+            },
+            {
+              "profileId": 25615761,
+              "name": "LRNI Michel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3123456,
+              "name": "sethbader85"
+            },
+            {
+              "profileId": 958998,
+              "name": "Hughes80"
+            }
+          ]
+        },
+        {
+          "matchId": 509768177,
+          "civ": "Saxons",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:56:57.000Z",
+          "dur": 1802,
+          "opponents": [
+            {
+              "profileId": 6233625,
+              "name": "PannaCota5749"
+            },
+            {
+              "profileId": 5928747,
+              "name": "Havoc_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 958998,
+              "name": "Hughes80"
+            }
+          ]
+        },
         {
           "matchId": 508125960,
           "civ": "Koreans",
@@ -26228,5 +26322,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

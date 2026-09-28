@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 456,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1642,
+        "totalGames": 458,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1672,
         "peakRating": 1703
       },
       "matches": [
+        {
+          "matchId": 509873814,
+          "civ": "Teutons",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:40:38.000Z",
+          "dur": 1171,
+          "opponents": [
+            {
+              "profileId": 24807975,
+              "name": "higheloplayer"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509870317,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:19:54.000Z",
+          "dur": 1126,
+          "opponents": [
+            {
+              "profileId": 4407735,
+              "name": "Albeman3246"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507399145,
           "civ": "Poles",
@@ -7349,7 +7383,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 278,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-28",
         "latestRating": 1610,
         "peakRating": 1631
       },
@@ -18456,5 +18490,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

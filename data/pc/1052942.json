@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 139,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1069,
         "peakRating": 1186
       },
@@ -2253,12 +2253,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1414,
-        "pulledDate": "2026-09-24",
-        "latestRating": 967,
+        "totalGames": 1416,
+        "pulledDate": "2026-09-28",
+        "latestRating": 935,
         "peakRating": 1333
       },
       "matches": [
+        {
+          "matchId": 509154049,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:32:03.000Z",
+          "dur": 1534,
+          "opponents": [
+            {
+              "profileId": 372106,
+              "name": "Benjamin"
+            },
+            {
+              "profileId": 21930612,
+              "name": "OLIFANT"
+            },
+            {
+              "profileId": 17002098,
+              "name": "Triceratops"
+            },
+            {
+              "profileId": 5109946,
+              "name": "BalticStorm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9706418,
+              "name": "Clouder"
+            },
+            {
+              "profileId": 1538182,
+              "name": "Biscottos"
+            },
+            {
+              "profileId": 1464335,
+              "name": "Space_G"
+            }
+          ]
+        },
+        {
+          "matchId": 509147150,
+          "civ": "Japanese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:00:07.000Z",
+          "dur": 1809,
+          "opponents": [
+            {
+              "profileId": 24974323,
+              "name": "Federico"
+            },
+            {
+              "profileId": 3135503,
+              "name": "madmonk08"
+            },
+            {
+              "profileId": 1069606,
+              "name": "PBILLOTTE"
+            },
+            {
+              "profileId": 285475,
+              "name": "Rido"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 902413,
+              "name": "Zar"
+            },
+            {
+              "profileId": 21170685,
+              "name": "Andy"
+            },
+            {
+              "profileId": 4239537,
+              "name": "\u0411\u043e\u0435\u0432\u043e\u0439 \u043a\u043e\u043c\u0430\u0440 NATO"
+            }
+          ]
+        },
         {
           "matchId": 508798956,
           "civ": "Japanese",
@@ -56659,5 +56743,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

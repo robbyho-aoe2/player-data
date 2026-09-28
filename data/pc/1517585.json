@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1858,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1714,
+        "totalGames": 1861,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1703,
         "peakRating": 1786
       },
       "matches": [
+        {
+          "matchId": 509323654,
+          "civ": "Gurjaras",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T10:54:03.000Z",
+          "dur": 1429,
+          "opponents": [
+            {
+              "profileId": 4021494,
+              "name": "Audi performance"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509320245,
+          "civ": "Hindustanis",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T10:29:11.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 4021494,
+              "name": "Audi performance"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509121937,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:55:27.000Z",
+          "dur": 1712,
+          "opponents": [
+            {
+              "profileId": 1242879,
+              "name": "ElRudyGrando"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508876304,
           "civ": "Georgians",
@@ -29779,12 +29830,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1052,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1561,
+        "totalGames": 1055,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1573,
         "peakRating": 1599
       },
       "matches": [
+        {
+          "matchId": 509668123,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:46:37.000Z",
+          "dur": 1591,
+          "opponents": [
+            {
+              "profileId": 20889721,
+              "name": "CTM | El Inadecuado"
+            },
+            {
+              "profileId": 15949256,
+              "name": "nguyenducminhhieu"
+            },
+            {
+              "profileId": 1718562,
+              "name": "Cuong Boss"
+            },
+            {
+              "profileId": 218772,
+              "name": "The Monad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1138916,
+              "name": "TabA_RoseLG"
+            },
+            {
+              "profileId": 2646783,
+              "name": "TabA_Cl\u00e9mieDaQueen"
+            },
+            {
+              "profileId": 1373080,
+              "name": "Jesus Omega"
+            }
+          ]
+        },
+        {
+          "matchId": 509646718,
+          "civ": "Koreans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:18:49.000Z",
+          "dur": 1546,
+          "opponents": [
+            {
+              "profileId": 2048573,
+              "name": "Scooby Jew"
+            },
+            {
+              "profileId": 4934161,
+              "name": "Ak-guy"
+            },
+            {
+              "profileId": 9461278,
+              "name": "The Prayer [SE]"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1469609,
+              "name": "TabA_Carpect"
+            },
+            {
+              "profileId": 1287820,
+              "name": "Jean MI"
+            }
+          ]
+        },
+        {
+          "matchId": 509174683,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:04:15.000Z",
+          "dur": 2182,
+          "opponents": [
+            {
+              "profileId": 2174791,
+              "name": "[SST]_COCO"
+            },
+            {
+              "profileId": 6402519,
+              "name": "\u5c0f\u5c0f\u6ce2"
+            },
+            {
+              "profileId": 5385117,
+              "name": "[SST]_Reality"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1210686,
+              "name": "Leonidas"
+            },
+            {
+              "profileId": 1138916,
+              "name": "TabA_RoseLG"
+            }
+          ]
+        },
         {
           "matchId": 508685263,
           "civ": "Danes",
@@ -66544,5 +66705,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 197,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-28",
         "latestRating": 1339,
         "peakRating": 1423
       },
@@ -3181,12 +3181,164 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3149,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1675,
+        "totalGames": 3153,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1651,
         "peakRating": 1702
       },
       "matches": [
+        {
+          "matchId": 509582071,
+          "civ": "Saxons",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:46:58.000Z",
+          "dur": 1285,
+          "opponents": [
+            {
+              "profileId": 419803,
+              "name": "saymyname"
+            },
+            {
+              "profileId": 23284016,
+              "name": "Bz_\u9752\u7ea2"
+            },
+            {
+              "profileId": 23403915,
+              "name": "81danchoi"
+            },
+            {
+              "profileId": 24961348,
+              "name": "\u5341\u5927\u5730\u65b9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14527552,
+              "name": "Thundernips, The Ultimate Gigolo"
+            },
+            {
+              "profileId": 2376413,
+              "name": "OS | dreamerion92"
+            },
+            {
+              "profileId": 1265857,
+              "name": "Benitto Burrito"
+            }
+          ]
+        },
+        {
+          "matchId": 509435300,
+          "civ": "Poles",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:38:05.000Z",
+          "dur": 526,
+          "opponents": [
+            {
+              "profileId": 10809274,
+              "name": "Torpedo"
+            },
+            {
+              "profileId": 15506619,
+              "name": "Zni.Locuss"
+            },
+            {
+              "profileId": 2574050,
+              "name": "Jorge Garcia"
+            },
+            {
+              "profileId": 3373281,
+              "name": "Kiddo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4681359,
+              "name": "AOKI_ViDa_"
+            },
+            {
+              "profileId": 574945,
+              "name": "AOKI_TheMole"
+            },
+            {
+              "profileId": 673427,
+              "name": "AOKI_Thanouille"
+            }
+          ]
+        },
+        {
+          "matchId": 509428223,
+          "civ": "Wei",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:09:11.000Z",
+          "dur": 1504,
+          "opponents": [
+            {
+              "profileId": 6187129,
+              "name": "EDM MACHINE"
+            },
+            {
+              "profileId": 18608267,
+              "name": "EDM Martirena"
+            },
+            {
+              "profileId": 25890891,
+              "name": "Sick Porky Stoner"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 673427,
+              "name": "AOKI_Thanouille"
+            },
+            {
+              "profileId": 574945,
+              "name": "AOKI_TheMole"
+            }
+          ]
+        },
+        {
+          "matchId": 509423197,
+          "civ": "Teutons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:48:49.000Z",
+          "dur": 954,
+          "opponents": [
+            {
+              "profileId": 1101945,
+              "name": "Hydur"
+            },
+            {
+              "profileId": 21093855,
+              "name": "Chaos"
+            },
+            {
+              "profileId": 20039289,
+              "name": "mamonie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 673427,
+              "name": "AOKI_Thanouille"
+            },
+            {
+              "profileId": 574945,
+              "name": "AOKI_TheMole"
+            }
+          ]
+        },
         {
           "matchId": 506709333,
           "civ": "Lithuanians",
@@ -130788,5 +130940,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

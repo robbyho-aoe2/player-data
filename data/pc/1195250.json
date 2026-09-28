@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 467,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1091,
+        "totalGames": 469,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1093,
         "peakRating": 1228
       },
       "matches": [
+        {
+          "matchId": 509569234,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:17:13.000Z",
+          "dur": 1080,
+          "opponents": [
+            {
+              "profileId": 2187640,
+              "name": "Hot Lemon Water"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509564241,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:42:02.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 2023993,
+              "name": "BunkeroXcomm"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508488575,
           "civ": "Mongols",
@@ -7969,7 +8003,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1101,
         "peakRating": 1136
       },
@@ -8937,5 +8971,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Xbox"
 }

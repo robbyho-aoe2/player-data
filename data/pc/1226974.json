@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 710,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1076,
+        "totalGames": 711,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1091,
         "peakRating": 1249
       },
       "matches": [
+        {
+          "matchId": 509143807,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:42:56.000Z",
+          "dur": 814,
+          "opponents": [
+            {
+              "profileId": 2254923,
+              "name": "sebact"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508909547,
           "civ": "Armenians",
@@ -11449,7 +11466,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 24,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1060,
         "peakRating": 1060
       },
@@ -12059,5 +12076,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 484,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1615,
+        "totalGames": 485,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1604,
         "peakRating": 1615
       },
       "matches": [
+        {
+          "matchId": 509199552,
+          "civ": "Jurchens",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:56:49.000Z",
+          "dur": 1352,
+          "opponents": [
+            {
+              "profileId": 1016126,
+              "name": "Petitbiscuit"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507582613,
           "civ": "Portuguese",
@@ -7774,12 +7791,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2766,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1542,
+        "totalGames": 2769,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1523,
         "peakRating": 1644
       },
       "matches": [
+        {
+          "matchId": 509214434,
+          "civ": "Malay",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:19:05.000Z",
+          "dur": 1417,
+          "opponents": [
+            {
+              "profileId": 6419082,
+              "name": "AxD | Keiokenkun-Uno-Puro"
+            },
+            {
+              "profileId": 11343295,
+              "name": "AxD | MatrixWars"
+            },
+            {
+              "profileId": 18725512,
+              "name": "AxD | Cad Bane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1713888,
+              "name": "Oldspice"
+            },
+            {
+              "profileId": 227649,
+              "name": "TheHairlessBear"
+            }
+          ]
+        },
+        {
+          "matchId": 509210819,
+          "civ": "Saxons",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:57:53.000Z",
+          "dur": 812,
+          "opponents": [
+            {
+              "profileId": 25382081,
+              "name": "Korondo"
+            },
+            {
+              "profileId": 4511408,
+              "name": "NarKofer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227649,
+              "name": "TheHairlessBear"
+            }
+          ]
+        },
+        {
+          "matchId": 509204436,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:22:56.000Z",
+          "dur": 1900,
+          "opponents": [
+            {
+              "profileId": 4118084,
+              "name": "ELBIO"
+            },
+            {
+              "profileId": 1095544,
+              "name": "Cicdolfin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227649,
+              "name": "TheHairlessBear"
+            }
+          ]
+        },
         {
           "matchId": 508971840,
           "civ": "Khitans",
@@ -95600,5 +95703,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

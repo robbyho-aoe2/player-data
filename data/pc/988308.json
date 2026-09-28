@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 313,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1461,
+        "totalGames": 317,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1458,
         "peakRating": 1733
       },
       "matches": [
+        {
+          "matchId": 509635538,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:33:19.000Z",
+          "dur": 1633,
+          "opponents": [
+            {
+              "profileId": 22556003,
+              "name": "Dolarex"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509570790,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:28:41.000Z",
+          "dur": 1050,
+          "opponents": [
+            {
+              "profileId": 16568663,
+              "name": ":)"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509565538,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:51:22.000Z",
+          "dur": 1202,
+          "opponents": [
+            {
+              "profileId": 454635,
+              "name": "\u017eralok ty kokot"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509563197,
+          "civ": "Lithuanians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:33:34.000Z",
+          "dur": 787,
+          "opponents": [
+            {
+              "profileId": 4489162,
+              "name": "[KT] The Best"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 500994018,
           "civ": "Dravidians",
@@ -5351,7 +5419,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1302,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-28",
         "latestRating": 1620,
         "peakRating": 1772
       },
@@ -57718,5 +57786,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 96,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-28",
         "latestRating": 1214,
         "peakRating": 1216
       },
@@ -1565,12 +1565,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 317,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1136,
+        "totalGames": 321,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1075,
         "peakRating": 1214
       },
       "matches": [
+        {
+          "matchId": 509751261,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:23:21.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 1222363,
+              "name": "Challwaq"
+            },
+            {
+              "profileId": 13209718,
+              "name": "Moralelastic"
+            },
+            {
+              "profileId": 527110,
+              "name": "EZEKIEL_2517"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 407242,
+              "name": "Pelegati"
+            },
+            {
+              "profileId": 412213,
+              "name": "The final stand"
+            }
+          ]
+        },
+        {
+          "matchId": 509741284,
+          "civ": "Mongols",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:34:07.000Z",
+          "dur": 2379,
+          "opponents": [
+            {
+              "profileId": 1306938,
+              "name": "Wildanlor"
+            },
+            {
+              "profileId": 1143456,
+              "name": "Xilex"
+            },
+            {
+              "profileId": 265860,
+              "name": "Matrim Myth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 412213,
+              "name": "The final stand"
+            },
+            {
+              "profileId": 407242,
+              "name": "Pelegati"
+            }
+          ]
+        },
+        {
+          "matchId": 509733259,
+          "civ": "Danes",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:58:29.000Z",
+          "dur": 1967,
+          "opponents": [
+            {
+              "profileId": 19453161,
+              "name": "546308830"
+            },
+            {
+              "profileId": 19252117,
+              "name": "FranGinaro"
+            },
+            {
+              "profileId": 14289738,
+              "name": "sEA-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 407242,
+              "name": "Pelegati"
+            },
+            {
+              "profileId": 412213,
+              "name": "The final stand"
+            }
+          ]
+        },
+        {
+          "matchId": 509722114,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:11:25.000Z",
+          "dur": 2566,
+          "opponents": [
+            {
+              "profileId": 2302228,
+              "name": "Bichir"
+            },
+            {
+              "profileId": 1062897,
+              "name": "Willie Beamin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 407242,
+              "name": "Pelegati"
+            }
+          ]
+        },
         {
           "matchId": 504607074,
           "civ": "Vikings",
@@ -10646,5 +10774,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

@@ -190,12 +190,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 917,
+        "totalGames": 918,
         "pulledDate": "2026-09-28",
-        "latestRating": 1218,
+        "latestRating": 1232,
         "peakRating": 1358
       },
       "matches": [
+        {
+          "matchId": 509886278,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:48:21.000Z",
+          "dur": 1633,
+          "opponents": [
+            {
+              "profileId": 4667034,
+              "name": "chilamgor"
+            },
+            {
+              "profileId": 6408217,
+              "name": "lamwai802"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3444829,
+              "name": "lenhhoxung"
+            }
+          ]
+        },
         {
           "matchId": 509624570,
           "civ": "Saxons",
@@ -26878,5 +26904,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 156,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1269,
         "peakRating": 1311
       },
@@ -2533,12 +2533,168 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1426,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1220,
+        "totalGames": 1432,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1215,
         "peakRating": 1350
       },
       "matches": [
+        {
+          "matchId": 509831353,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:40:23.000Z",
+          "dur": 1771,
+          "opponents": [
+            {
+              "profileId": 21915163,
+              "name": "Andre114514"
+            },
+            {
+              "profileId": 17835367,
+              "name": "zxtanshui"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8969455,
+              "name": "kiara.g"
+            }
+          ]
+        },
+        {
+          "matchId": 509831081,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:37:19.000Z",
+          "dur": 49,
+          "opponents": [
+            {
+              "profileId": 10037922,
+              "name": "El_Warnersito"
+            },
+            {
+              "profileId": 4623233,
+              "name": "Nhitty"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8969455,
+              "name": "kiara.g"
+            }
+          ]
+        },
+        {
+          "matchId": 509830957,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:35:40.000Z",
+          "dur": 20,
+          "opponents": [
+            {
+              "profileId": 16713365,
+              "name": "david.down"
+            },
+            {
+              "profileId": 8969455,
+              "name": "kiara.g"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4623233,
+              "name": "Nhitty"
+            }
+          ]
+        },
+        {
+          "matchId": 509272250,
+          "civ": "Turks",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:47:12.000Z",
+          "dur": 4298,
+          "opponents": [
+            {
+              "profileId": 24819071,
+              "name": "Jericho"
+            },
+            {
+              "profileId": 2591064,
+              "name": "FreeShot"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6674400,
+              "name": "Tinyhos"
+            }
+          ]
+        },
+        {
+          "matchId": 509229971,
+          "civ": "Turks",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:54:16.000Z",
+          "dur": 1047,
+          "opponents": [
+            {
+              "profileId": 22377379,
+              "name": "(COLG)  DON CHIMBO"
+            },
+            {
+              "profileId": 15018466,
+              "name": "(COLG) LORD PETROVSKY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20804925,
+              "name": "mrjcl199"
+            }
+          ]
+        },
+        {
+          "matchId": 508961455,
+          "civ": "Cumans",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T21:33:55.000Z",
+          "dur": 888,
+          "opponents": [
+            {
+              "profileId": 5511021,
+              "name": "chpstkx"
+            },
+            {
+              "profileId": 232877,
+              "name": "Binny Bong Baron"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6475332,
+              "name": "Muten"
+            }
+          ]
+        },
         {
           "matchId": 508819519,
           "civ": "Cumans",
@@ -55062,5 +55218,6 @@
   },
   "country": "nz",
   "countryIcon": "\ud83c\uddf3\ud83c\uddff",
-  "countryName": "New Zealand"
+  "countryName": "New Zealand",
+  "platform": "Steam"
 }

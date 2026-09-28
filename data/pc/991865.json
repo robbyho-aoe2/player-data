@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 55,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 725,
         "peakRating": 882
       },
@@ -909,12 +909,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1624,
-        "pulledDate": "2026-09-24",
-        "latestRating": 682,
+        "totalGames": 1627,
+        "pulledDate": "2026-09-28",
+        "latestRating": 703,
         "peakRating": 1082
       },
       "matches": [
+        {
+          "matchId": 509655725,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:55:55.000Z",
+          "dur": 3709,
+          "opponents": [
+            {
+              "profileId": 11465584,
+              "name": "paluncic"
+            },
+            {
+              "profileId": 2244657,
+              "name": "xluisfer9319"
+            },
+            {
+              "profileId": 6436049,
+              "name": "TackierMold36"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3161010,
+              "name": "El_Festeezio"
+            },
+            {
+              "profileId": 3521433,
+              "name": "trohr10"
+            }
+          ]
+        },
+        {
+          "matchId": 509642426,
+          "civ": "Franks",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:02:37.000Z",
+          "dur": 3079,
+          "opponents": [
+            {
+              "profileId": 15000460,
+              "name": "inigo965"
+            },
+            {
+              "profileId": 15165106,
+              "name": "Jose18398"
+            },
+            {
+              "profileId": 18579225,
+              "name": "Varitono"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18910111,
+              "name": "215825245"
+            },
+            {
+              "profileId": 25233946,
+              "name": "ValenBernal6407"
+            }
+          ]
+        },
+        {
+          "matchId": 509639379,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:49:35.000Z",
+          "dur": 567,
+          "opponents": [
+            {
+              "profileId": 18681640,
+              "name": "sada613"
+            },
+            {
+              "profileId": 17319254,
+              "name": "Eyesoflies16"
+            },
+            {
+              "profileId": 636415,
+              "name": "The kantinci"
+            },
+            {
+              "profileId": 25233946,
+              "name": "ValenBernal6407"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11063139,
+              "name": "MightyOwl"
+            },
+            {
+              "profileId": 12137375,
+              "name": "ALVICEN"
+            },
+            {
+              "profileId": 194636,
+              "name": "JuananRoca"
+            }
+          ]
+        },
         {
           "matchId": 508238971,
           "civ": "Goths",
@@ -60309,5 +60419,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Xbox"
 }

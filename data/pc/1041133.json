@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 439,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1740,
+        "totalGames": 442,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1720,
         "peakRating": 1768
       },
       "matches": [
+        {
+          "matchId": 509402629,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:20:02.000Z",
+          "dur": 752,
+          "opponents": [
+            {
+              "profileId": 25461549,
+              "name": "\u83dc\u9e1f\u6740\u624b"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509396315,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:51:32.000Z",
+          "dur": 1566,
+          "opponents": [
+            {
+              "profileId": 5043635,
+              "name": "CQ.Manudq85"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509396013,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:50:15.000Z",
+          "dur": 29,
+          "opponents": [
+            {
+              "profileId": 6543699,
+              "name": "Sir Alexander der Kunze"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506319966,
           "civ": "Wu",
@@ -7094,7 +7145,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1000,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-28",
         "latestRating": 1636,
         "peakRating": 1672
       },
@@ -40784,5 +40835,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Steam"
 }

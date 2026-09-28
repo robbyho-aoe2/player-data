@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2977,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1878,
+        "totalGames": 2981,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1884,
         "peakRating": 1973
       },
       "matches": [
+        {
+          "matchId": 509910188,
+          "civ": "Chinese",
+          "map": "Four Lakes",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:54:29.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 895703,
+              "name": "[FrCo] Shenshenko"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509077030,
+          "civ": "Saracens",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T11:45:58.000Z",
+          "dur": 1386,
+          "opponents": [
+            {
+              "profileId": 3889792,
+              "name": "Trif"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508951117,
+          "civ": "Mongols",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T20:40:50.000Z",
+          "dur": 1687,
+          "opponents": [
+            {
+              "profileId": 236788,
+              "name": "TdB.holland89"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508946068,
+          "civ": "Vietnamese",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T20:15:43.000Z",
+          "dur": 1224,
+          "opponents": [
+            {
+              "profileId": 24596473,
+              "name": "fefefef"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508924017,
           "civ": "Malians",
@@ -50639,7 +50707,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 75,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1489,
         "peakRating": 1637
       },
@@ -52809,5 +52877,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 760,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1667,
+        "totalGames": 763,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1698,
         "peakRating": 1737
       },
       "matches": [
+        {
+          "matchId": 509134243,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:56:52.000Z",
+          "dur": 1929,
+          "opponents": [
+            {
+              "profileId": 2916649,
+              "name": "ari gold"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509126506,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:18:30.000Z",
+          "dur": 1903,
+          "opponents": [
+            {
+              "profileId": 6242021,
+              "name": "xRavyn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509123785,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:04:02.000Z",
+          "dur": 775,
+          "opponents": [
+            {
+              "profileId": 19790066,
+              "name": "juligrancella"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508937466,
           "civ": "Portuguese",
@@ -11493,7 +11544,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 316,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1351,
         "peakRating": 1601
       },
@@ -18070,5 +18121,6 @@
   },
   "country": "pl",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
-  "countryName": "Poland"
+  "countryName": "Poland",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 354,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1345,
+        "totalGames": 360,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1343,
         "peakRating": 1585
       },
       "matches": [
+        {
+          "matchId": 509771065,
+          "civ": "Bulgarians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:12:46.000Z",
+          "dur": 1424,
+          "opponents": [
+            {
+              "profileId": 9759429,
+              "name": "\u674e\u4f73\u9065\u8036\u8036\u8036"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509765801,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:43:18.000Z",
+          "dur": 1658,
+          "opponents": [
+            {
+              "profileId": 11653809,
+              "name": "Tuvieja"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509761137,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:15:43.000Z",
+          "dur": 1028,
+          "opponents": [
+            {
+              "profileId": 2584070,
+              "name": "[NT] Gandalf"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509676647,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:20:10.000Z",
+          "dur": 1531,
+          "opponents": [
+            {
+              "profileId": 10764180,
+              "name": "TheGardener"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509670200,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:54:44.000Z",
+          "dur": 1213,
+          "opponents": [
+            {
+              "profileId": 10676539,
+              "name": "alri10"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509394725,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:45:04.000Z",
+          "dur": 1339,
+          "opponents": [
+            {
+              "profileId": 3142038,
+              "name": "[La14] BlackSilvio"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507969812,
           "civ": "Franks",
@@ -6048,7 +6150,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 137,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-09-28",
         "latestRating": 1325,
         "peakRating": 1387
       },
@@ -10845,5 +10947,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

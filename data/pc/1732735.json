@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 712,
-        "pulledDate": "2026-09-25",
-        "latestRating": 753,
+        "totalGames": 714,
+        "pulledDate": "2026-09-28",
+        "latestRating": 751,
         "peakRating": 874
       },
       "matches": [
+        {
+          "matchId": 509487639,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:47:04.000Z",
+          "dur": 2615,
+          "opponents": [
+            {
+              "profileId": 25980678,
+              "name": "GrayFoxRCS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509451959,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:47:16.000Z",
+          "dur": 2185,
+          "opponents": [
+            {
+              "profileId": 21519254,
+              "name": "Madrabaz9001"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508098814,
           "civ": "Byzantines",
@@ -12134,7 +12168,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 85,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-28",
         "latestRating": 633,
         "peakRating": 789
       },
@@ -15202,5 +15236,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

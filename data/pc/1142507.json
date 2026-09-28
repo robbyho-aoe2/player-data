@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 135,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1628,
         "peakRating": 1628
       },
@@ -2190,12 +2190,176 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 148,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1353,
+        "totalGames": 154,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1352,
         "peakRating": 1428
       },
       "matches": [
+        {
+          "matchId": 509391797,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:32:32.000Z",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 8169901,
+              "name": "Reluctance"
+            },
+            {
+              "profileId": 3931937,
+              "name": "[TBArg] kaos_leo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 776887,
+              "name": "enif_"
+            }
+          ]
+        },
+        {
+          "matchId": 509387837,
+          "civ": "Magyars",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:14:50.000Z",
+          "dur": 966,
+          "opponents": [
+            {
+              "profileId": 17717983,
+              "name": "orpiq"
+            },
+            {
+              "profileId": 19920405,
+              "name": "Beisser"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2256409,
+              "name": "Underwear"
+            }
+          ]
+        },
+        {
+          "matchId": 509217015,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:34:34.000Z",
+          "dur": 611,
+          "opponents": [
+            {
+              "profileId": 2933077,
+              "name": "Jack_el_Guapo"
+            },
+            {
+              "profileId": 3165542,
+              "name": "GdR_Salinaro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21584552,
+              "name": "Dennysh"
+            }
+          ]
+        },
+        {
+          "matchId": 509213642,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:14:30.000Z",
+          "dur": 1057,
+          "opponents": [
+            {
+              "profileId": 8602407,
+              "name": "LVH.LaeB"
+            },
+            {
+              "profileId": 9824143,
+              "name": "LVH.Oteroz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21584552,
+              "name": "Dennysh"
+            }
+          ]
+        },
+        {
+          "matchId": 509198038,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:49:52.000Z",
+          "dur": 1032,
+          "opponents": [
+            {
+              "profileId": 18513877,
+              "name": "DOCCT | NahueDepino"
+            },
+            {
+              "profileId": 817890,
+              "name": "DOCCT | SaantiOtaal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25287109,
+              "name": "TheRealDrHoused"
+            }
+          ]
+        },
+        {
+          "matchId": 509183451,
+          "civ": "Berbers",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:43:15.000Z",
+          "dur": 1955,
+          "opponents": [
+            {
+              "profileId": 5203448,
+              "name": "Hane"
+            },
+            {
+              "profileId": 19286553,
+              "name": "Kaer Morhen"
+            },
+            {
+              "profileId": 21234617,
+              "name": "BARAKA wins!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1921533,
+              "name": "PistonForjado"
+            },
+            {
+              "profileId": 9472672,
+              "name": "lorddoc"
+            }
+          ]
+        },
         {
           "matchId": 508802726,
           "civ": "Huns",
@@ -6560,5 +6724,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

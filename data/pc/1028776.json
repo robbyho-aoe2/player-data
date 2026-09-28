@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 524,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1396,
         "peakRating": 1580
       },
@@ -8529,12 +8529,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 353,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1465,
+        "totalGames": 355,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1466,
         "peakRating": 1672
       },
       "matches": [
+        {
+          "matchId": 509545136,
+          "civ": "Wu",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:25:20.000Z",
+          "dur": 1571,
+          "opponents": [
+            {
+              "profileId": 2997425,
+              "name": "Cono | Acr1"
+            },
+            {
+              "profileId": 5324656,
+              "name": "Joe Strummer"
+            },
+            {
+              "profileId": 267991,
+              "name": "DS_Moai"
+            },
+            {
+              "profileId": 1669455,
+              "name": "Nos'"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 490967,
+              "name": "\u661f\u9645\u5c0f\u83dc"
+            },
+            {
+              "profileId": 25807134,
+              "name": "\u75db\u82e6\u5927\u5e73\u679c"
+            },
+            {
+              "profileId": 11804639,
+              "name": "\u730e\u624b007"
+            }
+          ]
+        },
+        {
+          "matchId": 509541748,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:02:43.000Z",
+          "dur": 1135,
+          "opponents": [
+            {
+              "profileId": 5750348,
+              "name": "\u9ed1\u7cd6"
+            },
+            {
+              "profileId": 668463,
+              "name": "\u5c41\u5c41\u4eba"
+            },
+            {
+              "profileId": 3096170,
+              "name": "ivandario67"
+            },
+            {
+              "profileId": 2943812,
+              "name": "nbelgrad1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 490967,
+              "name": "\u661f\u9645\u5c0f\u83dc"
+            },
+            {
+              "profileId": 25807134,
+              "name": "\u75db\u82e6\u5927\u5e73\u679c"
+            },
+            {
+              "profileId": 11804639,
+              "name": "\u730e\u624b007"
+            }
+          ]
+        },
         {
           "matchId": 508213400,
           "civ": "Shu",
@@ -21827,5 +21911,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

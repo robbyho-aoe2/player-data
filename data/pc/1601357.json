@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 103,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1669,
+        "totalGames": 106,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1648,
         "peakRating": 1743
       },
       "matches": [
+        {
+          "matchId": 509315333,
+          "civ": "Saxons",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:54:06.000Z",
+          "dur": 1615,
+          "opponents": [
+            {
+              "profileId": 1563027,
+              "name": "Timmeck2"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509068756,
+          "civ": "Varangians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T10:35:03.000Z",
+          "dur": 1685,
+          "opponents": [
+            {
+              "profileId": 1709508,
+              "name": "Maltimus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509065482,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T10:05:31.000Z",
+          "dur": 1702,
+          "opponents": [
+            {
+              "profileId": 983723,
+              "name": "Etzwane1982"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508891735,
           "civ": "Varangians",
@@ -1702,12 +1753,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1429,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1468,
+        "totalGames": 1432,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1443,
         "peakRating": 1544
       },
       "matches": [
+        {
+          "matchId": 509134871,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:00:42.000Z",
+          "dur": 2411,
+          "opponents": [
+            {
+              "profileId": 10013832,
+              "name": "PRAY4UKRAINE613"
+            },
+            {
+              "profileId": 5880110,
+              "name": "ken4403"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2086915,
+              "name": "Inspektor bmdiess"
+            }
+          ]
+        },
+        {
+          "matchId": 509112089,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:09:31.000Z",
+          "dur": 1663,
+          "opponents": [
+            {
+              "profileId": 1095544,
+              "name": "Cicdolfin"
+            },
+            {
+              "profileId": 1229673,
+              "name": "Amigo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2086915,
+              "name": "Inspektor bmdiess"
+            }
+          ]
+        },
+        {
+          "matchId": 509106635,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:43:00.000Z",
+          "dur": 1367,
+          "opponents": [
+            {
+              "profileId": 20524164,
+              "name": "2067"
+            },
+            {
+              "profileId": 5880110,
+              "name": "ken4403"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2086915,
+              "name": "Inspektor bmdiess"
+            }
+          ]
+        },
         {
           "matchId": 508483531,
           "civ": "Varangians",
@@ -38457,5 +38586,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

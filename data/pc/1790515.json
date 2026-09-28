@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 146,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1348,
         "peakRating": 1383
       },
@@ -2511,12 +2511,164 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 805,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1481,
+        "totalGames": 809,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1500,
         "peakRating": 1533
       },
       "matches": [
+        {
+          "matchId": 509809323,
+          "civ": "Saxons",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:04:43.000Z",
+          "dur": 66,
+          "opponents": [
+            {
+              "profileId": 1865687,
+              "name": "CTM | Pentrus"
+            },
+            {
+              "profileId": 8725582,
+              "name": "Manquito 3000"
+            },
+            {
+              "profileId": 9382691,
+              "name": "viktorcal999"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 394760,
+              "name": "[JaMx] K@l-El"
+            },
+            {
+              "profileId": 1194858,
+              "name": "sgt peppers s"
+            }
+          ]
+        },
+        {
+          "matchId": 509803802,
+          "civ": "Saxons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:24:04.000Z",
+          "dur": 2031,
+          "opponents": [
+            {
+              "profileId": 24747449,
+              "name": "AnotherBirdLover"
+            },
+            {
+              "profileId": 11624210,
+              "name": "Vrou"
+            },
+            {
+              "profileId": 4612722,
+              "name": "Serenity"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1194858,
+              "name": "sgt peppers s"
+            },
+            {
+              "profileId": 394760,
+              "name": "[JaMx] K@l-El"
+            }
+          ]
+        },
+        {
+          "matchId": 509798926,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:51:03.000Z",
+          "dur": 1599,
+          "opponents": [
+            {
+              "profileId": 2587283,
+              "name": "Leonardo"
+            },
+            {
+              "profileId": 2598720,
+              "name": "Mancodios"
+            },
+            {
+              "profileId": 2717483,
+              "name": "Gus Dekkers"
+            },
+            {
+              "profileId": 586199,
+              "name": "ATELLo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1194858,
+              "name": "sgt peppers s"
+            },
+            {
+              "profileId": 4489862,
+              "name": "Ananda"
+            },
+            {
+              "profileId": 394760,
+              "name": "[JaMx] K@l-El"
+            }
+          ]
+        },
+        {
+          "matchId": 509792884,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:14:45.000Z",
+          "dur": 1742,
+          "opponents": [
+            {
+              "profileId": 1344602,
+              "name": "SecretAgent1942"
+            },
+            {
+              "profileId": 2732452,
+              "name": "Spider2YBanana"
+            },
+            {
+              "profileId": 4373854,
+              "name": "Skunk77"
+            },
+            {
+              "profileId": 15722352,
+              "name": "Haider_435"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 394760,
+              "name": "[JaMx] K@l-El"
+            },
+            {
+              "profileId": 1194858,
+              "name": "sgt peppers s"
+            },
+            {
+              "profileId": 4489862,
+              "name": "Ananda"
+            }
+          ]
+        },
         {
           "matchId": 508798338,
           "civ": "Bohemians",
@@ -32344,5 +32496,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

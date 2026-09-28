@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 197,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1540,
+        "totalGames": 200,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1559,
         "peakRating": 1618
       },
       "matches": [
+        {
+          "matchId": 509119896,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:45:45.000Z",
+          "dur": 989,
+          "opponents": [
+            {
+              "profileId": 2286690,
+              "name": "Richard Lee"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509113807,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:17:06.000Z",
+          "dur": 1311,
+          "opponents": [
+            {
+              "profileId": 21103083,
+              "name": "AOE | Wu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509107212,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:45:14.000Z",
+          "dur": 1832,
+          "opponents": [
+            {
+              "profileId": 1162254,
+              "name": "el mero mero"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508322519,
           "civ": "Japanese",
@@ -3213,12 +3264,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 640,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1241,
+        "totalGames": 641,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1227,
         "peakRating": 1407
       },
       "matches": [
+        {
+          "matchId": 508983659,
+          "civ": "Saxons",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T23:51:45.000Z",
+          "dur": 1414,
+          "opponents": [
+            {
+              "profileId": 23517690,
+              "name": "R\u00f3mulo"
+            },
+            {
+              "profileId": 20079104,
+              "name": "thevipleb"
+            },
+            {
+              "profileId": 2522733,
+              "name": "nikhdy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22586232,
+              "name": "Bmessy"
+            },
+            {
+              "profileId": 20661557,
+              "name": "rocthemic13"
+            }
+          ]
+        },
         {
           "matchId": 508780022,
           "civ": "Saxons",
@@ -21167,5 +21252,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

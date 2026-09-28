@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 173,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1277,
+        "totalGames": 174,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1293,
         "peakRating": 1295
       },
       "matches": [
+        {
+          "matchId": 509145258,
+          "civ": "Sicilians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:50:03.000Z",
+          "dur": 1549,
+          "opponents": [
+            {
+              "profileId": 4455058,
+              "name": "Bidello"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 383368003,
           "civ": "Mongols",
@@ -2797,12 +2814,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1407,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1133,
+        "totalGames": 1411,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1166,
         "peakRating": 1352
       },
       "matches": [
+        {
+          "matchId": 509170830,
+          "civ": "Saracens",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:47:00.000Z",
+          "dur": 1035,
+          "opponents": [
+            {
+              "profileId": 1892016,
+              "name": "Patovich"
+            },
+            {
+              "profileId": 398620,
+              "name": "KUKA TIRA PIEDRA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2351839,
+              "name": "AupairMann"
+            }
+          ]
+        },
+        {
+          "matchId": 509163120,
+          "civ": "Huns",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:12:50.000Z",
+          "dur": 1783,
+          "opponents": [
+            {
+              "profileId": 12626449,
+              "name": "Fathandzzz"
+            },
+            {
+              "profileId": 10824655,
+              "name": "Killacammmmm461"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2351839,
+              "name": "AupairMann"
+            }
+          ]
+        },
+        {
+          "matchId": 509156376,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:42:42.000Z",
+          "dur": 1567,
+          "opponents": [
+            {
+              "profileId": 9816004,
+              "name": "kert_qt"
+            },
+            {
+              "profileId": 9348971,
+              "name": "mrweissbrot"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2351839,
+              "name": "AupairMann"
+            }
+          ]
+        },
+        {
+          "matchId": 509151167,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:18:49.000Z",
+          "dur": 1228,
+          "opponents": [
+            {
+              "profileId": 6310718,
+              "name": "Nandor the Relenting"
+            },
+            {
+              "profileId": 416695,
+              "name": "audi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2351839,
+              "name": "AupairMann"
+            }
+          ]
+        },
         {
           "matchId": 508490228,
           "civ": "Saracens",
@@ -40889,5 +41010,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Steam"
 }

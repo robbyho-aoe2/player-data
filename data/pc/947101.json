@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 626,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1165,
+        "totalGames": 630,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1192,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 509614818,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:03:34.000Z",
+          "dur": 943,
+          "opponents": [
+            {
+              "profileId": 2380201,
+              "name": "El Decapitador"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509358391,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:06:30.000Z",
+          "dur": 1157,
+          "opponents": [
+            {
+              "profileId": 25851160,
+              "name": "porkchop8732"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509352989,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:41:11.000Z",
+          "dur": 1358,
+          "opponents": [
+            {
+              "profileId": 170885,
+              "name": "Nine.S"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509348293,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:18:40.000Z",
+          "dur": 1273,
+          "opponents": [
+            {
+              "profileId": 3297147,
+              "name": "AgeingPau"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507978253,
           "civ": "Magyars",
@@ -10069,7 +10137,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 75,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-09-28",
         "latestRating": 1218,
         "peakRating": 1322
       },
@@ -12082,5 +12150,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

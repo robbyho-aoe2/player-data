@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 308,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1602,
         "peakRating": 1694
       },
@@ -4981,12 +4981,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2096,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1628,
+        "totalGames": 2100,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1617,
         "peakRating": 1760
       },
       "matches": [
+        {
+          "matchId": 509568307,
+          "civ": "Aztecs",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:11:53.000Z",
+          "dur": 1140,
+          "opponents": [
+            {
+              "profileId": 11644143,
+              "name": "\u51ac\u7011"
+            },
+            {
+              "profileId": 7980485,
+              "name": "\u6559\u6388"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1059084,
+              "name": "Bahen Centre for IT"
+            }
+          ]
+        },
+        {
+          "matchId": 509564326,
+          "civ": "Wu",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:42:25.000Z",
+          "dur": 1488,
+          "opponents": [
+            {
+              "profileId": 2434329,
+              "name": "-2n+2q"
+            },
+            {
+              "profileId": 2140711,
+              "name": "iFxrY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1059084,
+              "name": "Bahen Centre for IT"
+            }
+          ]
+        },
+        {
+          "matchId": 509560434,
+          "civ": "Saxons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:14:25.000Z",
+          "dur": 1504,
+          "opponents": [
+            {
+              "profileId": 20370613,
+              "name": "sebastianschatzp"
+            },
+            {
+              "profileId": 2873480,
+              "name": "luislm6621"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1059084,
+              "name": "Bahen Centre for IT"
+            }
+          ]
+        },
+        {
+          "matchId": 509229743,
+          "civ": "Varangians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:52:45.000Z",
+          "dur": 1198,
+          "opponents": [
+            {
+              "profileId": 1846472,
+              "name": "Panelo"
+            },
+            {
+              "profileId": 2251730,
+              "name": "LaTiN PoWeR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1059084,
+              "name": "Bahen Centre for IT"
+            }
+          ]
+        },
         {
           "matchId": 508816345,
           "civ": "Mongols",
@@ -80914,5 +81018,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

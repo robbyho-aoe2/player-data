@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 138,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1229,
+        "totalGames": 140,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1261,
         "peakRating": 1287
       },
       "matches": [
+        {
+          "matchId": 509907500,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:40:44.000Z",
+          "dur": 853,
+          "opponents": [
+            {
+              "profileId": 25387709,
+              "name": "CHAOSHI"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509907081,
+          "civ": "Mongols",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:39:05.000Z",
+          "dur": 16,
+          "opponents": [
+            {
+              "profileId": 920331,
+              "name": "Karl Mustachio Beerson"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502648424,
           "civ": "Bengalis",
@@ -1327,12 +1361,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 965,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1187,
+        "totalGames": 967,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1185,
         "peakRating": 1362
       },
       "matches": [
+        {
+          "matchId": 509910934,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:59:40.000Z",
+          "dur": 1399,
+          "opponents": [
+            {
+              "profileId": 23704916,
+              "name": "king vitt"
+            },
+            {
+              "profileId": 5798536,
+              "name": "\u86cb\u96d5"
+            },
+            {
+              "profileId": 5418471,
+              "name": "AztecKiller2427"
+            },
+            {
+              "profileId": 2799746,
+              "name": "Lilygold"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3183997,
+              "name": "[TacT] Chinoguidi"
+            },
+            {
+              "profileId": 1000774,
+              "name": "Murmandus"
+            },
+            {
+              "profileId": 23924234,
+              "name": "Nicolass"
+            }
+          ]
+        },
+        {
+          "matchId": 509900939,
+          "civ": "Aztecs",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:07:37.000Z",
+          "dur": 1802,
+          "opponents": [
+            {
+              "profileId": 15633623,
+              "name": "Rey de Copas"
+            },
+            {
+              "profileId": 21089654,
+              "name": "dejame_ganar"
+            },
+            {
+              "profileId": 15493238,
+              "name": "JollyWoNKa"
+            },
+            {
+              "profileId": 9403027,
+              "name": "diegosgdm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22059940,
+              "name": "LLBHLJ"
+            },
+            {
+              "profileId": 6230823,
+              "name": "Laundres"
+            },
+            {
+              "profileId": 2913477,
+              "name": "Doji"
+            }
+          ]
+        },
         {
           "matchId": 508813618,
           "civ": "Cumans",
@@ -11719,5 +11837,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 25,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1215,
         "peakRating": 1215
       },
@@ -429,12 +429,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 535,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1130,
+        "totalGames": 537,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1131,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 509456933,
+          "civ": "Vietnamese",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:09:11.000Z",
+          "dur": 2153,
+          "opponents": [
+            {
+              "profileId": 25649938,
+              "name": "LSDenigme"
+            },
+            {
+              "profileId": 838515,
+              "name": "LSD SaChOuSs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21953041,
+              "name": "m-lindberg"
+            }
+          ]
+        },
+        {
+          "matchId": 509447574,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:29:52.000Z",
+          "dur": 2178,
+          "opponents": [
+            {
+              "profileId": 1205770,
+              "name": "rower56"
+            },
+            {
+              "profileId": 17226433,
+              "name": "sbr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21953041,
+              "name": "m-lindberg"
+            }
+          ]
+        },
         {
           "matchId": 508729399,
           "civ": "Turks",
@@ -16949,5 +17001,6 @@
   },
   "country": "no",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf4",
-  "countryName": "Norway"
+  "countryName": "Norway",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 582,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1176,
         "peakRating": 1260
       },
@@ -9923,12 +9923,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2182,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1082,
+        "totalGames": 2184,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1086,
         "peakRating": 1376
       },
       "matches": [
+        {
+          "matchId": 509308466,
+          "civ": "Cumans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:05:03.000Z",
+          "dur": 2419,
+          "opponents": [
+            {
+              "profileId": 181876,
+              "name": "karbid"
+            },
+            {
+              "profileId": 2028720,
+              "name": "franchi_mg"
+            },
+            {
+              "profileId": 5976391,
+              "name": ".::Azaghast::."
+            },
+            {
+              "profileId": 23021957,
+              "name": "Mike"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 88261,
+              "name": "MyGO.Soyo"
+            },
+            {
+              "profileId": 10009346,
+              "name": "\u91cd\u6848\u7ec4\u4e4b\u864e\u66f9\u8fbe\u534eJESSEJAMES"
+            },
+            {
+              "profileId": 17950478,
+              "name": "TigerBitePig"
+            }
+          ]
+        },
+        {
+          "matchId": 509295145,
+          "civ": "Lithuanians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T07:28:05.000Z",
+          "dur": 2406,
+          "opponents": [
+            {
+              "profileId": 5998723,
+              "name": "TastyChips"
+            },
+            {
+              "profileId": 15643447,
+              "name": "relax"
+            },
+            {
+              "profileId": 12429279,
+              "name": "light"
+            },
+            {
+              "profileId": 5005700,
+              "name": "Pitcher"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12071525,
+              "name": "GrandMasterTitties"
+            },
+            {
+              "profileId": 25009812,
+              "name": "130\u519c\u5728\u51fa\u5175"
+            },
+            {
+              "profileId": 425374,
+              "name": "Olkem"
+            }
+          ]
+        },
         {
           "matchId": 508907736,
           "civ": "Burgundians",
@@ -97872,5 +97956,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

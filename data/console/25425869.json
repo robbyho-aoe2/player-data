@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 65,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-28",
         "latestRating": 1134,
         "peakRating": 1141
       },
@@ -1058,7 +1058,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 283,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-28",
         "latestRating": 1117,
         "peakRating": 1155
       },
@@ -8633,7 +8633,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-28",
         "latestRating": 1000
       },
       "matches": [
@@ -8708,12 +8708,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 101,
-        "pulledDate": "2026-09-26",
-        "latestRating": 792,
+        "totalGames": 103,
+        "pulledDate": "2026-09-28",
+        "latestRating": 820,
         "peakRating": 854
       },
       "matches": [
+        {
+          "matchId": 509715521,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:47:07.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 14578725,
+              "name": "K1NGlogman"
+            },
+            {
+              "profileId": 26175596,
+              "name": "PrinceAbaddon"
+            },
+            {
+              "profileId": 8859121,
+              "name": "JustintimeHi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25119801,
+              "name": "PENAROZAx"
+            },
+            {
+              "profileId": 25035778,
+              "name": "SandSouth"
+            }
+          ]
+        },
+        {
+          "matchId": 509703040,
+          "civ": "Incas",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:02:14.000Z",
+          "dur": 2273,
+          "opponents": [
+            {
+              "profileId": 3354016,
+              "name": "Grant B 1993"
+            },
+            {
+              "profileId": 24048789,
+              "name": "Incognito3597"
+            },
+            {
+              "profileId": 24722872,
+              "name": "AlfilGM3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25035778,
+              "name": "SandSouth"
+            },
+            {
+              "profileId": 25119801,
+              "name": "PENAROZAx"
+            }
+          ]
+        },
         {
           "matchId": 509409526,
           "civ": "Turks",
@@ -11980,5 +12048,6 @@
   },
   "country": "sa",
   "countryIcon": "\ud83c\uddf8\ud83c\udde6",
-  "countryName": "Saudi Arabia"
+  "countryName": "Saudi Arabia",
+  "platform": "PSN"
 }

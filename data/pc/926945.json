@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 130,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-09-28",
         "latestRating": 1313,
         "peakRating": 1428
       },
@@ -2109,12 +2109,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 836,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1203,
+        "totalGames": 840,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1162,
         "peakRating": 1367
       },
       "matches": [
+        {
+          "matchId": 509712856,
+          "civ": "Georgians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:37:15.000Z",
+          "dur": 1797,
+          "opponents": [
+            {
+              "profileId": 1699846,
+              "name": "Stratelias"
+            },
+            {
+              "profileId": 534704,
+              "name": "Herzie"
+            },
+            {
+              "profileId": 5183163,
+              "name": "widL"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 847916,
+              "name": "Xavi"
+            },
+            {
+              "profileId": 855706,
+              "name": "Alligator"
+            }
+          ]
+        },
+        {
+          "matchId": 509700852,
+          "civ": "Georgians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:54:14.000Z",
+          "dur": 2450,
+          "opponents": [
+            {
+              "profileId": 25835512,
+              "name": "rudi.pollet.ci"
+            },
+            {
+              "profileId": 222287,
+              "name": "Eclairock59"
+            },
+            {
+              "profileId": 980928,
+              "name": "Il-Diavolo-92"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 847916,
+              "name": "Xavi"
+            },
+            {
+              "profileId": 855706,
+              "name": "Alligator"
+            }
+          ]
+        },
+        {
+          "matchId": 509691558,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:20:03.000Z",
+          "dur": 1860,
+          "opponents": [
+            {
+              "profileId": 18736338,
+              "name": "patito_purific"
+            },
+            {
+              "profileId": 22416471,
+              "name": "goyim"
+            },
+            {
+              "profileId": 4292980,
+              "name": "papayoint"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 847916,
+              "name": "Xavi"
+            },
+            {
+              "profileId": 855706,
+              "name": "Alligator"
+            }
+          ]
+        },
+        {
+          "matchId": 509689841,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:13:42.000Z",
+          "dur": 259,
+          "opponents": [
+            {
+              "profileId": 4275467,
+              "name": "RubenTala[PY]"
+            },
+            {
+              "profileId": 4507306,
+              "name": "fedeginard"
+            },
+            {
+              "profileId": 5979237,
+              "name": "miguel_carl7s"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 847916,
+              "name": "Xavi"
+            },
+            {
+              "profileId": 855706,
+              "name": "Alligator"
+            }
+          ]
+        },
         {
           "matchId": 507813176,
           "civ": "Mongols",
@@ -31944,5 +32080,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

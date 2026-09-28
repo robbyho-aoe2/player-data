@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 735,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1143,
         "peakRating": 1288
       },
@@ -11792,12 +11792,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 721,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1259,
+        "totalGames": 723,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1256,
         "peakRating": 1293
       },
       "matches": [
+        {
+          "matchId": 509730701,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:47:03.000Z",
+          "dur": 1675,
+          "opponents": [
+            {
+              "profileId": 24908181,
+              "name": "Augrar"
+            },
+            {
+              "profileId": 15420001,
+              "name": "(:Burundukas:) LT."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24121305,
+              "name": "@Tomy"
+            }
+          ]
+        },
+        {
+          "matchId": 509722101,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:12:03.000Z",
+          "dur": 1825,
+          "opponents": [
+            {
+              "profileId": 784447,
+              "name": "Balrog"
+            },
+            {
+              "profileId": 888457,
+              "name": "jetjag"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24121305,
+              "name": "@Tomy"
+            }
+          ]
+        },
         {
           "matchId": 508713593,
           "civ": "Persians",
@@ -31412,5 +31464,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

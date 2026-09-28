@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 538,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-28",
         "latestRating": 1272,
         "peakRating": 1333
       },
@@ -8637,12 +8637,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 97,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1100,
+        "totalGames": 98,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1084,
         "peakRating": 1109
       },
       "matches": [
+        {
+          "matchId": 509009245,
+          "civ": "Huns",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T02:26:51.000Z",
+          "dur": 1237,
+          "opponents": [
+            {
+              "profileId": 23858191,
+              "name": "Jorge el glorioso maton"
+            },
+            {
+              "profileId": 21070173,
+              "name": "iSlayerXtrem"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22183191,
+              "name": "Padrino"
+            }
+          ]
+        },
         {
           "matchId": 502395661,
           "civ": "Huns",
@@ -11671,5 +11697,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 37,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1173,
         "peakRating": 1222
       },
@@ -622,12 +622,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1241,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1151,
+        "totalGames": 1244,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1164,
         "peakRating": 1258
       },
       "matches": [
+        {
+          "matchId": 509794684,
+          "civ": "Saxons",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:24:37.000Z",
+          "dur": 1885,
+          "opponents": [
+            {
+              "profileId": 774341,
+              "name": "shingo87"
+            },
+            {
+              "profileId": 15228995,
+              "name": "joker"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 420354,
+              "name": "Murk of Arabia"
+            }
+          ]
+        },
+        {
+          "matchId": 509022820,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T03:52:31.000Z",
+          "dur": 2048,
+          "opponents": [
+            {
+              "profileId": 4193258,
+              "name": "Jersey_TitanX"
+            },
+            {
+              "profileId": 3701264,
+              "name": "StandingTall"
+            },
+            {
+              "profileId": 3198577,
+              "name": "Alpenhime"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 420354,
+              "name": "Murk of Arabia"
+            },
+            {
+              "profileId": 19450533,
+              "name": "Micro Machines"
+            }
+          ]
+        },
+        {
+          "matchId": 509019792,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T03:31:05.000Z",
+          "dur": 1107,
+          "opponents": [
+            {
+              "profileId": 1250965,
+              "name": "ozzyhapdo"
+            },
+            {
+              "profileId": 7905913,
+              "name": "Supervising Supervisor"
+            },
+            {
+              "profileId": 863736,
+              "name": "GIJONUDO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19450533,
+              "name": "Micro Machines"
+            },
+            {
+              "profileId": 420354,
+              "name": "Murk of Arabia"
+            }
+          ]
+        },
         {
           "matchId": 508800090,
           "civ": "Danes",
@@ -35782,5 +35876,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

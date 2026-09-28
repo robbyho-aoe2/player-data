@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2882,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1755,
+        "totalGames": 2884,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1747,
         "peakRating": 1868
       },
       "matches": [
+        {
+          "matchId": 509661597,
+          "civ": "Khmer",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:18:32.000Z",
+          "dur": 465,
+          "opponents": [
+            {
+              "profileId": 23865135,
+              "name": "RedeemYourself"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509655946,
+          "civ": "Khmer",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:56:37.000Z",
+          "dur": 1249,
+          "opponents": [
+            {
+              "profileId": 11852892,
+              "name": "SL-rooike"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507274555,
           "civ": "Khmer",
@@ -46211,7 +46245,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 178,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-28",
         "latestRating": 1190,
         "peakRating": 1222
       },
@@ -51890,5 +51924,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

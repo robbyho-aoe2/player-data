@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 594,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-28",
         "latestRating": 1253,
         "peakRating": 1367
       },
@@ -9533,12 +9533,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 428,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1173,
+        "totalGames": 429,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1160,
         "peakRating": 1400
       },
       "matches": [
+        {
+          "matchId": 509697200,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:40:15.000Z",
+          "dur": 863,
+          "opponents": [
+            {
+              "profileId": 5075940,
+              "name": "Ranch Sauce"
+            },
+            {
+              "profileId": 5075094,
+              "name": "Cheese Sauce"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25838143,
+              "name": "Suuuuzie"
+            }
+          ]
+        },
         {
           "matchId": 504094765,
           "civ": "Koreans",
@@ -20326,5 +20352,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

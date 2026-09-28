@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 32,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1199,
-        "peakRating": 1227
+        "totalGames": 34,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1233,
+        "peakRating": 1233
       },
       "matches": [
+        {
+          "matchId": 509103367,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:25:38.000Z",
+          "dur": 1084,
+          "opponents": [
+            {
+              "profileId": 16995226,
+              "name": "renpanpan5"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509098251,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:58:48.000Z",
+          "dur": 1394,
+          "opponents": [
+            {
+              "profileId": 25158208,
+              "name": "Simbo02352"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499523522,
           "civ": "Britons",
@@ -573,12 +607,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 146,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1378,
-        "peakRating": 1390
+        "totalGames": 149,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1370,
+        "peakRating": 1395
       },
       "matches": [
+        {
+          "matchId": 509743466,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:44:32.000Z",
+          "dur": 1911,
+          "opponents": [
+            {
+              "profileId": 11654945,
+              "name": "DougSh4rK"
+            },
+            {
+              "profileId": 1821078,
+              "name": "darkdudu"
+            },
+            {
+              "profileId": 5225654,
+              "name": "RANDALZIN"
+            },
+            {
+              "profileId": 11975643,
+              "name": "Wololo 2.0"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15776287,
+              "name": "[\u20ac=m\u00a92] \u2022 U m u D \u2022"
+            },
+            {
+              "profileId": 6079275,
+              "name": "emin"
+            },
+            {
+              "profileId": 13971126,
+              "name": "1453sultan"
+            }
+          ]
+        },
+        {
+          "matchId": 509199771,
+          "civ": "Britons",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:58:32.000Z",
+          "dur": 1971,
+          "opponents": [
+            {
+              "profileId": 460901,
+              "name": "GosuRage_"
+            },
+            {
+              "profileId": 2395770,
+              "name": "c\u044dsar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 217810,
+              "name": "JoyStick"
+            }
+          ]
+        },
+        {
+          "matchId": 509095124,
+          "civ": "Romans",
+          "map": "Pilgrims",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:42:37.000Z",
+          "dur": 819,
+          "opponents": [
+            {
+              "profileId": 324215,
+              "name": "Dr.Dreamz"
+            },
+            {
+              "profileId": 10215562,
+              "name": "blankedgamerz"
+            },
+            {
+              "profileId": 12217415,
+              "name": "AWAKALTA"
+            },
+            {
+              "profileId": 5106890,
+              "name": "treehugger"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1854783,
+              "name": "BuildDisorder [2]"
+            },
+            {
+              "profileId": 1716244,
+              "name": "BRosi"
+            },
+            {
+              "profileId": 26020327,
+              "name": "esoneplus"
+            }
+          ]
+        },
         {
           "matchId": 508513452,
           "civ": "Magyars",
@@ -5812,5 +5956,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

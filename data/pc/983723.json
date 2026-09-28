@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 545,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1605,
+        "totalGames": 549,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1639,
         "peakRating": 1737
       },
       "matches": [
+        {
+          "matchId": 509697376,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:40:35.000Z",
+          "dur": 1581,
+          "opponents": [
+            {
+              "profileId": 294595,
+              "name": "Atula King"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509065482,
+          "civ": "Huns",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T10:05:31.000Z",
+          "dur": 1702,
+          "opponents": [
+            {
+              "profileId": 1601357,
+              "name": "Rageboy24"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509058042,
+          "civ": "Dravidians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T08:58:12.000Z",
+          "dur": 1445,
+          "opponents": [
+            {
+              "profileId": 4064908,
+              "name": "Arthuche"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509054920,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T08:29:12.000Z",
+          "dur": 1260,
+          "opponents": [
+            {
+              "profileId": 236788,
+              "name": "TdB.holland89"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507715335,
           "civ": "Poles",
@@ -8757,12 +8825,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 108,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1419,
+        "totalGames": 109,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1435,
         "peakRating": 1469
       },
       "matches": [
+        {
+          "matchId": 509181428,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:34:18.000Z",
+          "dur": 1795,
+          "opponents": [
+            {
+              "profileId": 471801,
+              "name": "antrophognos"
+            },
+            {
+              "profileId": 3301285,
+              "name": "frey_tag"
+            },
+            {
+              "profileId": 2412878,
+              "name": "teddy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6742612,
+              "name": "Bruh"
+            },
+            {
+              "profileId": 1834689,
+              "name": "Pxlgun"
+            }
+          ]
+        },
         {
           "matchId": 469424479,
           "civ": "Persians",
@@ -12219,5 +12321,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Xbox"
 }

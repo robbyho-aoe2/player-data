@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-09-28",
         "latestRating": 1182,
         "peakRating": 1196
       },
@@ -461,12 +461,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 666,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1251,
+        "totalGames": 668,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1281,
         "peakRating": 1395
       },
       "matches": [
+        {
+          "matchId": 509158389,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:51:37.000Z",
+          "dur": 293,
+          "opponents": [
+            {
+              "profileId": 742550,
+              "name": "TmZ_Jozuh"
+            },
+            {
+              "profileId": 1248511,
+              "name": "ink55"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18250924,
+              "name": "Galaunydd"
+            }
+          ]
+        },
+        {
+          "matchId": 509150678,
+          "civ": "Cumans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:16:38.000Z",
+          "dur": 1627,
+          "opponents": [
+            {
+              "profileId": 357829,
+              "name": "Vilkian"
+            },
+            {
+              "profileId": 854712,
+              "name": "J. C. Maxwell"
+            },
+            {
+              "profileId": 10139459,
+              "name": "\u5c0f\u660e"
+            },
+            {
+              "profileId": 11354109,
+              "name": "George"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18250924,
+              "name": "Galaunydd"
+            },
+            {
+              "profileId": 4609718,
+              "name": "eward17"
+            },
+            {
+              "profileId": 10525949,
+              "name": "hitman47"
+            }
+          ]
+        },
         {
           "matchId": 508074602,
           "civ": "Gurjaras",
@@ -21833,5 +21901,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

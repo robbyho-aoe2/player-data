@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 294,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1864,
         "peakRating": 1864
       },
@@ -4733,12 +4733,164 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2528,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1670,
+        "totalGames": 2532,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1698,
         "peakRating": 1760
       },
       "matches": [
+        {
+          "matchId": 509428532,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:10:29.000Z",
+          "dur": 1732,
+          "opponents": [
+            {
+              "profileId": 242320,
+              "name": "2EZ.Vasalarc"
+            },
+            {
+              "profileId": 9148773,
+              "name": "2EZ.SagittariusA"
+            },
+            {
+              "profileId": 519728,
+              "name": "2ez Scipi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19087630,
+              "name": "Dvnielsiii"
+            },
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            }
+          ]
+        },
+        {
+          "matchId": 509423197,
+          "civ": "Malay",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:48:49.000Z",
+          "dur": 954,
+          "opponents": [
+            {
+              "profileId": 1784887,
+              "name": "AOKI_Caf\u00e9glac\u00e9"
+            },
+            {
+              "profileId": 673427,
+              "name": "AOKI_Thanouille"
+            },
+            {
+              "profileId": 574945,
+              "name": "AOKI_TheMole"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21093855,
+              "name": "Chaos"
+            },
+            {
+              "profileId": 20039289,
+              "name": "mamonie"
+            }
+          ]
+        },
+        {
+          "matchId": 509376221,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:24:34.000Z",
+          "dur": 1631,
+          "opponents": [
+            {
+              "profileId": 506834,
+              "name": "CAXCAN"
+            },
+            {
+              "profileId": 1840861,
+              "name": "Maestro Gim's"
+            },
+            {
+              "profileId": 19919075,
+              "name": "MissBigoudixxx"
+            },
+            {
+              "profileId": 84039,
+              "name": "DetectiveYemitoShumafuk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24853301,
+              "name": "SimmaHem7912"
+            },
+            {
+              "profileId": 10191561,
+              "name": "\u5077\u5077"
+            },
+            {
+              "profileId": 5566911,
+              "name": "IWUDJA"
+            }
+          ]
+        },
+        {
+          "matchId": 509371367,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:03:46.000Z",
+          "dur": 983,
+          "opponents": [
+            {
+              "profileId": 922183,
+              "name": "OmegaJ256"
+            },
+            {
+              "profileId": 16878098,
+              "name": "Kyandie"
+            },
+            {
+              "profileId": 24853301,
+              "name": "SimmaHem7912"
+            },
+            {
+              "profileId": 25438100,
+              "name": "76561198702828170"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19919075,
+              "name": "MissBigoudixxx"
+            },
+            {
+              "profileId": 1840861,
+              "name": "Maestro Gim's"
+            },
+            {
+              "profileId": 5082716,
+              "name": "Raspadori"
+            }
+          ]
+        },
         {
           "matchId": 508493292,
           "civ": "Vikings",
@@ -101939,5 +102091,6 @@
   },
   "country": "it",
   "countryIcon": "\ud83c\uddee\ud83c\uddf9",
-  "countryName": "Italy"
+  "countryName": "Italy",
+  "platform": "Steam"
 }

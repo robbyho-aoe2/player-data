@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-28",
         "latestRating": 1386
       },
       "matches": [
@@ -204,12 +204,164 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 218,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1214,
+        "totalGames": 222,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1183,
         "peakRating": 1340
       },
       "matches": [
+        {
+          "matchId": 509588651,
+          "civ": "Vikings",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:31:21.000Z",
+          "dur": 1487,
+          "opponents": [
+            {
+              "profileId": 10106684,
+              "name": "newats2007"
+            },
+            {
+              "profileId": 22791459,
+              "name": "Null Pointer"
+            },
+            {
+              "profileId": 23284053,
+              "name": "\u5e1d\u56fd\u79cd\u7530\u5927\u6237"
+            },
+            {
+              "profileId": 1096819,
+              "name": "Carleo_Intestin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 64750,
+              "name": "XJakeTheRipper7"
+            },
+            {
+              "profileId": 603500,
+              "name": "Kebab do ruky"
+            },
+            {
+              "profileId": 1948755,
+              "name": "|GaoeG| Ratarax"
+            }
+          ]
+        },
+        {
+          "matchId": 509583644,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:57:20.000Z",
+          "dur": 1303,
+          "opponents": [
+            {
+              "profileId": 5068787,
+              "name": "Choppa"
+            },
+            {
+              "profileId": 21121723,
+              "name": "Logix:>"
+            },
+            {
+              "profileId": 1322194,
+              "name": "Wulffman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12519376,
+              "name": "droger144"
+            },
+            {
+              "profileId": 1637032,
+              "name": "ABRAXAS"
+            }
+          ]
+        },
+        {
+          "matchId": 509579815,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:31:34.000Z",
+          "dur": 1370,
+          "opponents": [
+            {
+              "profileId": 15180382,
+              "name": "empty"
+            },
+            {
+              "profileId": 10139498,
+              "name": "ROCK"
+            },
+            {
+              "profileId": 371340,
+              "name": "Dr. Consuegra"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4288920,
+              "name": "kaaaboooom"
+            },
+            {
+              "profileId": 3205887,
+              "name": "Donnerhall"
+            }
+          ]
+        },
+        {
+          "matchId": 509444429,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:16:50.000Z",
+          "dur": 1633,
+          "opponents": [
+            {
+              "profileId": 14413809,
+              "name": "LordofSun"
+            },
+            {
+              "profileId": 2208068,
+              "name": "Kaiser"
+            },
+            {
+              "profileId": 6305097,
+              "name": "msmatossms"
+            },
+            {
+              "profileId": 6449494,
+              "name": "Kasike"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8578808,
+              "name": "Jiggity_"
+            },
+            {
+              "profileId": 1177945,
+              "name": "Fetch the big powder horn"
+            },
+            {
+              "profileId": 2025268,
+              "name": "lpt42"
+            }
+          ]
+        },
         {
           "matchId": 503456045,
           "civ": "Franks",
@@ -8366,5 +8518,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

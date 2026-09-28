@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1638,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1194,
+        "totalGames": 1643,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1237,
         "peakRating": 1292
       },
       "matches": [
+        {
+          "matchId": 509785366,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:32:23.000Z",
+          "dur": 2005,
+          "opponents": [
+            {
+              "profileId": 11807300,
+              "name": "schtapler"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509780503,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:04:05.000Z",
+          "dur": 1232,
+          "opponents": [
+            {
+              "profileId": 2891259,
+              "name": "GranateCampe\u00f3n"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509777238,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:45:37.000Z",
+          "dur": 1020,
+          "opponents": [
+            {
+              "profileId": 22476960,
+              "name": "alvareznico1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509200540,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:02:00.000Z",
+          "dur": 1794,
+          "opponents": [
+            {
+              "profileId": 5729522,
+              "name": "B\u0130SMARCK"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508965617,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T21:56:03.000Z",
+          "dur": 1241,
+          "opponents": [
+            {
+              "profileId": 1357192,
+              "name": "jesuswan"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508129157,
           "civ": "Lithuanians",
@@ -26279,7 +26364,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 79,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1090,
         "peakRating": 1090
       },
@@ -28744,5 +28829,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

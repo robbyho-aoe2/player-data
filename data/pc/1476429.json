@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 213,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1153,
         "peakRating": 1181
       },
@@ -3437,12 +3437,168 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 945,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1127,
+        "totalGames": 951,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1111,
         "peakRating": 1310
       },
       "matches": [
+        {
+          "matchId": 509921849,
+          "civ": "Romans",
+          "map": "Oasis",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:53:30.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 399431,
+              "name": "Noir_Angel"
+            },
+            {
+              "profileId": 1261735,
+              "name": "Mann aus Sachsen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24368101,
+              "name": "SchmirgirglBene"
+            }
+          ]
+        },
+        {
+          "matchId": 509623206,
+          "civ": "Romans",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:42:14.000Z",
+          "dur": 1877,
+          "opponents": [
+            {
+              "profileId": 10858644,
+              "name": "kriket"
+            },
+            {
+              "profileId": 1916618,
+              "name": "Mamarie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25838143,
+              "name": "Suuuuzie"
+            }
+          ]
+        },
+        {
+          "matchId": 509617783,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:17:53.000Z",
+          "dur": 1432,
+          "opponents": [
+            {
+              "profileId": 23976750,
+              "name": "KristuH2"
+            },
+            {
+              "profileId": 5872215,
+              "name": "Sharito\u267f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6423063,
+              "name": "aluis.gallardo"
+            }
+          ]
+        },
+        {
+          "matchId": 509354736,
+          "civ": "Romans",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:49:16.000Z",
+          "dur": 1399,
+          "opponents": [
+            {
+              "profileId": 9629538,
+              "name": "lukembarnes"
+            },
+            {
+              "profileId": 5356963,
+              "name": "mattfalkous"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21094117,
+              "name": "escaflownej"
+            }
+          ]
+        },
+        {
+          "matchId": 509142824,
+          "civ": "Romans",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:39:02.000Z",
+          "dur": 1662,
+          "opponents": [
+            {
+              "profileId": 259081,
+              "name": "Muninn77"
+            },
+            {
+              "profileId": 1969268,
+              "name": "ConejoSilent"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3051321,
+              "name": "gp"
+            }
+          ]
+        },
+        {
+          "matchId": 509140290,
+          "civ": "Romans",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:26:53.000Z",
+          "dur": 583,
+          "opponents": [
+            {
+              "profileId": 20903849,
+              "name": "Tonio"
+            },
+            {
+              "profileId": 602949,
+              "name": "leloxos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22625558,
+              "name": "NotGG"
+            }
+          ]
+        },
         {
           "matchId": 508902903,
           "civ": "Bohemians",
@@ -27160,5 +27316,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

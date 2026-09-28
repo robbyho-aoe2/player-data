@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 421,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1575,
         "peakRating": 1589
       },
@@ -6765,12 +6765,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1441,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1553,
+        "totalGames": 1446,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1506,
         "peakRating": 1586
       },
       "matches": [
+        {
+          "matchId": 509887960,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:57:30.000Z",
+          "dur": 1697,
+          "opponents": [
+            {
+              "profileId": 17016335,
+              "name": "Lil Fabrice"
+            },
+            {
+              "profileId": 2140711,
+              "name": "iFxrY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10566270,
+              "name": "nizam.lko"
+            }
+          ]
+        },
+        {
+          "matchId": 509882347,
+          "civ": "Bengalis",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:26:53.000Z",
+          "dur": 1070,
+          "opponents": [
+            {
+              "profileId": 17016335,
+              "name": "Lil Fabrice"
+            },
+            {
+              "profileId": 2140711,
+              "name": "iFxrY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3181404,
+              "name": "Terminally Chill"
+            }
+          ]
+        },
+        {
+          "matchId": 509877256,
+          "civ": "Bengalis",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:59:38.000Z",
+          "dur": 1095,
+          "opponents": [
+            {
+              "profileId": 10519526,
+              "name": "don Rumata CZ"
+            },
+            {
+              "profileId": 221685,
+              "name": "valmircampolino"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3181404,
+              "name": "Terminally Chill"
+            }
+          ]
+        },
+        {
+          "matchId": 509872825,
+          "civ": "Bengalis",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:35:28.000Z",
+          "dur": 1245,
+          "opponents": [
+            {
+              "profileId": 22286594,
+              "name": "Humble Villager"
+            },
+            {
+              "profileId": 5090754,
+              "name": "Pielover757"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3181404,
+              "name": "Terminally Chill"
+            }
+          ]
+        },
+        {
+          "matchId": 509866805,
+          "civ": "Bengalis",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:59:05.000Z",
+          "dur": 1521,
+          "opponents": [
+            {
+              "profileId": 5331612,
+              "name": "GoPlayTetris"
+            },
+            {
+              "profileId": 5300261,
+              "name": "xberny"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3181404,
+              "name": "Terminally Chill"
+            }
+          ]
+        },
         {
           "matchId": 508653139,
           "civ": "Celts",
@@ -51609,5 +51739,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

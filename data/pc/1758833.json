@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "peakRating": 1142,
         "latestRating": 1142
       },
@@ -205,12 +205,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 800,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1142,
+        "totalGames": 805,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1163,
         "peakRating": 1325
       },
       "matches": [
+        {
+          "matchId": 509717630,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:54:57.000Z",
+          "dur": 1029,
+          "opponents": [
+            {
+              "profileId": 22170064,
+              "name": "Gkzaim"
+            },
+            {
+              "profileId": 22675421,
+              "name": "seher9203"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5486225,
+              "name": "JakeOtto"
+            }
+          ]
+        },
+        {
+          "matchId": 509712107,
+          "civ": "Tatars",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:34:15.000Z",
+          "dur": 1102,
+          "opponents": [
+            {
+              "profileId": 19112325,
+              "name": "Slawter"
+            },
+            {
+              "profileId": 3409922,
+              "name": "ricco"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5486225,
+              "name": "JakeOtto"
+            }
+          ]
+        },
+        {
+          "matchId": 509177423,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:16:18.000Z",
+          "dur": 2337,
+          "opponents": [
+            {
+              "profileId": 20438962,
+              "name": "I AM MATTEO"
+            },
+            {
+              "profileId": 2253338,
+              "name": "Wollebrocken"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5486225,
+              "name": "JakeOtto"
+            }
+          ]
+        },
+        {
+          "matchId": 509169165,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:39:52.000Z",
+          "dur": 1762,
+          "opponents": [
+            {
+              "profileId": 1094791,
+              "name": "ionut_s"
+            },
+            {
+              "profileId": 3952641,
+              "name": "robertcristiann"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5486225,
+              "name": "JakeOtto"
+            }
+          ]
+        },
+        {
+          "matchId": 509159505,
+          "civ": "Burgundians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:56:40.000Z",
+          "dur": 2092,
+          "opponents": [
+            {
+              "profileId": 21211667,
+              "name": "buddy219755"
+            },
+            {
+              "profileId": 6398183,
+              "name": "Nitsuga"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5486225,
+              "name": "JakeOtto"
+            }
+          ]
+        },
         {
           "matchId": 508936470,
           "civ": "Danes",
@@ -26110,5 +26240,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

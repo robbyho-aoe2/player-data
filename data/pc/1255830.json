@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 372,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1099,
         "peakRating": 1099
       },
@@ -5983,12 +5983,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 114,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1152,
+        "totalGames": 118,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1196,
         "peakRating": 1212
       },
       "matches": [
+        {
+          "matchId": 509135371,
+          "civ": "Koreans",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:03:13.000Z",
+          "dur": 1637,
+          "opponents": [
+            {
+              "profileId": 4863869,
+              "name": "juanoc"
+            },
+            {
+              "profileId": 19703484,
+              "name": "zooy"
+            },
+            {
+              "profileId": 357829,
+              "name": "Vilkian"
+            },
+            {
+              "profileId": 451383,
+              "name": "Sageata"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 223576,
+              "name": "Sihing Mo"
+            },
+            {
+              "profileId": 336655,
+              "name": "Baratticus"
+            },
+            {
+              "profileId": 3146184,
+              "name": "Zweistein"
+            }
+          ]
+        },
+        {
+          "matchId": 509129517,
+          "civ": "Shu",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:33:46.000Z",
+          "dur": 1636,
+          "opponents": [
+            {
+              "profileId": 10140834,
+              "name": "T.T"
+            },
+            {
+              "profileId": 10247808,
+              "name": "\u65b0\u51a0\u514b\u661f"
+            },
+            {
+              "profileId": 6221715,
+              "name": "v1ttly_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3146184,
+              "name": "Zweistein"
+            },
+            {
+              "profileId": 223576,
+              "name": "Sihing Mo"
+            }
+          ]
+        },
+        {
+          "matchId": 509125158,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:11:07.000Z",
+          "dur": 1154,
+          "opponents": [
+            {
+              "profileId": 16431442,
+              "name": "camel-number11"
+            },
+            {
+              "profileId": 23627643,
+              "name": "Rock_Bottom"
+            },
+            {
+              "profileId": 25569848,
+              "name": "ChO@s"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 223576,
+              "name": "Sihing Mo"
+            },
+            {
+              "profileId": 3146184,
+              "name": "Zweistein"
+            }
+          ]
+        },
+        {
+          "matchId": 509113033,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:13:29.000Z",
+          "dur": 2987,
+          "opponents": [
+            {
+              "profileId": 21954266,
+              "name": "474269844"
+            },
+            {
+              "profileId": 25926231,
+              "name": "qwert12356"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 223576,
+              "name": "Sihing Mo"
+            }
+          ]
+        },
         {
           "matchId": 508287075,
           "civ": "Chinese",
@@ -9304,5 +9440,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 773,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1621,
+        "totalGames": 779,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1618,
         "peakRating": 1831
       },
       "matches": [
+        {
+          "matchId": 509909726,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:53:04.000Z",
+          "dur": 414,
+          "opponents": [
+            {
+              "profileId": 2954428,
+              "name": "CR | Juanda201"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509906811,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:37:32.000Z",
+          "dur": 766,
+          "opponents": [
+            {
+              "profileId": 1415794,
+              "name": "AiM | Walter Quiver"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509902599,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:16:15.000Z",
+          "dur": 1202,
+          "opponents": [
+            {
+              "profileId": 23865135,
+              "name": "RedeemYourself"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509883066,
+          "civ": "Tatars",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:31:04.000Z",
+          "dur": 1832,
+          "opponents": [
+            {
+              "profileId": 21036341,
+              "name": "Retentio"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509877435,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:00:56.000Z",
+          "dur": 1654,
+          "opponents": [
+            {
+              "profileId": 8895157,
+              "name": "PuffyCarrot"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509141413,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:32:11.000Z",
+          "dur": 707,
+          "opponents": [
+            {
+              "profileId": 4133089,
+              "name": "Eliot"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508814453,
           "civ": "Franks",
@@ -12404,7 +12506,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 807,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1480,
         "peakRating": 1620
       },
@@ -33026,5 +33128,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

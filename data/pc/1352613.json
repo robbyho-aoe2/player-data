@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 52,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "peakRating": 1504,
         "latestRating": 1504
       },
@@ -892,12 +892,164 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 208,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1739,
+        "totalGames": 212,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1707,
         "peakRating": 1739
       },
       "matches": [
+        {
+          "matchId": 509913794,
+          "civ": "Hindustanis",
+          "map": "Oasis",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:13:40.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 340759,
+              "name": "_luN"
+            },
+            {
+              "profileId": 1987697,
+              "name": "hide1914"
+            },
+            {
+              "profileId": 2132112,
+              "name": "happy\u4f2f"
+            },
+            {
+              "profileId": 2672175,
+              "name": "Sakmelo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2790529,
+              "name": "retaux"
+            },
+            {
+              "profileId": 9968309,
+              "name": "Daniel Chassagnez"
+            },
+            {
+              "profileId": 208976,
+              "name": "ClemoL45"
+            }
+          ]
+        },
+        {
+          "matchId": 509906477,
+          "civ": "Bohemians",
+          "map": "Lombardia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:36:25.000Z",
+          "dur": 2052,
+          "opponents": [
+            {
+              "profileId": 382442,
+              "name": "Prelusion"
+            },
+            {
+              "profileId": 2689534,
+              "name": "Billy Bathgate"
+            },
+            {
+              "profileId": 1596766,
+              "name": "Fs.churacoRS"
+            },
+            {
+              "profileId": 396067,
+              "name": "MrKirby"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 208976,
+              "name": "ClemoL45"
+            },
+            {
+              "profileId": 9968309,
+              "name": "Daniel Chassagnez"
+            },
+            {
+              "profileId": 2790529,
+              "name": "retaux"
+            }
+          ]
+        },
+        {
+          "matchId": 509494269,
+          "civ": "Slavs",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:27:22.000Z",
+          "dur": 517,
+          "opponents": [
+            {
+              "profileId": 3529463,
+              "name": "B.R Matias"
+            },
+            {
+              "profileId": 3317724,
+              "name": "GG Burrito is back"
+            },
+            {
+              "profileId": 2856966,
+              "name": "MUERE CACA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 208976,
+              "name": "ClemoL45"
+            },
+            {
+              "profileId": 778725,
+              "name": "Skrillll"
+            }
+          ]
+        },
+        {
+          "matchId": 509490282,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:04:01.000Z",
+          "dur": 1166,
+          "opponents": [
+            {
+              "profileId": 2856966,
+              "name": "MUERE CACA"
+            },
+            {
+              "profileId": 18685660,
+              "name": "NOBLE FLAMIGO"
+            },
+            {
+              "profileId": 3317724,
+              "name": "GG Burrito is back"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 778725,
+              "name": "Skrillll"
+            },
+            {
+              "profileId": 208976,
+              "name": "ClemoL45"
+            }
+          ]
+        },
         {
           "matchId": 506664359,
           "civ": "Japanese",
@@ -8285,5 +8437,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

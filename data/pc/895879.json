@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1202,
         "peakRating": 1273
       },
@@ -677,12 +677,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1762,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1262,
+        "totalGames": 1766,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1266,
         "peakRating": 1456
       },
       "matches": [
+        {
+          "matchId": 509659595,
+          "civ": "Romans",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:11:29.000Z",
+          "dur": 1916,
+          "opponents": [
+            {
+              "profileId": 10045421,
+              "name": "kuijn"
+            },
+            {
+              "profileId": 1730296,
+              "name": "Hamidouche"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10737918,
+              "name": "ManWithScarf"
+            }
+          ]
+        },
+        {
+          "matchId": 509624328,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:47:03.000Z",
+          "dur": 2395,
+          "opponents": [
+            {
+              "profileId": 285711,
+              "name": "Raudius"
+            },
+            {
+              "profileId": 10197608,
+              "name": "Ranger-Lee"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13486635,
+              "name": "\u4e24\u4e2a\u5c0f\u59b9\u59b9\u79cd\u7530"
+            }
+          ]
+        },
+        {
+          "matchId": 509617881,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:18:20.000Z",
+          "dur": 1677,
+          "opponents": [
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            },
+            {
+              "profileId": 2226417,
+              "name": "[RZ] Matheus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10258919,
+              "name": "Wolong Qi"
+            }
+          ]
+        },
+        {
+          "matchId": 509612691,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:53:16.000Z",
+          "dur": 975,
+          "opponents": [
+            {
+              "profileId": 9472672,
+              "name": "lorddoc"
+            },
+            {
+              "profileId": 6742612,
+              "name": "Bruh"
+            },
+            {
+              "profileId": 19654176,
+              "name": "ivcrk826"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1430213,
+              "name": "Mazer"
+            },
+            {
+              "profileId": 6062991,
+              "name": "Soy un Cacahuate"
+            }
+          ]
+        },
         {
           "matchId": 508456467,
           "civ": "Hindustanis",
@@ -17911,5 +18023,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 128,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1209,
         "peakRating": 1244
       },
@@ -1181,12 +1181,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 650,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1331,
+        "totalGames": 652,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1328,
         "peakRating": 1440
       },
       "matches": [
+        {
+          "matchId": 508969462,
+          "civ": "Slavs",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T22:20:31.000Z",
+          "dur": 1262,
+          "opponents": [
+            {
+              "profileId": 20617806,
+              "name": "david.indie108"
+            },
+            {
+              "profileId": 6878223,
+              "name": "Gabito"
+            },
+            {
+              "profileId": 6487529,
+              "name": "[MAD1] killmeifyoucan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4308375,
+              "name": "Rasec"
+            },
+            {
+              "profileId": 9990929,
+              "name": "D\u00fcrer"
+            }
+          ]
+        },
+        {
+          "matchId": 508965690,
+          "civ": "Danes",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T21:57:24.000Z",
+          "dur": 1172,
+          "opponents": [
+            {
+              "profileId": 17496256,
+              "name": "Trimetroprim"
+            },
+            {
+              "profileId": 6063806,
+              "name": "Slyterry007"
+            },
+            {
+              "profileId": 5777025,
+              "name": "HUSEINMACO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1771794,
+              "name": "What's your ETA?"
+            },
+            {
+              "profileId": 9990929,
+              "name": "D\u00fcrer"
+            }
+          ]
+        },
         {
           "matchId": 508513841,
           "civ": "Slavs",
@@ -8164,5 +8232,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

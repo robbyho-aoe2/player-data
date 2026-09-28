@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 185,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-28",
         "latestRating": 1653,
         "peakRating": 1697
       },
@@ -3174,12 +3174,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 395,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1616,
+        "totalGames": 399,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1591,
         "peakRating": 1628
       },
       "matches": [
+        {
+          "matchId": 509651069,
+          "civ": "Vikings",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:36:39.000Z",
+          "dur": 1312,
+          "opponents": [
+            {
+              "profileId": 12023326,
+              "name": "[TAIDA] WH"
+            },
+            {
+              "profileId": 6894398,
+              "name": "iiiiice"
+            },
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            },
+            {
+              "profileId": 1778989,
+              "name": "pasonnosap"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 957057,
+              "name": "[BuS] kiy2008"
+            },
+            {
+              "profileId": 20801774,
+              "name": "Julio2"
+            },
+            {
+              "profileId": 1624257,
+              "name": "schutz"
+            }
+          ]
+        },
+        {
+          "matchId": 509640445,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:54:01.000Z",
+          "dur": 1809,
+          "opponents": [
+            {
+              "profileId": 25926099,
+              "name": "Cusi Yupanqui"
+            },
+            {
+              "profileId": 6154853,
+              "name": "\u674e\u6e05\u7136"
+            },
+            {
+              "profileId": 9179714,
+              "name": "\u5783\u573e\u5c0f\u58eb\u5175"
+            },
+            {
+              "profileId": 19076073,
+              "name": "\u6850\u539f\u51ac\u5b50"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 957057,
+              "name": "[BuS] kiy2008"
+            },
+            {
+              "profileId": 11254699,
+              "name": "\u5c0f\u5fc3\uff0c\u6709\u8bc8\u3002"
+            },
+            {
+              "profileId": 12034200,
+              "name": "\u72f8\u72f8"
+            }
+          ]
+        },
+        {
+          "matchId": 509630782,
+          "civ": "Chinese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:15:03.000Z",
+          "dur": 1853,
+          "opponents": [
+            {
+              "profileId": 17036083,
+              "name": "The_OFLi"
+            },
+            {
+              "profileId": 15487737,
+              "name": "NikTheBrewer"
+            },
+            {
+              "profileId": 9472672,
+              "name": "lorddoc"
+            },
+            {
+              "profileId": 2461739,
+              "name": "RoRo_FleXx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20915281,
+              "name": "Fanume"
+            },
+            {
+              "profileId": 18676636,
+              "name": "\u5929\u7dda\u5c0f\u865f"
+            },
+            {
+              "profileId": 957057,
+              "name": "[BuS] kiy2008"
+            }
+          ]
+        },
+        {
+          "matchId": 509621705,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:35:39.000Z",
+          "dur": 1540,
+          "opponents": [
+            {
+              "profileId": 23563961,
+              "name": "chengaopeng044"
+            },
+            {
+              "profileId": 22408382,
+              "name": "Iulo Ascanio2210"
+            },
+            {
+              "profileId": 6001838,
+              "name": "\u534a\u65f6"
+            },
+            {
+              "profileId": 9897579,
+              "name": "Tuxtron935"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 957057,
+              "name": "[BuS] kiy2008"
+            },
+            {
+              "profileId": 1624257,
+              "name": "schutz"
+            },
+            {
+              "profileId": 15419053,
+              "name": "\u5e97\u5c0f\u8d30"
+            }
+          ]
+        },
         {
           "matchId": 477934236,
           "civ": "Huns",
@@ -18395,5 +18563,6 @@
   },
   "country": "kr",
   "countryIcon": "\ud83c\uddf0\ud83c\uddf7",
-  "countryName": "Korea, Republic of"
+  "countryName": "Korea, Republic of",
+  "platform": "Steam"
 }

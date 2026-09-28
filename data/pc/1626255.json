@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 46,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1166,
         "peakRating": 1166
       },
@@ -765,12 +765,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 932,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1176,
+        "totalGames": 934,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1143,
         "peakRating": 1310
       },
       "matches": [
+        {
+          "matchId": 509621715,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:35:42.000Z",
+          "dur": 1481,
+          "opponents": [
+            {
+              "profileId": 4067426,
+              "name": "Mr. Bolivar"
+            },
+            {
+              "profileId": 2719874,
+              "name": "marskit"
+            },
+            {
+              "profileId": 1948755,
+              "name": "|GaoeG| Ratarax"
+            },
+            {
+              "profileId": 344590,
+              "name": "TOXIC18"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 217021,
+              "name": "younguns"
+            },
+            {
+              "profileId": 24202803,
+              "name": "smallpox04"
+            },
+            {
+              "profileId": 9055364,
+              "name": "\u7231\u306e\u897f\u897f\u91cc"
+            }
+          ]
+        },
+        {
+          "matchId": 509600052,
+          "civ": "Dravidians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:44:19.000Z",
+          "dur": 2164,
+          "opponents": [
+            {
+              "profileId": 439277,
+              "name": "bluestorm"
+            },
+            {
+              "profileId": 863749,
+              "name": "Sharion"
+            },
+            {
+              "profileId": 1450330,
+              "name": "NickJiang"
+            },
+            {
+              "profileId": 2442351,
+              "name": "elhijochiquito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14493176,
+              "name": "ektum_inside"
+            },
+            {
+              "profileId": 19647562,
+              "name": "805678789"
+            },
+            {
+              "profileId": 19908928,
+              "name": "\u4eba\u5728\u9635\u5730\u5728"
+            }
+          ]
+        },
         {
           "matchId": 508641683,
           "civ": "Dravidians",
@@ -38115,5 +38199,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

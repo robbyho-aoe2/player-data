@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 37,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1053,
         "peakRating": 1064
       },
@@ -621,12 +621,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 660,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1166,
+        "totalGames": 661,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1151,
         "peakRating": 1304
       },
       "matches": [
+        {
+          "matchId": 508969378,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-24",
+          "startedAt": "2026-09-24T22:19:55.000Z",
+          "dur": 1664,
+          "opponents": [
+            {
+              "profileId": 2480714,
+              "name": "LongShanks"
+            },
+            {
+              "profileId": 1719341,
+              "name": "CarloMagno"
+            },
+            {
+              "profileId": 511854,
+              "name": "nanodan47"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4406011,
+              "name": "SOROSjayman32wc"
+            },
+            {
+              "profileId": 1177990,
+              "name": "jmax__"
+            }
+          ]
+        },
         {
           "matchId": 508796509,
           "civ": "Danes",
@@ -23521,5 +23555,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

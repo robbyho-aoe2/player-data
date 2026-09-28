@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 255,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-28",
         "latestRating": 1578,
         "peakRating": 1661
       },
@@ -4364,12 +4364,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2277,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1566,
+        "totalGames": 2280,
+        "pulledDate": "2026-09-28",
+        "latestRating": 1518,
         "peakRating": 1715
       },
       "matches": [
+        {
+          "matchId": 509908647,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:47:31.000Z",
+          "dur": 2121,
+          "opponents": [
+            {
+              "profileId": 816247,
+              "name": "MadEvilTimes"
+            },
+            {
+              "profileId": 5577768,
+              "name": "Neorise"
+            },
+            {
+              "profileId": 20457939,
+              "name": "[LGP] Shiroo"
+            },
+            {
+              "profileId": 21771462,
+              "name": "Perseu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23232396,
+              "name": "Hash-"
+            },
+            {
+              "profileId": 3396002,
+              "name": "Jeremy V"
+            },
+            {
+              "profileId": 604701,
+              "name": "Ee-meili"
+            }
+          ]
+        },
+        {
+          "matchId": 509640319,
+          "civ": "Berbers",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:53:31.000Z",
+          "dur": 1385,
+          "opponents": [
+            {
+              "profileId": 1143560,
+              "name": "ChangT"
+            },
+            {
+              "profileId": 1582820,
+              "name": "Jhih"
+            },
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 21611861,
+              "name": "Anatoly"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 331327,
+              "name": "Vaku"
+            },
+            {
+              "profileId": 604701,
+              "name": "Ee-meili"
+            },
+            {
+              "profileId": 1812193,
+              "name": "Shyles"
+            }
+          ]
+        },
+        {
+          "matchId": 509632648,
+          "civ": "Tatars",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:22:45.000Z",
+          "dur": 1611,
+          "opponents": [
+            {
+              "profileId": 236400,
+              "name": "JustAGecko"
+            },
+            {
+              "profileId": 735930,
+              "name": "CornelVS1"
+            },
+            {
+              "profileId": 821228,
+              "name": "[ECU] Pendeck's"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1812193,
+              "name": "Shyles"
+            },
+            {
+              "profileId": 604701,
+              "name": "Ee-meili"
+            }
+          ]
+        },
         {
           "matchId": 508918700,
           "civ": "Mongols",
@@ -85225,5 +85343,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }
