@@ -1,0 +1,30 @@
+name: Tests
+on:
+  push:
+    paths:
+      - "weekly_extras.py"
+      - "rivalries.py"
+      - "build_snapshot.py"
+      - "test_weekly_extras.py"
+      - "data/weekly-reports/**"
+  pull_request:
+    paths:
+      - "weekly_extras.py"
+      - "rivalries.py"
+      - "build_snapshot.py"
+      - "test_weekly_extras.py"
+      - "data/weekly-reports/**"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run weekly-report regression tests
+        run: python3 test_weekly_extras.py
