@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-28"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 159,
-        "pulledDate": "2026-09-20",
+        "totalGames": 160,
+        "pulledDate": "2026-09-28",
         "latestRating": 1196,
         "peakRating": 1212
       },
       "matches": [
+        {
+          "matchId": 509086611,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T12:51:45.000Z",
+          "dur": 32,
+          "opponents": [
+            {
+              "profileId": 1954888,
+              "name": "TheGl0ryH0leFinder"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507951740,
           "civ": "Maya",
@@ -2576,10 +2593,63 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "totalGames": 2,
+        "pulledDate": "2026-09-28"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 509136417,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:07:47.000Z",
+          "dur": 1928,
+          "opponents": [
+            {
+              "profileId": 24270760,
+              "name": "Nick"
+            },
+            {
+              "profileId": 24295826,
+              "name": "Hades92"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20974245,
+              "name": "\u6325\u821e\u7684\u6307\u7532\u5200"
+            }
+          ]
+        },
+        {
+          "matchId": 509087829,
+          "civ": "Byzantines",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:00:05.000Z",
+          "dur": 1640,
+          "opponents": [
+            {
+              "profileId": 3950763,
+              "name": "moresky"
+            },
+            {
+              "profileId": 1726202,
+              "name": "98cj4f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10187952,
+              "name": "ThrobbinWood"
+            }
+          ]
+        }
+      ]
     }
   },
   "country": "us",
