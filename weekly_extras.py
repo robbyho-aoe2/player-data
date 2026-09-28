@@ -464,6 +464,7 @@ def compute_biggest_upsets(players, start, end, snapshot_end_ratings=None, top=5
                     "loserRating": loser_rating,
                     "gap": loser_rating - winner_rating,
                     "map": m.get("map"), "date": m.get("date"),
+                    "matchId": m.get("matchId"),
                 })
     upsets.sort(key=lambda r: -r["gap"])
     return upsets[:top]
