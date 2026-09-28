@@ -397,7 +397,7 @@ def compute_most_games(players, start, end, snapshot_start_ratings=None, snapsho
     return rows[:top]
 
 
-def compute_biggest_upsets(players, start, end, snapshot_end_ratings=None, top=5):
+def compute_biggest_upsets(players, start, end, snapshot_end_ratings=None, top=5, min_duration_seconds=300):
     """Top-N upsets this window using each player's rating as a proxy for
     skill (not their rating at match time, which isn't tracked per-match).
 
@@ -409,8 +409,13 @@ def compute_biggest_upsets(players, start, end, snapshot_end_ratings=None, top=5
     matches even qualify as an upset at all. Pass None to fall back to
     live rating (fine for the current week's own same-day report).
 
-    Skips void/disconnected matches (see is_void_match) and anything
-    without exactly one opponent (1v1-shaped only)."""
+    Skips void/disconnected matches (see is_void_match), anything without
+    exactly one opponent (1v1-shaped only), and anything shorter than
+    `min_duration_seconds` (default 300 = 5 min) — a game that ends that
+    fast is almost always an early resign after a rush/scout kill, not a
+    real skill-gap upset, and would otherwise crowd out genuine ones.
+    A match with no recorded duration is excluded rather than assumed to
+    qualify, since length can't be confirmed."""
     snapshot_end_ratings = snapshot_end_ratings or {}
     snapshot_key = {"1v1 Console": "rating1v1", "Team Console": "ratingTeam"}
     rating_lookup = {}
@@ -443,6 +448,9 @@ def compute_biggest_upsets(players, start, end, snapshot_end_ratings=None, top=5
                 seen.add(key)
                 if is_void_match(m):
                     continue
+                dur = m.get("dur")
+                if dur is None or dur < min_duration_seconds:
+                    continue
                 opp = opponents[0]
                 opp_id = opp.get("profileId")
                 my_rating = rating_lookup.get((pid, ladder))
@@ -465,7 +473,7 @@ def compute_biggest_upsets(players, start, end, snapshot_end_ratings=None, top=5
                     "gap": loser_rating - winner_rating,
                     "map": m.get("map"), "date": m.get("date"),
                     "matchId": m.get("matchId"),
-                    "durSeconds": m.get("dur"),
+                    "durSeconds": dur,
                 })
     upsets.sort(key=lambda r: -r["gap"])
     return upsets[:top]
