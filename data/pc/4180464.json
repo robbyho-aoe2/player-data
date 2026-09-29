@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 730,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1298,
+        "totalGames": 734,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1300,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 509726905,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:30:36.000Z",
+          "dur": 1748,
+          "opponents": [
+            {
+              "profileId": 20284549,
+              "name": "ttmenti88"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509678799,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:28:26.000Z",
+          "dur": 1110,
+          "opponents": [
+            {
+              "profileId": 24961607,
+              "name": "NinjaPenguin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509665656,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:35:43.000Z",
+          "dur": 1275,
+          "opponents": [
+            {
+              "profileId": 18940033,
+              "name": "ShangTsung"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509525248,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:21:24.000Z",
+          "dur": 3483,
+          "opponents": [
+            {
+              "profileId": 4789204,
+              "name": "Sir Ulrich von Lichtenstein"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508111924,
           "civ": "Tatars",
@@ -12440,7 +12508,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -12482,5 +12550,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

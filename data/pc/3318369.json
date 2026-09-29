@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 33,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-29",
         "latestRating": 1022,
         "peakRating": 1022
       },
@@ -590,12 +590,150 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 198,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1303,
-        "peakRating": 1317
+        "totalGames": 203,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1305,
+        "peakRating": 1328
       },
       "matches": [
+        {
+          "matchId": 509735468,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:07:42.000Z",
+          "dur": 2139,
+          "opponents": [
+            {
+              "profileId": 643889,
+              "name": "Timmeeey"
+            },
+            {
+              "profileId": 2634979,
+              "name": "Fischfuss"
+            },
+            {
+              "profileId": 2221453,
+              "name": "Quincy Ironclad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26121819,
+              "name": "_DLAGON_"
+            },
+            {
+              "profileId": 12047187,
+              "name": "dulinek"
+            }
+          ]
+        },
+        {
+          "matchId": 509725970,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:27:23.000Z",
+          "dur": 1358,
+          "opponents": [
+            {
+              "profileId": 15602988,
+              "name": "Mankito77"
+            },
+            {
+              "profileId": 15603460,
+              "name": "Marldox"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26121819,
+              "name": "_DLAGON_"
+            }
+          ]
+        },
+        {
+          "matchId": 509722162,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:12:17.000Z",
+          "dur": 694,
+          "opponents": [
+            {
+              "profileId": 949199,
+              "name": "PwNaSauRuS"
+            },
+            {
+              "profileId": 24895254,
+              "name": "SNOWMAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26121819,
+              "name": "_DLAGON_"
+            }
+          ]
+        },
+        {
+          "matchId": 509708743,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:21:25.000Z",
+          "dur": 2264,
+          "opponents": [
+            {
+              "profileId": 16199691,
+              "name": "KubiCZEch1893"
+            },
+            {
+              "profileId": 15450677,
+              "name": "WataruCZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26121819,
+              "name": "_DLAGON_"
+            }
+          ]
+        },
+        {
+          "matchId": 509700644,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:52:57.000Z",
+          "dur": 1199,
+          "opponents": [
+            {
+              "profileId": 589176,
+              "name": "Joner"
+            },
+            {
+              "profileId": 606006,
+              "name": "Sebjo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26121819,
+              "name": "_DLAGON_"
+            }
+          ]
+        },
         {
           "matchId": 506556100,
           "civ": "Ethiopians",
@@ -5829,5 +5967,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

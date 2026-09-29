@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1718,
-        "pulledDate": "2026-09-25",
+        "totalGames": 1720,
+        "pulledDate": "2026-09-29",
         "latestRating": 785,
         "peakRating": 1029
       },
       "matches": [
+        {
+          "matchId": 509324727,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T11:01:10.000Z",
+          "dur": 1289,
+          "opponents": [
+            {
+              "profileId": 14831506,
+              "name": "BudgetBench6953"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509267134,
+          "civ": "Celts",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:15:27.000Z",
+          "dur": 3020,
+          "opponents": [
+            {
+              "profileId": 2502365,
+              "name": "Tkfm"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508789626,
           "civ": "Celts",
@@ -29235,12 +29269,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2968,
-        "pulledDate": "2026-09-25",
-        "latestRating": 909,
+        "totalGames": 2971,
+        "pulledDate": "2026-09-29",
+        "latestRating": 956,
         "peakRating": 1115
       },
       "matches": [
+        {
+          "matchId": 509525145,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:20:42.000Z",
+          "dur": 1743,
+          "opponents": [
+            {
+              "profileId": 23931338,
+              "name": "Backpack"
+            },
+            {
+              "profileId": 9929992,
+              "name": "Rafins"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9577820,
+              "name": "Cottager"
+            }
+          ]
+        },
+        {
+          "matchId": 509328361,
+          "civ": "Celts",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T11:26:31.000Z",
+          "dur": 1907,
+          "opponents": [
+            {
+              "profileId": 6579471,
+              "name": "king517670"
+            },
+            {
+              "profileId": 1408939,
+              "name": "\u70b8\u96de\u52c7\u8005"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19069726,
+              "name": "flavioneves9"
+            }
+          ]
+        },
+        {
+          "matchId": 509237251,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T01:36:30.000Z",
+          "dur": 1466,
+          "opponents": [
+            {
+              "profileId": 1351481,
+              "name": "Gen"
+            },
+            {
+              "profileId": 25247874,
+              "name": "LXXIII"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2465065,
+              "name": "CuerVoArG!!!"
+            }
+          ]
+        },
         {
           "matchId": 508664096,
           "civ": "Celts",
@@ -128946,5 +129058,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Xbox"
 }

@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 249,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1302,
+        "totalGames": 254,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1320,
         "peakRating": 1470
       },
       "matches": [
+        {
+          "matchId": 510062498,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:35:49.000Z",
+          "dur": 2222,
+          "opponents": [
+            {
+              "profileId": 421920,
+              "name": "JEAN MAX"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510050081,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:19:25.000Z",
+          "dur": 1703,
+          "opponents": [
+            {
+              "profileId": 24670376,
+              "name": "bwinner"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510027801,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:42:21.000Z",
+          "dur": 1138,
+          "opponents": [
+            {
+              "profileId": 1861556,
+              "name": "momoJR"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510026317,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:32:02.000Z",
+          "dur": 568,
+          "opponents": [
+            {
+              "profileId": 2688128,
+              "name": "soymagazo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509284166,
+          "civ": "Persians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:11:30.000Z",
+          "dur": 1310,
+          "opponents": [
+            {
+              "profileId": 5870242,
+              "name": "Jol Nar Binks"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508811328,
           "civ": "Khmer",
@@ -4030,12 +4115,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 91,
-        "pulledDate": "2026-09-25",
+        "totalGames": 93,
+        "pulledDate": "2026-09-29",
         "latestRating": 1160,
         "peakRating": 1405
       },
       "matches": [
+        {
+          "matchId": 509258563,
+          "civ": "Khmer",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:26:54.000Z",
+          "dur": 2031,
+          "opponents": [
+            {
+              "profileId": 3331581,
+              "name": "Barracks Obama"
+            },
+            {
+              "profileId": 4776158,
+              "name": "bubo bubo"
+            },
+            {
+              "profileId": 3526702,
+              "name": "mentat"
+            },
+            {
+              "profileId": 3492175,
+              "name": "Boris"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15751227,
+              "name": "will_evans"
+            },
+            {
+              "profileId": 15705574,
+              "name": "Trickle"
+            },
+            {
+              "profileId": 3147786,
+              "name": "INK | Medardo de Terralba"
+            }
+          ]
+        },
+        {
+          "matchId": 509245324,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:18:40.000Z",
+          "dur": 1959,
+          "opponents": [
+            {
+              "profileId": 6774753,
+              "name": "cihuncihome"
+            },
+            {
+              "profileId": 14637437,
+              "name": "Rugs"
+            },
+            {
+              "profileId": 21926814,
+              "name": "\u98de\u9c7c"
+            },
+            {
+              "profileId": 25927356,
+              "name": "Caosp(A)nk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3409852,
+              "name": "Boywars"
+            },
+            {
+              "profileId": 6487529,
+              "name": "[MAD1] killmeifyoucan"
+            },
+            {
+              "profileId": 15357887,
+              "name": "Faizcafria"
+            }
+          ]
+        },
         {
           "matchId": 508981060,
           "civ": "Khmer",
@@ -7636,5 +7805,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

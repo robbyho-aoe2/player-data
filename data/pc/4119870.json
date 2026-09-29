@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 486,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1192,
         "peakRating": 1296
       },
@@ -7818,12 +7818,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1110,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1233,
+        "totalGames": 1112,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1261,
         "peakRating": 1302
       },
       "matches": [
+        {
+          "matchId": 510045407,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:28:21.000Z",
+          "dur": 1850,
+          "opponents": [
+            {
+              "profileId": 3467132,
+              "name": "ezechias"
+            },
+            {
+              "profileId": 5696271,
+              "name": "uli2099"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2457404,
+              "name": "moramarlon18"
+            }
+          ]
+        },
+        {
+          "matchId": 510043686,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:08:53.000Z",
+          "dur": 710,
+          "opponents": [
+            {
+              "profileId": 18489783,
+              "name": "Caio Pai"
+            },
+            {
+              "profileId": 1158541,
+              "name": "MagnificentBaby"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2457404,
+              "name": "moramarlon18"
+            }
+          ]
+        },
         {
           "matchId": 509038480,
           "civ": "Varangians",
@@ -37285,5 +37337,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

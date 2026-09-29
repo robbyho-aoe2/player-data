@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1000
       },
       "matches": [
@@ -76,12 +76,172 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 249,
-        "pulledDate": "2026-09-25",
-        "latestRating": 783,
+        "totalGames": 253,
+        "pulledDate": "2026-09-29",
+        "latestRating": 742,
         "peakRating": 856
       },
       "matches": [
+        {
+          "matchId": 509722455,
+          "civ": "Sicilians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:13:30.000Z",
+          "dur": 3675,
+          "opponents": [
+            {
+              "profileId": 25937383,
+              "name": "La Morte Noire"
+            },
+            {
+              "profileId": 4462270,
+              "name": "CucoxEvolution"
+            },
+            {
+              "profileId": 1889679,
+              "name": "Dean Filmore"
+            },
+            {
+              "profileId": 2761834,
+              "name": "Silver"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4641657,
+              "name": "E|E #"
+            },
+            {
+              "profileId": 3131689,
+              "name": "KorsanTaksi"
+            },
+            {
+              "profileId": 4205083,
+              "name": "\u00c7AKIR"
+            }
+          ]
+        },
+        {
+          "matchId": 509705768,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:11:29.000Z",
+          "dur": 3431,
+          "opponents": [
+            {
+              "profileId": 18371143,
+              "name": "wojmen2"
+            },
+            {
+              "profileId": 22794397,
+              "name": "CouthTortoise40"
+            },
+            {
+              "profileId": 26170898,
+              "name": "Pudgwes"
+            },
+            {
+              "profileId": 9194995,
+              "name": "Miss Priss"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15941789,
+              "name": "LittleChief"
+            },
+            {
+              "profileId": 4205083,
+              "name": "\u00c7AKIR"
+            },
+            {
+              "profileId": 4641657,
+              "name": "E|E #"
+            }
+          ]
+        },
+        {
+          "matchId": 509692669,
+          "civ": "Sicilians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:24:26.000Z",
+          "dur": 2225,
+          "opponents": [
+            {
+              "profileId": 24648402,
+              "name": "alexdoctorofsoul"
+            },
+            {
+              "profileId": 3133013,
+              "name": "Dougladhnn"
+            },
+            {
+              "profileId": 13233504,
+              "name": "TarsalQuotient7"
+            },
+            {
+              "profileId": 6147548,
+              "name": "GUSTAVO SOSA JR."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4205083,
+              "name": "\u00c7AKIR"
+            },
+            {
+              "profileId": 15941789,
+              "name": "LittleChief"
+            },
+            {
+              "profileId": 4641657,
+              "name": "E|E #"
+            }
+          ]
+        },
+        {
+          "matchId": 509620807,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:31:44.000Z",
+          "dur": 2239,
+          "opponents": [
+            {
+              "profileId": 24509499,
+              "name": "\u6d82\u5c71\u7ea2\u7ea2"
+            },
+            {
+              "profileId": 25556649,
+              "name": "2645982503"
+            },
+            {
+              "profileId": 23884194,
+              "name": "\u6709\u7f18\u518d\u89c1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15941789,
+              "name": "LittleChief"
+            },
+            {
+              "profileId": 4205083,
+              "name": "\u00c7AKIR"
+            }
+          ]
+        },
         {
           "matchId": 508491507,
           "civ": "Italians",
@@ -8429,5 +8589,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

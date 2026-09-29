@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1083,
         "peakRating": 1083
       },
@@ -1213,12 +1213,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1581,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1146,
+        "totalGames": 1584,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1115,
         "peakRating": 1292
       },
       "matches": [
+        {
+          "matchId": 510074998,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:40:38.000Z",
+          "dur": 1256,
+          "opponents": [
+            {
+              "profileId": 18262479,
+              "name": "\u5316\u5b66\u70bc\u91d1\u6cd5Al+Cu\u2192Au+Cl"
+            },
+            {
+              "profileId": 3514905,
+              "name": "\u6d17\u5fc3\u9769\u9762\u91cd\u65b0\u505a\u4ebaTownYan"
+            },
+            {
+              "profileId": 20941572,
+              "name": "\u4ece\u4e0d\u538b\u5821\u4e4b\u4eba"
+            },
+            {
+              "profileId": 10100480,
+              "name": "\u53eb\u58f0\u4e4c\u9e26\u54e5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1605617,
+              "name": "Sultan Steve0"
+            },
+            {
+              "profileId": 206949,
+              "name": "SavLord"
+            },
+            {
+              "profileId": 2060695,
+              "name": "Count Bellington"
+            }
+          ]
+        },
+        {
+          "matchId": 510070280,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:00:53.000Z",
+          "dur": 2222,
+          "opponents": [
+            {
+              "profileId": 17803574,
+              "name": "\u65b0\u624b\u6751\u4e94\u56db"
+            },
+            {
+              "profileId": 17372305,
+              "name": "KJI"
+            },
+            {
+              "profileId": 1875294,
+              "name": "Omega_U"
+            },
+            {
+              "profileId": 851031,
+              "name": "Chianti | AwE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 206949,
+              "name": "SavLord"
+            },
+            {
+              "profileId": 2060695,
+              "name": "Count Bellington"
+            },
+            {
+              "profileId": 1605617,
+              "name": "Sultan Steve0"
+            }
+          ]
+        },
+        {
+          "matchId": 510068080,
+          "civ": "Varangians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:38:24.000Z",
+          "dur": 1234,
+          "opponents": [
+            {
+              "profileId": 23222523,
+              "name": "Cutloose"
+            },
+            {
+              "profileId": 17372305,
+              "name": "KJI"
+            },
+            {
+              "profileId": 10267457,
+              "name": "Chef"
+            },
+            {
+              "profileId": 2913469,
+              "name": "AbIGwAteRmElOn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1605617,
+              "name": "Sultan Steve0"
+            },
+            {
+              "profileId": 2060695,
+              "name": "Count Bellington"
+            },
+            {
+              "profileId": 206949,
+              "name": "SavLord"
+            }
+          ]
+        },
         {
           "matchId": 508627062,
           "civ": "Danes",
@@ -57108,5 +57234,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 457,
-        "pulledDate": "2026-09-19",
-        "latestRating": 752,
+        "totalGames": 458,
+        "pulledDate": "2026-09-29",
+        "latestRating": 737,
         "peakRating": 859
       },
       "matches": [
+        {
+          "matchId": 509787120,
+          "civ": "Bulgarians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:41:28.000Z",
+          "dur": 2315,
+          "opponents": [
+            {
+              "profileId": 10552215,
+              "name": "NitsujLeRouge"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507649549,
           "civ": "Bulgarians",
@@ -7394,7 +7411,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-29",
         "latestRating": 1056,
         "peakRating": 1102
       },
@@ -9490,5 +9507,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 198,
-        "pulledDate": "2026-09-14",
-        "latestRating": 426,
+        "totalGames": 199,
+        "pulledDate": "2026-09-29",
+        "latestRating": 413,
         "peakRating": 740
       },
       "matches": [
+        {
+          "matchId": 509390598,
+          "civ": "Burmese",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:25:56.000Z",
+          "dur": 1949,
+          "opponents": [
+            {
+              "profileId": 25894448,
+              "name": "MrGreenTiger"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506169686,
           "civ": "Japanese",
@@ -3200,7 +3217,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 170,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-29",
         "latestRating": 715,
         "peakRating": 840
       },
@@ -8276,5 +8293,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

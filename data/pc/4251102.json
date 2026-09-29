@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1089,
         "peakRating": 1105
       },
@@ -214,12 +214,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1521,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1367,
+        "totalGames": 1522,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1377,
         "peakRating": 1427
       },
       "matches": [
+        {
+          "matchId": 510069276,
+          "civ": "Aztecs",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:50:11.000Z",
+          "dur": 822,
+          "opponents": [
+            {
+              "profileId": 19007246,
+              "name": "sada-aki"
+            },
+            {
+              "profileId": 23021957,
+              "name": "Mike"
+            },
+            {
+              "profileId": 24202803,
+              "name": "smallpox04"
+            },
+            {
+              "profileId": 3198577,
+              "name": "Alpenhime"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10924362,
+              "name": "lightslee"
+            },
+            {
+              "profileId": 15532084,
+              "name": "Dean"
+            },
+            {
+              "profileId": 9835817,
+              "name": "Papiz96"
+            }
+          ]
+        },
         {
           "matchId": 509065584,
           "civ": "Huns",
@@ -39085,5 +39127,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

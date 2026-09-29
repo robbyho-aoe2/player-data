@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 56,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1170,
         "peakRating": 1254
       },
@@ -942,12 +942,168 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 240,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1214,
+        "totalGames": 246,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1199,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 510094552,
+          "civ": "Malians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:53:21.000Z",
+          "dur": 2429,
+          "opponents": [
+            {
+              "profileId": 2670114,
+              "name": "Barney"
+            },
+            {
+              "profileId": 4203587,
+              "name": "Smart on"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18594882,
+              "name": "\u76ae\u86cb\u4e0d\u662f\u86cb"
+            }
+          ]
+        },
+        {
+          "matchId": 510087600,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:12:16.000Z",
+          "dur": 2337,
+          "opponents": [
+            {
+              "profileId": 21766202,
+              "name": "darienvasquez95"
+            },
+            {
+              "profileId": 487480,
+              "name": "Walter2000"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18594882,
+              "name": "\u76ae\u86cb\u4e0d\u662f\u86cb"
+            }
+          ]
+        },
+        {
+          "matchId": 510082716,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:38:48.000Z",
+          "dur": 1840,
+          "opponents": [
+            {
+              "profileId": 19655002,
+              "name": "f.stahmer"
+            },
+            {
+              "profileId": 9686854,
+              "name": "RangerKraken"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18594882,
+              "name": "\u76ae\u86cb\u4e0d\u662f\u86cb"
+            }
+          ]
+        },
+        {
+          "matchId": 509881197,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:21:21.000Z",
+          "dur": 1133,
+          "opponents": [
+            {
+              "profileId": 221685,
+              "name": "valmircampolino"
+            },
+            {
+              "profileId": 3444829,
+              "name": "lenhhoxung"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18594882,
+              "name": "\u76ae\u86cb\u4e0d\u662f\u86cb"
+            }
+          ]
+        },
+        {
+          "matchId": 509876311,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:54:47.000Z",
+          "dur": 1228,
+          "opponents": [
+            {
+              "profileId": 6076154,
+              "name": "namlongdl"
+            },
+            {
+              "profileId": 6072983,
+              "name": "Wild Boar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18594882,
+              "name": "\u76ae\u86cb\u4e0d\u662f\u86cb"
+            }
+          ]
+        },
+        {
+          "matchId": 509872364,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:32:42.000Z",
+          "dur": 1045,
+          "opponents": [
+            {
+              "profileId": 13971126,
+              "name": "1453sultan"
+            },
+            {
+              "profileId": 17986896,
+              "name": "vululsss"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18594882,
+              "name": "\u76ae\u86cb\u4e0d\u662f\u86cb"
+            }
+          ]
+        },
         {
           "matchId": 509106204,
           "civ": "Malians",
@@ -7511,5 +7667,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

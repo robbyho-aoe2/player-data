@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 767,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1172,
         "peakRating": 1260
       },
@@ -12304,12 +12304,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1628,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1168,
+        "totalGames": 1630,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1159,
         "peakRating": 1271
       },
       "matches": [
+        {
+          "matchId": 509644891,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:11:52.000Z",
+          "dur": 1833,
+          "opponents": [
+            {
+              "profileId": 25189551,
+              "name": "Zozimbo"
+            },
+            {
+              "profileId": 25559866,
+              "name": "Cody"
+            },
+            {
+              "profileId": 1324566,
+              "name": "Saumon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2450790,
+              "name": "croissant"
+            },
+            {
+              "profileId": 2011318,
+              "name": "Mindmelter"
+            }
+          ]
+        },
+        {
+          "matchId": 509637276,
+          "civ": "Romans",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:40:44.000Z",
+          "dur": 1650,
+          "opponents": [
+            {
+              "profileId": 319311,
+              "name": "Ellie"
+            },
+            {
+              "profileId": 3271489,
+              "name": "EastAdriano87"
+            },
+            {
+              "profileId": 2460880,
+              "name": "Lord Tiquira"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2011318,
+              "name": "Mindmelter"
+            },
+            {
+              "profileId": 2450790,
+              "name": "croissant"
+            }
+          ]
+        },
         {
           "matchId": 509154014,
           "civ": "Magyars",
@@ -60419,5 +60487,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

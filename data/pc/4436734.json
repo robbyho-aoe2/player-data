@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 909,
-        "pulledDate": "2026-09-21",
-        "latestRating": 855,
+        "totalGames": 910,
+        "pulledDate": "2026-09-29",
+        "latestRating": 838,
         "peakRating": 940
       },
       "matches": [
+        {
+          "matchId": 509779781,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:00:50.000Z",
+          "dur": 1832,
+          "opponents": [
+            {
+              "profileId": 25445588,
+              "name": "mentalite"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508075708,
           "civ": "Bulgarians",
@@ -15482,12 +15499,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 391,
-        "pulledDate": "2026-09-21",
-        "latestRating": 906,
+        "totalGames": 392,
+        "pulledDate": "2026-09-29",
+        "latestRating": 921,
         "peakRating": 1033
       },
       "matches": [
+        {
+          "matchId": 509754433,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:38:57.000Z",
+          "dur": 2037,
+          "opponents": [
+            {
+              "profileId": 24054042,
+              "name": "JLoos"
+            },
+            {
+              "profileId": 4270974,
+              "name": "sabotaaa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25716370,
+              "name": "\u00c4lais"
+            }
+          ]
+        },
         {
           "matchId": 507863519,
           "civ": "Bulgarians",
@@ -27252,5 +27295,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

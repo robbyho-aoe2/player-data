@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-29",
         "latestRating": 824
       },
       "matches": [
@@ -300,12 +300,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 546,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1315,
+        "totalGames": 550,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1323,
         "peakRating": 1425
       },
       "matches": [
+        {
+          "matchId": 509686907,
+          "civ": "Saracens",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:02:42.000Z",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 2202008,
+              "name": "Jakwieczo"
+            },
+            {
+              "profileId": 2339475,
+              "name": "Jandei"
+            },
+            {
+              "profileId": 3112193,
+              "name": "JPR2405"
+            },
+            {
+              "profileId": 7394368,
+              "name": "7shuttlecock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 875527,
+              "name": "Fruit"
+            },
+            {
+              "profileId": 12042292,
+              "name": "\u8001\u5f90"
+            },
+            {
+              "profileId": 25951112,
+              "name": "\u78b0\u6211\u6751\u6c11\u5c31\u6295"
+            }
+          ]
+        },
+        {
+          "matchId": 509676517,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:20:31.000Z",
+          "dur": 1833,
+          "opponents": [
+            {
+              "profileId": 2917561,
+              "name": "-LN- manqueo"
+            },
+            {
+              "profileId": 24672653,
+              "name": "bixo"
+            },
+            {
+              "profileId": 12489294,
+              "name": "FlawlessMessage"
+            },
+            {
+              "profileId": 5358021,
+              "name": "damiansima"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25951112,
+              "name": "\u78b0\u6211\u6751\u6c11\u5c31\u6295"
+            },
+            {
+              "profileId": 19678169,
+              "name": "\u65e0\u8bed"
+            },
+            {
+              "profileId": 12042292,
+              "name": "\u8001\u5f90"
+            }
+          ]
+        },
+        {
+          "matchId": 509668206,
+          "civ": "Franks",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:47:00.000Z",
+          "dur": 1773,
+          "opponents": [
+            {
+              "profileId": 153,
+              "name": "Mknolix"
+            },
+            {
+              "profileId": 6894291,
+              "name": "zer0ths"
+            },
+            {
+              "profileId": 10339509,
+              "name": "Straat Kat"
+            },
+            {
+              "profileId": 23827696,
+              "name": "P2Phantom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12042292,
+              "name": "\u8001\u5f90"
+            },
+            {
+              "profileId": 19678169,
+              "name": "\u65e0\u8bed"
+            },
+            {
+              "profileId": 25951112,
+              "name": "\u78b0\u6211\u6751\u6c11\u5c31\u6295"
+            }
+          ]
+        },
+        {
+          "matchId": 509663167,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:25:48.000Z",
+          "dur": 886,
+          "opponents": [
+            {
+              "profileId": 6440263,
+              "name": "\u5c71\u6c34\u5148\u751f"
+            },
+            {
+              "profileId": 3015706,
+              "name": "\u9493\u4f60\u5417\u9493"
+            },
+            {
+              "profileId": 25127164,
+              "name": "I Raided Riley"
+            },
+            {
+              "profileId": 4067426,
+              "name": "Mr. Bolivar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12042292,
+              "name": "\u8001\u5f90"
+            },
+            {
+              "profileId": 19678169,
+              "name": "\u65e0\u8bed"
+            },
+            {
+              "profileId": 25951112,
+              "name": "\u78b0\u6211\u6751\u6c11\u5c31\u6295"
+            }
+          ]
+        },
         {
           "matchId": 506348244,
           "civ": "Wei",
@@ -19964,5 +20132,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

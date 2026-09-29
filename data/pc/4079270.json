@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 140,
-        "pulledDate": "2026-09-12",
+        "pulledDate": "2026-09-29",
         "latestRating": 1097,
         "peakRating": 1193
       },
@@ -2269,12 +2269,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 461,
-        "pulledDate": "2026-09-12",
-        "latestRating": 1250,
+        "totalGames": 465,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1264,
         "peakRating": 1332
       },
       "matches": [
+        {
+          "matchId": 509517233,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:39:05.000Z",
+          "dur": 2059,
+          "opponents": [
+            {
+              "profileId": 19855288,
+              "name": "asbt5678"
+            },
+            {
+              "profileId": 766180,
+              "name": "Defenestrator"
+            },
+            {
+              "profileId": 2173169,
+              "name": "Sir bacardi"
+            },
+            {
+              "profileId": 11565912,
+              "name": "Big Albatroz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3470167,
+              "name": "DLonger7"
+            },
+            {
+              "profileId": 5729577,
+              "name": "RS.Newp9772"
+            },
+            {
+              "profileId": 19583511,
+              "name": "-x9"
+            }
+          ]
+        },
+        {
+          "matchId": 509510869,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:04:14.000Z",
+          "dur": 1845,
+          "opponents": [
+            {
+              "profileId": 401462,
+              "name": "LavarBall"
+            },
+            {
+              "profileId": 19871879,
+              "name": "Sunny"
+            },
+            {
+              "profileId": 5813229,
+              "name": "lkm543"
+            },
+            {
+              "profileId": 17118811,
+              "name": "Guerreromix1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3470167,
+              "name": "DLonger7"
+            },
+            {
+              "profileId": 5729577,
+              "name": "RS.Newp9772"
+            },
+            {
+              "profileId": 19583511,
+              "name": "-x9"
+            }
+          ]
+        },
+        {
+          "matchId": 509498363,
+          "civ": "Goths",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:51:34.000Z",
+          "dur": 1777,
+          "opponents": [
+            {
+              "profileId": 1821078,
+              "name": "darkdudu"
+            },
+            {
+              "profileId": 18150562,
+              "name": "Tilan Borrego"
+            },
+            {
+              "profileId": 11654945,
+              "name": "DougSh4rK"
+            },
+            {
+              "profileId": 4455206,
+              "name": "Siqueira"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19583511,
+              "name": "-x9"
+            },
+            {
+              "profileId": 5729577,
+              "name": "RS.Newp9772"
+            },
+            {
+              "profileId": 3470167,
+              "name": "DLonger7"
+            }
+          ]
+        },
+        {
+          "matchId": 509491319,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:10:06.000Z",
+          "dur": 2215,
+          "opponents": [
+            {
+              "profileId": 21647129,
+              "name": "DKT | Franklin"
+            },
+            {
+              "profileId": 23157542,
+              "name": "MoonlightS96"
+            },
+            {
+              "profileId": 14512171,
+              "name": "Mangudai de Oakley"
+            },
+            {
+              "profileId": 15511330,
+              "name": "BiggM4k"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19583511,
+              "name": "-x9"
+            },
+            {
+              "profileId": 25207915,
+              "name": "TomJerry"
+            },
+            {
+              "profileId": 1948755,
+              "name": "|GaoeG| Ratarax"
+            }
+          ]
+        },
         {
           "matchId": 505789930,
           "civ": "Vietnamese",
@@ -18899,5 +19067,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

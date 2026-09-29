@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 180,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1399,
+        "totalGames": 183,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1380,
         "peakRating": 1509
       },
       "matches": [
+        {
+          "matchId": 509660490,
+          "civ": "Cumans",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:14:21.000Z",
+          "dur": 1554,
+          "opponents": [
+            {
+              "profileId": 2173962,
+              "name": "Vanhelsing7137"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509651888,
+          "civ": "Celts",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:39:51.000Z",
+          "dur": 1995,
+          "opponents": [
+            {
+              "profileId": 5794099,
+              "name": "DIABLO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509635235,
+          "civ": "Sicilians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:32:40.000Z",
+          "dur": 1828,
+          "opponents": [
+            {
+              "profileId": 2898126,
+              "name": "Licenciado en pegarle al perro"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508020564,
           "civ": "Poles",
@@ -3089,12 +3140,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 722,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1459,
+        "totalGames": 723,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1439,
         "peakRating": 1604
       },
       "matches": [
+        {
+          "matchId": 509643520,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:06:30.000Z",
+          "dur": 1968,
+          "opponents": [
+            {
+              "profileId": 25968865,
+              "name": "\ub0a8\uc870\uc120\uc0ac\ub78c"
+            },
+            {
+              "profileId": 8993147,
+              "name": "BaniWang"
+            },
+            {
+              "profileId": 5624022,
+              "name": "Advanced Micro Devices"
+            },
+            {
+              "profileId": 20104020,
+              "name": "Hakka"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1097487,
+              "name": "Svodoo"
+            },
+            {
+              "profileId": 21707799,
+              "name": "time0wner"
+            },
+            {
+              "profileId": 2245704,
+              "name": "DerAbwurster"
+            }
+          ]
+        },
         {
           "matchId": 507781344,
           "civ": "Vietnamese",
@@ -31895,5 +31988,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

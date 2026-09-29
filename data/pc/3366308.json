@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 93,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1608,
+        "totalGames": 94,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1623,
         "peakRating": 1679
       },
       "matches": [
+        {
+          "matchId": 509833716,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:04:35.000Z",
+          "dur": 1294,
+          "opponents": [
+            {
+              "profileId": 576122,
+              "name": "Acromar"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507533841,
           "civ": "Portuguese",
@@ -1521,7 +1538,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 474,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-29",
         "latestRating": 1477,
         "peakRating": 1585
       },
@@ -16803,5 +16820,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

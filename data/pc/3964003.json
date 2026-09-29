@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 112,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-29",
         "latestRating": 1125,
         "peakRating": 1158
       },
@@ -1821,12 +1821,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 148,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1195,
+        "totalGames": 152,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1191,
         "peakRating": 1213
       },
       "matches": [
+        {
+          "matchId": 509253532,
+          "civ": "Magyars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:59:59.000Z",
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 23628056,
+              "name": "Sam_Sepiol"
+            },
+            {
+              "profileId": 3570906,
+              "name": "CFranulic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9979071,
+              "name": "yerko.mitrovic"
+            }
+          ]
+        },
+        {
+          "matchId": 509252699,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:55:44.000Z",
+          "dur": 100,
+          "opponents": [
+            {
+              "profileId": 808567,
+              "name": "CHUPA <AUS>"
+            },
+            {
+              "profileId": 1961326,
+              "name": "Ganar Ganar Ganar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9979071,
+              "name": "yerko.mitrovic"
+            }
+          ]
+        },
+        {
+          "matchId": 509244169,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:12:53.000Z",
+          "dur": 2318,
+          "opponents": [
+            {
+              "profileId": 23628056,
+              "name": "Sam_Sepiol"
+            },
+            {
+              "profileId": 3570906,
+              "name": "CFranulic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9979071,
+              "name": "yerko.mitrovic"
+            }
+          ]
+        },
+        {
+          "matchId": 509240815,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T01:55:26.000Z",
+          "dur": 818,
+          "opponents": [
+            {
+              "profileId": 215261,
+              "name": "Hastur"
+            },
+            {
+              "profileId": 259843,
+              "name": "IIIIIIIII"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9979071,
+              "name": "yerko.mitrovic"
+            }
+          ]
+        },
         {
           "matchId": 497065510,
           "civ": "Magyars",
@@ -6052,5 +6156,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

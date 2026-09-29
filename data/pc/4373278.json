@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 137,
-        "pulledDate": "2026-09-25",
-        "latestRating": 758,
+        "totalGames": 140,
+        "pulledDate": "2026-09-29",
+        "latestRating": 808,
         "peakRating": 866
       },
       "matches": [
+        {
+          "matchId": 509930342,
+          "civ": "Franks",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:33:23.000Z",
+          "dur": 3061,
+          "opponents": [
+            {
+              "profileId": 2529846,
+              "name": "davalgo_92"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509902335,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:14:49.000Z",
+          "dur": 1549,
+          "opponents": [
+            {
+              "profileId": 25976717,
+              "name": "Fen_x"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509676093,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:18:39.000Z",
+          "dur": 1506,
+          "opponents": [
+            {
+              "profileId": 24614296,
+              "name": "Materia_Fox"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508943019,
           "civ": "Ethiopians",
@@ -2359,7 +2410,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 47,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 847,
         "peakRating": 998
       },
@@ -3695,5 +3746,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Steam"
 }

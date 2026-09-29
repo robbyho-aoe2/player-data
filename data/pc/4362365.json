@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 688,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1632,
+        "totalGames": 694,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1628,
         "peakRating": 1732
       },
       "matches": [
+        {
+          "matchId": 509997125,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:28:57.000Z",
+          "dur": 2224,
+          "opponents": [
+            {
+              "profileId": 3291352,
+              "name": "Cochesito"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509993174,
+          "civ": "Danes",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:03:46.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 11930566,
+              "name": "RD | Dominicano"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509988343,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:32:12.000Z",
+          "dur": 1746,
+          "opponents": [
+            {
+              "profileId": 300469,
+              "name": "gelgirda"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509983240,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:59:19.000Z",
+          "dur": 1714,
+          "opponents": [
+            {
+              "profileId": 2735885,
+              "name": "MZTK | Evil Xandro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509980152,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:40:35.000Z",
+          "dur": 1062,
+          "opponents": [
+            {
+              "profileId": 721397,
+              "name": "Luther Blissett"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509974438,
+          "civ": "Danes",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:06:16.000Z",
+          "dur": 1360,
+          "opponents": [
+            {
+              "profileId": 15649359,
+              "name": "Elfumador"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508093548,
           "civ": "Vikings",
@@ -11043,7 +11145,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1686,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1482,
         "peakRating": 1577
       },
@@ -59434,5 +59536,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

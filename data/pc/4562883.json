@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1668,
         "peakRating": 1668
       },
@@ -1181,12 +1181,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 282,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1476,
+        "totalGames": 284,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1454,
         "peakRating": 1534
       },
       "matches": [
+        {
+          "matchId": 509689634,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:12:54.000Z",
+          "dur": 1149,
+          "opponents": [
+            {
+              "profileId": 2304691,
+              "name": "Sace"
+            },
+            {
+              "profileId": 2709891,
+              "name": "King-Arthur"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18274942,
+              "name": "Le Roi"
+            }
+          ]
+        },
+        {
+          "matchId": 509687861,
+          "civ": "Japanese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:06:19.000Z",
+          "dur": 330,
+          "opponents": [
+            {
+              "profileId": 1430833,
+              "name": "Rabe3000"
+            },
+            {
+              "profileId": 697055,
+              "name": "\u6ce1\u9505"
+            },
+            {
+              "profileId": 2445846,
+              "name": "DoubleZX"
+            },
+            {
+              "profileId": 2055085,
+              "name": "Sammy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 609650,
+              "name": "Ranchy"
+            },
+            {
+              "profileId": 4662409,
+              "name": "Gasior"
+            },
+            {
+              "profileId": 2214887,
+              "name": "|MP| layc0ni"
+            }
+          ]
+        },
         {
           "matchId": 509193188,
           "civ": "Bengalis",
@@ -8675,5 +8743,6 @@
   },
   "country": "by",
   "countryIcon": "\ud83c\udde7\ud83c\uddfe",
-  "countryName": "Belarus"
+  "countryName": "Belarus",
+  "platform": "Steam"
 }

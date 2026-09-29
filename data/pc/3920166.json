@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2196,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1112,
         "peakRating": 1396
       },
@@ -19846,12 +19846,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1452,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1243,
+        "totalGames": 1454,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1241,
         "peakRating": 1605
       },
       "matches": [
+        {
+          "matchId": 509518178,
+          "civ": "Celts",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:43:34.000Z",
+          "dur": 656,
+          "opponents": [
+            {
+              "profileId": 9464581,
+              "name": "Gingerpatches"
+            },
+            {
+              "profileId": 394230,
+              "name": "Ronie"
+            },
+            {
+              "profileId": 3135398,
+              "name": "molina_229"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18411364,
+              "name": "taki\u82f1\u8bed\u8bfe\u7761\u89c9"
+            },
+            {
+              "profileId": 319300,
+              "name": "Soyo\u4e0d\u7528\u5b78\u82f1\u6587"
+            }
+          ]
+        },
+        {
+          "matchId": 509514422,
+          "civ": "Bohemians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:23:33.000Z",
+          "dur": 1062,
+          "opponents": [
+            {
+              "profileId": 310879,
+              "name": "Abate"
+            },
+            {
+              "profileId": 27421,
+              "name": "Firestorm1043"
+            },
+            {
+              "profileId": 24878745,
+              "name": "Hero"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18411364,
+              "name": "taki\u82f1\u8bed\u8bfe\u7761\u89c9"
+            },
+            {
+              "profileId": 319300,
+              "name": "Soyo\u4e0d\u7528\u5b78\u82f1\u6587"
+            }
+          ]
+        },
         {
           "matchId": 508870764,
           "civ": "Persians",
@@ -33872,5 +33940,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

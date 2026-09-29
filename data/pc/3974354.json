@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 175,
-        "pulledDate": "2026-09-25",
-        "latestRating": 835,
+        "totalGames": 179,
+        "pulledDate": "2026-09-29",
+        "latestRating": 867,
         "peakRating": 915
       },
       "matches": [
+        {
+          "matchId": 509279409,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T05:36:41.000Z",
+          "dur": 1627,
+          "opponents": [
+            {
+              "profileId": 19878443,
+              "name": "Azazel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509273859,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:57:54.000Z",
+          "dur": 1140,
+          "opponents": [
+            {
+              "profileId": 20965765,
+              "name": "raghu123six"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509272268,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:46:50.000Z",
+          "dur": 530,
+          "opponents": [
+            {
+              "profileId": 18487765,
+              "name": "Mc Mefistofel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509263521,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:54:05.000Z",
+          "dur": 1674,
+          "opponents": [
+            {
+              "profileId": 4494512,
+              "name": "Sasquatch"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509037175,
           "civ": "Ethiopians",
@@ -3004,12 +3072,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 162,
-        "pulledDate": "2026-09-25",
-        "latestRating": 904,
+        "totalGames": 164,
+        "pulledDate": "2026-09-29",
+        "latestRating": 905,
         "peakRating": 1099
       },
       "matches": [
+        {
+          "matchId": 509276973,
+          "civ": "Byzantines",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T05:18:56.000Z",
+          "dur": 1464,
+          "opponents": [
+            {
+              "profileId": 24665653,
+              "name": "zamithdaniel"
+            },
+            {
+              "profileId": 25713431,
+              "name": "Dovahkyn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12996636,
+              "name": "SpiritualAxis77"
+            }
+          ]
+        },
+        {
+          "matchId": 509268558,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:23:45.000Z",
+          "dur": 1313,
+          "opponents": [
+            {
+              "profileId": 25898481,
+              "name": "\u9662\u957f"
+            },
+            {
+              "profileId": 25889564,
+              "name": "\u9b3c\u7267\u554a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8711235,
+              "name": "richardcastores"
+            }
+          ]
+        },
         {
           "matchId": 509033950,
           "civ": "Persians",
@@ -7675,5 +7795,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 25,
-        "pulledDate": "2026-09-26",
-        "latestRating": 734,
+        "totalGames": 27,
+        "pulledDate": "2026-09-29",
+        "latestRating": 701,
         "peakRating": 749
       },
       "matches": [
+        {
+          "matchId": 509584524,
+          "civ": "Teutons",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:03:12.000Z",
+          "dur": 2309,
+          "opponents": [
+            {
+              "profileId": 25645654,
+              "name": "Douglas505_225"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509579035,
+          "civ": "Teutons",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:26:03.000Z",
+          "dur": 2028,
+          "opponents": [
+            {
+              "profileId": 24725744,
+              "name": "Stefan1655"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499934147,
           "civ": "Teutons",
@@ -455,7 +489,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 33,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 719,
         "peakRating": 828
       },
@@ -1323,5 +1357,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

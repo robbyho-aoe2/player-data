@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 748,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "latestRating": 1517,
         "peakRating": 1630
       },
@@ -6789,12 +6789,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4513,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1247,
+        "totalGames": 4515,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1245,
         "peakRating": 1612
       },
       "matches": [
+        {
+          "matchId": 510000673,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:51:52.000Z",
+          "dur": 1072,
+          "opponents": [
+            {
+              "profileId": 19787486,
+              "name": "El Fantasma de Pancho Villa"
+            },
+            {
+              "profileId": 2390746,
+              "name": "Solaire (Praise the Sun)"
+            },
+            {
+              "profileId": 250656,
+              "name": "FullmetalZimm"
+            },
+            {
+              "profileId": 234650,
+              "name": "jaaakooo27"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7835,
+              "name": "moi"
+            },
+            {
+              "profileId": 17859241,
+              "name": "Chelowolf"
+            },
+            {
+              "profileId": 9067611,
+              "name": "DANICW82"
+            }
+          ]
+        },
+        {
+          "matchId": 509995501,
+          "civ": "Armenians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:19:38.000Z",
+          "dur": 1836,
+          "opponents": [
+            {
+              "profileId": 6441812,
+              "name": "mR_GrincH_"
+            },
+            {
+              "profileId": 9759429,
+              "name": "\u674e\u4f73\u9065\u8036\u8036\u8036"
+            },
+            {
+              "profileId": 11089954,
+              "name": "Keanoob Reeves"
+            },
+            {
+              "profileId": 8843246,
+              "name": "[HOBO]Drifter"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9067611,
+              "name": "DANICW82"
+            },
+            {
+              "profileId": 250656,
+              "name": "FullmetalZimm"
+            },
+            {
+              "profileId": 2390746,
+              "name": "Solaire (Praise the Sun)"
+            }
+          ]
+        },
         {
           "matchId": 503510978,
           "civ": "Teutons",
@@ -47904,5 +47988,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

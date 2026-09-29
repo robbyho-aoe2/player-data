@@ -6,25 +6,178 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3025,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1525,
+        "totalGames": 3034,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1481,
         "peakRating": 1620
       },
       "matches": [
+        {
+          "matchId": 510104840,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:50:30.000Z",
+          "dur": 1156,
+          "opponents": [
+            {
+              "profileId": 2249013,
+              "name": "Mister Piccolo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510090986,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:31:32.000Z",
+          "dur": 2065,
+          "opponents": [
+            {
+              "profileId": 26023507,
+              "name": "Kakasi Hatake"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509881613,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:22:28.000Z",
+          "dur": 1634,
+          "opponents": [
+            {
+              "profileId": 3599380,
+              "name": "mil0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509878744,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:07:37.000Z",
+          "dur": 750,
+          "opponents": [
+            {
+              "profileId": 231258,
+              "name": "unicorn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509866064,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:53:10.000Z",
+          "dur": 2393,
+          "opponents": [
+            {
+              "profileId": 26124519,
+              "name": "\u9002\u624d\u76f8\u620f\u8033"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509860696,
+          "civ": "Persians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:17:14.000Z",
+          "dur": 731,
+          "opponents": [
+            {
+              "profileId": 7925563,
+              "name": "mzk_TsushimaRiko"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509616776,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:12:01.000Z",
+          "dur": 1916,
+          "opponents": [
+            {
+              "profileId": 2449003,
+              "name": "FK"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509609504,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:36:36.000Z",
+          "dur": 1554,
+          "opponents": [
+            {
+              "profileId": 15356125,
+              "name": "frankee"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509606728,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:22:09.000Z",
+          "dur": 818,
+          "opponents": [
+            {
+              "profileId": 18015351,
+              "name": "Ellis"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509109021,
           "civ": "Khmer",
@@ -48527,7 +48680,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 118,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "peakRating": 1291,
         "latestRating": 1239
       },
@@ -53111,5 +53264,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 373,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1204,
         "peakRating": 1335
       },
@@ -6000,12 +6000,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1381,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1235,
+        "totalGames": 1384,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1248,
         "peakRating": 1333
       },
       "matches": [
+        {
+          "matchId": 509729865,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:43:40.000Z",
+          "dur": 1978,
+          "opponents": [
+            {
+              "profileId": 1638449,
+              "name": "Agustinjau"
+            },
+            {
+              "profileId": 1694445,
+              "name": "Pato Pekin\u00e9s"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5373208,
+              "name": "siemionides"
+            }
+          ]
+        },
+        {
+          "matchId": 509719676,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:02:45.000Z",
+          "dur": 1975,
+          "opponents": [
+            {
+              "profileId": 8491882,
+              "name": "Apoptosis"
+            },
+            {
+              "profileId": 2086890,
+              "name": "Deilos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5373208,
+              "name": "siemionides"
+            }
+          ]
+        },
+        {
+          "matchId": 509715696,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:47:28.000Z",
+          "dur": 709,
+          "opponents": [
+            {
+              "profileId": 1208119,
+              "name": "Brisingr"
+            },
+            {
+              "profileId": 2291011,
+              "name": "S18"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5373208,
+              "name": "siemionides"
+            }
+          ]
+        },
         {
           "matchId": 508077452,
           "civ": "Teutons",
@@ -47587,5 +47665,6 @@
   },
   "country": "pl",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
-  "countryName": "Poland"
+  "countryName": "Poland",
+  "platform": "Steam"
 }

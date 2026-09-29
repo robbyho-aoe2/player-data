@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1510,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1189,
+        "totalGames": 1514,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1193,
         "peakRating": 1225
       },
       "matches": [
+        {
+          "matchId": 510105482,
+          "civ": "Byzantines",
+          "map": "Hideout",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:54:14.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 3575361,
+              "name": "katzzu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510099165,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:19:09.000Z",
+          "dur": 1555,
+          "opponents": [
+            {
+              "profileId": 23746964,
+              "name": "phuochoang1510"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509114556,
+          "civ": "Byzantines",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:20:21.000Z",
+          "dur": 1746,
+          "opponents": [
+            {
+              "profileId": 2839320,
+              "name": "alexlau.munhean"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509107995,
+          "civ": "Byzantines",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:48:58.000Z",
+          "dur": 1571,
+          "opponents": [
+            {
+              "profileId": 89829,
+              "name": "MountainControl"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509102599,
           "civ": "Byzantines",
@@ -25700,7 +25768,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 729,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1097,
         "peakRating": 1162
       },
@@ -47696,5 +47764,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Steam"
 }

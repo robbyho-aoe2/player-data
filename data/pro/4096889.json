@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 264,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 2036,
         "peakRating": 2232
       },
@@ -4253,12 +4253,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 386,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1583,
+        "totalGames": 388,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1569,
         "peakRating": 1719
       },
       "matches": [
+        {
+          "matchId": 509968954,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:34:10.000Z",
+          "dur": 1549,
+          "opponents": [
+            {
+              "profileId": 15453849,
+              "name": "Sun"
+            },
+            {
+              "profileId": 4678016,
+              "name": "IneedMoney$"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 502310,
+              "name": "luizcspinha"
+            }
+          ]
+        },
+        {
+          "matchId": 509962671,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:01:08.000Z",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 20198463,
+              "name": "Bubblegum_BTW"
+            },
+            {
+              "profileId": 1516626,
+              "name": "jimmyjedi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 502310,
+              "name": "luizcspinha"
+            }
+          ]
+        },
         {
           "matchId": 508305320,
           "civ": "Maya",
@@ -14819,5 +14871,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

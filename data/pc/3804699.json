@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 91,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "latestRating": 854,
         "peakRating": 1011
       },
@@ -1576,12 +1576,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 392,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1115,
+        "totalGames": 393,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1133,
         "peakRating": 1175
       },
       "matches": [
+        {
+          "matchId": 509521504,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:01:35.000Z",
+          "dur": 1566,
+          "opponents": [
+            {
+              "profileId": 3400597,
+              "name": "TikiTiki95"
+            },
+            {
+              "profileId": 25927356,
+              "name": "Caosp(A)nk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3812479,
+              "name": "King PbZER4"
+            }
+          ]
+        },
         {
           "matchId": 505163480,
           "civ": "Poles",
@@ -13115,5 +13141,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

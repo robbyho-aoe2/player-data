@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 658,
         "peakRating": 689
       },
@@ -205,12 +205,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 290,
-        "pulledDate": "2026-09-25",
-        "latestRating": 765,
+        "totalGames": 293,
+        "pulledDate": "2026-09-29",
+        "latestRating": 752,
         "peakRating": 987
       },
       "matches": [
+        {
+          "matchId": 510105697,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:55:51.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1078695,
+              "name": "\u516b\u6708\u5341\u4e94\u5713\u53c8\u5713"
+            },
+            {
+              "profileId": 6770919,
+              "name": "ABCDEFG"
+            },
+            {
+              "profileId": 1866681,
+              "name": "110"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3467118,
+              "name": "Michael\u5609"
+            },
+            {
+              "profileId": 3457053,
+              "name": "XIU"
+            }
+          ]
+        },
+        {
+          "matchId": 510099310,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:21:05.000Z",
+          "dur": 1849,
+          "opponents": [
+            {
+              "profileId": 6525247,
+              "name": "Lordcreos"
+            },
+            {
+              "profileId": 1866681,
+              "name": "110"
+            },
+            {
+              "profileId": 4495513,
+              "name": "\u5341\u4e03\u5d57\u7684\u55ae\u8eca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3467118,
+              "name": "Michael\u5609"
+            },
+            {
+              "profileId": 3457053,
+              "name": "XIU"
+            }
+          ]
+        },
+        {
+          "matchId": 509883728,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:34:36.000Z",
+          "dur": 2056,
+          "opponents": [
+            {
+              "profileId": 4535566,
+              "name": "\u9002\u5408\u7ed3\u5a5a\u7684\u597d\u59b9\u59b9"
+            },
+            {
+              "profileId": 4535535,
+              "name": "\u9053\u516b\u767e\u91cc"
+            },
+            {
+              "profileId": 4535588,
+              "name": "76561199122638748"
+            },
+            {
+              "profileId": 4537377,
+              "name": "\u9047\u4e8b\u4e0d\u51b3\u9009\u5929\u671d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 806461,
+              "name": "aa621514"
+            },
+            {
+              "profileId": 3457053,
+              "name": "XIU"
+            },
+            {
+              "profileId": 3467118,
+              "name": "Michael\u5609"
+            }
+          ]
+        },
         {
           "matchId": 508435482,
           "civ": "Sicilians",
@@ -12033,5 +12143,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

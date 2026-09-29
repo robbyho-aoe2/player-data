@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 375,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1205,
         "peakRating": 1288
       },
@@ -6029,12 +6029,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1880,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1236,
+        "totalGames": 1881,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1254,
         "peakRating": 1411
       },
       "matches": [
+        {
+          "matchId": 509312389,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:32:56.000Z",
+          "dur": 1928,
+          "opponents": [
+            {
+              "profileId": 19625476,
+              "name": "WolffJesu"
+            },
+            {
+              "profileId": 5629822,
+              "name": "MattVini"
+            },
+            {
+              "profileId": 796872,
+              "name": "Braian"
+            },
+            {
+              "profileId": 607438,
+              "name": "EzPz BRO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22391583,
+              "name": "Hawke"
+            },
+            {
+              "profileId": 22384888,
+              "name": "bigups"
+            },
+            {
+              "profileId": 1715880,
+              "name": "twitch.tv/TheSeniorSmurf"
+            }
+          ]
+        },
         {
           "matchId": 508603660,
           "civ": "Byzantines",
@@ -76076,5 +76118,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

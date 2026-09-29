@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 746,
         "peakRating": 778
       },
@@ -222,12 +222,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 350,
-        "pulledDate": "2026-09-25",
-        "latestRating": 650,
+        "totalGames": 355,
+        "pulledDate": "2026-09-29",
+        "latestRating": 704,
         "peakRating": 841
       },
       "matches": [
+        {
+          "matchId": 509399644,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:07:09.000Z",
+          "dur": 2249,
+          "opponents": [
+            {
+              "profileId": 9191297,
+              "name": "King Kong"
+            },
+            {
+              "profileId": 24095802,
+              "name": "Leon926372"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846528,
+              "name": "meddii"
+            }
+          ]
+        },
+        {
+          "matchId": 509384023,
+          "civ": "Slavs",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:58:19.000Z",
+          "dur": 3250,
+          "opponents": [
+            {
+              "profileId": 23384073,
+              "name": "khamilo_z"
+            },
+            {
+              "profileId": 3359274,
+              "name": "sandiaypalta"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846528,
+              "name": "meddii"
+            }
+          ]
+        },
+        {
+          "matchId": 509374668,
+          "civ": "Slavs",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:17:39.000Z",
+          "dur": 1871,
+          "opponents": [
+            {
+              "profileId": 22737265,
+              "name": "Sunrise"
+            },
+            {
+              "profileId": 22693097,
+              "name": "Scaff"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846528,
+              "name": "meddii"
+            }
+          ]
+        },
+        {
+          "matchId": 509372286,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:06:52.000Z",
+          "dur": 482,
+          "opponents": [
+            {
+              "profileId": 2315234,
+              "name": "jackylk620141760"
+            },
+            {
+              "profileId": 2366983,
+              "name": "ITZY.ThePig"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846528,
+              "name": "meddii"
+            }
+          ]
+        },
+        {
+          "matchId": 509344502,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T12:59:49.000Z",
+          "dur": 1732,
+          "opponents": [
+            {
+              "profileId": 4651524,
+              "name": "AmBa /"
+            },
+            {
+              "profileId": 25806228,
+              "name": "6ma@tim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12781590,
+              "name": "mariuszz490"
+            }
+          ]
+        },
         {
           "matchId": 508933759,
           "civ": "Slavs",
@@ -11525,5 +11655,6 @@
   },
   "country": "it",
   "countryIcon": "\ud83c\uddee\ud83c\uddf9",
-  "countryName": "Italy"
+  "countryName": "Italy",
+  "platform": "Steam"
 }

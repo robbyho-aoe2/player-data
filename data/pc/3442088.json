@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 24,
-        "pulledDate": "2026-09-18",
-        "latestRating": 965,
+        "totalGames": 26,
+        "pulledDate": "2026-09-29",
+        "latestRating": 934,
         "peakRating": 1015
       },
       "matches": [
+        {
+          "matchId": 509530977,
+          "civ": "Turks",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:53:49.000Z",
+          "dur": 869,
+          "opponents": [
+            {
+              "profileId": 270405,
+              "name": "Windolf"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509492549,
+          "civ": "Huns",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:16:35.000Z",
+          "dur": 1515,
+          "opponents": [
+            {
+              "profileId": 22626090,
+              "name": "Ehtya"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506473843,
           "civ": "Huns",
@@ -438,7 +472,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 37,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "latestRating": 1004,
         "peakRating": 1137
       },
@@ -1432,5 +1466,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

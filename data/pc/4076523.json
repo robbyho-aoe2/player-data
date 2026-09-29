@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 338,
-        "pulledDate": "2026-09-21",
-        "latestRating": 845,
+        "totalGames": 339,
+        "pulledDate": "2026-09-29",
+        "latestRating": 860,
         "peakRating": 961
       },
       "matches": [
+        {
+          "matchId": 509657451,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:02:27.000Z",
+          "dur": 2630,
+          "opponents": [
+            {
+              "profileId": 26166120,
+              "name": "_Nniklass_"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501545171,
           "civ": "Teutons",
@@ -5776,7 +5793,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 295,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 905,
         "peakRating": 935
       },
@@ -14661,5 +14678,6 @@
   },
   "country": "pt",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf9",
-  "countryName": "Portugal"
+  "countryName": "Portugal",
+  "platform": "Steam"
 }

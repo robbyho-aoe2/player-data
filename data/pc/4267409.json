@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 52,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1438,
         "peakRating": 1454
       },
@@ -861,12 +861,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2429,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1682,
+        "totalGames": 2431,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1705,
         "peakRating": 1718
       },
       "matches": [
+        {
+          "matchId": 509592185,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:55:33.000Z",
+          "dur": 1380,
+          "opponents": [
+            {
+              "profileId": 25094011,
+              "name": "Apep"
+            },
+            {
+              "profileId": 21093855,
+              "name": "Chaos"
+            },
+            {
+              "profileId": 6184971,
+              "name": "SHell | AND\u00c3O"
+            },
+            {
+              "profileId": 5719122,
+              "name": "jdac"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11595998,
+              "name": "gjizhijian6866"
+            },
+            {
+              "profileId": 5271458,
+              "name": "[Nors] ImSimon"
+            },
+            {
+              "profileId": 1887918,
+              "name": "[Nors] OG DADDY"
+            }
+          ]
+        },
+        {
+          "matchId": 509532017,
+          "civ": "Mapuche",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:01:06.000Z",
+          "dur": 957,
+          "opponents": [
+            {
+              "profileId": 25079803,
+              "name": "Chagas"
+            },
+            {
+              "profileId": 3560475,
+              "name": "_29_3ffect_Arg"
+            },
+            {
+              "profileId": 762660,
+              "name": "_38_VirusBox_Arg"
+            },
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14676610,
+              "name": "The Sage"
+            },
+            {
+              "profileId": 3449064,
+              "name": "JonnyTheMonkey"
+            },
+            {
+              "profileId": 333293,
+              "name": "\u9ed1\u77f3\u5854"
+            }
+          ]
+        },
         {
           "matchId": 508409528,
           "civ": "Japanese",
@@ -99928,5 +100012,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-16",
+        "pulledDate": "2026-09-29",
         "latestRating": 914
       },
       "matches": [
@@ -76,12 +76,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 107,
-        "pulledDate": "2026-09-16",
+        "totalGames": 109,
+        "pulledDate": "2026-09-29",
         "latestRating": 767,
         "peakRating": 920
       },
       "matches": [
+        {
+          "matchId": 509942964,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:29:32.000Z",
+          "dur": 1597,
+          "opponents": [
+            {
+              "profileId": 25477164,
+              "name": "Valgrin"
+            },
+            {
+              "profileId": 4015397,
+              "name": "Alex"
+            },
+            {
+              "profileId": 25477038,
+              "name": "Fauston"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 578572,
+              "name": "S3r!ousLE3"
+            },
+            {
+              "profileId": 25876669,
+              "name": "paceylemon"
+            }
+          ]
+        },
+        {
+          "matchId": 509937508,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:05:04.000Z",
+          "dur": 1114,
+          "opponents": [
+            {
+              "profileId": 25066809,
+              "name": "IskoB"
+            },
+            {
+              "profileId": 23225812,
+              "name": "thongvipusa1"
+            },
+            {
+              "profileId": 4170156,
+              "name": "Kael"
+            },
+            {
+              "profileId": 3013409,
+              "name": "Nostro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1402410,
+              "name": "marco.ulrich"
+            },
+            {
+              "profileId": 365369,
+              "name": "MarcusMaximus"
+            },
+            {
+              "profileId": 26178666,
+              "name": "\u79cd\u7530\u517b\u9c7c"
+            }
+          ]
+        },
         {
           "matchId": 506934475,
           "civ": "Teutons",
@@ -3812,5 +3888,6 @@
   },
   "country": "lb",
   "countryIcon": "\ud83c\uddf1\ud83c\udde7",
-  "countryName": "Lebanon"
+  "countryName": "Lebanon",
+  "platform": "Steam"
 }

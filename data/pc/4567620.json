@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 633,
-        "pulledDate": "2026-09-25",
-        "latestRating": 637,
+        "totalGames": 637,
+        "pulledDate": "2026-09-29",
+        "latestRating": 669,
         "peakRating": 849
       },
       "matches": [
+        {
+          "matchId": 510033390,
+          "civ": "Mongols",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:27:12.000Z",
+          "dur": 2497,
+          "opponents": [
+            {
+              "profileId": 24111574,
+              "name": "Lu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510031666,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:13:25.000Z",
+          "dur": 729,
+          "opponents": [
+            {
+              "profileId": 24755140,
+              "name": "\"Nina\""
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510024528,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:19:35.000Z",
+          "dur": 1877,
+          "opponents": [
+            {
+              "profileId": 24145910,
+              "name": "Troy 809"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510019748,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:48:14.000Z",
+          "dur": 1752,
+          "opponents": [
+            {
+              "profileId": 6343381,
+              "name": "yararosca"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508740558,
           "civ": "Mongols",
@@ -10790,12 +10858,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 224,
-        "pulledDate": "2026-09-25",
-        "latestRating": 780,
+        "totalGames": 225,
+        "pulledDate": "2026-09-29",
+        "latestRating": 760,
         "peakRating": 884
       },
       "matches": [
+        {
+          "matchId": 510029153,
+          "civ": "Huns",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:52:58.000Z",
+          "dur": 1643,
+          "opponents": [
+            {
+              "profileId": 25705613,
+              "name": "Yuu Senpai"
+            },
+            {
+              "profileId": 9827277,
+              "name": "XSombraDeath"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2725886,
+              "name": "a.mglass"
+            }
+          ]
+        },
         {
           "matchId": 508367071,
           "civ": "Mongols",
@@ -17993,5 +18087,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

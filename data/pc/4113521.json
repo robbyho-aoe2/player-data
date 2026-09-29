@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 271,
-        "pulledDate": "2026-09-12",
+        "pulledDate": "2026-09-29",
         "latestRating": 1369,
         "peakRating": 1486
       },
@@ -4367,12 +4367,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1507,
-        "pulledDate": "2026-09-12",
-        "latestRating": 1124,
+        "totalGames": 1509,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1090,
         "peakRating": 1553
       },
       "matches": [
+        {
+          "matchId": 509257347,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:20:29.000Z",
+          "dur": 156,
+          "opponents": [
+            {
+              "profileId": 12104043,
+              "name": "TEFI*"
+            },
+            {
+              "profileId": 12198920,
+              "name": "SG7"
+            },
+            {
+              "profileId": 12170134,
+              "name": "SARG"
+            },
+            {
+              "profileId": 2232906,
+              "name": "rafamgc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23577881,
+              "name": "\u5357\u66ae"
+            },
+            {
+              "profileId": 13246342,
+              "name": "Dv Praim"
+            },
+            {
+              "profileId": 8818453,
+              "name": "ViChoc"
+            }
+          ]
+        },
+        {
+          "matchId": 509247972,
+          "civ": "Wu",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:31:53.000Z",
+          "dur": 1623,
+          "opponents": [
+            {
+              "profileId": 394670,
+              "name": "Tuxilion"
+            },
+            {
+              "profileId": 1803978,
+              "name": "bicente"
+            },
+            {
+              "profileId": 2529876,
+              "name": "Matute"
+            },
+            {
+              "profileId": 7901068,
+              "name": "PEPO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5360637,
+              "name": "ArTung"
+            },
+            {
+              "profileId": 11089954,
+              "name": "Keanoob Reeves"
+            },
+            {
+              "profileId": 6297340,
+              "name": "KesarKeri"
+            }
+          ]
+        },
         {
           "matchId": 502421400,
           "civ": "Shu",
@@ -63043,5 +63127,6 @@
   },
   "country": "bd",
   "countryIcon": "\ud83c\udde7\ud83c\udde9",
-  "countryName": "Bangladesh"
+  "countryName": "Bangladesh",
+  "platform": "Steam"
 }

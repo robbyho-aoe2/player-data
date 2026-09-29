@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1620,
-        "pulledDate": "2026-09-25",
-        "latestRating": 2346,
+        "totalGames": 1623,
+        "pulledDate": "2026-09-29",
+        "latestRating": 2293,
         "peakRating": 2346
       },
       "matches": [
+        {
+          "matchId": 509660213,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:12:57.000Z",
+          "dur": 1567,
+          "opponents": [
+            {
+              "profileId": 10833211,
+              "name": "mongo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509653504,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:46:19.000Z",
+          "dur": 1442,
+          "opponents": [
+            {
+              "profileId": 23000509,
+              "name": "boanaan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509650542,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:33:54.000Z",
+          "dur": 670,
+          "opponents": [
+            {
+              "profileId": 2274841,
+              "name": "Nezzar"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508964543,
           "civ": "Huns",
@@ -25979,7 +26030,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 652,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1740,
         "peakRating": 1793
       },
@@ -46370,5 +46421,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

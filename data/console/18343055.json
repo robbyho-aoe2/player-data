@@ -5,11 +5,28 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 6,
-        "pulledDate": "2026-09-23",
+        "totalGames": 7,
+        "pulledDate": "2026-09-29",
         "latestRating": 1084
       },
       "matches": [
+        {
+          "matchId": 510008600,
+          "civ": "Persians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:39:22.000Z",
+          "dur": 520,
+          "opponents": [
+            {
+              "profileId": 14452377,
+              "name": "Reedo1228"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503317225,
           "civ": "Persians",
@@ -110,12 +127,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 119,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1164,
+        "totalGames": 120,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1173,
         "peakRating": 1315
       },
       "matches": [
+        {
+          "matchId": 510004559,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:16:00.000Z",
+          "dur": 1214,
+          "opponents": [
+            {
+              "profileId": 12660209,
+              "name": "Blak Papiii"
+            },
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3722243,
+              "name": "KingXplayer31"
+            }
+          ]
+        },
         {
           "matchId": 508330973,
           "civ": "Persians",
@@ -3268,19 +3311,20 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     }
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

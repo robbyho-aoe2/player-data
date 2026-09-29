@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 351,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1192,
         "peakRating": 1209
       },
@@ -5645,12 +5645,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1059,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1151,
+        "totalGames": 1061,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1121,
         "peakRating": 1337
       },
       "matches": [
+        {
+          "matchId": 509531259,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:56:45.000Z",
+          "dur": 1860,
+          "opponents": [
+            {
+              "profileId": 21211667,
+              "name": "buddy219755"
+            },
+            {
+              "profileId": 7506423,
+              "name": "[GDL] Do\u00f1a Pelos"
+            },
+            {
+              "profileId": 224928,
+              "name": "_xmorgan_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3197198,
+              "name": "LaViejaChicha"
+            },
+            {
+              "profileId": 5620263,
+              "name": "Njamv"
+            }
+          ]
+        },
+        {
+          "matchId": 509247241,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:28:07.000Z",
+          "dur": 2068,
+          "opponents": [
+            {
+              "profileId": 10222431,
+              "name": "gameishard7"
+            },
+            {
+              "profileId": 3141294,
+              "name": "King Helmet"
+            },
+            {
+              "profileId": 1672427,
+              "name": "super duck"
+            },
+            {
+              "profileId": 10179366,
+              "name": "Hi, my name is Jonathan Rogers,"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3371188,
+              "name": "jpezpuma"
+            },
+            {
+              "profileId": 5620263,
+              "name": "Njamv"
+            },
+            {
+              "profileId": 4014599,
+              "name": "DITO_san"
+            }
+          ]
+        },
         {
           "matchId": 508773192,
           "civ": "Khmer",
@@ -38213,5 +38289,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

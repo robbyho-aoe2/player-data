@@ -6,25 +6,178 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 281,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1243,
+        "totalGames": 290,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1218,
         "peakRating": 1243
       },
       "matches": [
+        {
+          "matchId": 510036387,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:52:40.000Z",
+          "dur": 992,
+          "opponents": [
+            {
+              "profileId": 7553748,
+              "name": "chirlito"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509993839,
+          "civ": "Saxons",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:07:51.000Z",
+          "dur": 1503,
+          "opponents": [
+            {
+              "profileId": 24844449,
+              "name": "RR.Gohan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509991698,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:54:16.000Z",
+          "dur": 814,
+          "opponents": [
+            {
+              "profileId": 6904910,
+              "name": "SirPow"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509846772,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:18:38.000Z",
+          "dur": 1763,
+          "opponents": [
+            {
+              "profileId": 1681927,
+              "name": "Baco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509844311,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:54:25.000Z",
+          "dur": 961,
+          "opponents": [
+            {
+              "profileId": 51303,
+              "name": "Angrynoodle"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509841078,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:21:06.000Z",
+          "dur": 1689,
+          "opponents": [
+            {
+              "profileId": 1681927,
+              "name": "Baco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509838054,
+          "civ": "Saxons",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:49:08.000Z",
+          "dur": 1233,
+          "opponents": [
+            {
+              "profileId": 5989185,
+              "name": "a8330676"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509827578,
+          "civ": "Saxons",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T06:58:51.000Z",
+          "dur": 1395,
+          "opponents": [
+            {
+              "profileId": 817726,
+              "name": "Ego59"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509821572,
+          "civ": "Saxons",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:53:37.000Z",
+          "dur": 1194,
+          "opponents": [
+            {
+              "profileId": 9658323,
+              "name": "Ryuk"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509021197,
           "civ": "Saxons",
@@ -4807,7 +4960,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 172,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1366,
         "peakRating": 1417
       },
@@ -11251,5 +11404,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

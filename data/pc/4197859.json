@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1437,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1250,
+        "totalGames": 1438,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1234,
         "peakRating": 1412
       },
       "matches": [
+        {
+          "matchId": 509535927,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:23:57.000Z",
+          "dur": 1368,
+          "opponents": [
+            {
+              "profileId": 24018766,
+              "name": "Westpoint"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502798556,
           "civ": "Celts",
@@ -23021,12 +23038,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1946,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1170,
+        "totalGames": 1948,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1173,
         "peakRating": 1302
       },
       "matches": [
+        {
+          "matchId": 509544931,
+          "civ": "Celts",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:23:52.000Z",
+          "dur": 1586,
+          "opponents": [
+            {
+              "profileId": 10963406,
+              "name": "Frank_alv10"
+            },
+            {
+              "profileId": 2187663,
+              "name": "M!(ke"
+            },
+            {
+              "profileId": 525857,
+              "name": "Destroyer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1619693,
+              "name": "Muley | xHolt45x"
+            },
+            {
+              "profileId": 3641119,
+              "name": "Muley | Angel Fire"
+            }
+          ]
+        },
+        {
+          "matchId": 509540349,
+          "civ": "Celts",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:53:45.000Z",
+          "dur": 1501,
+          "opponents": [
+            {
+              "profileId": 4696327,
+              "name": "TheMarshall"
+            },
+            {
+              "profileId": 361405,
+              "name": "zaackvader10"
+            },
+            {
+              "profileId": 5041858,
+              "name": "ReaperAOE2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1619693,
+              "name": "Muley | xHolt45x"
+            },
+            {
+              "profileId": 3641119,
+              "name": "Muley | Angel Fire"
+            }
+          ]
+        },
         {
           "matchId": 504404261,
           "civ": "Celts",
@@ -86800,5 +86885,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 636,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1138,
         "peakRating": 1269
       },
@@ -10206,12 +10206,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 547,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1191,
+        "totalGames": 549,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1189,
         "peakRating": 1363
       },
       "matches": [
+        {
+          "matchId": 509928799,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:26:15.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 737645,
+              "name": "namrskal"
+            },
+            {
+              "profileId": 21110709,
+              "name": "Drakmorte"
+            },
+            {
+              "profileId": 2404081,
+              "name": "brydvo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 361322,
+              "name": "Illusion_ecs_crew"
+            },
+            {
+              "profileId": 22297327,
+              "name": "HAHA"
+            }
+          ]
+        },
+        {
+          "matchId": 509315909,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:58:29.000Z",
+          "dur": 1935,
+          "opponents": [
+            {
+              "profileId": 4887418,
+              "name": "Torg"
+            },
+            {
+              "profileId": 5134984,
+              "name": "Incitatus"
+            },
+            {
+              "profileId": 5420986,
+              "name": "Adavi306"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2172232,
+              "name": "hgsteven"
+            },
+            {
+              "profileId": 3109697,
+              "name": "Petit_Pois"
+            }
+          ]
+        },
         {
           "matchId": 508317169,
           "civ": "Japanese",
@@ -31874,5 +31942,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

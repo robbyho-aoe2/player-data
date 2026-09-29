@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 118,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 601,
         "peakRating": 835
       },
@@ -1920,12 +1920,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 592,
-        "pulledDate": "2026-09-25",
-        "latestRating": 524,
+        "totalGames": 595,
+        "pulledDate": "2026-09-29",
+        "latestRating": 503,
         "peakRating": 1044
       },
       "matches": [
+        {
+          "matchId": 509553670,
+          "civ": "Malians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:24:37.000Z",
+          "dur": 55,
+          "opponents": [
+            {
+              "profileId": 2438815,
+              "name": "Rat Meat Pizza"
+            },
+            {
+              "profileId": 25483342,
+              "name": "BLYAAAT"
+            },
+            {
+              "profileId": 3593972,
+              "name": "Zielonidas"
+            },
+            {
+              "profileId": 2508552,
+              "name": "SherlockLopez Arg."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23251375,
+              "name": "TornToast5128"
+            },
+            {
+              "profileId": 4601013,
+              "name": "One Shoulder 100KG"
+            },
+            {
+              "profileId": 4398268,
+              "name": "\u6162\u5373\u662f\u5feb."
+            }
+          ]
+        },
+        {
+          "matchId": 509552846,
+          "civ": "Malians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:19:01.000Z",
+          "dur": 101,
+          "opponents": [
+            {
+              "profileId": 25937383,
+              "name": "La Morte Noire"
+            },
+            {
+              "profileId": 21510862,
+              "name": "zamuee14"
+            },
+            {
+              "profileId": 16787168,
+              "name": "ntukis"
+            },
+            {
+              "profileId": 6142567,
+              "name": "\u7eb8\u7247\u7eb8\u7247"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23251375,
+              "name": "TornToast5128"
+            },
+            {
+              "profileId": 4601013,
+              "name": "One Shoulder 100KG"
+            },
+            {
+              "profileId": 4398268,
+              "name": "\u6162\u5373\u662f\u5feb."
+            }
+          ]
+        },
+        {
+          "matchId": 509552499,
+          "civ": "Malians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:16:13.000Z",
+          "dur": 23,
+          "opponents": [
+            {
+              "profileId": 24815195,
+              "name": "Emilio I7338"
+            },
+            {
+              "profileId": 15159267,
+              "name": "DOLAR2305"
+            },
+            {
+              "profileId": 13303872,
+              "name": "Madsniperbra"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4601013,
+              "name": "One Shoulder 100KG"
+            },
+            {
+              "profileId": 23251375,
+              "name": "TornToast5128"
+            }
+          ]
+        },
         {
           "matchId": 509090977,
           "civ": "Malians",
@@ -20722,5 +20840,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

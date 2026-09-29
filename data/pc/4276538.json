@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 41,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1020,
-        "peakRating": 1021
+        "totalGames": 45,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1006,
+        "peakRating": 1023
       },
       "matches": [
+        {
+          "matchId": 510117526,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:01:26.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 2389394,
+              "name": "\u0420\u043e\u043c\u0447\u0438\u043a \u0411\u0443\u043c\u0447\u0438\u043a"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510113928,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:40:16.000Z",
+          "dur": 1108,
+          "opponents": [
+            {
+              "profileId": 3508593,
+              "name": "Zuckerstange"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510112877,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:34:36.000Z",
+          "dur": 180,
+          "opponents": [
+            {
+              "profileId": 3508593,
+              "name": "Zuckerstange"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510108646,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:10:36.000Z",
+          "dur": 1404,
+          "opponents": [
+            {
+              "profileId": 15332415,
+              "name": "\u5c0f\u98de"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508470659,
           "civ": "Bulgarians",
@@ -727,7 +795,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 42,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 990,
         "peakRating": 1047
       },
@@ -1893,5 +1961,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

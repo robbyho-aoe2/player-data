@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 302,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1983,
         "peakRating": 2038
       },
@@ -4861,12 +4861,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 946,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1677,
+        "totalGames": 949,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1721,
         "peakRating": 1743
       },
       "matches": [
+        {
+          "matchId": 509870936,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:23:54.000Z",
+          "dur": 1528,
+          "opponents": [
+            {
+              "profileId": 25818766,
+              "name": "Lord Longshaft"
+            },
+            {
+              "profileId": 4137222,
+              "name": "Soma"
+            },
+            {
+              "profileId": 14230915,
+              "name": "Retired SweatLord"
+            },
+            {
+              "profileId": 18377616,
+              "name": "brendansexson"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 2358301,
+              "name": "ZiZi"
+            },
+            {
+              "profileId": 25559826,
+              "name": "EL TIGRE ABELARDO"
+            }
+          ]
+        },
+        {
+          "matchId": 509284630,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:16:02.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 209754,
+              "name": "Fenrir"
+            },
+            {
+              "profileId": 2109132,
+              "name": "Lathkore"
+            },
+            {
+              "profileId": 2163129,
+              "name": "Valar"
+            },
+            {
+              "profileId": 5044367,
+              "name": "MrWrong"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1201312,
+              "name": "PAI"
+            },
+            {
+              "profileId": 2071926,
+              "name": "Dk"
+            },
+            {
+              "profileId": 2365768,
+              "name": "47_chu_VOI_con"
+            }
+          ]
+        },
+        {
+          "matchId": 509266843,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:13:41.000Z",
+          "dur": 1777,
+          "opponents": [
+            {
+              "profileId": 25919221,
+              "name": "Fs.Diablo"
+            },
+            {
+              "profileId": 6090060,
+              "name": "noru"
+            },
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            },
+            {
+              "profileId": 1881852,
+              "name": "Fs.Nx Imperial"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2974934,
+              "name": "Chig\u00fciro"
+            },
+            {
+              "profileId": 4031741,
+              "name": "KSGabriel"
+            },
+            {
+              "profileId": 10833211,
+              "name": "mongo"
+            }
+          ]
+        },
         {
           "matchId": 509061385,
           "civ": "Danes",
@@ -42515,5 +42641,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

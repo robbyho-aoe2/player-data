@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 233,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1117,
         "peakRating": 1198
       },
@@ -3780,12 +3780,158 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 736,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1158,
+        "totalGames": 741,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1193,
         "peakRating": 1252
       },
       "matches": [
+        {
+          "matchId": 510001137,
+          "civ": "Persians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:54:44.000Z",
+          "dur": 1795,
+          "opponents": [
+            {
+              "profileId": 1089819,
+              "name": "Vlad the Impaler"
+            },
+            {
+              "profileId": 1933380,
+              "name": "Abominable Joeman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5200741,
+              "name": "Eyaculador de Poemas"
+            }
+          ]
+        },
+        {
+          "matchId": 509999691,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:45:48.000Z",
+          "dur": 554,
+          "opponents": [
+            {
+              "profileId": 5232179,
+              "name": "DSLG | CHEF GABO"
+            },
+            {
+              "profileId": 21541093,
+              "name": "DSLG | Giuseppe Colaprete"
+            },
+            {
+              "profileId": 20662596,
+              "name": "DSLG | GAMA_CRAZY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20480088,
+              "name": "Lauta_mdp"
+            },
+            {
+              "profileId": 993886,
+              "name": "El Boss"
+            }
+          ]
+        },
+        {
+          "matchId": 509999139,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:42:39.000Z",
+          "dur": 59,
+          "opponents": [
+            {
+              "profileId": 14524238,
+              "name": "Taxista"
+            },
+            {
+              "profileId": 1151485,
+              "name": "Powned"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2914993,
+              "name": "alleria"
+            }
+          ]
+        },
+        {
+          "matchId": 509843119,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:42:15.000Z",
+          "dur": 1449,
+          "opponents": [
+            {
+              "profileId": 8504165,
+              "name": "Soldado1rken"
+            },
+            {
+              "profileId": 615110,
+              "name": "Morgoth_Ak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3902903,
+              "name": "LeoKiller225910"
+            }
+          ]
+        },
+        {
+          "matchId": 509228905,
+          "civ": "Franks",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:48:00.000Z",
+          "dur": 1132,
+          "opponents": [
+            {
+              "profileId": 303831,
+              "name": "Potatoe D"
+            },
+            {
+              "profileId": 2374994,
+              "name": "Hisoku"
+            },
+            {
+              "profileId": 298266,
+              "name": "Au D Moth"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 881183,
+              "name": "Fantome69"
+            },
+            {
+              "profileId": 1165038,
+              "name": "dudeofpersia"
+            }
+          ]
+        },
         {
           "matchId": 508990709,
           "civ": "Poles",
@@ -27188,5 +27334,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

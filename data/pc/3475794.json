@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 187,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1454,
-        "peakRating": 1460
+        "totalGames": 188,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1468,
+        "peakRating": 1468
       },
       "matches": [
+        {
+          "matchId": 509765787,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:43:14.000Z",
+          "dur": 2238,
+          "opponents": [
+            {
+              "profileId": 1740867,
+              "name": "10232imchampion"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 486212976,
           "civ": "Malians",
@@ -3021,12 +3038,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4272,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1460,
+        "totalGames": 4275,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1449,
         "peakRating": 1686
       },
       "matches": [
+        {
+          "matchId": 510004713,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:16:50.000Z",
+          "dur": 38,
+          "opponents": [
+            {
+              "profileId": 25382081,
+              "name": "Korondo"
+            },
+            {
+              "profileId": 1701210,
+              "name": "YuriiVegas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2373957,
+              "name": "NPG | DR@CA"
+            }
+          ]
+        },
+        {
+          "matchId": 509778932,
+          "civ": "Japanese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:55:44.000Z",
+          "dur": 2449,
+          "opponents": [
+            {
+              "profileId": 1430910,
+              "name": "JLoops"
+            },
+            {
+              "profileId": 9215592,
+              "name": "Nikems"
+            },
+            {
+              "profileId": 14312231,
+              "name": "ds_manu2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5959775,
+              "name": "NPG | ChupaloAlexitico"
+            },
+            {
+              "profileId": 25939959,
+              "name": "Casitas Voy"
+            }
+          ]
+        },
+        {
+          "matchId": 509718446,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:58:14.000Z",
+          "dur": 1808,
+          "opponents": [
+            {
+              "profileId": 2441496,
+              "name": "Dark_Knight"
+            },
+            {
+              "profileId": 19236842,
+              "name": "Harry"
+            },
+            {
+              "profileId": 6823812,
+              "name": "Aqua Sama"
+            },
+            {
+              "profileId": 4843062,
+              "name": "Yodha"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2749663,
+              "name": "NPG | El Compadre"
+            },
+            {
+              "profileId": 11862080,
+              "name": "NPG | Shimishi Maki"
+            },
+            {
+              "profileId": 4824748,
+              "name": "Br\u00f8weN"
+            }
+          ]
+        },
         {
           "matchId": 508084391,
           "civ": "Italians",
@@ -165025,5 +165144,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

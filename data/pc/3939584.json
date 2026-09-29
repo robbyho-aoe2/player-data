@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 623,
-        "pulledDate": "2026-09-25",
+        "totalGames": 625,
+        "pulledDate": "2026-09-29",
         "latestRating": 1245,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 509875736,
+          "civ": "Berbers",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:51:36.000Z",
+          "dur": 2507,
+          "opponents": [
+            {
+              "profileId": 581783,
+              "name": "Guybrush"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509215305,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:24:22.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 12395440,
+              "name": "BombardCanon"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509096891,
           "civ": "Varangians",
@@ -9457,12 +9491,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 190,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1239,
+        "totalGames": 193,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1259,
         "peakRating": 1282
       },
       "matches": [
+        {
+          "matchId": 510019711,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:48:02.000Z",
+          "dur": 1909,
+          "opponents": [
+            {
+              "profileId": 10603965,
+              "name": "Squirtle"
+            },
+            {
+              "profileId": 16744087,
+              "name": "\u20acnj\u00f8y\u2122"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9447115,
+              "name": "ruanameyer"
+            }
+          ]
+        },
+        {
+          "matchId": 509870261,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:19:51.000Z",
+          "dur": 1862,
+          "opponents": [
+            {
+              "profileId": 105289,
+              "name": "Baptou the WololOnager"
+            },
+            {
+              "profileId": 1183087,
+              "name": "hagrond"
+            },
+            {
+              "profileId": 832863,
+              "name": "Alturiak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4281446,
+              "name": "\u738b\u5fb7\u53d1"
+            },
+            {
+              "profileId": 25939430,
+              "name": "\u79cd\u7530\u4f7f\u6211\u5feb\u4e50"
+            }
+          ]
+        },
+        {
+          "matchId": 509512049,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:10:27.000Z",
+          "dur": 1781,
+          "opponents": [
+            {
+              "profileId": 4502050,
+              "name": "ACN_Mk"
+            },
+            {
+              "profileId": 5636940,
+              "name": "Cris.GCH"
+            },
+            {
+              "profileId": 2201130,
+              "name": "Uhtred_of_Bebbamburg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 480833,
+              "name": "[LO] King Poshcock"
+            },
+            {
+              "profileId": 4906509,
+              "name": "TVHG.Phraymus"
+            }
+          ]
+        },
         {
           "matchId": 508987089,
           "civ": "Varangians",
@@ -14344,5 +14472,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

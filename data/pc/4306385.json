@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 105,
-        "pulledDate": "2026-09-25",
-        "latestRating": 733,
+        "totalGames": 107,
+        "pulledDate": "2026-09-29",
+        "latestRating": 706,
         "peakRating": 809
       },
       "matches": [
+        {
+          "matchId": 509348859,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:21:22.000Z",
+          "dur": 1918,
+          "opponents": [
+            {
+              "profileId": 191105,
+              "name": "xiscosb"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509344539,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:00:04.000Z",
+          "dur": 1230,
+          "opponents": [
+            {
+              "profileId": 23264748,
+              "name": "1829032"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509051701,
           "civ": "Saracens",
@@ -1815,7 +1849,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 140,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 829,
         "peakRating": 850
       },
@@ -6188,5 +6222,6 @@
   },
   "country": "mn",
   "countryIcon": "\ud83c\uddf2\ud83c\uddf3",
-  "countryName": "Mongolia"
+  "countryName": "Mongolia",
+  "platform": "Steam"
 }

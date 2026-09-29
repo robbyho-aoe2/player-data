@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 999,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1799,
         "peakRating": 1904
       },
@@ -9534,12 +9534,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3448,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1613,
+        "totalGames": 3449,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1631,
         "peakRating": 1709
       },
       "matches": [
+        {
+          "matchId": 509750570,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:19:28.000Z",
+          "dur": 1511,
+          "opponents": [
+            {
+              "profileId": 18628000,
+              "name": "the best BO's"
+            },
+            {
+              "profileId": 25694758,
+              "name": "PWLG | Legend"
+            },
+            {
+              "profileId": 2564725,
+              "name": "Christine"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20039289,
+              "name": "mamonie"
+            },
+            {
+              "profileId": 22564772,
+              "name": "MZTK | GO1_mx"
+            }
+          ]
+        },
         {
           "matchId": 509007034,
           "civ": "Franks",
@@ -41632,5 +41666,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

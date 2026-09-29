@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 414,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1691,
         "peakRating": 1691
       },
@@ -6653,12 +6653,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1475,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1618,
+        "totalGames": 1477,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1640,
         "peakRating": 1666
       },
       "matches": [
+        {
+          "matchId": 509660061,
+          "civ": "Vietnamese",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:13:14.000Z",
+          "dur": 2656,
+          "opponents": [
+            {
+              "profileId": 698792,
+              "name": "AiM | PoRRo"
+            },
+            {
+              "profileId": 4477443,
+              "name": "PedrodeMatos"
+            },
+            {
+              "profileId": 5648838,
+              "name": "happikon.6139"
+            },
+            {
+              "profileId": 1886617,
+              "name": "[Fx\u3001]AirDk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1256043,
+              "name": "\u767d\u6bdb"
+            },
+            {
+              "profileId": 5624022,
+              "name": "Advanced Micro Devices"
+            },
+            {
+              "profileId": 330823,
+              "name": "TvTa"
+            }
+          ]
+        },
+        {
+          "matchId": 509655265,
+          "civ": "Aztecs",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:53:51.000Z",
+          "dur": 797,
+          "opponents": [
+            {
+              "profileId": 17783464,
+              "name": "\u6c5f\u54e5"
+            },
+            {
+              "profileId": 17769996,
+              "name": "\u4e16\u4e00\u4e0a\u3001"
+            },
+            {
+              "profileId": 10857509,
+              "name": "[\u8d85\u96f7\u5927\u9ed1\u5e97]miso katsu don"
+            },
+            {
+              "profileId": 1886617,
+              "name": "[Fx\u3001]AirDk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 330823,
+              "name": "TvTa"
+            },
+            {
+              "profileId": 2900258,
+              "name": "\u80d6\u5b50\u4e8b\u60c5\u591a"
+            },
+            {
+              "profileId": 1256043,
+              "name": "\u767d\u6bdb"
+            }
+          ]
+        },
         {
           "matchId": 507740637,
           "civ": "Persians",
@@ -66586,5 +66670,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 416,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1090,
         "peakRating": 1170
       },
@@ -6685,12 +6685,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 937,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1194,
+        "totalGames": 939,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1196,
         "peakRating": 1287
       },
       "matches": [
+        {
+          "matchId": 509718155,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:56:36.000Z",
+          "dur": 434,
+          "opponents": [
+            {
+              "profileId": 402845,
+              "name": "Foghorn Leghorn"
+            },
+            {
+              "profileId": 18778709,
+              "name": "TheASSman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3322548,
+              "name": "george"
+            }
+          ]
+        },
+        {
+          "matchId": 509709445,
+          "civ": "Malay",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:24:17.000Z",
+          "dur": 1851,
+          "opponents": [
+            {
+              "profileId": 14923912,
+              "name": "Kees Harakir!"
+            },
+            {
+              "profileId": 4759234,
+              "name": "Victor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3322548,
+              "name": "george"
+            }
+          ]
+        },
         {
           "matchId": 508729322,
           "civ": "Huns",
@@ -30158,5 +30210,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

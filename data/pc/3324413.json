@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1370,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1067,
+        "totalGames": 1371,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1051,
         "peakRating": 1226
       },
       "matches": [
+        {
+          "matchId": 509790556,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:01:19.000Z",
+          "dur": 1541,
+          "opponents": [
+            {
+              "profileId": 22341367,
+              "name": "Bak5199"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506405847,
           "civ": "Franks",
@@ -21966,12 +21983,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 450,
-        "pulledDate": "2026-09-16",
+        "totalGames": 452,
+        "pulledDate": "2026-09-29",
         "latestRating": 1300,
         "peakRating": 1304
       },
       "matches": [
+        {
+          "matchId": 509801806,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:10:00.000Z",
+          "dur": 2300,
+          "opponents": [
+            {
+              "profileId": 3366841,
+              "name": "KingCobraCar"
+            },
+            {
+              "profileId": 1256567,
+              "name": "2263430749"
+            },
+            {
+              "profileId": 1742958,
+              "name": "God Of The Sea People"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2037196,
+              "name": "Mancov"
+            },
+            {
+              "profileId": 3315391,
+              "name": "Rocoelhuron"
+            }
+          ]
+        },
+        {
+          "matchId": 509795505,
+          "civ": "Lithuanians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:29:57.000Z",
+          "dur": 2229,
+          "opponents": [
+            {
+              "profileId": 215522,
+              "name": "Pangolin"
+            },
+            {
+              "profileId": 2157170,
+              "name": "sml"
+            },
+            {
+              "profileId": 2237435,
+              "name": "dal_113"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3315391,
+              "name": "Rocoelhuron"
+            },
+            {
+              "profileId": 2037196,
+              "name": "Mancov"
+            }
+          ]
+        },
         {
           "matchId": 506987719,
           "civ": "Britons",
@@ -37316,5 +37401,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

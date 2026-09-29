@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 66,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-29",
         "latestRating": 1084,
         "peakRating": 1114
       },
@@ -1085,12 +1085,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 927,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1164,
+        "totalGames": 931,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1184,
         "peakRating": 1245
       },
       "matches": [
+        {
+          "matchId": 509721974,
+          "civ": "Lithuanians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:11:33.000Z",
+          "dur": 1588,
+          "opponents": [
+            {
+              "profileId": 17630677,
+              "name": "EL CHANCHO 3026"
+            },
+            {
+              "profileId": 2632311,
+              "name": "RagnarL92"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4568655,
+              "name": "LG73"
+            }
+          ]
+        },
+        {
+          "matchId": 509712740,
+          "civ": "Khmer",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:36:50.000Z",
+          "dur": 1900,
+          "opponents": [
+            {
+              "profileId": 2650375,
+              "name": "Arielituzzz"
+            },
+            {
+              "profileId": 3515714,
+              "name": "Rototom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4568655,
+              "name": "LG73"
+            }
+          ]
+        },
+        {
+          "matchId": 509711166,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:31:15.000Z",
+          "dur": 170,
+          "opponents": [
+            {
+              "profileId": 18270220,
+              "name": "Klarakitai"
+            },
+            {
+              "profileId": 1183399,
+              "name": "cris"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4568655,
+              "name": "LG73"
+            }
+          ]
+        },
+        {
+          "matchId": 509702130,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:58:52.000Z",
+          "dur": 1657,
+          "opponents": [
+            {
+              "profileId": 1812756,
+              "name": "Deluxeness \u30c4"
+            },
+            {
+              "profileId": 23702523,
+              "name": "Sanzy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4568655,
+              "name": "LG73"
+            }
+          ]
+        },
         {
           "matchId": 504844345,
           "civ": "Cumans",
@@ -26271,5 +26375,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

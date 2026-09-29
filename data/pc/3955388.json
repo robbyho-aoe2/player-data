@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 83,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1198,
-        "peakRating": 1230
+        "totalGames": 86,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1245,
+        "peakRating": 1245
       },
       "matches": [
+        {
+          "matchId": 509915817,
+          "civ": "Persians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:23:22.000Z",
+          "dur": 1405,
+          "opponents": [
+            {
+              "profileId": 21902715,
+              "name": "DomQuixote"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509709923,
+          "civ": "Mongols",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:25:52.000Z",
+          "dur": 1484,
+          "opponents": [
+            {
+              "profileId": 285711,
+              "name": "Raudius"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509186006,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:53:50.000Z",
+          "dur": 2286,
+          "opponents": [
+            {
+              "profileId": 2212809,
+              "name": "VeteranRonin"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508958843,
           "civ": "Huns",
@@ -1440,12 +1491,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 145,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1082,
+        "totalGames": 147,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1078,
         "peakRating": 1207
       },
       "matches": [
+        {
+          "matchId": 509726953,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:31:36.000Z",
+          "dur": 2222,
+          "opponents": [
+            {
+              "profileId": 18124,
+              "name": "RCL Belier"
+            },
+            {
+              "profileId": 46346,
+              "name": "LOL Belier"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8978365,
+              "name": "GreenBeret"
+            }
+          ]
+        },
+        {
+          "matchId": 509172831,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:56:22.000Z",
+          "dur": 935,
+          "opponents": [
+            {
+              "profileId": 21192670,
+              "name": "Alosk8"
+            },
+            {
+              "profileId": 21014949,
+              "name": "DAVIJO90"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2035442,
+              "name": "mustajjj"
+            }
+          ]
+        },
         {
           "matchId": 508963155,
           "civ": "Berbers",
@@ -5636,5 +5739,6 @@
   },
   "country": "at",
   "countryIcon": "\ud83c\udde6\ud83c\uddf9",
-  "countryName": "Austria"
+  "countryName": "Austria",
+  "platform": "Steam"
 }

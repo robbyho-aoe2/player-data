@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1185,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1173,
+        "totalGames": 1191,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1242,
         "peakRating": 1331
       },
       "matches": [
+        {
+          "matchId": 510098898,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:18:32.000Z",
+          "dur": 1078,
+          "opponents": [
+            {
+              "profileId": 384815,
+              "name": "Pompom"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510064579,
+          "civ": "Britons",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:57:42.000Z",
+          "dur": 1294,
+          "opponents": [
+            {
+              "profileId": 5045503,
+              "name": "Caf\u00e9Calva"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509981215,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:46:47.000Z",
+          "dur": 1656,
+          "opponents": [
+            {
+              "profileId": 1136718,
+              "name": ".david2001"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509421798,
+          "civ": "Byzantines",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:42:25.000Z",
+          "dur": 2361,
+          "opponents": [
+            {
+              "profileId": 15126693,
+              "name": "cptpco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509402011,
+          "civ": "Bengalis",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:17:50.000Z",
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 2281530,
+              "name": "Jatrix07"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509399459,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:05:21.000Z",
+          "dur": 610,
+          "opponents": [
+            {
+              "profileId": 21089654,
+              "name": "dejame_ganar"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509071320,
           "civ": "Huns",
@@ -20174,12 +20276,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 436,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1206,
+        "totalGames": 438,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1238,
         "peakRating": 1304
       },
       "matches": [
+        {
+          "matchId": 509924169,
+          "civ": "Persians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:05:09.000Z",
+          "dur": 1813,
+          "opponents": [
+            {
+              "profileId": 9656194,
+              "name": "Aquisgranensis_MCM"
+            },
+            {
+              "profileId": 9560031,
+              "name": "BobbyBenz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13398220,
+              "name": "SAMOAN SHOTGUN"
+            }
+          ]
+        },
+        {
+          "matchId": 509742134,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:37:58.000Z",
+          "dur": 2177,
+          "opponents": [
+            {
+              "profileId": 616950,
+              "name": "Ochsenreiter"
+            },
+            {
+              "profileId": 62599,
+              "name": "ThomasTheTrain"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2372497,
+              "name": "Madeen"
+            }
+          ]
+        },
         {
           "matchId": 504450802,
           "civ": "Khmer",
@@ -32399,5 +32553,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

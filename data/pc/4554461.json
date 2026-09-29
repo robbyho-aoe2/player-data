@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 62,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1411,
         "peakRating": 1411
       },
@@ -1028,12 +1028,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 612,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1201,
+        "totalGames": 615,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1217,
         "peakRating": 1278
       },
       "matches": [
+        {
+          "matchId": 509985119,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:11:56.000Z",
+          "dur": 681,
+          "opponents": [
+            {
+              "profileId": 1896338,
+              "name": "Corgi"
+            },
+            {
+              "profileId": 24181343,
+              "name": "JUSTKITTEN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22668327,
+              "name": "Mei Darknest"
+            }
+          ]
+        },
+        {
+          "matchId": 509980648,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:43:51.000Z",
+          "dur": 1549,
+          "opponents": [
+            {
+              "profileId": 12258290,
+              "name": "Elren"
+            },
+            {
+              "profileId": 2144812,
+              "name": "polacoyanus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22668327,
+              "name": "Mei Darknest"
+            }
+          ]
+        },
+        {
+          "matchId": 509975905,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:15:07.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 23574452,
+              "name": "Brisa Marcos"
+            },
+            {
+              "profileId": 5682074,
+              "name": "Hanyo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22668327,
+              "name": "Mei Darknest"
+            }
+          ]
+        },
         {
           "matchId": 508317580,
           "civ": "Romans",
@@ -16446,5 +16524,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

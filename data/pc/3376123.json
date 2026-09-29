@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -91,12 +91,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 169,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1228,
+        "totalGames": 171,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1224,
         "peakRating": 1289
       },
       "matches": [
+        {
+          "matchId": 509484070,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:25:28.000Z",
+          "dur": 928,
+          "opponents": [
+            {
+              "profileId": 10197185,
+              "name": "LeChuck"
+            },
+            {
+              "profileId": 19112325,
+              "name": "Slawter"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3317083,
+              "name": "Guidoki"
+            }
+          ]
+        },
+        {
+          "matchId": 509476065,
+          "civ": "Ethiopians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:41:06.000Z",
+          "dur": 2491,
+          "opponents": [
+            {
+              "profileId": 19134334,
+              "name": "CHRISTISKING"
+            },
+            {
+              "profileId": 5856093,
+              "name": "Oblierater Noob"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3317083,
+              "name": "Guidoki"
+            }
+          ]
+        },
         {
           "matchId": 508335014,
           "civ": "Ethiopians",
@@ -5971,5 +6023,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

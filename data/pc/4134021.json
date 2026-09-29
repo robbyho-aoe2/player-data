@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 210,
-        "pulledDate": "2026-09-22",
-        "latestRating": 724,
+        "totalGames": 216,
+        "pulledDate": "2026-09-29",
+        "latestRating": 684,
         "peakRating": 781
       },
       "matches": [
+        {
+          "matchId": 510082021,
+          "civ": "Teutons",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:33:58.000Z",
+          "dur": 2068,
+          "opponents": [
+            {
+              "profileId": 612864,
+              "name": "smells like noob spirit"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509901186,
+          "civ": "Teutons",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:08:14.000Z",
+          "dur": 2372,
+          "opponents": [
+            {
+              "profileId": 15396644,
+              "name": "hyoga"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509853644,
+          "civ": "Armenians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:20:44.000Z",
+          "dur": 2519,
+          "opponents": [
+            {
+              "profileId": 2102257,
+              "name": "RAPAZ"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509594676,
+          "civ": "Teutons",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:11:51.000Z",
+          "dur": 1227,
+          "opponents": [
+            {
+              "profileId": 878845,
+              "name": "hakangerin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509586454,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:15:48.000Z",
+          "dur": 1373,
+          "opponents": [
+            {
+              "profileId": 781261,
+              "name": "sebastienbohan95"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509576325,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:06:57.000Z",
+          "dur": 2904,
+          "opponents": [
+            {
+              "profileId": 25740311,
+              "name": "Bleedrs"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508267972,
           "civ": "Teutons",
@@ -3413,7 +3515,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 317,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 698,
         "peakRating": 850
       },
@@ -11562,5 +11664,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

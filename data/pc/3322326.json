@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 135,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1165,
+        "totalGames": 136,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1148,
         "peakRating": 1275
       },
       "matches": [
+        {
+          "matchId": 509777716,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:49:23.000Z",
+          "dur": 956,
+          "opponents": [
+            {
+              "profileId": 2925158,
+              "name": "AOE2CHICK"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508808496,
           "civ": "Ethiopians",
@@ -2200,12 +2217,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 233,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1339,
+        "totalGames": 238,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1287,
         "peakRating": 1358
       },
       "matches": [
+        {
+          "matchId": 510008912,
+          "civ": "Ethiopians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:41:05.000Z",
+          "dur": 2883,
+          "opponents": [
+            {
+              "profileId": 2984690,
+              "name": "Etienne"
+            },
+            {
+              "profileId": 149031,
+              "name": "Porcy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4819441,
+              "name": "[HAV] Papi de Jardin"
+            }
+          ]
+        },
+        {
+          "matchId": 509876474,
+          "civ": "Ethiopians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:55:03.000Z",
+          "dur": 1353,
+          "opponents": [
+            {
+              "profileId": 3550674,
+              "name": "Gogogo"
+            },
+            {
+              "profileId": 2992125,
+              "name": "cuilao8123"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23356335,
+              "name": "Federa1991"
+            }
+          ]
+        },
+        {
+          "matchId": 509872829,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:35:30.000Z",
+          "dur": 1006,
+          "opponents": [
+            {
+              "profileId": 5090459,
+              "name": "NomeL\u2122"
+            },
+            {
+              "profileId": 25514341,
+              "name": "\u8131\u7f30\u91ce\u9a6c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23356335,
+              "name": "Federa1991"
+            }
+          ]
+        },
+        {
+          "matchId": 509869589,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:15:20.000Z",
+          "dur": 978,
+          "opponents": [
+            {
+              "profileId": 4308375,
+              "name": "Rasec"
+            },
+            {
+              "profileId": 5502215,
+              "name": "CrisTheOne"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23356335,
+              "name": "Federa1991"
+            }
+          ]
+        },
+        {
+          "matchId": 509868899,
+          "civ": "Ethiopians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:11:36.000Z",
+          "dur": 44,
+          "opponents": [
+            {
+              "profileId": 15686720,
+              "name": "\u6211\u7684\u519c\u6c11\u6709\u516b\u5757\u8179\u808c"
+            },
+            {
+              "profileId": 18952724,
+              "name": "\u65e0\u52a9\u5c0f\u7f8a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23356335,
+              "name": "Federa1991"
+            }
+          ]
+        },
         {
           "matchId": 508870389,
           "civ": "Spanish",
@@ -8498,5 +8645,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

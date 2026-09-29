@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 698,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1164,
-        "peakRating": 1170
+        "totalGames": 699,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1181,
+        "peakRating": 1181
       },
       "matches": [
+        {
+          "matchId": 509838004,
+          "civ": "Bulgarians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:48:48.000Z",
+          "dur": 1474,
+          "opponents": [
+            {
+              "profileId": 26177478,
+              "name": "Neuron MX"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506625113,
           "civ": "Teutons",
@@ -11896,7 +11913,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 42,
-        "pulledDate": "2026-09-16",
+        "pulledDate": "2026-09-29",
         "latestRating": 1094,
         "peakRating": 1121
       },
@@ -13590,5 +13607,6 @@
   },
   "country": "sk",
   "countryIcon": "\ud83c\uddf8\ud83c\uddf0",
-  "countryName": "Slovakia"
+  "countryName": "Slovakia",
+  "platform": "Steam"
 }

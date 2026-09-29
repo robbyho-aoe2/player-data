@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -29,12 +29,90 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 377,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1148,
+        "totalGames": 380,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1183,
         "peakRating": 1289
       },
       "matches": [
+        {
+          "matchId": 509797356,
+          "civ": "Romans",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:40:55.000Z",
+          "dur": 1953,
+          "opponents": [
+            {
+              "profileId": 12517210,
+              "name": "bocaj narom"
+            },
+            {
+              "profileId": 12765966,
+              "name": "GODGIBin6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13035485,
+              "name": "Mister Lazenby"
+            }
+          ]
+        },
+        {
+          "matchId": 509790443,
+          "civ": "Malians",
+          "map": "Pilgrims",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:01:19.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 14566413,
+              "name": "Ceebo Jr"
+            },
+            {
+              "profileId": 13141072,
+              "name": "HJarvs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13035485,
+              "name": "Mister Lazenby"
+            }
+          ]
+        },
+        {
+          "matchId": 509786403,
+          "civ": "Malians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:37:52.000Z",
+          "dur": 1268,
+          "opponents": [
+            {
+              "profileId": 26152088,
+              "name": "Caliburritos128"
+            },
+            {
+              "profileId": 26125397,
+              "name": "TheGoodDoge8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13035485,
+              "name": "Mister Lazenby"
+            }
+          ]
+        },
         {
           "matchId": 508145098,
           "civ": "Romans",
@@ -9704,7 +9782,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1076
       },
       "matches": [
@@ -9761,7 +9839,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 14,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 756,
         "peakRating": 808
       },
@@ -10129,5 +10207,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

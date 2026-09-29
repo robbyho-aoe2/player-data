@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 94,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1261,
         "peakRating": 1261
       },
@@ -1533,12 +1533,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1388,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1283,
+        "totalGames": 1390,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1286,
         "peakRating": 1388
       },
       "matches": [
+        {
+          "matchId": 509960022,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:48:07.000Z",
+          "dur": 1133,
+          "opponents": [
+            {
+              "profileId": 19228473,
+              "name": "executable"
+            },
+            {
+              "profileId": 2696198,
+              "name": "Renan Santos 14"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5029300,
+              "name": "pauito79_ator"
+            }
+          ]
+        },
+        {
+          "matchId": 509955276,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:25:39.000Z",
+          "dur": 1160,
+          "opponents": [
+            {
+              "profileId": 1966495,
+              "name": "Jed"
+            },
+            {
+              "profileId": 1995691,
+              "name": "Harry"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5029300,
+              "name": "pauito79_ator"
+            }
+          ]
+        },
         {
           "matchId": 508267705,
           "civ": "Malians",
@@ -44225,5 +44277,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

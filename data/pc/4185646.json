@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 206,
-        "pulledDate": "2026-09-25",
-        "latestRating": 937,
+        "totalGames": 207,
+        "pulledDate": "2026-09-29",
+        "latestRating": 923,
         "peakRating": 1063
       },
       "matches": [
+        {
+          "matchId": 509922666,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:57:43.000Z",
+          "dur": 1605,
+          "opponents": [
+            {
+              "profileId": 26071375,
+              "name": "Nix"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508683022,
           "civ": "Franks",
@@ -3532,7 +3549,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 396,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1003,
         "peakRating": 1060
       },
@@ -14230,5 +14247,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

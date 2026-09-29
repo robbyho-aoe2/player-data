@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2443,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1488,
+        "totalGames": 2445,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1489,
         "peakRating": 1704
       },
       "matches": [
+        {
+          "matchId": 509625185,
+          "civ": "Mapuche",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:50:44.000Z",
+          "dur": 1647,
+          "opponents": [
+            {
+              "profileId": 897903,
+              "name": "Zharoon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509616003,
+          "civ": "Malay",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:09:02.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 3993021,
+              "name": "CraB"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506901533,
           "civ": "Wei",
@@ -39137,7 +39171,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 384,
-        "pulledDate": "2026-09-16",
+        "pulledDate": "2026-09-29",
         "latestRating": 1480,
         "peakRating": 1487
       },
@@ -54448,5 +54482,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Steam"
 }

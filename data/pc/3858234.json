@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 420,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1339,
         "peakRating": 1345
       },
@@ -3809,12 +3809,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3667,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1524,
+        "totalGames": 3669,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1497,
         "peakRating": 1533
       },
       "matches": [
+        {
+          "matchId": 509872171,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:31:38.000Z",
+          "dur": 1048,
+          "opponents": [
+            {
+              "profileId": 5200934,
+              "name": "AkiLLes"
+            },
+            {
+              "profileId": 4698080,
+              "name": "Holy Heroin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19950660,
+              "name": "Flybidi"
+            }
+          ]
+        },
+        {
+          "matchId": 509867421,
+          "civ": "Saracens",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:02:51.000Z",
+          "dur": 1450,
+          "opponents": [
+            {
+              "profileId": 2897529,
+              "name": "Franczesco"
+            },
+            {
+              "profileId": 1469412,
+              "name": "Rank"
+            },
+            {
+              "profileId": 2734385,
+              "name": "happy gay"
+            },
+            {
+              "profileId": 17070540,
+              "name": "AutoClickerv3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6751830,
+              "name": "ccereal"
+            },
+            {
+              "profileId": 19950660,
+              "name": "Flybidi"
+            },
+            {
+              "profileId": 9989453,
+              "name": "Frorok"
+            }
+          ]
+        },
         {
           "matchId": 508747007,
           "civ": "Saxons",
@@ -38626,5 +38694,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

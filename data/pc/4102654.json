@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 284,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 948,
         "peakRating": 1020
       },
@@ -4573,12 +4573,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1363,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1120,
+        "totalGames": 1366,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1134,
         "peakRating": 1245
       },
       "matches": [
+        {
+          "matchId": 509786329,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:37:58.000Z",
+          "dur": 2226,
+          "opponents": [
+            {
+              "profileId": 19832592,
+              "name": "SauceBistro"
+            },
+            {
+              "profileId": 553512,
+              "name": "lcross"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4071736,
+              "name": "Dafixios"
+            }
+          ]
+        },
+        {
+          "matchId": 509783508,
+          "civ": "Chinese",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:22:05.000Z",
+          "dur": 698,
+          "opponents": [
+            {
+              "profileId": 3722417,
+              "name": "SEUADEMIR"
+            },
+            {
+              "profileId": 3713980,
+              "name": "Beija ou Passa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4071736,
+              "name": "Dafixios"
+            }
+          ]
+        },
+        {
+          "matchId": 509778380,
+          "civ": "Chinese",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:52:37.000Z",
+          "dur": 1334,
+          "opponents": [
+            {
+              "profileId": 1775483,
+              "name": "EasyStreet"
+            },
+            {
+              "profileId": 444001,
+              "name": "AstroBoy1741"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4071736,
+              "name": "Dafixios"
+            }
+          ]
+        },
         {
           "matchId": 509003108,
           "civ": "Chinese",
@@ -51083,5 +51161,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 916,
         "peakRating": 946
       },
@@ -221,12 +221,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 934,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1110,
+        "totalGames": 939,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1152,
         "peakRating": 1282
       },
       "matches": [
+        {
+          "matchId": 509181570,
+          "civ": "Burgundians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:34:42.000Z",
+          "dur": 1203,
+          "opponents": [
+            {
+              "profileId": 17497808,
+              "name": "PERPETUAL BURN"
+            },
+            {
+              "profileId": 2087840,
+              "name": "P4ND4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 428821,
+              "name": "struktureller Linguist"
+            }
+          ]
+        },
+        {
+          "matchId": 509172184,
+          "civ": "Burgundians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:53:21.000Z",
+          "dur": 2101,
+          "opponents": [
+            {
+              "profileId": 2744945,
+              "name": "MRathS"
+            },
+            {
+              "profileId": 2485086,
+              "name": "Vlad_Dracula"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 428821,
+              "name": "struktureller Linguist"
+            }
+          ]
+        },
+        {
+          "matchId": 509166919,
+          "civ": "Burgundians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:29:29.000Z",
+          "dur": 1126,
+          "opponents": [
+            {
+              "profileId": 25559646,
+              "name": "ataizz999"
+            },
+            {
+              "profileId": 5317217,
+              "name": "Alexios Komnenos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 428821,
+              "name": "struktureller Linguist"
+            }
+          ]
+        },
+        {
+          "matchId": 509158441,
+          "civ": "Burgundians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:52:02.000Z",
+          "dur": 1751,
+          "opponents": [
+            {
+              "profileId": 6776227,
+              "name": "Panzer\u9152\u6843"
+            },
+            {
+              "profileId": 6771918,
+              "name": "Wick"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 428821,
+              "name": "struktureller Linguist"
+            }
+          ]
+        },
+        {
+          "matchId": 509150640,
+          "civ": "Burgundians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:16:23.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 248442,
+              "name": "Vaplis"
+            },
+            {
+              "profileId": 241153,
+              "name": "stasaitis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 428821,
+              "name": "struktureller Linguist"
+            }
+          ]
+        },
         {
           "matchId": 508072330,
           "civ": "Khmer",
@@ -26863,5 +26993,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

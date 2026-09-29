@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 282,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1100,
+        "totalGames": 283,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1116,
         "peakRating": 1183
       },
       "matches": [
+        {
+          "matchId": 509217485,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:36:51.000Z",
+          "dur": 1088,
+          "opponents": [
+            {
+              "profileId": 25702673,
+              "name": "Capybara-Master"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508327917,
           "civ": "Lithuanians",
@@ -4542,12 +4559,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1127,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1195,
-        "peakRating": 1232
+        "totalGames": 1131,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1225,
+        "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 509263767,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:55:41.000Z",
+          "dur": 3093,
+          "opponents": [
+            {
+              "profileId": 2110565,
+              "name": "Hari_Seldon"
+            },
+            {
+              "profileId": 2296443,
+              "name": "DS_Matijuz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23628056,
+              "name": "Sam_Sepiol"
+            }
+          ]
+        },
+        {
+          "matchId": 509259386,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:31:13.000Z",
+          "dur": 1308,
+          "opponents": [
+            {
+              "profileId": 459177,
+              "name": "Zuppa"
+            },
+            {
+              "profileId": 768391,
+              "name": "peshy2x"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23628056,
+              "name": "Sam_Sepiol"
+            }
+          ]
+        },
+        {
+          "matchId": 509253532,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:59:59.000Z",
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 3964003,
+              "name": "DeJotaGivni"
+            },
+            {
+              "profileId": 9979071,
+              "name": "yerko.mitrovic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23628056,
+              "name": "Sam_Sepiol"
+            }
+          ]
+        },
+        {
+          "matchId": 509244169,
+          "civ": "Lithuanians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:12:53.000Z",
+          "dur": 2318,
+          "opponents": [
+            {
+              "profileId": 3964003,
+              "name": "DeJotaGivni"
+            },
+            {
+              "profileId": 9979071,
+              "name": "yerko.mitrovic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23628056,
+              "name": "Sam_Sepiol"
+            }
+          ]
+        },
         {
           "matchId": 508987032,
           "civ": "Lithuanians",
@@ -32841,5 +32962,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

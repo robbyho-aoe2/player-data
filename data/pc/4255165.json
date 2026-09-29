@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 47,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1026,
         "peakRating": 1102
       },
@@ -781,12 +781,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1721,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1367,
+        "totalGames": 1722,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1348,
         "peakRating": 1367
       },
       "matches": [
+        {
+          "matchId": 510021914,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:02:32.000Z",
+          "dur": 1453,
+          "opponents": [
+            {
+              "profileId": 89900,
+              "name": "Axel"
+            },
+            {
+              "profileId": 217183,
+              "name": "Zook"
+            },
+            {
+              "profileId": 632499,
+              "name": "Swix"
+            },
+            {
+              "profileId": 709419,
+              "name": "The Last Shadow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3133747,
+              "name": "[CL]TrunicC"
+            },
+            {
+              "profileId": 19007246,
+              "name": "sada-aki"
+            },
+            {
+              "profileId": 19902877,
+              "name": "\u4f60\u9876\u4f4f\u6211\u53d1\u5c55"
+            }
+          ]
+        },
         {
           "matchId": 508376479,
           "civ": "Tatars",
@@ -70554,5 +70596,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

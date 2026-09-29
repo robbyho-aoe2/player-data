@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1209,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1806,
         "peakRating": 1806
       },
@@ -19373,12 +19373,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1608,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1528,
+        "totalGames": 1611,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1563,
         "peakRating": 1635
       },
       "matches": [
+        {
+          "matchId": 509517842,
+          "civ": "Hindustanis",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:41:52.000Z",
+          "dur": 831,
+          "opponents": [
+            {
+              "profileId": 375234,
+              "name": "JotaPex"
+            },
+            {
+              "profileId": 37718,
+              "name": "[VA] Tano_Pacman"
+            },
+            {
+              "profileId": 541389,
+              "name": "uku_"
+            },
+            {
+              "profileId": 1079443,
+              "name": "Dino_Mate"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11988650,
+              "name": "INK | La Bestia"
+            },
+            {
+              "profileId": 22336338,
+              "name": "INK | Moqui"
+            },
+            {
+              "profileId": 26103938,
+              "name": "INK | ComidaXfavor"
+            }
+          ]
+        },
+        {
+          "matchId": 509516344,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:34:10.000Z",
+          "dur": 289,
+          "opponents": [
+            {
+              "profileId": 1547021,
+              "name": "\u4e4c\u5408\u4e4b\u4f17"
+            },
+            {
+              "profileId": 20131717,
+              "name": "\u4f60\u53ef\u4ee5\u6253\u6211\u961f\u53cb\u5417"
+            },
+            {
+              "profileId": 21057930,
+              "name": "\u62ff\u634f\u6728\u6751"
+            },
+            {
+              "profileId": 24783481,
+              "name": "st9901544"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26103938,
+              "name": "INK | ComidaXfavor"
+            },
+            {
+              "profileId": 11988650,
+              "name": "INK | La Bestia"
+            },
+            {
+              "profileId": 22336338,
+              "name": "INK | Moqui"
+            }
+          ]
+        },
+        {
+          "matchId": 509273087,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:53:24.000Z",
+          "dur": 1941,
+          "opponents": [
+            {
+              "profileId": 3498099,
+              "name": "[A2PL]JUANDDCAB"
+            },
+            {
+              "profileId": 398568,
+              "name": "[A2PL]TheOne"
+            },
+            {
+              "profileId": 8518823,
+              "name": "[A2PL]Jdbcervantes"
+            },
+            {
+              "profileId": 6890507,
+              "name": "A2PL Okr010"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26103938,
+              "name": "INK | ComidaXfavor"
+            },
+            {
+              "profileId": 22336338,
+              "name": "INK | Moqui"
+            },
+            {
+              "profileId": 11988650,
+              "name": "INK | La Bestia"
+            }
+          ]
+        },
         {
           "matchId": 508801673,
           "civ": "Britons",
@@ -76057,5 +76183,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

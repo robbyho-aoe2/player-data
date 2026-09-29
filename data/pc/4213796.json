@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1764,
         "peakRating": 1795
       },
@@ -589,12 +589,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4134,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1621,
+        "totalGames": 4136,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1614,
         "peakRating": 1825
       },
       "matches": [
+        {
+          "matchId": 509519343,
+          "civ": "Mongols",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:50:15.000Z",
+          "dur": 1998,
+          "opponents": [
+            {
+              "profileId": 309389,
+              "name": "LVA - \u539a\u5854\u8272"
+            },
+            {
+              "profileId": 3249377,
+              "name": "gerowOw"
+            },
+            {
+              "profileId": 5835790,
+              "name": "AeRo"
+            },
+            {
+              "profileId": 26014123,
+              "name": "Coloso MDP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26061352,
+              "name": "\u5112\u95e8_\u91cd\u519c\u6291\u5546"
+            },
+            {
+              "profileId": 2674743,
+              "name": "\u9f20\u689d"
+            },
+            {
+              "profileId": 2769944,
+              "name": "miki_bb /VL/"
+            }
+          ]
+        },
+        {
+          "matchId": 509513534,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:18:34.000Z",
+          "dur": 1271,
+          "opponents": [
+            {
+              "profileId": 11551814,
+              "name": "Lightning"
+            },
+            {
+              "profileId": 2769944,
+              "name": "miki_bb /VL/"
+            },
+            {
+              "profileId": 2204002,
+              "name": "Mo_Tastic"
+            },
+            {
+              "profileId": 270855,
+              "name": "Mati"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2800935,
+              "name": "Platypus"
+            },
+            {
+              "profileId": 1744259,
+              "name": "eimer6174"
+            },
+            {
+              "profileId": 478629,
+              "name": "QNA | Apachai Hopachai"
+            }
+          ]
+        },
         {
           "matchId": 508908185,
           "civ": "Khmer",
@@ -168948,5 +169032,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

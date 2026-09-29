@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1735,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1136,
         "peakRating": 1321
       },
@@ -29524,12 +29524,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 931,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1283,
+        "totalGames": 932,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1266,
         "peakRating": 1423
       },
       "matches": [
+        {
+          "matchId": 509469050,
+          "civ": "Italians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:05:39.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 15283523,
+              "name": "[RZ] Jo\u00e3ozinho"
+            },
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            },
+            {
+              "profileId": 12125484,
+              "name": "[RZ] rj.renan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5103165,
+              "name": "dekster"
+            },
+            {
+              "profileId": 6160265,
+              "name": "xPawno"
+            }
+          ]
+        },
         {
           "matchId": 508276568,
           "civ": "Mongols",
@@ -64651,5 +64685,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

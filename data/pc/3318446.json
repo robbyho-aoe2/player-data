@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1521,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1147,
+        "totalGames": 1524,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1163,
         "peakRating": 1204
       },
       "matches": [
+        {
+          "matchId": 510032897,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:23:45.000Z",
+          "dur": 858,
+          "opponents": [
+            {
+              "profileId": 11472766,
+              "name": "samjee"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510029270,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:54:04.000Z",
+          "dur": 994,
+          "opponents": [
+            {
+              "profileId": 25616813,
+              "name": "Fulcrum"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509809373,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:04:25.000Z",
+          "dur": 1991,
+          "opponents": [
+            {
+              "profileId": 322915,
+              "name": "tennisshoesfan"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508352912,
           "civ": "Chinese",
@@ -24372,12 +24423,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1697,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1211,
+        "totalGames": 1698,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1195,
         "peakRating": 1259
       },
       "matches": [
+        {
+          "matchId": 509806083,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:40:11.000Z",
+          "dur": 1007,
+          "opponents": [
+            {
+              "profileId": 2847932,
+              "name": "Antonio Margarete"
+            },
+            {
+              "profileId": 4966425,
+              "name": "ALV-Compa Robemmanml"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1321079,
+              "name": "softkittens"
+            }
+          ]
+        },
         {
           "matchId": 506565215,
           "civ": "Burgundians",
@@ -72840,5 +72917,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 961,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1106,
+        "totalGames": 965,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1107,
         "peakRating": 1196
       },
       "matches": [
+        {
+          "matchId": 509513368,
+          "civ": "Wu",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:17:14.000Z",
+          "dur": 503,
+          "opponents": [
+            {
+              "profileId": 389465,
+              "name": "OLYMPIAKOS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509509282,
+          "civ": "Japanese",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:54:22.000Z",
+          "dur": 942,
+          "opponents": [
+            {
+              "profileId": 1094934,
+              "name": "danikun1614"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509442636,
+          "civ": "Wu",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:08:27.000Z",
+          "dur": 982,
+          "opponents": [
+            {
+              "profileId": 5232373,
+              "name": "Hal-Ahme Elpenne"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509434574,
+          "civ": "Wu",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:34:34.000Z",
+          "dur": 1062,
+          "opponents": [
+            {
+              "profileId": 23705690,
+              "name": "Racing corazon"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504906766,
           "civ": "Vikings",
@@ -15408,7 +15476,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 529,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-29",
         "latestRating": 1026,
         "peakRating": 1123
       },
@@ -29969,5 +30037,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

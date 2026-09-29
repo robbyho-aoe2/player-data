@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1093,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1145,
+        "totalGames": 1099,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1116,
         "peakRating": 1256
       },
       "matches": [
+        {
+          "matchId": 509747120,
+          "civ": "Gurjaras",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:02:20.000Z",
+          "dur": 787,
+          "opponents": [
+            {
+              "profileId": 2327664,
+              "name": "morningsun"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509684611,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:53:22.000Z",
+          "dur": 910,
+          "opponents": [
+            {
+              "profileId": 21747902,
+              "name": "Guerrier Leffe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509548111,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:46:19.000Z",
+          "dur": 1759,
+          "opponents": [
+            {
+              "profileId": 21687660,
+              "name": "GorillaMan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509445584,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:20:52.000Z",
+          "dur": 1484,
+          "opponents": [
+            {
+              "profileId": 10248909,
+              "name": "ARM-Dahua"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509267573,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:17:07.000Z",
+          "dur": 1390,
+          "opponents": [
+            {
+              "profileId": 573964,
+              "name": "H4CK70R"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509260787,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:38:51.000Z",
+          "dur": 1260,
+          "opponents": [
+            {
+              "profileId": 22057044,
+              "name": "Cap Sparrow3688"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509072516,
           "civ": "Vietnamese",
@@ -17584,12 +17686,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1060,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1193,
+        "totalGames": 1062,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1190,
         "peakRating": 1297
       },
       "matches": [
+        {
+          "matchId": 509675041,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:14:21.000Z",
+          "dur": 1321,
+          "opponents": [
+            {
+              "profileId": 3300594,
+              "name": "Juhis92"
+            },
+            {
+              "profileId": 1930219,
+              "name": "TnT55"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4598367,
+              "name": "wouanou"
+            }
+          ]
+        },
+        {
+          "matchId": 509560012,
+          "civ": "Burgundians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:11:37.000Z",
+          "dur": 1043,
+          "opponents": [
+            {
+              "profileId": 15244681,
+              "name": "Myrakaru"
+            },
+            {
+              "profileId": 2662006,
+              "name": "fede"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18590690,
+              "name": "PIPEX1356"
+            }
+          ]
+        },
         {
           "matchId": 508098654,
           "civ": "Burgundians",
@@ -51480,5 +51634,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

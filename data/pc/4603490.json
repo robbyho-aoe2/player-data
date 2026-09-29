@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 34,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1465,
-        "peakRating": 1465
+        "totalGames": 37,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1451,
+        "peakRating": 1482
       },
       "matches": [
+        {
+          "matchId": 509987214,
+          "civ": "Shu",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:24:25.000Z",
+          "dur": 2071,
+          "opponents": [
+            {
+              "profileId": 6895997,
+              "name": "Fr Spodo Komodo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509749424,
+          "civ": "Portuguese",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:13:06.000Z",
+          "dur": 2058,
+          "opponents": [
+            {
+              "profileId": 671917,
+              "name": "lime"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509743909,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:46:29.000Z",
+          "dur": 1288,
+          "opponents": [
+            {
+              "profileId": 646272,
+              "name": "herlex"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509211298,
           "civ": "Wei",
@@ -429,12 +480,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 59,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1360,
+        "totalGames": 61,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1395,
         "peakRating": 1526
       },
       "matches": [
+        {
+          "matchId": 509756650,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:51:37.000Z",
+          "dur": 2259,
+          "opponents": [
+            {
+              "profileId": 3097484,
+              "name": "[GMEX] | The_Spartako"
+            },
+            {
+              "profileId": 3409852,
+              "name": "Boywars"
+            },
+            {
+              "profileId": 22060025,
+              "name": "AlejoGuitar08"
+            },
+            {
+              "profileId": 19787486,
+              "name": "El Fantasma de Pancho Villa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2931118,
+              "name": "The Wax"
+            },
+            {
+              "profileId": 4529186,
+              "name": "ERUCTO DE SALAME"
+            },
+            {
+              "profileId": 3793023,
+              "name": "MrCochinote"
+            }
+          ]
+        },
+        {
+          "matchId": 509224498,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:20:20.000Z",
+          "dur": 1572,
+          "opponents": [
+            {
+              "profileId": 12004656,
+              "name": "CTM | SUNYQ"
+            },
+            {
+              "profileId": 9733677,
+              "name": "PSX | King"
+            },
+            {
+              "profileId": 8581249,
+              "name": "Alejandrito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 649213,
+              "name": "zY.Thorfinn"
+            },
+            {
+              "profileId": 3235189,
+              "name": "| CZK | - Diego -"
+            }
+          ]
+        },
         {
           "matchId": 509220526,
           "civ": "Mongols",
@@ -1715,5 +1842,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }
