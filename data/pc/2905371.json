@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 43,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1339,
         "peakRating": 1339
       },
@@ -760,12 +760,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 416,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1294,
+        "totalGames": 418,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1286,
         "peakRating": 1504
       },
       "matches": [
+        {
+          "matchId": 509682212,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:43:47.000Z",
+          "dur": 1788,
+          "opponents": [
+            {
+              "profileId": 2173169,
+              "name": "Sir bacardi"
+            },
+            {
+              "profileId": 3302962,
+              "name": "Pollo_congelao"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25018057,
+              "name": "Exilerise"
+            }
+          ]
+        },
+        {
+          "matchId": 509667439,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:43:47.000Z",
+          "dur": 2066,
+          "opponents": [
+            {
+              "profileId": 14289738,
+              "name": "sEA-"
+            },
+            {
+              "profileId": 25128412,
+              "name": "ap2wang"
+            },
+            {
+              "profileId": 21421924,
+              "name": "ggggidea"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25018057,
+              "name": "Exilerise"
+            },
+            {
+              "profileId": 2905713,
+              "name": "Taleshire"
+            }
+          ]
+        },
         {
           "matchId": 508533152,
           "civ": "Danes",
@@ -14954,5 +15014,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

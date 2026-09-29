@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 313,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1083,
+        "totalGames": 316,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1069,
         "peakRating": 1194
       },
       "matches": [
+        {
+          "matchId": 509841955,
+          "civ": "Lithuanians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:30:31.000Z",
+          "dur": 2146,
+          "opponents": [
+            {
+              "profileId": 25255954,
+              "name": "KinE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509082713,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T12:27:00.000Z",
+          "dur": 1312,
+          "opponents": [
+            {
+              "profileId": 3023483,
+              "name": "ryanlee0512"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509078508,
+          "civ": "Celts",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T11:57:34.000Z",
+          "dur": 1629,
+          "opponents": [
+            {
+              "profileId": 17022270,
+              "name": "T - T"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509036510,
           "civ": "Bulgarians",
@@ -5077,12 +5128,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 309,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1128,
+        "totalGames": 311,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1131,
         "peakRating": 1307
       },
       "matches": [
+        {
+          "matchId": 509103086,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:24:52.000Z",
+          "dur": 2119,
+          "opponents": [
+            {
+              "profileId": 3444829,
+              "name": "lenhhoxung"
+            },
+            {
+              "profileId": 959024,
+              "name": "Dx-blakes"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6847742,
+              "name": "RockAxe2"
+            }
+          ]
+        },
+        {
+          "matchId": 509067691,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T10:26:03.000Z",
+          "dur": 2868,
+          "opponents": [
+            {
+              "profileId": 758864,
+              "name": "NotYourHer0"
+            },
+            {
+              "profileId": 4868430,
+              "name": "MISTER DYE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15012841,
+              "name": "Bubble Kg !"
+            }
+          ]
+        },
         {
           "matchId": 508834367,
           "civ": "Bengalis",
@@ -14885,5 +14988,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

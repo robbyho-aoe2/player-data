@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -187,12 +187,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 675,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1282,
-        "peakRating": 1282
+        "totalGames": 679,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1289,
+        "peakRating": 1302
       },
       "matches": [
+        {
+          "matchId": 509937417,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:04:33.000Z",
+          "dur": 1225,
+          "opponents": [
+            {
+              "profileId": 21339043,
+              "name": "[Mosel] Sir Fboard"
+            },
+            {
+              "profileId": 9057448,
+              "name": "[Mosel] Raging"
+            },
+            {
+              "profileId": 4322927,
+              "name": "[Mosel] Achim Gonzales"
+            },
+            {
+              "profileId": 2989478,
+              "name": "[Mosel] Kampfschwein"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2025799,
+              "name": "zoid"
+            },
+            {
+              "profileId": 2025097,
+              "name": "The_Count"
+            },
+            {
+              "profileId": 1051450,
+              "name": "malte40"
+            }
+          ]
+        },
+        {
+          "matchId": 509936402,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:59:51.000Z",
+          "dur": 93,
+          "opponents": [
+            {
+              "profileId": 211840,
+              "name": "bindella"
+            },
+            {
+              "profileId": 3525556,
+              "name": "KRYPTAERNN"
+            },
+            {
+              "profileId": 14166051,
+              "name": "chenst2020"
+            },
+            {
+              "profileId": 21234617,
+              "name": "BARAKA wins!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1051450,
+              "name": "malte40"
+            },
+            {
+              "profileId": 2025097,
+              "name": "The_Count"
+            },
+            {
+              "profileId": 2025799,
+              "name": "zoid"
+            }
+          ]
+        },
+        {
+          "matchId": 509930096,
+          "civ": "Ethiopians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:32:14.000Z",
+          "dur": 1243,
+          "opponents": [
+            {
+              "profileId": 19477236,
+              "name": "Nome(more distinct)"
+            },
+            {
+              "profileId": 4081482,
+              "name": "\u4e27\u5fc3\u75c5\u72c2"
+            },
+            {
+              "profileId": 22279753,
+              "name": "BILLLLLLLYYY"
+            },
+            {
+              "profileId": 1449768,
+              "name": "kenchen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2025799,
+              "name": "zoid"
+            },
+            {
+              "profileId": 2025097,
+              "name": "The_Count"
+            },
+            {
+              "profileId": 1051450,
+              "name": "malte40"
+            }
+          ]
+        },
+        {
+          "matchId": 509919434,
+          "civ": "Ethiopians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:42:08.000Z",
+          "dur": 1805,
+          "opponents": [
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            },
+            {
+              "profileId": 1082498,
+              "name": "^ScArFaCe^"
+            },
+            {
+              "profileId": 1410027,
+              "name": "Ponfe"
+            },
+            {
+              "profileId": 3544079,
+              "name": "\u4e4c\u9f99\u73cd\u73e0\u62ff\u94c1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2025097,
+              "name": "The_Count"
+            },
+            {
+              "profileId": 2025799,
+              "name": "zoid"
+            },
+            {
+              "profileId": 1051450,
+              "name": "malte40"
+            }
+          ]
+        },
         {
           "matchId": 505069848,
           "civ": "Mongols",
@@ -19331,5 +19499,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

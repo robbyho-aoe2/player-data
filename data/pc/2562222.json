@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 111,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1381,
         "peakRating": 1434
       },
@@ -1916,12 +1916,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 368,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1392,
+        "totalGames": 369,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1376,
         "peakRating": 1414
       },
       "matches": [
+        {
+          "matchId": 509499452,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:57:55.000Z",
+          "dur": 1162,
+          "opponents": [
+            {
+              "profileId": 25248077,
+              "name": "Compare bear"
+            },
+            {
+              "profileId": 1911983,
+              "name": "EXILE | _SenSeY_StorM_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2564959,
+              "name": "Knightfall"
+            }
+          ]
+        },
         {
           "matchId": 508561795,
           "civ": "Saxons",
@@ -13155,5 +13181,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

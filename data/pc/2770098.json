@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1271,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "latestRating": 1214,
         "peakRating": 1367
       },
@@ -19026,12 +19026,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 735,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1292,
+        "totalGames": 738,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1293,
         "peakRating": 1324
       },
       "matches": [
+        {
+          "matchId": 509392146,
+          "civ": "Goths",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:34:00.000Z",
+          "dur": 1375,
+          "opponents": [
+            {
+              "profileId": 3899630,
+              "name": "CherniyVeter"
+            },
+            {
+              "profileId": 239704,
+              "name": "tiberio"
+            },
+            {
+              "profileId": 2821721,
+              "name": "Medina90"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3331728,
+              "name": "Witch"
+            },
+            {
+              "profileId": 3017066,
+              "name": "dubauc"
+            }
+          ]
+        },
+        {
+          "matchId": 509384551,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:00:22.000Z",
+          "dur": 1754,
+          "opponents": [
+            {
+              "profileId": 5132514,
+              "name": "OffensiveMars"
+            },
+            {
+              "profileId": 26068320,
+              "name": "onesecimpoopin"
+            },
+            {
+              "profileId": 16972769,
+              "name": "Calum1Ltv"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3331728,
+              "name": "Witch"
+            },
+            {
+              "profileId": 3017066,
+              "name": "dubauc"
+            }
+          ]
+        },
+        {
+          "matchId": 509375693,
+          "civ": "Goths",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:21:42.000Z",
+          "dur": 2039,
+          "opponents": [
+            {
+              "profileId": 13209718,
+              "name": "Moralelastic"
+            },
+            {
+              "profileId": 527110,
+              "name": "EZEKIEL_2517"
+            },
+            {
+              "profileId": 1222363,
+              "name": "Challwaq"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3017066,
+              "name": "dubauc"
+            },
+            {
+              "profileId": 3331728,
+              "name": "Witch"
+            }
+          ]
+        },
         {
           "matchId": 500439043,
           "civ": "Vietnamese",
@@ -34782,5 +34884,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

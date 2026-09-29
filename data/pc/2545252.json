@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 178,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1159,
+        "totalGames": 179,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1174,
         "peakRating": 1190
       },
       "matches": [
+        {
+          "matchId": 509152945,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:26:43.000Z",
+          "dur": 25,
+          "opponents": [
+            {
+              "profileId": 23067538,
+              "name": "abshayu"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 498915791,
           "civ": "Franks",
@@ -3056,7 +3073,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 477,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1136,
         "peakRating": 1388
       },
@@ -18655,5 +18672,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

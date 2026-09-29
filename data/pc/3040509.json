@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 415,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1587,
+        "totalGames": 416,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1570,
         "peakRating": 1681
       },
       "matches": [
+        {
+          "matchId": 509932271,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:41:07.000Z",
+          "dur": 1862,
+          "opponents": [
+            {
+              "profileId": 6308248,
+              "name": "[CL] FARFANA"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 492110820,
           "civ": "Magyars",
@@ -6669,12 +6686,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 578,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1548,
+        "totalGames": 580,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1549,
         "peakRating": 1580
       },
       "matches": [
+        {
+          "matchId": 509945291,
+          "civ": "Koreans",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:39:40.000Z",
+          "dur": 1544,
+          "opponents": [
+            {
+              "profileId": 735930,
+              "name": "CornelVS1"
+            },
+            {
+              "profileId": 249130,
+              "name": "J8S"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 591709,
+              "name": "Cynthia"
+            }
+          ]
+        },
+        {
+          "matchId": 509939690,
+          "civ": "Ethiopians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:14:31.000Z",
+          "dur": 1272,
+          "opponents": [
+            {
+              "profileId": 19186614,
+              "name": "FMG | Sawasha Takohida"
+            },
+            {
+              "profileId": 2598916,
+              "name": "Flow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 591709,
+              "name": "Cynthia"
+            }
+          ]
+        },
         {
           "matchId": 508942078,
           "civ": "Slavs",
@@ -24466,5 +24535,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

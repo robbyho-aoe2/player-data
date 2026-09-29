@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 409,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1440,
         "peakRating": 1482
       },
@@ -6982,12 +6982,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1928,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1390,
+        "totalGames": 1931,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1406,
         "peakRating": 1552
       },
       "matches": [
+        {
+          "matchId": 509937417,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:04:33.000Z",
+          "dur": 1225,
+          "opponents": [
+            {
+              "profileId": 2025799,
+              "name": "zoid"
+            },
+            {
+              "profileId": 1051450,
+              "name": "malte40"
+            },
+            {
+              "profileId": 2025097,
+              "name": "The_Count"
+            },
+            {
+              "profileId": 3113210,
+              "name": "noelzey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4322927,
+              "name": "[Mosel] Achim Gonzales"
+            },
+            {
+              "profileId": 9057448,
+              "name": "[Mosel] Raging"
+            },
+            {
+              "profileId": 21339043,
+              "name": "[Mosel] Sir Fboard"
+            }
+          ]
+        },
+        {
+          "matchId": 509929065,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:27:32.000Z",
+          "dur": 1778,
+          "opponents": [
+            {
+              "profileId": 3575361,
+              "name": "katzzu"
+            },
+            {
+              "profileId": 26096675,
+              "name": "Gandalff"
+            },
+            {
+              "profileId": 24860432,
+              "name": "KursedKnight993"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4322927,
+              "name": "[Mosel] Achim Gonzales"
+            },
+            {
+              "profileId": 9057448,
+              "name": "[Mosel] Raging"
+            }
+          ]
+        },
+        {
+          "matchId": 509091727,
+          "civ": "Tatars",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:23:56.000Z",
+          "dur": 1065,
+          "opponents": [
+            {
+              "profileId": 1751371,
+              "name": "Dani"
+            },
+            {
+              "profileId": 2513097,
+              "name": "jan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9057448,
+              "name": "[Mosel] Raging"
+            }
+          ]
+        },
         {
           "matchId": 508669451,
           "civ": "Mongols",
@@ -67961,5 +68063,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 32,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 717,
         "peakRating": 750
       },
@@ -541,12 +541,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 630,
-        "pulledDate": "2026-09-25",
-        "latestRating": 734,
+        "totalGames": 633,
+        "pulledDate": "2026-09-29",
+        "latestRating": 746,
         "peakRating": 896
       },
       "matches": [
+        {
+          "matchId": 509732935,
+          "civ": "Burgundians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:56:48.000Z",
+          "dur": 1890,
+          "opponents": [
+            {
+              "profileId": 13305382,
+              "name": "max.picozzi"
+            },
+            {
+              "profileId": 12354742,
+              "name": "RabidRabbit"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18227451,
+              "name": "Persian Elephant"
+            }
+          ]
+        },
+        {
+          "matchId": 509726330,
+          "civ": "Burgundians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:29:14.000Z",
+          "dur": 1547,
+          "opponents": [
+            {
+              "profileId": 18965764,
+              "name": "vikovski"
+            },
+            {
+              "profileId": 25860238,
+              "name": "Obvio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18227451,
+              "name": "Persian Elephant"
+            }
+          ]
+        },
+        {
+          "matchId": 509636992,
+          "civ": "Poles",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:39:45.000Z",
+          "dur": 1766,
+          "opponents": [
+            {
+              "profileId": 23482962,
+              "name": "Dr460n1um-CZ"
+            },
+            {
+              "profileId": 6374130,
+              "name": "Skitles222"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18227451,
+              "name": "Persian Elephant"
+            }
+          ]
+        },
         {
           "matchId": 508526060,
           "civ": "Bohemians",
@@ -19595,5 +19673,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

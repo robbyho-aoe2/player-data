@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1215,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1222,
+        "totalGames": 1220,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1206,
         "peakRating": 1352
       },
       "matches": [
+        {
+          "matchId": 509964197,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:09:40.000Z",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 2406284,
+              "name": "Guyunusa"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509960672,
+          "civ": "Aztecs",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:50:42.000Z",
+          "dur": 766,
+          "opponents": [
+            {
+              "profileId": 1290696,
+              "name": "mirangunca"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509955939,
+          "civ": "Khitans",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:28:07.000Z",
+          "dur": 675,
+          "opponents": [
+            {
+              "profileId": 26167682,
+              "name": "cjrosselg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509576433,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:07:38.000Z",
+          "dur": 1350,
+          "opponents": [
+            {
+              "profileId": 3062219,
+              "name": "ToninMarvado"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509552247,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:13:41.000Z",
+          "dur": 522,
+          "opponents": [
+            {
+              "profileId": 19427539,
+              "name": "[GDL] PaaEZ"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503175037,
           "civ": "Mongols",
@@ -19471,7 +19556,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "latestRating": 1559
       },
       "matches": [
@@ -19754,5 +19839,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

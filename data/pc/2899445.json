@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 537,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1141,
+        "totalGames": 544,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1191,
         "peakRating": 1259
       },
       "matches": [
+        {
+          "matchId": 510041540,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:44:55.000Z",
+          "dur": 1960,
+          "opponents": [
+            {
+              "profileId": 3444919,
+              "name": "SvS Sabach"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510040065,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:29:23.000Z",
+          "dur": 740,
+          "opponents": [
+            {
+              "profileId": 5159339,
+              "name": "\u6c38\u4e0d\u78e8\u640d\u578b"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510038439,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:12:21.000Z",
+          "dur": 846,
+          "opponents": [
+            {
+              "profileId": 10995387,
+              "name": "EL TOPO YIYO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509875419,
+          "civ": "Dravidians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:50:05.000Z",
+          "dur": 1381,
+          "opponents": [
+            {
+              "profileId": 2857077,
+              "name": "| SNV | AoEBengi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509824499,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T06:25:23.000Z",
+          "dur": 726,
+          "opponents": [
+            {
+              "profileId": 657420,
+              "name": "King_gerard_I"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509822035,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:58:52.000Z",
+          "dur": 1505,
+          "opponents": [
+            {
+              "profileId": 355512,
+              "name": "jojomayer"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509702123,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:58:46.000Z",
+          "dur": 1758,
+          "opponents": [
+            {
+              "profileId": 5707572,
+              "name": "Quila"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508817170,
           "civ": "Turks",
@@ -8641,7 +8760,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 42,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1005,
         "peakRating": 1052
       },
@@ -9934,5 +10053,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

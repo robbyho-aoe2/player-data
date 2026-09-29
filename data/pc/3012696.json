@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 365,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 700,
         "peakRating": 803
       },
@@ -5504,12 +5504,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 949,
-        "pulledDate": "2026-09-25",
-        "latestRating": 676,
+        "totalGames": 952,
+        "pulledDate": "2026-09-29",
+        "latestRating": 670,
         "peakRating": 977
       },
       "matches": [
+        {
+          "matchId": 509476604,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:44:11.000Z",
+          "dur": 535,
+          "opponents": [
+            {
+              "profileId": 8985915,
+              "name": "adela"
+            },
+            {
+              "profileId": 8985953,
+              "name": "Kitty"
+            },
+            {
+              "profileId": 9564793,
+              "name": "iLLusionzi"
+            },
+            {
+              "profileId": 2946534,
+              "name": "GothsGoodGod"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21425612,
+              "name": "Cholo-Mochica"
+            },
+            {
+              "profileId": 1720798,
+              "name": "Comandante"
+            },
+            {
+              "profileId": 1973816,
+              "name": "ExponentMars848"
+            }
+          ]
+        },
+        {
+          "matchId": 509366136,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:40:46.000Z",
+          "dur": 3426,
+          "opponents": [
+            {
+              "profileId": 23297262,
+              "name": "Franco E"
+            },
+            {
+              "profileId": 21464025,
+              "name": "mehmetlatifbzgyk"
+            },
+            {
+              "profileId": 2438815,
+              "name": "Rat Meat Pizza"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9883930,
+              "name": "Hercule Poirot II"
+            },
+            {
+              "profileId": 24694331,
+              "name": "Blyad-\u00fcl Suka"
+            }
+          ]
+        },
+        {
+          "matchId": 509329805,
+          "civ": "Dravidians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T11:35:56.000Z",
+          "dur": 1121,
+          "opponents": [
+            {
+              "profileId": 25282561,
+              "name": "Dr McClean"
+            },
+            {
+              "profileId": 312837,
+              "name": "Augusta"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2190108,
+              "name": "minicap"
+            }
+          ]
+        },
         {
           "matchId": 508971948,
           "civ": "Britons",
@@ -27193,5 +27295,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

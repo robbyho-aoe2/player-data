@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 70,
-        "pulledDate": "2026-09-25",
+        "totalGames": 72,
+        "pulledDate": "2026-09-29",
         "latestRating": 1084,
-        "peakRating": 1097
+        "peakRating": 1100
       },
       "matches": [
+        {
+          "matchId": 509729282,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:41:27.000Z",
+          "dur": 1727,
+          "opponents": [
+            {
+              "profileId": 2489419,
+              "name": "Luijki"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509155662,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:38:54.000Z",
+          "dur": 1825,
+          "opponents": [
+            {
+              "profileId": 2460880,
+              "name": "Lord Tiquira"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508962087,
           "civ": "Magyars",
@@ -1156,7 +1190,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 535,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1123,
         "peakRating": 1220
       },
@@ -15147,5 +15181,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 168,
-        "pulledDate": "2026-09-23",
-        "latestRating": 767,
+        "totalGames": 170,
+        "pulledDate": "2026-09-29",
+        "latestRating": 770,
         "peakRating": 910
       },
       "matches": [
+        {
+          "matchId": 509967857,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:28:09.000Z",
+          "dur": 874,
+          "opponents": [
+            {
+              "profileId": 4577064,
+              "name": "jeboy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509742883,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:41:11.000Z",
+          "dur": 711,
+          "opponents": [
+            {
+              "profileId": 12391213,
+              "name": "jaxom"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506709190,
           "civ": "Persians",
@@ -2886,7 +2920,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 67,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-09-29",
         "latestRating": 953,
         "peakRating": 1013
       },
@@ -4646,5 +4680,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1481,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1322,
         "peakRating": 1344
       },
@@ -13358,12 +13358,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2331,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1285,
+        "totalGames": 2333,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1278,
         "peakRating": 1482
       },
       "matches": [
+        {
+          "matchId": 509869026,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:12:18.000Z",
+          "dur": 246,
+          "opponents": [
+            {
+              "profileId": 4720241,
+              "name": "ForseenCow"
+            },
+            {
+              "profileId": 23213977,
+              "name": "Frosty"
+            },
+            {
+              "profileId": 1069045,
+              "name": "Dvu"
+            },
+            {
+              "profileId": 2013083,
+              "name": "noumha"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3209710,
+              "name": "nico"
+            },
+            {
+              "profileId": 10826593,
+              "name": "\u53ea\u7206\u53c9\u53c9"
+            },
+            {
+              "profileId": 25692044,
+              "name": "\u80a5\u80a0\u62cc\u9762"
+            }
+          ]
+        },
+        {
+          "matchId": 509324427,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T10:59:50.000Z",
+          "dur": 1337,
+          "opponents": [
+            {
+              "profileId": 222570,
+              "name": "MarkiManki"
+            },
+            {
+              "profileId": 1853721,
+              "name": "Onizuka"
+            },
+            {
+              "profileId": 1326477,
+              "name": "TheLawR\u00f8cK\u00ae"
+            },
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 360883,
+              "name": "DancingSword"
+            },
+            {
+              "profileId": 13282322,
+              "name": "lebron"
+            },
+            {
+              "profileId": 1907141,
+              "name": "\u8f7b\u7ed8\u68a8\u82b1\u6cea\u6ee1\u8863"
+            }
+          ]
+        },
         {
           "matchId": 508889358,
           "civ": "Danes",
@@ -35385,5 +35469,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 7,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 986
       },
       "matches": [
@@ -140,12 +140,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 130,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1238,
+        "totalGames": 132,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1237,
         "peakRating": 1260
       },
       "matches": [
+        {
+          "matchId": 509795897,
+          "civ": "Italians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:32:14.000Z",
+          "dur": 2763,
+          "opponents": [
+            {
+              "profileId": 10322799,
+              "name": "Fochstifer"
+            },
+            {
+              "profileId": 10376360,
+              "name": "monster_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            }
+          ]
+        },
+        {
+          "matchId": 509792579,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:13:32.000Z",
+          "dur": 890,
+          "opponents": [
+            {
+              "profileId": 26157408,
+              "name": "Calcifer"
+            },
+            {
+              "profileId": 25065244,
+              "name": "TuCumanodeElite"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            }
+          ]
+        },
         {
           "matchId": 508571106,
           "civ": "Italians",
@@ -3997,5 +4049,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

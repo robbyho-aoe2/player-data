@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 762,
-        "pulledDate": "2026-09-21",
-        "latestRating": 833,
+        "totalGames": 765,
+        "pulledDate": "2026-09-29",
+        "latestRating": 812,
         "peakRating": 1000
       },
       "matches": [
+        {
+          "matchId": 510020885,
+          "civ": "Maya",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:55:32.000Z",
+          "dur": 802,
+          "opponents": [
+            {
+              "profileId": 1547129,
+              "name": "Lusseper"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509909249,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:49:44.000Z",
+          "dur": 1950,
+          "opponents": [
+            {
+              "profileId": 6342903,
+              "name": "Aeropajitas"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509716626,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:51:10.000Z",
+          "dur": 2564,
+          "opponents": [
+            {
+              "profileId": 2953126,
+              "name": "Terabyte"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508102749,
           "civ": "Maya",
@@ -12984,7 +13035,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 159,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 980,
         "peakRating": 999
       },
@@ -17232,5 +17283,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

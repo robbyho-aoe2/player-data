@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 663,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1202,
+        "totalGames": 664,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1218,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 509769077,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:01:34.000Z",
+          "dur": 1239,
+          "opponents": [
+            {
+              "profileId": 344643,
+              "name": "tyyr ironside"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508122788,
           "civ": "Ethiopians",
@@ -10647,7 +10664,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 103,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1213,
         "peakRating": 1249
       },
@@ -13547,5 +13564,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -43,12 +43,182 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2075,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1099,
+        "totalGames": 2080,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1145,
         "peakRating": 1251
       },
       "matches": [
+        {
+          "matchId": 509722899,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:15:09.000Z",
+          "dur": 1599,
+          "opponents": [
+            {
+              "profileId": 385270,
+              "name": "peenut"
+            },
+            {
+              "profileId": 368306,
+              "name": "juan"
+            },
+            {
+              "profileId": 384417,
+              "name": "intellectual midget"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4225956,
+              "name": "Jorgen"
+            },
+            {
+              "profileId": 2549333,
+              "name": "kembokembo"
+            }
+          ]
+        },
+        {
+          "matchId": 509720088,
+          "civ": "Malians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:04:39.000Z",
+          "dur": 262,
+          "opponents": [
+            {
+              "profileId": 25062441,
+              "name": "\u9006\u5929\u5c0f\u80a5\u732a"
+            },
+            {
+              "profileId": 19061294,
+              "name": "oldschreddahand"
+            },
+            {
+              "profileId": 3486469,
+              "name": "Zad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4225956,
+              "name": "Jorgen"
+            },
+            {
+              "profileId": 2549333,
+              "name": "kembokembo"
+            }
+          ]
+        },
+        {
+          "matchId": 509714090,
+          "civ": "Malians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:42:20.000Z",
+          "dur": 1031,
+          "opponents": [
+            {
+              "profileId": 20477183,
+              "name": "Spooky1990"
+            },
+            {
+              "profileId": 9052525,
+              "name": "Beuhfa"
+            },
+            {
+              "profileId": 811995,
+              "name": "Slokurn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4225956,
+              "name": "Jorgen"
+            },
+            {
+              "profileId": 2549333,
+              "name": "kembokembo"
+            }
+          ]
+        },
+        {
+          "matchId": 509187061,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:59:20.000Z",
+          "dur": 1979,
+          "opponents": [
+            {
+              "profileId": 930704,
+              "name": "Achladi"
+            },
+            {
+              "profileId": 9909477,
+              "name": "GUILLOTINA"
+            },
+            {
+              "profileId": 3928254,
+              "name": "TheHofmeister"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2549333,
+              "name": "kembokembo"
+            },
+            {
+              "profileId": 4225956,
+              "name": "Jorgen"
+            }
+          ]
+        },
+        {
+          "matchId": 509178734,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:22:17.000Z",
+          "dur": 1693,
+          "opponents": [
+            {
+              "profileId": 14180481,
+              "name": "spicyP"
+            },
+            {
+              "profileId": 21501000,
+              "name": "michaelarendash"
+            },
+            {
+              "profileId": 17278846,
+              "name": "SIR LOOR FAAL"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2549333,
+              "name": "kembokembo"
+            },
+            {
+              "profileId": 4225956,
+              "name": "Jorgen"
+            }
+          ]
+        },
         {
           "matchId": 508962505,
           "civ": "Malians",
@@ -74118,5 +74288,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

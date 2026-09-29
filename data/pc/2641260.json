@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1078,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1401,
+        "totalGames": 1081,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1385,
         "peakRating": 1490
       },
       "matches": [
+        {
+          "matchId": 509477359,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:47:29.000Z",
+          "dur": 1377,
+          "opponents": [
+            {
+              "profileId": 19650823,
+              "name": "DS_Luffy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509472742,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:23:46.000Z",
+          "dur": 1235,
+          "opponents": [
+            {
+              "profileId": 1831103,
+              "name": "SS_BAD_"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509470154,
+          "civ": "Huns",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:10:58.000Z",
+          "dur": 687,
+          "opponents": [
+            {
+              "profileId": 6496511,
+              "name": "JAMESOR9"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504601189,
           "civ": "Vikings",
@@ -18355,12 +18406,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 284,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1379,
+        "totalGames": 288,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1326,
         "peakRating": 1417
       },
       "matches": [
+        {
+          "matchId": 509208439,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:44:21.000Z",
+          "dur": 1607,
+          "opponents": [
+            {
+              "profileId": 3547561,
+              "name": "max_paynich"
+            },
+            {
+              "profileId": 2529488,
+              "name": "Fender"
+            },
+            {
+              "profileId": 1742958,
+              "name": "God Of The Sea People"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 939090,
+              "name": "HarryBo"
+            },
+            {
+              "profileId": 3112637,
+              "name": "Polaco"
+            }
+          ]
+        },
+        {
+          "matchId": 509190297,
+          "civ": "Malians",
+          "map": "Lombardia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:13:15.000Z",
+          "dur": 5024,
+          "opponents": [
+            {
+              "profileId": 1634953,
+              "name": "Steelmate"
+            },
+            {
+              "profileId": 1642937,
+              "name": "climrik"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8551207,
+              "name": "Koga"
+            }
+          ]
+        },
+        {
+          "matchId": 509187995,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:03:05.000Z",
+          "dur": 1038,
+          "opponents": [
+            {
+              "profileId": 3259632,
+              "name": "po_v1ft!"
+            },
+            {
+              "profileId": 3527221,
+              "name": "ginkungen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 850635,
+              "name": "ASOT"
+            }
+          ]
+        },
+        {
+          "matchId": 509184849,
+          "civ": "Berbers",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:49:48.000Z",
+          "dur": 370,
+          "opponents": [
+            {
+              "profileId": 36101,
+              "name": "DJ Elvis Freshly"
+            },
+            {
+              "profileId": 819451,
+              "name": "NeeIpbah"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6416634,
+              "name": "FingerDash_262"
+            }
+          ]
+        },
         {
           "matchId": 508954618,
           "civ": "Chinese",
@@ -26555,5 +26718,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

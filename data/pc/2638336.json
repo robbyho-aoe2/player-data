@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 39,
-        "pulledDate": "2026-09-21",
-        "latestRating": 799,
+        "totalGames": 40,
+        "pulledDate": "2026-09-29",
+        "latestRating": 816,
         "peakRating": 1065
       },
       "matches": [
+        {
+          "matchId": 509967134,
+          "civ": "Malay",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:23:49.000Z",
+          "dur": 728,
+          "opponents": [
+            {
+              "profileId": 2114693,
+              "name": "Orson Welles"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507365015,
           "civ": "Mongols",
@@ -692,12 +709,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 42,
-        "pulledDate": "2026-09-21",
-        "latestRating": 827,
+        "totalGames": 43,
+        "pulledDate": "2026-09-29",
+        "latestRating": 813,
         "peakRating": 1064
       },
       "matches": [
+        {
+          "matchId": 509965919,
+          "civ": "Spanish",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:17:45.000Z",
+          "dur": 297,
+          "opponents": [
+            {
+              "profileId": 13809756,
+              "name": "jonny_w"
+            },
+            {
+              "profileId": 218874,
+              "name": "Ambition"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2465065,
+              "name": "CuerVoArG!!!"
+            }
+          ]
+        },
         {
           "matchId": 506982441,
           "civ": "Vikings",
@@ -2067,5 +2110,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

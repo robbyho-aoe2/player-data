@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 443,
-        "pulledDate": "2026-09-25",
+        "totalGames": 444,
+        "pulledDate": "2026-09-29",
         "latestRating": 1033,
         "peakRating": 1149
       },
       "matches": [
+        {
+          "matchId": 510055349,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:17:01.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1349086,
+              "name": "opus"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508711168,
           "civ": "Magyars",
@@ -7561,7 +7578,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 25,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1040,
         "peakRating": 1167
       },
@@ -8221,5 +8238,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

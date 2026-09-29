@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 246,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1104,
+        "totalGames": 248,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1057,
         "peakRating": 1277
       },
       "matches": [
+        {
+          "matchId": 509820533,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:42:03.000Z",
+          "dur": 942,
+          "opponents": [
+            {
+              "profileId": 1376152,
+              "name": "TheQuietRebel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509607432,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:25:23.000Z",
+          "dur": 47,
+          "opponents": [
+            {
+              "profileId": 464048,
+              "name": "Tristan 281"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508885475,
           "civ": "Mongols",
@@ -4211,12 +4245,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 891,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1204,
+        "totalGames": 892,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1218,
         "peakRating": 1379
       },
       "matches": [
+        {
+          "matchId": 509857119,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:49:56.000Z",
+          "dur": 1759,
+          "opponents": [
+            {
+              "profileId": 2660887,
+              "name": "Player455139229"
+            },
+            {
+              "profileId": 615110,
+              "name": "Morgoth_Ak"
+            },
+            {
+              "profileId": 21442346,
+              "name": "bsd"
+            },
+            {
+              "profileId": 3161507,
+              "name": "noziemann"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11006819,
+              "name": "\u4e00\u628a\u8471"
+            },
+            {
+              "profileId": 10836099,
+              "name": "\u80a5\u80a5\u732b"
+            },
+            {
+              "profileId": 5727246,
+              "name": "redwolfliu"
+            }
+          ]
+        },
         {
           "matchId": 508678269,
           "civ": "Turks",
@@ -38200,5 +38276,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

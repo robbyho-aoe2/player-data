@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 28,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 330,
         "peakRating": 651
       },
@@ -477,12 +477,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 492,
-        "pulledDate": "2026-09-21",
-        "latestRating": 781,
+        "totalGames": 497,
+        "pulledDate": "2026-09-29",
+        "latestRating": 769,
         "peakRating": 908
       },
       "matches": [
+        {
+          "matchId": 509631226,
+          "civ": "Portuguese",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:16:41.000Z",
+          "dur": 10560,
+          "opponents": [
+            {
+              "profileId": 18679906,
+              "name": "DiedZombies62"
+            },
+            {
+              "profileId": 17575017,
+              "name": "legrosalexandre50"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846005,
+              "name": "ArbiterAK"
+            }
+          ]
+        },
+        {
+          "matchId": 509602324,
+          "civ": "Portuguese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:57:22.000Z",
+          "dur": 5404,
+          "opponents": [
+            {
+              "profileId": 25301891,
+              "name": "\u4e2d\u56fd\u4eba\u4e0d\u6253\u4e2d\u56fd\u4eba"
+            },
+            {
+              "profileId": 18301549,
+              "name": "patitocarlos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846005,
+              "name": "ArbiterAK"
+            }
+          ]
+        },
+        {
+          "matchId": 509446982,
+          "civ": "Portuguese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:27:27.000Z",
+          "dur": 2928,
+          "opponents": [
+            {
+              "profileId": 25955896,
+              "name": "Asheqer"
+            },
+            {
+              "profileId": 2550401,
+              "name": "DaniSkywalker98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846005,
+              "name": "ArbiterAK"
+            }
+          ]
+        },
+        {
+          "matchId": 509438314,
+          "civ": "Portuguese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:50:59.000Z",
+          "dur": 1447,
+          "opponents": [
+            {
+              "profileId": 1678884,
+              "name": "Mevt"
+            },
+            {
+              "profileId": 11887553,
+              "name": "keskek"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846005,
+              "name": "ArbiterAK"
+            }
+          ]
+        },
+        {
+          "matchId": 509403823,
+          "civ": "Portuguese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:25:18.000Z",
+          "dur": 2634,
+          "opponents": [
+            {
+              "profileId": 218874,
+              "name": "Ambition"
+            },
+            {
+              "profileId": 13809756,
+              "name": "jonny_w"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1846005,
+              "name": "ArbiterAK"
+            }
+          ]
+        },
         {
           "matchId": 507963808,
           "civ": "Portuguese",
@@ -13064,5 +13194,6 @@
   },
   "country": "ie",
   "countryIcon": "\ud83c\uddee\ud83c\uddea",
-  "countryName": "Ireland"
+  "countryName": "Ireland",
+  "platform": "Xbox"
 }

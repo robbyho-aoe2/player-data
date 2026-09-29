@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "latestRating": 1163,
         "peakRating": 1190
       },
@@ -397,12 +397,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 326,
-        "pulledDate": "2026-09-09",
-        "latestRating": 992,
+        "totalGames": 331,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1003,
         "peakRating": 1082
       },
       "matches": [
+        {
+          "matchId": 509771345,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:14:22.000Z",
+          "dur": 2047,
+          "opponents": [
+            {
+              "profileId": 401537,
+              "name": "aj.jr"
+            },
+            {
+              "profileId": 24329027,
+              "name": "Megaman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2608671,
+              "name": "Charly el Manco"
+            }
+          ]
+        },
+        {
+          "matchId": 509766932,
+          "civ": "Gurjaras",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:49:42.000Z",
+          "dur": 1230,
+          "opponents": [
+            {
+              "profileId": 22064385,
+              "name": "GdN_MonarKA"
+            },
+            {
+              "profileId": 14756027,
+              "name": "LUCA-14"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2608671,
+              "name": "Charly el Manco"
+            }
+          ]
+        },
+        {
+          "matchId": 509760936,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:15:04.000Z",
+          "dur": 1358,
+          "opponents": [
+            {
+              "profileId": 24319759,
+              "name": "SyGzz"
+            },
+            {
+              "profileId": 25561760,
+              "name": "Pipo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2608671,
+              "name": "Charly el Manco"
+            }
+          ]
+        },
+        {
+          "matchId": 509258003,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:23:18.000Z",
+          "dur": 2557,
+          "opponents": [
+            {
+              "profileId": 10243358,
+              "name": "Sebastian Quintero Arias"
+            },
+            {
+              "profileId": 15193362,
+              "name": "callmebrujo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11179249,
+              "name": "matimora2003"
+            }
+          ]
+        },
+        {
+          "matchId": 509252229,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:53:12.000Z",
+          "dur": 1672,
+          "opponents": [
+            {
+              "profileId": 19653296,
+              "name": "bepbruno14"
+            },
+            {
+              "profileId": 17001471,
+              "name": "Waldo Magnum"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11179249,
+              "name": "matimora2003"
+            }
+          ]
+        },
         {
           "matchId": 505360866,
           "civ": "Bohemians",
@@ -8569,5 +8699,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 405,
-        "pulledDate": "2026-09-12",
-        "latestRating": 1052,
+        "totalGames": 408,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1068,
         "peakRating": 1145
       },
       "matches": [
+        {
+          "matchId": 509181784,
+          "civ": "Gurjaras",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:35:46.000Z",
+          "dur": 1372,
+          "opponents": [
+            {
+              "profileId": 6686006,
+              "name": "Elodin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509173146,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:56:54.000Z",
+          "dur": 1922,
+          "opponents": [
+            {
+              "profileId": 10882728,
+              "name": "benja.aviles.209"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509165822,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:23:58.000Z",
+          "dur": 1437,
+          "opponents": [
+            {
+              "profileId": 23731798,
+              "name": "FLAKOSKY"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505053114,
           "civ": "Bengalis",
@@ -6915,12 +6966,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     }
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

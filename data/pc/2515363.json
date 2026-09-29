@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 928,
-        "pulledDate": "2026-09-25",
-        "latestRating": 990,
+        "totalGames": 933,
+        "pulledDate": "2026-09-29",
+        "latestRating": 972,
         "peakRating": 1152
       },
       "matches": [
+        {
+          "matchId": 509985668,
+          "civ": "Romans",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:14:38.000Z",
+          "dur": 2657,
+          "opponents": [
+            {
+              "profileId": 24043284,
+              "name": "Nahaff"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509982772,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:56:04.000Z",
+          "dur": 1029,
+          "opponents": [
+            {
+              "profileId": 775993,
+              "name": "t0lu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509765774,
+          "civ": "Romans",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:42:56.000Z",
+          "dur": 1069,
+          "opponents": [
+            {
+              "profileId": 1826248,
+              "name": "Xicht"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509760105,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:10:14.000Z",
+          "dur": 1811,
+          "opponents": [
+            {
+              "profileId": 5043533,
+              "name": "MobBob"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509756195,
+          "civ": "Danes",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:48:25.000Z",
+          "dur": 1167,
+          "opponents": [
+            {
+              "profileId": 2213440,
+              "name": "GdN_Steiner"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508769763,
           "civ": "Danes",
@@ -15806,7 +15891,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 198,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1017,
         "peakRating": 1133
       },
@@ -22260,5 +22345,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

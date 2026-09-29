@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 40,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "latestRating": 1538,
         "peakRating": 1538
       },
@@ -669,12 +669,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1490,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1633,
+        "totalGames": 1493,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1611,
         "peakRating": 1655
       },
       "matches": [
+        {
+          "matchId": 509698465,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:45:23.000Z",
+          "dur": 1921,
+          "opponents": [
+            {
+              "profileId": 20472549,
+              "name": "\u5fc3\u5982\u6b62\u6c34"
+            },
+            {
+              "profileId": 255232,
+              "name": "Erg_Raider"
+            },
+            {
+              "profileId": 22572361,
+              "name": "\u7b2c\u4e00\u6ef4\u8840"
+            },
+            {
+              "profileId": 616783,
+              "name": "Modjo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2867863,
+              "name": "TdB.finiboom"
+            },
+            {
+              "profileId": 2811441,
+              "name": "Ciruelitaruby"
+            },
+            {
+              "profileId": 2667863,
+              "name": "Can Can Club (CCC)"
+            }
+          ]
+        },
+        {
+          "matchId": 509685161,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:55:51.000Z",
+          "dur": 2528,
+          "opponents": [
+            {
+              "profileId": 25395680,
+              "name": "Th\u00e9oden"
+            },
+            {
+              "profileId": 23106131,
+              "name": "xu\u00e2n th\u00f4ng dhdn"
+            },
+            {
+              "profileId": 9947608,
+              "name": "vela"
+            },
+            {
+              "profileId": 1081131,
+              "name": "Chris Becker"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2811441,
+              "name": "Ciruelitaruby"
+            },
+            {
+              "profileId": 2867863,
+              "name": "TdB.finiboom"
+            },
+            {
+              "profileId": 2667863,
+              "name": "Can Can Club (CCC)"
+            }
+          ]
+        },
+        {
+          "matchId": 509677035,
+          "civ": "Burmese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:22:23.000Z",
+          "dur": 1745,
+          "opponents": [
+            {
+              "profileId": 4096048,
+              "name": "Kirays"
+            },
+            {
+              "profileId": 5986941,
+              "name": "ENTON"
+            },
+            {
+              "profileId": 223171,
+              "name": "Kuchen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2811441,
+              "name": "Ciruelitaruby"
+            },
+            {
+              "profileId": 2667863,
+              "name": "Can Can Club (CCC)"
+            }
+          ]
+        },
         {
           "matchId": 499680298,
           "civ": "Khmer",
@@ -55315,5 +55433,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 312,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1241,
         "peakRating": 1289
       },
@@ -5008,7 +5008,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1202,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1074,
         "peakRating": 1188
       },
@@ -39005,18 +39005,86 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 146,
-        "pulledDate": "2026-09-26",
-        "latestRating": 870,
+        "totalGames": 148,
+        "pulledDate": "2026-09-29",
+        "latestRating": 836,
         "peakRating": 887
       },
       "matches": [
+        {
+          "matchId": 509797484,
+          "civ": "Koreans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:41:50.000Z",
+          "dur": 2625,
+          "opponents": [
+            {
+              "profileId": 10928405,
+              "name": "d.salasm8"
+            },
+            {
+              "profileId": 24030826,
+              "name": "RON PELOYO"
+            },
+            {
+              "profileId": 16173369,
+              "name": "Malhuecito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12911146,
+              "name": "VToti1991"
+            },
+            {
+              "profileId": 13108071,
+              "name": "killer ELBOSS"
+            }
+          ]
+        },
+        {
+          "matchId": 509791805,
+          "civ": "Koreans",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:08:36.000Z",
+          "dur": 1790,
+          "opponents": [
+            {
+              "profileId": 388520,
+              "name": "Miss. Alternative"
+            },
+            {
+              "profileId": 26046571,
+              "name": "Teblu"
+            },
+            {
+              "profileId": 4337868,
+              "name": "Atila"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13108071,
+              "name": "killer ELBOSS"
+            },
+            {
+              "profileId": 12911146,
+              "name": "VToti1991"
+            }
+          ]
+        },
         {
           "matchId": 509023228,
           "civ": "Koreans",
@@ -43557,5 +43625,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

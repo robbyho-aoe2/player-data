@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 357,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-29",
         "latestRating": 1178,
         "peakRating": 1209
       },
@@ -5741,12 +5741,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 852,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1051,
+        "totalGames": 853,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1074,
         "peakRating": 1323
       },
       "matches": [
+        {
+          "matchId": 509948633,
+          "civ": "Wei",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:55:02.000Z",
+          "dur": 1150,
+          "opponents": [
+            {
+              "profileId": 1898249,
+              "name": "Zenar"
+            },
+            {
+              "profileId": 22944253,
+              "name": "\u6930\u5b50"
+            },
+            {
+              "profileId": 11943062,
+              "name": "ChetosF"
+            },
+            {
+              "profileId": 9965261,
+              "name": "-Jark-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3872231,
+              "name": "black_magick_in_june"
+            },
+            {
+              "profileId": 2386771,
+              "name": "Chaos Merchant"
+            },
+            {
+              "profileId": 2108504,
+              "name": "No Drama Lama"
+            }
+          ]
+        },
         {
           "matchId": 506235915,
           "civ": "Khmer",
@@ -34946,5 +34988,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

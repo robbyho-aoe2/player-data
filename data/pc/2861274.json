@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 358,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1709,
         "peakRating": 1709
       },
@@ -5781,12 +5781,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 289,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1511,
+        "totalGames": 292,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1449,
         "peakRating": 1569
       },
       "matches": [
+        {
+          "matchId": 509535379,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:21:21.000Z",
+          "dur": 1742,
+          "opponents": [
+            {
+              "profileId": 15455883,
+              "name": "Caronte"
+            },
+            {
+              "profileId": 10413706,
+              "name": "Ringo"
+            },
+            {
+              "profileId": 6160925,
+              "name": "[ECU] PALADINFRANCO"
+            },
+            {
+              "profileId": 3272184,
+              "name": "\u6211\u5feb\u62db\u67b6\u4e0d\u4f4f\u4e86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 70819,
+              "name": "Youtube Nimro7"
+            },
+            {
+              "profileId": 9961122,
+              "name": "MTY | Mariana Rodr\u00edguez"
+            },
+            {
+              "profileId": 4250820,
+              "name": "Poeta Abatido"
+            }
+          ]
+        },
+        {
+          "matchId": 509528113,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:38:17.000Z",
+          "dur": 2203,
+          "opponents": [
+            {
+              "profileId": 3235767,
+              "name": "Vmmp11"
+            },
+            {
+              "profileId": 11591697,
+              "name": "Twitch.tv/WES_XL"
+            },
+            {
+              "profileId": 17482680,
+              "name": "MaximoMGM"
+            },
+            {
+              "profileId": 19015699,
+              "name": "Rosse SinClan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4250820,
+              "name": "Poeta Abatido"
+            },
+            {
+              "profileId": 70819,
+              "name": "Youtube Nimro7"
+            },
+            {
+              "profileId": 61097,
+              "name": "Ars Radiophonik"
+            }
+          ]
+        },
+        {
+          "matchId": 509521557,
+          "civ": "Saxons",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:02:05.000Z",
+          "dur": 1871,
+          "opponents": [
+            {
+              "profileId": 5976492,
+              "name": "\u6f6e\u559c\u6b61\u8aaa\u6545\u4e8b\u7684\u6d1b\u6d1b"
+            },
+            {
+              "profileId": 14684225,
+              "name": "Seifer"
+            },
+            {
+              "profileId": 7834514,
+              "name": "Ziton127"
+            },
+            {
+              "profileId": 4686582,
+              "name": "M\u00e1ximo D\u00e9cimo Meridio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4250820,
+              "name": "Poeta Abatido"
+            },
+            {
+              "profileId": 61097,
+              "name": "Ars Radiophonik"
+            },
+            {
+              "profileId": 70819,
+              "name": "Youtube Nimro7"
+            }
+          ]
+        },
         {
           "matchId": 508794040,
           "civ": "Varangians",
@@ -16994,5 +17120,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

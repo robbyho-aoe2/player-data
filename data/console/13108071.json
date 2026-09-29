@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1000
       },
       "matches": [
@@ -31,7 +31,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 669,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1131,
         "peakRating": 1148
       },
@@ -20630,18 +20630,86 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 137,
-        "pulledDate": "2026-09-26",
-        "latestRating": 858,
+        "totalGames": 139,
+        "pulledDate": "2026-09-29",
+        "latestRating": 825,
         "peakRating": 873
       },
       "matches": [
+        {
+          "matchId": 509797484,
+          "civ": "Chinese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:41:50.000Z",
+          "dur": 2625,
+          "opponents": [
+            {
+              "profileId": 10928405,
+              "name": "d.salasm8"
+            },
+            {
+              "profileId": 16173369,
+              "name": "Malhuecito"
+            },
+            {
+              "profileId": 24030826,
+              "name": "RON PELOYO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12889472,
+              "name": "Xtrem Elite"
+            },
+            {
+              "profileId": 12911146,
+              "name": "VToti1991"
+            }
+          ]
+        },
+        {
+          "matchId": 509791805,
+          "civ": "Romans",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:08:36.000Z",
+          "dur": 1790,
+          "opponents": [
+            {
+              "profileId": 4337868,
+              "name": "Atila"
+            },
+            {
+              "profileId": 388520,
+              "name": "Miss. Alternative"
+            },
+            {
+              "profileId": 26046571,
+              "name": "Teblu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12911146,
+              "name": "VToti1991"
+            },
+            {
+              "profileId": 12889472,
+              "name": "Xtrem Elite"
+            }
+          ]
+        },
         {
           "matchId": 509023228,
           "civ": "Romans",
@@ -24896,5 +24964,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

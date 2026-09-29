@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 170,
-        "pulledDate": "2026-09-14",
-        "latestRating": 977,
+        "totalGames": 173,
+        "pulledDate": "2026-09-29",
+        "latestRating": 992,
         "peakRating": 1027
       },
       "matches": [
+        {
+          "matchId": 510010005,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:46:13.000Z",
+          "dur": 1380,
+          "opponents": [
+            {
+              "profileId": 3582380,
+              "name": "Borges"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510000266,
+          "civ": "Franks",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:48:34.000Z",
+          "dur": 1180,
+          "opponents": [
+            {
+              "profileId": 5847515,
+              "name": "Azrahel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509132475,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:48:18.000Z",
+          "dur": 831,
+          "opponents": [
+            {
+              "profileId": 4424219,
+              "name": "analogguy"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505739446,
           "civ": "Franks",
@@ -2920,7 +2971,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 100,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-29",
         "latestRating": 944,
         "peakRating": 1036
       },
@@ -5554,5 +5605,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "peakRating": 629,
         "latestRating": 533
       },
@@ -269,12 +269,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 531,
-        "pulledDate": "2026-09-09",
-        "latestRating": 694,
+        "totalGames": 534,
+        "pulledDate": "2026-09-29",
+        "latestRating": 707,
         "peakRating": 903
       },
       "matches": [
+        {
+          "matchId": 509698722,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:45:48.000Z",
+          "dur": 1854,
+          "opponents": [
+            {
+              "profileId": 25944238,
+              "name": "DiamanteX3191"
+            },
+            {
+              "profileId": 17227719,
+              "name": "Ziul"
+            },
+            {
+              "profileId": 11585830,
+              "name": "Jaguar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1854172,
+              "name": "BiTTensor"
+            },
+            {
+              "profileId": 12426914,
+              "name": "clasik"
+            }
+          ]
+        },
+        {
+          "matchId": 509696573,
+          "civ": "Romans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:38:18.000Z",
+          "dur": 723,
+          "opponents": [
+            {
+              "profileId": 5611077,
+              "name": "Beko"
+            },
+            {
+              "profileId": 6923112,
+              "name": "Fsy"
+            },
+            {
+              "profileId": 1590214,
+              "name": "AlliswereLVII"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2844,
+              "name": "Xav314"
+            },
+            {
+              "profileId": 5083240,
+              "name": "kalou.gautier"
+            }
+          ]
+        },
+        {
+          "matchId": 509603327,
+          "civ": "Romans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:03:40.000Z",
+          "dur": 1874,
+          "opponents": [
+            {
+              "profileId": 5843625,
+              "name": "Lady D Day"
+            },
+            {
+              "profileId": 15523407,
+              "name": "massiPro97"
+            },
+            {
+              "profileId": 2487489,
+              "name": "LuchoCuzzo"
+            },
+            {
+              "profileId": 17729377,
+              "name": "raffaelepierri1987"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17874776,
+              "name": "\u6df1\u5d50"
+            },
+            {
+              "profileId": 9294378,
+              "name": "Blueper"
+            },
+            {
+              "profileId": 16665147,
+              "name": "\u968a\u53cb\u4e0d\u51c6\u6295\u964d\u4e0d\u51c6\u5f31"
+            }
+          ]
+        },
         {
           "matchId": 499799188,
           "civ": "Burgundians",
@@ -19720,5 +19830,6 @@
   },
   "country": "ro",
   "countryIcon": "\ud83c\uddf7\ud83c\uddf4",
-  "countryName": "Romania"
+  "countryName": "Romania",
+  "platform": "Xbox"
 }

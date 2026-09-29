@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 47,
-        "pulledDate": "2026-09-25",
+        "totalGames": 52,
+        "pulledDate": "2026-09-29",
         "peakRating": 1708,
-        "latestRating": 1646
+        "latestRating": 1667
       },
       "matches": [
+        {
+          "matchId": 509723084,
+          "civ": "Burgundians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:15:02.000Z",
+          "dur": 484,
+          "opponents": [
+            {
+              "profileId": 23691392,
+              "name": "Happy :-)"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509690963,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:17:09.000Z",
+          "dur": 1908,
+          "opponents": [
+            {
+              "profileId": 305971,
+              "name": "Jaxto"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509278427,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T05:29:11.000Z",
+          "dur": 1376,
+          "opponents": [
+            {
+              "profileId": 6743447,
+              "name": "Ambrose"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509265332,
+          "civ": "Malians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:04:34.000Z",
+          "dur": 1986,
+          "opponents": [
+            {
+              "profileId": 21577044,
+              "name": "No Pauses"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509262621,
+          "civ": "Spanish",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:48:39.000Z",
+          "dur": 686,
+          "opponents": [
+            {
+              "profileId": 2186422,
+              "name": "FC | SomeHumblePie"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509044371,
           "civ": "Huns",
@@ -822,12 +907,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 26,
-        "pulledDate": "2026-09-25",
+        "totalGames": 28,
+        "pulledDate": "2026-09-29",
         "peakRating": 1633,
-        "latestRating": 1547
+        "latestRating": 1540
       },
       "matches": [
+        {
+          "matchId": 509712175,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:34:33.000Z",
+          "dur": 1592,
+          "opponents": [
+            {
+              "profileId": 3856970,
+              "name": "Politox"
+            },
+            {
+              "profileId": 22503357,
+              "name": "luch0_ta"
+            },
+            {
+              "profileId": 20073300,
+              "name": "sales96"
+            },
+            {
+              "profileId": 860913,
+              "name": "Jjota"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13539727,
+              "name": "hK | Anubis"
+            },
+            {
+              "profileId": 22417369,
+              "name": "[KOF] JoakoM"
+            },
+            {
+              "profileId": 15290653,
+              "name": "[ KOF ] M. Kowalski"
+            }
+          ]
+        },
+        {
+          "matchId": 509707159,
+          "civ": "Britons",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:16:39.000Z",
+          "dur": 850,
+          "opponents": [
+            {
+              "profileId": 22503357,
+              "name": "luch0_ta"
+            },
+            {
+              "profileId": 860913,
+              "name": "Jjota"
+            },
+            {
+              "profileId": 3856970,
+              "name": "Politox"
+            },
+            {
+              "profileId": 20073300,
+              "name": "sales96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22417369,
+              "name": "[KOF] JoakoM"
+            },
+            {
+              "profileId": 13539727,
+              "name": "hK | Anubis"
+            },
+            {
+              "profileId": 15290653,
+              "name": "[ KOF ] M. Kowalski"
+            }
+          ]
+        },
         {
           "matchId": 507650309,
           "civ": "Ethiopians",
@@ -1678,5 +1847,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

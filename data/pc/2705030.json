@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 128,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1160,
         "peakRating": 1192
       },
@@ -2077,12 +2077,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1610,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1167,
+        "totalGames": 1614,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1142,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 509707289,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:17:02.000Z",
+          "dur": 2405,
+          "opponents": [
+            {
+              "profileId": 20872486,
+              "name": "myth\u5927\u5e1d110110110"
+            },
+            {
+              "profileId": 15247076,
+              "name": "jorvikshungite"
+            },
+            {
+              "profileId": 5340745,
+              "name": "Knaapje"
+            },
+            {
+              "profileId": 1868411,
+              "name": "Kirara"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10511439,
+              "name": "JimP"
+            },
+            {
+              "profileId": 5216822,
+              "name": "iamjackscolon"
+            },
+            {
+              "profileId": 1898771,
+              "name": "massiz10"
+            }
+          ]
+        },
+        {
+          "matchId": 509700163,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:51:41.000Z",
+          "dur": 1385,
+          "opponents": [
+            {
+              "profileId": 25534497,
+              "name": "ojoalcojo"
+            },
+            {
+              "profileId": 3583285,
+              "name": "ojoaltejo"
+            },
+            {
+              "profileId": 3368430,
+              "name": "ojoalcasla"
+            },
+            {
+              "profileId": 3094996,
+              "name": "enzopasq13"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10511439,
+              "name": "JimP"
+            },
+            {
+              "profileId": 5747420,
+              "name": "\u516d\u516d\u516d"
+            },
+            {
+              "profileId": 10803274,
+              "name": "TheShade"
+            }
+          ]
+        },
+        {
+          "matchId": 509177797,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:17:58.000Z",
+          "dur": 2301,
+          "opponents": [
+            {
+              "profileId": 932237,
+              "name": "Sinbad"
+            },
+            {
+              "profileId": 1378792,
+              "name": "[FUCKI] Obi-One Canboneme"
+            },
+            {
+              "profileId": 6305097,
+              "name": "msmatossms"
+            },
+            {
+              "profileId": 23863842,
+              "name": "sassanas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2704766,
+              "name": "stinodes"
+            },
+            {
+              "profileId": 5960450,
+              "name": "il_Gustavo"
+            },
+            {
+              "profileId": 10511439,
+              "name": "JimP"
+            }
+          ]
+        },
+        {
+          "matchId": 509170850,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:47:32.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 4925064,
+              "name": "Birkules"
+            },
+            {
+              "profileId": 4839880,
+              "name": "R3laxer"
+            },
+            {
+              "profileId": 4136928,
+              "name": "Cochiloco2000"
+            },
+            {
+              "profileId": 1378792,
+              "name": "[FUCKI] Obi-One Canboneme"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5960450,
+              "name": "il_Gustavo"
+            },
+            {
+              "profileId": 10511439,
+              "name": "JimP"
+            },
+            {
+              "profileId": 2704766,
+              "name": "stinodes"
+            }
+          ]
+        },
         {
           "matchId": 508929377,
           "civ": "Varangians",
@@ -57813,5 +57981,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

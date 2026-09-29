@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 995,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1080,
+        "totalGames": 997,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1048,
         "peakRating": 1180
       },
       "matches": [
+        {
+          "matchId": 509432431,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:25:39.000Z",
+          "dur": 3810,
+          "opponents": [
+            {
+              "profileId": 2027194,
+              "name": "Daniel Gaming"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509426501,
+          "civ": "Huns",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:01:18.000Z",
+          "dur": 899,
+          "opponents": [
+            {
+              "profileId": 2052026,
+              "name": "Pointgiven"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508082007,
           "civ": "Portuguese",
@@ -15984,7 +16018,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 799,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1173,
         "peakRating": 1273
       },
@@ -36490,5 +36524,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

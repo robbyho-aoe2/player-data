@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 473,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1421,
         "peakRating": 1612
       },
@@ -8070,12 +8070,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1219,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1438,
+        "totalGames": 1222,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1435,
         "peakRating": 1554
       },
       "matches": [
+        {
+          "matchId": 509499039,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:55:35.000Z",
+          "dur": 1152,
+          "opponents": [
+            {
+              "profileId": 1218442,
+              "name": "[LCDR]Hilstinho"
+            },
+            {
+              "profileId": 6413091,
+              "name": "SSX_Flexa"
+            },
+            {
+              "profileId": 16886097,
+              "name": "[LCDR] Alone"
+            },
+            {
+              "profileId": 20846152,
+              "name": "GAX | BiduZera"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21197557,
+              "name": "Dark_Shelly"
+            },
+            {
+              "profileId": 2151684,
+              "name": "\u98db\u886b\u8d70\u5976"
+            },
+            {
+              "profileId": 5589759,
+              "name": "Osayi."
+            }
+          ]
+        },
+        {
+          "matchId": 509494333,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:27:39.000Z",
+          "dur": 1522,
+          "opponents": [
+            {
+              "profileId": 20846152,
+              "name": "GAX | BiduZera"
+            },
+            {
+              "profileId": 16886097,
+              "name": "[LCDR] Alone"
+            },
+            {
+              "profileId": 6413091,
+              "name": "SSX_Flexa"
+            },
+            {
+              "profileId": 1024595,
+              "name": "[LCDR] Ferrugem"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2371473,
+              "name": "UOMOdelFORMAGGIO"
+            },
+            {
+              "profileId": 5589759,
+              "name": "Osayi."
+            },
+            {
+              "profileId": 4384135,
+              "name": "karson.law"
+            }
+          ]
+        },
+        {
+          "matchId": 509493824,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:24:42.000Z",
+          "dur": 150,
+          "opponents": [
+            {
+              "profileId": 9679587,
+              "name": "enzoyin68"
+            },
+            {
+              "profileId": 2395115,
+              "name": "sfcwallace"
+            },
+            {
+              "profileId": 10323387,
+              "name": "DippityDang"
+            },
+            {
+              "profileId": 24039869,
+              "name": "VX | Obligame Perro!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8971136,
+              "name": "\u9a37\u8b77\u58eb"
+            },
+            {
+              "profileId": 1669455,
+              "name": "Nos'"
+            },
+            {
+              "profileId": 21930541,
+              "name": "Glaki"
+            }
+          ]
+        },
         {
           "matchId": 508577403,
           "civ": "Huns",
@@ -58183,5 +58309,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

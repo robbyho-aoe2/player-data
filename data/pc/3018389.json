@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 389,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1134,
         "peakRating": 1153
       },
@@ -6261,12 +6261,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2868,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1126,
+        "totalGames": 2873,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1153,
         "peakRating": 1304
       },
       "matches": [
+        {
+          "matchId": 509821345,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:51:28.000Z",
+          "dur": 1843,
+          "opponents": [
+            {
+              "profileId": 15378305,
+              "name": "Age_of_Empires"
+            },
+            {
+              "profileId": 4797267,
+              "name": "[SAPR] Janstonbeats"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3021033,
+              "name": "Jos\u00e9 Mar\u00eda Morelos"
+            }
+          ]
+        },
+        {
+          "matchId": 509818789,
+          "civ": "Goths",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:25:23.000Z",
+          "dur": 1294,
+          "opponents": [
+            {
+              "profileId": 1205770,
+              "name": "rower56"
+            },
+            {
+              "profileId": 14870171,
+              "name": "fabyyyy1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3021033,
+              "name": "Jos\u00e9 Mar\u00eda Morelos"
+            }
+          ]
+        },
+        {
+          "matchId": 509288823,
+          "civ": "Lithuanians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:41:37.000Z",
+          "dur": 1497,
+          "opponents": [
+            {
+              "profileId": 4174849,
+              "name": "\u5355\u624b\u5954\u56db\u73a9\u5bb6"
+            },
+            {
+              "profileId": 1231517,
+              "name": "wild_cat1984"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3021033,
+              "name": "Jos\u00e9 Mar\u00eda Morelos"
+            }
+          ]
+        },
+        {
+          "matchId": 509287121,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:31:13.000Z",
+          "dur": 428,
+          "opponents": [
+            {
+              "profileId": 4174849,
+              "name": "\u5355\u624b\u5954\u56db\u73a9\u5bb6"
+            },
+            {
+              "profileId": 1231517,
+              "name": "wild_cat1984"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3021033,
+              "name": "Jos\u00e9 Mar\u00eda Morelos"
+            }
+          ]
+        },
+        {
+          "matchId": 509281906,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T05:55:43.000Z",
+          "dur": 1893,
+          "opponents": [
+            {
+              "profileId": 24535712,
+              "name": "elliottcorpus"
+            },
+            {
+              "profileId": 528709,
+              "name": "Dacrawl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3021033,
+              "name": "Jos\u00e9 Mar\u00eda Morelos"
+            }
+          ]
+        },
         {
           "matchId": 509038777,
           "civ": "Italians",
@@ -89992,5 +90122,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

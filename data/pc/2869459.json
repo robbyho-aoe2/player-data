@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 948,
-        "pulledDate": "2026-09-25",
-        "latestRating": 872,
+        "totalGames": 949,
+        "pulledDate": "2026-09-29",
+        "latestRating": 858,
         "peakRating": 1134
       },
       "matches": [
+        {
+          "matchId": 509727949,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:35:22.000Z",
+          "dur": 1727,
+          "opponents": [
+            {
+              "profileId": 1788595,
+              "name": "The Architecht"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508968806,
           "civ": "Danes",
@@ -15209,7 +15226,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1212,
         "peakRating": 1308
       },
@@ -15619,5 +15636,6 @@
   },
   "country": "sk",
   "countryIcon": "\ud83c\uddf8\ud83c\uddf0",
-  "countryName": "Slovakia"
+  "countryName": "Slovakia",
+  "platform": "Steam"
 }

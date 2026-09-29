@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 227,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1157,
         "peakRating": 1227
       },
@@ -3661,12 +3661,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 146,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1193,
+        "totalGames": 148,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1220,
         "peakRating": 1288
       },
       "matches": [
+        {
+          "matchId": 509992282,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:58:23.000Z",
+          "dur": 2012,
+          "opponents": [
+            {
+              "profileId": 292064,
+              "name": "ofdudesandmen"
+            },
+            {
+              "profileId": 1573763,
+              "name": "Fuzzy"
+            },
+            {
+              "profileId": 10365972,
+              "name": "Kevinight"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7392752,
+              "name": "GoldiLocks"
+            },
+            {
+              "profileId": 19650418,
+              "name": "Newell's"
+            }
+          ]
+        },
+        {
+          "matchId": 509988531,
+          "civ": "Malians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:33:56.000Z",
+          "dur": 1339,
+          "opponents": [
+            {
+              "profileId": 3346735,
+              "name": "FIERRO"
+            },
+            {
+              "profileId": 2132321,
+              "name": "albaqca"
+            },
+            {
+              "profileId": 3550723,
+              "name": "R0F | [0] | PEDRO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9848946,
+              "name": "HotHardFatherDaddy"
+            },
+            {
+              "profileId": 1010383,
+              "name": "PapuKong"
+            }
+          ]
+        },
         {
           "matchId": 508551040,
           "civ": "Mongols",
@@ -8467,5 +8535,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

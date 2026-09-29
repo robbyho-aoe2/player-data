@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 206,
-        "pulledDate": "2026-09-18",
+        "totalGames": 208,
+        "pulledDate": "2026-09-29",
         "latestRating": 1022,
         "peakRating": 1088
       },
       "matches": [
+        {
+          "matchId": 509699503,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:49:05.000Z",
+          "dur": 1750,
+          "opponents": [
+            {
+              "profileId": 21989704,
+              "name": "ARTYL 40"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509644436,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:10:03.000Z",
+          "dur": 2172,
+          "opponents": [
+            {
+              "profileId": 25136054,
+              "name": "ShowyMeal"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504761469,
           "civ": "Maya",
@@ -3532,7 +3566,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 214,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "latestRating": 1172,
         "peakRating": 1216
       },
@@ -9970,5 +10004,6 @@
   },
   "country": "ni",
   "countryIcon": "\ud83c\uddf3\ud83c\uddee",
-  "countryName": "Nicaragua"
+  "countryName": "Nicaragua",
+  "platform": "Steam"
 }

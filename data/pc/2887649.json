@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 299,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1223,
+        "totalGames": 300,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1240,
         "peakRating": 1380
       },
       "matches": [
+        {
+          "matchId": 509997974,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:34:06.000Z",
+          "dur": 1648,
+          "opponents": [
+            {
+              "profileId": 321304,
+              "name": "mEriEndo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505965646,
           "civ": "Persians",
@@ -5112,12 +5129,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1080,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1278,
+        "totalGames": 1081,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1271,
         "peakRating": 1448
       },
       "matches": [
+        {
+          "matchId": 510002545,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:03:50.000Z",
+          "dur": 1538,
+          "opponents": [
+            {
+              "profileId": 22167703,
+              "name": "Teutonio"
+            },
+            {
+              "profileId": 21056380,
+              "name": "elpanchovilla14"
+            },
+            {
+              "profileId": 15111796,
+              "name": "Peinatequevengo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4210121,
+              "name": "Konstant\u00edn Rokossovski"
+            },
+            {
+              "profileId": 1188297,
+              "name": "garretc16"
+            }
+          ]
+        },
         {
           "matchId": 503946853,
           "civ": "Magyars",
@@ -43939,5 +43990,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

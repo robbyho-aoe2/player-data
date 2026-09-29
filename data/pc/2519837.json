@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2267,
-        "pulledDate": "2026-09-25",
-        "latestRating": 957,
+        "totalGames": 2269,
+        "pulledDate": "2026-09-29",
+        "latestRating": 960,
         "peakRating": 1260
       },
       "matches": [
+        {
+          "matchId": 509616827,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:12:26.000Z",
+          "dur": 2181,
+          "opponents": [
+            {
+              "profileId": 1719804,
+              "name": "Leochip."
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509615978,
+          "civ": "Vikings",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:09:05.000Z",
+          "dur": 23,
+          "opponents": [
+            {
+              "profileId": 18926035,
+              "name": "a3axapob"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508280617,
           "civ": "Japanese",
@@ -38564,7 +38598,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 637,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1108,
         "peakRating": 1161
       },
@@ -63545,5 +63579,6 @@
   },
   "country": "me",
   "countryIcon": "\ud83c\uddf2\ud83c\uddea",
-  "countryName": "Montenegro"
+  "countryName": "Montenegro",
+  "platform": "Steam"
 }

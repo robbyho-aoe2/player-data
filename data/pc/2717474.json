@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2797,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1557,
+        "totalGames": 2799,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1555,
         "peakRating": 1754
       },
       "matches": [
+        {
+          "matchId": 509606388,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:20:01.000Z",
+          "dur": 935,
+          "opponents": [
+            {
+              "profileId": 365963,
+              "name": "Dr_Known"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509600437,
+          "civ": "Sicilians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:45:51.000Z",
+          "dur": 1964,
+          "opponents": [
+            {
+              "profileId": 402417,
+              "name": "eadohn20"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508978135,
           "civ": "Lithuanians",
@@ -42121,12 +42155,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1623,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1510,
+        "totalGames": 1627,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1485,
         "peakRating": 1596
       },
       "matches": [
+        {
+          "matchId": 509853884,
+          "civ": "Ethiopians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:22:59.000Z",
+          "dur": 1561,
+          "opponents": [
+            {
+              "profileId": 261278,
+              "name": "Reilled"
+            },
+            {
+              "profileId": 568420,
+              "name": "Tommerd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2774323,
+              "name": "xcmpierrexcm"
+            }
+          ]
+        },
+        {
+          "matchId": 509850504,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:53:39.000Z",
+          "dur": 1551,
+          "opponents": [
+            {
+              "profileId": 964259,
+              "name": "sahrmed"
+            },
+            {
+              "profileId": 2488477,
+              "name": "JoshDomestique"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5331726,
+              "name": "faensi"
+            }
+          ]
+        },
+        {
+          "matchId": 509609642,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:38:08.000Z",
+          "dur": 241,
+          "opponents": [
+            {
+              "profileId": 5516874,
+              "name": "La Momone 38"
+            },
+            {
+              "profileId": 6751830,
+              "name": "ccereal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2167495,
+              "name": "Jaha"
+            }
+          ]
+        },
+        {
+          "matchId": 509598490,
+          "civ": "Romans",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:34:34.000Z",
+          "dur": 664,
+          "opponents": [
+            {
+              "profileId": 278280,
+              "name": "NightCrawler"
+            },
+            {
+              "profileId": 1199956,
+              "name": "v_markovich"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6319329,
+              "name": "ChickenHunter"
+            }
+          ]
+        },
         {
           "matchId": 508927505,
           "civ": "Vietnamese",
@@ -74865,5 +75003,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

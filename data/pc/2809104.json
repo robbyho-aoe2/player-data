@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1044,
         "peakRating": 1044
       },
@@ -205,12 +205,168 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1391,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1369,
+        "totalGames": 1397,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1341,
         "peakRating": 1410
       },
       "matches": [
+        {
+          "matchId": 509947290,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:48:50.000Z",
+          "dur": 2734,
+          "opponents": [
+            {
+              "profileId": 944618,
+              "name": "Mauhuber"
+            },
+            {
+              "profileId": 4590168,
+              "name": "PETER ENIS VON PIMMELBERGEN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3005149,
+              "name": "a1720989472"
+            }
+          ]
+        },
+        {
+          "matchId": 509942419,
+          "civ": "Gurjaras",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:27:07.000Z",
+          "dur": 1098,
+          "opponents": [
+            {
+              "profileId": 10346571,
+              "name": "\u79e6\u58a8\u5b50"
+            },
+            {
+              "profileId": 949199,
+              "name": "PwNaSauRuS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3005149,
+              "name": "a1720989472"
+            }
+          ]
+        },
+        {
+          "matchId": 509937700,
+          "civ": "Wei",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:06:06.000Z",
+          "dur": 1076,
+          "opponents": [
+            {
+              "profileId": 2152015,
+              "name": "Han"
+            },
+            {
+              "profileId": 1229488,
+              "name": "royalties"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3005149,
+              "name": "a1720989472"
+            }
+          ]
+        },
+        {
+          "matchId": 509929376,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:29:15.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 4021917,
+              "name": "[/\\/\\@LiBi] shredz"
+            },
+            {
+              "profileId": 2195970,
+              "name": "[/\\/\\@LiBi] myplannoplan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3005149,
+              "name": "a1720989472"
+            }
+          ]
+        },
+        {
+          "matchId": 509922429,
+          "civ": "Georgians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:56:14.000Z",
+          "dur": 1723,
+          "opponents": [
+            {
+              "profileId": 1783832,
+              "name": "[VEP] Assamita18"
+            },
+            {
+              "profileId": 2002045,
+              "name": "[VEP] Lepra"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3005149,
+              "name": "a1720989472"
+            }
+          ]
+        },
+        {
+          "matchId": 509902572,
+          "civ": "Vikings",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:16:18.000Z",
+          "dur": 2029,
+          "opponents": [
+            {
+              "profileId": 6728599,
+              "name": "MemeManVai"
+            },
+            {
+              "profileId": 24126829,
+              "name": "botas.el.gato"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3005149,
+              "name": "a1720989472"
+            }
+          ]
+        },
         {
           "matchId": 508669543,
           "civ": "Varangians",
@@ -42220,5 +42376,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

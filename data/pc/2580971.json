@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 79,
-        "pulledDate": "2026-09-25",
-        "latestRating": 810,
+        "totalGames": 83,
+        "pulledDate": "2026-09-29",
+        "latestRating": 824,
         "peakRating": 897
       },
       "matches": [
+        {
+          "matchId": 509553033,
+          "civ": "Franks",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:19:26.000Z",
+          "dur": 1701,
+          "opponents": [
+            {
+              "profileId": 307427,
+              "name": "pointystick"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509543570,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:13:43.000Z",
+          "dur": 2846,
+          "opponents": [
+            {
+              "profileId": 17577475,
+              "name": "stanley"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509539083,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:45:02.000Z",
+          "dur": 1439,
+          "opponents": [
+            {
+              "profileId": 25818767,
+              "name": "juan_ca2905"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509380639,
+          "civ": "Koreans",
+          "map": "Four Lakes",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:42:34.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 2150472,
+              "name": "RingLeaderNV"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508982490,
           "civ": "Franks",
@@ -1373,12 +1441,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     }
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Xbox"
 }

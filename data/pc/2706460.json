@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2636,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1643,
+        "totalGames": 2637,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1657,
         "peakRating": 1811
       },
       "matches": [
+        {
+          "matchId": 509176368,
+          "civ": "Persians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:10:43.000Z",
+          "dur": 1158,
+          "opponents": [
+            {
+              "profileId": 6735110,
+              "name": "Seph"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509044758,
           "civ": "Spanish",
@@ -42322,7 +42339,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2521,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1506,
         "peakRating": 1612
       },
@@ -133863,5 +133880,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

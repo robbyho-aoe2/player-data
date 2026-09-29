@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 84,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 979,
         "peakRating": 979
       },
@@ -1373,12 +1373,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1850,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1162,
+        "totalGames": 1853,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1147,
         "peakRating": 1303
       },
       "matches": [
+        {
+          "matchId": 510038501,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:13:36.000Z",
+          "dur": 1822,
+          "opponents": [
+            {
+              "profileId": 19950454,
+              "name": "FakerMarTin"
+            },
+            {
+              "profileId": 13632495,
+              "name": "Seceptania"
+            },
+            {
+              "profileId": 9553315,
+              "name": "1361331795"
+            },
+            {
+              "profileId": 5765477,
+              "name": "\u597d\u8272\u5c0f\u4eba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 995814,
+              "name": "BigMalasada"
+            },
+            {
+              "profileId": 9884741,
+              "name": "_Avicii_32"
+            },
+            {
+              "profileId": 2144425,
+              "name": "rms_0489"
+            }
+          ]
+        },
+        {
+          "matchId": 509541869,
+          "civ": "Incas",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:03:37.000Z",
+          "dur": 1450,
+          "opponents": [
+            {
+              "profileId": 307136,
+              "name": "IPwnAllNoobs"
+            },
+            {
+              "profileId": 18277466,
+              "name": "Evil Mechanic"
+            },
+            {
+              "profileId": 5722902,
+              "name": "tag_chingon777"
+            },
+            {
+              "profileId": 413858,
+              "name": "SanjiJose"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24624568,
+              "name": "diudiudiu\u4e36"
+            },
+            {
+              "profileId": 8760735,
+              "name": "PeterWong1988"
+            },
+            {
+              "profileId": 2731567,
+              "name": "Gryan_Bossling"
+            }
+          ]
+        },
+        {
+          "matchId": 509134994,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T17:01:22.000Z",
+          "dur": 1669,
+          "opponents": [
+            {
+              "profileId": 25269908,
+              "name": "Gigapudi32"
+            },
+            {
+              "profileId": 23939643,
+              "name": "Te0n"
+            },
+            {
+              "profileId": 9100292,
+              "name": "Volker Rachow"
+            },
+            {
+              "profileId": 3205887,
+              "name": "Donnerhall"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3059148,
+              "name": "Nwelt"
+            },
+            {
+              "profileId": 20211964,
+              "name": "geekchang"
+            },
+            {
+              "profileId": 7247390,
+              "name": "Doppinger"
+            }
+          ]
+        },
         {
           "matchId": 509035668,
           "civ": "Poles",
@@ -76101,5 +76227,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

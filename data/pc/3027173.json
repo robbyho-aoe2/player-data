@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 804,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1477,
+        "totalGames": 811,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1465,
         "peakRating": 1538
       },
       "matches": [
+        {
+          "matchId": 509940198,
+          "civ": "Burgundians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:16:27.000Z",
+          "dur": 1249,
+          "opponents": [
+            {
+              "profileId": 3192525,
+              "name": "Denera"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509704987,
+          "civ": "Burgundians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:08:07.000Z",
+          "dur": 671,
+          "opponents": [
+            {
+              "profileId": 25492403,
+              "name": "E_BrightBlade"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509699543,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:49:32.000Z",
+          "dur": 1053,
+          "opponents": [
+            {
+              "profileId": 20767986,
+              "name": "MochaHook90"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509642279,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:01:20.000Z",
+          "dur": 1531,
+          "opponents": [
+            {
+              "profileId": 5902604,
+              "name": "[\u97d3\u7c89\u6230\u968a] \u53f0\u5317\u5eb6\u6c11"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509388301,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:16:54.000Z",
+          "dur": 1661,
+          "opponents": [
+            {
+              "profileId": 22154301,
+              "name": "Schalamax1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509164888,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:20:10.000Z",
+          "dur": 1363,
+          "opponents": [
+            {
+              "profileId": 10025747,
+              "name": "Boyser"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509163195,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:12:18.000Z",
+          "dur": 434,
+          "opponents": [
+            {
+              "profileId": 2953775,
+              "name": "Spooner"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508851344,
           "civ": "Burgundians",
@@ -12948,12 +13067,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 536,
-        "pulledDate": "2026-09-25",
+        "totalGames": 537,
+        "pulledDate": "2026-09-29",
         "latestRating": 1610,
         "peakRating": 1683
       },
       "matches": [
+        {
+          "matchId": 509718767,
+          "civ": "Persians",
+          "map": "Pilgrims",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:59:24.000Z",
+          "dur": 737,
+          "opponents": [
+            {
+              "profileId": 2363000,
+              "name": "Its Jskillz"
+            },
+            {
+              "profileId": 290453,
+              "name": "Dott_Berlu"
+            },
+            {
+              "profileId": 16072266,
+              "name": "Jan Itor"
+            },
+            {
+              "profileId": 242263,
+              "name": "\u56e2\u56e2\u56e2\u5b50"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2955846,
+              "name": "FMG | KauTrEnS"
+            },
+            {
+              "profileId": 21925459,
+              "name": "ToNGa"
+            },
+            {
+              "profileId": 21865387,
+              "name": "Roy Mustang"
+            }
+          ]
+        },
         {
           "matchId": 497857949,
           "civ": "Burgundians",
@@ -31460,5 +31621,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

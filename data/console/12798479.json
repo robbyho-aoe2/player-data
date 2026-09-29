@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 37,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1131,
         "peakRating": 1170
       },
@@ -607,12 +607,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 703,
-        "pulledDate": "2026-09-27",
-        "latestRating": 920,
+        "totalGames": 704,
+        "pulledDate": "2026-09-29",
+        "latestRating": 910,
         "peakRating": 1057
       },
       "matches": [
+        {
+          "matchId": 509996591,
+          "civ": "Vietnamese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:26:45.000Z",
+          "dur": 204,
+          "opponents": [
+            {
+              "profileId": 14483951,
+              "name": "ShogunSlime"
+            },
+            {
+              "profileId": 18893080,
+              "name": "Boss5895"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13364342,
+              "name": "Captain Klow"
+            }
+          ]
+        },
         {
           "matchId": 491968941,
           "civ": "Saracens",
@@ -20273,14 +20299,14 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -20313,5 +20339,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

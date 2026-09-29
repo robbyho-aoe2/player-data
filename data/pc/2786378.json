@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 516,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1240,
+        "totalGames": 521,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1225,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 509995325,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:17:58.000Z",
+          "dur": 1559,
+          "opponents": [
+            {
+              "profileId": 18918191,
+              "name": "arbiterws"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509786977,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:40:53.000Z",
+          "dur": 1312,
+          "opponents": [
+            {
+              "profileId": 2799483,
+              "name": "angelusgarcia"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509783603,
+          "civ": "Slavs",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:21:54.000Z",
+          "dur": 1055,
+          "opponents": [
+            {
+              "profileId": 3243928,
+              "name": "fcostaz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509782932,
+          "civ": "Italians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:18:17.000Z",
+          "dur": 148,
+          "opponents": [
+            {
+              "profileId": 3243928,
+              "name": "fcostaz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509781083,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:07:25.000Z",
+          "dur": 570,
+          "opponents": [
+            {
+              "profileId": 8965444,
+              "name": "Droga, eh o sl0ttzera"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509003540,
           "civ": "Khmer",
@@ -8334,7 +8419,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1176,
         "peakRating": 1176
       },
@@ -8850,5 +8935,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

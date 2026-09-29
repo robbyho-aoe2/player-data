@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 154,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-29",
         "latestRating": 1100,
         "peakRating": 1144
       },
@@ -2647,12 +2647,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 507,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1190,
+        "totalGames": 510,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1176,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 509378124,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:32:35.000Z",
+          "dur": 1785,
+          "opponents": [
+            {
+              "profileId": 24610905,
+              "name": "bthi68153"
+            },
+            {
+              "profileId": 2941384,
+              "name": "[GdSur] Mate_Amargo"
+            },
+            {
+              "profileId": 17884356,
+              "name": "Player218468839"
+            },
+            {
+              "profileId": 19519052,
+              "name": "lequochuypy96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2893458,
+              "name": "VISTOYCONSI | Miguelon"
+            },
+            {
+              "profileId": 3195783,
+              "name": "VISTOYCONSI | Tafirol"
+            },
+            {
+              "profileId": 1917197,
+              "name": "ElYaquito"
+            }
+          ]
+        },
+        {
+          "matchId": 509373046,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:10:56.000Z",
+          "dur": 638,
+          "opponents": [
+            {
+              "profileId": 535679,
+              "name": "Belmont"
+            },
+            {
+              "profileId": 1155211,
+              "name": "hungrybeastanimal"
+            },
+            {
+              "profileId": 2007048,
+              "name": "Mr. K"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2893458,
+              "name": "VISTOYCONSI | Miguelon"
+            },
+            {
+              "profileId": 1917197,
+              "name": "ElYaquito"
+            }
+          ]
+        },
+        {
+          "matchId": 509365591,
+          "civ": "Ethiopians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:38:35.000Z",
+          "dur": 1782,
+          "opponents": [
+            {
+              "profileId": 21580575,
+              "name": "Maple"
+            },
+            {
+              "profileId": 18991806,
+              "name": "Speechless"
+            },
+            {
+              "profileId": 9154740,
+              "name": "LocalMomsHelper"
+            },
+            {
+              "profileId": 3361858,
+              "name": "AngryKok"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3195783,
+              "name": "VISTOYCONSI | Tafirol"
+            },
+            {
+              "profileId": 2893458,
+              "name": "VISTOYCONSI | Miguelon"
+            },
+            {
+              "profileId": 1917197,
+              "name": "ElYaquito"
+            }
+          ]
+        },
         {
           "matchId": 502959464,
           "civ": "Ethiopians",
@@ -18774,5 +18892,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

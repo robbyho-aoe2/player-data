@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1169,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1748,
+        "totalGames": 1175,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1746,
         "peakRating": 1748
       },
       "matches": [
+        {
+          "matchId": 509320703,
+          "civ": "Celts",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T10:32:35.000Z",
+          "dur": 1354,
+          "opponents": [
+            {
+              "profileId": 14694831,
+              "name": "\u4e3b\u6253\u62bd\u8c61"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509205305,
+          "civ": "Malians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:26:18.000Z",
+          "dur": 1423,
+          "opponents": [
+            {
+              "profileId": 4840810,
+              "name": "TrustMeBro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509197770,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:48:04.000Z",
+          "dur": 2188,
+          "opponents": [
+            {
+              "profileId": 459775,
+              "name": "CORP_hector_sin_elo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509194076,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:30:10.000Z",
+          "dur": 971,
+          "opponents": [
+            {
+              "profileId": 12973097,
+              "name": "op"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509189122,
+          "civ": "Tatars",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:08:08.000Z",
+          "dur": 1267,
+          "opponents": [
+            {
+              "profileId": 2488477,
+              "name": "JoshDomestique"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509184076,
+          "civ": "Gurjaras",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:45:15.000Z",
+          "dur": 1259,
+          "opponents": [
+            {
+              "profileId": 10139185,
+              "name": "The Crusader"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507469795,
           "civ": "Malay",
@@ -18772,7 +18874,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 776,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "latestRating": 1475,
         "peakRating": 1601
       },
@@ -40507,5 +40609,6 @@
   },
   "country": "it",
   "countryIcon": "\ud83c\uddee\ud83c\uddf9",
-  "countryName": "Italy"
+  "countryName": "Italy",
+  "platform": "Steam"
 }

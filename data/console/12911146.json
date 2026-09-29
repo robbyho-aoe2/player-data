@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 970
       },
       "matches": [
@@ -79,7 +79,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 911,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1093,
         "peakRating": 1174
       },
@@ -26785,18 +26785,86 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 113,
-        "pulledDate": "2026-09-26",
-        "latestRating": 841,
+        "totalGames": 115,
+        "pulledDate": "2026-09-29",
+        "latestRating": 809,
         "peakRating": 912
       },
       "matches": [
+        {
+          "matchId": 509797484,
+          "civ": "Wei",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:41:50.000Z",
+          "dur": 2625,
+          "opponents": [
+            {
+              "profileId": 24030826,
+              "name": "RON PELOYO"
+            },
+            {
+              "profileId": 10928405,
+              "name": "d.salasm8"
+            },
+            {
+              "profileId": 16173369,
+              "name": "Malhuecito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12889472,
+              "name": "Xtrem Elite"
+            },
+            {
+              "profileId": 13108071,
+              "name": "killer ELBOSS"
+            }
+          ]
+        },
+        {
+          "matchId": 509791805,
+          "civ": "Wei",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:08:36.000Z",
+          "dur": 1790,
+          "opponents": [
+            {
+              "profileId": 26046571,
+              "name": "Teblu"
+            },
+            {
+              "profileId": 388520,
+              "name": "Miss. Alternative"
+            },
+            {
+              "profileId": 4337868,
+              "name": "Atila"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12889472,
+              "name": "Xtrem Elite"
+            },
+            {
+              "profileId": 13108071,
+              "name": "killer ELBOSS"
+            }
+          ]
+        },
         {
           "matchId": 509023228,
           "civ": "Goths",
@@ -30492,5 +30560,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

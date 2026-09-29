@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1001,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 877,
         "peakRating": 1174
       },
@@ -16088,12 +16088,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1184,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1271,
+        "totalGames": 1188,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1238,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 510040794,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:36:41.000Z",
+          "dur": 1124,
+          "opponents": [
+            {
+              "profileId": 8588401,
+              "name": "Principipe6724"
+            },
+            {
+              "profileId": 795850,
+              "name": "Ahhh Harambe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2312470,
+              "name": "DS_Migno"
+            }
+          ]
+        },
+        {
+          "matchId": 510038679,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:14:44.000Z",
+          "dur": 1151,
+          "opponents": [
+            {
+              "profileId": 1143456,
+              "name": "Xilex"
+            },
+            {
+              "profileId": 752321,
+              "name": "Boleslaw"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2312470,
+              "name": "DS_Migno"
+            }
+          ]
+        },
+        {
+          "matchId": 510031058,
+          "civ": "Portuguese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:08:19.000Z",
+          "dur": 3734,
+          "opponents": [
+            {
+              "profileId": 2975718,
+              "name": ".::LastShadow::."
+            },
+            {
+              "profileId": 319945,
+              "name": "ranchwalker"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2312470,
+              "name": "DS_Migno"
+            }
+          ]
+        },
+        {
+          "matchId": 510027918,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:43:50.000Z",
+          "dur": 1353,
+          "opponents": [
+            {
+              "profileId": 3395066,
+              "name": "Lord San"
+            },
+            {
+              "profileId": 3567706,
+              "name": "EL BASTARDOK SCALONIDAS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2312470,
+              "name": "DS_Migno"
+            }
+          ]
+        },
         {
           "matchId": 509035006,
           "civ": "Turks",
@@ -50460,5 +50564,6 @@
   },
   "country": "cr",
   "countryIcon": "\ud83c\udde8\ud83c\uddf7",
-  "countryName": "Costa Rica"
+  "countryName": "Costa Rica",
+  "platform": "Steam"
 }

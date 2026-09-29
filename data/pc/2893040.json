@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 330,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 768,
         "peakRating": 801
       },
@@ -5310,12 +5310,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 700,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1185,
+        "totalGames": 703,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1195,
         "peakRating": 1267
       },
       "matches": [
+        {
+          "matchId": 509918785,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:39:06.000Z",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 2035842,
+              "name": "Didi"
+            },
+            {
+              "profileId": 22029122,
+              "name": "taiwan180"
+            },
+            {
+              "profileId": 3161507,
+              "name": "noziemann"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 285661,
+              "name": "DieselBleifrei"
+            },
+            {
+              "profileId": 2152006,
+              "name": "xlxzimtxlx1"
+            }
+          ]
+        },
+        {
+          "matchId": 509908937,
+          "civ": "Spanish",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:48:58.000Z",
+          "dur": 2631,
+          "opponents": [
+            {
+              "profileId": 2566564,
+              "name": "andber"
+            },
+            {
+              "profileId": 4302186,
+              "name": "LAOS GANGZ"
+            },
+            {
+              "profileId": 5653260,
+              "name": "VIETNAMESE GANGZ !!!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 285661,
+              "name": "DieselBleifrei"
+            },
+            {
+              "profileId": 2152006,
+              "name": "xlxzimtxlx1"
+            }
+          ]
+        },
+        {
+          "matchId": 509900739,
+          "civ": "Persians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:06:36.000Z",
+          "dur": 1716,
+          "opponents": [
+            {
+              "profileId": 3161507,
+              "name": "noziemann"
+            },
+            {
+              "profileId": 10466709,
+              "name": "\u9ed1\u8272\u571f\u72d7"
+            },
+            {
+              "profileId": 9805842,
+              "name": "Hadi_K"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 285661,
+              "name": "DieselBleifrei"
+            },
+            {
+              "profileId": 2152006,
+              "name": "xlxzimtxlx1"
+            }
+          ]
+        },
         {
           "matchId": 508692074,
           "civ": "Sicilians",
@@ -27982,5 +28084,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

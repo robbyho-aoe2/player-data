@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 34,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 745,
         "peakRating": 791
       },
@@ -573,12 +573,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 808,
-        "pulledDate": "2026-09-25",
-        "latestRating": 780,
+        "totalGames": 810,
+        "pulledDate": "2026-09-29",
+        "latestRating": 781,
         "peakRating": 914
       },
       "matches": [
+        {
+          "matchId": 509179806,
+          "civ": "Gurjaras",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:26:48.000Z",
+          "dur": 1686,
+          "opponents": [
+            {
+              "profileId": 18492405,
+              "name": "SZY19999"
+            },
+            {
+              "profileId": 22329754,
+              "name": "aacar6135"
+            },
+            {
+              "profileId": 2032166,
+              "name": "Lione.."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17570958,
+              "name": "Your Mom"
+            },
+            {
+              "profileId": 22349329,
+              "name": "MR.ESSA"
+            }
+          ]
+        },
+        {
+          "matchId": 509171162,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:49:05.000Z",
+          "dur": 1968,
+          "opponents": [
+            {
+              "profileId": 16912688,
+              "name": "nachoverapp"
+            },
+            {
+              "profileId": 25861185,
+              "name": "dfelicep"
+            },
+            {
+              "profileId": 3829656,
+              "name": "4Oscar_in"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22349329,
+              "name": "MR.ESSA"
+            },
+            {
+              "profileId": 1042868,
+              "name": "joaqo9909"
+            }
+          ]
+        },
         {
           "matchId": 508938305,
           "civ": "Bohemians",
@@ -29018,5 +29086,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

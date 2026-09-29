@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 64,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1279,
+        "totalGames": 70,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1187,
         "peakRating": 1314
       },
       "matches": [
+        {
+          "matchId": 509773742,
+          "civ": "Italians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:26:38.000Z",
+          "dur": 1656,
+          "opponents": [
+            {
+              "profileId": 5831701,
+              "name": "domiNate32"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509771254,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:13:00.000Z",
+          "dur": 719,
+          "opponents": [
+            {
+              "profileId": 8755287,
+              "name": "\u661f\u2022\u91ce"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509754382,
+          "civ": "Vietnamese",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:38:42.000Z",
+          "dur": 2056,
+          "opponents": [
+            {
+              "profileId": 233037,
+              "name": "BeyondRage"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509748951,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:10:53.000Z",
+          "dur": 1591,
+          "opponents": [
+            {
+              "profileId": 15450703,
+              "name": "zx1996"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509504425,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:27:07.000Z",
+          "dur": 1461,
+          "opponents": [
+            {
+              "profileId": 23536393,
+              "name": "roly_vic"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509113235,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:13:57.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 5761523,
+              "name": "BoneWizard"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508941322,
           "civ": "Teutons",
@@ -869,12 +971,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 71,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1284,
+        "totalGames": 72,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1302,
         "peakRating": 1379
       },
       "matches": [
+        {
+          "matchId": 509520886,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:58:39.000Z",
+          "dur": 1713,
+          "opponents": [
+            {
+              "profileId": 11439638,
+              "name": "DS_zamazenta"
+            },
+            {
+              "profileId": 20301170,
+              "name": "AgeOfFalop4"
+            },
+            {
+              "profileId": 18710177,
+              "name": "Cannoli"
+            },
+            {
+              "profileId": 3107583,
+              "name": "AiM | Pau"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12048753,
+              "name": "LVH.TGGO"
+            },
+            {
+              "profileId": 5795818,
+              "name": "LVH.Zoka"
+            },
+            {
+              "profileId": 267685,
+              "name": "LVH.CoColo"
+            }
+          ]
+        },
         {
           "matchId": 508793717,
           "civ": "Burmese",
@@ -2480,5 +2624,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

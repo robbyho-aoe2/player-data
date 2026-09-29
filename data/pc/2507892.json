@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 253,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 983,
         "peakRating": 1043
       },
@@ -4077,12 +4077,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 503,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1153,
+        "totalGames": 506,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1118,
         "peakRating": 1237
       },
       "matches": [
+        {
+          "matchId": 509656514,
+          "civ": "Ethiopians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:58:55.000Z",
+          "dur": 2121,
+          "opponents": [
+            {
+              "profileId": 24290488,
+              "name": "TheTerrorizer72"
+            },
+            {
+              "profileId": 24239598,
+              "name": "manit"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2506383,
+              "name": "ASTORONGA"
+            }
+          ]
+        },
+        {
+          "matchId": 509652763,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:43:36.000Z",
+          "dur": 774,
+          "opponents": [
+            {
+              "profileId": 10929065,
+              "name": "antc37"
+            },
+            {
+              "profileId": 8969455,
+              "name": "kiara.g"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2506383,
+              "name": "ASTORONGA"
+            }
+          ]
+        },
+        {
+          "matchId": 509644924,
+          "civ": "Hindustanis",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:11:57.000Z",
+          "dur": 1697,
+          "opponents": [
+            {
+              "profileId": 24477098,
+              "name": "ChuKoNuUBad"
+            },
+            {
+              "profileId": 11828662,
+              "name": "Nomad until 1300"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2506383,
+              "name": "ASTORONGA"
+            }
+          ]
+        },
         {
           "matchId": 508996078,
           "civ": "Spanish",
@@ -18567,5 +18645,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

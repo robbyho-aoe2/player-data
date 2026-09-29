@@ -6,25 +6,195 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2605,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1663,
+        "totalGames": 2615,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1648,
         "peakRating": 1682
       },
       "matches": [
+        {
+          "matchId": 510030111,
+          "civ": "Mapuche",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:59:56.000Z",
+          "dur": 1319,
+          "opponents": [
+            {
+              "profileId": 5137849,
+              "name": "[CGT] Ivaylo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510024360,
+          "civ": "Mapuche",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:18:49.000Z",
+          "dur": 1865,
+          "opponents": [
+            {
+              "profileId": 230265,
+              "name": "Hestia"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510019108,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:43:33.000Z",
+          "dur": 1079,
+          "opponents": [
+            {
+              "profileId": 10429013,
+              "name": "Enterprise"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509747672,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:05:01.000Z",
+          "dur": 1945,
+          "opponents": [
+            {
+              "profileId": 2499355,
+              "name": "Sunblast"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509743056,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:42:30.000Z",
+          "dur": 1269,
+          "opponents": [
+            {
+              "profileId": 2489395,
+              "name": "For The Horde"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509454573,
+          "civ": "Mapuche",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:58:26.000Z",
+          "dur": 2742,
+          "opponents": [
+            {
+              "profileId": 756325,
+              "name": "RiffRaff"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509450095,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:39:32.000Z",
+          "dur": 949,
+          "opponents": [
+            {
+              "profileId": 1321173,
+              "name": "OnDDo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509442113,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:05:56.000Z",
+          "dur": 1156,
+          "opponents": [
+            {
+              "profileId": 14012927,
+              "name": "jo8313"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509441148,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:02:33.000Z",
+          "dur": 166,
+          "opponents": [
+            {
+              "profileId": 4674295,
+              "name": "Leon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509433973,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:32:05.000Z",
+          "dur": 1762,
+          "opponents": [
+            {
+              "profileId": 2614604,
+              "name": "GANZ"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507860540,
           "civ": "Mapuche",
@@ -41732,7 +41902,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 243,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1368,
         "peakRating": 1426
       },
@@ -50236,5 +50406,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

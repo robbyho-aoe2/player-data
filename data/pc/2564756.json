@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 65,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1429,
         "peakRating": 1429
       },
@@ -1069,12 +1069,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2267,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1230,
+        "totalGames": 2269,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1229,
         "peakRating": 1384
       },
       "matches": [
+        {
+          "matchId": 509219686,
+          "civ": "Britons",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:50:27.000Z",
+          "dur": 2871,
+          "opponents": [
+            {
+              "profileId": 1883180,
+              "name": "SenorLeyenda561"
+            },
+            {
+              "profileId": 11292526,
+              "name": "Baruchiev"
+            },
+            {
+              "profileId": 6917607,
+              "name": "Jim_Raynor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2647542,
+              "name": "[JGPTK] Doubleshot"
+            },
+            {
+              "profileId": 2607151,
+              "name": "[JGPTK] AntonioStekelenburg"
+            }
+          ]
+        },
+        {
+          "matchId": 509213237,
+          "civ": "Goths",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:12:10.000Z",
+          "dur": 2145,
+          "opponents": [
+            {
+              "profileId": 19698782,
+              "name": "tzui11"
+            },
+            {
+              "profileId": 3635970,
+              "name": "FxFlashmob"
+            },
+            {
+              "profileId": 1075073,
+              "name": "Bundesamt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2647542,
+              "name": "[JGPTK] Doubleshot"
+            },
+            {
+              "profileId": 2607151,
+              "name": "[JGPTK] AntonioStekelenburg"
+            }
+          ]
+        },
         {
           "matchId": 508058539,
           "civ": "Khmer",
@@ -79886,5 +79954,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

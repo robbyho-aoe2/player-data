@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 851,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1317,
+        "totalGames": 857,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1289,
         "peakRating": 1354
       },
       "matches": [
+        {
+          "matchId": 510012179,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:00:11.000Z",
+          "dur": 1567,
+          "opponents": [
+            {
+              "profileId": 21742057,
+              "name": "\u7fbd\u843d\u5343\u53f6"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510000181,
+          "civ": "Vietnamese",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:48:08.000Z",
+          "dur": 1348,
+          "opponents": [
+            {
+              "profileId": 544036,
+              "name": "[DM]DanielSnake"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509996557,
+          "civ": "Vietnamese",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:26:30.000Z",
+          "dur": 1226,
+          "opponents": [
+            {
+              "profileId": 5870242,
+              "name": "Jol Nar Binks"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509802559,
+          "civ": "Vietnamese",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:14:42.000Z",
+          "dur": 1608,
+          "opponents": [
+            {
+              "profileId": 5655793,
+              "name": "Piphex.-"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509713578,
+          "civ": "Vietnamese",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:39:41.000Z",
+          "dur": 2948,
+          "opponents": [
+            {
+              "profileId": 581783,
+              "name": "Guybrush"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509695540,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:33:49.000Z",
+          "dur": 2784,
+          "opponents": [
+            {
+              "profileId": 207573,
+              "name": "Krastar"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508974774,
           "civ": "Vietnamese",
@@ -13731,7 +13833,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 982,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1191,
         "peakRating": 1254
       },
@@ -48720,5 +48822,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

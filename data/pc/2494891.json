@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 100,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1155,
         "peakRating": 1173
       },
@@ -1629,12 +1629,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 845,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1232,
+        "totalGames": 847,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1230,
         "peakRating": 1324
       },
       "matches": [
+        {
+          "matchId": 509287990,
+          "civ": "Britons",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:36:11.000Z",
+          "dur": 713,
+          "opponents": [
+            {
+              "profileId": 17923849,
+              "name": "rambo"
+            },
+            {
+              "profileId": 24802331,
+              "name": "cottage"
+            },
+            {
+              "profileId": 1304347,
+              "name": "McLagan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2495037,
+              "name": "Rangerzz"
+            },
+            {
+              "profileId": 2495119,
+              "name": "LYO"
+            }
+          ]
+        },
+        {
+          "matchId": 509280723,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T05:46:34.000Z",
+          "dur": 2564,
+          "opponents": [
+            {
+              "profileId": 885998,
+              "name": "pialo"
+            },
+            {
+              "profileId": 766180,
+              "name": "Defenestrator"
+            },
+            {
+              "profileId": 3588052,
+              "name": "XZ.Lumber.AX"
+            },
+            {
+              "profileId": 3550660,
+              "name": "OUJ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2495037,
+              "name": "Rangerzz"
+            },
+            {
+              "profileId": 2495119,
+              "name": "LYO"
+            },
+            {
+              "profileId": 2495042,
+              "name": "JackTheRipper"
+            }
+          ]
+        },
         {
           "matchId": 507917292,
           "civ": "Japanese",
@@ -33088,5 +33164,6 @@
   },
   "country": "vn",
   "countryIcon": "\ud83c\uddfb\ud83c\uddf3",
-  "countryName": "Viet Nam"
+  "countryName": "Viet Nam",
+  "platform": "Steam"
 }

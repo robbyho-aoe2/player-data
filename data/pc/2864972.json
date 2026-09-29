@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 360,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1113,
         "peakRating": 1173
       },
@@ -5789,12 +5789,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1992,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1225,
+        "totalGames": 1994,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1224,
         "peakRating": 1293
       },
       "matches": [
+        {
+          "matchId": 509730354,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:45:47.000Z",
+          "dur": 2357,
+          "opponents": [
+            {
+              "profileId": 6421172,
+              "name": "Rey_Mono86"
+            },
+            {
+              "profileId": 5833466,
+              "name": "[ECU] Emperador Mabusito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4253063,
+              "name": "GADDAR"
+            }
+          ]
+        },
+        {
+          "matchId": 509720720,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:06:33.000Z",
+          "dur": 2163,
+          "opponents": [
+            {
+              "profileId": 10113512,
+              "name": "Ts_Boing"
+            },
+            {
+              "profileId": 930713,
+              "name": "Barnie the polip"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15222415,
+              "name": "CID JEAN"
+            }
+          ]
+        },
         {
           "matchId": 507826704,
           "civ": "Bohemians",
@@ -62865,5 +62917,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

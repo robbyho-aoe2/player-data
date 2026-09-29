@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1495,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1618,
+        "totalGames": 1498,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1665,
         "peakRating": 1718
       },
       "matches": [
+        {
+          "matchId": 510015523,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:19:55.000Z",
+          "dur": 1617,
+          "opponents": [
+            {
+              "profileId": 11181673,
+              "name": "Jaguar82"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510011890,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:57:39.000Z",
+          "dur": 1140,
+          "opponents": [
+            {
+              "profileId": 10710841,
+              "name": "\u30af\u30de\u8c5a\u7537"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509998459,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:37:19.000Z",
+          "dur": 1668,
+          "opponents": [
+            {
+              "profileId": 10429013,
+              "name": "Enterprise"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504558837,
           "civ": "Mapuche",
@@ -23954,12 +24005,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 659,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1400,
+        "totalGames": 660,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1386,
         "peakRating": 1532
       },
       "matches": [
+        {
+          "matchId": 510003521,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:09:51.000Z",
+          "dur": 1507,
+          "opponents": [
+            {
+              "profileId": 2234602,
+              "name": "ZKP"
+            },
+            {
+              "profileId": 1657032,
+              "name": "FiveQuill1"
+            },
+            {
+              "profileId": 5773564,
+              "name": "ferbon98"
+            },
+            {
+              "profileId": 2755868,
+              "name": "AperolSpritz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1415794,
+              "name": "AiM | Walter Quiver"
+            },
+            {
+              "profileId": 26029097,
+              "name": "AgeOfFentanil0"
+            },
+            {
+              "profileId": 5659953,
+              "name": "DD2E 00000000"
+            }
+          ]
+        },
         {
           "matchId": 496339198,
           "civ": "Cumans",
@@ -42666,5 +42759,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

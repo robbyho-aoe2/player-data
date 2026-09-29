@@ -5,12 +5,29 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 118,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1111,
+        "totalGames": 119,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1098,
         "peakRating": 1131
       },
       "matches": [
+        {
+          "matchId": 509943580,
+          "civ": "Lithuanians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:31:23.000Z",
+          "dur": 2031,
+          "opponents": [
+            {
+              "profileId": 12981906,
+              "name": "LastBoyScout466"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508717007,
           "civ": "Lithuanians",
@@ -1911,12 +1928,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 63,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1111,
-        "peakRating": 1111
+        "totalGames": 64,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1123,
+        "peakRating": 1123
       },
       "matches": [
+        {
+          "matchId": 509951338,
+          "civ": "Lithuanians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:07:08.000Z",
+          "dur": 2328,
+          "opponents": [
+            {
+              "profileId": 13207729,
+              "name": "OrSkyline420"
+            },
+            {
+              "profileId": 12714716,
+              "name": "oTarK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13003660,
+              "name": "Hawsey123"
+            }
+          ]
+        },
         {
           "matchId": 507457731,
           "civ": "Lithuanians",
@@ -3726,7 +3769,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1000
       },
       "matches": [
@@ -3751,12 +3794,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     }
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Xbox"
 }

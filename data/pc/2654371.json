@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 73,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1041,
         "peakRating": 1059
       },
@@ -1270,12 +1270,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 269,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1038,
+        "totalGames": 272,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1026,
         "peakRating": 1171
       },
       "matches": [
+        {
+          "matchId": 509937364,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:04:35.000Z",
+          "dur": 2079,
+          "opponents": [
+            {
+              "profileId": 21411517,
+              "name": "FeherFarkas"
+            },
+            {
+              "profileId": 5204642,
+              "name": "aiR"
+            },
+            {
+              "profileId": 5287117,
+              "name": "O' FENOMENO."
+            },
+            {
+              "profileId": 24851203,
+              "name": "aextropical#0420"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17629485,
+              "name": "[AUT] Sniper"
+            },
+            {
+              "profileId": 18758968,
+              "name": "sonsehzadee"
+            },
+            {
+              "profileId": 19915943,
+              "name": "denny0002000"
+            }
+          ]
+        },
+        {
+          "matchId": 509929900,
+          "civ": "Lithuanians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:31:21.000Z",
+          "dur": 1839,
+          "opponents": [
+            {
+              "profileId": 1924604,
+              "name": "Stoflong"
+            },
+            {
+              "profileId": 534969,
+              "name": "dirkwijers"
+            },
+            {
+              "profileId": 19233917,
+              "name": "\u963f\u5f37"
+            },
+            {
+              "profileId": 7760766,
+              "name": "propz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2598213,
+              "name": "Xavier"
+            },
+            {
+              "profileId": 19915943,
+              "name": "denny0002000"
+            },
+            {
+              "profileId": 5345899,
+              "name": "Milton Caskito"
+            }
+          ]
+        },
+        {
+          "matchId": 509922558,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:57:08.000Z",
+          "dur": 1943,
+          "opponents": [
+            {
+              "profileId": 2781832,
+              "name": "X Saint"
+            },
+            {
+              "profileId": 11438127,
+              "name": "Bombero90"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19915943,
+              "name": "denny0002000"
+            }
+          ]
+        },
         {
           "matchId": 507803840,
           "civ": "Lithuanians",
@@ -10963,5 +11073,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

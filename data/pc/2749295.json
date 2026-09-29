@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1060,
         "peakRating": 1077
       },
@@ -333,12 +333,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1149,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1327,
+        "totalGames": 1151,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1298,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 509062718,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T09:40:06.000Z",
+          "dur": 2112,
+          "opponents": [
+            {
+              "profileId": 597125,
+              "name": "\u6b7b\u795e\u5152"
+            },
+            {
+              "profileId": 597762,
+              "name": "\u8ed2Syuan"
+            },
+            {
+              "profileId": 598927,
+              "name": "funlove60403"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1048746,
+              "name": "Crow"
+            },
+            {
+              "profileId": 1048712,
+              "name": "neumi11"
+            }
+          ]
+        },
+        {
+          "matchId": 509059770,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T09:13:03.000Z",
+          "dur": 1435,
+          "opponents": [
+            {
+              "profileId": 6310397,
+              "name": "bilalkezer"
+            },
+            {
+              "profileId": 2357383,
+              "name": "kezeribrahim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1048746,
+              "name": "Crow"
+            }
+          ]
+        },
         {
           "matchId": 508935017,
           "civ": "Danes",
@@ -32830,5 +32890,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

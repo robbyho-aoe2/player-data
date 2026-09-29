@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 121,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 996,
         "peakRating": 1086
       },
@@ -1988,12 +1988,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 347,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1213,
+        "totalGames": 351,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1211,
         "peakRating": 1256
       },
       "matches": [
+        {
+          "matchId": 509782973,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:19:00.000Z",
+          "dur": 1911,
+          "opponents": [
+            {
+              "profileId": 2967095,
+              "name": "lleame pa la casa"
+            },
+            {
+              "profileId": 2898747,
+              "name": "El Subcomandante"
+            },
+            {
+              "profileId": 2946230,
+              "name": "Yeyi Vicu\u00f1a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3789231,
+              "name": "Huscarlos"
+            },
+            {
+              "profileId": 2038550,
+              "name": "[Coff] GenosLuke"
+            }
+          ]
+        },
+        {
+          "matchId": 509527885,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:36:53.000Z",
+          "dur": 1283,
+          "opponents": [
+            {
+              "profileId": 16524672,
+              "name": "jscheng35"
+            },
+            {
+              "profileId": 3062422,
+              "name": "Wise Frog"
+            },
+            {
+              "profileId": 3056523,
+              "name": "moomoothecow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 305036,
+              "name": "MatuAKD"
+            },
+            {
+              "profileId": 18669808,
+              "name": "Piojoso87"
+            }
+          ]
+        },
+        {
+          "matchId": 509211979,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:04:32.000Z",
+          "dur": 1351,
+          "opponents": [
+            {
+              "profileId": 1728579,
+              "name": "Santykins"
+            },
+            {
+              "profileId": 3810290,
+              "name": "Happy Pirate"
+            },
+            {
+              "profileId": 2305329,
+              "name": "Yorku"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 305036,
+              "name": "MatuAKD"
+            },
+            {
+              "profileId": 3789231,
+              "name": "Huscarlos"
+            }
+          ]
+        },
+        {
+          "matchId": 509206669,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:34:23.000Z",
+          "dur": 1467,
+          "opponents": [
+            {
+              "profileId": 19756037,
+              "name": "JAGR | HIPERYON"
+            },
+            {
+              "profileId": 22844552,
+              "name": "JAGR | juankof"
+            },
+            {
+              "profileId": 24532073,
+              "name": "JAGR | Mazzei10"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3789231,
+              "name": "Huscarlos"
+            },
+            {
+              "profileId": 305036,
+              "name": "MatuAKD"
+            }
+          ]
+        },
         {
           "matchId": 508543976,
           "civ": "Persians",
@@ -13525,5 +13661,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

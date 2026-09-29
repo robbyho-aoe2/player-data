@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1166,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1301,
         "peakRating": 1446
       },
@@ -19851,12 +19851,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3052,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1300,
+        "totalGames": 3054,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1268,
         "peakRating": 1446
       },
       "matches": [
+        {
+          "matchId": 509162617,
+          "civ": "Burgundians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:10:34.000Z",
+          "dur": 944,
+          "opponents": [
+            {
+              "profileId": 1362000,
+              "name": "Eduardooo"
+            },
+            {
+              "profileId": 2767237,
+              "name": "Snowden"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 247037,
+              "name": "U 99"
+            }
+          ]
+        },
+        {
+          "matchId": 509156875,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:45:05.000Z",
+          "dur": 1802,
+          "opponents": [
+            {
+              "profileId": 5004245,
+              "name": "FixiHartman"
+            },
+            {
+              "profileId": 4910941,
+              "name": "joeya4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3151232,
+              "name": "AlejoDuck"
+            }
+          ]
+        },
         {
           "matchId": 508716390,
           "civ": "Magyars",
@@ -104332,5 +104384,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

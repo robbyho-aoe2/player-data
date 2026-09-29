@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 3384,
-        "pulledDate": "2026-09-16",
+        "pulledDate": "2026-09-29",
         "latestRating": 1624,
         "peakRating": 1714
       },
@@ -54234,12 +54234,176 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1433,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1418,
+        "totalGames": 1439,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1413,
         "peakRating": 1528
       },
       "matches": [
+        {
+          "matchId": 509789005,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:53:05.000Z",
+          "dur": 2226,
+          "opponents": [
+            {
+              "profileId": 23846092,
+              "name": "_Orca_"
+            },
+            {
+              "profileId": 1866997,
+              "name": "\u9ed1\u6d1e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1922301,
+              "name": "[BY] Saimon845"
+            }
+          ]
+        },
+        {
+          "matchId": 509782100,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:13:54.000Z",
+          "dur": 2221,
+          "opponents": [
+            {
+              "profileId": 411483,
+              "name": "Tecno"
+            },
+            {
+              "profileId": 5862912,
+              "name": "chillboogie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1922301,
+              "name": "[BY] Saimon845"
+            }
+          ]
+        },
+        {
+          "matchId": 509777265,
+          "civ": "Maya",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:46:25.000Z",
+          "dur": 1536,
+          "opponents": [
+            {
+              "profileId": 9989425,
+              "name": "GrizzlyBob"
+            },
+            {
+              "profileId": 15387403,
+              "name": "License to Boom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1922301,
+              "name": "[BY] Saimon845"
+            }
+          ]
+        },
+        {
+          "matchId": 509229901,
+          "civ": "Goths",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:53:49.000Z",
+          "dur": 1730,
+          "opponents": [
+            {
+              "profileId": 12225550,
+              "name": "Zell"
+            },
+            {
+              "profileId": 21972769,
+              "name": "AMartinez__"
+            },
+            {
+              "profileId": 20370613,
+              "name": "sebastianschatzp"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1922301,
+              "name": "[BY] Saimon845"
+            },
+            {
+              "profileId": 1959273,
+              "name": "[BY] damilongi"
+            }
+          ]
+        },
+        {
+          "matchId": 509225092,
+          "civ": "Poles",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:23:33.000Z",
+          "dur": 1614,
+          "opponents": [
+            {
+              "profileId": 5859193,
+              "name": "Dissident"
+            },
+            {
+              "profileId": 2568688,
+              "name": "Esteban"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1922301,
+              "name": "[BY] Saimon845"
+            }
+          ]
+        },
+        {
+          "matchId": 509220667,
+          "civ": "Khmer",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T23:55:24.000Z",
+          "dur": 1513,
+          "opponents": [
+            {
+              "profileId": 18387362,
+              "name": "Mike Ross"
+            },
+            {
+              "profileId": 12385002,
+              "name": "El Influencer y hotelero 3x"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1922301,
+              "name": "[BY] Saimon845"
+            }
+          ]
+        },
         {
           "matchId": 506541851,
           "civ": "Mongols",
@@ -100727,5 +100891,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

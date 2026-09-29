@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 64,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 788,
         "peakRating": 925
       },
@@ -1117,12 +1117,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 225,
-        "pulledDate": "2026-09-24",
-        "latestRating": 754,
+        "totalGames": 226,
+        "pulledDate": "2026-09-29",
+        "latestRating": 734,
         "peakRating": 922
       },
       "matches": [
+        {
+          "matchId": 509807593,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:52:10.000Z",
+          "dur": 2226,
+          "opponents": [
+            {
+              "profileId": 24128296,
+              "name": "TheFearlessPupil"
+            },
+            {
+              "profileId": 25209843,
+              "name": "junstar"
+            },
+            {
+              "profileId": 4858745,
+              "name": "deathly"
+            },
+            {
+              "profileId": 15364522,
+              "name": "tdavisse1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25955535,
+              "name": "\u677f\u84dd\u6839"
+            },
+            {
+              "profileId": 25411338,
+              "name": "\u6b27\u7687"
+            },
+            {
+              "profileId": 20922796,
+              "name": "ElSucioDhate"
+            }
+          ]
+        },
         {
           "matchId": 508151395,
           "civ": "Saracens",
@@ -8930,5 +8972,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

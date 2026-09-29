@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1793,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1117,
         "peakRating": 1313
       },
@@ -28796,12 +28796,174 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 82,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1089,
+        "totalGames": 87,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1106,
         "peakRating": 1137
       },
       "matches": [
+        {
+          "matchId": 509931263,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:37:23.000Z",
+          "dur": 2851,
+          "opponents": [
+            {
+              "profileId": 11842213,
+              "name": "theotherside"
+            },
+            {
+              "profileId": 11856031,
+              "name": "rudalex2006"
+            },
+            {
+              "profileId": 9403507,
+              "name": "StuRat"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 49282,
+              "name": "dark_alex"
+            },
+            {
+              "profileId": 504139,
+              "name": "FURIOUSPAKO"
+            }
+          ]
+        },
+        {
+          "matchId": 509927095,
+          "civ": "Japanese",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:18:13.000Z",
+          "dur": 922,
+          "opponents": [
+            {
+              "profileId": 429043,
+              "name": "BaronBrax"
+            },
+            {
+              "profileId": 11157591,
+              "name": "tenduril"
+            },
+            {
+              "profileId": 5320048,
+              "name": "DerkerTheBerserker"
+            },
+            {
+              "profileId": 4679211,
+              "name": "TwoHeadedTurtle"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 504139,
+              "name": "FURIOUSPAKO"
+            },
+            {
+              "profileId": 9857225,
+              "name": "kirlito"
+            },
+            {
+              "profileId": 936662,
+              "name": "Hurgha"
+            }
+          ]
+        },
+        {
+          "matchId": 509921507,
+          "civ": "Turks",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:52:03.000Z",
+          "dur": 2539,
+          "opponents": [
+            {
+              "profileId": 11350789,
+              "name": "AndGio1"
+            },
+            {
+              "profileId": 3211760,
+              "name": "julianlgp"
+            },
+            {
+              "profileId": 2878989,
+              "name": "Ctrl Gio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 504139,
+              "name": "FURIOUSPAKO"
+            },
+            {
+              "profileId": 24571695,
+              "name": "likelisi017"
+            }
+          ]
+        },
+        {
+          "matchId": 509364256,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:32:28.000Z",
+          "dur": 2322,
+          "opponents": [
+            {
+              "profileId": 21408265,
+              "name": "dong"
+            },
+            {
+              "profileId": 4906693,
+              "name": "Grievous31"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 504139,
+              "name": "FURIOUSPAKO"
+            }
+          ]
+        },
+        {
+          "matchId": 509358879,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:09:07.000Z",
+          "dur": 1266,
+          "opponents": [
+            {
+              "profileId": 10471010,
+              "name": "Nicanor0089"
+            },
+            {
+              "profileId": 26152759,
+              "name": "Lakupiippu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 504139,
+              "name": "FURIOUSPAKO"
+            }
+          ]
+        },
         {
           "matchId": 451048051,
           "civ": "Spanish",
@@ -31268,5 +31430,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

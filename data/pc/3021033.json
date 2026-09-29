@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1059,
         "peakRating": 1083
       },
@@ -307,12 +307,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2645,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1114,
+        "totalGames": 2650,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1143,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 509821345,
+          "civ": "Ethiopians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:51:28.000Z",
+          "dur": 1843,
+          "opponents": [
+            {
+              "profileId": 4797267,
+              "name": "[SAPR] Janstonbeats"
+            },
+            {
+              "profileId": 15378305,
+              "name": "Age_of_Empires"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3018389,
+              "name": "fisho"
+            }
+          ]
+        },
+        {
+          "matchId": 509818789,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:25:23.000Z",
+          "dur": 1294,
+          "opponents": [
+            {
+              "profileId": 14870171,
+              "name": "fabyyyy1"
+            },
+            {
+              "profileId": 1205770,
+              "name": "rower56"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3018389,
+              "name": "fisho"
+            }
+          ]
+        },
+        {
+          "matchId": 509288823,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:41:37.000Z",
+          "dur": 1497,
+          "opponents": [
+            {
+              "profileId": 1231517,
+              "name": "wild_cat1984"
+            },
+            {
+              "profileId": 4174849,
+              "name": "\u5355\u624b\u5954\u56db\u73a9\u5bb6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3018389,
+              "name": "fisho"
+            }
+          ]
+        },
+        {
+          "matchId": 509287121,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:31:13.000Z",
+          "dur": 428,
+          "opponents": [
+            {
+              "profileId": 1231517,
+              "name": "wild_cat1984"
+            },
+            {
+              "profileId": 4174849,
+              "name": "\u5355\u624b\u5954\u56db\u73a9\u5bb6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3018389,
+              "name": "fisho"
+            }
+          ]
+        },
+        {
+          "matchId": 509281906,
+          "civ": "Ethiopians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T05:55:43.000Z",
+          "dur": 1893,
+          "opponents": [
+            {
+              "profileId": 528709,
+              "name": "Dacrawl"
+            },
+            {
+              "profileId": 24535712,
+              "name": "elliottcorpus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3018389,
+              "name": "fisho"
+            }
+          ]
+        },
         {
           "matchId": 509038777,
           "civ": "Ethiopians",
@@ -75694,5 +75824,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

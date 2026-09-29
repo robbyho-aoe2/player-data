@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 345,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1071,
         "peakRating": 1101
       },
@@ -5549,12 +5549,198 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1219,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1153,
+        "totalGames": 1224,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1190,
         "peakRating": 1344
       },
       "matches": [
+        {
+          "matchId": 509938635,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:09:51.000Z",
+          "dur": 2640,
+          "opponents": [
+            {
+              "profileId": 20510321,
+              "name": "kswistek"
+            },
+            {
+              "profileId": 19719673,
+              "name": "ALG1S"
+            },
+            {
+              "profileId": 11097032,
+              "name": "lukg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15556821,
+              "name": "Yojimbo"
+            },
+            {
+              "profileId": 4156593,
+              "name": "WiBii5000"
+            }
+          ]
+        },
+        {
+          "matchId": 509936859,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:02:19.000Z",
+          "dur": 317,
+          "opponents": [
+            {
+              "profileId": 19719673,
+              "name": "ALG1S"
+            },
+            {
+              "profileId": 11097032,
+              "name": "lukg"
+            },
+            {
+              "profileId": 20510321,
+              "name": "kswistek"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6422451,
+              "name": "Terra."
+            },
+            {
+              "profileId": 4156593,
+              "name": "WiBii5000"
+            }
+          ]
+        },
+        {
+          "matchId": 509452715,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:51:03.000Z",
+          "dur": 2389,
+          "opponents": [
+            {
+              "profileId": 23331828,
+              "name": "Grim Reaper"
+            },
+            {
+              "profileId": 23274749,
+              "name": "Dickus Giganticus"
+            },
+            {
+              "profileId": 23189483,
+              "name": "badeMJoon"
+            },
+            {
+              "profileId": 23178985,
+              "name": "Arfah"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3109697,
+              "name": "Petit_Pois"
+            },
+            {
+              "profileId": 25639417,
+              "name": "loicreste"
+            },
+            {
+              "profileId": 16163342,
+              "name": "Profesor Cocoon"
+            }
+          ]
+        },
+        {
+          "matchId": 509442344,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:07:57.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 8936615,
+              "name": "K"
+            },
+            {
+              "profileId": 5026304,
+              "name": "4Tapping"
+            },
+            {
+              "profileId": 25714990,
+              "name": "YuangXue"
+            },
+            {
+              "profileId": 23062416,
+              "name": "Sir Aldi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 230986,
+              "name": "TheEel"
+            },
+            {
+              "profileId": 214383,
+              "name": "Melting Snowball"
+            },
+            {
+              "profileId": 16163342,
+              "name": "Profesor Cocoon"
+            }
+          ]
+        },
+        {
+          "matchId": 509432164,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:25:16.000Z",
+          "dur": 2168,
+          "opponents": [
+            {
+              "profileId": 11601812,
+              "name": "DCOPN"
+            },
+            {
+              "profileId": 10502940,
+              "name": "Yonag"
+            },
+            {
+              "profileId": 10471270,
+              "name": "Bum SEkss"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2211994,
+              "name": "MegaWickedMan"
+            },
+            {
+              "profileId": 332377,
+              "name": "tiwaz55"
+            }
+          ]
+        },
         {
           "matchId": 508926504,
           "civ": "Franks",
@@ -50695,5 +50881,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

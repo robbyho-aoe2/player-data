@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 502,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1603,
         "peakRating": 1603
       },
@@ -8065,12 +8065,172 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3146,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1577,
+        "totalGames": 3150,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1620,
         "peakRating": 1732
       },
       "matches": [
+        {
+          "matchId": 510025382,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:25:59.000Z",
+          "dur": 1474,
+          "opponents": [
+            {
+              "profileId": 11480627,
+              "name": "tim.13"
+            },
+            {
+              "profileId": 2637531,
+              "name": "Spank~"
+            },
+            {
+              "profileId": 1500963,
+              "name": "veni"
+            },
+            {
+              "profileId": 1743420,
+              "name": "NuMa | OliverAtom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2213230,
+              "name": "|FMG| pablomac12"
+            },
+            {
+              "profileId": 2304739,
+              "name": "|FMG| TINCHO"
+            },
+            {
+              "profileId": 1780624,
+              "name": "FMG | Camilo"
+            }
+          ]
+        },
+        {
+          "matchId": 510019123,
+          "civ": "Hindustanis",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:44:08.000Z",
+          "dur": 2124,
+          "opponents": [
+            {
+              "profileId": 2622255,
+              "name": "Galaxy"
+            },
+            {
+              "profileId": 6324435,
+              "name": "DL-\u0110\u1ec7Nh\u1ecb"
+            },
+            {
+              "profileId": 8588069,
+              "name": "Miss_Xue"
+            },
+            {
+              "profileId": 221997,
+              "name": "Inc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1780624,
+              "name": "FMG | Camilo"
+            },
+            {
+              "profileId": 2213230,
+              "name": "|FMG| pablomac12"
+            },
+            {
+              "profileId": 2304739,
+              "name": "|FMG| TINCHO"
+            }
+          ]
+        },
+        {
+          "matchId": 510018189,
+          "civ": "Wei",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:37:39.000Z",
+          "dur": 82,
+          "opponents": [
+            {
+              "profileId": 498661,
+              "name": "USTA"
+            },
+            {
+              "profileId": 6313440,
+              "name": "YiMia"
+            },
+            {
+              "profileId": 24494719,
+              "name": "\u5c0f\u767d"
+            },
+            {
+              "profileId": 25205376,
+              "name": "lalalalala"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1780624,
+              "name": "FMG | Camilo"
+            },
+            {
+              "profileId": 2213230,
+              "name": "|FMG| pablomac12"
+            },
+            {
+              "profileId": 2304739,
+              "name": "|FMG| TINCHO"
+            }
+          ]
+        },
+        {
+          "matchId": 510013653,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:09:11.000Z",
+          "dur": 1417,
+          "opponents": [
+            {
+              "profileId": 11608946,
+              "name": "Rojo, el camionero."
+            },
+            {
+              "profileId": 5278462,
+              "name": "Caconero"
+            },
+            {
+              "profileId": 324570,
+              "name": "RedMess"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1780624,
+              "name": "FMG | Camilo"
+            },
+            {
+              "profileId": 2304739,
+              "name": "|FMG| TINCHO"
+            }
+          ]
+        },
         {
           "matchId": 509027131,
           "civ": "Lithuanians",
@@ -121258,5 +121418,6 @@
   },
   "country": "uy",
   "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
-  "countryName": "Uruguay"
+  "countryName": "Uruguay",
+  "platform": "Steam"
 }

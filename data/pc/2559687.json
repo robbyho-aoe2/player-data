@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 93,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1032,
+        "totalGames": 94,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1049,
         "peakRating": 1198
       },
       "matches": [
+        {
+          "matchId": 509996844,
+          "civ": "Saracens",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:27:32.000Z",
+          "dur": 958,
+          "opponents": [
+            {
+              "profileId": 25704711,
+              "name": "Pigger"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507204573,
           "civ": "Saracens",
@@ -1611,7 +1628,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 774,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1213,
         "peakRating": 1291
       },
@@ -29098,5 +29115,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

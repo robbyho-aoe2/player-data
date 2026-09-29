@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -203,12 +203,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 706,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1215,
+        "totalGames": 708,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1249,
         "peakRating": 1476
       },
       "matches": [
+        {
+          "matchId": 509877225,
+          "civ": "Wei",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:00:01.000Z",
+          "dur": 118,
+          "opponents": [
+            {
+              "profileId": 4504119,
+              "name": "Dr.Greenthumb"
+            },
+            {
+              "profileId": 25732123,
+              "name": "sj"
+            },
+            {
+              "profileId": 25915959,
+              "name": "\u6a4b\u672c\u771f\u4e5f"
+            },
+            {
+              "profileId": 25916378,
+              "name": "\u5c0f\u5c0f\u8ca1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 300821,
+              "name": "_0x56D"
+            },
+            {
+              "profileId": 24972241,
+              "name": "nevermindlosing8042"
+            },
+            {
+              "profileId": 26083839,
+              "name": "colonyin"
+            }
+          ]
+        },
+        {
+          "matchId": 509082810,
+          "civ": "Shu",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T12:28:30.000Z",
+          "dur": 1529,
+          "opponents": [
+            {
+              "profileId": 9553315,
+              "name": "1361331795"
+            },
+            {
+              "profileId": 817625,
+              "name": "jaimeerp"
+            },
+            {
+              "profileId": 1302660,
+              "name": "L\u00e9on gontran"
+            },
+            {
+              "profileId": 11217884,
+              "name": "DongHan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4484927,
+              "name": "zhenyy"
+            },
+            {
+              "profileId": 16085954,
+              "name": "\u6240\u4ee5\u72fc"
+            },
+            {
+              "profileId": 20139293,
+              "name": "2486436235"
+            }
+          ]
+        },
         {
           "matchId": 508874680,
           "civ": "Shu",
@@ -28848,5 +28932,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

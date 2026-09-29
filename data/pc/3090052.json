@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 58,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 928,
         "peakRating": 933
       },
@@ -958,12 +958,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1729,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1118,
+        "totalGames": 1731,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1126,
         "peakRating": 1239
       },
       "matches": [
+        {
+          "matchId": 509118532,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:40:12.000Z",
+          "dur": 1691,
+          "opponents": [
+            {
+              "profileId": 23960568,
+              "name": "\u957f\u5d0e\u821e\u559c\u59ec"
+            },
+            {
+              "profileId": 23629885,
+              "name": "\u4f55\u91d1\u94f6"
+            },
+            {
+              "profileId": 6332265,
+              "name": "\u80d6\u8fc7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2724542,
+              "name": "KannYahoo"
+            },
+            {
+              "profileId": 2502511,
+              "name": "GL.Lalo"
+            }
+          ]
+        },
+        {
+          "matchId": 509109043,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:55:07.000Z",
+          "dur": 2129,
+          "opponents": [
+            {
+              "profileId": 2294160,
+              "name": "Brasserie"
+            },
+            {
+              "profileId": 25361982,
+              "name": "\u265a  \u2660 Rikito \u2665 \u265b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2724542,
+              "name": "KannYahoo"
+            }
+          ]
+        },
         {
           "matchId": 508996101,
           "civ": "Persians",
@@ -59168,5 +59228,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Xbox"
 }

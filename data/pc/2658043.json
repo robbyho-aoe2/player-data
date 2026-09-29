@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 439,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1213,
         "peakRating": 1284
       },
@@ -7053,12 +7053,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 883,
-        "pulledDate": "2026-09-25",
-        "latestRating": 916,
+        "totalGames": 887,
+        "pulledDate": "2026-09-29",
+        "latestRating": 914,
         "peakRating": 1103
       },
       "matches": [
+        {
+          "matchId": 510025872,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:29:32.000Z",
+          "dur": 2152,
+          "opponents": [
+            {
+              "profileId": 4578793,
+              "name": "J0hnny"
+            },
+            {
+              "profileId": 3221242,
+              "name": "DitchFish6084"
+            },
+            {
+              "profileId": 26071976,
+              "name": "alexpezoamori"
+            },
+            {
+              "profileId": 6420583,
+              "name": "Debra"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3497902,
+              "name": "ellukenguee"
+            },
+            {
+              "profileId": 2645443,
+              "name": "Felo"
+            },
+            {
+              "profileId": 3948089,
+              "name": "Javier2191"
+            }
+          ]
+        },
+        {
+          "matchId": 509541637,
+          "civ": "Italians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:02:01.000Z",
+          "dur": 2480,
+          "opponents": [
+            {
+              "profileId": 25955323,
+              "name": "verna7019"
+            },
+            {
+              "profileId": 25731545,
+              "name": "\u68ee\u6c38"
+            },
+            {
+              "profileId": 16149050,
+              "name": "Williamjason007"
+            },
+            {
+              "profileId": 2756812,
+              "name": "Thots_and_Prayers"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2645443,
+              "name": "Felo"
+            },
+            {
+              "profileId": 3948089,
+              "name": "Javier2191"
+            },
+            {
+              "profileId": 3497902,
+              "name": "ellukenguee"
+            }
+          ]
+        },
+        {
+          "matchId": 509536876,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:30:24.000Z",
+          "dur": 1642,
+          "opponents": [
+            {
+              "profileId": 21769413,
+              "name": "daveyurr"
+            },
+            {
+              "profileId": 9990283,
+              "name": "Novato"
+            },
+            {
+              "profileId": 9447832,
+              "name": "The Chosen One"
+            },
+            {
+              "profileId": 2880558,
+              "name": "\u6d25\u95e8\u9152\u4ed91049"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3497902,
+              "name": "ellukenguee"
+            },
+            {
+              "profileId": 2645443,
+              "name": "Felo"
+            },
+            {
+              "profileId": 3948089,
+              "name": "Javier2191"
+            }
+          ]
+        },
+        {
+          "matchId": 509533148,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:07:34.000Z",
+          "dur": 1101,
+          "opponents": [
+            {
+              "profileId": 6233879,
+              "name": "aelenon"
+            },
+            {
+              "profileId": 6855884,
+              "name": "413401132"
+            },
+            {
+              "profileId": 22167407,
+              "name": "chentao_1209"
+            },
+            {
+              "profileId": 25249629,
+              "name": "food"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3497902,
+              "name": "ellukenguee"
+            },
+            {
+              "profileId": 2645443,
+              "name": "Felo"
+            },
+            {
+              "profileId": 3948089,
+              "name": "Javier2191"
+            }
+          ]
+        },
         {
           "matchId": 508576507,
           "civ": "Franks",
@@ -38637,5 +38805,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }
