@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 368,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1526,
         "peakRating": 1583
       },
@@ -5904,7 +5904,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 372,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1442,
         "peakRating": 1451
       },
@@ -15669,12 +15669,63 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 380,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1080,
+        "totalGames": 383,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1096,
         "peakRating": 1193
       },
       "matches": [
+        {
+          "matchId": 509981251,
+          "civ": "Malians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:46:36.000Z",
+          "dur": 1007,
+          "opponents": [
+            {
+              "profileId": 25702673,
+              "name": "Capybara-Master"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509975195,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:10:20.000Z",
+          "dur": 1035,
+          "opponents": [
+            {
+              "profileId": 15290653,
+              "name": "[ KOF ] M. Kowalski"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509798726,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:49:38.000Z",
+          "dur": 2020,
+          "opponents": [
+            {
+              "profileId": 22604377,
+              "name": "carlos.e.rdz23"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505789698,
           "civ": "Persians",
@@ -21785,12 +21836,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 414,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1156,
+        "totalGames": 417,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1112,
         "peakRating": 1247
       },
       "matches": [
+        {
+          "matchId": 510024309,
+          "civ": "Malians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:18:28.000Z",
+          "dur": 895,
+          "opponents": [
+            {
+              "profileId": 23702523,
+              "name": "Sanzy"
+            },
+            {
+              "profileId": 4623233,
+              "name": "Nhitty"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20072311,
+              "name": "KeenWallaby"
+            }
+          ]
+        },
+        {
+          "matchId": 510019422,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:45:47.000Z",
+          "dur": 1550,
+          "opponents": [
+            {
+              "profileId": 6778067,
+              "name": "cubdie"
+            },
+            {
+              "profileId": 2031428,
+              "name": "chomisplate"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20072311,
+              "name": "KeenWallaby"
+            }
+          ]
+        },
+        {
+          "matchId": 510015504,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:20:32.000Z",
+          "dur": 1298,
+          "opponents": [
+            {
+              "profileId": 25343001,
+              "name": "Leetz"
+            },
+            {
+              "profileId": 19954488,
+              "name": "c7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20072311,
+              "name": "KeenWallaby"
+            }
+          ]
+        },
         {
           "matchId": 509692789,
           "civ": "Malians",
@@ -32230,5 +32359,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

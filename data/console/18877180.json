@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 124,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1264,
         "peakRating": 1282
       },
@@ -2056,7 +2056,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 674,
         "peakRating": 698
       },
@@ -2350,12 +2350,29 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 36,
-        "pulledDate": "2026-09-27",
-        "latestRating": 715,
-        "peakRating": 729
+        "totalGames": 37,
+        "pulledDate": "2026-09-29",
+        "latestRating": 733,
+        "peakRating": 733
       },
       "matches": [
+        {
+          "matchId": 509935623,
+          "civ": "Mongols",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:55:55.000Z",
+          "dur": 1038,
+          "opponents": [
+            {
+              "profileId": 8510645,
+              "name": "LGD"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509706051,
           "civ": "Mongols",
@@ -2960,7 +2977,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 951
       },
       "matches": [
@@ -3019,5 +3036,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

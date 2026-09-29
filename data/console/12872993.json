@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "peakRating": 1218,
         "latestRating": 1218
       },
@@ -15,7 +15,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "peakRating": 1531,
         "latestRating": 1397
       },
@@ -58,7 +58,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "peakRating": 906,
         "latestRating": 847
       },
@@ -66,12 +66,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 132,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1212,
+        "totalGames": 134,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1203,
         "peakRating": 1356
       },
       "matches": [
+        {
+          "matchId": 510008714,
+          "civ": "Saxons",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:40:16.000Z",
+          "dur": 1611,
+          "opponents": [
+            {
+              "profileId": 6119014,
+              "name": "Aeros"
+            },
+            {
+              "profileId": 11483965,
+              "name": "\u653e\u7f8a\u8001\u6c49"
+            },
+            {
+              "profileId": 25926181,
+              "name": "\u6218\u6597\u54c7"
+            },
+            {
+              "profileId": 19442198,
+              "name": "\u5e1d\u56fd\u65f6\u4ee32--\u53f6\u67ab"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2352091,
+              "name": "SnakyPringle"
+            },
+            {
+              "profileId": 2637747,
+              "name": "PrinceFinnik"
+            },
+            {
+              "profileId": 12645430,
+              "name": "TamerCaribou922"
+            }
+          ]
+        },
+        {
+          "matchId": 509999600,
+          "civ": "Dravidians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:45:32.000Z",
+          "dur": 97,
+          "opponents": [
+            {
+              "profileId": 1115755,
+              "name": "El Conchetumare"
+            },
+            {
+              "profileId": 1478393,
+              "name": "Ralf, o fareja noob"
+            },
+            {
+              "profileId": 5741031,
+              "name": "Porro bal\u00f3n de oro"
+            },
+            {
+              "profileId": 17516876,
+              "name": "SIN CLAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2352091,
+              "name": "SnakyPringle"
+            },
+            {
+              "profileId": 12613909,
+              "name": "ClankyDolphin92"
+            },
+            {
+              "profileId": 12645430,
+              "name": "TamerCaribou922"
+            }
+          ]
+        },
         {
           "matchId": 509009487,
           "civ": "Saxons",
@@ -3152,5 +3236,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

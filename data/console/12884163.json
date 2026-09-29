@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 25,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -414,7 +414,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 73,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1245,
         "peakRating": 1254
       },
@@ -2889,7 +2889,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 105,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1194,
         "peakRating": 1194
       },
@@ -4578,12 +4578,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1921,
-        "pulledDate": "2026-09-27",
+        "totalGames": 1923,
+        "pulledDate": "2026-09-29",
         "latestRating": 1316,
         "peakRating": 1382
       },
       "matches": [
+        {
+          "matchId": 509947707,
+          "civ": "Incas",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:50:50.000Z",
+          "dur": 662,
+          "opponents": [
+            {
+              "profileId": 23167724,
+              "name": "Flash"
+            },
+            {
+              "profileId": 2361749,
+              "name": "CatinaS"
+            },
+            {
+              "profileId": 854640,
+              "name": "engarvi"
+            },
+            {
+              "profileId": 257232,
+              "name": "eartahhj | GamingHouse"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19105555,
+              "name": "Agent"
+            },
+            {
+              "profileId": 4797196,
+              "name": "IchBinNedDerDracheVerdammteAggsd"
+            },
+            {
+              "profileId": 266453,
+              "name": "koppzer"
+            }
+          ]
+        },
+        {
+          "matchId": 509768366,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:58:03.000Z",
+          "dur": 1866,
+          "opponents": [
+            {
+              "profileId": 15455883,
+              "name": "Caronte"
+            },
+            {
+              "profileId": 12465543,
+              "name": "Cyo Electryx"
+            },
+            {
+              "profileId": 22430578,
+              "name": "johnmaestre1"
+            },
+            {
+              "profileId": 20057965,
+              "name": "MZTK | John_Wick"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 703921,
+              "name": "Pe | xfirecorsair"
+            },
+            {
+              "profileId": 6117999,
+              "name": "PNAL | Lipe"
+            },
+            {
+              "profileId": 16327100,
+              "name": "Terrible Charles"
+            }
+          ]
+        },
         {
           "matchId": 509683442,
           "civ": "Vikings",
@@ -74803,5 +74887,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

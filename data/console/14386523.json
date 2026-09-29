@@ -5,12 +5,29 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 204,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1517,
+        "totalGames": 205,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1538,
         "peakRating": 1578
       },
       "matches": [
+        {
+          "matchId": 509828760,
+          "civ": "Danes",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:12:17.000Z",
+          "dur": 1345,
+          "opponents": [
+            {
+              "profileId": 15459914,
+              "name": "rswinden"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509603863,
           "civ": "Danes",
@@ -3282,12 +3299,64 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 896,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1371,
+        "totalGames": 898,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1361,
         "peakRating": 1484
       },
       "matches": [
+        {
+          "matchId": 509859036,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:05:32.000Z",
+          "dur": 2169,
+          "opponents": [
+            {
+              "profileId": 18239868,
+              "name": "WakeUP6151"
+            },
+            {
+              "profileId": 16389471,
+              "name": "Chiefboy AK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12579844,
+              "name": "Darkyoa"
+            }
+          ]
+        },
+        {
+          "matchId": 509856482,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:44:44.000Z",
+          "dur": 811,
+          "opponents": [
+            {
+              "profileId": 12579844,
+              "name": "Darkyoa"
+            },
+            {
+              "profileId": 12589193,
+              "name": "BigKnuckleXx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16389471,
+              "name": "Chiefboy AK"
+            }
+          ]
+        },
         {
           "matchId": 509326111,
           "civ": "Varangians",
@@ -27152,7 +27221,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1060,
         "peakRating": 1095
       },
@@ -27514,7 +27583,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 346,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1126,
         "peakRating": 1190
       },
@@ -39566,5 +39635,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Xbox"
 }

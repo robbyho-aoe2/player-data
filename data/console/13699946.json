@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 1430,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-29",
         "latestRating": 1348,
         "peakRating": 1527
       },
@@ -24326,7 +24326,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 2522,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-29",
         "latestRating": 1221,
         "peakRating": 1321
       },
@@ -102379,12 +102379,80 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1578,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1017,
+        "totalGames": 1582,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1050,
         "peakRating": 1133
       },
       "matches": [
+        {
+          "matchId": 510023284,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:10:43.000Z",
+          "dur": 1523,
+          "opponents": [
+            {
+              "profileId": 6162581,
+              "name": "Columbus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510015661,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:20:40.000Z",
+          "dur": 2030,
+          "opponents": [
+            {
+              "profileId": 9676999,
+              "name": "Bearly25"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510008472,
+          "civ": "Huns",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:38:38.000Z",
+          "dur": 1839,
+          "opponents": [
+            {
+              "profileId": 15314949,
+              "name": "DarkAngel2173"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509991007,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:50:24.000Z",
+          "dur": 1286,
+          "opponents": [
+            {
+              "profileId": 4099531,
+              "name": "DS_OR1G1N"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509765424,
           "civ": "Magyars",
@@ -129215,12 +129283,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1218,
-        "pulledDate": "2026-09-28",
-        "latestRating": 965,
+        "totalGames": 1219,
+        "pulledDate": "2026-09-29",
+        "latestRating": 955,
         "peakRating": 1161
       },
       "matches": [
+        {
+          "matchId": 510021069,
+          "civ": "Tupi",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:57:04.000Z",
+          "dur": 762,
+          "opponents": [
+            {
+              "profileId": 3370092,
+              "name": "Cisco Beats"
+            },
+            {
+              "profileId": 3384680,
+              "name": "VonPiatre"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10918548,
+              "name": "emreabay"
+            }
+          ]
+        },
         {
           "matchId": 509736793,
           "civ": "Shu",
@@ -168798,5 +168892,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

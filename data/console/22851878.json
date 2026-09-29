@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 48,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-29",
         "latestRating": 1270,
         "peakRating": 1302
       },
@@ -784,7 +784,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-29",
         "latestRating": 1225,
         "peakRating": 1260
       },
@@ -1333,12 +1333,29 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 43,
-        "pulledDate": "2026-09-02",
-        "latestRating": 848,
+        "totalGames": 44,
+        "pulledDate": "2026-09-29",
+        "latestRating": 867,
         "peakRating": 867
       },
       "matches": [
+        {
+          "matchId": 509922030,
+          "civ": "Japanese",
+          "map": "Golden Pit",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:54:33.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 24416513,
+              "name": "Lord-Krajczy"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 494210085,
           "civ": "Armenians",
@@ -2032,7 +2049,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-02",
+        "pulledDate": "2026-09-29",
         "latestRating": 1053
       },
       "matches": [
@@ -2174,5 +2191,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "PSN"
 }

@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 121,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1463,
         "peakRating": 1473
       },
@@ -1952,7 +1952,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1211,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1555,
         "peakRating": 1706
       },
@@ -37799,12 +37799,63 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 127,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1160,
+        "totalGames": 130,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1142,
         "peakRating": 1175
       },
       "matches": [
+        {
+          "matchId": 509961029,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:52:08.000Z",
+          "dur": 1627,
+          "opponents": [
+            {
+              "profileId": 16389889,
+              "name": "Amol"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509955872,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:28:36.000Z",
+          "dur": 1341,
+          "opponents": [
+            {
+              "profileId": 24673795,
+              "name": "WH\u0130TE.MAN.TR"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509948339,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:53:21.000Z",
+          "dur": 1987,
+          "opponents": [
+            {
+              "profileId": 19842116,
+              "name": "Auf die Schnauze!"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509024417,
           "civ": "Saxons",
@@ -39953,12 +40004,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 284,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1300,
+        "totalGames": 285,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1311,
         "peakRating": 1359
       },
       "matches": [
+        {
+          "matchId": 509777209,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:46:40.000Z",
+          "dur": 1794,
+          "opponents": [
+            {
+              "profileId": 7702183,
+              "name": "Alejomc26"
+            },
+            {
+              "profileId": 8758576,
+              "name": "DrMoopey"
+            },
+            {
+              "profileId": 9496304,
+              "name": "lord_blandon"
+            },
+            {
+              "profileId": 17859241,
+              "name": "Chelowolf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13025220,
+              "name": "The Symb0l"
+            },
+            {
+              "profileId": 12778519,
+              "name": "fridayfilms"
+            },
+            {
+              "profileId": 12118874,
+              "name": "956068430"
+            }
+          ]
+        },
         {
           "matchId": 509534277,
           "civ": "Bohemians",
@@ -49758,5 +49851,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

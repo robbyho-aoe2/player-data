@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 269,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 642,
         "peakRating": 697
       },
@@ -4320,7 +4320,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 106,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 795,
         "peakRating": 956
       },
@@ -7083,12 +7083,46 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 35,
-        "pulledDate": "2026-09-27",
-        "latestRating": 363,
+        "totalGames": 37,
+        "pulledDate": "2026-09-29",
+        "latestRating": 325,
         "peakRating": 689
       },
       "matches": [
+        {
+          "matchId": 509973809,
+          "civ": "Persians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:02:28.000Z",
+          "dur": 1585,
+          "opponents": [
+            {
+              "profileId": 6854285,
+              "name": "Logo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509973309,
+          "civ": "Persians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:59:21.000Z",
+          "dur": 39,
+          "opponents": [
+            {
+              "profileId": 25573106,
+              "name": "akashgoel0610"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505516476,
           "civ": "Britons",
@@ -7658,12 +7692,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 34,
-        "pulledDate": "2026-09-27",
-        "latestRating": 490,
+        "totalGames": 36,
+        "pulledDate": "2026-09-29",
+        "latestRating": 473,
         "peakRating": 696
       },
       "matches": [
+        {
+          "matchId": 509965473,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:16:00.000Z",
+          "dur": 2523,
+          "opponents": [
+            {
+              "profileId": 22319689,
+              "name": "GLORY MUSTAF"
+            },
+            {
+              "profileId": 3267297,
+              "name": "Yousnake"
+            },
+            {
+              "profileId": 24769313,
+              "name": "TITAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14578725,
+              "name": "K1NGlogman"
+            },
+            {
+              "profileId": 9096626,
+              "name": "HendoE"
+            }
+          ]
+        },
+        {
+          "matchId": 509942683,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:28:25.000Z",
+          "dur": 1102,
+          "opponents": [
+            {
+              "profileId": 5003161,
+              "name": "EL Loodo"
+            },
+            {
+              "profileId": 26041057,
+              "name": "Kenshin Brown"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21869223,
+              "name": "M2095"
+            }
+          ]
+        },
         {
           "matchId": 509716594,
           "civ": "Persians",
@@ -8784,5 +8878,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "PSN"
 }

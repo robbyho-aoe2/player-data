@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 504,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1579,
         "peakRating": 1594
       },
@@ -8080,7 +8080,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 468,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1415,
         "peakRating": 1415
       },
@@ -21374,12 +21374,29 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1054,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1188,
+        "totalGames": 1055,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1173,
         "peakRating": 1223
       },
       "matches": [
+        {
+          "matchId": 509785201,
+          "civ": "Varangians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:30:42.000Z",
+          "dur": 761,
+          "opponents": [
+            {
+              "profileId": 951019,
+              "name": "fran.federico8"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509684590,
           "civ": "Varangians",
@@ -38324,12 +38341,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 418,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1088,
+        "totalGames": 420,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1063,
         "peakRating": 1176
       },
       "matches": [
+        {
+          "matchId": 509783330,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:20:44.000Z",
+          "dur": 535,
+          "opponents": [
+            {
+              "profileId": 11490671,
+              "name": "-ShaDoW"
+            },
+            {
+              "profileId": 6636089,
+              "name": "Dani Blackmore"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5746760,
+              "name": "ask"
+            }
+          ]
+        },
+        {
+          "matchId": 509772141,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:18:47.000Z",
+          "dur": 1859,
+          "opponents": [
+            {
+              "profileId": 25892642,
+              "name": "Jawsh"
+            },
+            {
+              "profileId": 12123064,
+              "name": "Draconian946"
+            },
+            {
+              "profileId": 12087861,
+              "name": "CHKNDUCK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6014872,
+              "name": "Dailyfixit"
+            },
+            {
+              "profileId": 10746468,
+              "name": "gaurioles"
+            }
+          ]
+        },
         {
           "matchId": 508664990,
           "civ": "Magyars",
@@ -51039,5 +51116,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

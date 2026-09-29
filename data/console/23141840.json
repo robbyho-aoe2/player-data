@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 598,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1160,
         "peakRating": 1216
       },
@@ -9586,7 +9586,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 88,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1102,
         "peakRating": 1114
       },
@@ -11851,12 +11851,63 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 106,
-        "pulledDate": "2026-09-27",
-        "latestRating": 721,
+        "totalGames": 109,
+        "pulledDate": "2026-09-29",
+        "latestRating": 706,
         "peakRating": 782
       },
       "matches": [
+        {
+          "matchId": 509962695,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:00:35.000Z",
+          "dur": 1971,
+          "opponents": [
+            {
+              "profileId": 12447621,
+              "name": "Jogonva"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509950526,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:03:19.000Z",
+          "dur": 676,
+          "opponents": [
+            {
+              "profileId": 10554258,
+              "name": "Candy Vicky"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509945770,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:41:19.000Z",
+          "dur": 1158,
+          "opponents": [
+            {
+              "profileId": 10554258,
+              "name": "Candy Vicky"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508733955,
           "civ": "Wu",
@@ -13592,11 +13643,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 9,
-        "pulledDate": "2026-09-27",
-        "latestRating": 993
+        "totalGames": 11,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1009,
+        "peakRating": 1009
       },
       "matches": [
+        {
+          "matchId": 509969221,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:35:43.000Z",
+          "dur": 1245,
+          "opponents": [
+            {
+              "profileId": 21893871,
+              "name": "FETALDNATEST\u0130"
+            },
+            {
+              "profileId": 20397213,
+              "name": "b\u0131y\u0131k"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7904693,
+              "name": "camus"
+            }
+          ]
+        },
+        {
+          "matchId": 509953241,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:16:18.000Z",
+          "dur": 2074,
+          "opponents": [
+            {
+              "profileId": 3028922,
+              "name": "Armistice"
+            },
+            {
+              "profileId": 2934100,
+              "name": "Maigh Nuad Warrior"
+            },
+            {
+              "profileId": 2935033,
+              "name": "Kissing Stone"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7835588,
+              "name": "COxTwo"
+            },
+            {
+              "profileId": 9998087,
+              "name": "wubalabadubdub"
+            }
+          ]
+        },
         {
           "matchId": 509444489,
           "civ": "Japanese",
@@ -13897,5 +14009,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "PSN"
 }

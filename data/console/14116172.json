@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 42,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 628,
         "peakRating": 918
       },
@@ -688,7 +688,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 926
       },
       "matches": [
@@ -746,12 +746,46 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1286,
-        "pulledDate": "2026-09-26",
-        "latestRating": 645,
+        "totalGames": 1288,
+        "pulledDate": "2026-09-29",
+        "latestRating": 673,
         "peakRating": 771
       },
       "matches": [
+        {
+          "matchId": 510044518,
+          "civ": "Chinese",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:18:14.000Z",
+          "dur": 826,
+          "opponents": [
+            {
+              "profileId": 3276436,
+              "name": "Giampy12"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510041853,
+          "civ": "Mongols",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:47:42.000Z",
+          "dur": 1643,
+          "opponents": [
+            {
+              "profileId": 18670587,
+              "name": "stag"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509278577,
           "civ": "Turks",
@@ -21442,7 +21476,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 909,
         "peakRating": 962
       },
@@ -21940,5 +21974,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Xbox"
 }
