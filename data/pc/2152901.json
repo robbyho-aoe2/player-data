@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 72,
-        "pulledDate": "2026-09-25",
-        "latestRating": 881,
+        "totalGames": 76,
+        "pulledDate": "2026-09-29",
+        "latestRating": 885,
         "peakRating": 980
       },
       "matches": [
+        {
+          "matchId": 509129106,
+          "civ": "Dravidians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:31:38.000Z",
+          "dur": 1920,
+          "opponents": [
+            {
+              "profileId": 5911706,
+              "name": "MVP"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509124609,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T16:08:08.000Z",
+          "dur": 1315,
+          "opponents": [
+            {
+              "profileId": 2283591,
+              "name": "tony45330"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509122698,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:59:00.000Z",
+          "dur": 361,
+          "opponents": [
+            {
+              "profileId": 19832779,
+              "name": "angelus millet"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509116728,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:30:44.000Z",
+          "dur": 1595,
+          "opponents": [
+            {
+              "profileId": 18524922,
+              "name": "bancilagabrielfw"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509038619,
           "civ": "Dravidians",
@@ -1253,12 +1321,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 23,
-        "pulledDate": "2026-09-25",
-        "latestRating": 953,
+        "totalGames": 25,
+        "pulledDate": "2026-09-29",
+        "latestRating": 922,
         "peakRating": 1120
       },
       "matches": [
+        {
+          "matchId": 509167073,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:30:08.000Z",
+          "dur": 990,
+          "opponents": [
+            {
+              "profileId": 23663645,
+              "name": "DeAqualips"
+            },
+            {
+              "profileId": 15308310,
+              "name": "Producto.Machete"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13563704,
+              "name": "WataScombeg"
+            }
+          ]
+        },
+        {
+          "matchId": 509160189,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:59:53.000Z",
+          "dur": 1251,
+          "opponents": [
+            {
+              "profileId": 19956003,
+              "name": "TheByst12"
+            },
+            {
+              "profileId": 19792714,
+              "name": "Giorda5929"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13563704,
+              "name": "WataScombeg"
+            }
+          ]
+        },
         {
           "matchId": 508935624,
           "civ": "Jurchens",
@@ -2014,5 +2134,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

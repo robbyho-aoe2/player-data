@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 14,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1149,
         "peakRating": 1149
       },
@@ -253,12 +253,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 580,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1207,
+        "totalGames": 584,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1229,
         "peakRating": 1426
       },
       "matches": [
+        {
+          "matchId": 509903825,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:22:18.000Z",
+          "dur": 1800,
+          "opponents": [
+            {
+              "profileId": 615110,
+              "name": "Morgoth_Ak"
+            },
+            {
+              "profileId": 9817007,
+              "name": "SemperBlender"
+            },
+            {
+              "profileId": 4046392,
+              "name": "Lichtenauer_OP"
+            },
+            {
+              "profileId": 1898636,
+              "name": "Barral"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25235627,
+              "name": "\u723a\u723a\u4f7f\u628a\u52c1"
+            },
+            {
+              "profileId": 2719305,
+              "name": "mati"
+            },
+            {
+              "profileId": 1773876,
+              "name": "ARo"
+            }
+          ]
+        },
+        {
+          "matchId": 509902872,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:17:34.000Z",
+          "dur": 1433,
+          "opponents": [
+            {
+              "profileId": 736629,
+              "name": "FraD"
+            },
+            {
+              "profileId": 1630594,
+              "name": "LArcadia49"
+            },
+            {
+              "profileId": 9817007,
+              "name": "SemperBlender"
+            },
+            {
+              "profileId": 11660512,
+              "name": "senninha"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25105102,
+              "name": "Xonkorcorpse"
+            },
+            {
+              "profileId": 425374,
+              "name": "Olkem"
+            },
+            {
+              "profileId": 1773876,
+              "name": "ARo"
+            }
+          ]
+        },
+        {
+          "matchId": 509890301,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:10:41.000Z",
+          "dur": 3005,
+          "opponents": [
+            {
+              "profileId": 14998258,
+              "name": "Gripen"
+            },
+            {
+              "profileId": 9161765,
+              "name": "johansoderstrom1"
+            },
+            {
+              "profileId": 3505890,
+              "name": "Westbergen"
+            },
+            {
+              "profileId": 1620767,
+              "name": "J.D.Rehn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1773876,
+              "name": "ARo"
+            },
+            {
+              "profileId": 12178101,
+              "name": "\u59dc\u5348\u967d"
+            },
+            {
+              "profileId": 5868582,
+              "name": "oppppppfpppppp"
+            }
+          ]
+        },
+        {
+          "matchId": 509884493,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:38:37.000Z",
+          "dur": 1471,
+          "opponents": [
+            {
+              "profileId": 24623809,
+              "name": "\u541b\u4e34\u5929\u4e0b"
+            },
+            {
+              "profileId": 22273420,
+              "name": "0576gg"
+            },
+            {
+              "profileId": 17963733,
+              "name": "ELO800"
+            },
+            {
+              "profileId": 12178101,
+              "name": "\u59dc\u5348\u967d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1316188,
+              "name": "FATBOY <OBAMA>"
+            },
+            {
+              "profileId": 5806255,
+              "name": "JuaNCaBj"
+            },
+            {
+              "profileId": 1773876,
+              "name": "ARo"
+            }
+          ]
+        },
         {
           "matchId": 508686703,
           "civ": "Saxons",
@@ -19403,5 +19571,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

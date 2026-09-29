@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2074,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1042,
+        "totalGames": 2080,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1074,
         "peakRating": 1202
       },
       "matches": [
+        {
+          "matchId": 509991972,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:56:21.000Z",
+          "dur": 1009,
+          "opponents": [
+            {
+              "profileId": 3220922,
+              "name": "| CZK | - GranAguila"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509925748,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:11:58.000Z",
+          "dur": 2352,
+          "opponents": [
+            {
+              "profileId": 5310392,
+              "name": "nelkhuja"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509898220,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:52:23.000Z",
+          "dur": 1166,
+          "opponents": [
+            {
+              "profileId": 21878069,
+              "name": "NinjaLoco46"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509441860,
+          "civ": "Bohemians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:05:46.000Z",
+          "dur": 1523,
+          "opponents": [
+            {
+              "profileId": 14721569,
+              "name": "abok123"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509393948,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:40:55.000Z",
+          "dur": 2183,
+          "opponents": [
+            {
+              "profileId": 19529459,
+              "name": "magelito"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509159837,
+          "civ": "Wu",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:57:06.000Z",
+          "dur": 2478,
+          "opponents": [
+            {
+              "profileId": 3914915,
+              "name": "maize"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508968295,
           "civ": "Saxons",
@@ -31231,12 +31333,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1717,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1237,
+        "totalGames": 1718,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1254,
         "peakRating": 1351
       },
       "matches": [
+        {
+          "matchId": 509759027,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:04:39.000Z",
+          "dur": 3144,
+          "opponents": [
+            {
+              "profileId": 2892762,
+              "name": "Cola De Mono"
+            },
+            {
+              "profileId": 292541,
+              "name": "Palomo Usuriaga"
+            },
+            {
+              "profileId": 2391692,
+              "name": "Mono"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2187660,
+              "name": "ELBO | Dseko"
+            },
+            {
+              "profileId": 2890623,
+              "name": "ELBO | Fantozzi"
+            }
+          ]
+        },
         {
           "matchId": 508783555,
           "civ": "Saxons",
@@ -70105,5 +70241,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

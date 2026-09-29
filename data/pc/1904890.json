@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 174,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1382,
         "peakRating": 1382
       },
@@ -2813,12 +2813,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4222,
-        "pulledDate": "2026-09-24",
+        "totalGames": 4224,
+        "pulledDate": "2026-09-29",
         "latestRating": 1231,
         "peakRating": 1585
       },
       "matches": [
+        {
+          "matchId": 509369229,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:54:38.000Z",
+          "dur": 1584,
+          "opponents": [
+            {
+              "profileId": 26068320,
+              "name": "onesecimpoopin"
+            },
+            {
+              "profileId": 5132514,
+              "name": "OffensiveMars"
+            },
+            {
+              "profileId": 5173409,
+              "name": "Q_Djarot"
+            },
+            {
+              "profileId": 16972769,
+              "name": "Calum1Ltv"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            },
+            {
+              "profileId": 14167549,
+              "name": "[IYI] FreeRoner"
+            },
+            {
+              "profileId": 23021957,
+              "name": "Mike"
+            }
+          ]
+        },
+        {
+          "matchId": 509358440,
+          "civ": "Varangians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:07:25.000Z",
+          "dur": 2887,
+          "opponents": [
+            {
+              "profileId": 6068664,
+              "name": "Goembal"
+            },
+            {
+              "profileId": 8564160,
+              "name": "PLEASE, PLEASE, PLEASE"
+            },
+            {
+              "profileId": 8993147,
+              "name": "BaniWang"
+            },
+            {
+              "profileId": 24273219,
+              "name": "Gustavsson"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3476223,
+              "name": "ping3026"
+            },
+            {
+              "profileId": 11890096,
+              "name": "\u6551\u4e0d\u4e86\u4f60"
+            },
+            {
+              "profileId": 17687547,
+              "name": "lsh2911"
+            }
+          ]
+        },
         {
           "matchId": 508869155,
           "civ": "Varangians",
@@ -174509,5 +174593,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

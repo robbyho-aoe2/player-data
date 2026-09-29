@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "peakRating": 1036,
         "latestRating": 1036
       },
@@ -28,12 +28,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 83,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1325,
+        "totalGames": 84,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1343,
         "peakRating": 1443
       },
       "matches": [
+        {
+          "matchId": 509793740,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:19:42.000Z",
+          "dur": 1232,
+          "opponents": [
+            {
+              "profileId": 2936424,
+              "name": "ToTi"
+            },
+            {
+              "profileId": 3573512,
+              "name": "LeCoque"
+            },
+            {
+              "profileId": 15420972,
+              "name": "tat0"
+            },
+            {
+              "profileId": 25071266,
+              "name": "No le den a mi mujer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2145836,
+              "name": "Mancaldito"
+            },
+            {
+              "profileId": 470823,
+              "name": "Shaka GNU/Linux"
+            },
+            {
+              "profileId": 4112150,
+              "name": "V1per"
+            }
+          ]
+        },
         {
           "matchId": 506975707,
           "civ": "Persians",
@@ -1657,5 +1699,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

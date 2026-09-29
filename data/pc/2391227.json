@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 656,
-        "pulledDate": "2026-09-25",
+        "totalGames": 660,
+        "pulledDate": "2026-09-29",
         "latestRating": 1269,
         "peakRating": 1343
       },
       "matches": [
+        {
+          "matchId": 509207678,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:39:17.000Z",
+          "dur": 1957,
+          "opponents": [
+            {
+              "profileId": 19555922,
+              "name": "JoniAoE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509201452,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:06:20.000Z",
+          "dur": 1825,
+          "opponents": [
+            {
+              "profileId": 25020024,
+              "name": "Harrier Du Bois"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509196936,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:43:59.000Z",
+          "dur": 1125,
+          "opponents": [
+            {
+              "profileId": 5593165,
+              "name": "gui.sabbag"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509189087,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:07:37.000Z",
+          "dur": 2105,
+          "opponents": [
+            {
+              "profileId": 4455058,
+              "name": "Bidello"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508974732,
           "civ": "Bulgarians",
@@ -10556,7 +10624,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 914,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1367,
         "peakRating": 1405
       },
@@ -36685,5 +36753,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

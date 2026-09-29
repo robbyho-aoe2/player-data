@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "latestRating": 1100,
         "peakRating": 1117
       },
@@ -608,12 +608,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2204,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1090,
+        "totalGames": 2207,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1141,
         "peakRating": 1313
       },
       "matches": [
+        {
+          "matchId": 509940285,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:17:37.000Z",
+          "dur": 1063,
+          "opponents": [
+            {
+              "profileId": 5873945,
+              "name": "Falke"
+            },
+            {
+              "profileId": 4177152,
+              "name": "[B$] kaeffer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4643327,
+              "name": "Ruben"
+            }
+          ]
+        },
+        {
+          "matchId": 509934740,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:52:36.000Z",
+          "dur": 1362,
+          "opponents": [
+            {
+              "profileId": 24670174,
+              "name": "FreshCarp8370"
+            },
+            {
+              "profileId": 2940241,
+              "name": "O.Bender"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4643327,
+              "name": "Ruben"
+            }
+          ]
+        },
+        {
+          "matchId": 509929994,
+          "civ": "Italians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:31:54.000Z",
+          "dur": 1046,
+          "opponents": [
+            {
+              "profileId": 5835981,
+              "name": "Tribales666"
+            },
+            {
+              "profileId": 2763064,
+              "name": "Elohtar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4643327,
+              "name": "Ruben"
+            }
+          ]
+        },
         {
           "matchId": 507122134,
           "civ": "Cumans",
@@ -72266,5 +72344,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

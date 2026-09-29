@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 853,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1370,
+        "totalGames": 854,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1356,
         "peakRating": 1571
       },
       "matches": [
+        {
+          "matchId": 509021050,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T03:39:15.000Z",
+          "dur": 1037,
+          "opponents": [
+            {
+              "profileId": 9363178,
+              "name": "Dreamer"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508790822,
           "civ": "Tatars",
@@ -14531,7 +14548,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 455,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1216,
         "peakRating": 1449
       },
@@ -27808,5 +27825,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

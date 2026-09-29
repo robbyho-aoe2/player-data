@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 507,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1759,
         "peakRating": 1759
       },
@@ -8141,12 +8141,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 992,
-        "pulledDate": "2026-09-24",
+        "totalGames": 995,
+        "pulledDate": "2026-09-29",
         "latestRating": 1635,
         "peakRating": 1718
       },
       "matches": [
+        {
+          "matchId": 509301171,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T08:12:44.000Z",
+          "dur": 118,
+          "opponents": [
+            {
+              "profileId": 5344455,
+              "name": "AiM | Pibe cantina"
+            },
+            {
+              "profileId": 23723953,
+              "name": "CTM | HerectorAlejandroBotas"
+            },
+            {
+              "profileId": 25227060,
+              "name": "AiM | CaballeroTemplario"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2496721,
+              "name": "Menerell"
+            },
+            {
+              "profileId": 5043635,
+              "name": "CQ.Manudq85"
+            }
+          ]
+        },
+        {
+          "matchId": 509163497,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:14:42.000Z",
+          "dur": 1889,
+          "opponents": [
+            {
+              "profileId": 4159796,
+              "name": "Tonymontana"
+            },
+            {
+              "profileId": 6751830,
+              "name": "ccereal"
+            },
+            {
+              "profileId": 9989453,
+              "name": "Frorok"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5043635,
+              "name": "CQ.Manudq85"
+            },
+            {
+              "profileId": 2626999,
+              "name": "CQ.MaSSa_V"
+            }
+          ]
+        },
+        {
+          "matchId": 509154725,
+          "civ": "Japanese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:35:09.000Z",
+          "dur": 2012,
+          "opponents": [
+            {
+              "profileId": 4159796,
+              "name": "Tonymontana"
+            },
+            {
+              "profileId": 6751830,
+              "name": "ccereal"
+            },
+            {
+              "profileId": 9989453,
+              "name": "Frorok"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2626999,
+              "name": "CQ.MaSSa_V"
+            },
+            {
+              "profileId": 5043635,
+              "name": "CQ.Manudq85"
+            }
+          ]
+        },
         {
           "matchId": 508960455,
           "civ": "Sicilians",
@@ -44360,5 +44462,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

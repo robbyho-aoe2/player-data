@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 581,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1604,
+        "totalGames": 584,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1646,
         "peakRating": 1682
       },
       "matches": [
+        {
+          "matchId": 509000257,
+          "civ": "Sicilians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T01:33:57.000Z",
+          "dur": 1245,
+          "opponents": [
+            {
+              "profileId": 2917503,
+              "name": "PNAL | TommyA"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508995795,
+          "civ": "Vikings",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T01:07:56.000Z",
+          "dur": 907,
+          "opponents": [
+            {
+              "profileId": 471085,
+              "name": "Inception85"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 508992373,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T00:46:21.000Z",
+          "dur": 868,
+          "opponents": [
+            {
+              "profileId": 5748259,
+              "name": "alfaxnz"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506291354,
           "civ": "Dravidians",
@@ -9336,7 +9387,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 271,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-29",
         "latestRating": 1462,
         "peakRating": 1490
       },
@@ -16217,5 +16268,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

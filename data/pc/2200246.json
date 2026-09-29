@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 578,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1216,
+        "totalGames": 580,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1215,
         "peakRating": 1254
       },
       "matches": [
+        {
+          "matchId": 509777434,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:46:55.000Z",
+          "dur": 1306,
+          "opponents": [
+            {
+              "profileId": 23803072,
+              "name": "Pikachu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509273492,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:55:18.000Z",
+          "dur": 1813,
+          "opponents": [
+            {
+              "profileId": 2711502,
+              "name": "BMW_2GC"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506942932,
           "civ": "Vietnamese",
@@ -9288,12 +9322,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 811,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1217,
+        "totalGames": 812,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1231,
         "peakRating": 1254
       },
       "matches": [
+        {
+          "matchId": 509781778,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:11:30.000Z",
+          "dur": 1473,
+          "opponents": [
+            {
+              "profileId": 25128412,
+              "name": "ap2wang"
+            },
+            {
+              "profileId": 310150,
+              "name": "DoomedOyster"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2185431,
+              "name": "ChicoTerry"
+            }
+          ]
+        },
         {
           "matchId": 506556078,
           "civ": "Hindustanis",
@@ -34679,5 +34739,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 385,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1488,
         "peakRating": 1516
       },
@@ -6189,12 +6189,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 919,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1104,
+        "totalGames": 920,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1120,
         "peakRating": 1505
       },
       "matches": [
+        {
+          "matchId": 509661993,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:20:47.000Z",
+          "dur": 1669,
+          "opponents": [
+            {
+              "profileId": 18251332,
+              "name": "Fero_TTV"
+            },
+            {
+              "profileId": 19516959,
+              "name": "Nikki"
+            },
+            {
+              "profileId": 17942667,
+              "name": "MajesticNewt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4830177,
+              "name": "M0nero"
+            },
+            {
+              "profileId": 718791,
+              "name": "TheKeeG_"
+            }
+          ]
+        },
         {
           "matchId": 508005984,
           "civ": "Mongols",
@@ -38750,5 +38784,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

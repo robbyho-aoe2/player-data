@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 142,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "latestRating": 1739,
         "peakRating": 1739
       },
@@ -2303,12 +2303,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 930,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1646,
+        "totalGames": 931,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1662,
         "peakRating": 1675
       },
       "matches": [
+        {
+          "matchId": 509753417,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:34:20.000Z",
+          "dur": 1228,
+          "opponents": [
+            {
+              "profileId": 2085359,
+              "name": "VL Formolin"
+            },
+            {
+              "profileId": 2825261,
+              "name": "VL Tou"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3244108,
+              "name": "Dabighead"
+            }
+          ]
+        },
         {
           "matchId": 507257033,
           "civ": "Koreans",
@@ -31499,5 +31525,6 @@
   },
   "country": "il",
   "countryIcon": "\ud83c\uddee\ud83c\uddf1",
-  "countryName": "Israel"
+  "countryName": "Israel",
+  "platform": "Steam"
 }

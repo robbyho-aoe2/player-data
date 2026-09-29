@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 299,
-        "pulledDate": "2026-09-21",
-        "latestRating": 738,
+        "totalGames": 301,
+        "pulledDate": "2026-09-29",
+        "latestRating": 707,
         "peakRating": 860
       },
       "matches": [
+        {
+          "matchId": 509486672,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:41:06.000Z",
+          "dur": 1676,
+          "opponents": [
+            {
+              "profileId": 12325358,
+              "name": "honza1vesely2"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509483060,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:19:20.000Z",
+          "dur": 1145,
+          "opponents": [
+            {
+              "profileId": 25333020,
+              "name": "superhillbilly"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508059148,
           "civ": "Berbers",
@@ -4836,12 +4870,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 121,
-        "pulledDate": "2026-09-21",
-        "latestRating": 747,
+        "totalGames": 122,
+        "pulledDate": "2026-09-29",
+        "latestRating": 731,
         "peakRating": 844
       },
       "matches": [
+        {
+          "matchId": 509472460,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:22:47.000Z",
+          "dur": 2314,
+          "opponents": [
+            {
+              "profileId": 16481173,
+              "name": "fizyooGO"
+            },
+            {
+              "profileId": 23190760,
+              "name": "Usman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4756607,
+              "name": "netboks"
+            }
+          ]
+        },
         {
           "matchId": 507898253,
           "civ": "Berbers",
@@ -8008,5 +8068,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Xbox"
 }

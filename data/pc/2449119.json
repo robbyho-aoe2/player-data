@@ -6,32 +6,134 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 90,
-        "pulledDate": "2026-09-25",
-        "latestRating": 790,
+        "totalGames": 93,
+        "pulledDate": "2026-09-29",
+        "latestRating": 782,
         "peakRating": 884
       },
       "matches": [
+        {
+          "matchId": 509208038,
+          "civ": "Vietnamese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:41:57.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 2050506,
+              "name": "[Pepe Saint] Nachorga"
+            },
+            {
+              "profileId": 23801140,
+              "name": "Montaraz"
+            },
+            {
+              "profileId": 22833476,
+              "name": "Machete"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24660148,
+              "name": "nicovc00"
+            },
+            {
+              "profileId": 3696063,
+              "name": "PiscoCAPEL777"
+            }
+          ]
+        },
+        {
+          "matchId": 509202531,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T22:11:59.000Z",
+          "dur": 1540,
+          "opponents": [
+            {
+              "profileId": 6885047,
+              "name": "Vlad"
+            },
+            {
+              "profileId": 5698392,
+              "name": "Farraway"
+            },
+            {
+              "profileId": 1008780,
+              "name": "Keyser_Soze"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24660148,
+              "name": "nicovc00"
+            },
+            {
+              "profileId": 3696063,
+              "name": "PiscoCAPEL777"
+            }
+          ]
+        },
+        {
+          "matchId": 509199108,
+          "civ": "Vietnamese",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T21:54:55.000Z",
+          "dur": 739,
+          "opponents": [
+            {
+              "profileId": 2422513,
+              "name": "Papa_Johnny"
+            },
+            {
+              "profileId": 2422049,
+              "name": "aclementcl"
+            },
+            {
+              "profileId": 6024214,
+              "name": "MSKB09"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3696063,
+              "name": "PiscoCAPEL777"
+            },
+            {
+              "profileId": 24660148,
+              "name": "nicovc00"
+            }
+          ]
+        },
         {
           "matchId": 508997968,
           "civ": "Vietnamese",
@@ -3120,5 +3222,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

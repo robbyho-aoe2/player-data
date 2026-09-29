@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2002,
-        "pulledDate": "2026-09-25",
+        "totalGames": 2004,
+        "pulledDate": "2026-09-29",
         "latestRating": 1266,
         "peakRating": 1367
       },
       "matches": [
+        {
+          "matchId": 509052902,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T08:10:31.000Z",
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 8643759,
+              "name": "Vuhieu84"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509049490,
+          "civ": "Saxons",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T07:39:50.000Z",
+          "dur": 1659,
+          "opponents": [
+            {
+              "profileId": 7244515,
+              "name": "Kaiser"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508710736,
           "civ": "Danes",
@@ -34064,7 +34098,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 568,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1191,
         "peakRating": 1387
       },
@@ -48861,5 +48895,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

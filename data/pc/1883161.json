@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 43,
-        "pulledDate": "2026-09-20",
-        "latestRating": 822,
+        "totalGames": 44,
+        "pulledDate": "2026-09-29",
+        "latestRating": 834,
         "peakRating": 915
       },
       "matches": [
+        {
+          "matchId": 509024824,
+          "civ": "Japanese",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T04:07:00.000Z",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 24755140,
+              "name": "\"Nina\""
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507435246,
           "civ": "Persians",
@@ -761,7 +778,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 103,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-09-29",
         "latestRating": 1099,
         "peakRating": 1188
       },
@@ -4954,5 +4971,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

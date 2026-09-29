@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 580,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1852,
         "peakRating": 1993
       },
@@ -9304,12 +9304,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 1969,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1683,
+        "totalGames": 1970,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1686,
         "peakRating": 1800
       },
       "matches": [
+        {
+          "matchId": 509801245,
+          "civ": "Italians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:06:10.000Z",
+          "dur": 1330,
+          "opponents": [
+            {
+              "profileId": 13393832,
+              "name": "iUx2"
+            },
+            {
+              "profileId": 12579844,
+              "name": "Darkyoa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12493963,
+              "name": "Darth masala"
+            }
+          ]
+        },
         {
           "matchId": 509467767,
           "civ": "Slavs",
@@ -67995,7 +68021,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 220,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1272,
         "peakRating": 1325
       },
@@ -71533,12 +71559,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 527,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1200,
+        "totalGames": 529,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1202,
         "peakRating": 1361
       },
       "matches": [
+        {
+          "matchId": 509795323,
+          "civ": "Poles",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:28:46.000Z",
+          "dur": 1813,
+          "opponents": [
+            {
+              "profileId": 6127930,
+              "name": "MidlifeComet590"
+            },
+            {
+              "profileId": 12125263,
+              "name": "[Zelda] prosao24"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12493963,
+              "name": "Darth masala"
+            }
+          ]
+        },
+        {
+          "matchId": 509789074,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:53:38.000Z",
+          "dur": 1791,
+          "opponents": [
+            {
+              "profileId": 2925414,
+              "name": "Earl J Turkey"
+            },
+            {
+              "profileId": 3974891,
+              "name": "The Potato King"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12493963,
+              "name": "Darth masala"
+            }
+          ]
+        },
         {
           "matchId": 509029395,
           "civ": "Khmer",
@@ -88979,5 +89057,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

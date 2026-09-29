@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1336,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1596,
         "peakRating": 1740
       },
@@ -21441,12 +21441,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1301,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1364,
+        "totalGames": 1303,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1391,
         "peakRating": 1596
       },
       "matches": [
+        {
+          "matchId": 509018790,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T03:24:19.000Z",
+          "dur": 946,
+          "opponents": [
+            {
+              "profileId": 25484260,
+              "name": "xrw"
+            },
+            {
+              "profileId": 8644541,
+              "name": "LUPIN IV"
+            },
+            {
+              "profileId": 2970476,
+              "name": "1097962590"
+            },
+            {
+              "profileId": 2333226,
+              "name": "\u7ea2\u9ed1EX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 322461,
+              "name": "peterzjx"
+            },
+            {
+              "profileId": 17982370,
+              "name": "DoctorDubbz"
+            },
+            {
+              "profileId": 865428,
+              "name": "Wet Psyduck"
+            }
+          ]
+        },
+        {
+          "matchId": 509013269,
+          "civ": "Koreans",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T02:50:39.000Z",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 996662,
+              "name": "Mr. Snuss"
+            },
+            {
+              "profileId": 2539692,
+              "name": "Peanut"
+            },
+            {
+              "profileId": 2310664,
+              "name": "Dr T"
+            },
+            {
+              "profileId": 2122729,
+              "name": "Komibeorn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3147308,
+              "name": "Vedette87"
+            },
+            {
+              "profileId": 865428,
+              "name": "Wet Psyduck"
+            },
+            {
+              "profileId": 2190369,
+              "name": "Keif"
+            }
+          ]
+        },
         {
           "matchId": 494215644,
           "civ": "Lithuanians",
@@ -73511,5 +73595,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

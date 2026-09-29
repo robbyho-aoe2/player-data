@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1769,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1238,
+        "totalGames": 1771,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1266,
         "peakRating": 1281
       },
       "matches": [
+        {
+          "matchId": 509806982,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:47:00.000Z",
+          "dur": 1607,
+          "opponents": [
+            {
+              "profileId": 4937087,
+              "name": "Avhari"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509803222,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:19:31.000Z",
+          "dur": 1493,
+          "opponents": [
+            {
+              "profileId": 518909,
+              "name": "jediski16"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508585588,
           "civ": "Vikings",
@@ -28361,12 +28395,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2620,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1145,
+        "totalGames": 2624,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1181,
         "peakRating": 1267
       },
       "matches": [
+        {
+          "matchId": 509801288,
+          "civ": "Malay",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:06:00.000Z",
+          "dur": 705,
+          "opponents": [
+            {
+              "profileId": 1910773,
+              "name": "BigPharmA"
+            },
+            {
+              "profileId": 8588401,
+              "name": "Principipe6724"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3337590,
+              "name": "SparMankus"
+            }
+          ]
+        },
+        {
+          "matchId": 509792796,
+          "civ": "Berbers",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:14:31.000Z",
+          "dur": 1877,
+          "opponents": [
+            {
+              "profileId": 5796413,
+              "name": "Ux'RaulitoMD"
+            },
+            {
+              "profileId": 6361716,
+              "name": "Ux'Ra\u00falME"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3337590,
+              "name": "SparMankus"
+            }
+          ]
+        },
+        {
+          "matchId": 509791856,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:08:50.000Z",
+          "dur": 35,
+          "opponents": [
+            {
+              "profileId": 1412573,
+              "name": "| CZK | CONANJD"
+            },
+            {
+              "profileId": 5995218,
+              "name": "Riper-Kun"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3337590,
+              "name": "SparMankus"
+            }
+          ]
+        },
+        {
+          "matchId": 509787101,
+          "civ": "Ethiopians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:42:09.000Z",
+          "dur": 1274,
+          "opponents": [
+            {
+              "profileId": 318936,
+              "name": "ray_quazaa"
+            },
+            {
+              "profileId": 1400944,
+              "name": "mazerr88"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3337590,
+              "name": "SparMankus"
+            }
+          ]
+        },
         {
           "matchId": 508361598,
           "civ": "Ethiopians",
@@ -110466,5 +110604,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

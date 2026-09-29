@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2207,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1161,
+        "totalGames": 2213,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1127,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 509860999,
+          "civ": "Varangians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:19:39.000Z",
+          "dur": 2482,
+          "opponents": [
+            {
+              "profileId": 19354417,
+              "name": "wolfrun10"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509857854,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:55:56.000Z",
+          "dur": 1178,
+          "opponents": [
+            {
+              "profileId": 11476945,
+              "name": "Pumpk1nL0rd"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509853429,
+          "civ": "Saxons",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:19:04.000Z",
+          "dur": 1467,
+          "opponents": [
+            {
+              "profileId": 514825,
+              "name": "BEdby"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509852059,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:07:31.000Z",
+          "dur": 562,
+          "opponents": [
+            {
+              "profileId": 7745425,
+              "name": "Mu\u00f1on Derecho"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509714200,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:41:55.000Z",
+          "dur": 1369,
+          "opponents": [
+            {
+              "profileId": 3082139,
+              "name": "EDDY-IV"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509710935,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:30:05.000Z",
+          "dur": 661,
+          "opponents": [
+            {
+              "profileId": 1865392,
+              "name": "Age of Saracens"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508910624,
           "civ": "Franks",
@@ -35398,7 +35500,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 199,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1059,
         "peakRating": 1059
       },
@@ -41626,5 +41728,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

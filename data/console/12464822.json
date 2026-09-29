@@ -5,12 +5,29 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 34,
-        "pulledDate": "2026-09-26",
-        "latestRating": 791,
+        "totalGames": 35,
+        "pulledDate": "2026-09-29",
+        "latestRating": 783,
         "peakRating": 839
       },
       "matches": [
+        {
+          "matchId": 509721359,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:08:27.000Z",
+          "dur": 2797,
+          "opponents": [
+            {
+              "profileId": 24433356,
+              "name": "SoupDragon9297"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508952350,
           "civ": "Cumans",
@@ -573,12 +590,64 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 59,
-        "pulledDate": "2026-09-26",
-        "latestRating": 775,
+        "totalGames": 61,
+        "pulledDate": "2026-09-29",
+        "latestRating": 768,
         "peakRating": 844
       },
       "matches": [
+        {
+          "matchId": 509595609,
+          "civ": "Cumans",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:17:22.000Z",
+          "dur": 766,
+          "opponents": [
+            {
+              "profileId": 12795292,
+              "name": "Calderwood91"
+            },
+            {
+              "profileId": 14642655,
+              "name": "Deli Yozgatli"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12554428,
+              "name": "CADMANDINHO"
+            }
+          ]
+        },
+        {
+          "matchId": 509591632,
+          "civ": "Franks",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:51:46.000Z",
+          "dur": 918,
+          "opponents": [
+            {
+              "profileId": 14642655,
+              "name": "Deli Yozgatli"
+            },
+            {
+              "profileId": 12722808,
+              "name": "ShyHarbor228469"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12554428,
+              "name": "CADMANDINHO"
+            }
+          ]
+        },
         {
           "matchId": 509463054,
           "civ": "Franks",
@@ -2114,7 +2183,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -2202,7 +2271,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 564,
         "peakRating": 612
       },
@@ -2584,5 +2653,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Xbox"
 }

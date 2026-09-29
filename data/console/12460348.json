@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 62,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1627,
         "peakRating": 1645
       },
@@ -1007,12 +1007,54 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 2550,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1531,
+        "totalGames": 2551,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1510,
         "peakRating": 1619
       },
       "matches": [
+        {
+          "matchId": 509684679,
+          "civ": "Khmer",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:53:45.000Z",
+          "dur": 2021,
+          "opponents": [
+            {
+              "profileId": 23502052,
+              "name": "YoWhatsUp468"
+            },
+            {
+              "profileId": 22742489,
+              "name": "xxCamper_4"
+            },
+            {
+              "profileId": 22715141,
+              "name": "xxCamper_2"
+            },
+            {
+              "profileId": 14448263,
+              "name": "ItsALEX10MVP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12904223,
+              "name": "Zoopu"
+            },
+            {
+              "profileId": 15717181,
+              "name": "KFC DIRECTOR"
+            },
+            {
+              "profileId": 15087764,
+              "name": "THEDEEPSE4 KING"
+            }
+          ]
+        },
         {
           "matchId": 509152080,
           "civ": "Sicilians",
@@ -86918,18 +86960,60 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 813,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1202,
+        "totalGames": 814,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1216,
         "peakRating": 1334
       },
       "matches": [
+        {
+          "matchId": 509694955,
+          "civ": "Cumans",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:32:34.000Z",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 1375322,
+              "name": "Flash Cannon"
+            },
+            {
+              "profileId": 6640988,
+              "name": "victorod123"
+            },
+            {
+              "profileId": 3112193,
+              "name": "JPR2405"
+            },
+            {
+              "profileId": 2202008,
+              "name": "Jakwieczo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15717181,
+              "name": "KFC DIRECTOR"
+            },
+            {
+              "profileId": 15087764,
+              "name": "THEDEEPSE4 KING"
+            },
+            {
+              "profileId": 12904223,
+              "name": "Zoopu"
+            }
+          ]
+        },
         {
           "matchId": 509136832,
           "civ": "Vietnamese",
@@ -120217,5 +120301,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

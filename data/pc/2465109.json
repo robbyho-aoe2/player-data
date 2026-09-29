@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 575,
-        "pulledDate": "2026-09-24",
-        "latestRating": 765,
+        "totalGames": 577,
+        "pulledDate": "2026-09-29",
+        "latestRating": 736,
         "peakRating": 924
       },
       "matches": [
+        {
+          "matchId": 509895484,
+          "civ": "Bohemians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:37:45.000Z",
+          "dur": 2495,
+          "opponents": [
+            {
+              "profileId": 25680111,
+              "name": "zipfiklatscher"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509830376,
+          "civ": "Magyars",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:29:20.000Z",
+          "dur": 2011,
+          "opponents": [
+            {
+              "profileId": 24451274,
+              "name": "Manuel95"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502439129,
           "civ": "Aztecs",
@@ -9805,7 +9839,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 364,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1033,
         "peakRating": 1087
       },
@@ -22383,5 +22417,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 54,
-        "pulledDate": "2026-09-24",
-        "latestRating": 708,
+        "totalGames": 59,
+        "pulledDate": "2026-09-29",
+        "latestRating": 676,
         "peakRating": 845
       },
       "matches": [
+        {
+          "matchId": 509528501,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:40:20.000Z",
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 23549531,
+              "name": "\u674e\u4e16\u6c11"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509523250,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:09:53.000Z",
+          "dur": 1688,
+          "opponents": [
+            {
+              "profileId": 22213254,
+              "name": "nico89sfx"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509515405,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:28:27.000Z",
+          "dur": 28,
+          "opponents": [
+            {
+              "profileId": 22456410,
+              "name": "d.rogan12"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509039796,
+          "civ": "Goths",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T06:15:29.000Z",
+          "dur": 3863,
+          "opponents": [
+            {
+              "profileId": 16952840,
+              "name": "Tejedo7"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509037066,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T05:50:33.000Z",
+          "dur": 1346,
+          "opponents": [
+            {
+              "profileId": 23665268,
+              "name": "DoctorKpullo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508833724,
           "civ": "Goths",
@@ -844,7 +929,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1000
       },
       "matches": [
@@ -872,5 +957,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

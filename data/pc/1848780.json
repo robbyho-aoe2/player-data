@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 162,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1156,
         "peakRating": 1248
       },
@@ -2622,12 +2622,164 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1125,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1193,
+        "totalGames": 1129,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1191,
         "peakRating": 1347
       },
       "matches": [
+        {
+          "matchId": 509417654,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:25:42.000Z",
+          "dur": 2046,
+          "opponents": [
+            {
+              "profileId": 357829,
+              "name": "Vilkian"
+            },
+            {
+              "profileId": 20104020,
+              "name": "Hakka"
+            },
+            {
+              "profileId": 2916222,
+              "name": "Wagnifico"
+            },
+            {
+              "profileId": 8591875,
+              "name": "\u041c\u043e\u0440\u0434\u043e\u0447\u043a\u0430 \u0432 \u043a\u0435\u0444\u0438\u0440\u0435"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6218077,
+              "name": "CivitasDei"
+            },
+            {
+              "profileId": 1835252,
+              "name": "Kaiser"
+            },
+            {
+              "profileId": 1956218,
+              "name": "PcklRck"
+            }
+          ]
+        },
+        {
+          "matchId": 509226840,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:34:54.000Z",
+          "dur": 1109,
+          "opponents": [
+            {
+              "profileId": 470655,
+              "name": "PTAR2 | H3rnux"
+            },
+            {
+              "profileId": 318753,
+              "name": "DS_SebaTero"
+            },
+            {
+              "profileId": 255851,
+              "name": "Alekhine"
+            },
+            {
+              "profileId": 19680740,
+              "name": "Artax"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2999591,
+              "name": "makeinu"
+            },
+            {
+              "profileId": 4472561,
+              "name": "WatzTheDeal"
+            },
+            {
+              "profileId": 3313403,
+              "name": "LazyJames"
+            }
+          ]
+        },
+        {
+          "matchId": 509157500,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:47:37.000Z",
+          "dur": 1599,
+          "opponents": [
+            {
+              "profileId": 8514474,
+              "name": "sergio_S10"
+            },
+            {
+              "profileId": 614809,
+              "name": "Hawx"
+            },
+            {
+              "profileId": 10139459,
+              "name": "\u5c0f\u660e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4632165,
+              "name": "Naco y Est\u00fapido"
+            },
+            {
+              "profileId": 16627796,
+              "name": "Vladimir \"Vlad\" Lem"
+            }
+          ]
+        },
+        {
+          "matchId": 509150559,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T18:16:06.000Z",
+          "dur": 950,
+          "opponents": [
+            {
+              "profileId": 2784939,
+              "name": "Pocarus"
+            },
+            {
+              "profileId": 26103124,
+              "name": "Degenereat Potato"
+            },
+            {
+              "profileId": 1507704,
+              "name": "Undead"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10736818,
+              "name": "vyshi77"
+            },
+            {
+              "profileId": 147895,
+              "name": "JuLi4n00"
+            }
+          ]
+        },
         {
           "matchId": 508679220,
           "civ": "Varangians",
@@ -44518,5 +44670,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

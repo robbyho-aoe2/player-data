@@ -6,18 +6,96 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
-        "totalGames": 558,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1138,
+        "totalGames": 561,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1152,
         "peakRating": 1251
       },
       "matches": [
+        {
+          "matchId": 509773736,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:27:30.000Z",
+          "dur": 2427,
+          "opponents": [
+            {
+              "profileId": 12613619,
+              "name": "itsmillertimez"
+            },
+            {
+              "profileId": 13987004,
+              "name": "TxPipeliner69"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17919088,
+              "name": "Lilmellows"
+            }
+          ]
+        },
+        {
+          "matchId": 509763641,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:31:27.000Z",
+          "dur": 1713,
+          "opponents": [
+            {
+              "profileId": 19434629,
+              "name": "Drommel9505"
+            },
+            {
+              "profileId": 13030088,
+              "name": "Fedear08"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17919088,
+              "name": "Lilmellows"
+            }
+          ]
+        },
+        {
+          "matchId": 509750563,
+          "civ": "Varangians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:19:08.000Z",
+          "dur": 4058,
+          "opponents": [
+            {
+              "profileId": 24981186,
+              "name": "BFFRrrro"
+            },
+            {
+              "profileId": 13003660,
+              "name": "Hawsey123"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17919088,
+              "name": "Lilmellows"
+            }
+          ]
+        },
         {
           "matchId": 505443643,
           "civ": "Huns",
@@ -15275,7 +15353,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-29",
         "latestRating": 956
       },
       "matches": [
@@ -15316,7 +15394,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-29",
         "latestRating": 880
       },
       "matches": [
@@ -15383,5 +15461,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 361,
-        "pulledDate": "2026-09-15",
+        "totalGames": 363,
+        "pulledDate": "2026-09-29",
         "latestRating": 957,
         "peakRating": 1134
       },
       "matches": [
+        {
+          "matchId": 509888777,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:01:34.000Z",
+          "dur": 1544,
+          "opponents": [
+            {
+              "profileId": 4848070,
+              "name": "Karlytoos928448"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509120541,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:49:10.000Z",
+          "dur": 727,
+          "opponents": [
+            {
+              "profileId": 2341500,
+              "name": "iroxindol"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502204870,
           "civ": "Maya",
@@ -6167,7 +6201,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 316,
-        "pulledDate": "2026-09-15",
+        "pulledDate": "2026-09-29",
         "latestRating": 1045,
         "peakRating": 1104
       },
@@ -15468,5 +15502,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 849,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1268,
+        "totalGames": 855,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1299,
         "peakRating": 1419
       },
       "matches": [
+        {
+          "matchId": 509994897,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:15:18.000Z",
+          "dur": 891,
+          "opponents": [
+            {
+              "profileId": 9884741,
+              "name": "_Avicii_32"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509990360,
+          "civ": "Khmer",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:45:26.000Z",
+          "dur": 1739,
+          "opponents": [
+            {
+              "profileId": 4453288,
+              "name": "SMINEM"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509785854,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:35:12.000Z",
+          "dur": 1293,
+          "opponents": [
+            {
+              "profileId": 22783732,
+              "name": "PoeBoy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509781476,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:09:44.000Z",
+          "dur": 1446,
+          "opponents": [
+            {
+              "profileId": 4909396,
+              "name": "[aM] Hera"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509777304,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:46:43.000Z",
+          "dur": 1201,
+          "opponents": [
+            {
+              "profileId": 8965444,
+              "name": "Droga, eh o sl0ttzera"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509226904,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:35:15.000Z",
+          "dur": 1638,
+          "opponents": [
+            {
+              "profileId": 21818999,
+              "name": "Dren"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508763268,
           "civ": "Mongols",
@@ -13678,7 +13780,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1006
       },
       "matches": [
@@ -13909,5 +14011,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

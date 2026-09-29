@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 682,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1009,
         "peakRating": 1064
       },
@@ -10941,12 +10941,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 905,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1179,
+        "totalGames": 909,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1203,
         "peakRating": 1351
       },
       "matches": [
+        {
+          "matchId": 509867734,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:04:53.000Z",
+          "dur": 1254,
+          "opponents": [
+            {
+              "profileId": 18251670,
+              "name": "Schlenkerla23"
+            },
+            {
+              "profileId": 2867612,
+              "name": "AdventureKlaus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 703274,
+              "name": "fridgeroo"
+            }
+          ]
+        },
+        {
+          "matchId": 509607675,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:27:21.000Z",
+          "dur": 1659,
+          "opponents": [
+            {
+              "profileId": 10492055,
+              "name": "\u5c06\u604b\u60c5\u6298\u6210\u56de\u5fc6"
+            },
+            {
+              "profileId": 10604354,
+              "name": "Katovincere"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 703274,
+              "name": "fridgeroo"
+            }
+          ]
+        },
+        {
+          "matchId": 509085667,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T12:46:35.000Z",
+          "dur": 3578,
+          "opponents": [
+            {
+              "profileId": 23823036,
+              "name": "ToKhin"
+            },
+            {
+              "profileId": 23822626,
+              "name": "thetoaninfo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 703274,
+              "name": "fridgeroo"
+            }
+          ]
+        },
+        {
+          "matchId": 509080964,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T12:14:37.000Z",
+          "dur": 1662,
+          "opponents": [
+            {
+              "profileId": 18941759,
+              "name": "\u795e\u91c7\u98de\u626c"
+            },
+            {
+              "profileId": 24990259,
+              "name": "LSL"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 703274,
+              "name": "fridgeroo"
+            }
+          ]
+        },
         {
           "matchId": 508629202,
           "civ": "Varangians",
@@ -33563,5 +33667,6 @@
   },
   "country": "za",
   "countryIcon": "\ud83c\uddff\ud83c\udde6",
-  "countryName": "South Africa"
+  "countryName": "South Africa",
+  "platform": "Steam"
 }

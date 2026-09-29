@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 161,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1065,
+        "totalGames": 166,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1115,
         "peakRating": 1189
       },
       "matches": [
+        {
+          "matchId": 509540262,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:52:42.000Z",
+          "dur": 1957,
+          "opponents": [
+            {
+              "profileId": 10443120,
+              "name": "\u5927\u519c\u573a\u4e3b"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509537897,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:36:44.000Z",
+          "dur": 838,
+          "opponents": [
+            {
+              "profileId": 2188342,
+              "name": "TooSwift4_U"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509532467,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:03:46.000Z",
+          "dur": 1823,
+          "opponents": [
+            {
+              "profileId": 23723601,
+              "name": "Pancho-Hot"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509527560,
+          "civ": "Koreans",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:34:21.000Z",
+          "dur": 1573,
+          "opponents": [
+            {
+              "profileId": 968925,
+              "name": "villagers-problems"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509522100,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:03:58.000Z",
+          "dur": 1637,
+          "opponents": [
+            {
+              "profileId": 1605237,
+              "name": "Kael"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507668054,
           "civ": "Vikings",
@@ -2767,7 +2852,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1062,
         "peakRating": 1062
       },
@@ -3504,5 +3589,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

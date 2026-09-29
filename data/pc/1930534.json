@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 167,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1247,
         "peakRating": 1291
       },
@@ -2725,12 +2725,192 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1808,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1231,
+        "totalGames": 1814,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1251,
         "peakRating": 1270
       },
       "matches": [
+        {
+          "matchId": 509944447,
+          "civ": "Britons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:36:01.000Z",
+          "dur": 2851,
+          "opponents": [
+            {
+              "profileId": 11440854,
+              "name": "Nische8154"
+            },
+            {
+              "profileId": 6435666,
+              "name": "Cacko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1968128,
+              "name": "Kingmasi"
+            }
+          ]
+        },
+        {
+          "matchId": 509934292,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:50:25.000Z",
+          "dur": 2598,
+          "opponents": [
+            {
+              "profileId": 3376494,
+              "name": "Nico"
+            },
+            {
+              "profileId": 3373007,
+              "name": "Wombat UA>Ptn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1968128,
+              "name": "Kingmasi"
+            }
+          ]
+        },
+        {
+          "matchId": 509927763,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:21:03.000Z",
+          "dur": 1607,
+          "opponents": [
+            {
+              "profileId": 8245310,
+              "name": "KRG_Redfish"
+            },
+            {
+              "profileId": 3918149,
+              "name": "ponken"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1968128,
+              "name": "Kingmasi"
+            }
+          ]
+        },
+        {
+          "matchId": 509705055,
+          "civ": "Britons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:08:47.000Z",
+          "dur": 2566,
+          "opponents": [
+            {
+              "profileId": 3036311,
+              "name": "Remington"
+            },
+            {
+              "profileId": 944855,
+              "name": "Myrzal"
+            },
+            {
+              "profileId": 1334868,
+              "name": "durthu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1820113,
+              "name": "kingthom"
+            },
+            {
+              "profileId": 1968128,
+              "name": "Kingmasi"
+            }
+          ]
+        },
+        {
+          "matchId": 509696212,
+          "civ": "Britons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:37:00.000Z",
+          "dur": 1624,
+          "opponents": [
+            {
+              "profileId": 1176194,
+              "name": "Moriarty"
+            },
+            {
+              "profileId": 2136489,
+              "name": "xcleenerx"
+            },
+            {
+              "profileId": 16977413,
+              "name": "derdmsi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1968128,
+              "name": "Kingmasi"
+            },
+            {
+              "profileId": 1820113,
+              "name": "kingthom"
+            }
+          ]
+        },
+        {
+          "matchId": 509689031,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:10:58.000Z",
+          "dur": 1261,
+          "opponents": [
+            {
+              "profileId": 8675129,
+              "name": "AdamSvp21"
+            },
+            {
+              "profileId": 4223798,
+              "name": "Lasse07027776"
+            },
+            {
+              "profileId": 4193258,
+              "name": "Jersey_TitanX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1820113,
+              "name": "kingthom"
+            },
+            {
+              "profileId": 1968128,
+              "name": "Kingmasi"
+            }
+          ]
+        },
         {
           "matchId": 508934460,
           "civ": "Britons",
@@ -53540,5 +53720,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

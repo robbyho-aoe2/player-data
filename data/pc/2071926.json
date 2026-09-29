@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 671,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-29",
         "latestRating": 1874,
         "peakRating": 1978
       },
@@ -10765,12 +10765,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4545,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1600,
+        "totalGames": 4548,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1645,
         "peakRating": 1802
       },
       "matches": [
+        {
+          "matchId": 509827969,
+          "civ": "Jurchens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:04:05.000Z",
+          "dur": 1334,
+          "opponents": [
+            {
+              "profileId": 23336030,
+              "name": "Echidna"
+            },
+            {
+              "profileId": 2850920,
+              "name": "Ux'Chimtzin"
+            },
+            {
+              "profileId": 15139971,
+              "name": "hl.exe"
+            },
+            {
+              "profileId": 21627109,
+              "name": "Uzzi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1370217,
+              "name": "NeeNee"
+            },
+            {
+              "profileId": 2734385,
+              "name": "happy gay"
+            },
+            {
+              "profileId": 3420318,
+              "name": "S\u00f3i"
+            }
+          ]
+        },
+        {
+          "matchId": 509290123,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:51:51.000Z",
+          "dur": 1349,
+          "opponents": [
+            {
+              "profileId": 2603352,
+              "name": "thaebS"
+            },
+            {
+              "profileId": 2646721,
+              "name": "vectorJ"
+            },
+            {
+              "profileId": 3950195,
+              "name": "\u536b\u661f\u70b9\u706f"
+            },
+            {
+              "profileId": 15019418,
+              "name": "PNAL | ale_petro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 668463,
+              "name": "\u5c41\u5c41\u4eba"
+            },
+            {
+              "profileId": 832008,
+              "name": "survivorsteven"
+            },
+            {
+              "profileId": 1201312,
+              "name": "PAI"
+            }
+          ]
+        },
+        {
+          "matchId": 509284630,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:16:02.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 5044367,
+              "name": "MrWrong"
+            },
+            {
+              "profileId": 209754,
+              "name": "Fenrir"
+            },
+            {
+              "profileId": 2109132,
+              "name": "Lathkore"
+            },
+            {
+              "profileId": 2163129,
+              "name": "Valar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1201312,
+              "name": "PAI"
+            },
+            {
+              "profileId": 2365768,
+              "name": "47_chu_VOI_con"
+            },
+            {
+              "profileId": 3763251,
+              "name": "\u8d62\u4e86\u5c31\u7761\u89c9"
+            }
+          ]
+        },
         {
           "matchId": 506037936,
           "civ": "Jurchens",
@@ -196219,5 +196345,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 990,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1272,
+        "totalGames": 996,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1270,
         "peakRating": 1339
       },
       "matches": [
+        {
+          "matchId": 509182295,
+          "civ": "Tatars",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T20:37:20.000Z",
+          "dur": 1025,
+          "opponents": [
+            {
+              "profileId": 649222,
+              "name": "Crat"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509163985,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T19:16:10.000Z",
+          "dur": 1362,
+          "opponents": [
+            {
+              "profileId": 1416155,
+              "name": "Kapnoob"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509112338,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:10:48.000Z",
+          "dur": 586,
+          "opponents": [
+            {
+              "profileId": 9890905,
+              "name": "Yogurtu Mghe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509109133,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:54:45.000Z",
+          "dur": 822,
+          "opponents": [
+            {
+              "profileId": 4888071,
+              "name": "tdmlart"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509103016,
+          "civ": "Goths",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:24:19.000Z",
+          "dur": 1749,
+          "opponents": [
+            {
+              "profileId": 15696740,
+              "name": "Andy Salad"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509089279,
+          "civ": "Britons",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:08:45.000Z",
+          "dur": 1642,
+          "opponents": [
+            {
+              "profileId": 492664,
+              "name": "Tygridson"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508967007,
           "civ": "Saracens",
@@ -15899,7 +16001,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 585,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1198,
         "peakRating": 1262
       },
@@ -35663,5 +35765,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

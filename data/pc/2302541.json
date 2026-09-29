@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 606,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1665,
         "peakRating": 1761
       },
@@ -9756,12 +9756,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1194,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1633,
+        "totalGames": 1195,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1620,
         "peakRating": 1640
       },
       "matches": [
+        {
+          "matchId": 509099646,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:06:59.000Z",
+          "dur": 1424,
+          "opponents": [
+            {
+              "profileId": 2112475,
+              "name": "catastrophe"
+            },
+            {
+              "profileId": 23232396,
+              "name": "Hash-"
+            },
+            {
+              "profileId": 15419508,
+              "name": "\u67af\u5c71\u6c34"
+            },
+            {
+              "profileId": 3445815,
+              "name": "\u4e0d\u51faHY\u9f99\u5fc3\u522b\u73a9UG\uff0cOK\uff1f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1749778,
+              "name": "god comic"
+            },
+            {
+              "profileId": 17815793,
+              "name": "\u767d\u7eb8o"
+            },
+            {
+              "profileId": 25559826,
+              "name": "EL TIGRE ABELARDO"
+            }
+          ]
+        },
         {
           "matchId": 508779039,
           "civ": "Mongols",
@@ -51099,5 +51141,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

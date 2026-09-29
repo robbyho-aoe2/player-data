@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 200,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-29",
         "latestRating": 1290,
         "peakRating": 1514
       },
@@ -3217,7 +3217,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 771,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-09-29",
         "latestRating": 1387,
         "peakRating": 1629
       },
@@ -30213,12 +30213,29 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 27,
-        "pulledDate": "2026-09-08",
-        "latestRating": 937,
+        "totalGames": 28,
+        "pulledDate": "2026-09-29",
+        "latestRating": 921,
         "peakRating": 1060
       },
       "matches": [
+        {
+          "matchId": 510010189,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:48:30.000Z",
+          "dur": 1511,
+          "opponents": [
+            {
+              "profileId": 4602215,
+              "name": "gabymarco09"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 452015759,
           "civ": "Teutons",
@@ -30655,12 +30672,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 63,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1006,
+        "totalGames": 64,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1000,
         "peakRating": 1174
       },
       "matches": [
+        {
+          "matchId": 509772439,
+          "civ": "Japanese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:20:15.000Z",
+          "dur": 1406,
+          "opponents": [
+            {
+              "profileId": 1993804,
+              "name": "Agron"
+            },
+            {
+              "profileId": 3219489,
+              "name": "Crixus Murmillo"
+            },
+            {
+              "profileId": 2363907,
+              "name": "Gannicus Dimachaerus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23049989,
+              "name": "DeWaltFan20"
+            },
+            {
+              "profileId": 12586372,
+              "name": "skilz tat kilz"
+            }
+          ]
+        },
         {
           "matchId": 505148557,
           "civ": "Teutons",
@@ -32867,5 +32918,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

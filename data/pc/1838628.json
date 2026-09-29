@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 100,
-        "pulledDate": "2026-09-24",
-        "latestRating": 841,
+        "totalGames": 105,
+        "pulledDate": "2026-09-29",
+        "latestRating": 825,
         "peakRating": 1009
       },
       "matches": [
+        {
+          "matchId": 509388099,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:15:07.000Z",
+          "dur": 1310,
+          "opponents": [
+            {
+              "profileId": 23959230,
+              "name": "Estacomoloquita"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509349891,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:27:10.000Z",
+          "dur": 1964,
+          "opponents": [
+            {
+              "profileId": 16245276,
+              "name": "\u041d\u044f\u043d\u044f \u041f\u043b\u0430\u043c"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509343013,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T12:52:27.000Z",
+          "dur": 1659,
+          "opponents": [
+            {
+              "profileId": 2302985,
+              "name": "luke"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509337646,
+          "civ": "Vikings",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T12:21:38.000Z",
+          "dur": 1689,
+          "opponents": [
+            {
+              "profileId": 23345709,
+              "name": "coen.hendriks"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509332063,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T11:50:09.000Z",
+          "dur": 1687,
+          "opponents": [
+            {
+              "profileId": 26061378,
+              "name": "Yono Fui1373"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508873504,
           "civ": "Goths",
@@ -1730,7 +1815,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 592,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 909,
         "peakRating": 1085
       },
@@ -21382,5 +21467,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

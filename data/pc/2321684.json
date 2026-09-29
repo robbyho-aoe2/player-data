@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1385,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1015,
+        "totalGames": 1389,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1013,
         "peakRating": 1140
       },
       "matches": [
+        {
+          "matchId": 509769299,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:02:25.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 18374395,
+              "name": "marcobusca96"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509764582,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:36:37.000Z",
+          "dur": 1505,
+          "opponents": [
+            {
+              "profileId": 16229606,
+              "name": "Nazarustra"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509760841,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:13:34.000Z",
+          "dur": 1283,
+          "opponents": [
+            {
+              "profileId": 25605746,
+              "name": "CAOS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509755308,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:43:27.000Z",
+          "dur": 1745,
+          "opponents": [
+            {
+              "profileId": 11544460,
+              "name": "FC_Jp173"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508982378,
           "civ": "Cumans",
@@ -23575,7 +23643,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 169,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1075,
         "peakRating": 1167
       },
@@ -27991,5 +28059,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Xbox"
 }

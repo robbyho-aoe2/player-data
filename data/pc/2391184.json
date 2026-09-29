@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 489,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1602,
         "peakRating": 1602
       },
@@ -7853,12 +7853,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4272,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1626,
+        "totalGames": 4276,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1596,
         "peakRating": 1746
       },
       "matches": [
+        {
+          "matchId": 509758515,
+          "civ": "Incas",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:01:42.000Z",
+          "dur": 835,
+          "opponents": [
+            {
+              "profileId": 5600740,
+              "name": "[B\u00dcN] Mr. Gr\u00fcezi"
+            },
+            {
+              "profileId": 2844975,
+              "name": "[B\u00dcN#1] Heidewolf"
+            },
+            {
+              "profileId": 541989,
+              "name": "[B\u00dcN] Schmirgel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 331639,
+              "name": "Joaquin12"
+            },
+            {
+              "profileId": 2302476,
+              "name": "Manuel hormigaiper"
+            }
+          ]
+        },
+        {
+          "matchId": 509746769,
+          "civ": "Spanish",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:01:02.000Z",
+          "dur": 858,
+          "opponents": [
+            {
+              "profileId": 18628000,
+              "name": "the best BO's"
+            },
+            {
+              "profileId": 25694758,
+              "name": "PWLG | Legend"
+            },
+            {
+              "profileId": 2564725,
+              "name": "Christine"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1008346,
+              "name": "Nicoairlines"
+            },
+            {
+              "profileId": 2302476,
+              "name": "Manuel hormigaiper"
+            }
+          ]
+        },
+        {
+          "matchId": 509735672,
+          "civ": "Chinese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:08:32.000Z",
+          "dur": 2077,
+          "opponents": [
+            {
+              "profileId": 298023,
+              "name": "Alga"
+            },
+            {
+              "profileId": 214717,
+              "name": "p0ni spice latte"
+            },
+            {
+              "profileId": 1061425,
+              "name": "mundobear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2302476,
+              "name": "Manuel hormigaiper"
+            },
+            {
+              "profileId": 1008346,
+              "name": "Nicoairlines"
+            }
+          ]
+        },
+        {
+          "matchId": 509104606,
+          "civ": "Huns",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:32:20.000Z",
+          "dur": 1602,
+          "opponents": [
+            {
+              "profileId": 19510831,
+              "name": "BungaloBones"
+            },
+            {
+              "profileId": 487277,
+              "name": "No_English"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2302476,
+              "name": "Manuel hormigaiper"
+            }
+          ]
+        },
         {
           "matchId": 508895734,
           "civ": "Jurchens",
@@ -152067,5 +152195,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

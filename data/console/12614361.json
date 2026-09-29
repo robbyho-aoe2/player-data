@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 458,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1197,
         "peakRating": 1217
       },
@@ -7384,7 +7384,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1156,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1153,
         "peakRating": 1251
       },
@@ -40660,7 +40660,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 278,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 636,
         "peakRating": 968
       },
@@ -45117,12 +45117,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1239,
-        "pulledDate": "2026-09-26",
-        "latestRating": 871,
+        "totalGames": 1241,
+        "pulledDate": "2026-09-29",
+        "latestRating": 904,
         "peakRating": 995
       },
       "matches": [
+        {
+          "matchId": 509884298,
+          "civ": "Turks",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:37:47.000Z",
+          "dur": 1852,
+          "opponents": [
+            {
+              "profileId": 17474868,
+              "name": "\u5f6c\u5f6c\u6709\u793c"
+            },
+            {
+              "profileId": 16599832,
+              "name": "Ming"
+            },
+            {
+              "profileId": 15808545,
+              "name": "\u65fa\u65fa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13771191,
+              "name": "S1mmOJ"
+            },
+            {
+              "profileId": 9939077,
+              "name": "\u6458\u661f\u602a"
+            }
+          ]
+        },
+        {
+          "matchId": 509877863,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:03:57.000Z",
+          "dur": 1818,
+          "opponents": [
+            {
+              "profileId": 265654,
+              "name": "mc174"
+            },
+            {
+              "profileId": 2792243,
+              "name": "fidelandresc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13771191,
+              "name": "S1mmOJ"
+            }
+          ]
+        },
         {
           "matchId": 509466173,
           "civ": "Turks",
@@ -85860,5 +85920,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Xbox"
 }

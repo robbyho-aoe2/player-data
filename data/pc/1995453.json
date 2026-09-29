@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3133,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1197,
+        "totalGames": 3138,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1150,
         "peakRating": 1325
       },
       "matches": [
+        {
+          "matchId": 509940508,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:17:32.000Z",
+          "dur": 1137,
+          "opponents": [
+            {
+              "profileId": 5148518,
+              "name": "NICH"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509666741,
+          "civ": "Britons",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:40:33.000Z",
+          "dur": 1224,
+          "opponents": [
+            {
+              "profileId": 4143155,
+              "name": "Uvodd"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509660450,
+          "civ": "Persians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:14:42.000Z",
+          "dur": 1142,
+          "opponents": [
+            {
+              "profileId": 9178525,
+              "name": "Tl\u00e1loc_MX1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509639184,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:48:20.000Z",
+          "dur": 1989,
+          "opponents": [
+            {
+              "profileId": 23586267,
+              "name": "Gkelia"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509050762,
+          "civ": "Ethiopians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T07:50:57.000Z",
+          "dur": 1205,
+          "opponents": [
+            {
+              "profileId": 9088484,
+              "name": "long77"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508414594,
           "civ": "Britons",
@@ -50201,12 +50286,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 617,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1098,
+        "totalGames": 619,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1105,
         "peakRating": 1286
       },
       "matches": [
+        {
+          "matchId": 509955691,
+          "civ": "Britons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:27:38.000Z",
+          "dur": 2038,
+          "opponents": [
+            {
+              "profileId": 2505904,
+              "name": "Dirk"
+            },
+            {
+              "profileId": 12310690,
+              "name": "Salahadin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2962187,
+              "name": "RaskWarrioR"
+            }
+          ]
+        },
+        {
+          "matchId": 509952591,
+          "civ": "Turks",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:13:12.000Z",
+          "dur": 773,
+          "opponents": [
+            {
+              "profileId": 358370,
+              "name": "[KNOBI]Faultier321"
+            },
+            {
+              "profileId": 3840377,
+              "name": "Alliser"
+            },
+            {
+              "profileId": 21517463,
+              "name": "bananenhorst"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 881233,
+              "name": "ooo000ooo"
+            },
+            {
+              "profileId": 18958013,
+              "name": "Br0th3R_Gr1m"
+            }
+          ]
+        },
         {
           "matchId": 508915122,
           "civ": "Dravidians",
@@ -65761,5 +65906,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

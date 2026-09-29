@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-09-29",
         "latestRating": 1332,
         "peakRating": 1332
       },
@@ -385,12 +385,64 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 431,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1176,
+        "totalGames": 433,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1183,
         "peakRating": 1245
       },
       "matches": [
+        {
+          "matchId": 510010009,
+          "civ": "Saxons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:47:09.000Z",
+          "dur": 1519,
+          "opponents": [
+            {
+              "profileId": 12592061,
+              "name": "EmptyNetGoal"
+            },
+            {
+              "profileId": 12587646,
+              "name": "tvilleTIGER"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12663278,
+              "name": "IlikeIke1115"
+            }
+          ]
+        },
+        {
+          "matchId": 509768539,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:58:55.000Z",
+          "dur": 2722,
+          "opponents": [
+            {
+              "profileId": 13019311,
+              "name": "GLAROI"
+            },
+            {
+              "profileId": 15765983,
+              "name": "BeardedPrezZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12663278,
+              "name": "IlikeIke1115"
+            }
+          ]
+        },
         {
           "matchId": 508557087,
           "civ": "Danes",
@@ -12202,7 +12254,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-09-29",
         "latestRating": 917,
         "peakRating": 1098
       },
@@ -12532,7 +12584,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-09-29",
         "latestRating": 923
       },
       "matches": [
@@ -12641,5 +12693,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

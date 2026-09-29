@@ -6,25 +6,195 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 4924,
-        "pulledDate": "2026-09-25",
-        "latestRating": 2477,
+        "totalGames": 4934,
+        "pulledDate": "2026-09-29",
+        "latestRating": 2500,
         "peakRating": 2655
       },
       "matches": [
+        {
+          "matchId": 509991692,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:54:23.000Z",
+          "dur": 2202,
+          "opponents": [
+            {
+              "profileId": 9579739,
+              "name": "Mentalist"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509987854,
+          "civ": "Sicilians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:29:16.000Z",
+          "dur": 1161,
+          "opponents": [
+            {
+              "profileId": 9579739,
+              "name": "Mentalist"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509984484,
+          "civ": "Italians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:07:12.000Z",
+          "dur": 1159,
+          "opponents": [
+            {
+              "profileId": 322534,
+              "name": "Noszombie"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509980328,
+          "civ": "Romans",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:41:54.000Z",
+          "dur": 1455,
+          "opponents": [
+            {
+              "profileId": 9579739,
+              "name": "Mentalist"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509973404,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:59:44.000Z",
+          "dur": 2134,
+          "opponents": [
+            {
+              "profileId": 453821,
+              "name": "Macluffy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509966882,
+          "civ": "Dravidians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:22:55.000Z",
+          "dur": 1531,
+          "opponents": [
+            {
+              "profileId": 725502,
+              "name": "Kongensgade"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509961513,
+          "civ": "Burgundians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:54:53.000Z",
+          "dur": 1581,
+          "opponents": [
+            {
+              "profileId": 9579739,
+              "name": "Mentalist"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509956222,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:29:00.000Z",
+          "dur": 1305,
+          "opponents": [
+            {
+              "profileId": 12369748,
+              "name": "MicroDA"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509952050,
+          "civ": "Romans",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:09:57.000Z",
+          "dur": 898,
+          "opponents": [
+            {
+              "profileId": 2014691,
+              "name": "pren"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509941452,
+          "civ": "Britons",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:21:45.000Z",
+          "dur": 701,
+          "opponents": [
+            {
+              "profileId": 16369027,
+              "name": "Sapfiros"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508982267,
           "civ": "Spanish",
@@ -45519,7 +45689,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2205,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1803,
         "peakRating": 2052
       },
@@ -65416,5 +65586,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

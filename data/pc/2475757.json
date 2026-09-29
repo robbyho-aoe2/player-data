@@ -6,32 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 595,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1289,
+        "totalGames": 598,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1297,
         "peakRating": 1311
       },
       "matches": [
+        {
+          "matchId": 509673675,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:08:54.000Z",
+          "dur": 3318,
+          "opponents": [
+            {
+              "profileId": 3312232,
+              "name": "ReF"
+            },
+            {
+              "profileId": 21838968,
+              "name": "Evrenos_TR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25219273,
+              "name": "NoobMonk14"
+            }
+          ]
+        },
+        {
+          "matchId": 509668033,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:45:44.000Z",
+          "dur": 794,
+          "opponents": [
+            {
+              "profileId": 2282438,
+              "name": "Pepey"
+            },
+            {
+              "profileId": 25343001,
+              "name": "Leetz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25219273,
+              "name": "NoobMonk14"
+            }
+          ]
+        },
+        {
+          "matchId": 509657152,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:01:50.000Z",
+          "dur": 2187,
+          "opponents": [
+            {
+              "profileId": 20052143,
+              "name": "Szorinx"
+            },
+            {
+              "profileId": 21537359,
+              "name": "NotADuck"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25219273,
+              "name": "NoobMonk14"
+            }
+          ]
+        },
         {
           "matchId": 507516854,
           "civ": "Teutons",
@@ -16872,5 +16950,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 1001,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1734,
         "peakRating": 1742
       },
@@ -16032,7 +16032,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 232,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1251,
         "peakRating": 1296
       },
@@ -22241,12 +22241,63 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 287,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1185,
+        "totalGames": 290,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1166,
         "peakRating": 1370
       },
       "matches": [
+        {
+          "matchId": 509938661,
+          "civ": "Varangians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:09:44.000Z",
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 6834457,
+              "name": "Pekerril"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509921412,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:51:22.000Z",
+          "dur": 1441,
+          "opponents": [
+            {
+              "profileId": 343252,
+              "name": "Codex Cumanicus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509916558,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:27:05.000Z",
+          "dur": 1310,
+          "opponents": [
+            {
+              "profileId": 2011833,
+              "name": "Bofus"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509640578,
           "civ": "Saxons",
@@ -26868,7 +26919,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 120,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1173,
         "peakRating": 1316
       },
@@ -30060,5 +30111,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Xbox"
 }

@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 7,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -126,7 +126,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 64,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 849,
         "peakRating": 865
       },
@@ -2009,18 +2009,52 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 943,
-        "pulledDate": "2026-09-26",
-        "latestRating": 730,
+        "totalGames": 944,
+        "pulledDate": "2026-09-29",
+        "latestRating": 745,
         "peakRating": 855
       },
       "matches": [
+        {
+          "matchId": 509527329,
+          "civ": "Vikings",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:33:41.000Z",
+          "dur": 3798,
+          "opponents": [
+            {
+              "profileId": 21580073,
+              "name": "mr.falla2016"
+            },
+            {
+              "profileId": 25238267,
+              "name": "MatiasBernal758"
+            },
+            {
+              "profileId": 10554388,
+              "name": "ARV-070"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3747882,
+              "name": "Commander Davis"
+            },
+            {
+              "profileId": 13898214,
+              "name": "McCleaveDynasty"
+            }
+          ]
+        },
         {
           "matchId": 509269959,
           "civ": "Huns",
@@ -33801,5 +33835,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

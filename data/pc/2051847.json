@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 744,
         "peakRating": 774
       },
@@ -205,12 +205,158 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 831,
-        "pulledDate": "2026-09-24",
-        "latestRating": 807,
+        "totalGames": 836,
+        "pulledDate": "2026-09-29",
+        "latestRating": 769,
         "peakRating": 943
       },
       "matches": [
+        {
+          "matchId": 509928157,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:23:15.000Z",
+          "dur": 1081,
+          "opponents": [
+            {
+              "profileId": 24111574,
+              "name": "Lu"
+            },
+            {
+              "profileId": 24280384,
+              "name": "tmkmbl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15040315,
+              "name": "-\u00bbDo\u03c1a\u00ab-"
+            }
+          ]
+        },
+        {
+          "matchId": 509697549,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:42:04.000Z",
+          "dur": 1477,
+          "opponents": [
+            {
+              "profileId": 5433462,
+              "name": "pohuito ergo sum"
+            },
+            {
+              "profileId": 24434062,
+              "name": "dix."
+            },
+            {
+              "profileId": 18891954,
+              "name": "Divine_Fury"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9113209,
+              "name": "Osiedlowy wariacik"
+            },
+            {
+              "profileId": 21048466,
+              "name": "lefebvre.mx"
+            }
+          ]
+        },
+        {
+          "matchId": 509688671,
+          "civ": "Spanish",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:08:53.000Z",
+          "dur": 1871,
+          "opponents": [
+            {
+              "profileId": 25144995,
+              "name": "Rhinophonia"
+            },
+            {
+              "profileId": 25144986,
+              "name": "Udinos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13732142,
+              "name": "mastercounter99"
+            }
+          ]
+        },
+        {
+          "matchId": 509574353,
+          "civ": "Spanish",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:53:13.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 25791085,
+              "name": "nils.odenbach"
+            },
+            {
+              "profileId": 743250,
+              "name": "AgentFlea"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9087595,
+              "name": "\u665a\u971e\u4e0e\u5979"
+            }
+          ]
+        },
+        {
+          "matchId": 509097538,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:55:56.000Z",
+          "dur": 1792,
+          "opponents": [
+            {
+              "profileId": 13958636,
+              "name": "A-Rai"
+            },
+            {
+              "profileId": 20026739,
+              "name": "\u9686\u9686"
+            },
+            {
+              "profileId": 21678332,
+              "name": "\u4e00\u5339\u7626\u99ac\u8d70\u5929\u6daf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25865333,
+              "name": "rani"
+            },
+            {
+              "profileId": 21149816,
+              "name": "ForzaGT87"
+            }
+          ]
+        },
         {
           "matchId": 508266808,
           "civ": "Spanish",
@@ -26811,5 +26957,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

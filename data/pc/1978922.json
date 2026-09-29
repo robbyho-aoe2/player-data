@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 822,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1113,
+        "totalGames": 823,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1096,
         "peakRating": 1248
       },
       "matches": [
+        {
+          "matchId": 509067612,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T10:25:13.000Z",
+          "dur": 1287,
+          "opponents": [
+            {
+              "profileId": 18818055,
+              "name": "Mufasa"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508458415,
           "civ": "Byzantines",
@@ -14004,7 +14021,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 69,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1174,
         "peakRating": 1323
       },
@@ -16603,5 +16620,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

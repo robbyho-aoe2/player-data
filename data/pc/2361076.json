@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1191,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1699,
+        "totalGames": 1194,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1691,
         "peakRating": 1769
       },
       "matches": [
+        {
+          "matchId": 509882740,
+          "civ": "Jurchens",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:28:35.000Z",
+          "dur": 3139,
+          "opponents": [
+            {
+              "profileId": 820812,
+              "name": "marius_590"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509881668,
+          "civ": "Bengalis",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:22:52.000Z",
+          "dur": 264,
+          "opponents": [
+            {
+              "profileId": 10429013,
+              "name": "Enterprise"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509876195,
+          "civ": "Cumans",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:53:42.000Z",
+          "dur": 1631,
+          "opponents": [
+            {
+              "profileId": 892398,
+              "name": "[H] Blabla"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506514148,
           "civ": "Japanese",
@@ -17935,7 +17986,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 51,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-29",
         "latestRating": 1256,
         "peakRating": 1256
       },
@@ -18584,5 +18635,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 2679,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1138,
         "peakRating": 1398
       },
@@ -42880,7 +42880,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1347,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1034,
         "peakRating": 1264
       },
@@ -79892,12 +79892,80 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 360,
-        "pulledDate": "2026-09-27",
-        "latestRating": 671,
+        "totalGames": 364,
+        "pulledDate": "2026-09-29",
+        "latestRating": 673,
         "peakRating": 1149
       },
       "matches": [
+        {
+          "matchId": 509764518,
+          "civ": "Burgundians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:35:36.000Z",
+          "dur": 1747,
+          "opponents": [
+            {
+              "profileId": 9242593,
+              "name": "Michi3052"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509759285,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:05:41.000Z",
+          "dur": 1691,
+          "opponents": [
+            {
+              "profileId": 2830961,
+              "name": "DrManhattan35"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509755173,
+          "civ": "Persians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:43:17.000Z",
+          "dur": 1183,
+          "opponents": [
+            {
+              "profileId": 25515365,
+              "name": "Cosecant"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509748419,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:08:04.000Z",
+          "dur": 1801,
+          "opponents": [
+            {
+              "profileId": 21436923,
+              "name": "ChileAvaria"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509733639,
           "civ": "Burgundians",
@@ -85879,12 +85947,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 105,
-        "pulledDate": "2026-09-27",
-        "latestRating": 716,
+        "totalGames": 106,
+        "pulledDate": "2026-09-29",
+        "latestRating": 703,
         "peakRating": 995
       },
       "matches": [
+        {
+          "matchId": 510010828,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:51:28.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 2588777,
+              "name": "estebanlaso83"
+            },
+            {
+              "profileId": 2585087,
+              "name": "davidanda"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 315146,
+              "name": "mosesdretg"
+            }
+          ]
+        },
         {
           "matchId": 509739312,
           "civ": "Burgundians",
@@ -88584,5 +88678,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

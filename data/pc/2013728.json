@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 11,
-        "pulledDate": "2026-09-21",
-        "latestRating": 730,
+        "totalGames": 15,
+        "pulledDate": "2026-09-29",
+        "latestRating": 763,
         "peakRating": 845
       },
       "matches": [
+        {
+          "matchId": 509762855,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:26:10.000Z",
+          "dur": 733,
+          "opponents": [
+            {
+              "profileId": 19868431,
+              "name": "THE CREATOR YISUS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509715649,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:46:43.000Z",
+          "dur": 847,
+          "opponents": [
+            {
+              "profileId": 20782266,
+              "name": "muratkaya343406"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509679055,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:30:01.000Z",
+          "dur": 3021,
+          "opponents": [
+            {
+              "profileId": 19565329,
+              "name": "EL_INGE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509631605,
+          "civ": "Khmer",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:18:23.000Z",
+          "dur": 2174,
+          "opponents": [
+            {
+              "profileId": 6310379,
+              "name": "t\u00fczessz\u00e1rk\u00e1ny"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508141124,
           "civ": "Slavs",
@@ -216,10 +284,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 7,
-        "pulledDate": "2026-09-21"
+        "totalGames": 10,
+        "pulledDate": "2026-09-29",
+        "latestRating": 888,
+        "peakRating": 913
       },
       "matches": [
+        {
+          "matchId": 509809281,
+          "civ": "Chinese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:04:28.000Z",
+          "dur": 1625,
+          "opponents": [
+            {
+              "profileId": 12311259,
+              "name": "Gambitho"
+            },
+            {
+              "profileId": 12312883,
+              "name": "LordBoris"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 764415,
+              "name": "the wuiten from Hamme"
+            }
+          ]
+        },
+        {
+          "matchId": 509709563,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:25:12.000Z",
+          "dur": 2181,
+          "opponents": [
+            {
+              "profileId": 25425299,
+              "name": "ray_gapist_69"
+            },
+            {
+              "profileId": 25427989,
+              "name": "bluesuitandtie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1952893,
+              "name": "Retosh2"
+            }
+          ]
+        },
+        {
+          "matchId": 509699158,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:47:47.000Z",
+          "dur": 2076,
+          "opponents": [
+            {
+              "profileId": 846904,
+              "name": "Pire"
+            },
+            {
+              "profileId": 14094391,
+              "name": "Senbonzakura Kageyoshi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17993975,
+              "name": "fares_x86"
+            }
+          ]
+        },
         {
           "matchId": 506992900,
           "civ": "Spanish",
@@ -407,5 +555,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

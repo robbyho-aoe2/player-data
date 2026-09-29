@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 100,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1097,
         "peakRating": 1146
       },
@@ -1629,12 +1629,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1731,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1173,
+        "totalGames": 1733,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1144,
         "peakRating": 1270
       },
       "matches": [
+        {
+          "matchId": 509903200,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:19:04.000Z",
+          "dur": 1461,
+          "opponents": [
+            {
+              "profileId": 2541282,
+              "name": "Blass"
+            },
+            {
+              "profileId": 2553680,
+              "name": "CrazyM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25157980,
+              "name": "nguyen.tranchk32.dlu"
+            }
+          ]
+        },
+        {
+          "matchId": 509532145,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:02:02.000Z",
+          "dur": 1585,
+          "opponents": [
+            {
+              "profileId": 25004556,
+              "name": "DoubleGhost3904"
+            },
+            {
+              "profileId": 22142508,
+              "name": "Black Ghost"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5905205,
+              "name": "Vicio"
+            }
+          ]
+        },
         {
           "matchId": 508459715,
           "civ": "Malay",
@@ -57136,5 +57188,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

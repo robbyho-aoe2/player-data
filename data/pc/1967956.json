@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 191,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1158,
         "peakRating": 1176
       },
@@ -3085,12 +3085,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1545,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1168,
+        "totalGames": 1549,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1237,
         "peakRating": 1334
       },
       "matches": [
+        {
+          "matchId": 509935356,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:55:32.000Z",
+          "dur": 1006,
+          "opponents": [
+            {
+              "profileId": 24546027,
+              "name": "[TLGA] - Wendy Sulka"
+            },
+            {
+              "profileId": 24471085,
+              "name": "[TLGA] - La Tigresa del Oriente"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 927456,
+              "name": "Bourne"
+            }
+          ]
+        },
+        {
+          "matchId": 509930224,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:32:49.000Z",
+          "dur": 1090,
+          "opponents": [
+            {
+              "profileId": 24546027,
+              "name": "[TLGA] - Wendy Sulka"
+            },
+            {
+              "profileId": 24471085,
+              "name": "[TLGA] - La Tigresa del Oriente"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 927456,
+              "name": "Bourne"
+            }
+          ]
+        },
+        {
+          "matchId": 509428930,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:12:17.000Z",
+          "dur": 2307,
+          "opponents": [
+            {
+              "profileId": 3770718,
+              "name": "Ralphie"
+            },
+            {
+              "profileId": 5796747,
+              "name": "follow the white rabbit \u0394"
+            },
+            {
+              "profileId": 6279748,
+              "name": "ljysdd"
+            },
+            {
+              "profileId": 14545999,
+              "name": "CCM | Zero"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 927456,
+              "name": "Bourne"
+            },
+            {
+              "profileId": 995808,
+              "name": "SwaggyPeasant"
+            },
+            {
+              "profileId": 4084684,
+              "name": "LingLing"
+            }
+          ]
+        },
+        {
+          "matchId": 509422116,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:43:58.000Z",
+          "dur": 1359,
+          "opponents": [
+            {
+              "profileId": 3492175,
+              "name": "Boris"
+            },
+            {
+              "profileId": 4074394,
+              "name": "Bob Tschigerillo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 927456,
+              "name": "Bourne"
+            }
+          ]
+        },
         {
           "matchId": 508706884,
           "civ": "Poles",
@@ -50558,5 +50678,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Steam"
 }

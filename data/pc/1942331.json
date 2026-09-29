@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1199,
         "peakRating": 1199
       },
@@ -182,12 +182,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3235,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1076,
+        "totalGames": 3239,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1142,
         "peakRating": 1552
       },
       "matches": [
+        {
+          "matchId": 509954285,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:21:16.000Z",
+          "dur": 74,
+          "opponents": [
+            {
+              "profileId": 15024931,
+              "name": "HuwMJ"
+            },
+            {
+              "profileId": 5762860,
+              "name": "ProfessionalPlayer"
+            },
+            {
+              "profileId": 4835510,
+              "name": "jamiefunnell"
+            },
+            {
+              "profileId": 2914885,
+              "name": "Dai383"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 419835,
+              "name": "Galadh"
+            },
+            {
+              "profileId": 15105302,
+              "name": "math-hbcn"
+            },
+            {
+              "profileId": 2496080,
+              "name": "Enrique"
+            }
+          ]
+        },
+        {
+          "matchId": 509951558,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:08:20.000Z",
+          "dur": 654,
+          "opponents": [
+            {
+              "profileId": 3548699,
+              "name": "Jimmy Jay"
+            },
+            {
+              "profileId": 17941101,
+              "name": "EL PAJA"
+            },
+            {
+              "profileId": 18098229,
+              "name": "Yisus Patitas Suaves"
+            },
+            {
+              "profileId": 19407672,
+              "name": "BIG T +963"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 232799,
+              "name": "Strike90"
+            },
+            {
+              "profileId": 15105302,
+              "name": "math-hbcn"
+            },
+            {
+              "profileId": 22753596,
+              "name": "SammyDiamonds"
+            }
+          ]
+        },
+        {
+          "matchId": 509850558,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:54:28.000Z",
+          "dur": 1060,
+          "opponents": [
+            {
+              "profileId": 6762424,
+              "name": "c r v w l e y"
+            },
+            {
+              "profileId": 6749185,
+              "name": "ants"
+            },
+            {
+              "profileId": 2393319,
+              "name": "NATARU"
+            },
+            {
+              "profileId": 25849558,
+              "name": "Mr. Takoyaki-san"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18926131,
+              "name": "prsdntsdghtr"
+            },
+            {
+              "profileId": 3089067,
+              "name": "Mameluco adbuser"
+            },
+            {
+              "profileId": 1000871,
+              "name": "BlandToaster625"
+            }
+          ]
+        },
+        {
+          "matchId": 509112763,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:12:50.000Z",
+          "dur": 1682,
+          "opponents": [
+            {
+              "profileId": 23144142,
+              "name": "EihwazTyr"
+            },
+            {
+              "profileId": 2405861,
+              "name": "COL | Gi0vS"
+            },
+            {
+              "profileId": 10604204,
+              "name": "ThanatosDanilo"
+            },
+            {
+              "profileId": 20805402,
+              "name": "El Cacas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 233084,
+              "name": "Veit"
+            },
+            {
+              "profileId": 9959779,
+              "name": "bbu913"
+            },
+            {
+              "profileId": 14385157,
+              "name": "TobsusMaximus"
+            }
+          ]
+        },
         {
           "matchId": 508895623,
           "civ": "Bulgarians",
@@ -30641,5 +30809,6 @@
   },
   "country": "pl",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
-  "countryName": "Poland"
+  "countryName": "Poland",
+  "platform": "Steam"
 }

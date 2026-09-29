@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 403,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 626,
         "peakRating": 709
       },
@@ -6478,12 +6478,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 90,
-        "pulledDate": "2026-09-24",
-        "latestRating": 685,
+        "totalGames": 93,
+        "pulledDate": "2026-09-29",
+        "latestRating": 729,
         "peakRating": 1033
       },
       "matches": [
+        {
+          "matchId": 509537606,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:35:11.000Z",
+          "dur": 2210,
+          "opponents": [
+            {
+              "profileId": 25505108,
+              "name": "Ferna"
+            },
+            {
+              "profileId": 2526397,
+              "name": "PatoCosta90"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18404711,
+              "name": "NikolastrA"
+            }
+          ]
+        },
+        {
+          "matchId": 509273017,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:52:53.000Z",
+          "dur": 1516,
+          "opponents": [
+            {
+              "profileId": 15527041,
+              "name": "Roberto Manfinfla"
+            },
+            {
+              "profileId": 5949637,
+              "name": "TESTOSTERONA > 2000 ng/dL"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3127328,
+              "name": "Livakovic"
+            }
+          ]
+        },
+        {
+          "matchId": 509012583,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T02:46:40.000Z",
+          "dur": 2986,
+          "opponents": [
+            {
+              "profileId": 16100072,
+              "name": "SEXO FUERTE"
+            },
+            {
+              "profileId": 4306120,
+              "name": "Murduk1312"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2591910,
+              "name": "joelsc22"
+            }
+          ]
+        },
         {
           "matchId": 508360075,
           "civ": "Huns",
@@ -8905,5 +8983,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 529,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1166,
         "peakRating": 1445
       },
@@ -8493,12 +8493,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1118,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1185,
+        "totalGames": 1120,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1179,
         "peakRating": 1446
       },
       "matches": [
+        {
+          "matchId": 509499655,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:59:28.000Z",
+          "dur": 3148,
+          "opponents": [
+            {
+              "profileId": 23008141,
+              "name": "kurlie34"
+            },
+            {
+              "profileId": 11340110,
+              "name": "Didier Drogba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2638690,
+              "name": "Slayer"
+            }
+          ]
+        },
+        {
+          "matchId": 509498081,
+          "civ": "Khitans",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:50:17.000Z",
+          "dur": 311,
+          "opponents": [
+            {
+              "profileId": 336831,
+              "name": "Kimster213"
+            },
+            {
+              "profileId": 22588469,
+              "name": "Level 2 Slime"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2638690,
+              "name": "Slayer"
+            }
+          ]
+        },
         {
           "matchId": 507904159,
           "civ": "Teutons",
@@ -47979,5 +48031,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1222,
-        "pulledDate": "2026-09-24",
+        "totalGames": 1228,
+        "pulledDate": "2026-09-29",
         "latestRating": 1257,
         "peakRating": 1373
       },
       "matches": [
+        {
+          "matchId": 509995723,
+          "civ": "Persians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:20:43.000Z",
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 2363867,
+              "name": "Forkan Rick"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509993311,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:04:46.000Z",
+          "dur": 878,
+          "opponents": [
+            {
+              "profileId": 23136909,
+              "name": "Emma AoE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509988582,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:33:35.000Z",
+          "dur": 1673,
+          "opponents": [
+            {
+              "profileId": 10712316,
+              "name": "Batman de Uruguay"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509969689,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:37:57.000Z",
+          "dur": 3191,
+          "opponents": [
+            {
+              "profileId": 25070267,
+              "name": "843041757"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509958019,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:37:39.000Z",
+          "dur": 3298,
+          "opponents": [
+            {
+              "profileId": 3572902,
+              "name": "stiks510"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509633958,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:27:20.000Z",
+          "dur": 1569,
+          "opponents": [
+            {
+              "profileId": 1126255,
+              "name": "lufab"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508512124,
           "civ": "Persians",
@@ -19595,7 +19697,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1755,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1491,
         "peakRating": 1598
       },
@@ -82189,5 +82291,6 @@
   },
   "country": "uy",
   "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
-  "countryName": "Uruguay"
+  "countryName": "Uruguay",
+  "platform": "Steam"
 }

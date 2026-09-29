@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 362,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1437,
+        "totalGames": 363,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1453,
         "peakRating": 1629
       },
       "matches": [
+        {
+          "matchId": 509088601,
+          "civ": "Varangians",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:04:57.000Z",
+          "dur": 1358,
+          "opponents": [
+            {
+              "profileId": 25122592,
+              "name": "GAX | Salom\u00e3o"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508629373,
           "civ": "Incas",
@@ -5824,7 +5841,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 757,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1648,
         "peakRating": 1701
       },
@@ -34640,5 +34657,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

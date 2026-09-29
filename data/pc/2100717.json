@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 147,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "latestRating": 1091,
         "peakRating": 1178
       },
@@ -2381,12 +2381,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 284,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1186,
+        "totalGames": 286,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1147,
         "peakRating": 1279
       },
       "matches": [
+        {
+          "matchId": 509916790,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:29:02.000Z",
+          "dur": 1555,
+          "opponents": [
+            {
+              "profileId": 22313531,
+              "name": "SKULLBLAZER"
+            },
+            {
+              "profileId": 9700922,
+              "name": "Lifehack"
+            },
+            {
+              "profileId": 6860980,
+              "name": "karewellx"
+            },
+            {
+              "profileId": 2008142,
+              "name": "\u30e1HANS\u30e1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 736629,
+              "name": "FraD"
+            },
+            {
+              "profileId": 1611381,
+              "name": "GR4Y_BE4RD"
+            },
+            {
+              "profileId": 1964659,
+              "name": "Darth Penner"
+            }
+          ]
+        },
+        {
+          "matchId": 509912649,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:08:16.000Z",
+          "dur": 1013,
+          "opponents": [
+            {
+              "profileId": 983822,
+              "name": "Filipo"
+            },
+            {
+              "profileId": 981113,
+              "name": "Ale Torra"
+            },
+            {
+              "profileId": 2302781,
+              "name": "Sir Charles"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1964659,
+              "name": "Darth Penner"
+            },
+            {
+              "profileId": 1532168,
+              "name": "Zelda"
+            }
+          ]
+        },
         {
           "matchId": 495104103,
           "civ": "Magyars",
@@ -9981,5 +10057,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 333,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1420,
         "peakRating": 1424
       },
@@ -5344,7 +5344,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1482,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 1432,
         "peakRating": 1583
       },
@@ -60323,12 +60323,46 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 531,
-        "pulledDate": "2026-09-27",
+        "totalGames": 533,
+        "pulledDate": "2026-09-29",
         "latestRating": 1168,
         "peakRating": 1258
       },
       "matches": [
+        {
+          "matchId": 510015990,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:22:40.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 25615761,
+              "name": "LRNI Michel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510013848,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:10:13.000Z",
+          "dur": 671,
+          "opponents": [
+            {
+              "profileId": 2025718,
+              "name": "samuel_ojeda"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509541565,
           "civ": "Saxons",
@@ -68993,12 +69027,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1352,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1268,
+        "totalGames": 1354,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1253,
         "peakRating": 1392
       },
       "matches": [
+        {
+          "matchId": 510008714,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:40:16.000Z",
+          "dur": 1611,
+          "opponents": [
+            {
+              "profileId": 25926181,
+              "name": "\u6218\u6597\u54c7"
+            },
+            {
+              "profileId": 11483965,
+              "name": "\u653e\u7f8a\u8001\u6c49"
+            },
+            {
+              "profileId": 6119014,
+              "name": "Aeros"
+            },
+            {
+              "profileId": 19442198,
+              "name": "\u5e1d\u56fd\u65f6\u4ee32--\u53f6\u67ab"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12872993,
+              "name": "IdleCylinder564"
+            },
+            {
+              "profileId": 2637747,
+              "name": "PrinceFinnik"
+            },
+            {
+              "profileId": 2352091,
+              "name": "SnakyPringle"
+            }
+          ]
+        },
+        {
+          "matchId": 509999600,
+          "civ": "Berbers",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:45:32.000Z",
+          "dur": 97,
+          "opponents": [
+            {
+              "profileId": 1115755,
+              "name": "El Conchetumare"
+            },
+            {
+              "profileId": 1478393,
+              "name": "Ralf, o fareja noob"
+            },
+            {
+              "profileId": 5741031,
+              "name": "Porro bal\u00f3n de oro"
+            },
+            {
+              "profileId": 17516876,
+              "name": "SIN CLAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12613909,
+              "name": "ClankyDolphin92"
+            },
+            {
+              "profileId": 2352091,
+              "name": "SnakyPringle"
+            },
+            {
+              "profileId": 12872993,
+              "name": "IdleCylinder564"
+            }
+          ]
+        },
         {
           "matchId": 509015925,
           "civ": "Mongols",
@@ -124165,5 +124283,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

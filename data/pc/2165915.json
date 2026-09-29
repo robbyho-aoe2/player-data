@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1302,
         "peakRating": 1302
       },
@@ -365,12 +365,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 939,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1227,
+        "totalGames": 942,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1206,
         "peakRating": 1321
       },
       "matches": [
+        {
+          "matchId": 509952631,
+          "civ": "Khmer",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:13:20.000Z",
+          "dur": 1768,
+          "opponents": [
+            {
+              "profileId": 1378792,
+              "name": "[FUCKI] Obi-One Canboneme"
+            },
+            {
+              "profileId": 245074,
+              "name": "Kiyopon"
+            },
+            {
+              "profileId": 22046217,
+              "name": "Albus"
+            },
+            {
+              "profileId": 15895511,
+              "name": "Magi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2523861,
+              "name": "OrcoDues"
+            },
+            {
+              "profileId": 2196601,
+              "name": "Mr. Magnolia"
+            },
+            {
+              "profileId": 10194794,
+              "name": "Aztecus"
+            }
+          ]
+        },
+        {
+          "matchId": 509947115,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:48:11.000Z",
+          "dur": 1290,
+          "opponents": [
+            {
+              "profileId": 3161507,
+              "name": "noziemann"
+            },
+            {
+              "profileId": 22046217,
+              "name": "Albus"
+            },
+            {
+              "profileId": 15895511,
+              "name": "Magi"
+            },
+            {
+              "profileId": 14835150,
+              "name": "JL"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10194794,
+              "name": "Aztecus"
+            },
+            {
+              "profileId": 2523861,
+              "name": "OrcoDues"
+            },
+            {
+              "profileId": 2196601,
+              "name": "Mr. Magnolia"
+            }
+          ]
+        },
+        {
+          "matchId": 509940655,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:19:17.000Z",
+          "dur": 1530,
+          "opponents": [
+            {
+              "profileId": 24524633,
+              "name": "RippedPotatoz"
+            },
+            {
+              "profileId": 22182211,
+              "name": "WoloLOLWarrior"
+            },
+            {
+              "profileId": 21069528,
+              "name": "BraveFool"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2523861,
+              "name": "OrcoDues"
+            },
+            {
+              "profileId": 2196601,
+              "name": "Mr. Magnolia"
+            }
+          ]
+        },
         {
           "matchId": 508485924,
           "civ": "Persians",
@@ -33337,5 +33455,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

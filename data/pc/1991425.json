@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 119,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-09-29",
         "latestRating": 1056,
         "peakRating": 1073
       },
@@ -1100,12 +1100,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 871,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1389,
-        "peakRating": 1418
+        "totalGames": 875,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1410,
+        "peakRating": 1423
       },
       "matches": [
+        {
+          "matchId": 509998880,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:40:24.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 25972256,
+              "name": "Sin H."
+            },
+            {
+              "profileId": 289214,
+              "name": "Phoenician Furry"
+            },
+            {
+              "profileId": 15052424,
+              "name": "Berni"
+            },
+            {
+              "profileId": 22802579,
+              "name": "IBUYPAWS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5935484,
+              "name": "OneHandMen"
+            },
+            {
+              "profileId": 11213814,
+              "name": "HK El Primo"
+            },
+            {
+              "profileId": 15722352,
+              "name": "Haider_435"
+            }
+          ]
+        },
+        {
+          "matchId": 509998343,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:37:09.000Z",
+          "dur": 217,
+          "opponents": [
+            {
+              "profileId": 24039869,
+              "name": "VX | Obligame Perro!"
+            },
+            {
+              "profileId": 4623027,
+              "name": "thanh7531"
+            },
+            {
+              "profileId": 2172561,
+              "name": "Wolf Knight"
+            },
+            {
+              "profileId": 737344,
+              "name": "The_ Rock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            },
+            {
+              "profileId": 23907126,
+              "name": "Saruman 117"
+            },
+            {
+              "profileId": 9900750,
+              "name": "Fs.Caboclo"
+            }
+          ]
+        },
+        {
+          "matchId": 509993704,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:07:50.000Z",
+          "dur": 1435,
+          "opponents": [
+            {
+              "profileId": 11526726,
+              "name": "Dadagama"
+            },
+            {
+              "profileId": 12089835,
+              "name": "Huichotzin"
+            },
+            {
+              "profileId": 15064820,
+              "name": "\u6728\u85af\u5927\u738b"
+            },
+            {
+              "profileId": 21203567,
+              "name": "emmanueldltq08"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 218772,
+              "name": "The Monad"
+            },
+            {
+              "profileId": 3231228,
+              "name": ":) YO30830"
+            },
+            {
+              "profileId": 4000226,
+              "name": "\u5929\u5d29\u5730\u88c2"
+            }
+          ]
+        },
+        {
+          "matchId": 509988037,
+          "civ": "Aztecs",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:30:58.000Z",
+          "dur": 1951,
+          "opponents": [
+            {
+              "profileId": 475190,
+              "name": "andulas97"
+            },
+            {
+              "profileId": 608004,
+              "name": "Dreamer2599"
+            },
+            {
+              "profileId": 2257394,
+              "name": "Dr. House"
+            },
+            {
+              "profileId": 4000226,
+              "name": "\u5929\u5d29\u5730\u88c2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 971495,
+              "name": "Siny"
+            },
+            {
+              "profileId": 11213814,
+              "name": "HK El Primo"
+            },
+            {
+              "profileId": 21207295,
+              "name": "Guts"
+            }
+          ]
+        },
         {
           "matchId": 505772675,
           "civ": "Romans",
@@ -10764,5 +10932,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

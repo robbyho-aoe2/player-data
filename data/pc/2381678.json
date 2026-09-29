@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 222,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1216,
+        "totalGames": 224,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1248,
         "peakRating": 1306
       },
       "matches": [
+        {
+          "matchId": 509520298,
+          "civ": "Magyars",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:55:17.000Z",
+          "dur": 1502,
+          "opponents": [
+            {
+              "profileId": 10987919,
+              "name": "alanrc_86"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509502746,
+          "civ": "Magyars",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:16:54.000Z",
+          "dur": 1738,
+          "opponents": [
+            {
+              "profileId": 5682254,
+              "name": "NAB"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508337378,
           "civ": "Malay",
@@ -3593,12 +3627,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1363,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1311,
+        "totalGames": 1365,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1325,
         "peakRating": 1436
       },
       "matches": [
+        {
+          "matchId": 510006883,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:29:37.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 721771,
+              "name": "Diheadwarlord"
+            },
+            {
+              "profileId": 4308375,
+              "name": "Rasec"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4966956,
+              "name": "AASC | TITO_PUENTE"
+            }
+          ]
+        },
+        {
+          "matchId": 510004971,
+          "civ": "Britons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:18:18.000Z",
+          "dur": 214,
+          "opponents": [
+            {
+              "profileId": 1505192,
+              "name": "YuYu"
+            },
+            {
+              "profileId": 25926181,
+              "name": "\u6218\u6597\u54c7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4966956,
+              "name": "AASC | TITO_PUENTE"
+            }
+          ]
+        },
         {
           "matchId": 508559797,
           "civ": "Gurjaras",
@@ -42595,5 +42681,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

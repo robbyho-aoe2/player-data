@@ -5,12 +5,29 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 28,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1149,
-        "peakRating": 1156
+        "totalGames": 29,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1162,
+        "peakRating": 1162
       },
       "matches": [
+        {
+          "matchId": 509789075,
+          "civ": "Huns",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:53:23.000Z",
+          "dur": 1711,
+          "opponents": [
+            {
+              "profileId": 14452377,
+              "name": "Reedo1228"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509665754,
           "civ": "Huns",
@@ -469,12 +486,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 84,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1227,
+        "totalGames": 85,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1208,
         "peakRating": 1252
       },
       "matches": [
+        {
+          "matchId": 509796050,
+          "civ": "Vikings",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:32:17.000Z",
+          "dur": 1104,
+          "opponents": [
+            {
+              "profileId": 12647500,
+              "name": "llPCPll2804"
+            },
+            {
+              "profileId": 13010140,
+              "name": "ll RP3 ll"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12653528,
+              "name": "SERENGETY88"
+            }
+          ]
+        },
         {
           "matchId": 508977552,
           "civ": "Incas",
@@ -2745,7 +2788,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 639,
         "peakRating": 678
       },
@@ -2995,7 +3038,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-09-29",
         "latestRating": 955
       },
       "matches": [
@@ -3054,5 +3097,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1118,
-        "pulledDate": "2026-09-24",
-        "latestRating": 771,
+        "totalGames": 1122,
+        "pulledDate": "2026-09-29",
+        "latestRating": 710,
         "peakRating": 900
       },
       "matches": [
+        {
+          "matchId": 509811407,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:20:47.000Z",
+          "dur": 2275,
+          "opponents": [
+            {
+              "profileId": 10870983,
+              "name": "augustine"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509548465,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:47:59.000Z",
+          "dur": 2094,
+          "opponents": [
+            {
+              "profileId": 18577614,
+              "name": "JPanzon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509272939,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:51:40.000Z",
+          "dur": 1636,
+          "opponents": [
+            {
+              "profileId": 12129051,
+              "name": "\u949f\u5c71\u98ce\u96e8\u8d77\u82cd\u9ec4"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509031503,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T05:00:48.000Z",
+          "dur": 1743,
+          "opponents": [
+            {
+              "profileId": 25141914,
+              "name": "MythicalDad"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508601925,
           "civ": "Romans",
@@ -17929,7 +17997,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 100,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 839,
         "peakRating": 880
       },
@@ -20831,5 +20899,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

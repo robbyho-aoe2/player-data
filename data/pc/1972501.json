@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 26,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-09-29",
         "latestRating": 974,
         "peakRating": 991
       },
@@ -445,12 +445,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 278,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1166,
+        "totalGames": 281,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1164,
         "peakRating": 1260
       },
       "matches": [
+        {
+          "matchId": 509115564,
+          "civ": "Khitans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T15:25:28.000Z",
+          "dur": 2419,
+          "opponents": [
+            {
+              "profileId": 17230386,
+              "name": "KBP"
+            },
+            {
+              "profileId": 17810712,
+              "name": "K4"
+            },
+            {
+              "profileId": 19222386,
+              "name": "Ai1738"
+            },
+            {
+              "profileId": 25130173,
+              "name": "\u272a Sonicaii"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6197605,
+              "name": "Cpt Wetbeard"
+            },
+            {
+              "profileId": 3379456,
+              "name": "IsidoreDucasse"
+            },
+            {
+              "profileId": 7540676,
+              "name": "xxneploaxx"
+            }
+          ]
+        },
+        {
+          "matchId": 509103007,
+          "civ": "Gurjaras",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:24:22.000Z",
+          "dur": 2382,
+          "opponents": [
+            {
+              "profileId": 23575652,
+              "name": "FLAME-99"
+            },
+            {
+              "profileId": 13309348,
+              "name": "jason916802"
+            },
+            {
+              "profileId": 6794763,
+              "name": "Peaky Blinders"
+            },
+            {
+              "profileId": 89387,
+              "name": "Schnipzl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21788333,
+              "name": "Rage of Khorne"
+            },
+            {
+              "profileId": 3379456,
+              "name": "IsidoreDucasse"
+            },
+            {
+              "profileId": 2571754,
+              "name": "LORD PETER"
+            }
+          ]
+        },
+        {
+          "matchId": 509093505,
+          "civ": "Mongols",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T13:34:05.000Z",
+          "dur": 2859,
+          "opponents": [
+            {
+              "profileId": 1858450,
+              "name": "Okisan"
+            },
+            {
+              "profileId": 4820034,
+              "name": "Tree_Goldberg"
+            },
+            {
+              "profileId": 223350,
+              "name": "ZHurald ZHurdrada"
+            },
+            {
+              "profileId": 1550673,
+              "name": "Priedrich"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25761119,
+              "name": "q721372930"
+            },
+            {
+              "profileId": 21788333,
+              "name": "Rage of Khorne"
+            },
+            {
+              "profileId": 3379456,
+              "name": "IsidoreDucasse"
+            }
+          ]
+        },
         {
           "matchId": 507278890,
           "civ": "Saracens",
@@ -9825,5 +9951,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

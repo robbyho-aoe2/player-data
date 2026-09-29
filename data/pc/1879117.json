@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 26,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1469,
         "peakRating": 1486
       },
@@ -445,12 +445,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 439,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1182,
+        "totalGames": 440,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1198,
         "peakRating": 1322
       },
       "matches": [
+        {
+          "matchId": 509915163,
+          "civ": "Teutons",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:21:12.000Z",
+          "dur": 1151,
+          "opponents": [
+            {
+              "profileId": 21093856,
+              "name": "Mandingo"
+            },
+            {
+              "profileId": 4365263,
+              "name": "Makarov99"
+            },
+            {
+              "profileId": 5322816,
+              "name": "asd40130069"
+            },
+            {
+              "profileId": 5418471,
+              "name": "AztecKiller2427"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 178118,
+              "name": "RoaZorro"
+            },
+            {
+              "profileId": 2519589,
+              "name": "huell"
+            },
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            }
+          ]
+        },
         {
           "matchId": 507694193,
           "civ": "Persians",
@@ -17809,5 +17851,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

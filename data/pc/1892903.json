@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 620,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-29",
         "latestRating": 1123,
         "peakRating": 1359
       },
@@ -9950,12 +9950,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1372,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1239,
+        "totalGames": 1376,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1244,
         "peakRating": 1315
       },
       "matches": [
+        {
+          "matchId": 509378720,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:35:02.000Z",
+          "dur": 438,
+          "opponents": [
+            {
+              "profileId": 2454796,
+              "name": "KinomtheKaiser"
+            },
+            {
+              "profileId": 2506383,
+              "name": "ASTORONGA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1892744,
+              "name": "\u2655Shefik\u2655"
+            }
+          ]
+        },
+        {
+          "matchId": 509373757,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:13:53.000Z",
+          "dur": 1036,
+          "opponents": [
+            {
+              "profileId": 663981,
+              "name": "\u88dd\u7532\u87d1\u8782"
+            },
+            {
+              "profileId": 6833412,
+              "name": "\u53cb\u5584\u725b\u725b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1892744,
+              "name": "\u2655Shefik\u2655"
+            }
+          ]
+        },
+        {
+          "matchId": 509311059,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:23:26.000Z",
+          "dur": 1094,
+          "opponents": [
+            {
+              "profileId": 10805268,
+              "name": "Veampyr"
+            },
+            {
+              "profileId": 1224464,
+              "name": "Billeybowb"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1892744,
+              "name": "\u2655Shefik\u2655"
+            }
+          ]
+        },
+        {
+          "matchId": 509308197,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:03:19.000Z",
+          "dur": 1063,
+          "opponents": [
+            {
+              "profileId": 1224464,
+              "name": "Billeybowb"
+            },
+            {
+              "profileId": 10805268,
+              "name": "Veampyr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1892744,
+              "name": "\u2655Shefik\u2655"
+            }
+          ]
+        },
         {
           "matchId": 506451237,
           "civ": "Persians",
@@ -44625,5 +44729,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

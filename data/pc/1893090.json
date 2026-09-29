@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 578,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1580,
         "peakRating": 1734
       },
@@ -9855,12 +9855,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 453,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1539,
+        "totalGames": 454,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1524,
         "peakRating": 1674
       },
       "matches": [
+        {
+          "matchId": 509491457,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:10:28.000Z",
+          "dur": 3157,
+          "opponents": [
+            {
+              "profileId": 9807075,
+              "name": "stroemming14"
+            },
+            {
+              "profileId": 1451709,
+              "name": "TOM LE CHAMEAU"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1159447,
+              "name": "VALHALLA"
+            }
+          ]
+        },
         {
           "matchId": 503271582,
           "civ": "Dravidians",
@@ -25852,5 +25878,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

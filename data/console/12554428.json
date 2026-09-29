@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -79,12 +79,64 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 49,
-        "pulledDate": "2026-09-26",
-        "latestRating": 791,
+        "totalGames": 51,
+        "pulledDate": "2026-09-29",
+        "latestRating": 784,
         "peakRating": 908
       },
       "matches": [
+        {
+          "matchId": 509595609,
+          "civ": "Britons",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:17:22.000Z",
+          "dur": 766,
+          "opponents": [
+            {
+              "profileId": 14642655,
+              "name": "Deli Yozgatli"
+            },
+            {
+              "profileId": 12795292,
+              "name": "Calderwood91"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12464822,
+              "name": "est2951"
+            }
+          ]
+        },
+        {
+          "matchId": 509591632,
+          "civ": "Britons",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:51:46.000Z",
+          "dur": 918,
+          "opponents": [
+            {
+              "profileId": 12722808,
+              "name": "ShyHarbor228469"
+            },
+            {
+              "profileId": 14642655,
+              "name": "Deli Yozgatli"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12464822,
+              "name": "est2951"
+            }
+          ]
+        },
         {
           "matchId": 509463054,
           "civ": "Britons",
@@ -1386,14 +1438,14 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 13,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 524,
         "peakRating": 612
       },
@@ -1800,5 +1852,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Xbox"
 }

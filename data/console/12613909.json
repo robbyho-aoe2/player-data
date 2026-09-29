@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1000
       },
       "matches": [
@@ -31,7 +31,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1285,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1380,
         "peakRating": 1546
       },
@@ -48806,18 +48806,102 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 992,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1213,
+        "totalGames": 994,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1207,
         "peakRating": 1332
       },
       "matches": [
+        {
+          "matchId": 509999600,
+          "civ": "Burgundians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:45:32.000Z",
+          "dur": 97,
+          "opponents": [
+            {
+              "profileId": 17516876,
+              "name": "SIN CLAN"
+            },
+            {
+              "profileId": 1115755,
+              "name": "El Conchetumare"
+            },
+            {
+              "profileId": 1478393,
+              "name": "Ralf, o fareja noob"
+            },
+            {
+              "profileId": 5741031,
+              "name": "Porro bal\u00f3n de oro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2352091,
+              "name": "SnakyPringle"
+            },
+            {
+              "profileId": 12645430,
+              "name": "TamerCaribou922"
+            },
+            {
+              "profileId": 12872993,
+              "name": "IdleCylinder564"
+            }
+          ]
+        },
+        {
+          "matchId": 509735755,
+          "civ": "Incas",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:08:50.000Z",
+          "dur": 1807,
+          "opponents": [
+            {
+              "profileId": 501078,
+              "name": "steves"
+            },
+            {
+              "profileId": 13117321,
+              "name": "TriTone"
+            },
+            {
+              "profileId": 3828091,
+              "name": "Lithium"
+            },
+            {
+              "profileId": 21231480,
+              "name": "phlyp"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2448185,
+              "name": "Peppyzizzle25"
+            },
+            {
+              "profileId": 3218941,
+              "name": "BaianinhoDeMaua"
+            },
+            {
+              "profileId": 3070464,
+              "name": "ju@mpi"
+            }
+          ]
+        },
         {
           "matchId": 508778489,
           "civ": "Incas",
@@ -89440,5 +89524,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

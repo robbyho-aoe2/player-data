@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 461,
-        "pulledDate": "2026-09-21",
-        "latestRating": 1102,
+        "totalGames": 464,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1085,
         "peakRating": 1159
       },
       "matches": [
+        {
+          "matchId": 509968870,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:32:56.000Z",
+          "dur": 2043,
+          "opponents": [
+            {
+              "profileId": 17354720,
+              "name": "=MVK="
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509730182,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:44:39.000Z",
+          "dur": 1604,
+          "opponents": [
+            {
+              "profileId": 10186565,
+              "name": "CHAT OFF"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509723454,
+          "civ": "Japanese",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:16:24.000Z",
+          "dur": 1585,
+          "opponents": [
+            {
+              "profileId": 3183880,
+              "name": "Mariov1989"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508073283,
           "civ": "Magyars",
@@ -7867,7 +7918,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 416,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-29",
         "latestRating": 1112,
         "peakRating": 1175
       },
@@ -18781,5 +18832,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

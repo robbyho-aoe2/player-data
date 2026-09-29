@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 116,
-        "pulledDate": "2026-09-17",
+        "pulledDate": "2026-09-29",
         "latestRating": 1509,
         "peakRating": 1530
       },
@@ -1871,12 +1871,64 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 1333,
-        "pulledDate": "2026-09-17",
-        "latestRating": 1475,
+        "totalGames": 1335,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1464,
         "peakRating": 1681
       },
       "matches": [
+        {
+          "matchId": 509998781,
+          "civ": "Bulgarians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:39:43.000Z",
+          "dur": 1969,
+          "opponents": [
+            {
+              "profileId": 13151472,
+              "name": "JMelby15"
+            },
+            {
+              "profileId": 12868111,
+              "name": "MORIS0202"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13096610,
+              "name": "Boagies"
+            }
+          ]
+        },
+        {
+          "matchId": 509995146,
+          "civ": "Bulgarians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:17:53.000Z",
+          "dur": 1055,
+          "opponents": [
+            {
+              "profileId": 12914282,
+              "name": "EdgarAlRiver"
+            },
+            {
+              "profileId": 14824164,
+              "name": "DCLogue"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13096610,
+              "name": "Boagies"
+            }
+          ]
+        },
         {
           "matchId": 506971440,
           "civ": "Bulgarians",
@@ -38527,7 +38579,7 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -38551,7 +38603,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-17",
+        "pulledDate": "2026-09-29",
         "latestRating": 1076,
         "peakRating": 1076
       },
@@ -39012,5 +39064,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

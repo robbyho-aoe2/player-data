@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 782,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1157,
+        "totalGames": 788,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1160,
         "peakRating": 1259
       },
       "matches": [
+        {
+          "matchId": 509951586,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:07:48.000Z",
+          "dur": 133,
+          "opponents": [
+            {
+              "profileId": 10995387,
+              "name": "EL TOPO YIYO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509948508,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:54:23.000Z",
+          "dur": 741,
+          "opponents": [
+            {
+              "profileId": 1864830,
+              "name": "Metamorfose AMBULANTE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509844718,
+          "civ": "Saxons",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:59:04.000Z",
+          "dur": 2726,
+          "opponents": [
+            {
+              "profileId": 24239598,
+              "name": "manit"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509842870,
+          "civ": "Saxons",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:39:49.000Z",
+          "dur": 1029,
+          "opponents": [
+            {
+              "profileId": 6877443,
+              "name": "terry8863"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509107020,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:44:29.000Z",
+          "dur": 1679,
+          "opponents": [
+            {
+              "profileId": 14728754,
+              "name": "kvlpnd"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509106706,
+          "civ": "Britons",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-25",
+          "startedAt": "2026-09-25T14:42:53.000Z",
+          "dur": 10,
+          "opponents": [
+            {
+              "profileId": 25883671,
+              "name": "Echo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508961677,
           "civ": "Danes",
@@ -13324,7 +13426,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 381,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-29",
         "latestRating": 1215,
         "peakRating": 1231
       },
@@ -24241,5 +24343,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 346,
-        "pulledDate": "2026-09-24",
-        "latestRating": 668,
+        "totalGames": 347,
+        "pulledDate": "2026-09-29",
+        "latestRating": 651,
         "peakRating": 818
       },
       "matches": [
+        {
+          "matchId": 509641764,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:59:26.000Z",
+          "dur": 529,
+          "opponents": [
+            {
+              "profileId": 1957112,
+              "name": "Brick"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508973314,
           "civ": "Persians",
@@ -5581,12 +5598,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 874,
-        "pulledDate": "2026-09-24",
-        "latestRating": 786,
+        "totalGames": 876,
+        "pulledDate": "2026-09-29",
+        "latestRating": 814,
         "peakRating": 914
       },
       "matches": [
+        {
+          "matchId": 509969905,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:39:35.000Z",
+          "dur": 2805,
+          "opponents": [
+            {
+              "profileId": 21425612,
+              "name": "Cholo-Mochica"
+            },
+            {
+              "profileId": 24422461,
+              "name": "Ka-mi-ka-ze"
+            },
+            {
+              "profileId": 604136,
+              "name": "Zombyou"
+            },
+            {
+              "profileId": 776072,
+              "name": "Max10Meridio823"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17308583,
+              "name": "Gsamp"
+            },
+            {
+              "profileId": 4756607,
+              "name": "netboks"
+            },
+            {
+              "profileId": 1988626,
+              "name": "AbiXNorth"
+            }
+          ]
+        },
+        {
+          "matchId": 509651645,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:39:09.000Z",
+          "dur": 1707,
+          "opponents": [
+            {
+              "profileId": 14135624,
+              "name": "Garzillo"
+            },
+            {
+              "profileId": 2630997,
+              "name": "boby25640"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21436923,
+              "name": "ChileAvaria"
+            }
+          ]
+        },
         {
           "matchId": 508966271,
           "civ": "Persians",
@@ -31633,5 +31718,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

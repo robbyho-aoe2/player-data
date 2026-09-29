@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 458,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-09-29",
         "latestRating": 1124,
         "peakRating": 1159
       },
@@ -7357,12 +7357,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 309,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1151,
+        "totalGames": 310,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1166,
         "peakRating": 1229
       },
       "matches": [
+        {
+          "matchId": 509648693,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:26:58.000Z",
+          "dur": 2304,
+          "opponents": [
+            {
+              "profileId": 3755384,
+              "name": "Lucuman"
+            },
+            {
+              "profileId": 3023922,
+              "name": "misspandemia"
+            },
+            {
+              "profileId": 2671776,
+              "name": "PorotosConRiendas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2335068,
+              "name": "Not enough wood, Milord"
+            },
+            {
+              "profileId": 2281614,
+              "name": "cnu"
+            }
+          ]
+        },
         {
           "matchId": 504805224,
           "civ": "Wei",
@@ -17633,5 +17667,6 @@
   },
   "country": "no",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf4",
-  "countryName": "Norway"
+  "countryName": "Norway",
+  "platform": "Steam"
 }

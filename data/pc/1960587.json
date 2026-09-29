@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 539,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1087,
+        "totalGames": 542,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1071,
         "peakRating": 1190
       },
       "matches": [
+        {
+          "matchId": 509758619,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:01:23.000Z",
+          "dur": 1759,
+          "opponents": [
+            {
+              "profileId": 25320318,
+              "name": "Dr.DOOM"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509735044,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:05:01.000Z",
+          "dur": 1853,
+          "opponents": [
+            {
+              "profileId": 6831189,
+              "name": "Tomas Musillson"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509729401,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:41:17.000Z",
+          "dur": 981,
+          "opponents": [
+            {
+              "profileId": 1913114,
+              "name": "xctrackrunner2222"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506257967,
           "civ": "Magyars",
@@ -9193,7 +9244,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1395,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-29",
         "latestRating": 1153,
         "peakRating": 1206
       },
@@ -57209,5 +57260,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }
