@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1488,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1210,
+        "totalGames": 1492,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1212,
         "peakRating": 1420
       },
       "matches": [
+        {
+          "matchId": 509732653,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:55:23.000Z",
+          "dur": 2459,
+          "opponents": [
+            {
+              "profileId": 994514,
+              "name": "WMD"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509724999,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:23:41.000Z",
+          "dur": 1666,
+          "opponents": [
+            {
+              "profileId": 4817260,
+              "name": "Hakkelaar"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509718542,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:57:41.000Z",
+          "dur": 1476,
+          "opponents": [
+            {
+              "profileId": 14991018,
+              "name": "moeb"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509712929,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:37:01.000Z",
+          "dur": 1203,
+          "opponents": [
+            {
+              "profileId": 2852983,
+              "name": "Carburador"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508057475,
           "civ": "Incas",
@@ -23915,7 +23983,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1013,
         "peakRating": 1013
       },
@@ -24265,5 +24333,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

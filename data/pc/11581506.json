@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 51,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1144,
         "peakRating": 1144
       },
@@ -845,12 +845,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 693,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1173,
+        "totalGames": 695,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1204,
         "peakRating": 1329
       },
       "matches": [
+        {
+          "matchId": 510321738,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:00:23.000Z",
+          "dur": 1912,
+          "opponents": [
+            {
+              "profileId": 4746585,
+              "name": "Fernandez Sama"
+            },
+            {
+              "profileId": 593571,
+              "name": "Carlosfue14"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3259632,
+              "name": "po_v1ft!"
+            }
+          ]
+        },
+        {
+          "matchId": 510320826,
+          "civ": "Maya",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:55:36.000Z",
+          "dur": 174,
+          "opponents": [
+            {
+              "profileId": 487480,
+              "name": "Walter2000"
+            },
+            {
+              "profileId": 441759,
+              "name": "Hawk of Avalon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3259632,
+              "name": "po_v1ft!"
+            }
+          ]
+        },
         {
           "matchId": 508090035,
           "civ": "Maya",
@@ -20845,5 +20897,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Steam"
 }

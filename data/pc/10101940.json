@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 57,
-        "pulledDate": "2026-09-24",
-        "latestRating": 777,
+        "totalGames": 58,
+        "pulledDate": "2026-09-30",
+        "latestRating": 763,
         "peakRating": 777
       },
       "matches": [
+        {
+          "matchId": 509934233,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:50:27.000Z",
+          "dur": 1441,
+          "opponents": [
+            {
+              "profileId": 1342642,
+              "name": "Barkley B. Cooltimes"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506926458,
           "civ": "Portuguese",
@@ -999,7 +1016,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 164,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-30",
         "latestRating": 742,
         "peakRating": 1000
       },
@@ -6553,5 +6570,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

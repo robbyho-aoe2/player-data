@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 50,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1147,
         "peakRating": 1147
       },
@@ -829,12 +829,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1267,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1078,
+        "totalGames": 1271,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1043,
         "peakRating": 1207
       },
       "matches": [
+        {
+          "matchId": 510217603,
+          "civ": "Muisca",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:05:28.000Z",
+          "dur": 1152,
+          "opponents": [
+            {
+              "profileId": 21181529,
+              "name": "diegoperezprofe"
+            },
+            {
+              "profileId": 3560336,
+              "name": "The Invisible Man"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19619982,
+              "name": "Deivid"
+            }
+          ]
+        },
+        {
+          "matchId": 509757231,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:54:33.000Z",
+          "dur": 1547,
+          "opponents": [
+            {
+              "profileId": 24409484,
+              "name": "BaseBuilder"
+            },
+            {
+              "profileId": 1882539,
+              "name": "SolidSnake"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19619982,
+              "name": "Deivid"
+            }
+          ]
+        },
+        {
+          "matchId": 509749224,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:12:35.000Z",
+          "dur": 2364,
+          "opponents": [
+            {
+              "profileId": 22200651,
+              "name": "Heartbreaker"
+            },
+            {
+              "profileId": 19909412,
+              "name": "thelegendaryknight1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19619982,
+              "name": "Deivid"
+            }
+          ]
+        },
+        {
+          "matchId": 509742792,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:41:25.000Z",
+          "dur": 1649,
+          "opponents": [
+            {
+              "profileId": 4437927,
+              "name": "Pingu_14"
+            },
+            {
+              "profileId": 14782947,
+              "name": "WaywardTuna6"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19619982,
+              "name": "Deivid"
+            }
+          ]
+        },
         {
           "matchId": 509259312,
           "civ": "Varangians",
@@ -34161,5 +34265,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

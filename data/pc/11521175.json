@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 22,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1257,
+        "totalGames": 23,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1240,
         "peakRating": 1259
       },
       "matches": [
+        {
+          "matchId": 510293917,
+          "civ": "Bulgarians",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:12:08.000Z",
+          "dur": 1700,
+          "opponents": [
+            {
+              "profileId": 2356924,
+              "name": "Julu"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509142235,
           "civ": "Portuguese",
@@ -382,12 +399,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2829,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1276,
+        "totalGames": 2830,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1271,
         "peakRating": 1401
       },
       "matches": [
+        {
+          "matchId": 510273392,
+          "civ": "Maya",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:56:09.000Z",
+          "dur": 1690,
+          "opponents": [
+            {
+              "profileId": 969303,
+              "name": "rconant93"
+            },
+            {
+              "profileId": 24057816,
+              "name": "K\u00fcmmelbrot OP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3041011,
+              "name": "amaoko21"
+            }
+          ]
+        },
         {
           "matchId": 508727253,
           "civ": "Vikings",
@@ -78353,5 +78396,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

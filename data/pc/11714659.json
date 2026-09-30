@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 182,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1095,
         "peakRating": 1236
       },
@@ -2952,12 +2952,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 659,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1184,
+        "totalGames": 662,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1201,
         "peakRating": 1317
       },
       "matches": [
+        {
+          "matchId": 510171729,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:26:39.000Z",
+          "dur": 1660,
+          "opponents": [
+            {
+              "profileId": 2526593,
+              "name": "Tirano"
+            },
+            {
+              "profileId": 2493462,
+              "name": "vascoduro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20615930,
+              "name": "Lydiva"
+            }
+          ]
+        },
+        {
+          "matchId": 510160484,
+          "civ": "Burmese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:34:13.000Z",
+          "dur": 1383,
+          "opponents": [
+            {
+              "profileId": 26079392,
+              "name": "Chasers"
+            },
+            {
+              "profileId": 178118,
+              "name": "RoaZorro"
+            },
+            {
+              "profileId": 12139624,
+              "name": "Pte. psiquiatrico en pa\u00f1ales"
+            },
+            {
+              "profileId": 17306559,
+              "name": "Rbofff"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11426133,
+              "name": "AGS.Grimnel"
+            },
+            {
+              "profileId": 3928307,
+              "name": "AGS.ZefloneXx44"
+            },
+            {
+              "profileId": 1437390,
+              "name": "AGS.Sylvatica"
+            }
+          ]
+        },
+        {
+          "matchId": 510154337,
+          "civ": "Wei",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:06:42.000Z",
+          "dur": 1269,
+          "opponents": [
+            {
+              "profileId": 1616720,
+              "name": "EssLaBoa"
+            },
+            {
+              "profileId": 5629822,
+              "name": "MattVini"
+            },
+            {
+              "profileId": 5068406,
+              "name": "rusnexto"
+            },
+            {
+              "profileId": 2202609,
+              "name": "Pancho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11426133,
+              "name": "AGS.Grimnel"
+            },
+            {
+              "profileId": 3928307,
+              "name": "AGS.ZefloneXx44"
+            },
+            {
+              "profileId": 1437390,
+              "name": "AGS.Sylvatica"
+            }
+          ]
+        },
         {
           "matchId": 509187074,
           "civ": "Mongols",
@@ -26793,5 +26903,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

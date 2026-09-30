@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1006,
         "peakRating": 1097
       },
@@ -1287,12 +1287,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 694,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1049,
+        "totalGames": 698,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1066,
         "peakRating": 1176
       },
       "matches": [
+        {
+          "matchId": 510326136,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:24:12.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1419909,
+              "name": "\u5c0f\u5c0f\u5438\u7ba1"
+            },
+            {
+              "profileId": 8607447,
+              "name": "TingA"
+            },
+            {
+              "profileId": 5271927,
+              "name": "\u4e2d\u56fd\u8db3\u7403"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12031018,
+              "name": "blizzopop"
+            },
+            {
+              "profileId": 3072464,
+              "name": "Asura"
+            }
+          ]
+        },
+        {
+          "matchId": 510312532,
+          "civ": "Poles",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:09:45.000Z",
+          "dur": 2310,
+          "opponents": [
+            {
+              "profileId": 24714458,
+              "name": "DonBuzzito"
+            },
+            {
+              "profileId": 14119120,
+              "name": "jONY mELAVO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2307150,
+              "name": "DKT | BRESSAN"
+            }
+          ]
+        },
+        {
+          "matchId": 510145891,
+          "civ": "Poles",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:28:34.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 20938427,
+              "name": "KingArthur"
+            },
+            {
+              "profileId": 20876947,
+              "name": "\u00c7alooo"
+            },
+            {
+              "profileId": 20725565,
+              "name": "hannibal"
+            },
+            {
+              "profileId": 20817608,
+              "name": "romeo63"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9260831,
+              "name": "Onkel Peter"
+            },
+            {
+              "profileId": 2176345,
+              "name": "punctuletzzz1"
+            },
+            {
+              "profileId": 6790926,
+              "name": "gkyrkos7"
+            }
+          ]
+        },
+        {
+          "matchId": 510102438,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:38:25.000Z",
+          "dur": 1571,
+          "opponents": [
+            {
+              "profileId": 26048486,
+              "name": "Wild N\u00fbt Buster"
+            },
+            {
+              "profileId": 25472108,
+              "name": "Atlicious"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2383698,
+              "name": "Ccosmic"
+            }
+          ]
+        },
         {
           "matchId": 508498823,
           "civ": "Bohemians",
@@ -24166,5 +24294,6 @@
   },
   "country": "no",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf4",
-  "countryName": "Norway"
+  "countryName": "Norway",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1181,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1456,
+        "totalGames": 1183,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1469,
         "peakRating": 1654
       },
       "matches": [
+        {
+          "matchId": 510325410,
+          "civ": "Georgians",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:20:15.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 25122592,
+              "name": "GAX | Salom\u00e3o"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510320645,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:54:12.000Z",
+          "dur": 1406,
+          "opponents": [
+            {
+              "profileId": 782976,
+              "name": "aggarwal.sukrit"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509232289,
           "civ": "Slavs",
@@ -18957,7 +18991,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 974,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1349,
         "peakRating": 1465
       },
@@ -53670,5 +53704,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

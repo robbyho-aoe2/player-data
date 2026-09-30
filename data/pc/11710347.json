@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 959,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1233,
         "peakRating": 1272
       },
@@ -14432,12 +14432,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 817,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1198,
+        "totalGames": 821,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1161,
         "peakRating": 1304
       },
       "matches": [
+        {
+          "matchId": 510139234,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:56:32.000Z",
+          "dur": 2754,
+          "opponents": [
+            {
+              "profileId": 18270220,
+              "name": "Klarakitai"
+            },
+            {
+              "profileId": 6061231,
+              "name": "Bolchev"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3132539,
+              "name": "gabrielldu64"
+            }
+          ]
+        },
+        {
+          "matchId": 509990500,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:47:04.000Z",
+          "dur": 2151,
+          "opponents": [
+            {
+              "profileId": 2531400,
+              "name": "Jota Khan"
+            },
+            {
+              "profileId": 2474060,
+              "name": "tojoka"
+            },
+            {
+              "profileId": 3010773,
+              "name": "Smitty"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17330594,
+              "name": "Takipool19"
+            },
+            {
+              "profileId": 3132539,
+              "name": "gabrielldu64"
+            }
+          ]
+        },
+        {
+          "matchId": 509458566,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:16:36.000Z",
+          "dur": 1327,
+          "opponents": [
+            {
+              "profileId": 3290696,
+              "name": "lille chef"
+            },
+            {
+              "profileId": 3290677,
+              "name": "\u043c0\u043c\u043ce.exe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3132539,
+              "name": "gabrielldu64"
+            }
+          ]
+        },
+        {
+          "matchId": 509455090,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:01:28.000Z",
+          "dur": 726,
+          "opponents": [
+            {
+              "profileId": 3410415,
+              "name": "GeoOmar"
+            },
+            {
+              "profileId": 23449669,
+              "name": "AltF4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3132539,
+              "name": "gabrielldu64"
+            }
+          ]
+        },
         {
           "matchId": 509223285,
           "civ": "Mongols",
@@ -32312,5 +32424,6 @@
   },
   "country": "ec",
   "countryIcon": "\ud83c\uddea\ud83c\udde8",
-  "countryName": "Ecuador"
+  "countryName": "Ecuador",
+  "platform": "Steam"
 }

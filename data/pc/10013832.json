@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2555,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1575,
+        "totalGames": 2558,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1559,
         "peakRating": 1610
       },
       "matches": [
+        {
+          "matchId": 510141301,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:06:54.000Z",
+          "dur": 2304,
+          "opponents": [
+            {
+              "profileId": 287042,
+              "name": "erikolu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509652518,
+          "civ": "Saracens",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:42:41.000Z",
+          "dur": 780,
+          "opponents": [
+            {
+              "profileId": 4376093,
+              "name": "ulivr"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509457782,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:12:23.000Z",
+          "dur": 1025,
+          "opponents": [
+            {
+              "profileId": 1153800,
+              "name": "Nachomac"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509194376,
           "civ": "Saracens",
@@ -43464,12 +43515,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1748,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1336,
+        "totalGames": 1752,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1406,
         "peakRating": 1522
       },
       "matches": [
+        {
+          "matchId": 509934432,
+          "civ": "Saracens",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:51:23.000Z",
+          "dur": 1574,
+          "opponents": [
+            {
+              "profileId": 1136264,
+              "name": "elgrantato"
+            },
+            {
+              "profileId": 1472624,
+              "name": "[Kachop] Baryuan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23845274,
+              "name": "undesirable472"
+            }
+          ]
+        },
+        {
+          "matchId": 509679432,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:32:24.000Z",
+          "dur": 1579,
+          "opponents": [
+            {
+              "profileId": 375964,
+              "name": "_n0ne_"
+            },
+            {
+              "profileId": 1214064,
+              "name": "Vegeta"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14958188,
+              "name": "\u6162\u5de5\u51fa\u7d30\u6d3b"
+            }
+          ]
+        },
+        {
+          "matchId": 509657163,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:02:07.000Z",
+          "dur": 1605,
+          "opponents": [
+            {
+              "profileId": 2998133,
+              "name": "BERNARDO"
+            },
+            {
+              "profileId": 411483,
+              "name": "Tecno"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14816534,
+              "name": "Brutalitops"
+            }
+          ]
+        },
+        {
+          "matchId": 509452188,
+          "civ": "Saracens",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:48:54.000Z",
+          "dur": 1212,
+          "opponents": [
+            {
+              "profileId": 9081550,
+              "name": "Polito"
+            },
+            {
+              "profileId": 5995218,
+              "name": "Riper-Kun"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3312232,
+              "name": "ReF"
+            }
+          ]
+        },
         {
           "matchId": 509201838,
           "civ": "Italians",
@@ -89083,5 +89238,6 @@
   },
   "country": "ua",
   "countryIcon": "\ud83c\uddfa\ud83c\udde6",
-  "countryName": "Ukraine"
+  "countryName": "Ukraine",
+  "platform": "Xbox"
 }

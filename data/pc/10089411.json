@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1423,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 1178,
         "peakRating": 1314
       },
@@ -12857,12 +12857,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1346,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1320,
+        "totalGames": 1350,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1324,
         "peakRating": 1444
       },
       "matches": [
+        {
+          "matchId": 509994960,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:16:13.000Z",
+          "dur": 1056,
+          "opponents": [
+            {
+              "profileId": 439968,
+              "name": "NJ"
+            },
+            {
+              "profileId": 24920575,
+              "name": "digitallimao"
+            },
+            {
+              "profileId": 18970590,
+              "name": "rick rush"
+            },
+            {
+              "profileId": 1742969,
+              "name": "SS_Tioz\u00e3o"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1344602,
+              "name": "SecretAgent1942"
+            },
+            {
+              "profileId": 3169789,
+              "name": "Doak"
+            },
+            {
+              "profileId": 4659070,
+              "name": "Doctor Simi"
+            }
+          ]
+        },
+        {
+          "matchId": 509646286,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:17:06.000Z",
+          "dur": 2970,
+          "opponents": [
+            {
+              "profileId": 5474557,
+              "name": "\u53ea\u60f3\u641e\u4e8b"
+            },
+            {
+              "profileId": 20842714,
+              "name": "\u8fd8\u662f\u4ece\u524d\u90a3\u4e2a\u5c11\u5e74"
+            },
+            {
+              "profileId": 11213814,
+              "name": "HK El Primo"
+            },
+            {
+              "profileId": 11197881,
+              "name": "Leven\u4ed4\u4e0d\u4f1a\u73a9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4152316,
+              "name": "Gbeto Supastar"
+            },
+            {
+              "profileId": 18757566,
+              "name": "1352078704"
+            },
+            {
+              "profileId": 238977,
+              "name": "\u9526\u6c34\u6709\u9e33"
+            }
+          ]
+        },
+        {
+          "matchId": 509641598,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:59:18.000Z",
+          "dur": 876,
+          "opponents": [
+            {
+              "profileId": 3052845,
+              "name": "Noroad"
+            },
+            {
+              "profileId": 5125574,
+              "name": "1722767622"
+            },
+            {
+              "profileId": 6821693,
+              "name": "DKing"
+            },
+            {
+              "profileId": 9128942,
+              "name": "chase kong"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4152316,
+              "name": "Gbeto Supastar"
+            },
+            {
+              "profileId": 12143658,
+              "name": "Slayer"
+            },
+            {
+              "profileId": 271786,
+              "name": "Joestar"
+            }
+          ]
+        },
+        {
+          "matchId": 509635190,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:32:51.000Z",
+          "dur": 1433,
+          "opponents": [
+            {
+              "profileId": 1560996,
+              "name": "\u4e0d\u8bb8\u7a7f\u6253\u5e95\u88e4"
+            },
+            {
+              "profileId": 3052845,
+              "name": "Noroad"
+            },
+            {
+              "profileId": 6894398,
+              "name": "iiiiice"
+            },
+            {
+              "profileId": 15511981,
+              "name": "popo770723"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1949255,
+              "name": "French Connection"
+            },
+            {
+              "profileId": 2443606,
+              "name": "DK_Grunchito"
+            },
+            {
+              "profileId": 4152316,
+              "name": "Gbeto Supastar"
+            }
+          ]
+        },
         {
           "matchId": 501825514,
           "civ": "Persians",
@@ -25334,5 +25502,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

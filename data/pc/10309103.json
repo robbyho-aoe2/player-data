@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4499,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 2361,
         "peakRating": 2539
       },
@@ -72039,12 +72039,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1229,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1658,
+        "totalGames": 1232,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1693,
         "peakRating": 1812
       },
       "matches": [
+        {
+          "matchId": 509545646,
+          "civ": "Aztecs",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:28:49.000Z",
+          "dur": 896,
+          "opponents": [
+            {
+              "profileId": 311950,
+              "name": "Ohlan100"
+            },
+            {
+              "profileId": 22088922,
+              "name": "Marchantia"
+            },
+            {
+              "profileId": 21250211,
+              "name": "\u8ff7\u8def\u5c06\u519b"
+            },
+            {
+              "profileId": 2672175,
+              "name": "Sakmelo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25950390,
+              "name": "Don Magon"
+            },
+            {
+              "profileId": 18021913,
+              "name": "DC-Jota"
+            },
+            {
+              "profileId": 15770941,
+              "name": "PNAL | Trafalgar"
+            }
+          ]
+        },
+        {
+          "matchId": 509540376,
+          "civ": "Malay",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:53:51.000Z",
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 25054286,
+              "name": "VX | Gengar"
+            },
+            {
+              "profileId": 24039869,
+              "name": "VX | Obligame Perro!"
+            },
+            {
+              "profileId": 18504666,
+              "name": "VL Genghis Khan!!!"
+            },
+            {
+              "profileId": 15606462,
+              "name": "VX | JARV"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25950390,
+              "name": "Don Magon"
+            },
+            {
+              "profileId": 18021913,
+              "name": "DC-Jota"
+            },
+            {
+              "profileId": 15770941,
+              "name": "PNAL | Trafalgar"
+            }
+          ]
+        },
+        {
+          "matchId": 509537101,
+          "civ": "Goths",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:31:52.000Z",
+          "dur": 1145,
+          "opponents": [
+            {
+              "profileId": 7980485,
+              "name": "\u6559\u6388"
+            },
+            {
+              "profileId": 468651,
+              "name": "_LZ_"
+            },
+            {
+              "profileId": 1143560,
+              "name": "ChangT"
+            },
+            {
+              "profileId": 4434290,
+              "name": "Baby"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25950390,
+              "name": "Don Magon"
+            },
+            {
+              "profileId": 18021913,
+              "name": "DC-Jota"
+            },
+            {
+              "profileId": 15770941,
+              "name": "PNAL | Trafalgar"
+            }
+          ]
+        },
         {
           "matchId": 508591203,
           "civ": "Teutons",
@@ -119235,5 +119361,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

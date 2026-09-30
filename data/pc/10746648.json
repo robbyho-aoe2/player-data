@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 27,
-        "pulledDate": "2026-09-23",
-        "latestRating": 815,
+        "totalGames": 30,
+        "pulledDate": "2026-09-30",
+        "latestRating": 847,
         "peakRating": 910
       },
       "matches": [
+        {
+          "matchId": 510261218,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:40:29.000Z",
+          "dur": 684,
+          "opponents": [
+            {
+              "profileId": 2662091,
+              "name": "McThunder"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510250927,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T04:55:34.000Z",
+          "dur": 1517,
+          "opponents": [
+            {
+              "profileId": 6680168,
+              "name": "Heltrey"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510058539,
+          "civ": "Persians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:52:14.000Z",
+          "dur": 1794,
+          "opponents": [
+            {
+              "profileId": 337895,
+              "name": "GHoSTDoG"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508362593,
           "civ": "Italians",
@@ -488,12 +539,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 74,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1108,
-        "peakRating": 1118
+        "totalGames": 76,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1119,
+        "peakRating": 1129
       },
       "matches": [
+        {
+          "matchId": 509495095,
+          "civ": "Chinese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:32:43.000Z",
+          "dur": 2346,
+          "opponents": [
+            {
+              "profileId": 2798958,
+              "name": "MoTa"
+            },
+            {
+              "profileId": 5205311,
+              "name": "uu"
+            },
+            {
+              "profileId": 6210787,
+              "name": "VedtheAssasin"
+            },
+            {
+              "profileId": 2205533,
+              "name": "OLD_SAINT_DICK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2821721,
+              "name": "Medina90"
+            },
+            {
+              "profileId": 4662319,
+              "name": "Fairytale Fox"
+            },
+            {
+              "profileId": 277819,
+              "name": "D Old Man"
+            }
+          ]
+        },
+        {
+          "matchId": 509493811,
+          "civ": "Chinese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:24:37.000Z",
+          "dur": 216,
+          "opponents": [
+            {
+              "profileId": 1975577,
+              "name": "K"
+            },
+            {
+              "profileId": 4232171,
+              "name": "Duck Rattlehead"
+            },
+            {
+              "profileId": 22654202,
+              "name": "Gyurkobeats"
+            },
+            {
+              "profileId": 25593360,
+              "name": "\u9ad8\u5174\u5c31\u597d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 277819,
+              "name": "D Old Man"
+            },
+            {
+              "profileId": 2821721,
+              "name": "Medina90"
+            },
+            {
+              "profileId": 4662319,
+              "name": "Fairytale Fox"
+            }
+          ]
+        },
         {
           "matchId": 508189170,
           "civ": "Chinese",
@@ -3311,5 +3446,6 @@
   },
   "country": "nz",
   "countryIcon": "\ud83c\uddf3\ud83c\uddff",
-  "countryName": "New Zealand"
+  "countryName": "New Zealand",
+  "platform": "Steam"
 }

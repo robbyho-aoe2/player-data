@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 42,
-        "pulledDate": "2026-09-15",
-        "latestRating": 716,
+        "totalGames": 45,
+        "pulledDate": "2026-09-30",
+        "latestRating": 759,
         "peakRating": 900
       },
       "matches": [
+        {
+          "matchId": 510073139,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:24:28.000Z",
+          "dur": 1737,
+          "opponents": [
+            {
+              "profileId": 26124287,
+              "name": "\u54c4\u597d\u961f\u53cb\u5c31\u80fd\u8d62"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509966768,
+          "civ": "Incas",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:21:22.000Z",
+          "dur": 2075,
+          "opponents": [
+            {
+              "profileId": 11273735,
+              "name": "arjinsimsek97"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509778462,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:52:13.000Z",
+          "dur": 1720,
+          "opponents": [
+            {
+              "profileId": 6852198,
+              "name": "MathiusXII"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506633152,
           "civ": "Incas",
@@ -705,7 +756,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-15",
+        "pulledDate": "2026-09-30",
         "latestRating": 868,
         "peakRating": 982
       },
@@ -1243,5 +1294,6 @@
   },
   "country": "pl",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
-  "countryName": "Poland"
+  "countryName": "Poland",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 53,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 943,
         "peakRating": 993
       },
@@ -877,12 +877,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1882,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1162,
+        "totalGames": 1883,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1179,
         "peakRating": 1340
       },
       "matches": [
+        {
+          "matchId": 509705721,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:11:17.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 9385563,
+              "name": "offbyone"
+            },
+            {
+              "profileId": 534325,
+              "name": "G\u0131lgamesh \ud808\udd11\ud808\udc85\ud808\ude26"
+            },
+            {
+              "profileId": 451383,
+              "name": "Sageata"
+            },
+            {
+              "profileId": 339274,
+              "name": "Kotovsk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5023886,
+              "name": "ecm2002"
+            },
+            {
+              "profileId": 890300,
+              "name": "BlueStaR"
+            },
+            {
+              "profileId": 106070,
+              "name": "Chelsea Smile"
+            }
+          ]
+        },
         {
           "matchId": 509171629,
           "civ": "Mongols",
@@ -69796,5 +69838,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

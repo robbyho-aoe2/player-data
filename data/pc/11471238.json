@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 103,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1408,
         "peakRating": 1408
       },
@@ -1694,12 +1694,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 187,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1280,
-        "peakRating": 1293
+        "totalGames": 188,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1296,
+        "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 509567574,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:06:13.000Z",
+          "dur": 2220,
+          "opponents": [
+            {
+              "profileId": 26053918,
+              "name": "_TY_\u68a6\u6daf"
+            },
+            {
+              "profileId": 9982945,
+              "name": "\u80e1\u4e71\u6572\u952e\u76d8"
+            },
+            {
+              "profileId": 6200650,
+              "name": "_TY_\u54c1\u5473"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 215994,
+              "name": "schlauchnase"
+            },
+            {
+              "profileId": 4661047,
+              "name": "Naschii"
+            }
+          ]
+        },
         {
           "matchId": 509216430,
           "civ": "Britons",
@@ -8843,5 +8877,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

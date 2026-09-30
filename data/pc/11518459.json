@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 334,
-        "pulledDate": "2026-09-26",
-        "latestRating": 837,
+        "totalGames": 336,
+        "pulledDate": "2026-09-30",
+        "latestRating": 820,
         "peakRating": 885
       },
       "matches": [
+        {
+          "matchId": 509911491,
+          "civ": "Britons",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:01:49.000Z",
+          "dur": 2698,
+          "opponents": [
+            {
+              "profileId": 1879350,
+              "name": "ilPerozzi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509617526,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:16:04.000Z",
+          "dur": 1483,
+          "opponents": [
+            {
+              "profileId": 24972892,
+              "name": "\u5c0f\u6cb3\u5742\u68a6"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509351529,
           "civ": "Bulgarians",
@@ -5096,12 +5130,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 89,
-        "pulledDate": "2026-09-26",
-        "latestRating": 752,
+        "totalGames": 92,
+        "pulledDate": "2026-09-30",
+        "latestRating": 773,
         "peakRating": 839
       },
       "matches": [
+        {
+          "matchId": 509932457,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:42:35.000Z",
+          "dur": 1947,
+          "opponents": [
+            {
+              "profileId": 1299045,
+              "name": "Hydropris"
+            },
+            {
+              "profileId": 856545,
+              "name": "haduardsauro"
+            },
+            {
+              "profileId": 1323778,
+              "name": "Zyel Blblbl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3532963,
+              "name": "maalrugu"
+            },
+            {
+              "profileId": 1917528,
+              "name": "Pilgrim"
+            }
+          ]
+        },
+        {
+          "matchId": 509927183,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:18:38.000Z",
+          "dur": 1070,
+          "opponents": [
+            {
+              "profileId": 18931089,
+              "name": "Sir Corsario II"
+            },
+            {
+              "profileId": 1541113,
+              "name": "LiL Dogga"
+            },
+            {
+              "profileId": 24998705,
+              "name": "Zerfer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22721673,
+              "name": "rtxron99ti"
+            },
+            {
+              "profileId": 22594159,
+              "name": "JAEC"
+            }
+          ]
+        },
+        {
+          "matchId": 509420226,
+          "civ": "Magyars",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:36:29.000Z",
+          "dur": 2441,
+          "opponents": [
+            {
+              "profileId": 12521012,
+              "name": "Hamurabi1"
+            },
+            {
+              "profileId": 15633726,
+              "name": "DENVER"
+            },
+            {
+              "profileId": 16149050,
+              "name": "Williamjason007"
+            },
+            {
+              "profileId": 760708,
+              "name": "frizboum"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25808024,
+              "name": "Llathandir"
+            },
+            {
+              "profileId": 13706594,
+              "name": "CanineSteak5198"
+            },
+            {
+              "profileId": 25244894,
+              "name": "brad"
+            }
+          ]
+        },
         {
           "matchId": 509147766,
           "civ": "Berbers",
@@ -8023,5 +8167,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Steam"
 }

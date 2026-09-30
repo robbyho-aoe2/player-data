@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1142,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1372,
+        "totalGames": 1143,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1353,
         "peakRating": 1418
       },
       "matches": [
+        {
+          "matchId": 509751684,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:24:53.000Z",
+          "dur": 422,
+          "opponents": [
+            {
+              "profileId": 5625963,
+              "name": "Mithrandir"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505285813,
           "civ": "Magyars",
@@ -19443,12 +19460,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 734,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1273,
+        "totalGames": 735,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1257,
         "peakRating": 1338
       },
       "matches": [
+        {
+          "matchId": 509745874,
+          "civ": "Vikings",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:56:28.000Z",
+          "dur": 1223,
+          "opponents": [
+            {
+              "profileId": 6385443,
+              "name": "SergioH26"
+            },
+            {
+              "profileId": 5995218,
+              "name": "Riper-Kun"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5112047,
+              "name": "paulo.butori"
+            }
+          ]
+        },
         {
           "matchId": 508756901,
           "civ": "Vikings",
@@ -42762,5 +42805,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

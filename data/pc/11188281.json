@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2188,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1242,
+        "totalGames": 2191,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1256,
         "peakRating": 1347
       },
       "matches": [
+        {
+          "matchId": 509949744,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:59:31.000Z",
+          "dur": 2141,
+          "opponents": [
+            {
+              "profileId": 24074346,
+              "name": "BillieDownn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509941477,
+          "civ": "Slavs",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:21:55.000Z",
+          "dur": 1384,
+          "opponents": [
+            {
+              "profileId": 8302494,
+              "name": "Beaker"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509932568,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:43:08.000Z",
+          "dur": 1298,
+          "opponents": [
+            {
+              "profileId": 11313842,
+              "name": "luciano.collari"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509161861,
           "civ": "Slavs",
@@ -37225,12 +37276,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 720,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1191,
+        "totalGames": 721,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1173,
         "peakRating": 1391
       },
       "matches": [
+        {
+          "matchId": 509938444,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:09:06.000Z",
+          "dur": 737,
+          "opponents": [
+            {
+              "profileId": 24670174,
+              "name": "FreshCarp8370"
+            },
+            {
+              "profileId": 17120353,
+              "name": "Prince Of The Darkness"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 557539,
+              "name": "hdperezn"
+            }
+          ]
+        },
         {
           "matchId": 509114636,
           "civ": "Slavs",
@@ -55956,5 +56033,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

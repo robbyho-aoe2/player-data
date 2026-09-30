@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 76,
-        "pulledDate": "2026-09-26",
+        "totalGames": 78,
+        "pulledDate": "2026-09-30",
         "latestRating": 927,
         "peakRating": 961
       },
       "matches": [
+        {
+          "matchId": 509599302,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:38:51.000Z",
+          "dur": 2055,
+          "opponents": [
+            {
+              "profileId": 23784258,
+              "name": "...1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509586650,
+          "civ": "Mongols",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:17:53.000Z",
+          "dur": 1994,
+          "opponents": [
+            {
+              "profileId": 21596883,
+              "name": "Pawua Zoro"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508894553,
           "civ": "Bohemians",
@@ -1321,12 +1355,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 517,
-        "pulledDate": "2026-09-26",
-        "latestRating": 989,
+        "totalGames": 520,
+        "pulledDate": "2026-09-30",
+        "latestRating": 940,
         "peakRating": 1090
       },
       "matches": [
+        {
+          "matchId": 509631074,
+          "civ": "Lithuanians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:16:17.000Z",
+          "dur": 1732,
+          "opponents": [
+            {
+              "profileId": 2921571,
+              "name": "CNZS_\u6eaa\u8d85"
+            },
+            {
+              "profileId": 20151594,
+              "name": "\u4f10\u4f10\u4f10\u4f10\u4f10\u4f10 \u4f10\u6728\u5de5"
+            },
+            {
+              "profileId": 11905500,
+              "name": "Daemon Targaryen"
+            },
+            {
+              "profileId": 10482946,
+              "name": "\u7b49\u6211\u4e0a\u5e1d\u738b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23655618,
+              "name": "Ken"
+            },
+            {
+              "profileId": 10314133,
+              "name": "Zafar"
+            },
+            {
+              "profileId": 26168835,
+              "name": "863111034"
+            }
+          ]
+        },
+        {
+          "matchId": 509624727,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:48:54.000Z",
+          "dur": 1141,
+          "opponents": [
+            {
+              "profileId": 3962820,
+              "name": "Bantum"
+            },
+            {
+              "profileId": 7429693,
+              "name": "Legolas"
+            },
+            {
+              "profileId": 20167666,
+              "name": "EggyPorcupine"
+            },
+            {
+              "profileId": 12506367,
+              "name": "Mydloos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23207652,
+              "name": "justjust"
+            },
+            {
+              "profileId": 23189414,
+              "name": "\u96e8\u843d"
+            },
+            {
+              "profileId": 18297983,
+              "name": "xr0015"
+            }
+          ]
+        },
+        {
+          "matchId": 509606619,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:21:45.000Z",
+          "dur": 1659,
+          "opponents": [
+            {
+              "profileId": 19079026,
+              "name": "bro"
+            },
+            {
+              "profileId": 23978644,
+              "name": "espen25hansen"
+            },
+            {
+              "profileId": 24487284,
+              "name": "\u7b28\u624b\u7b28\u811a\u8fd8\u7231\u73a9"
+            },
+            {
+              "profileId": 1941012,
+              "name": "spilling"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26076675,
+              "name": "kailashsaravanaraj"
+            },
+            {
+              "profileId": 25698820,
+              "name": "ASCII"
+            },
+            {
+              "profileId": 26168835,
+              "name": "863111034"
+            }
+          ]
+        },
         {
           "matchId": 509018450,
           "civ": "Mongols",
@@ -22710,5 +22870,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 620,
-        "pulledDate": "2026-09-22",
-        "latestRating": 837,
+        "totalGames": 626,
+        "pulledDate": "2026-09-30",
+        "latestRating": 863,
         "peakRating": 991
       },
       "matches": [
+        {
+          "matchId": 510078327,
+          "civ": "Goths",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:08:03.000Z",
+          "dur": 872,
+          "opponents": [
+            {
+              "profileId": 10951745,
+              "name": "dadamora"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509818028,
+          "civ": "Goths",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:17:19.000Z",
+          "dur": 1813,
+          "opponents": [
+            {
+              "profileId": 1556542,
+              "name": "Sir Paul"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509815033,
+          "civ": "Goths",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:50:30.000Z",
+          "dur": 1480,
+          "opponents": [
+            {
+              "profileId": 6792412,
+              "name": "hypori"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509673141,
+          "civ": "Goths",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:06:15.000Z",
+          "dur": 1785,
+          "opponents": [
+            {
+              "profileId": 15420029,
+              "name": "bayon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509653018,
+          "civ": "Goths",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:43:57.000Z",
+          "dur": 1180,
+          "opponents": [
+            {
+              "profileId": 25218463,
+              "name": "HalfHazzard"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509544656,
+          "civ": "Goths",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:21:09.000Z",
+          "dur": 1711,
+          "opponents": [
+            {
+              "profileId": 9917800,
+              "name": "jk_potts"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508220637,
           "civ": "Goths",
@@ -10570,7 +10672,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -10604,5 +10706,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

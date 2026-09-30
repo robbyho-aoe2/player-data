@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1806,
-        "pulledDate": "2026-09-22",
+        "totalGames": 1808,
+        "pulledDate": "2026-09-30",
         "latestRating": 1074,
         "peakRating": 1208
       },
       "matches": [
+        {
+          "matchId": 509924638,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:06:49.000Z",
+          "dur": 1346,
+          "opponents": [
+            {
+              "profileId": 6298519,
+              "name": "Mantecon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509583451,
+          "civ": "Cumans",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:55:50.000Z",
+          "dur": 1285,
+          "opponents": [
+            {
+              "profileId": 2426081,
+              "name": "Iberbulk"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507931201,
           "civ": "Dravidians",
@@ -28962,12 +28996,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1792,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1096,
+        "totalGames": 1793,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1110,
         "peakRating": 1227
       },
       "matches": [
+        {
+          "matchId": 509586966,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:20:03.000Z",
+          "dur": 1325,
+          "opponents": [
+            {
+              "profileId": 12171339,
+              "name": "Trabuco"
+            },
+            {
+              "profileId": 12376304,
+              "name": "PeterHustinov"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11228740,
+              "name": ".BTB kral"
+            }
+          ]
+        },
         {
           "matchId": 508451693,
           "civ": "Cumans",
@@ -85303,5 +85363,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

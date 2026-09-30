@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 106,
-        "pulledDate": "2026-09-26",
-        "latestRating": 939,
+        "totalGames": 110,
+        "pulledDate": "2026-09-30",
+        "latestRating": 970,
         "peakRating": 1017
       },
       "matches": [
+        {
+          "matchId": 509719224,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:00:15.000Z",
+          "dur": 1535,
+          "opponents": [
+            {
+              "profileId": 23281261,
+              "name": "vietbeo11"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509676829,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:20:52.000Z",
+          "dur": 2252,
+          "opponents": [
+            {
+              "profileId": 2158609,
+              "name": "LangsTrom"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509638408,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:44:24.000Z",
+          "dur": 1703,
+          "opponents": [
+            {
+              "profileId": 20810263,
+              "name": "EmptyFull"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509605466,
+          "civ": "Bulgarians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:15:27.000Z",
+          "dur": 1600,
+          "opponents": [
+            {
+              "profileId": 6910555,
+              "name": "Big Boss Romano"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509161536,
           "civ": "Italians",
@@ -1832,12 +1900,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     }
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 774,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1218,
+        "totalGames": 779,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1169,
         "peakRating": 1267
       },
       "matches": [
+        {
+          "matchId": 510071461,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:10:54.000Z",
+          "dur": 1506,
+          "opponents": [
+            {
+              "profileId": 5151281,
+              "name": "chatelle.gilles"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510071152,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:08:04.000Z",
+          "dur": 16,
+          "opponents": [
+            {
+              "profileId": 1094934,
+              "name": "danikun1614"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509716420,
+          "civ": "Teutons",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:50:10.000Z",
+          "dur": 33,
+          "opponents": [
+            {
+              "profileId": 1431163,
+              "name": "Cobos SANTOS (Cabo)"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509714199,
+          "civ": "Japanese",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:41:59.000Z",
+          "dur": 416,
+          "opponents": [
+            {
+              "profileId": 1431163,
+              "name": "Cobos SANTOS (Cabo)"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509707228,
+          "civ": "Cumans",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:16:25.000Z",
+          "dur": 1464,
+          "opponents": [
+            {
+              "profileId": 9475889,
+              "name": "PepperoniPizza"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509255754,
           "civ": "Cumans",
@@ -12438,7 +12523,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 607,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1096,
         "peakRating": 1111
       },
@@ -32511,5 +32596,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

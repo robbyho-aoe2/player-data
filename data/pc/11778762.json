@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1653,
         "peakRating": 1679
       },
@@ -1213,12 +1213,174 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 451,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1718,
+        "totalGames": 456,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1722,
         "peakRating": 1775
       },
       "matches": [
+        {
+          "matchId": 510174062,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:37:51.000Z",
+          "dur": 1807,
+          "opponents": [
+            {
+              "profileId": 238759,
+              "name": "benja23"
+            },
+            {
+              "profileId": 1371787,
+              "name": "LLaRLLi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 246481,
+              "name": "VL SlenderMan"
+            }
+          ]
+        },
+        {
+          "matchId": 510168590,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:11:05.000Z",
+          "dur": 1406,
+          "opponents": [
+            {
+              "profileId": 4870386,
+              "name": "\u6296\u97f3KK"
+            },
+            {
+              "profileId": 19010145,
+              "name": "jueaadjx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 246481,
+              "name": "VL SlenderMan"
+            }
+          ]
+        },
+        {
+          "matchId": 510160139,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:32:42.000Z",
+          "dur": 1984,
+          "opponents": [
+            {
+              "profileId": 15952678,
+              "name": "Joseph90"
+            },
+            {
+              "profileId": 10816438,
+              "name": "TandemTooth"
+            },
+            {
+              "profileId": 616997,
+              "name": "Long-Long-Way"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17073673,
+              "name": "VL Marcelsanz"
+            },
+            {
+              "profileId": 246481,
+              "name": "VL SlenderMan"
+            }
+          ]
+        },
+        {
+          "matchId": 509803444,
+          "civ": "Chinese",
+          "map": "Pilgrims",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:21:48.000Z",
+          "dur": 858,
+          "opponents": [
+            {
+              "profileId": 2109423,
+              "name": "canodez"
+            },
+            {
+              "profileId": 5086919,
+              "name": "andyf.1904"
+            },
+            {
+              "profileId": 10789055,
+              "name": "I like to play Random"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 122221,
+              "name": "VL Le_Manch"
+            },
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            }
+          ]
+        },
+        {
+          "matchId": 509800391,
+          "civ": "Portuguese",
+          "map": "Nomad",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:00:38.000Z",
+          "dur": 953,
+          "opponents": [
+            {
+              "profileId": 18431534,
+              "name": "AndresCast"
+            },
+            {
+              "profileId": 25644837,
+              "name": "Ah Bueno"
+            },
+            {
+              "profileId": 15480637,
+              "name": "Poeta_Virgilio"
+            },
+            {
+              "profileId": 3295803,
+              "name": "Tumber"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            },
+            {
+              "profileId": 126305,
+              "name": "VL La Parca (Red Paladin)"
+            },
+            {
+              "profileId": 122221,
+              "name": "VL Le_Manch"
+            }
+          ]
+        },
         {
           "matchId": 508304155,
           "civ": "Burmese",
@@ -18309,5 +18471,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

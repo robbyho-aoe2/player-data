@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 685,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1305,
         "peakRating": 1511
       },
@@ -11674,12 +11674,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1771,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1249,
+        "totalGames": 1774,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1237,
         "peakRating": 1470
       },
       "matches": [
+        {
+          "matchId": 510178894,
+          "civ": "Vietnamese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:02:22.000Z",
+          "dur": 268,
+          "opponents": [
+            {
+              "profileId": 1025121,
+              "name": "JAGR | Rojnar"
+            },
+            {
+              "profileId": 22844552,
+              "name": "JAGR | juankof"
+            },
+            {
+              "profileId": 15693918,
+              "name": "JAGR | Virus"
+            },
+            {
+              "profileId": 11977428,
+              "name": "JAGR fran"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7883844,
+              "name": "bailey"
+            },
+            {
+              "profileId": 6434030,
+              "name": "Royal Yakuza"
+            },
+            {
+              "profileId": 1821078,
+              "name": "darkdudu"
+            }
+          ]
+        },
+        {
+          "matchId": 510174290,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:39:10.000Z",
+          "dur": 1479,
+          "opponents": [
+            {
+              "profileId": 24846728,
+              "name": "Nordestino"
+            },
+            {
+              "profileId": 4521631,
+              "name": "KingMoonborn"
+            },
+            {
+              "profileId": 17038295,
+              "name": "Ociru3"
+            },
+            {
+              "profileId": 25596059,
+              "name": "Ora Viva"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5270336,
+              "name": "The beast"
+            },
+            {
+              "profileId": 15378305,
+              "name": "Age_of_Empires"
+            },
+            {
+              "profileId": 21208036,
+              "name": "elnegrovisioso"
+            }
+          ]
+        },
+        {
+          "matchId": 510168906,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:12:43.000Z",
+          "dur": 1381,
+          "opponents": [
+            {
+              "profileId": 228679,
+              "name": "Nasper"
+            },
+            {
+              "profileId": 24702464,
+              "name": "Melodies of Life"
+            },
+            {
+              "profileId": 6094769,
+              "name": "guillaumegbzh"
+            },
+            {
+              "profileId": 3141538,
+              "name": "[T41] Indian War Lord"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17250318,
+              "name": "wilkerbrice12"
+            },
+            {
+              "profileId": 14831100,
+              "name": "1"
+            },
+            {
+              "profileId": 862813,
+              "name": "Janez"
+            }
+          ]
+        },
         {
           "matchId": 508563225,
           "civ": "Italians",
@@ -84227,5 +84353,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

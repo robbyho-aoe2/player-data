@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 152,
-        "pulledDate": "2026-09-26",
-        "latestRating": 973,
+        "totalGames": 153,
+        "pulledDate": "2026-09-30",
+        "latestRating": 990,
         "peakRating": 1130
       },
       "matches": [
+        {
+          "matchId": 510219711,
+          "civ": "Bohemians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:17:56.000Z",
+          "dur": 1960,
+          "opponents": [
+            {
+              "profileId": 10361837,
+              "name": "x3meow"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509253708,
           "civ": "Bohemians",
@@ -2614,7 +2631,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 91,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1149,
         "peakRating": 1228
       },
@@ -5454,5 +5471,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

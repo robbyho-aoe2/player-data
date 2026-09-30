@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 484,
-        "pulledDate": "2026-09-26",
-        "latestRating": 718,
+        "totalGames": 487,
+        "pulledDate": "2026-09-30",
+        "latestRating": 733,
         "peakRating": 870
       },
       "matches": [
+        {
+          "matchId": 510237943,
+          "civ": "Vikings",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:11:43.000Z",
+          "dur": 2581,
+          "opponents": [
+            {
+              "profileId": 6218089,
+              "name": "GallantHurdle6"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510232311,
+          "civ": "Vikings",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:35:08.000Z",
+          "dur": 2076,
+          "opponents": [
+            {
+              "profileId": 23192999,
+              "name": "sociocortes"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509441900,
+          "civ": "Huns",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:05:50.000Z",
+          "dur": 3058,
+          "opponents": [
+            {
+              "profileId": 24446969,
+              "name": "BlissfullyIgnorant"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509282370,
           "civ": "Vikings",
@@ -7789,7 +7840,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -7847,5 +7898,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

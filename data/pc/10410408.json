@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 20,
-        "pulledDate": "2026-09-24",
-        "latestRating": 797,
+        "totalGames": 22,
+        "pulledDate": "2026-09-30",
+        "latestRating": 800,
         "peakRating": 861
       },
       "matches": [
+        {
+          "matchId": 509844532,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:56:42.000Z",
+          "dur": 1245,
+          "opponents": [
+            {
+              "profileId": 1178705,
+              "name": "Itz H \u00b2 o"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509715041,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:44:50.000Z",
+          "dur": 1587,
+          "opponents": [
+            {
+              "profileId": 3860812,
+              "name": "Barrosed"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507957158,
           "civ": "Persians",
@@ -370,12 +404,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     }
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

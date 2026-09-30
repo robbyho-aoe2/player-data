@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 124,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1026,
         "peakRating": 1036
       },
@@ -2137,12 +2137,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1297,
-        "pulledDate": "2026-09-26",
-        "latestRating": 832,
+        "totalGames": 1301,
+        "pulledDate": "2026-09-30",
+        "latestRating": 834,
         "peakRating": 1069
       },
       "matches": [
+        {
+          "matchId": 509800802,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:03:09.000Z",
+          "dur": 1776,
+          "opponents": [
+            {
+              "profileId": 21784046,
+              "name": "MGGM922"
+            },
+            {
+              "profileId": 25679894,
+              "name": "mauri90.hermosilla"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3963685,
+              "name": "JERIAS0945"
+            }
+          ]
+        },
+        {
+          "matchId": 509788324,
+          "civ": "Mongols",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:49:33.000Z",
+          "dur": 3848,
+          "opponents": [
+            {
+              "profileId": 26103774,
+              "name": "BreakYourNeck"
+            },
+            {
+              "profileId": 3803752,
+              "name": "lil2jim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25492548,
+              "name": "Buffoncito"
+            }
+          ]
+        },
+        {
+          "matchId": 509492222,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:15:47.000Z",
+          "dur": 1904,
+          "opponents": [
+            {
+              "profileId": 1217928,
+              "name": "Rdal4"
+            },
+            {
+              "profileId": 4875358,
+              "name": "Hamza Khan"
+            },
+            {
+              "profileId": 17619255,
+              "name": "Ultra cogolloo"
+            },
+            {
+              "profileId": 24806740,
+              "name": "Armes W\u00fcrstchen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5178204,
+              "name": "bergiebird"
+            },
+            {
+              "profileId": 18329219,
+              "name": "Caesar6742"
+            },
+            {
+              "profileId": 20493063,
+              "name": "ERIKXG20"
+            }
+          ]
+        },
+        {
+          "matchId": 509487522,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:47:23.000Z",
+          "dur": 1183,
+          "opponents": [
+            {
+              "profileId": 1764498,
+              "name": "ElAbueloXD12"
+            },
+            {
+              "profileId": 10418423,
+              "name": "Solraclml"
+            },
+            {
+              "profileId": 21044470,
+              "name": "LeonardX003"
+            },
+            {
+              "profileId": 25736534,
+              "name": "AG ALEXKNG1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15387941,
+              "name": "Jdz702"
+            },
+            {
+              "profileId": 13327320,
+              "name": "HereticMink"
+            },
+            {
+              "profileId": 14411540,
+              "name": "vino102284"
+            }
+          ]
+        },
         {
           "matchId": 508234839,
           "civ": "Khmer",
@@ -45598,5 +45734,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

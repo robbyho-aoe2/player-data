@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 638,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1146,
+        "totalGames": 640,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1177,
         "peakRating": 1246
       },
       "matches": [
+        {
+          "matchId": 509448344,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:32:19.000Z",
+          "dur": 5179,
+          "opponents": [
+            {
+              "profileId": 12072685,
+              "name": "b1gFooot"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509440954,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:01:23.000Z",
+          "dur": 1739,
+          "opponents": [
+            {
+              "profileId": 264351,
+              "name": "ManniTheMachine"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509245584,
           "civ": "Franks",
@@ -9655,12 +9689,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1169,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1199,
+        "totalGames": 1172,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1227,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 509469050,
+          "civ": "Spanish",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:05:39.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 4378709,
+              "name": "BlekSon"
+            },
+            {
+              "profileId": 5103165,
+              "name": "dekster"
+            },
+            {
+              "profileId": 6160265,
+              "name": "xPawno"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15283523,
+              "name": "[RZ] Jo\u00e3ozinho"
+            },
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            }
+          ]
+        },
+        {
+          "matchId": 509364335,
+          "civ": "Ethiopians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:33:14.000Z",
+          "dur": 3026,
+          "opponents": [
+            {
+              "profileId": 8857793,
+              "name": "02281"
+            },
+            {
+              "profileId": 4466765,
+              "name": "02288"
+            },
+            {
+              "profileId": 6303015,
+              "name": "pxh42"
+            },
+            {
+              "profileId": 4032775,
+              "name": "\u5341\u5e74\u4ecd\u83dc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            },
+            {
+              "profileId": 1937332,
+              "name": "[RZ] MAGR0"
+            },
+            {
+              "profileId": 12002176,
+              "name": "[RZ] Icaro"
+            }
+          ]
+        },
+        {
+          "matchId": 509360725,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:17:25.000Z",
+          "dur": 553,
+          "opponents": [
+            {
+              "profileId": 242746,
+              "name": "Karlavagnen"
+            },
+            {
+              "profileId": 3445939,
+              "name": "La.Reina.de.Once"
+            },
+            {
+              "profileId": 3473693,
+              "name": "\u4ed9\u9006\u8bb8\u6728"
+            },
+            {
+              "profileId": 4681562,
+              "name": "RFR_im_no_pro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1937332,
+              "name": "[RZ] MAGR0"
+            },
+            {
+              "profileId": 12002176,
+              "name": "[RZ] Icaro"
+            },
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            }
+          ]
+        },
         {
           "matchId": 509264240,
           "civ": "Spanish",
@@ -36579,5 +36731,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1844,
-        "pulledDate": "2026-09-22",
-        "latestRating": 638,
+        "totalGames": 1846,
+        "pulledDate": "2026-09-30",
+        "latestRating": 637,
         "peakRating": 907
       },
       "matches": [
+        {
+          "matchId": 509765901,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:43:44.000Z",
+          "dur": 13,
+          "opponents": [
+            {
+              "profileId": 19143377,
+              "name": "[OMG2KAWAII] Macduffer"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509758072,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:59:15.000Z",
+          "dur": 2558,
+          "opponents": [
+            {
+              "profileId": 24650760,
+              "name": "zeng1974"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508120442,
           "civ": "Bohemians",
@@ -29564,7 +29598,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -29687,5 +29721,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 102,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 755,
         "peakRating": 915
       },
@@ -1577,12 +1577,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 102,
-        "pulledDate": "2026-09-22",
-        "latestRating": 723,
+        "totalGames": 104,
+        "pulledDate": "2026-09-30",
+        "latestRating": 726,
         "peakRating": 951
       },
       "matches": [
+        {
+          "matchId": 509626785,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:57:06.000Z",
+          "dur": 2135,
+          "opponents": [
+            {
+              "profileId": 26007320,
+              "name": "Xelonn"
+            },
+            {
+              "profileId": 11466131,
+              "name": "DEADMAN0731"
+            },
+            {
+              "profileId": 7212965,
+              "name": "DASEBA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17045350,
+              "name": "\u4f11\u95f2\u6d77"
+            },
+            {
+              "profileId": 619148,
+              "name": "vinayrayal92"
+            }
+          ]
+        },
+        {
+          "matchId": 509527206,
+          "civ": "Vietnamese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:32:58.000Z",
+          "dur": 1915,
+          "opponents": [
+            {
+              "profileId": 2196256,
+              "name": "Se\u00f1or Moj\u00f3n"
+            },
+            {
+              "profileId": 2601074,
+              "name": "Profesor Caos"
+            },
+            {
+              "profileId": 3047451,
+              "name": "Kyle"
+            },
+            {
+              "profileId": 2163835,
+              "name": "Fefo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14061807,
+              "name": "wwwSHAKERnet"
+            },
+            {
+              "profileId": 23691077,
+              "name": "theilor.taiariol"
+            },
+            {
+              "profileId": 232109,
+              "name": "Stavinco"
+            }
+          ]
+        },
         {
           "matchId": 507528270,
           "civ": "Burgundians",
@@ -3916,5 +3992,6 @@
   },
   "country": "kz",
   "countryIcon": "\ud83c\uddf0\ud83c\uddff",
-  "countryName": "Kazakhstan"
+  "countryName": "Kazakhstan",
+  "platform": "Steam"
 }

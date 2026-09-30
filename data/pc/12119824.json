@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 61,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 969,
         "peakRating": 1050
       },
@@ -1006,12 +1006,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 202,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1126,
+        "totalGames": 205,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1070,
         "peakRating": 1189
       },
       "matches": [
+        {
+          "matchId": 510151784,
+          "civ": "Japanese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:55:06.000Z",
+          "dur": 1964,
+          "opponents": [
+            {
+              "profileId": 6922958,
+              "name": "loremrexus"
+            },
+            {
+              "profileId": 5539838,
+              "name": "DasEd86"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1089604,
+              "name": "Giallo"
+            }
+          ]
+        },
+        {
+          "matchId": 510144775,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:23:00.000Z",
+          "dur": 1692,
+          "opponents": [
+            {
+              "profileId": 1302772,
+              "name": "Fromajeance"
+            },
+            {
+              "profileId": 1926146,
+              "name": "Kewoder"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1089604,
+              "name": "Giallo"
+            }
+          ]
+        },
+        {
+          "matchId": 509663667,
+          "civ": "Goths",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:27:42.000Z",
+          "dur": 1635,
+          "opponents": [
+            {
+              "profileId": 1238504,
+              "name": "ImPacT_WiZarD"
+            },
+            {
+              "profileId": 6181349,
+              "name": "catstorm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1089604,
+              "name": "Giallo"
+            }
+          ]
+        },
         {
           "matchId": 508938999,
           "civ": "Vikings",
@@ -7133,5 +7211,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

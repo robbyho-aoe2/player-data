@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 652,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-09-30",
         "latestRating": 765,
         "peakRating": 913
       },
@@ -11113,12 +11113,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 712,
-        "pulledDate": "2026-09-24",
-        "latestRating": 931,
+        "totalGames": 713,
+        "pulledDate": "2026-09-30",
+        "latestRating": 921,
         "peakRating": 1053
       },
       "matches": [
+        {
+          "matchId": 510236162,
+          "civ": "Teutons",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:00:36.000Z",
+          "dur": 2521,
+          "opponents": [
+            {
+              "profileId": 22406907,
+              "name": "briantorresr25"
+            },
+            {
+              "profileId": 18003163,
+              "name": "DCB"
+            },
+            {
+              "profileId": 3275353,
+              "name": "Sunrostern"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9683217,
+              "name": "DarkthroneOBRABO"
+            },
+            {
+              "profileId": 702790,
+              "name": "avnemintuk"
+            }
+          ]
+        },
         {
           "matchId": 505796271,
           "civ": "Teutons",
@@ -39196,5 +39230,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

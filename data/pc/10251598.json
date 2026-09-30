@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 983,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1630,
-        "peakRating": 1659
+        "totalGames": 985,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1667,
+        "peakRating": 1667
       },
       "matches": [
+        {
+          "matchId": 510022829,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:07:47.000Z",
+          "dur": 1436,
+          "opponents": [
+            {
+              "profileId": 2933081,
+              "name": "Mr. Monty"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509376657,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:26:03.000Z",
+          "dur": 1546,
+          "opponents": [
+            {
+              "profileId": 10841222,
+              "name": "ssz"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508952703,
           "civ": "Mongols",
@@ -15769,7 +15803,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 73,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1391,
         "peakRating": 1408
       },
@@ -18380,5 +18414,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

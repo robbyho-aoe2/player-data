@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1043,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1438,
+        "totalGames": 1047,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1404,
         "peakRating": 1535
       },
       "matches": [
+        {
+          "matchId": 510193125,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:24:46.000Z",
+          "dur": 1269,
+          "opponents": [
+            {
+              "profileId": 3170525,
+              "name": "yummy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509990456,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:45:53.000Z",
+          "dur": 1085,
+          "opponents": [
+            {
+              "profileId": 3356522,
+              "name": "Dani D"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509989636,
+          "civ": "Burgundians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:41:34.000Z",
+          "dur": 158,
+          "opponents": [
+            {
+              "profileId": 3087266,
+              "name": "adrian_mares30"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509986637,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:20:46.000Z",
+          "dur": 985,
+          "opponents": [
+            {
+              "profileId": 2960088,
+              "name": "PussMast"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509268012,
           "civ": "Burgundians",
@@ -17761,7 +17829,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 46,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1264,
         "peakRating": 1303
       },
@@ -19135,5 +19203,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

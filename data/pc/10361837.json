@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 155,
-        "pulledDate": "2026-09-26",
-        "latestRating": 994,
+        "totalGames": 157,
+        "pulledDate": "2026-09-30",
+        "latestRating": 962,
         "peakRating": 1024
       },
       "matches": [
+        {
+          "matchId": 510238459,
+          "civ": "Mongols",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:15:14.000Z",
+          "dur": 2192,
+          "opponents": [
+            {
+              "profileId": 10056182,
+              "name": "exki6160"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510219711,
+          "civ": "Mongols",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:17:56.000Z",
+          "dur": 1960,
+          "opponents": [
+            {
+              "profileId": 10425166,
+              "name": "omaroaing"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509317385,
           "civ": "Mongols",
@@ -2665,7 +2699,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 800,
         "peakRating": 800
       },
@@ -3273,5 +3307,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

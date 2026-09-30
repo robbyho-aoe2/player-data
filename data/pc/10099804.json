@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 59,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1227,
         "peakRating": 1227
       },
@@ -973,12 +973,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 524,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1099,
+        "totalGames": 526,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1127,
         "peakRating": 1292
       },
       "matches": [
+        {
+          "matchId": 510004227,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:14:10.000Z",
+          "dur": 1208,
+          "opponents": [
+            {
+              "profileId": 2833533,
+              "name": "[8Pals] JANO JANERO"
+            },
+            {
+              "profileId": 2843103,
+              "name": "[8Pals] PERROLOKO"
+            },
+            {
+              "profileId": 2946695,
+              "name": "Cabezaxcore"
+            },
+            {
+              "profileId": 24697263,
+              "name": "EL THANOS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2953197,
+              "name": "BATMAN [EtNb]"
+            },
+            {
+              "profileId": 2578418,
+              "name": "[EtNb] Acerero4ever"
+            },
+            {
+              "profileId": 16106737,
+              "name": "Archimago del Kirin Tor"
+            }
+          ]
+        },
+        {
+          "matchId": 509999046,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:41:29.000Z",
+          "dur": 1773,
+          "opponents": [
+            {
+              "profileId": 3105996,
+              "name": "NY-Radamantiz"
+            },
+            {
+              "profileId": 5134677,
+              "name": "NY-HENRY"
+            },
+            {
+              "profileId": 24672653,
+              "name": "bixo"
+            },
+            {
+              "profileId": 23280855,
+              "name": "adriel.fe1123"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13765293,
+              "name": "Lord Housedrick"
+            },
+            {
+              "profileId": 2578418,
+              "name": "[EtNb] Acerero4ever"
+            },
+            {
+              "profileId": 2953197,
+              "name": "BATMAN [EtNb]"
+            }
+          ]
+        },
         {
           "matchId": 508139355,
           "civ": "Khmer",
@@ -18013,5 +18097,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

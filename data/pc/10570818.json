@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 223,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1117,
+        "totalGames": 224,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1132,
         "peakRating": 1165
       },
       "matches": [
+        {
+          "matchId": 510112124,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:30:52.000Z",
+          "dur": 636,
+          "opponents": [
+            {
+              "profileId": 1944857,
+              "name": "TTVPyrex_Live"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508461893,
           "civ": "Cumans",
@@ -3639,12 +3656,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 97,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1344,
-        "peakRating": 1346
+        "totalGames": 99,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1371,
+        "peakRating": 1371
       },
       "matches": [
+        {
+          "matchId": 510193823,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:30:17.000Z",
+          "dur": 1575,
+          "opponents": [
+            {
+              "profileId": 24231426,
+              "name": "Necrocat219"
+            },
+            {
+              "profileId": 26119419,
+              "name": "GAMAR\u00daS de CAGABAND\u00daRRIES"
+            },
+            {
+              "profileId": 6380382,
+              "name": "Jinxo"
+            },
+            {
+              "profileId": 9237333,
+              "name": "\u5176\u8272\u5b64\u767d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 520833,
+              "name": "RDA | Damiii el TORO"
+            },
+            {
+              "profileId": 2374727,
+              "name": "XEVER | Masa!"
+            },
+            {
+              "profileId": 3931937,
+              "name": "[TBArg] kaos_leo"
+            }
+          ]
+        },
+        {
+          "matchId": 510169135,
+          "civ": "Wu",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:13:45.000Z",
+          "dur": 1072,
+          "opponents": [
+            {
+              "profileId": 815165,
+              "name": "cutiewing"
+            },
+            {
+              "profileId": 2475892,
+              "name": "Renegade"
+            },
+            {
+              "profileId": 15699479,
+              "name": "\ud835\udd8b\ud835\udd94\ud835\udd88\ud835\udd86"
+            },
+            {
+              "profileId": 6029298,
+              "name": "Oliver"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1711420,
+              "name": "RDA Ronan"
+            },
+            {
+              "profileId": 3170859,
+              "name": "RDA Lurchoton"
+            },
+            {
+              "profileId": 6927315,
+              "name": "Rocker_"
+            }
+          ]
+        },
         {
           "matchId": 509209915,
           "civ": "Wei",
@@ -7557,5 +7658,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

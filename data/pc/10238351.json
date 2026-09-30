@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 69,
-        "pulledDate": "2026-09-24",
-        "latestRating": 777,
-        "peakRating": 786
+        "totalGames": 75,
+        "pulledDate": "2026-09-30",
+        "latestRating": 810,
+        "peakRating": 827
       },
       "matches": [
+        {
+          "matchId": 509508572,
+          "civ": "Huns",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:50:40.000Z",
+          "dur": 1717,
+          "opponents": [
+            {
+              "profileId": 25634877,
+              "name": "\u661f\u6cb3\u8239\u6cca"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509503182,
+          "civ": "Sicilians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:19:48.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 25634877,
+              "name": "\u661f\u6cb3\u8239\u6cca"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509498913,
+          "civ": "Sicilians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:54:18.000Z",
+          "dur": 1334,
+          "opponents": [
+            {
+              "profileId": 24779909,
+              "name": "Hatsnballs"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509460733,
+          "civ": "Sicilians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:25:19.000Z",
+          "dur": 1801,
+          "opponents": [
+            {
+              "profileId": 25375598,
+              "name": "VenerableGiraffe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509454593,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:59:26.000Z",
+          "dur": 1376,
+          "opponents": [
+            {
+              "profileId": 3265028,
+              "name": "DRY"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509449477,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:36:47.000Z",
+          "dur": 1212,
+          "opponents": [
+            {
+              "profileId": 12067755,
+              "name": "MKNT | Jpanda"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508124443,
           "civ": "Sicilians",
@@ -1203,7 +1305,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -1341,5 +1443,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 622,
         "peakRating": 622
       },
@@ -205,12 +205,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 755,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1133,
+        "totalGames": 759,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1094,
         "peakRating": 1236
       },
       "matches": [
+        {
+          "matchId": 510191199,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:13:46.000Z",
+          "dur": 1381,
+          "opponents": [
+            {
+              "profileId": 5763986,
+              "name": "Fette Sau Gerhard"
+            },
+            {
+              "profileId": 1051000,
+              "name": "Self_vs_Self"
+            },
+            {
+              "profileId": 767395,
+              "name": "Apsoutonas"
+            },
+            {
+              "profileId": 20136149,
+              "name": "marek.rihu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9397646,
+              "name": "Demon"
+            },
+            {
+              "profileId": 2923766,
+              "name": "MonsterSmeat"
+            },
+            {
+              "profileId": 926757,
+              "name": "Carot"
+            }
+          ]
+        },
+        {
+          "matchId": 509777804,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:50:06.000Z",
+          "dur": 2679,
+          "opponents": [
+            {
+              "profileId": 253723,
+              "name": "Tonik"
+            },
+            {
+              "profileId": 5706152,
+              "name": "LordWhile"
+            },
+            {
+              "profileId": 11801746,
+              "name": "GERMANICO7222"
+            },
+            {
+              "profileId": 1798655,
+              "name": "PezMaza"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9397646,
+              "name": "Demon"
+            },
+            {
+              "profileId": 21522711,
+              "name": "Bambam"
+            },
+            {
+              "profileId": 23066483,
+              "name": "Mata Ovejas"
+            }
+          ]
+        },
+        {
+          "matchId": 509777065,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:45:37.000Z",
+          "dur": 119,
+          "opponents": [
+            {
+              "profileId": 5492924,
+              "name": "Ragnar"
+            },
+            {
+              "profileId": 1315341,
+              "name": "Iardos"
+            },
+            {
+              "profileId": 13918285,
+              "name": "NTM.daniel.echeverri3"
+            },
+            {
+              "profileId": 1981288,
+              "name": "Profesor Paul Vaso"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21250417,
+              "name": "\u4e4c\u8428\u5947"
+            },
+            {
+              "profileId": 9397646,
+              "name": "Demon"
+            },
+            {
+              "profileId": 2383475,
+              "name": "Dracarys2306"
+            }
+          ]
+        },
+        {
+          "matchId": 509771767,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:16:52.000Z",
+          "dur": 1573,
+          "opponents": [
+            {
+              "profileId": 417191,
+              "name": "TheDuff_K\u00f8K"
+            },
+            {
+              "profileId": 23132100,
+              "name": "JumpingJuneBug"
+            },
+            {
+              "profileId": 23066483,
+              "name": "Mata Ovejas"
+            },
+            {
+              "profileId": 15735783,
+              "name": "Don Wea"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9397646,
+              "name": "Demon"
+            },
+            {
+              "profileId": 3926066,
+              "name": "Spicy Meatball"
+            },
+            {
+              "profileId": 3232216,
+              "name": "Gbetosaurus"
+            }
+          ]
+        },
         {
           "matchId": 509223730,
           "civ": "Bulgarians",
@@ -31175,5 +31343,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

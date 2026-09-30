@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 245,
-        "pulledDate": "2026-09-16",
-        "latestRating": 970,
+        "totalGames": 250,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1019,
         "peakRating": 1074
       },
       "matches": [
+        {
+          "matchId": 509647633,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:21:35.000Z",
+          "dur": 949,
+          "opponents": [
+            {
+              "profileId": 25418863,
+              "name": "D2dW2rr10r"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509644531,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:09:28.000Z",
+          "dur": 549,
+          "opponents": [
+            {
+              "profileId": 20528796,
+              "name": "payaso_delicia"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509634922,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:30:50.000Z",
+          "dur": 1991,
+          "opponents": [
+            {
+              "profileId": 5927066,
+              "name": "superdonk"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509628018,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:02:16.000Z",
+          "dur": 1584,
+          "opponents": [
+            {
+              "profileId": 16835277,
+              "name": "krystof.kvasnicka"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509590596,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:44:01.000Z",
+          "dur": 1832,
+          "opponents": [
+            {
+              "profileId": 22524990,
+              "name": "aniol.official"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504548440,
           "civ": "Spanish",
@@ -4194,12 +4279,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 212,
-        "pulledDate": "2026-09-16",
-        "latestRating": 975,
+        "totalGames": 214,
+        "pulledDate": "2026-09-30",
+        "latestRating": 974,
         "peakRating": 1031
       },
       "matches": [
+        {
+          "matchId": 509586494,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:16:47.000Z",
+          "dur": 1490,
+          "opponents": [
+            {
+              "profileId": 5331434,
+              "name": "OniDrag0n"
+            },
+            {
+              "profileId": 9825442,
+              "name": "fleurdelys"
+            },
+            {
+              "profileId": 878184,
+              "name": "Alogib"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17603674,
+              "name": "Dino"
+            },
+            {
+              "profileId": 22687339,
+              "name": "\u660e\u5929\u65e9\u9910\u5403\u751a\u9ebc"
+            }
+          ]
+        },
+        {
+          "matchId": 509362569,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:24:35.000Z",
+          "dur": 1666,
+          "opponents": [
+            {
+              "profileId": 2237235,
+              "name": "fabricioitba"
+            },
+            {
+              "profileId": 3140202,
+              "name": "Valgt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10174553,
+              "name": "Durza007"
+            }
+          ]
+        },
         {
           "matchId": 504539205,
           "civ": "Wei",
@@ -11013,5 +11158,6 @@
   },
   "country": "kz",
   "countryIcon": "\ud83c\uddf0\ud83c\uddff",
-  "countryName": "Kazakhstan"
+  "countryName": "Kazakhstan",
+  "platform": "Steam"
 }

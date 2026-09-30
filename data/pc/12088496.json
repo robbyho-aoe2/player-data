@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 171,
-        "pulledDate": "2026-09-22",
-        "latestRating": 901,
+        "totalGames": 173,
+        "pulledDate": "2026-09-30",
+        "latestRating": 928,
         "peakRating": 1018
       },
       "matches": [
+        {
+          "matchId": 510039241,
+          "civ": "Byzantines",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:20:13.000Z",
+          "dur": 1887,
+          "opponents": [
+            {
+              "profileId": 10537944,
+              "name": "mcalebsantiago"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509816053,
+          "civ": "Byzantines",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:59:22.000Z",
+          "dur": 1611,
+          "opponents": [
+            {
+              "profileId": 15684334,
+              "name": "_smoke_"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508373257,
           "civ": "Byzantines",
@@ -2768,12 +2802,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 252,
-        "pulledDate": "2026-09-22",
-        "latestRating": 747,
+        "totalGames": 255,
+        "pulledDate": "2026-09-30",
+        "latestRating": 761,
         "peakRating": 905
       },
       "matches": [
+        {
+          "matchId": 509761317,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:17:18.000Z",
+          "dur": 1483,
+          "opponents": [
+            {
+              "profileId": 24319022,
+              "name": "Elsabrielle"
+            },
+            {
+              "profileId": 1131229,
+              "name": "MousePuddles"
+            },
+            {
+              "profileId": 3018749,
+              "name": "Zukomazi"
+            },
+            {
+              "profileId": 3467908,
+              "name": "Norbert PICIGETO Foster"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4417276,
+              "name": "Onox17"
+            },
+            {
+              "profileId": 4476431,
+              "name": "Jacrew"
+            },
+            {
+              "profileId": 22823714,
+              "name": "danielalejandrocrco"
+            }
+          ]
+        },
+        {
+          "matchId": 509741704,
+          "civ": "Teutons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:36:20.000Z",
+          "dur": 2469,
+          "opponents": [
+            {
+              "profileId": 14670645,
+              "name": "TreffNIx"
+            },
+            {
+              "profileId": 26097531,
+              "name": "Destiny9x"
+            },
+            {
+              "profileId": 5025645,
+              "name": "Ser_Gen_T"
+            },
+            {
+              "profileId": 9685592,
+              "name": "AramPseudoGerman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2291536,
+              "name": "ELRULLO"
+            },
+            {
+              "profileId": 14344371,
+              "name": "BobyLaTeub40"
+            },
+            {
+              "profileId": 22319689,
+              "name": "GLORY MUSTAF"
+            }
+          ]
+        },
+        {
+          "matchId": 509726265,
+          "civ": "Burgundians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:28:59.000Z",
+          "dur": 1547,
+          "opponents": [
+            {
+              "profileId": 687146,
+              "name": "fichart"
+            },
+            {
+              "profileId": 10792093,
+              "name": "drXsen"
+            },
+            {
+              "profileId": 17340574,
+              "name": "frablai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 76975,
+              "name": "Harvey_Specter"
+            },
+            {
+              "profileId": 578572,
+              "name": "S3r!ousLE3"
+            }
+          ]
+        },
         {
           "matchId": 508370266,
           "civ": "Chinese",
@@ -11850,5 +12002,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

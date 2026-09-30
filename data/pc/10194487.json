@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 113,
-        "pulledDate": "2026-09-26",
-        "latestRating": 934,
+        "totalGames": 114,
+        "pulledDate": "2026-09-30",
+        "latestRating": 950,
         "peakRating": 1013
       },
       "matches": [
+        {
+          "matchId": 509918209,
+          "civ": "Franks",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:36:01.000Z",
+          "dur": 2050,
+          "opponents": [
+            {
+              "profileId": 25830958,
+              "name": "bastos021"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507160258,
           "civ": "Hindustanis",
@@ -1951,7 +1968,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 330,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1070,
         "peakRating": 1171
       },
@@ -13141,5 +13158,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

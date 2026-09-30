@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-30",
         "latestRating": 980,
         "peakRating": 1002
       },
@@ -461,12 +461,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 864,
-        "pulledDate": "2026-09-19",
-        "latestRating": 586,
+        "totalGames": 866,
+        "pulledDate": "2026-09-30",
+        "latestRating": 626,
         "peakRating": 1108
       },
       "matches": [
+        {
+          "matchId": 510026979,
+          "civ": "Mongols",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:37:13.000Z",
+          "dur": 2202,
+          "opponents": [
+            {
+              "profileId": 25804097,
+              "name": "MONSEkatish"
+            },
+            {
+              "profileId": 21459444,
+              "name": "\u542b\u5149"
+            },
+            {
+              "profileId": 19641572,
+              "name": "alexgolan"
+            },
+            {
+              "profileId": 14206748,
+              "name": "11thDAY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2593180,
+              "name": "kh"
+            },
+            {
+              "profileId": 18901285,
+              "name": "\u6697\u591c\u60dc\u9ece"
+            },
+            {
+              "profileId": 25896862,
+              "name": "\u4ffa\u8ba8\u538c\u79cd\u7530"
+            }
+          ]
+        },
+        {
+          "matchId": 510026333,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:32:43.000Z",
+          "dur": 181,
+          "opponents": [
+            {
+              "profileId": 6901703,
+              "name": "Snobyman"
+            },
+            {
+              "profileId": 8599845,
+              "name": "l3141516"
+            },
+            {
+              "profileId": 14452082,
+              "name": "DK3175"
+            },
+            {
+              "profileId": 15181770,
+              "name": "ROMA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5964229,
+              "name": "Max1muZS"
+            },
+            {
+              "profileId": 12570534,
+              "name": "MASTER JARA 117"
+            },
+            {
+              "profileId": 3871678,
+              "name": "TWT"
+            }
+          ]
+        },
         {
           "matchId": 507456812,
           "civ": "Malians",
@@ -33682,5 +33766,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

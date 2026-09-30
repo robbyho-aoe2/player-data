@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 728,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1244,
+        "totalGames": 732,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1210,
         "peakRating": 1314
       },
       "matches": [
+        {
+          "matchId": 510140501,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:02:17.000Z",
+          "dur": 1539,
+          "opponents": [
+            {
+              "profileId": 3062219,
+              "name": "ToninMarvado"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509890377,
+          "civ": "Varangians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:10:12.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 3489766,
+              "name": "adrianmajlis"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509878915,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:08:26.000Z",
+          "dur": 1631,
+          "opponents": [
+            {
+              "profileId": 2367494,
+              "name": "petuxini"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509872314,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:31:44.000Z",
+          "dur": 936,
+          "opponents": [
+            {
+              "profileId": 20298236,
+              "name": "n13s"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509261313,
           "civ": "Berbers",
@@ -11701,12 +11769,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 351,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1274,
+        "totalGames": 353,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1315,
         "peakRating": 1358
       },
       "matches": [
+        {
+          "matchId": 510151384,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:53:22.000Z",
+          "dur": 2507,
+          "opponents": [
+            {
+              "profileId": 1335100,
+              "name": "GdR_!nF@Z"
+            },
+            {
+              "profileId": 325311,
+              "name": "Grimbel"
+            },
+            {
+              "profileId": 5720218,
+              "name": "M.Gallego"
+            },
+            {
+              "profileId": 4823259,
+              "name": "The REAL Pepsiman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4501039,
+              "name": "Leto Apor"
+            },
+            {
+              "profileId": 4526888,
+              "name": "GymBeam93"
+            },
+            {
+              "profileId": 20185020,
+              "name": "Xan666"
+            }
+          ]
+        },
+        {
+          "matchId": 510134341,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:32:04.000Z",
+          "dur": 1409,
+          "opponents": [
+            {
+              "profileId": 5724887,
+              "name": "_HerculePoirot_"
+            },
+            {
+              "profileId": 609650,
+              "name": "Ranchy"
+            },
+            {
+              "profileId": 2939613,
+              "name": "Sasha The Bunny"
+            },
+            {
+              "profileId": 3345390,
+              "name": "ElTitanSargeras"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4501039,
+              "name": "Leto Apor"
+            },
+            {
+              "profileId": 4526888,
+              "name": "GymBeam93"
+            },
+            {
+              "profileId": 5294539,
+              "name": "witcherkiller"
+            }
+          ]
+        },
         {
           "matchId": 509267392,
           "civ": "Italians",
@@ -22913,5 +23065,6 @@
   },
   "country": "hu",
   "countryIcon": "\ud83c\udded\ud83c\uddfa",
-  "countryName": "Hungary"
+  "countryName": "Hungary",
+  "platform": "Steam"
 }

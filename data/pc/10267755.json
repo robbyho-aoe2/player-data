@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 170,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1035,
+        "totalGames": 172,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1036,
         "peakRating": 1125
       },
       "matches": [
+        {
+          "matchId": 509802057,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:10:56.000Z",
+          "dur": 2018,
+          "opponents": [
+            {
+              "profileId": 22771591,
+              "name": "Sunstraker"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509380749,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:42:43.000Z",
+          "dur": 1228,
+          "opponents": [
+            {
+              "profileId": 885383,
+              "name": "DA-TW"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509235029,
           "civ": "Bulgarians",
@@ -2919,12 +2953,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 67,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1072,
-        "peakRating": 1072
+        "totalGames": 68,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1088,
+        "peakRating": 1088
       },
       "matches": [
+        {
+          "matchId": 509797532,
+          "civ": "Berbers",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:42:03.000Z",
+          "dur": 1686,
+          "opponents": [
+            {
+              "profileId": 2749851,
+              "name": "Lucco"
+            },
+            {
+              "profileId": 2902943,
+              "name": "Carbage"
+            },
+            {
+              "profileId": 2806986,
+              "name": "nsr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25360580,
+              "name": "\u732b\u54aa\u5148\u751f"
+            },
+            {
+              "profileId": 25939483,
+              "name": "abigailbogisichca"
+            }
+          ]
+        },
         {
           "matchId": 509276042,
           "civ": "Khitans",
@@ -5176,5 +5244,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

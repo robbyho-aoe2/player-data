@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 160,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1132,
         "peakRating": 1231
       },
@@ -2589,12 +2589,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1384,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1133,
+        "totalGames": 1388,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1157,
         "peakRating": 1228
       },
       "matches": [
+        {
+          "matchId": 510042985,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:00:30.000Z",
+          "dur": 1772,
+          "opponents": [
+            {
+              "profileId": 14637437,
+              "name": "Rugs"
+            },
+            {
+              "profileId": 6593801,
+              "name": "Khruner"
+            },
+            {
+              "profileId": 3046214,
+              "name": "Dragoon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 606402,
+              "name": "eugenibeto"
+            },
+            {
+              "profileId": 2962187,
+              "name": "RaskWarrioR"
+            }
+          ]
+        },
+        {
+          "matchId": 510038441,
+          "civ": "Ethiopians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:12:44.000Z",
+          "dur": 1546,
+          "opponents": [
+            {
+              "profileId": 374083,
+              "name": "kama.zOar213"
+            },
+            {
+              "profileId": 1195612,
+              "name": "SIEGFRIED"
+            },
+            {
+              "profileId": 265700,
+              "name": "kama.Kroxa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10180234,
+              "name": "goree.jacob"
+            },
+            {
+              "profileId": 17779212,
+              "name": "Aquillo"
+            }
+          ]
+        },
+        {
+          "matchId": 510037365,
+          "civ": "Britons",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:02:23.000Z",
+          "dur": 415,
+          "opponents": [
+            {
+              "profileId": 265700,
+              "name": "kama.Kroxa"
+            },
+            {
+              "profileId": 1195612,
+              "name": "SIEGFRIED"
+            },
+            {
+              "profileId": 374083,
+              "name": "kama.zOar213"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5829789,
+              "name": "810345338"
+            },
+            {
+              "profileId": 1551240,
+              "name": "xi jinping"
+            }
+          ]
+        },
+        {
+          "matchId": 510031462,
+          "civ": "Gurjaras",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:11:43.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 6251280,
+              "name": "GIORK"
+            },
+            {
+              "profileId": 6421172,
+              "name": "Rey_Mono86"
+            },
+            {
+              "profileId": 10037922,
+              "name": "El_Warnersito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23066738,
+              "name": "TomahawkAssassN"
+            },
+            {
+              "profileId": 2144425,
+              "name": "rms_0489"
+            }
+          ]
+        },
         {
           "matchId": 509187892,
           "civ": "Persians",
@@ -48309,5 +48445,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

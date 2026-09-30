@@ -6,25 +6,178 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 239,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1453,
+        "totalGames": 248,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1445,
         "peakRating": 1521
       },
       "matches": [
+        {
+          "matchId": 509565160,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:47:38.000Z",
+          "dur": 1990,
+          "opponents": [
+            {
+              "profileId": 1154448,
+              "name": "hamu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509561927,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T07:24:14.000Z",
+          "dur": 1202,
+          "opponents": [
+            {
+              "profileId": 6909734,
+              "name": "Martin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509558128,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:55:42.000Z",
+          "dur": 1681,
+          "opponents": [
+            {
+              "profileId": 4647381,
+              "name": "LETHUY QB"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509556076,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:40:09.000Z",
+          "dur": 900,
+          "opponents": [
+            {
+              "profileId": 5384915,
+              "name": "Naughty Fox"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509555849,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:39:28.000Z",
+          "dur": 6,
+          "opponents": [
+            {
+              "profileId": 5384915,
+              "name": "Naughty Fox"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509554336,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:27:54.000Z",
+          "dur": 589,
+          "opponents": [
+            {
+              "profileId": 5384915,
+              "name": "Naughty Fox"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509548977,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:52:09.000Z",
+          "dur": 2106,
+          "opponents": [
+            {
+              "profileId": 1279255,
+              "name": "\u524d\u8fdb\uff0c\u8fdb\uff01"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509354682,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:48:57.000Z",
+          "dur": 1626,
+          "opponents": [
+            {
+              "profileId": 8360298,
+              "name": "TheCombatWombat"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509353681,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:44:12.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 111099,
+              "name": "DanielArria"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509299285,
           "civ": "Saxons",
@@ -4093,7 +4246,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 177,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1261,
         "peakRating": 1320
       },
@@ -10633,5 +10786,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

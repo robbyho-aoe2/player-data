@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 464,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1201,
+        "totalGames": 467,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1215,
         "peakRating": 1301
       },
       "matches": [
+        {
+          "matchId": 509940254,
+          "civ": "Armenians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:16:51.000Z",
+          "dur": 1119,
+          "opponents": [
+            {
+              "profileId": 14501773,
+              "name": "diekaiserwurst"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509446499,
+          "civ": "Armenians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:24:53.000Z",
+          "dur": 1093,
+          "opponents": [
+            {
+              "profileId": 10104772,
+              "name": "[TiRex]haltig"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509443479,
+          "civ": "Armenians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:12:38.000Z",
+          "dur": 662,
+          "opponents": [
+            {
+              "profileId": 2455784,
+              "name": "Eugene"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509294561,
           "civ": "Armenians",
@@ -7496,7 +7547,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 543,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1294,
         "peakRating": 1294
       },
@@ -23577,5 +23628,6 @@
   },
   "country": "sk",
   "countryIcon": "\ud83c\uddf8\ud83c\uddf0",
-  "countryName": "Slovakia"
+  "countryName": "Slovakia",
+  "platform": "Steam"
 }

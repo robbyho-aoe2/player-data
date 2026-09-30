@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1131,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1661,
+        "totalGames": 1132,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1696,
         "peakRating": 1725
       },
       "matches": [
+        {
+          "matchId": 510282866,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:36:59.000Z",
+          "dur": 1218,
+          "opponents": [
+            {
+              "profileId": 232454,
+              "name": "Hunt"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509332284,
           "civ": "Persians",
@@ -18150,12 +18167,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 751,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1372,
+        "totalGames": 754,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1376,
         "peakRating": 1483
       },
       "matches": [
+        {
+          "matchId": 510286045,
+          "civ": "Wei",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:07:49.000Z",
+          "dur": 2302,
+          "opponents": [
+            {
+              "profileId": 764765,
+              "name": "Diseased7"
+            },
+            {
+              "profileId": 23213977,
+              "name": "Frosty"
+            },
+            {
+              "profileId": 6239301,
+              "name": "\u7eaf\u5c5e\u610f\u5916666"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25904638,
+              "name": "\u9006\u5929"
+            },
+            {
+              "profileId": 3048789,
+              "name": "\u522b\u5fd8\u4e86\u559d\u9189"
+            }
+          ]
+        },
+        {
+          "matchId": 510154693,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:08:22.000Z",
+          "dur": 2559,
+          "opponents": [
+            {
+              "profileId": 160542,
+              "name": "LandRoverDave"
+            },
+            {
+              "profileId": 257392,
+              "name": "JonnyJellyfish"
+            },
+            {
+              "profileId": 453483,
+              "name": "Vheissu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3048789,
+              "name": "\u522b\u5fd8\u4e86\u559d\u9189"
+            },
+            {
+              "profileId": 23104574,
+              "name": "\u6211\u5c31\u4e0d\u7761"
+            }
+          ]
+        },
+        {
+          "matchId": 510151465,
+          "civ": "Wei",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:53:46.000Z",
+          "dur": 700,
+          "opponents": [
+            {
+              "profileId": 10489413,
+              "name": "EigenVector"
+            },
+            {
+              "profileId": 689734,
+              "name": "pmathews11"
+            },
+            {
+              "profileId": 5928747,
+              "name": "Havoc_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23104574,
+              "name": "\u6211\u5c31\u4e0d\u7761"
+            },
+            {
+              "profileId": 3048789,
+              "name": "\u522b\u5fd8\u4e86\u559d\u9189"
+            }
+          ]
+        },
         {
           "matchId": 508411436,
           "civ": "Tupi",
@@ -42074,5 +42193,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

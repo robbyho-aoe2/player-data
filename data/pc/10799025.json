@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 317,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-30",
         "latestRating": 1018,
         "peakRating": 1084
       },
@@ -5418,12 +5418,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1142,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1163,
+        "totalGames": 1143,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1181,
         "peakRating": 1234
       },
       "matches": [
+        {
+          "matchId": 509691180,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:18:44.000Z",
+          "dur": 3045,
+          "opponents": [
+            {
+              "profileId": 4981446,
+              "name": "treetoptony"
+            },
+            {
+              "profileId": 14980242,
+              "name": "knmh83"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5201724,
+              "name": "esnifopegamento"
+            }
+          ]
+        },
         {
           "matchId": 487791618,
           "civ": "Teutons",
@@ -37385,5 +37411,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

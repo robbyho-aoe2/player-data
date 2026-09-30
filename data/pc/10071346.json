@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1772,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1271,
         "peakRating": 1363
       },
@@ -26623,12 +26623,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 609,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1156,
+        "totalGames": 610,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1171,
         "peakRating": 1278
       },
       "matches": [
+        {
+          "matchId": 510152536,
+          "civ": "Bulgarians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:58:16.000Z",
+          "dur": 1803,
+          "opponents": [
+            {
+              "profileId": 14631010,
+              "name": "decruthor.bedecz"
+            },
+            {
+              "profileId": 6791582,
+              "name": "PivoX"
+            },
+            {
+              "profileId": 1447801,
+              "name": "Minerva"
+            },
+            {
+              "profileId": 16442713,
+              "name": "Bellygroup"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15613827,
+              "name": "Murmeldjuret. \u00ae"
+            },
+            {
+              "profileId": 23939643,
+              "name": "Te0n"
+            },
+            {
+              "profileId": 15466751,
+              "name": "Murkeldjuret. \u00ae"
+            }
+          ]
+        },
         {
           "matchId": 509166478,
           "civ": "Teutons",
@@ -40442,5 +40484,6 @@
   },
   "country": "pl",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
-  "countryName": "Poland"
+  "countryName": "Poland",
+  "platform": "Steam"
 }

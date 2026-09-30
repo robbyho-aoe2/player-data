@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 264,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1230,
+        "totalGames": 270,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1196,
         "peakRating": 1337
       },
       "matches": [
+        {
+          "matchId": 510186040,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:40:56.000Z",
+          "dur": 1187,
+          "opponents": [
+            {
+              "profileId": 22958053,
+              "name": "kikemzhz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510179790,
+          "civ": "Aztecs",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:06:18.000Z",
+          "dur": 2009,
+          "opponents": [
+            {
+              "profileId": 11386794,
+              "name": "JestDobrze"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510175706,
+          "civ": "Aztecs",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:44:34.000Z",
+          "dur": 1201,
+          "opponents": [
+            {
+              "profileId": 5882581,
+              "name": "Snowdown"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509958025,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:37:37.000Z",
+          "dur": 1193,
+          "opponents": [
+            {
+              "profileId": 3208997,
+              "name": "aimLess bro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509952874,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:14:27.000Z",
+          "dur": 1348,
+          "opponents": [
+            {
+              "profileId": 15550997,
+              "name": "XceeS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509949074,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:56:29.000Z",
+          "dur": 942,
+          "opponents": [
+            {
+              "profileId": 24241478,
+              "name": "splotchy-curtain"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508753604,
           "civ": "Turks",
@@ -4303,7 +4405,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 128,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1033,
         "peakRating": 1059
       },
@@ -7636,5 +7738,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

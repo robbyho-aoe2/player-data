@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 495,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-30",
         "latestRating": 1050,
         "peakRating": 1120
       },
@@ -7949,12 +7949,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2230,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1205,
+        "totalGames": 2232,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1207,
         "peakRating": 1482
       },
       "matches": [
+        {
+          "matchId": 509873487,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:39:41.000Z",
+          "dur": 718,
+          "opponents": [
+            {
+              "profileId": 5287203,
+              "name": "CARANZA"
+            },
+            {
+              "profileId": 3873855,
+              "name": "XYZ"
+            },
+            {
+              "profileId": 2474177,
+              "name": "deRoode"
+            },
+            {
+              "profileId": 286666,
+              "name": "ss851228tw"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8619463,
+              "name": "57168948"
+            },
+            {
+              "profileId": 10172305,
+              "name": "\u4e09\u5c11"
+            },
+            {
+              "profileId": 10166580,
+              "name": "\u91ce\u86ee\u519c\u6c11"
+            }
+          ]
+        },
+        {
+          "matchId": 509867169,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:01:18.000Z",
+          "dur": 2134,
+          "opponents": [
+            {
+              "profileId": 1661146,
+              "name": "Sunday x Junior"
+            },
+            {
+              "profileId": 1056339,
+              "name": "Demshredz"
+            },
+            {
+              "profileId": 9368287,
+              "name": "NoCry"
+            },
+            {
+              "profileId": 20058114,
+              "name": "Vagatela"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8619463,
+              "name": "57168948"
+            },
+            {
+              "profileId": 10166580,
+              "name": "\u91ce\u86ee\u519c\u6c11"
+            },
+            {
+              "profileId": 10172305,
+              "name": "\u4e09\u5c11"
+            }
+          ]
+        },
         {
           "matchId": 507717597,
           "civ": "Spanish",
@@ -98003,5 +98087,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

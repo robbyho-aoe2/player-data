@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 245,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1182,
+        "totalGames": 250,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1170,
         "peakRating": 1253
       },
       "matches": [
+        {
+          "matchId": 510162907,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:44:07.000Z",
+          "dur": 1492,
+          "opponents": [
+            {
+              "profileId": 20473435,
+              "name": "ormtmc"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510156041,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:13:45.000Z",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 15948523,
+              "name": "SirTimotheus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510155872,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:12:18.000Z",
+          "dur": 12,
+          "opponents": [
+            {
+              "profileId": 20878537,
+              "name": "QSHAUEDY"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510155680,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:11:35.000Z",
+          "dur": 11,
+          "opponents": [
+            {
+              "profileId": 20878537,
+              "name": "QSHAUEDY"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510142478,
+          "civ": "Armenians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:12:43.000Z",
+          "dur": 1564,
+          "opponents": [
+            {
+              "profileId": 3364587,
+              "name": "Satoshi nakamoto"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508955297,
           "civ": "Varangians",
@@ -3975,12 +4060,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1057,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1226,
+        "totalGames": 1059,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1189,
         "peakRating": 1342
       },
       "matches": [
+        {
+          "matchId": 510320960,
+          "civ": "Varangians",
+          "map": "Baltic",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:56:39.000Z",
+          "dur": 1010,
+          "opponents": [
+            {
+              "profileId": 18589324,
+              "name": "Rob88Silva"
+            },
+            {
+              "profileId": 2148135,
+              "name": "LD$ Tio Bob"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1051084,
+              "name": "Turtletamer11"
+            }
+          ]
+        },
+        {
+          "matchId": 510150266,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:48:24.000Z",
+          "dur": 1359,
+          "opponents": [
+            {
+              "profileId": 6820441,
+              "name": "GenuineWig3729"
+            },
+            {
+              "profileId": 1228706,
+              "name": "Malouda"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2037703,
+              "name": "Trulynoob"
+            }
+          ]
+        },
         {
           "matchId": 509198532,
           "civ": "Lithuanians",
@@ -35319,5 +35456,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

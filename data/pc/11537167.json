@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 330,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1338,
         "peakRating": 1347
       },
@@ -5639,12 +5639,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 373,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1318,
+        "totalGames": 374,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1331,
         "peakRating": 1403
       },
       "matches": [
+        {
+          "matchId": 509462432,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:33:46.000Z",
+          "dur": 2410,
+          "opponents": [
+            {
+              "profileId": 5230399,
+              "name": "Mich"
+            },
+            {
+              "profileId": 1869785,
+              "name": "Il SiMo"
+            },
+            {
+              "profileId": 6423071,
+              "name": "Zephir-Horakhti"
+            },
+            {
+              "profileId": 5148518,
+              "name": "NICH"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4472561,
+              "name": "WatzTheDeal"
+            },
+            {
+              "profileId": 24762959,
+              "name": "wallnboom"
+            },
+            {
+              "profileId": 20224108,
+              "name": "Ypsilon"
+            }
+          ]
+        },
         {
           "matchId": 509225763,
           "civ": "Hindustanis",
@@ -20948,5 +20990,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

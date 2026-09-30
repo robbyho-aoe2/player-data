@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 107,
-        "pulledDate": "2026-09-22",
-        "latestRating": 681,
+        "totalGames": 113,
+        "pulledDate": "2026-09-30",
+        "latestRating": 683,
         "peakRating": 777
       },
       "matches": [
+        {
+          "matchId": 509667153,
+          "civ": "Danes",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:42:11.000Z",
+          "dur": 1341,
+          "opponents": [
+            {
+              "profileId": 26169431,
+              "name": "madking"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509662888,
+          "civ": "Maya",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:23:30.000Z",
+          "dur": 954,
+          "opponents": [
+            {
+              "profileId": 15259387,
+              "name": "mimi.glamur"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509659429,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:10:00.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 25892145,
+              "name": "Nightsshadow"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509610751,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:42:35.000Z",
+          "dur": 2174,
+          "opponents": [
+            {
+              "profileId": 2071263,
+              "name": "saw7051"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509606237,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:18:49.000Z",
+          "dur": 1097,
+          "opponents": [
+            {
+              "profileId": 22214270,
+              "name": "Ioann1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509597839,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:29:48.000Z",
+          "dur": 1472,
+          "opponents": [
+            {
+              "profileId": 25456691,
+              "name": "hau29"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508040948,
           "civ": "Vietnamese",
@@ -1749,7 +1851,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1025
       },
       "matches": [
@@ -1983,5 +2085,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

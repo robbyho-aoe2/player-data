@@ -6,32 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 498,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1205,
+        "totalGames": 501,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1187,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 509717399,
+          "civ": "Portuguese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:54:01.000Z",
+          "dur": 1006,
+          "opponents": [
+            {
+              "profileId": 1812756,
+              "name": "Deluxeness \u30c4"
+            },
+            {
+              "profileId": 1824003,
+              "name": "Juan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6758306,
+              "name": "Rudester"
+            }
+          ]
+        },
+        {
+          "matchId": 509706053,
+          "civ": "Hindustanis",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:12:29.000Z",
+          "dur": 2162,
+          "opponents": [
+            {
+              "profileId": 455617,
+              "name": "Hyxar"
+            },
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6758306,
+              "name": "Rudester"
+            }
+          ]
+        },
+        {
+          "matchId": 509699227,
+          "civ": "Tatars",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:47:59.000Z",
+          "dur": 1250,
+          "opponents": [
+            {
+              "profileId": 1228706,
+              "name": "Malouda"
+            },
+            {
+              "profileId": 11565053,
+              "name": "***((( Batrfly )))***"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6758306,
+              "name": "Rudester"
+            }
+          ]
+        },
         {
           "matchId": 509170494,
           "civ": "Saxons",
@@ -15642,5 +15720,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

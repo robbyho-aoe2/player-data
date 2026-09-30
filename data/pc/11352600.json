@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 150,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1667,
         "peakRating": 1667
       },
@@ -2429,12 +2429,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4745,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1543,
+        "totalGames": 4748,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1538,
         "peakRating": 1767
       },
       "matches": [
+        {
+          "matchId": 509699235,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:48:05.000Z",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 1987697,
+              "name": "hide1914"
+            },
+            {
+              "profileId": 6176165,
+              "name": "\u7f85\u9238\u68d2"
+            },
+            {
+              "profileId": 4868998,
+              "name": "JamCat"
+            },
+            {
+              "profileId": 3137543,
+              "name": "Umi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            },
+            {
+              "profileId": 17300339,
+              "name": "FofocaStyle"
+            },
+            {
+              "profileId": 2609872,
+              "name": "Floripa"
+            }
+          ]
+        },
+        {
+          "matchId": 509691692,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:20:33.000Z",
+          "dur": 1267,
+          "opponents": [
+            {
+              "profileId": 616997,
+              "name": "Long-Long-Way"
+            },
+            {
+              "profileId": 6186966,
+              "name": "[ESTG] agentemacri777"
+            },
+            {
+              "profileId": 6344388,
+              "name": "\ud83e\udd8c Jolly Jumper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2609872,
+              "name": "Floripa"
+            },
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            }
+          ]
+        },
+        {
+          "matchId": 509684507,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:53:04.000Z",
+          "dur": 1297,
+          "opponents": [
+            {
+              "profileId": 1045839,
+              "name": "Riut"
+            },
+            {
+              "profileId": 15506619,
+              "name": "Zni.Locuss"
+            },
+            {
+              "profileId": 9585106,
+              "name": "Zni.Kark01"
+            },
+            {
+              "profileId": 289468,
+              "name": "Tremere"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            },
+            {
+              "profileId": 10833849,
+              "name": "Fs.Carni\u00e7a"
+            },
+            {
+              "profileId": 2609872,
+              "name": "Floripa"
+            }
+          ]
+        },
         {
           "matchId": 508307027,
           "civ": "Malay",
@@ -194635,5 +194753,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

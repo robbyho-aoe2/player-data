@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 204,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1178,
+        "totalGames": 205,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1163,
         "peakRating": 1201
       },
       "matches": [
+        {
+          "matchId": 509861971,
+          "civ": "Malians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:25:18.000Z",
+          "dur": 1240,
+          "opponents": [
+            {
+              "profileId": 684173,
+              "name": "Stoogemobile"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505405289,
           "civ": "Dravidians",
@@ -3299,12 +3316,156 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1104,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1190,
+        "totalGames": 1108,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1294,
         "peakRating": 1342
       },
       "matches": [
+        {
+          "matchId": 509592899,
+          "civ": "Saracens",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:00:07.000Z",
+          "dur": 1054,
+          "opponents": [
+            {
+              "profileId": 5384413,
+              "name": "Conqurues"
+            },
+            {
+              "profileId": 1049210,
+              "name": "[GN]LAZUR\u0130"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1940513,
+              "name": "JacobHaftel89"
+            }
+          ]
+        },
+        {
+          "matchId": 509590357,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:42:56.000Z",
+          "dur": 791,
+          "opponents": [
+            {
+              "profileId": 11493921,
+              "name": "jamo"
+            },
+            {
+              "profileId": 20810480,
+              "name": "Vini"
+            },
+            {
+              "profileId": 26111427,
+              "name": "2110316511"
+            },
+            {
+              "profileId": 10797663,
+              "name": "Globox"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21866540,
+              "name": "\u4e00\u4e00"
+            },
+            {
+              "profileId": 2415126,
+              "name": "M1CRO"
+            },
+            {
+              "profileId": 1853721,
+              "name": "Onizuka"
+            }
+          ]
+        },
+        {
+          "matchId": 509585996,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:13:27.000Z",
+          "dur": 1447,
+          "opponents": [
+            {
+              "profileId": 19518369,
+              "name": "Out Of Res Once Again"
+            },
+            {
+              "profileId": 20145280,
+              "name": "coys"
+            },
+            {
+              "profileId": 23664696,
+              "name": "son_goku"
+            },
+            {
+              "profileId": 22270100,
+              "name": "Zuku"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20628823,
+              "name": "CTM | FullChow"
+            },
+            {
+              "profileId": 21866540,
+              "name": "\u4e00\u4e00"
+            },
+            {
+              "profileId": 1154448,
+              "name": "hamu"
+            }
+          ]
+        },
+        {
+          "matchId": 509584250,
+          "civ": "Maya",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:01:21.000Z",
+          "dur": 627,
+          "opponents": [
+            {
+              "profileId": 1507396,
+              "name": "Eodeath"
+            },
+            {
+              "profileId": 1493890,
+              "name": "Havok"
+            },
+            {
+              "profileId": 1495885,
+              "name": "Ludwig"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24906983,
+              "name": "God Dih"
+            },
+            {
+              "profileId": 24906992,
+              "name": "israeli banker"
+            }
+          ]
+        },
         {
           "matchId": 507677701,
           "civ": "Lithuanians",
@@ -39394,5 +39555,6 @@
   },
   "country": "jp",
   "countryIcon": "\ud83c\uddef\ud83c\uddf5",
-  "countryName": "Japan"
+  "countryName": "Japan",
+  "platform": "Steam"
 }

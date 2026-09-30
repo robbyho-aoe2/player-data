@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 817,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-30",
         "latestRating": 1695,
         "peakRating": 1765
       },
@@ -13117,12 +13117,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 311,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1513,
+        "totalGames": 314,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1462,
         "peakRating": 1576
       },
       "matches": [
+        {
+          "matchId": 509883831,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:35:10.000Z",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 617446,
+              "name": "\u677e\u5f1f"
+            },
+            {
+              "profileId": 2615594,
+              "name": "MISTER COLLEJAS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227587,
+              "name": "Flying Mouse -AOE-"
+            }
+          ]
+        },
+        {
+          "matchId": 509881239,
+          "civ": "Chinese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:21:13.000Z",
+          "dur": 731,
+          "opponents": [
+            {
+              "profileId": 4698080,
+              "name": "Holy Heroin"
+            },
+            {
+              "profileId": 242461,
+              "name": "BigAl"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227587,
+              "name": "Flying Mouse -AOE-"
+            }
+          ]
+        },
+        {
+          "matchId": 509876662,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:56:47.000Z",
+          "dur": 1331,
+          "opponents": [
+            {
+              "profileId": 351056,
+              "name": "Grrgrag"
+            },
+            {
+              "profileId": 192768,
+              "name": "Steven S Lee"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227587,
+              "name": "Flying Mouse -AOE-"
+            }
+          ]
+        },
         {
           "matchId": 501799778,
           "civ": "Gurjaras",
@@ -22295,5 +22373,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 96,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 867,
         "peakRating": 867
       },
@@ -1565,12 +1565,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 425,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1142,
+        "totalGames": 427,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1114,
         "peakRating": 1206
       },
       "matches": [
+        {
+          "matchId": 509776339,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:41:50.000Z",
+          "dur": 1579,
+          "opponents": [
+            {
+              "profileId": 15378305,
+              "name": "Age_of_Empires"
+            },
+            {
+              "profileId": 14506267,
+              "name": "Choncho"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3385204,
+              "name": "Mr. Zapata"
+            }
+          ]
+        },
+        {
+          "matchId": 509772189,
+          "civ": "Mongols",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:18:47.000Z",
+          "dur": 1043,
+          "opponents": [
+            {
+              "profileId": 14506267,
+              "name": "Choncho"
+            },
+            {
+              "profileId": 11921811,
+              "name": "Patroclo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3385204,
+              "name": "Mr. Zapata"
+            }
+          ]
+        },
         {
           "matchId": 508133403,
           "civ": "Goths",
@@ -15701,5 +15753,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

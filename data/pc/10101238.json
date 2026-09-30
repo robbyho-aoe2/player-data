@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 46,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 855,
         "peakRating": 855
       },
@@ -811,12 +811,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 216,
-        "pulledDate": "2026-09-26",
-        "latestRating": 901,
+        "totalGames": 219,
+        "pulledDate": "2026-09-30",
+        "latestRating": 953,
         "peakRating": 1085
       },
       "matches": [
+        {
+          "matchId": 509888026,
+          "civ": "Wu",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:58:10.000Z",
+          "dur": 1895,
+          "opponents": [
+            {
+              "profileId": 1725809,
+              "name": "Anfangspunkt"
+            },
+            {
+              "profileId": 23730373,
+              "name": "QiQiKaKaGuGu"
+            },
+            {
+              "profileId": 20592358,
+              "name": "CheLoco3552"
+            },
+            {
+              "profileId": 4574343,
+              "name": "Wolf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 325078,
+              "name": "\u4e16\u9526\u8d5b\u51a0\u519b"
+            },
+            {
+              "profileId": 25805503,
+              "name": "\u547d\u683c"
+            },
+            {
+              "profileId": 4204715,
+              "name": "md"
+            }
+          ]
+        },
+        {
+          "matchId": 509558277,
+          "civ": "Shu",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:57:48.000Z",
+          "dur": 1640,
+          "opponents": [
+            {
+              "profileId": 6709274,
+              "name": "Ek'Balam"
+            },
+            {
+              "profileId": 3266033,
+              "name": "Sak K\u00f3ot"
+            },
+            {
+              "profileId": 3265130,
+              "name": "Chak Koot"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14029622,
+              "name": "\u00b0||\u00b0 FeeZ\u00e5N\u00f8v [\u2122]"
+            },
+            {
+              "profileId": 19656699,
+              "name": "xxSlyxx"
+            }
+          ]
+        },
+        {
+          "matchId": 509552775,
+          "civ": "Vietnamese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:19:18.000Z",
+          "dur": 1005,
+          "opponents": [
+            {
+              "profileId": 2043377,
+              "name": "kz"
+            },
+            {
+              "profileId": 104777,
+              "name": "Piringa"
+            },
+            {
+              "profileId": 4239537,
+              "name": "\u0411\u043e\u0435\u0432\u043e\u0439 \u043a\u043e\u043c\u0430\u0440 NATO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17782634,
+              "name": "\u4e2d\u56fd\u4eba\u4e07\u5c81"
+            },
+            {
+              "profileId": 13030884,
+              "name": "KAIBIL BALAM436"
+            }
+          ]
+        },
         {
           "matchId": 508611928,
           "civ": "Teutons",
@@ -8974,5 +9084,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

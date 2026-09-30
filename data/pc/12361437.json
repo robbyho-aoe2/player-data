@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 962,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 2168,
         "peakRating": 2315
       },
@@ -15449,12 +15449,172 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 536,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1609,
-        "peakRating": 1641
+        "totalGames": 540,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1664,
+        "peakRating": 1664
       },
       "matches": [
+        {
+          "matchId": 510290406,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:45:25.000Z",
+          "dur": 1801,
+          "opponents": [
+            {
+              "profileId": 25285739,
+              "name": "Komi"
+            },
+            {
+              "profileId": 236400,
+              "name": "JustAGecko"
+            },
+            {
+              "profileId": 5090754,
+              "name": "Pielover757"
+            },
+            {
+              "profileId": 10162168,
+              "name": "Sekov"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26134461,
+              "name": "ResonanceFreq"
+            },
+            {
+              "profileId": 6332655,
+              "name": "\u6295\u63b7\u54e5\u5e03\u6797"
+            },
+            {
+              "profileId": 24494719,
+              "name": "\u5c0f\u767d"
+            }
+          ]
+        },
+        {
+          "matchId": 510288353,
+          "civ": "Goths",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:28:55.000Z",
+          "dur": 858,
+          "opponents": [
+            {
+              "profileId": 15868251,
+              "name": "Ainz_Own_Goal"
+            },
+            {
+              "profileId": 11669609,
+              "name": "yclin124"
+            },
+            {
+              "profileId": 2645406,
+              "name": "\u0110\u00e0 L\u1ea1t"
+            },
+            {
+              "profileId": 410671,
+              "name": "Asator"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24961348,
+              "name": "\u5341\u5927\u5730\u65b9"
+            },
+            {
+              "profileId": 10833211,
+              "name": "mongo"
+            },
+            {
+              "profileId": 2821727,
+              "name": "Fish"
+            }
+          ]
+        },
+        {
+          "matchId": 509831223,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:38:45.000Z",
+          "dur": 1634,
+          "opponents": [
+            {
+              "profileId": 26133936,
+              "name": "\u52c7\u6562\u725b\u725b"
+            },
+            {
+              "profileId": 322461,
+              "name": "peterzjx"
+            },
+            {
+              "profileId": 1459846,
+              "name": "snek_fan"
+            },
+            {
+              "profileId": 17781122,
+              "name": "No_hope"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25094011,
+              "name": "Apep"
+            },
+            {
+              "profileId": 4681052,
+              "name": "Triari"
+            },
+            {
+              "profileId": 6590574,
+              "name": "boris8298"
+            }
+          ]
+        },
+        {
+          "matchId": 509827801,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:02:10.000Z",
+          "dur": 1902,
+          "opponents": [
+            {
+              "profileId": 4578582,
+              "name": "Bread Pudding With Bum Sauce"
+            },
+            {
+              "profileId": 3424405,
+              "name": "JaM DaDDy"
+            },
+            {
+              "profileId": 884638,
+              "name": "AnTeK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5090754,
+              "name": "Pielover757"
+            },
+            {
+              "profileId": 2358301,
+              "name": "ZiZi"
+            }
+          ]
+        },
         {
           "matchId": 509295430,
           "civ": "Persians",
@@ -36631,5 +36791,6 @@
   },
   "country": "jp",
   "countryIcon": "\ud83c\uddef\ud83c\uddf5",
-  "countryName": "Japan"
+  "countryName": "Japan",
+  "platform": "Steam"
 }

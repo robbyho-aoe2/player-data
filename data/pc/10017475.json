@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1415,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1580,
+        "totalGames": 1418,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1535,
         "peakRating": 1600
       },
       "matches": [
+        {
+          "matchId": 510237048,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:05:25.000Z",
+          "dur": 1787,
+          "opponents": [
+            {
+              "profileId": 1419131,
+              "name": "[VL] Rio_BlancoVER"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510220746,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:25:02.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510071111,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:07:46.000Z",
+          "dur": 1119,
+          "opponents": [
+            {
+              "profileId": 15945378,
+              "name": "thiagorochars"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504950077,
           "civ": "Vietnamese",
@@ -12773,8 +12824,8 @@
     "Team PC": {
       "meta": {
         "totalGames": 2391,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1468,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1459,
         "peakRating": 1570
       },
       "matches": [
@@ -34712,5 +34763,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

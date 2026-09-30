@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 132,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1443,
         "peakRating": 1447
       },
@@ -1217,12 +1217,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 7419,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1567,
+        "totalGames": 7423,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1556,
         "peakRating": 1721
       },
       "matches": [
+        {
+          "matchId": 510171685,
+          "civ": "Hindustanis",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:26:40.000Z",
+          "dur": 1374,
+          "opponents": [
+            {
+              "profileId": 2949200,
+              "name": "abija"
+            },
+            {
+              "profileId": 20457939,
+              "name": "[LGP] Shiroo"
+            },
+            {
+              "profileId": 11472768,
+              "name": "\u30ce\u30eb\u30d5"
+            },
+            {
+              "profileId": 6356741,
+              "name": "bdstanley32"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11471846,
+              "name": "DraveczB"
+            },
+            {
+              "profileId": 9504934,
+              "name": "Allison"
+            },
+            {
+              "profileId": 4566098,
+              "name": "Night Prowler"
+            }
+          ]
+        },
+        {
+          "matchId": 510166486,
+          "civ": "Bohemians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:01:25.000Z",
+          "dur": 1375,
+          "opponents": [
+            {
+              "profileId": 6103215,
+              "name": "Nexuz"
+            },
+            {
+              "profileId": 21694089,
+              "name": "Matzeking"
+            },
+            {
+              "profileId": 20457939,
+              "name": "[LGP] Shiroo"
+            },
+            {
+              "profileId": 2143227,
+              "name": "imenek"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18154746,
+              "name": "adi.rathore"
+            },
+            {
+              "profileId": 15801503,
+              "name": "FMG | Shachath"
+            },
+            {
+              "profileId": 6356741,
+              "name": "bdstanley32"
+            }
+          ]
+        },
+        {
+          "matchId": 510160618,
+          "civ": "Aztecs",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:34:52.000Z",
+          "dur": 1357,
+          "opponents": [
+            {
+              "profileId": 5193410,
+              "name": "2EZ.Fish"
+            },
+            {
+              "profileId": 26145684,
+              "name": "trombi"
+            },
+            {
+              "profileId": 18210484,
+              "name": "erika"
+            },
+            {
+              "profileId": 9148773,
+              "name": "2EZ.SagittariusA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17589687,
+              "name": "Iboomintowarelephants"
+            },
+            {
+              "profileId": 6356741,
+              "name": "bdstanley32"
+            },
+            {
+              "profileId": 285046,
+              "name": "Alexis"
+            }
+          ]
+        },
+        {
+          "matchId": 510155581,
+          "civ": "Dravidians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:12:06.000Z",
+          "dur": 1242,
+          "opponents": [
+            {
+              "profileId": 21422884,
+              "name": "\u4e09\u798f"
+            },
+            {
+              "profileId": 20472549,
+              "name": "\u5fc3\u5982\u6b62\u6c34"
+            },
+            {
+              "profileId": 17057636,
+              "name": "\u5750\u8fb9\u6297\u538b\u6c99\u5305\u4eba"
+            },
+            {
+              "profileId": 7346842,
+              "name": "\u6912\u9999\u4e09\u89d2\u94c1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 207171,
+              "name": "Barca4life"
+            },
+            {
+              "profileId": 1972720,
+              "name": "boo"
+            },
+            {
+              "profileId": 1397478,
+              "name": "Sorrateiro"
+            }
+          ]
+        },
         {
           "matchId": 509314979,
           "civ": "Gurjaras",
@@ -73122,5 +73290,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

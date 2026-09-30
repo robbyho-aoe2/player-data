@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 121,
-        "pulledDate": "2026-09-15",
-        "latestRating": 1147,
+        "totalGames": 127,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1118,
         "peakRating": 1201
       },
       "matches": [
+        {
+          "matchId": 510220602,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:23:48.000Z",
+          "dur": 1595,
+          "opponents": [
+            {
+              "profileId": 19959189,
+              "name": "Olainas"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510219038,
+          "civ": "Portuguese",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:14:32.000Z",
+          "dur": 475,
+          "opponents": [
+            {
+              "profileId": 5508749,
+              "name": "Jonmel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510216112,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:55:26.000Z",
+          "dur": 1051,
+          "opponents": [
+            {
+              "profileId": 292924,
+              "name": "tromto"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510212915,
+          "civ": "Portuguese",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:34:41.000Z",
+          "dur": 1167,
+          "opponents": [
+            {
+              "profileId": 365369,
+              "name": "MarcusMaximus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510209466,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:12:07.000Z",
+          "dur": 1264,
+          "opponents": [
+            {
+              "profileId": 365369,
+              "name": "MarcusMaximus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510205531,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:44:50.000Z",
+          "dur": 1093,
+          "opponents": [
+            {
+              "profileId": 11774780,
+              "name": "CharlesXVaoe"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506189309,
           "civ": "Persians",
@@ -1971,7 +2073,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 6,
-        "pulledDate": "2026-09-15",
+        "pulledDate": "2026-09-30",
         "latestRating": 1138
       },
       "matches": [
@@ -2130,5 +2232,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

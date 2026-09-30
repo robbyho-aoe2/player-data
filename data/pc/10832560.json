@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1810,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1245,
+        "totalGames": 1813,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1262,
         "peakRating": 1376
       },
       "matches": [
+        {
+          "matchId": 510135313,
+          "civ": "Ethiopians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:36:06.000Z",
+          "dur": 955,
+          "opponents": [
+            {
+              "profileId": 16037700,
+              "name": "Mr.117"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510132811,
+          "civ": "Spanish",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:23:03.000Z",
+          "dur": 735,
+          "opponents": [
+            {
+              "profileId": 16037700,
+              "name": "Mr.117"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509942956,
+          "civ": "Spanish",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:29:15.000Z",
+          "dur": 292,
+          "opponents": [
+            {
+              "profileId": 3638240,
+              "name": "MarceleZa"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509296412,
           "civ": "Mongols",
@@ -29060,7 +29111,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 325,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1188,
         "peakRating": 1235
       },
@@ -37515,5 +37566,6 @@
   },
   "country": "sk",
   "countryIcon": "\ud83c\uddf8\ud83c\uddf0",
-  "countryName": "Slovakia"
+  "countryName": "Slovakia",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 478,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 1601,
         "peakRating": 1635
       },
@@ -7677,12 +7677,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 814,
-        "pulledDate": "2026-09-10",
+        "totalGames": 815,
+        "pulledDate": "2026-09-30",
         "latestRating": 1470,
         "peakRating": 1470
       },
       "matches": [
+        {
+          "matchId": 509726299,
+          "civ": "Dravidians",
+          "map": "Pilgrims",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:29:08.000Z",
+          "dur": 478,
+          "opponents": [
+            {
+              "profileId": 23223902,
+              "name": "\u518d\u5435\u53bb\u6771\u6e56\u6846\u4f60\u5abd\u51fa\u5834"
+            },
+            {
+              "profileId": 19456270,
+              "name": "Fries"
+            },
+            {
+              "profileId": 5677284,
+              "name": "B\u00f8M_Sheuu"
+            },
+            {
+              "profileId": 1495235,
+              "name": "B\u00f8M_antihack.exe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 364249,
+              "name": "Voskarius"
+            },
+            {
+              "profileId": 25365062,
+              "name": "Priest"
+            },
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            }
+          ]
+        },
         {
           "matchId": 478614385,
           "civ": "Jurchens",
@@ -30942,5 +30984,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

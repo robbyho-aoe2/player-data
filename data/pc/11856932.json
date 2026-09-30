@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 81,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1026,
+        "totalGames": 83,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1010,
         "peakRating": 1041
       },
       "matches": [
+        {
+          "matchId": 510327699,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:31:53.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1916259,
+              "name": "Martinius"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510019288,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:44:29.000Z",
+          "dur": 753,
+          "opponents": [
+            {
+              "profileId": 240668,
+              "name": "_NVIDIA_RTX_4070_2026_09_30_"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508987230,
           "civ": "Danes",
@@ -1406,12 +1440,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1515,
-        "pulledDate": "2026-09-26",
+        "totalGames": 1519,
+        "pulledDate": "2026-09-30",
         "latestRating": 953,
         "peakRating": 1197
       },
       "matches": [
+        {
+          "matchId": 510234727,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:51:00.000Z",
+          "dur": 2329,
+          "opponents": [
+            {
+              "profileId": 9785768,
+              "name": "\u90fd\u7f8e\u7af9"
+            },
+            {
+              "profileId": 247100,
+              "name": "SadPlay"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11856948,
+              "name": "Aunt Jemima"
+            }
+          ]
+        },
+        {
+          "matchId": 509783569,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:22:01.000Z",
+          "dur": 2840,
+          "opponents": [
+            {
+              "profileId": 23266016,
+              "name": "Bobson Dugnutt"
+            },
+            {
+              "profileId": 23158407,
+              "name": "Mephistopheles"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11856948,
+              "name": "Aunt Jemima"
+            }
+          ]
+        },
+        {
+          "matchId": 509728400,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:37:33.000Z",
+          "dur": 2303,
+          "opponents": [
+            {
+              "profileId": 695981,
+              "name": "Ice_And_Fire"
+            },
+            {
+              "profileId": 17899411,
+              "name": "remoba66_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11856948,
+              "name": "Aunt Jemima"
+            }
+          ]
+        },
+        {
+          "matchId": 509517993,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:42:18.000Z",
+          "dur": 1912,
+          "opponents": [
+            {
+              "profileId": 5803578,
+              "name": "shermanater7151"
+            },
+            {
+              "profileId": 11366902,
+              "name": "Hahndo91"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11856948,
+              "name": "Aunt Jemima"
+            }
+          ]
+        },
         {
           "matchId": 509240183,
           "civ": "Varangians",
@@ -40943,5 +41081,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

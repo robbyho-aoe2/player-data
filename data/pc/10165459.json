@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 51,
-        "pulledDate": "2026-09-26",
-        "latestRating": 730,
+        "totalGames": 53,
+        "pulledDate": "2026-09-30",
+        "latestRating": 696,
         "peakRating": 762
       },
       "matches": [
+        {
+          "matchId": 509672318,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:02:40.000Z",
+          "dur": 1664,
+          "opponents": [
+            {
+              "profileId": 20652778,
+              "name": "alrocd01"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509656184,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:56:43.000Z",
+          "dur": 2146,
+          "opponents": [
+            {
+              "profileId": 26033355,
+              "name": "Dingo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499946936,
           "civ": "Chinese",
@@ -896,12 +930,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 170,
-        "pulledDate": "2026-09-26",
-        "latestRating": 627,
+        "totalGames": 173,
+        "pulledDate": "2026-09-30",
+        "latestRating": 617,
         "peakRating": 803
       },
       "matches": [
+        {
+          "matchId": 509708504,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:20:34.000Z",
+          "dur": 2425,
+          "opponents": [
+            {
+              "profileId": 24129723,
+              "name": "jmsuarezm1980"
+            },
+            {
+              "profileId": 1721711,
+              "name": "tolislambrou"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19059955,
+              "name": "Beekeeper112"
+            }
+          ]
+        },
+        {
+          "matchId": 509701958,
+          "civ": "Dravidians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:58:32.000Z",
+          "dur": 1228,
+          "opponents": [
+            {
+              "profileId": 19752677,
+              "name": "kajda.air"
+            },
+            {
+              "profileId": 13537207,
+              "name": "Mudrifikator"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4759528,
+              "name": "NOK"
+            }
+          ]
+        },
+        {
+          "matchId": 509644016,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:08:12.000Z",
+          "dur": 1286,
+          "opponents": [
+            {
+              "profileId": 824627,
+              "name": "bones"
+            },
+            {
+              "profileId": 2229882,
+              "name": "chrisbchicken"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1998752,
+              "name": "Cpt. Awesome"
+            }
+          ]
+        },
         {
           "matchId": 506495966,
           "civ": "Cumans",
@@ -5647,5 +5759,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Xbox"
 }

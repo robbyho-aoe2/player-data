@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 120,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1086,
+        "totalGames": 124,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1116,
         "peakRating": 1335
       },
       "matches": [
+        {
+          "matchId": 509422450,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:44:54.000Z",
+          "dur": 1218,
+          "opponents": [
+            {
+              "profileId": 4615499,
+              "name": "seb"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509414735,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:12:27.000Z",
+          "dur": 1828,
+          "opponents": [
+            {
+              "profileId": 22233120,
+              "name": "myandacct2"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509411847,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:00:03.000Z",
+          "dur": 698,
+          "opponents": [
+            {
+              "profileId": 10022973,
+              "name": "SASI8288"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509407651,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:42:22.000Z",
+          "dur": 994,
+          "opponents": [
+            {
+              "profileId": 1287637,
+              "name": "TomaDog"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509292309,
           "civ": "Saxons",
@@ -2030,7 +2098,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "peakRating": 1275,
         "latestRating": 1199
       },
@@ -2082,5 +2150,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Steam"
 }

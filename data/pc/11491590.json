@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 485,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1195,
+        "totalGames": 486,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1178,
         "peakRating": 1227
       },
       "matches": [
+        {
+          "matchId": 509797099,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:39:09.000Z",
+          "dur": 1234,
+          "opponents": [
+            {
+              "profileId": 9374865,
+              "name": "Despartacus"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507842051,
           "civ": "Mongols",
@@ -7790,12 +7807,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 931,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1233,
+        "totalGames": 936,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1215,
         "peakRating": 1256
       },
       "matches": [
+        {
+          "matchId": 509808785,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:00:37.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 2847932,
+              "name": "Antonio Margarete"
+            },
+            {
+              "profileId": 4966425,
+              "name": "ALV-Compa Robemmanml"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4623233,
+              "name": "Nhitty"
+            }
+          ]
+        },
+        {
+          "matchId": 509801091,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:05:13.000Z",
+          "dur": 2558,
+          "opponents": [
+            {
+              "profileId": 12052080,
+              "name": "[CRX] Darius"
+            },
+            {
+              "profileId": 6244565,
+              "name": "[CRX] Cristero"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15012841,
+              "name": "Bubble Kg !"
+            }
+          ]
+        },
+        {
+          "matchId": 509541286,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:59:47.000Z",
+          "dur": 1403,
+          "opponents": [
+            {
+              "profileId": 8551672,
+              "name": "DimitriRussia"
+            },
+            {
+              "profileId": 271695,
+              "name": "PapiAriete"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4981446,
+              "name": "treetoptony"
+            }
+          ]
+        },
+        {
+          "matchId": 509535190,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:19:46.000Z",
+          "dur": 2000,
+          "opponents": [
+            {
+              "profileId": 2282438,
+              "name": "Pepey"
+            },
+            {
+              "profileId": 2582820,
+              "name": "RevolveR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25365681,
+              "name": "mayoke331"
+            }
+          ]
+        },
+        {
+          "matchId": 509531398,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:57:23.000Z",
+          "dur": 1187,
+          "opponents": [
+            {
+              "profileId": 2282438,
+              "name": "Pepey"
+            },
+            {
+              "profileId": 2582820,
+              "name": "RevolveR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 467252,
+              "name": "Nyuszi"
+            }
+          ]
+        },
         {
           "matchId": 509256619,
           "civ": "Franks",
@@ -32362,5 +32509,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

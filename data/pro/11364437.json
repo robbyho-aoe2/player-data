@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2053,
-        "pulledDate": "2026-09-26",
-        "latestRating": 2589,
+        "totalGames": 2058,
+        "pulledDate": "2026-09-30",
+        "latestRating": 2580,
         "peakRating": 2721
       },
       "matches": [
+        {
+          "matchId": 510270618,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:24:41.000Z",
+          "dur": 955,
+          "opponents": [
+            {
+              "profileId": 228725,
+              "name": "Feroker"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510145260,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:24:53.000Z",
+          "dur": 1304,
+          "opponents": [
+            {
+              "profileId": 223196,
+              "name": "OS+ | The Wilderness"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510140163,
+          "civ": "Bengalis",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:01:08.000Z",
+          "dur": 786,
+          "opponents": [
+            {
+              "profileId": 5600740,
+              "name": "[B\u00dcN] Mr. Gr\u00fcezi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510130316,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:10:27.000Z",
+          "dur": 1953,
+          "opponents": [
+            {
+              "profileId": 230475,
+              "name": "El_Matador"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509627302,
+          "civ": "Goths",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:59:33.000Z",
+          "dur": 624,
+          "opponents": [
+            {
+              "profileId": 1886161,
+              "name": "woaF"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509040052,
           "civ": "Romans",
@@ -32885,7 +32970,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 48,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1791,
         "peakRating": 1800
       },
@@ -34213,5 +34298,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

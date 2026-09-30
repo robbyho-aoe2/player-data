@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1287,
-        "pulledDate": "2026-09-26",
+        "totalGames": 1289,
+        "pulledDate": "2026-09-30",
         "latestRating": 1082,
         "peakRating": 1156
       },
       "matches": [
+        {
+          "matchId": 510052214,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:42:18.000Z",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 501410,
+              "name": "spangopola"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510048728,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:04:05.000Z",
+          "dur": 1115,
+          "opponents": [
+            {
+              "profileId": 14928669,
+              "name": "TheBaneOfTengri"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509070753,
           "civ": "Tatars",
@@ -21908,12 +21942,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1579,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1194,
+        "totalGames": 1581,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1191,
         "peakRating": 1265
       },
       "matches": [
+        {
+          "matchId": 510303068,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:14:19.000Z",
+          "dur": 2047,
+          "opponents": [
+            {
+              "profileId": 4706515,
+              "name": "\u0411\u0435\u0441\u043f\u043e\u043d\u0442\u043e\u0432\u044b\u0439 \u043a\u043e\u0440\u0435\u0448\u043e\u043a"
+            },
+            {
+              "profileId": 6319446,
+              "name": "KanneuZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1090354,
+              "name": "TheScRider"
+            }
+          ]
+        },
+        {
+          "matchId": 510069743,
+          "civ": "Byzantines",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:55:05.000Z",
+          "dur": 1415,
+          "opponents": [
+            {
+              "profileId": 3565621,
+              "name": "tuds"
+            },
+            {
+              "profileId": 3971252,
+              "name": "johnny"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11418764,
+              "name": "\u0414\u0423\u0414\u041e\u041b \u0414\u0416\u0410\u041c\u041f"
+            }
+          ]
+        },
         {
           "matchId": 508694839,
           "civ": "Tatars",
@@ -72573,5 +72659,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

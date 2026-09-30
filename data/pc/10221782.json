@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 85,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-30",
         "latestRating": 732,
         "peakRating": 732
       },
@@ -1474,12 +1474,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 504,
-        "pulledDate": "2026-09-28",
-        "latestRating": 841,
+        "totalGames": 505,
+        "pulledDate": "2026-09-30",
+        "latestRating": 827,
         "peakRating": 963
       },
       "matches": [
+        {
+          "matchId": 509884122,
+          "civ": "Vikings",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:36:38.000Z",
+          "dur": 2807,
+          "opponents": [
+            {
+              "profileId": 9944864,
+              "name": "ChrisNgai123"
+            },
+            {
+              "profileId": 4333518,
+              "name": "Chuck"
+            },
+            {
+              "profileId": 11626253,
+              "name": "Kendrick"
+            },
+            {
+              "profileId": 24727842,
+              "name": "ryan199312"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5090327,
+              "name": "Kaparso"
+            },
+            {
+              "profileId": 21864751,
+              "name": "Orange_Samo"
+            },
+            {
+              "profileId": 26172443,
+              "name": "sascha.m.89x"
+            }
+          ]
+        },
         {
           "matchId": 435487251,
           "civ": "Persians",
@@ -16901,5 +16943,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }
