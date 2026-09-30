@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1076,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1571,
+        "totalGames": 1077,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1584,
         "peakRating": 1629
       },
       "matches": [
+        {
+          "matchId": 509956705,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:32:03.000Z",
+          "dur": 1899,
+          "opponents": [
+            {
+              "profileId": 20443694,
+              "name": "Psi doc"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508759495,
           "civ": "Malay",
@@ -9836,7 +9853,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1301,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1378,
         "peakRating": 1532
       },
@@ -22104,5 +22121,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

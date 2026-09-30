@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 63,
-        "pulledDate": "2026-09-22",
-        "latestRating": 781,
+        "totalGames": 64,
+        "pulledDate": "2026-09-29",
+        "latestRating": 767,
         "peakRating": 811
       },
       "matches": [
+        {
+          "matchId": 509415752,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:16:37.000Z",
+          "dur": 2505,
+          "opponents": [
+            {
+              "profileId": 9328115,
+              "name": "Southsider"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507813146,
           "civ": "Mongols",
@@ -1045,12 +1062,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     }
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

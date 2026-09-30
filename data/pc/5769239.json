@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 241,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1116,
+        "totalGames": 247,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1146,
         "peakRating": 1280
       },
       "matches": [
+        {
+          "matchId": 509780147,
+          "civ": "Franks",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:02:55.000Z",
+          "dur": 2109,
+          "opponents": [
+            {
+              "profileId": 26017876,
+              "name": "mateakd2013"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509710226,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:27:20.000Z",
+          "dur": 2089,
+          "opponents": [
+            {
+              "profileId": 12072685,
+              "name": "b1gFooot"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509702381,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:58:47.000Z",
+          "dur": 1574,
+          "opponents": [
+            {
+              "profileId": 3690141,
+              "name": "vallntin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509684805,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:54:13.000Z",
+          "dur": 2096,
+          "opponents": [
+            {
+              "profileId": 5925486,
+              "name": "AlehBlake"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509677876,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:24:48.000Z",
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 11472500,
+              "name": "Hera de Temu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509666960,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:41:07.000Z",
+          "dur": 2434,
+          "opponents": [
+            {
+              "profileId": 2759820,
+              "name": "uhtredofbebbanburger"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508555514,
           "civ": "Koreans",
@@ -3927,7 +4029,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 30,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 946,
         "peakRating": 980
       },
@@ -4866,5 +4968,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

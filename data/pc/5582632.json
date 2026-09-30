@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 144,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1611,
         "peakRating": 1615
       },
@@ -2335,12 +2335,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3357,
-        "pulledDate": "2026-09-26",
+        "totalGames": 3359,
+        "pulledDate": "2026-09-30",
         "latestRating": 1411,
         "peakRating": 1581
       },
       "matches": [
+        {
+          "matchId": 510163217,
+          "civ": "Hindustanis",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:46:22.000Z",
+          "dur": 1390,
+          "opponents": [
+            {
+              "profileId": 401659,
+              "name": "Guizmojunior"
+            },
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 386741,
+              "name": "FLEJEUNE"
+            }
+          ]
+        },
+        {
+          "matchId": 510162383,
+          "civ": "Goths",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:42:14.000Z",
+          "dur": 47,
+          "opponents": [
+            {
+              "profileId": 24756833,
+              "name": "goeinicholas"
+            },
+            {
+              "profileId": 24640693,
+              "name": "slc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 203952,
+              "name": "[GenX] Phoenix"
+            }
+          ]
+        },
         {
           "matchId": 509175923,
           "civ": "Burgundians",
@@ -88129,5 +88181,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 39,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1001,
-        "peakRating": 1001
+        "totalGames": 40,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1017,
+        "peakRating": 1017
       },
       "matches": [
+        {
+          "matchId": 509382788,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:52:23.000Z",
+          "dur": 635,
+          "opponents": [
+            {
+              "profileId": 1372736,
+              "name": "CrimsonCelt4176"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501513736,
           "civ": "Persians",
@@ -692,12 +709,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 648,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1034,
+        "totalGames": 651,
+        "pulledDate": "2026-09-29",
+        "latestRating": 992,
         "peakRating": 1165
       },
       "matches": [
+        {
+          "matchId": 509678054,
+          "civ": "Malians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:26:38.000Z",
+          "dur": 1835,
+          "opponents": [
+            {
+              "profileId": 25065503,
+              "name": "laivantoan1993"
+            },
+            {
+              "profileId": 10890977,
+              "name": "\u5c0f\u4f51"
+            },
+            {
+              "profileId": 4988136,
+              "name": "Philippe6390"
+            },
+            {
+              "profileId": 2913477,
+              "name": "Doji"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4278784,
+              "name": "Meroero"
+            },
+            {
+              "profileId": 18976129,
+              "name": "Grzmocik \u51f8( \u2022_\u2022 )\u51f8"
+            },
+            {
+              "profileId": 1347567,
+              "name": "Orsai.exe"
+            }
+          ]
+        },
+        {
+          "matchId": 509668763,
+          "civ": "Saracens",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:49:28.000Z",
+          "dur": 2163,
+          "opponents": [
+            {
+              "profileId": 2276946,
+              "name": "kktomcheung"
+            },
+            {
+              "profileId": 10543189,
+              "name": "zozolini"
+            },
+            {
+              "profileId": 338922,
+              "name": "Volt Br8765"
+            },
+            {
+              "profileId": 4112003,
+              "name": "90_Archer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5822509,
+              "name": "LiMe86"
+            },
+            {
+              "profileId": 13325759,
+              "name": "Elizabeth^^"
+            },
+            {
+              "profileId": 15296399,
+              "name": "francis le tueur"
+            }
+          ]
+        },
+        {
+          "matchId": 509385939,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:06:30.000Z",
+          "dur": 1983,
+          "opponents": [
+            {
+              "profileId": 1780444,
+              "name": "DOLAREX"
+            },
+            {
+              "profileId": 5104404,
+              "name": "Majfon"
+            },
+            {
+              "profileId": 12317764,
+              "name": "Moraletti"
+            },
+            {
+              "profileId": 12334121,
+              "name": "jairohs17"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25617927,
+              "name": "\u96f7\u6b27"
+            },
+            {
+              "profileId": 17082054,
+              "name": "\u9e3f\u7fd4\u5149\u5927"
+            },
+            {
+              "profileId": 4785883,
+              "name": "who"
+            }
+          ]
+        },
         {
           "matchId": 473385471,
           "civ": "Bohemians",
@@ -22548,5 +22691,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

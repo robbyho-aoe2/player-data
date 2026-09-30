@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 59,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 1057,
         "peakRating": 1120
       },
@@ -973,12 +973,190 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1784,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1164,
+        "totalGames": 1789,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1193,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 509498558,
+          "civ": "Vietnamese",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:52:45.000Z",
+          "dur": 1244,
+          "opponents": [
+            {
+              "profileId": 23431078,
+              "name": "danielvera932"
+            },
+            {
+              "profileId": 1747782,
+              "name": "El batis"
+            },
+            {
+              "profileId": 18985327,
+              "name": "Unknown"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4520674,
+              "name": "Arik 007"
+            },
+            {
+              "profileId": 4632566,
+              "name": "Gladiator"
+            }
+          ]
+        },
+        {
+          "matchId": 509492931,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:19:46.000Z",
+          "dur": 1811,
+          "opponents": [
+            {
+              "profileId": 1747782,
+              "name": "El batis"
+            },
+            {
+              "profileId": 8843246,
+              "name": "[HOBO]Drifter"
+            },
+            {
+              "profileId": 18410803,
+              "name": "EXILE | milval"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4520674,
+              "name": "Arik 007"
+            },
+            {
+              "profileId": 4632566,
+              "name": "Gladiator"
+            }
+          ]
+        },
+        {
+          "matchId": 509485515,
+          "civ": "Vietnamese",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:34:57.000Z",
+          "dur": 2330,
+          "opponents": [
+            {
+              "profileId": 18005396,
+              "name": "NT_Tiberius"
+            },
+            {
+              "profileId": 3563649,
+              "name": "Monotributista Furioso"
+            },
+            {
+              "profileId": 3292461,
+              "name": "The Sorrow of Moldavia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4632566,
+              "name": "Gladiator"
+            },
+            {
+              "profileId": 4520674,
+              "name": "Arik 007"
+            }
+          ]
+        },
+        {
+          "matchId": 509480276,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:04:47.000Z",
+          "dur": 1606,
+          "opponents": [
+            {
+              "profileId": 5617364,
+              "name": "V\u00e0ng Ai N\u1ea5y \u0110\u00e0o"
+            },
+            {
+              "profileId": 311189,
+              "name": "ReiKing"
+            },
+            {
+              "profileId": 3527274,
+              "name": "Crusader"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4520674,
+              "name": "Arik 007"
+            },
+            {
+              "profileId": 4632566,
+              "name": "Gladiator"
+            }
+          ]
+        },
+        {
+          "matchId": 509227857,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T00:41:11.000Z",
+          "dur": 1942,
+          "opponents": [
+            {
+              "profileId": 3393362,
+              "name": "Aczino"
+            },
+            {
+              "profileId": 4147869,
+              "name": "alex1993327"
+            },
+            {
+              "profileId": 11571385,
+              "name": "aariva83"
+            },
+            {
+              "profileId": 18235115,
+              "name": "Kierkegaard"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3150261,
+              "name": "Jolt"
+            },
+            {
+              "profileId": 4520674,
+              "name": "Arik 007"
+            },
+            {
+              "profileId": 4632566,
+              "name": "Gladiator"
+            }
+          ]
+        },
         {
           "matchId": 509052301,
           "civ": "Danes",
@@ -57074,5 +57252,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

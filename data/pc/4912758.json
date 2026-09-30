@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 961,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1620,
         "peakRating": 1632
       },
@@ -15405,12 +15405,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 743,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1354,
-        "peakRating": 1385
+        "totalGames": 746,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1406,
+        "peakRating": 1406
       },
       "matches": [
+        {
+          "matchId": 509828281,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:07:16.000Z",
+          "dur": 1194,
+          "opponents": [
+            {
+              "profileId": 23299854,
+              "name": "crux_dy164"
+            },
+            {
+              "profileId": 10025747,
+              "name": "Boyser"
+            },
+            {
+              "profileId": 8663401,
+              "name": "\u674e\u96fe\u6708"
+            },
+            {
+              "profileId": 3580958,
+              "name": "Texas Mil"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1486432,
+              "name": "lun"
+            },
+            {
+              "profileId": 20558829,
+              "name": "825889483"
+            },
+            {
+              "profileId": 14166051,
+              "name": "chenst2020"
+            }
+          ]
+        },
+        {
+          "matchId": 509326188,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T11:11:43.000Z",
+          "dur": 2145,
+          "opponents": [
+            {
+              "profileId": 5979237,
+              "name": "miguel_carl7s"
+            },
+            {
+              "profileId": 5776043,
+              "name": "\u5bc2\u5bde\u5e05\u54e5\u7b49\u7231"
+            },
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            },
+            {
+              "profileId": 16352243,
+              "name": "qkry335791"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 231309,
+              "name": "Webmaster"
+            },
+            {
+              "profileId": 11304623,
+              "name": "LaBitas"
+            },
+            {
+              "profileId": 18530441,
+              "name": "1godi"
+            }
+          ]
+        },
+        {
+          "matchId": 509282692,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T06:01:54.000Z",
+          "dur": 1626,
+          "opponents": [
+            {
+              "profileId": 2286328,
+              "name": "poplin"
+            },
+            {
+              "profileId": 4823259,
+              "name": "The REAL Pepsiman"
+            },
+            {
+              "profileId": 14430319,
+              "name": "Dr Whitman"
+            },
+            {
+              "profileId": 20960432,
+              "name": "\u9006\u00b7\u98ce"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25217341,
+              "name": "peace"
+            },
+            {
+              "profileId": 10984922,
+              "name": "\u613f\u968f\u5fc3"
+            },
+            {
+              "profileId": 20317614,
+              "name": "\u82cf\u4e1c\u5761\u7684\u7c89\u4e1d"
+            }
+          ]
+        },
         {
           "matchId": 509022126,
           "civ": "Mongols",
@@ -40767,5 +40893,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

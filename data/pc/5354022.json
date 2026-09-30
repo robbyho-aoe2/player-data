@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 336,
-        "pulledDate": "2026-09-26",
-        "latestRating": 857,
+        "totalGames": 339,
+        "pulledDate": "2026-09-30",
+        "latestRating": 839,
         "peakRating": 1015
       },
       "matches": [
+        {
+          "matchId": 509893691,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:27:25.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 25921451,
+              "name": "\u041a\u0430\u043f\u0438\u0442\u0430\u043d \u043f\u0435\u0447\u0435\u043d\u044c\u043a\u0430"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509888958,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:02:54.000Z",
+          "dur": 1300,
+          "opponents": [
+            {
+              "profileId": 1119082,
+              "name": "nastridamus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509881053,
+          "civ": "Goths",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:19:44.000Z",
+          "dur": 1914,
+          "opponents": [
+            {
+              "profileId": 3703584,
+              "name": "Tompp1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508760794,
           "civ": "Goths",
@@ -5741,12 +5792,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 706,
-        "pulledDate": "2026-09-26",
-        "latestRating": 947,
+        "totalGames": 707,
+        "pulledDate": "2026-09-30",
+        "latestRating": 931,
         "peakRating": 1026
       },
       "matches": [
+        {
+          "matchId": 509909295,
+          "civ": "Goths",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:50:52.000Z",
+          "dur": 1774,
+          "opponents": [
+            {
+              "profileId": 21778979,
+              "name": "McFly"
+            },
+            {
+              "profileId": 23490850,
+              "name": "maltheh9797"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 263883,
+              "name": "Bo Binci"
+            }
+          ]
+        },
         {
           "matchId": 508159441,
           "civ": "Goths",
@@ -26967,5 +27044,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

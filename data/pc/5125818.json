@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1452,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1717,
+        "totalGames": 1456,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1747,
         "peakRating": 1811
       },
       "matches": [
+        {
+          "matchId": 510150353,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:49:00.000Z",
+          "dur": 1588,
+          "opponents": [
+            {
+              "profileId": 287042,
+              "name": "erikolu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510132712,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:22:42.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 381617,
+              "name": "LM | Samu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510100478,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:26:53.000Z",
+          "dur": 2231,
+          "opponents": [
+            {
+              "profileId": 15478843,
+              "name": "SuperCrazyFeng"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509894285,
+          "civ": "Dravidians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:30:54.000Z",
+          "dur": 1481,
+          "opponents": [
+            {
+              "profileId": 21765271,
+              "name": "pienus23"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508916071,
           "civ": "Hindustanis",
@@ -21867,7 +21935,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1135
       },
       "matches": [
@@ -21972,5 +22040,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 292,
-        "pulledDate": "2026-09-22",
-        "latestRating": 2089,
+        "totalGames": 295,
+        "pulledDate": "2026-09-30",
+        "latestRating": 2107,
         "peakRating": 2208
       },
       "matches": [
+        {
+          "matchId": 509412361,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:02:42.000Z",
+          "dur": 1365,
+          "opponents": [
+            {
+              "profileId": 25836919,
+              "name": "Nobody"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509408818,
+          "civ": "Gurjaras",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:47:29.000Z",
+          "dur": 830,
+          "opponents": [
+            {
+              "profileId": 1607693,
+              "name": "shegin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509404226,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:27:19.000Z",
+          "dur": 1122,
+          "opponents": [
+            {
+              "profileId": 4576272,
+              "name": "[CL] el castigador"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508269740,
           "civ": "Berbers",
@@ -4731,12 +4782,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 821,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1678,
+        "totalGames": 823,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1681,
         "peakRating": 1771
       },
       "matches": [
+        {
+          "matchId": 510136354,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:42:25.000Z",
+          "dur": 679,
+          "opponents": [
+            {
+              "profileId": 237283,
+              "name": "yaniversary"
+            },
+            {
+              "profileId": 4951767,
+              "name": "Mizii"
+            },
+            {
+              "profileId": 668463,
+              "name": "\u5c41\u5c41\u4eba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25915901,
+              "name": "Fake2K"
+            },
+            {
+              "profileId": 3028133,
+              "name": "fpl_whisperer"
+            }
+          ]
+        },
+        {
+          "matchId": 510130737,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:13:25.000Z",
+          "dur": 1340,
+          "opponents": [
+            {
+              "profileId": 1693166,
+              "name": "KoNFeR"
+            },
+            {
+              "profileId": 757886,
+              "name": "DarK_KnighT_"
+            },
+            {
+              "profileId": 3569377,
+              "name": "Millo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3028133,
+              "name": "fpl_whisperer"
+            },
+            {
+              "profileId": 25915901,
+              "name": "Fake2K"
+            }
+          ]
+        },
         {
           "matchId": 507789977,
           "civ": "Hindustanis",
@@ -34003,5 +34122,6 @@
   },
   "country": "gr",
   "countryIcon": "\ud83c\uddec\ud83c\uddf7",
-  "countryName": "Greece"
+  "countryName": "Greece",
+  "platform": "Steam"
 }

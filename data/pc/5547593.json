@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 582,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-30",
         "latestRating": 1489,
         "peakRating": 1610
       },
@@ -9341,12 +9341,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 676,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1617,
+        "totalGames": 678,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1637,
         "peakRating": 1709
       },
       "matches": [
+        {
+          "matchId": 510022874,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:08:43.000Z",
+          "dur": 1077,
+          "opponents": [
+            {
+              "profileId": 227813,
+              "name": "GAX | Gabasco"
+            },
+            {
+              "profileId": 24710128,
+              "name": "Marvin Saturnino"
+            },
+            {
+              "profileId": 11686358,
+              "name": "T0P_Obelisk"
+            },
+            {
+              "profileId": 259009,
+              "name": "GAX | ERV"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2590992,
+              "name": "GT_22"
+            },
+            {
+              "profileId": 2568623,
+              "name": "Pablo!"
+            },
+            {
+              "profileId": 1749894,
+              "name": "Nacho_10"
+            }
+          ]
+        },
+        {
+          "matchId": 510021982,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:02:54.000Z",
+          "dur": 154,
+          "opponents": [
+            {
+              "profileId": 20957589,
+              "name": "VL Ferdinand"
+            },
+            {
+              "profileId": 14917238,
+              "name": "Smitty WerbenJ\u00e4gerManJensen"
+            },
+            {
+              "profileId": 19235131,
+              "name": "SimoniacJewel88"
+            },
+            {
+              "profileId": 23994907,
+              "name": "\u9a91\u732a\u5c04\u7bad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1749894,
+              "name": "Nacho_10"
+            },
+            {
+              "profileId": 2568623,
+              "name": "Pablo!"
+            },
+            {
+              "profileId": 2590992,
+              "name": "GT_22"
+            }
+          ]
+        },
         {
           "matchId": 506301256,
           "civ": "Vietnamese",
@@ -33807,5 +33891,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

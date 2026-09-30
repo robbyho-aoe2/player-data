@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1631,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1227,
+        "totalGames": 1634,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1225,
         "peakRating": 1326
       },
       "matches": [
+        {
+          "matchId": 510207684,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:00:13.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1814272,
+              "name": "Demax"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509996718,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:26:50.000Z",
+          "dur": 1285,
+          "opponents": [
+            {
+              "profileId": 5345855,
+              "name": "Beta X"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509992552,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:59:07.000Z",
+          "dur": 815,
+          "opponents": [
+            {
+              "profileId": 5508749,
+              "name": "Jonmel"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508781883,
           "civ": "Danes",
@@ -24521,12 +24572,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 946,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1200,
+        "totalGames": 949,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1213,
         "peakRating": 1265
       },
       "matches": [
+        {
+          "matchId": 510000402,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:50:16.000Z",
+          "dur": 2589,
+          "opponents": [
+            {
+              "profileId": 1151485,
+              "name": "Powned"
+            },
+            {
+              "profileId": 2549560,
+              "name": "arsmx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2622201,
+              "name": "APTokyo"
+            }
+          ]
+        },
+        {
+          "matchId": 509277322,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T05:21:20.000Z",
+          "dur": 2935,
+          "opponents": [
+            {
+              "profileId": 2296443,
+              "name": "DS_Matijuz"
+            },
+            {
+              "profileId": 2110565,
+              "name": "Hari_Seldon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2622201,
+              "name": "APTokyo"
+            }
+          ]
+        },
+        {
+          "matchId": 509268972,
+          "civ": "Danes",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T04:26:37.000Z",
+          "dur": 2213,
+          "opponents": [
+            {
+              "profileId": 3424709,
+              "name": "[BJTOX] Guille"
+            },
+            {
+              "profileId": 3383902,
+              "name": "[BJTOX]pepesasia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2622201,
+              "name": "APTokyo"
+            }
+          ]
+        },
         {
           "matchId": 509018811,
           "civ": "Danes",
@@ -44927,5 +45056,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

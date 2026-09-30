@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 33,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1106,
         "peakRating": 1106
       },
@@ -557,12 +557,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3986,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1214,
+        "totalGames": 3990,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1254,
         "peakRating": 1428
       },
       "matches": [
+        {
+          "matchId": 510040279,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:31:42.000Z",
+          "dur": 2828,
+          "opponents": [
+            {
+              "profileId": 2683323,
+              "name": "Zato"
+            },
+            {
+              "profileId": 10105844,
+              "name": "\u89c0\u9663\u5716~\u638c\u5175\u52e2~\u5c07\u76f8\u4e4b\u624d"
+            },
+            {
+              "profileId": 24022417,
+              "name": "\u55b5\u55b5\u55b5\u55b5"
+            },
+            {
+              "profileId": 24135447,
+              "name": "harry_mas0n"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1947162,
+              "name": "sergio-h-h"
+            },
+            {
+              "profileId": 20825444,
+              "name": "[Baratos] Roler The Lag Bringer"
+            },
+            {
+              "profileId": 22468457,
+              "name": "[GDL] SEVONENKO"
+            }
+          ]
+        },
+        {
+          "matchId": 510036295,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:53:00.000Z",
+          "dur": 2153,
+          "opponents": [
+            {
+              "profileId": 24624568,
+              "name": "diudiudiu\u4e36"
+            },
+            {
+              "profileId": 23315421,
+              "name": "\u8001k"
+            },
+            {
+              "profileId": 3047350,
+              "name": "Juansedav95"
+            },
+            {
+              "profileId": 535679,
+              "name": "Belmont"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22468457,
+              "name": "[GDL] SEVONENKO"
+            },
+            {
+              "profileId": 20825444,
+              "name": "[Baratos] Roler The Lag Bringer"
+            },
+            {
+              "profileId": 1947162,
+              "name": "sergio-h-h"
+            }
+          ]
+        },
+        {
+          "matchId": 510032175,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:17:45.000Z",
+          "dur": 1438,
+          "opponents": [
+            {
+              "profileId": 306828,
+              "name": "Christ"
+            },
+            {
+              "profileId": 2677630,
+              "name": "critchen"
+            },
+            {
+              "profileId": 20148920,
+              "name": "greenfalls14"
+            },
+            {
+              "profileId": 22617156,
+              "name": "xcfotrp131"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2111663,
+              "name": "[GDL] Maldito Pantoja"
+            },
+            {
+              "profileId": 2623424,
+              "name": "[GDL]HULKMEN_GT"
+            },
+            {
+              "profileId": 22468457,
+              "name": "[GDL] SEVONENKO"
+            }
+          ]
+        },
+        {
+          "matchId": 510015352,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:19:42.000Z",
+          "dur": 1231,
+          "opponents": [
+            {
+              "profileId": 96178,
+              "name": "LVDB_Curandero"
+            },
+            {
+              "profileId": 17799842,
+              "name": "43 \u0110o\u00e0n Qu\u1ed1c H\u01b0ng"
+            },
+            {
+              "profileId": 2122790,
+              "name": "weaking"
+            },
+            {
+              "profileId": 24206789,
+              "name": "BP | ham.io"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21164226,
+              "name": "[GDL] Capitan Nicky"
+            },
+            {
+              "profileId": 5840738,
+              "name": "[GDL]Cucumber"
+            },
+            {
+              "profileId": 2111663,
+              "name": "[GDL] Maldito Pantoja"
+            }
+          ]
+        },
         {
           "matchId": 508152625,
           "civ": "Italians",
@@ -155154,5 +155322,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

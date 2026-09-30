@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -107,12 +107,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 774,
-        "pulledDate": "2026-09-26",
-        "latestRating": 695,
+        "totalGames": 778,
+        "pulledDate": "2026-09-30",
+        "latestRating": 684,
         "peakRating": 861
       },
       "matches": [
+        {
+          "matchId": 510129788,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:08:39.000Z",
+          "dur": 2353,
+          "opponents": [
+            {
+              "profileId": 5911870,
+              "name": "The_Lumberjack"
+            },
+            {
+              "profileId": 24767782,
+              "name": "Anubis"
+            },
+            {
+              "profileId": 4090237,
+              "name": "robinho;"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20460486,
+              "name": "Animal"
+            },
+            {
+              "profileId": 1413559,
+              "name": "GiulioSalmo"
+            }
+          ]
+        },
+        {
+          "matchId": 510098704,
+          "civ": "Vikings",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:16:59.000Z",
+          "dur": 1663,
+          "opponents": [
+            {
+              "profileId": 24884487,
+              "name": "Vickysaurus"
+            },
+            {
+              "profileId": 9954321,
+              "name": "Janet"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12145306,
+              "name": "tk421"
+            }
+          ]
+        },
+        {
+          "matchId": 509928239,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:23:58.000Z",
+          "dur": 2658,
+          "opponents": [
+            {
+              "profileId": 18631015,
+              "name": "sebatyper"
+            },
+            {
+              "profileId": 19039013,
+              "name": "TERRORKING4140"
+            },
+            {
+              "profileId": 2438493,
+              "name": "MisterCachimba"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24402920,
+              "name": "yonissn26"
+            },
+            {
+              "profileId": 400310,
+              "name": "A Delicious Pot Roast"
+            }
+          ]
+        },
+        {
+          "matchId": 509891924,
+          "civ": "Incas",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:19:02.000Z",
+          "dur": 1906,
+          "opponents": [
+            {
+              "profileId": 209849,
+              "name": "PremixedHail436"
+            },
+            {
+              "profileId": 19702140,
+              "name": "Dream"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5939961,
+              "name": "Raidho"
+            }
+          ]
+        },
         {
           "matchId": 509160523,
           "civ": "Italians",
@@ -20456,5 +20576,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

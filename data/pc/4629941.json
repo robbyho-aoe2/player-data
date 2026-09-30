@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 132,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1068,
         "peakRating": 1111
       },
@@ -2141,12 +2141,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 268,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1167,
+        "totalGames": 271,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1157,
         "peakRating": 1248
       },
       "matches": [
+        {
+          "matchId": 510046809,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:43:36.000Z",
+          "dur": 811,
+          "opponents": [
+            {
+              "profileId": 795850,
+              "name": "Ahhh Harambe"
+            },
+            {
+              "profileId": 1505192,
+              "name": "YuYu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4532704,
+              "name": "\u0181\u0404\u019d\u0224\u0181\u01a0\u01b3"
+            }
+          ]
+        },
+        {
+          "matchId": 510043454,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:05:35.000Z",
+          "dur": 2078,
+          "opponents": [
+            {
+              "profileId": 3250569,
+              "name": "[XEVER]_AlarconFalcon"
+            },
+            {
+              "profileId": 9216977,
+              "name": "Heccal23"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4532704,
+              "name": "\u0181\u0404\u019d\u0224\u0181\u01a0\u01b3"
+            }
+          ]
+        },
+        {
+          "matchId": 510040768,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:35:52.000Z",
+          "dur": 1455,
+          "opponents": [
+            {
+              "profileId": 24992559,
+              "name": "Ludwig Xan"
+            },
+            {
+              "profileId": 6801445,
+              "name": "[GDL] especialista"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4532704,
+              "name": "\u0181\u0404\u019d\u0224\u0181\u01a0\u01b3"
+            }
+          ]
+        },
         {
           "matchId": 507671437,
           "civ": "Tatars",
@@ -9321,5 +9399,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

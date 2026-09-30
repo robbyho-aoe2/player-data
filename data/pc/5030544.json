@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 747,
-        "pulledDate": "2026-09-22",
-        "latestRating": 992,
+        "totalGames": 751,
+        "pulledDate": "2026-09-30",
+        "latestRating": 955,
         "peakRating": 1084
       },
       "matches": [
+        {
+          "matchId": 510154476,
+          "civ": "Armenians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:06:56.000Z",
+          "dur": 2775,
+          "opponents": [
+            {
+              "profileId": 23606230,
+              "name": "Ramazancimbisn"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509952771,
+          "civ": "Armenians",
+          "map": "Four Lakes",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:13:16.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 15241084,
+              "name": "soyemasoto"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509949125,
+          "civ": "Armenians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:56:48.000Z",
+          "dur": 886,
+          "opponents": [
+            {
+              "profileId": 546965,
+              "name": "Mr White"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509869898,
+          "civ": "Sicilians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:16:53.000Z",
+          "dur": 3170,
+          "opponents": [
+            {
+              "profileId": 3931031,
+              "name": "kawaki"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507753398,
           "civ": "Armenians",
@@ -7278,7 +7346,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 818
       },
       "matches": [
@@ -7386,5 +7454,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Xbox"
 }

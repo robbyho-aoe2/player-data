@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 201,
-        "pulledDate": "2026-09-26",
-        "latestRating": 970,
+        "totalGames": 203,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1003,
         "peakRating": 1069
       },
       "matches": [
+        {
+          "matchId": 509586257,
+          "civ": "Maya",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:14:46.000Z",
+          "dur": 589,
+          "opponents": [
+            {
+              "profileId": 24223557,
+              "name": "KrustenK\u00e4se"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509316004,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:58:33.000Z",
+          "dur": 1828,
+          "opponents": [
+            {
+              "profileId": 25103302,
+              "name": "maxokol"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509092233,
           "civ": "Armenians",
@@ -3261,12 +3295,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 761,
-        "pulledDate": "2026-09-26",
-        "latestRating": 979,
+        "totalGames": 763,
+        "pulledDate": "2026-09-30",
+        "latestRating": 952,
         "peakRating": 1243
       },
       "matches": [
+        {
+          "matchId": 509582576,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:50:17.000Z",
+          "dur": 1344,
+          "opponents": [
+            {
+              "profileId": 20960110,
+              "name": "1416484493"
+            },
+            {
+              "profileId": 24169567,
+              "name": "MrTomatoChips"
+            },
+            {
+              "profileId": 18195862,
+              "name": "M1rc0ss_"
+            },
+            {
+              "profileId": 17549693,
+              "name": "\u30b5\u30f3\u30c6\u30a2\u30b4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16229666,
+              "name": "cagrierdemir"
+            },
+            {
+              "profileId": 15627776,
+              "name": "Dx"
+            },
+            {
+              "profileId": 2918652,
+              "name": "AxBy94"
+            }
+          ]
+        },
+        {
+          "matchId": 509400325,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:10:06.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 6081599,
+              "name": "[WK] KingRev_"
+            },
+            {
+              "profileId": 2084810,
+              "name": "Dan1kpi"
+            },
+            {
+              "profileId": 1861198,
+              "name": "Report Fuco"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24237213,
+              "name": "sonhero3000"
+            },
+            {
+              "profileId": 11957365,
+              "name": "Etrinio"
+            }
+          ]
+        },
         {
           "matchId": 509148442,
           "civ": "Danes",
@@ -30581,5 +30691,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

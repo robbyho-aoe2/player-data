@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 31,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-30",
         "latestRating": 1307,
         "peakRating": 1307
       },
@@ -511,12 +511,124 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 469,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1556,
+        "totalGames": 473,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1522,
         "peakRating": 1586
       },
       "matches": [
+        {
+          "matchId": 510131808,
+          "civ": "Poles",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:18:57.000Z",
+          "dur": 1667,
+          "opponents": [
+            {
+              "profileId": 22844536,
+              "name": "GermanxDream_"
+            },
+            {
+              "profileId": 22800675,
+              "name": "iMMo_KiNG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23520107,
+              "name": "DerBob3003"
+            }
+          ]
+        },
+        {
+          "matchId": 510123984,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:37:19.000Z",
+          "dur": 2447,
+          "opponents": [
+            {
+              "profileId": 24423708,
+              "name": "eemeliuot"
+            },
+            {
+              "profileId": 24371728,
+              "name": "Hurina-Ankka"
+            },
+            {
+              "profileId": 24377184,
+              "name": "vuokila1100"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23520107,
+              "name": "DerBob3003"
+            },
+            {
+              "profileId": 14278439,
+              "name": "King Naytaan"
+            }
+          ]
+        },
+        {
+          "matchId": 509951308,
+          "civ": "Koreans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:07:16.000Z",
+          "dur": 1657,
+          "opponents": [
+            {
+              "profileId": 14708586,
+              "name": "KING SAM 22"
+            },
+            {
+              "profileId": 13370763,
+              "name": "The Sasquatch53"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22897289,
+              "name": "BouGuL"
+            }
+          ]
+        },
+        {
+          "matchId": 509944016,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:34:25.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 22707278,
+              "name": "THEPADDYDOC"
+            },
+            {
+              "profileId": 22708107,
+              "name": "Hans_Wurst_89"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22897289,
+              "name": "BouGuL"
+            }
+          ]
+        },
         {
           "matchId": 509405213,
           "civ": "Persians",
@@ -13541,18 +13653,44 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 13,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1089,
+        "totalGames": 14,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1066,
         "peakRating": 1172
       },
       "matches": [
+        {
+          "matchId": 510116489,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:55:34.000Z",
+          "dur": 2128,
+          "opponents": [
+            {
+              "profileId": 2248796,
+              "name": "Haitatchi"
+            },
+            {
+              "profileId": 1810972,
+              "name": "Baumewok"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23520107,
+              "name": "DerBob3003"
+            }
+          ]
+        },
         {
           "matchId": 494837067,
           "civ": "Spanish",
@@ -13923,5 +14061,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "PSN"
 }

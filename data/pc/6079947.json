@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 13,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 933,
         "peakRating": 933
       },
@@ -237,12 +237,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1545,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1209,
+        "totalGames": 1546,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1224,
         "peakRating": 1355
       },
       "matches": [
+        {
+          "matchId": 509739914,
+          "civ": "Persians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:28:02.000Z",
+          "dur": 1232,
+          "opponents": [
+            {
+              "profileId": 249537,
+              "name": "DJAKONDA"
+            },
+            {
+              "profileId": 24832851,
+              "name": "cobanizer"
+            },
+            {
+              "profileId": 5418471,
+              "name": "AztecKiller2427"
+            },
+            {
+              "profileId": 1900842,
+              "name": "Massarock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24624568,
+              "name": "diudiudiu\u4e36"
+            },
+            {
+              "profileId": 23884465,
+              "name": "Gonnar"
+            },
+            {
+              "profileId": 1934830,
+              "name": "Nike man"
+            }
+          ]
+        },
         {
           "matchId": 495150808,
           "civ": "Persians",
@@ -63391,5 +63433,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

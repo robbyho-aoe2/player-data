@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 210,
-        "pulledDate": "2026-09-19",
-        "latestRating": 954,
+        "totalGames": 213,
+        "pulledDate": "2026-09-30",
+        "latestRating": 938,
         "peakRating": 1124
       },
       "matches": [
+        {
+          "matchId": 509766915,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:48:55.000Z",
+          "dur": 1490,
+          "opponents": [
+            {
+              "profileId": 6071513,
+              "name": "timmywang50301"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509762360,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:23:21.000Z",
+          "dur": 1352,
+          "opponents": [
+            {
+              "profileId": 26109988,
+              "name": "Burraza"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509484468,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:27:58.000Z",
+          "dur": 1359,
+          "opponents": [
+            {
+              "profileId": 1880047,
+              "name": "YourMum"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507209569,
           "civ": "Britons",
@@ -3413,7 +3464,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1491,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-30",
         "latestRating": 1182,
         "peakRating": 1294
       },
@@ -58930,5 +58981,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 271,
-        "pulledDate": "2026-09-21",
-        "latestRating": 761,
+        "totalGames": 274,
+        "pulledDate": "2026-09-30",
+        "latestRating": 743,
         "peakRating": 865
       },
       "matches": [
+        {
+          "matchId": 510167274,
+          "civ": "Wu",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:04:06.000Z",
+          "dur": 1334,
+          "opponents": [
+            {
+              "profileId": 16794301,
+              "name": "henrique.villetti"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510166815,
+          "civ": "Incas",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:02:22.000Z",
+          "dur": 18,
+          "opponents": [
+            {
+              "profileId": 25375598,
+              "name": "VenerableGiraffe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509409493,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:50:03.000Z",
+          "dur": 2004,
+          "opponents": [
+            {
+              "profileId": 25802971,
+              "name": "opsek95"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507466029,
           "civ": "Malians",
@@ -4637,7 +4688,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 47,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-30",
         "latestRating": 788,
         "peakRating": 831
       },
@@ -5884,5 +5935,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,25 +6,178 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 374,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1492,
+        "totalGames": 383,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1512,
         "peakRating": 1699
       },
       "matches": [
+        {
+          "matchId": 510150156,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:48:09.000Z",
+          "dur": 1276,
+          "opponents": [
+            {
+              "profileId": 1343964,
+              "name": "J40 | Berto"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510142617,
+          "civ": "Wei",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:12:44.000Z",
+          "dur": 2034,
+          "opponents": [
+            {
+              "profileId": 11807473,
+              "name": "Kataklysm"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510140952,
+          "civ": "Turks",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:05:02.000Z",
+          "dur": 349,
+          "opponents": [
+            {
+              "profileId": 3774002,
+              "name": "__24_Thorfin_Arg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510133526,
+          "civ": "Wei",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:26:59.000Z",
+          "dur": 2170,
+          "opponents": [
+            {
+              "profileId": 1867906,
+              "name": "Ebrin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510113255,
+          "civ": "Armenians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:37:23.000Z",
+          "dur": 854,
+          "opponents": [
+            {
+              "profileId": 2249013,
+              "name": "Mister Piccolo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510110506,
+          "civ": "Wei",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:21:45.000Z",
+          "dur": 835,
+          "opponents": [
+            {
+              "profileId": 4133089,
+              "name": "Eliot"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510095417,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:57:46.000Z",
+          "dur": 1879,
+          "opponents": [
+            {
+              "profileId": 1914476,
+              "name": "Capitainecool"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510087941,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:14:01.000Z",
+          "dur": 1388,
+          "opponents": [
+            {
+              "profileId": 3415256,
+              "name": "Erik Zion"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510087247,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:10:08.000Z",
+          "dur": 114,
+          "opponents": [
+            {
+              "profileId": 1458739,
+              "name": "1920343014"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507112056,
           "civ": "Slavs",
@@ -6022,7 +6175,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1402,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1385,
         "peakRating": 1525
       },
@@ -52809,5 +52962,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

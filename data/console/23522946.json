@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-09-30",
         "latestRating": 1156,
         "peakRating": 1156
       },
@@ -191,12 +191,90 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 237,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1319,
+        "totalGames": 240,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1289,
         "peakRating": 1357
       },
       "matches": [
+        {
+          "matchId": 510017739,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:34:33.000Z",
+          "dur": 431,
+          "opponents": [
+            {
+              "profileId": 13896945,
+              "name": "raginpwnr1"
+            },
+            {
+              "profileId": 13727719,
+              "name": "samy19"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 510012077,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:59:43.000Z",
+          "dur": 1567,
+          "opponents": [
+            {
+              "profileId": 12868111,
+              "name": "MORIS0202"
+            },
+            {
+              "profileId": 12493963,
+              "name": "Darth masala"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
+        {
+          "matchId": 510007138,
+          "civ": "Bohemians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:31:01.000Z",
+          "dur": 1250,
+          "opponents": [
+            {
+              "profileId": 12493963,
+              "name": "Darth masala"
+            },
+            {
+              "profileId": 13492715,
+              "name": "XxXHu5TL3RXxX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23522774,
+              "name": "E7Joseito_ttv"
+            }
+          ]
+        },
         {
           "matchId": 508583592,
           "civ": "Burgundians",
@@ -7034,14 +7112,14 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-09-30",
         "latestRating": 1000
       },
       "matches": [
@@ -7116,5 +7194,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "PSN"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 92,
-        "pulledDate": "2026-09-10",
-        "latestRating": 518,
+        "totalGames": 95,
+        "pulledDate": "2026-09-30",
+        "latestRating": 499,
         "peakRating": 597
       },
       "matches": [
+        {
+          "matchId": 510001597,
+          "civ": "Teutons",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:57:53.000Z",
+          "dur": 2358,
+          "opponents": [
+            {
+              "profileId": 22706484,
+              "name": "the9thgradr"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509803151,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:19:17.000Z",
+          "dur": 1674,
+          "opponents": [
+            {
+              "profileId": 25004813,
+              "name": "Brian.333.ca"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509798688,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:49:29.000Z",
+          "dur": 388,
+          "opponents": [
+            {
+              "profileId": 15804980,
+              "name": "SlySIERRAR117"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502576914,
           "civ": "Vietnamese",
@@ -1501,12 +1552,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 36,
-        "pulledDate": "2026-09-10",
-        "latestRating": 680,
+        "totalGames": 39,
+        "pulledDate": "2026-09-30",
+        "latestRating": 671,
         "peakRating": 947
       },
       "matches": [
+        {
+          "matchId": 510211918,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:28:58.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1199498,
+              "name": "stretch gibson"
+            },
+            {
+              "profileId": 26099436,
+              "name": "mikey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1385305,
+              "name": "BingoDabber"
+            }
+          ]
+        },
+        {
+          "matchId": 510209089,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:10:49.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 24503992,
+              "name": "SAFIRA"
+            },
+            {
+              "profileId": 15498208,
+              "name": "FortifiedChicken"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1782779,
+              "name": "fooBare"
+            }
+          ]
+        },
+        {
+          "matchId": 509770918,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:11:54.000Z",
+          "dur": 1678,
+          "opponents": [
+            {
+              "profileId": 23079660,
+              "name": "jajavivi"
+            },
+            {
+              "profileId": 23079549,
+              "name": "Rafaker"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5325292,
+              "name": "puertoalvarezjuandavid"
+            }
+          ]
+        },
         {
           "matchId": 502540141,
           "civ": "Goths",
@@ -2556,5 +2685,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Xbox"
 }

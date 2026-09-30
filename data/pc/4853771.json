@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1087,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1378,
+        "totalGames": 1088,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1361,
         "peakRating": 1520
       },
       "matches": [
+        {
+          "matchId": 510143609,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:17:08.000Z",
+          "dur": 2207,
+          "opponents": [
+            {
+              "profileId": 532874,
+              "name": "twelve"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508700290,
           "civ": "Bohemians",
@@ -18508,12 +18525,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1388,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1278,
+        "totalGames": 1389,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1292,
         "peakRating": 1394
       },
       "matches": [
+        {
+          "matchId": 510160148,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:32:42.000Z",
+          "dur": 4409,
+          "opponents": [
+            {
+              "profileId": 220041,
+              "name": "FOB Nr6"
+            },
+            {
+              "profileId": 5712181,
+              "name": "DerSchrullie"
+            },
+            {
+              "profileId": 5709150,
+              "name": "Papa.Pawelczyk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3519044,
+              "name": "baresflorian1990"
+            },
+            {
+              "profileId": 9094384,
+              "name": "strongfire2002"
+            }
+          ]
+        },
         {
           "matchId": 507344435,
           "civ": "Persians",
@@ -67679,5 +67730,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

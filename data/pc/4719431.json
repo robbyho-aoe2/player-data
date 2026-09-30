@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 415,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1142,
         "peakRating": 1193
       },
@@ -6675,12 +6675,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 312,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1258,
-        "peakRating": 1272
+        "totalGames": 314,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1289,
+        "peakRating": 1289
       },
       "matches": [
+        {
+          "matchId": 509703977,
+          "civ": "Byzantines",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:04:48.000Z",
+          "dur": 1426,
+          "opponents": [
+            {
+              "profileId": 1072261,
+              "name": "Waldmann"
+            },
+            {
+              "profileId": 2965882,
+              "name": "TheBlackStuff"
+            },
+            {
+              "profileId": 2074522,
+              "name": "Muffin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9689301,
+              "name": "MettatostonRay"
+            },
+            {
+              "profileId": 5521925,
+              "name": "Daralion"
+            }
+          ]
+        },
+        {
+          "matchId": 509694373,
+          "civ": "Lithuanians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:30:27.000Z",
+          "dur": 1799,
+          "opponents": [
+            {
+              "profileId": 2746752,
+              "name": "drupoi"
+            },
+            {
+              "profileId": 16268482,
+              "name": "Unitltable Mountain"
+            },
+            {
+              "profileId": 5266190,
+              "name": "codobaggins"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9689301,
+              "name": "MettatostonRay"
+            },
+            {
+              "profileId": 5521925,
+              "name": "Daralion"
+            }
+          ]
+        },
         {
           "matchId": 506245994,
           "civ": "Incas",
@@ -17525,5 +17593,6 @@
   },
   "country": "ve",
   "countryIcon": "\ud83c\uddfb\ud83c\uddea",
-  "countryName": "Venezuela, Bolivarian Republic of"
+  "countryName": "Venezuela, Bolivarian Republic of",
+  "platform": "Steam"
 }

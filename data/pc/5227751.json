@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 95,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1069,
         "peakRating": 1082
       },
@@ -1456,12 +1456,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 408,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1073,
+        "totalGames": 412,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1076,
         "peakRating": 1221
       },
       "matches": [
+        {
+          "matchId": 509539736,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:49:41.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 9684237,
+              "name": "0xLexA.23"
+            },
+            {
+              "profileId": 15965986,
+              "name": "\u6708\u591c\u96ea"
+            },
+            {
+              "profileId": 18411632,
+              "name": "Marcos_11"
+            },
+            {
+              "profileId": 18452935,
+              "name": "ToKreisyLow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21125365,
+              "name": "ing.bio.aaron"
+            },
+            {
+              "profileId": 11921169,
+              "name": "Pepe el Pollo"
+            },
+            {
+              "profileId": 11941016,
+              "name": "ChudMaxxer"
+            }
+          ]
+        },
+        {
+          "matchId": 509536254,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:26:35.000Z",
+          "dur": 637,
+          "opponents": [
+            {
+              "profileId": 3847457,
+              "name": "\u67e5\u7406\u66fc\u5927\u5e1d"
+            },
+            {
+              "profileId": 9104873,
+              "name": "\u897f\u5cb8\u5927\u6cd5\u5492"
+            },
+            {
+              "profileId": 10179528,
+              "name": "sky_wu"
+            },
+            {
+              "profileId": 11890096,
+              "name": "\u6551\u4e0d\u4e86\u4f60"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25363731,
+              "name": "nahuelAOE2"
+            },
+            {
+              "profileId": 4235218,
+              "name": "Cheblin"
+            },
+            {
+              "profileId": 21125365,
+              "name": "ing.bio.aaron"
+            }
+          ]
+        },
+        {
+          "matchId": 509527478,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:34:44.000Z",
+          "dur": 2610,
+          "opponents": [
+            {
+              "profileId": 11921821,
+              "name": "malakor."
+            },
+            {
+              "profileId": 15543614,
+              "name": "Lockepu"
+            },
+            {
+              "profileId": 17043641,
+              "name": "Hetero Sapiens"
+            },
+            {
+              "profileId": 23815580,
+              "name": "Definitive Infusion"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4235218,
+              "name": "Cheblin"
+            },
+            {
+              "profileId": 21125365,
+              "name": "ing.bio.aaron"
+            },
+            {
+              "profileId": 25363731,
+              "name": "nahuelAOE2"
+            }
+          ]
+        },
+        {
+          "matchId": 509251136,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:47:45.000Z",
+          "dur": 1938,
+          "opponents": [
+            {
+              "profileId": 2468892,
+              "name": "Alos"
+            },
+            {
+              "profileId": 3401024,
+              "name": "MIGK"
+            },
+            {
+              "profileId": 3106274,
+              "name": "OnlyMancRojo"
+            },
+            {
+              "profileId": 2469322,
+              "name": "el_Manu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24874545,
+              "name": "ssseeing"
+            },
+            {
+              "profileId": 18277466,
+              "name": "Evil Mechanic"
+            },
+            {
+              "profileId": 1177945,
+              "name": "Fetch the big powder horn"
+            }
+          ]
+        },
         {
           "matchId": 508165392,
           "civ": "Vietnamese",
@@ -12651,5 +12819,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

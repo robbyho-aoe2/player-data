@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1135,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1234,
+        "totalGames": 1139,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1268,
         "peakRating": 1403
       },
       "matches": [
+        {
+          "matchId": 510175072,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:41:54.000Z",
+          "dur": 1220,
+          "opponents": [
+            {
+              "profileId": 4888071,
+              "name": "tdmlart"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510172496,
+          "civ": "Persians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:30:21.000Z",
+          "dur": 626,
+          "opponents": [
+            {
+              "profileId": 2731069,
+              "name": "vivero"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510168018,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:07:32.000Z",
+          "dur": 1212,
+          "opponents": [
+            {
+              "profileId": 5889678,
+              "name": "Aesriv"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509853888,
+          "civ": "Saracens",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:22:45.000Z",
+          "dur": 1270,
+          "opponents": [
+            {
+              "profileId": 10248909,
+              "name": "ARM-Dahua"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508948152,
           "civ": "Japanese",
@@ -17069,12 +17137,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1740,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1242,
+        "totalGames": 1742,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1240,
         "peakRating": 1383
       },
       "matches": [
+        {
+          "matchId": 510161454,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:38:33.000Z",
+          "dur": 1609,
+          "opponents": [
+            {
+              "profileId": 5508987,
+              "name": "xrixcis"
+            },
+            {
+              "profileId": 9132303,
+              "name": "Leinad"
+            },
+            {
+              "profileId": 9943365,
+              "name": "\u010du\u0148as"
+            },
+            {
+              "profileId": 1174868,
+              "name": "exd"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9553315,
+              "name": "1361331795"
+            },
+            {
+              "profileId": 25965373,
+              "name": "Kestrel"
+            },
+            {
+              "profileId": 3556606,
+              "name": "Hakuna Yoken"
+            }
+          ]
+        },
+        {
+          "matchId": 510155733,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:12:49.000Z",
+          "dur": 1411,
+          "opponents": [
+            {
+              "profileId": 23404733,
+              "name": "F5B01"
+            },
+            {
+              "profileId": 6382098,
+              "name": "Shini_gami"
+            },
+            {
+              "profileId": 5115828,
+              "name": "jsvos123"
+            },
+            {
+              "profileId": 4626085,
+              "name": "Donkerzs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3556606,
+              "name": "Hakuna Yoken"
+            },
+            {
+              "profileId": 14393309,
+              "name": "JosemaAlabama"
+            },
+            {
+              "profileId": 12290346,
+              "name": "T-800-DevilModeOn"
+            }
+          ]
+        },
         {
           "matchId": 508653216,
           "civ": "Khmer",
@@ -62594,5 +62746,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

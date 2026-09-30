@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1690,
-        "pulledDate": "2026-09-26",
-        "latestRating": 2355,
-        "peakRating": 2363
+        "totalGames": 1692,
+        "pulledDate": "2026-09-29",
+        "latestRating": 2367,
+        "peakRating": 2367
       },
       "matches": [
+        {
+          "matchId": 510204611,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:39:27.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1206581,
+              "name": "DS_John III"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509973542,
+          "civ": "Hindustanis",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:00:12.000Z",
+          "dur": 1715,
+          "opponents": [
+            {
+              "profileId": 5772003,
+              "name": "xana\u00edna"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508992410,
           "civ": "Malians",
@@ -27082,12 +27116,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1881,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1875,
+        "totalGames": 1882,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1850,
         "peakRating": 1964
       },
       "matches": [
+        {
+          "matchId": 509810838,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:16:37.000Z",
+          "dur": 1745,
+          "opponents": [
+            {
+              "profileId": 704378,
+              "name": "Freidle"
+            },
+            {
+              "profileId": 5953328,
+              "name": "III"
+            },
+            {
+              "profileId": 6263858,
+              "name": "YYQ"
+            },
+            {
+              "profileId": 9597264,
+              "name": "aaa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2962712,
+              "name": "[SotC] Frank Castle"
+            },
+            {
+              "profileId": 11287153,
+              "name": "\u6211\u662f\u4f60\u5df4\u5df4"
+            },
+            {
+              "profileId": 1261126,
+              "name": "[SotC] Spirit"
+            }
+          ]
+        },
         {
           "matchId": 508998918,
           "civ": "Celts",
@@ -98983,5 +99059,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1273,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1111,
+        "totalGames": 1274,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1096,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 509993193,
+          "civ": "Armenians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:03:21.000Z",
+          "dur": 1441,
+          "opponents": [
+            {
+              "profileId": 7133344,
+              "name": "WINDYSKY"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508758223,
           "civ": "Spanish",
@@ -20419,12 +20436,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 775,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1185,
-        "peakRating": 1185
+        "totalGames": 778,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1188,
+        "peakRating": 1202
       },
       "matches": [
+        {
+          "matchId": 510206620,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:53:01.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 3417860,
+              "name": "MaHe"
+            },
+            {
+              "profileId": 6323709,
+              "name": "Herss1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3939584,
+              "name": "Manzanito"
+            }
+          ]
+        },
+        {
+          "matchId": 510202534,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:26:13.000Z",
+          "dur": 1486,
+          "opponents": [
+            {
+              "profileId": 13382722,
+              "name": "whitewidow52"
+            },
+            {
+              "profileId": 20807481,
+              "name": "E\u015fref\u00c7ift"
+            },
+            {
+              "profileId": 19952910,
+              "name": "Santiawhy"
+            },
+            {
+              "profileId": 667385,
+              "name": "Hekimoglu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7946581,
+              "name": "jojo"
+            },
+            {
+              "profileId": 6844608,
+              "name": "absurd"
+            },
+            {
+              "profileId": 23800833,
+              "name": "eletronvalente"
+            }
+          ]
+        },
+        {
+          "matchId": 509988105,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:31:04.000Z",
+          "dur": 1769,
+          "opponents": [
+            {
+              "profileId": 1945250,
+              "name": "Whitebear"
+            },
+            {
+              "profileId": 20423448,
+              "name": "Tkbez"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4526062,
+              "name": "[CDM] Lam"
+            }
+          ]
+        },
         {
           "matchId": 507828303,
           "civ": "Armenians",
@@ -46420,5 +46531,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

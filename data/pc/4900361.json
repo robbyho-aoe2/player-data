@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 175,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-29",
         "latestRating": 1384,
         "peakRating": 1384
       },
@@ -2829,12 +2829,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1401,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1242,
+        "totalGames": 1403,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1210,
         "peakRating": 1313
       },
       "matches": [
+        {
+          "matchId": 510176550,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:49:43.000Z",
+          "dur": 2861,
+          "opponents": [
+            {
+              "profileId": 7709921,
+              "name": "rakz"
+            },
+            {
+              "profileId": 2785970,
+              "name": "MZTK | GaboxNet .i."
+            },
+            {
+              "profileId": 13477903,
+              "name": "MZTK l ROD"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5124178,
+              "name": "HAMZA LA DOUANE"
+            },
+            {
+              "profileId": 5064764,
+              "name": "Pitipenix"
+            }
+          ]
+        },
+        {
+          "matchId": 510172790,
+          "civ": "Spanish",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:31:59.000Z",
+          "dur": 808,
+          "opponents": [
+            {
+              "profileId": 7709921,
+              "name": "rakz"
+            },
+            {
+              "profileId": 2785970,
+              "name": "MZTK | GaboxNet .i."
+            },
+            {
+              "profileId": 13477903,
+              "name": "MZTK l ROD"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5124178,
+              "name": "HAMZA LA DOUANE"
+            },
+            {
+              "profileId": 5064764,
+              "name": "Pitipenix"
+            }
+          ]
+        },
         {
           "matchId": 508087696,
           "civ": "Mongols",
@@ -42801,5 +42869,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

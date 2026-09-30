@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 152,
-        "pulledDate": "2026-09-26",
+        "totalGames": 154,
+        "pulledDate": "2026-09-29",
         "latestRating": 1119,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 510130083,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:09:08.000Z",
+          "dur": 1050,
+          "opponents": [
+            {
+              "profileId": 25232690,
+              "name": "toggen83"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510127771,
+          "civ": "Maya",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:56:40.000Z",
+          "dur": 685,
+          "opponents": [
+            {
+              "profileId": 4204721,
+              "name": "Crownda Buffalo siken KURT"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508978574,
           "civ": "Koreans",
@@ -2614,7 +2648,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1051,
         "peakRating": 1082
       },
@@ -3210,5 +3244,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 139,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1221,
         "peakRating": 1257
       },
@@ -2392,12 +2392,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 187,
-        "pulledDate": "2026-09-22",
-        "latestRating": 953,
-        "peakRating": 953
+        "totalGames": 188,
+        "pulledDate": "2026-09-30",
+        "latestRating": 968,
+        "peakRating": 968
       },
       "matches": [
+        {
+          "matchId": 509623580,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:43:52.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 2889003,
+              "name": "Garivan"
+            },
+            {
+              "profileId": 18924276,
+              "name": "ska_18"
+            },
+            {
+              "profileId": 422131,
+              "name": "Spartanx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18038579,
+              "name": "Pingu\u00efn Bram"
+            },
+            {
+              "profileId": 2536076,
+              "name": "Nakata"
+            }
+          ]
+        },
         {
           "matchId": 507962573,
           "civ": "Italians",
@@ -8577,5 +8611,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3207,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1514,
+        "totalGames": 3209,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1511,
         "peakRating": 1606
       },
       "matches": [
+        {
+          "matchId": 509798422,
+          "civ": "Malians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:47:20.000Z",
+          "dur": 1400,
+          "opponents": [
+            {
+              "profileId": 5764143,
+              "name": "009"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509785793,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:34:52.000Z",
+          "dur": 1220,
+          "opponents": [
+            {
+              "profileId": 792667,
+              "name": "NinjaEskimo012"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509183025,
           "civ": "Teutons",
@@ -51398,7 +51432,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 3301,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1521,
         "peakRating": 1593
       },
@@ -167351,5 +167385,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 249,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 918,
         "peakRating": 1062
       },
@@ -4014,12 +4014,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1276,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1212,
+        "totalGames": 1278,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1219,
         "peakRating": 1401
       },
       "matches": [
+        {
+          "matchId": 509415890,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:18:05.000Z",
+          "dur": 1872,
+          "opponents": [
+            {
+              "profileId": 21226226,
+              "name": "\u8774\u8776"
+            },
+            {
+              "profileId": 16692844,
+              "name": "Cualnick"
+            },
+            {
+              "profileId": 5324654,
+              "name": "Haniek!!"
+            },
+            {
+              "profileId": 1002464,
+              "name": "PkMn-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6362663,
+              "name": "Alud | lllpollo"
+            },
+            {
+              "profileId": 3408293,
+              "name": "LaGordaKoreana"
+            },
+            {
+              "profileId": 2145836,
+              "name": "Mancaldito"
+            }
+          ]
+        },
+        {
+          "matchId": 509410459,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:54:43.000Z",
+          "dur": 1119,
+          "opponents": [
+            {
+              "profileId": 22162602,
+              "name": "GaloDoido"
+            },
+            {
+              "profileId": 2478289,
+              "name": "HasNicktir"
+            },
+            {
+              "profileId": 15422186,
+              "name": "ACI La M\u00e1s Feudal"
+            },
+            {
+              "profileId": 21892390,
+              "name": "EsoTilinsito283"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2145836,
+              "name": "Mancaldito"
+            },
+            {
+              "profileId": 21654011,
+              "name": "WALLS"
+            },
+            {
+              "profileId": 1921533,
+              "name": "PistonForjado"
+            }
+          ]
+        },
         {
           "matchId": 508543443,
           "civ": "Maya",
@@ -54176,5 +54260,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

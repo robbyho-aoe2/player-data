@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 90,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1191,
+        "totalGames": 91,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1208,
         "peakRating": 1227
       },
       "matches": [
+        {
+          "matchId": 510011893,
+          "civ": "Berbers",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:57:55.000Z",
+          "dur": 1790,
+          "opponents": [
+            {
+              "profileId": 5159339,
+              "name": "\u6c38\u4e0d\u78e8\u640d\u578b"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 495622757,
           "civ": "Vietnamese",
@@ -1469,12 +1486,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 54,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1386,
+        "totalGames": 57,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1339,
         "peakRating": 1386
       },
       "matches": [
+        {
+          "matchId": 509731878,
+          "civ": "Berbers",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:52:17.000Z",
+          "dur": 1507,
+          "opponents": [
+            {
+              "profileId": 622568,
+              "name": "GdR_Johnny Vacanzieri"
+            },
+            {
+              "profileId": 4152316,
+              "name": "Gbeto Supastar"
+            },
+            {
+              "profileId": 5106890,
+              "name": "treehugger"
+            },
+            {
+              "profileId": 11598622,
+              "name": "Bungo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10158844,
+              "name": "Candy Man"
+            },
+            {
+              "profileId": 8571553,
+              "name": "\u6d1e\u8170\u8170"
+            },
+            {
+              "profileId": 21760916,
+              "name": "Treebeard49"
+            }
+          ]
+        },
+        {
+          "matchId": 509463064,
+          "civ": "Berbers",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:36:14.000Z",
+          "dur": 1473,
+          "opponents": [
+            {
+              "profileId": 25472108,
+              "name": "Atlicious"
+            },
+            {
+              "profileId": 25818766,
+              "name": "Lord Longshaft"
+            },
+            {
+              "profileId": 25834823,
+              "name": "sakuzi"
+            },
+            {
+              "profileId": 1265857,
+              "name": "Benitto Burrito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1878811,
+              "name": "\u3063\u25d4\u25e1\u25d4)\u3063 \u2665Slop Daddy\u2665"
+            },
+            {
+              "profileId": 23167724,
+              "name": "Flash"
+            },
+            {
+              "profileId": 1878876,
+              "name": "Thronx"
+            }
+          ]
+        },
+        {
+          "matchId": 509233068,
+          "civ": "Berbers",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T01:12:43.000Z",
+          "dur": 1476,
+          "opponents": [
+            {
+              "profileId": 3558673,
+              "name": "\u5c41\u5c41\u5bf6\u5bf6"
+            },
+            {
+              "profileId": 4222102,
+              "name": "\u7948\u6c42\u597d\u8fd0"
+            },
+            {
+              "profileId": 22299040,
+              "name": "EarlyQuitter"
+            },
+            {
+              "profileId": 2768708,
+              "name": "cauliflower"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2221420,
+              "name": "GG LA LIFE KARIN"
+            },
+            {
+              "profileId": 9855226,
+              "name": "Ww. Choko_krispi"
+            },
+            {
+              "profileId": 1921533,
+              "name": "PistonForjado"
+            }
+          ]
+        },
         {
           "matchId": 508570345,
           "civ": "Berbers",
@@ -3723,5 +3866,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

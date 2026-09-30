@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-09-29",
         "latestRating": 892,
         "peakRating": 892
       },
@@ -205,12 +205,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1987,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1138,
+        "totalGames": 1990,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1183,
         "peakRating": 1318
       },
       "matches": [
+        {
+          "matchId": 509940285,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:17:37.000Z",
+          "dur": 1063,
+          "opponents": [
+            {
+              "profileId": 5873945,
+              "name": "Falke"
+            },
+            {
+              "profileId": 4177152,
+              "name": "[B$] kaeffer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2252104,
+              "name": "wuzar"
+            }
+          ]
+        },
+        {
+          "matchId": 509934740,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:52:36.000Z",
+          "dur": 1362,
+          "opponents": [
+            {
+              "profileId": 24670174,
+              "name": "FreshCarp8370"
+            },
+            {
+              "profileId": 2940241,
+              "name": "O.Bender"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2252104,
+              "name": "wuzar"
+            }
+          ]
+        },
+        {
+          "matchId": 509929994,
+          "civ": "Varangians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:31:54.000Z",
+          "dur": 1046,
+          "opponents": [
+            {
+              "profileId": 2763064,
+              "name": "Elohtar"
+            },
+            {
+              "profileId": 5835981,
+              "name": "Tribales666"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2252104,
+              "name": "wuzar"
+            }
+          ]
+        },
         {
           "matchId": 508493636,
           "civ": "Danes",
@@ -61940,5 +62018,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 869,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1295,
+        "totalGames": 872,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1311,
         "peakRating": 1448
       },
       "matches": [
+        {
+          "matchId": 509945850,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:41:23.000Z",
+          "dur": 1422,
+          "opponents": [
+            {
+              "profileId": 21993670,
+              "name": "Noobis"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509938212,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:07:54.000Z",
+          "dur": 1799,
+          "opponents": [
+            {
+              "profileId": 20284549,
+              "name": "ttmenti88"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509933343,
+          "civ": "Aztecs",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:46:24.000Z",
+          "dur": 959,
+          "opponents": [
+            {
+              "profileId": 1274861,
+              "name": "Bleda"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508254731,
           "civ": "Burgundians",
@@ -14803,7 +14854,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 164,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1391,
         "peakRating": 1394
       },
@@ -19949,5 +20000,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

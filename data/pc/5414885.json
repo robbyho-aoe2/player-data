@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 59,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1408,
+        "totalGames": 64,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1421,
         "peakRating": 1484
       },
       "matches": [
+        {
+          "matchId": 509772162,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:18:31.000Z",
+          "dur": 2084,
+          "opponents": [
+            {
+              "profileId": 620649,
+              "name": "[Fs] PoeiraC\u00f3smica"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509722888,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:14:53.000Z",
+          "dur": 1845,
+          "opponents": [
+            {
+              "profileId": 19340667,
+              "name": "EweRwoRld"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509643152,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:05:02.000Z",
+          "dur": 1248,
+          "opponents": [
+            {
+              "profileId": 5416813,
+              "name": "papillon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509530998,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:54:10.000Z",
+          "dur": 1700,
+          "opponents": [
+            {
+              "profileId": 26136089,
+              "name": "VEN\u00d3N | Lord Of Yama"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509263434,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:53:08.000Z",
+          "dur": 1947,
+          "opponents": [
+            {
+              "profileId": 474480,
+              "name": "HerrKommandant"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508805867,
           "civ": "Japanese",
@@ -1032,12 +1117,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 68,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1411,
+        "totalGames": 69,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1423,
         "peakRating": 1425
       },
       "matches": [
+        {
+          "matchId": 509965516,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:16:00.000Z",
+          "dur": 3254,
+          "opponents": [
+            {
+              "profileId": 972094,
+              "name": "gr0ss"
+            },
+            {
+              "profileId": 6821693,
+              "name": "DKing"
+            },
+            {
+              "profileId": 25110256,
+              "name": "\u73ed\u957f"
+            },
+            {
+              "profileId": 968655,
+              "name": "pmpc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3841260,
+              "name": "Leonidas"
+            },
+            {
+              "profileId": 9325078,
+              "name": "Firkrag"
+            },
+            {
+              "profileId": 67950,
+              "name": "Welldone"
+            }
+          ]
+        },
         {
           "matchId": 508342605,
           "civ": "Bohemians",
@@ -3393,5 +3520,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

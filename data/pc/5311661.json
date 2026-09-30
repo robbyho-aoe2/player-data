@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 128,
-        "pulledDate": "2026-09-15",
-        "latestRating": 952,
+        "totalGames": 129,
+        "pulledDate": "2026-09-30",
+        "latestRating": 935,
         "peakRating": 955
       },
       "matches": [
+        {
+          "matchId": 510165064,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:54:00.000Z",
+          "dur": 1288,
+          "opponents": [
+            {
+              "profileId": 25218791,
+              "name": "JohnnyP"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 500409778,
           "civ": "Franks",
@@ -2206,7 +2223,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 560,
-        "pulledDate": "2026-09-15",
+        "pulledDate": "2026-09-30",
         "latestRating": 1192,
         "peakRating": 1262
       },
@@ -19084,5 +19101,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

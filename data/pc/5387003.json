@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 139,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 898,
         "peakRating": 898
       },
@@ -2253,12 +2253,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 690,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1283,
+        "totalGames": 693,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1266,
         "peakRating": 1369
       },
       "matches": [
+        {
+          "matchId": 509601955,
+          "civ": "Britons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:55:36.000Z",
+          "dur": 3469,
+          "opponents": [
+            {
+              "profileId": 5721740,
+              "name": "FF\u718a\u718a"
+            },
+            {
+              "profileId": 5220461,
+              "name": "S\u4e2a\u5e05\u54e5"
+            },
+            {
+              "profileId": 3129574,
+              "name": "\u54b8\u9c7c\u6b7b\u7075"
+            },
+            {
+              "profileId": 1068176,
+              "name": "\u52a8\u8f66\u7684\u8f66\u5934"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 398070,
+              "name": "Julian"
+            },
+            {
+              "profileId": 21644338,
+              "name": "Jumpinghorse"
+            },
+            {
+              "profileId": 21460158,
+              "name": "STDofBelisarius"
+            }
+          ]
+        },
+        {
+          "matchId": 509595706,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:18:02.000Z",
+          "dur": 2025,
+          "opponents": [
+            {
+              "profileId": 8564160,
+              "name": "PLEASE, PLEASE, PLEASE"
+            },
+            {
+              "profileId": 8993147,
+              "name": "BaniWang"
+            },
+            {
+              "profileId": 24273219,
+              "name": "Gustavsson"
+            },
+            {
+              "profileId": 25968865,
+              "name": "\ub0a8\uc870\uc120\uc0ac\ub78c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1082498,
+              "name": "^ScArFaCe^"
+            },
+            {
+              "profileId": 21460158,
+              "name": "STDofBelisarius"
+            },
+            {
+              "profileId": 21644338,
+              "name": "Jumpinghorse"
+            }
+          ]
+        },
+        {
+          "matchId": 509590637,
+          "civ": "Mongols",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:44:50.000Z",
+          "dur": 1616,
+          "opponents": [
+            {
+              "profileId": 4032775,
+              "name": "\u5341\u5e74\u4ecd\u83dc"
+            },
+            {
+              "profileId": 11245232,
+              "name": "rateezy"
+            },
+            {
+              "profileId": 9834164,
+              "name": "\u97d3\u570b\u9b5a"
+            },
+            {
+              "profileId": 572271,
+              "name": "agresif"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23851990,
+              "name": "SabahIctimasi"
+            },
+            {
+              "profileId": 21644338,
+              "name": "Jumpinghorse"
+            },
+            {
+              "profileId": 21460158,
+              "name": "STDofBelisarius"
+            }
+          ]
+        },
         {
           "matchId": 509119277,
           "civ": "Lithuanians",
@@ -30009,5 +30135,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

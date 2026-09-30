@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 38,
-        "pulledDate": "2026-09-26",
-        "latestRating": 987,
+        "totalGames": 43,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1002,
         "peakRating": 1173
       },
       "matches": [
+        {
+          "matchId": 510095155,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:55:42.000Z",
+          "dur": 2016,
+          "opponents": [
+            {
+              "profileId": 4895832,
+              "name": "DanoDMonkey"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510089627,
+          "civ": "Spanish",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:23:51.000Z",
+          "dur": 1441,
+          "opponents": [
+            {
+              "profileId": 17770379,
+              "name": "Furkan61"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510079008,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:12:55.000Z",
+          "dur": 1799,
+          "opponents": [
+            {
+              "profileId": 15518561,
+              "name": "Ser Dunk"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510076582,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:53:09.000Z",
+          "dur": 994,
+          "opponents": [
+            {
+              "profileId": 2853205,
+              "name": "woodt"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510076205,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:50:02.000Z",
+          "dur": 144,
+          "opponents": [
+            {
+              "profileId": 6137860,
+              "name": "arga58"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509088858,
           "civ": "Ethiopians",
@@ -676,7 +761,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 39,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -2021,5 +2106,6 @@
   },
   "country": "ro",
   "countryIcon": "\ud83c\uddf7\ud83c\uddf4",
-  "countryName": "Romania"
+  "countryName": "Romania",
+  "platform": "Steam"
 }

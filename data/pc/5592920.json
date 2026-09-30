@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 928,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1276,
+        "totalGames": 934,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1311,
         "peakRating": 1468
       },
       "matches": [
+        {
+          "matchId": 509808336,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:56:47.000Z",
+          "dur": 1449,
+          "opponents": [
+            {
+              "profileId": 12143658,
+              "name": "Slayer"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509806082,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:39:44.000Z",
+          "dur": 874,
+          "opponents": [
+            {
+              "profileId": 6436455,
+              "name": "la kakarota"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509540169,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:51:34.000Z",
+          "dur": 1630,
+          "opponents": [
+            {
+              "profileId": 25240371,
+              "name": "\u4e2d\u5c71\u8def59\u865f"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509537340,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:33:08.000Z",
+          "dur": 1067,
+          "opponents": [
+            {
+              "profileId": 9874293,
+              "name": "MCWest"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509537099,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:31:11.000Z",
+          "dur": 12,
+          "opponents": [
+            {
+              "profileId": 5395809,
+              "name": "FOX"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509531288,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:56:02.000Z",
+          "dur": 2019,
+          "opponents": [
+            {
+              "profileId": 5395809,
+              "name": "FOX"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509026796,
           "civ": "Vikings",
@@ -15805,12 +15907,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 786,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1435,
+        "totalGames": 787,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1419,
         "peakRating": 1467
       },
       "matches": [
+        {
+          "matchId": 509238776,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T01:44:44.000Z",
+          "dur": 140,
+          "opponents": [
+            {
+              "profileId": 15019418,
+              "name": "PNAL | ale_petro"
+            },
+            {
+              "profileId": 15542786,
+              "name": "PNAL | El Chill de Cojones"
+            },
+            {
+              "profileId": 17882617,
+              "name": "PNAL | RandomCiv"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 394760,
+              "name": "[JaMx] K@l-El"
+            },
+            {
+              "profileId": 416330,
+              "name": "[JaMx] McLovin"
+            }
+          ]
+        },
         {
           "matchId": 506575977,
           "civ": "Persians",
@@ -42806,5 +42942,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

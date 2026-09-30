@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 70,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1269,
         "peakRating": 1285
       },
@@ -1064,12 +1064,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1250,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1327,
-        "peakRating": 1348
+        "totalGames": 1253,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1340,
+        "peakRating": 1356
       },
       "matches": [
+        {
+          "matchId": 509649400,
+          "civ": "Bohemians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:29:41.000Z",
+          "dur": 1284,
+          "opponents": [
+            {
+              "profileId": 22555738,
+              "name": "Learn2Play"
+            },
+            {
+              "profileId": 6332265,
+              "name": "\u80d6\u8fc7"
+            },
+            {
+              "profileId": 19633010,
+              "name": "JieX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5439956,
+              "name": "Kill Me Softly"
+            },
+            {
+              "profileId": 5856879,
+              "name": "Shadow O.o"
+            }
+          ]
+        },
+        {
+          "matchId": 509639273,
+          "civ": "Byzantines",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:48:51.000Z",
+          "dur": 2093,
+          "opponents": [
+            {
+              "profileId": 12399855,
+              "name": "3Q-"
+            },
+            {
+              "profileId": 11890096,
+              "name": "\u6551\u4e0d\u4e86\u4f60"
+            },
+            {
+              "profileId": 3847457,
+              "name": "\u67e5\u7406\u66fc\u5927\u5e1d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5856879,
+              "name": "Shadow O.o"
+            },
+            {
+              "profileId": 5439956,
+              "name": "Kill Me Softly"
+            }
+          ]
+        },
+        {
+          "matchId": 509372150,
+          "civ": "Britons",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:07:02.000Z",
+          "dur": 2184,
+          "opponents": [
+            {
+              "profileId": 1009471,
+              "name": "Kompromist"
+            },
+            {
+              "profileId": 23167724,
+              "name": "Flash"
+            },
+            {
+              "profileId": 25133169,
+              "name": "kevinpaz6665"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5439956,
+              "name": "Kill Me Softly"
+            },
+            {
+              "profileId": 5856879,
+              "name": "Shadow O.o"
+            }
+          ]
+        },
         {
           "matchId": 507998436,
           "civ": "Franks",
@@ -29875,5 +29977,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

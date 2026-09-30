@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 295,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1566,
+        "totalGames": 298,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1577,
         "peakRating": 1677
       },
       "matches": [
+        {
+          "matchId": 509415805,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T18:17:08.000Z",
+          "dur": 2020,
+          "opponents": [
+            {
+              "profileId": 18723296,
+              "name": "PetitPoney"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509393334,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:38:20.000Z",
+          "dur": 1527,
+          "opponents": [
+            {
+              "profileId": 10578075,
+              "name": "trottadavide92"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509368424,
+          "civ": "Koreans",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:51:04.000Z",
+          "dur": 1646,
+          "opponents": [
+            {
+              "profileId": 2281473,
+              "name": "neel0075"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507785549,
           "civ": "Vietnamese",
@@ -4772,7 +4823,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1357,
         "peakRating": 1407
       },
@@ -5467,5 +5518,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

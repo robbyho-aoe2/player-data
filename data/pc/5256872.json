@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2151,
-        "pulledDate": "2026-09-20",
-        "latestRating": 853,
+        "totalGames": 2155,
+        "pulledDate": "2026-09-30",
+        "latestRating": 823,
         "peakRating": 978
       },
       "matches": [
+        {
+          "matchId": 510081818,
+          "civ": "Jurchens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:32:17.000Z",
+          "dur": 1658,
+          "opponents": [
+            {
+              "profileId": 22274069,
+              "name": "Piscua5432"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510077728,
+          "civ": "Jurchens",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:02:42.000Z",
+          "dur": 1681,
+          "opponents": [
+            {
+              "profileId": 4622986,
+              "name": "matthieu.games.67"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510073995,
+          "civ": "Jurchens",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:31:50.000Z",
+          "dur": 1791,
+          "opponents": [
+            {
+              "profileId": 23496615,
+              "name": "sammd1994"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509883131,
+          "civ": "Jurchens",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:30:50.000Z",
+          "dur": 1979,
+          "opponents": [
+            {
+              "profileId": 24130107,
+              "name": "BumBachi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502412239,
           "civ": "Jurchens",
@@ -36597,7 +36665,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 122,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-09-30",
         "latestRating": 781,
         "peakRating": 894
       },
@@ -41603,5 +41671,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

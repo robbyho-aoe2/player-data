@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 222,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1239,
         "peakRating": 1299
       },
@@ -3803,12 +3803,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1412,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1302,
+        "totalGames": 1416,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1280,
         "peakRating": 1383
       },
       "matches": [
+        {
+          "matchId": 510207414,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:59:09.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 9537441,
+              "name": "Prenos"
+            },
+            {
+              "profileId": 13132954,
+              "name": "Sir Gordon8100"
+            },
+            {
+              "profileId": 1025121,
+              "name": "JAGR | Rojnar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 604480,
+              "name": "Julian93"
+            },
+            {
+              "profileId": 4040353,
+              "name": "Izuru Alexandros R\u00c6"
+            }
+          ]
+        },
+        {
+          "matchId": 510016178,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:24:45.000Z",
+          "dur": 1596,
+          "opponents": [
+            {
+              "profileId": 11033525,
+              "name": "kacter99"
+            },
+            {
+              "profileId": 2071746,
+              "name": "juanfer0002"
+            },
+            {
+              "profileId": 153,
+              "name": "Mknolix"
+            },
+            {
+              "profileId": 25592668,
+              "name": "457276870"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9680214,
+              "name": "SMNT-Chifuego"
+            },
+            {
+              "profileId": 4040353,
+              "name": "Izuru Alexandros R\u00c6"
+            },
+            {
+              "profileId": 25816486,
+              "name": "tomicoro7367"
+            }
+          ]
+        },
+        {
+          "matchId": 509798604,
+          "civ": "Ethiopians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:48:56.000Z",
+          "dur": 1677,
+          "opponents": [
+            {
+              "profileId": 5612868,
+              "name": "Klingon86"
+            },
+            {
+              "profileId": 23015541,
+              "name": "Classixx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4040353,
+              "name": "Izuru Alexandros R\u00c6"
+            }
+          ]
+        },
+        {
+          "matchId": 509787375,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:43:42.000Z",
+          "dur": 1201,
+          "opponents": [
+            {
+              "profileId": 16692844,
+              "name": "Cualnick"
+            },
+            {
+              "profileId": 19405766,
+              "name": "sION_Co"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16139506,
+              "name": "GJ Euphory"
+            }
+          ]
+        },
         {
           "matchId": 509166017,
           "civ": "Chinese",
@@ -54458,5 +54586,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

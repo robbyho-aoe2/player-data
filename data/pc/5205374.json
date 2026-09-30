@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 412,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1145,
+        "totalGames": 417,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1176,
         "peakRating": 1192
       },
       "matches": [
+        {
+          "matchId": 510205205,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:43:31.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 817726,
+              "name": "Ego59"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510204795,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:40:01.000Z",
+          "dur": 98,
+          "opponents": [
+            {
+              "profileId": 23803072,
+              "name": "Pikachu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510200761,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:14:55.000Z",
+          "dur": 1096,
+          "opponents": [
+            {
+              "profileId": 15634894,
+              "name": "ADOBO x PRODIGY"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510196147,
+          "civ": "Aztecs",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:44:37.000Z",
+          "dur": 1442,
+          "opponents": [
+            {
+              "profileId": 23720702,
+              "name": "Robert Bruce"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510190472,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:08:29.000Z",
+          "dur": 1925,
+          "opponents": [
+            {
+              "profileId": 314682,
+              "name": "Jernau Morat Gurgeh"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509160318,
           "civ": "Magyars",
@@ -6639,7 +6724,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 781,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1150,
         "peakRating": 1365
       },
@@ -32662,5 +32747,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1418,
         "peakRating": 1418
       },
@@ -688,12 +688,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3046,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1609,
+        "totalGames": 3050,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1603,
         "peakRating": 1629
       },
       "matches": [
+        {
+          "matchId": 509978111,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:28:07.000Z",
+          "dur": 2049,
+          "opponents": [
+            {
+              "profileId": 559069,
+              "name": "AiM | EleuieseKa"
+            },
+            {
+              "profileId": 3265324,
+              "name": "CTM | Lelouch ELO bajito"
+            },
+            {
+              "profileId": 11707859,
+              "name": "CTM | KLIN"
+            },
+            {
+              "profileId": 20428939,
+              "name": "CTM | El Profesor Pingafales"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25205376,
+              "name": "lalalalala"
+            },
+            {
+              "profileId": 2086496,
+              "name": "Jambonbeurre"
+            },
+            {
+              "profileId": 9807075,
+              "name": "stroemming14"
+            }
+          ]
+        },
+        {
+          "matchId": 509956797,
+          "civ": "Dravidians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:32:31.000Z",
+          "dur": 2005,
+          "opponents": [
+            {
+              "profileId": 105324,
+              "name": "Kylo"
+            },
+            {
+              "profileId": 212097,
+              "name": "Thanatos"
+            },
+            {
+              "profileId": 522080,
+              "name": "Nemo"
+            },
+            {
+              "profileId": 2785498,
+              "name": "Kr4mer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15423057,
+              "name": "letmebelieve"
+            },
+            {
+              "profileId": 209917,
+              "name": "Envetel"
+            },
+            {
+              "profileId": 2391068,
+              "name": "MyNameIsLassen"
+            }
+          ]
+        },
+        {
+          "matchId": 509609315,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:36:13.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 1203670,
+              "name": "Zuvubii"
+            },
+            {
+              "profileId": 4434290,
+              "name": "Baby"
+            },
+            {
+              "profileId": 10384154,
+              "name": "Elite Noob"
+            },
+            {
+              "profileId": 15759569,
+              "name": "\u6069\u5e95\u5f25\u7fc1\u4e4b\u9e70"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 84039,
+              "name": "DetectiveYemitoShumafuk"
+            },
+            {
+              "profileId": 1782050,
+              "name": "ImprovingYeti"
+            },
+            {
+              "profileId": 3396002,
+              "name": "Jeremy V"
+            }
+          ]
+        },
+        {
+          "matchId": 509604906,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:12:38.000Z",
+          "dur": 1346,
+          "opponents": [
+            {
+              "profileId": 2445846,
+              "name": "DoubleZX"
+            },
+            {
+              "profileId": 10368236,
+              "name": "narutoshery"
+            },
+            {
+              "profileId": 12113485,
+              "name": "(PNG)Ludovicum95"
+            },
+            {
+              "profileId": 14921354,
+              "name": "Superhero55"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 84039,
+              "name": "DetectiveYemitoShumafuk"
+            },
+            {
+              "profileId": 227682,
+              "name": "Poggle-der-Fisch"
+            },
+            {
+              "profileId": 248672,
+              "name": "AJC"
+            }
+          ]
+        },
         {
           "matchId": 509080682,
           "civ": "Persians",
@@ -119765,5 +119933,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

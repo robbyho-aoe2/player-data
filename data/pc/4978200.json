@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1537,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1725,
         "peakRating": 1725
       },
@@ -24630,12 +24630,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 534,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1497,
+        "totalGames": 535,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1480,
         "peakRating": 1627
       },
       "matches": [
+        {
+          "matchId": 509943190,
+          "civ": "Danes",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:30:30.000Z",
+          "dur": 1181,
+          "opponents": [
+            {
+              "profileId": 1859262,
+              "name": "BCPrattIV"
+            },
+            {
+              "profileId": 25916999,
+              "name": "NUBSINC"
+            },
+            {
+              "profileId": 22039278,
+              "name": "Blue Adam"
+            },
+            {
+              "profileId": 14230915,
+              "name": "Retired SweatLord"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2961689,
+              "name": "Chili"
+            },
+            {
+              "profileId": 2737895,
+              "name": "Hakka1_90"
+            },
+            {
+              "profileId": 2391068,
+              "name": "MyNameIsLassen"
+            }
+          ]
+        },
         {
           "matchId": 509183367,
           "civ": "Britons",
@@ -45911,5 +45953,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

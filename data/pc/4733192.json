@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-29"
       },
       "matches": [
         {
@@ -187,12 +187,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 455,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1186,
+        "totalGames": 459,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1149,
         "peakRating": 1329
       },
       "matches": [
+        {
+          "matchId": 509257135,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T03:19:06.000Z",
+          "dur": 1366,
+          "opponents": [
+            {
+              "profileId": 24789367,
+              "name": "Ray Allen"
+            },
+            {
+              "profileId": 25046635,
+              "name": "Big Dog"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12395440,
+              "name": "BombardCanon"
+            }
+          ]
+        },
+        {
+          "matchId": 509250756,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:45:43.000Z",
+          "dur": 1348,
+          "opponents": [
+            {
+              "profileId": 8657905,
+              "name": "chaquin_7"
+            },
+            {
+              "profileId": 2423476,
+              "name": "1826193685"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12395440,
+              "name": "BombardCanon"
+            }
+          ]
+        },
+        {
+          "matchId": 509244192,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:12:58.000Z",
+          "dur": 1681,
+          "opponents": [
+            {
+              "profileId": 4973587,
+              "name": "Pap\u00e1 Kiskiviry"
+            },
+            {
+              "profileId": 1505192,
+              "name": "YuYu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12395440,
+              "name": "BombardCanon"
+            }
+          ]
+        },
+        {
+          "matchId": 509236669,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T01:33:15.000Z",
+          "dur": 1935,
+          "opponents": [
+            {
+              "profileId": 2629409,
+              "name": "Frankios"
+            },
+            {
+              "profileId": 2757631,
+              "name": "kulechov"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12395440,
+              "name": "BombardCanon"
+            }
+          ]
+        },
         {
           "matchId": 506296277,
           "civ": "Romans",
@@ -13215,5 +13319,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

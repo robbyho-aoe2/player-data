@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 980,
         "peakRating": 1048
       },
@@ -352,12 +352,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 153,
-        "pulledDate": "2026-09-22",
-        "latestRating": 985,
+        "totalGames": 155,
+        "pulledDate": "2026-09-30",
+        "latestRating": 990,
         "peakRating": 1074
       },
       "matches": [
+        {
+          "matchId": 509540364,
+          "civ": "Armenians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:53:53.000Z",
+          "dur": 1713,
+          "opponents": [
+            {
+              "profileId": 12438266,
+              "name": "nlyon02"
+            },
+            {
+              "profileId": 5458993,
+              "name": "Havoc AD"
+            },
+            {
+              "profileId": 759194,
+              "name": "Namely"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6112621,
+              "name": "Sir Jack Frost"
+            },
+            {
+              "profileId": 2998436,
+              "name": "Th3Carpenter"
+            }
+          ]
+        },
+        {
+          "matchId": 509533387,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:09:06.000Z",
+          "dur": 2146,
+          "opponents": [
+            {
+              "profileId": 10963406,
+              "name": "Frank_alv10"
+            },
+            {
+              "profileId": 2187663,
+              "name": "M!(ke"
+            },
+            {
+              "profileId": 525857,
+              "name": "Destroyer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6112621,
+              "name": "Sir Jack Frost"
+            },
+            {
+              "profileId": 2998436,
+              "name": "Th3Carpenter"
+            }
+          ]
+        },
         {
           "matchId": 508177347,
           "civ": "Dravidians",
@@ -5501,5 +5569,6 @@
   },
   "country": "nz",
   "countryIcon": "\ud83c\uddf3\ud83c\uddff",
-  "countryName": "New Zealand"
+  "countryName": "New Zealand",
+  "platform": "Steam"
 }

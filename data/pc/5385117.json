@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 53,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1634,
         "peakRating": 1787
       },
@@ -506,12 +506,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4130,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1745,
+        "totalGames": 4132,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1711,
         "peakRating": 1853
       },
       "matches": [
+        {
+          "matchId": 509571183,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:31:43.000Z",
+          "dur": 1927,
+          "opponents": [
+            {
+              "profileId": 22464460,
+              "name": "aunclelikegod02"
+            },
+            {
+              "profileId": 21999613,
+              "name": "\u519c\u592b\u7d2f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2174791,
+              "name": "[SST]_COCO"
+            }
+          ]
+        },
+        {
+          "matchId": 509567522,
+          "civ": "Varangians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:06:09.000Z",
+          "dur": 774,
+          "opponents": [
+            {
+              "profileId": 199419,
+              "name": "Cloud"
+            },
+            {
+              "profileId": 226697,
+              "name": "DemonSheep"
+            },
+            {
+              "profileId": 473590,
+              "name": "DYS.Bensoncat"
+            },
+            {
+              "profileId": 621969,
+              "name": "LeeChia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2174791,
+              "name": "[SST]_COCO"
+            },
+            {
+              "profileId": 21444317,
+              "name": "Timeskip"
+            },
+            {
+              "profileId": 24961348,
+              "name": "\u5341\u5927\u5730\u65b9"
+            }
+          ]
+        },
         {
           "matchId": 509185377,
           "civ": "Varangians",
@@ -39505,5 +39573,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

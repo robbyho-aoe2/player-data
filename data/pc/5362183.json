@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1068,
         "peakRating": 1116
       },
@@ -605,12 +605,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 850,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1274,
+        "totalGames": 852,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1239,
         "peakRating": 1382
       },
       "matches": [
+        {
+          "matchId": 510181370,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:15:49.000Z",
+          "dur": 3213,
+          "opponents": [
+            {
+              "profileId": 2167495,
+              "name": "Jaha"
+            },
+            {
+              "profileId": 3895701,
+              "name": "Awptical Complex"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5354816,
+              "name": "Montezuma"
+            }
+          ]
+        },
+        {
+          "matchId": 510177380,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:54:04.000Z",
+          "dur": 1182,
+          "opponents": [
+            {
+              "profileId": 511854,
+              "name": "nanodan47"
+            },
+            {
+              "profileId": 1318399,
+              "name": "croj92"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5354816,
+              "name": "Montezuma"
+            }
+          ]
+        },
         {
           "matchId": 509190957,
           "civ": "Vietnamese",
@@ -27066,5 +27118,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

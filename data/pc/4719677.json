@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 38,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 881,
         "peakRating": 897
       },
@@ -637,12 +637,166 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 365,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1240,
+        "totalGames": 370,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1226,
         "peakRating": 1294
       },
       "matches": [
+        {
+          "matchId": 509919821,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:43:51.000Z",
+          "dur": 2053,
+          "opponents": [
+            {
+              "profileId": 784447,
+              "name": "Balrog"
+            },
+            {
+              "profileId": 888457,
+              "name": "jetjag"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 365963,
+              "name": "Dr_Known"
+            }
+          ]
+        },
+        {
+          "matchId": 509916693,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:28:30.000Z",
+          "dur": 661,
+          "opponents": [
+            {
+              "profileId": 23702523,
+              "name": "Sanzy"
+            },
+            {
+              "profileId": 2407737,
+              "name": "LA_12_FPS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 365963,
+              "name": "Dr_Known"
+            }
+          ]
+        },
+        {
+          "matchId": 509908543,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:46:58.000Z",
+          "dur": 2269,
+          "opponents": [
+            {
+              "profileId": 19726909,
+              "name": "jana"
+            },
+            {
+              "profileId": 4446414,
+              "name": "TOCA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 365963,
+              "name": "Dr_Known"
+            }
+          ]
+        },
+        {
+          "matchId": 509901083,
+          "civ": "Portuguese",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:08:36.000Z",
+          "dur": 1434,
+          "opponents": [
+            {
+              "profileId": 4092540,
+              "name": "Slingmachine"
+            },
+            {
+              "profileId": 6574756,
+              "name": "Blegh"
+            },
+            {
+              "profileId": 4683371,
+              "name": "Druminado"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23410428,
+              "name": "[RZ]TEVOSS"
+            },
+            {
+              "profileId": 17057312,
+              "name": "[RZ] HardZeeiRa-BR"
+            }
+          ]
+        },
+        {
+          "matchId": 509487864,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:49:18.000Z",
+          "dur": 2249,
+          "opponents": [
+            {
+              "profileId": 21954748,
+              "name": "Pysiokk"
+            },
+            {
+              "profileId": 3259304,
+              "name": "dageorge115"
+            },
+            {
+              "profileId": 4380831,
+              "name": "Kuroi Raito5577"
+            },
+            {
+              "profileId": 9450951,
+              "name": "Mine Blasting Horse Dog"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 237188,
+              "name": "rcordioli"
+            },
+            {
+              "profileId": 5655624,
+              "name": "JUNIOR_DEMON_KUKAH"
+            },
+            {
+              "profileId": 6081184,
+              "name": "ANDREZZA_KUKAH"
+            }
+          ]
+        },
         {
           "matchId": 509217085,
           "civ": "Spanish",
@@ -12982,5 +13136,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

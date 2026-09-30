@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 269,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1332,
+        "totalGames": 271,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1299,
         "peakRating": 1364
       },
       "matches": [
+        {
+          "matchId": 510053257,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:53:56.000Z",
+          "dur": 1675,
+          "opponents": [
+            {
+              "profileId": 2187919,
+              "name": "twitch.tv/kita18786"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510038596,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:13:50.000Z",
+          "dur": 2235,
+          "opponents": [
+            {
+              "profileId": 2688128,
+              "name": "soymagazo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509085875,
           "civ": "Spanish",
@@ -4362,7 +4396,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 733,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1142,
         "peakRating": 1493
       },
@@ -33988,5 +34022,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

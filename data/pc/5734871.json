@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 625,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1129,
+        "totalGames": 626,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1143,
         "peakRating": 1181
       },
       "matches": [
+        {
+          "matchId": 510103389,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:43:30.000Z",
+          "dur": 1122,
+          "opponents": [
+            {
+              "profileId": 4287268,
+              "name": "taktak89"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508434456,
           "civ": "Malians",
@@ -10124,12 +10141,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2263,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1208,
+        "totalGames": 2265,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1212,
         "peakRating": 1330
       },
       "matches": [
+        {
+          "matchId": 509958736,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:41:52.000Z",
+          "dur": 1817,
+          "opponents": [
+            {
+              "profileId": 11977428,
+              "name": "JAGR fran"
+            },
+            {
+              "profileId": 2057662,
+              "name": "JAGR | PIPO GOROSITO"
+            },
+            {
+              "profileId": 20602619,
+              "name": "JAGR |  TheButterfly_Effect"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7010494,
+              "name": "Marcellus"
+            },
+            {
+              "profileId": 308975,
+              "name": "Thekinghimself"
+            }
+          ]
+        },
+        {
+          "matchId": 509952260,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:11:24.000Z",
+          "dur": 1491,
+          "opponents": [
+            {
+              "profileId": 995094,
+              "name": "[ROIDZ] Sir  Gawain"
+            },
+            {
+              "profileId": 9610709,
+              "name": "[AA] Dankwart"
+            },
+            {
+              "profileId": 680040,
+              "name": "[ROIDZ] Hagen von Tronje"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7010494,
+              "name": "Marcellus"
+            },
+            {
+              "profileId": 308975,
+              "name": "Thekinghimself"
+            }
+          ]
+        },
         {
           "matchId": 508707754,
           "civ": "Persians",
@@ -78427,5 +78512,6 @@
   },
   "country": "mt",
   "countryIcon": "\ud83c\uddf2\ud83c\uddf9",
-  "countryName": "Malta"
+  "countryName": "Malta",
+  "platform": "Steam"
 }

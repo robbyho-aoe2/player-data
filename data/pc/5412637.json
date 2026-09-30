@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 408,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1318,
+        "totalGames": 412,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1256,
         "peakRating": 1389
       },
       "matches": [
+        {
+          "matchId": 509392592,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:35:52.000Z",
+          "dur": 441,
+          "opponents": [
+            {
+              "profileId": 3142038,
+              "name": "[La14] BlackSilvio"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509392302,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:33:41.000Z",
+          "dur": 17,
+          "opponents": [
+            {
+              "profileId": 3216650,
+              "name": "GOGOGO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509392114,
+          "civ": "Dravidians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:32:57.000Z",
+          "dur": 13,
+          "opponents": [
+            {
+              "profileId": 2651442,
+              "name": "blackbeard1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509391720,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:31:33.000Z",
+          "dur": 10,
+          "opponents": [
+            {
+              "profileId": 21902859,
+              "name": "NTM.aoematias"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508253235,
           "civ": "Incas",
@@ -6966,7 +7034,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 195,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1334,
         "peakRating": 1497
       },
@@ -12468,5 +12536,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

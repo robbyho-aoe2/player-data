@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 671,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1272,
-        "peakRating": 1317
+        "totalGames": 675,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1301,
+        "peakRating": 1318
       },
       "matches": [
+        {
+          "matchId": 509537515,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:33:50.000Z",
+          "dur": 1542,
+          "opponents": [
+            {
+              "profileId": 9202585,
+              "name": "Scherbasky1_"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509358368,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:06:05.000Z",
+          "dur": 748,
+          "opponents": [
+            {
+              "profileId": 6308829,
+              "name": "pablo-1994"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509357471,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:02:07.000Z",
+          "dur": 349,
+          "opponents": [
+            {
+              "profileId": 1240161,
+              "name": "Poppy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509236718,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T01:32:46.000Z",
+          "dur": 1322,
+          "opponents": [
+            {
+              "profileId": 5654499,
+              "name": "\u6728\u74dc"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509191066,
           "civ": "Varangians",
@@ -11436,12 +11504,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 341,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1121,
+        "totalGames": 342,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1105,
         "peakRating": 1157
       },
       "matches": [
+        {
+          "matchId": 509486483,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:40:45.000Z",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 22971179,
+              "name": "P A T S H A"
+            },
+            {
+              "profileId": 10197185,
+              "name": "LeChuck"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18256219,
+              "name": "Jelonz"
+            }
+          ]
+        },
         {
           "matchId": 508693401,
           "civ": "Varangians",
@@ -24169,5 +24263,6 @@
   },
   "country": "uy",
   "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
-  "countryName": "Uruguay"
+  "countryName": "Uruguay",
+  "platform": "Steam"
 }

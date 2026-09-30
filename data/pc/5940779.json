@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1348,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1274,
+        "totalGames": 1354,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1207,
         "peakRating": 1394
       },
       "matches": [
+        {
+          "matchId": 509747678,
+          "civ": "Khitans",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:04:22.000Z",
+          "dur": 1933,
+          "opponents": [
+            {
+              "profileId": 21541009,
+              "name": "Lord Mateo08"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509743734,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:44:53.000Z",
+          "dur": 1124,
+          "opponents": [
+            {
+              "profileId": 24241478,
+              "name": "splotchy-curtain"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509741214,
+          "civ": "Saracens",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:33:43.000Z",
+          "dur": 632,
+          "opponents": [
+            {
+              "profileId": 26106425,
+              "name": "El_PeteRete"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509735600,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:07:32.000Z",
+          "dur": 1415,
+          "opponents": [
+            {
+              "profileId": 1564934,
+              "name": "amacandcheese"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509497076,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:43:47.000Z",
+          "dur": 1980,
+          "opponents": [
+            {
+              "profileId": 9658323,
+              "name": "Ryuk"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509494149,
+          "civ": "Burgundians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:25:56.000Z",
+          "dur": 1003,
+          "opponents": [
+            {
+              "profileId": 3296397,
+              "name": "Jalape\u00f1o Horsey"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508100849,
           "civ": "Vikings",
@@ -22946,7 +23048,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1040,
         "peakRating": 1040
       },
@@ -23402,5 +23504,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1061,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1042,
         "peakRating": 1076
       },
@@ -17008,12 +17008,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2438,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1179,
+        "totalGames": 2439,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1159,
         "peakRating": 1285
       },
       "matches": [
+        {
+          "matchId": 509917580,
+          "civ": "Armenians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:33:08.000Z",
+          "dur": 1519,
+          "opponents": [
+            {
+              "profileId": 16799613,
+              "name": "Romanido"
+            },
+            {
+              "profileId": 5130571,
+              "name": "Acadia744"
+            },
+            {
+              "profileId": 3485723,
+              "name": "Hackett Geert Kasch"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25117011,
+              "name": "\u65e0\u5f52"
+            },
+            {
+              "profileId": 11189060,
+              "name": "darker"
+            }
+          ]
+        },
         {
           "matchId": 509145226,
           "civ": "Armenians",
@@ -115407,5 +115441,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

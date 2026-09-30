@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1116,
         "peakRating": 1146
       },
@@ -199,12 +199,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 19,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1174,
+        "totalGames": 21,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1172,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 509716967,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:52:30.000Z",
+          "dur": 1260,
+          "opponents": [
+            {
+              "profileId": 6358659,
+              "name": "[Knusper] Alex"
+            },
+            {
+              "profileId": 2437170,
+              "name": "[Knusper] sycane"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5123496,
+              "name": "muggestutz"
+            }
+          ]
+        },
+        {
+          "matchId": 509708319,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:20:36.000Z",
+          "dur": 1702,
+          "opponents": [
+            {
+              "profileId": 10775202,
+              "name": "\u963f\u5409"
+            },
+            {
+              "profileId": 10543388,
+              "name": "Sky"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5123496,
+              "name": "muggestutz"
+            }
+          ]
+        },
         {
           "matchId": 508709029,
           "civ": "Danes",
@@ -888,5 +940,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

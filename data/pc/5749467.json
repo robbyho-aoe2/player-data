@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 542,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1078,
+        "totalGames": 545,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1065,
         "peakRating": 1252
       },
       "matches": [
+        {
+          "matchId": 510187712,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:51:30.000Z",
+          "dur": 1467,
+          "opponents": [
+            {
+              "profileId": 6254149,
+              "name": "lodhaaashish"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509930226,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:32:21.000Z",
+          "dur": 1897,
+          "opponents": [
+            {
+              "profileId": 11864839,
+              "name": "BoxStars"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509659941,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:12:02.000Z",
+          "dur": 942,
+          "opponents": [
+            {
+              "profileId": 18256219,
+              "name": "Jelonz"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509133337,
           "civ": "Franks",
@@ -8737,7 +8788,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 907
       },
       "matches": [
@@ -8837,5 +8888,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

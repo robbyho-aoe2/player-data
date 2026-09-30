@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 485,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1167,
         "peakRating": 1216
       },
@@ -7792,12 +7792,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 219,
-        "pulledDate": "2026-09-26",
-        "latestRating": 995,
+        "totalGames": 220,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1014,
         "peakRating": 1143
       },
       "matches": [
+        {
+          "matchId": 510080486,
+          "civ": "Romans",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:23:48.000Z",
+          "dur": 1166,
+          "opponents": [
+            {
+              "profileId": 2926525,
+              "name": "wololoo-"
+            },
+            {
+              "profileId": 11819612,
+              "name": "\u7fbd\u4e18\u767d\u8272\u9b45\u9b54\u4e30\u5ddd\u7965\u5b50"
+            },
+            {
+              "profileId": 11568788,
+              "name": "Wiretrass"
+            },
+            {
+              "profileId": 11435133,
+              "name": "( \u2035\u25a1\u2032)"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24201112,
+              "name": "\u0410\u043b\u044c\u0431\u0435\u0440\u0442"
+            },
+            {
+              "profileId": 21583502,
+              "name": "wojopl31"
+            },
+            {
+              "profileId": 6061181,
+              "name": "Borzak4113"
+            }
+          ]
+        },
         {
           "matchId": 509152934,
           "civ": "Romans",
@@ -15496,5 +15538,6 @@
   },
   "country": "ro",
   "countryIcon": "\ud83c\uddf7\ud83c\uddf4",
-  "countryName": "Romania"
+  "countryName": "Romania",
+  "platform": "Steam"
 }

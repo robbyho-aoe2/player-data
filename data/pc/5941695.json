@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 360,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 2213,
         "peakRating": 2213
       },
@@ -5789,12 +5789,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2115,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1948,
+        "totalGames": 2117,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1903,
         "peakRating": 1983
       },
       "matches": [
+        {
+          "matchId": 509783069,
+          "civ": "Koreans",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:19:32.000Z",
+          "dur": 1221,
+          "opponents": [
+            {
+              "profileId": 2962712,
+              "name": "[SotC] Frank Castle"
+            },
+            {
+              "profileId": 5600740,
+              "name": "[B\u00dcN] Mr. Gr\u00fcezi"
+            },
+            {
+              "profileId": 1261126,
+              "name": "[SotC] Spirit"
+            },
+            {
+              "profileId": 6288815,
+              "name": "HR Fast_PIG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2918782,
+              "name": "GAX | This Game Isnt Fun"
+            },
+            {
+              "profileId": 5557388,
+              "name": "Varrus"
+            },
+            {
+              "profileId": 16616407,
+              "name": "P4tr1ckLML"
+            }
+          ]
+        },
+        {
+          "matchId": 509390971,
+          "civ": "Sicilians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:28:39.000Z",
+          "dur": 1540,
+          "opponents": [
+            {
+              "profileId": 25438100,
+              "name": "Zephyr"
+            },
+            {
+              "profileId": 10546969,
+              "name": "\u56de\u5fc6\u91cc\u592a\u591a\u597d"
+            },
+            {
+              "profileId": 14165673,
+              "name": "mesa"
+            },
+            {
+              "profileId": 16878098,
+              "name": "Kyandie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3274563,
+              "name": "Gary"
+            },
+            {
+              "profileId": 4063624,
+              "name": "CNZS_HiFive"
+            },
+            {
+              "profileId": 5557388,
+              "name": "Varrus"
+            }
+          ]
+        },
         {
           "matchId": 508777651,
           "civ": "Vietnamese",
@@ -82041,5 +82125,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

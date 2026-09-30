@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 121,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1667,
         "peakRating": 1694
       },
@@ -1844,12 +1844,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 565,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1497,
+        "totalGames": 570,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1489,
         "peakRating": 1589
       },
       "matches": [
+        {
+          "matchId": 509804881,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:31:30.000Z",
+          "dur": 2062,
+          "opponents": [
+            {
+              "profileId": 322559,
+              "name": "Gil-galad"
+            },
+            {
+              "profileId": 1946426,
+              "name": "player 3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 530444,
+              "name": "TheSonder"
+            }
+          ]
+        },
+        {
+          "matchId": 509471781,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:18:42.000Z",
+          "dur": 1605,
+          "opponents": [
+            {
+              "profileId": 2560734,
+              "name": "Voit3ch_"
+            },
+            {
+              "profileId": 3048440,
+              "name": "aReIF"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5566911,
+              "name": "IWUDJA"
+            }
+          ]
+        },
+        {
+          "matchId": 509464415,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:42:26.000Z",
+          "dur": 1811,
+          "opponents": [
+            {
+              "profileId": 2454008,
+              "name": "TyRanT"
+            },
+            {
+              "profileId": 1371306,
+              "name": "Monkey_D_Luffy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1452314,
+              "name": "NeoPlex_cz"
+            }
+          ]
+        },
+        {
+          "matchId": 509452039,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:48:21.000Z",
+          "dur": 2608,
+          "opponents": [
+            {
+              "profileId": 17945164,
+              "name": "MXTS | \u00bfSe vale nuevo DLC?"
+            },
+            {
+              "profileId": 3409286,
+              "name": "CARAVEO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22523518,
+              "name": "Lord Gio"
+            }
+          ]
+        },
+        {
+          "matchId": 509450618,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:42:33.000Z",
+          "dur": 61,
+          "opponents": [
+            {
+              "profileId": 2075681,
+              "name": "DGHIR | Qeetsa"
+            },
+            {
+              "profileId": 246481,
+              "name": "VL SlenderMan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1451709,
+              "name": "TOM LE CHAMEAU"
+            }
+          ]
+        },
         {
           "matchId": 508308615,
           "civ": "Magyars",
@@ -13641,5 +13771,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

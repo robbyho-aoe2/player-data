@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 292,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-29",
         "latestRating": 1198,
         "peakRating": 1222
       },
@@ -4702,12 +4702,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 676,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1166,
+        "totalGames": 680,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1161,
         "peakRating": 1234
       },
       "matches": [
+        {
+          "matchId": 509966039,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:18:34.000Z",
+          "dur": 1347,
+          "opponents": [
+            {
+              "profileId": 2681586,
+              "name": "ThePiper"
+            },
+            {
+              "profileId": 2736710,
+              "name": "Lamy's Back"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4729303,
+              "name": "Arkantos"
+            }
+          ]
+        },
+        {
+          "matchId": 509961386,
+          "civ": "Franks",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:54:07.000Z",
+          "dur": 1179,
+          "opponents": [
+            {
+              "profileId": 24409544,
+              "name": "A G H A"
+            },
+            {
+              "profileId": 17682053,
+              "name": "OBX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4729303,
+              "name": "Arkantos"
+            }
+          ]
+        },
+        {
+          "matchId": 509395094,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:46:33.000Z",
+          "dur": 2893,
+          "opponents": [
+            {
+              "profileId": 18183786,
+              "name": "Bar"
+            },
+            {
+              "profileId": 5448919,
+              "name": "Edmond."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4729303,
+              "name": "Arkantos"
+            }
+          ]
+        },
+        {
+          "matchId": 509389417,
+          "civ": "Franks",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:21:21.000Z",
+          "dur": 1140,
+          "opponents": [
+            {
+              "profileId": 467252,
+              "name": "Nyuszi"
+            },
+            {
+              "profileId": 25309482,
+              "name": "228811348"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4729303,
+              "name": "Arkantos"
+            }
+          ]
+        },
         {
           "matchId": 508702809,
           "civ": "Franks",
@@ -21676,5 +21780,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

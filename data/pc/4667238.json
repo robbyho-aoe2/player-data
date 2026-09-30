@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 81,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1041,
+        "totalGames": 83,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1040,
         "peakRating": 1123
       },
       "matches": [
+        {
+          "matchId": 510127568,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:55:55.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 10799452,
+              "name": "\u272a BlackJack"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509910447,
+          "civ": "Byzantines",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:56:13.000Z",
+          "dur": 1819,
+          "opponents": [
+            {
+              "profileId": 1110809,
+              "name": "G3RM41N"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506889781,
           "civ": "Chinese",
@@ -1406,12 +1440,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 231,
-        "pulledDate": "2026-09-25",
-        "latestRating": 1220,
+        "totalGames": 233,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1254,
         "peakRating": 1372
       },
       "matches": [
+        {
+          "matchId": 509363091,
+          "civ": "Byzantines",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:27:42.000Z",
+          "dur": 1397,
+          "opponents": [
+            {
+              "profileId": 4619996,
+              "name": "Fiery Dwarf"
+            },
+            {
+              "profileId": 11268318,
+              "name": "Tretri"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1361214,
+              "name": "Trazbon"
+            }
+          ]
+        },
+        {
+          "matchId": 509350610,
+          "civ": "Byzantines",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:30:42.000Z",
+          "dur": 1498,
+          "opponents": [
+            {
+              "profileId": 9402794,
+              "name": "__ynot__"
+            },
+            {
+              "profileId": 10720271,
+              "name": "Sch\u00f6ner Pikser"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1361214,
+              "name": "Trazbon"
+            }
+          ]
+        },
         {
           "matchId": 508755250,
           "civ": "Franks",
@@ -9215,5 +9301,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

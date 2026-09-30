@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 266,
-        "pulledDate": "2026-09-19",
-        "latestRating": 825,
+        "totalGames": 267,
+        "pulledDate": "2026-09-30",
+        "latestRating": 841,
         "peakRating": 999
       },
       "matches": [
+        {
+          "matchId": 509726475,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:29:22.000Z",
+          "dur": 1446,
+          "opponents": [
+            {
+              "profileId": 22438611,
+              "name": "Juliro"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506484545,
           "civ": "Wei",
@@ -4551,12 +4568,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 644,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1114,
+        "totalGames": 646,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1120,
         "peakRating": 1191
       },
       "matches": [
+        {
+          "matchId": 509996948,
+          "civ": "Mongols",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:28:56.000Z",
+          "dur": 2350,
+          "opponents": [
+            {
+              "profileId": 12118874,
+              "name": "956068430"
+            },
+            {
+              "profileId": 2333338,
+              "name": "Bubbs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5715825,
+              "name": "Alito"
+            }
+          ]
+        },
+        {
+          "matchId": 509995414,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:19:08.000Z",
+          "dur": 386,
+          "opponents": [
+            {
+              "profileId": 24181343,
+              "name": "JUSTKITTEN"
+            },
+            {
+              "profileId": 1896338,
+              "name": "Corgi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5715825,
+              "name": "Alito"
+            }
+          ]
+        },
         {
           "matchId": 506733254,
           "civ": "Mongols",
@@ -21968,5 +22037,6 @@
   },
   "country": "uy",
   "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
-  "countryName": "Uruguay"
+  "countryName": "Uruguay",
+  "platform": "Steam"
 }

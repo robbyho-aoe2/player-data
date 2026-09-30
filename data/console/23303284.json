@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-30",
         "latestRating": 1031
       },
       "matches": [
@@ -143,7 +143,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 833,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-30",
         "latestRating": 1118,
         "peakRating": 1220
       },
@@ -22066,18 +22066,164 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 261,
-        "pulledDate": "2026-09-28",
-        "latestRating": 643,
+        "totalGames": 266,
+        "pulledDate": "2026-09-30",
+        "latestRating": 654,
         "peakRating": 943
       },
       "matches": [
+        {
+          "matchId": 510203300,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:31:32.000Z",
+          "dur": 1783,
+          "opponents": [
+            {
+              "profileId": 25762825,
+              "name": "Alexcol91"
+            },
+            {
+              "profileId": 25318726,
+              "name": "oldmanuelo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25596819,
+              "name": "BigPapaPump"
+            }
+          ]
+        },
+        {
+          "matchId": 510186674,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:45:33.000Z",
+          "dur": 1899,
+          "opponents": [
+            {
+              "profileId": 20892591,
+              "name": "AKANZ\u0130"
+            },
+            {
+              "profileId": 6849245,
+              "name": "Blights"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16747886,
+              "name": "Sovrano-di-Capiate"
+            }
+          ]
+        },
+        {
+          "matchId": 509995356,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:18:52.000Z",
+          "dur": 2101,
+          "opponents": [
+            {
+              "profileId": 3096016,
+              "name": "SAAB0205"
+            },
+            {
+              "profileId": 25132058,
+              "name": "yatogamiuzumaki *******"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22966243,
+              "name": "Nova_Kovic"
+            }
+          ]
+        },
+        {
+          "matchId": 509988857,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:36:30.000Z",
+          "dur": 2272,
+          "opponents": [
+            {
+              "profileId": 19931688,
+              "name": "braian4400"
+            },
+            {
+              "profileId": 15593080,
+              "name": "KAISER962605"
+            },
+            {
+              "profileId": 5605539,
+              "name": "cooperwitch"
+            },
+            {
+              "profileId": 1713209,
+              "name": "Carpeado BR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3525860,
+              "name": "Noobburner"
+            },
+            {
+              "profileId": 21840686,
+              "name": "DeVinci_Qc"
+            },
+            {
+              "profileId": 8765441,
+              "name": "eric.ashmore"
+            }
+          ]
+        },
+        {
+          "matchId": 509961376,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:54:40.000Z",
+          "dur": 2965,
+          "opponents": [
+            {
+              "profileId": 25621774,
+              "name": "Eg_Divine"
+            },
+            {
+              "profileId": 15530282,
+              "name": "El_Omi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24654388,
+              "name": "jeffersonproel"
+            }
+          ]
+        },
         {
           "matchId": 509663099,
           "civ": "Jurchens",
@@ -30401,5 +30547,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

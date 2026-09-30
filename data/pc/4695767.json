@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1312,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1119,
+        "totalGames": 1315,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1138,
         "peakRating": 1297
       },
       "matches": [
+        {
+          "matchId": 510111744,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:27:55.000Z",
+          "dur": 597,
+          "opponents": [
+            {
+              "profileId": 17140360,
+              "name": "Kinseidon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509902421,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:15:18.000Z",
+          "dur": 1103,
+          "opponents": [
+            {
+              "profileId": 20157113,
+              "name": "MaMo7x"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509897003,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:45:43.000Z",
+          "dur": 1607,
+          "opponents": [
+            {
+              "profileId": 9742948,
+              "name": "charles.fleury03"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508904730,
           "civ": "Sicilians",
@@ -21044,12 +21095,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 846,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1143,
+        "totalGames": 847,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1126,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 510104460,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:49:14.000Z",
+          "dur": 2264,
+          "opponents": [
+            {
+              "profileId": 337384,
+              "name": "Onlyfarms"
+            },
+            {
+              "profileId": 24623809,
+              "name": "\u541b\u4e34\u5929\u4e0b"
+            },
+            {
+              "profileId": 906336,
+              "name": "DevFreak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18309361,
+              "name": "\u0425\u043e\u0440\u0443\u0441_\u041b\u0443\u0431\u0440\u0438\u043a\u0430\u043d\u0442"
+            },
+            {
+              "profileId": 2574644,
+              "name": "DuentePreto"
+            }
+          ]
+        },
         {
           "matchId": 506876108,
           "civ": "Sicilians",
@@ -46621,5 +46706,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

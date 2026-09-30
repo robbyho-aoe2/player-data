@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -107,12 +107,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1993,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1183,
+        "totalGames": 1994,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1199,
         "peakRating": 1457
       },
       "matches": [
+        {
+          "matchId": 510170736,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:22:04.000Z",
+          "dur": 2192,
+          "opponents": [
+            {
+              "profileId": 4162211,
+              "name": "HeN.Ninj'"
+            },
+            {
+              "profileId": 4516483,
+              "name": "Pasatho"
+            },
+            {
+              "profileId": 5586263,
+              "name": "HeN.Diyo"
+            },
+            {
+              "profileId": 9558828,
+              "name": "choka60"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25054394,
+              "name": "zeron"
+            },
+            {
+              "profileId": 2474177,
+              "name": "deRoode"
+            },
+            {
+              "profileId": 2593361,
+              "name": "xSantalogx"
+            }
+          ]
+        },
         {
           "matchId": 507138803,
           "civ": "Portuguese",
@@ -81622,5 +81664,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 657,
-        "pulledDate": "2026-09-22",
-        "latestRating": 2300,
-        "peakRating": 2300
+        "totalGames": 661,
+        "pulledDate": "2026-09-30",
+        "latestRating": 2325,
+        "peakRating": 2325
       },
       "matches": [
+        {
+          "matchId": 509489694,
+          "civ": "Saracens",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:00:03.000Z",
+          "dur": 1357,
+          "opponents": [
+            {
+              "profileId": 3035292,
+              "name": "Rivux"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509466381,
+          "civ": "Chinese",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:51:52.000Z",
+          "dur": 1992,
+          "opponents": [
+            {
+              "profileId": 622641,
+              "name": "Draconian"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509462855,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:35:18.000Z",
+          "dur": 855,
+          "opponents": [
+            {
+              "profileId": 2821779,
+              "name": "Pela"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509380165,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:40:43.000Z",
+          "dur": 813,
+          "opponents": [
+            {
+              "profileId": 212721,
+              "name": "Sitaux"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508081417,
           "civ": "Bohemians",
@@ -10581,7 +10649,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 302,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1754,
         "peakRating": 1821
       },
@@ -21339,5 +21407,6 @@
   },
   "country": "cr",
   "countryIcon": "\ud83c\udde8\ud83c\uddf7",
-  "countryName": "Costa Rica"
+  "countryName": "Costa Rica",
+  "platform": "Steam"
 }

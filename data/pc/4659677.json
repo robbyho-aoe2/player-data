@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 29,
-        "pulledDate": "2026-09-25",
-        "latestRating": 932,
+        "totalGames": 33,
+        "pulledDate": "2026-09-29",
+        "latestRating": 899,
         "peakRating": 1074
       },
       "matches": [
+        {
+          "matchId": 509604617,
+          "civ": "Britons",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:09:46.000Z",
+          "dur": 1881,
+          "opponents": [
+            {
+              "profileId": 9141547,
+              "name": "Dark"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509600153,
+          "civ": "Japanese",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:44:18.000Z",
+          "dur": 1267,
+          "opponents": [
+            {
+              "profileId": 11615943,
+              "name": "Malcupa"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509433814,
+          "civ": "Japanese",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:31:02.000Z",
+          "dur": 1819,
+          "opponents": [
+            {
+              "profileId": 6031743,
+              "name": "flusha"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509428159,
+          "civ": "Japanese",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:08:53.000Z",
+          "dur": 1218,
+          "opponents": [
+            {
+              "profileId": 2813607,
+              "name": "jcsoriano1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509098063,
           "civ": "Britons",
@@ -523,12 +591,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     }
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

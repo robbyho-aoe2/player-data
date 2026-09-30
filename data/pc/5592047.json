@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1834,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1272,
+        "totalGames": 1838,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1241,
         "peakRating": 1371
       },
       "matches": [
+        {
+          "matchId": 510072312,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:18:36.000Z",
+          "dur": 1328,
+          "opponents": [
+            {
+              "profileId": 1710868,
+              "name": "Citykeeper"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510071731,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:12:45.000Z",
+          "dur": 205,
+          "opponents": [
+            {
+              "profileId": 2616460,
+              "name": "Pinzon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510017266,
+          "civ": "Cumans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:31:45.000Z",
+          "dur": 1053,
+          "opponents": [
+            {
+              "profileId": 19050107,
+              "name": "antoniomarcial"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510012941,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:04:53.000Z",
+          "dur": 1220,
+          "opponents": [
+            {
+              "profileId": 21996785,
+              "name": "Alive"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509006091,
           "civ": "Persians",
@@ -27631,7 +27699,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 61,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1369
       },
       "matches": [
@@ -28681,5 +28749,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Xbox"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 124,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1241,
         "peakRating": 1318
       },
@@ -2013,12 +2013,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 566,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1177,
+        "totalGames": 568,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1170,
         "peakRating": 1278
       },
       "matches": [
+        {
+          "matchId": 509723386,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:17:00.000Z",
+          "dur": 1679,
+          "opponents": [
+            {
+              "profileId": 22045398,
+              "name": "JorDaN"
+            },
+            {
+              "profileId": 13877236,
+              "name": "Shaheen"
+            },
+            {
+              "profileId": 2252762,
+              "name": "rashbalash"
+            },
+            {
+              "profileId": 12304333,
+              "name": "Cthpoolu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 255742,
+              "name": "Cobal"
+            },
+            {
+              "profileId": 1165947,
+              "name": "venusnocturna"
+            },
+            {
+              "profileId": 2602967,
+              "name": "AiM | yunito000"
+            }
+          ]
+        },
+        {
+          "matchId": 509715846,
+          "civ": "Incas",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:48:13.000Z",
+          "dur": 1532,
+          "opponents": [
+            {
+              "profileId": 25080007,
+              "name": "_StuNNa_"
+            },
+            {
+              "profileId": 314927,
+              "name": "Mayunia"
+            },
+            {
+              "profileId": 1566516,
+              "name": "mark_aoe_2024"
+            },
+            {
+              "profileId": 2597357,
+              "name": "scott.hurstell"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2602967,
+              "name": "AiM | yunito000"
+            },
+            {
+              "profileId": 255742,
+              "name": "Cobal"
+            },
+            {
+              "profileId": 1165947,
+              "name": "venusnocturna"
+            }
+          ]
+        },
         {
           "matchId": 508985731,
           "civ": "Cumans",
@@ -17148,5 +17232,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

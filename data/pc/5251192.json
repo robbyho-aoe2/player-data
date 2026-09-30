@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 219,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 2169,
         "peakRating": 2389
       },
@@ -3537,12 +3537,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 741,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1670,
+        "totalGames": 743,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1697,
         "peakRating": 2023
       },
       "matches": [
+        {
+          "matchId": 510093673,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:48:27.000Z",
+          "dur": 1753,
+          "opponents": [
+            {
+              "profileId": 19501096,
+              "name": "stop_whining_start_winning"
+            },
+            {
+              "profileId": 11471846,
+              "name": "DraveczB"
+            },
+            {
+              "profileId": 11333316,
+              "name": "ELCOCHINOTE"
+            },
+            {
+              "profileId": 4718100,
+              "name": "jmolinao"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20718628,
+              "name": "Heinrich Joseph"
+            },
+            {
+              "profileId": 14527552,
+              "name": "Thundernips, The Ultimate Gigolo"
+            },
+            {
+              "profileId": 1265857,
+              "name": "Benitto Burrito"
+            }
+          ]
+        },
+        {
+          "matchId": 510092280,
+          "civ": "Wei",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:40:20.000Z",
+          "dur": 57,
+          "opponents": [
+            {
+              "profileId": 475826,
+              "name": "Timbrhoggvandi"
+            },
+            {
+              "profileId": 292318,
+              "name": "Rayzor"
+            },
+            {
+              "profileId": 243127,
+              "name": "Failey"
+            },
+            {
+              "profileId": 226202,
+              "name": "Alian713"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20718628,
+              "name": "Heinrich Joseph"
+            },
+            {
+              "profileId": 14527552,
+              "name": "Thundernips, The Ultimate Gigolo"
+            },
+            {
+              "profileId": 1265857,
+              "name": "Benitto Burrito"
+            }
+          ]
+        },
         {
           "matchId": 508964867,
           "civ": "Saxons",
@@ -31211,5 +31295,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

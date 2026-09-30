@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 1188,
         "peakRating": 1249
       },
@@ -233,10 +233,112 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3,
-        "pulledDate": "2026-09-10"
+        "totalGames": 6,
+        "pulledDate": "2026-09-30"
       },
       "matches": [
+        {
+          "matchId": 509558517,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:59:36.000Z",
+          "dur": 1449,
+          "opponents": [
+            {
+              "profileId": 25248989,
+              "name": "MordorQva"
+            },
+            {
+              "profileId": 21446026,
+              "name": "PatBateman7156"
+            },
+            {
+              "profileId": 25715555,
+              "name": "DanCNuggets"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19247924,
+              "name": "Maxlui5"
+            },
+            {
+              "profileId": 22608260,
+              "name": "Cuchi0k"
+            }
+          ]
+        },
+        {
+          "matchId": 509554674,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T06:31:27.000Z",
+          "dur": 1461,
+          "opponents": [
+            {
+              "profileId": 3265130,
+              "name": "Chak Koot"
+            },
+            {
+              "profileId": 3266033,
+              "name": "Sak K\u00f3ot"
+            },
+            {
+              "profileId": 6709274,
+              "name": "Ek'Balam"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19247924,
+              "name": "Maxlui5"
+            },
+            {
+              "profileId": 22608260,
+              "name": "Cuchi0k"
+            }
+          ]
+        },
+        {
+          "matchId": 509549602,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:56:41.000Z",
+          "dur": 1789,
+          "opponents": [
+            {
+              "profileId": 25563818,
+              "name": "kyokiroto"
+            },
+            {
+              "profileId": 17260838,
+              "name": "cristianalarconcalderon"
+            },
+            {
+              "profileId": 5772258,
+              "name": "sergioguarin19"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22608260,
+              "name": "Cuchi0k"
+            },
+            {
+              "profileId": 19247924,
+              "name": "Maxlui5"
+            }
+          ]
+        },
         {
           "matchId": 487822281,
           "civ": "Britons",
@@ -368,5 +470,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

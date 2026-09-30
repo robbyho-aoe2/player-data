@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 224,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1209,
+        "totalGames": 227,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1224,
         "peakRating": 1589
       },
       "matches": [
+        {
+          "matchId": 509534135,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:12:56.000Z",
+          "dur": 1356,
+          "opponents": [
+            {
+              "profileId": 21089654,
+              "name": "dejame_ganar"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509527815,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:36:06.000Z",
+          "dur": 2102,
+          "opponents": [
+            {
+              "profileId": 6376043,
+              "name": "Sir_Malmsteen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509527608,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:34:27.000Z",
+          "dur": 13,
+          "opponents": [
+            {
+              "profileId": 24711314,
+              "name": "goldenyogi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501926208,
           "civ": "Franks",
@@ -3838,7 +3889,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -3949,5 +4000,6 @@
   },
   "country": "nz",
   "countryIcon": "\ud83c\uddf3\ud83c\uddff",
-  "countryName": "New Zealand"
+  "countryName": "New Zealand",
+  "platform": "Steam"
 }

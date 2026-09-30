@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 28,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1060,
+        "totalGames": 31,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1076,
         "peakRating": 1231
       },
       "matches": [
+        {
+          "matchId": 509471799,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:18:27.000Z",
+          "dur": 1192,
+          "opponents": [
+            {
+              "profileId": 24640324,
+              "name": "andres.sojo2809"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509367710,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:47:02.000Z",
+          "dur": 288,
+          "opponents": [
+            {
+              "profileId": 14198904,
+              "name": "K-eleven"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509247044,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T02:26:05.000Z",
+          "dur": 1530,
+          "opponents": [
+            {
+              "profileId": 18662382,
+              "name": "PNAL | Henry Chinaski"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504802650,
           "civ": "Malians",
@@ -506,7 +557,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 14,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -898,5 +949,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

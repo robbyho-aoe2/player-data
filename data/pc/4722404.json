@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1283,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1236,
+        "totalGames": 1284,
+        "pulledDate": "2026-09-29",
+        "latestRating": 1250,
         "peakRating": 1362
       },
       "matches": [
+        {
+          "matchId": 510202841,
+          "civ": "Bulgarians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:28:20.000Z",
+          "dur": 570,
+          "opponents": [
+            {
+              "profileId": 1094934,
+              "name": "danikun1614"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509135859,
           "civ": "Lithuanians",
@@ -20577,12 +20594,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 702,
-        "pulledDate": "2026-09-26",
+        "totalGames": 704,
+        "pulledDate": "2026-09-29",
         "latestRating": 1179,
         "peakRating": 1319
       },
       "matches": [
+        {
+          "matchId": 510198803,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:02:11.000Z",
+          "dur": 1410,
+          "opponents": [
+            {
+              "profileId": 17310527,
+              "name": "[GDL]Cemento"
+            },
+            {
+              "profileId": 2526005,
+              "name": "[GDL] REVOLVER CANNABIS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3011490,
+              "name": "Bastrip"
+            }
+          ]
+        },
+        {
+          "matchId": 510039432,
+          "civ": "Wei",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:22:54.000Z",
+          "dur": 1903,
+          "opponents": [
+            {
+              "profileId": 2897761,
+              "name": "Tlaloke626"
+            },
+            {
+              "profileId": 2515921,
+              "name": "zoltan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5632059,
+              "name": "schwang"
+            }
+          ]
+        },
         {
           "matchId": 509147871,
           "civ": "Georgians",
@@ -38238,5 +38307,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

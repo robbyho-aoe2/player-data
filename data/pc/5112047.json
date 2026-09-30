@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 420,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1042,
+        "totalGames": 422,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1009,
         "peakRating": 1192
       },
       "matches": [
+        {
+          "matchId": 509795166,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:27:06.000Z",
+          "dur": 2037,
+          "opponents": [
+            {
+              "profileId": 9432738,
+              "name": "Yang*N"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509766098,
+          "civ": "Danes",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:44:13.000Z",
+          "dur": 489,
+          "opponents": [
+            {
+              "profileId": 24720136,
+              "name": "AquilesDaiMoN"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508741756,
           "civ": "Danes",
@@ -6762,12 +6796,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2493,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1152,
+        "totalGames": 2496,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1111,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 509777177,
+          "civ": "Italians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:46:03.000Z",
+          "dur": 1967,
+          "opponents": [
+            {
+              "profileId": 1974600,
+              "name": "yayo_1392"
+            },
+            {
+              "profileId": 23574452,
+              "name": "Brisa Marcos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4352685,
+              "name": "jbjr10"
+            }
+          ]
+        },
+        {
+          "matchId": 509767879,
+          "civ": "Byzantines",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:55:05.000Z",
+          "dur": 2929,
+          "opponents": [
+            {
+              "profileId": 24630894,
+              "name": "Jiggy"
+            },
+            {
+              "profileId": 24631141,
+              "name": "ADCorGG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4352685,
+              "name": "jbjr10"
+            }
+          ]
+        },
+        {
+          "matchId": 509745874,
+          "civ": "Varangians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:56:28.000Z",
+          "dur": 1223,
+          "opponents": [
+            {
+              "profileId": 6385443,
+              "name": "SergioH26"
+            },
+            {
+              "profileId": 5995218,
+              "name": "Riper-Kun"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11936962,
+              "name": "ZeDjalma_85"
+            }
+          ]
+        },
         {
           "matchId": 508756901,
           "civ": "Varangians",
@@ -88161,5 +88273,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }
