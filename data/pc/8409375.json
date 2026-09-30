@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 53,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 998,
         "peakRating": 998
       },
@@ -930,12 +930,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 246,
-        "pulledDate": "2026-09-26",
-        "latestRating": 923,
+        "totalGames": 248,
+        "pulledDate": "2026-09-30",
+        "latestRating": 904,
         "peakRating": 987
       },
       "matches": [
+        {
+          "matchId": 509885966,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:46:40.000Z",
+          "dur": 2649,
+          "opponents": [
+            {
+              "profileId": 407299,
+              "name": "joile003"
+            },
+            {
+              "profileId": 419914,
+              "name": "yamir0000"
+            },
+            {
+              "profileId": 1015484,
+              "name": "Roberto_Panini"
+            },
+            {
+              "profileId": 6651799,
+              "name": "\u5929\u5730\u94f6\u884c\u884c\u957f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18200128,
+              "name": "matthew970127"
+            },
+            {
+              "profileId": 18340926,
+              "name": "yainyuyu"
+            },
+            {
+              "profileId": 18432036,
+              "name": "micky970815"
+            }
+          ]
+        },
+        {
+          "matchId": 509884908,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:40:35.000Z",
+          "dur": 539,
+          "opponents": [
+            {
+              "profileId": 21607606,
+              "name": "benjaminvilmos"
+            },
+            {
+              "profileId": 26141346,
+              "name": "kevinfz101006xr"
+            },
+            {
+              "profileId": 25708760,
+              "name": "xiaoye"
+            },
+            {
+              "profileId": 25696019,
+              "name": "Vikingmaster"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18340926,
+              "name": "yainyuyu"
+            },
+            {
+              "profileId": 18200128,
+              "name": "matthew970127"
+            },
+            {
+              "profileId": 18432036,
+              "name": "micky970815"
+            }
+          ]
+        },
         {
           "matchId": 509129187,
           "civ": "Britons",
@@ -10345,5 +10429,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

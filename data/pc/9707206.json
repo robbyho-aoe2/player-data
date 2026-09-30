@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -91,12 +91,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 5594,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1298,
+        "totalGames": 5595,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1312,
         "peakRating": 1470
       },
       "matches": [
+        {
+          "matchId": 509389492,
+          "civ": "Huns",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T16:22:01.000Z",
+          "dur": 733,
+          "opponents": [
+            {
+              "profileId": 4286939,
+              "name": "Inklimus"
+            },
+            {
+              "profileId": 6833670,
+              "name": "\u6709\u4e2a\u5c0f\u8349"
+            },
+            {
+              "profileId": 10085992,
+              "name": "Red"
+            },
+            {
+              "profileId": 11736034,
+              "name": "BuFu1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1375236,
+              "name": "ChenH"
+            },
+            {
+              "profileId": 1739015,
+              "name": "dy\u5c0f\u5996"
+            },
+            {
+              "profileId": 17434861,
+              "name": "\u89c1\u4e0d\u4e45\u597d"
+            }
+          ]
+        },
         {
           "matchId": 509298214,
           "civ": "Huns",
@@ -229579,5 +229621,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

@@ -6,32 +6,136 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 81,
-        "pulledDate": "2026-09-26",
-        "latestRating": 693,
+        "totalGames": 85,
+        "pulledDate": "2026-09-30",
+        "latestRating": 692,
         "peakRating": 912
       },
       "matches": [
+        {
+          "matchId": 509731460,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:50:46.000Z",
+          "dur": 1964,
+          "opponents": [
+            {
+              "profileId": 23150582,
+              "name": "OMEN 7776698"
+            },
+            {
+              "profileId": 5562398,
+              "name": "minatobia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2463948,
+              "name": "Genevi\u00e8ve V."
+            }
+          ]
+        },
+        {
+          "matchId": 509505676,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:33:43.000Z",
+          "dur": 1572,
+          "opponents": [
+            {
+              "profileId": 24738411,
+              "name": "musoq"
+            },
+            {
+              "profileId": 25119419,
+              "name": "mvkris92"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9270502,
+              "name": "tstien40"
+            }
+          ]
+        },
+        {
+          "matchId": 509498381,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:51:51.000Z",
+          "dur": 2626,
+          "opponents": [
+            {
+              "profileId": 22469239,
+              "name": "RAFAOalexandre"
+            },
+            {
+              "profileId": 22734793,
+              "name": "coptel22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4363791,
+              "name": "TheConqueror"
+            }
+          ]
+        },
+        {
+          "matchId": 509496950,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:42:45.000Z",
+          "dur": 409,
+          "opponents": [
+            {
+              "profileId": 20266026,
+              "name": "Yogurt 501"
+            },
+            {
+              "profileId": 13259438,
+              "name": "Stephani Gotica"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4363791,
+              "name": "TheConqueror"
+            }
+          ]
+        },
         {
           "matchId": 509181622,
           "civ": "Ethiopians",
@@ -2265,5 +2369,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 935,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1706,
-        "peakRating": 1706
+        "totalGames": 942,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1696,
+        "peakRating": 1718
       },
       "matches": [
+        {
+          "matchId": 510198113,
+          "civ": "Britons",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:57:46.000Z",
+          "dur": 2964,
+          "opponents": [
+            {
+              "profileId": 2134856,
+              "name": "Jacko"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510194339,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:32:48.000Z",
+          "dur": 1372,
+          "opponents": [
+            {
+              "profileId": 3331881,
+              "name": "[CL] El Sin Manos"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510189598,
+          "civ": "Spanish",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:02:52.000Z",
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 4674159,
+              "name": "Ijusttry09"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510157658,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:21:36.000Z",
+          "dur": 1029,
+          "opponents": [
+            {
+              "profileId": 3157284,
+              "name": "JaniToPz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509957665,
+          "civ": "Gurjaras",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:36:39.000Z",
+          "dur": 1588,
+          "opponents": [
+            {
+              "profileId": 2859826,
+              "name": "TAKII13"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509949367,
+          "civ": "Armenians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:58:22.000Z",
+          "dur": 1862,
+          "opponents": [
+            {
+              "profileId": 15149940,
+              "name": "atom"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509939937,
+          "civ": "Bengalis",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:15:44.000Z",
+          "dur": 1972,
+          "opponents": [
+            {
+              "profileId": 21036341,
+              "name": "Retentio"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508296107,
           "civ": "Vietnamese",
@@ -15019,12 +15138,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 941,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1450,
+        "totalGames": 942,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1475,
         "peakRating": 1715
       },
       "matches": [
+        {
+          "matchId": 510162764,
+          "civ": "Danes",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:44:29.000Z",
+          "dur": 2584,
+          "opponents": [
+            {
+              "profileId": 25205376,
+              "name": "lalalalala"
+            },
+            {
+              "profileId": 23284016,
+              "name": "Bz_\u9752\u7ea2"
+            },
+            {
+              "profileId": 10162168,
+              "name": "Sekov"
+            },
+            {
+              "profileId": 498661,
+              "name": "USTA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 234201,
+              "name": "Peter_Pahn"
+            },
+            {
+              "profileId": 4741867,
+              "name": "OIDA | Tasty"
+            },
+            {
+              "profileId": 4515905,
+              "name": "Tilikoglu"
+            }
+          ]
+        },
         {
           "matchId": 507524927,
           "civ": "Jurchens",
@@ -48629,5 +48790,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

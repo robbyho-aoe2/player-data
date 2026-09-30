@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 4231,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1154,
+        "totalGames": 4233,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1152,
         "peakRating": 1357
       },
       "matches": [
+        {
+          "matchId": 509590627,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:43:50.000Z",
+          "dur": 842,
+          "opponents": [
+            {
+              "profileId": 14557659,
+              "name": "Onkel Olli"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509315865,
+          "civ": "Bulgarians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:57:20.000Z",
+          "dur": 1810,
+          "opponents": [
+            {
+              "profileId": 310319,
+              "name": "TheUrenator"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508842113,
           "civ": "Bulgarians",
@@ -67816,12 +67850,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1822,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1171,
+        "totalGames": 1827,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1217,
         "peakRating": 1316
       },
       "matches": [
+        {
+          "matchId": 509583319,
+          "civ": "Bulgarians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:54:55.000Z",
+          "dur": 2136,
+          "opponents": [
+            {
+              "profileId": 259266,
+              "name": "Sapelilokki"
+            },
+            {
+              "profileId": 254710,
+              "name": "secyde"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6047483,
+              "name": "bombino"
+            }
+          ]
+        },
+        {
+          "matchId": 509578561,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:23:05.000Z",
+          "dur": 1561,
+          "opponents": [
+            {
+              "profileId": 4767096,
+              "name": "Glagediglagg"
+            },
+            {
+              "profileId": 4800833,
+              "name": "Anemone689082"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6047483,
+              "name": "bombino"
+            }
+          ]
+        },
+        {
+          "matchId": 509327161,
+          "civ": "Bulgarians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T11:18:17.000Z",
+          "dur": 1482,
+          "opponents": [
+            {
+              "profileId": 3918149,
+              "name": "ponken"
+            },
+            {
+              "profileId": 8245310,
+              "name": "KRG_Redfish"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6047483,
+              "name": "bombino"
+            }
+          ]
+        },
+        {
+          "matchId": 509323696,
+          "civ": "Bulgarians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T10:54:25.000Z",
+          "dur": 1009,
+          "opponents": [
+            {
+              "profileId": 2680545,
+              "name": "Nils"
+            },
+            {
+              "profileId": 3054579,
+              "name": "cihadyetim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6047483,
+              "name": "bombino"
+            }
+          ]
+        },
+        {
+          "matchId": 509320223,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T10:29:48.000Z",
+          "dur": 921,
+          "opponents": [
+            {
+              "profileId": 5036245,
+              "name": "panzervogel"
+            },
+            {
+              "profileId": 24672653,
+              "name": "bixo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6047483,
+              "name": "bombino"
+            }
+          ]
+        },
         {
           "matchId": 508837067,
           "civ": "Bulgarians",
@@ -119014,5 +119178,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

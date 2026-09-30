@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1217,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1512,
+        "totalGames": 1221,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1513,
         "peakRating": 1630
       },
       "matches": [
+        {
+          "matchId": 510165511,
+          "civ": "Tatars",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:56:51.000Z",
+          "dur": 2751,
+          "opponents": [
+            {
+              "profileId": 2249013,
+              "name": "Mister Piccolo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510116768,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:56:45.000Z",
+          "dur": 1606,
+          "opponents": [
+            {
+              "profileId": 2107910,
+              "name": "Heisenberg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509943088,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:30:05.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 3408545,
+              "name": "Criminalss"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509930570,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:33:24.000Z",
+          "dur": 1360,
+          "opponents": [
+            {
+              "profileId": 1936001,
+              "name": "guigui_3589"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508940679,
           "civ": "Mongols",
@@ -19533,7 +19601,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1130,
         "peakRating": 1144
       },
@@ -22183,5 +22251,6 @@
   },
   "country": "sk",
   "countryIcon": "\ud83c\uddf8\ud83c\uddf0",
-  "countryName": "Slovakia"
+  "countryName": "Slovakia",
+  "platform": "Steam"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 781,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1562,
+        "totalGames": 784,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1612,
         "peakRating": 1716
       },
       "matches": [
+        {
+          "matchId": 509813486,
+          "civ": "Mongols",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:37:25.000Z",
+          "dur": 1374,
+          "opponents": [
+            {
+              "profileId": 209885,
+              "name": "VL Guardian Azul"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509790918,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:03:57.000Z",
+          "dur": 288,
+          "opponents": [
+            {
+              "profileId": 3161004,
+              "name": "El Cacas Vengador"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509762861,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:26:18.000Z",
+          "dur": 1312,
+          "opponents": [
+            {
+              "profileId": 26117399,
+              "name": "Gabe Newell"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509041102,
           "civ": "Mongols",
@@ -12544,7 +12595,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 866,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1471,
         "peakRating": 1607
       },
@@ -45476,5 +45527,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

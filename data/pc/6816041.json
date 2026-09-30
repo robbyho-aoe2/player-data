@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 136,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 703,
         "peakRating": 798
       },
@@ -2205,12 +2205,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 93,
-        "pulledDate": "2026-09-26",
-        "latestRating": 603,
+        "totalGames": 96,
+        "pulledDate": "2026-09-30",
+        "latestRating": 575,
         "peakRating": 934
       },
       "matches": [
+        {
+          "matchId": 510010199,
+          "civ": "Spanish",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:48:39.000Z",
+          "dur": 3025,
+          "opponents": [
+            {
+              "profileId": 21252989,
+              "name": "Pugilist7307"
+            },
+            {
+              "profileId": 17642890,
+              "name": "TORRES"
+            },
+            {
+              "profileId": 13566951,
+              "name": "DatJitDamien"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3178743,
+              "name": "osvaldowr"
+            },
+            {
+              "profileId": 25349678,
+              "name": "yerko.briones"
+            }
+          ]
+        },
+        {
+          "matchId": 510004901,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:17:53.000Z",
+          "dur": 1651,
+          "opponents": [
+            {
+              "profileId": 18517864,
+              "name": "isai.car.mtz"
+            },
+            {
+              "profileId": 17642890,
+              "name": "TORRES"
+            },
+            {
+              "profileId": 12347324,
+              "name": "DolphinPizza"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3178743,
+              "name": "osvaldowr"
+            },
+            {
+              "profileId": 25349678,
+              "name": "yerko.briones"
+            }
+          ]
+        },
+        {
+          "matchId": 509992678,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:00:54.000Z",
+          "dur": 3907,
+          "opponents": [
+            {
+              "profileId": 12856184,
+              "name": "Jesse is H3R3"
+            },
+            {
+              "profileId": 6443192,
+              "name": "douhavealighter"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3178743,
+              "name": "osvaldowr"
+            }
+          ]
+        },
         {
           "matchId": 508592943,
           "civ": "Varangians",
@@ -4714,5 +4808,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

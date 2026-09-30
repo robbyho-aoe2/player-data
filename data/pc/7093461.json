@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 66,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1001,
-        "peakRating": 1011
+        "totalGames": 67,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1016,
+        "peakRating": 1016
       },
       "matches": [
+        {
+          "matchId": 510195782,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:41:48.000Z",
+          "dur": 2340,
+          "opponents": [
+            {
+              "profileId": 24378975,
+              "name": "adrianovcb"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507840243,
           "civ": "Persians",
@@ -1095,12 +1112,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 206,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1074,
+        "totalGames": 211,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1070,
         "peakRating": 1230
       },
       "matches": [
+        {
+          "matchId": 510219933,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:20:11.000Z",
+          "dur": 1903,
+          "opponents": [
+            {
+              "profileId": 16479422,
+              "name": "faby.zamorano"
+            },
+            {
+              "profileId": 20598063,
+              "name": "luisortega0122"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11489392,
+              "name": "Imperator Aronius Arabicus"
+            }
+          ]
+        },
+        {
+          "matchId": 510216830,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:00:40.000Z",
+          "dur": 946,
+          "opponents": [
+            {
+              "profileId": 25739671,
+              "name": "Leo Javier"
+            },
+            {
+              "profileId": 24492404,
+              "name": "Mystburn"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11489392,
+              "name": "Imperator Aronius Arabicus"
+            }
+          ]
+        },
+        {
+          "matchId": 510211274,
+          "civ": "Persians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:25:15.000Z",
+          "dur": 1926,
+          "opponents": [
+            {
+              "profileId": 3048326,
+              "name": "russoft"
+            },
+            {
+              "profileId": 2134002,
+              "name": "Garys left foot"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11489392,
+              "name": "Imperator Aronius Arabicus"
+            }
+          ]
+        },
+        {
+          "matchId": 510208283,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:04:26.000Z",
+          "dur": 1057,
+          "opponents": [
+            {
+              "profileId": 23889639,
+              "name": "SexyDaddy"
+            },
+            {
+              "profileId": 2525044,
+              "name": "bagsflyin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11489392,
+              "name": "Imperator Aronius Arabicus"
+            }
+          ]
+        },
+        {
+          "matchId": 510202302,
+          "civ": "Persians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:24:35.000Z",
+          "dur": 2068,
+          "opponents": [
+            {
+              "profileId": 5162806,
+              "name": "{MAMP}laQUEENde FIFI BING BING"
+            },
+            {
+              "profileId": 9258630,
+              "name": "{MAMP}noobwithouthope"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11489392,
+              "name": "Imperator Aronius Arabicus"
+            }
+          ]
+        },
         {
           "matchId": 508563781,
           "civ": "Persians",
@@ -6315,5 +6462,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

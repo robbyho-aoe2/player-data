@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 759,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1589,
+        "totalGames": 762,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1538,
         "peakRating": 1658
       },
       "matches": [
+        {
+          "matchId": 509714610,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:43:24.000Z",
+          "dur": 1173,
+          "opponents": [
+            {
+              "profileId": 1709508,
+              "name": "Maltimus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509709370,
+          "civ": "Italians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:23:29.000Z",
+          "dur": 1116,
+          "opponents": [
+            {
+              "profileId": 2354799,
+              "name": "Hache Ce"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509703286,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:02:12.000Z",
+          "dur": 1252,
+          "opponents": [
+            {
+              "profileId": 5753419,
+              "name": "MiBe"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508956182,
           "civ": "Magyars",
@@ -12175,7 +12226,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1068,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1689,
         "peakRating": 1699
       },
@@ -47343,5 +47394,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

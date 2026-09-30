@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 565,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1295,
         "peakRating": 1324
       },
@@ -9069,12 +9069,158 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 756,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1146,
+        "totalGames": 761,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1056,
         "peakRating": 1245
       },
       "matches": [
+        {
+          "matchId": 510227316,
+          "civ": "Vietnamese",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:05:37.000Z",
+          "dur": 2215,
+          "opponents": [
+            {
+              "profileId": 18003163,
+              "name": "DCB"
+            },
+            {
+              "profileId": 22406907,
+              "name": "briantorresr25"
+            },
+            {
+              "profileId": 25563818,
+              "name": "kyokiroto"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3383797,
+              "name": "_jamoros"
+            },
+            {
+              "profileId": 5278845,
+              "name": "Kim Min-jun"
+            }
+          ]
+        },
+        {
+          "matchId": 510222090,
+          "civ": "Vietnamese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:33:19.000Z",
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 18003163,
+              "name": "DCB"
+            },
+            {
+              "profileId": 8772050,
+              "name": "Joker_xuechen"
+            },
+            {
+              "profileId": 22406907,
+              "name": "briantorresr25"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3383797,
+              "name": "_jamoros"
+            },
+            {
+              "profileId": 5278845,
+              "name": "Kim Min-jun"
+            }
+          ]
+        },
+        {
+          "matchId": 510216482,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:58:42.000Z",
+          "dur": 1630,
+          "opponents": [
+            {
+              "profileId": 823902,
+              "name": "Cammac"
+            },
+            {
+              "profileId": 845685,
+              "name": "Codeman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5278845,
+              "name": "Kim Min-jun"
+            }
+          ]
+        },
+        {
+          "matchId": 510211861,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:29:00.000Z",
+          "dur": 1301,
+          "opponents": [
+            {
+              "profileId": 1395156,
+              "name": "Gamaleon"
+            },
+            {
+              "profileId": 1724269,
+              "name": "zapato3103"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5278845,
+              "name": "Kim Min-jun"
+            }
+          ]
+        },
+        {
+          "matchId": 509767496,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:53:02.000Z",
+          "dur": 2093,
+          "opponents": [
+            {
+              "profileId": 19240425,
+              "name": "Dester"
+            },
+            {
+              "profileId": 4036836,
+              "name": "groink"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21176513,
+              "name": "URI6431"
+            }
+          ]
+        },
         {
           "matchId": 508779907,
           "civ": "Vikings",
@@ -32643,5 +32789,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

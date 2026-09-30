@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1138,
         "peakRating": 1159
       },
@@ -209,12 +209,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 332,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1098,
+        "totalGames": 336,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1081,
         "peakRating": 1423
       },
       "matches": [
+        {
+          "matchId": 510123182,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:32:36.000Z",
+          "dur": 1622,
+          "opponents": [
+            {
+              "profileId": 1427995,
+              "name": "MacGyver  (RubenS)"
+            },
+            {
+              "profileId": 1756230,
+              "name": "*"
+            },
+            {
+              "profileId": 16708473,
+              "name": "CNZS_carlar"
+            },
+            {
+              "profileId": 285475,
+              "name": "Rido"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1950478,
+              "name": "\u5c0f\u5976\u72d7"
+            },
+            {
+              "profileId": 2099547,
+              "name": "\u864e\u6230"
+            },
+            {
+              "profileId": 22631499,
+              "name": "\u8396\u92fc\u72fc"
+            }
+          ]
+        },
+        {
+          "matchId": 510116848,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:57:52.000Z",
+          "dur": 2122,
+          "opponents": [
+            {
+              "profileId": 451383,
+              "name": "Sageata"
+            },
+            {
+              "profileId": 892527,
+              "name": "Blawckdown"
+            },
+            {
+              "profileId": 1630594,
+              "name": "LArcadia49"
+            },
+            {
+              "profileId": 9359856,
+              "name": "Angel7255"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1564527,
+              "name": "Alarich1000"
+            },
+            {
+              "profileId": 20870204,
+              "name": "Axie"
+            },
+            {
+              "profileId": 24159953,
+              "name": "3345678"
+            }
+          ]
+        },
+        {
+          "matchId": 510112132,
+          "civ": "Teutons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:31:17.000Z",
+          "dur": 1451,
+          "opponents": [
+            {
+              "profileId": 24009641,
+              "name": "SANCHES"
+            },
+            {
+              "profileId": 5642846,
+              "name": "SuperDomeDome"
+            },
+            {
+              "profileId": 11018970,
+              "name": "Filip_jede_Meso"
+            },
+            {
+              "profileId": 22692567,
+              "name": "TawdryCorn6602"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3057641,
+              "name": "pyjalal"
+            },
+            {
+              "profileId": 15275703,
+              "name": "Detective TOIR"
+            },
+            {
+              "profileId": 21068011,
+              "name": "2204528"
+            }
+          ]
+        },
+        {
+          "matchId": 509882916,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:30:30.000Z",
+          "dur": 3326,
+          "opponents": [
+            {
+              "profileId": 293934,
+              "name": "koyomi"
+            },
+            {
+              "profileId": 22457903,
+              "name": "xiexieBB"
+            },
+            {
+              "profileId": 3064577,
+              "name": "Gaody"
+            },
+            {
+              "profileId": 419478,
+              "name": "kqq"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11568583,
+              "name": "\u8001\u5916 \u6211\u4e00\u4f1a\u513f\u5854\u7206\u554a"
+            },
+            {
+              "profileId": 10427703,
+              "name": "Tobi Cariad"
+            },
+            {
+              "profileId": 5021364,
+              "name": "KZA"
+            }
+          ]
+        },
         {
           "matchId": 509295486,
           "civ": "Varangians",
@@ -5036,5 +5204,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

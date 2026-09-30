@@ -6,25 +6,178 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 839,
-        "pulledDate": "2026-09-26",
-        "latestRating": 2424,
+        "totalGames": 848,
+        "pulledDate": "2026-09-30",
+        "latestRating": 2386,
         "peakRating": 2490
       },
       "matches": [
+        {
+          "matchId": 510067273,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:29:37.000Z",
+          "dur": 789,
+          "opponents": [
+            {
+              "profileId": 1663264,
+              "name": "MattAtArms"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510064323,
+          "civ": "Cumans",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:55:57.000Z",
+          "dur": 1710,
+          "opponents": [
+            {
+              "profileId": 3562722,
+              "name": "\u5df2\u4e25\u8083\u9000\u51fa\u591a\u4eba\u5c40"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510061193,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:22:27.000Z",
+          "dur": 1222,
+          "opponents": [
+            {
+              "profileId": 2482098,
+              "name": "Faneth"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509592667,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:58:35.000Z",
+          "dur": 1878,
+          "opponents": [
+            {
+              "profileId": 3241077,
+              "name": "Hoang"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509589668,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:37:45.000Z",
+          "dur": 1045,
+          "opponents": [
+            {
+              "profileId": 3241077,
+              "name": "Hoang"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509585602,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:10:33.000Z",
+          "dur": 1506,
+          "opponents": [
+            {
+              "profileId": 3241077,
+              "name": "Hoang"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509344842,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:00:52.000Z",
+          "dur": 672,
+          "opponents": [
+            {
+              "profileId": 5632575,
+              "name": "Vodka"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509336298,
+          "civ": "Dravidians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T12:14:17.000Z",
+          "dur": 2080,
+          "opponents": [
+            {
+              "profileId": 738035,
+              "name": "Lighty"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509329748,
+          "civ": "Vikings",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T11:35:19.000Z",
+          "dur": 2205,
+          "opponents": [
+            {
+              "profileId": 5854345,
+              "name": "adduOP"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509122170,
           "civ": "Danes",
@@ -13521,7 +13674,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1241,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1936,
         "peakRating": 1962
       },
@@ -61591,5 +61744,6 @@
   },
   "country": "ro",
   "countryIcon": "\ud83c\uddf7\ud83c\uddf4",
-  "countryName": "Romania"
+  "countryName": "Romania",
+  "platform": "Steam"
 }

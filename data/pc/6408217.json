@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 147,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1170,
         "peakRating": 1170
       },
@@ -2234,12 +2234,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1005,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1180,
+        "totalGames": 1008,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1168,
         "peakRating": 1326
       },
       "matches": [
+        {
+          "matchId": 509891637,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:17:26.000Z",
+          "dur": 1592,
+          "opponents": [
+            {
+              "profileId": 4418996,
+              "name": "yanglegeyang"
+            },
+            {
+              "profileId": 4285629,
+              "name": "755583871"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4667034,
+              "name": "chilamgor"
+            }
+          ]
+        },
+        {
+          "matchId": 509886278,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:48:21.000Z",
+          "dur": 1633,
+          "opponents": [
+            {
+              "profileId": 3444829,
+              "name": "lenhhoxung"
+            },
+            {
+              "profileId": 857415,
+              "name": "OOM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4667034,
+              "name": "chilamgor"
+            }
+          ]
+        },
+        {
+          "matchId": 509882630,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:28:44.000Z",
+          "dur": 998,
+          "opponents": [
+            {
+              "profileId": 20622937,
+              "name": "Tattico87"
+            },
+            {
+              "profileId": 14958188,
+              "name": "\u6162\u5de5\u51fa\u7d30\u6d3b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4667034,
+              "name": "chilamgor"
+            }
+          ]
+        },
         {
           "matchId": 508439418,
           "civ": "Koreans",
@@ -23095,5 +23173,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

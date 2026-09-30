@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 128,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 941,
         "peakRating": 1037
       },
@@ -2077,12 +2077,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1160,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1182,
+        "totalGames": 1163,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1138,
         "peakRating": 1219
       },
       "matches": [
+        {
+          "matchId": 509728964,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:40:01.000Z",
+          "dur": 2058,
+          "opponents": [
+            {
+              "profileId": 18920954,
+              "name": "Nemo"
+            },
+            {
+              "profileId": 4619996,
+              "name": "Fiery Dwarf"
+            },
+            {
+              "profileId": 15060274,
+              "name": "roman.gringo"
+            },
+            {
+              "profileId": 22996322,
+              "name": "Wst2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 268122,
+              "name": "DschingisKahl"
+            },
+            {
+              "profileId": 2656200,
+              "name": "Est.in1974"
+            },
+            {
+              "profileId": 3556649,
+              "name": "Tormentor"
+            }
+          ]
+        },
+        {
+          "matchId": 509720540,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:06:12.000Z",
+          "dur": 1710,
+          "opponents": [
+            {
+              "profileId": 2657501,
+              "name": "PumAge | Mr.9988"
+            },
+            {
+              "profileId": 2308203,
+              "name": "PumAge | carlomagno"
+            },
+            {
+              "profileId": 576329,
+              "name": "PumAge | kibghostt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1183399,
+              "name": "cris"
+            },
+            {
+              "profileId": 2074522,
+              "name": "Muffin"
+            }
+          ]
+        },
+        {
+          "matchId": 509714984,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:45:12.000Z",
+          "dur": 1642,
+          "opponents": [
+            {
+              "profileId": 238208,
+              "name": "Apoillinaire"
+            },
+            {
+              "profileId": 1069822,
+              "name": "Squall"
+            },
+            {
+              "profileId": 1573664,
+              "name": "Arkanosis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 986274,
+              "name": "Mumei"
+            },
+            {
+              "profileId": 3203837,
+              "name": "Iced0ux"
+            }
+          ]
+        },
         {
           "matchId": 500180032,
           "civ": "Romans",
@@ -40112,5 +40222,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

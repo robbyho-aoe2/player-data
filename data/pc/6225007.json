@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 305,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1118,
         "peakRating": 1141
       },
@@ -4909,12 +4909,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3312,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1575,
+        "totalGames": 3314,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1548,
         "peakRating": 1648
       },
       "matches": [
+        {
+          "matchId": 510226394,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:00:10.000Z",
+          "dur": 1115,
+          "opponents": [
+            {
+              "profileId": 23523386,
+              "name": "PorT_Strat"
+            },
+            {
+              "profileId": 1099922,
+              "name": "PoopMaster"
+            },
+            {
+              "profileId": 1497242,
+              "name": "Savitar_pt"
+            },
+            {
+              "profileId": 5684503,
+              "name": "The Bloody-Nine"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1973786,
+              "name": "Macielinho"
+            },
+            {
+              "profileId": 4548273,
+              "name": "hK | Agt. Smith"
+            },
+            {
+              "profileId": 5607335,
+              "name": "HK | El Chairo"
+            }
+          ]
+        },
+        {
+          "matchId": 510220659,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:24:30.000Z",
+          "dur": 1964,
+          "opponents": [
+            {
+              "profileId": 25205376,
+              "name": "lalalalala"
+            },
+            {
+              "profileId": 498661,
+              "name": "USTA"
+            },
+            {
+              "profileId": 446650,
+              "name": "PIKACHU"
+            },
+            {
+              "profileId": 215034,
+              "name": "Ku\u015f Bilge"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 268076,
+              "name": "hK | Santo"
+            },
+            {
+              "profileId": 5607335,
+              "name": "HK | El Chairo"
+            },
+            {
+              "profileId": 4548273,
+              "name": "hK | Agt. Smith"
+            }
+          ]
+        },
         {
           "matchId": 508573277,
           "civ": "Byzantines",
@@ -137174,5 +137258,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

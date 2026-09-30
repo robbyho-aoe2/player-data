@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1624,
         "peakRating": 1675
       },
@@ -333,12 +333,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 39,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1694,
+        "totalGames": 42,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1688,
         "peakRating": 1713
       },
       "matches": [
+        {
+          "matchId": 509969014,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:34:28.000Z",
+          "dur": 794,
+          "opponents": [
+            {
+              "profileId": 10355525,
+              "name": "C\u00e9sar UAM"
+            },
+            {
+              "profileId": 23922700,
+              "name": "quesarito"
+            },
+            {
+              "profileId": 785630,
+              "name": "EL MAYA"
+            },
+            {
+              "profileId": 792155,
+              "name": "Paco Gerte Alrato"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4401192,
+              "name": "Simonz"
+            },
+            {
+              "profileId": 11846703,
+              "name": "Bedrich"
+            },
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            }
+          ]
+        },
+        {
+          "matchId": 509965753,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:17:14.000Z",
+          "dur": 815,
+          "opponents": [
+            {
+              "profileId": 20073428,
+              "name": "[LCDR] ScOrPiOn II"
+            },
+            {
+              "profileId": 1629889,
+              "name": "Alive"
+            },
+            {
+              "profileId": 4205602,
+              "name": "[LCDR]Zuru"
+            },
+            {
+              "profileId": 16886097,
+              "name": "[LCDR] Alone"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            },
+            {
+              "profileId": 4401192,
+              "name": "Simonz"
+            },
+            {
+              "profileId": 11846703,
+              "name": "Bedrich"
+            }
+          ]
+        },
+        {
+          "matchId": 509964088,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:09:04.000Z",
+          "dur": 87,
+          "opponents": [
+            {
+              "profileId": 271759,
+              "name": "WonderHD11"
+            },
+            {
+              "profileId": 547644,
+              "name": "number5"
+            },
+            {
+              "profileId": 25382471,
+              "name": "FROSTMODEL"
+            },
+            {
+              "profileId": 9407785,
+              "name": "Remo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2134583,
+              "name": "alesh"
+            },
+            {
+              "profileId": 4401192,
+              "name": "Simonz"
+            },
+            {
+              "profileId": 11846703,
+              "name": "Bedrich"
+            }
+          ]
+        },
         {
           "matchId": 509172870,
           "civ": "Romans",
@@ -1833,5 +1959,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

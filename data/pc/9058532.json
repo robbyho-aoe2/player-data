@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 114,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1611,
         "peakRating": 1611
       },
@@ -1853,12 +1853,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2285,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1518,
+        "totalGames": 2289,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1485,
         "peakRating": 1568
       },
       "matches": [
+        {
+          "matchId": 509815911,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:58:58.000Z",
+          "dur": 890,
+          "opponents": [
+            {
+              "profileId": 18725512,
+              "name": "AxD | Cad Bane"
+            },
+            {
+              "profileId": 6419082,
+              "name": "AxD | Keiokenkun-Uno-Puro"
+            },
+            {
+              "profileId": 9492113,
+              "name": "AxD | Kurumi 002"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 282529,
+              "name": "Chipmunk"
+            },
+            {
+              "profileId": 10592465,
+              "name": "PickledCabbage"
+            }
+          ]
+        },
+        {
+          "matchId": 509812009,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:25:50.000Z",
+          "dur": 1900,
+          "opponents": [
+            {
+              "profileId": 222339,
+              "name": "LvSP | DeathThunder"
+            },
+            {
+              "profileId": 5451658,
+              "name": "LvSP| SteveAnd"
+            },
+            {
+              "profileId": 1234388,
+              "name": "LvSP | cePeD"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 282529,
+              "name": "Chipmunk"
+            },
+            {
+              "profileId": 10592465,
+              "name": "PickledCabbage"
+            }
+          ]
+        },
+        {
+          "matchId": 509808162,
+          "civ": "Japanese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:56:11.000Z",
+          "dur": 1419,
+          "opponents": [
+            {
+              "profileId": 23333352,
+              "name": "le jaguar"
+            },
+            {
+              "profileId": 18406865,
+              "name": "le ignacio"
+            },
+            {
+              "profileId": 10755739,
+              "name": "le Alexis \u00c1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10592465,
+              "name": "PickledCabbage"
+            },
+            {
+              "profileId": 282529,
+              "name": "Chipmunk"
+            }
+          ]
+        },
+        {
+          "matchId": 509804831,
+          "civ": "Gurjaras",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:30:48.000Z",
+          "dur": 1270,
+          "opponents": [
+            {
+              "profileId": 11921011,
+              "name": "GirlWonder_"
+            },
+            {
+              "profileId": 11802931,
+              "name": "jgonzalezs1507"
+            },
+            {
+              "profileId": 278576,
+              "name": "bipeng2008"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 282529,
+              "name": "Chipmunk"
+            },
+            {
+              "profileId": 10592465,
+              "name": "PickledCabbage"
+            }
+          ]
+        },
         {
           "matchId": 509223163,
           "civ": "Maya",
@@ -64337,5 +64473,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

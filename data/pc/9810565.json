@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 230,
-        "pulledDate": "2026-09-10",
-        "latestRating": 515,
+        "totalGames": 234,
+        "pulledDate": "2026-09-30",
+        "latestRating": 551,
         "peakRating": 845
       },
       "matches": [
+        {
+          "matchId": 510260424,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:33:18.000Z",
+          "dur": 1382,
+          "opponents": [
+            {
+              "profileId": 25594431,
+              "name": "samuelssonjonte"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510254341,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T05:28:39.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 20138739,
+              "name": "Facundo Cabral"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510253232,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T05:17:14.000Z",
+          "dur": 572,
+          "opponents": [
+            {
+              "profileId": 22774496,
+              "name": "Warco26"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510213131,
+          "civ": "Danes",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:36:52.000Z",
+          "dur": 1198,
+          "opponents": [
+            {
+              "profileId": 4148971,
+              "name": "ibarracordovadiego"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503345974,
           "civ": "Mongols",
@@ -3710,7 +3778,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 727,
         "peakRating": 727
       },
@@ -3970,5 +4038,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

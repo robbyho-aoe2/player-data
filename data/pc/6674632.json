@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1209
       },
       "matches": [
@@ -156,12 +156,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 311,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1177,
+        "totalGames": 314,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1193,
         "peakRating": 1266
       },
       "matches": [
+        {
+          "matchId": 509652271,
+          "civ": "Romans",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:41:28.000Z",
+          "dur": 991,
+          "opponents": [
+            {
+              "profileId": 5884896,
+              "name": "s m i f f y"
+            },
+            {
+              "profileId": 5625230,
+              "name": "MehTy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5586888,
+              "name": "Faraday"
+            }
+          ]
+        },
+        {
+          "matchId": 509643812,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:07:37.000Z",
+          "dur": 1834,
+          "opponents": [
+            {
+              "profileId": 6911690,
+              "name": "Naruto"
+            },
+            {
+              "profileId": 3914073,
+              "name": "Lollzz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5586888,
+              "name": "Faraday"
+            }
+          ]
+        },
+        {
+          "matchId": 509634762,
+          "civ": "Romans",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:31:14.000Z",
+          "dur": 1951,
+          "opponents": [
+            {
+              "profileId": 21185871,
+              "name": "w.tataieee"
+            },
+            {
+              "profileId": 147895,
+              "name": "JuLi4n00"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5586888,
+              "name": "Faraday"
+            }
+          ]
+        },
         {
           "matchId": 509148330,
           "civ": "Romans",
@@ -8837,5 +8915,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

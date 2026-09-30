@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 63,
-        "pulledDate": "2026-09-26",
-        "latestRating": 828,
+        "totalGames": 67,
+        "pulledDate": "2026-09-30",
+        "latestRating": 866,
         "peakRating": 877
       },
       "matches": [
+        {
+          "matchId": 510070000,
+          "civ": "Cumans",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:56:59.000Z",
+          "dur": 1749,
+          "opponents": [
+            {
+              "profileId": 2262588,
+              "name": "Jelleth_"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509952963,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:14:27.000Z",
+          "dur": 1844,
+          "opponents": [
+            {
+              "profileId": 4602215,
+              "name": "gabymarco09"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509904973,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:27:53.000Z",
+          "dur": 3400,
+          "opponents": [
+            {
+              "profileId": 24255706,
+              "name": "gvvugts93"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509904708,
+          "civ": "Cumans",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:26:00.000Z",
+          "dur": 11,
+          "opponents": [
+            {
+              "profileId": 22951338,
+              "name": "RobotGodzillaman"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509148133,
           "civ": "Danes",
@@ -1101,12 +1169,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     }
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

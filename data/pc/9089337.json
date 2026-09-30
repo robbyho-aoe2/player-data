@@ -6,32 +6,100 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 73,
-        "pulledDate": "2026-09-14",
-        "latestRating": 613,
+        "totalGames": 75,
+        "pulledDate": "2026-09-30",
+        "latestRating": 646,
         "peakRating": 867
       },
       "matches": [
+        {
+          "matchId": 509465174,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:46:08.000Z",
+          "dur": 3152,
+          "opponents": [
+            {
+              "profileId": 22833671,
+              "name": "davidquiroz302"
+            },
+            {
+              "profileId": 25445267,
+              "name": "nejmi0"
+            },
+            {
+              "profileId": 21770518,
+              "name": "carlosmar3s"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2022058,
+              "name": "Los Pepes"
+            },
+            {
+              "profileId": 8531326,
+              "name": "TeamLeo55"
+            }
+          ]
+        },
+        {
+          "matchId": 509444013,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:14:39.000Z",
+          "dur": 4810,
+          "opponents": [
+            {
+              "profileId": 26041057,
+              "name": "Kenshin Brown"
+            },
+            {
+              "profileId": 26070122,
+              "name": "Smada0702"
+            },
+            {
+              "profileId": 5003161,
+              "name": "EL Loodo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2022058,
+              "name": "Los Pepes"
+            },
+            {
+              "profileId": 8531326,
+              "name": "TeamLeo55"
+            }
+          ]
+        },
         {
           "matchId": 506484535,
           "civ": "Franks",
@@ -2970,5 +3038,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

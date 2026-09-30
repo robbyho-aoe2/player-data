@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 181,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 709,
         "peakRating": 742
       },
@@ -2925,12 +2925,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2425,
-        "pulledDate": "2026-09-22",
-        "latestRating": 761,
+        "totalGames": 2429,
+        "pulledDate": "2026-09-30",
+        "latestRating": 727,
         "peakRating": 977
       },
       "matches": [
+        {
+          "matchId": 509806011,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:39:46.000Z",
+          "dur": 1488,
+          "opponents": [
+            {
+              "profileId": 25336323,
+              "name": "EnigmA"
+            },
+            {
+              "profileId": 25599554,
+              "name": "unstable"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10119553,
+              "name": "Yiz\u00fasA"
+            }
+          ]
+        },
+        {
+          "matchId": 509759237,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:06:33.000Z",
+          "dur": 1926,
+          "opponents": [
+            {
+              "profileId": 24251048,
+              "name": "colossal_nutz91"
+            },
+            {
+              "profileId": 24319022,
+              "name": "Elsabrielle"
+            },
+            {
+              "profileId": 24459438,
+              "name": "BlacKHazE."
+            },
+            {
+              "profileId": 2331216,
+              "name": "Tolo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2438815,
+              "name": "Rat Meat Pizza"
+            },
+            {
+              "profileId": 3337881,
+              "name": "reality"
+            },
+            {
+              "profileId": 20381546,
+              "name": "evairdaniel"
+            }
+          ]
+        },
+        {
+          "matchId": 509756003,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:47:47.000Z",
+          "dur": 996,
+          "opponents": [
+            {
+              "profileId": 20395072,
+              "name": "Defender777"
+            },
+            {
+              "profileId": 17364544,
+              "name": "Mauro Aurelio"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25960423,
+              "name": "AVECHRISTUSREX"
+            }
+          ]
+        },
+        {
+          "matchId": 509751536,
+          "civ": "Cumans",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:24:44.000Z",
+          "dur": 2724,
+          "opponents": [
+            {
+              "profileId": 5699327,
+              "name": "GipfelTuch"
+            },
+            {
+              "profileId": 930423,
+              "name": "Tomzi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5939961,
+              "name": "Raidho"
+            }
+          ]
+        },
         {
           "matchId": 507885378,
           "civ": "Huns",
@@ -77604,5 +77724,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 641,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1157,
         "peakRating": 1302
       },
@@ -5798,12 +5798,190 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 857,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1208,
+        "totalGames": 862,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1211,
         "peakRating": 1318
       },
       "matches": [
+        {
+          "matchId": 510232786,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:38:16.000Z",
+          "dur": 1747,
+          "opponents": [
+            {
+              "profileId": 818848,
+              "name": "Gordi"
+            },
+            {
+              "profileId": 774475,
+              "name": "Sir K"
+            },
+            {
+              "profileId": 452161,
+              "name": "Gian"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5233833,
+              "name": "Gas"
+            },
+            {
+              "profileId": 2083898,
+              "name": "El loro"
+            }
+          ]
+        },
+        {
+          "matchId": 509817174,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:10:23.000Z",
+          "dur": 2416,
+          "opponents": [
+            {
+              "profileId": 15318859,
+              "name": "\u964c\u964c\u4f3d"
+            },
+            {
+              "profileId": 25195420,
+              "name": "\u5c0f\u5929"
+            },
+            {
+              "profileId": 25191072,
+              "name": "\u7c73\u5fb7\u7ef4\u5947\u5c0f\u5b66\u526f\u6821\u957f"
+            },
+            {
+              "profileId": 25194641,
+              "name": "Grumpy bunny"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 294591,
+              "name": "chillysloth"
+            },
+            {
+              "profileId": 2184036,
+              "name": "xblxavier"
+            },
+            {
+              "profileId": 11037435,
+              "name": "El Cachorro"
+            }
+          ]
+        },
+        {
+          "matchId": 509805122,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:33:31.000Z",
+          "dur": 1046,
+          "opponents": [
+            {
+              "profileId": 7547639,
+              "name": "Execute290"
+            },
+            {
+              "profileId": 3096960,
+              "name": "El rayo Mcuin"
+            },
+            {
+              "profileId": 295824,
+              "name": "Dipsy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 318936,
+              "name": "ray_quazaa"
+            },
+            {
+              "profileId": 1400944,
+              "name": "mazerr88"
+            }
+          ]
+        },
+        {
+          "matchId": 509799766,
+          "civ": "Saracens",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:56:41.000Z",
+          "dur": 2022,
+          "opponents": [
+            {
+              "profileId": 890404,
+              "name": "dlyons"
+            },
+            {
+              "profileId": 23629089,
+              "name": "DiceFever"
+            },
+            {
+              "profileId": 20242054,
+              "name": "BP MonoSimon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 318936,
+              "name": "ray_quazaa"
+            },
+            {
+              "profileId": 1400944,
+              "name": "mazerr88"
+            }
+          ]
+        },
+        {
+          "matchId": 509446243,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:24:39.000Z",
+          "dur": 1606,
+          "opponents": [
+            {
+              "profileId": 3297207,
+              "name": "DT.Bilardo"
+            },
+            {
+              "profileId": 4066862,
+              "name": "Jefe ToroFumado"
+            },
+            {
+              "profileId": 10501923,
+              "name": "Capiango2.0"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3981768,
+              "name": "artemjunior"
+            },
+            {
+              "profileId": 6917607,
+              "name": "Jim_Raynor"
+            }
+          ]
+        },
         {
           "matchId": 509240321,
           "civ": "Maya",
@@ -14497,5 +14675,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

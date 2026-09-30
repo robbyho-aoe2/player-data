@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 170,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1128,
         "peakRating": 1191
       },
@@ -2919,12 +2919,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 55,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1132,
+        "totalGames": 56,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1119,
         "peakRating": 1179
       },
       "matches": [
+        {
+          "matchId": 509721011,
+          "civ": "Hindustanis",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:07:52.000Z",
+          "dur": 1644,
+          "opponents": [
+            {
+              "profileId": 22162602,
+              "name": "GaloDoido"
+            },
+            {
+              "profileId": 106070,
+              "name": "Chelsea Smile"
+            },
+            {
+              "profileId": 3141294,
+              "name": "King Helmet"
+            },
+            {
+              "profileId": 5796747,
+              "name": "follow the white rabbit \u0394"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1470010,
+              "name": "KKUSH-PANIER"
+            },
+            {
+              "profileId": 2779420,
+              "name": "toul35"
+            },
+            {
+              "profileId": 15105302,
+              "name": "math-hbcn"
+            }
+          ]
+        },
         {
           "matchId": 477623636,
           "civ": "Sicilians",
@@ -4816,5 +4858,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

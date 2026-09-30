@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 227,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1278,
-        "peakRating": 1278
+        "totalGames": 228,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1295,
+        "peakRating": 1295
       },
       "matches": [
+        {
+          "matchId": 510088016,
+          "civ": "Japanese",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:14:50.000Z",
+          "dur": 684,
+          "opponents": [
+            {
+              "profileId": 2686050,
+              "name": "\u964c\u751f\u856d"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504035512,
           "civ": "Shu",
@@ -3663,7 +3680,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1287,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-09-30",
         "latestRating": 1204,
         "peakRating": 1288
       },
@@ -41987,5 +42004,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

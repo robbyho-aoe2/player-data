@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1821,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1098,
+        "totalGames": 1823,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1134,
         "peakRating": 1347
       },
       "matches": [
+        {
+          "matchId": 509765089,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:38:28.000Z",
+          "dur": 342,
+          "opponents": [
+            {
+              "profileId": 11625483,
+              "name": "arba"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509698419,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:44:14.000Z",
+          "dur": 1489,
+          "opponents": [
+            {
+              "profileId": 457320,
+              "name": "LarsIngo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507682535,
           "civ": "Britons",
@@ -29170,7 +29204,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 61,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-30",
         "latestRating": 939,
         "peakRating": 1028
       },
@@ -30713,5 +30747,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

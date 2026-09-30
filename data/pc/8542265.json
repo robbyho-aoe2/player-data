@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 104,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1102,
         "peakRating": 1205
       },
@@ -965,12 +965,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1605,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1255,
+        "totalGames": 1608,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1236,
         "peakRating": 1338
       },
       "matches": [
+        {
+          "matchId": 510231317,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:28:45.000Z",
+          "dur": 2858,
+          "opponents": [
+            {
+              "profileId": 1061243,
+              "name": "Vinago"
+            },
+            {
+              "profileId": 2439895,
+              "name": "Patt"
+            },
+            {
+              "profileId": 2771289,
+              "name": "ManCoVsky"
+            },
+            {
+              "profileId": 9996766,
+              "name": "\u272e\uff30\uff32\uff29\uff2e\uff23\uff25\u272e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25324882,
+              "name": "xygogo"
+            },
+            {
+              "profileId": 6226531,
+              "name": "HuynhSon"
+            },
+            {
+              "profileId": 9694777,
+              "name": "gloorfindel"
+            }
+          ]
+        },
+        {
+          "matchId": 510226281,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:59:26.000Z",
+          "dur": 1561,
+          "opponents": [
+            {
+              "profileId": 4277657,
+              "name": "Angelo"
+            },
+            {
+              "profileId": 25080007,
+              "name": "_StuNNa_"
+            },
+            {
+              "profileId": 23515619,
+              "name": "CTM | Kiara"
+            },
+            {
+              "profileId": 25371413,
+              "name": "\u6211\u6709\u4f4e\u4fdd\u6211\u5148\u4e0a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9694777,
+              "name": "gloorfindel"
+            },
+            {
+              "profileId": 5135023,
+              "name": "Bombad Gastald"
+            },
+            {
+              "profileId": 73843,
+              "name": "AiM | Khaz"
+            }
+          ]
+        },
+        {
+          "matchId": 510221022,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:26:41.000Z",
+          "dur": 1843,
+          "opponents": [
+            {
+              "profileId": 507224,
+              "name": "Lord_Sipo"
+            },
+            {
+              "profileId": 17020662,
+              "name": "Macumba"
+            },
+            {
+              "profileId": 5859870,
+              "name": "Lord_Siul"
+            },
+            {
+              "profileId": 3303333,
+              "name": "Lord_Ermack"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15751227,
+              "name": "will_evans"
+            },
+            {
+              "profileId": 9694777,
+              "name": "gloorfindel"
+            },
+            {
+              "profileId": 2754582,
+              "name": "Feijao"
+            }
+          ]
+        },
         {
           "matchId": 509241655,
           "civ": "Ethiopians",
@@ -16787,5 +16913,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

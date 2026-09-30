@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 39,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1101,
-        "peakRating": 1101
+        "totalGames": 42,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1083,
+        "peakRating": 1116
       },
       "matches": [
+        {
+          "matchId": 509841590,
+          "civ": "Lithuanians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:26:43.000Z",
+          "dur": 2831,
+          "opponents": [
+            {
+              "profileId": 3951184,
+              "name": "JoeRicson"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509567105,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:02:04.000Z",
+          "dur": 1268,
+          "opponents": [
+            {
+              "profileId": 15104510,
+              "name": "iDNwl"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509308201,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T09:02:48.000Z",
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 6476395,
+              "name": "kischde"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509271385,
           "civ": "Lithuanians",
@@ -692,12 +743,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 327,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1479,
+        "totalGames": 328,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1461,
         "peakRating": 1536
       },
       "matches": [
+        {
+          "matchId": 509891667,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:17:38.000Z",
+          "dur": 3139,
+          "opponents": [
+            {
+              "profileId": 48892,
+              "name": "argum"
+            },
+            {
+              "profileId": 192768,
+              "name": "Steven S Lee"
+            },
+            {
+              "profileId": 4726584,
+              "name": "Fred's real son"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8970135,
+              "name": "Papillon"
+            },
+            {
+              "profileId": 1863797,
+              "name": "\u6211\u4e00\u65e5\u4e09\u5341\u5206\u5bdd\u7537"
+            }
+          ]
+        },
         {
           "matchId": 508262096,
           "civ": "Poles",
@@ -13845,5 +13930,6 @@
   },
   "country": "jp",
   "countryIcon": "\ud83c\uddef\ud83c\uddf5",
-  "countryName": "Japan"
+  "countryName": "Japan",
+  "platform": "Steam"
 }

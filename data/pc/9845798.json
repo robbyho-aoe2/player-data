@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 467,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1072,
+        "totalGames": 468,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1057,
         "peakRating": 1159
       },
       "matches": [
+        {
+          "matchId": 509616611,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:11:54.000Z",
+          "dur": 1295,
+          "opponents": [
+            {
+              "profileId": 22363701,
+              "name": "Amarello"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508942589,
           "civ": "Gurjaras",
@@ -7506,12 +7523,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 141,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1184,
+        "totalGames": 142,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1198,
         "peakRating": 1216
       },
       "matches": [
+        {
+          "matchId": 509621787,
+          "civ": "Britons",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:35:56.000Z",
+          "dur": 2679,
+          "opponents": [
+            {
+              "profileId": 9516471,
+              "name": "Mikaosaure"
+            },
+            {
+              "profileId": 18617159,
+              "name": "HemoGoblin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25329628,
+              "name": "ageofcardiff"
+            }
+          ]
+        },
         {
           "matchId": 505706837,
           "civ": "Incas",
@@ -11227,5 +11270,6 @@
   },
   "country": "at",
   "countryIcon": "\ud83c\udde6\ud83c\uddf9",
-  "countryName": "Austria"
+  "countryName": "Austria",
+  "platform": "Steam"
 }

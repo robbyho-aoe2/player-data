@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 340,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1381,
+        "totalGames": 343,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1397,
         "peakRating": 1418
       },
       "matches": [
+        {
+          "matchId": 509527218,
+          "civ": "Japanese",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:33:02.000Z",
+          "dur": 1650,
+          "opponents": [
+            {
+              "profileId": 3214231,
+              "name": "[ECU] Michael"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509502073,
+          "civ": "Mongols",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:13:04.000Z",
+          "dur": 1910,
+          "opponents": [
+            {
+              "profileId": 21993670,
+              "name": "Noobis"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509384106,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:57:56.000Z",
+          "dur": 1630,
+          "opponents": [
+            {
+              "profileId": 2067444,
+              "name": "Crislof"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509247919,
           "civ": "Incas",
@@ -5809,12 +5860,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 167,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1320,
+        "totalGames": 168,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1304,
         "peakRating": 1320
       },
       "matches": [
+        {
+          "matchId": 509499078,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:55:57.000Z",
+          "dur": 1102,
+          "opponents": [
+            {
+              "profileId": 5428240,
+              "name": "Kirintor"
+            },
+            {
+              "profileId": 2279081,
+              "name": "Julio_15"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6196744,
+              "name": "Bamboozlator"
+            }
+          ]
+        },
         {
           "matchId": 509268054,
           "civ": "Britons",
@@ -11674,5 +11751,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

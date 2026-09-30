@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 352,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1048,
+        "totalGames": 356,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1016,
         "peakRating": 1134
       },
       "matches": [
+        {
+          "matchId": 510169242,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:13:36.000Z",
+          "dur": 866,
+          "opponents": [
+            {
+              "profileId": 20678525,
+              "name": "frannSaS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510162705,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:43:27.000Z",
+          "dur": 1742,
+          "opponents": [
+            {
+              "profileId": 17787627,
+              "name": "celisbarsa"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510154537,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:06:49.000Z",
+          "dur": 2077,
+          "opponents": [
+            {
+              "profileId": 15346817,
+              "name": "[SotC] Tupamaro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510152021,
+          "civ": "Lithuanians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:56:05.000Z",
+          "dur": 581,
+          "opponents": [
+            {
+              "profileId": 1375250,
+              "name": "The Imperial Age"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509177880,
           "civ": "Lithuanians",
@@ -6014,7 +6082,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 926,
         "peakRating": 926
       },
@@ -6308,5 +6376,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 306,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 639,
         "peakRating": 768
       },
@@ -4925,12 +4925,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1332,
-        "pulledDate": "2026-09-26",
-        "latestRating": 739,
+        "totalGames": 1336,
+        "pulledDate": "2026-09-30",
+        "latestRating": 709,
         "peakRating": 967
       },
       "matches": [
+        {
+          "matchId": 510133899,
+          "civ": "Portuguese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:29:44.000Z",
+          "dur": 3008,
+          "opponents": [
+            {
+              "profileId": 1238725,
+              "name": "PIGGA"
+            },
+            {
+              "profileId": 25692635,
+              "name": "AYW"
+            },
+            {
+              "profileId": 11942589,
+              "name": "\u5317\u98ce"
+            },
+            {
+              "profileId": 21264676,
+              "name": "only1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24931287,
+              "name": "Miccit88"
+            },
+            {
+              "profileId": 3131641,
+              "name": "Danhowser"
+            },
+            {
+              "profileId": 12137375,
+              "name": "ALVICEN"
+            }
+          ]
+        },
+        {
+          "matchId": 509625603,
+          "civ": "Italians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:52:54.000Z",
+          "dur": 2565,
+          "opponents": [
+            {
+              "profileId": 536124,
+              "name": "\u539f\u5382\u91ce\u751f\u72d7\u5976"
+            },
+            {
+              "profileId": 5099941,
+              "name": "00110110"
+            },
+            {
+              "profileId": 8437850,
+              "name": "CHIP"
+            },
+            {
+              "profileId": 12456044,
+              "name": "DuceDubz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1703437,
+              "name": "ChewedGizmo"
+            },
+            {
+              "profileId": 8758313,
+              "name": "1250516120"
+            },
+            {
+              "profileId": 21391545,
+              "name": "ANCORA"
+            }
+          ]
+        },
+        {
+          "matchId": 509345253,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:03:47.000Z",
+          "dur": 2175,
+          "opponents": [
+            {
+              "profileId": 25663860,
+              "name": "Whth"
+            },
+            {
+              "profileId": 3593972,
+              "name": "Zielonidas"
+            },
+            {
+              "profileId": 12166734,
+              "name": "\u4e0d\u52d5\u6e38\u661f"
+            },
+            {
+              "profileId": 20772684,
+              "name": "AUFSTAND"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2207493,
+              "name": "bensigvald"
+            },
+            {
+              "profileId": 4466065,
+              "name": "Atzelander"
+            },
+            {
+              "profileId": 11722178,
+              "name": "A11Wolv3rin3"
+            }
+          ]
+        },
+        {
+          "matchId": 509324053,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T10:57:15.000Z",
+          "dur": 271,
+          "opponents": [
+            {
+              "profileId": 15639705,
+              "name": "noob"
+            },
+            {
+              "profileId": 17045350,
+              "name": "\u4f11\u95f2\u6d77"
+            },
+            {
+              "profileId": 20693838,
+              "name": "oncemore"
+            },
+            {
+              "profileId": 25634877,
+              "name": "\u661f\u6cb3\u8239\u6cca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2007805,
+              "name": "Ana Catalina"
+            },
+            {
+              "profileId": 17328209,
+              "name": "zakor"
+            },
+            {
+              "profileId": 22964399,
+              "name": "Luciano24cm"
+            }
+          ]
+        },
         {
           "matchId": 509160194,
           "civ": "Italians",
@@ -58770,5 +58938,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

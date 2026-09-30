@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1154,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1285,
         "peakRating": 1388
       },
@@ -18493,12 +18493,190 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 461,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1138,
+        "totalGames": 466,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1184,
         "peakRating": 1303
       },
       "matches": [
+        {
+          "matchId": 509729063,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:40:24.000Z",
+          "dur": 2177,
+          "opponents": [
+            {
+              "profileId": 8764755,
+              "name": "Natty_Longshanks"
+            },
+            {
+              "profileId": 10965124,
+              "name": "Alex"
+            },
+            {
+              "profileId": 1470010,
+              "name": "KKUSH-PANIER"
+            },
+            {
+              "profileId": 2891259,
+              "name": "GranateCampe\u00f3n"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15598337,
+              "name": "pain"
+            },
+            {
+              "profileId": 11956059,
+              "name": "santiagogp2093"
+            },
+            {
+              "profileId": 4884388,
+              "name": "tHeDesiRe"
+            }
+          ]
+        },
+        {
+          "matchId": 509719676,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:02:45.000Z",
+          "dur": 1975,
+          "opponents": [
+            {
+              "profileId": 5373208,
+              "name": "siemionides"
+            },
+            {
+              "profileId": 4229565,
+              "name": "gipsu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2086890,
+              "name": "Deilos"
+            }
+          ]
+        },
+        {
+          "matchId": 509712281,
+          "civ": "Tatars",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:35:11.000Z",
+          "dur": 1433,
+          "opponents": [
+            {
+              "profileId": 11826357,
+              "name": "24601"
+            },
+            {
+              "profileId": 15466751,
+              "name": "Murkeldjuret. \u00ae"
+            },
+            {
+              "profileId": 15613827,
+              "name": "Murmeldjuret. \u00ae"
+            },
+            {
+              "profileId": 11770406,
+              "name": "MacDaThox"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2363834,
+              "name": "Jester"
+            },
+            {
+              "profileId": 548166,
+              "name": "Sozen"
+            },
+            {
+              "profileId": 1350429,
+              "name": "Karnack1748"
+            }
+          ]
+        },
+        {
+          "matchId": 509456476,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:07:06.000Z",
+          "dur": 1921,
+          "opponents": [
+            {
+              "profileId": 2761699,
+              "name": "LRNI_Thegar"
+            },
+            {
+              "profileId": 25615761,
+              "name": "LRNI Michel"
+            },
+            {
+              "profileId": 24593592,
+              "name": "LRN1_HunterAllen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2086890,
+              "name": "Deilos"
+            },
+            {
+              "profileId": 15604683,
+              "name": "Becquer"
+            }
+          ]
+        },
+        {
+          "matchId": 509448519,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:33:30.000Z",
+          "dur": 1825,
+          "opponents": [
+            {
+              "profileId": 18277308,
+              "name": "Lirikko"
+            },
+            {
+              "profileId": 15117044,
+              "name": "DYNB || deivyneusa616"
+            },
+            {
+              "profileId": 467375,
+              "name": "Meneiyo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25416805,
+              "name": "Hephaistos_7387"
+            },
+            {
+              "profileId": 15604683,
+              "name": "Becquer"
+            }
+          ]
+        },
         {
           "matchId": 508969063,
           "civ": "Mongols",
@@ -32405,5 +32583,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

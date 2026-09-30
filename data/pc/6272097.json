@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 53,
-        "pulledDate": "2026-09-26",
-        "latestRating": 879,
+        "totalGames": 54,
+        "pulledDate": "2026-09-30",
+        "latestRating": 896,
         "peakRating": 994
       },
       "matches": [
+        {
+          "matchId": 509601144,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:50:11.000Z",
+          "dur": 1904,
+          "opponents": [
+            {
+              "profileId": 25460570,
+              "name": "284259989"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509264994,
           "civ": "Vietnamese",
@@ -931,12 +948,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     }
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

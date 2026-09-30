@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 375,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1855,
+        "totalGames": 382,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1908,
         "peakRating": 2044
       },
       "matches": [
+        {
+          "matchId": 510246971,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T04:21:04.000Z",
+          "dur": 1178,
+          "opponents": [
+            {
+              "profileId": 24742141,
+              "name": "Sung Jinwoo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510244362,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:59:25.000Z",
+          "dur": 1229,
+          "opponents": [
+            {
+              "profileId": 24742141,
+              "name": "Sung Jinwoo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510210957,
+          "civ": "Japanese",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:22:22.000Z",
+          "dur": 3674,
+          "opponents": [
+            {
+              "profileId": 1607693,
+              "name": "shegin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510207516,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:58:44.000Z",
+          "dur": 1329,
+          "opponents": [
+            {
+              "profileId": 25071935,
+              "name": "LittleHog"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510036972,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:57:41.000Z",
+          "dur": 1426,
+          "opponents": [
+            {
+              "profileId": 2449750,
+              "name": "CUAK"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510032924,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:23:45.000Z",
+          "dur": 1829,
+          "opponents": [
+            {
+              "profileId": 2449750,
+              "name": "CUAK"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510032689,
+          "civ": "Portuguese",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:21:46.000Z",
+          "dur": 12,
+          "opponents": [
+            {
+              "profileId": 2018904,
+              "name": "The Pieman"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499006047,
           "civ": "Persians",
@@ -6405,7 +6524,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 197,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 1446,
         "peakRating": 1586
       },
@@ -14673,5 +14792,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

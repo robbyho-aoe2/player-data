@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 203,
-        "pulledDate": "2026-09-16",
-        "latestRating": 934,
+        "totalGames": 207,
+        "pulledDate": "2026-09-30",
+        "latestRating": 915,
         "peakRating": 1026
       },
       "matches": [
+        {
+          "matchId": 510266557,
+          "civ": "Sicilians",
+          "map": "Golden Pit",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T07:39:11.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 15634731,
+              "name": "TuGanzo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510264314,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T07:14:06.000Z",
+          "dur": 1465,
+          "opponents": [
+            {
+              "profileId": 5823403,
+              "name": "Enedthol"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510262685,
+          "civ": "Sicilians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:54:40.000Z",
+          "dur": 1089,
+          "opponents": [
+            {
+              "profileId": 15768068,
+              "name": "Franchesko"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510259676,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:24:25.000Z",
+          "dur": 1694,
+          "opponents": [
+            {
+              "profileId": 8903489,
+              "name": "1277765061"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505880677,
           "civ": "Spanish",
@@ -3481,12 +3549,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     }
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

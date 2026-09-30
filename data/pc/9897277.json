@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1486,
-        "pulledDate": "2026-09-17",
-        "latestRating": 1213,
+        "totalGames": 1488,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1215,
         "peakRating": 1384
       },
       "matches": [
+        {
+          "matchId": 510135450,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:37:01.000Z",
+          "dur": 1996,
+          "opponents": [
+            {
+              "profileId": 5314760,
+              "name": "ledisex"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510113998,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:40:54.000Z",
+          "dur": 1825,
+          "opponents": [
+            {
+              "profileId": 10836908,
+              "name": "fatelai1017"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507105991,
           "civ": "Georgians",
@@ -25292,7 +25326,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 155,
-        "pulledDate": "2026-09-17",
+        "pulledDate": "2026-09-30",
         "latestRating": 1294,
         "peakRating": 1333
       },
@@ -29332,5 +29366,6 @@
   },
   "country": "gr",
   "countryIcon": "\ud83c\uddec\ud83c\uddf7",
-  "countryName": "Greece"
+  "countryName": "Greece",
+  "platform": "Steam"
 }

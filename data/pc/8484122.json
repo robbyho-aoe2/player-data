@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 319,
-        "pulledDate": "2026-09-26",
-        "latestRating": 972,
+        "totalGames": 324,
+        "pulledDate": "2026-09-30",
+        "latestRating": 926,
         "peakRating": 1081
       },
       "matches": [
+        {
+          "matchId": 509826345,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T06:45:22.000Z",
+          "dur": 1149,
+          "opponents": [
+            {
+              "profileId": 24699201,
+              "name": "\u6b32\u706b\u94f6\u6cb3"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509638713,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:45:46.000Z",
+          "dur": 1014,
+          "opponents": [
+            {
+              "profileId": 22596994,
+              "name": "avatar"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509601175,
+          "civ": "Mongols",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:51:01.000Z",
+          "dur": 527,
+          "opponents": [
+            {
+              "profileId": 2350296,
+              "name": "evian"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509572601,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:42:07.000Z",
+          "dur": 1075,
+          "opponents": [
+            {
+              "profileId": 26011156,
+              "name": "chrisKnight21"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509571417,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:32:52.000Z",
+          "dur": 465,
+          "opponents": [
+            {
+              "profileId": 22179942,
+              "name": "Randl"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509285403,
           "civ": "Britons",
@@ -5453,7 +5538,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 375,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1131,
         "peakRating": 1211
       },
@@ -21125,5 +21210,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

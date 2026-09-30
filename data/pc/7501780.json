@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 284,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1306,
         "peakRating": 1383
       },
@@ -4573,12 +4573,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2265,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1272,
+        "totalGames": 2269,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1315,
         "peakRating": 1409
       },
       "matches": [
+        {
+          "matchId": 509445221,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:20:13.000Z",
+          "dur": 1711,
+          "opponents": [
+            {
+              "profileId": 513308,
+              "name": "AoR | StubbyTheAngryBeaver"
+            },
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            },
+            {
+              "profileId": 24714300,
+              "name": "db74af67"
+            },
+            {
+              "profileId": 344759,
+              "name": "DizzyLeChuck"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21651589,
+              "name": "Watermelon"
+            },
+            {
+              "profileId": 24919920,
+              "name": "[FORD]DarkHorse"
+            },
+            {
+              "profileId": 470399,
+              "name": "Thor Odinson"
+            }
+          ]
+        },
+        {
+          "matchId": 509442255,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:07:35.000Z",
+          "dur": 300,
+          "opponents": [
+            {
+              "profileId": 23786069,
+              "name": "AOE2.GG | NONO"
+            },
+            {
+              "profileId": 23488791,
+              "name": "Gunslinger"
+            },
+            {
+              "profileId": 19653826,
+              "name": "\u9ed8\u9ed8\u53d1\u80b2"
+            },
+            {
+              "profileId": 6376845,
+              "name": "kdu0687"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2550278,
+              "name": "MHT. Nahuel 047"
+            },
+            {
+              "profileId": 21651589,
+              "name": "Watermelon"
+            },
+            {
+              "profileId": 470399,
+              "name": "Thor Odinson"
+            }
+          ]
+        },
+        {
+          "matchId": 509441231,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:03:24.000Z",
+          "dur": 98,
+          "opponents": [
+            {
+              "profileId": 13282322,
+              "name": "lebron"
+            },
+            {
+              "profileId": 10980846,
+              "name": "hcenemod"
+            },
+            {
+              "profileId": 5314327,
+              "name": "Yellowping"
+            },
+            {
+              "profileId": 470399,
+              "name": "Thor Odinson"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2034462,
+              "name": "Ryzeres"
+            },
+            {
+              "profileId": 247960,
+              "name": "Saladin"
+            },
+            {
+              "profileId": 21651589,
+              "name": "Watermelon"
+            }
+          ]
+        },
+        {
+          "matchId": 509431737,
+          "civ": "Portuguese",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:23:32.000Z",
+          "dur": 1786,
+          "opponents": [
+            {
+              "profileId": 15088672,
+              "name": "abli30"
+            },
+            {
+              "profileId": 22857029,
+              "name": "BALDWIN IV"
+            },
+            {
+              "profileId": 1900477,
+              "name": "Fortune_Finder"
+            },
+            {
+              "profileId": 21585821,
+              "name": "Mr_Chucklz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24472114,
+              "name": "bkg45"
+            },
+            {
+              "profileId": 21651589,
+              "name": "Watermelon"
+            },
+            {
+              "profileId": 470399,
+              "name": "Thor Odinson"
+            }
+          ]
+        },
         {
           "matchId": 509170363,
           "civ": "Poles",
@@ -79596,5 +79764,6 @@
   },
   "country": "eg",
   "countryIcon": "\ud83c\uddea\ud83c\uddec",
-  "countryName": "Egypt"
+  "countryName": "Egypt",
+  "platform": "Steam"
 }

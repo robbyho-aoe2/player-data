@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 54,
-        "pulledDate": "2026-09-21",
-        "latestRating": 844,
+        "totalGames": 56,
+        "pulledDate": "2026-09-30",
+        "latestRating": 848,
         "peakRating": 918
       },
       "matches": [
+        {
+          "matchId": 509856370,
+          "civ": "Byzantines",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:43:42.000Z",
+          "dur": 1573,
+          "opponents": [
+            {
+              "profileId": 17021047,
+              "name": "\u6211\u4e0d\u5403\u725b\u8089"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509852711,
+          "civ": "Lithuanians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:12:17.000Z",
+          "dur": 1716,
+          "opponents": [
+            {
+              "profileId": 14831506,
+              "name": "BudgetBench6953"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506196249,
           "civ": "Mongols",
@@ -948,12 +982,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     }
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

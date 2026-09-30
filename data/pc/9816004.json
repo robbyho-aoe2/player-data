@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 207,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1223,
+        "totalGames": 210,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1209,
         "peakRating": 1238
       },
       "matches": [
+        {
+          "matchId": 510120887,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:19:14.000Z",
+          "dur": 1971,
+          "opponents": [
+            {
+              "profileId": 4066992,
+              "name": "laurent.ginat"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510115096,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:46:46.000Z",
+          "dur": 1865,
+          "opponents": [
+            {
+              "profileId": 6228738,
+              "name": "MS."
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510110749,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:23:04.000Z",
+          "dur": 1379,
+          "opponents": [
+            {
+              "profileId": 14999383,
+              "name": "Yo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509310623,
           "civ": "Burgundians",
@@ -3548,12 +3599,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 130,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1093,
+        "totalGames": 133,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1115,
         "peakRating": 1194
       },
       "matches": [
+        {
+          "matchId": 510163236,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:46:20.000Z",
+          "dur": 1489,
+          "opponents": [
+            {
+              "profileId": 2576583,
+              "name": "zeromaster"
+            },
+            {
+              "profileId": 23574452,
+              "name": "Brisa Marcos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9348971,
+              "name": "mrweissbrot"
+            }
+          ]
+        },
+        {
+          "matchId": 510155377,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:11:27.000Z",
+          "dur": 1853,
+          "opponents": [
+            {
+              "profileId": 232247,
+              "name": "szotyesz"
+            },
+            {
+              "profileId": 199690,
+              "name": "BodokoS"
+            },
+            {
+              "profileId": 5529374,
+              "name": "Mityus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10563817,
+              "name": "Revanius"
+            },
+            {
+              "profileId": 9348971,
+              "name": "mrweissbrot"
+            }
+          ]
+        },
+        {
+          "matchId": 510104572,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:49:58.000Z",
+          "dur": 1831,
+          "opponents": [
+            {
+              "profileId": 1767109,
+              "name": "konron4880"
+            },
+            {
+              "profileId": 6001543,
+              "name": "aaaaaaaaaaaaaa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18336033,
+              "name": "DENYS1815"
+            }
+          ]
+        },
         {
           "matchId": 509168943,
           "civ": "Vikings",
@@ -7651,5 +7788,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

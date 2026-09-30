@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 106,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-30",
         "latestRating": 1002,
         "peakRating": 1096
       },
@@ -1725,12 +1725,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2391,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1127,
+        "totalGames": 2392,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1109,
         "peakRating": 1315
       },
       "matches": [
+        {
+          "matchId": 509949253,
+          "civ": "Gurjaras",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:58:02.000Z",
+          "dur": 42,
+          "opponents": [
+            {
+              "profileId": 17941101,
+              "name": "EL PAJA"
+            },
+            {
+              "profileId": 9313120,
+              "name": "Coffee Break Golden"
+            },
+            {
+              "profileId": 2140609,
+              "name": "fotolithos"
+            },
+            {
+              "profileId": 1806426,
+              "name": "Artarum"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10965124,
+              "name": "Alex"
+            },
+            {
+              "profileId": 6128566,
+              "name": "\u2014\u00bb\u00ac \u00b0 \u2022 G \u00a1 \u00f8 49k  ."
+            },
+            {
+              "profileId": 3962820,
+              "name": "Bantum"
+            }
+          ]
+        },
         {
           "matchId": 507255193,
           "civ": "Mapuche",
@@ -92129,5 +92171,6 @@
   },
   "country": "ge",
   "countryIcon": "\ud83c\uddec\ud83c\uddea",
-  "countryName": "Georgia"
+  "countryName": "Georgia",
+  "platform": "Steam"
 }

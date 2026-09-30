@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-09-30",
         "latestRating": 677,
         "peakRating": 793
       },
@@ -381,12 +381,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 132,
-        "pulledDate": "2026-09-19",
-        "latestRating": 711,
+        "totalGames": 135,
+        "pulledDate": "2026-09-30",
+        "latestRating": 692,
         "peakRating": 793
       },
       "matches": [
+        {
+          "matchId": 509496223,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:39:13.000Z",
+          "dur": 3054,
+          "opponents": [
+            {
+              "profileId": 26076505,
+              "name": "maxbrinkmann95"
+            },
+            {
+              "profileId": 757902,
+              "name": "Leeroy Jenkins 2012"
+            },
+            {
+              "profileId": 21095702,
+              "name": "jorgerizek"
+            },
+            {
+              "profileId": 24697263,
+              "name": "EL THANOS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 655306,
+              "name": "[tgri]gio.ank"
+            },
+            {
+              "profileId": 8866334,
+              "name": "\u4e7e\u51c0"
+            },
+            {
+              "profileId": 10900447,
+              "name": "Z3rdn4"
+            }
+          ]
+        },
+        {
+          "matchId": 509488637,
+          "civ": "Goths",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:54:13.000Z",
+          "dur": 178,
+          "opponents": [
+            {
+              "profileId": 20266026,
+              "name": "Yogurt 501"
+            },
+            {
+              "profileId": 11940743,
+              "name": "inquicidor123"
+            },
+            {
+              "profileId": 10578046,
+              "name": "Imperial Kermit"
+            },
+            {
+              "profileId": 8289067,
+              "name": "yomamacry"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 655306,
+              "name": "[tgri]gio.ank"
+            },
+            {
+              "profileId": 20252707,
+              "name": "elnano4cchi"
+            },
+            {
+              "profileId": 14161035,
+              "name": "George_floyd"
+            }
+          ]
+        },
+        {
+          "matchId": 509480118,
+          "civ": "Goths",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:03:48.000Z",
+          "dur": 2562,
+          "opponents": [
+            {
+              "profileId": 25811910,
+              "name": "tambien ME BANEARON EN EL LOL"
+            },
+            {
+              "profileId": 25788309,
+              "name": "ME BANEARON EN EL LOL"
+            },
+            {
+              "profileId": 20252707,
+              "name": "elnano4cchi"
+            },
+            {
+              "profileId": 10602561,
+              "name": "Mushishi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25785783,
+              "name": "juliocesaracostagaytan"
+            },
+            {
+              "profileId": 17268348,
+              "name": "Dmitry Petrovich"
+            },
+            {
+              "profileId": 655306,
+              "name": "[tgri]gio.ank"
+            }
+          ]
+        },
         {
           "matchId": 507638078,
           "civ": "Persians",
@@ -5563,5 +5689,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

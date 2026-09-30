@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 60,
-        "pulledDate": "2026-09-26",
-        "latestRating": 846,
+        "totalGames": 65,
+        "pulledDate": "2026-09-30",
+        "latestRating": 833,
         "peakRating": 940
       },
       "matches": [
+        {
+          "matchId": 510212050,
+          "civ": "Khmer",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:29:30.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 25189367,
+              "name": "tandrew65"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510181348,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:15:01.000Z",
+          "dur": 1563,
+          "opponents": [
+            {
+              "profileId": 23247695,
+              "name": "arocena.pablo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510181236,
+          "civ": "Burmese",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:14:13.000Z",
+          "dur": 7,
+          "opponents": [
+            {
+              "profileId": 25223238,
+              "name": "umad_mazhar111"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510178134,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:57:19.000Z",
+          "dur": 984,
+          "opponents": [
+            {
+              "profileId": 23247695,
+              "name": "arocena.pablo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510175899,
+          "civ": "Byzantines",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:45:50.000Z",
+          "dur": 619,
+          "opponents": [
+            {
+              "profileId": 5156333,
+              "name": "Mesah"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509261883,
           "civ": "Vietnamese",
@@ -1050,7 +1135,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 127,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 989,
         "peakRating": 1035
       },
@@ -5394,5 +5479,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1990,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1168,
+        "totalGames": 1996,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1196,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 510065101,
+          "civ": "Italians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:04:35.000Z",
+          "dur": 1406,
+          "opponents": [
+            {
+              "profileId": 280664,
+              "name": "PTL_Froth Goblin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510061681,
+          "civ": "Magyars",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:27:22.000Z",
+          "dur": 2032,
+          "opponents": [
+            {
+              "profileId": 9905663,
+              "name": "RedTheWeasel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509929124,
+          "civ": "Magyars",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:26:57.000Z",
+          "dur": 1257,
+          "opponents": [
+            {
+              "profileId": 4838511,
+              "name": "NQCrocodylus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509923349,
+          "civ": "Malians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:00:48.000Z",
+          "dur": 119,
+          "opponents": [
+            {
+              "profileId": 384815,
+              "name": "Pompom"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509702047,
+          "civ": "Japanese",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:58:35.000Z",
+          "dur": 1736,
+          "opponents": [
+            {
+              "profileId": 1573065,
+              "name": "Lic. Juan Sin Miedo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509694481,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:29:53.000Z",
+          "dur": 1634,
+          "opponents": [
+            {
+              "profileId": 2106509,
+              "name": "bogavante enloquecido"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508624691,
           "civ": "Malians",
@@ -29957,12 +30059,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 714,
-        "pulledDate": "2026-09-26",
+        "totalGames": 716,
+        "pulledDate": "2026-09-30",
         "latestRating": 1034,
         "peakRating": 1180
       },
       "matches": [
+        {
+          "matchId": 509924012,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:03:43.000Z",
+          "dur": 1310,
+          "opponents": [
+            {
+              "profileId": 4539808,
+              "name": "LennyCZ"
+            },
+            {
+              "profileId": 4694684,
+              "name": "JozefCZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22921248,
+              "name": "HotCoffee"
+            }
+          ]
+        },
+        {
+          "matchId": 509688008,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:07:06.000Z",
+          "dur": 1319,
+          "opponents": [
+            {
+              "profileId": 6800247,
+              "name": "DeathNote"
+            },
+            {
+              "profileId": 6800843,
+              "name": "Decen't"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26055666,
+              "name": "QuitTouchingMe"
+            }
+          ]
+        },
         {
           "matchId": 509052515,
           "civ": "Malians",
@@ -44602,5 +44756,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

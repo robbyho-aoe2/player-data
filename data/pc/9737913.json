@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1009,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1666,
+        "totalGames": 1011,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1668,
         "peakRating": 1740
       },
       "matches": [
+        {
+          "matchId": 509376389,
+          "civ": "Spanish",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:24:38.000Z",
+          "dur": 1319,
+          "opponents": [
+            {
+              "profileId": 1430002,
+              "name": "costel98"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509365562,
+          "civ": "Vietnamese",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:38:25.000Z",
+          "dur": 1747,
+          "opponents": [
+            {
+              "profileId": 4624624,
+              "name": "Bobler"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507997229,
           "civ": "Franks",
@@ -17183,7 +17217,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 61,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1442,
         "peakRating": 1452
       },
@@ -19051,5 +19085,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

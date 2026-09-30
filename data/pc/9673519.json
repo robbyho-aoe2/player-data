@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 613,
-        "pulledDate": "2026-09-26",
-        "latestRating": 952,
+        "totalGames": 616,
+        "pulledDate": "2026-09-30",
+        "latestRating": 936,
         "peakRating": 1088
       },
       "matches": [
+        {
+          "matchId": 510145337,
+          "civ": "Poles",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:25:08.000Z",
+          "dur": 2114,
+          "opponents": [
+            {
+              "profileId": 14504334,
+              "name": "Pierrocana"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510139086,
+          "civ": "Poles",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:54:53.000Z",
+          "dur": 1773,
+          "opponents": [
+            {
+              "profileId": 3399219,
+              "name": "Seb"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510135345,
+          "civ": "Poles",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:36:19.000Z",
+          "dur": 1081,
+          "opponents": [
+            {
+              "profileId": 24541881,
+              "name": "lucho portuano"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509126595,
           "civ": "Poles",
@@ -10451,7 +10502,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 81,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 992,
         "peakRating": 1072
       },
@@ -13207,5 +13258,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

@@ -6,32 +6,84 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 250,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1181,
+        "totalGames": 252,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1180,
         "peakRating": 1272
       },
       "matches": [
+        {
+          "matchId": 510230455,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:23:25.000Z",
+          "dur": 1559,
+          "opponents": [
+            {
+              "profileId": 4819461,
+              "name": "2fPP"
+            },
+            {
+              "profileId": 2967126,
+              "name": "Pestilence"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4902173,
+              "name": "Sneakyness"
+            }
+          ]
+        },
+        {
+          "matchId": 510223881,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:44:12.000Z",
+          "dur": 1572,
+          "opponents": [
+            {
+              "profileId": 2282107,
+              "name": "Artorias"
+            },
+            {
+              "profileId": 847328,
+              "name": "Inkarri"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4902173,
+              "name": "Sneakyness"
+            }
+          ]
+        },
         {
           "matchId": 508776151,
           "civ": "Lithuanians",
@@ -6305,5 +6357,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

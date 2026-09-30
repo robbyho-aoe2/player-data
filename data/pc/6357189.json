@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 163,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1317,
+        "totalGames": 166,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1375,
         "peakRating": 1382
       },
       "matches": [
+        {
+          "matchId": 510024758,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:20:47.000Z",
+          "dur": 2033,
+          "opponents": [
+            {
+              "profileId": 19465073,
+              "name": "\u767e\u7121\u804a\u8cf4"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509744660,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:49:35.000Z",
+          "dur": 1622,
+          "opponents": [
+            {
+              "profileId": 718791,
+              "name": "TheKeeG_"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509694475,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:29:56.000Z",
+          "dur": 1823,
+          "opponents": [
+            {
+              "profileId": 25255604,
+              "name": "bustybabloo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509223442,
           "civ": "Bohemians",
@@ -2800,12 +2851,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 449,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1371,
-        "peakRating": 1371
+        "totalGames": 451,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1409,
+        "peakRating": 1409
       },
       "matches": [
+        {
+          "matchId": 509712454,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:35:43.000Z",
+          "dur": 2531,
+          "opponents": [
+            {
+              "profileId": 6319329,
+              "name": "ChickenHunter"
+            },
+            {
+              "profileId": 2674635,
+              "name": "pepe_del_pardo"
+            },
+            {
+              "profileId": 246372,
+              "name": "Darealown"
+            },
+            {
+              "profileId": 14945251,
+              "name": "edengr7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6419082,
+              "name": "AxD | Keiokenkun-Uno-Puro"
+            },
+            {
+              "profileId": 1282869,
+              "name": "SrBlack"
+            },
+            {
+              "profileId": 18725512,
+              "name": "AxD | Cad Bane"
+            }
+          ]
+        },
+        {
+          "matchId": 509707688,
+          "civ": "Byzantines",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:18:33.000Z",
+          "dur": 644,
+          "opponents": [
+            {
+              "profileId": 702317,
+              "name": "[CANTINAMX] | Vintar Khan"
+            },
+            {
+              "profileId": 4224302,
+              "name": "Guthrie_Govan"
+            },
+            {
+              "profileId": 22996073,
+              "name": "kane"
+            },
+            {
+              "profileId": 25984504,
+              "name": "thefacelessz12"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6419082,
+              "name": "AxD | Keiokenkun-Uno-Puro"
+            },
+            {
+              "profileId": 1282869,
+              "name": "SrBlack"
+            },
+            {
+              "profileId": 18725512,
+              "name": "AxD | Cad Bane"
+            }
+          ]
+        },
         {
           "matchId": 507127832,
           "civ": "Bohemians",
@@ -18957,5 +19092,6 @@
   },
   "country": "uy",
   "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
-  "countryName": "Uruguay"
+  "countryName": "Uruguay",
+  "platform": "Steam"
 }

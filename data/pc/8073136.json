@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 78,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 993,
         "peakRating": 1023
       },
@@ -1277,12 +1277,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 604,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1195,
+        "totalGames": 607,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1181,
         "peakRating": 1318
       },
       "matches": [
+        {
+          "matchId": 509932191,
+          "civ": "Spanish",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:41:22.000Z",
+          "dur": 1371,
+          "opponents": [
+            {
+              "profileId": 25465368,
+              "name": "msandoval"
+            },
+            {
+              "profileId": 21408265,
+              "name": "dong"
+            },
+            {
+              "profileId": 14784524,
+              "name": "Superhoops"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 247760,
+              "name": "Lord Brick"
+            },
+            {
+              "profileId": 273024,
+              "name": "NotOgreYet"
+            }
+          ]
+        },
+        {
+          "matchId": 509927794,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:21:36.000Z",
+          "dur": 902,
+          "opponents": [
+            {
+              "profileId": 390720,
+              "name": "Nihil"
+            },
+            {
+              "profileId": 5563785,
+              "name": "Ubi maior"
+            },
+            {
+              "profileId": 1069233,
+              "name": "Red Bull"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 273024,
+              "name": "NotOgreYet"
+            },
+            {
+              "profileId": 247760,
+              "name": "Lord Brick"
+            }
+          ]
+        },
+        {
+          "matchId": 509913737,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:13:20.000Z",
+          "dur": 1180,
+          "opponents": [
+            {
+              "profileId": 20774911,
+              "name": "NSN WAJID"
+            },
+            {
+              "profileId": 2274843,
+              "name": "greiney"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 247760,
+              "name": "Lord Brick"
+            }
+          ]
+        },
         {
           "matchId": 503890819,
           "civ": "Spanish",
@@ -18261,5 +18355,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1000
       },
       "matches": [
@@ -44,12 +44,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 179,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1311,
+        "totalGames": 183,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1317,
         "peakRating": 1356
       },
       "matches": [
+        {
+          "matchId": 510193686,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:29:29.000Z",
+          "dur": 728,
+          "opponents": [
+            {
+              "profileId": 21661866,
+              "name": "TVHG.llavero maldito"
+            },
+            {
+              "profileId": 2634506,
+              "name": "tvhG - -   -   Chena"
+            },
+            {
+              "profileId": 5147527,
+              "name": "TVHG.DooM"
+            },
+            {
+              "profileId": 9806320,
+              "name": "BuMm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6879911,
+              "name": "Cambo"
+            },
+            {
+              "profileId": 13382722,
+              "name": "whitewidow52"
+            },
+            {
+              "profileId": 14747485,
+              "name": "Morfeo"
+            }
+          ]
+        },
+        {
+          "matchId": 509411044,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T17:56:26.000Z",
+          "dur": 2981,
+          "opponents": [
+            {
+              "profileId": 11505939,
+              "name": "EiM | Fenix_ArG!"
+            },
+            {
+              "profileId": 22485483,
+              "name": "MaxTorres04"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16656537,
+              "name": "Zaino_64"
+            }
+          ]
+        },
+        {
+          "matchId": 509368841,
+          "civ": "Celts",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:52:46.000Z",
+          "dur": 1503,
+          "opponents": [
+            {
+              "profileId": 5410270,
+              "name": "Vildsvinet"
+            },
+            {
+              "profileId": 1211107,
+              "name": "ReyCocobolo"
+            },
+            {
+              "profileId": 23065880,
+              "name": "Gandalfff"
+            },
+            {
+              "profileId": 12313532,
+              "name": "N4Th-.-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3572102,
+              "name": "atilaalmogaver"
+            },
+            {
+              "profileId": 451383,
+              "name": "Sageata"
+            },
+            {
+              "profileId": 16881376,
+              "name": "kraquen"
+            }
+          ]
+        },
+        {
+          "matchId": 509351011,
+          "civ": "Italians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:32:31.000Z",
+          "dur": 1513,
+          "opponents": [
+            {
+              "profileId": 23483959,
+              "name": "dubidubi"
+            },
+            {
+              "profileId": 6408605,
+              "name": "Killerqueen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2063098,
+              "name": "El_Stino"
+            }
+          ]
+        },
         {
           "matchId": 508752008,
           "civ": "Ethiopians",
@@ -5610,5 +5746,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

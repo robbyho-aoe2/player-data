@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 16,
-        "pulledDate": "2026-09-26",
+        "totalGames": 19,
+        "pulledDate": "2026-09-30",
         "peakRating": 1267,
-        "latestRating": 1183
+        "latestRating": 1134
       },
       "matches": [
+        {
+          "matchId": 510046691,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:42:18.000Z",
+          "dur": 977,
+          "opponents": [
+            {
+              "profileId": 5769758,
+              "name": "JiKen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509677801,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:24:27.000Z",
+          "dur": 1589,
+          "opponents": [
+            {
+              "profileId": 2327664,
+              "name": "morningsun"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509673042,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:05:31.000Z",
+          "dur": 1036,
+          "opponents": [
+            {
+              "profileId": 9510522,
+              "name": "davidmhr"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509155537,
           "civ": "Magyars",
@@ -298,7 +349,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 34,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "peakRating": 1296,
         "latestRating": 1086
       },
@@ -1696,5 +1747,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

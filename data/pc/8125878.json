@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 645,
-        "pulledDate": "2026-09-17",
-        "latestRating": 1106,
+        "totalGames": 652,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1124,
         "peakRating": 1365
       },
       "matches": [
+        {
+          "matchId": 510178674,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:00:52.000Z",
+          "dur": 1040,
+          "opponents": [
+            {
+              "profileId": 21579271,
+              "name": "malfoid"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509720371,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:04:38.000Z",
+          "dur": 1232,
+          "opponents": [
+            {
+              "profileId": 5726912,
+              "name": "HuNTeR <3<3<3 Chipdi"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509712003,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:33:53.000Z",
+          "dur": 1532,
+          "opponents": [
+            {
+              "profileId": 2489419,
+              "name": "Luijki"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509461779,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:30:29.000Z",
+          "dur": 1435,
+          "opponents": [
+            {
+              "profileId": 19665215,
+              "name": "ed.momot"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509364497,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:33:21.000Z",
+          "dur": 2131,
+          "opponents": [
+            {
+              "profileId": 8991571,
+              "name": "kamikaze"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509360939,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:17:37.000Z",
+          "dur": 832,
+          "opponents": [
+            {
+              "profileId": 26167478,
+              "name": "TALADROS"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509355796,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:54:24.000Z",
+          "dur": 1328,
+          "opponents": [
+            {
+              "profileId": 11381589,
+              "name": "GL_black duck"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506923216,
           "civ": "Armenians",
@@ -10994,12 +11113,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 723,
-        "pulledDate": "2026-09-17",
-        "latestRating": 1297,
+        "totalGames": 724,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1282,
         "peakRating": 1343
       },
       "matches": [
+        {
+          "matchId": 509735252,
+          "civ": "Huns",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:06:59.000Z",
+          "dur": 2709,
+          "opponents": [
+            {
+              "profileId": 2186527,
+              "name": "ACI Calvohp"
+            },
+            {
+              "profileId": 19855134,
+              "name": "ACI brayanpenalamus"
+            },
+            {
+              "profileId": 19329986,
+              "name": "ACI Hotsias"
+            },
+            {
+              "profileId": 9854163,
+              "name": "El Rey Nocturno"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 239704,
+              "name": "tiberio"
+            },
+            {
+              "profileId": 2201130,
+              "name": "Uhtred_of_Bebbamburg"
+            },
+            {
+              "profileId": 476247,
+              "name": "Queens_StoneAge"
+            }
+          ]
+        },
         {
           "matchId": 506091131,
           "civ": "Georgians",
@@ -36307,5 +36468,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

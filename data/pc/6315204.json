@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 935,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1647,
         "peakRating": 1751
       },
@@ -14990,12 +14990,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2330,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1556,
+        "totalGames": 2332,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1591,
         "peakRating": 1667
       },
       "matches": [
+        {
+          "matchId": 509702326,
+          "civ": "Dravidians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:59:33.000Z",
+          "dur": 1586,
+          "opponents": [
+            {
+              "profileId": 4388701,
+              "name": "Chiro My Hero"
+            },
+            {
+              "profileId": 363470,
+              "name": "Saint Martinique"
+            },
+            {
+              "profileId": 79996,
+              "name": "sHeoG0ratH"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4380674,
+              "name": "themad22"
+            },
+            {
+              "profileId": 15480637,
+              "name": "Poeta_Virgilio"
+            }
+          ]
+        },
+        {
+          "matchId": 509698089,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:44:00.000Z",
+          "dur": 763,
+          "opponents": [
+            {
+              "profileId": 278329,
+              "name": "willdbeast"
+            },
+            {
+              "profileId": 6186966,
+              "name": "[ESTG] agentemacri777"
+            },
+            {
+              "profileId": 21722649,
+              "name": "Pummeluff"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15480637,
+              "name": "Poeta_Virgilio"
+            },
+            {
+              "profileId": 4380674,
+              "name": "themad22"
+            }
+          ]
+        },
         {
           "matchId": 508708394,
           "civ": "Hindustanis",
@@ -89818,5 +89886,6 @@
   },
   "country": "ve",
   "countryIcon": "\ud83c\uddfb\ud83c\uddea",
-  "countryName": "Venezuela, Bolivarian Republic of"
+  "countryName": "Venezuela, Bolivarian Republic of",
+  "platform": "Steam"
 }

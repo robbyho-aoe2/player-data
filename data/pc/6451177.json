@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1014,
         "peakRating": 1017
       },
@@ -221,12 +221,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2043,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1183,
+        "totalGames": 2046,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1173,
         "peakRating": 1354
       },
       "matches": [
+        {
+          "matchId": 509804896,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T03:31:52.000Z",
+          "dur": 1535,
+          "opponents": [
+            {
+              "profileId": 3907011,
+              "name": "^storm^"
+            },
+            {
+              "profileId": 20628823,
+              "name": "CTM | FullChow"
+            },
+            {
+              "profileId": 19832561,
+              "name": "wuyu"
+            },
+            {
+              "profileId": 5466626,
+              "name": "DarkSIde1405"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4823259,
+              "name": "The REAL Pepsiman"
+            },
+            {
+              "profileId": 4281746,
+              "name": "StanTheMan"
+            },
+            {
+              "profileId": 4255093,
+              "name": "Cristian Monzon"
+            }
+          ]
+        },
+        {
+          "matchId": 509783231,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:20:42.000Z",
+          "dur": 2131,
+          "opponents": [
+            {
+              "profileId": 24378163,
+              "name": "Calcetin"
+            },
+            {
+              "profileId": 12105181,
+              "name": "Sant"
+            },
+            {
+              "profileId": 3147087,
+              "name": "Tesorito"
+            },
+            {
+              "profileId": 3126901,
+              "name": "VAMC_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 311633,
+              "name": "DavicusII"
+            },
+            {
+              "profileId": 21892390,
+              "name": "EsoTilinsito283"
+            },
+            {
+              "profileId": 5473692,
+              "name": "Kim jong-un"
+            }
+          ]
+        },
+        {
+          "matchId": 509781210,
+          "civ": "Burgundians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:09:06.000Z",
+          "dur": 605,
+          "opponents": [
+            {
+              "profileId": 2630102,
+              "name": "Ronamdz"
+            },
+            {
+              "profileId": 2873389,
+              "name": "Pipo"
+            },
+            {
+              "profileId": 4448442,
+              "name": "XEVER | JoKeR"
+            },
+            {
+              "profileId": 4527877,
+              "name": "-DOKO-"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 754955,
+              "name": "Capixo"
+            },
+            {
+              "profileId": 15267938,
+              "name": "\u05c5"
+            },
+            {
+              "profileId": 21892390,
+              "name": "EsoTilinsito283"
+            }
+          ]
+        },
         {
           "matchId": 508371320,
           "civ": "Mongols",
@@ -83132,5 +83258,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

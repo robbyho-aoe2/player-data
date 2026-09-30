@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-13"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 343,
-        "pulledDate": "2026-09-13",
-        "latestRating": 1007,
+        "totalGames": 345,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1037,
         "peakRating": 1101
       },
       "matches": [
+        {
+          "matchId": 509580422,
+          "civ": "Varangians",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:35:40.000Z",
+          "dur": 2114,
+          "opponents": [
+            {
+              "profileId": 18633525,
+              "name": "el.peligroso"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509359450,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:11:18.000Z",
+          "dur": 2053,
+          "opponents": [
+            {
+              "profileId": 21225970,
+              "name": "Captain.F"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503113247,
           "civ": "Wu",
@@ -5861,7 +5895,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 718,
-        "pulledDate": "2026-09-13",
+        "pulledDate": "2026-09-30",
         "latestRating": 959,
         "peakRating": 1013
       },
@@ -30411,5 +30445,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

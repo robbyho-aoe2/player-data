@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1146,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1088,
+        "totalGames": 1148,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1118,
         "peakRating": 1226
       },
       "matches": [
+        {
+          "matchId": 510239205,
+          "civ": "Franks",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:20:43.000Z",
+          "dur": 1513,
+          "opponents": [
+            {
+              "profileId": 12224806,
+              "name": "Hoveringpuppy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509642116,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:00:42.000Z",
+          "dur": 1697,
+          "opponents": [
+            {
+              "profileId": 11714256,
+              "name": "ronaldo_nazario"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508330743,
           "civ": "Sicilians",
@@ -17256,12 +17290,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 125,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1181,
+        "totalGames": 126,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1163,
         "peakRating": 1239
       },
       "matches": [
+        {
+          "matchId": 510000251,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:49:07.000Z",
+          "dur": 1251,
+          "opponents": [
+            {
+              "profileId": 3018988,
+              "name": "navy15"
+            },
+            {
+              "profileId": 26038572,
+              "name": "santifraile98"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16886754,
+              "name": "hispa_will"
+            }
+          ]
+        },
         {
           "matchId": 509230826,
           "civ": "Spanish",
@@ -20059,5 +20119,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

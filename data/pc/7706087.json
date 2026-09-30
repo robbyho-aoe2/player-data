@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 156,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1586,
-        "peakRating": 1600
+        "totalGames": 159,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1596,
+        "peakRating": 1610
       },
       "matches": [
+        {
+          "matchId": 510188048,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:53:10.000Z",
+          "dur": 1330,
+          "opponents": [
+            {
+              "profileId": 21987494,
+              "name": "Jackdaw"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510178838,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:01:01.000Z",
+          "dur": 1115,
+          "opponents": [
+            {
+              "profileId": 6408605,
+              "name": "Killerqueen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510174550,
+          "civ": "Varangians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:39:47.000Z",
+          "dur": 1069,
+          "opponents": [
+            {
+              "profileId": 22895348,
+              "name": "JostynSG"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508316386,
           "civ": "Incas",
@@ -2535,7 +2586,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 152,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1305,
         "peakRating": 1376
       },
@@ -8272,5 +8323,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

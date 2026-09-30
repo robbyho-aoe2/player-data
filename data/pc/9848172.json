@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 884,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1107,
+        "totalGames": 888,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1139,
         "peakRating": 1287
       },
       "matches": [
+        {
+          "matchId": 510076640,
+          "civ": "Huns",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:54:37.000Z",
+          "dur": 2406,
+          "opponents": [
+            {
+              "profileId": 10310102,
+              "name": "\u5feb\u4e50\u5927\u8d62\u9b54"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510070513,
+          "civ": "Huns",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:02:13.000Z",
+          "dur": 2635,
+          "opponents": [
+            {
+              "profileId": 23705690,
+              "name": "Racing corazon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510070412,
+          "civ": "Huns",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:01:00.000Z",
+          "dur": 10,
+          "opponents": [
+            {
+              "profileId": 11625483,
+              "name": "arba"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509762901,
+          "civ": "Huns",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:26:14.000Z",
+          "dur": 2741,
+          "opponents": [
+            {
+              "profileId": 16722230,
+              "name": "Hugo 2"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508324939,
           "civ": "Huns",
@@ -14186,12 +14254,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 33,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1012,
+        "totalGames": 35,
+        "pulledDate": "2026-09-30",
+        "latestRating": 984,
         "peakRating": 1066
       },
       "matches": [
+        {
+          "matchId": 510085611,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:58:27.000Z",
+          "dur": 2869,
+          "opponents": [
+            {
+              "profileId": 8329016,
+              "name": "qvbcheng"
+            },
+            {
+              "profileId": 22364145,
+              "name": "Samuraika01"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5343235,
+              "name": "dollarstoresrock"
+            }
+          ]
+        },
+        {
+          "matchId": 509733079,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:57:07.000Z",
+          "dur": 3147,
+          "opponents": [
+            {
+              "profileId": 15516368,
+              "name": "Gigantesco Mano"
+            },
+            {
+              "profileId": 6809743,
+              "name": "Rogeranium"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13753948,
+              "name": "Shintao80"
+            }
+          ]
+        },
         {
           "matchId": 509186588,
           "civ": "Huns",
@@ -15218,5 +15338,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

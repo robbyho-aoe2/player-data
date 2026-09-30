@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 342,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1143,
         "peakRating": 1255
       },
@@ -5501,12 +5501,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 669,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1047,
+        "totalGames": 672,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1021,
         "peakRating": 1253
       },
       "matches": [
+        {
+          "matchId": 509536689,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:29:12.000Z",
+          "dur": 2911,
+          "opponents": [
+            {
+              "profileId": 25082055,
+              "name": "asaenzb16_1"
+            },
+            {
+              "profileId": 4878194,
+              "name": "\u5468\u516c\u747e"
+            },
+            {
+              "profileId": 14757419,
+              "name": "76561199495878758"
+            },
+            {
+              "profileId": 22043004,
+              "name": "JUANITO_METEORO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2447730,
+              "name": "Bussies"
+            },
+            {
+              "profileId": 8938511,
+              "name": "The Slayer"
+            },
+            {
+              "profileId": 18122720,
+              "name": "BIZONADE"
+            }
+          ]
+        },
+        {
+          "matchId": 509530304,
+          "civ": "Georgians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:51:28.000Z",
+          "dur": 1863,
+          "opponents": [
+            {
+              "profileId": 25804080,
+              "name": "Mikro"
+            },
+            {
+              "profileId": 1249182,
+              "name": "Sardinha"
+            },
+            {
+              "profileId": 1316540,
+              "name": "joaovlogs"
+            },
+            {
+              "profileId": 2957379,
+              "name": "supameN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8938511,
+              "name": "The Slayer"
+            },
+            {
+              "profileId": 11364460,
+              "name": "hckwok823"
+            },
+            {
+              "profileId": 25677602,
+              "name": "\u6709\u798f\u4e4b\u4eba"
+            }
+          ]
+        },
+        {
+          "matchId": 509495316,
+          "civ": "Dravidians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:34:13.000Z",
+          "dur": 1434,
+          "opponents": [
+            {
+              "profileId": 2546068,
+              "name": "Sgt. Shaftoe"
+            },
+            {
+              "profileId": 24796090,
+              "name": "youtube.com/@Murkwilect"
+            },
+            {
+              "profileId": 17737686,
+              "name": "RedLaig"
+            },
+            {
+              "profileId": 15489994,
+              "name": "\u7f8e\u56e2\u5916\u5356\u603b\u6559\u7ec3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26130298,
+              "name": "Tony Deets"
+            },
+            {
+              "profileId": 14204099,
+              "name": "WorstAntagonist"
+            },
+            {
+              "profileId": 9242565,
+              "name": "Punisher1227"
+            }
+          ]
+        },
         {
           "matchId": 509277154,
           "civ": "Dravidians",
@@ -31076,5 +31202,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

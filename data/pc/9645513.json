@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": [
         {
@@ -63,12 +63,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 935,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1379,
+        "totalGames": 938,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1394,
         "peakRating": 1475
       },
       "matches": [
+        {
+          "matchId": 509789048,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:53:31.000Z",
+          "dur": 2084,
+          "opponents": [
+            {
+              "profileId": 268765,
+              "name": "Nenji"
+            },
+            {
+              "profileId": 1135896,
+              "name": "CTM | Franco*"
+            },
+            {
+              "profileId": 5928875,
+              "name": "CTM | Severo24cm"
+            },
+            {
+              "profileId": 23959581,
+              "name": "chiwire"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 546119,
+              "name": "Theodore"
+            },
+            {
+              "profileId": 839175,
+              "name": "happix"
+            },
+            {
+              "profileId": 23563961,
+              "name": "chengaopeng044"
+            }
+          ]
+        },
+        {
+          "matchId": 509782588,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:17:02.000Z",
+          "dur": 1824,
+          "opponents": [
+            {
+              "profileId": 999102,
+              "name": "Pollazo"
+            },
+            {
+              "profileId": 2642662,
+              "name": "Kerjo"
+            },
+            {
+              "profileId": 2340476,
+              "name": "Kagaya"
+            },
+            {
+              "profileId": 1155307,
+              "name": "Diegazo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 220294,
+              "name": "Mercer"
+            },
+            {
+              "profileId": 281737,
+              "name": "Vertical Vertigo"
+            },
+            {
+              "profileId": 17550790,
+              "name": "\u5e1d\u56fd\u5b59\u7b11\u5ddd"
+            }
+          ]
+        },
+        {
+          "matchId": 509541497,
+          "civ": "Chinese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T05:01:14.000Z",
+          "dur": 3697,
+          "opponents": [
+            {
+              "profileId": 11594245,
+              "name": "Ux'DLM15"
+            },
+            {
+              "profileId": 6359534,
+              "name": "FERGA LARGA"
+            },
+            {
+              "profileId": 3161004,
+              "name": "El Cacas Vengador"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15439022,
+              "name": "Vu_PY"
+            },
+            {
+              "profileId": 3133747,
+              "name": "[CL]TrunicC"
+            }
+          ]
+        },
         {
           "matchId": 498462497,
           "civ": "Tatars",
@@ -8585,5 +8703,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

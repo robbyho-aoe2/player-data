@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 105,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-30",
         "latestRating": 872,
         "peakRating": 1098
       },
@@ -1698,7 +1698,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-09-30",
         "latestRating": 1000
       },
       "matches": [
@@ -1731,10 +1731,44 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2,
-        "pulledDate": "2026-09-28"
+        "totalGames": 4,
+        "pulledDate": "2026-09-30"
       },
       "matches": [
+        {
+          "matchId": 510078580,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:09:09.000Z",
+          "dur": 1536,
+          "opponents": [
+            {
+              "profileId": 20025822,
+              "name": "Sexmiljoner"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509933321,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:46:32.000Z",
+          "dur": 1186,
+          "opponents": [
+            {
+              "profileId": 18452885,
+              "name": "La Walada"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509873858,
           "civ": "Mongols",
@@ -1774,7 +1808,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     }

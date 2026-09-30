@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 724,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 976,
         "peakRating": 1135
       },
@@ -11615,12 +11615,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1061,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1147,
+        "totalGames": 1063,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1184,
         "peakRating": 1326
       },
       "matches": [
+        {
+          "matchId": 509530245,
+          "civ": "Shu",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:50:50.000Z",
+          "dur": 641,
+          "opponents": [
+            {
+              "profileId": 23829934,
+              "name": "LkASr"
+            },
+            {
+              "profileId": 250656,
+              "name": "FullmetalZimm"
+            },
+            {
+              "profileId": 2390746,
+              "name": "Solaire (Praise the Sun)"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6745275,
+              "name": "Lilita Carri\u00f3"
+            },
+            {
+              "profileId": 6375380,
+              "name": "Calavera"
+            }
+          ]
+        },
+        {
+          "matchId": 509520030,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:53:53.000Z",
+          "dur": 2077,
+          "opponents": [
+            {
+              "profileId": 3018988,
+              "name": "navy15"
+            },
+            {
+              "profileId": 5189826,
+              "name": "RorrO Se\u00f1or Feudal"
+            },
+            {
+              "profileId": 9257851,
+              "name": "El Pr\u00edncipe Mestizo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6375380,
+              "name": "Calavera"
+            },
+            {
+              "profileId": 6745275,
+              "name": "Lilita Carri\u00f3"
+            }
+          ]
+        },
         {
           "matchId": 506305706,
           "civ": "Poles",
@@ -47660,5 +47728,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

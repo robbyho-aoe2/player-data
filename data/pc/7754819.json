@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-21"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 22,
-        "pulledDate": "2026-09-21",
-        "latestRating": 809,
+        "totalGames": 26,
+        "pulledDate": "2026-09-30",
+        "latestRating": 785,
         "peakRating": 885
       },
       "matches": [
+        {
+          "matchId": 509601115,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:49:44.000Z",
+          "dur": 705,
+          "opponents": [
+            {
+              "profileId": 3292980,
+              "name": "yummy900130"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509594990,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:12:50.000Z",
+          "dur": 1698,
+          "opponents": [
+            {
+              "profileId": 19519818,
+              "name": "\u5e93\u5409\u7279\u660c\u5c11\u53ef\u6c57"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509588062,
+          "civ": "Hindustanis",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:26:56.000Z",
+          "dur": 1026,
+          "opponents": [
+            {
+              "profileId": 24514585,
+              "name": "Banaan9613"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509580287,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:34:23.000Z",
+          "dur": 1934,
+          "opponents": [
+            {
+              "profileId": 3044843,
+              "name": "seckinmutlu13"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506370756,
           "civ": "Burgundians",
@@ -404,7 +472,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-21",
+        "pulledDate": "2026-09-30",
         "latestRating": 678,
         "peakRating": 691
       },
@@ -886,5 +954,6 @@
   },
   "country": "in",
   "countryIcon": "\ud83c\uddee\ud83c\uddf3",
-  "countryName": "India"
+  "countryName": "India",
+  "platform": "Steam"
 }

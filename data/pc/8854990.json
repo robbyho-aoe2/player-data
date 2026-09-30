@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 68,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1088,
         "peakRating": 1088
       },
@@ -1117,12 +1117,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 226,
-        "pulledDate": "2026-09-22",
-        "latestRating": 1121,
+        "totalGames": 228,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1167,
         "peakRating": 1267
       },
       "matches": [
+        {
+          "matchId": 509600949,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:49:42.000Z",
+          "dur": 1566,
+          "opponents": [
+            {
+              "profileId": 2172075,
+              "name": "Blue_Fox"
+            },
+            {
+              "profileId": 1893466,
+              "name": "Call me Ji Ye"
+            },
+            {
+              "profileId": 4747839,
+              "name": "DANSLESBOULES"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2940034,
+              "name": "Talk King"
+            },
+            {
+              "profileId": 23804863,
+              "name": "cmd.exe"
+            }
+          ]
+        },
+        {
+          "matchId": 509594765,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:12:27.000Z",
+          "dur": 1790,
+          "opponents": [
+            {
+              "profileId": 3004909,
+              "name": "aaron.su210"
+            },
+            {
+              "profileId": 14180481,
+              "name": "spicyP"
+            },
+            {
+              "profileId": 25156088,
+              "name": "xnbhdx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2940034,
+              "name": "Talk King"
+            },
+            {
+              "profileId": 23804863,
+              "name": "cmd.exe"
+            }
+          ]
+        },
         {
           "matchId": 508192494,
           "civ": "Maya",
@@ -8532,5 +8600,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

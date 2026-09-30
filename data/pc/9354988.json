@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 394,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 957,
         "peakRating": 1153
       },
@@ -6333,12 +6333,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 382,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1257,
-        "peakRating": 1259
+        "totalGames": 385,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1244,
+        "peakRating": 1276
       },
       "matches": [
+        {
+          "matchId": 509779316,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:58:01.000Z",
+          "dur": 1505,
+          "opponents": [
+            {
+              "profileId": 793637,
+              "name": "OrcoFinn"
+            },
+            {
+              "profileId": 1969608,
+              "name": "garciaezequiel91"
+            },
+            {
+              "profileId": 4495634,
+              "name": "Nachom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16656537,
+              "name": "Zaino_64"
+            },
+            {
+              "profileId": 15407535,
+              "name": "buzzkill"
+            }
+          ]
+        },
+        {
+          "matchId": 509760045,
+          "civ": "Tupi",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:10:29.000Z",
+          "dur": 4066,
+          "opponents": [
+            {
+              "profileId": 1982786,
+              "name": "misspa"
+            },
+            {
+              "profileId": 2893439,
+              "name": "InnerFire"
+            },
+            {
+              "profileId": 4965876,
+              "name": "NBP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2155733,
+              "name": "mat.hey"
+            },
+            {
+              "profileId": 3224536,
+              "name": "Tonix"
+            }
+          ]
+        },
+        {
+          "matchId": 509490202,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:03:30.000Z",
+          "dur": 2130,
+          "opponents": [
+            {
+              "profileId": 706749,
+              "name": "TheSaltMill"
+            },
+            {
+              "profileId": 4346093,
+              "name": "Trooperone1"
+            },
+            {
+              "profileId": 7963940,
+              "name": "Taulipang"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1427103,
+              "name": "Racletteduterter"
+            },
+            {
+              "profileId": 3353037,
+              "name": "Merciless Gladiator Stal"
+            }
+          ]
+        },
         {
           "matchId": 509238745,
           "civ": "Britons",
@@ -21972,5 +22074,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

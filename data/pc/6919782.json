@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 505,
-        "pulledDate": "2026-09-23",
-        "latestRating": 711,
+        "totalGames": 510,
+        "pulledDate": "2026-09-30",
+        "latestRating": 662,
         "peakRating": 987
       },
       "matches": [
+        {
+          "matchId": 509632718,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:22:18.000Z",
+          "dur": 1686,
+          "opponents": [
+            {
+              "profileId": 22930138,
+              "name": "RisingPhoenix001"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509624094,
+          "civ": "Mongols",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:45:08.000Z",
+          "dur": 1937,
+          "opponents": [
+            {
+              "profileId": 1427157,
+              "name": "mraxou85"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509617796,
+          "civ": "Mongols",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:17:28.000Z",
+          "dur": 947,
+          "opponents": [
+            {
+              "profileId": 23165963,
+              "name": "BackSmackBob"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509506968,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:40:55.000Z",
+          "dur": 1865,
+          "opponents": [
+            {
+              "profileId": 1490746,
+              "name": "Zanarkand"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509499068,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T00:54:50.000Z",
+          "dur": 2135,
+          "opponents": [
+            {
+              "profileId": 405517,
+              "name": "BIG"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506352165,
           "civ": "Persians",
@@ -8615,7 +8700,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 826,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-09-30",
         "latestRating": 848,
         "peakRating": 1036
       },
@@ -35924,5 +36009,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

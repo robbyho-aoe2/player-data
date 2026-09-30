@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 832,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1237,
+        "totalGames": 834,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1273,
         "peakRating": 1286
       },
       "matches": [
+        {
+          "matchId": 509476987,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:46:09.000Z",
+          "dur": 2368,
+          "opponents": [
+            {
+              "profileId": 1907769,
+              "name": "NecroSorcererII"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509476384,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:43:01.000Z",
+          "dur": 22,
+          "opponents": [
+            {
+              "profileId": 11226981,
+              "name": "twistpull"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507379810,
           "civ": "Mongols",
@@ -13345,12 +13379,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 318,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1239,
+        "totalGames": 321,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1201,
         "peakRating": 1309
       },
       "matches": [
+        {
+          "matchId": 509681893,
+          "civ": "Maya",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:42:30.000Z",
+          "dur": 2075,
+          "opponents": [
+            {
+              "profileId": 6847742,
+              "name": "RockAxe2"
+            },
+            {
+              "profileId": 748536,
+              "name": "Bet0"
+            },
+            {
+              "profileId": 2580155,
+              "name": "juansozu"
+            },
+            {
+              "profileId": 19495838,
+              "name": "Ace"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6374382,
+              "name": "Mateus Viana"
+            },
+            {
+              "profileId": 4275866,
+              "name": "Mad"
+            },
+            {
+              "profileId": 15426513,
+              "name": "PARADOOX"
+            }
+          ]
+        },
+        {
+          "matchId": 509503567,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:22:17.000Z",
+          "dur": 1741,
+          "opponents": [
+            {
+              "profileId": 5848992,
+              "name": "HydroX"
+            },
+            {
+              "profileId": 3073587,
+              "name": "\u9ca8\u4e01\u9c7c"
+            },
+            {
+              "profileId": 26119419,
+              "name": "GAMAR\u00daS de CAGABAND\u00daRRIES"
+            },
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26052117,
+              "name": "PNLN | maromba_aoe"
+            },
+            {
+              "profileId": 19091549,
+              "name": "PNLN | EAZY Magro"
+            },
+            {
+              "profileId": 6590212,
+              "name": "Portel4"
+            }
+          ]
+        },
+        {
+          "matchId": 509502961,
+          "civ": "Varangians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T01:18:52.000Z",
+          "dur": 93,
+          "opponents": [
+            {
+              "profileId": 1124108,
+              "name": "GRAN KHAN"
+            },
+            {
+              "profileId": 2221420,
+              "name": "GG LA LIFE KARIN"
+            },
+            {
+              "profileId": 3395066,
+              "name": "Lord San"
+            },
+            {
+              "profileId": 11736312,
+              "name": "all peacocks are the same"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6590212,
+              "name": "Portel4"
+            },
+            {
+              "profileId": 19091549,
+              "name": "PNLN | EAZY Magro"
+            },
+            {
+              "profileId": 26052117,
+              "name": "PNLN | maromba_aoe"
+            }
+          ]
+        },
         {
           "matchId": 508747909,
           "civ": "Khmer",
@@ -24246,5 +24406,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

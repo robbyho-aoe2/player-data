@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1332,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1359,
-        "peakRating": 1373
+        "totalGames": 1335,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1376,
+        "peakRating": 1376
       },
       "matches": [
+        {
+          "matchId": 509946868,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:46:47.000Z",
+          "dur": 1373,
+          "opponents": [
+            {
+              "profileId": 5044531,
+              "name": "f.mark96"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509620687,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:30:21.000Z",
+          "dur": 1335,
+          "opponents": [
+            {
+              "profileId": 5992248,
+              "name": "\u864e\u5934\u5f6a"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509349284,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:23:33.000Z",
+          "dur": 888,
+          "opponents": [
+            {
+              "profileId": 19985327,
+              "name": "momentum4000"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509088881,
           "civ": "Persians",
@@ -22674,7 +22725,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1145,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-09-30",
         "latestRating": 1307,
         "peakRating": 1347
       },
@@ -61346,5 +61397,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

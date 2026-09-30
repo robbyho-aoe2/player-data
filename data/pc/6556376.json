@@ -6,32 +6,116 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 585,
-        "pulledDate": "2026-09-26",
-        "latestRating": 618,
+        "totalGames": 587,
+        "pulledDate": "2026-09-30",
+        "latestRating": 623,
         "peakRating": 746
       },
       "matches": [
+        {
+          "matchId": 509715628,
+          "civ": "Slavs",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:47:24.000Z",
+          "dur": 3317,
+          "opponents": [
+            {
+              "profileId": 2996693,
+              "name": "Jorj\u00e3o"
+            },
+            {
+              "profileId": 9508448,
+              "name": "fravIn!"
+            },
+            {
+              "profileId": 24213316,
+              "name": "Scott"
+            },
+            {
+              "profileId": 2491115,
+              "name": "Senyor Flaco"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2962679,
+              "name": "ndskyrme"
+            },
+            {
+              "profileId": 6270887,
+              "name": "Radim"
+            },
+            {
+              "profileId": 2007805,
+              "name": "Ana Catalina"
+            }
+          ]
+        },
+        {
+          "matchId": 509464320,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:41:55.000Z",
+          "dur": 1981,
+          "opponents": [
+            {
+              "profileId": 24075163,
+              "name": "RookToD2"
+            },
+            {
+              "profileId": 19595020,
+              "name": "jlch"
+            },
+            {
+              "profileId": 24075210,
+              "name": "R0NIN"
+            },
+            {
+              "profileId": 23194732,
+              "name": "julioeneves29"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2688453,
+              "name": "Dovahkiin"
+            },
+            {
+              "profileId": 5304000,
+              "name": "Sour"
+            },
+            {
+              "profileId": 17460509,
+              "name": "MC0LEE"
+            }
+          ]
+        },
         {
           "matchId": 509195372,
           "civ": "Slavs",
@@ -19728,5 +19812,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

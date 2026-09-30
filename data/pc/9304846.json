@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-22"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 448,
-        "pulledDate": "2026-09-22",
+        "pulledDate": "2026-09-30",
         "latestRating": 1082,
         "peakRating": 1195
       },
@@ -7198,12 +7198,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 288,
-        "pulledDate": "2026-09-22",
-        "latestRating": 941,
+        "totalGames": 292,
+        "pulledDate": "2026-09-30",
+        "latestRating": 910,
         "peakRating": 1084
       },
       "matches": [
+        {
+          "matchId": 509739651,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:26:37.000Z",
+          "dur": 1743,
+          "opponents": [
+            {
+              "profileId": 21859363,
+              "name": "malolepszy.adrian"
+            },
+            {
+              "profileId": 15045800,
+              "name": "John Travoldtar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9425544,
+              "name": "trml"
+            }
+          ]
+        },
+        {
+          "matchId": 509727569,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:33:30.000Z",
+          "dur": 2925,
+          "opponents": [
+            {
+              "profileId": 1248420,
+              "name": "zombiekiller7"
+            },
+            {
+              "profileId": 10128244,
+              "name": "PrisonMike"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9425544,
+              "name": "trml"
+            }
+          ]
+        },
+        {
+          "matchId": 509716713,
+          "civ": "Danes",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:51:28.000Z",
+          "dur": 1623,
+          "opponents": [
+            {
+              "profileId": 1280844,
+              "name": "Galluzzi"
+            },
+            {
+              "profileId": 16251074,
+              "name": "Six"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9425544,
+              "name": "trml"
+            }
+          ]
+        },
+        {
+          "matchId": 509707203,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:16:12.000Z",
+          "dur": 1889,
+          "opponents": [
+            {
+              "profileId": 25903945,
+              "name": "Izana"
+            },
+            {
+              "profileId": 23695396,
+              "name": "CrishsrO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9425544,
+              "name": "trml"
+            }
+          ]
+        },
         {
           "matchId": 508493858,
           "civ": "Saxons",
@@ -14436,5 +14540,6 @@
   },
   "country": "no",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf4",
-  "countryName": "Norway"
+  "countryName": "Norway",
+  "platform": "Steam"
 }

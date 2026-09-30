@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 314,
-        "pulledDate": "2026-09-26",
-        "latestRating": 869,
+        "totalGames": 316,
+        "pulledDate": "2026-09-30",
+        "latestRating": 899,
         "peakRating": 965
       },
       "matches": [
+        {
+          "matchId": 509374833,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T15:17:48.000Z",
+          "dur": 1211,
+          "opponents": [
+            {
+              "profileId": 6685749,
+              "name": "NegroBayron"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509359839,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:12:38.000Z",
+          "dur": 1169,
+          "opponents": [
+            {
+              "profileId": 10606140,
+              "name": "polar366"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509232505,
           "civ": "Malay",
@@ -5367,12 +5401,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 880,
-        "pulledDate": "2026-09-26",
-        "latestRating": 924,
+        "totalGames": 883,
+        "pulledDate": "2026-09-30",
+        "latestRating": 941,
         "peakRating": 1071
       },
       "matches": [
+        {
+          "matchId": 509366327,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:41:43.000Z",
+          "dur": 2130,
+          "opponents": [
+            {
+              "profileId": 25236460,
+              "name": "TT"
+            },
+            {
+              "profileId": 19871884,
+              "name": "Lubuntu10.04LTS"
+            },
+            {
+              "profileId": 12077263,
+              "name": "GMTY0712"
+            },
+            {
+              "profileId": 5445194,
+              "name": "AveMiller"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 384333,
+              "name": "Israfillidan"
+            },
+            {
+              "profileId": 25805503,
+              "name": "\u547d\u683c"
+            },
+            {
+              "profileId": 11679031,
+              "name": "Grubik"
+            }
+          ]
+        },
+        {
+          "matchId": 509365421,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:38:10.000Z",
+          "dur": 136,
+          "opponents": [
+            {
+              "profileId": 3159320,
+              "name": "LoGR_StrAtoS"
+            },
+            {
+              "profileId": 8772050,
+              "name": "Joker_xuechen"
+            },
+            {
+              "profileId": 20195111,
+              "name": "wdog30213"
+            },
+            {
+              "profileId": 1683011,
+              "name": "\u5927\u8868\u54e5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24377071,
+              "name": "\u7740\u4ec0\u4e48\u6025"
+            },
+            {
+              "profileId": 25236460,
+              "name": "TT"
+            },
+            {
+              "profileId": 520673,
+              "name": "xKx| Orange"
+            }
+          ]
+        },
+        {
+          "matchId": 509364531,
+          "civ": "Malay",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T14:34:44.000Z",
+          "dur": 98,
+          "opponents": [
+            {
+              "profileId": 19883556,
+              "name": "parkzzil"
+            },
+            {
+              "profileId": 19911748,
+              "name": "rneod2"
+            },
+            {
+              "profileId": 26049857,
+              "name": "\u77e5\u884c"
+            },
+            {
+              "profileId": 19883143,
+              "name": "ggkdigk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8772050,
+              "name": "Joker_xuechen"
+            },
+            {
+              "profileId": 4581486,
+              "name": "durmazz1"
+            },
+            {
+              "profileId": 6258297,
+              "name": "HatredCavalry"
+            }
+          ]
+        },
         {
           "matchId": 508745108,
           "civ": "Spanish",
@@ -39134,5 +39294,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 378,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-09-30",
         "latestRating": 1110,
         "peakRating": 1318
       },
@@ -5699,12 +5699,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1573,
-        "pulledDate": "2026-09-10",
-        "latestRating": 1224,
+        "totalGames": 1576,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1205,
         "peakRating": 1439
       },
       "matches": [
+        {
+          "matchId": 509653596,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:47:00.000Z",
+          "dur": 1982,
+          "opponents": [
+            {
+              "profileId": 25127164,
+              "name": "I Raided Riley"
+            },
+            {
+              "profileId": 15267938,
+              "name": "\u05c5"
+            },
+            {
+              "profileId": 5998723,
+              "name": "TastyChips"
+            },
+            {
+              "profileId": 1716244,
+              "name": "BRosi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 310850,
+              "name": "Toasty"
+            },
+            {
+              "profileId": 19790122,
+              "name": "J43SMALL"
+            },
+            {
+              "profileId": 11842285,
+              "name": "\u4e50\u5609\u98ce\u8d77\u6b8b\u4e91\u6563"
+            }
+          ]
+        },
+        {
+          "matchId": 509647783,
+          "civ": "Cumans",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:23:10.000Z",
+          "dur": 1267,
+          "opponents": [
+            {
+              "profileId": 12324016,
+              "name": "\u7cbe\u9510\u718a\u54e5"
+            },
+            {
+              "profileId": 6104784,
+              "name": "\u958b\u6a5f\u4e2d"
+            },
+            {
+              "profileId": 3900405,
+              "name": "Minneapolis"
+            },
+            {
+              "profileId": 817625,
+              "name": "jaimeerp"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26056,
+              "name": "83716497273"
+            },
+            {
+              "profileId": 7590939,
+              "name": "\u8c79\u8c79\u662f\u53ea\u5927\u732b\u54aa"
+            },
+            {
+              "profileId": 401824,
+              "name": "\u4e0a\u4eac\u7687\u65cf\u00b7\u8036\u5f8b\u00b7GOOD"
+            }
+          ]
+        },
+        {
+          "matchId": 509646367,
+          "civ": "Japanese",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:17:15.000Z",
+          "dur": 96,
+          "opponents": [
+            {
+              "profileId": 344590,
+              "name": "TOXIC18"
+            },
+            {
+              "profileId": 2719874,
+              "name": "marskit"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5959426,
+              "name": "345legolas345"
+            }
+          ]
+        },
         {
           "matchId": 493454044,
           "civ": "Vikings",
@@ -44712,5 +44822,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

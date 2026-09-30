@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-09-30"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 55,
-        "pulledDate": "2026-09-26",
+        "totalGames": 57,
+        "pulledDate": "2026-09-30",
         "latestRating": 1148,
         "peakRating": 1211
       },
       "matches": [
+        {
+          "matchId": 509915379,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:22:00.000Z",
+          "dur": 1305,
+          "opponents": [
+            {
+              "profileId": 5231020,
+              "name": "Impeesa91"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509344866,
+          "civ": "Ethiopians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T13:00:41.000Z",
+          "dur": 1586,
+          "opponents": [
+            {
+              "profileId": 25160162,
+              "name": "g.mag"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508253623,
           "civ": "Japanese",
@@ -913,12 +947,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 565,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1390,
+        "totalGames": 569,
+        "pulledDate": "2026-09-30",
+        "latestRating": 1367,
         "peakRating": 1390
       },
       "matches": [
+        {
+          "matchId": 509684577,
+          "civ": "Ethiopians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:53:18.000Z",
+          "dur": 1416,
+          "opponents": [
+            {
+              "profileId": 3374509,
+              "name": "CliffHeights"
+            },
+            {
+              "profileId": 6261373,
+              "name": "Kyrisser"
+            },
+            {
+              "profileId": 3358405,
+              "name": "Cale94"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5061595,
+              "name": "Fux"
+            },
+            {
+              "profileId": 5777475,
+              "name": "Indraccovski"
+            }
+          ]
+        },
+        {
+          "matchId": 509676786,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:21:21.000Z",
+          "dur": 1691,
+          "opponents": [
+            {
+              "profileId": 1153646,
+              "name": "Hrafn_the_Berzerker"
+            },
+            {
+              "profileId": 2681826,
+              "name": "doktormakkos"
+            },
+            {
+              "profileId": 2655002,
+              "name": "aaa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5777475,
+              "name": "Indraccovski"
+            },
+            {
+              "profileId": 5061595,
+              "name": "Fux"
+            }
+          ]
+        },
+        {
+          "matchId": 509340406,
+          "civ": "Slavs",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T12:38:10.000Z",
+          "dur": 1065,
+          "opponents": [
+            {
+              "profileId": 8977927,
+              "name": "Zoen"
+            },
+            {
+              "profileId": 1246518,
+              "name": "Stepfan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5061595,
+              "name": "Fux"
+            }
+          ]
+        },
+        {
+          "matchId": 509337927,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T12:23:52.000Z",
+          "dur": 669,
+          "opponents": [
+            {
+              "profileId": 686775,
+              "name": "Sir Lucason"
+            },
+            {
+              "profileId": 688301,
+              "name": "Bevoishot"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5061595,
+              "name": "Fux"
+            }
+          ]
+        },
         {
           "matchId": 508932860,
           "civ": "Ethiopians",
@@ -18757,5 +18911,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }
