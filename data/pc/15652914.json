@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 513,
-        "pulledDate": "2026-09-23",
-        "latestRating": 678,
+        "totalGames": 517,
+        "pulledDate": "2026-10-01",
+        "latestRating": 648,
         "peakRating": 857
       },
       "matches": [
+        {
+          "matchId": 510408323,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:17:09.000Z",
+          "dur": 1762,
+          "opponents": [
+            {
+              "profileId": 20410545,
+              "name": "jonzeqiraj"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510196838,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:49:23.000Z",
+          "dur": 2212,
+          "opponents": [
+            {
+              "profileId": 24068030,
+              "name": "gavdillavou402"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510190622,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:09:41.000Z",
+          "dur": 2290,
+          "opponents": [
+            {
+              "profileId": 3716849,
+              "name": "agoecmen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509468640,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T22:03:33.000Z",
+          "dur": 4094,
+          "opponents": [
+            {
+              "profileId": 3538979,
+              "name": "\u0414\u0418\u041a\u0418\u0419 \u041f\u0418\u0422\u041e\u041d"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508277706,
           "civ": "Turks",
@@ -8256,12 +8324,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     }
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

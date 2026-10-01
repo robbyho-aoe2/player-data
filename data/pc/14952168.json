@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 237,
-        "pulledDate": "2026-09-26",
-        "latestRating": 875,
+        "totalGames": 238,
+        "pulledDate": "2026-10-01",
+        "latestRating": 861,
         "peakRating": 911
       },
       "matches": [
+        {
+          "matchId": 509789681,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:56:23.000Z",
+          "dur": 890,
+          "opponents": [
+            {
+              "profileId": 10245933,
+              "name": "leonhartbk"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508995264,
           "civ": "Britons",
@@ -4058,12 +4075,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 563,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1026,
+        "totalGames": 566,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1077,
         "peakRating": 1162
       },
       "matches": [
+        {
+          "matchId": 509743116,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:42:50.000Z",
+          "dur": 1875,
+          "opponents": [
+            {
+              "profileId": 4775145,
+              "name": "ImFriendly"
+            },
+            {
+              "profileId": 21677775,
+              "name": "Ricardo"
+            },
+            {
+              "profileId": 3121747,
+              "name": "ploumy"
+            },
+            {
+              "profileId": 1787118,
+              "name": "tretts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12347174,
+              "name": "[DdeM] Gordo Pocket"
+            },
+            {
+              "profileId": 2269956,
+              "name": "[DdeM] MaeseMadoc"
+            },
+            {
+              "profileId": 2233752,
+              "name": "[DdeM] leitop"
+            }
+          ]
+        },
+        {
+          "matchId": 509740560,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:30:40.000Z",
+          "dur": 546,
+          "opponents": [
+            {
+              "profileId": 11416048,
+              "name": "apyrupa_LimaH"
+            },
+            {
+              "profileId": 5934250,
+              "name": "apyrupa_NoMercy"
+            },
+            {
+              "profileId": 4873310,
+              "name": "APY_Edilsonnobre"
+            },
+            {
+              "profileId": 388433,
+              "name": "APY_TIAGO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2269956,
+              "name": "[DdeM] MaeseMadoc"
+            },
+            {
+              "profileId": 12347174,
+              "name": "[DdeM] Gordo Pocket"
+            },
+            {
+              "profileId": 2233752,
+              "name": "[DdeM] leitop"
+            }
+          ]
+        },
+        {
+          "matchId": 509736647,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:13:14.000Z",
+          "dur": 878,
+          "opponents": [
+            {
+              "profileId": 17761122,
+              "name": "Dani - Voy Fatal de Recursos"
+            },
+            {
+              "profileId": 5379045,
+              "name": "yellowpig"
+            },
+            {
+              "profileId": 3351820,
+              "name": "metalkannon"
+            },
+            {
+              "profileId": 2146876,
+              "name": "LJF_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2233752,
+              "name": "[DdeM] leitop"
+            },
+            {
+              "profileId": 12347174,
+              "name": "[DdeM] Gordo Pocket"
+            },
+            {
+              "profileId": 2269956,
+              "name": "[DdeM] MaeseMadoc"
+            }
+          ]
+        },
         {
           "matchId": 508103301,
           "civ": "Magyars",
@@ -23307,5 +23450,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

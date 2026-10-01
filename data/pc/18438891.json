@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1054,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 739,
         "peakRating": 981
       },
@@ -16893,12 +16893,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 860,
-        "pulledDate": "2026-09-26",
-        "latestRating": 848,
+        "totalGames": 863,
+        "pulledDate": "2026-10-01",
+        "latestRating": 828,
         "peakRating": 1105
       },
       "matches": [
+        {
+          "matchId": 509879118,
+          "civ": "Burmese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:10:18.000Z",
+          "dur": 1748,
+          "opponents": [
+            {
+              "profileId": 20078257,
+              "name": "dook1e"
+            },
+            {
+              "profileId": 19856984,
+              "name": "k.mardare"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20154394,
+              "name": "alb_236"
+            }
+          ]
+        },
+        {
+          "matchId": 509875152,
+          "civ": "Vietnamese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:48:44.000Z",
+          "dur": 1170,
+          "opponents": [
+            {
+              "profileId": 5252512,
+              "name": "Lazy Red Panda"
+            },
+            {
+              "profileId": 16445894,
+              "name": "nyx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15463648,
+              "name": "jelmermourik"
+            }
+          ]
+        },
+        {
+          "matchId": 509862947,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:32:57.000Z",
+          "dur": 4283,
+          "opponents": [
+            {
+              "profileId": 19639275,
+              "name": "Jedda"
+            },
+            {
+              "profileId": 18301549,
+              "name": "patitocarlos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 259709,
+              "name": "ser jon bon jovi"
+            }
+          ]
+        },
         {
           "matchId": 508667569,
           "civ": "Bengalis",
@@ -41480,5 +41558,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

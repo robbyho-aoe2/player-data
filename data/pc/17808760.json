@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 182,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-01",
         "latestRating": 792,
         "peakRating": 820
       },
@@ -3123,12 +3123,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 27,
-        "pulledDate": "2026-09-24",
-        "latestRating": 947,
+        "totalGames": 28,
+        "pulledDate": "2026-10-01",
+        "latestRating": 931,
         "peakRating": 947
       },
       "matches": [
+        {
+          "matchId": 510126976,
+          "civ": "Ethiopians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:53:00.000Z",
+          "dur": 1666,
+          "opponents": [
+            {
+              "profileId": 1226878,
+              "name": "Crazy Finger"
+            },
+            {
+              "profileId": 578451,
+              "name": "TuProblematicBeb\u00e9"
+            },
+            {
+              "profileId": 797784,
+              "name": "Draek"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 917674,
+              "name": "NordicPain"
+            },
+            {
+              "profileId": 24788727,
+              "name": "xxyvonnederful"
+            }
+          ]
+        },
         {
           "matchId": 508252879,
           "civ": "Aztecs",
@@ -4148,5 +4182,6 @@
   },
   "country": "ua",
   "countryIcon": "\ud83c\uddfa\ud83c\udde6",
-  "countryName": "Ukraine"
+  "countryName": "Ukraine",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 138,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 940,
         "peakRating": 1018
       },
@@ -2280,12 +2280,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 181,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1196,
+        "totalGames": 184,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1182,
         "peakRating": 1234
       },
       "matches": [
+        {
+          "matchId": 510428476,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:30:17.000Z",
+          "dur": 825,
+          "opponents": [
+            {
+              "profileId": 8588401,
+              "name": "Principipe6724"
+            },
+            {
+              "profileId": 2252918,
+              "name": "[MCS]Urlock"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16030510,
+              "name": "[STT]Fe_"
+            }
+          ]
+        },
+        {
+          "matchId": 510425539,
+          "civ": "Goths",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:09:36.000Z",
+          "dur": 1121,
+          "opponents": [
+            {
+              "profileId": 3064960,
+              "name": "Rameranic"
+            },
+            {
+              "profileId": 9705242,
+              "name": "FiveCatsATrebuchetandaDream"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16030510,
+              "name": "[STT]Fe_"
+            }
+          ]
+        },
+        {
+          "matchId": 510420709,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:36:38.000Z",
+          "dur": 1781,
+          "opponents": [
+            {
+              "profileId": 18717621,
+              "name": "Casko"
+            },
+            {
+              "profileId": 18717450,
+              "name": "DiCarrera"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16030510,
+              "name": "[STT]Fe_"
+            }
+          ]
+        },
         {
           "matchId": 509242953,
           "civ": "Malay",
@@ -7462,5 +7540,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

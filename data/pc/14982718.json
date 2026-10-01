@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 738,
-        "pulledDate": "2026-09-15",
-        "latestRating": 1159,
+        "totalGames": 744,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1190,
         "peakRating": 1240
       },
       "matches": [
+        {
+          "matchId": 510145825,
+          "civ": "Vikings",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:28:17.000Z",
+          "dur": 523,
+          "opponents": [
+            {
+              "profileId": 3081809,
+              "name": "Mr.Peabody"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510097617,
+          "civ": "Hindustanis",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:10:19.000Z",
+          "dur": 1915,
+          "opponents": [
+            {
+              "profileId": 2679538,
+              "name": "gyanjo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510091346,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:34:19.000Z",
+          "dur": 1584,
+          "opponents": [
+            {
+              "profileId": 3491775,
+              "name": "Marcos Alves"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510090720,
+          "civ": "Georgians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:30:31.000Z",
+          "dur": 11,
+          "opponents": [
+            {
+              "profileId": 2356924,
+              "name": "Julu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510081958,
+          "civ": "Hindustanis",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:34:15.000Z",
+          "dur": 1708,
+          "opponents": [
+            {
+              "profileId": 791306,
+              "name": "LowEloNOTLegend"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510078139,
+          "civ": "Hindustanis",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:06:23.000Z",
+          "dur": 561,
+          "opponents": [
+            {
+              "profileId": 5100647,
+              "name": "EagleFlies"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506632968,
           "civ": "Hindustanis",
@@ -11872,7 +11974,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 169,
-        "pulledDate": "2026-09-15",
+        "pulledDate": "2026-10-01",
         "latestRating": 1026,
         "peakRating": 1160
       },
@@ -16883,5 +16985,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

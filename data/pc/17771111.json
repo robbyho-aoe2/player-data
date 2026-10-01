@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 205,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-01",
         "latestRating": 1238,
         "peakRating": 1448
       },
@@ -3309,12 +3309,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 630,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1128,
+        "totalGames": 631,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1144,
         "peakRating": 1373
       },
       "matches": [
+        {
+          "matchId": 510335300,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:13:46.000Z",
+          "dur": 1890,
+          "opponents": [
+            {
+              "profileId": 20424153,
+              "name": "\u66e0\u66e0\u66e0\u66e0\u66e0\u66e0\u5de5"
+            },
+            {
+              "profileId": 6786843,
+              "name": "\u5efa\u8208\u6cd5\u5e2b"
+            },
+            {
+              "profileId": 19612739,
+              "name": "\u4f10\u4f10\u4f10\u4f10\u4f10\u6728\u5de5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5653260,
+              "name": "VIETNAMESE GANGZ !!!"
+            },
+            {
+              "profileId": 10288310,
+              "name": "Shoytanbaba99"
+            }
+          ]
+        },
         {
           "matchId": 507710386,
           "civ": "Persians",
@@ -26021,5 +26055,6 @@
   },
   "country": "bd",
   "countryIcon": "\ud83c\udde7\ud83c\udde9",
-  "countryName": "Bangladesh"
+  "countryName": "Bangladesh",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 48,
-        "pulledDate": "2026-09-26",
-        "latestRating": 908,
+        "totalGames": 49,
+        "pulledDate": "2026-10-01",
+        "latestRating": 892,
         "peakRating": 908
       },
       "matches": [
+        {
+          "matchId": 509442362,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T20:07:45.000Z",
+          "dur": 1217,
+          "opponents": [
+            {
+              "profileId": 2213440,
+              "name": "GdN_Steiner"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507393430,
           "civ": "Vikings",
@@ -807,7 +824,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 248,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1153,
         "peakRating": 1219
       },
@@ -9352,5 +9369,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

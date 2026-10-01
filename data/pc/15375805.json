@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 988,
-        "pulledDate": "2026-09-26",
-        "latestRating": 812,
+        "totalGames": 993,
+        "pulledDate": "2026-10-01",
+        "latestRating": 798,
         "peakRating": 908
       },
       "matches": [
+        {
+          "matchId": 510350442,
+          "civ": "Chinese",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:31:48.000Z",
+          "dur": 1474,
+          "opponents": [
+            {
+              "profileId": 23831174,
+              "name": "Ollayo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510302407,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:10:02.000Z",
+          "dur": 2517,
+          "opponents": [
+            {
+              "profileId": 6400347,
+              "name": "LateStarling694"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510132316,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:20:52.000Z",
+          "dur": 1952,
+          "opponents": [
+            {
+              "profileId": 2290074,
+              "name": "Omar III9558"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510126908,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:51:58.000Z",
+          "dur": 1644,
+          "opponents": [
+            {
+              "profileId": 20603128,
+              "name": "Virus 1.4  TURBO Monotributista"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509946166,
+          "civ": "Malians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:42:38.000Z",
+          "dur": 1638,
+          "opponents": [
+            {
+              "profileId": 23278110,
+              "name": "Gorsignol"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509181353,
           "civ": "Chinese",
@@ -15873,7 +15958,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 958,
         "peakRating": 976
       },
@@ -16428,5 +16513,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 585,
         "peakRating": 615
       },
@@ -209,12 +209,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 234,
-        "pulledDate": "2026-09-26",
-        "latestRating": 754,
+        "totalGames": 238,
+        "pulledDate": "2026-10-01",
+        "latestRating": 784,
         "peakRating": 1069
       },
       "matches": [
+        {
+          "matchId": 510319079,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:46:41.000Z",
+          "dur": 2579,
+          "opponents": [
+            {
+              "profileId": 23937753,
+              "name": "\u4e0b\u5317\u6cfd\u306e\u7a81\u51fb\u624b\u5e7f\u4e95"
+            },
+            {
+              "profileId": 4087014,
+              "name": "jaquelinewu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15111048,
+              "name": "Agency ProNoob"
+            }
+          ]
+        },
+        {
+          "matchId": 510311824,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:05:11.000Z",
+          "dur": 2306,
+          "opponents": [
+            {
+              "profileId": 14464993,
+              "name": "uhuku"
+            },
+            {
+              "profileId": 7258285,
+              "name": "Korporaal Langpaal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15111048,
+              "name": "Agency ProNoob"
+            }
+          ]
+        },
+        {
+          "matchId": 510303485,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:17:24.000Z",
+          "dur": 2541,
+          "opponents": [
+            {
+              "profileId": 24120615,
+              "name": "justifie"
+            },
+            {
+              "profileId": 1659726,
+              "name": "All Along the Watchtower"
+            },
+            {
+              "profileId": 2451714,
+              "name": "Captain Klest"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15204036,
+              "name": "Le professeur"
+            },
+            {
+              "profileId": 15111048,
+              "name": "Agency ProNoob"
+            }
+          ]
+        },
+        {
+          "matchId": 510300953,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:01:08.000Z",
+          "dur": 395,
+          "opponents": [
+            {
+              "profileId": 26183852,
+              "name": "ANPC520"
+            },
+            {
+              "profileId": 7556040,
+              "name": "arrebol"
+            },
+            {
+              "profileId": 6421255,
+              "name": "\u5357\u5bab\u807f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15204036,
+              "name": "Le professeur"
+            },
+            {
+              "profileId": 15111048,
+              "name": "Agency ProNoob"
+            }
+          ]
+        },
         {
           "matchId": 508944667,
           "civ": "Britons",
@@ -5141,5 +5261,6 @@
   },
   "country": "ie",
   "countryIcon": "\ud83c\uddee\ud83c\uddea",
-  "countryName": "Ireland"
+  "countryName": "Ireland",
+  "platform": "Steam"
 }

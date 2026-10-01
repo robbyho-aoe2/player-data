@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 61,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1100,
         "peakRating": 1124
       },
@@ -1005,12 +1005,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 170,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1150,
+        "totalGames": 171,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1167,
         "peakRating": 1326
       },
       "matches": [
+        {
+          "matchId": 509457367,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:11:06.000Z",
+          "dur": 2105,
+          "opponents": [
+            {
+              "profileId": 918665,
+              "name": "GREATWHITE"
+            },
+            {
+              "profileId": 3414881,
+              "name": "byzmaster"
+            },
+            {
+              "profileId": 6225741,
+              "name": "kat_not_dog"
+            },
+            {
+              "profileId": 22625558,
+              "name": "NotGG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14646564,
+              "name": "gpal23"
+            },
+            {
+              "profileId": 15307240,
+              "name": "Megatron2002"
+            },
+            {
+              "profileId": 25355157,
+              "name": "hargir"
+            }
+          ]
+        },
         {
           "matchId": 509181985,
           "civ": "Saxons",
@@ -6838,5 +6880,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

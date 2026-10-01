@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1205,
-        "pulledDate": "2026-09-18",
-        "latestRating": 907,
+        "totalGames": 1210,
+        "pulledDate": "2026-10-01",
+        "latestRating": 927,
         "peakRating": 993
       },
       "matches": [
+        {
+          "matchId": 510391203,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:39:31.000Z",
+          "dur": 1346,
+          "opponents": [
+            {
+              "profileId": 2918133,
+              "name": "I_fireblade"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510388728,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:27:50.000Z",
+          "dur": 629,
+          "opponents": [
+            {
+              "profileId": 109847,
+              "name": "generalcyplus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510189147,
+          "civ": "Goths",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:59:51.000Z",
+          "dur": 2053,
+          "opponents": [
+            {
+              "profileId": 275347,
+              "name": "krakentm"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509674561,
+          "civ": "Goths",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:12:10.000Z",
+          "dur": 1182,
+          "opponents": [
+            {
+              "profileId": 12241581,
+              "name": "Primo_Pixha"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509458231,
+          "civ": "Goths",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T21:14:10.000Z",
+          "dur": 2781,
+          "opponents": [
+            {
+              "profileId": 21140521,
+              "name": "King_Reasat"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501084652,
           "civ": "Goths",
@@ -20515,7 +20600,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 424,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-01",
         "latestRating": 999,
         "peakRating": 1105
       },
@@ -33581,5 +33666,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

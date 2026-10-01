@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 24,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-01",
         "latestRating": 1170,
         "peakRating": 1203
       },
@@ -437,12 +437,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 135,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1242,
+        "totalGames": 140,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1156,
         "peakRating": 1269
       },
       "matches": [
+        {
+          "matchId": 509966235,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:19:38.000Z",
+          "dur": 1757,
+          "opponents": [
+            {
+              "profileId": 10837619,
+              "name": "Martin R."
+            },
+            {
+              "profileId": 15205481,
+              "name": "wajtovskej"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13501520,
+              "name": "kinqpinq"
+            }
+          ]
+        },
+        {
+          "matchId": 509961936,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:57:24.000Z",
+          "dur": 721,
+          "opponents": [
+            {
+              "profileId": 2407737,
+              "name": "LA_12_FPS"
+            },
+            {
+              "profileId": 6094769,
+              "name": "guillaumegbzh"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11273384,
+              "name": "wugabor"
+            }
+          ]
+        },
+        {
+          "matchId": 509956572,
+          "civ": "Magyars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:31:15.000Z",
+          "dur": 1446,
+          "opponents": [
+            {
+              "profileId": 3534579,
+              "name": "takego"
+            },
+            {
+              "profileId": 3534555,
+              "name": "Obi Lan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11273384,
+              "name": "wugabor"
+            }
+          ]
+        },
+        {
+          "matchId": 509682511,
+          "civ": "Khmer",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:45:16.000Z",
+          "dur": 1789,
+          "opponents": [
+            {
+              "profileId": 4763611,
+              "name": "TEEdigz"
+            },
+            {
+              "profileId": 5126952,
+              "name": "HeyZeusHayden"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3629306,
+              "name": "Nightwraith"
+            }
+          ]
+        },
+        {
+          "matchId": 509666580,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:40:21.000Z",
+          "dur": 1429,
+          "opponents": [
+            {
+              "profileId": 1930219,
+              "name": "TnT55"
+            },
+            {
+              "profileId": 3300594,
+              "name": "Juhis92"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1430956,
+              "name": "romoletto609"
+            }
+          ]
+        },
         {
           "matchId": 507836953,
           "civ": "Hindustanis",
@@ -3958,5 +4088,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

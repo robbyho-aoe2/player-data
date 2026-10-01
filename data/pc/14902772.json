@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 854,
         "peakRating": 862
       },
@@ -397,12 +397,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1831,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1219,
+        "totalGames": 1834,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1204,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 510091357,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:34:29.000Z",
+          "dur": 1370,
+          "opponents": [
+            {
+              "profileId": 25437833,
+              "name": "8316699"
+            },
+            {
+              "profileId": 21649745,
+              "name": "\u7528\u7231\u611f\u5316\u961f\u53cb"
+            },
+            {
+              "profileId": 3393362,
+              "name": "Aczino"
+            },
+            {
+              "profileId": 359394,
+              "name": "IrR\u00e9elle"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5324654,
+              "name": "Haniek!!"
+            },
+            {
+              "profileId": 2648503,
+              "name": "taerue"
+            },
+            {
+              "profileId": 449081,
+              "name": "AoM92"
+            }
+          ]
+        },
+        {
+          "matchId": 510083464,
+          "civ": "Armenians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:44:46.000Z",
+          "dur": 2357,
+          "opponents": [
+            {
+              "profileId": 725926,
+              "name": "MegaPanda"
+            },
+            {
+              "profileId": 17803574,
+              "name": "\u65b0\u624b\u6751\u4e94\u56db"
+            },
+            {
+              "profileId": 9732764,
+              "name": "dipsh*t"
+            },
+            {
+              "profileId": 4000615,
+              "name": "nanbo1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22162602,
+              "name": "GaloDoido"
+            },
+            {
+              "profileId": 153,
+              "name": "Mknolix"
+            },
+            {
+              "profileId": 1602428,
+              "name": "Ace"
+            }
+          ]
+        },
+        {
+          "matchId": 510080199,
+          "civ": "Hindustanis",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:21:48.000Z",
+          "dur": 1150,
+          "opponents": [
+            {
+              "profileId": 1531792,
+              "name": "Pos3YDoN86"
+            },
+            {
+              "profileId": 2385419,
+              "name": "WiSeMaN"
+            },
+            {
+              "profileId": 4296280,
+              "name": "nikos9730"
+            },
+            {
+              "profileId": 1159380,
+              "name": "Finn4n"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4951209,
+              "name": "game 4 fun"
+            },
+            {
+              "profileId": 24246364,
+              "name": "\u5b89\u9038"
+            },
+            {
+              "profileId": 1421079,
+              "name": "_OMO_"
+            }
+          ]
+        },
         {
           "matchId": 509284547,
           "civ": "Goths",
@@ -67572,5 +67698,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

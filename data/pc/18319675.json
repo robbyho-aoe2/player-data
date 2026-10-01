@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 61,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1473,
         "peakRating": 1473
       },
@@ -1009,12 +1009,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1726,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1649,
+        "totalGames": 1727,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1639,
         "peakRating": 1664
       },
       "matches": [
+        {
+          "matchId": 510049219,
+          "civ": "Bulgarians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:09:54.000Z",
+          "dur": 1626,
+          "opponents": [
+            {
+              "profileId": 9998167,
+              "name": "CL_lorecs"
+            },
+            {
+              "profileId": 9770338,
+              "name": "VX_Zoschenko"
+            },
+            {
+              "profileId": 8588069,
+              "name": "Miss_Xue"
+            },
+            {
+              "profileId": 2114185,
+              "name": "VIPN@U"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2674743,
+              "name": "\u9f20\u689d"
+            },
+            {
+              "profileId": 475826,
+              "name": "Timbrhoggvandi"
+            },
+            {
+              "profileId": 311126,
+              "name": "(^)(;,,;)(^)"
+            }
+          ]
+        },
         {
           "matchId": 508641989,
           "civ": "Tatars",
@@ -71813,5 +71855,6 @@
   },
   "country": "jp",
   "countryIcon": "\ud83c\uddef\ud83c\uddf5",
-  "countryName": "Japan"
+  "countryName": "Japan",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 110,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1049,
         "peakRating": 1049
       },
@@ -1789,12 +1789,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 995,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1227,
+        "totalGames": 996,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1210,
         "peakRating": 1298
       },
       "matches": [
+        {
+          "matchId": 509990415,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:46:31.000Z",
+          "dur": 2017,
+          "opponents": [
+            {
+              "profileId": 25855960,
+              "name": "grain8720"
+            },
+            {
+              "profileId": 6014062,
+              "name": "AOE2 Gabrivet7"
+            },
+            {
+              "profileId": 4579044,
+              "name": "Big Testicles"
+            },
+            {
+              "profileId": 1881158,
+              "name": "Z\u00e9 Gui"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22027249,
+              "name": "matt.rielly.lewis"
+            },
+            {
+              "profileId": 14515185,
+              "name": "0Atlas0"
+            },
+            {
+              "profileId": 10746468,
+              "name": "gaurioles"
+            }
+          ]
+        },
         {
           "matchId": 509371916,
           "civ": "Burgundians",
@@ -40768,5 +40810,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

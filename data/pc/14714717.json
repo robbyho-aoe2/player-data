@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 208,
-        "pulledDate": "2026-09-25",
-        "latestRating": 795,
+        "totalGames": 209,
+        "pulledDate": "2026-10-01",
+        "latestRating": 781,
         "peakRating": 918
       },
       "matches": [
+        {
+          "matchId": 510074468,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:35:46.000Z",
+          "dur": 3073,
+          "opponents": [
+            {
+              "profileId": 6170879,
+              "name": "ToweleeTowel TTV M"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507922881,
           "civ": "Bulgarians",
@@ -3565,12 +3582,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 161,
-        "pulledDate": "2026-09-25",
-        "latestRating": 726,
+        "totalGames": 162,
+        "pulledDate": "2026-10-01",
+        "latestRating": 742,
         "peakRating": 940
       },
       "matches": [
+        {
+          "matchId": 510069736,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:55:06.000Z",
+          "dur": 364,
+          "opponents": [
+            {
+              "profileId": 26148309,
+              "name": "???"
+            },
+            {
+              "profileId": 9068884,
+              "name": "RYOUSHI HAN"
+            },
+            {
+              "profileId": 21235600,
+              "name": "Crush"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5200883,
+              "name": "Cigarette Lobster"
+            },
+            {
+              "profileId": 25460057,
+              "name": "2769166824"
+            }
+          ]
+        },
         {
           "matchId": 508162949,
           "civ": "Ethiopians",
@@ -8794,5 +8845,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

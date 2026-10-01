@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-12"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1416,
-        "pulledDate": "2026-09-12",
-        "latestRating": 1647,
+        "totalGames": 1420,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1641,
         "peakRating": 1765
       },
       "matches": [
+        {
+          "matchId": 510386864,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:18:39.000Z",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 21577044,
+              "name": "No Pauses"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509926562,
+          "civ": "Romans",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:15:46.000Z",
+          "dur": 826,
+          "opponents": [
+            {
+              "profileId": 2965011,
+              "name": "Morso"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509924465,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:05:31.000Z",
+          "dur": 502,
+          "opponents": [
+            {
+              "profileId": 3508796,
+              "name": "hK | TwisteR"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509431407,
+          "civ": "Malay",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:22:16.000Z",
+          "dur": 920,
+          "opponents": [
+            {
+              "profileId": 9778454,
+              "name": "norvel"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 490898029,
           "civ": "Tatars",
@@ -22686,7 +22754,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 273,
-        "pulledDate": "2026-09-12",
+        "pulledDate": "2026-10-01",
         "latestRating": 1408,
         "peakRating": 1408
       },
@@ -29973,5 +30041,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

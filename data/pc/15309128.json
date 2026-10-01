@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 50,
-        "pulledDate": "2026-09-19",
+        "pulledDate": "2026-10-01",
         "latestRating": 1297,
         "peakRating": 1313
       },
@@ -879,12 +879,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1339,
-        "pulledDate": "2026-09-19",
-        "latestRating": 1455,
+        "totalGames": 1340,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1439,
         "peakRating": 1538
       },
       "matches": [
+        {
+          "matchId": 510305474,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:30:01.000Z",
+          "dur": 1535,
+          "opponents": [
+            {
+              "profileId": 4137659,
+              "name": "\u521d\u4e2d\u738b"
+            },
+            {
+              "profileId": 11551814,
+              "name": "Lightning"
+            },
+            {
+              "profileId": 6210868,
+              "name": "\u62f3\u6597\u90e8\u8bd7\u4eba\u2014\u83dc\u6851"
+            },
+            {
+              "profileId": 7346842,
+              "name": "\u6912\u9999\u4e09\u89d2\u94c1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5721740,
+              "name": "FF\u718a\u718a"
+            },
+            {
+              "profileId": 3445939,
+              "name": "La.Reina.de.Once"
+            },
+            {
+              "profileId": 9128673,
+              "name": "TW_\u5f70\u5316\u4eba"
+            }
+          ]
+        },
         {
           "matchId": 506840990,
           "civ": "Spanish",
@@ -57128,5 +57170,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

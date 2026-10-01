@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 372,
-        "pulledDate": "2026-09-15",
-        "latestRating": 1080,
+        "totalGames": 373,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1065,
         "peakRating": 1268
       },
       "matches": [
+        {
+          "matchId": 509745030,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:51:15.000Z",
+          "dur": 1736,
+          "opponents": [
+            {
+              "profileId": 18750737,
+              "name": "Ph1l"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506758035,
           "civ": "Byzantines",
@@ -6354,7 +6371,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 93,
-        "pulledDate": "2026-09-15",
+        "pulledDate": "2026-10-01",
         "latestRating": 929,
         "peakRating": 1037
       },
@@ -9478,5 +9495,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Xbox"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1478,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1330,
+        "totalGames": 1482,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1362,
         "peakRating": 1392
       },
       "matches": [
+        {
+          "matchId": 510411549,
+          "civ": "Bengalis",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:37:55.000Z",
+          "dur": 1974,
+          "opponents": [
+            {
+              "profileId": 5300486,
+              "name": "Sun Tzu 1337"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510407342,
+          "civ": "Mongols",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:11:07.000Z",
+          "dur": 1501,
+          "opponents": [
+            {
+              "profileId": 2974531,
+              "name": "Baron Hirsch"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510404420,
+          "civ": "Koreans",
+          "map": "Northern Isles",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:53:32.000Z",
+          "dur": 1010,
+          "opponents": [
+            {
+              "profileId": 1114186,
+              "name": "dave2g"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510359199,
+          "civ": "Koreans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:15:13.000Z",
+          "dur": 1404,
+          "opponents": [
+            {
+              "profileId": 2964230,
+              "name": "Daniel"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508748777,
           "civ": "Koreans",
@@ -23808,12 +23876,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 553,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1369,
+        "totalGames": 554,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1378,
         "peakRating": 1460
       },
       "matches": [
+        {
+          "matchId": 510416962,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:13:25.000Z",
+          "dur": 1578,
+          "opponents": [
+            {
+              "profileId": 3289086,
+              "name": "AgateBeret46004"
+            },
+            {
+              "profileId": 8817282,
+              "name": "GO_ShadowStallion"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3135398,
+              "name": "molina_229"
+            }
+          ]
+        },
         {
           "matchId": 508693838,
           "civ": "Koreans",
@@ -41623,5 +41717,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

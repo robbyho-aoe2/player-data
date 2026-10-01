@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1026,
         "peakRating": 1074
       },
@@ -461,12 +461,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 450,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1217,
+        "totalGames": 453,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1204,
         "peakRating": 1290
       },
       "matches": [
+        {
+          "matchId": 510361645,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:26:37.000Z",
+          "dur": 1949,
+          "opponents": [
+            {
+              "profileId": 9922878,
+              "name": "xavii"
+            },
+            {
+              "profileId": 10011245,
+              "name": "Fuzboss"
+            },
+            {
+              "profileId": 11669770,
+              "name": "\u866b"
+            },
+            {
+              "profileId": 11928366,
+              "name": "Flamenquin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23779854,
+              "name": "Dr. Watson"
+            },
+            {
+              "profileId": 1153965,
+              "name": "FAKE CARACODUENDE"
+            },
+            {
+              "profileId": 19526392,
+              "name": "Berenjena"
+            }
+          ]
+        },
+        {
+          "matchId": 510355280,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:56:53.000Z",
+          "dur": 1609,
+          "opponents": [
+            {
+              "profileId": 1846239,
+              "name": "Herbert Prohaska"
+            },
+            {
+              "profileId": 5880156,
+              "name": "\u82f9\u679c\u7838\u6b7b\u725b\u987f"
+            },
+            {
+              "profileId": 5914837,
+              "name": "Paarradisel"
+            },
+            {
+              "profileId": 15185652,
+              "name": "suny619"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2352637,
+              "name": "Cabeza"
+            },
+            {
+              "profileId": 1153965,
+              "name": "FAKE CARACODUENDE"
+            },
+            {
+              "profileId": 178118,
+              "name": "RoaZorro"
+            }
+          ]
+        },
+        {
+          "matchId": 510347521,
+          "civ": "Celts",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:17:17.000Z",
+          "dur": 2237,
+          "opponents": [
+            {
+              "profileId": 25939430,
+              "name": "\u79cd\u7530\u4f7f\u6211\u5feb\u4e50"
+            },
+            {
+              "profileId": 23538935,
+              "name": "\u80a5\u80a0\u62cc\u9762"
+            },
+            {
+              "profileId": 20760390,
+              "name": "6988"
+            },
+            {
+              "profileId": 25999925,
+              "name": "\u65f6\u5c1a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3042492,
+              "name": "\u6211\u5f88\u725b\u903c"
+            },
+            {
+              "profileId": 5880156,
+              "name": "\u82f9\u679c\u7838\u6b7b\u725b\u987f"
+            },
+            {
+              "profileId": 1153965,
+              "name": "FAKE CARACODUENDE"
+            }
+          ]
+        },
         {
           "matchId": 508799798,
           "civ": "Celts",
@@ -15605,5 +15731,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

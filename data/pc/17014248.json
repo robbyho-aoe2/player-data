@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 674,
         "peakRating": 674
       },
@@ -1220,12 +1220,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1514,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1163,
+        "totalGames": 1516,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1196,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 510176107,
+          "civ": "Huns",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:47:22.000Z",
+          "dur": 1815,
+          "opponents": [
+            {
+              "profileId": 15717181,
+              "name": "KFC DIRECTOR"
+            },
+            {
+              "profileId": 15087764,
+              "name": "THEDEEPSE4 KING"
+            },
+            {
+              "profileId": 12460348,
+              "name": "JANGEL4107"
+            },
+            {
+              "profileId": 2466314,
+              "name": "Zizzle4879"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25467618,
+              "name": "bumbsbomba74"
+            },
+            {
+              "profileId": 10633745,
+              "name": "Sir_FatLion"
+            },
+            {
+              "profileId": 6927050,
+              "name": "Tada"
+            }
+          ]
+        },
+        {
+          "matchId": 509743583,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:44:59.000Z",
+          "dur": 1756,
+          "opponents": [
+            {
+              "profileId": 826435,
+              "name": "Salty"
+            },
+            {
+              "profileId": 4660886,
+              "name": "theDude"
+            },
+            {
+              "profileId": 6450920,
+              "name": "\u2020 Yatugrat \u2020"
+            },
+            {
+              "profileId": 9496304,
+              "name": "lord_blandon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3112193,
+              "name": "JPR2405"
+            },
+            {
+              "profileId": 10809576,
+              "name": "PuneMahaWarrior"
+            },
+            {
+              "profileId": 23182126,
+              "name": "juan.baldez"
+            }
+          ]
+        },
         {
           "matchId": 508327682,
           "civ": "Huns",
@@ -61799,5 +61883,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

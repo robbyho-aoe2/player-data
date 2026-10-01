@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1184,
         "peakRating": 1210
       },
@@ -301,12 +301,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 882,
-        "pulledDate": "2026-09-26",
+        "totalGames": 883,
+        "pulledDate": "2026-10-01",
         "latestRating": 1050,
         "peakRating": 1227
       },
       "matches": [
+        {
+          "matchId": 510430450,
+          "civ": "Turks",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:42:29.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 5667402,
+              "name": "maxibram"
+            },
+            {
+              "profileId": 18497668,
+              "name": "NIXXT103"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5899967,
+              "name": "Almendra"
+            }
+          ]
+        },
         {
           "matchId": 509254011,
           "civ": "Turks",
@@ -22397,5 +22423,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

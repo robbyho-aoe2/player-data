@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2716,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1144,
+        "totalGames": 2721,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1190,
         "peakRating": 1256
       },
       "matches": [
+        {
+          "matchId": 510260147,
+          "civ": "Romans",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:29:06.000Z",
+          "dur": 1506,
+          "opponents": [
+            {
+              "profileId": 16799613,
+              "name": "Romanido"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510256926,
+          "civ": "Wei",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T05:57:01.000Z",
+          "dur": 1853,
+          "opponents": [
+            {
+              "profileId": 16799613,
+              "name": "Romanido"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510254370,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T05:27:51.000Z",
+          "dur": 1687,
+          "opponents": [
+            {
+              "profileId": 2551700,
+              "name": "sth"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510252322,
+          "civ": "Burmese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T05:08:54.000Z",
+          "dur": 1095,
+          "opponents": [
+            {
+              "profileId": 951050,
+              "name": "pix78"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510249120,
+          "civ": "Italians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T04:39:34.000Z",
+          "dur": 1685,
+          "opponents": [
+            {
+              "profileId": 1306261,
+              "name": "Brian"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508919684,
           "civ": "Spanish",
@@ -46202,7 +46287,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 233,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1239,
         "peakRating": 1317
       },
@@ -52382,5 +52467,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

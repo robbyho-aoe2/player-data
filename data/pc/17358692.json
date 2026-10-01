@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 25,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 827,
         "peakRating": 887
       },
@@ -454,12 +454,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 67,
-        "pulledDate": "2026-09-26",
-        "latestRating": 862,
+        "totalGames": 70,
+        "pulledDate": "2026-10-01",
+        "latestRating": 880,
         "peakRating": 964
       },
       "matches": [
+        {
+          "matchId": 510402258,
+          "civ": "Koreans",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:40:56.000Z",
+          "dur": 1968,
+          "opponents": [
+            {
+              "profileId": 10005147,
+              "name": "HaseN"
+            },
+            {
+              "profileId": 10072911,
+              "name": "PUMA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18981008,
+              "name": "Ortegasmo 14"
+            }
+          ]
+        },
+        {
+          "matchId": 510367582,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:53:39.000Z",
+          "dur": 2281,
+          "opponents": [
+            {
+              "profileId": 5428476,
+              "name": "BattleCrap"
+            },
+            {
+              "profileId": 4818453,
+              "name": "DONtheDON"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24655740,
+              "name": "Santypg29"
+            }
+          ]
+        },
+        {
+          "matchId": 510355559,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:58:24.000Z",
+          "dur": 2032,
+          "opponents": [
+            {
+              "profileId": 7710215,
+              "name": "Sellou 18"
+            },
+            {
+              "profileId": 127177,
+              "name": "ZerynoX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5724878,
+              "name": "Zarathustra"
+            }
+          ]
+        },
         {
           "matchId": 509343508,
           "civ": "Teutons",
@@ -2431,5 +2509,6 @@
   },
   "country": "uy",
   "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
-  "countryName": "Uruguay"
+  "countryName": "Uruguay",
+  "platform": "Steam"
 }

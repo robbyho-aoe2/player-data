@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1,
-        "pulledDate": "2026-09-26",
-        "peakRating": 1258,
-        "latestRating": 1258
+        "totalGames": 3,
+        "pulledDate": "2026-10-01",
+        "peakRating": 1272,
+        "latestRating": 1259
       },
       "matches": [
+        {
+          "matchId": 510406882,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:07:59.000Z",
+          "dur": 1597,
+          "opponents": [
+            {
+              "profileId": 4985036,
+              "name": "Satellites of Heaven"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510404192,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:51:29.000Z",
+          "dur": 851,
+          "opponents": [
+            {
+              "profileId": 24980729,
+              "name": "ihate"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503243869,
           "civ": "Maya",
@@ -46,12 +80,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 43,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1322,
+        "totalGames": 46,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1318,
         "peakRating": 1386
       },
       "matches": [
+        {
+          "matchId": 510426262,
+          "civ": "Tupi",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:14:54.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 1582284,
+              "name": "Swordfish"
+            },
+            {
+              "profileId": 21888581,
+              "name": "nchan55"
+            },
+            {
+              "profileId": 12127929,
+              "name": "Embatlemage67"
+            },
+            {
+              "profileId": 6014769,
+              "name": "rubenb"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2818061,
+              "name": "[PVS] Manu_X"
+            },
+            {
+              "profileId": 15697608,
+              "name": "[PVS] SpartacoUsd"
+            },
+            {
+              "profileId": 5131626,
+              "name": "Komugii"
+            }
+          ]
+        },
+        {
+          "matchId": 510420642,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:36:49.000Z",
+          "dur": 2085,
+          "opponents": [
+            {
+              "profileId": 18589166,
+              "name": "TiraFlechas1861"
+            },
+            {
+              "profileId": 16158836,
+              "name": "Sabio Pervertido"
+            },
+            {
+              "profileId": 1508591,
+              "name": "Fetz - hotlap.fr"
+            },
+            {
+              "profileId": 9888472,
+              "name": "MERA_elBalma"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15697608,
+              "name": "[PVS] SpartacoUsd"
+            },
+            {
+              "profileId": 2818061,
+              "name": "[PVS] Manu_X"
+            },
+            {
+              "profileId": 5131626,
+              "name": "Komugii"
+            }
+          ]
+        },
+        {
+          "matchId": 510237825,
+          "civ": "Tupi",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:11:42.000Z",
+          "dur": 1619,
+          "opponents": [
+            {
+              "profileId": 2013083,
+              "name": "noumha"
+            },
+            {
+              "profileId": 4446106,
+              "name": "G31GER"
+            },
+            {
+              "profileId": 4680017,
+              "name": "GareBear330"
+            },
+            {
+              "profileId": 5864544,
+              "name": "\u5feb\u6a02 543"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20374096,
+              "name": "Valquian"
+            },
+            {
+              "profileId": 278125,
+              "name": "Leoo"
+            },
+            {
+              "profileId": 11180762,
+              "name": "Nitto"
+            }
+          ]
+        },
         {
           "matchId": 509264167,
           "civ": "Britons",
@@ -1056,5 +1216,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

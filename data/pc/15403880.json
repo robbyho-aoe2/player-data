@@ -6,25 +6,195 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3943,
-        "pulledDate": "2026-09-23",
-        "latestRating": 710,
+        "totalGames": 3953,
+        "pulledDate": "2026-10-01",
+        "latestRating": 765,
         "peakRating": 987
       },
       "matches": [
+        {
+          "matchId": 510371542,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:10:21.000Z",
+          "dur": 988,
+          "opponents": [
+            {
+              "profileId": 25081165,
+              "name": "juarez.ruiz.jesus.angell"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510360607,
+          "civ": "Goths",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:20:48.000Z",
+          "dur": 703,
+          "opponents": [
+            {
+              "profileId": 22308430,
+              "name": "janibras"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510283075,
+          "civ": "Vietnamese",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:38:16.000Z",
+          "dur": 1014,
+          "opponents": [
+            {
+              "profileId": 5287804,
+              "name": "bacondesm"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510282719,
+          "civ": "Bulgarians",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:34:23.000Z",
+          "dur": 163,
+          "opponents": [
+            {
+              "profileId": 10270643,
+              "name": "Naxeete"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510270952,
+          "civ": "Poles",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:28:05.000Z",
+          "dur": 1924,
+          "opponents": [
+            {
+              "profileId": 3721471,
+              "name": "agrocks89"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510270534,
+          "civ": "Franks",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:23:35.000Z",
+          "dur": 236,
+          "opponents": [
+            {
+              "profileId": 25515365,
+              "name": "Cosecant"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510264229,
+          "civ": "Burgundians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T07:13:43.000Z",
+          "dur": 1594,
+          "opponents": [
+            {
+              "profileId": 555045,
+              "name": "yusadincay"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510082452,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:37:03.000Z",
+          "dur": 1130,
+          "opponents": [
+            {
+              "profileId": 4714959,
+              "name": "TactlessSpartan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510080263,
+          "civ": "Berbers",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:21:36.000Z",
+          "dur": 716,
+          "opponents": [
+            {
+              "profileId": 15396644,
+              "name": "hyoga"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510080106,
+          "civ": "Khmer",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:20:04.000Z",
+          "dur": 30,
+          "opponents": [
+            {
+              "profileId": 26124287,
+              "name": "\u54c4\u597d\u961f\u53cb\u5c31\u80fd\u8d62"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508417385,
           "civ": "Vietnamese",
@@ -63264,12 +63434,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     }
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

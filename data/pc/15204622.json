@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 834,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1458,
         "peakRating": 1458
       },
@@ -13439,12 +13439,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1289,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1576,
-        "peakRating": 1594
+        "totalGames": 1292,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1601,
+        "peakRating": 1601
       },
       "matches": [
+        {
+          "matchId": 509894368,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:32:13.000Z",
+          "dur": 1757,
+          "opponents": [
+            {
+              "profileId": 314085,
+              "name": "hoot"
+            },
+            {
+              "profileId": 17016335,
+              "name": "Lil Fabrice"
+            },
+            {
+              "profileId": 5957596,
+              "name": "\u982d\u9435\u6295\u77f3\u6a5f"
+            },
+            {
+              "profileId": 1167872,
+              "name": "JohnnySniper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24185476,
+              "name": "Jian Hei"
+            },
+            {
+              "profileId": 13831979,
+              "name": "TW_andy.fet"
+            },
+            {
+              "profileId": 3193786,
+              "name": "TW_HIHAO"
+            }
+          ]
+        },
+        {
+          "matchId": 509892224,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:20:52.000Z",
+          "dur": 544,
+          "opponents": [
+            {
+              "profileId": 1356116,
+              "name": "chuoi"
+            },
+            {
+              "profileId": 10879593,
+              "name": "DL-Empty"
+            },
+            {
+              "profileId": 4234793,
+              "name": "VNS_Alibaba_"
+            },
+            {
+              "profileId": 2684624,
+              "name": "Seohyun de thuong lam ne`"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24185476,
+              "name": "Jian Hei"
+            },
+            {
+              "profileId": 13831979,
+              "name": "TW_andy.fet"
+            },
+            {
+              "profileId": 3193786,
+              "name": "TW_HIHAO"
+            }
+          ]
+        },
+        {
+          "matchId": 509888833,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:02:42.000Z",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 1684824,
+              "name": "\u9ed8\u9ed8\u9ed8\u9ed8\u9ed8"
+            },
+            {
+              "profileId": 23929069,
+              "name": "\u6ce2\u65af\u5c0f\u8c61"
+            },
+            {
+              "profileId": 16934643,
+              "name": "Kevin\u7684\u4e0b\u5206\u5c0f\u5e6b\u624b"
+            },
+            {
+              "profileId": 4133431,
+              "name": "Kevin10_7414"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24185476,
+              "name": "Jian Hei"
+            },
+            {
+              "profileId": 13831979,
+              "name": "TW_andy.fet"
+            },
+            {
+              "profileId": 3193786,
+              "name": "TW_HIHAO"
+            }
+          ]
+        },
         {
           "matchId": 508913443,
           "civ": "Spanish",
@@ -55787,5 +55913,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

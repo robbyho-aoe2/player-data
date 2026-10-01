@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 42,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 979,
         "peakRating": 979
       },
@@ -743,12 +743,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 378,
-        "pulledDate": "2026-09-23",
-        "latestRating": 989,
+        "totalGames": 380,
+        "pulledDate": "2026-10-01",
+        "latestRating": 959,
         "peakRating": 1085
       },
       "matches": [
+        {
+          "matchId": 509694349,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:30:21.000Z",
+          "dur": 1479,
+          "opponents": [
+            {
+              "profileId": 24234057,
+              "name": "\u53fd\u91cc\u5495\u565c\u8bf4\u5565\u5462"
+            },
+            {
+              "profileId": 15760587,
+              "name": "NeeoNone"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3975854,
+              "name": "1Eisb\u00e4r2"
+            }
+          ]
+        },
+        {
+          "matchId": 509686384,
+          "civ": "Slavs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:00:39.000Z",
+          "dur": 1869,
+          "opponents": [
+            {
+              "profileId": 1378735,
+              "name": "alabataille"
+            },
+            {
+              "profileId": 17600697,
+              "name": "78!SATTACk08"
+            },
+            {
+              "profileId": 18055038,
+              "name": "layuyimartine"
+            },
+            {
+              "profileId": 2799746,
+              "name": "Lilygold"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23317510,
+              "name": "DR GUS GLITTERGELPEN BILDORDER \u2167"
+            },
+            {
+              "profileId": 12990420,
+              "name": "Machetekills135"
+            },
+            {
+              "profileId": 11962723,
+              "name": "tboss"
+            }
+          ]
+        },
         {
           "matchId": 507882044,
           "civ": "Georgians",
@@ -13102,5 +13170,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

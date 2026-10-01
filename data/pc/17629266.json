@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 746,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1206,
+        "totalGames": 748,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1191,
         "peakRating": 1218
       },
       "matches": [
+        {
+          "matchId": 510383522,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:04:04.000Z",
+          "dur": 1544,
+          "opponents": [
+            {
+              "profileId": 6064001,
+              "name": "luchobruno2349"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509428731,
+          "civ": "Lithuanians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:10:30.000Z",
+          "dur": 1178,
+          "opponents": [
+            {
+              "profileId": 791306,
+              "name": "LowEloNOTLegend"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509424698,
           "civ": "Sicilians",
@@ -12711,12 +12745,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 670,
-        "pulledDate": "2026-09-26",
-        "latestRating": 991,
+        "totalGames": 673,
+        "pulledDate": "2026-10-01",
+        "latestRating": 978,
         "peakRating": 1089
       },
       "matches": [
+        {
+          "matchId": 510365217,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:42:50.000Z",
+          "dur": 1631,
+          "opponents": [
+            {
+              "profileId": 24517610,
+              "name": "aHuRa_zg82"
+            },
+            {
+              "profileId": 20575915,
+              "name": "Auditor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1153649,
+              "name": "Ka\u00efser"
+            }
+          ]
+        },
+        {
+          "matchId": 509911090,
+          "civ": "Portuguese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:00:36.000Z",
+          "dur": 1565,
+          "opponents": [
+            {
+              "profileId": 388124,
+              "name": "Negbert"
+            },
+            {
+              "profileId": 371085,
+              "name": "Kvintus pappa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1153649,
+              "name": "Ka\u00efser"
+            }
+          ]
+        },
+        {
+          "matchId": 509906260,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:35:24.000Z",
+          "dur": 1263,
+          "opponents": [
+            {
+              "profileId": 3045446,
+              "name": "!"
+            },
+            {
+              "profileId": 281427,
+              "name": "BUFANDA DE RICOTTA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1153649,
+              "name": "Ka\u00efser"
+            }
+          ]
+        },
         {
           "matchId": 509390158,
           "civ": "Ethiopians",
@@ -37734,5 +37846,6 @@
   },
   "country": "tn",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf3",
-  "countryName": "Tunisia"
+  "countryName": "Tunisia",
+  "platform": "Steam"
 }

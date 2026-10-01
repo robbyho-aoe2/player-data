@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 132,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1147,
         "peakRating": 1208
       },
@@ -2273,12 +2273,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 795,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1160,
+        "totalGames": 800,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1146,
         "peakRating": 1275
       },
       "matches": [
+        {
+          "matchId": 509667798,
+          "civ": "Turks",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:45:18.000Z",
+          "dur": 1065,
+          "opponents": [
+            {
+              "profileId": 5885105,
+              "name": "thepeiru"
+            },
+            {
+              "profileId": 22059940,
+              "name": "LLBHLJ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17821267,
+              "name": "SaDz"
+            }
+          ]
+        },
+        {
+          "matchId": 509655824,
+          "civ": "Chinese",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:56:09.000Z",
+          "dur": 2640,
+          "opponents": [
+            {
+              "profileId": 2986417,
+              "name": "Rbensinhop"
+            },
+            {
+              "profileId": 3000031,
+              "name": "$$ Xeba $$ :D"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17821267,
+              "name": "SaDz"
+            }
+          ]
+        },
+        {
+          "matchId": 509646983,
+          "civ": "Chinese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:19:54.000Z",
+          "dur": 2025,
+          "opponents": [
+            {
+              "profileId": 25343001,
+              "name": "Leetz"
+            },
+            {
+              "profileId": 319311,
+              "name": "Ellie"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17821267,
+              "name": "SaDz"
+            }
+          ]
+        },
+        {
+          "matchId": 509641545,
+          "civ": "Saracens",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:58:43.000Z",
+          "dur": 1103,
+          "opponents": [
+            {
+              "profileId": 5625230,
+              "name": "MehTy"
+            },
+            {
+              "profileId": 5884896,
+              "name": "s m i f f y"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17821267,
+              "name": "SaDz"
+            }
+          ]
+        },
+        {
+          "matchId": 509640251,
+          "civ": "Chinese",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:53:10.000Z",
+          "dur": 57,
+          "opponents": [
+            {
+              "profileId": 5282448,
+              "name": "El Loco Blanco"
+            },
+            {
+              "profileId": 2884953,
+              "name": "Emi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17821267,
+              "name": "SaDz"
+            }
+          ]
+        },
         {
           "matchId": 509397866,
           "civ": "Japanese",
@@ -23474,5 +23604,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

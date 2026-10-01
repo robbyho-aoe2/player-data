@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 366,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1325,
         "peakRating": 1340
       },
@@ -5885,12 +5885,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2082,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1237,
+        "totalGames": 2085,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1259,
         "peakRating": 1436
       },
       "matches": [
+        {
+          "matchId": 510190419,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:08:57.000Z",
+          "dur": 1321,
+          "opponents": [
+            {
+              "profileId": 2466314,
+              "name": "Zizzle4879"
+            },
+            {
+              "profileId": 24231426,
+              "name": "Necrocat219"
+            },
+            {
+              "profileId": 9645493,
+              "name": "EightyNine"
+            },
+            {
+              "profileId": 5021364,
+              "name": "KZA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23980913,
+              "name": "jp.manhaes94"
+            },
+            {
+              "profileId": 10623388,
+              "name": "\u4f59\u6deenb"
+            },
+            {
+              "profileId": 5067342,
+              "name": "North Star"
+            }
+          ]
+        },
+        {
+          "matchId": 510068999,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:47:43.000Z",
+          "dur": 1038,
+          "opponents": [
+            {
+              "profileId": 854640,
+              "name": "engarvi"
+            },
+            {
+              "profileId": 5291516,
+              "name": "pataka"
+            },
+            {
+              "profileId": 3833025,
+              "name": "Hellsentry"
+            },
+            {
+              "profileId": 744704,
+              "name": "Shadyferonia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25642880,
+              "name": "WOLF"
+            },
+            {
+              "profileId": 20524164,
+              "name": "2067"
+            },
+            {
+              "profileId": 6029298,
+              "name": "Oliver"
+            }
+          ]
+        },
+        {
+          "matchId": 510066361,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:20:08.000Z",
+          "dur": 1460,
+          "opponents": [
+            {
+              "profileId": 25642880,
+              "name": "WOLF"
+            },
+            {
+              "profileId": 21104698,
+              "name": "\u4e0b\u96e8\u5929\u3002\u3002\u3002\u3002"
+            },
+            {
+              "profileId": 18772000,
+              "name": "CARBONARAYOYO"
+            },
+            {
+              "profileId": 18265029,
+              "name": "cgan13289"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 854640,
+              "name": "engarvi"
+            },
+            {
+              "profileId": 20524164,
+              "name": "2067"
+            },
+            {
+              "profileId": 3312325,
+              "name": "The Gravekeeper"
+            }
+          ]
+        },
         {
           "matchId": 508969384,
           "civ": "Bohemians",
@@ -85916,5 +86042,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

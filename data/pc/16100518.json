@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 780,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 889,
         "peakRating": 918
       },
@@ -13289,12 +13289,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1177,
-        "pulledDate": "2026-09-23",
-        "latestRating": 863,
+        "totalGames": 1178,
+        "pulledDate": "2026-10-01",
+        "latestRating": 847,
         "peakRating": 1039
       },
       "matches": [
+        {
+          "matchId": 509986567,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:21:03.000Z",
+          "dur": 552,
+          "opponents": [
+            {
+              "profileId": 10083193,
+              "name": "xRorro96x"
+            },
+            {
+              "profileId": 19988866,
+              "name": "albertondt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2334848,
+              "name": "Don_Pelayo_Covadonga"
+            }
+          ]
+        },
         {
           "matchId": 508357847,
           "civ": "Khmer",
@@ -48534,5 +48560,6 @@
   },
   "country": "ve",
   "countryIcon": "\ud83c\uddfb\ud83c\uddea",
-  "countryName": "Venezuela, Bolivarian Republic of"
+  "countryName": "Venezuela, Bolivarian Republic of",
+  "platform": "Steam"
 }

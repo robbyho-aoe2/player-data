@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1483,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1344,
+        "totalGames": 1485,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1343,
         "peakRating": 1436
       },
       "matches": [
+        {
+          "matchId": 509850691,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:55:08.000Z",
+          "dur": 1604,
+          "opponents": [
+            {
+              "profileId": 3913328,
+              "name": "Rotterdam"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509848509,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:34:48.000Z",
+          "dur": 813,
+          "opponents": [
+            {
+              "profileId": 9555527,
+              "name": "KATOHHEI"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509316651,
           "civ": "Malay",
@@ -23774,7 +23808,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 149,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1294,
         "peakRating": 1366
       },
@@ -29152,5 +29186,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

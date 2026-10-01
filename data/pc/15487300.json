@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 524,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1362,
+        "totalGames": 526,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1394,
         "peakRating": 1406
       },
       "matches": [
+        {
+          "matchId": 510160831,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:35:25.000Z",
+          "dur": 5540,
+          "opponents": [
+            {
+              "profileId": 2631951,
+              "name": "Mtk"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509985710,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:15:11.000Z",
+          "dur": 2059,
+          "opponents": [
+            {
+              "profileId": 320058,
+              "name": "Maximus_jr"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 498452858,
           "civ": "Portuguese",
@@ -8413,12 +8447,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 348,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1299,
+        "totalGames": 351,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1278,
         "peakRating": 1335
       },
       "matches": [
+        {
+          "matchId": 510410994,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:34:41.000Z",
+          "dur": 1109,
+          "opponents": [
+            {
+              "profileId": 18150111,
+              "name": "Tattletale Strangler"
+            },
+            {
+              "profileId": 4527877,
+              "name": "-DOKO-"
+            },
+            {
+              "profileId": 2665903,
+              "name": "[TodEs] The Andi"
+            },
+            {
+              "profileId": 4129714,
+              "name": "dfarfangomez"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 67950,
+              "name": "Welldone"
+            },
+            {
+              "profileId": 14816315,
+              "name": "ToileTh"
+            },
+            {
+              "profileId": 19521846,
+              "name": "lillithadam20"
+            }
+          ]
+        },
+        {
+          "matchId": 509595064,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:14:07.000Z",
+          "dur": 2045,
+          "opponents": [
+            {
+              "profileId": 2480964,
+              "name": "\u7d71\u4e00AV\u53c8\u9732\u4e73"
+            },
+            {
+              "profileId": 18747105,
+              "name": "ChiMi..ChiMi"
+            },
+            {
+              "profileId": 2999591,
+              "name": "makeinu"
+            },
+            {
+              "profileId": 2982928,
+              "name": "DaN_L"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16683696,
+              "name": "Gen ALPHA RIZZLER 67"
+            },
+            {
+              "profileId": 6806022,
+              "name": "Ening_54"
+            },
+            {
+              "profileId": 214383,
+              "name": "Melting Snowball"
+            }
+          ]
+        },
+        {
+          "matchId": 509485450,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T23:35:02.000Z",
+          "dur": 2043,
+          "opponents": [
+            {
+              "profileId": 17128202,
+              "name": "HuLB"
+            },
+            {
+              "profileId": 15753127,
+              "name": "511"
+            },
+            {
+              "profileId": 6144035,
+              "name": "Wendysocute"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10812309,
+              "name": "Lanzarote"
+            },
+            {
+              "profileId": 5320540,
+              "name": "El Carajito De La Flecha"
+            }
+          ]
+        },
         {
           "matchId": 508700537,
           "civ": "Turks",
@@ -20802,5 +20954,6 @@
   },
   "country": "ro",
   "countryIcon": "\ud83c\uddf7\ud83c\uddf4",
-  "countryName": "Romania"
+  "countryName": "Romania",
+  "platform": "Steam"
 }

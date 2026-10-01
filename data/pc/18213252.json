@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 85,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1039,
         "peakRating": 1053
       },
@@ -1390,12 +1390,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 997,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1286,
-        "peakRating": 1286
+        "totalGames": 1001,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1288,
+        "peakRating": 1288
       },
       "matches": [
+        {
+          "matchId": 509954923,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:24:19.000Z",
+          "dur": 1784,
+          "opponents": [
+            {
+              "profileId": 14526502,
+              "name": "santy"
+            },
+            {
+              "profileId": 9220178,
+              "name": "-LN-cheperico"
+            },
+            {
+              "profileId": 3130526,
+              "name": "deslin_"
+            },
+            {
+              "profileId": 22314757,
+              "name": "GuilleGodoy95"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20990935,
+              "name": "murphykz2322"
+            },
+            {
+              "profileId": 1328380,
+              "name": "Ruviel"
+            },
+            {
+              "profileId": 519648,
+              "name": "Blanc"
+            }
+          ]
+        },
+        {
+          "matchId": 509951990,
+          "civ": "Persians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:10:05.000Z",
+          "dur": 711,
+          "opponents": [
+            {
+              "profileId": 20990935,
+              "name": "murphykz2322"
+            },
+            {
+              "profileId": 22832518,
+              "name": "solmanfu"
+            },
+            {
+              "profileId": 9421150,
+              "name": "Barka"
+            },
+            {
+              "profileId": 15666734,
+              "name": "sabin_schy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 519648,
+              "name": "Blanc"
+            },
+            {
+              "profileId": 793456,
+              "name": "iskk"
+            },
+            {
+              "profileId": 914378,
+              "name": "ryaNNN"
+            }
+          ]
+        },
+        {
+          "matchId": 509946434,
+          "civ": "Vietnamese",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:44:44.000Z",
+          "dur": 1370,
+          "opponents": [
+            {
+              "profileId": 2363127,
+              "name": "IMPORTAINER S.A @ DaNkoN_ARG"
+            },
+            {
+              "profileId": 3311698,
+              "name": "jf_Kratos"
+            },
+            {
+              "profileId": 21866540,
+              "name": "\u4e00\u4e00"
+            },
+            {
+              "profileId": 26103441,
+              "name": "WallyGoodberg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2197050,
+              "name": "Tronald Dump"
+            },
+            {
+              "profileId": 519648,
+              "name": "Blanc"
+            },
+            {
+              "profileId": 884700,
+              "name": "krsna"
+            }
+          ]
+        },
+        {
+          "matchId": 509939092,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:11:55.000Z",
+          "dur": 1749,
+          "opponents": [
+            {
+              "profileId": 21866540,
+              "name": "\u4e00\u4e00"
+            },
+            {
+              "profileId": 12104215,
+              "name": "TWEISTROR"
+            },
+            {
+              "profileId": 17372265,
+              "name": "\u5927\u7406\u6bb5\u6b63\u7eaf"
+            },
+            {
+              "profileId": 20983011,
+              "name": "\u5f88\u84dd\u7684\u5566"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 519648,
+              "name": "Blanc"
+            },
+            {
+              "profileId": 3109697,
+              "name": "Petit_Pois"
+            },
+            {
+              "profileId": 15657156,
+              "name": "Draginosaur"
+            }
+          ]
+        },
         {
           "matchId": 509180633,
           "civ": "Danes",
@@ -39136,5 +39304,6 @@
   },
   "country": "bg",
   "countryIcon": "\ud83c\udde7\ud83c\uddec",
-  "countryName": "Bulgaria"
+  "countryName": "Bulgaria",
+  "platform": "Steam"
 }

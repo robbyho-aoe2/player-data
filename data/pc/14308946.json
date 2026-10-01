@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-10"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 124,
-        "pulledDate": "2026-09-10",
+        "pulledDate": "2026-10-01",
         "latestRating": 948,
         "peakRating": 979
       },
@@ -2015,12 +2015,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 539,
-        "pulledDate": "2026-09-10",
+        "totalGames": 540,
+        "pulledDate": "2026-10-01",
         "latestRating": 1236,
         "peakRating": 1249
       },
       "matches": [
+        {
+          "matchId": 510424532,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:02:42.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 4320570,
+              "name": "Batman"
+            },
+            {
+              "profileId": 4310812,
+              "name": "El ping\u00fcino"
+            },
+            {
+              "profileId": 4292429,
+              "name": "El Guason"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22902277,
+              "name": "SpacyBabushka"
+            },
+            {
+              "profileId": 1214323,
+              "name": "Thomas the Train"
+            }
+          ]
+        },
         {
           "matchId": 505073130,
           "civ": "Byzantines",
@@ -18164,5 +18198,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

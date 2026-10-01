@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 514,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1004,
+        "totalGames": 516,
+        "pulledDate": "2026-10-01",
+        "latestRating": 974,
         "peakRating": 1096
       },
       "matches": [
+        {
+          "matchId": 510147775,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:36:58.000Z",
+          "dur": 1308,
+          "opponents": [
+            {
+              "profileId": 24785781,
+              "name": "WatchYourBack"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510140812,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:04:38.000Z",
+          "dur": 900,
+          "opponents": [
+            {
+              "profileId": 5091996,
+              "name": "Zorken"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505888455,
           "civ": "Malay",
@@ -8768,7 +8802,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 613,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-10-01",
         "latestRating": 1025,
         "peakRating": 1093
       },
@@ -28748,5 +28782,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

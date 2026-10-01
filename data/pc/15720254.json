@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 93,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-10-01",
         "latestRating": 1585,
         "peakRating": 1585
       },
@@ -1517,12 +1517,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1712,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1592,
+        "totalGames": 1713,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1603,
         "peakRating": 1714
       },
       "matches": [
+        {
+          "matchId": 510199141,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:04:20.000Z",
+          "dur": 1602,
+          "opponents": [
+            {
+              "profileId": 18747331,
+              "name": "DYN_BenderGC"
+            },
+            {
+              "profileId": 4948184,
+              "name": "NERON"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4075448,
+              "name": "F..."
+            }
+          ]
+        },
         {
           "matchId": 502079614,
           "civ": "Shu",
@@ -57979,5 +58005,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

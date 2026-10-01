@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 869,
         "peakRating": 919
       },
@@ -646,12 +646,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 185,
-        "pulledDate": "2026-09-23",
-        "latestRating": 825,
+        "totalGames": 186,
+        "pulledDate": "2026-10-01",
+        "latestRating": 839,
         "peakRating": 930
       },
       "matches": [
+        {
+          "matchId": 510034614,
+          "civ": "Spanish",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:38:01.000Z",
+          "dur": 1532,
+          "opponents": [
+            {
+              "profileId": 236158,
+              "name": "AnarchistOwl"
+            },
+            {
+              "profileId": 12751455,
+              "name": "DaddySween"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18575793,
+              "name": "lasko"
+            }
+          ]
+        },
         {
           "matchId": 508374085,
           "civ": "Spanish",
@@ -4564,5 +4590,6 @@
   },
   "country": "nz",
   "countryIcon": "\ud83c\uddf3\ud83c\uddff",
-  "countryName": "New Zealand"
+  "countryName": "New Zealand",
+  "platform": "Steam"
 }

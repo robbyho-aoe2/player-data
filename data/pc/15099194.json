@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 345,
-        "pulledDate": "2026-09-26",
-        "latestRating": 973,
+        "totalGames": 351,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1050,
         "peakRating": 1092
       },
       "matches": [
+        {
+          "matchId": 510384187,
+          "civ": "Byzantines",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:07:03.000Z",
+          "dur": 1756,
+          "opponents": [
+            {
+              "profileId": 5878222,
+              "name": "Garufa"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510377482,
+          "civ": "Burgundians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:36:53.000Z",
+          "dur": 1716,
+          "opponents": [
+            {
+              "profileId": 1286747,
+              "name": "eigenvictor"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510353043,
+          "civ": "Byzantines",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:44:51.000Z",
+          "dur": 1119,
+          "opponents": [
+            {
+              "profileId": 11786326,
+              "name": "LongbowGoesBrrr"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510152777,
+          "civ": "Byzantines",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:58:27.000Z",
+          "dur": 1320,
+          "opponents": [
+            {
+              "profileId": 12864849,
+              "name": "Chuck B 2259"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510120473,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:17:43.000Z",
+          "dur": 2229,
+          "opponents": [
+            {
+              "profileId": 10354339,
+              "name": "Ryan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509427282,
+          "civ": "Armenians",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-26",
+          "startedAt": "2026-09-26T19:05:25.000Z",
+          "dur": 2384,
+          "opponents": [
+            {
+              "profileId": 1969866,
+              "name": "SkanDahl"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509414022,
           "civ": "Ethiopians",
@@ -5895,7 +5997,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 848,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1000,
         "peakRating": 1157
       },
@@ -30209,5 +30311,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

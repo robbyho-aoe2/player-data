@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 484,
-        "pulledDate": "2026-09-26",
-        "latestRating": 650,
+        "totalGames": 485,
+        "pulledDate": "2026-10-01",
+        "latestRating": 633,
         "peakRating": 794
       },
       "matches": [
+        {
+          "matchId": 509669335,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:50:28.000Z",
+          "dur": 1711,
+          "opponents": [
+            {
+              "profileId": 1128910,
+              "name": "Alexander the Great"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509368882,
           "civ": "Portuguese",
@@ -8257,12 +8274,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 160,
-        "pulledDate": "2026-09-26",
-        "latestRating": 709,
+        "totalGames": 161,
+        "pulledDate": "2026-10-01",
+        "latestRating": 691,
         "peakRating": 910
       },
       "matches": [
+        {
+          "matchId": 509678551,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:28:41.000Z",
+          "dur": 2646,
+          "opponents": [
+            {
+              "profileId": 14151910,
+              "name": "tovmirs"
+            },
+            {
+              "profileId": 24920158,
+              "name": "P4VO 5656"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5599224,
+              "name": "oguzhannnkaradag"
+            }
+          ]
+        },
         {
           "matchId": 508968677,
           "civ": "Malians",
@@ -12476,5 +12519,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

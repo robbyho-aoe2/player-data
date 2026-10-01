@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1615,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1037,
+        "totalGames": 1616,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1019,
         "peakRating": 1324
       },
       "matches": [
+        {
+          "matchId": 509788967,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:52:05.000Z",
+          "dur": 10,
+          "opponents": [
+            {
+              "profileId": 622639,
+              "name": "LordLuke13"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509114042,
           "civ": "Saxons",
@@ -27485,7 +27502,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 120,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1068,
         "peakRating": 1068
       },
@@ -31023,5 +31040,6 @@
   },
   "country": "hu",
   "countryIcon": "\ud83c\udded\ud83c\uddfa",
-  "countryName": "Hungary"
+  "countryName": "Hungary",
+  "platform": "Steam"
 }

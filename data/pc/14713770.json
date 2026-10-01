@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-15"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-15",
+        "pulledDate": "2026-10-01",
         "latestRating": 1110,
         "peakRating": 1110
       },
@@ -317,12 +317,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3425,
-        "pulledDate": "2026-09-15",
-        "latestRating": 1227,
+        "totalGames": 3428,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1216,
         "peakRating": 1302
       },
       "matches": [
+        {
+          "matchId": 509535321,
+          "civ": "Saracens",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:20:55.000Z",
+          "dur": 46,
+          "opponents": [
+            {
+              "profileId": 2956020,
+              "name": "JairoElChig\u00fci"
+            },
+            {
+              "profileId": 1262787,
+              "name": "Almesax"
+            },
+            {
+              "profileId": 2955770,
+              "name": "Nomad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21996785,
+              "name": "Alive"
+            },
+            {
+              "profileId": 25128412,
+              "name": "ap2wang"
+            }
+          ]
+        },
+        {
+          "matchId": 509534804,
+          "civ": "Georgians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:17:44.000Z",
+          "dur": 89,
+          "opponents": [
+            {
+              "profileId": 1714166,
+              "name": "Garkamix"
+            },
+            {
+              "profileId": 1814149,
+              "name": "Ardillita.Bicampeona.Korova"
+            },
+            {
+              "profileId": 1880630,
+              "name": "MATE"
+            },
+            {
+              "profileId": 2363742,
+              "name": "sony"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2448185,
+              "name": "Peppyzizzle25"
+            },
+            {
+              "profileId": 23331828,
+              "name": "Grim Reaper"
+            },
+            {
+              "profileId": 2363127,
+              "name": "IMPORTAINER S.A @ DaNkoN_ARG"
+            }
+          ]
+        },
+        {
+          "matchId": 509530798,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:53:57.000Z",
+          "dur": 1623,
+          "opponents": [
+            {
+              "profileId": 7561426,
+              "name": "forcedlevy"
+            },
+            {
+              "profileId": 21455852,
+              "name": "VillIsComing"
+            },
+            {
+              "profileId": 4012884,
+              "name": "HaniTheGreat1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5385180,
+              "name": "Cowardpunch"
+            },
+            {
+              "profileId": 705418,
+              "name": "Tishomingo"
+            }
+          ]
+        },
         {
           "matchId": 506789174,
           "civ": "Bohemians",
@@ -134392,5 +134502,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

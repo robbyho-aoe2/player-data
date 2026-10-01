@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 66,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 893,
         "peakRating": 927
       },
@@ -1151,12 +1151,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 35,
-        "pulledDate": "2026-09-26",
-        "latestRating": 871,
+        "totalGames": 38,
+        "pulledDate": "2026-10-01",
+        "latestRating": 861,
         "peakRating": 1010
       },
       "matches": [
+        {
+          "matchId": 509925642,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:11:31.000Z",
+          "dur": 1524,
+          "opponents": [
+            {
+              "profileId": 2485194,
+              "name": "Schnicker11"
+            },
+            {
+              "profileId": 2520673,
+              "name": "Gentleman No. 7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6374634,
+              "name": "Tuturuu421"
+            }
+          ]
+        },
+        {
+          "matchId": 509884864,
+          "civ": "Lithuanians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:40:31.000Z",
+          "dur": 2388,
+          "opponents": [
+            {
+              "profileId": 2136012,
+              "name": "OLVIDADO2538"
+            },
+            {
+              "profileId": 6161704,
+              "name": "txarli"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1209360,
+              "name": "devil"
+            }
+          ]
+        },
+        {
+          "matchId": 509675450,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:16:18.000Z",
+          "dur": 1959,
+          "opponents": [
+            {
+              "profileId": 2659046,
+              "name": "Jan"
+            },
+            {
+              "profileId": 4470465,
+              "name": "Wallecnik"
+            },
+            {
+              "profileId": 6218152,
+              "name": "\u7d2b\u5e7d\u51b0\u4e91"
+            },
+            {
+              "profileId": 13452099,
+              "name": "BoldCastle13"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23903823,
+              "name": "erny_152"
+            },
+            {
+              "profileId": 23905035,
+              "name": "yustas_art1"
+            },
+            {
+              "profileId": 13316884,
+              "name": "WOODS3851"
+            }
+          ]
+        },
         {
           "matchId": 509376087,
           "civ": "Magyars",
@@ -2264,5 +2358,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 42,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1207,
-        "peakRating": 1207
+        "totalGames": 44,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1239,
+        "peakRating": 1239
       },
       "matches": [
+        {
+          "matchId": 509987614,
+          "civ": "Romans",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:27:30.000Z",
+          "dur": 1119,
+          "opponents": [
+            {
+              "profileId": 2340863,
+              "name": "Kevin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509793077,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:15:13.000Z",
+          "dur": 1325,
+          "opponents": [
+            {
+              "profileId": 10471048,
+              "name": "zalomeron"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 496869910,
           "civ": "Romans",
@@ -702,7 +736,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 81,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-10-01",
         "latestRating": 1223,
         "peakRating": 1223
       },
@@ -3602,5 +3636,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

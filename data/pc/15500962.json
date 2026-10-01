@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 680,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1051,
+        "totalGames": 684,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1085,
         "peakRating": 1275
       },
       "matches": [
+        {
+          "matchId": 509884430,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:37:45.000Z",
+          "dur": 1250,
+          "opponents": [
+            {
+              "profileId": 6009906,
+              "name": "sikander747"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509880275,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:16:19.000Z",
+          "dur": 1189,
+          "opponents": [
+            {
+              "profileId": 2882041,
+              "name": "Vlad Tepes"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509637899,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:42:21.000Z",
+          "dur": 1814,
+          "opponents": [
+            {
+              "profileId": 8991571,
+              "name": "kamikaze"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509631212,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:15:52.000Z",
+          "dur": 1389,
+          "opponents": [
+            {
+              "profileId": 4544930,
+              "name": "TheRustyHammer"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508894462,
           "civ": "Aztecs",
@@ -10968,7 +11036,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1065,
         "peakRating": 1086
       },
@@ -11537,5 +11605,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 537,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1447,
+        "totalGames": 539,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1442,
         "peakRating": 1489
       },
       "matches": [
+        {
+          "matchId": 509894551,
+          "civ": "Celts",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:32:40.000Z",
+          "dur": 1473,
+          "opponents": [
+            {
+              "profileId": 20238233,
+              "name": "GokoshiJr"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509863536,
+          "civ": "Bohemians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:36:33.000Z",
+          "dur": 2654,
+          "opponents": [
+            {
+              "profileId": 938767,
+              "name": "Renesel"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509293822,
           "civ": "Tupi",
@@ -4878,12 +4912,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2510,
-        "pulledDate": "2026-09-26",
+        "totalGames": 2513,
+        "pulledDate": "2026-10-01",
         "latestRating": 1251,
         "peakRating": 1536
       },
       "matches": [
+        {
+          "matchId": 509977494,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:24:25.000Z",
+          "dur": 2388,
+          "opponents": [
+            {
+              "profileId": 10369585,
+              "name": "JAGR | GastonWick"
+            },
+            {
+              "profileId": 2057662,
+              "name": "JAGR | PIPO GOROSITO"
+            },
+            {
+              "profileId": 24532073,
+              "name": "JAGR | Mazzei10"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11313828,
+              "name": "Alejandro_Cao"
+            },
+            {
+              "profileId": 1915586,
+              "name": "RutherfordTheBrave"
+            }
+          ]
+        },
+        {
+          "matchId": 509914845,
+          "civ": "Armenians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:19:18.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 649271,
+              "name": "[Lw] MasterGace"
+            },
+            {
+              "profileId": 276435,
+              "name": "rAiDz"
+            },
+            {
+              "profileId": 22279753,
+              "name": "BILLLLLLLYYY"
+            },
+            {
+              "profileId": 1449768,
+              "name": "kenchen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 357829,
+              "name": "Vilkian"
+            },
+            {
+              "profileId": 25897410,
+              "name": "\u4e00\u53f6\u77e5\u79cb"
+            },
+            {
+              "profileId": 2028720,
+              "name": "franchi_mg"
+            }
+          ]
+        },
+        {
+          "matchId": 509913969,
+          "civ": "Armenians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:14:49.000Z",
+          "dur": 137,
+          "opponents": [
+            {
+              "profileId": 25897410,
+              "name": "\u4e00\u53f6\u77e5\u79cb"
+            },
+            {
+              "profileId": 22236218,
+              "name": "Oldwei"
+            },
+            {
+              "profileId": 21254281,
+              "name": "liangzai"
+            },
+            {
+              "profileId": 21091876,
+              "name": "how do you turn this on"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2226836,
+              "name": "nonoleboss"
+            },
+            {
+              "profileId": 21093856,
+              "name": "Mandingo"
+            },
+            {
+              "profileId": 817625,
+              "name": "jaimeerp"
+            }
+          ]
+        },
         {
           "matchId": 509479011,
           "civ": "Spanish",
@@ -29219,5 +29371,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

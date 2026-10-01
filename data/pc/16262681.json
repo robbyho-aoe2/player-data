@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 200,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1091,
         "peakRating": 1163
       },
@@ -3229,12 +3229,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 615,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1210,
+        "totalGames": 618,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1184,
         "peakRating": 1252
       },
       "matches": [
+        {
+          "matchId": 510150855,
+          "civ": "Georgians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:51:31.000Z",
+          "dur": 738,
+          "opponents": [
+            {
+              "profileId": 24788727,
+              "name": "xxyvonnederful"
+            },
+            {
+              "profileId": 18911810,
+              "name": "Phoenix"
+            },
+            {
+              "profileId": 15770129,
+              "name": "jimfinancialadvice"
+            },
+            {
+              "profileId": 13845908,
+              "name": "Drewpert93"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17113956,
+              "name": "6Bombaklateggs"
+            },
+            {
+              "profileId": 16262679,
+              "name": "Bankai"
+            },
+            {
+              "profileId": 5949654,
+              "name": "Savage"
+            }
+          ]
+        },
+        {
+          "matchId": 510145042,
+          "civ": "Vietnamese",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:24:37.000Z",
+          "dur": 1392,
+          "opponents": [
+            {
+              "profileId": 23939643,
+              "name": "Te0n"
+            },
+            {
+              "profileId": 22659382,
+              "name": "nicebro"
+            },
+            {
+              "profileId": 3355815,
+              "name": "victor_mv7"
+            },
+            {
+              "profileId": 11660512,
+              "name": "senninha"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5949654,
+              "name": "Savage"
+            },
+            {
+              "profileId": 16262679,
+              "name": "Bankai"
+            },
+            {
+              "profileId": 17113956,
+              "name": "6Bombaklateggs"
+            }
+          ]
+        },
+        {
+          "matchId": 510137303,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:47:09.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 625309,
+              "name": "Tadeo02"
+            },
+            {
+              "profileId": 22741607,
+              "name": "NaCl"
+            },
+            {
+              "profileId": 5916521,
+              "name": "\u840a\u59c6\u738b\u5e25\u5e25\u6bdb"
+            },
+            {
+              "profileId": 513880,
+              "name": "BERTUS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17113956,
+              "name": "6Bombaklateggs"
+            },
+            {
+              "profileId": 16262679,
+              "name": "Bankai"
+            },
+            {
+              "profileId": 5949654,
+              "name": "Savage"
+            }
+          ]
+        },
         {
           "matchId": 507952423,
           "civ": "Georgians",
@@ -25059,5 +25185,6 @@
   },
   "country": "al",
   "countryIcon": "\ud83c\udde6\ud83c\uddf1",
-  "countryName": "Albania"
+  "countryName": "Albania",
+  "platform": "Steam"
 }

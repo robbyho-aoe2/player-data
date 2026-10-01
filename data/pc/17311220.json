@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3386,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1315,
+        "totalGames": 3392,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1251,
         "peakRating": 1402
       },
       "matches": [
+        {
+          "matchId": 510285005,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:57:17.000Z",
+          "dur": 1051,
+          "opponents": [
+            {
+              "profileId": 25850179,
+              "name": "PlatinumDisco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510245039,
+          "civ": "Malians",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T04:05:28.000Z",
+          "dur": 1126,
+          "opponents": [
+            {
+              "profileId": 951019,
+              "name": "fran.federico8"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510069746,
+          "civ": "Huns",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:54:56.000Z",
+          "dur": 2270,
+          "opponents": [
+            {
+              "profileId": 623384,
+              "name": "Marti"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510049193,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:09:36.000Z",
+          "dur": 2117,
+          "opponents": [
+            {
+              "profileId": 805415,
+              "name": "LittleCaesar"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510022242,
+          "civ": "Jurchens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:04:28.000Z",
+          "dur": 1369,
+          "opponents": [
+            {
+              "profileId": 23992020,
+              "name": "KenChan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509591258,
+          "civ": "Koreans",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:48:56.000Z",
+          "dur": 1146,
+          "opponents": [
+            {
+              "profileId": 6487355,
+              "name": "Sire_Cal"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509075782,
           "civ": "Khitans",
@@ -54258,7 +54360,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 56,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1030,
         "peakRating": 1045
       },
@@ -55732,5 +55834,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

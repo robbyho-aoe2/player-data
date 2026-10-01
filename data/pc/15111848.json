@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1686,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1581,
+        "totalGames": 1688,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1613,
         "peakRating": 1799
       },
       "matches": [
+        {
+          "matchId": 509911859,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:04:28.000Z",
+          "dur": 1505,
+          "opponents": [
+            {
+              "profileId": 2278453,
+              "name": "de_Sade"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509896692,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:43:25.000Z",
+          "dur": 2445,
+          "opponents": [
+            {
+              "profileId": 4354667,
+              "name": "Dr. Agon Star"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509263702,
           "civ": "Varangians",
@@ -27058,7 +27092,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1010,
         "peakRating": 1010
       },
@@ -27651,5 +27685,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

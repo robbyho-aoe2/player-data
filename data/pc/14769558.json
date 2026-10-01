@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3080,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1109,
+        "totalGames": 3083,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1127,
         "peakRating": 1339
       },
       "matches": [
+        {
+          "matchId": 510030304,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:01:41.000Z",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 11581977,
+              "name": "Cuchodark_79"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509716820,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:51:41.000Z",
+          "dur": 1155,
+          "opponents": [
+            {
+              "profileId": 11380674,
+              "name": "Microsoft Edge"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509706941,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:15:44.000Z",
+          "dur": 2073,
+          "opponents": [
+            {
+              "profileId": 2004977,
+              "name": "bananin.cxs"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509086422,
           "civ": "Saxons",
@@ -49365,7 +49416,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 917
       },
       "matches": [
@@ -49474,5 +49525,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

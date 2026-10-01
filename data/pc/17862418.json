@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 258,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1208,
+        "totalGames": 261,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1221,
         "peakRating": 1298
       },
       "matches": [
+        {
+          "matchId": 509986017,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:16:59.000Z",
+          "dur": 1720,
+          "opponents": [
+            {
+              "profileId": 14759705,
+              "name": "Stwarty13"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509983530,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:01:07.000Z",
+          "dur": 884,
+          "opponents": [
+            {
+              "profileId": 6348434,
+              "name": "HUASTECO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509982221,
+          "civ": "Celts",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:53:03.000Z",
+          "dur": 197,
+          "opponents": [
+            {
+              "profileId": 20290281,
+              "name": "joelbirouti"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507749080,
           "civ": "Celts",
@@ -3956,7 +4007,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 490,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1188,
         "peakRating": 1260
       },
@@ -16739,5 +16790,6 @@
   },
   "country": "mn",
   "countryIcon": "\ud83c\uddf2\ud83c\uddf3",
-  "countryName": "Mongolia"
+  "countryName": "Mongolia",
+  "platform": "Steam"
 }

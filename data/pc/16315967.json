@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 43,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 807,
         "peakRating": 807
       },
@@ -760,12 +760,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 47,
-        "pulledDate": "2026-09-26",
-        "latestRating": 861,
+        "totalGames": 50,
+        "pulledDate": "2026-10-01",
+        "latestRating": 841,
         "peakRating": 908
       },
       "matches": [
+        {
+          "matchId": 510289417,
+          "civ": "Hindustanis",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:37:23.000Z",
+          "dur": 1507,
+          "opponents": [
+            {
+              "profileId": 26049960,
+              "name": "GibranRakatiwing"
+            },
+            {
+              "profileId": 19085379,
+              "name": "\u83dc\u9e1f"
+            },
+            {
+              "profileId": 19871884,
+              "name": "Lubuntu10.04LTS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2873695,
+              "name": "Civil Engineer"
+            },
+            {
+              "profileId": 24129338,
+              "name": "KAPTN"
+            }
+          ]
+        },
+        {
+          "matchId": 509862304,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:28:06.000Z",
+          "dur": 1983,
+          "opponents": [
+            {
+              "profileId": 23774458,
+              "name": "\u4ea6\u975e\u8001\u516c"
+            },
+            {
+              "profileId": 17240130,
+              "name": "ikarus492"
+            },
+            {
+              "profileId": 25728644,
+              "name": "Oguz CareVia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2520428,
+              "name": "Triskelion"
+            },
+            {
+              "profileId": 26087579,
+              "name": "Shonhor"
+            }
+          ]
+        },
+        {
+          "matchId": 509857942,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:56:39.000Z",
+          "dur": 1475,
+          "opponents": [
+            {
+              "profileId": 23774458,
+              "name": "\u4ea6\u975e\u8001\u516c"
+            },
+            {
+              "profileId": 25732647,
+              "name": "I like sheep"
+            },
+            {
+              "profileId": 7189563,
+              "name": "2026"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2037063,
+              "name": "\u549a\u549a\u5e15"
+            },
+            {
+              "profileId": 1248420,
+              "name": "zombiekiller7"
+            }
+          ]
+        },
         {
           "matchId": 509329088,
           "civ": "Khmer",
@@ -2033,5 +2135,6 @@
   },
   "country": "gr",
   "countryIcon": "\ud83c\uddec\ud83c\uddf7",
-  "countryName": "Greece"
+  "countryName": "Greece",
+  "platform": "Steam"
 }

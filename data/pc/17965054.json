@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 14,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-10-01",
         "latestRating": 561,
         "peakRating": 589
       },
@@ -253,12 +253,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 33,
-        "pulledDate": "2026-09-08",
-        "latestRating": 724,
+        "totalGames": 34,
+        "pulledDate": "2026-10-01",
+        "latestRating": 711,
         "peakRating": 832
       },
       "matches": [
+        {
+          "matchId": 509568988,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:16:46.000Z",
+          "dur": 1739,
+          "opponents": [
+            {
+              "profileId": 6855884,
+              "name": "413401132"
+            },
+            {
+              "profileId": 8082806,
+              "name": "vlelouch123"
+            },
+            {
+              "profileId": 23323981,
+              "name": "emrecankurttt54"
+            },
+            {
+              "profileId": 24449943,
+              "name": "\u5f00\u5c40\u4e00\u7247\u7530"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25728644,
+              "name": "Oguz CareVia"
+            },
+            {
+              "profileId": 12532598,
+              "name": "Lucasavend"
+            },
+            {
+              "profileId": 16281155,
+              "name": "\u81ea\u7531\u4e4b\u6d77"
+            }
+          ]
+        },
         {
           "matchId": 494049781,
           "civ": "Bohemians",
@@ -1473,5 +1515,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

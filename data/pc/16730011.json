@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 214,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1232,
+        "totalGames": 215,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1247,
         "peakRating": 1265
       },
       "matches": [
+        {
+          "matchId": 510387183,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:20:09.000Z",
+          "dur": 760,
+          "opponents": [
+            {
+              "profileId": 605116,
+              "name": "Eudamidas"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 501966569,
           "civ": "Celts",
@@ -3463,7 +3480,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-10-01",
         "latestRating": 1086,
         "peakRating": 1086
       },
@@ -3729,5 +3746,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 637,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1205,
-        "peakRating": 1210
+        "totalGames": 642,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1190,
+        "peakRating": 1223
       },
       "matches": [
+        {
+          "matchId": 510337326,
+          "civ": "Sicilians",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:23:35.000Z",
+          "dur": 2463,
+          "opponents": [
+            {
+              "profileId": 2892200,
+              "name": "Yng_Triceratops"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510331493,
+          "civ": "Sicilians",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:51:51.000Z",
+          "dur": 1457,
+          "opponents": [
+            {
+              "profileId": 6932296,
+              "name": "Cigarr\u00edn Zidane"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510323852,
+          "civ": "Sicilians",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:11:18.000Z",
+          "dur": 2066,
+          "opponents": [
+            {
+              "profileId": 23579167,
+              "name": "\u695a\u9038\u8fb0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510313472,
+          "civ": "Romans",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:14:40.000Z",
+          "dur": 1992,
+          "opponents": [
+            {
+              "profileId": 9441123,
+              "name": "Konsta"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510310501,
+          "civ": "Romans",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:58:34.000Z",
+          "dur": 667,
+          "opponents": [
+            {
+              "profileId": 14884404,
+              "name": "Snoopy"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507459312,
           "civ": "Romans",
@@ -10237,12 +10322,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1574,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1115,
+        "totalGames": 1575,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1099,
         "peakRating": 1286
       },
       "matches": [
+        {
+          "matchId": 510307269,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:40:40.000Z",
+          "dur": 946,
+          "opponents": [
+            {
+              "profileId": 5727246,
+              "name": "redwolfliu"
+            },
+            {
+              "profileId": 17639146,
+              "name": "bluelam77"
+            },
+            {
+              "profileId": 616645,
+              "name": "BR_WO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4814585,
+              "name": "Clauzzz"
+            },
+            {
+              "profileId": 4138141,
+              "name": "Painos"
+            }
+          ]
+        },
         {
           "matchId": 507666453,
           "civ": "Teutons",
@@ -57573,5 +57692,6 @@
   },
   "country": "hu",
   "countryIcon": "\ud83c\udded\ud83c\uddfa",
-  "countryName": "Hungary"
+  "countryName": "Hungary",
+  "platform": "Steam"
 }

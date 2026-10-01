@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-10-01",
         "latestRating": 1033
       },
       "matches": [
@@ -156,12 +156,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 217,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1176,
+        "totalGames": 219,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1178,
         "peakRating": 1211
       },
       "matches": [
+        {
+          "matchId": 509817279,
+          "civ": "Slavs",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:10:48.000Z",
+          "dur": 1881,
+          "opponents": [
+            {
+              "profileId": 25939483,
+              "name": "abigailbogisichca"
+            },
+            {
+              "profileId": 8430392,
+              "name": "stevenmin830605"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17833288,
+              "name": "el_uncle"
+            }
+          ]
+        },
+        {
+          "matchId": 509527157,
+          "civ": "Slavs",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:32:34.000Z",
+          "dur": 1821,
+          "opponents": [
+            {
+              "profileId": 4804833,
+              "name": "VisciousViper2020"
+            },
+            {
+              "profileId": 2641241,
+              "name": "Argonath"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17833288,
+              "name": "el_uncle"
+            }
+          ]
+        },
         {
           "matchId": 502130063,
           "civ": "Vietnamese",
@@ -6170,5 +6222,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

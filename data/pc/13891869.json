@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 48,
-        "pulledDate": "2026-09-20",
-        "latestRating": 889,
+        "totalGames": 50,
+        "pulledDate": "2026-10-01",
+        "latestRating": 887,
         "peakRating": 988
       },
       "matches": [
+        {
+          "matchId": 509519345,
+          "civ": "Spanish",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:49:15.000Z",
+          "dur": 1910,
+          "opponents": [
+            {
+              "profileId": 4533428,
+              "name": "Thatonedude"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509513283,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:16:31.000Z",
+          "dur": 1256,
+          "opponents": [
+            {
+              "profileId": 8628494,
+              "name": "CristianBastias"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506373530,
           "civ": "Bohemians",
@@ -846,7 +880,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": [
         {
@@ -938,5 +972,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

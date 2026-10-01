@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 68,
-        "pulledDate": "2026-09-23",
-        "latestRating": 867,
+        "totalGames": 73,
+        "pulledDate": "2026-10-01",
+        "latestRating": 854,
         "peakRating": 881
       },
       "matches": [
+        {
+          "matchId": 510326979,
+          "civ": "Tupi",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:27:39.000Z",
+          "dur": 1560,
+          "opponents": [
+            {
+              "profileId": 3950763,
+              "name": "moresky"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509720710,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:05:55.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 2747478,
+              "name": "apolineodionisiaco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509714108,
+          "civ": "Tupi",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:41:10.000Z",
+          "dur": 1427,
+          "opponents": [
+            {
+              "profileId": 4533428,
+              "name": "Thatonedude"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509709236,
+          "civ": "Tupi",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:23:49.000Z",
+          "dur": 942,
+          "opponents": [
+            {
+              "profileId": 822565,
+              "name": "SrirachaShrimp"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509532247,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:01:43.000Z",
+          "dur": 921,
+          "opponents": [
+            {
+              "profileId": 313281,
+              "name": "Sirius"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504545893,
           "civ": "Tupi",
@@ -1186,7 +1271,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 78,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 844,
         "peakRating": 869
       },
@@ -3944,5 +4029,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

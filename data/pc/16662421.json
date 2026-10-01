@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-01",
         "latestRating": 893,
         "peakRating": 893
       },
@@ -199,12 +199,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 118,
-        "pulledDate": "2026-09-18",
-        "latestRating": 920,
+        "totalGames": 120,
+        "pulledDate": "2026-10-01",
+        "latestRating": 924,
         "peakRating": 995
       },
       "matches": [
+        {
+          "matchId": 509572542,
+          "civ": "Persians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:41:40.000Z",
+          "dur": 2036,
+          "opponents": [
+            {
+              "profileId": 11371465,
+              "name": "Sleve McDichael"
+            },
+            {
+              "profileId": 25530649,
+              "name": "Mr. Excel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16663012,
+              "name": "Finny17"
+            }
+          ]
+        },
+        {
+          "matchId": 509567741,
+          "civ": "Goths",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T08:07:37.000Z",
+          "dur": 1787,
+          "opponents": [
+            {
+              "profileId": 22413445,
+              "name": "hargi"
+            },
+            {
+              "profileId": 22413376,
+              "name": "Jartina"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16663012,
+              "name": "Finny17"
+            }
+          ]
+        },
         {
           "matchId": 503342699,
           "civ": "Hindustanis",
@@ -3686,5 +3738,6 @@
   },
   "country": "nz",
   "countryIcon": "\ud83c\uddf3\ud83c\uddff",
-  "countryName": "New Zealand"
+  "countryName": "New Zealand",
+  "platform": "Steam"
 }
