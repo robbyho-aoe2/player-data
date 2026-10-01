@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 209,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1144,
         "peakRating": 1144
       },
@@ -3378,12 +3378,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 508,
-        "pulledDate": "2026-09-27",
+        "totalGames": 510,
+        "pulledDate": "2026-10-01",
         "latestRating": 1203,
         "peakRating": 1305
       },
       "matches": [
+        {
+          "matchId": 510361324,
+          "civ": "Georgians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:25:13.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 2540021,
+              "name": "Matt Damon"
+            },
+            {
+              "profileId": 21420327,
+              "name": "Sega Mega Drive"
+            },
+            {
+              "profileId": 22297327,
+              "name": "HAHA"
+            },
+            {
+              "profileId": 1872862,
+              "name": "\u50b3\u5947\u5546\u5e97"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8556596,
+              "name": "ACI Granmini"
+            },
+            {
+              "profileId": 12356886,
+              "name": "Marze^"
+            },
+            {
+              "profileId": 24464814,
+              "name": "ACI Paradoja"
+            }
+          ]
+        },
+        {
+          "matchId": 510353500,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:48:13.000Z",
+          "dur": 1649,
+          "opponents": [
+            {
+              "profileId": 4148600,
+              "name": "Akida"
+            },
+            {
+              "profileId": 4043428,
+              "name": "kingou\u0161"
+            },
+            {
+              "profileId": 1021059,
+              "name": "N3znamy"
+            },
+            {
+              "profileId": 5938761,
+              "name": "Wandraak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2262604,
+              "name": "Tonytony_Chopper"
+            },
+            {
+              "profileId": 24464814,
+              "name": "ACI Paradoja"
+            },
+            {
+              "profileId": 8556596,
+              "name": "ACI Granmini"
+            }
+          ]
+        },
         {
           "matchId": 508680993,
           "civ": "Byzantines",
@@ -22230,5 +22314,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 544,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-01",
         "latestRating": 2400,
         "peakRating": 2401
       },
@@ -8827,12 +8827,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 23,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1852,
+        "totalGames": 26,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1792,
         "peakRating": 1869
       },
       "matches": [
+        {
+          "matchId": 509660687,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:15:44.000Z",
+          "dur": 1896,
+          "opponents": [
+            {
+              "profileId": 2480833,
+              "name": "\u9038\u4e36\u7136"
+            },
+            {
+              "profileId": 615819,
+              "name": "Mumulover"
+            },
+            {
+              "profileId": 16663978,
+              "name": "xGusZx24"
+            },
+            {
+              "profileId": 5134748,
+              "name": "Persian Assassin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25807134,
+              "name": "\u5927\u5e73\u679c\u662f\u5c0f\u83dc\u9e21\u7236\u4eb2"
+            },
+            {
+              "profileId": 25110256,
+              "name": "\u73ed\u957f"
+            },
+            {
+              "profileId": 10310102,
+              "name": "\u5feb\u4e50\u5927\u8d62\u9b54"
+            }
+          ]
+        },
+        {
+          "matchId": 509652269,
+          "civ": "Magyars",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:41:30.000Z",
+          "dur": 1758,
+          "opponents": [
+            {
+              "profileId": 615819,
+              "name": "Mumulover"
+            },
+            {
+              "profileId": 5648838,
+              "name": "happikon.6139"
+            },
+            {
+              "profileId": 17166347,
+              "name": "championqc82"
+            },
+            {
+              "profileId": 21930541,
+              "name": "Glaki"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25110256,
+              "name": "\u73ed\u957f"
+            },
+            {
+              "profileId": 25807134,
+              "name": "\u5927\u5e73\u679c\u662f\u5c0f\u83dc\u9e21\u7236\u4eb2"
+            },
+            {
+              "profileId": 10310102,
+              "name": "\u5feb\u4e50\u5927\u8d62\u9b54"
+            }
+          ]
+        },
+        {
+          "matchId": 509645442,
+          "civ": "Tupi",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:13:48.000Z",
+          "dur": 1459,
+          "opponents": [
+            {
+              "profileId": 14010173,
+              "name": "Istar"
+            },
+            {
+              "profileId": 2204002,
+              "name": "Mo_Tastic"
+            },
+            {
+              "profileId": 5557388,
+              "name": "Varrus"
+            },
+            {
+              "profileId": 12113485,
+              "name": "(PNG)Ludovicum95"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25110256,
+              "name": "\u73ed\u957f"
+            },
+            {
+              "profileId": 25807134,
+              "name": "\u5927\u5e73\u679c\u662f\u5c0f\u83dc\u9e21\u7236\u4eb2"
+            },
+            {
+              "profileId": 10310102,
+              "name": "\u5feb\u4e50\u5927\u8d62\u9b54"
+            }
+          ]
+        },
         {
           "matchId": 469927219,
           "civ": "Mongols",
@@ -9765,5 +9891,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

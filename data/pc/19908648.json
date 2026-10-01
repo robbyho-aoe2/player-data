@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 37,
-        "pulledDate": "2026-09-27",
-        "latestRating": 999,
+        "totalGames": 41,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1028,
         "peakRating": 1046
       },
       "matches": [
+        {
+          "matchId": 510443584,
+          "civ": "Sicilians",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:03:32.000Z",
+          "dur": 1302,
+          "opponents": [
+            {
+              "profileId": 2189314,
+              "name": "SunshinySole59"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510440049,
+          "civ": "Koreans",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T01:42:44.000Z",
+          "dur": 1048,
+          "opponents": [
+            {
+              "profileId": 3165868,
+              "name": "DanielSRuppenthal"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510242237,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:42:36.000Z",
+          "dur": 1790,
+          "opponents": [
+            {
+              "profileId": 23544488,
+              "name": "BetoMGA17"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510234689,
+          "civ": "Japanese",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:50:21.000Z",
+          "dur": 2807,
+          "opponents": [
+            {
+              "profileId": 6118028,
+              "name": "Escafer"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509292717,
           "civ": "Danes",
@@ -658,12 +726,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 69,
-        "pulledDate": "2026-09-27",
-        "latestRating": 956,
+        "totalGames": 71,
+        "pulledDate": "2026-10-01",
+        "latestRating": 957,
         "peakRating": 1008
       },
       "matches": [
+        {
+          "matchId": 510430781,
+          "civ": "Sicilians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:44:17.000Z",
+          "dur": 2690,
+          "opponents": [
+            {
+              "profileId": 19276339,
+              "name": "APOLO"
+            },
+            {
+              "profileId": 8223898,
+              "name": "Immortalz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14992058,
+              "name": "Officer Friendly"
+            }
+          ]
+        },
+        {
+          "matchId": 510204711,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:39:45.000Z",
+          "dur": 2346,
+          "opponents": [
+            {
+              "profileId": 2041995,
+              "name": "Djokomiro"
+            },
+            {
+              "profileId": 2687597,
+              "name": "Al Pacino"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14992058,
+              "name": "Officer Friendly"
+            }
+          ]
+        },
         {
           "matchId": 509258279,
           "civ": "Khmer",
@@ -2527,5 +2647,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

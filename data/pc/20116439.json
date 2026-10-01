@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 85,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1409,
         "peakRating": 1409
       },
@@ -1389,12 +1389,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 358,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1205,
+        "totalGames": 360,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1179,
         "peakRating": 1412
       },
       "matches": [
+        {
+          "matchId": 509960956,
+          "civ": "Celts",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:52:39.000Z",
+          "dur": 1180,
+          "opponents": [
+            {
+              "profileId": 1463505,
+              "name": "Pronyx"
+            },
+            {
+              "profileId": 17666214,
+              "name": "Si me criticas te fedeo"
+            },
+            {
+              "profileId": 21234617,
+              "name": "BARAKA wins!"
+            },
+            {
+              "profileId": 1541771,
+              "name": "Grand.Saladier"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 281206,
+              "name": "Darksun"
+            },
+            {
+              "profileId": 5868582,
+              "name": "oppppppfpppppp"
+            },
+            {
+              "profileId": 4006342,
+              "name": "Crucio"
+            }
+          ]
+        },
+        {
+          "matchId": 509841573,
+          "civ": "Persians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:27:09.000Z",
+          "dur": 830,
+          "opponents": [
+            {
+              "profileId": 23021957,
+              "name": "Mike"
+            },
+            {
+              "profileId": 25252483,
+              "name": "halong1301"
+            },
+            {
+              "profileId": 1680716,
+              "name": "SlyFever"
+            },
+            {
+              "profileId": 12453157,
+              "name": "muui"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1898771,
+              "name": "massiz10"
+            },
+            {
+              "profileId": 2587142,
+              "name": "Seen Bean"
+            },
+            {
+              "profileId": 9421674,
+              "name": "SAKI"
+            }
+          ]
+        },
         {
           "matchId": 509363287,
           "civ": "Khmer",
@@ -15178,5 +15262,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

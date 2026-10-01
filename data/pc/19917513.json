@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "peakRating": 970,
         "latestRating": 951
       },
@@ -28,12 +28,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 133,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1323,
+        "totalGames": 136,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1328,
         "peakRating": 1403
       },
       "matches": [
+        {
+          "matchId": 509825407,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T06:35:44.000Z",
+          "dur": 1307,
+          "opponents": [
+            {
+              "profileId": 21866540,
+              "name": "\u4e00\u4e00"
+            },
+            {
+              "profileId": 1012798,
+              "name": "33min"
+            },
+            {
+              "profileId": 19313242,
+              "name": "xxs_hjt"
+            },
+            {
+              "profileId": 20983011,
+              "name": "\u5f88\u84dd\u7684\u5566"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 276435,
+              "name": "rAiDz"
+            },
+            {
+              "profileId": 607438,
+              "name": "EzPz BRO"
+            },
+            {
+              "profileId": 19871879,
+              "name": "Sunny"
+            }
+          ]
+        },
+        {
+          "matchId": 509825095,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T06:32:30.000Z",
+          "dur": 78,
+          "opponents": [
+            {
+              "profileId": 20983011,
+              "name": "\u5f88\u84dd\u7684\u5566"
+            },
+            {
+              "profileId": 19007246,
+              "name": "sada-aki"
+            },
+            {
+              "profileId": 6934596,
+              "name": "\u5c0f\u98de\u821e"
+            },
+            {
+              "profileId": 4689253,
+              "name": "\u6c38\u4e50\u5927\u5e1d\u6731\u5143\u748b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22363450,
+              "name": "Hbx_\u8499\u53e4\u56fd\u6d77\u519b\u53f8\u4ee4"
+            },
+            {
+              "profileId": 19871879,
+              "name": "Sunny"
+            },
+            {
+              "profileId": 607438,
+              "name": "EzPz BRO"
+            }
+          ]
+        },
+        {
+          "matchId": 509824404,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T06:25:12.000Z",
+          "dur": 292,
+          "opponents": [
+            {
+              "profileId": 23189414,
+              "name": "\u96e8\u843d"
+            },
+            {
+              "profileId": 9992192,
+              "name": "\u641e\u5c31\u5b8c\u4e86"
+            },
+            {
+              "profileId": 22353237,
+              "name": "\u5927\u6c49\u5fe0\u81e3\u66f9\u5b5f\u5fb7"
+            },
+            {
+              "profileId": 757747,
+              "name": "mydogqmi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4913577,
+              "name": "\u5440\u54c8"
+            },
+            {
+              "profileId": 9905927,
+              "name": "Srj"
+            },
+            {
+              "profileId": 19871879,
+              "name": "Sunny"
+            }
+          ]
+        },
         {
           "matchId": 508367067,
           "civ": "Persians",
@@ -3282,5 +3408,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

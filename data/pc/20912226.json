@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 843,
-        "pulledDate": "2026-09-27",
-        "latestRating": 809,
+        "totalGames": 847,
+        "pulledDate": "2026-10-01",
+        "latestRating": 775,
         "peakRating": 895
       },
       "matches": [
+        {
+          "matchId": 510408889,
+          "civ": "Goths",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:21:00.000Z",
+          "dur": 1124,
+          "opponents": [
+            {
+              "profileId": 5534429,
+              "name": "\u7237\u50b2\u706c\u8010\u6211\u4f55"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510401936,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:38:04.000Z",
+          "dur": 898,
+          "opponents": [
+            {
+              "profileId": 2070250,
+              "name": "diego_benavente"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510277010,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T09:35:43.000Z",
+          "dur": 728,
+          "opponents": [
+            {
+              "profileId": 16240628,
+              "name": "adameczati"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510060176,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:11:22.000Z",
+          "dur": 1087,
+          "opponents": [
+            {
+              "profileId": 781261,
+              "name": "sebastienbohan95"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509060520,
           "civ": "Goths",
@@ -14361,7 +14429,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": [
         {
@@ -14675,5 +14743,6 @@
   },
   "country": "id",
   "countryIcon": "\ud83c\uddee\ud83c\udde9",
-  "countryName": "Indonesia"
+  "countryName": "Indonesia",
+  "platform": "Steam"
 }

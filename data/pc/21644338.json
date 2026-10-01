@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1047
       },
       "matches": [
@@ -60,12 +60,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 507,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1282,
+        "totalGames": 510,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1265,
         "peakRating": 1340
       },
       "matches": [
+        {
+          "matchId": 509601955,
+          "civ": "Franks",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:55:36.000Z",
+          "dur": 3469,
+          "opponents": [
+            {
+              "profileId": 5721740,
+              "name": "FF\u718a\u718a"
+            },
+            {
+              "profileId": 5220461,
+              "name": "S\u4e2a\u5e05\u54e5"
+            },
+            {
+              "profileId": 3129574,
+              "name": "\u54b8\u9c7c\u6b7b\u7075"
+            },
+            {
+              "profileId": 1068176,
+              "name": "\u52a8\u8f66\u7684\u8f66\u5934"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21460158,
+              "name": "STDofBelisarius"
+            },
+            {
+              "profileId": 5387003,
+              "name": "skarrf"
+            },
+            {
+              "profileId": 398070,
+              "name": "Julian"
+            }
+          ]
+        },
+        {
+          "matchId": 509595706,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T11:18:02.000Z",
+          "dur": 2025,
+          "opponents": [
+            {
+              "profileId": 24273219,
+              "name": "Gustavsson"
+            },
+            {
+              "profileId": 8564160,
+              "name": "PLEASE, PLEASE, PLEASE"
+            },
+            {
+              "profileId": 8993147,
+              "name": "BaniWang"
+            },
+            {
+              "profileId": 25968865,
+              "name": "\ub0a8\uc870\uc120\uc0ac\ub78c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1082498,
+              "name": "^ScArFaCe^"
+            },
+            {
+              "profileId": 5387003,
+              "name": "skarrf"
+            },
+            {
+              "profileId": 21460158,
+              "name": "STDofBelisarius"
+            }
+          ]
+        },
+        {
+          "matchId": 509590637,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:44:50.000Z",
+          "dur": 1616,
+          "opponents": [
+            {
+              "profileId": 4032775,
+              "name": "\u5341\u5e74\u4ecd\u83dc"
+            },
+            {
+              "profileId": 11245232,
+              "name": "rateezy"
+            },
+            {
+              "profileId": 9834164,
+              "name": "\u97d3\u570b\u9b5a"
+            },
+            {
+              "profileId": 572271,
+              "name": "agresif"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23851990,
+              "name": "SabahIctimasi"
+            },
+            {
+              "profileId": 21460158,
+              "name": "STDofBelisarius"
+            },
+            {
+              "profileId": 5387003,
+              "name": "skarrf"
+            }
+          ]
+        },
         {
           "matchId": 509119277,
           "civ": "Mongols",
@@ -20893,5 +21019,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

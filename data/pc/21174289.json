@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 380,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1172,
+        "totalGames": 384,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1173,
         "peakRating": 1235
       },
       "matches": [
+        {
+          "matchId": 510386631,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:17:49.000Z",
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 120505,
+              "name": "arthuopod"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509727380,
+          "civ": "Wu",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:32:29.000Z",
+          "dur": 791,
+          "opponents": [
+            {
+              "profileId": 11910264,
+              "name": "Crazy_oTTo_53"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509656113,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:56:31.000Z",
+          "dur": 1911,
+          "opponents": [
+            {
+              "profileId": 1783328,
+              "name": "General Ganja"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509626357,
+          "civ": "Franks",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:55:16.000Z",
+          "dur": 1516,
+          "opponents": [
+            {
+              "profileId": 449339,
+              "name": "Pappi"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509174084,
           "civ": "Japanese",
@@ -6123,7 +6191,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 53,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1181,
         "peakRating": 1201
       },
@@ -7530,5 +7598,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

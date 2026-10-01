@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 979,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1506,
         "peakRating": 1692
       },
@@ -15744,12 +15744,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 280,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1399,
+        "totalGames": 284,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1393,
         "peakRating": 1484
       },
       "matches": [
+        {
+          "matchId": 510486298,
+          "civ": "Britons",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T07:46:02.000Z",
+          "dur": 1801,
+          "opponents": [
+            {
+              "profileId": 5263981,
+              "name": "\u9b54\u9b3c\u6211\u5728\u7d22\u9a6c\u91cc"
+            },
+            {
+              "profileId": 12270688,
+              "name": "\u68d2\u603b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1211527,
+              "name": "Kawarg"
+            }
+          ]
+        },
+        {
+          "matchId": 510485919,
+          "civ": "Britons",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T07:42:14.000Z",
+          "dur": 92,
+          "opponents": [
+            {
+              "profileId": 11311669,
+              "name": "jeter4649"
+            },
+            {
+              "profileId": 14816534,
+              "name": "Brutalitops"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1211527,
+              "name": "Kawarg"
+            }
+          ]
+        },
+        {
+          "matchId": 510292442,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:02:12.000Z",
+          "dur": 2443,
+          "opponents": [
+            {
+              "profileId": 3927667,
+              "name": "GELO163Rus"
+            },
+            {
+              "profileId": 20845654,
+              "name": "ofespinelman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1211527,
+              "name": "Kawarg"
+            }
+          ]
+        },
+        {
+          "matchId": 510289152,
+          "civ": "Britons",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:35:25.000Z",
+          "dur": 816,
+          "opponents": [
+            {
+              "profileId": 947095,
+              "name": "noselaw"
+            },
+            {
+              "profileId": 25365681,
+              "name": "mayoke331"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1211527,
+              "name": "Kawarg"
+            }
+          ]
+        },
         {
           "matchId": 508384388,
           "civ": "Britons",
@@ -23041,5 +23145,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

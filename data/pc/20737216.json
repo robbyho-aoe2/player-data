@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 28,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 935,
         "peakRating": 1005
       },
@@ -483,12 +483,174 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 354,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1183,
+        "totalGames": 359,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1177,
         "peakRating": 1223
       },
       "matches": [
+        {
+          "matchId": 510190579,
+          "civ": "Persians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:10:16.000Z",
+          "dur": 4760,
+          "opponents": [
+            {
+              "profileId": 22945014,
+              "name": "hadji_andiyskiy"
+            },
+            {
+              "profileId": 23089631,
+              "name": "Saladin"
+            },
+            {
+              "profileId": 23993295,
+              "name": "azal873"
+            },
+            {
+              "profileId": 22944511,
+              "name": "shamil.malikov97"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24053272,
+              "name": "CounT_DracuLa"
+            },
+            {
+              "profileId": 20710052,
+              "name": "Mousa The GREAT"
+            },
+            {
+              "profileId": 20736391,
+              "name": "The-Goth-Father"
+            }
+          ]
+        },
+        {
+          "matchId": 510185520,
+          "civ": "Persians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:38:31.000Z",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 5314327,
+              "name": "Yellowping"
+            },
+            {
+              "profileId": 14526502,
+              "name": "santy"
+            },
+            {
+              "profileId": 1304347,
+              "name": "McLagan"
+            },
+            {
+              "profileId": 1378792,
+              "name": "[FUCKI] Obi-One Canboneme"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20710052,
+              "name": "Mousa The GREAT"
+            },
+            {
+              "profileId": 20736391,
+              "name": "The-Goth-Father"
+            },
+            {
+              "profileId": 24053272,
+              "name": "CounT_DracuLa"
+            }
+          ]
+        },
+        {
+          "matchId": 510167015,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:03:44.000Z",
+          "dur": 2922,
+          "opponents": [
+            {
+              "profileId": 514550,
+              "name": "Panoutx"
+            },
+            {
+              "profileId": 361861,
+              "name": "jmunozi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20736391,
+              "name": "The-Goth-Father"
+            }
+          ]
+        },
+        {
+          "matchId": 509731995,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:52:43.000Z",
+          "dur": 1468,
+          "opponents": [
+            {
+              "profileId": 386806,
+              "name": "Skresh"
+            },
+            {
+              "profileId": 362578,
+              "name": "Rhamen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23263949,
+              "name": "Ali sanfur"
+            }
+          ]
+        },
+        {
+          "matchId": 509722387,
+          "civ": "Bohemians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:13:18.000Z",
+          "dur": 1986,
+          "opponents": [
+            {
+              "profileId": 3042208,
+              "name": "Tewenwar"
+            },
+            {
+              "profileId": 810716,
+              "name": "Zyzyx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23263949,
+              "name": "Ali sanfur"
+            }
+          ]
+        },
         {
           "matchId": 509425718,
           "civ": "Bohemians",
@@ -11774,5 +11936,6 @@
   },
   "country": "eg",
   "countryIcon": "\ud83c\uddea\ud83c\uddec",
-  "countryName": "Egypt"
+  "countryName": "Egypt",
+  "platform": "Steam"
 }

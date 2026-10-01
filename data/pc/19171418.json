@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 144,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1214,
+        "totalGames": 148,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1215,
         "peakRating": 1231
       },
       "matches": [
+        {
+          "matchId": 509937052,
+          "civ": "Spanish",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:02:22.000Z",
+          "dur": 1815,
+          "opponents": [
+            {
+              "profileId": 10433710,
+              "name": "nprhino_aoe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509692080,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:21:01.000Z",
+          "dur": 1930,
+          "opponents": [
+            {
+              "profileId": 1864751,
+              "name": "Kakkabart"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509688970,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:09:35.000Z",
+          "dur": 544,
+          "opponents": [
+            {
+              "profileId": 3208997,
+              "name": "aimLess bro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509581255,
+          "civ": "Jurchens",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:40:33.000Z",
+          "dur": 1512,
+          "opponents": [
+            {
+              "profileId": 6044433,
+              "name": "\u5e25\u5230\u60f3\u81ea\u6bba"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509478148,
           "civ": "Varangians",
@@ -2338,12 +2406,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 278,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1032,
+        "totalGames": 280,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1026,
         "peakRating": 1175
       },
       "matches": [
+        {
+          "matchId": 509592016,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:54:31.000Z",
+          "dur": 1222,
+          "opponents": [
+            {
+              "profileId": 6879570,
+              "name": "LimitBid70"
+            },
+            {
+              "profileId": 2604183,
+              "name": "brian433"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19345909,
+              "name": "Ghost"
+            }
+          ]
+        },
+        {
+          "matchId": 509586896,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:19:45.000Z",
+          "dur": 1568,
+          "opponents": [
+            {
+              "profileId": 5116541,
+              "name": "Alestopa"
+            },
+            {
+              "profileId": 3119372,
+              "name": "\u780d\u5fb7\u6c83.\u57fa\u5c14\u90a6\u786c.\u9999\u8fbe\u83f2\u57fa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19345909,
+              "name": "Ghost"
+            }
+          ]
+        },
         {
           "matchId": 509400041,
           "civ": "Varangians",
@@ -11187,5 +11307,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Steam"
 }

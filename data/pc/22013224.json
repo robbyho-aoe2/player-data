@@ -6,32 +6,92 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 966,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1614,
+        "totalGames": 968,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1641,
         "peakRating": 1661
       },
       "matches": [
+        {
+          "matchId": 510238570,
+          "civ": "Mongols",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:16:43.000Z",
+          "dur": 1678,
+          "opponents": [
+            {
+              "profileId": 18431534,
+              "name": "AndresCast"
+            },
+            {
+              "profileId": 25644837,
+              "name": "Ah Bueno"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21865988,
+              "name": "Shincham"
+            }
+          ]
+        },
+        {
+          "matchId": 510229092,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:15:22.000Z",
+          "dur": 3059,
+          "opponents": [
+            {
+              "profileId": 18424903,
+              "name": "Tuco_Parmera"
+            },
+            {
+              "profileId": 3056411,
+              "name": "Xtreme | Pr3da"
+            },
+            {
+              "profileId": 4131584,
+              "name": "Shadow_BR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21865988,
+              "name": "Shincham"
+            },
+            {
+              "profileId": 21519324,
+              "name": "Sub Leo"
+            }
+          ]
+        },
         {
           "matchId": 509273784,
           "civ": "Mongols",
@@ -26010,5 +26070,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

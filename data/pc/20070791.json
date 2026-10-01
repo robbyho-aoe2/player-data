@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 86,
-        "pulledDate": "2026-09-27",
-        "latestRating": 948,
-        "peakRating": 948
+        "totalGames": 89,
+        "pulledDate": "2026-10-01",
+        "latestRating": 934,
+        "peakRating": 949
       },
       "matches": [
+        {
+          "matchId": 510150133,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:48:03.000Z",
+          "dur": 1487,
+          "opponents": [
+            {
+              "profileId": 25679133,
+              "name": "vincentophoff"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510146855,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:32:56.000Z",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 6230801,
+              "name": "NakedMike"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510139295,
+          "civ": "Armenians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:56:05.000Z",
+          "dur": 1099,
+          "opponents": [
+            {
+              "profileId": 718593,
+              "name": "AnatolianTiger"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508772668,
           "civ": "Goths",
@@ -1491,12 +1542,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 13,
-        "pulledDate": "2026-09-27",
-        "latestRating": 940,
+        "totalGames": 14,
+        "pulledDate": "2026-10-01",
+        "latestRating": 907,
         "peakRating": 940
       },
       "matches": [
+        {
+          "matchId": 510143157,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:15:40.000Z",
+          "dur": 1492,
+          "opponents": [
+            {
+              "profileId": 25430482,
+              "name": "\u706d\u4e16\u5c60\u795e\u711a\u5929\u64bc\u5929\u4fee\u7f57"
+            },
+            {
+              "profileId": 25430490,
+              "name": "\u96f7\u9706\u706d\u4e16\u5c0f\u7f8a\u7f8a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25544037,
+              "name": "dundergubbe"
+            }
+          ]
+        },
         {
           "matchId": 508778550,
           "civ": "Romans",
@@ -1888,5 +1965,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 40,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1163,
         "peakRating": 1163
       },
@@ -671,12 +671,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 363,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1213,
+        "totalGames": 366,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1269,
         "peakRating": 1324
       },
       "matches": [
+        {
+          "matchId": 509708755,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:22:07.000Z",
+          "dur": 1795,
+          "opponents": [
+            {
+              "profileId": 1319702,
+              "name": "PurpleGirafe"
+            },
+            {
+              "profileId": 25893051,
+              "name": "neto_leo15"
+            },
+            {
+              "profileId": 8969455,
+              "name": "kiara.g"
+            },
+            {
+              "profileId": 2051910,
+              "name": "Geronimo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2956114,
+              "name": "Eleandro"
+            },
+            {
+              "profileId": 2222724,
+              "name": "Moard"
+            },
+            {
+              "profileId": 1536575,
+              "name": "Fleischwolf"
+            }
+          ]
+        },
+        {
+          "matchId": 509699814,
+          "civ": "Cumans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:50:29.000Z",
+          "dur": 1496,
+          "opponents": [
+            {
+              "profileId": 23396948,
+              "name": "laofengzi"
+            },
+            {
+              "profileId": 274682,
+              "name": "nemesis"
+            },
+            {
+              "profileId": 532874,
+              "name": "twelve"
+            },
+            {
+              "profileId": 3967042,
+              "name": "proxxi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1536575,
+              "name": "Fleischwolf"
+            },
+            {
+              "profileId": 2222724,
+              "name": "Moard"
+            },
+            {
+              "profileId": 5274422,
+              "name": "Kampfkekssss"
+            }
+          ]
+        },
+        {
+          "matchId": 509692173,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:22:15.000Z",
+          "dur": 1475,
+          "opponents": [
+            {
+              "profileId": 20340428,
+              "name": "HappyHalb"
+            },
+            {
+              "profileId": 5741031,
+              "name": "Porro bal\u00f3n de oro"
+            },
+            {
+              "profileId": 1350348,
+              "name": "Elfufu"
+            },
+            {
+              "profileId": 575850,
+              "name": "Le Miel Jospin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5274422,
+              "name": "Kampfkekssss"
+            },
+            {
+              "profileId": 2222724,
+              "name": "Moard"
+            },
+            {
+              "profileId": 1536575,
+              "name": "Fleischwolf"
+            }
+          ]
+        },
         {
           "matchId": 509433218,
           "civ": "Danes",
@@ -14253,5 +14379,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

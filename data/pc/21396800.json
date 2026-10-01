@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 23,
-        "pulledDate": "2026-09-27",
-        "latestRating": 712,
+        "totalGames": 24,
+        "pulledDate": "2026-10-01",
+        "latestRating": 696,
         "peakRating": 737
       },
       "matches": [
+        {
+          "matchId": 510102339,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:37:11.000Z",
+          "dur": 1838,
+          "opponents": [
+            {
+              "profileId": 4982811,
+              "name": "Cure"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509420310,
           "civ": "Persians",
@@ -405,7 +422,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 698,
         "peakRating": 725
       },
@@ -717,5 +734,6 @@
   },
   "country": "ba",
   "countryIcon": "\ud83c\udde7\ud83c\udde6",
-  "countryName": "Bosnia and Herzegovina"
+  "countryName": "Bosnia and Herzegovina",
+  "platform": "Steam"
 }

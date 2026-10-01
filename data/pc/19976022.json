@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 230,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1434,
+        "totalGames": 231,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1448,
         "peakRating": 1462
       },
       "matches": [
+        {
+          "matchId": 509517894,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:41:39.000Z",
+          "dur": 1173,
+          "opponents": [
+            {
+              "profileId": 14667946,
+              "name": "Noso_vinci"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509484600,
           "civ": "Burgundians",
@@ -2299,12 +2316,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 746,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1358,
+        "totalGames": 748,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1357,
         "peakRating": 1429
       },
       "matches": [
+        {
+          "matchId": 510236857,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:05:21.000Z",
+          "dur": 1909,
+          "opponents": [
+            {
+              "profileId": 22747470,
+              "name": "ValkriaN"
+            },
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            },
+            {
+              "profileId": 4904072,
+              "name": "leung"
+            },
+            {
+              "profileId": 11253521,
+              "name": "jetty8282-\ud55c\uad6d\uc778"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 199325,
+              "name": "Hera"
+            },
+            {
+              "profileId": 228480,
+              "name": "CornbredCrusader"
+            },
+            {
+              "profileId": 19110364,
+              "name": "Moules028118"
+            }
+          ]
+        },
+        {
+          "matchId": 510220847,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:25:35.000Z",
+          "dur": 1953,
+          "opponents": [
+            {
+              "profileId": 24304306,
+              "name": "TANDAROS"
+            },
+            {
+              "profileId": 19888416,
+              "name": "BlueIce"
+            },
+            {
+              "profileId": 5420018,
+              "name": "Z-Rick"
+            },
+            {
+              "profileId": 3120171,
+              "name": "Mango"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 228480,
+              "name": "CornbredCrusader"
+            },
+            {
+              "profileId": 3457957,
+              "name": "Baerliner"
+            },
+            {
+              "profileId": 199325,
+              "name": "Hera"
+            }
+          ]
+        },
         {
           "matchId": 508776022,
           "civ": "Saxons",
@@ -10221,5 +10322,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

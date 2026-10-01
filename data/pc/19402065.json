@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 151,
-        "pulledDate": "2026-09-24",
-        "latestRating": 830,
+        "totalGames": 152,
+        "pulledDate": "2026-10-01",
+        "latestRating": 849,
         "peakRating": 861
       },
       "matches": [
+        {
+          "matchId": 510328298,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:35:40.000Z",
+          "dur": 1146,
+          "opponents": [
+            {
+              "profileId": 4559343,
+              "name": "Black_Bird"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508693484,
           "civ": "Danes",
@@ -2596,12 +2613,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 261,
-        "pulledDate": "2026-09-24",
-        "latestRating": 776,
+        "totalGames": 262,
+        "pulledDate": "2026-10-01",
+        "latestRating": 789,
         "peakRating": 865
       },
       "matches": [
+        {
+          "matchId": 510322876,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:06:14.000Z",
+          "dur": 1617,
+          "opponents": [
+            {
+              "profileId": 18296183,
+              "name": "Th\u00e0edric"
+            },
+            {
+              "profileId": 4668640,
+              "name": "smalltwo295"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2710875,
+              "name": "Delacoal"
+            }
+          ]
+        },
         {
           "matchId": 508751414,
           "civ": "Danes",
@@ -9825,5 +9868,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

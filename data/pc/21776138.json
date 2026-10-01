@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 100,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1504,
         "peakRating": 1517
       },
@@ -1729,12 +1729,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 72,
-        "pulledDate": "2026-09-27",
+        "totalGames": 73,
+        "pulledDate": "2026-10-01",
         "latestRating": 1249,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 510494749,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:06:44.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 12453157,
+              "name": "muui"
+            },
+            {
+              "profileId": 2872871,
+              "name": "\u82cd\u771f"
+            },
+            {
+              "profileId": 26181237,
+              "name": "\u6839\u672c\u8d62\u4e0d\u4e86"
+            },
+            {
+              "profileId": 21925414,
+              "name": "ORANGE\u6c41\uff01\uff01\uff01"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4454843,
+              "name": "Krazha\u00ebl"
+            },
+            {
+              "profileId": 4253695,
+              "name": "asgaffo"
+            },
+            {
+              "profileId": 865217,
+              "name": "Sniper_Wolf"
+            }
+          ]
+        },
         {
           "matchId": 448990217,
           "civ": "Bohemians",
@@ -3828,5 +3870,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

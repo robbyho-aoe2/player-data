@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 319,
-        "pulledDate": "2026-09-20",
-        "latestRating": 989,
+        "totalGames": 322,
+        "pulledDate": "2026-10-01",
+        "latestRating": 971,
         "peakRating": 1076
       },
       "matches": [
+        {
+          "matchId": 510207329,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:57:46.000Z",
+          "dur": 3212,
+          "opponents": [
+            {
+              "profileId": 22936546,
+              "name": "[LQE]Sun Tzu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509520142,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:53:30.000Z",
+          "dur": 1405,
+          "opponents": [
+            {
+              "profileId": 19924045,
+              "name": "REY ACHU"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509515292,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:28:28.000Z",
+          "dur": 1446,
+          "opponents": [
+            {
+              "profileId": 16185447,
+              "name": "ESYM"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506938787,
           "civ": "Spanish",
@@ -5453,7 +5504,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 402,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-01",
         "latestRating": 899,
         "peakRating": 1040
       },
@@ -16027,5 +16078,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

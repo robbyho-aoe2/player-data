@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 894,
         "peakRating": 943
       },
@@ -369,12 +369,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 109,
-        "pulledDate": "2026-09-26",
-        "latestRating": 801,
+        "totalGames": 112,
+        "pulledDate": "2026-10-01",
+        "latestRating": 848,
         "peakRating": 873
       },
       "matches": [
+        {
+          "matchId": 510236857,
+          "civ": "Vietnamese",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:05:21.000Z",
+          "dur": 1909,
+          "opponents": [
+            {
+              "profileId": 4904072,
+              "name": "leung"
+            },
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            },
+            {
+              "profileId": 22747470,
+              "name": "ValkriaN"
+            },
+            {
+              "profileId": 11253521,
+              "name": "jetty8282-\ud55c\uad6d\uc778"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 228480,
+              "name": "CornbredCrusader"
+            },
+            {
+              "profileId": 199325,
+              "name": "Hera"
+            },
+            {
+              "profileId": 19976022,
+              "name": "MrGodly0708"
+            }
+          ]
+        },
+        {
+          "matchId": 510220873,
+          "civ": "Vietnamese",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:25:56.000Z",
+          "dur": 2329,
+          "opponents": [
+            {
+              "profileId": 6452240,
+              "name": "rick_m94"
+            },
+            {
+              "profileId": 9971398,
+              "name": "Bopp77"
+            },
+            {
+              "profileId": 14838136,
+              "name": "Bobby Brad Phill Johnson Mcguire"
+            },
+            {
+              "profileId": 11959552,
+              "name": "Quack Y Attack"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5765481,
+              "name": "JuanitoCaminante~"
+            },
+            {
+              "profileId": 23507044,
+              "name": "ediazamaya0"
+            },
+            {
+              "profileId": 10745879,
+              "name": "RAM"
+            }
+          ]
+        },
+        {
+          "matchId": 510206933,
+          "civ": "Burgundians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:55:38.000Z",
+          "dur": 1856,
+          "opponents": [
+            {
+              "profileId": 3107789,
+              "name": "\u6c34\u6cca\u6881\u5c71"
+            },
+            {
+              "profileId": 11838193,
+              "name": "El gato feroz"
+            },
+            {
+              "profileId": 11894286,
+              "name": "ubertorresr"
+            },
+            {
+              "profileId": 4103696,
+              "name": "\u272a\u265b Chapulin el dulce"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 199325,
+              "name": "Hera"
+            },
+            {
+              "profileId": 25426598,
+              "name": "TeKarino"
+            },
+            {
+              "profileId": 8978365,
+              "name": "GreenBeret"
+            }
+          ]
+        },
         {
           "matchId": 508762470,
           "civ": "Bohemians",
@@ -3726,5 +3852,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Xbox"
 }

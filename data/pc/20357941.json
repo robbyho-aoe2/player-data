@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 166,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1316,
+        "totalGames": 168,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1317,
         "peakRating": 1386
       },
       "matches": [
+        {
+          "matchId": 510157599,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:20:41.000Z",
+          "dur": 1495,
+          "opponents": [
+            {
+              "profileId": 19060130,
+              "name": "M\u00fclli M\u00fcllion"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509746289,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:58:24.000Z",
+          "dur": 453,
+          "opponents": [
+            {
+              "profileId": 4422074,
+              "name": "Atthoon"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508977647,
           "civ": "Aztecs",
@@ -2717,7 +2751,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 56,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1328,
         "peakRating": 1328
       },
@@ -4279,5 +4313,6 @@
   },
   "country": "ie",
   "countryIcon": "\ud83c\uddee\ud83c\uddea",
-  "countryName": "Ireland"
+  "countryName": "Ireland",
+  "platform": "Steam"
 }

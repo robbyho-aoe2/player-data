@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 765,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1601,
+        "totalGames": 768,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1556,
         "peakRating": 1720
       },
       "matches": [
+        {
+          "matchId": 509898270,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:52:28.000Z",
+          "dur": 393,
+          "opponents": [
+            {
+              "profileId": 3599380,
+              "name": "mil0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509639086,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:47:38.000Z",
+          "dur": 156,
+          "opponents": [
+            {
+              "profileId": 1655896,
+              "name": "AKEngineer"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509637950,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:43:23.000Z",
+          "dur": 180,
+          "opponents": [
+            {
+              "profileId": 1655896,
+              "name": "AKEngineer"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506238877,
           "civ": "Koreans",
@@ -12275,7 +12326,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 288,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-01",
         "latestRating": 1534,
         "peakRating": 1568
       },
@@ -23305,5 +23356,6 @@
   },
   "country": "ro",
   "countryIcon": "\ud83c\uddf7\ud83c\uddf4",
-  "countryName": "Romania"
+  "countryName": "Romania",
+  "platform": "Steam"
 }

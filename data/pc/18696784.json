@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 383,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-01",
         "latestRating": 1098,
         "peakRating": 1170
       },
@@ -6540,12 +6540,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 497,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1102,
+        "totalGames": 500,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1100,
         "peakRating": 1271
       },
       "matches": [
+        {
+          "matchId": 510285315,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:01:07.000Z",
+          "dur": 2070,
+          "opponents": [
+            {
+              "profileId": 909508,
+              "name": "Subuday Noyan"
+            },
+            {
+              "profileId": 21004406,
+              "name": "531296906"
+            },
+            {
+              "profileId": 22849951,
+              "name": "SW_Paul"
+            },
+            {
+              "profileId": 23252356,
+              "name": "SW\u786c\u864e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25939430,
+              "name": "\u79cd\u7530\u4f7f\u6211\u5feb\u4e50"
+            },
+            {
+              "profileId": 24407946,
+              "name": "\u6148\u6eaa\u94c1\u5934\u9a6c"
+            },
+            {
+              "profileId": 25223404,
+              "name": "\u6148\u6eaa\u6295\u77db\u624b"
+            }
+          ]
+        },
+        {
+          "matchId": 510282224,
+          "civ": "Bulgarians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:30:39.000Z",
+          "dur": 1568,
+          "opponents": [
+            {
+              "profileId": 2043170,
+              "name": "RiChardge"
+            },
+            {
+              "profileId": 25324882,
+              "name": "xygogo"
+            },
+            {
+              "profileId": 379799,
+              "name": "Lord Ramsay Bolton"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25939430,
+              "name": "\u79cd\u7530\u4f7f\u6211\u5feb\u4e50"
+            },
+            {
+              "profileId": 24407946,
+              "name": "\u6148\u6eaa\u94c1\u5934\u9a6c"
+            }
+          ]
+        },
+        {
+          "matchId": 510281781,
+          "civ": "Bengalis",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:26:11.000Z",
+          "dur": 46,
+          "opponents": [
+            {
+              "profileId": 4765424,
+              "name": "Dark Balrog Chicken"
+            },
+            {
+              "profileId": 9161765,
+              "name": "johansoderstrom1"
+            },
+            {
+              "profileId": 8002391,
+              "name": "Nectarine"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25939430,
+              "name": "\u79cd\u7530\u4f7f\u6211\u5feb\u4e50"
+            },
+            {
+              "profileId": 24407946,
+              "name": "\u6148\u6eaa\u94c1\u5934\u9a6c"
+            }
+          ]
+        },
         {
           "matchId": 507665786,
           "civ": "Italians",
@@ -25641,5 +25751,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

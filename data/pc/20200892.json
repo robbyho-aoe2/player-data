@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-08"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 161,
-        "pulledDate": "2026-09-08",
+        "pulledDate": "2026-10-01",
         "latestRating": 1594,
         "peakRating": 1594
       },
@@ -2605,12 +2605,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 67,
-        "pulledDate": "2026-09-08",
-        "latestRating": 1443,
+        "totalGames": 69,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1415,
         "peakRating": 1480
       },
       "matches": [
+        {
+          "matchId": 510204747,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:40:34.000Z",
+          "dur": 1416,
+          "opponents": [
+            {
+              "profileId": 24853301,
+              "name": "SimmaHem7912"
+            },
+            {
+              "profileId": 1015766,
+              "name": "D==D.Trooper"
+            },
+            {
+              "profileId": 799270,
+              "name": "[IMGG] JuanCa"
+            },
+            {
+              "profileId": 151384,
+              "name": "busy pushing deer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2717801,
+              "name": "CORP_Solano"
+            },
+            {
+              "profileId": 5001289,
+              "name": "CORP_Maquiover"
+            },
+            {
+              "profileId": 3273291,
+              "name": "CORP_Omars"
+            }
+          ]
+        },
+        {
+          "matchId": 510017095,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:30:33.000Z",
+          "dur": 1162,
+          "opponents": [
+            {
+              "profileId": 12282312,
+              "name": "bcda"
+            },
+            {
+              "profileId": 1148848,
+              "name": "\u8fea\u6069-\u4f0a\u85a9\u5361-\u51e1\u723e\u8cfd\u63d0\u65af"
+            },
+            {
+              "profileId": 8723831,
+              "name": "\u8001\u694a\u9ed8\u9ed8\u5730\u5403\u4e86\u71b1\u9999\u8549\u6ce1\u9eb5"
+            },
+            {
+              "profileId": 17581557,
+              "name": "Atlas35"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2717801,
+              "name": "CORP_Solano"
+            },
+            {
+              "profileId": 3015786,
+              "name": "CORP_PysKo InKa-RreaBle"
+            },
+            {
+              "profileId": 4563168,
+              "name": "CORP_ EuSanAoE"
+            }
+          ]
+        },
         {
           "matchId": 496807740,
           "civ": "Magyars",
@@ -5275,5 +5359,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

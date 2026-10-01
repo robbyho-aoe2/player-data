@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 288,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1179,
+        "totalGames": 291,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1165,
         "peakRating": 1346
       },
       "matches": [
+        {
+          "matchId": 509715373,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:46:24.000Z",
+          "dur": 1331,
+          "opponents": [
+            {
+              "profileId": 9714605,
+              "name": "Ron"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509707160,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:16:38.000Z",
+          "dur": 1322,
+          "opponents": [
+            {
+              "profileId": 6376043,
+              "name": "Sir_Malmsteen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509699315,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:47:58.000Z",
+          "dur": 1080,
+          "opponents": [
+            {
+              "profileId": 3214927,
+              "name": "Thor Ragnarsson"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509419494,
           "civ": "Khmer",
@@ -4702,7 +4753,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 458,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1246,
         "peakRating": 1325
       },
@@ -22047,5 +22098,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 757,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1327,
+        "totalGames": 763,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1303,
         "peakRating": 1365
       },
       "matches": [
+        {
+          "matchId": 509835831,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:27:08.000Z",
+          "dur": 453,
+          "opponents": [
+            {
+              "profileId": 2392962,
+              "name": "Jackie Daytona"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509834206,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:09:56.000Z",
+          "dur": 924,
+          "opponents": [
+            {
+              "profileId": 5212690,
+              "name": "MalvXIV"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509639534,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:49:06.000Z",
+          "dur": 1896,
+          "opponents": [
+            {
+              "profileId": 1443120,
+              "name": "Vollfed"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509634322,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:29:06.000Z",
+          "dur": 1112,
+          "opponents": [
+            {
+              "profileId": 9557316,
+              "name": "Dora_La_Boliviana"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509631124,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:15:54.000Z",
+          "dur": 698,
+          "opponents": [
+            {
+              "profileId": 9557316,
+              "name": "Dora_La_Boliviana"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509623477,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:42:37.000Z",
+          "dur": 1907,
+          "opponents": [
+            {
+              "profileId": 2631951,
+              "name": "Mtk"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504418860,
           "civ": "Japanese",
@@ -12153,12 +12255,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1133,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1026,
+        "totalGames": 1134,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1041,
         "peakRating": 1135
       },
       "matches": [
+        {
+          "matchId": 509650195,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:32:52.000Z",
+          "dur": 3764,
+          "opponents": [
+            {
+              "profileId": 3650409,
+              "name": "reflife32"
+            },
+            {
+              "profileId": 6831189,
+              "name": "Tomas Musillson"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18763504,
+              "name": "Ted08"
+            }
+          ]
+        },
         {
           "matchId": 508857634,
           "civ": "Danes",
@@ -43108,5 +43236,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

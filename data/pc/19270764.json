@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1323,
         "peakRating": 1323
       },
@@ -191,12 +191,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1413,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1286,
+        "totalGames": 1416,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1266,
         "peakRating": 1474
       },
       "matches": [
+        {
+          "matchId": 510428707,
+          "civ": "Celts",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:31:35.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 479475,
+              "name": "Clearly"
+            },
+            {
+              "profileId": 1155236,
+              "name": "Heldblaser"
+            },
+            {
+              "profileId": 9211907,
+              "name": "Atila el Huno"
+            },
+            {
+              "profileId": 9323482,
+              "name": "Agro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1400445,
+              "name": "Sebasti\u00e1n"
+            },
+            {
+              "profileId": 281737,
+              "name": "Vertical Vertigo"
+            },
+            {
+              "profileId": 5314327,
+              "name": "Yellowping"
+            }
+          ]
+        },
+        {
+          "matchId": 510393371,
+          "civ": "Celts",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:51:22.000Z",
+          "dur": 728,
+          "opponents": [
+            {
+              "profileId": 6774,
+              "name": "WiTcH_DocTaH_88"
+            },
+            {
+              "profileId": 790660,
+              "name": "Zaphod"
+            },
+            {
+              "profileId": 1681876,
+              "name": "Syncopath"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2526593,
+              "name": "Tirano"
+            },
+            {
+              "profileId": 13994899,
+              "name": "ShangDynasty11"
+            }
+          ]
+        },
+        {
+          "matchId": 510390105,
+          "civ": "Armenians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:35:25.000Z",
+          "dur": 832,
+          "opponents": [
+            {
+              "profileId": 272131,
+              "name": "PhreakShow"
+            },
+            {
+              "profileId": 2142497,
+              "name": "Wallace"
+            },
+            {
+              "profileId": 1237564,
+              "name": "ockm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4743909,
+              "name": "{LBA} Carlitos"
+            },
+            {
+              "profileId": 2763206,
+              "name": "{LBA} DFM"
+            }
+          ]
+        },
         {
           "matchId": 509183995,
           "civ": "Khmer",
@@ -14367,5 +14477,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

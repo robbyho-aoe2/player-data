@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-10-01",
         "latestRating": 1000
       },
       "matches": [
@@ -44,12 +44,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 436,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1695,
+        "totalGames": 440,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1714,
         "peakRating": 1735
       },
       "matches": [
+        {
+          "matchId": 510025751,
+          "civ": "Romans",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:28:32.000Z",
+          "dur": 1404,
+          "opponents": [
+            {
+              "profileId": 2984476,
+              "name": "NuMa | Toth"
+            },
+            {
+              "profileId": 19029303,
+              "name": "[CLB]PEGASO"
+            },
+            {
+              "profileId": 19880830,
+              "name": "Magio | Voy Pocker"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2500259,
+              "name": "fassu"
+            },
+            {
+              "profileId": 2847796,
+              "name": "[SEID] Aletheia"
+            }
+          ]
+        },
+        {
+          "matchId": 510020899,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:55:36.000Z",
+          "dur": 1393,
+          "opponents": [
+            {
+              "profileId": 246481,
+              "name": "VL SlenderMan"
+            },
+            {
+              "profileId": 2524306,
+              "name": "VL Retember"
+            },
+            {
+              "profileId": 25950390,
+              "name": "Don Magon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2500259,
+              "name": "fassu"
+            },
+            {
+              "profileId": 2847796,
+              "name": "[SEID] Aletheia"
+            }
+          ]
+        },
+        {
+          "matchId": 510018213,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:37:53.000Z",
+          "dur": 830,
+          "opponents": [
+            {
+              "profileId": 2956020,
+              "name": "JairoElChig\u00fci"
+            },
+            {
+              "profileId": 2489131,
+              "name": "PIPO GOROSITO"
+            },
+            {
+              "profileId": 2843358,
+              "name": "jj"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2500259,
+              "name": "fassu"
+            },
+            {
+              "profileId": 2847796,
+              "name": "[SEID] Aletheia"
+            }
+          ]
+        },
+        {
+          "matchId": 510013079,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:05:39.000Z",
+          "dur": 1280,
+          "opponents": [
+            {
+              "profileId": 18803216,
+              "name": "lisandropastore"
+            },
+            {
+              "profileId": 2955846,
+              "name": "FMG | KauTrEnS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2847796,
+              "name": "[SEID] Aletheia"
+            }
+          ]
+        },
         {
           "matchId": 500271036,
           "civ": "Khmer",
@@ -14714,5 +14842,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

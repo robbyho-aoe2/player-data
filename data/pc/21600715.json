@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1000
       },
       "matches": [
@@ -44,12 +44,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 916,
-        "pulledDate": "2026-09-23",
+        "totalGames": 918,
+        "pulledDate": "2026-10-01",
         "latestRating": 1129,
         "peakRating": 1324
       },
       "matches": [
+        {
+          "matchId": 509886908,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:51:45.000Z",
+          "dur": 2084,
+          "opponents": [
+            {
+              "profileId": 6064897,
+              "name": "\u8fd9\u6e38\u620f\u6709\u4eba\u7c7b\u961f\u53cb\u5417"
+            },
+            {
+              "profileId": 19233917,
+              "name": "\u5e0c\u671b\u5927\u9678\u4eba\u6709\u7d20\u8cea\u4e00\u9ede"
+            },
+            {
+              "profileId": 22791459,
+              "name": "Null Pointer"
+            },
+            {
+              "profileId": 25026250,
+              "name": "Ciallo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14205279,
+              "name": "\u9577\u5b89"
+            },
+            {
+              "profileId": 19871694,
+              "name": "AFK47"
+            },
+            {
+              "profileId": 181876,
+              "name": "karbid"
+            }
+          ]
+        },
+        {
+          "matchId": 509885774,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:45:32.000Z",
+          "dur": 252,
+          "opponents": [
+            {
+              "profileId": 655569,
+              "name": "SUNNYCHAN"
+            },
+            {
+              "profileId": 9939742,
+              "name": "\u4e09\u811a\u732b\u529f\u592b"
+            },
+            {
+              "profileId": 3489454,
+              "name": "Sexy COWWWWWWW"
+            },
+            {
+              "profileId": 2245350,
+              "name": "Trust Me Bro I am Prompt Enginer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19233917,
+              "name": "\u5e0c\u671b\u5927\u9678\u4eba\u6709\u7d20\u8cea\u4e00\u9ede"
+            },
+            {
+              "profileId": 4409865,
+              "name": "hadibaaay\u0131m"
+            },
+            {
+              "profileId": 22865535,
+              "name": "Wospenzukh"
+            }
+          ]
+        },
         {
           "matchId": 508226386,
           "civ": "Khmer",
@@ -32670,5 +32754,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 293,
-        "pulledDate": "2026-09-23",
-        "latestRating": 916,
+        "totalGames": 294,
+        "pulledDate": "2026-10-01",
+        "latestRating": 930,
         "peakRating": 1072
       },
       "matches": [
+        {
+          "matchId": 510381231,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:53:15.000Z",
+          "dur": 1660,
+          "opponents": [
+            {
+              "profileId": 1304312,
+              "name": "Homer554"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507994287,
           "civ": "Maya",
@@ -5010,12 +5027,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 178,
-        "pulledDate": "2026-09-23",
-        "latestRating": 904,
+        "totalGames": 179,
+        "pulledDate": "2026-10-01",
+        "latestRating": 919,
         "peakRating": 1037
       },
       "matches": [
+        {
+          "matchId": 510387580,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:22:59.000Z",
+          "dur": 1531,
+          "opponents": [
+            {
+              "profileId": 3031909,
+              "name": "dancing crab"
+            },
+            {
+              "profileId": 3031894,
+              "name": "MINIATURE PENIS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14838136,
+              "name": "Bobby Brad Phill Johnson Mcguire"
+            }
+          ]
+        },
         {
           "matchId": 508019077,
           "civ": "Maya",
@@ -10833,5 +10876,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

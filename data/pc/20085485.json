@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1095,
         "peakRating": 1095
       },
@@ -205,12 +205,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 845,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1172,
+        "totalGames": 849,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1175,
         "peakRating": 1308
       },
       "matches": [
+        {
+          "matchId": 509534205,
+          "civ": "Khmer",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T04:14:14.000Z",
+          "dur": 217,
+          "opponents": [
+            {
+              "profileId": 361405,
+              "name": "zaackvader10"
+            },
+            {
+              "profileId": 3064662,
+              "name": "Ragnarok"
+            },
+            {
+              "profileId": 4158077,
+              "name": "Chirp"
+            },
+            {
+              "profileId": 5041858,
+              "name": "ReaperAOE2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21299503,
+              "name": "bananaa"
+            },
+            {
+              "profileId": 9496591,
+              "name": "amir981227"
+            },
+            {
+              "profileId": 15307240,
+              "name": "Megatron2002"
+            }
+          ]
+        },
+        {
+          "matchId": 509525194,
+          "civ": "Persians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T03:21:14.000Z",
+          "dur": 2978,
+          "opponents": [
+            {
+              "profileId": 2114718,
+              "name": "Mr.YaYo"
+            },
+            {
+              "profileId": 451621,
+              "name": "Bazinga"
+            },
+            {
+              "profileId": 405679,
+              "name": "voodoomsr"
+            },
+            {
+              "profileId": 206791,
+              "name": "Lord Riquelme"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4937533,
+              "name": "Bondulkar"
+            },
+            {
+              "profileId": 2110565,
+              "name": "Hari_Seldon"
+            },
+            {
+              "profileId": 401462,
+              "name": "LavarBall"
+            }
+          ]
+        },
+        {
+          "matchId": 509518370,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:44:49.000Z",
+          "dur": 1994,
+          "opponents": [
+            {
+              "profileId": 9496304,
+              "name": "lord_blandon"
+            },
+            {
+              "profileId": 10795576,
+              "name": "ReliPLV"
+            },
+            {
+              "profileId": 11332828,
+              "name": "furkanonal2018"
+            },
+            {
+              "profileId": 11480295,
+              "name": "ViiRU ON TOP"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3482538,
+              "name": "yukiro2012"
+            },
+            {
+              "profileId": 3505025,
+              "name": "chenjim19850924"
+            },
+            {
+              "profileId": 25805711,
+              "name": "99KaiKai"
+            }
+          ]
+        },
+        {
+          "matchId": 509517751,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T02:41:25.000Z",
+          "dur": 82,
+          "opponents": [
+            {
+              "profileId": 708804,
+              "name": "zzbs1234"
+            },
+            {
+              "profileId": 15307240,
+              "name": "Megatron2002"
+            },
+            {
+              "profileId": 10767622,
+              "name": "small_rain_111"
+            },
+            {
+              "profileId": 3324640,
+              "name": "Vaga"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25805711,
+              "name": "99KaiKai"
+            },
+            {
+              "profileId": 3505025,
+              "name": "chenjim19850924"
+            },
+            {
+              "profileId": 3482538,
+              "name": "yukiro2012"
+            }
+          ]
+        },
         {
           "matchId": 509261663,
           "civ": "Khmer",
@@ -34908,5 +35076,6 @@
   },
   "country": "vn",
   "countryIcon": "\ud83c\uddfb\ud83c\uddf3",
-  "countryName": "Viet Nam"
+  "countryName": "Viet Nam",
+  "platform": "Steam"
 }

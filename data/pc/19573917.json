@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1048
       },
       "matches": [
@@ -60,12 +60,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 120,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1227,
-        "peakRating": 1243
+        "totalGames": 124,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1230,
+        "peakRating": 1262
       },
       "matches": [
+        {
+          "matchId": 509960540,
+          "civ": "Malians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:50:39.000Z",
+          "dur": 1348,
+          "opponents": [
+            {
+              "profileId": 15169955,
+              "name": "UnCLeMaRcH"
+            },
+            {
+              "profileId": 22675421,
+              "name": "seher9203"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 956805,
+              "name": "Pierrot"
+            }
+          ]
+        },
+        {
+          "matchId": 509956331,
+          "civ": "Mongols",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:30:26.000Z",
+          "dur": 1053,
+          "opponents": [
+            {
+              "profileId": 25743345,
+              "name": "iain.culbeg"
+            },
+            {
+              "profileId": 2803378,
+              "name": "roboPIE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 956805,
+              "name": "Pierrot"
+            }
+          ]
+        },
+        {
+          "matchId": 509943853,
+          "civ": "Italians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:33:33.000Z",
+          "dur": 2757,
+          "opponents": [
+            {
+              "profileId": 4693829,
+              "name": "Wilma Raiden I."
+            },
+            {
+              "profileId": 4637965,
+              "name": "Trickshot"
+            },
+            {
+              "profileId": 4692634,
+              "name": "Spieler2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 956805,
+              "name": "Pierrot"
+            },
+            {
+              "profileId": 7579739,
+              "name": "aliga"
+            }
+          ]
+        },
+        {
+          "matchId": 509938332,
+          "civ": "Malians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:08:36.000Z",
+          "dur": 653,
+          "opponents": [
+            {
+              "profileId": 722622,
+              "name": "Mo..."
+            },
+            {
+              "profileId": 2333895,
+              "name": "Blyatman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7579739,
+              "name": "aliga"
+            }
+          ]
+        },
         {
           "matchId": 508075958,
           "civ": "Italians",
@@ -3459,5 +3571,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

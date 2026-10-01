@@ -6,23 +6,74 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3,
-        "pulledDate": "2026-09-26"
+        "totalGames": 6,
+        "pulledDate": "2026-10-01"
       },
       "matches": [
+        {
+          "matchId": 509923310,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:00:15.000Z",
+          "dur": 2376,
+          "opponents": [
+            {
+              "profileId": 21948624,
+              "name": "guahodron"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509877931,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:03:15.000Z",
+          "dur": 1416,
+          "opponents": [
+            {
+              "profileId": 6080299,
+              "name": "weeeeeeei"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509625635,
+          "civ": "Burgundians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:52:14.000Z",
+          "dur": 1399,
+          "opponents": [
+            {
+              "profileId": 2081840,
+              "name": "Buddha Triton"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506918706,
           "civ": "Goths",
@@ -78,12 +129,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 103,
-        "pulledDate": "2026-09-26",
-        "latestRating": 678,
+        "totalGames": 105,
+        "pulledDate": "2026-10-01",
+        "latestRating": 712,
         "peakRating": 862
       },
       "matches": [
+        {
+          "matchId": 509934155,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:49:28.000Z",
+          "dur": 2909,
+          "opponents": [
+            {
+              "profileId": 9622024,
+              "name": "SCHLAWInER"
+            },
+            {
+              "profileId": 14479402,
+              "name": "Gobbor"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8841617,
+              "name": "Legend"
+            }
+          ]
+        },
+        {
+          "matchId": 509607852,
+          "civ": "Vikings",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:28:38.000Z",
+          "dur": 3249,
+          "opponents": [
+            {
+              "profileId": 26170898,
+              "name": "Pudgwes"
+            },
+            {
+              "profileId": 9194995,
+              "name": "Miss Priss"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9145610,
+              "name": "Tribamell"
+            }
+          ]
+        },
         {
           "matchId": 509319339,
           "civ": "Huns",
@@ -3103,5 +3206,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

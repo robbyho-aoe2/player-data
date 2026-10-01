@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 173,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 1107,
         "peakRating": 1138
       },
@@ -2797,12 +2797,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1590,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1270,
+        "totalGames": 1594,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1266,
         "peakRating": 1308
       },
       "matches": [
+        {
+          "matchId": 510295176,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:22:32.000Z",
+          "dur": 2044,
+          "opponents": [
+            {
+              "profileId": 21039983,
+              "name": "Puzotron"
+            },
+            {
+              "profileId": 1871397,
+              "name": "[SKY] strider"
+            },
+            {
+              "profileId": 2419560,
+              "name": "chakar"
+            },
+            {
+              "profileId": 3025288,
+              "name": "Combi | Papin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 410875,
+              "name": "\ud83c\udf4c"
+            },
+            {
+              "profileId": 8644541,
+              "name": "LUPIN IV"
+            },
+            {
+              "profileId": 12453157,
+              "name": "muui"
+            }
+          ]
+        },
+        {
+          "matchId": 509632549,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:22:20.000Z",
+          "dur": 963,
+          "opponents": [
+            {
+              "profileId": 3487816,
+              "name": "mattmcneil9"
+            },
+            {
+              "profileId": 19952910,
+              "name": "Santiawhy"
+            },
+            {
+              "profileId": 5387745,
+              "name": "Irrayskel"
+            },
+            {
+              "profileId": 4132871,
+              "name": "Neitan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19787486,
+              "name": "El Fantasma de Pancho Villa"
+            },
+            {
+              "profileId": 14881715,
+              "name": "XNB"
+            },
+            {
+              "profileId": 8680091,
+              "name": "ABCDE"
+            }
+          ]
+        },
+        {
+          "matchId": 509625615,
+          "civ": "Chinese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:52:51.000Z",
+          "dur": 1432,
+          "opponents": [
+            {
+              "profileId": 19371551,
+              "name": "02287"
+            },
+            {
+              "profileId": 20715216,
+              "name": "\u770b\u8c01\u4e0d\u723d\u8098\u8c01"
+            },
+            {
+              "profileId": 23895616,
+              "name": "\u54ed\u7a00\u996d\uff082125613428\uff09"
+            },
+            {
+              "profileId": 24879782,
+              "name": "TearsOfDisdain8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 649805,
+              "name": "mojotzotzo"
+            },
+            {
+              "profileId": 7966935,
+              "name": "The Viejo"
+            },
+            {
+              "profileId": 25683154,
+              "name": "Andrew_S"
+            }
+          ]
+        },
+        {
+          "matchId": 509623971,
+          "civ": "Slavs",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:45:27.000Z",
+          "dur": 304,
+          "opponents": [
+            {
+              "profileId": 23010529,
+              "name": "yamaguchi"
+            },
+            {
+              "profileId": 8737471,
+              "name": "Jirai Dandy"
+            },
+            {
+              "profileId": 2565719,
+              "name": "yake0213"
+            },
+            {
+              "profileId": 348225,
+              "name": "Fuzzy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10353350,
+              "name": "GhosTSnihsa"
+            },
+            {
+              "profileId": 6179268,
+              "name": "-d"
+            },
+            {
+              "profileId": 1369956,
+              "name": "HPer"
+            }
+          ]
+        },
         {
           "matchId": 509388182,
           "civ": "Franks",
@@ -64437,5 +64605,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

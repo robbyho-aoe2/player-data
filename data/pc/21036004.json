@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 308,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-01",
         "latestRating": 1243,
         "peakRating": 1243
       },
@@ -4960,12 +4960,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 985,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1482,
+        "totalGames": 988,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1465,
         "peakRating": 1499
       },
       "matches": [
+        {
+          "matchId": 510369521,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:02:30.000Z",
+          "dur": 1671,
+          "opponents": [
+            {
+              "profileId": 2340039,
+              "name": "[TrEta] D.Quixote"
+            },
+            {
+              "profileId": 15189566,
+              "name": "Leviathan"
+            },
+            {
+              "profileId": 10479288,
+              "name": "BRAHN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24752449,
+              "name": "Balgrodor"
+            },
+            {
+              "profileId": 1720000,
+              "name": "Niewiin"
+            }
+          ]
+        },
+        {
+          "matchId": 510180292,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:09:49.000Z",
+          "dur": 1830,
+          "opponents": [
+            {
+              "profileId": 25198320,
+              "name": "Kempinho"
+            },
+            {
+              "profileId": 247738,
+              "name": "Men Call Me Gladiator"
+            },
+            {
+              "profileId": 816247,
+              "name": "MadEvilTimes"
+            },
+            {
+              "profileId": 888905,
+              "name": "NicoRespeto"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1720000,
+              "name": "Niewiin"
+            },
+            {
+              "profileId": 24752449,
+              "name": "Balgrodor"
+            },
+            {
+              "profileId": 1319702,
+              "name": "PurpleGirafe"
+            }
+          ]
+        },
+        {
+          "matchId": 510173757,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:36:34.000Z",
+          "dur": 1550,
+          "opponents": [
+            {
+              "profileId": 862070,
+              "name": "Rakosnik"
+            },
+            {
+              "profileId": 25676025,
+              "name": "mochichi4"
+            },
+            {
+              "profileId": 16214088,
+              "name": "Mr.stealyoBoar"
+            },
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24752449,
+              "name": "Balgrodor"
+            },
+            {
+              "profileId": 1720000,
+              "name": "Niewiin"
+            },
+            {
+              "profileId": 1319702,
+              "name": "PurpleGirafe"
+            }
+          ]
+        },
         {
           "matchId": 503998205,
           "civ": "Turks",
@@ -36939,5 +37057,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 101,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-01",
         "latestRating": 479,
         "peakRating": 645
       },
@@ -1645,12 +1645,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 308,
-        "pulledDate": "2026-09-18",
-        "latestRating": 763,
+        "totalGames": 309,
+        "pulledDate": "2026-10-01",
+        "latestRating": 750,
         "peakRating": 795
       },
       "matches": [
+        {
+          "matchId": 510115487,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:49:48.000Z",
+          "dur": 1479,
+          "opponents": [
+            {
+              "profileId": 3332408,
+              "name": "Nahue"
+            },
+            {
+              "profileId": 25704948,
+              "name": "Fede_MvK"
+            },
+            {
+              "profileId": 25616625,
+              "name": "Necropulpectom\u00eda"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3516111,
+              "name": "CHFSwissMade"
+            },
+            {
+              "profileId": 7621120,
+              "name": "Sifoncu"
+            }
+          ]
+        },
         {
           "matchId": 506947039,
           "civ": "Huns",
@@ -11645,5 +11679,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

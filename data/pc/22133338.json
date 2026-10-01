@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 85,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1061,
         "peakRating": 1061
       },
@@ -1389,12 +1389,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1454,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1261,
+        "totalGames": 1455,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1244,
         "peakRating": 1298
       },
       "matches": [
+        {
+          "matchId": 510033584,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:30:06.000Z",
+          "dur": 627,
+          "opponents": [
+            {
+              "profileId": 20626192,
+              "name": "Mirkwood Heir"
+            },
+            {
+              "profileId": 22784757,
+              "name": "lu.sal1207"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21903714,
+              "name": "Rata Pre\u00f1adora"
+            }
+          ]
+        },
         {
           "matchId": 508581048,
           "civ": "Khitans",
@@ -54649,5 +54675,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

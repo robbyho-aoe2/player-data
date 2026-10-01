@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 19,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 676,
         "peakRating": 699
       },
@@ -333,12 +333,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 290,
-        "pulledDate": "2026-09-27",
-        "latestRating": 712,
+        "totalGames": 292,
+        "pulledDate": "2026-10-01",
+        "latestRating": 679,
         "peakRating": 813
       },
       "matches": [
+        {
+          "matchId": 509636787,
+          "civ": "Berbers",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:39:02.000Z",
+          "dur": 1157,
+          "opponents": [
+            {
+              "profileId": 22672973,
+              "name": "Carpet Johan"
+            },
+            {
+              "profileId": 24095826,
+              "name": "Kobe Bryant"
+            },
+            {
+              "profileId": 24496160,
+              "name": "ijn_king"
+            },
+            {
+              "profileId": 12085183,
+              "name": "Agent P"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25544788,
+              "name": "alexisben78"
+            },
+            {
+              "profileId": 18681640,
+              "name": "sada613"
+            },
+            {
+              "profileId": 20407853,
+              "name": "GregStillson"
+            }
+          ]
+        },
+        {
+          "matchId": 509634872,
+          "civ": "Berbers",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:33:27.000Z",
+          "dur": 242,
+          "opponents": [
+            {
+              "profileId": 218817,
+              "name": "KingBrun0"
+            },
+            {
+              "profileId": 17268348,
+              "name": "Dmitry Petrovich"
+            },
+            {
+              "profileId": 1703437,
+              "name": "ChewedGizmo"
+            },
+            {
+              "profileId": 2612237,
+              "name": "Monkey"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4125886,
+              "name": "vinsin4105"
+            },
+            {
+              "profileId": 12085183,
+              "name": "Agent P"
+            },
+            {
+              "profileId": 21610696,
+              "name": "serendipity"
+            }
+          ]
+        },
         {
           "matchId": 508934553,
           "civ": "Spanish",
@@ -9195,5 +9279,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

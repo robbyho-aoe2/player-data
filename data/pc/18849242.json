@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 975,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1285,
+        "totalGames": 976,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1267,
         "peakRating": 1424
       },
       "matches": [
+        {
+          "matchId": 510362087,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:28:38.000Z",
+          "dur": 1935,
+          "opponents": [
+            {
+              "profileId": 814329,
+              "name": "Sodythaek"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508441157,
           "civ": "Turks",
@@ -16604,12 +16621,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 558,
-        "pulledDate": "2026-09-26",
-        "latestRating": 1169,
+        "totalGames": 561,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1115,
         "peakRating": 1224
       },
       "matches": [
+        {
+          "matchId": 509862955,
+          "civ": "Danes",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:33:00.000Z",
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 15584638,
+              "name": "Faceless"
+            },
+            {
+              "profileId": 1264820,
+              "name": "Armateur"
+            },
+            {
+              "profileId": 22218029,
+              "name": "noob9527"
+            },
+            {
+              "profileId": 5292803,
+              "name": "WolfAtic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6890504,
+              "name": "WING123456"
+            },
+            {
+              "profileId": 5809997,
+              "name": "Ghajini"
+            },
+            {
+              "profileId": 21581480,
+              "name": "Erato"
+            }
+          ]
+        },
+        {
+          "matchId": 509833757,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:05:57.000Z",
+          "dur": 1613,
+          "opponents": [
+            {
+              "profileId": 25119999,
+              "name": "OuO"
+            },
+            {
+              "profileId": 23947603,
+              "name": "weiweifallen"
+            },
+            {
+              "profileId": 22353237,
+              "name": "\u5927\u6c49\u5fe0\u81e3\u66f9\u5b5f\u5fb7"
+            },
+            {
+              "profileId": 21225955,
+              "name": "Dongyin Empire"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 237711,
+              "name": "AlverthXIII"
+            },
+            {
+              "profileId": 4759905,
+              "name": "{VL} El Gran Capit\u00e1n"
+            },
+            {
+              "profileId": 3767447,
+              "name": "howtomakeaturn"
+            }
+          ]
+        },
+        {
+          "matchId": 509830554,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:31:57.000Z",
+          "dur": 2016,
+          "opponents": [
+            {
+              "profileId": 29552,
+              "name": "SOG.Vexon"
+            },
+            {
+              "profileId": 1532168,
+              "name": "Zelda"
+            },
+            {
+              "profileId": 5688271,
+              "name": "F. King Nub"
+            },
+            {
+              "profileId": 15684045,
+              "name": "Sr_Pika_mx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18990598,
+              "name": "kw3dsky"
+            },
+            {
+              "profileId": 9637717,
+              "name": "wo cao"
+            },
+            {
+              "profileId": 10734225,
+              "name": "\u0422\u0430\u043d\u0446\u0443\u044e\u0449\u0438\u0439 Xy\u0439"
+            }
+          ]
+        },
         {
           "matchId": 508795261,
           "civ": "Danes",
@@ -37363,5 +37506,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

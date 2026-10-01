@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1152,
         "peakRating": 1152
       },
@@ -726,12 +726,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 75,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1306,
+        "totalGames": 77,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1333,
         "peakRating": 1337
       },
       "matches": [
+        {
+          "matchId": 510345716,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:07:08.000Z",
+          "dur": 1850,
+          "opponents": [
+            {
+              "profileId": 5408414,
+              "name": "andres_exos"
+            },
+            {
+              "profileId": 4358428,
+              "name": "Gruffalo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1240878,
+              "name": "Sardaukar"
+            }
+          ]
+        },
+        {
+          "matchId": 510340947,
+          "civ": "Franks",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:41:52.000Z",
+          "dur": 951,
+          "opponents": [
+            {
+              "profileId": 2621146,
+              "name": "Shushupe.........xD"
+            },
+            {
+              "profileId": 3130526,
+              "name": "deslin_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1240878,
+              "name": "Sardaukar"
+            }
+          ]
+        },
         {
           "matchId": 508725638,
           "civ": "Celts",
@@ -2711,5 +2763,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

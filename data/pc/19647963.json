@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 48,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-01",
         "latestRating": 913,
         "peakRating": 930
       },
@@ -845,12 +845,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 11,
-        "pulledDate": "2026-09-18",
-        "latestRating": 969,
+        "totalGames": 12,
+        "pulledDate": "2026-10-01",
+        "latestRating": 930,
         "peakRating": 999
       },
       "matches": [
+        {
+          "matchId": 510355905,
+          "civ": "Wu",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:59:54.000Z",
+          "dur": 3290,
+          "opponents": [
+            {
+              "profileId": 5964638,
+              "name": "LOST"
+            },
+            {
+              "profileId": 20171052,
+              "name": "?"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25159620,
+              "name": "DerMarciman"
+            }
+          ]
+        },
         {
           "matchId": 504070411,
           "civ": "Khitans",
@@ -1150,5 +1176,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 534,
-        "pulledDate": "2026-09-27",
-        "latestRating": 905,
+        "totalGames": 535,
+        "pulledDate": "2026-10-01",
+        "latestRating": 919,
         "peakRating": 954
       },
       "matches": [
+        {
+          "matchId": 510008017,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:35:03.000Z",
+          "dur": 1435,
+          "opponents": [
+            {
+              "profileId": 316170,
+              "name": "BB"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509433432,
           "civ": "Burgundians",
@@ -8180,7 +8197,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 948
       },
       "matches": [
@@ -8243,5 +8260,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

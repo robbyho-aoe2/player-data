@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 732
       },
       "matches": [
@@ -172,12 +172,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 428,
-        "pulledDate": "2026-09-23",
-        "latestRating": 792,
+        "totalGames": 432,
+        "pulledDate": "2026-10-01",
+        "latestRating": 752,
         "peakRating": 1071
       },
       "matches": [
+        {
+          "matchId": 509732770,
+          "civ": "Franks",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:56:24.000Z",
+          "dur": 1904,
+          "opponents": [
+            {
+              "profileId": 91465,
+              "name": "93arthas"
+            },
+            {
+              "profileId": 1376365,
+              "name": "A\u00e7i"
+            },
+            {
+              "profileId": 11478044,
+              "name": "TallMan00"
+            },
+            {
+              "profileId": 19014910,
+              "name": "memito101091"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22391734,
+              "name": "tottimogo14"
+            },
+            {
+              "profileId": 24858830,
+              "name": "Wobbuffet3383"
+            },
+            {
+              "profileId": 26098650,
+              "name": "Vimonth"
+            }
+          ]
+        },
+        {
+          "matchId": 509731224,
+          "civ": "Turks",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:49:46.000Z",
+          "dur": 163,
+          "opponents": [
+            {
+              "profileId": 5911870,
+              "name": "The_Lumberjack"
+            },
+            {
+              "profileId": 20766586,
+              "name": "Sanso8278"
+            },
+            {
+              "profileId": 19450422,
+              "name": "\u0414\u0443\u0448\u0430\u043d \u0421\u0438\u043b\u043d\u0438"
+            },
+            {
+              "profileId": 11478044,
+              "name": "TallMan00"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22391734,
+              "name": "tottimogo14"
+            },
+            {
+              "profileId": 24858830,
+              "name": "Wobbuffet3383"
+            },
+            {
+              "profileId": 26098650,
+              "name": "Vimonth"
+            }
+          ]
+        },
+        {
+          "matchId": 509720043,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:04:34.000Z",
+          "dur": 1844,
+          "opponents": [
+            {
+              "profileId": 22715564,
+              "name": "zaff007008"
+            },
+            {
+              "profileId": 1998752,
+              "name": "Cpt. Awesome"
+            },
+            {
+              "profileId": 11398102,
+              "name": "Wolf-Salomon"
+            },
+            {
+              "profileId": 23172947,
+              "name": "minEng [Alca Torda]"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24858830,
+              "name": "Wobbuffet3383"
+            },
+            {
+              "profileId": 26098650,
+              "name": "Vimonth"
+            },
+            {
+              "profileId": 22391734,
+              "name": "tottimogo14"
+            }
+          ]
+        },
+        {
+          "matchId": 509684342,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:52:35.000Z",
+          "dur": 1981,
+          "opponents": [
+            {
+              "profileId": 12085183,
+              "name": "Agent P"
+            },
+            {
+              "profileId": 15073678,
+              "name": "decs0793"
+            },
+            {
+              "profileId": 24226092,
+              "name": "Smallfung"
+            },
+            {
+              "profileId": 9290605,
+              "name": "mau.mnry"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24858830,
+              "name": "Wobbuffet3383"
+            },
+            {
+              "profileId": 26098650,
+              "name": "Vimonth"
+            },
+            {
+              "profileId": 22391734,
+              "name": "tottimogo14"
+            }
+          ]
+        },
         {
           "matchId": 508083195,
           "civ": "Portuguese",
@@ -14863,5 +15031,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

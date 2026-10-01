@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 93,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1126,
         "peakRating": 1172
       },
@@ -1517,12 +1517,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1468,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1298,
+        "totalGames": 1471,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1249,
         "peakRating": 1389
       },
       "matches": [
+        {
+          "matchId": 509670670,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:57:00.000Z",
+          "dur": 1457,
+          "opponents": [
+            {
+              "profileId": 772570,
+              "name": "fux"
+            },
+            {
+              "profileId": 4211177,
+              "name": "Ray"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21635123,
+              "name": "ArdRay"
+            }
+          ]
+        },
+        {
+          "matchId": 509665061,
+          "civ": "Varangians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:33:53.000Z",
+          "dur": 1293,
+          "opponents": [
+            {
+              "profileId": 1571100,
+              "name": "Wegason"
+            },
+            {
+              "profileId": 3135398,
+              "name": "molina_229"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21635123,
+              "name": "ArdRay"
+            }
+          ]
+        },
+        {
+          "matchId": 509657391,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:02:50.000Z",
+          "dur": 1767,
+          "opponents": [
+            {
+              "profileId": 10929065,
+              "name": "antc37"
+            },
+            {
+              "profileId": 1034936,
+              "name": "DJ Blyatman!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21635123,
+              "name": "ArdRay"
+            }
+          ]
+        },
         {
           "matchId": 509349159,
           "civ": "Varangians",
@@ -38273,5 +38351,6 @@
   },
   "country": "gr",
   "countryIcon": "\ud83c\uddec\ud83c\uddf7",
-  "countryName": "Greece"
+  "countryName": "Greece",
+  "platform": "Steam"
 }

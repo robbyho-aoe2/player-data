@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 966,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1129,
+        "totalGames": 972,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1126,
         "peakRating": 1332
       },
       "matches": [
+        {
+          "matchId": 510262788,
+          "civ": "Aztecs",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:56:18.000Z",
+          "dur": 10,
+          "opponents": [
+            {
+              "profileId": 658535,
+              "name": "picklerick1988"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510000015,
+          "civ": "Byzantines",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:47:38.000Z",
+          "dur": 2514,
+          "opponents": [
+            {
+              "profileId": 9738829,
+              "name": "ZapalloM\u00e1gico"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509971504,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:48:32.000Z",
+          "dur": 1153,
+          "opponents": [
+            {
+              "profileId": 1419027,
+              "name": "Stokes"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509969466,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:35:57.000Z",
+          "dur": 10,
+          "opponents": [
+            {
+              "profileId": 4403920,
+              "name": "Erix Rifter"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509965590,
+          "civ": "Byzantines",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:16:19.000Z",
+          "dur": 1072,
+          "opponents": [
+            {
+              "profileId": 2404371,
+              "name": "Sir GUERRERO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509817449,
+          "civ": "Britons",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T05:11:57.000Z",
+          "dur": 2071,
+          "opponents": [
+            {
+              "profileId": 2701940,
+              "name": "EnzoTassara"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509192311,
           "civ": "Wei",
@@ -15506,12 +15608,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 335,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1129,
+        "totalGames": 336,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1142,
         "peakRating": 1282
       },
       "matches": [
+        {
+          "matchId": 510263085,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:59:53.000Z",
+          "dur": 2460,
+          "opponents": [
+            {
+              "profileId": 2432138,
+              "name": "[HDAO] Adrian el del eich"
+            },
+            {
+              "profileId": 2893438,
+              "name": "Soguer"
+            },
+            {
+              "profileId": 24317968,
+              "name": "[HDAO] LiquidFlux"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2749246,
+              "name": "Midi"
+            },
+            {
+              "profileId": 10373802,
+              "name": "SICHOSO"
+            }
+          ]
+        },
         {
           "matchId": 508821966,
           "civ": "Bohemians",
@@ -25332,5 +25468,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

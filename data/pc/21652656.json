@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "peakRating": 1314,
         "latestRating": 1268
       },
@@ -114,12 +114,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 27,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1453,
+        "totalGames": 29,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1477,
         "peakRating": 1517
       },
       "matches": [
+        {
+          "matchId": 509747902,
+          "civ": "Maya",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T22:06:27.000Z",
+          "dur": 1931,
+          "opponents": [
+            {
+              "profileId": 84625,
+              "name": "HeN.AlcoOlo"
+            },
+            {
+              "profileId": 1356945,
+              "name": "HeN.SupaSaymon"
+            },
+            {
+              "profileId": 2842489,
+              "name": "HeN.CyrilouLeFilou"
+            },
+            {
+              "profileId": 11164760,
+              "name": "Rakussy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19871758,
+              "name": "Aytoonj"
+            },
+            {
+              "profileId": 278125,
+              "name": "Leoo"
+            },
+            {
+              "profileId": 15254033,
+              "name": "PVS-Ozuna"
+            }
+          ]
+        },
+        {
+          "matchId": 509741692,
+          "civ": "Franks",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:36:19.000Z",
+          "dur": 1304,
+          "opponents": [
+            {
+              "profileId": 310328,
+              "name": "NoobZaius99"
+            },
+            {
+              "profileId": 5981761,
+              "name": "AiM | Alexander the conqueror"
+            },
+            {
+              "profileId": 4504642,
+              "name": "Cleryus"
+            },
+            {
+              "profileId": 1933331,
+              "name": "Datas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19871758,
+              "name": "Aytoonj"
+            },
+            {
+              "profileId": 15254033,
+              "name": "PVS-Ozuna"
+            },
+            {
+              "profileId": 10148758,
+              "name": "PVS | Claud1us_"
+            }
+          ]
+        },
         {
           "matchId": 509483527,
           "civ": "Incas",
@@ -905,5 +989,6 @@
   },
   "country": "do",
   "countryIcon": "\ud83c\udde9\ud83c\uddf4",
-  "countryName": "Dominican Republic"
+  "countryName": "Dominican Republic",
+  "platform": "Steam"
 }

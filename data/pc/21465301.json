@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 130,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-10-01",
         "latestRating": 1232,
         "peakRating": 1319
       },
@@ -2109,12 +2109,168 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 900,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1221,
+        "totalGames": 906,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1192,
         "peakRating": 1294
       },
       "matches": [
+        {
+          "matchId": 510432890,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:57:30.000Z",
+          "dur": 1758,
+          "opponents": [
+            {
+              "profileId": 402999,
+              "name": "Gonpachiro Kamaboko"
+            },
+            {
+              "profileId": 2090256,
+              "name": "mecA blaZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21466103,
+              "name": "zsteele99"
+            }
+          ]
+        },
+        {
+          "matchId": 510427106,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:20:39.000Z",
+          "dur": 1944,
+          "opponents": [
+            {
+              "profileId": 2160712,
+              "name": "Pierogi King"
+            },
+            {
+              "profileId": 285327,
+              "name": "Tommy Kangaroo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21466103,
+              "name": "zsteele99"
+            }
+          ]
+        },
+        {
+          "matchId": 510421916,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:44:35.000Z",
+          "dur": 2034,
+          "opponents": [
+            {
+              "profileId": 1003566,
+              "name": "Miazaki2139"
+            },
+            {
+              "profileId": 1002468,
+              "name": "NobregaPF"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21466103,
+              "name": "zsteele99"
+            }
+          ]
+        },
+        {
+          "matchId": 510000138,
+          "civ": "Wei",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:48:35.000Z",
+          "dur": 2104,
+          "opponents": [
+            {
+              "profileId": 847328,
+              "name": "Inkarri"
+            },
+            {
+              "profileId": 2282107,
+              "name": "Artorias"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21466103,
+              "name": "zsteele99"
+            }
+          ]
+        },
+        {
+          "matchId": 509995691,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:20:35.000Z",
+          "dur": 1513,
+          "opponents": [
+            {
+              "profileId": 847986,
+              "name": "DIGGS"
+            },
+            {
+              "profileId": 10739966,
+              "name": "Old Peezy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21466103,
+              "name": "zsteele99"
+            }
+          ]
+        },
+        {
+          "matchId": 509991466,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:53:27.000Z",
+          "dur": 1434,
+          "opponents": [
+            {
+              "profileId": 9056694,
+              "name": "LiamJ5500"
+            },
+            {
+              "profileId": 10929038,
+              "name": "JustHomelander"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21466103,
+              "name": "zsteele99"
+            }
+          ]
+        },
         {
           "matchId": 502779580,
           "civ": "Wei",
@@ -27540,5 +27696,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

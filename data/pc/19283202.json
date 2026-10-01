@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 317,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1171,
         "peakRating": 1234
       },
@@ -5111,12 +5111,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 427,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1040,
+        "totalGames": 431,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1004,
         "peakRating": 1153
       },
       "matches": [
+        {
+          "matchId": 509989085,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:37:41.000Z",
+          "dur": 1330,
+          "opponents": [
+            {
+              "profileId": 19247023,
+              "name": "Shermanugus"
+            },
+            {
+              "profileId": 11478491,
+              "name": "jaiderreyes4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10320960,
+              "name": "gabbrollo"
+            }
+          ]
+        },
+        {
+          "matchId": 509978697,
+          "civ": "Poles",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:31:57.000Z",
+          "dur": 2216,
+          "opponents": [
+            {
+              "profileId": 2561791,
+              "name": "ponchotazo"
+            },
+            {
+              "profileId": 5001361,
+              "name": "Isaki"
+            },
+            {
+              "profileId": 19523261,
+              "name": "cold1a"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10320960,
+              "name": "gabbrollo"
+            },
+            {
+              "profileId": 22476724,
+              "name": "_cc"
+            }
+          ]
+        },
+        {
+          "matchId": 509971921,
+          "civ": "Incas",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:50:47.000Z",
+          "dur": 2109,
+          "opponents": [
+            {
+              "profileId": 2878638,
+              "name": "Chelo Salas"
+            },
+            {
+              "profileId": 4240792,
+              "name": "alakerman"
+            },
+            {
+              "profileId": 46792,
+              "name": "NameAnonymous"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22476724,
+              "name": "_cc"
+            },
+            {
+              "profileId": 10320960,
+              "name": "gabbrollo"
+            }
+          ]
+        },
+        {
+          "matchId": 509968442,
+          "civ": "Incas",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:31:48.000Z",
+          "dur": 810,
+          "opponents": [
+            {
+              "profileId": 21014949,
+              "name": "DAVIJO90"
+            },
+            {
+              "profileId": 21026324,
+              "name": "josehgx"
+            },
+            {
+              "profileId": 21192670,
+              "name": "Alosk8"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22476724,
+              "name": "_cc"
+            },
+            {
+              "profileId": 10320960,
+              "name": "gabbrollo"
+            }
+          ]
+        },
         {
           "matchId": 508332281,
           "civ": "Malians",
@@ -16008,5 +16136,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

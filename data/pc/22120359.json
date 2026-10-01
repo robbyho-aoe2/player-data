@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 609,
-        "pulledDate": "2026-09-27",
+        "totalGames": 613,
+        "pulledDate": "2026-10-01",
         "latestRating": 845,
         "peakRating": 895
       },
       "matches": [
+        {
+          "matchId": 510445810,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:17:08.000Z",
+          "dur": 1389,
+          "opponents": [
+            {
+              "profileId": 1929061,
+              "name": "pakojones"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510009388,
+          "civ": "Hindustanis",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:43:49.000Z",
+          "dur": 1242,
+          "opponents": [
+            {
+              "profileId": 2364563,
+              "name": "Niuqnam Oyar Le"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509726249,
+          "civ": "Mongols",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:28:53.000Z",
+          "dur": 1740,
+          "opponents": [
+            {
+              "profileId": 25742062,
+              "name": "druciaki"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509699577,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:49:33.000Z",
+          "dur": 1568,
+          "opponents": [
+            {
+              "profileId": 1035010,
+              "name": "Cesar"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509372448,
           "civ": "Persians",
@@ -9847,7 +9915,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1000
       },
       "matches": [
@@ -9881,5 +9949,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

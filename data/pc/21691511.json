@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 44,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1214,
         "peakRating": 1214
       },
@@ -734,12 +734,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 46,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1323,
+        "totalGames": 49,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1305,
         "peakRating": 1323
       },
       "matches": [
+        {
+          "matchId": 509641175,
+          "civ": "Koreans",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:57:16.000Z",
+          "dur": 1812,
+          "opponents": [
+            {
+              "profileId": 2905177,
+              "name": "Cuestax"
+            },
+            {
+              "profileId": 10440780,
+              "name": "DreamStolen"
+            },
+            {
+              "profileId": 6440263,
+              "name": "\u5c71\u6c34\u5148\u751f"
+            },
+            {
+              "profileId": 3015706,
+              "name": "\u9493\u4f60\u5417\u9493"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20152358,
+              "name": "S.T.A.R.S. Wesker"
+            },
+            {
+              "profileId": 16731910,
+              "name": "inertgas01"
+            },
+            {
+              "profileId": 16724605,
+              "name": "passiontea"
+            }
+          ]
+        },
+        {
+          "matchId": 509632369,
+          "civ": "Italians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:21:32.000Z",
+          "dur": 1899,
+          "opponents": [
+            {
+              "profileId": 24879782,
+              "name": "TearsOfDisdain8"
+            },
+            {
+              "profileId": 23895616,
+              "name": "\u54ed\u7a00\u996d\uff082125613428\uff09"
+            },
+            {
+              "profileId": 20715216,
+              "name": "\u770b\u8c01\u4e0d\u723d\u8098\u8c01"
+            },
+            {
+              "profileId": 19371551,
+              "name": "02287"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 333607,
+              "name": "Alicat"
+            },
+            {
+              "profileId": 20980021,
+              "name": "TarryMoney"
+            },
+            {
+              "profileId": 16923253,
+              "name": "Agua Mineral"
+            }
+          ]
+        },
+        {
+          "matchId": 509629870,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:11:07.000Z",
+          "dur": 454,
+          "opponents": [
+            {
+              "profileId": 11335015,
+              "name": "Glamdring"
+            },
+            {
+              "profileId": 11205662,
+              "name": "G\u00fathwin\u00eb"
+            },
+            {
+              "profileId": 10441282,
+              "name": "C_XW"
+            },
+            {
+              "profileId": 9366381,
+              "name": "Corsican Pirate"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1512558,
+              "name": "\u516d\u767e\u516c\u65a4\u5927\u80a5\u8c6c"
+            },
+            {
+              "profileId": 16731910,
+              "name": "inertgas01"
+            },
+            {
+              "profileId": 16724605,
+              "name": "passiontea"
+            }
+          ]
+        },
         {
           "matchId": 508466952,
           "civ": "Britons",
@@ -2662,5 +2788,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

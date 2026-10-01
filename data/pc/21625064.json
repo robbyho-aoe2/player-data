@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 331,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1198,
         "peakRating": 1288
       },
@@ -5656,12 +5656,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 750,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1422,
+        "totalGames": 752,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1393,
         "peakRating": 1473
       },
       "matches": [
+        {
+          "matchId": 509778778,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:55:00.000Z",
+          "dur": 1512,
+          "opponents": [
+            {
+              "profileId": 2221420,
+              "name": "GG LA LIFE KARIN"
+            },
+            {
+              "profileId": 2420303,
+              "name": "poi"
+            },
+            {
+              "profileId": 5288067,
+              "name": "Karzul"
+            },
+            {
+              "profileId": 9832482,
+              "name": "sk"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21613744,
+              "name": "BSV | Yi Zus"
+            },
+            {
+              "profileId": 3573512,
+              "name": "LeCoque"
+            },
+            {
+              "profileId": 15420972,
+              "name": "tat0"
+            }
+          ]
+        },
+        {
+          "matchId": 509773062,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:23:49.000Z",
+          "dur": 1636,
+          "opponents": [
+            {
+              "profileId": 860913,
+              "name": "Jjota"
+            },
+            {
+              "profileId": 288698,
+              "name": "johnnyboy"
+            },
+            {
+              "profileId": 5789718,
+              "name": "pela"
+            },
+            {
+              "profileId": 3856970,
+              "name": "Politox"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25071266,
+              "name": "No le den a mi mujer"
+            },
+            {
+              "profileId": 21613744,
+              "name": "BSV | Yi Zus"
+            },
+            {
+              "profileId": 15420972,
+              "name": "tat0"
+            }
+          ]
+        },
         {
           "matchId": 500701954,
           "civ": "Persians",
@@ -34311,5 +34395,6 @@
   },
   "country": "ve",
   "countryIcon": "\ud83c\uddfb\ud83c\uddea",
-  "countryName": "Venezuela, Bolivarian Republic of"
+  "countryName": "Venezuela, Bolivarian Republic of",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 336,
-        "pulledDate": "2026-09-28",
-        "latestRating": 690,
+        "totalGames": 337,
+        "pulledDate": "2026-10-01",
+        "latestRating": 705,
         "peakRating": 799
       },
       "matches": [
+        {
+          "matchId": 510035412,
+          "civ": "Franks",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:44:54.000Z",
+          "dur": 1191,
+          "opponents": [
+            {
+              "profileId": 18753379,
+              "name": "NAITZAB"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505136020,
           "civ": "Celts",
@@ -5742,7 +5759,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-01",
         "latestRating": 720,
         "peakRating": 724
       },
@@ -6702,5 +6719,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }
