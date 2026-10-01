@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 31,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 611,
         "peakRating": 624
       },
@@ -532,12 +532,106 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 264,
-        "pulledDate": "2026-09-27",
-        "latestRating": 835,
+        "totalGames": 267,
+        "pulledDate": "2026-10-01",
+        "latestRating": 795,
         "peakRating": 893
       },
       "matches": [
+        {
+          "matchId": 509651416,
+          "civ": "Huns",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:37:57.000Z",
+          "dur": 1984,
+          "opponents": [
+            {
+              "profileId": 573935,
+              "name": "LeCiss\u00e9"
+            },
+            {
+              "profileId": 26171087,
+              "name": "aksoy14537540"
+            },
+            {
+              "profileId": 26098049,
+              "name": "Boba Fett"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23581075,
+              "name": "\u0427\u0435\u0431\u0443\u0440\u0435\u043a"
+            },
+            {
+              "profileId": 4254857,
+              "name": "_King_N00b_"
+            }
+          ]
+        },
+        {
+          "matchId": 509642528,
+          "civ": "Huns",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:02:37.000Z",
+          "dur": 1916,
+          "opponents": [
+            {
+              "profileId": 18869543,
+              "name": "Trenomaris"
+            },
+            {
+              "profileId": 2094024,
+              "name": "JoseRegens"
+            },
+            {
+              "profileId": 3047592,
+              "name": "periquin_182"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4254857,
+              "name": "_King_N00b_"
+            },
+            {
+              "profileId": 23581075,
+              "name": "\u0427\u0435\u0431\u0443\u0440\u0435\u043a"
+            }
+          ]
+        },
+        {
+          "matchId": 509633969,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:28:18.000Z",
+          "dur": 1441,
+          "opponents": [
+            {
+              "profileId": 18096037,
+              "name": "Gudart34"
+            },
+            {
+              "profileId": 22386930,
+              "name": "1024935437"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4254857,
+              "name": "_King_N00b_"
+            }
+          ]
+        },
         {
           "matchId": 509136646,
           "civ": "Huns",
@@ -7217,5 +7311,6 @@
   },
   "country": "it",
   "countryIcon": "\ud83c\uddee\ud83c\uddf9",
-  "countryName": "Italy"
+  "countryName": "Italy",
+  "platform": "Steam"
 }

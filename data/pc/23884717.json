@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 426,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1101,
+        "totalGames": 428,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1133,
         "peakRating": 1230
       },
       "matches": [
+        {
+          "matchId": 510046511,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:39:46.000Z",
+          "dur": 772,
+          "opponents": [
+            {
+              "profileId": 4492836,
+              "name": "rattanite"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509826321,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T06:45:02.000Z",
+          "dur": 1550,
+          "opponents": [
+            {
+              "profileId": 6248740,
+              "name": "alvinwu0508"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509559014,
           "civ": "Maya",
@@ -6881,7 +6915,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 12,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1256,
         "peakRating": 1256
       },
@@ -7279,5 +7313,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

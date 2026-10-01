@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 297,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1063,
+        "totalGames": 299,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1094,
         "peakRating": 1221
       },
       "matches": [
+        {
+          "matchId": 510467782,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T04:48:37.000Z",
+          "dur": 1012,
+          "opponents": [
+            {
+              "profileId": 6041480,
+              "name": "Eliam22xd"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510219973,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:20:11.000Z",
+          "dur": 909,
+          "opponents": [
+            {
+              "profileId": 4480737,
+              "name": "Siawo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509009168,
           "civ": "Turks",
@@ -4803,12 +4837,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 76,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1103,
+        "totalGames": 78,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1097,
         "peakRating": 1246
       },
       "matches": [
+        {
+          "matchId": 510467531,
+          "civ": "Turks",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T04:47:09.000Z",
+          "dur": 20,
+          "opponents": [
+            {
+              "profileId": 17224633,
+              "name": "bstone13"
+            },
+            {
+              "profileId": 14435496,
+              "name": "Pietro Adante"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8657905,
+              "name": "chaquin_7"
+            }
+          ]
+        },
+        {
+          "matchId": 510217033,
+          "civ": "Turks",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:02:12.000Z",
+          "dur": 997,
+          "opponents": [
+            {
+              "profileId": 8197719,
+              "name": "76561199026418587"
+            },
+            {
+              "profileId": 11959552,
+              "name": "Quack Y Attack"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2931483,
+              "name": "ITM"
+            }
+          ]
+        },
         {
           "matchId": 509006414,
           "civ": "Turks",
@@ -6833,5 +6919,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

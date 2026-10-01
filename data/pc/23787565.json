@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 146,
-        "pulledDate": "2026-09-27",
-        "latestRating": 665,
+        "totalGames": 150,
+        "pulledDate": "2026-10-01",
+        "latestRating": 663,
         "peakRating": 855
       },
       "matches": [
+        {
+          "matchId": 510219423,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:16:52.000Z",
+          "dur": 40,
+          "opponents": [
+            {
+              "profileId": 322381,
+              "name": "Copey"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510214886,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:48:13.000Z",
+          "dur": 1529,
+          "opponents": [
+            {
+              "profileId": 10590431,
+              "name": "flaco escopeta \u262d"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510008171,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:35:59.000Z",
+          "dur": 2328,
+          "opponents": [
+            {
+              "profileId": 17657274,
+              "name": "nuzz"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510002315,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:01:24.000Z",
+          "dur": 1983,
+          "opponents": [
+            {
+              "profileId": 25784062,
+              "name": "Chimi4173"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509519719,
           "civ": "Franks",
@@ -2512,7 +2580,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": [
         {
@@ -2588,5 +2656,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

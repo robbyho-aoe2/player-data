@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 84,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1080,
         "peakRating": 1080
       },
@@ -1373,12 +1373,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 721,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1153,
+        "totalGames": 722,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1167,
         "peakRating": 1295
       },
       "matches": [
+        {
+          "matchId": 509694912,
+          "civ": "Spanish",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:32:22.000Z",
+          "dur": 1830,
+          "opponents": [
+            {
+              "profileId": 5665654,
+              "name": "LEVON JAMES"
+            },
+            {
+              "profileId": 5666186,
+              "name": "TigAniqa1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19322127,
+              "name": "Elmarques"
+            }
+          ]
+        },
         {
           "matchId": 509353959,
           "civ": "Spanish",
@@ -19416,5 +19442,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

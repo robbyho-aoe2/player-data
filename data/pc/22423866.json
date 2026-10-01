@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1029,
         "peakRating": 1036
       },
@@ -317,12 +317,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 321,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1190,
+        "totalGames": 323,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1191,
         "peakRating": 1277
       },
       "matches": [
+        {
+          "matchId": 509797462,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:41:12.000Z",
+          "dur": 1346,
+          "opponents": [
+            {
+              "profileId": 204955,
+              "name": "shampoop"
+            },
+            {
+              "profileId": 5995218,
+              "name": "Riper-Kun"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22424692,
+              "name": "sartorius5559"
+            }
+          ]
+        },
+        {
+          "matchId": 509791454,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:06:16.000Z",
+          "dur": 1867,
+          "opponents": [
+            {
+              "profileId": 15236566,
+              "name": "Prixmastx"
+            },
+            {
+              "profileId": 10388223,
+              "name": "Saul carvajal 9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22424692,
+              "name": "sartorius5559"
+            }
+          ]
+        },
         {
           "matchId": 509261536,
           "civ": "Varangians",
@@ -9325,5 +9377,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

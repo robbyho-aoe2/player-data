@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 236,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1062,
+        "totalGames": 243,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1047,
         "peakRating": 1062
       },
       "matches": [
+        {
+          "matchId": 510486608,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T07:48:35.000Z",
+          "dur": 1557,
+          "opponents": [
+            {
+              "profileId": 12373673,
+              "name": "\u5927\u6e05\u7b2c\u4e00\u5df4\u56fe\u9c81"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509857560,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:52:26.000Z",
+          "dur": 4210,
+          "opponents": [
+            {
+              "profileId": 19638266,
+              "name": "play2009123"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509854917,
+          "civ": "Franks",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:31:25.000Z",
+          "dur": 1208,
+          "opponents": [
+            {
+              "profileId": 21585167,
+              "name": "Titan_atsu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509836389,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:32:19.000Z",
+          "dur": 2820,
+          "opponents": [
+            {
+              "profileId": 4287268,
+              "name": "taktak89"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509831455,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T07:41:13.000Z",
+          "dur": 2771,
+          "opponents": [
+            {
+              "profileId": 5440233,
+              "name": "\u72b9\u8c6b\u5c31\u4f1a\u8d25\u5317"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509662136,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:20:38.000Z",
+          "dur": 1753,
+          "opponents": [
+            {
+              "profileId": 24266325,
+              "name": "elf"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509654209,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:48:21.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 11415695,
+              "name": "fmmm202"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509325313,
           "civ": "Franks",
@@ -4042,8 +4161,8 @@
     "Team PC": {
       "meta": {
         "totalGames": 95,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1054,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1093,
         "peakRating": 1176
       },
       "matches": [
@@ -7338,5 +7457,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

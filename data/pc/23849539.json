@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 108,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1167,
         "peakRating": 1199
       },
@@ -1865,12 +1865,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 640,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1294,
+        "totalGames": 644,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1237,
         "peakRating": 1343
       },
       "matches": [
+        {
+          "matchId": 509794207,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:22:29.000Z",
+          "dur": 1535,
+          "opponents": [
+            {
+              "profileId": 5225654,
+              "name": "RANDALZIN"
+            },
+            {
+              "profileId": 15407535,
+              "name": "buzzkill"
+            },
+            {
+              "profileId": 11292526,
+              "name": "Baruchiev"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23635667,
+              "name": "fainer_15"
+            },
+            {
+              "profileId": 23250690,
+              "name": "Melfyce"
+            }
+          ]
+        },
+        {
+          "matchId": 509784265,
+          "civ": "Byzantines",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:26:14.000Z",
+          "dur": 1198,
+          "opponents": [
+            {
+              "profileId": 83172,
+              "name": "Genghis 232"
+            },
+            {
+              "profileId": 2569854,
+              "name": "Ipower"
+            },
+            {
+              "profileId": 2023456,
+              "name": "Pepe :)"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23635667,
+              "name": "fainer_15"
+            },
+            {
+              "profileId": 23250690,
+              "name": "Melfyce"
+            }
+          ]
+        },
+        {
+          "matchId": 509769351,
+          "civ": "Jurchens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:03:33.000Z",
+          "dur": 1833,
+          "opponents": [
+            {
+              "profileId": 311921,
+              "name": "Degel"
+            },
+            {
+              "profileId": 3399277,
+              "name": "[XAAM]_Muffie_Cute"
+            },
+            {
+              "profileId": 20559722,
+              "name": "Drag\u00f3n-Malo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23250690,
+              "name": "Melfyce"
+            },
+            {
+              "profileId": 23635667,
+              "name": "fainer_15"
+            }
+          ]
+        },
+        {
+          "matchId": 509764350,
+          "civ": "Jurchens",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:34:49.000Z",
+          "dur": 1219,
+          "opponents": [
+            {
+              "profileId": 3048440,
+              "name": "aReIF"
+            },
+            {
+              "profileId": 3009988,
+              "name": "maujel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23250690,
+              "name": "Melfyce"
+            }
+          ]
+        },
         {
           "matchId": 509494373,
           "civ": "Jurchens",
@@ -21572,5 +21700,6 @@
   },
   "country": "cr",
   "countryIcon": "\ud83c\udde8\ud83c\uddf7",
-  "countryName": "Costa Rica"
+  "countryName": "Costa Rica",
+  "platform": "Steam"
 }

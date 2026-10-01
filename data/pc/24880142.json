@@ -6,32 +6,116 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 116,
-        "pulledDate": "2026-09-20",
-        "latestRating": 806,
+        "totalGames": 118,
+        "pulledDate": "2026-10-01",
+        "latestRating": 807,
         "peakRating": 858
       },
       "matches": [
+        {
+          "matchId": 510149882,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:47:11.000Z",
+          "dur": 1018,
+          "opponents": [
+            {
+              "profileId": 490462,
+              "name": "Blobby"
+            },
+            {
+              "profileId": 8507660,
+              "name": "AlfioBang"
+            },
+            {
+              "profileId": 12263552,
+              "name": "RS_Medik"
+            },
+            {
+              "profileId": 12311964,
+              "name": "uselessplayer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24903415,
+              "name": "CYBER"
+            },
+            {
+              "profileId": 24768190,
+              "name": "mpbror"
+            },
+            {
+              "profileId": 24846494,
+              "name": "Hej jeg hedder Leif"
+            }
+          ]
+        },
+        {
+          "matchId": 510142849,
+          "civ": "Magyars",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:14:48.000Z",
+          "dur": 1621,
+          "opponents": [
+            {
+              "profileId": 23424761,
+              "name": "QUIEN YA TU SABES"
+            },
+            {
+              "profileId": 19670597,
+              "name": "ZIV_83tw"
+            },
+            {
+              "profileId": 19670555,
+              "name": "caachris83"
+            },
+            {
+              "profileId": 4954979,
+              "name": "Metrallas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24903415,
+              "name": "CYBER"
+            },
+            {
+              "profileId": 24846494,
+              "name": "Hej jeg hedder Leif"
+            },
+            {
+              "profileId": 24768190,
+              "name": "mpbror"
+            }
+          ]
+        },
         {
           "matchId": 507812430,
           "civ": "Magyars",
@@ -3621,5 +3705,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Xbox"
 }

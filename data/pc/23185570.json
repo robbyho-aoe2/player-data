@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 52,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 869,
         "peakRating": 869
       },
@@ -913,12 +913,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 89,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1115,
+        "totalGames": 93,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1114,
         "peakRating": 1136
       },
       "matches": [
+        {
+          "matchId": 510195351,
+          "civ": "Danes",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:39:46.000Z",
+          "dur": 3172,
+          "opponents": [
+            {
+              "profileId": 5126952,
+              "name": "HeyZeusHayden"
+            },
+            {
+              "profileId": 5176090,
+              "name": "Towel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23214886,
+              "name": "Drakath6696"
+            }
+          ]
+        },
+        {
+          "matchId": 510188903,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:59:10.000Z",
+          "dur": 2196,
+          "opponents": [
+            {
+              "profileId": 5176090,
+              "name": "Towel"
+            },
+            {
+              "profileId": 5126952,
+              "name": "HeyZeusHayden"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23214886,
+              "name": "Drakath6696"
+            }
+          ]
+        },
+        {
+          "matchId": 510185190,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:36:46.000Z",
+          "dur": 1104,
+          "opponents": [
+            {
+              "profileId": 21050534,
+              "name": "Bodi MIller"
+            },
+            {
+              "profileId": 936477,
+              "name": "Reaper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23214886,
+              "name": "Drakath6696"
+            }
+          ]
+        },
+        {
+          "matchId": 510177445,
+          "civ": "Varangians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:54:33.000Z",
+          "dur": 2349,
+          "opponents": [
+            {
+              "profileId": 9449025,
+              "name": "TailoredLynx280"
+            },
+            {
+              "profileId": 20753563,
+              "name": "The Lightning 11"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23214886,
+              "name": "Drakath6696"
+            }
+          ]
+        },
         {
           "matchId": 509480808,
           "civ": "Danes",
@@ -3278,5 +3382,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

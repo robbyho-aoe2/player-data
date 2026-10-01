@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 139,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1193,
+        "totalGames": 140,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1211,
         "peakRating": 1272
       },
       "matches": [
+        {
+          "matchId": 510503374,
+          "civ": "Slavs",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T10:29:35.000Z",
+          "dur": 392,
+          "opponents": [
+            {
+              "profileId": 22096522,
+              "name": "Lise"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507628416,
           "civ": "Bohemians",
@@ -2255,7 +2272,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-01",
         "latestRating": 1000
       },
       "matches": [
@@ -2289,5 +2306,6 @@
   },
   "country": "sv",
   "countryIcon": "\ud83c\uddf8\ud83c\uddfb",
-  "countryName": "El Salvador"
+  "countryName": "El Salvador",
+  "platform": "Steam"
 }

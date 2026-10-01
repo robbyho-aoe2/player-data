@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-01",
         "latestRating": 948
       },
       "matches": [
@@ -92,12 +92,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 299,
-        "pulledDate": "2026-09-24",
-        "latestRating": 811,
+        "totalGames": 300,
+        "pulledDate": "2026-10-01",
+        "latestRating": 826,
         "peakRating": 889
       },
       "matches": [
+        {
+          "matchId": 510210329,
+          "civ": "Malay",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:18:44.000Z",
+          "dur": 1533,
+          "opponents": [
+            {
+              "profileId": 22570475,
+              "name": "Clucking Bell Farms"
+            },
+            {
+              "profileId": 22594429,
+              "name": "gabrielcarbajaln77"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25072049,
+              "name": "nordland11"
+            }
+          ]
+        },
         {
           "matchId": 508588118,
           "civ": "Vikings",
@@ -7629,5 +7655,6 @@
   },
   "country": "vn",
   "countryIcon": "\ud83c\uddfb\ud83c\uddf3",
-  "countryName": "Viet Nam"
+  "countryName": "Viet Nam",
+  "platform": "Steam"
 }

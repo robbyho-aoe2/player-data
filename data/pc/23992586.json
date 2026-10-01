@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 497,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1141,
+        "totalGames": 502,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1132,
         "peakRating": 1288
       },
       "matches": [
+        {
+          "matchId": 510109520,
+          "civ": "Huns",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:15:41.000Z",
+          "dur": 1764,
+          "opponents": [
+            {
+              "profileId": 5767326,
+              "name": "IsBaconReal"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510107184,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:03:33.000Z",
+          "dur": 551,
+          "opponents": [
+            {
+              "profileId": 5158259,
+              "name": "Peshmerga424"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509913021,
+          "civ": "Vikings",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:09:07.000Z",
+          "dur": 1297,
+          "opponents": [
+            {
+              "profileId": 25027821,
+              "name": "I'mNotHim"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509905981,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:32:48.000Z",
+          "dur": 2114,
+          "opponents": [
+            {
+              "profileId": 2037025,
+              "name": "IdlePete"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509900594,
+          "civ": "Vikings",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:04:34.000Z",
+          "dur": 1609,
+          "opponents": [
+            {
+              "profileId": 18426954,
+              "name": "arieljacominibonetti"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508880330,
           "civ": "Vikings",
@@ -8032,7 +8117,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1041
       },
       "matches": [
@@ -8371,5 +8456,6 @@
   },
   "country": "ee",
   "countryIcon": "\ud83c\uddea\ud83c\uddea",
-  "countryName": "Estonia"
+  "countryName": "Estonia",
+  "platform": "Steam"
 }

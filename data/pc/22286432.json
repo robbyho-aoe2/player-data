@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 998,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1254,
+        "totalGames": 1002,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1237,
         "peakRating": 1266
       },
       "matches": [
+        {
+          "matchId": 510545665,
+          "civ": "Persians",
+          "map": "Glade",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T15:11:45.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 4610398,
+              "name": "HarryHijskraan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510328324,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:35:42.000Z",
+          "dur": 1200,
+          "opponents": [
+            {
+              "profileId": 1403208,
+              "name": "popin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510321999,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:01:15.000Z",
+          "dur": 1894,
+          "opponents": [
+            {
+              "profileId": 2651442,
+              "name": "blackbeard1"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510117972,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:03:46.000Z",
+          "dur": 3387,
+          "opponents": [
+            {
+              "profileId": 7278457,
+              "name": "OPOII3091"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509112668,
           "civ": "Persians",
@@ -16031,7 +16099,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1006
       },
       "matches": [
@@ -16165,5 +16233,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

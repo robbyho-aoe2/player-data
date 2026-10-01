@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 243,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1284,
+        "totalGames": 248,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1271,
         "peakRating": 1367
       },
       "matches": [
+        {
+          "matchId": 510294717,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:18:10.000Z",
+          "dur": 224,
+          "opponents": [
+            {
+              "profileId": 8676912,
+              "name": "O P T I M U S"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510292355,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:00:40.000Z",
+          "dur": 981,
+          "opponents": [
+            {
+              "profileId": 830210,
+              "name": "feizda"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510286952,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:16:05.000Z",
+          "dur": 202,
+          "opponents": [
+            {
+              "profileId": 20221063,
+              "name": "\u6d85\u69c3\u91cd\u751f"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510283587,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:43:33.000Z",
+          "dur": 1482,
+          "opponents": [
+            {
+              "profileId": 3164835,
+              "name": "AKINCILAR"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510280737,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:15:07.000Z",
+          "dur": 1599,
+          "opponents": [
+            {
+              "profileId": 5682254,
+              "name": "NAB"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505426116,
           "civ": "Malians",
@@ -3959,7 +4044,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 74,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-01",
         "latestRating": 1190,
         "peakRating": 1241
       },
@@ -5819,5 +5904,6 @@
   },
   "country": "sg",
   "countryIcon": "\ud83c\uddf8\ud83c\uddec",
-  "countryName": "Singapore"
+  "countryName": "Singapore",
+  "platform": "Steam"
 }

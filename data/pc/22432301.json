@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 316,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1862,
+        "totalGames": 318,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1855,
         "peakRating": 2000
       },
       "matches": [
+        {
+          "matchId": 509699080,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:46:36.000Z",
+          "dur": 2205,
+          "opponents": [
+            {
+              "profileId": 259958,
+              "name": "Madeen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509688025,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:06:55.000Z",
+          "dur": 2126,
+          "opponents": [
+            {
+              "profileId": 254648,
+              "name": "Myzel"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508532241,
           "civ": "Slavs",
@@ -5402,7 +5436,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1630,
         "peakRating": 1705
       },
@@ -6676,5 +6710,6 @@
   },
   "country": "gt",
   "countryIcon": "\ud83c\uddec\ud83c\uddf9",
-  "countryName": "Guatemala"
+  "countryName": "Guatemala",
+  "platform": "Steam"
 }

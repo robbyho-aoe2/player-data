@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 37,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1616,
         "peakRating": 1616
       },
@@ -621,12 +621,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 130,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1521,
+        "totalGames": 132,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1489,
         "peakRating": 1544
       },
       "matches": [
+        {
+          "matchId": 509911643,
+          "civ": "Danes",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:03:41.000Z",
+          "dur": 1462,
+          "opponents": [
+            {
+              "profileId": 23854672,
+              "name": "Zilove_"
+            },
+            {
+              "profileId": 22482499,
+              "name": "."
+            },
+            {
+              "profileId": 22353333,
+              "name": "luoul"
+            },
+            {
+              "profileId": 9484775,
+              "name": "\u517b\u51e0\u4ebf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2601162,
+              "name": "LaPosta"
+            },
+            {
+              "profileId": 10110925,
+              "name": "Bear"
+            },
+            {
+              "profileId": 2760536,
+              "name": "TITO15"
+            }
+          ]
+        },
+        {
+          "matchId": 509702408,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:59:49.000Z",
+          "dur": 1416,
+          "opponents": [
+            {
+              "profileId": 1606709,
+              "name": "King-WzRun"
+            },
+            {
+              "profileId": 1839087,
+              "name": "zymini"
+            },
+            {
+              "profileId": 18576266,
+              "name": "\u521d\u6674"
+            },
+            {
+              "profileId": 19010145,
+              "name": "jueaadjx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3112395,
+              "name": "Bzm_J\u00f6NT\u00fcRK"
+            },
+            {
+              "profileId": 9425291,
+              "name": "Meliod27"
+            },
+            {
+              "profileId": 10801552,
+              "name": "[PORE] Crydoch"
+            }
+          ]
+        },
         {
           "matchId": 508710961,
           "civ": "Saxons",
@@ -5994,5 +6078,6 @@
   },
   "country": "hk",
   "countryIcon": "\ud83c\udded\ud83c\uddf0",
-  "countryName": "Hong Kong"
+  "countryName": "Hong Kong",
+  "platform": "Steam"
 }

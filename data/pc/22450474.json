@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-19"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 127,
-        "pulledDate": "2026-09-19",
-        "latestRating": 883,
+        "totalGames": 128,
+        "pulledDate": "2026-10-01",
+        "latestRating": 899,
         "peakRating": 1089
       },
       "matches": [
+        {
+          "matchId": 510218325,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:09:03.000Z",
+          "dur": 1487,
+          "opponents": [
+            {
+              "profileId": 22494173,
+              "name": "Yu shuo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 498138164,
           "civ": "Spanish",
@@ -2188,12 +2205,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 501,
-        "pulledDate": "2026-09-19",
-        "latestRating": 987,
+        "totalGames": 502,
+        "pulledDate": "2026-10-01",
+        "latestRating": 974,
         "peakRating": 1173
       },
       "matches": [
+        {
+          "matchId": 510222575,
+          "civ": "Hindustanis",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:36:21.000Z",
+          "dur": 1954,
+          "opponents": [
+            {
+              "profileId": 21396619,
+              "name": "MarCus111"
+            },
+            {
+              "profileId": 971061,
+              "name": "Delicious Tuna"
+            },
+            {
+              "profileId": 9406765,
+              "name": "Wangdangdoodle"
+            },
+            {
+              "profileId": 11691143,
+              "name": "Mr Ben Wayde"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25721022,
+              "name": "Wawrinka"
+            },
+            {
+              "profileId": 6894291,
+              "name": "zer0ths"
+            },
+            {
+              "profileId": 6781080,
+              "name": "diepat"
+            }
+          ]
+        },
         {
           "matchId": 498144523,
           "civ": "Dravidians",
@@ -20089,5 +20148,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

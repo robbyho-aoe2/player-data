@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 128,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1063,
         "peakRating": 1230
       },
@@ -2118,12 +2118,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 594,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1050,
+        "totalGames": 596,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1103,
         "peakRating": 1273
       },
       "matches": [
+        {
+          "matchId": 509687609,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:05:17.000Z",
+          "dur": 757,
+          "opponents": [
+            {
+              "profileId": 1200258,
+              "name": "Prcmt"
+            },
+            {
+              "profileId": 964500,
+              "name": "Oscar_Lee"
+            },
+            {
+              "profileId": 23478510,
+              "name": "roger777"
+            },
+            {
+              "profileId": 15728366,
+              "name": "Jairzin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24978784,
+              "name": "CanarioAOE"
+            },
+            {
+              "profileId": 11478491,
+              "name": "jaiderreyes4"
+            },
+            {
+              "profileId": 3919627,
+              "name": "Huguini"
+            }
+          ]
+        },
+        {
+          "matchId": 509622579,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:39:29.000Z",
+          "dur": 1572,
+          "opponents": [
+            {
+              "profileId": 2642953,
+              "name": "Laurix"
+            },
+            {
+              "profileId": 2327385,
+              "name": "f.bdz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24978784,
+              "name": "CanarioAOE"
+            }
+          ]
+        },
         {
           "matchId": 509533091,
           "civ": "Varangians",
@@ -21800,5 +21868,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 213,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1096,
+        "totalGames": 215,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1098,
         "peakRating": 1176
       },
       "matches": [
+        {
+          "matchId": 510206132,
+          "civ": "Vikings",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:49:03.000Z",
+          "dur": 1769,
+          "opponents": [
+            {
+              "profileId": 23720702,
+              "name": "Robert Bruce"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510204017,
+          "civ": "Portuguese",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:35:04.000Z",
+          "dur": 795,
+          "opponents": [
+            {
+              "profileId": 23720702,
+              "name": "Robert Bruce"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509222752,
           "civ": "Byzantines",
@@ -3458,12 +3492,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 125,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1232,
+        "totalGames": 128,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1215,
         "peakRating": 1289
       },
       "matches": [
+        {
+          "matchId": 510203606,
+          "civ": "Saracens",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:33:40.000Z",
+          "dur": 50,
+          "opponents": [
+            {
+              "profileId": 9817007,
+              "name": "SemperBlender"
+            },
+            {
+              "profileId": 23904763,
+              "name": "vibhuyasha"
+            },
+            {
+              "profileId": 337715,
+              "name": "Weak Foe Ahead"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24135447,
+              "name": "harry_mas0n"
+            },
+            {
+              "profileId": 1910773,
+              "name": "BigPharmA"
+            }
+          ]
+        },
+        {
+          "matchId": 509984034,
+          "civ": "Incas",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:04:42.000Z",
+          "dur": 3228,
+          "opponents": [
+            {
+              "profileId": 1934830,
+              "name": "Nike man"
+            },
+            {
+              "profileId": 2039435,
+              "name": "AlamasK"
+            },
+            {
+              "profileId": 235370,
+              "name": "Tupeck"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4299918,
+              "name": "LittleNino"
+            },
+            {
+              "profileId": 3195783,
+              "name": "VISTOYCONSI | Tafirol"
+            }
+          ]
+        },
+        {
+          "matchId": 509758541,
+          "civ": "Koreans",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T23:01:49.000Z",
+          "dur": 1895,
+          "opponents": [
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            },
+            {
+              "profileId": 15283523,
+              "name": "[RZ] Jo\u00e3ozinho"
+            },
+            {
+              "profileId": 6712746,
+              "name": "WOLF NIGHTBLOOD"
+            },
+            {
+              "profileId": 2226417,
+              "name": "[RZ] Matheus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9811780,
+              "name": "Roswel"
+            },
+            {
+              "profileId": 7883844,
+              "name": "bailey"
+            },
+            {
+              "profileId": 666701,
+              "name": "kalioglu"
+            }
+          ]
+        },
         {
           "matchId": 509507229,
           "civ": "Malians",
@@ -7447,5 +7591,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

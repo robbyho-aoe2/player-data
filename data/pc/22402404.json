@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 296,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1024,
+        "totalGames": 297,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1009,
         "peakRating": 1073
       },
       "matches": [
+        {
+          "matchId": 510412239,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:42:14.000Z",
+          "dur": 2224,
+          "opponents": [
+            {
+              "profileId": 2455784,
+              "name": "Eugene"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508339334,
           "civ": "Khmer",
@@ -4780,12 +4797,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 252,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1163,
+        "totalGames": 253,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1187,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 510018206,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:38:08.000Z",
+          "dur": 1693,
+          "opponents": [
+            {
+              "profileId": 4106992,
+              "name": "[Ne0] Vladimir Putin"
+            },
+            {
+              "profileId": 8268649,
+              "name": "OPI Sonet"
+            },
+            {
+              "profileId": 281926,
+              "name": "RDA Infernus"
+            },
+            {
+              "profileId": 520833,
+              "name": "RDA | Damiii el TORO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5441049,
+              "name": "IRON MIKE"
+            },
+            {
+              "profileId": 2702506,
+              "name": "titumir"
+            },
+            {
+              "profileId": 3150261,
+              "name": "Jolt"
+            }
+          ]
+        },
         {
           "matchId": 508141120,
           "civ": "Persians",
@@ -13080,5 +13139,6 @@
   },
   "country": "bd",
   "countryIcon": "\ud83c\udde7\ud83c\udde9",
-  "countryName": "Bangladesh"
+  "countryName": "Bangladesh",
+  "platform": "Steam"
 }

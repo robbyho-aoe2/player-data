@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 100,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1147,
         "peakRating": 1161
       },
@@ -1629,12 +1629,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 667,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1104,
+        "totalGames": 668,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1084,
         "peakRating": 1231
       },
       "matches": [
+        {
+          "matchId": 509679228,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T17:31:31.000Z",
+          "dur": 2274,
+          "opponents": [
+            {
+              "profileId": 8907663,
+              "name": "Q\u529b\u5c71\u5927\u4e00\u4e16"
+            },
+            {
+              "profileId": 23041164,
+              "name": "Boni_5"
+            },
+            {
+              "profileId": 24024323,
+              "name": "katapilla18"
+            },
+            {
+              "profileId": 23357250,
+              "name": "FallAutumn7731"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6148989,
+              "name": "ODIUM UA"
+            },
+            {
+              "profileId": 25701895,
+              "name": "Archibald"
+            },
+            {
+              "profileId": 24994549,
+              "name": "arst239"
+            }
+          ]
+        },
         {
           "matchId": 509432091,
           "civ": "Mongols",
@@ -27644,5 +27686,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

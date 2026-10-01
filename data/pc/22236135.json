@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 278,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1067,
+        "totalGames": 279,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1050,
         "peakRating": 1112
       },
       "matches": [
+        {
+          "matchId": 509738853,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:23:04.000Z",
+          "dur": 1652,
+          "opponents": [
+            {
+              "profileId": 18256219,
+              "name": "Jelonz"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507877841,
           "civ": "Franks",
@@ -4488,7 +4505,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 352,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1146,
         "peakRating": 1250
       },
@@ -13854,5 +13871,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 979,
         "peakRating": 1010
       },
@@ -317,12 +317,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1768,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1290,
+        "totalGames": 1769,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1273,
         "peakRating": 1300
       },
       "matches": [
+        {
+          "matchId": 510494021,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:00:04.000Z",
+          "dur": 1667,
+          "opponents": [
+            {
+              "profileId": 23483503,
+              "name": "BigFaGe"
+            },
+            {
+              "profileId": 5474557,
+              "name": "\u53ea\u60f3\u641e\u4e8b"
+            },
+            {
+              "profileId": 14695300,
+              "name": "\u6bcf\u9022\u4f73\u8282\u7626\u4e24\u65a4"
+            },
+            {
+              "profileId": 24017199,
+              "name": "\u9e21\u7fc5\u5305\u996d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4449794,
+              "name": "\u8001\u724c\u4f11\u95f2\u73a9\u5bb6"
+            },
+            {
+              "profileId": 15439022,
+              "name": "Vu_PY"
+            },
+            {
+              "profileId": 1046119,
+              "name": "putinonaritz"
+            }
+          ]
+        },
         {
           "matchId": 509077870,
           "civ": "Lithuanians",
@@ -67094,5 +67136,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

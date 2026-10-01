@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 333,
-        "pulledDate": "2026-09-27",
-        "latestRating": 2210,
+        "totalGames": 338,
+        "pulledDate": "2026-10-01",
+        "latestRating": 2220,
         "peakRating": 2232
       },
       "matches": [
+        {
+          "matchId": 510431805,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:50:10.000Z",
+          "dur": 312,
+          "opponents": [
+            {
+              "profileId": 8447899,
+              "name": "JonnyOhneH"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510426953,
+          "civ": "Dravidians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:18:34.000Z",
+          "dur": 1697,
+          "opponents": [
+            {
+              "profileId": 8447899,
+              "name": "JonnyOhneH"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510424917,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:04:44.000Z",
+          "dur": 780,
+          "opponents": [
+            {
+              "profileId": 8447899,
+              "name": "JonnyOhneH"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510422896,
+          "civ": "Franks",
+          "map": "Northern Isles",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:51:54.000Z",
+          "dur": 573,
+          "opponents": [
+            {
+              "profileId": 989253,
+              "name": "Madtomski"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510003230,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:07:13.000Z",
+          "dur": 1114,
+          "opponents": [
+            {
+              "profileId": 24926497,
+              "name": "Ghosty"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508784478,
           "civ": "Maya",
@@ -5366,7 +5451,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": [
         {
@@ -5547,5 +5632,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

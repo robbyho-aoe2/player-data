@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-25"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 14,
-        "pulledDate": "2026-09-25",
+        "pulledDate": "2026-10-01",
         "latestRating": 754,
         "peakRating": 781
       },
@@ -267,12 +267,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 426,
-        "pulledDate": "2026-09-25",
-        "latestRating": 811,
-        "peakRating": 811
+        "totalGames": 428,
+        "pulledDate": "2026-10-01",
+        "latestRating": 816,
+        "peakRating": 816
       },
       "matches": [
+        {
+          "matchId": 510497327,
+          "civ": "Huns",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:32:08.000Z",
+          "dur": 568,
+          "opponents": [
+            {
+              "profileId": 321899,
+              "name": "Death_noob5"
+            },
+            {
+              "profileId": 282861,
+              "name": "\u5438\u043b\u044e\u0431\u044f\u0449\u0438\u0439\u6014\u043e\u0442\u0435\u0446\u718f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9902191,
+              "name": "wook12220"
+            }
+          ]
+        },
+        {
+          "matchId": 510495481,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:13:05.000Z",
+          "dur": 829,
+          "opponents": [
+            {
+              "profileId": 25991760,
+              "name": "Avicii Enjoyer"
+            },
+            {
+              "profileId": 26125431,
+              "name": "bmo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26056,
+              "name": "83716497273"
+            }
+          ]
+        },
         {
           "matchId": 508483798,
           "civ": "Celts",
@@ -14402,5 +14454,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

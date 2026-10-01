@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 113,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1181,
         "peakRating": 1400
       },
@@ -1841,12 +1841,150 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 591,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1108,
+        "totalGames": 596,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1087,
         "peakRating": 1226
       },
       "matches": [
+        {
+          "matchId": 510452660,
+          "civ": "Vikings",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:58:10.000Z",
+          "dur": 1068,
+          "opponents": [
+            {
+              "profileId": 5764783,
+              "name": "lopumo yael"
+            },
+            {
+              "profileId": 274690,
+              "name": "phoen1x"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19707111,
+              "name": "RecoilGargoyle"
+            }
+          ]
+        },
+        {
+          "matchId": 510451968,
+          "civ": "Saxons",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:54:07.000Z",
+          "dur": 152,
+          "opponents": [
+            {
+              "profileId": 3176139,
+              "name": "ginei"
+            },
+            {
+              "profileId": 15525407,
+              "name": "Pasuchi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19707111,
+              "name": "RecoilGargoyle"
+            }
+          ]
+        },
+        {
+          "matchId": 510330619,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:48:31.000Z",
+          "dur": 1748,
+          "opponents": [
+            {
+              "profileId": 12786171,
+              "name": "i aM Dixon x"
+            },
+            {
+              "profileId": 47609,
+              "name": "AmbassadorKaifa"
+            },
+            {
+              "profileId": 23556780,
+              "name": "Arvolen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19707111,
+              "name": "RecoilGargoyle"
+            },
+            {
+              "profileId": 26043576,
+              "name": "NoobWithATube"
+            }
+          ]
+        },
+        {
+          "matchId": 510328936,
+          "civ": "Varangians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:39:10.000Z",
+          "dur": 355,
+          "opponents": [
+            {
+              "profileId": 2662006,
+              "name": "fede"
+            },
+            {
+              "profileId": 2266963,
+              "name": "Calli"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19707111,
+              "name": "RecoilGargoyle"
+            }
+          ]
+        },
+        {
+          "matchId": 510321388,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:58:29.000Z",
+          "dur": 2223,
+          "opponents": [
+            {
+              "profileId": 952512,
+              "name": "Cpt Flint"
+            },
+            {
+              "profileId": 843259,
+              "name": "Waterloo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19707111,
+              "name": "RecoilGargoyle"
+            }
+          ]
+        },
         {
           "matchId": 509500769,
           "civ": "Japanese",
@@ -19741,5 +19879,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

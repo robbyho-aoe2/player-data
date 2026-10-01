@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1293,
         "peakRating": 1293
       },
@@ -205,12 +205,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 493,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1184,
+        "totalGames": 495,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1214,
         "peakRating": 1319
       },
       "matches": [
+        {
+          "matchId": 510153457,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:02:35.000Z",
+          "dur": 1525,
+          "opponents": [
+            {
+              "profileId": 234150,
+              "name": "Juerg Pinki"
+            },
+            {
+              "profileId": 9560705,
+              "name": "\u9a6f\u9f99\u9a91\u58eb\u5c39\u5fd7\u5e73"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1395156,
+              "name": "Gamaleon"
+            }
+          ]
+        },
+        {
+          "matchId": 509695743,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:35:24.000Z",
+          "dur": 1461,
+          "opponents": [
+            {
+              "profileId": 6152990,
+              "name": "King Yellow"
+            },
+            {
+              "profileId": 30802,
+              "name": "CazadorGT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2370572,
+              "name": "ignemiro"
+            }
+          ]
+        },
         {
           "matchId": 509430634,
           "civ": "Vietnamese",
@@ -14932,5 +14984,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

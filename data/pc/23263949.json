@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1045
       },
       "matches": [
@@ -76,12 +76,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 191,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1281,
+        "totalGames": 193,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1278,
         "peakRating": 1331
       },
       "matches": [
+        {
+          "matchId": 509731995,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:52:43.000Z",
+          "dur": 1468,
+          "opponents": [
+            {
+              "profileId": 362578,
+              "name": "Rhamen"
+            },
+            {
+              "profileId": 386806,
+              "name": "Skresh"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20737216,
+              "name": "M4S4SH1"
+            }
+          ]
+        },
+        {
+          "matchId": 509722387,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:13:18.000Z",
+          "dur": 1986,
+          "opponents": [
+            {
+              "profileId": 3042208,
+              "name": "Tewenwar"
+            },
+            {
+              "profileId": 810716,
+              "name": "Zyzyx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20737216,
+              "name": "M4S4SH1"
+            }
+          ]
+        },
         {
           "matchId": 509425718,
           "civ": "Saracens",
@@ -6260,5 +6312,6 @@
   },
   "country": "eg",
   "countryIcon": "\ud83c\uddea\ud83c\uddec",
-  "countryName": "Egypt"
+  "countryName": "Egypt",
+  "platform": "Steam"
 }

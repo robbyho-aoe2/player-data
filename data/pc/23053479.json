@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 614,
-        "pulledDate": "2026-09-27",
-        "latestRating": 2479,
-        "peakRating": 2500
+        "totalGames": 619,
+        "pulledDate": "2026-10-01",
+        "latestRating": 2531,
+        "peakRating": 2531
       },
       "matches": [
+        {
+          "matchId": 510207795,
+          "civ": "Saxons",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:00:45.000Z",
+          "dur": 685,
+          "opponents": [
+            {
+              "profileId": 5984120,
+              "name": "Combito"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510017084,
+          "civ": "Saxons",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:29:37.000Z",
+          "dur": 1179,
+          "opponents": [
+            {
+              "profileId": 322534,
+              "name": "Noszombie"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509738764,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:21:55.000Z",
+          "dur": 1781,
+          "opponents": [
+            {
+              "profileId": 10748832,
+              "name": "CC"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509721057,
+          "civ": "Malians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T20:08:04.000Z",
+          "dur": 814,
+          "opponents": [
+            {
+              "profileId": 4625368,
+              "name": "zankoku"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509712443,
+          "civ": "Varangians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T19:34:50.000Z",
+          "dur": 900,
+          "opponents": [
+            {
+              "profileId": 3101322,
+              "name": "Whitecourt"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509521098,
           "civ": "Mongols",
@@ -5724,7 +5809,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 27,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1703,
         "peakRating": 1703
       },
@@ -5977,5 +6062,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

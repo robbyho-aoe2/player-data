@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 232,
-        "pulledDate": "2026-09-27",
-        "latestRating": 734,
+        "totalGames": 234,
+        "pulledDate": "2026-10-01",
+        "latestRating": 767,
         "peakRating": 832
       },
       "matches": [
+        {
+          "matchId": 510498989,
+          "civ": "Mongols",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:47:55.000Z",
+          "dur": 1958,
+          "opponents": [
+            {
+              "profileId": 5706164,
+              "name": "!!Ingenium!!"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510270595,
+          "civ": "Mongols",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:25:03.000Z",
+          "dur": 1921,
+          "opponents": [
+            {
+              "profileId": 25240863,
+              "name": "xSirAxl"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509024286,
           "civ": "Vietnamese",
@@ -3974,8 +4008,8 @@
     "Team PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-27",
-        "latestRating": 888,
+        "pulledDate": "2026-10-01",
+        "latestRating": 873,
         "peakRating": 1035
       },
       "matches": [
@@ -4684,5 +4718,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

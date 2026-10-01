@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 35,
-        "pulledDate": "2026-09-26",
-        "latestRating": 701,
+        "totalGames": 39,
+        "pulledDate": "2026-10-01",
+        "latestRating": 699,
         "peakRating": 755
       },
       "matches": [
+        {
+          "matchId": 510076018,
+          "civ": "Sicilians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:48:27.000Z",
+          "dur": 675,
+          "opponents": [
+            {
+              "profileId": 11724197,
+              "name": "michaelhuss72"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510074501,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:35:36.000Z",
+          "dur": 719,
+          "opponents": [
+            {
+              "profileId": 11724197,
+              "name": "michaelhuss72"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510074226,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:33:45.000Z",
+          "dur": 60,
+          "opponents": [
+            {
+              "profileId": 25605019,
+              "name": "jyq1234567891011"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510071270,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:08:23.000Z",
+          "dur": 1436,
+          "opponents": [
+            {
+              "profileId": 8837244,
+              "name": "Dariy"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508787009,
           "civ": "Cumans",
@@ -625,7 +693,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 54,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-01",
         "latestRating": 789,
         "peakRating": 1003
       },
@@ -2407,5 +2475,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

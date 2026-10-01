@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 502,
-        "pulledDate": "2026-09-09",
+        "pulledDate": "2026-10-01",
         "latestRating": 1609,
         "peakRating": 1713
       },
@@ -8061,12 +8061,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 727,
-        "pulledDate": "2026-09-09",
+        "totalGames": 730,
+        "pulledDate": "2026-10-01",
         "latestRating": 1601,
         "peakRating": 1718
       },
       "matches": [
+        {
+          "matchId": 510119283,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:11:37.000Z",
+          "dur": 423,
+          "opponents": [
+            {
+              "profileId": 1828609,
+              "name": "MetallicChef630"
+            },
+            {
+              "profileId": 6823812,
+              "name": "Aqua Sama"
+            },
+            {
+              "profileId": 12297184,
+              "name": "GuruGreatest"
+            },
+            {
+              "profileId": 19236842,
+              "name": "Harry"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1563274,
+              "name": "Karabas"
+            },
+            {
+              "profileId": 9089076,
+              "name": "\u767d\u5fc3\u60a0\u54c9"
+            },
+            {
+              "profileId": 19678378,
+              "name": "\u5965\u5fb7\u4fee\u65af"
+            }
+          ]
+        },
+        {
+          "matchId": 510115642,
+          "civ": "Japanese",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:50:41.000Z",
+          "dur": 1143,
+          "opponents": [
+            {
+              "profileId": 26134461,
+              "name": "ResonanceFreq"
+            },
+            {
+              "profileId": 1469412,
+              "name": "Rank"
+            },
+            {
+              "profileId": 2892656,
+              "name": "TheShadowrawen"
+            },
+            {
+              "profileId": 25438100,
+              "name": "76561198702828170"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2358301,
+              "name": "ZiZi"
+            },
+            {
+              "profileId": 17719335,
+              "name": "kerwin"
+            },
+            {
+              "profileId": 19984690,
+              "name": "\uc218\uc0c1"
+            }
+          ]
+        },
+        {
+          "matchId": 510111632,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:28:10.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 183352,
+              "name": "\u0442\u0430\u0497\u0438\u043a"
+            },
+            {
+              "profileId": 9740799,
+              "name": "NyaNyaX"
+            },
+            {
+              "profileId": 10304256,
+              "name": "snk"
+            },
+            {
+              "profileId": 17869399,
+              "name": "CARRY_BERRY_JDV <3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26134461,
+              "name": "ResonanceFreq"
+            },
+            {
+              "profileId": 2358301,
+              "name": "ZiZi"
+            },
+            {
+              "profileId": 17719335,
+              "name": "kerwin"
+            }
+          ]
+        },
         {
           "matchId": 491849380,
           "civ": "Chinese",
@@ -37815,5 +37941,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

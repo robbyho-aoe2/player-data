@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 375,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1314,
+        "totalGames": 379,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1347,
         "peakRating": 1450
       },
       "matches": [
+        {
+          "matchId": 510493270,
+          "civ": "Spanish",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T08:51:40.000Z",
+          "dur": 736,
+          "opponents": [
+            {
+              "profileId": 346344,
+              "name": "DeliManyak"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510491578,
+          "civ": "Spanish",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T08:35:49.000Z",
+          "dur": 838,
+          "opponents": [
+            {
+              "profileId": 14777358,
+              "name": "sam4liverpool"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510488379,
+          "civ": "Spanish",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T08:06:14.000Z",
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 2480985,
+              "name": "_IKK_\u4f2f\u4e50"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509641637,
+          "civ": "Spanish",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:58:18.000Z",
+          "dur": 1764,
+          "opponents": [
+            {
+              "profileId": 1933404,
+              "name": "Koenig d. Hunde"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509185341,
           "civ": "Spanish",
@@ -6405,7 +6473,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 380,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1182,
         "peakRating": 1244
       },
@@ -17207,5 +17275,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

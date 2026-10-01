@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 119,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1131,
         "peakRating": 1155
       },
@@ -1830,12 +1830,158 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 538,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1174,
+        "totalGames": 543,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1201,
         "peakRating": 1274
       },
       "matches": [
+        {
+          "matchId": 510322569,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:05:04.000Z",
+          "dur": 2008,
+          "opponents": [
+            {
+              "profileId": 20704322,
+              "name": "ANGELSK3956"
+            },
+            {
+              "profileId": 23957710,
+              "name": "Sythe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3566843,
+              "name": "Bodziu"
+            }
+          ]
+        },
+        {
+          "matchId": 510317498,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:37:57.000Z",
+          "dur": 1443,
+          "opponents": [
+            {
+              "profileId": 5002201,
+              "name": "Hitokirivan"
+            },
+            {
+              "profileId": 1513712,
+              "name": "RafaelKubo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3566843,
+              "name": "Bodziu"
+            }
+          ]
+        },
+        {
+          "matchId": 509880924,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:19:48.000Z",
+          "dur": 1325,
+          "opponents": [
+            {
+              "profileId": 24880076,
+              "name": "1602612460"
+            },
+            {
+              "profileId": 22865535,
+              "name": "Wospenzukh"
+            },
+            {
+              "profileId": 20179561,
+              "name": "3blue"
+            },
+            {
+              "profileId": 4441401,
+              "name": "Szanik"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18962428,
+              "name": "paultse"
+            },
+            {
+              "profileId": 14977929,
+              "name": "subaru"
+            },
+            {
+              "profileId": 8965109,
+              "name": "yangyang"
+            }
+          ]
+        },
+        {
+          "matchId": 509634948,
+          "civ": "Franks",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T14:31:56.000Z",
+          "dur": 1140,
+          "opponents": [
+            {
+              "profileId": 405887,
+              "name": "Dine'nDash"
+            },
+            {
+              "profileId": 22170064,
+              "name": "Gkzaim"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 492355,
+              "name": "Haggybaer"
+            }
+          ]
+        },
+        {
+          "matchId": 509619674,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:26:22.000Z",
+          "dur": 1590,
+          "opponents": [
+            {
+              "profileId": 5050251,
+              "name": "dreadmasta"
+            },
+            {
+              "profileId": 7587042,
+              "name": "mag dump"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24369571,
+              "name": "ms0268062"
+            }
+          ]
+        },
         {
           "matchId": 509575074,
           "civ": "Magyars",
@@ -15546,5 +15692,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

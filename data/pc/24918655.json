@@ -6,25 +6,195 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 116,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1171,
+        "totalGames": 126,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1176,
         "peakRating": 1252
       },
       "matches": [
+        {
+          "matchId": 510294931,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:19:45.000Z",
+          "dur": 1662,
+          "opponents": [
+            {
+              "profileId": 25158208,
+              "name": "Simbo02352"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510293570,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:09:36.000Z",
+          "dur": 508,
+          "opponents": [
+            {
+              "profileId": 10433710,
+              "name": "nprhino_aoe"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510292746,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:03:33.000Z",
+          "dur": 285,
+          "opponents": [
+            {
+              "profileId": 5654499,
+              "name": "\u6728\u74dc"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510096486,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:04:49.000Z",
+          "dur": 1896,
+          "opponents": [
+            {
+              "profileId": 26140346,
+              "name": "717504720"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509851646,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:03:54.000Z",
+          "dur": 652,
+          "opponents": [
+            {
+              "profileId": 2187640,
+              "name": "Hot Lemon Water"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509848311,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:32:36.000Z",
+          "dur": 1774,
+          "opponents": [
+            {
+              "profileId": 21698834,
+              "name": "anitiger9486"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509840638,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:16:00.000Z",
+          "dur": 1158,
+          "opponents": [
+            {
+              "profileId": 16610858,
+              "name": "shanuu222"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509809334,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T04:04:33.000Z",
+          "dur": 2028,
+          "opponents": [
+            {
+              "profileId": 22105549,
+              "name": "FrumpyImpala821"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509589228,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:33:50.000Z",
+          "dur": 1607,
+          "opponents": [
+            {
+              "profileId": 2574503,
+              "name": "Smiley"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509587515,
+          "civ": "Maya",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T10:23:08.000Z",
+          "dur": 528,
+          "opponents": [
+            {
+              "profileId": 920331,
+              "name": "Karl Mustachio Beerson"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508213741,
           "civ": "Maya",
@@ -2002,7 +2172,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 57,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-01",
         "latestRating": 1159,
         "peakRating": 1220
       },
@@ -4342,5 +4512,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

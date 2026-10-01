@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 135,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1307,
-        "peakRating": 1307
+        "totalGames": 138,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1293,
+        "peakRating": 1322
       },
       "matches": [
+        {
+          "matchId": 510229979,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:20:56.000Z",
+          "dur": 1891,
+          "opponents": [
+            {
+              "profileId": 2517186,
+              "name": "supay"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510224206,
+          "civ": "Huns",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:45:26.000Z",
+          "dur": 1160,
+          "opponents": [
+            {
+              "profileId": 19975738,
+              "name": "unameru"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509906801,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:37:55.000Z",
+          "dur": 728,
+          "opponents": [
+            {
+              "profileId": 19306598,
+              "name": "MetalFaceDoom"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509052199,
           "civ": "Huns",
@@ -2324,12 +2375,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 16,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1107,
+        "totalGames": 17,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1085,
         "peakRating": 1189
       },
       "matches": [
+        {
+          "matchId": 509871634,
+          "civ": "Spanish",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:28:15.000Z",
+          "dur": 1886,
+          "opponents": [
+            {
+              "profileId": 6221965,
+              "name": "\u65b0\u624b\u6751\u5929\u5e55\u661f"
+            },
+            {
+              "profileId": 10606685,
+              "name": "\u516c\u9e21\u795e\u63a2"
+            },
+            {
+              "profileId": 19454796,
+              "name": "\u65e0\u7532\u7684joe"
+            },
+            {
+              "profileId": 9449881,
+              "name": "Bamboozled Kiwi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22059940,
+              "name": "LLBHLJ"
+            },
+            {
+              "profileId": 15922877,
+              "name": "NoobPwner"
+            },
+            {
+              "profileId": 22865535,
+              "name": "Wospenzukh"
+            }
+          ]
+        },
         {
           "matchId": 505635752,
           "civ": "Spanish",
@@ -2879,5 +2972,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-01",
         "latestRating": 1555,
         "peakRating": 1555
       },
@@ -335,12 +335,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 44,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1499,
+        "totalGames": 48,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1466,
         "peakRating": 1499
       },
       "matches": [
+        {
+          "matchId": 510398927,
+          "civ": "Berbers",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:21:08.000Z",
+          "dur": 1189,
+          "opponents": [
+            {
+              "profileId": 1556480,
+              "name": "b4ron1"
+            },
+            {
+              "profileId": 9526224,
+              "name": "Hennessy"
+            },
+            {
+              "profileId": 4659070,
+              "name": "Doctor Simi"
+            },
+            {
+              "profileId": 20801774,
+              "name": "Julio2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2466880,
+              "name": "Ck SANCTUS.\u0110SY"
+            },
+            {
+              "profileId": 25219937,
+              "name": "M\u00d8LDAIN"
+            },
+            {
+              "profileId": 2395956,
+              "name": "LeGoat James 12-13"
+            }
+          ]
+        },
+        {
+          "matchId": 510391131,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:40:09.000Z",
+          "dur": 2120,
+          "opponents": [
+            {
+              "profileId": 20801774,
+              "name": "Julio2"
+            },
+            {
+              "profileId": 15116013,
+              "name": "symphey"
+            },
+            {
+              "profileId": 9958277,
+              "name": "BladeY"
+            },
+            {
+              "profileId": 625034,
+              "name": "TrCL.MAN1AC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25219937,
+              "name": "M\u00d8LDAIN"
+            },
+            {
+              "profileId": 2466880,
+              "name": "Ck SANCTUS.\u0110SY"
+            },
+            {
+              "profileId": 2395956,
+              "name": "LeGoat James 12-13"
+            }
+          ]
+        },
+        {
+          "matchId": 510385491,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:12:58.000Z",
+          "dur": 1464,
+          "opponents": [
+            {
+              "profileId": 365150,
+              "name": "Fu"
+            },
+            {
+              "profileId": 3890722,
+              "name": "[CL] ~C H R I $-"
+            },
+            {
+              "profileId": 22339990,
+              "name": "Ux'VIC"
+            },
+            {
+              "profileId": 23907126,
+              "name": "Saruman 117"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2395956,
+              "name": "LeGoat James 12-13"
+            },
+            {
+              "profileId": 2466880,
+              "name": "Ck SANCTUS.\u0110SY"
+            },
+            {
+              "profileId": 25219937,
+              "name": "M\u00d8LDAIN"
+            }
+          ]
+        },
+        {
+          "matchId": 510378811,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:42:40.000Z",
+          "dur": 1550,
+          "opponents": [
+            {
+              "profileId": 3856970,
+              "name": "Politox"
+            },
+            {
+              "profileId": 11391854,
+              "name": "Combi | NITRAMDELANIEVE"
+            },
+            {
+              "profileId": 15546582,
+              "name": "Newlife"
+            },
+            {
+              "profileId": 2480833,
+              "name": "\u9038\u4e36\u7136"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2395956,
+              "name": "LeGoat James 12-13"
+            },
+            {
+              "profileId": 25219937,
+              "name": "M\u00d8LDAIN"
+            },
+            {
+              "profileId": 2466880,
+              "name": "Ck SANCTUS.\u0110SY"
+            }
+          ]
+        },
         {
           "matchId": 508537227,
           "civ": "Bengalis",
@@ -1938,5 +2106,6 @@
   },
   "country": "hu",
   "countryIcon": "\ud83c\udded\ud83c\uddfa",
-  "countryName": "Hungary"
+  "countryName": "Hungary",
+  "platform": "Steam"
 }

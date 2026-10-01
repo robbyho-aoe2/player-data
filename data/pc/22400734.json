@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 959,
         "peakRating": 964
       },
@@ -315,12 +315,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 95,
-        "pulledDate": "2026-09-27",
-        "latestRating": 882,
+        "totalGames": 98,
+        "pulledDate": "2026-10-01",
+        "latestRating": 869,
         "peakRating": 902
       },
       "matches": [
+        {
+          "matchId": 509780363,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:03:31.000Z",
+          "dur": 1751,
+          "opponents": [
+            {
+              "profileId": 3993934,
+              "name": "carlos.avd"
+            },
+            {
+              "profileId": 8050657,
+              "name": "Rareware"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25928778,
+              "name": "lucky.archer"
+            }
+          ]
+        },
+        {
+          "matchId": 509775398,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:37:08.000Z",
+          "dur": 1400,
+          "opponents": [
+            {
+              "profileId": 11550202,
+              "name": "V-Kan"
+            },
+            {
+              "profileId": 19781484,
+              "name": "RHMM16"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25928778,
+              "name": "lucky.archer"
+            }
+          ]
+        },
+        {
+          "matchId": 509770391,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:09:23.000Z",
+          "dur": 1484,
+          "opponents": [
+            {
+              "profileId": 10477622,
+              "name": "mavt"
+            },
+            {
+              "profileId": 9287876,
+              "name": "PENETRON"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25928778,
+              "name": "lucky.archer"
+            }
+          ]
+        },
         {
           "matchId": 509535764,
           "civ": "Koreans",
@@ -3291,5 +3369,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1226,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1191,
+        "totalGames": 1230,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1223,
         "peakRating": 1329
       },
       "matches": [
+        {
+          "matchId": 510545308,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T15:10:11.000Z",
+          "dur": 1087,
+          "opponents": [
+            {
+              "profileId": 1801937,
+              "name": "HSING"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510336357,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:18:10.000Z",
+          "dur": 1749,
+          "opponents": [
+            {
+              "profileId": 320572,
+              "name": "dolguldor"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510281587,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:23:33.000Z",
+          "dur": 2079,
+          "opponents": [
+            {
+              "profileId": 26073486,
+              "name": "Sealion42"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510051627,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:36:01.000Z",
+          "dur": 1817,
+          "opponents": [
+            {
+              "profileId": 5216950,
+              "name": "Perrito_Sucio"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508832865,
           "civ": "Huns",
@@ -19717,7 +19785,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 60,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1153,
         "peakRating": 1310
       },
@@ -22027,5 +22095,6 @@
   },
   "country": "gr",
   "countryIcon": "\ud83c\uddec\ud83c\uddf7",
-  "countryName": "Greece"
+  "countryName": "Greece",
+  "platform": "Steam"
 }

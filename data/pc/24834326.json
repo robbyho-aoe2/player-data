@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 38,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-01",
         "latestRating": 1173,
         "peakRating": 1191
       },
@@ -644,12 +644,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 124,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1171,
+        "totalGames": 129,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1180,
         "peakRating": 1265
       },
       "matches": [
+        {
+          "matchId": 510322001,
+          "civ": "Franks",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:02:01.000Z",
+          "dur": 1803,
+          "opponents": [
+            {
+              "profileId": 5237974,
+              "name": "TJpointL"
+            },
+            {
+              "profileId": 9310050,
+              "name": "\u4e00\u4e2d\u5927\u4fe8\u54e5"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24827081,
+              "name": "faker yone"
+            }
+          ]
+        },
+        {
+          "matchId": 510321314,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:58:22.000Z",
+          "dur": 21,
+          "opponents": [
+            {
+              "profileId": 20704322,
+              "name": "ANGELSK3956"
+            },
+            {
+              "profileId": 23957710,
+              "name": "Sythe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24827081,
+              "name": "faker yone"
+            }
+          ]
+        },
+        {
+          "matchId": 509615313,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:06:07.000Z",
+          "dur": 1604,
+          "opponents": [
+            {
+              "profileId": 18419056,
+              "name": "Mahowla"
+            },
+            {
+              "profileId": 1205770,
+              "name": "rower56"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24827081,
+              "name": "faker yone"
+            }
+          ]
+        },
+        {
+          "matchId": 509614627,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T13:02:29.000Z",
+          "dur": 83,
+          "opponents": [
+            {
+              "profileId": 1205770,
+              "name": "rower56"
+            },
+            {
+              "profileId": 18419056,
+              "name": "Mahowla"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24827081,
+              "name": "faker yone"
+            }
+          ]
+        },
+        {
+          "matchId": 509610574,
+          "civ": "Magyars",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T12:42:40.000Z",
+          "dur": 893,
+          "opponents": [
+            {
+              "profileId": 24226727,
+              "name": "adnanca"
+            },
+            {
+              "profileId": 3099262,
+              "name": "saratchandra9494"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24827081,
+              "name": "faker yone"
+            }
+          ]
+        },
         {
           "matchId": 507972884,
           "civ": "Persians",
@@ -3842,5 +3972,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

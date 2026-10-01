@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 76,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1037,
         "peakRating": 1037
       },
@@ -1247,12 +1247,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 75,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1217,
+        "totalGames": 76,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1207,
         "peakRating": 1250
       },
       "matches": [
+        {
+          "matchId": 510143951,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:19:31.000Z",
+          "dur": 1667,
+          "opponents": [
+            {
+              "profileId": 2549764,
+              "name": "Camo"
+            },
+            {
+              "profileId": 1839023,
+              "name": "NuMa | JuanMan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24519837,
+              "name": "Maty"
+            }
+          ]
+        },
         {
           "matchId": 502559730,
           "civ": "Spanish",
@@ -3712,5 +3738,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

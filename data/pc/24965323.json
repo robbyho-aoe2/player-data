@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": [
         {
@@ -107,12 +107,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 216,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1063,
+        "totalGames": 220,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1035,
         "peakRating": 1351
       },
       "matches": [
+        {
+          "matchId": 510423509,
+          "civ": "Wei",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:55:38.000Z",
+          "dur": 13,
+          "opponents": [
+            {
+              "profileId": 5400519,
+              "name": "66 | MARCEL"
+            },
+            {
+              "profileId": 21006354,
+              "name": "S e n r i z"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26167668,
+              "name": "DSLG | LA CACA"
+            }
+          ]
+        },
+        {
+          "matchId": 510423176,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:53:32.000Z",
+          "dur": 21,
+          "opponents": [
+            {
+              "profileId": 2273408,
+              "name": "Attack What"
+            },
+            {
+              "profileId": 22048206,
+              "name": "csawatzky20"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26167668,
+              "name": "DSLG | LA CACA"
+            }
+          ]
+        },
+        {
+          "matchId": 510422839,
+          "civ": "Goths",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:51:33.000Z",
+          "dur": 18,
+          "opponents": [
+            {
+              "profileId": 2389844,
+              "name": "niquito0912"
+            },
+            {
+              "profileId": 4948805,
+              "name": "Sayri89"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26167668,
+              "name": "DSLG | LA CACA"
+            }
+          ]
+        },
+        {
+          "matchId": 510419789,
+          "civ": "Hindustanis",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:31:15.000Z",
+          "dur": 997,
+          "opponents": [
+            {
+              "profileId": 8548859,
+              "name": "SwedenBirdieSkaggs236"
+            },
+            {
+              "profileId": 2404799,
+              "name": "santiagoa311"
+            },
+            {
+              "profileId": 5769344,
+              "name": "MACS-X"
+            },
+            {
+              "profileId": 6388179,
+              "name": "Marianob04"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2774255,
+              "name": "DSLG | Maxteel97"
+            },
+            {
+              "profileId": 26167668,
+              "name": "DSLG | LA CACA"
+            },
+            {
+              "profileId": 25988091,
+              "name": "DSLG | GORDA CACHONDA"
+            }
+          ]
+        },
         {
           "matchId": 508972430,
           "civ": "Koreans",
@@ -8243,5 +8363,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

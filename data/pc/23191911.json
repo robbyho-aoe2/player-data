@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 313,
-        "pulledDate": "2026-09-27",
-        "latestRating": 595,
+        "totalGames": 318,
+        "pulledDate": "2026-10-01",
+        "latestRating": 611,
         "peakRating": 737
       },
       "matches": [
+        {
+          "matchId": 510516681,
+          "civ": "Japanese",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T12:21:22.000Z",
+          "dur": 1010,
+          "opponents": [
+            {
+              "profileId": 1739818,
+              "name": "Jim Nist"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510371723,
+          "civ": "Japanese",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:10:44.000Z",
+          "dur": 1452,
+          "opponents": [
+            {
+              "profileId": 24845824,
+              "name": "Gods ;*"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510093887,
+          "civ": "Japanese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:48:31.000Z",
+          "dur": 1494,
+          "opponents": [
+            {
+              "profileId": 25309377,
+              "name": "i9g7"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510093734,
+          "civ": "Japanese",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:47:49.000Z",
+          "dur": 11,
+          "opponents": [
+            {
+              "profileId": 26114598,
+              "name": "Konstanz1414"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509914342,
+          "civ": "Japanese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:15:47.000Z",
+          "dur": 1853,
+          "opponents": [
+            {
+              "profileId": 23699928,
+              "name": "ghostriderrcz"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509136983,
           "civ": "Japanese",
@@ -5050,12 +5135,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 77,
-        "pulledDate": "2026-09-27",
-        "latestRating": 679,
+        "totalGames": 78,
+        "pulledDate": "2026-10-01",
+        "latestRating": 692,
         "peakRating": 751
       },
       "matches": [
+        {
+          "matchId": 509913880,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:14:16.000Z",
+          "dur": 58,
+          "opponents": [
+            {
+              "profileId": 5415194,
+              "name": "Chilies"
+            },
+            {
+              "profileId": 20913073,
+              "name": "ALEXANDER THE GREAT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9742303,
+              "name": "\u4e1c\u54e5"
+            }
+          ]
+        },
         {
           "matchId": 509468113,
           "civ": "Japanese",
@@ -7007,5 +7118,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

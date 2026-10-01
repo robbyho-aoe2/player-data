@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 202,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1525,
         "peakRating": 1578
       },
@@ -3463,12 +3463,150 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 73,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1295,
+        "totalGames": 78,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1283,
         "peakRating": 1334
       },
       "matches": [
+        {
+          "matchId": 510426989,
+          "civ": "Khmer",
+          "map": "Yucatan",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:19:52.000Z",
+          "dur": 3043,
+          "opponents": [
+            {
+              "profileId": 415522,
+              "name": "Rothius"
+            },
+            {
+              "profileId": 415546,
+              "name": "AoE2 SMURF POLICE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4308660,
+              "name": "LGN. Gerfel"
+            }
+          ]
+        },
+        {
+          "matchId": 510338963,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:32:51.000Z",
+          "dur": 1219,
+          "opponents": [
+            {
+              "profileId": 6265167,
+              "name": "\u6253\u9580\u4e94\u90ce"
+            },
+            {
+              "profileId": 25582945,
+              "name": "\u5305\u76ae\u7279\u9577\u7684\u72d7\u817f"
+            },
+            {
+              "profileId": 6161721,
+              "name": "\u6253\u76ae\u6253\u76ae"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5839749,
+              "name": "Kamrul007"
+            },
+            {
+              "profileId": 254431,
+              "name": "Beerial"
+            }
+          ]
+        },
+        {
+          "matchId": 510328968,
+          "civ": "Maya",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:39:30.000Z",
+          "dur": 2604,
+          "opponents": [
+            {
+              "profileId": 381382,
+              "name": "Giorgi II"
+            },
+            {
+              "profileId": 20375586,
+              "name": "mama_adisona"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2420946,
+              "name": "Thiers1789"
+            }
+          ]
+        },
+        {
+          "matchId": 510323077,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:07:50.000Z",
+          "dur": 1383,
+          "opponents": [
+            {
+              "profileId": 747624,
+              "name": "[MB] Matta_Dor"
+            },
+            {
+              "profileId": 923308,
+              "name": "[MB] TheThizz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2286317,
+              "name": "pipiboy"
+            }
+          ]
+        },
+        {
+          "matchId": 510313706,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:16:30.000Z",
+          "dur": 1445,
+          "opponents": [
+            {
+              "profileId": 2008646,
+              "name": "wouter372"
+            },
+            {
+              "profileId": 3510622,
+              "name": "UnkyUnknown"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20622937,
+              "name": "Tattico87"
+            }
+          ]
+        },
         {
           "matchId": 509280820,
           "civ": "Mongols",
@@ -5908,5 +6046,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

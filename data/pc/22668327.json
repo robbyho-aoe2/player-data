@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-23"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 17,
-        "pulledDate": "2026-09-23",
+        "pulledDate": "2026-10-01",
         "latestRating": 1079,
         "peakRating": 1100
       },
@@ -303,12 +303,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 516,
-        "pulledDate": "2026-09-23",
-        "latestRating": 1203,
+        "totalGames": 519,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1219,
         "peakRating": 1278
       },
       "matches": [
+        {
+          "matchId": 509985119,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:11:56.000Z",
+          "dur": 681,
+          "opponents": [
+            {
+              "profileId": 24181343,
+              "name": "JUSTKITTEN"
+            },
+            {
+              "profileId": 1896338,
+              "name": "Corgi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4554461,
+              "name": "Veranillo"
+            }
+          ]
+        },
+        {
+          "matchId": 509980648,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:43:51.000Z",
+          "dur": 1549,
+          "opponents": [
+            {
+              "profileId": 2144812,
+              "name": "polacoyanus"
+            },
+            {
+              "profileId": 12258290,
+              "name": "Elren"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4554461,
+              "name": "Veranillo"
+            }
+          ]
+        },
+        {
+          "matchId": 509975905,
+          "civ": "Turks",
+          "map": "Fortress",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:15:07.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 23574452,
+              "name": "Brisa Marcos"
+            },
+            {
+              "profileId": 5682074,
+              "name": "Hanyo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4554461,
+              "name": "Veranillo"
+            }
+          ]
+        },
         {
           "matchId": 508317580,
           "civ": "Spanish",
@@ -13254,5 +13332,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

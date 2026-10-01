@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": [
         {
@@ -92,12 +92,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 78,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1255,
+        "totalGames": 80,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1232,
         "peakRating": 1297
       },
       "matches": [
+        {
+          "matchId": 510449971,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:41:51.000Z",
+          "dur": 943,
+          "opponents": [
+            {
+              "profileId": 10537279,
+              "name": "mustangant667"
+            },
+            {
+              "profileId": 18646920,
+              "name": "JINJIN"
+            },
+            {
+              "profileId": 251531,
+              "name": "batbeetch"
+            },
+            {
+              "profileId": 1775759,
+              "name": "Speed_of_Anarchy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 555812,
+              "name": "EWC Beethoven"
+            },
+            {
+              "profileId": 4245214,
+              "name": "VZ | El Perrosor"
+            },
+            {
+              "profileId": 20143622,
+              "name": "EWC KUKK"
+            }
+          ]
+        },
+        {
+          "matchId": 510445008,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:12:22.000Z",
+          "dur": 1616,
+          "opponents": [
+            {
+              "profileId": 2489131,
+              "name": "PIPO GOROSITO"
+            },
+            {
+              "profileId": 2134396,
+              "name": "gg_noteam"
+            },
+            {
+              "profileId": 2266955,
+              "name": "Speaker"
+            },
+            {
+              "profileId": 5569301,
+              "name": "Leandro Pared10s"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2742703,
+              "name": "mattramone"
+            },
+            {
+              "profileId": 20143622,
+              "name": "EWC KUKK"
+            },
+            {
+              "profileId": 555812,
+              "name": "EWC Beethoven"
+            }
+          ]
+        },
         {
           "matchId": 509237909,
           "civ": "Portuguese",
@@ -3153,5 +3237,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1300,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1241,
+        "totalGames": 1303,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1286,
         "peakRating": 1384
       },
       "matches": [
+        {
+          "matchId": 510016461,
+          "civ": "Danes",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:25:35.000Z",
+          "dur": 1437,
+          "opponents": [
+            {
+              "profileId": 15019418,
+              "name": "PNAL | ale_petro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510012544,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:01:47.000Z",
+          "dur": 1150,
+          "opponents": [
+            {
+              "profileId": 3535352,
+              "name": "Ken Oath"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510008671,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:38:58.000Z",
+          "dur": 991,
+          "opponents": [
+            {
+              "profileId": 6196744,
+              "name": "Bamboozlator"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508787655,
           "civ": "Saxons",
@@ -22130,7 +22181,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 63,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-01",
         "latestRating": 1027,
         "peakRating": 1066
       },
@@ -23994,5 +24045,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

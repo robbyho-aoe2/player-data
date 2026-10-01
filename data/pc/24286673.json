@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 229,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1642,
+        "totalGames": 231,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1614,
         "peakRating": 1655
       },
       "matches": [
+        {
+          "matchId": 509859307,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:06:42.000Z",
+          "dur": 492,
+          "opponents": [
+            {
+              "profileId": 6449299,
+              "name": "ClearDistortion"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509857330,
+          "civ": "Khitans",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:50:39.000Z",
+          "dur": 892,
+          "opponents": [
+            {
+              "profileId": 21472751,
+              "name": "Ra"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499906921,
           "civ": "Incas",
@@ -3922,12 +3956,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 112,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1254,
+        "totalGames": 114,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1253,
         "peakRating": 1334
       },
       "matches": [
+        {
+          "matchId": 509872917,
+          "civ": "Japanese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:35:42.000Z",
+          "dur": 1505,
+          "opponents": [
+            {
+              "profileId": 1158541,
+              "name": "MagnificentBaby"
+            },
+            {
+              "profileId": 1855903,
+              "name": "Enlightened"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25347474,
+              "name": "Leo"
+            }
+          ]
+        },
+        {
+          "matchId": 509867964,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:05:57.000Z",
+          "dur": 1640,
+          "opponents": [
+            {
+              "profileId": 378356,
+              "name": "Creamy 'Baldursson' Jones"
+            },
+            {
+              "profileId": 19007179,
+              "name": "ayushdy2004"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25347474,
+              "name": "Leo"
+            }
+          ]
+        },
         {
           "matchId": 478260710,
           "civ": "Sicilians",
@@ -7301,5 +7387,6 @@
   },
   "country": "mn",
   "countryIcon": "\ud83c\uddf2\ud83c\uddf3",
-  "countryName": "Mongolia"
+  "countryName": "Mongolia",
+  "platform": "Steam"
 }

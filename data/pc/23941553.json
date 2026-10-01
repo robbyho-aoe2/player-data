@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 343,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1194,
+        "totalGames": 345,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1196,
         "peakRating": 1284
       },
       "matches": [
+        {
+          "matchId": 509777149,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:45:18.000Z",
+          "dur": 1767,
+          "opponents": [
+            {
+              "profileId": 5167899,
+              "name": "echO48"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509738933,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T21:22:58.000Z",
+          "dur": 1507,
+          "opponents": [
+            {
+              "profileId": 741852,
+              "name": "georgethek"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509545921,
           "civ": "Khmer",
@@ -5290,12 +5324,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 214,
-        "pulledDate": "2026-09-27",
+        "totalGames": 216,
+        "pulledDate": "2026-10-01",
         "latestRating": 1153,
         "peakRating": 1241
       },
       "matches": [
+        {
+          "matchId": 510227696,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:07:37.000Z",
+          "dur": 2227,
+          "opponents": [
+            {
+              "profileId": 4557661,
+              "name": "PH4L4NX"
+            },
+            {
+              "profileId": 22942060,
+              "name": "Evasive Species"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 221269,
+              "name": "Don Denucco"
+            }
+          ]
+        },
+        {
+          "matchId": 510225362,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:53:35.000Z",
+          "dur": 662,
+          "opponents": [
+            {
+              "profileId": 10432311,
+              "name": "Ansscar"
+            },
+            {
+              "profileId": 14787508,
+              "name": "rodrigolaramol96"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 221269,
+              "name": "Don Denucco"
+            }
+          ]
+        },
         {
           "matchId": 508914464,
           "civ": "Slavs",
@@ -9444,5 +9530,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

@@ -6,32 +6,116 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 178,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1695,
-        "peakRating": 1695
+        "totalGames": 180,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1708,
+        "peakRating": 1708
       },
       "matches": [
+        {
+          "matchId": 510272078,
+          "civ": "Saxons",
+          "map": "Nomad",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:41:54.000Z",
+          "dur": 1007,
+          "opponents": [
+            {
+              "profileId": 25343627,
+              "name": "Lyrachord"
+            },
+            {
+              "profileId": 22669749,
+              "name": "Backspace"
+            },
+            {
+              "profileId": 20854553,
+              "name": "Arietta Fine"
+            },
+            {
+              "profileId": 18677988,
+              "name": "I'm AOE2 Noob"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25223239,
+              "name": "Noob ai"
+            },
+            {
+              "profileId": 4300372,
+              "name": "\u96e8\u6d69"
+            },
+            {
+              "profileId": 14676610,
+              "name": "The Sage"
+            }
+          ]
+        },
+        {
+          "matchId": 510269921,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:17:34.000Z",
+          "dur": 1278,
+          "opponents": [
+            {
+              "profileId": 25343627,
+              "name": "Lyrachord"
+            },
+            {
+              "profileId": 22669749,
+              "name": "Backspace"
+            },
+            {
+              "profileId": 20854553,
+              "name": "Arietta Fine"
+            },
+            {
+              "profileId": 18677988,
+              "name": "I'm AOE2 Noob"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2198803,
+              "name": "jijiojojo"
+            },
+            {
+              "profileId": 25223239,
+              "name": "Noob ai"
+            },
+            {
+              "profileId": 14527552,
+              "name": "Thundernips, The Ultimate Gigolo"
+            }
+          ]
+        },
         {
           "matchId": 498920312,
           "civ": "Britons",
@@ -7293,5 +7377,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

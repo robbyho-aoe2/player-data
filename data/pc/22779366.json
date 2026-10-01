@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 316,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1096,
+        "totalGames": 317,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1081,
         "peakRating": 1146
       },
       "matches": [
+        {
+          "matchId": 510297429,
+          "civ": "Malay",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:37:45.000Z",
+          "dur": 1429,
+          "opponents": [
+            {
+              "profileId": 4258359,
+              "name": "highflyingaction"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509447400,
           "civ": "Poles",
@@ -5116,12 +5133,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 268,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1149,
+        "totalGames": 270,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1179,
         "peakRating": 1251
       },
       "matches": [
+        {
+          "matchId": 510127813,
+          "civ": "Slavs",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:57:30.000Z",
+          "dur": 840,
+          "opponents": [
+            {
+              "profileId": 5746319,
+              "name": "uascL"
+            },
+            {
+              "profileId": 24665508,
+              "name": "BurningFire924"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23726735,
+              "name": "nurlan-c"
+            }
+          ]
+        },
+        {
+          "matchId": 510125961,
+          "civ": "Sicilians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:47:49.000Z",
+          "dur": 196,
+          "opponents": [
+            {
+              "profileId": 1470973,
+              "name": "TinFit"
+            },
+            {
+              "profileId": 19521267,
+              "name": "El Botascha 2.0"
+            },
+            {
+              "profileId": 1806458,
+              "name": "pickmyself or end"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 737645,
+              "name": "namrskal"
+            },
+            {
+              "profileId": 1896011,
+              "name": "Labelgique001"
+            }
+          ]
+        },
         {
           "matchId": 509458170,
           "civ": "Byzantines",
@@ -11842,5 +11919,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

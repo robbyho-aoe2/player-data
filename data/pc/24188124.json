@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 327,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1218,
+        "totalGames": 332,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1234,
         "peakRating": 1251
       },
       "matches": [
+        {
+          "matchId": 510282215,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:30:26.000Z",
+          "dur": 2048,
+          "opponents": [
+            {
+              "profileId": 1208304,
+              "name": "Kamekona"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510059346,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:01:34.000Z",
+          "dur": 1720,
+          "opponents": [
+            {
+              "profileId": 2383688,
+              "name": "Lechugamer"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509898858,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:55:09.000Z",
+          "dur": 3465,
+          "opponents": [
+            {
+              "profileId": 5095634,
+              "name": "Thranquilo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509649750,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T15:31:04.000Z",
+          "dur": 714,
+          "opponents": [
+            {
+              "profileId": 11478421,
+              "name": "Sopa"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509579855,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T09:31:20.000Z",
+          "dur": 1846,
+          "opponents": [
+            {
+              "profileId": 3062219,
+              "name": "ToninMarvado"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509378200,
           "civ": "Franks",
@@ -5302,12 +5387,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     }
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

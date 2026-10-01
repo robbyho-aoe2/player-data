@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 65,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1119,
+        "totalGames": 70,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1106,
         "peakRating": 1137
       },
       "matches": [
+        {
+          "matchId": 510405967,
+          "civ": "Japanese",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:01:49.000Z",
+          "dur": 1512,
+          "opponents": [
+            {
+              "profileId": 23639198,
+              "name": "Shields10"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509698935,
+          "civ": "Poles",
+          "map": "Arabian Desert",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:46:32.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 24910238,
+              "name": "Joaco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509697413,
+          "civ": "Vietnamese",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:41:11.000Z",
+          "dur": 214,
+          "opponents": [
+            {
+              "profileId": 2666189,
+              "name": "Robbie"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509688893,
+          "civ": "Malay",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T18:09:36.000Z",
+          "dur": 1696,
+          "opponents": [
+            {
+              "profileId": 9162102,
+              "name": "Aleon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509663454,
+          "civ": "Goths",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-27",
+          "startedAt": "2026-09-27T16:26:48.000Z",
+          "dur": 1008,
+          "opponents": [
+            {
+              "profileId": 355512,
+              "name": "jojomayer"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508789639,
           "civ": "Aztecs",
@@ -1135,7 +1220,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-01",
         "latestRating": 1002,
         "peakRating": 1251
       },
@@ -1729,5 +1814,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }
