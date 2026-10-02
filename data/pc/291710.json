@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 69,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1013,
+        "totalGames": 72,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1011,
         "peakRating": 1060
       },
       "matches": [
+        {
+          "matchId": 510699377,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T06:39:16.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 2720457,
+              "name": "fafagege"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510469542,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T05:03:53.000Z",
+          "dur": 1719,
+          "opponents": [
+            {
+              "profileId": 24737142,
+              "name": "Japanese2009"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509834421,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T08:12:46.000Z",
+          "dur": 1124,
+          "opponents": [
+            {
+              "profileId": 26174485,
+              "name": "LAD"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509536860,
           "civ": "Danes",
@@ -1203,7 +1254,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -1621,5 +1672,6 @@
   },
   "country": "nz",
   "countryIcon": "\ud83c\uddf3\ud83c\uddff",
-  "countryName": "New Zealand"
+  "countryName": "New Zealand",
+  "platform": "Steam"
 }

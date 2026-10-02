@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 40,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1413,
-        "peakRating": 1413
+        "totalGames": 45,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1427,
+        "peakRating": 1427
       },
       "matches": [
+        {
+          "matchId": 509872892,
+          "civ": "Japanese",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:35:30.000Z",
+          "dur": 1889,
+          "opponents": [
+            {
+              "profileId": 1114186,
+              "name": "dave2g"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509865989,
+          "civ": "Berbers",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:53:08.000Z",
+          "dur": 1837,
+          "opponents": [
+            {
+              "profileId": 26003163,
+              "name": "HighEloREdiots"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509841923,
+          "civ": "Japanese",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:29:17.000Z",
+          "dur": 1252,
+          "opponents": [
+            {
+              "profileId": 23561703,
+              "name": "Berkay707"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509841688,
+          "civ": "Japanese",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:28:03.000Z",
+          "dur": 16,
+          "opponents": [
+            {
+              "profileId": 238279,
+              "name": "Lezus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509840054,
+          "civ": "Japanese",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:09:54.000Z",
+          "dur": 1001,
+          "opponents": [
+            {
+              "profileId": 12036396,
+              "name": "snailwidely"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508972495,
           "civ": "Varangians",
@@ -709,12 +794,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 296,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1234,
+        "totalGames": 299,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1247,
         "peakRating": 1382
       },
       "matches": [
+        {
+          "matchId": 510629720,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:18:23.000Z",
+          "dur": 907,
+          "opponents": [
+            {
+              "profileId": 11351501,
+              "name": "NPG  EL POLLA RECORDS"
+            },
+            {
+              "profileId": 8047836,
+              "name": "Avila1997"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4221461,
+              "name": "FlinkerB\u00e4r"
+            }
+          ]
+        },
+        {
+          "matchId": 510623383,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:40:13.000Z",
+          "dur": 1449,
+          "opponents": [
+            {
+              "profileId": 16868399,
+              "name": "ChanDanielz"
+            },
+            {
+              "profileId": 244275,
+              "name": "lagro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4221461,
+              "name": "FlinkerB\u00e4r"
+            }
+          ]
+        },
+        {
+          "matchId": 510399553,
+          "civ": "Berbers",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:24:50.000Z",
+          "dur": 2536,
+          "opponents": [
+            {
+              "profileId": 24516268,
+              "name": "elitedurasteel"
+            },
+            {
+              "profileId": 19039027,
+              "name": "Pr8feSS8r"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4221461,
+              "name": "FlinkerB\u00e4r"
+            }
+          ]
+        },
         {
           "matchId": 508890356,
           "civ": "Varangians",
@@ -8631,5 +8794,6 @@
   },
   "country": "at",
   "countryIcon": "\ud83c\udde6\ud83c\uddf9",
-  "countryName": "Austria"
+  "countryName": "Austria",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 11,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1190,
         "peakRating": 1190
       },
@@ -205,12 +205,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1169,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1115,
+        "totalGames": 1172,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1106,
         "peakRating": 1332
       },
       "matches": [
+        {
+          "matchId": 510679641,
+          "civ": "Chinese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T03:43:23.000Z",
+          "dur": 2123,
+          "opponents": [
+            {
+              "profileId": 5759306,
+              "name": "Yoshi [ Paladin ]"
+            },
+            {
+              "profileId": 4112632,
+              "name": "Richi_Escarlata"
+            },
+            {
+              "profileId": 4027129,
+              "name": "Bullfrog_III"
+            },
+            {
+              "profileId": 3743290,
+              "name": "Sir Toad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5345779,
+              "name": "janoski"
+            },
+            {
+              "profileId": 1457463,
+              "name": "Jum"
+            },
+            {
+              "profileId": 23980913,
+              "name": "jp.manhaes94"
+            }
+          ]
+        },
+        {
+          "matchId": 510677244,
+          "civ": "Maya",
+          "map": "Yucatan",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T03:25:34.000Z",
+          "dur": 912,
+          "opponents": [
+            {
+              "profileId": 11473838,
+              "name": "jm\u611bmardy"
+            },
+            {
+              "profileId": 248337,
+              "name": "ReBeL_persi"
+            },
+            {
+              "profileId": 8902048,
+              "name": "connrro"
+            },
+            {
+              "profileId": 23980913,
+              "name": "jp.manhaes94"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4580990,
+              "name": "DF.FISH"
+            },
+            {
+              "profileId": 5345779,
+              "name": "janoski"
+            },
+            {
+              "profileId": 7834514,
+              "name": "Ziton127"
+            }
+          ]
+        },
+        {
+          "matchId": 510671954,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:50:41.000Z",
+          "dur": 1806,
+          "opponents": [
+            {
+              "profileId": 1871397,
+              "name": "[SKY] strider"
+            },
+            {
+              "profileId": 19390153,
+              "name": "\u661f\u8fb0AGE"
+            },
+            {
+              "profileId": 17108003,
+              "name": "Lord_Farquaad"
+            },
+            {
+              "profileId": 1913741,
+              "name": "\u4f60\u5931\u667a\u591a\u5e74\u7684\u8001\u676f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10501923,
+              "name": "Capiango2.0"
+            },
+            {
+              "profileId": 5345779,
+              "name": "janoski"
+            },
+            {
+              "profileId": 4066862,
+              "name": "Jefe ToroFumado"
+            }
+          ]
+        },
         {
           "matchId": 509484994,
           "civ": "Malians",
@@ -47589,5 +47715,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

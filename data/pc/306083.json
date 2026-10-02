@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 805,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1118,
+        "totalGames": 808,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1071,
         "peakRating": 1136
       },
       "matches": [
+        {
+          "matchId": 510423018,
+          "civ": "Sicilians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:51:44.000Z",
+          "dur": 982,
+          "opponents": [
+            {
+              "profileId": 24446219,
+              "name": "ZacEfron"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510232697,
+          "civ": "Franks",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:37:05.000Z",
+          "dur": 1868,
+          "opponents": [
+            {
+              "profileId": 5169326,
+              "name": "Ataturkle"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509985297,
+          "civ": "Khitans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:12:07.000Z",
+          "dur": 3204,
+          "opponents": [
+            {
+              "profileId": 1785266,
+              "name": "Spiepie2"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509682505,
           "civ": "Huns",
@@ -13714,12 +13765,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 251,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1046,
+        "totalGames": 253,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1049,
         "peakRating": 1219
       },
       "matches": [
+        {
+          "matchId": 509995687,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:21:02.000Z",
+          "dur": 1839,
+          "opponents": [
+            {
+              "profileId": 14650799,
+              "name": "Dudo51948609"
+            },
+            {
+              "profileId": 998291,
+              "name": "Schamaycon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24409484,
+              "name": "BaseBuilder"
+            }
+          ]
+        },
+        {
+          "matchId": 509976169,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:16:29.000Z",
+          "dur": 1694,
+          "opponents": [
+            {
+              "profileId": 13837886,
+              "name": "RaulelPiadoso"
+            },
+            {
+              "profileId": 20333369,
+              "name": "SAGAS9447"
+            },
+            {
+              "profileId": 6242839,
+              "name": "Centu62"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2266019,
+              "name": "joshjng2009"
+            },
+            {
+              "profileId": 17837312,
+              "name": "Kempachi"
+            }
+          ]
+        },
         {
           "matchId": 509798279,
           "civ": "Huns",
@@ -22005,5 +22116,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

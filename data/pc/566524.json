@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1158,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1270,
+        "totalGames": 1161,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1224,
         "peakRating": 1422
       },
       "matches": [
+        {
+          "matchId": 510223478,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:41:16.000Z",
+          "dur": 1593,
+          "opponents": [
+            {
+              "profileId": 18311271,
+              "name": "chicken"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510217907,
+          "civ": "Poles",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:07:21.000Z",
+          "dur": 1876,
+          "opponents": [
+            {
+              "profileId": 9788953,
+              "name": "King Dario II"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510214473,
+          "civ": "Persians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:45:28.000Z",
+          "dur": 1231,
+          "opponents": [
+            {
+              "profileId": 3137692,
+              "name": "pepelui_gg"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509788741,
           "civ": "Mongols",
@@ -18607,12 +18658,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 622,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1207,
+        "totalGames": 623,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1189,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 510431547,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:49:12.000Z",
+          "dur": 1590,
+          "opponents": [
+            {
+              "profileId": 88261,
+              "name": "MyGO.Soyo"
+            },
+            {
+              "profileId": 19717479,
+              "name": "tate"
+            },
+            {
+              "profileId": 6762856,
+              "name": "3A"
+            },
+            {
+              "profileId": 3697680,
+              "name": "lethe711"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22588469,
+              "name": "Level 2 Slime"
+            },
+            {
+              "profileId": 6362386,
+              "name": "[BK] Ayala_27"
+            },
+            {
+              "profileId": 3330872,
+              "name": "JMB"
+            }
+          ]
+        },
         {
           "matchId": 509788957,
           "civ": "Mongols",
@@ -38955,5 +39048,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

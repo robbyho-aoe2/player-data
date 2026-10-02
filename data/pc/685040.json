@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 47,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1156,
+        "totalGames": 48,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1141,
         "peakRating": 1156
       },
       "matches": [
+        {
+          "matchId": 510491932,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T08:39:41.000Z",
+          "dur": 1188,
+          "opponents": [
+            {
+              "profileId": 51303,
+              "name": "Angrynoodle"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509580853,
           "civ": "Varangians",
@@ -828,12 +845,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 302,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1094,
+        "totalGames": 305,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1075,
         "peakRating": 1198
       },
       "matches": [
+        {
+          "matchId": 510288887,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:33:17.000Z",
+          "dur": 3155,
+          "opponents": [
+            {
+              "profileId": 22412817,
+              "name": "demir perde"
+            },
+            {
+              "profileId": 7940203,
+              "name": "takoyaki"
+            },
+            {
+              "profileId": 22593151,
+              "name": "TwoLight"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 501638,
+              "name": "chromies"
+            },
+            {
+              "profileId": 1037321,
+              "name": "SwaggyShaggy"
+            }
+          ]
+        },
+        {
+          "matchId": 510281555,
+          "civ": "Varangians",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:24:05.000Z",
+          "dur": 2833,
+          "opponents": [
+            {
+              "profileId": 5432977,
+              "name": "Edhebi"
+            },
+            {
+              "profileId": 7863505,
+              "name": "FrazeDawg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 501638,
+              "name": "chromies"
+            }
+          ]
+        },
+        {
+          "matchId": 510277218,
+          "civ": "Varangians",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T09:38:37.000Z",
+          "dur": 2451,
+          "opponents": [
+            {
+              "profileId": 17899411,
+              "name": "remoba66_"
+            },
+            {
+              "profileId": 15549805,
+              "name": "rooklyne42"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 501638,
+              "name": "chromies"
+            }
+          ]
+        },
         {
           "matchId": 509605642,
           "civ": "Varangians",
@@ -11400,5 +11503,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

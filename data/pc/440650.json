@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 281,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1192,
         "peakRating": 1221
       },
@@ -4526,12 +4526,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 420,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1093,
+        "totalGames": 421,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1107,
         "peakRating": 1141
       },
       "matches": [
+        {
+          "matchId": 509946808,
+          "civ": "Wu",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:46:46.000Z",
+          "dur": 1442,
+          "opponents": [
+            {
+              "profileId": 26086249,
+              "name": "Neor2526"
+            },
+            {
+              "profileId": 17510273,
+              "name": "Pardito1016"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23727192,
+              "name": "Addicted8763"
+            }
+          ]
+        },
         {
           "matchId": 509647816,
           "civ": "Gurjaras",
@@ -15707,5 +15733,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

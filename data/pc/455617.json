@@ -6,32 +6,136 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 441,
-        "pulledDate": "2026-09-28",
+        "totalGames": 445,
+        "pulledDate": "2026-10-02",
         "latestRating": 1219,
         "peakRating": 1296
       },
       "matches": [
+        {
+          "matchId": 510147288,
+          "civ": "Burmese",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:34:52.000Z",
+          "dur": 2238,
+          "opponents": [
+            {
+              "profileId": 19480905,
+              "name": "ALEJO7918"
+            },
+            {
+              "profileId": 10804289,
+              "name": "Anomalyflair"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ]
+        },
+        {
+          "matchId": 510146521,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:31:27.000Z",
+          "dur": 36,
+          "opponents": [
+            {
+              "profileId": 234150,
+              "name": "Juerg Pinki"
+            },
+            {
+              "profileId": 737645,
+              "name": "namrskal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ]
+        },
+        {
+          "matchId": 509935432,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:55:55.000Z",
+          "dur": 1557,
+          "opponents": [
+            {
+              "profileId": 25717819,
+              "name": "TRMA | Zelfou"
+            },
+            {
+              "profileId": 1942628,
+              "name": "Jonas"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ]
+        },
+        {
+          "matchId": 509934464,
+          "civ": "Byzantines",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:51:31.000Z",
+          "dur": 152,
+          "opponents": [
+            {
+              "profileId": 1970249,
+              "name": "John White"
+            },
+            {
+              "profileId": 579047,
+              "name": "BlackRefresher"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 465827,
+              "name": "BorkJutsu"
+            }
+          ]
+        },
         {
           "matchId": 509706053,
           "civ": "Berbers",
@@ -11116,5 +11220,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

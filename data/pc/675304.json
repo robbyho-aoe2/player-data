@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 779,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1126,
+        "totalGames": 783,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1093,
         "peakRating": 1156
       },
       "matches": [
+        {
+          "matchId": 510172851,
+          "civ": "Armenians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:32:03.000Z",
+          "dur": 1780,
+          "opponents": [
+            {
+              "profileId": 253587,
+              "name": "Willy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510167420,
+          "civ": "Armenians",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:05:36.000Z",
+          "dur": 1287,
+          "opponents": [
+            {
+              "profileId": 764165,
+              "name": "AWC"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509968810,
+          "civ": "Armenians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:32:28.000Z",
+          "dur": 1096,
+          "opponents": [
+            {
+              "profileId": 10243001,
+              "name": "Chorch"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509967615,
+          "civ": "Armenians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:26:51.000Z",
+          "dur": 235,
+          "opponents": [
+            {
+              "profileId": 25746163,
+              "name": "lnstitution"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506938378,
           "civ": "Armenians",
@@ -12497,7 +12565,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1004,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1188,
         "peakRating": 1360
       },
@@ -44293,5 +44361,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

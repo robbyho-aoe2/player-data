@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 581,
-        "pulledDate": "2026-09-16",
+        "pulledDate": "2026-10-02",
         "latestRating": 1916,
         "peakRating": 1970
       },
@@ -9336,12 +9336,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2918,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1813,
+        "totalGames": 2921,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1821,
         "peakRating": 1865
       },
       "matches": [
+        {
+          "matchId": 510445643,
+          "civ": "Italians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:16:05.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 25574315,
+              "name": "Fs.BlinkAoE"
+            },
+            {
+              "profileId": 25919221,
+              "name": "Fs.Diablo"
+            },
+            {
+              "profileId": 2861438,
+              "name": "Fs.FASTURTLE"
+            },
+            {
+              "profileId": 3423351,
+              "name": "Fs.Neras"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2075681,
+              "name": "DGHIR | Qeetsa"
+            },
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            },
+            {
+              "profileId": 22430074,
+              "name": "albafica_"
+            }
+          ]
+        },
+        {
+          "matchId": 510439779,
+          "civ": "Varangians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T01:41:14.000Z",
+          "dur": 1552,
+          "opponents": [
+            {
+              "profileId": 6444362,
+              "name": "HKPDSUCKS"
+            },
+            {
+              "profileId": 25919221,
+              "name": "Fs.Diablo"
+            },
+            {
+              "profileId": 5334545,
+              "name": "ADC"
+            },
+            {
+              "profileId": 12282312,
+              "name": "bcda"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 122221,
+              "name": "VL Le_Manch"
+            },
+            {
+              "profileId": 2826785,
+              "name": "Nahuel05"
+            },
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            }
+          ]
+        },
+        {
+          "matchId": 510438661,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T01:34:47.000Z",
+          "dur": 132,
+          "opponents": [
+            {
+              "profileId": 25919221,
+              "name": "Fs.Diablo"
+            },
+            {
+              "profileId": 18384493,
+              "name": "Kiyomizu-dera"
+            },
+            {
+              "profileId": 6090060,
+              "name": "noru"
+            },
+            {
+              "profileId": 5334545,
+              "name": "ADC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2986966,
+              "name": "VL JPGP"
+            },
+            {
+              "profileId": 2826785,
+              "name": "Nahuel05"
+            },
+            {
+              "profileId": 122221,
+              "name": "VL Le_Manch"
+            }
+          ]
+        },
         {
           "matchId": 506978842,
           "civ": "Tatars",
@@ -121169,5 +121295,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

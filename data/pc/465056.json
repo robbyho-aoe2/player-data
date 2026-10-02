@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 478,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1203,
         "peakRating": 1245
       },
@@ -7677,12 +7677,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1339,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1166,
+        "totalGames": 1344,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1184,
         "peakRating": 1232
       },
       "matches": [
+        {
+          "matchId": 510390066,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:35:24.000Z",
+          "dur": 1824,
+          "opponents": [
+            {
+              "profileId": 10778412,
+              "name": "Horst der Graue"
+            },
+            {
+              "profileId": 494758,
+              "name": "Fritz der Gewissenlose"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2093509,
+              "name": "Dibrei"
+            }
+          ]
+        },
+        {
+          "matchId": 510387805,
+          "civ": "Incas",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:24:23.000Z",
+          "dur": 561,
+          "opponents": [
+            {
+              "profileId": 11478491,
+              "name": "jaiderreyes4"
+            },
+            {
+              "profileId": 24978784,
+              "name": "CanarioAOE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19225527,
+              "name": "rafed123"
+            }
+          ]
+        },
+        {
+          "matchId": 510378325,
+          "civ": "Bengalis",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:40:36.000Z",
+          "dur": 2445,
+          "opponents": [
+            {
+              "profileId": 10771092,
+              "name": "TisButAScratch"
+            },
+            {
+              "profileId": 17643530,
+              "name": "Santissima Trinidad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8657905,
+              "name": "chaquin_7"
+            }
+          ]
+        },
+        {
+          "matchId": 510111188,
+          "civ": "Burgundians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:25:38.000Z",
+          "dur": 1658,
+          "opponents": [
+            {
+              "profileId": 8193145,
+              "name": "\u811a\u8e22\u5317\u6d77\u82cd\u9f99"
+            },
+            {
+              "profileId": 4793142,
+              "name": "B\u7ad9-\u5c0f\u4f0d\u957f-\u73a9\u6218\u96f7\u7684\u5f31\u667a\u6709\u70b9\u591a..."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4747839,
+              "name": "DANSLESBOULES"
+            }
+          ]
+        },
+        {
+          "matchId": 509965539,
+          "civ": "Mongols",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:16:11.000Z",
+          "dur": 1137,
+          "opponents": [
+            {
+              "profileId": 2407737,
+              "name": "LA_12_FPS"
+            },
+            {
+              "profileId": 15169955,
+              "name": "UnCLeMaRcH"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22675421,
+              "name": "seher9203"
+            }
+          ]
+        },
         {
           "matchId": 509729788,
           "civ": "Huns",
@@ -46507,5 +46637,6 @@
   },
   "country": "il",
   "countryIcon": "\ud83c\uddee\ud83c\uddf1",
-  "countryName": "Israel"
+  "countryName": "Israel",
+  "platform": "Xbox"
 }

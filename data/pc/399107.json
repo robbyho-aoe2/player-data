@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 56,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1031,
+        "totalGames": 59,
+        "pulledDate": "2026-10-02",
+        "latestRating": 999,
         "peakRating": 1123
       },
       "matches": [
+        {
+          "matchId": 510299614,
+          "civ": "Huns",
+          "map": "Scandinavia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:52:11.000Z",
+          "dur": 164,
+          "opponents": [
+            {
+              "profileId": 8201878,
+              "name": "piperich"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510295104,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:21:02.000Z",
+          "dur": 1102,
+          "opponents": [
+            {
+              "profileId": 5872454,
+              "name": "Timmaey"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510293204,
+          "civ": "Huns",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:07:03.000Z",
+          "dur": 810,
+          "opponents": [
+            {
+              "profileId": 4786901,
+              "name": "Slazinater"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508358042,
           "civ": "Huns",
@@ -982,7 +1033,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -1126,5 +1177,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Steam"
 }

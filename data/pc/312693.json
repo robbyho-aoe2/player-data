@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 403,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1756,
+        "totalGames": 405,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1755,
         "peakRating": 1836
       },
       "matches": [
+        {
+          "matchId": 510299081,
+          "civ": "Ethiopians",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T12:49:00.000Z",
+          "dur": 710,
+          "opponents": [
+            {
+              "profileId": 1115953,
+              "name": "Saloon_F_F"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510086124,
+          "civ": "Maya",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:02:23.000Z",
+          "dur": 1340,
+          "opponents": [
+            {
+              "profileId": 536263,
+              "name": "bosaap12"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509788393,
           "civ": "Varangians",
@@ -6527,7 +6561,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1564,
         "peakRating": 1564
       },
@@ -7808,5 +7842,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

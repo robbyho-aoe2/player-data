@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 639,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1313,
         "peakRating": 1539
       },
@@ -10265,12 +10265,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 726,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1267,
+        "totalGames": 730,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1276,
         "peakRating": 1312
       },
       "matches": [
+        {
+          "matchId": 510393741,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:53:17.000Z",
+          "dur": 1042,
+          "opponents": [
+            {
+              "profileId": 4743909,
+              "name": "{LBA} Carlitos"
+            },
+            {
+              "profileId": 3141538,
+              "name": "[T41] Indian War Lord"
+            },
+            {
+              "profileId": 2763206,
+              "name": "{LBA} DFM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6046048,
+              "name": "ryzenvelos"
+            },
+            {
+              "profileId": 4063407,
+              "name": "ruizcanela"
+            }
+          ]
+        },
+        {
+          "matchId": 510388913,
+          "civ": "Burmese",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:29:49.000Z",
+          "dur": 1288,
+          "opponents": [
+            {
+              "profileId": 26109410,
+              "name": "Z3phyr"
+            },
+            {
+              "profileId": 6210787,
+              "name": "VedtheAssasin"
+            },
+            {
+              "profileId": 3141538,
+              "name": "[T41] Indian War Lord"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6046048,
+              "name": "ryzenvelos"
+            },
+            {
+              "profileId": 4063407,
+              "name": "ruizcanela"
+            }
+          ]
+        },
+        {
+          "matchId": 510382187,
+          "civ": "Dravidians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:57:59.000Z",
+          "dur": 1693,
+          "opponents": [
+            {
+              "profileId": 24067452,
+              "name": "boomer2000"
+            },
+            {
+              "profileId": 18835281,
+              "name": "SULIMAN"
+            },
+            {
+              "profileId": 1806458,
+              "name": "pickmyself or end"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6046048,
+              "name": "ryzenvelos"
+            },
+            {
+              "profileId": 4063407,
+              "name": "ruizcanela"
+            }
+          ]
+        },
+        {
+          "matchId": 510377801,
+          "civ": "Japanese",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:38:16.000Z",
+          "dur": 1028,
+          "opponents": [
+            {
+              "profileId": 23112305,
+              "name": "Ghost"
+            },
+            {
+              "profileId": 24929764,
+              "name": "Heiner"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6046048,
+              "name": "ryzenvelos"
+            }
+          ]
+        },
         {
           "matchId": 509451225,
           "civ": "Wei",
@@ -31982,5 +32110,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

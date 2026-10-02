@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 844,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1627,
         "peakRating": 1641
       },
@@ -13533,12 +13533,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1801,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1484,
+        "totalGames": 1806,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1493,
         "peakRating": 1583
       },
       "matches": [
+        {
+          "matchId": 510175562,
+          "civ": "Malians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:44:43.000Z",
+          "dur": 1873,
+          "opponents": [
+            {
+              "profileId": 4325248,
+              "name": "Sunrise1988"
+            },
+            {
+              "profileId": 2774323,
+              "name": "xcmpierrexcm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 261612,
+              "name": "Milkshakespeare"
+            }
+          ]
+        },
+        {
+          "matchId": 509995977,
+          "civ": "Bulgarians",
+          "map": "Pilgrims",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:22:41.000Z",
+          "dur": 617,
+          "opponents": [
+            {
+              "profileId": 5722233,
+              "name": "\u9ed1\u708e\u51dd\u8499\u7339"
+            },
+            {
+              "profileId": 1605663,
+              "name": "\u8001\u611b\u570b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 261612,
+              "name": "Milkshakespeare"
+            }
+          ]
+        },
+        {
+          "matchId": 509991974,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:56:12.000Z",
+          "dur": 1302,
+          "opponents": [
+            {
+              "profileId": 25382081,
+              "name": "Korondo"
+            },
+            {
+              "profileId": 21196971,
+              "name": "Maech_"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 261612,
+              "name": "Milkshakespeare"
+            }
+          ]
+        },
+        {
+          "matchId": 509989843,
+          "civ": "Ethiopians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:42:35.000Z",
+          "dur": 687,
+          "opponents": [
+            {
+              "profileId": 25559826,
+              "name": "EL TIGRE ABELARDO"
+            },
+            {
+              "profileId": 2619806,
+              "name": "Mandrek"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 261612,
+              "name": "Milkshakespeare"
+            }
+          ]
+        },
+        {
+          "matchId": 509960350,
+          "civ": "Muisca",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:49:47.000Z",
+          "dur": 684,
+          "opponents": [
+            {
+              "profileId": 19510831,
+              "name": "BungaloBones"
+            },
+            {
+              "profileId": 246902,
+              "name": "destining2675"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 261612,
+              "name": "Milkshakespeare"
+            }
+          ]
+        },
         {
           "matchId": 508961424,
           "civ": "Burgundians",
@@ -59572,5 +59702,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

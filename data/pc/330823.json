@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 210,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1743,
         "peakRating": 1803
       },
@@ -3392,12 +3392,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1131,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1560,
+        "totalGames": 1134,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1541,
         "peakRating": 1624
       },
       "matches": [
+        {
+          "matchId": 510568737,
+          "civ": "Bohemians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:15:15.000Z",
+          "dur": 1241,
+          "opponents": [
+            {
+              "profileId": 1156287,
+              "name": "Thomas Sankara"
+            },
+            {
+              "profileId": 2871715,
+              "name": "Joselu9710"
+            },
+            {
+              "profileId": 25165531,
+              "name": "Muelle En Charquito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 11333316,
+              "name": "ELCOCHINOTE"
+            },
+            {
+              "profileId": 771885,
+              "name": "Poncho"
+            }
+          ]
+        },
+        {
+          "matchId": 510561281,
+          "civ": "Romans",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T16:36:21.000Z",
+          "dur": 1975,
+          "opponents": [
+            {
+              "profileId": 25760674,
+              "name": "Morgana"
+            },
+            {
+              "profileId": 6264773,
+              "name": "\u8377\u5170\u7701\u6700\u7ec8\u5175\u5668"
+            },
+            {
+              "profileId": 24868995,
+              "name": "\u660a\u5e05\u6c14"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 248672,
+              "name": "AJC"
+            },
+            {
+              "profileId": 9665014,
+              "name": "Kirtap"
+            }
+          ]
+        },
+        {
+          "matchId": 510546482,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T15:17:06.000Z",
+          "dur": 2229,
+          "opponents": [
+            {
+              "profileId": 1783754,
+              "name": "\u597d\u8b66\u5bdf"
+            },
+            {
+              "profileId": 1906236,
+              "name": "kkman86"
+            },
+            {
+              "profileId": 3085218,
+              "name": "\u9ad8\u5fb7\u7d0d"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2135163,
+              "name": "parachutedreamer"
+            },
+            {
+              "profileId": 3964428,
+              "name": "JAGR | BkB"
+            }
+          ]
+        },
         {
           "matchId": 509660061,
           "civ": "Bohemians",
@@ -48825,5 +48927,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

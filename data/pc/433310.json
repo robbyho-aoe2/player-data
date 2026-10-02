@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 97,
-        "pulledDate": "2026-09-28",
-        "latestRating": 793,
+        "totalGames": 103,
+        "pulledDate": "2026-10-02",
+        "latestRating": 789,
         "peakRating": 884
       },
       "matches": [
+        {
+          "matchId": 510573001,
+          "civ": "Khmer",
+          "map": "Northern Isles",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:37:04.000Z",
+          "dur": 1222,
+          "opponents": [
+            {
+              "profileId": 17648192,
+              "name": "\u7070\u8272\u8aa0"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510567548,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:08:23.000Z",
+          "dur": 1578,
+          "opponents": [
+            {
+              "profileId": 3716849,
+              "name": "agoecmen"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510559814,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T16:28:03.000Z",
+          "dur": 686,
+          "opponents": [
+            {
+              "profileId": 23271844,
+              "name": "XIV"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510110404,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:20:16.000Z",
+          "dur": 1511,
+          "opponents": [
+            {
+              "profileId": 25768038,
+              "name": "Pia-Pia"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509946750,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:45:23.000Z",
+          "dur": 1716,
+          "opponents": [
+            {
+              "profileId": 16180636,
+              "name": "pcampuzano1987"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509941320,
+          "civ": "Khmer",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:21:09.000Z",
+          "dur": 1410,
+          "opponents": [
+            {
+              "profileId": 4667864,
+              "name": "manuel.sourlier"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509137089,
           "civ": "Khmer",
@@ -1678,12 +1780,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 5,
-        "pulledDate": "2026-09-28",
-        "latestRating": 871,
+        "totalGames": 6,
+        "pulledDate": "2026-10-02",
+        "latestRating": 896,
         "peakRating": 943
       },
       "matches": [
+        {
+          "matchId": 510630212,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:21:28.000Z",
+          "dur": 1982,
+          "opponents": [
+            {
+              "profileId": 19629609,
+              "name": "Max33_F1RT"
+            },
+            {
+              "profileId": 6932755,
+              "name": "Lion10K"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26097443,
+              "name": "PunaDjei"
+            }
+          ]
+        },
         {
           "matchId": 509130430,
           "civ": "Khmer",
@@ -1819,5 +1947,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

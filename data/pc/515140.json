@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 372,
-        "pulledDate": "2026-09-26",
-        "latestRating": 730,
+        "totalGames": 374,
+        "pulledDate": "2026-10-02",
+        "latestRating": 729,
         "peakRating": 843
       },
       "matches": [
+        {
+          "matchId": 509931845,
+          "civ": "Cumans",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:39:06.000Z",
+          "dur": 1930,
+          "opponents": [
+            {
+              "profileId": 24316620,
+              "name": "Hampan_88"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509916907,
+          "civ": "Slavs",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:29:32.000Z",
+          "dur": 46,
+          "opponents": [
+            {
+              "profileId": 22384899,
+              "name": "Acte\u00f3n50"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509353128,
           "civ": "Cumans",
@@ -6354,7 +6388,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 516,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-02",
         "latestRating": 732,
         "peakRating": 924
       },
@@ -20980,5 +21014,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

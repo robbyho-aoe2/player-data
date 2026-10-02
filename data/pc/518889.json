@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 348,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1145,
         "peakRating": 1145
       },
@@ -5597,12 +5597,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2346,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1304,
+        "totalGames": 2348,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1292,
         "peakRating": 1466
       },
       "matches": [
+        {
+          "matchId": 510013309,
+          "civ": "Portuguese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:07:05.000Z",
+          "dur": 1644,
+          "opponents": [
+            {
+              "profileId": 3635994,
+              "name": "Fritz X2453"
+            },
+            {
+              "profileId": 530444,
+              "name": "TheSonder"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13475904,
+              "name": "Ellocou"
+            }
+          ]
+        },
+        {
+          "matchId": 510008125,
+          "civ": "Varangians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:36:47.000Z",
+          "dur": 1639,
+          "opponents": [
+            {
+              "profileId": 1743420,
+              "name": "NuMa | OliverAtom"
+            },
+            {
+              "profileId": 530444,
+              "name": "TheSonder"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13475904,
+              "name": "Ellocou"
+            }
+          ]
+        },
         {
           "matchId": 509222033,
           "civ": "Varangians",
@@ -77821,5 +77873,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

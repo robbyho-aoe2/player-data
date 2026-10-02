@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 102,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1150,
         "peakRating": 1227
       },
@@ -1661,12 +1661,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 451,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1143,
+        "totalGames": 453,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1142,
         "peakRating": 1290
       },
       "matches": [
+        {
+          "matchId": 510683579,
+          "civ": "Lithuanians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T04:13:57.000Z",
+          "dur": 1742,
+          "opponents": [
+            {
+              "profileId": 25492418,
+              "name": "fingerless7597"
+            },
+            {
+              "profileId": 5796413,
+              "name": "Ux'RaulitoMD"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 310706,
+              "name": "Antra"
+            }
+          ]
+        },
+        {
+          "matchId": 510679272,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T03:40:40.000Z",
+          "dur": 1587,
+          "opponents": [
+            {
+              "profileId": 14299809,
+              "name": "Tlacua_Mtz"
+            },
+            {
+              "profileId": 1076921,
+              "name": "duvaniglesias70"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 310706,
+              "name": "Antra"
+            }
+          ]
+        },
         {
           "matchId": 509535280,
           "civ": "Lithuanians",
@@ -13016,5 +13068,6 @@
   },
   "country": "uy",
   "countryIcon": "\ud83c\uddfa\ud83c\uddfe",
-  "countryName": "Uruguay"
+  "countryName": "Uruguay",
+  "platform": "Steam"
 }

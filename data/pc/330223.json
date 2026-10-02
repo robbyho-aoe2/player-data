@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 112,
-        "pulledDate": "2026-09-24",
-        "latestRating": 904,
+        "totalGames": 113,
+        "pulledDate": "2026-10-02",
+        "latestRating": 888,
         "peakRating": 936
       },
       "matches": [
+        {
+          "matchId": 510278066,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T09:46:55.000Z",
+          "dur": 1259,
+          "opponents": [
+            {
+              "profileId": 3703584,
+              "name": "Tompp1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502120108,
           "civ": "Sicilians",
@@ -1934,7 +1951,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 327,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1068,
         "peakRating": 1068
       },
@@ -12350,5 +12367,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

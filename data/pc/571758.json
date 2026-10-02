@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 116,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 963,
         "peakRating": 1088
       },
@@ -1885,12 +1885,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1231,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1162,
+        "totalGames": 1235,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1171,
         "peakRating": 1248
       },
       "matches": [
+        {
+          "matchId": 509958339,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:39:46.000Z",
+          "dur": 1625,
+          "opponents": [
+            {
+              "profileId": 320881,
+              "name": "cabaron"
+            },
+            {
+              "profileId": 4700693,
+              "name": "Shawarma Rider"
+            },
+            {
+              "profileId": 4259636,
+              "name": "Showergod"
+            },
+            {
+              "profileId": 3292461,
+              "name": "The Sorrow of Moldavia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4777815,
+              "name": "Lord Muflon"
+            },
+            {
+              "profileId": 3012609,
+              "name": "D4s 3nd3"
+            },
+            {
+              "profileId": 2867831,
+              "name": "Bombie der Zombie"
+            }
+          ]
+        },
+        {
+          "matchId": 509955275,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:25:40.000Z",
+          "dur": 660,
+          "opponents": [
+            {
+              "profileId": 9965261,
+              "name": "-Jark-"
+            },
+            {
+              "profileId": 2609476,
+              "name": "Roflcopter"
+            },
+            {
+              "profileId": 2454999,
+              "name": "kurinkito"
+            },
+            {
+              "profileId": 1032024,
+              "name": "Burt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3012609,
+              "name": "D4s 3nd3"
+            },
+            {
+              "profileId": 4777815,
+              "name": "Lord Muflon"
+            },
+            {
+              "profileId": 2867831,
+              "name": "Bombie der Zombie"
+            }
+          ]
+        },
+        {
+          "matchId": 509950240,
+          "civ": "Italians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:02:07.000Z",
+          "dur": 1285,
+          "opponents": [
+            {
+              "profileId": 4420243,
+              "name": "camelthemammel"
+            },
+            {
+              "profileId": 10804289,
+              "name": "Anomalyflair"
+            },
+            {
+              "profileId": 2751897,
+              "name": "PetsSs"
+            },
+            {
+              "profileId": 3349042,
+              "name": "Texbi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4777815,
+              "name": "Lord Muflon"
+            },
+            {
+              "profileId": 2867831,
+              "name": "Bombie der Zombie"
+            },
+            {
+              "profileId": 3012609,
+              "name": "D4s 3nd3"
+            }
+          ]
+        },
+        {
+          "matchId": 509944023,
+          "civ": "Italians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:34:23.000Z",
+          "dur": 1538,
+          "opponents": [
+            {
+              "profileId": 4781936,
+              "name": "unclesam613"
+            },
+            {
+              "profileId": 4152078,
+              "name": "huliqi91"
+            },
+            {
+              "profileId": 11822899,
+              "name": "Jumbo2_22"
+            },
+            {
+              "profileId": 22625558,
+              "name": "NotGG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3012609,
+              "name": "D4s 3nd3"
+            },
+            {
+              "profileId": 2867831,
+              "name": "Bombie der Zombie"
+            },
+            {
+              "profileId": 4777815,
+              "name": "Lord Muflon"
+            }
+          ]
+        },
         {
           "matchId": 509186365,
           "civ": "Varangians",
@@ -44765,5 +44933,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

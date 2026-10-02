@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 69,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1224,
         "peakRating": 1241
       },
@@ -1133,12 +1133,132 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 272,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1208,
+        "totalGames": 276,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1197,
         "peakRating": 1262
       },
       "matches": [
+        {
+          "matchId": 510391863,
+          "civ": "Ethiopians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:43:31.000Z",
+          "dur": 2025,
+          "opponents": [
+            {
+              "profileId": 221220,
+              "name": "tachilo"
+            },
+            {
+              "profileId": 488511,
+              "name": "Oilman"
+            },
+            {
+              "profileId": 274273,
+              "name": "vissel28"
+            },
+            {
+              "profileId": 269790,
+              "name": "Babo G"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14784524,
+              "name": "Superhoops"
+            },
+            {
+              "profileId": 4746585,
+              "name": "Fernandez Sama"
+            },
+            {
+              "profileId": 2291436,
+              "name": "AncientLyre"
+            }
+          ]
+        },
+        {
+          "matchId": 510328050,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:33:52.000Z",
+          "dur": 1391,
+          "opponents": [
+            {
+              "profileId": 18648149,
+              "name": "UpsideDownCumbrian"
+            },
+            {
+              "profileId": 18589324,
+              "name": "Rob88Silva"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4746585,
+              "name": "Fernandez Sama"
+            }
+          ]
+        },
+        {
+          "matchId": 510321738,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:00:23.000Z",
+          "dur": 1912,
+          "opponents": [
+            {
+              "profileId": 3259632,
+              "name": "po_v1ft!"
+            },
+            {
+              "profileId": 11581506,
+              "name": "CL0UD"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4746585,
+              "name": "Fernandez Sama"
+            }
+          ]
+        },
+        {
+          "matchId": 510315267,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:25:24.000Z",
+          "dur": 1853,
+          "opponents": [
+            {
+              "profileId": 25926231,
+              "name": "qwert12356"
+            },
+            {
+              "profileId": 21954266,
+              "name": "474269844"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4746585,
+              "name": "Fernandez Sama"
+            }
+          ]
+        },
         {
           "matchId": 508444547,
           "civ": "Ethiopians",
@@ -9112,5 +9232,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

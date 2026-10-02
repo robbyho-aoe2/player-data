@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3350,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1321,
+        "totalGames": 3353,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1337,
         "peakRating": 1353
       },
       "matches": [
+        {
+          "matchId": 510005346,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:19:58.000Z",
+          "dur": 1072,
+          "opponents": [
+            {
+              "profileId": 4947904,
+              "name": "Odiseo23"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509987183,
+          "civ": "Armenians",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:24:31.000Z",
+          "dur": 2829,
+          "opponents": [
+            {
+              "profileId": 1680059,
+              "name": "Andrewq \u00af\\_(\u30c4)_/\u00af"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509979844,
+          "civ": "Varangians",
+          "map": "Migration",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:39:04.000Z",
+          "dur": 2646,
+          "opponents": [
+            {
+              "profileId": 309448,
+              "name": "PEHF"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509763542,
           "civ": "Saracens",
@@ -53661,12 +53712,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1378,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1128,
+        "totalGames": 1381,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1115,
         "peakRating": 1293
       },
       "matches": [
+        {
+          "matchId": 510015066,
+          "civ": "Georgians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:17:56.000Z",
+          "dur": 1581,
+          "opponents": [
+            {
+              "profileId": 2649111,
+              "name": "Woz"
+            },
+            {
+              "profileId": 15525407,
+              "name": "Pasuchi"
+            },
+            {
+              "profileId": 3176139,
+              "name": "ginei"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2389844,
+              "name": "niquito0912"
+            },
+            {
+              "profileId": 839790,
+              "name": "AURELIANO"
+            }
+          ]
+        },
+        {
+          "matchId": 510009428,
+          "civ": "Wei",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:43:59.000Z",
+          "dur": 1813,
+          "opponents": [
+            {
+              "profileId": 2342921,
+              "name": "Greg The Egg"
+            },
+            {
+              "profileId": 317275,
+              "name": "Lanyard"
+            },
+            {
+              "profileId": 2343524,
+              "name": "R2C2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6522454,
+              "name": "ElVampi"
+            },
+            {
+              "profileId": 18193123,
+              "name": "Phant*"
+            }
+          ]
+        },
+        {
+          "matchId": 509998099,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:35:37.000Z",
+          "dur": 1498,
+          "opponents": [
+            {
+              "profileId": 6185584,
+              "name": "ricardoarturo89"
+            },
+            {
+              "profileId": 21024712,
+              "name": "Ux'g\u00f6del"
+            },
+            {
+              "profileId": 21109950,
+              "name": "Nono"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5111145,
+              "name": "SIayerSnake"
+            },
+            {
+              "profileId": 1096819,
+              "name": "Carleo_Intestin"
+            }
+          ]
+        },
         {
           "matchId": 509777995,
           "civ": "Britons",
@@ -100886,5 +101039,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

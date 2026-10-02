@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 303,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1713,
+        "totalGames": 304,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1697,
         "peakRating": 1736
       },
       "matches": [
+        {
+          "matchId": 510347572,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:17:12.000Z",
+          "dur": 1278,
+          "opponents": [
+            {
+              "profileId": 2769008,
+              "name": "ivanap"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507135602,
           "civ": "Khmer",
@@ -4552,12 +4569,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1067,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1337,
+        "totalGames": 1070,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1377,
         "peakRating": 1577
       },
       "matches": [
+        {
+          "matchId": 510567412,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:08:30.000Z",
+          "dur": 1630,
+          "opponents": [
+            {
+              "profileId": 270501,
+              "name": "Morri\u00f3n"
+            },
+            {
+              "profileId": 264464,
+              "name": "juanca12"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 814329,
+              "name": "Sodythaek"
+            }
+          ]
+        },
+        {
+          "matchId": 510564405,
+          "civ": "Danes",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T16:52:53.000Z",
+          "dur": 758,
+          "opponents": [
+            {
+              "profileId": 1933404,
+              "name": "Koenig d. Hunde"
+            },
+            {
+              "profileId": 1066452,
+              "name": "Ukko"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 814329,
+              "name": "Sodythaek"
+            }
+          ]
+        },
+        {
+          "matchId": 510559621,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T16:27:30.000Z",
+          "dur": 1193,
+          "opponents": [
+            {
+              "profileId": 3619212,
+              "name": "Jackow"
+            },
+            {
+              "profileId": 3591617,
+              "name": "Hardrada_1066"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 814329,
+              "name": "Sodythaek"
+            }
+          ]
+        },
         {
           "matchId": 509740854,
           "civ": "Danes",
@@ -30008,5 +30103,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

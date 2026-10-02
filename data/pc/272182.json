@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 620,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1618,
+        "totalGames": 622,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1581,
         "peakRating": 1869
       },
       "matches": [
+        {
+          "matchId": 510371591,
+          "civ": "Varangians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:10:56.000Z",
+          "dur": 1083,
+          "opponents": [
+            {
+              "profileId": 21865387,
+              "name": "Roy Mustang"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510368880,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:58:40.000Z",
+          "dur": 574,
+          "opponents": [
+            {
+              "profileId": 26124519,
+              "name": "\u9002\u624d\u76f8\u620f\u8033"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508500191,
           "civ": "Varangians",
@@ -9342,7 +9376,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 842,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1455,
         "peakRating": 1586
       },
@@ -30913,5 +30947,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

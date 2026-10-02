@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-17"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 287,
-        "pulledDate": "2026-09-17",
-        "latestRating": 987,
+        "totalGames": 293,
+        "pulledDate": "2026-10-02",
+        "latestRating": 983,
         "peakRating": 1035
       },
       "matches": [
+        {
+          "matchId": 510606084,
+          "civ": "Koreans",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:11:57.000Z",
+          "dur": 1387,
+          "opponents": [
+            {
+              "profileId": 5362447,
+              "name": "CrOnOs AoC"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510600168,
+          "civ": "Muisca",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:44:59.000Z",
+          "dur": 1498,
+          "opponents": [
+            {
+              "profileId": 5027512,
+              "name": "Bombita"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510499738,
+          "civ": "Muisca",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:54:25.000Z",
+          "dur": 1619,
+          "opponents": [
+            {
+              "profileId": 2636373,
+              "name": "Blackmamba"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510487513,
+          "civ": "Burgundians",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T07:57:47.000Z",
+          "dur": 1279,
+          "opponents": [
+            {
+              "profileId": 343252,
+              "name": "Codex Cumanicus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510163438,
+          "civ": "Wu",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:46:53.000Z",
+          "dur": 974,
+          "opponents": [
+            {
+              "profileId": 236603,
+              "name": "Nephilim"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510059569,
+          "civ": "Danes",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:04:00.000Z",
+          "dur": 1778,
+          "opponents": [
+            {
+              "profileId": 1658810,
+              "name": "Henrik"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506685664,
           "civ": "Chinese",
@@ -4908,10 +5010,44 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 9,
-        "pulledDate": "2026-09-17"
+        "totalGames": 10,
+        "pulledDate": "2026-10-02"
       },
       "matches": [
+        {
+          "matchId": 510055781,
+          "civ": "Danes",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:22:15.000Z",
+          "dur": 2402,
+          "opponents": [
+            {
+              "profileId": 15808545,
+              "name": "\u65fa\u65fa"
+            },
+            {
+              "profileId": 16599832,
+              "name": "Ming"
+            },
+            {
+              "profileId": 17474868,
+              "name": "\u5f6c\u5f6c\u6709\u793c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21946249,
+              "name": "DemureHarp13849"
+            },
+            {
+              "profileId": 3176802,
+              "name": "\u5716\u8868\u5927\u5e2b"
+            }
+          ]
+        },
         {
           "matchId": 504571748,
           "civ": "Poles",
@@ -5239,5 +5375,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

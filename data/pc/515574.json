@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 139,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1076,
+        "totalGames": 141,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1111,
         "peakRating": 1113
       },
       "matches": [
+        {
+          "matchId": 510693364,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T05:40:17.000Z",
+          "dur": 491,
+          "opponents": [
+            {
+              "profileId": 1757523,
+              "name": "Infadel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510383080,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:01:52.000Z",
+          "dur": 3343,
+          "opponents": [
+            {
+              "profileId": 1785266,
+              "name": "Spiepie2"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507149217,
           "civ": "Magyars",
@@ -2392,12 +2426,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 549,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1003,
+        "totalGames": 552,
+        "pulledDate": "2026-10-02",
+        "latestRating": 984,
         "peakRating": 1125
       },
       "matches": [
+        {
+          "matchId": 510689841,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T05:08:17.000Z",
+          "dur": 1956,
+          "opponents": [
+            {
+              "profileId": 21317934,
+              "name": "\u554a\u9178"
+            },
+            {
+              "profileId": 20333369,
+              "name": "SAGAS9447"
+            },
+            {
+              "profileId": 18892891,
+              "name": "\u9ec4\u7ef4\u662f\u4e2a\u5916\u884c"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3540577,
+              "name": "PointJJ"
+            },
+            {
+              "profileId": 2146940,
+              "name": "Colonel Cow"
+            }
+          ]
+        },
+        {
+          "matchId": 510685503,
+          "civ": "Goths",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T04:29:25.000Z",
+          "dur": 2072,
+          "opponents": [
+            {
+              "profileId": 11463812,
+              "name": "erick_carrington"
+            },
+            {
+              "profileId": 14969559,
+              "name": "MAGNUZ"
+            },
+            {
+              "profileId": 791717,
+              "name": "So SloW"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2146940,
+              "name": "Colonel Cow"
+            },
+            {
+              "profileId": 3540577,
+              "name": "PointJJ"
+            }
+          ]
+        },
+        {
+          "matchId": 510680311,
+          "civ": "Magyars",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T03:48:24.000Z",
+          "dur": 1914,
+          "opponents": [
+            {
+              "profileId": 24824119,
+              "name": "Pheonix"
+            },
+            {
+              "profileId": 24833113,
+              "name": "The Argonaut"
+            },
+            {
+              "profileId": 476053,
+              "name": "13thspear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3540577,
+              "name": "PointJJ"
+            },
+            {
+              "profileId": 2146940,
+              "name": "Colonel Cow"
+            }
+          ]
+        },
         {
           "matchId": 506924282,
           "civ": "Goths",
@@ -19444,5 +19580,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

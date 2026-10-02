@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 496,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1403,
         "peakRating": 1466
       },
@@ -7965,12 +7965,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3656,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1244,
+        "totalGames": 3660,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1205,
         "peakRating": 1489
       },
       "matches": [
+        {
+          "matchId": 510610209,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:31:08.000Z",
+          "dur": 1285,
+          "opponents": [
+            {
+              "profileId": 12075517,
+              "name": "LordOfEskimos"
+            },
+            {
+              "profileId": 9782838,
+              "name": "trananlah"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25959626,
+              "name": "\u8721\u7b14\u5c0f\u65b0"
+            }
+          ]
+        },
+        {
+          "matchId": 510403003,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:45:18.000Z",
+          "dur": 1705,
+          "opponents": [
+            {
+              "profileId": 314885,
+              "name": "kingmarrano"
+            },
+            {
+              "profileId": 19526392,
+              "name": "Berenjena"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18953913,
+              "name": "master"
+            }
+          ]
+        },
+        {
+          "matchId": 510401899,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:38:27.000Z",
+          "dur": 92,
+          "opponents": [
+            {
+              "profileId": 245341,
+              "name": "Cabeceo_e"
+            },
+            {
+              "profileId": 26170583,
+              "name": "skepticart"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1990202,
+              "name": "GOOLFYZERA"
+            }
+          ]
+        },
+        {
+          "matchId": 510395788,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:04:27.000Z",
+          "dur": 1491,
+          "opponents": [
+            {
+              "profileId": 2452317,
+              "name": "jasper.vanzeebroeck"
+            },
+            {
+              "profileId": 12070530,
+              "name": "Flemish_Noble"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17154061,
+              "name": ".I."
+            }
+          ]
+        },
         {
           "matchId": 508951799,
           "civ": "Burgundians",
@@ -110066,5 +110170,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

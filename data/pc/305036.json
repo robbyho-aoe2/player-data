@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 194,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1313,
         "peakRating": 1386
       },
@@ -2979,12 +2979,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 785,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1179,
+        "totalGames": 789,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1154,
         "peakRating": 1338
       },
       "matches": [
+        {
+          "matchId": 510669557,
+          "civ": "Spanish",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:35:50.000Z",
+          "dur": 1899,
+          "opponents": [
+            {
+              "profileId": 21869971,
+              "name": "monkeyflip26"
+            },
+            {
+              "profileId": 5485105,
+              "name": "\u00baCoT | Josebo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2038550,
+              "name": "[Coff] GenosLuke"
+            }
+          ]
+        },
+        {
+          "matchId": 510662656,
+          "civ": "Malay",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T01:53:00.000Z",
+          "dur": 2264,
+          "opponents": [
+            {
+              "profileId": 630500,
+              "name": "Jazzmas"
+            },
+            {
+              "profileId": 653866,
+              "name": "Man_Of__Fish"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2038550,
+              "name": "[Coff] GenosLuke"
+            }
+          ]
+        },
+        {
+          "matchId": 510639557,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T23:21:39.000Z",
+          "dur": 2484,
+          "opponents": [
+            {
+              "profileId": 289047,
+              "name": "Jova"
+            },
+            {
+              "profileId": 2213584,
+              "name": "earlitepainters"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2836760,
+              "name": "Tio Iroh"
+            }
+          ]
+        },
+        {
+          "matchId": 510634833,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:50:16.000Z",
+          "dur": 1702,
+          "opponents": [
+            {
+              "profileId": 24363093,
+              "name": "Jobington"
+            },
+            {
+              "profileId": 808567,
+              "name": "CHUPA <AUS>"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2836760,
+              "name": "Tio Iroh"
+            }
+          ]
+        },
         {
           "matchId": 509527885,
           "civ": "Teutons",
@@ -21292,5 +21396,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

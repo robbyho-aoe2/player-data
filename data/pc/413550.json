@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 461,
-        "pulledDate": "2026-09-28",
-        "latestRating": 979,
+        "totalGames": 464,
+        "pulledDate": "2026-10-02",
+        "latestRating": 999,
         "peakRating": 1111
       },
       "matches": [
+        {
+          "matchId": 510650093,
+          "civ": "Dravidians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T00:34:23.000Z",
+          "dur": 1441,
+          "opponents": [
+            {
+              "profileId": 14971418,
+              "name": "WikiGun"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510640788,
+          "civ": "Sicilians",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T23:29:43.000Z",
+          "dur": 2148,
+          "opponents": [
+            {
+              "profileId": 18003311,
+              "name": "HalidBinVelid"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510434475,
+          "civ": "Sicilians",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T01:07:58.000Z",
+          "dur": 1130,
+          "opponents": [
+            {
+              "profileId": 4406910,
+              "name": "Paragon"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509235352,
           "civ": "Sicilians",
@@ -7867,7 +7918,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 33,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 975,
         "peakRating": 985
       },
@@ -8959,5 +9010,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

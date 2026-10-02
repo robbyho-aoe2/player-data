@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1457,
         "peakRating": 1457
       },
@@ -381,12 +381,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3293,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1600,
+        "totalGames": 3296,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1569,
         "peakRating": 1660
       },
       "matches": [
+        {
+          "matchId": 510036829,
+          "civ": "Ethiopians",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:57:37.000Z",
+          "dur": 1014,
+          "opponents": [
+            {
+              "profileId": 293970,
+              "name": "[DH]Howl Jenkins"
+            },
+            {
+              "profileId": 24621390,
+              "name": "el_Feist"
+            },
+            {
+              "profileId": 18628704,
+              "name": "Kuroi Kuchi"
+            },
+            {
+              "profileId": 5802942,
+              "name": "[DH]Misratronic"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5646545,
+              "name": "swipp"
+            },
+            {
+              "profileId": 20067454,
+              "name": "Embege"
+            },
+            {
+              "profileId": 2130526,
+              "name": "AM | Pipi Romagnoli"
+            }
+          ]
+        },
+        {
+          "matchId": 510033365,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:27:52.000Z",
+          "dur": 1510,
+          "opponents": [
+            {
+              "profileId": 44280,
+              "name": "Coolman916"
+            },
+            {
+              "profileId": 1099922,
+              "name": "PoopMaster"
+            },
+            {
+              "profileId": 952168,
+              "name": "ForceWiz"
+            },
+            {
+              "profileId": 304667,
+              "name": "DMenisDenisTTV"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6793527,
+              "name": "\u6bd4\u5947\u5821_Gary"
+            },
+            {
+              "profileId": 4222102,
+              "name": "\u7948\u6c42\u597d\u8fd0"
+            },
+            {
+              "profileId": 2130526,
+              "name": "AM | Pipi Romagnoli"
+            }
+          ]
+        },
+        {
+          "matchId": 510029019,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:52:03.000Z",
+          "dur": 1478,
+          "opponents": [
+            {
+              "profileId": 10953296,
+              "name": "Redwood MC9"
+            },
+            {
+              "profileId": 19235131,
+              "name": "SimoniacJewel88"
+            },
+            {
+              "profileId": 18863417,
+              "name": "EXILE | NOPALITO"
+            },
+            {
+              "profileId": 14917238,
+              "name": "Smitty WerbenJ\u00e4gerManJensen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21771462,
+              "name": "Perseu"
+            },
+            {
+              "profileId": 2130526,
+              "name": "AM | Pipi Romagnoli"
+            },
+            {
+              "profileId": 24186635,
+              "name": "YOGRANNYCANTSCRAP"
+            }
+          ]
+        },
         {
           "matchId": 509818855,
           "civ": "Danes",
@@ -98524,5 +98650,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

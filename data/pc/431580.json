@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 515,
-        "pulledDate": "2026-09-28",
-        "latestRating": 707,
+        "totalGames": 518,
+        "pulledDate": "2026-10-02",
+        "latestRating": 719,
         "peakRating": 902
       },
       "matches": [
+        {
+          "matchId": 510421845,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:43:33.000Z",
+          "dur": 1772,
+          "opponents": [
+            {
+              "profileId": 3079685,
+              "name": "tomwilmore"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510234309,
+          "civ": "Britons",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:47:35.000Z",
+          "dur": 1987,
+          "opponents": [
+            {
+              "profileId": 20183472,
+              "name": "Jack_Mihoff"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510230179,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:21:08.000Z",
+          "dur": 1112,
+          "opponents": [
+            {
+              "profileId": 24231697,
+              "name": "SirLex"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509795362,
           "civ": "Britons",
@@ -8317,7 +8368,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 38,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 728,
         "peakRating": 811
       },
@@ -9503,5 +9554,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

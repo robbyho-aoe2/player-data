@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-26"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 163,
-        "pulledDate": "2026-09-26",
+        "pulledDate": "2026-10-02",
         "latestRating": 723,
         "peakRating": 863
       },
@@ -2800,12 +2800,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 139,
-        "pulledDate": "2026-09-26",
-        "latestRating": 893,
+        "totalGames": 140,
+        "pulledDate": "2026-10-02",
+        "latestRating": 876,
         "peakRating": 1012
       },
       "matches": [
+        {
+          "matchId": 510019912,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:49:18.000Z",
+          "dur": 715,
+          "opponents": [
+            {
+              "profileId": 25546142,
+              "name": "leon_skennedy96"
+            },
+            {
+              "profileId": 25623717,
+              "name": "forrajeria.kevin"
+            },
+            {
+              "profileId": 22668837,
+              "name": "dans_big"
+            },
+            {
+              "profileId": 22636557,
+              "name": "Mogador"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10484302,
+              "name": "Devilman"
+            },
+            {
+              "profileId": 1042868,
+              "name": "joaqo9909"
+            },
+            {
+              "profileId": 18674886,
+              "name": "kao3385"
+            }
+          ]
+        },
         {
           "matchId": 509294191,
           "civ": "Spanish",
@@ -7537,5 +7579,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

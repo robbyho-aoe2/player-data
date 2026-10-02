@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 336,
-        "pulledDate": "2026-09-28",
-        "latestRating": 537,
+        "totalGames": 338,
+        "pulledDate": "2026-10-02",
+        "latestRating": 535,
         "peakRating": 819
       },
       "matches": [
+        {
+          "matchId": 509876306,
+          "civ": "Goths",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:54:09.000Z",
+          "dur": 2314,
+          "opponents": [
+            {
+              "profileId": 1796475,
+              "name": "san09230923"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509849298,
+          "civ": "Teutons",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:42:19.000Z",
+          "dur": 2461,
+          "opponents": [
+            {
+              "profileId": 15530231,
+              "name": "Skipper the II"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509736619,
           "civ": "Teutons",
@@ -5412,12 +5446,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 231,
-        "pulledDate": "2026-09-28",
-        "latestRating": 720,
+        "totalGames": 235,
+        "pulledDate": "2026-10-02",
+        "latestRating": 690,
         "peakRating": 810
       },
       "matches": [
+        {
+          "matchId": 509890109,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:08:58.000Z",
+          "dur": 3894,
+          "opponents": [
+            {
+              "profileId": 2378554,
+              "name": "Tzampuku"
+            },
+            {
+              "profileId": 2619242,
+              "name": "Bleeq11"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1311291,
+              "name": "N{o}No"
+            }
+          ]
+        },
+        {
+          "matchId": 509888985,
+          "civ": "Varangians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:03:32.000Z",
+          "dur": 1760,
+          "opponents": [
+            {
+              "profileId": 15498208,
+              "name": "FortifiedChicken"
+            },
+            {
+              "profileId": 5769086,
+              "name": "IndianSoul"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20620592,
+              "name": "\u76ae\u9769\u57ce\u8d70\u4f4d"
+            }
+          ]
+        },
+        {
+          "matchId": 509883906,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:35:13.000Z",
+          "dur": 1577,
+          "opponents": [
+            {
+              "profileId": 5157871,
+              "name": "ThePriest10"
+            },
+            {
+              "profileId": 565051,
+              "name": "Surfacegen"
+            },
+            {
+              "profileId": 12064205,
+              "name": "mag8044"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3744324,
+              "name": "marro.bert"
+            },
+            {
+              "profileId": 3332408,
+              "name": "Nahue"
+            }
+          ]
+        },
+        {
+          "matchId": 509857855,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T11:55:50.000Z",
+          "dur": 1858,
+          "opponents": [
+            {
+              "profileId": 890039,
+              "name": "Dane!"
+            },
+            {
+              "profileId": 25601369,
+              "name": "vvvivvv"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24500035,
+              "name": "\u597d\u6b4c\u5267"
+            }
+          ]
+        },
         {
           "matchId": 508503196,
           "civ": "Saxons",
@@ -12723,5 +12869,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

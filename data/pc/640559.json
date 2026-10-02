@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 423,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 930,
         "peakRating": 1019
       },
@@ -7220,12 +7220,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 239,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1032,
+        "totalGames": 241,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1064,
         "peakRating": 1210
       },
       "matches": [
+        {
+          "matchId": 510342156,
+          "civ": "Poles",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:48:37.000Z",
+          "dur": 1674,
+          "opponents": [
+            {
+              "profileId": 1907463,
+              "name": "Socrate78"
+            },
+            {
+              "profileId": 4546461,
+              "name": "M@nte"
+            },
+            {
+              "profileId": 4164553,
+              "name": "Unknown-Ben"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2136982,
+              "name": "LON | Trusttheprocess"
+            },
+            {
+              "profileId": 4923958,
+              "name": "Denys"
+            }
+          ]
+        },
+        {
+          "matchId": 510325696,
+          "civ": "Poles",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:21:18.000Z",
+          "dur": 981,
+          "opponents": [
+            {
+              "profileId": 15361688,
+              "name": "i.yildirim35"
+            },
+            {
+              "profileId": 3578990,
+              "name": "Milei"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7760766,
+              "name": "propz"
+            }
+          ]
+        },
         {
           "matchId": 509344088,
           "civ": "Teutons",
@@ -14365,5 +14425,6 @@
   },
   "country": "lt",
   "countryIcon": "\ud83c\uddf1\ud83c\uddf9",
-  "countryName": "Lithuania"
+  "countryName": "Lithuania",
+  "platform": "Steam"
 }

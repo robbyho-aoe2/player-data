@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 601,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1579,
         "peakRating": 1654
       },
@@ -9645,12 +9645,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 609,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1450,
+        "totalGames": 614,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1438,
         "peakRating": 1501
       },
       "matches": [
+        {
+          "matchId": 510176157,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:47:25.000Z",
+          "dur": 660,
+          "opponents": [
+            {
+              "profileId": 11894455,
+              "name": "Achille"
+            },
+            {
+              "profileId": 2754766,
+              "name": "Valight"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 510169005,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:12:49.000Z",
+          "dur": 1748,
+          "opponents": [
+            {
+              "profileId": 6884729,
+              "name": "lukardo"
+            },
+            {
+              "profileId": 245491,
+              "name": "SweetLou 11"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 510163217,
+          "civ": "Gurjaras",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:46:22.000Z",
+          "dur": 1390,
+          "opponents": [
+            {
+              "profileId": 5582632,
+              "name": "BuzLu_MarPu\u00e7"
+            },
+            {
+              "profileId": 386741,
+              "name": "FLEJEUNE"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 510157141,
+          "civ": "Armenians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:19:14.000Z",
+          "dur": 1393,
+          "opponents": [
+            {
+              "profileId": 278576,
+              "name": "bipeng2008"
+            },
+            {
+              "profileId": 14816534,
+              "name": "Brutalitops"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
+        {
+          "matchId": 510155599,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:12:10.000Z",
+          "dur": 256,
+          "opponents": [
+            {
+              "profileId": 14816534,
+              "name": "Brutalitops"
+            },
+            {
+              "profileId": 1095544,
+              "name": "Cicdolfin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1554972,
+              "name": "The_Black_Duck"
+            }
+          ]
+        },
         {
           "matchId": 508509029,
           "civ": "Burmese",
@@ -25370,5 +25500,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

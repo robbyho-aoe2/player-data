@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 88,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-02",
         "latestRating": 1229,
         "peakRating": 1229
       },
@@ -1437,12 +1437,182 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 850,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1258,
-        "peakRating": 1270
+        "totalGames": 855,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1292,
+        "peakRating": 1292
       },
       "matches": [
+        {
+          "matchId": 510623249,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:39:34.000Z",
+          "dur": 1074,
+          "opponents": [
+            {
+              "profileId": 24438693,
+              "name": "BittenDork"
+            },
+            {
+              "profileId": 437692,
+              "name": "Teufelchen"
+            },
+            {
+              "profileId": 4214226,
+              "name": "renehvac"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6383673,
+              "name": "King Slug"
+            },
+            {
+              "profileId": 6383919,
+              "name": "Father Slugmas"
+            }
+          ]
+        },
+        {
+          "matchId": 510621417,
+          "civ": "Saxons",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:29:24.000Z",
+          "dur": 301,
+          "opponents": [
+            {
+              "profileId": 2029127,
+              "name": "Thunder"
+            },
+            {
+              "profileId": 13994899,
+              "name": "ShangDynasty11"
+            },
+            {
+              "profileId": 2093509,
+              "name": "Dibrei"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6383919,
+              "name": "Father Slugmas"
+            },
+            {
+              "profileId": 6383673,
+              "name": "King Slug"
+            }
+          ]
+        },
+        {
+          "matchId": 510615296,
+          "civ": "Saxons",
+          "map": "Baltic",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:56:16.000Z",
+          "dur": 1841,
+          "opponents": [
+            {
+              "profileId": 1181378,
+              "name": "All Conquistadors Are BSTRD"
+            },
+            {
+              "profileId": 2781832,
+              "name": "X Saint"
+            },
+            {
+              "profileId": 3034038,
+              "name": "Cdeleon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6383673,
+              "name": "King Slug"
+            },
+            {
+              "profileId": 6383919,
+              "name": "Father Slugmas"
+            }
+          ]
+        },
+        {
+          "matchId": 510610788,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:34:14.000Z",
+          "dur": 1165,
+          "opponents": [
+            {
+              "profileId": 1367662,
+              "name": "juan quevedo"
+            },
+            {
+              "profileId": 3958884,
+              "name": "MPW_SCRaTCH"
+            },
+            {
+              "profileId": 2727471,
+              "name": "sasha"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6383919,
+              "name": "Father Slugmas"
+            },
+            {
+              "profileId": 6383673,
+              "name": "King Slug"
+            }
+          ]
+        },
+        {
+          "matchId": 510609677,
+          "civ": "Varangians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:28:44.000Z",
+          "dur": 187,
+          "opponents": [
+            {
+              "profileId": 2777331,
+              "name": "Alato"
+            },
+            {
+              "profileId": 11608506,
+              "name": "SoyRock"
+            },
+            {
+              "profileId": 11445388,
+              "name": "Lia Noe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6383919,
+              "name": "Father Slugmas"
+            },
+            {
+              "profileId": 6383673,
+              "name": "King Slug"
+            }
+          ]
+        },
         {
           "matchId": 507353259,
           "civ": "Romans",
@@ -29974,5 +30144,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

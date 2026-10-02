@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1337,
-        "pulledDate": "2026-09-28",
-        "latestRating": 632,
+        "totalGames": 1341,
+        "pulledDate": "2026-10-02",
+        "latestRating": 601,
         "peakRating": 767
       },
       "matches": [
+        {
+          "matchId": 510194316,
+          "civ": "Italians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:32:37.000Z",
+          "dur": 1839,
+          "opponents": [
+            {
+              "profileId": 25594431,
+              "name": "samuelssonjonte"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510186874,
+          "civ": "Burgundians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:45:40.000Z",
+          "dur": 2737,
+          "opponents": [
+            {
+              "profileId": 400386,
+              "name": "thisiswhatever125"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510183766,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:27:51.000Z",
+          "dur": 1005,
+          "opponents": [
+            {
+              "profileId": 14903011,
+              "name": "ThaDolfin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510061856,
+          "civ": "Turks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:28:30.000Z",
+          "dur": 2526,
+          "opponents": [
+            {
+              "profileId": 4905251,
+              "name": "jameschengis"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509490429,
           "civ": "Ethiopians",
@@ -21447,12 +21515,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 360,
-        "pulledDate": "2026-09-28",
-        "latestRating": 688,
+        "totalGames": 362,
+        "pulledDate": "2026-10-02",
+        "latestRating": 717,
         "peakRating": 855
       },
       "matches": [
+        {
+          "matchId": 510065750,
+          "civ": "Burgundians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:12:29.000Z",
+          "dur": 1882,
+          "opponents": [
+            {
+              "profileId": 488018,
+              "name": "David1992"
+            },
+            {
+              "profileId": 22171070,
+              "name": "pau.ajenjo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25460057,
+              "name": "2769166824"
+            }
+          ]
+        },
+        {
+          "matchId": 510059401,
+          "civ": "Ethiopians",
+          "map": "Pilgrims",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T09:02:37.000Z",
+          "dur": 1308,
+          "opponents": [
+            {
+              "profileId": 23796096,
+              "name": "mert-10-10"
+            },
+            {
+              "profileId": 19534545,
+              "name": "Enormusz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23323981,
+              "name": "emrecankurttt54"
+            }
+          ]
+        },
         {
           "matchId": 509479000,
           "civ": "Ethiopians",
@@ -31271,5 +31391,6 @@
   },
   "country": "tr",
   "countryIcon": "\ud83c\uddf9\ud83c\uddf7",
-  "countryName": "Turkey"
+  "countryName": "Turkey",
+  "platform": "Steam"
 }

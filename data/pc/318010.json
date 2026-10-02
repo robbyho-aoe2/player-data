@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-16"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 115,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1216,
+        "totalGames": 116,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1235,
         "peakRating": 1248
       },
       "matches": [
+        {
+          "matchId": 510259534,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:22:21.000Z",
+          "dur": 1118,
+          "opponents": [
+            {
+              "profileId": 2836564,
+              "name": "CORP_Edwall"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 506835778,
           "civ": "Jurchens",
@@ -1984,12 +2001,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 958,
-        "pulledDate": "2026-09-16",
-        "latestRating": 1182,
+        "totalGames": 962,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1187,
         "peakRating": 1264
       },
       "matches": [
+        {
+          "matchId": 510276329,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T09:29:32.000Z",
+          "dur": 2701,
+          "opponents": [
+            {
+              "profileId": 15478145,
+              "name": "pavifa"
+            },
+            {
+              "profileId": 1880229,
+              "name": "Han."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10506711,
+              "name": "AOE noob"
+            }
+          ]
+        },
+        {
+          "matchId": 510270292,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:21:44.000Z",
+          "dur": 1482,
+          "opponents": [
+            {
+              "profileId": 2167495,
+              "name": "Jaha"
+            },
+            {
+              "profileId": 9081550,
+              "name": "Polito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10506711,
+              "name": "AOE noob"
+            }
+          ]
+        },
+        {
+          "matchId": 510265994,
+          "civ": "Saxons",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T07:34:00.000Z",
+          "dur": 2557,
+          "opponents": [
+            {
+              "profileId": 2848828,
+              "name": "wdvr"
+            },
+            {
+              "profileId": 3311541,
+              "name": "Yukotan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10506711,
+              "name": "AOE noob"
+            }
+          ]
+        },
+        {
+          "matchId": 510262674,
+          "civ": "Vietnamese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:55:42.000Z",
+          "dur": 1709,
+          "opponents": [
+            {
+              "profileId": 24746148,
+              "name": "aLaNi"
+            },
+            {
+              "profileId": 14760192,
+              "name": "mcriano22"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10506711,
+              "name": "AOE noob"
+            }
+          ]
+        },
         {
           "matchId": 506099164,
           "civ": "Wei",
@@ -31055,5 +31176,6 @@
   },
   "country": "au",
   "countryIcon": "\ud83c\udde6\ud83c\uddfa",
-  "countryName": "Australia"
+  "countryName": "Australia",
+  "platform": "Xbox"
 }

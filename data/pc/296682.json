@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 598,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1091,
         "peakRating": 1658
       },
@@ -10195,12 +10195,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 654,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1372,
-        "peakRating": 1387
+        "totalGames": 659,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1363,
+        "peakRating": 1409
       },
       "matches": [
+        {
+          "matchId": 510419657,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:30:19.000Z",
+          "dur": 1379,
+          "opponents": [
+            {
+              "profileId": 6261373,
+              "name": "Kyrisser"
+            },
+            {
+              "profileId": 2221825,
+              "name": "CrazyFoxMan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 270947,
+              "name": "HardmanGunner"
+            }
+          ]
+        },
+        {
+          "matchId": 510415975,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:06:20.000Z",
+          "dur": 1068,
+          "opponents": [
+            {
+              "profileId": 4320570,
+              "name": "Batman"
+            },
+            {
+              "profileId": 4292429,
+              "name": "El Guason"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 270947,
+              "name": "HardmanGunner"
+            }
+          ]
+        },
+        {
+          "matchId": 510411233,
+          "civ": "Dravidians",
+          "map": "Baltic",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:36:15.000Z",
+          "dur": 1619,
+          "opponents": [
+            {
+              "profileId": 2636113,
+              "name": "Lautib7"
+            },
+            {
+              "profileId": 2293345,
+              "name": "Meci"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 270947,
+              "name": "HardmanGunner"
+            }
+          ]
+        },
+        {
+          "matchId": 510410602,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:31:44.000Z",
+          "dur": 116,
+          "opponents": [
+            {
+              "profileId": 4106015,
+              "name": "Danfi"
+            },
+            {
+              "profileId": 4448442,
+              "name": "XEVER | JoKeR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 270947,
+              "name": "HardmanGunner"
+            }
+          ]
+        },
+        {
+          "matchId": 510403872,
+          "civ": "Dravidians",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:50:39.000Z",
+          "dur": 2297,
+          "opponents": [
+            {
+              "profileId": 240441,
+              "name": "Z"
+            },
+            {
+              "profileId": 530444,
+              "name": "TheSonder"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 270947,
+              "name": "HardmanGunner"
+            }
+          ]
+        },
         {
           "matchId": 509739875,
           "civ": "Dravidians",
@@ -28006,5 +28136,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

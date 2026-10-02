@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 857,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-02",
         "latestRating": 1427,
         "peakRating": 1558
       },
@@ -14598,12 +14598,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 326,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1232,
+        "totalGames": 328,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1266,
         "peakRating": 1381
       },
       "matches": [
+        {
+          "matchId": 510549278,
+          "civ": "Danes",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T15:32:26.000Z",
+          "dur": 722,
+          "opponents": [
+            {
+              "profileId": 2007048,
+              "name": "Mr. K"
+            },
+            {
+              "profileId": 11669770,
+              "name": "\u866b"
+            },
+            {
+              "profileId": 9917687,
+              "name": "\u6e05\u7eaf\u5e1d"
+            },
+            {
+              "profileId": 3445939,
+              "name": "La.Reina.de.Once"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4204884,
+              "name": "Lukita"
+            },
+            {
+              "profileId": 16442560,
+              "name": "timon_1994"
+            },
+            {
+              "profileId": 12880880,
+              "name": "TheRev9426"
+            }
+          ]
+        },
+        {
+          "matchId": 510548908,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T15:30:07.000Z",
+          "dur": 30,
+          "opponents": [
+            {
+              "profileId": 25205351,
+              "name": "\u043d\u0435\u0436\u043d\u043e\u0441\u0442\u044c"
+            },
+            {
+              "profileId": 25252187,
+              "name": "\u5e05\u6b7b\u516b\u4e2a\u4eba"
+            },
+            {
+              "profileId": 3024619,
+              "name": "\u9ad8\u8840\u538b\u9009\u624b"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 237107,
+              "name": "Kmoral91[Crassus GER]"
+            },
+            {
+              "profileId": 539495,
+              "name": "3ScarFac3"
+            }
+          ]
+        },
         {
           "matchId": 490256657,
           "civ": "Sicilians",
@@ -26584,5 +26660,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

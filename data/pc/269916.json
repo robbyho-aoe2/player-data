@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 373,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1712,
         "peakRating": 1739
       },
@@ -6023,12 +6023,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3435,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1497,
+        "totalGames": 3438,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1534,
         "peakRating": 1673
       },
       "matches": [
+        {
+          "matchId": 510634193,
+          "civ": "Dravidians",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:46:05.000Z",
+          "dur": 1794,
+          "opponents": [
+            {
+              "profileId": 529844,
+              "name": "Manu"
+            },
+            {
+              "profileId": 9807075,
+              "name": "stroemming14"
+            },
+            {
+              "profileId": 222339,
+              "name": "LvSP | DeathThunder"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21204924,
+              "name": "BuLLeT_"
+            },
+            {
+              "profileId": 10897226,
+              "name": "KalasKula"
+            }
+          ]
+        },
+        {
+          "matchId": 510630466,
+          "civ": "Sicilians",
+          "map": "Baltic",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:22:56.000Z",
+          "dur": 790,
+          "opponents": [
+            {
+              "profileId": 816871,
+              "name": "MZTK | Orocar"
+            },
+            {
+              "profileId": 311950,
+              "name": "Ohlan100"
+            },
+            {
+              "profileId": 872222,
+              "name": "Rien"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21204924,
+              "name": "BuLLeT_"
+            },
+            {
+              "profileId": 10897226,
+              "name": "KalasKula"
+            }
+          ]
+        },
+        {
+          "matchId": 510626583,
+          "civ": "Koreans",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:58:53.000Z",
+          "dur": 1000,
+          "opponents": [
+            {
+              "profileId": 1773539,
+              "name": "Ketan67"
+            },
+            {
+              "profileId": 248672,
+              "name": "AJC"
+            },
+            {
+              "profileId": 13572755,
+              "name": "76nateK"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21204924,
+              "name": "BuLLeT_"
+            },
+            {
+              "profileId": 10897226,
+              "name": "KalasKula"
+            }
+          ]
+        },
         {
           "matchId": 509371570,
           "civ": "Danes",
@@ -141447,5 +141549,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

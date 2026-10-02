@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "peakRating": 946,
         "latestRating": 946
       },
@@ -93,12 +93,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 464,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1162,
+        "totalGames": 468,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1125,
         "peakRating": 1299
       },
       "matches": [
+        {
+          "matchId": 510361594,
+          "civ": "Bulgarians",
+          "map": "Yucatan",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:26:05.000Z",
+          "dur": 1076,
+          "opponents": [
+            {
+              "profileId": 4108174,
+              "name": "ApiOne"
+            },
+            {
+              "profileId": 21813094,
+              "name": "Sab_Anubis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3555136,
+              "name": "sNNNNN9STAR!"
+            }
+          ]
+        },
+        {
+          "matchId": 510357482,
+          "civ": "Bulgarians",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:07:29.000Z",
+          "dur": 991,
+          "opponents": [
+            {
+              "profileId": 23070258,
+              "name": "Aresda"
+            },
+            {
+              "profileId": 22367314,
+              "name": "PPA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3555136,
+              "name": "sNNNNN9STAR!"
+            }
+          ]
+        },
+        {
+          "matchId": 509923020,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:59:14.000Z",
+          "dur": 2383,
+          "opponents": [
+            {
+              "profileId": 4060059,
+              "name": "juanjinpoker"
+            },
+            {
+              "profileId": 20242054,
+              "name": "BP MonoSimon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3555136,
+              "name": "sNNNNN9STAR!"
+            }
+          ]
+        },
+        {
+          "matchId": 509917838,
+          "civ": "Bulgarians",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:34:10.000Z",
+          "dur": 1232,
+          "opponents": [
+            {
+              "profileId": 14621194,
+              "name": "toesucker69"
+            },
+            {
+              "profileId": 24904652,
+              "name": "Larkinstreet"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3555136,
+              "name": "sNNNNN9STAR!"
+            }
+          ]
+        },
         {
           "matchId": 509578880,
           "civ": "Bulgarians",
@@ -15252,5 +15356,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

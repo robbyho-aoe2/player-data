@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1377,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1561,
+        "totalGames": 1381,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1559,
         "peakRating": 1671
       },
       "matches": [
+        {
+          "matchId": 510132343,
+          "civ": "Danes",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:20:59.000Z",
+          "dur": 1169,
+          "opponents": [
+            {
+              "profileId": 3774002,
+              "name": "__24_Thorfin_Arg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510127621,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:55:50.000Z",
+          "dur": 1384,
+          "opponents": [
+            {
+              "profileId": 19694282,
+              "name": "GDL_arlekin_"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509887656,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:55:01.000Z",
+          "dur": 1253,
+          "opponents": [
+            {
+              "profileId": 4657239,
+              "name": "hopeless"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509885241,
+          "civ": "Danes",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:41:40.000Z",
+          "dur": 728,
+          "opponents": [
+            {
+              "profileId": 1166540,
+              "name": "\u6212\u8ced\u80d6"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509688607,
           "civ": "Varangians",
@@ -22109,7 +22177,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 286,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1375,
         "peakRating": 1462
       },
@@ -33037,5 +33105,6 @@
   },
   "country": "lt",
   "countryIcon": "\ud83c\uddf1\ud83c\uddf9",
-  "countryName": "Lithuania"
+  "countryName": "Lithuania",
+  "platform": "Steam"
 }

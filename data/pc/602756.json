@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 71,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1292,
+        "totalGames": 72,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1308,
         "peakRating": 1351
       },
       "matches": [
+        {
+          "matchId": 509973527,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:59:53.000Z",
+          "dur": 1698,
+          "opponents": [
+            {
+              "profileId": 25002585,
+              "name": "vatreides1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508324000,
           "civ": "Britons",
@@ -1237,7 +1254,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1183,
         "peakRating": 1201
       },
@@ -1747,5 +1764,6 @@
   },
   "country": "gb",
   "countryIcon": "\ud83c\uddec\ud83c\udde7",
-  "countryName": "United Kingdom of Great Britain and Northern Ireland"
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
+  "platform": "Steam"
 }

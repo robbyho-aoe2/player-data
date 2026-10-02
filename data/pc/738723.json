@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 70,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1187,
         "peakRating": 1231
       },
@@ -1149,12 +1149,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 227,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1184,
-        "peakRating": 1202
+        "totalGames": 230,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1199,
+        "peakRating": 1214
       },
       "matches": [
+        {
+          "matchId": 510386733,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:19:00.000Z",
+          "dur": 971,
+          "opponents": [
+            {
+              "profileId": 419835,
+              "name": "Galadh"
+            },
+            {
+              "profileId": 2412737,
+              "name": "PadreDiSerse"
+            },
+            {
+              "profileId": 2785180,
+              "name": "Raziel2162"
+            },
+            {
+              "profileId": 2784462,
+              "name": "K4inDB"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20183419,
+              "name": "Klingsor"
+            },
+            {
+              "profileId": 11669770,
+              "name": "\u866b"
+            },
+            {
+              "profileId": 3935858,
+              "name": "fabrogtz"
+            }
+          ]
+        },
+        {
+          "matchId": 510378442,
+          "civ": "Spanish",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:41:16.000Z",
+          "dur": 1466,
+          "opponents": [
+            {
+              "profileId": 25031547,
+              "name": "The Outpost Man"
+            },
+            {
+              "profileId": 2680378,
+              "name": "SchlosserJoe"
+            },
+            {
+              "profileId": 10695614,
+              "name": "w2k8m1w2762"
+            },
+            {
+              "profileId": 9405618,
+              "name": "Titan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15105302,
+              "name": "math-hbcn"
+            },
+            {
+              "profileId": 5037703,
+              "name": "NOxArbor"
+            },
+            {
+              "profileId": 727148,
+              "name": "LolloLove91"
+            }
+          ]
+        },
+        {
+          "matchId": 510376917,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:34:32.000Z",
+          "dur": 270,
+          "opponents": [
+            {
+              "profileId": 2442351,
+              "name": "elhijochiquito"
+            },
+            {
+              "profileId": 16089124,
+              "name": "jawsy_"
+            },
+            {
+              "profileId": 8945762,
+              "name": "Moa"
+            },
+            {
+              "profileId": 5715536,
+              "name": "BachWagner"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15105302,
+              "name": "math-hbcn"
+            },
+            {
+              "profileId": 11728235,
+              "name": "in'Thomas"
+            },
+            {
+              "profileId": 5037703,
+              "name": "NOxArbor"
+            }
+          ]
+        },
         {
           "matchId": 509196625,
           "civ": "Britons",
@@ -8621,5 +8747,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

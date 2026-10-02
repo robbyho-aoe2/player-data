@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -43,12 +43,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 898,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1175,
+        "totalGames": 900,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1142,
         "peakRating": 1373
       },
       "matches": [
+        {
+          "matchId": 510387853,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:24:40.000Z",
+          "dur": 1051,
+          "opponents": [
+            {
+              "profileId": 22659382,
+              "name": "nicebro"
+            },
+            {
+              "profileId": 11362423,
+              "name": "MrPR77660"
+            },
+            {
+              "profileId": 9560705,
+              "name": "\u9a6f\u9f99\u9a91\u58eb\u5c39\u5fd7\u5e73"
+            },
+            {
+              "profileId": 964500,
+              "name": "Oscar_Lee"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9817007,
+              "name": "SemperBlender"
+            },
+            {
+              "profileId": 2918133,
+              "name": "I_fireblade"
+            },
+            {
+              "profileId": 616645,
+              "name": "BR_WO"
+            }
+          ]
+        },
+        {
+          "matchId": 510147347,
+          "civ": "Poles",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:35:33.000Z",
+          "dur": 1243,
+          "opponents": [
+            {
+              "profileId": 17388750,
+              "name": "Nichelson3360"
+            },
+            {
+              "profileId": 10440780,
+              "name": "DreamStolen"
+            },
+            {
+              "profileId": 14205279,
+              "name": "\u9577\u5b89"
+            },
+            {
+              "profileId": 15455883,
+              "name": "Caronte"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2199979,
+              "name": "niColaus"
+            },
+            {
+              "profileId": 3356492,
+              "name": "jopsop"
+            },
+            {
+              "profileId": 11728235,
+              "name": "in'Thomas"
+            }
+          ]
+        },
         {
           "matchId": 507577759,
           "civ": "Spanish",
@@ -33060,5 +33144,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

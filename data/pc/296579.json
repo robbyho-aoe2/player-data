@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 991,
         "peakRating": 1040
       },
@@ -589,12 +589,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 425,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1216,
+        "totalGames": 428,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1228,
         "peakRating": 1261
       },
       "matches": [
+        {
+          "matchId": 510676739,
+          "civ": "Britons",
+          "map": "Yucatan",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T03:22:02.000Z",
+          "dur": 2648,
+          "opponents": [
+            {
+              "profileId": 13456041,
+              "name": "piernas7"
+            },
+            {
+              "profileId": 14940757,
+              "name": "Queondacompa"
+            },
+            {
+              "profileId": 21411517,
+              "name": "FeherFarkas"
+            },
+            {
+              "profileId": 25965373,
+              "name": "Kestrel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 299480,
+              "name": "Teej"
+            },
+            {
+              "profileId": 322658,
+              "name": "Phantom_JH"
+            },
+            {
+              "profileId": 14793373,
+              "name": "Surb"
+            }
+          ]
+        },
+        {
+          "matchId": 510673205,
+          "civ": "Britons",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:59:01.000Z",
+          "dur": 1013,
+          "opponents": [
+            {
+              "profileId": 3042492,
+              "name": "\u6211\u5f88\u725b\u903c"
+            },
+            {
+              "profileId": 2700607,
+              "name": "Kenchito"
+            },
+            {
+              "profileId": 1959715,
+              "name": "camgcam"
+            },
+            {
+              "profileId": 523336,
+              "name": "The Stray King"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14793373,
+              "name": "Surb"
+            },
+            {
+              "profileId": 322658,
+              "name": "Phantom_JH"
+            },
+            {
+              "profileId": 299480,
+              "name": "Teej"
+            }
+          ]
+        },
+        {
+          "matchId": 510462134,
+          "civ": "Burmese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T04:03:11.000Z",
+          "dur": 1713,
+          "opponents": [
+            {
+              "profileId": 16942973,
+              "name": "Zairus"
+            },
+            {
+              "profileId": 11550672,
+              "name": "Sobre el 1/50"
+            },
+            {
+              "profileId": 10475994,
+              "name": "Fandado"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 322658,
+              "name": "Phantom_JH"
+            },
+            {
+              "profileId": 6069117,
+              "name": "Legolas123249"
+            }
+          ]
+        },
         {
           "matchId": 509803144,
           "civ": "Portuguese",
@@ -16026,5 +16144,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1101
       },
       "matches": [
@@ -156,12 +156,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1470,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1127,
+        "totalGames": 1471,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1141,
         "peakRating": 1405
       },
       "matches": [
+        {
+          "matchId": 509904282,
+          "civ": "Maya",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:24:47.000Z",
+          "dur": 2198,
+          "opponents": [
+            {
+              "profileId": 217021,
+              "name": "younguns"
+            },
+            {
+              "profileId": 6375538,
+              "name": "370085982"
+            },
+            {
+              "profileId": 22593158,
+              "name": "Wilson"
+            },
+            {
+              "profileId": 22593253,
+              "name": "Scan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23620342,
+              "name": "happykids"
+            },
+            {
+              "profileId": 2447153,
+              "name": "zeyrek"
+            },
+            {
+              "profileId": 3524873,
+              "name": "Koopa"
+            }
+          ]
+        },
         {
           "matchId": 509001301,
           "civ": "Franks",
@@ -54419,5 +54461,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

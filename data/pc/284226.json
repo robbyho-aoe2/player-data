@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 188,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1056,
+        "totalGames": 190,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1089,
         "peakRating": 1205
       },
       "matches": [
+        {
+          "matchId": 510014416,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:13:41.000Z",
+          "dur": 1230,
+          "opponents": [
+            {
+              "profileId": 25286953,
+              "name": "Balduino IV"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509793089,
+          "civ": "Danes",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:15:28.000Z",
+          "dur": 1127,
+          "opponents": [
+            {
+              "profileId": 559968,
+              "name": "youppi!"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509741242,
           "civ": "Danes",
@@ -3040,7 +3074,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 300,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1162,
         "peakRating": 1272
       },
@@ -11462,5 +11496,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

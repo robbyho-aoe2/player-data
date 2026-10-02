@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 320,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1160,
         "peakRating": 1215
       },
@@ -5149,12 +5149,172 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3088,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1084,
+        "totalGames": 3092,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1088,
         "peakRating": 1233
       },
       "matches": [
+        {
+          "matchId": 510210732,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:21:47.000Z",
+          "dur": 1745,
+          "opponents": [
+            {
+              "profileId": 25646857,
+              "name": "mmmmmoooo"
+            },
+            {
+              "profileId": 19235803,
+              "name": "\u522b\u6253\u8138 \u6211\u662f\u5c0f\u5e05"
+            },
+            {
+              "profileId": 18759416,
+              "name": "joaopessoense"
+            },
+            {
+              "profileId": 15763153,
+              "name": "[JB]zhenghui9900"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 177736,
+              "name": "| SNV |  El rey Cris"
+            },
+            {
+              "profileId": 7844321,
+              "name": "SNV Ribey"
+            },
+            {
+              "profileId": 2857077,
+              "name": "| SNV | AoEBengi"
+            }
+          ]
+        },
+        {
+          "matchId": 510205316,
+          "civ": "Wei",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:44:27.000Z",
+          "dur": 1819,
+          "opponents": [
+            {
+              "profileId": 15240391,
+              "name": "Lord_Tarritou"
+            },
+            {
+              "profileId": 2659737,
+              "name": "Bitinha1986"
+            },
+            {
+              "profileId": 2923766,
+              "name": "MonsterSmeat"
+            },
+            {
+              "profileId": 5746760,
+              "name": "ask"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 7844321,
+              "name": "SNV Ribey"
+            },
+            {
+              "profileId": 177736,
+              "name": "| SNV |  El rey Cris"
+            },
+            {
+              "profileId": 2857077,
+              "name": "| SNV | AoEBengi"
+            }
+          ]
+        },
+        {
+          "matchId": 510204622,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:39:44.000Z",
+          "dur": 130,
+          "opponents": [
+            {
+              "profileId": 278722,
+              "name": "ThunderSlaps"
+            },
+            {
+              "profileId": 9923831,
+              "name": "L.A."
+            },
+            {
+              "profileId": 417191,
+              "name": "TheDuff_K\u00f8K"
+            },
+            {
+              "profileId": 310387,
+              "name": "Empire"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 177736,
+              "name": "| SNV |  El rey Cris"
+            },
+            {
+              "profileId": 7844321,
+              "name": "SNV Ribey"
+            },
+            {
+              "profileId": 2857077,
+              "name": "| SNV | AoEBengi"
+            }
+          ]
+        },
+        {
+          "matchId": 510201249,
+          "civ": "Wu",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:18:08.000Z",
+          "dur": 691,
+          "opponents": [
+            {
+              "profileId": 20327107,
+              "name": "LaBestiaPOP8861"
+            },
+            {
+              "profileId": 20503408,
+              "name": "Sadicomane"
+            },
+            {
+              "profileId": 20491386,
+              "name": "berenjena06"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 177736,
+              "name": "| SNV |  El rey Cris"
+            },
+            {
+              "profileId": 7844321,
+              "name": "SNV Ribey"
+            }
+          ]
+        },
         {
           "matchId": 509613629,
           "civ": "Burgundians",
@@ -98283,5 +98443,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

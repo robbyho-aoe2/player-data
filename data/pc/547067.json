@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1412,
-        "pulledDate": "2026-09-28",
+        "totalGames": 1414,
+        "pulledDate": "2026-10-02",
         "latestRating": 1507,
         "peakRating": 1735
       },
       "matches": [
+        {
+          "matchId": 510593517,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:13:44.000Z",
+          "dur": 96,
+          "opponents": [
+            {
+              "profileId": 10597619,
+              "name": "Rist!"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510362270,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:29:11.000Z",
+          "dur": 1625,
+          "opponents": [
+            {
+              "profileId": 22580731,
+              "name": "GabrielXbox4294"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509173051,
           "civ": "Burmese",
@@ -22643,12 +22677,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 116,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1455,
+        "totalGames": 119,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1490,
         "peakRating": 1499
       },
       "matches": [
+        {
+          "matchId": 510597115,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:29:25.000Z",
+          "dur": 2016,
+          "opponents": [
+            {
+              "profileId": 1634953,
+              "name": "Steelmate"
+            },
+            {
+              "profileId": 1642937,
+              "name": "climrik"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 249148,
+              "name": "Sgt. Love"
+            }
+          ]
+        },
+        {
+          "matchId": 510374771,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:25:01.000Z",
+          "dur": 3094,
+          "opponents": [
+            {
+              "profileId": 2760536,
+              "name": "TITO15"
+            },
+            {
+              "profileId": 4274769,
+              "name": "Sain"
+            },
+            {
+              "profileId": 971495,
+              "name": "Siny"
+            },
+            {
+              "profileId": 1661146,
+              "name": "Sunday x Junior"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3026555,
+              "name": "hadiraja"
+            },
+            {
+              "profileId": 249148,
+              "name": "Sgt. Love"
+            },
+            {
+              "profileId": 544413,
+              "name": "Pirre Piraya"
+            }
+          ]
+        },
+        {
+          "matchId": 510369037,
+          "civ": "Danes",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:00:22.000Z",
+          "dur": 1139,
+          "opponents": [
+            {
+              "profileId": 2660916,
+              "name": "bastianbps"
+            },
+            {
+              "profileId": 16933644,
+              "name": "\u7f8a\u4e86\u4e2a\u7f8a"
+            },
+            {
+              "profileId": 15455883,
+              "name": "Caronte"
+            },
+            {
+              "profileId": 2764311,
+              "name": "JessePinkman"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 544413,
+              "name": "Pirre Piraya"
+            },
+            {
+              "profileId": 3026555,
+              "name": "hadiraja"
+            },
+            {
+              "profileId": 229381,
+              "name": "Gustavus Adolphus"
+            }
+          ]
+        },
         {
           "matchId": 509449652,
           "civ": "Jurchens",
@@ -26964,5 +27108,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

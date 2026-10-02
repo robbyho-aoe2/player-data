@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1316,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1215,
+        "totalGames": 1321,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1233,
         "peakRating": 1335
       },
       "matches": [
+        {
+          "matchId": 510487354,
+          "civ": "Saracens",
+          "map": "Scandinavia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T07:55:40.000Z",
+          "dur": 1574,
+          "opponents": [
+            {
+              "profileId": 8662908,
+              "name": "MMMartin88"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510444718,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:09:40.000Z",
+          "dur": 25,
+          "opponents": [
+            {
+              "profileId": 4163703,
+              "name": "Scotland_Yard_s019"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510232478,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:36:04.000Z",
+          "dur": 1814,
+          "opponents": [
+            {
+              "profileId": 3644379,
+              "name": "\u51b0\u6ac3"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510195689,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:41:03.000Z",
+          "dur": 1323,
+          "opponents": [
+            {
+              "profileId": 4249692,
+              "name": "KIngon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510039526,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T05:22:55.000Z",
+          "dur": 1212,
+          "opponents": [
+            {
+              "profileId": 3166819,
+              "name": "\u8acb\u7d66\u6211\u9ec3\u91d1"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509791282,
           "civ": "Spanish",
@@ -21110,12 +21195,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 492,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1078,
+        "totalGames": 494,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1105,
         "peakRating": 1264
       },
       "matches": [
+        {
+          "matchId": 510150019,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:47:32.000Z",
+          "dur": 2115,
+          "opponents": [
+            {
+              "profileId": 1094791,
+              "name": "ionut_s"
+            },
+            {
+              "profileId": 11018970,
+              "name": "Filip_jede_Meso"
+            },
+            {
+              "profileId": 5664377,
+              "name": "Quantum rage"
+            },
+            {
+              "profileId": 2319079,
+              "name": "Arran"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2226970,
+              "name": "Kaleel"
+            },
+            {
+              "profileId": 936662,
+              "name": "Hurgha"
+            },
+            {
+              "profileId": 1770764,
+              "name": "Raymond La Casquette"
+            }
+          ]
+        },
+        {
+          "matchId": 509987849,
+          "civ": "Gurjaras",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T23:29:35.000Z",
+          "dur": 884,
+          "opponents": [
+            {
+              "profileId": 5247430,
+              "name": "[CL] Heisenberg"
+            },
+            {
+              "profileId": 19369845,
+              "name": "GATITO THERIAN SALVAJE"
+            },
+            {
+              "profileId": 19800416,
+              "name": "aL4nK-47"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2738572,
+              "name": "ChumaPrime"
+            },
+            {
+              "profileId": 10654322,
+              "name": "lu23"
+            }
+          ]
+        },
         {
           "matchId": 509757503,
           "civ": "Dravidians",
@@ -36892,5 +37053,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

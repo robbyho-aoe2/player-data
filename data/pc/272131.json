@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 30,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1131,
         "peakRating": 1133
       },
@@ -509,12 +509,182 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2410,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1289,
-        "peakRating": 1303
+        "totalGames": 2415,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1266,
+        "peakRating": 1314
       },
       "matches": [
+        {
+          "matchId": 510390105,
+          "civ": "Ethiopians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:35:25.000Z",
+          "dur": 832,
+          "opponents": [
+            {
+              "profileId": 19270764,
+              "name": "psilocybin"
+            },
+            {
+              "profileId": 4743909,
+              "name": "{LBA} Carlitos"
+            },
+            {
+              "profileId": 2763206,
+              "name": "{LBA} DFM"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2142497,
+              "name": "Wallace"
+            },
+            {
+              "profileId": 1237564,
+              "name": "ockm"
+            }
+          ]
+        },
+        {
+          "matchId": 510387292,
+          "civ": "Vietnamese",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:21:43.000Z",
+          "dur": 718,
+          "opponents": [
+            {
+              "profileId": 3958884,
+              "name": "MPW_SCRaTCH"
+            },
+            {
+              "profileId": 1806458,
+              "name": "pickmyself or end"
+            },
+            {
+              "profileId": 2949021,
+              "name": "[CL] Poeta Violento IX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2142497,
+              "name": "Wallace"
+            },
+            {
+              "profileId": 1237564,
+              "name": "ockm"
+            }
+          ]
+        },
+        {
+          "matchId": 510381739,
+          "civ": "Incas",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:55:50.000Z",
+          "dur": 1382,
+          "opponents": [
+            {
+              "profileId": 2963712,
+              "name": "Im a Smurf"
+            },
+            {
+              "profileId": 255787,
+              "name": "rizz"
+            },
+            {
+              "profileId": 1945250,
+              "name": "Whitebear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1237564,
+              "name": "ockm"
+            },
+            {
+              "profileId": 2142497,
+              "name": "Wallace"
+            }
+          ]
+        },
+        {
+          "matchId": 510371164,
+          "civ": "Wei",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:09:22.000Z",
+          "dur": 2293,
+          "opponents": [
+            {
+              "profileId": 20000604,
+              "name": "\u5728\u91cc\u9762"
+            },
+            {
+              "profileId": 18198157,
+              "name": "VP789"
+            },
+            {
+              "profileId": 5038306,
+              "name": "\u0412\u043e\u0440\u043e\u043d\u044f"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1237564,
+              "name": "ockm"
+            },
+            {
+              "profileId": 2142497,
+              "name": "Wallace"
+            }
+          ]
+        },
+        {
+          "matchId": 510364245,
+          "civ": "Malians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:38:21.000Z",
+          "dur": 1711,
+          "opponents": [
+            {
+              "profileId": 24053272,
+              "name": "CounT_DracuLa"
+            },
+            {
+              "profileId": 6199660,
+              "name": "Don3z"
+            },
+            {
+              "profileId": 20736391,
+              "name": "The-Goth-Father"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1237564,
+              "name": "ockm"
+            },
+            {
+              "profileId": 2142497,
+              "name": "Wallace"
+            }
+          ]
+        },
         {
           "matchId": 508714480,
           "civ": "Vietnamese",
@@ -81211,5 +81381,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

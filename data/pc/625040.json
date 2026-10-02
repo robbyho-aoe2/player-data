@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 882,
         "peakRating": 930
       },
@@ -165,12 +165,150 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 16,
-        "pulledDate": "2026-09-28",
-        "latestRating": 953,
-        "peakRating": 963
+        "totalGames": 21,
+        "pulledDate": "2026-10-02",
+        "latestRating": 952,
+        "peakRating": 983
       },
       "matches": [
+        {
+          "matchId": 510034190,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:35:01.000Z",
+          "dur": 1289,
+          "opponents": [
+            {
+              "profileId": 17617230,
+              "name": "C4$TL3 a0e"
+            },
+            {
+              "profileId": 25202637,
+              "name": "D4zai"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2750008,
+              "name": "[ESTG] Daupoch"
+            }
+          ]
+        },
+        {
+          "matchId": 510032343,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:19:03.000Z",
+          "dur": 782,
+          "opponents": [
+            {
+              "profileId": 529895,
+              "name": "GTX-5090"
+            },
+            {
+              "profileId": 1200258,
+              "name": "Prcmt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2750008,
+              "name": "[ESTG] Daupoch"
+            }
+          ]
+        },
+        {
+          "matchId": 510027396,
+          "civ": "Cumans",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:40:04.000Z",
+          "dur": 2136,
+          "opponents": [
+            {
+              "profileId": 9122868,
+              "name": "Slidhane"
+            },
+            {
+              "profileId": 18692123,
+              "name": "Addeos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2750008,
+              "name": "[ESTG] Daupoch"
+            }
+          ]
+        },
+        {
+          "matchId": 510026357,
+          "civ": "Cumans",
+          "map": "Pilgrims",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:33:03.000Z",
+          "dur": 215,
+          "opponents": [
+            {
+              "profileId": 26155050,
+              "name": "alexander.monroy"
+            },
+            {
+              "profileId": 9736761,
+              "name": "Maj. Payne"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2750008,
+              "name": "[ESTG] Daupoch"
+            }
+          ]
+        },
+        {
+          "matchId": 510013325,
+          "civ": "Sicilians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:07:13.000Z",
+          "dur": 1380,
+          "opponents": [
+            {
+              "profileId": 300279,
+              "name": "Josmi-Ga'lock"
+            },
+            {
+              "profileId": 19755803,
+              "name": "ChronoMiner"
+            },
+            {
+              "profileId": 8910184,
+              "name": "Abyssus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5715613,
+              "name": "malin la estrella xd"
+            },
+            {
+              "profileId": 21002163,
+              "name": "billzz0982"
+            }
+          ]
+        },
         {
           "matchId": 509737884,
           "civ": "Sicilians",
@@ -672,5 +810,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

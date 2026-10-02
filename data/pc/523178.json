@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 433,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1588,
         "peakRating": 1653
       },
@@ -6957,12 +6957,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2105,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1562,
+        "totalGames": 2106,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1539,
         "peakRating": 1593
       },
       "matches": [
+        {
+          "matchId": 510602952,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:56:54.000Z",
+          "dur": 2518,
+          "opponents": [
+            {
+              "profileId": 10991336,
+              "name": "Replikator"
+            },
+            {
+              "profileId": 370633,
+              "name": "Gladiator"
+            },
+            {
+              "profileId": 625034,
+              "name": "TrCL.MAN1AC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16757391,
+              "name": "Seve"
+            },
+            {
+              "profileId": 1832738,
+              "name": "Sielunvihollinen"
+            }
+          ]
+        },
         {
           "matchId": 509631880,
           "civ": "Koreans",
@@ -69192,5 +69226,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

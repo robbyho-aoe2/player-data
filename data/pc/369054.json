@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 598,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1642,
         "peakRating": 1718
       },
@@ -9622,12 +9622,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 153,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1388,
+        "totalGames": 156,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1394,
         "peakRating": 1471
       },
       "matches": [
+        {
+          "matchId": 510587332,
+          "civ": "Danes",
+          "map": "Baltic",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T18:45:32.000Z",
+          "dur": 3864,
+          "opponents": [
+            {
+              "profileId": 5604089,
+              "name": "ClickClackk"
+            },
+            {
+              "profileId": 4093209,
+              "name": "haksve"
+            },
+            {
+              "profileId": 373074,
+              "name": "einar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20829710,
+              "name": "jendrooh"
+            },
+            {
+              "profileId": 9004322,
+              "name": "Anubis"
+            }
+          ]
+        },
+        {
+          "matchId": 510377120,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:35:25.000Z",
+          "dur": 1403,
+          "opponents": [
+            {
+              "profileId": 21278546,
+              "name": "DerZerfetzer"
+            },
+            {
+              "profileId": 216242,
+              "name": "DerButtermesserSchlitzer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1968438,
+              "name": "Bilu"
+            }
+          ]
+        },
+        {
+          "matchId": 510370376,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:06:09.000Z",
+          "dur": 1501,
+          "opponents": [
+            {
+              "profileId": 20845654,
+              "name": "ofespinelman"
+            },
+            {
+              "profileId": 1745962,
+              "name": "The Daunting Knight"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1968438,
+              "name": "Bilu"
+            }
+          ]
+        },
         {
           "matchId": 509730230,
           "civ": "Poles",
@@ -14834,5 +14920,6 @@
   },
   "country": "pl",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf1",
-  "countryName": "Poland"
+  "countryName": "Poland",
+  "platform": "Steam"
 }

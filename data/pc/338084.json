@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 110,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1165,
         "peakRating": 1246
       },
@@ -1669,12 +1669,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 643,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1193,
+        "totalGames": 646,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1212,
         "peakRating": 1379
       },
       "matches": [
+        {
+          "matchId": 510352025,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:40:55.000Z",
+          "dur": 237,
+          "opponents": [
+            {
+              "profileId": 23331828,
+              "name": "Grim Reaper"
+            },
+            {
+              "profileId": 23189483,
+              "name": "badeMJoon"
+            },
+            {
+              "profileId": 23178985,
+              "name": "Arfah"
+            },
+            {
+              "profileId": 12203536,
+              "name": "Rin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5438495,
+              "name": "\u041c\u043e\u0440\u043e\u0437\u0435\u0446\u044c"
+            },
+            {
+              "profileId": 4182432,
+              "name": "Don'tPushTheHorses"
+            },
+            {
+              "profileId": 811437,
+              "name": "M.S."
+            }
+          ]
+        },
+        {
+          "matchId": 510337817,
+          "civ": "Incas",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:26:27.000Z",
+          "dur": 2066,
+          "opponents": [
+            {
+              "profileId": 1934504,
+              "name": "a7xbast"
+            },
+            {
+              "profileId": 1949255,
+              "name": "French Connection"
+            },
+            {
+              "profileId": 6430333,
+              "name": "\u4f1a\u505a\u68a6\u7684\u61d2\u732a"
+            },
+            {
+              "profileId": 18962428,
+              "name": "paultse"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 866433,
+              "name": "Elfelo"
+            },
+            {
+              "profileId": 2137087,
+              "name": "kolim"
+            },
+            {
+              "profileId": 23779854,
+              "name": "Dr. Watson"
+            }
+          ]
+        },
+        {
+          "matchId": 510139100,
+          "civ": "Huns",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:55:55.000Z",
+          "dur": 1297,
+          "opponents": [
+            {
+              "profileId": 20873850,
+              "name": "\u4e2d\u56fdNO.1"
+            },
+            {
+              "profileId": 10797663,
+              "name": "Globox"
+            },
+            {
+              "profileId": 5323662,
+              "name": "kbmatador17"
+            },
+            {
+              "profileId": 2478289,
+              "name": "HasNicktir"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1260786,
+              "name": "milaqet"
+            },
+            {
+              "profileId": 5747420,
+              "name": "\u516d\u516d\u516d"
+            },
+            {
+              "profileId": 4808911,
+              "name": "Frodon le Hobbit"
+            }
+          ]
+        },
         {
           "matchId": 508470409,
           "civ": "Huns",
@@ -17218,5 +17344,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

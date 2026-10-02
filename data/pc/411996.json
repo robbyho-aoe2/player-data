@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 70,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1777,
         "peakRating": 1900
       },
@@ -911,12 +911,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 83,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1494,
+        "totalGames": 87,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1524,
         "peakRating": 1625
       },
       "matches": [
+        {
+          "matchId": 510680512,
+          "civ": "Portuguese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T03:49:53.000Z",
+          "dur": 2175,
+          "opponents": [
+            {
+              "profileId": 1447950,
+              "name": "theblindleadtheblind"
+            },
+            {
+              "profileId": 2932719,
+              "name": "buttsoup"
+            },
+            {
+              "profileId": 3324605,
+              "name": "SteelWoolHurts"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1934504,
+              "name": "a7xbast"
+            },
+            {
+              "profileId": 3274792,
+              "name": "MJZ"
+            }
+          ]
+        },
+        {
+          "matchId": 510656318,
+          "civ": "Sicilians",
+          "map": "Yucatan",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T01:14:25.000Z",
+          "dur": 1298,
+          "opponents": [
+            {
+              "profileId": 836433,
+              "name": "Burak"
+            },
+            {
+              "profileId": 2437780,
+              "name": "Negroni"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3274792,
+              "name": "MJZ"
+            }
+          ]
+        },
+        {
+          "matchId": 510653500,
+          "civ": "Vietnamese",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T00:56:55.000Z",
+          "dur": 639,
+          "opponents": [
+            {
+              "profileId": 2511256,
+              "name": "SirM"
+            },
+            {
+              "profileId": 3011459,
+              "name": "Rayita"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3274792,
+              "name": "MJZ"
+            }
+          ]
+        },
+        {
+          "matchId": 510244796,
+          "civ": "Magyars",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T04:03:51.000Z",
+          "dur": 1290,
+          "opponents": [
+            {
+              "profileId": 734028,
+              "name": "LRNI MarinM"
+            },
+            {
+              "profileId": 8858676,
+              "name": "LRNI_UzuI"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3274792,
+              "name": "MJZ"
+            }
+          ]
+        },
         {
           "matchId": 509813587,
           "civ": "Bulgarians",
@@ -3264,5 +3376,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

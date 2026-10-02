@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 38,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1079,
         "peakRating": 1154
       },
@@ -675,12 +675,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 38,
-        "pulledDate": "2026-09-28",
-        "latestRating": 971,
-        "peakRating": 971
+        "totalGames": 39,
+        "pulledDate": "2026-10-02",
+        "latestRating": 989,
+        "peakRating": 989
       },
       "matches": [
+        {
+          "matchId": 510570220,
+          "civ": "Malay",
+          "map": "Yucatan",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:22:52.000Z",
+          "dur": 1621,
+          "opponents": [
+            {
+              "profileId": 2564726,
+              "name": "-Dark-Bambi-"
+            },
+            {
+              "profileId": 5050788,
+              "name": "Noonanx"
+            },
+            {
+              "profileId": 21817827,
+              "name": "/?"
+            },
+            {
+              "profileId": 2427911,
+              "name": "Notorious Guib"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6663189,
+              "name": "Mozart"
+            },
+            {
+              "profileId": 9531955,
+              "name": "Mojojoto"
+            },
+            {
+              "profileId": 22515317,
+              "name": "Tom"
+            }
+          ]
+        },
         {
           "matchId": 509284705,
           "civ": "Burmese",
@@ -2282,5 +2324,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

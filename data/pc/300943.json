@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 173,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1664,
         "peakRating": 1737
       },
@@ -2800,12 +2800,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 315,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1630,
+        "totalGames": 317,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1623,
         "peakRating": 1662
       },
       "matches": [
+        {
+          "matchId": 510665140,
+          "civ": "Saxons",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:07:50.000Z",
+          "dur": 1655,
+          "opponents": [
+            {
+              "profileId": 5466626,
+              "name": "DarkSIde1405"
+            },
+            {
+              "profileId": 1404550,
+              "name": "DS_SayGG"
+            },
+            {
+              "profileId": 501110,
+              "name": "Thor"
+            },
+            {
+              "profileId": 225968,
+              "name": "[Anvil] Suicidal Meat Shield"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5450413,
+              "name": "HUGO"
+            },
+            {
+              "profileId": 20131717,
+              "name": "\u4f60\u53ef\u4ee5\u6253\u6211\u961f\u53cb\u5417"
+            },
+            {
+              "profileId": 6313440,
+              "name": "YiMia"
+            }
+          ]
+        },
+        {
+          "matchId": 510660012,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T01:36:48.000Z",
+          "dur": 1374,
+          "opponents": [
+            {
+              "profileId": 3220941,
+              "name": "_13_Enzus_Arg"
+            },
+            {
+              "profileId": 3774002,
+              "name": "__24_Thorfin_Arg"
+            },
+            {
+              "profileId": 12266384,
+              "name": "Revvv"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20215304,
+              "name": "Cafernaun"
+            },
+            {
+              "profileId": 2962712,
+              "name": "[SotC] Frank Castle"
+            }
+          ]
+        },
         {
           "matchId": 504134482,
           "civ": "Muisca",
@@ -14605,5 +14681,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

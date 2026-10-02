@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1066,
         "peakRating": 1104
       },
@@ -349,12 +349,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 522,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1155,
+        "totalGames": 523,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1137,
         "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 509869369,
+          "civ": "Goths",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:13:59.000Z",
+          "dur": 3378,
+          "opponents": [
+            {
+              "profileId": 209485,
+              "name": "BombayGypsy"
+            },
+            {
+              "profileId": 24131185,
+              "name": "Telepateu"
+            },
+            {
+              "profileId": 5136541,
+              "name": "\u272a GiBiG"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16654895,
+              "name": "xxy"
+            },
+            {
+              "profileId": 16399328,
+              "name": "531055658123"
+            }
+          ]
+        },
         {
           "matchId": 509332320,
           "civ": "Goths",
@@ -18499,5 +18533,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

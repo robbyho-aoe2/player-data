@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 89,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1120,
-        "peakRating": 1120
+        "totalGames": 93,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1083,
+        "peakRating": 1134
       },
       "matches": [
+        {
+          "matchId": 510645509,
+          "civ": "Celts",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T00:03:05.000Z",
+          "dur": 2036,
+          "opponents": [
+            {
+              "profileId": 22307737,
+              "name": "Basti\u00e3o"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510390976,
+          "civ": "Jurchens",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:38:46.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 20189368,
+              "name": "AndyT"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510229365,
+          "civ": "Celts",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:16:16.000Z",
+          "dur": 438,
+          "opponents": [
+            {
+              "profileId": 2539169,
+              "name": "cfbarragan"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510223980,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:44:15.000Z",
+          "dur": 1742,
+          "opponents": [
+            {
+              "profileId": 22608630,
+              "name": "peroncho rts"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508785658,
           "civ": "Khitans",
@@ -1543,7 +1611,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 32,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1167,
         "peakRating": 1173
       },
@@ -2638,5 +2706,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

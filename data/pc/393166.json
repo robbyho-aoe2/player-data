@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 41,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-02",
         "latestRating": 1183,
         "peakRating": 1197
       },
@@ -685,12 +685,166 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 503,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1335,
+        "totalGames": 508,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1317,
         "peakRating": 1425
       },
       "matches": [
+        {
+          "matchId": 510603294,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:58:33.000Z",
+          "dur": 1687,
+          "opponents": [
+            {
+              "profileId": 1326469,
+              "name": "PIP.doed"
+            },
+            {
+              "profileId": 2917410,
+              "name": "sguu"
+            },
+            {
+              "profileId": 4169031,
+              "name": "applet"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21959217,
+              "name": "larysnodder"
+            },
+            {
+              "profileId": 516716,
+              "name": "Schlingelbub"
+            }
+          ]
+        },
+        {
+          "matchId": 510599770,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:41:56.000Z",
+          "dur": 710,
+          "opponents": [
+            {
+              "profileId": 6562606,
+              "name": "SgtSallyPiper"
+            },
+            {
+              "profileId": 382346,
+              "name": "boluwatifeajibade"
+            },
+            {
+              "profileId": 6674708,
+              "name": "mousenz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 516716,
+              "name": "Schlingelbub"
+            },
+            {
+              "profileId": 21959217,
+              "name": "larysnodder"
+            }
+          ]
+        },
+        {
+          "matchId": 510594764,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:19:23.000Z",
+          "dur": 1182,
+          "opponents": [
+            {
+              "profileId": 6562606,
+              "name": "SgtSallyPiper"
+            },
+            {
+              "profileId": 6674708,
+              "name": "mousenz"
+            },
+            {
+              "profileId": 7547639,
+              "name": "Execute290"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21959217,
+              "name": "larysnodder"
+            },
+            {
+              "profileId": 516716,
+              "name": "Schlingelbub"
+            }
+          ]
+        },
+        {
+          "matchId": 510586698,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T18:42:36.000Z",
+          "dur": 1238,
+          "opponents": [
+            {
+              "profileId": 7010494,
+              "name": "Marcellus"
+            },
+            {
+              "profileId": 985849,
+              "name": "Whiteshadow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21959217,
+              "name": "larysnodder"
+            }
+          ]
+        },
+        {
+          "matchId": 510582443,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T18:22:39.000Z",
+          "dur": 987,
+          "opponents": [
+            {
+              "profileId": 2387083,
+              "name": "DNA"
+            },
+            {
+              "profileId": 1759063,
+              "name": "LunaticRider"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21959217,
+              "name": "larysnodder"
+            }
+          ]
+        },
         {
           "matchId": 475871227,
           "civ": "Mongols",
@@ -17654,5 +17808,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

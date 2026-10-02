@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 23,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1235,
         "peakRating": 1281
       },
@@ -398,12 +398,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 745,
-        "pulledDate": "2026-09-28",
-        "latestRating": 939,
+        "totalGames": 748,
+        "pulledDate": "2026-10-02",
+        "latestRating": 986,
         "peakRating": 1224
       },
       "matches": [
+        {
+          "matchId": 510598203,
+          "civ": "Cumans",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:35:04.000Z",
+          "dur": 1952,
+          "opponents": [
+            {
+              "profileId": 14797163,
+              "name": "Reliquiensammler_Amboss"
+            },
+            {
+              "profileId": 14797056,
+              "name": "45erKasper"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2667977,
+              "name": "CHRISTO LE ROI8"
+            }
+          ]
+        },
+        {
+          "matchId": 510581320,
+          "civ": "Ethiopians",
+          "map": "Yucatan",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T18:17:25.000Z",
+          "dur": 1570,
+          "opponents": [
+            {
+              "profileId": 15840990,
+              "name": "Alexis angel666"
+            },
+            {
+              "profileId": 2397983,
+              "name": "alejandro.cfs"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9989954,
+              "name": "Blue"
+            }
+          ]
+        },
+        {
+          "matchId": 510364383,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:39:02.000Z",
+          "dur": 1956,
+          "opponents": [
+            {
+              "profileId": 14381936,
+              "name": "Lapsekili"
+            },
+            {
+              "profileId": 2120539,
+              "name": "JiLeTT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18489783,
+              "name": "Caio Pai"
+            }
+          ]
+        },
         {
           "matchId": 509306205,
           "civ": "Cumans",
@@ -20812,5 +20890,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

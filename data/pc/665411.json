@@ -6,25 +6,127 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 559,
-        "pulledDate": "2026-09-28",
-        "latestRating": 994,
+        "totalGames": 565,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1025,
         "peakRating": 1195
       },
       "matches": [
+        {
+          "matchId": 510395613,
+          "civ": "Japanese",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:03:34.000Z",
+          "dur": 1260,
+          "opponents": [
+            {
+              "profileId": 12231727,
+              "name": "GABS ONE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510391845,
+          "civ": "Japanese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:43:30.000Z",
+          "dur": 1054,
+          "opponents": [
+            {
+              "profileId": 24113086,
+              "name": "Luzbelito8824"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510136138,
+          "civ": "Burgundians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:41:14.000Z",
+          "dur": 1314,
+          "opponents": [
+            {
+              "profileId": 3031895,
+              "name": "Snowgrass Kingdom"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509926616,
+          "civ": "Vietnamese",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:16:04.000Z",
+          "dur": 1271,
+          "opponents": [
+            {
+              "profileId": 22627843,
+              "name": "Arthedain"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509922018,
+          "civ": "Burgundians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:54:23.000Z",
+          "dur": 1167,
+          "opponents": [
+            {
+              "profileId": 2358824,
+              "name": "knoppersfraiser"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509919990,
+          "civ": "Burgundians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:44:27.000Z",
+          "dur": 90,
+          "opponents": [
+            {
+              "profileId": 8989836,
+              "name": "Kota7"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509372638,
           "civ": "Japanese",
@@ -9532,12 +9634,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 528,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1092,
+        "totalGames": 530,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1099,
         "peakRating": 1271
       },
       "matches": [
+        {
+          "matchId": 510403623,
+          "civ": "Burgundians",
+          "map": "Yucatan",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:49:17.000Z",
+          "dur": 3339,
+          "opponents": [
+            {
+              "profileId": 2508018,
+              "name": "JuaniXk"
+            },
+            {
+              "profileId": 1305477,
+              "name": "Hurut"
+            },
+            {
+              "profileId": 1264409,
+              "name": "Lehel_Kurt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5559066,
+              "name": "JENDRIK"
+            },
+            {
+              "profileId": 2933868,
+              "name": "tttoni18"
+            }
+          ]
+        },
+        {
+          "matchId": 509934878,
+          "civ": "Japanese",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:53:16.000Z",
+          "dur": 2317,
+          "opponents": [
+            {
+              "profileId": 993245,
+              "name": "Khan-O-pi"
+            },
+            {
+              "profileId": 4394962,
+              "name": "Yop"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2933868,
+              "name": "tttoni18"
+            }
+          ]
+        },
         {
           "matchId": 508487648,
           "civ": "Japanese",
@@ -26565,5 +26727,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

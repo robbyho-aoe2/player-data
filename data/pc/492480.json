@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 551,
-        "pulledDate": "2026-09-14",
-        "latestRating": 971,
+        "totalGames": 552,
+        "pulledDate": "2026-10-02",
+        "latestRating": 954,
         "peakRating": 1016
       },
       "matches": [
+        {
+          "matchId": 510329702,
+          "civ": "Incas",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:42:26.000Z",
+          "dur": 1138,
+          "opponents": [
+            {
+              "profileId": 3216552,
+              "name": "Chaves"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 503565520,
           "civ": "Franks",
@@ -9397,7 +9414,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 13,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-10-02",
         "latestRating": 972,
         "peakRating": 1034
       },
@@ -9937,5 +9954,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 156,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1606,
         "peakRating": 1724
       },
@@ -2525,12 +2525,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1391,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1592,
+        "totalGames": 1394,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1584,
         "peakRating": 1673
       },
       "matches": [
+        {
+          "matchId": 510672711,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:55:32.000Z",
+          "dur": 1923,
+          "opponents": [
+            {
+              "profileId": 20660379,
+              "name": "[TUC] Fachirichi"
+            },
+            {
+              "profileId": 5115211,
+              "name": "[TUC] P E L U S A"
+            },
+            {
+              "profileId": 2258203,
+              "name": "[TUC]Morants"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 8613742,
+              "name": "Agua de Puquio"
+            },
+            {
+              "profileId": 2364008,
+              "name": "Son Of Alerik"
+            }
+          ]
+        },
+        {
+          "matchId": 510668316,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:27:44.000Z",
+          "dur": 1300,
+          "opponents": [
+            {
+              "profileId": 6592182,
+              "name": "Dazzle"
+            },
+            {
+              "profileId": 24308915,
+              "name": "K1llaCapPilla"
+            },
+            {
+              "profileId": 4587769,
+              "name": "Noxxz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4260639,
+              "name": "ShevY ;"
+            },
+            {
+              "profileId": 2364008,
+              "name": "Son Of Alerik"
+            }
+          ]
+        },
+        {
+          "matchId": 510664842,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:06:20.000Z",
+          "dur": 952,
+          "opponents": [
+            {
+              "profileId": 2049975,
+              "name": "MGmoney28"
+            },
+            {
+              "profileId": 2573359,
+              "name": "PowerRanger"
+            },
+            {
+              "profileId": 6592182,
+              "name": "Dazzle"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2364008,
+              "name": "Son Of Alerik"
+            },
+            {
+              "profileId": 4260639,
+              "name": "ShevY ;"
+            }
+          ]
+        },
         {
           "matchId": 509814347,
           "civ": "Mongols",
@@ -56355,5 +56457,6 @@
   },
   "country": "pe",
   "countryIcon": "\ud83c\uddf5\ud83c\uddea",
-  "countryName": "Peru"
+  "countryName": "Peru",
+  "platform": "Steam"
 }

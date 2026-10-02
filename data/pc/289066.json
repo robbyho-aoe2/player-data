@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 37,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1145,
-        "peakRating": 1159
+        "totalGames": 38,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1163,
+        "peakRating": 1163
       },
       "matches": [
+        {
+          "matchId": 510574096,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:42:28.000Z",
+          "dur": 1621,
+          "opponents": [
+            {
+              "profileId": 25845906,
+              "name": "MOON"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 439589476,
           "civ": "Poles",
@@ -621,12 +638,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 796,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1216,
+        "totalGames": 799,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1204,
         "peakRating": 1451
       },
       "matches": [
+        {
+          "matchId": 510618843,
+          "civ": "Britons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:15:08.000Z",
+          "dur": 1243,
+          "opponents": [
+            {
+              "profileId": 9821512,
+              "name": "NASPI"
+            },
+            {
+              "profileId": 17809375,
+              "name": "ThePromise87"
+            },
+            {
+              "profileId": 15634894,
+              "name": "ADOBO x PRODIGY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4272913,
+              "name": "Aphelink"
+            },
+            {
+              "profileId": 3399636,
+              "name": "Mauri Ramone"
+            }
+          ]
+        },
+        {
+          "matchId": 510372250,
+          "civ": "Huns",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:13:58.000Z",
+          "dur": 3626,
+          "opponents": [
+            {
+              "profileId": 4444296,
+              "name": "Schlosstrunk"
+            },
+            {
+              "profileId": 625240,
+              "name": "Kravallo"
+            },
+            {
+              "profileId": 12183152,
+              "name": "VooDooGoo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12031018,
+              "name": "blizzopop"
+            },
+            {
+              "profileId": 2420946,
+              "name": "Thiers1789"
+            }
+          ]
+        },
+        {
+          "matchId": 510174029,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:37:47.000Z",
+          "dur": 1902,
+          "opponents": [
+            {
+              "profileId": 3196128,
+              "name": "Subutay"
+            },
+            {
+              "profileId": 2386606,
+              "name": "agahgenc"
+            },
+            {
+              "profileId": 2391102,
+              "name": "res"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23665240,
+              "name": "petey_hs"
+            },
+            {
+              "profileId": 1806458,
+              "name": "pickmyself or end"
+            }
+          ]
+        },
         {
           "matchId": 507556184,
           "civ": "Gurjaras",
@@ -30093,5 +30212,6 @@
   },
   "country": "it",
   "countryIcon": "\ud83c\uddee\ud83c\uddf9",
-  "countryName": "Italy"
+  "countryName": "Italy",
+  "platform": "Steam"
 }

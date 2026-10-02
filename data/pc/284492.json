@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 594,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1725,
-        "peakRating": 1725
+        "totalGames": 596,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1729,
+        "peakRating": 1729
       },
       "matches": [
+        {
+          "matchId": 510628266,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:08:53.000Z",
+          "dur": 1510,
+          "opponents": [
+            {
+              "profileId": 19022963,
+              "name": "GA_incil__ay"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510206725,
+          "civ": "Lithuanians",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:53:04.000Z",
+          "dur": 1016,
+          "opponents": [
+            {
+              "profileId": 6375678,
+              "name": "SVTT | \u0410\u043b\u044c\u043f\u0438\u043d\u0438\u0441\u0442"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508765194,
           "civ": "Lithuanians",
@@ -9566,12 +9600,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 250,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1496,
+        "totalGames": 252,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1494,
         "peakRating": 1550
       },
       "matches": [
+        {
+          "matchId": 510203850,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:35:05.000Z",
+          "dur": 1293,
+          "opponents": [
+            {
+              "profileId": 2085359,
+              "name": "VL Formolin"
+            },
+            {
+              "profileId": 16807978,
+              "name": "VL marianinka"
+            },
+            {
+              "profileId": 246481,
+              "name": "VL SlenderMan"
+            },
+            {
+              "profileId": 2524306,
+              "name": "VL Retember"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1435609,
+              "name": "[KoA]M4GNO"
+            },
+            {
+              "profileId": 20181185,
+              "name": "Santoryu"
+            },
+            {
+              "profileId": 13976214,
+              "name": "Kanon"
+            }
+          ]
+        },
+        {
+          "matchId": 509978029,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:27:44.000Z",
+          "dur": 548,
+          "opponents": [
+            {
+              "profileId": 238927,
+              "name": "Lucio Aurelio C\u00f3modo"
+            },
+            {
+              "profileId": 5558748,
+              "name": "momoferto"
+            },
+            {
+              "profileId": 7911793,
+              "name": "Elian"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4250381,
+              "name": "Jardel"
+            },
+            {
+              "profileId": 23167724,
+              "name": "Flash"
+            }
+          ]
+        },
         {
           "matchId": 508089661,
           "civ": "Lithuanians",
@@ -16964,5 +17074,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

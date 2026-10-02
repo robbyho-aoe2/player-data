@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 248,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1259,
+        "totalGames": 249,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1245,
         "peakRating": 1293
       },
       "matches": [
+        {
+          "matchId": 510317410,
+          "civ": "Mongols",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:37:03.000Z",
+          "dur": 1381,
+          "opponents": [
+            {
+              "profileId": 21503415,
+              "name": "\u672a\u77e5103"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509673213,
           "civ": "Chinese",
@@ -3712,12 +3729,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 292,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1203,
+        "totalGames": 294,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1184,
         "peakRating": 1336
       },
       "matches": [
+        {
+          "matchId": 510311879,
+          "civ": "Teutons",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:06:06.000Z",
+          "dur": 1733,
+          "opponents": [
+            {
+              "profileId": 20849037,
+              "name": "Sir Deep purple 2"
+            },
+            {
+              "profileId": 10739159,
+              "name": "Arda Asar"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2302228,
+              "name": "Bichir"
+            }
+          ]
+        },
+        {
+          "matchId": 510307329,
+          "civ": "Poles",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T13:40:51.000Z",
+          "dur": 1123,
+          "opponents": [
+            {
+              "profileId": 11304257,
+              "name": "Diablo"
+            },
+            {
+              "profileId": 11404213,
+              "name": "Wi\u0111ukind von Westfal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1868411,
+              "name": "Kirara"
+            }
+          ]
+        },
         {
           "matchId": 507682010,
           "civ": "Berbers",
@@ -9045,5 +9114,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

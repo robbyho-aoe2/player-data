@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 13,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1377
       },
       "matches": [
@@ -145,12 +145,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4949,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1313,
+        "totalGames": 4951,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1310,
         "peakRating": 1568
       },
       "matches": [
+        {
+          "matchId": 510053766,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:00:44.000Z",
+          "dur": 1737,
+          "opponents": [
+            {
+              "profileId": 2669047,
+              "name": "man_mel49"
+            },
+            {
+              "profileId": 3155843,
+              "name": "Shane-Saw FR"
+            },
+            {
+              "profileId": 5798536,
+              "name": "\u86cb\u96d5"
+            },
+            {
+              "profileId": 25695892,
+              "name": "Shotel California"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3473693,
+              "name": "\u4ed9\u9006\u8bb8\u6728"
+            },
+            {
+              "profileId": 10606396,
+              "name": "GemGem27"
+            },
+            {
+              "profileId": 25695291,
+              "name": "5720638"
+            }
+          ]
+        },
+        {
+          "matchId": 510050758,
+          "civ": "Bulgarians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:27:32.000Z",
+          "dur": 1691,
+          "opponents": [
+            {
+              "profileId": 25074764,
+              "name": "gianghodd01"
+            },
+            {
+              "profileId": 531438,
+              "name": "8co"
+            },
+            {
+              "profileId": 2669047,
+              "name": "man_mel49"
+            },
+            {
+              "profileId": 10606396,
+              "name": "GemGem27"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 45726,
+              "name": "Valodimer"
+            },
+            {
+              "profileId": 1047257,
+              "name": "mothersky"
+            },
+            {
+              "profileId": 12453157,
+              "name": "muui"
+            }
+          ]
+        },
         {
           "matchId": 509518381,
           "civ": "Franks",
@@ -47911,5 +47995,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

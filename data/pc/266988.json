@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 903,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1162,
+        "totalGames": 906,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1176,
         "peakRating": 1309
       },
       "matches": [
+        {
+          "matchId": 510593198,
+          "civ": "Malians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:11:49.000Z",
+          "dur": 1292,
+          "opponents": [
+            {
+              "profileId": 2416176,
+              "name": "polop88"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510591981,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:06:17.000Z",
+          "dur": 229,
+          "opponents": [
+            {
+              "profileId": 11666995,
+              "name": "Magistral"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510159980,
+          "civ": "Aztecs",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:32:00.000Z",
+          "dur": 1487,
+          "opponents": [
+            {
+              "profileId": 5288570,
+              "name": "Felix"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508721975,
           "civ": "Khmer",
@@ -15381,7 +15432,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -15456,5 +15507,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

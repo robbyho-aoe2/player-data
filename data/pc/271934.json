@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1626,
-        "pulledDate": "2026-09-28",
+        "totalGames": 1628,
+        "pulledDate": "2026-10-02",
         "latestRating": 1605,
         "peakRating": 1740
       },
       "matches": [
+        {
+          "matchId": 509781004,
+          "civ": "Persians",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:07:53.000Z",
+          "dur": 1372,
+          "opponents": [
+            {
+              "profileId": 19259547,
+              "name": "troll_oscuro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509777038,
+          "civ": "Varangians",
+          "map": "Four Lakes",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T00:44:42.000Z",
+          "dur": 1276,
+          "opponents": [
+            {
+              "profileId": 6419082,
+              "name": "AxD | Keiokenkun-Uno-Puro"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509755971,
           "civ": "Danes",
@@ -24405,7 +24439,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 630,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1493,
         "peakRating": 1590
       },
@@ -39808,5 +39842,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }
