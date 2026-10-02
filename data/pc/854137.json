@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 967,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1154,
         "peakRating": 1269
       },
@@ -15519,12 +15519,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 336,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1261,
+        "totalGames": 337,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1247,
         "peakRating": 1325
       },
       "matches": [
+        {
+          "matchId": 510670589,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T02:41:59.000Z",
+          "dur": 1694,
+          "opponents": [
+            {
+              "profileId": 10456480,
+              "name": "SsSs"
+            },
+            {
+              "profileId": 4819441,
+              "name": "[HAV] Papi de Jardin"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2830381,
+              "name": "Nippur de Lagash [BOCA]"
+            }
+          ]
+        },
         {
           "matchId": 508975384,
           "civ": "Mongols",
@@ -25666,5 +25692,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

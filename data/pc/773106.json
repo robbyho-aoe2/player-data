@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 218,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-02",
         "latestRating": 1785,
         "peakRating": 1785
       },
@@ -3517,12 +3517,180 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 996,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1635,
+        "totalGames": 1000,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1598,
         "peakRating": 1716
       },
       "matches": [
+        {
+          "matchId": 510607044,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:16:19.000Z",
+          "dur": 1447,
+          "opponents": [
+            {
+              "profileId": 2657396,
+              "name": "Yo Yo"
+            },
+            {
+              "profileId": 2041940,
+              "name": "Arzach"
+            },
+            {
+              "profileId": 1497242,
+              "name": "Savitar_pt"
+            },
+            {
+              "profileId": 9089076,
+              "name": "\u767d\u5fc3\u60a0\u54c9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2052962,
+              "name": "[JA]Dietrich"
+            },
+            {
+              "profileId": 375935,
+              "name": "Xerxes"
+            },
+            {
+              "profileId": 6423907,
+              "name": "[JA]SchleK SobeR"
+            }
+          ]
+        },
+        {
+          "matchId": 510598552,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:36:44.000Z",
+          "dur": 2009,
+          "opponents": [
+            {
+              "profileId": 13660502,
+              "name": "YMK414"
+            },
+            {
+              "profileId": 2735885,
+              "name": "MZTK | Evil Xandro"
+            },
+            {
+              "profileId": 1254272,
+              "name": "peah90"
+            },
+            {
+              "profileId": 922183,
+              "name": "OmegaJ256"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4944103,
+              "name": "[JA]GyoreE"
+            },
+            {
+              "profileId": 2052962,
+              "name": "[JA]Dietrich"
+            },
+            {
+              "profileId": 375935,
+              "name": "Xerxes"
+            }
+          ]
+        },
+        {
+          "matchId": 510595114,
+          "civ": "Danes",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:20:50.000Z",
+          "dur": 734,
+          "opponents": [
+            {
+              "profileId": 15423057,
+              "name": "letmebelieve"
+            },
+            {
+              "profileId": 1743420,
+              "name": "NuMa | OliverAtom"
+            },
+            {
+              "profileId": 10363457,
+              "name": "lxnmnk Trade | B | S"
+            },
+            {
+              "profileId": 18905727,
+              "name": "\u53ea\u60f3\u8eba\u8d62"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 375935,
+              "name": "Xerxes"
+            },
+            {
+              "profileId": 2052962,
+              "name": "[JA]Dietrich"
+            },
+            {
+              "profileId": 4944103,
+              "name": "[JA]GyoreE"
+            }
+          ]
+        },
+        {
+          "matchId": 510590618,
+          "civ": "Danes",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:00:51.000Z",
+          "dur": 721,
+          "opponents": [
+            {
+              "profileId": 20674927,
+              "name": "Jugband"
+            },
+            {
+              "profileId": 25285739,
+              "name": "Komi"
+            },
+            {
+              "profileId": 922183,
+              "name": "OmegaJ256"
+            },
+            {
+              "profileId": 2953018,
+              "name": "\u7406\u5fa1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 375935,
+              "name": "Xerxes"
+            },
+            {
+              "profileId": 2052962,
+              "name": "[JA]Dietrich"
+            },
+            {
+              "profileId": 4944103,
+              "name": "[JA]GyoreE"
+            }
+          ]
+        },
         {
           "matchId": 508051140,
           "civ": "Tatars",
@@ -42976,5 +43144,6 @@
   },
   "country": "hu",
   "countryIcon": "\ud83c\udded\ud83c\uddfa",
-  "countryName": "Hungary"
+  "countryName": "Hungary",
+  "platform": "Steam"
 }

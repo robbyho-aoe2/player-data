@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 442,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1720,
+        "totalGames": 443,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1702,
         "peakRating": 1768
       },
       "matches": [
+        {
+          "matchId": 509976005,
+          "civ": "Gurjaras",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:14:53.000Z",
+          "dur": 893,
+          "opponents": [
+            {
+              "profileId": 26052561,
+              "name": "El Procurador"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509402629,
           "civ": "Bengalis",
@@ -7144,12 +7161,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1000,
-        "pulledDate": "2026-09-28",
+        "totalGames": 1003,
+        "pulledDate": "2026-10-02",
         "latestRating": 1636,
         "peakRating": 1672
       },
       "matches": [
+        {
+          "matchId": 510017737,
+          "civ": "Wei",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:34:00.000Z",
+          "dur": 1663,
+          "opponents": [
+            {
+              "profileId": 1143560,
+              "name": "ChangT"
+            },
+            {
+              "profileId": 5055427,
+              "name": "VL Mano"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 282529,
+              "name": "Chipmunk"
+            }
+          ]
+        },
+        {
+          "matchId": 510012325,
+          "civ": "Britons",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:01:14.000Z",
+          "dur": 1610,
+          "opponents": [
+            {
+              "profileId": 1272203,
+              "name": "Legolas"
+            },
+            {
+              "profileId": 322559,
+              "name": "Gil-galad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 282529,
+              "name": "Chipmunk"
+            }
+          ]
+        },
+        {
+          "matchId": 510007909,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:35:24.000Z",
+          "dur": 1261,
+          "opponents": [
+            {
+              "profileId": 584612,
+              "name": "King of Manzairra"
+            },
+            {
+              "profileId": 14230915,
+              "name": "Retired SweatLord"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 282529,
+              "name": "Chipmunk"
+            }
+          ]
+        },
         {
           "matchId": 501335941,
           "civ": "Spanish",

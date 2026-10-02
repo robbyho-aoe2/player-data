@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 72,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1008,
         "peakRating": 1074
       },
@@ -1181,12 +1181,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1661,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1201,
+        "totalGames": 1666,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1195,
         "peakRating": 1325
       },
       "matches": [
+        {
+          "matchId": 510443076,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T02:00:08.000Z",
+          "dur": 1107,
+          "opponents": [
+            {
+              "profileId": 2086285,
+              "name": "El Guapo Dan"
+            },
+            {
+              "profileId": 2086890,
+              "name": "Deilos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
+        {
+          "matchId": 510438724,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T01:35:05.000Z",
+          "dur": 1119,
+          "opponents": [
+            {
+              "profileId": 12170843,
+              "name": "Samouele"
+            },
+            {
+              "profileId": 3375759,
+              "name": "The Wizard"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
+        {
+          "matchId": 510229786,
+          "civ": "Italians",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:20:03.000Z",
+          "dur": 852,
+          "opponents": [
+            {
+              "profileId": 20423448,
+              "name": "Tkbez"
+            },
+            {
+              "profileId": 6196744,
+              "name": "Bamboozlator"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
+        {
+          "matchId": 510225814,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:56:15.000Z",
+          "dur": 1289,
+          "opponents": [
+            {
+              "profileId": 916967,
+              "name": "Jean-Luc Petard"
+            },
+            {
+              "profileId": 917118,
+              "name": "William T. Piker"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
+        {
+          "matchId": 510223031,
+          "civ": "Italians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:38:53.000Z",
+          "dur": 942,
+          "opponents": [
+            {
+              "profileId": 2021315,
+              "name": "holamyth"
+            },
+            {
+              "profileId": 6127930,
+              "name": "MidlifeComet590"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16899922,
+              "name": "cesar_220988"
+            }
+          ]
+        },
         {
           "matchId": 509680830,
           "civ": "Italians",
@@ -46687,5 +46817,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

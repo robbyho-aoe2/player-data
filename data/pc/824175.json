@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 810,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1603,
         "peakRating": 1603
       },
@@ -12989,12 +12989,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1082,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1320,
+        "totalGames": 1085,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1305,
         "peakRating": 1493
       },
       "matches": [
+        {
+          "matchId": 510464320,
+          "civ": "Saxons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T04:20:15.000Z",
+          "dur": 1482,
+          "opponents": [
+            {
+              "profileId": 1802359,
+              "name": "noryb.drol"
+            },
+            {
+              "profileId": 1841899,
+              "name": "Tormentum"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4030514,
+              "name": "I'm Trying My Best"
+            }
+          ]
+        },
+        {
+          "matchId": 510460711,
+          "civ": "Varangians",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T03:53:02.000Z",
+          "dur": 1409,
+          "opponents": [
+            {
+              "profileId": 25071266,
+              "name": "Tete"
+            },
+            {
+              "profileId": 2936424,
+              "name": "ToTi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4030514,
+              "name": "I'm Trying My Best"
+            }
+          ]
+        },
+        {
+          "matchId": 510459847,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T03:46:27.000Z",
+          "dur": 226,
+          "opponents": [
+            {
+              "profileId": 4232359,
+              "name": "HimGor3209"
+            },
+            {
+              "profileId": 4236386,
+              "name": "FellRabbit9"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4030514,
+              "name": "I'm Trying My Best"
+            }
+          ]
+        },
         {
           "matchId": 509515970,
           "civ": "Saxons",
@@ -48643,5 +48721,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 207,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1561,
+        "totalGames": 208,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1572,
         "peakRating": 1707
       },
       "matches": [
+        {
+          "matchId": 510526662,
+          "civ": "Britons",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T13:27:44.000Z",
+          "dur": 2100,
+          "opponents": [
+            {
+              "profileId": 12324130,
+              "name": "Feezo"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 471545825,
           "civ": "Mongols",
@@ -3341,12 +3358,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1177,
-        "pulledDate": "2026-09-28",
+        "totalGames": 1181,
+        "pulledDate": "2026-10-02",
         "latestRating": 1406,
         "peakRating": 1644
       },
       "matches": [
+        {
+          "matchId": 510590539,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:00:27.000Z",
+          "dur": 1399,
+          "opponents": [
+            {
+              "profileId": 11765155,
+              "name": "Kiliander"
+            },
+            {
+              "profileId": 20185020,
+              "name": "Xan666"
+            },
+            {
+              "profileId": 1071964,
+              "name": "MadeinIron"
+            },
+            {
+              "profileId": 5294539,
+              "name": "witcherkiller"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 234813,
+              "name": "WARChris"
+            },
+            {
+              "profileId": 576390,
+              "name": "Saphi"
+            },
+            {
+              "profileId": 1957328,
+              "name": "Jonas"
+            }
+          ]
+        },
+        {
+          "matchId": 510369920,
+          "civ": "Danes",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:04:08.000Z",
+          "dur": 1743,
+          "opponents": [
+            {
+              "profileId": 6442830,
+              "name": "Deve Tuncay"
+            },
+            {
+              "profileId": 12133930,
+              "name": "perekli"
+            },
+            {
+              "profileId": 3373199,
+              "name": "LongHairedBaldMan"
+            },
+            {
+              "profileId": 378609,
+              "name": "MELKOR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1204579,
+              "name": "Saga"
+            },
+            {
+              "profileId": 3344151,
+              "name": "Zzulu"
+            },
+            {
+              "profileId": 4609777,
+              "name": "GdR_Charizard"
+            }
+          ]
+        },
+        {
+          "matchId": 510108045,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:08:28.000Z",
+          "dur": 2150,
+          "opponents": [
+            {
+              "profileId": 10541364,
+              "name": "\u5f00\u5fc3\u534e\u5b50"
+            },
+            {
+              "profileId": 21077953,
+              "name": "9LMB"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 436532,
+              "name": "mr_nvm"
+            }
+          ]
+        },
+        {
+          "matchId": 510104380,
+          "civ": "Varangians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T14:48:46.000Z",
+          "dur": 969,
+          "opponents": [
+            {
+              "profileId": 23937783,
+              "name": "karamuk"
+            },
+            {
+              "profileId": 15515847,
+              "name": "tpflippy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 436532,
+              "name": "mr_nvm"
+            }
+          ]
+        },
         {
           "matchId": 509463872,
           "civ": "Varangians",
@@ -43091,5 +43244,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

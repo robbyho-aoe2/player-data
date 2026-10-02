@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 233,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1260,
+        "totalGames": 236,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1247,
         "peakRating": 1299
       },
       "matches": [
+        {
+          "matchId": 510200760,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:14:45.000Z",
+          "dur": 1478,
+          "opponents": [
+            {
+              "profileId": 2363577,
+              "name": "[PPP] BlackPanter"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510196979,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:49:47.000Z",
+          "dur": 1348,
+          "opponents": [
+            {
+              "profileId": 19500861,
+              "name": "VX | PacoJaramillo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509921483,
+          "civ": "Berbers",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T17:51:03.000Z",
+          "dur": 1043,
+          "opponents": [
+            {
+              "profileId": 21611184,
+              "name": "Feather"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509733467,
           "civ": "Berbers",
@@ -3765,12 +3816,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 533,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1186,
+        "totalGames": 537,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1178,
         "peakRating": 1230
       },
       "matches": [
+        {
+          "matchId": 510144353,
+          "civ": "Khmer",
+          "map": "Oasis",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:21:25.000Z",
+          "dur": 1602,
+          "opponents": [
+            {
+              "profileId": 405887,
+              "name": "Dine'nDash"
+            },
+            {
+              "profileId": 14980322,
+              "name": "Mandrianus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2014969,
+              "name": "russogiuliorusso"
+            }
+          ]
+        },
+        {
+          "matchId": 510137270,
+          "civ": "Italians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:46:58.000Z",
+          "dur": 1066,
+          "opponents": [
+            {
+              "profileId": 2238048,
+              "name": "ARQUVICII \u25e2 \u25e4"
+            },
+            {
+              "profileId": 1586325,
+              "name": "EDL Spitfire"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2014969,
+              "name": "russogiuliorusso"
+            }
+          ]
+        },
+        {
+          "matchId": 509930803,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:35:24.000Z",
+          "dur": 1211,
+          "opponents": [
+            {
+              "profileId": 21012380,
+              "name": "Warcry"
+            },
+            {
+              "profileId": 2438830,
+              "name": "dom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2014969,
+              "name": "russogiuliorusso"
+            }
+          ]
+        },
+        {
+          "matchId": 509925539,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:10:40.000Z",
+          "dur": 1217,
+          "opponents": [
+            {
+              "profileId": 15602988,
+              "name": "Mankito77"
+            },
+            {
+              "profileId": 15603460,
+              "name": "Marldox"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2014969,
+              "name": "russogiuliorusso"
+            }
+          ]
+        },
         {
           "matchId": 509414929,
           "civ": "Khmer",
@@ -17439,5 +17594,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

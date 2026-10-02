@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 111,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1200,
         "peakRating": 1200
       },
@@ -1805,12 +1805,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 4875,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1194,
+        "totalGames": 4878,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1234,
         "peakRating": 1370
       },
       "matches": [
+        {
+          "matchId": 510440717,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T01:46:49.000Z",
+          "dur": 1418,
+          "opponents": [
+            {
+              "profileId": 4987726,
+              "name": "Carlo Ancelotti"
+            },
+            {
+              "profileId": 4909396,
+              "name": "[aM] Hera"
+            },
+            {
+              "profileId": 2682004,
+              "name": "edespanu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9658323,
+              "name": "Ryuk"
+            },
+            {
+              "profileId": 2432919,
+              "name": "Returned_Legend"
+            }
+          ]
+        },
+        {
+          "matchId": 510015066,
+          "civ": "Khmer",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:17:56.000Z",
+          "dur": 1581,
+          "opponents": [
+            {
+              "profileId": 15525407,
+              "name": "Pasuchi"
+            },
+            {
+              "profileId": 2649111,
+              "name": "Woz"
+            },
+            {
+              "profileId": 3176139,
+              "name": "ginei"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 718791,
+              "name": "TheKeeG_"
+            },
+            {
+              "profileId": 2389844,
+              "name": "niquito0912"
+            }
+          ]
+        },
+        {
+          "matchId": 510006948,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:29:51.000Z",
+          "dur": 2321,
+          "opponents": [
+            {
+              "profileId": 304261,
+              "name": "Iron Kaiser Gaming"
+            },
+            {
+              "profileId": 311937,
+              "name": "Sir Loinsteak"
+            },
+            {
+              "profileId": 4643267,
+              "name": "[FCH] Hothir"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1121217,
+              "name": "JustOutOfRange"
+            },
+            {
+              "profileId": 3526702,
+              "name": "mentat"
+            }
+          ]
+        },
         {
           "matchId": 509782071,
           "civ": "Persians",
@@ -167690,5 +167792,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

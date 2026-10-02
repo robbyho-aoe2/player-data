@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-20"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 38,
-        "pulledDate": "2026-09-20",
-        "latestRating": 1088,
-        "peakRating": 1088
+        "totalGames": 42,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1149,
+        "peakRating": 1149
       },
       "matches": [
+        {
+          "matchId": 510539795,
+          "civ": "Vietnamese",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T14:40:23.000Z",
+          "dur": 2087,
+          "opponents": [
+            {
+              "profileId": 23779352,
+              "name": "orcwarmaster"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510527456,
+          "civ": "Mongols",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T13:32:23.000Z",
+          "dur": 2041,
+          "opponents": [
+            {
+              "profileId": 11426133,
+              "name": "AGS.Grimnel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510527212,
+          "civ": "Vietnamese",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T13:30:27.000Z",
+          "dur": 8,
+          "opponents": [
+            {
+              "profileId": 23594464,
+              "name": "Chungus"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510516821,
+          "civ": "Vietnamese",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T12:22:21.000Z",
+          "dur": 1645,
+          "opponents": [
+            {
+              "profileId": 6964128,
+              "name": "Shvella"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507740958,
           "civ": "Vietnamese",
@@ -676,7 +744,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-20",
+        "pulledDate": "2026-10-02",
         "latestRating": 1110,
         "peakRating": 1135
       },
@@ -1434,5 +1502,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-09"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -187,12 +187,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1387,
-        "pulledDate": "2026-09-09",
-        "latestRating": 1305,
+        "totalGames": 1389,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1268,
         "peakRating": 1309
       },
       "matches": [
+        {
+          "matchId": 510684768,
+          "civ": "Varangians",
+          "map": "Yucatan",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T04:22:50.000Z",
+          "dur": 2292,
+          "opponents": [
+            {
+              "profileId": 3292272,
+              "name": "Steel_Polite"
+            },
+            {
+              "profileId": 5202873,
+              "name": "TPE-\u5e8a\u4e0a\u5c0f\u65cb\u98a8"
+            },
+            {
+              "profileId": 2658025,
+              "name": "Vinzzzdj"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2084359,
+              "name": "AiM | Mantequilla de Mani"
+            },
+            {
+              "profileId": 2820383,
+              "name": "[AFTM] manimues"
+            }
+          ]
+        },
+        {
+          "matchId": 510679318,
+          "civ": "Mapuche",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T03:41:01.000Z",
+          "dur": 1936,
+          "opponents": [
+            {
+              "profileId": 6153977,
+              "name": "JSJE"
+            },
+            {
+              "profileId": 297319,
+              "name": "one more game"
+            },
+            {
+              "profileId": 2561946,
+              "name": "WaffNub"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2084359,
+              "name": "AiM | Mantequilla de Mani"
+            },
+            {
+              "profileId": 2820383,
+              "name": "[AFTM] manimues"
+            }
+          ]
+        },
         {
           "matchId": 502558250,
           "civ": "Sicilians",
@@ -53835,5 +53903,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

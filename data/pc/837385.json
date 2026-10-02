@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 575,
-        "pulledDate": "2026-09-28",
+        "totalGames": 577,
+        "pulledDate": "2026-10-02",
         "latestRating": 1432,
         "peakRating": 1599
       },
       "matches": [
+        {
+          "matchId": 509941470,
+          "civ": "Koreans",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:22:10.000Z",
+          "dur": 2313,
+          "opponents": [
+            {
+              "profileId": 949893,
+              "name": "Stanley Goodspeed"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509930586,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:34:19.000Z",
+          "dur": 1073,
+          "opponents": [
+            {
+              "profileId": 23260135,
+              "name": "yyang"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509566411,
           "civ": "Varangians",
@@ -5420,12 +5454,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1196,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1517,
+        "totalGames": 1199,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1498,
         "peakRating": 1549
       },
       "matches": [
+        {
+          "matchId": 509958858,
+          "civ": "Saracens",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:42:15.000Z",
+          "dur": 412,
+          "opponents": [
+            {
+              "profileId": 20073428,
+              "name": "[LCDR] ScOrPiOn II"
+            },
+            {
+              "profileId": 16886097,
+              "name": "[LCDR] Alone"
+            },
+            {
+              "profileId": 4205602,
+              "name": "[LCDR]Zuru"
+            },
+            {
+              "profileId": 1629889,
+              "name": "Alive"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 618828,
+              "name": "MenaChuuni"
+            },
+            {
+              "profileId": 4000226,
+              "name": "\u5929\u5d29\u5730\u88c2"
+            },
+            {
+              "profileId": 1747909,
+              "name": "duckdowN"
+            }
+          ]
+        },
+        {
+          "matchId": 509953076,
+          "civ": "Bohemians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:15:31.000Z",
+          "dur": 1456,
+          "opponents": [
+            {
+              "profileId": 12087177,
+              "name": "[CL] Davidlk1412"
+            },
+            {
+              "profileId": 9541337,
+              "name": "Mr. Bungle"
+            },
+            {
+              "profileId": 3890722,
+              "name": "[CL] ~C H R I $-"
+            },
+            {
+              "profileId": 3133747,
+              "name": "[CL]TrunicC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4130894,
+              "name": "Bleys"
+            },
+            {
+              "profileId": 4000226,
+              "name": "\u5929\u5d29\u5730\u88c2"
+            },
+            {
+              "profileId": 2361749,
+              "name": "CatinaS"
+            }
+          ]
+        },
+        {
+          "matchId": 509950822,
+          "civ": "Malians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:04:47.000Z",
+          "dur": 643,
+          "opponents": [
+            {
+              "profileId": 871863,
+              "name": "Sergio"
+            },
+            {
+              "profileId": 18559731,
+              "name": "eraycoskun33"
+            },
+            {
+              "profileId": 9472672,
+              "name": "lorddoc"
+            },
+            {
+              "profileId": 2361749,
+              "name": "CatinaS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 888905,
+              "name": "NicoRespeto"
+            },
+            {
+              "profileId": 4466223,
+              "name": "Fs.Emmanuel"
+            },
+            {
+              "profileId": 4130894,
+              "name": "Bleys"
+            }
+          ]
+        },
         {
           "matchId": 509734232,
           "civ": "Mongols",
@@ -16956,5 +17116,6 @@
   },
   "country": "gr",
   "countryIcon": "\ud83c\uddec\ud83c\uddf7",
-  "countryName": "Greece"
+  "countryName": "Greece",
+  "platform": "Steam"
 }

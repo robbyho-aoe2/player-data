@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2000,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1552,
+        "totalGames": 2003,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1535,
         "peakRating": 1612
       },
       "matches": [
+        {
+          "matchId": 509981223,
+          "civ": "Saxons",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:47:12.000Z",
+          "dur": 1176,
+          "opponents": [
+            {
+              "profileId": 793445,
+              "name": "RaVinh"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509974806,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T22:07:58.000Z",
+          "dur": 2259,
+          "opponents": [
+            {
+              "profileId": 708511,
+              "name": "[GDL] Faraon"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509969723,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:37:15.000Z",
+          "dur": 1667,
+          "opponents": [
+            {
+              "profileId": 4179871,
+              "name": "Coquelicot"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509368887,
           "civ": "Saxons",
@@ -32084,12 +32135,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1760,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1349,
+        "totalGames": 1762,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1386,
         "peakRating": 1490
       },
       "matches": [
+        {
+          "matchId": 510177664,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:55:29.000Z",
+          "dur": 1481,
+          "opponents": [
+            {
+              "profileId": 1290396,
+              "name": "arodrisa"
+            },
+            {
+              "profileId": 1516626,
+              "name": "jimmyjedi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1208101,
+              "name": "DR. DERB"
+            }
+          ]
+        },
+        {
+          "matchId": 510168220,
+          "civ": "Vietnamese",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:09:19.000Z",
+          "dur": 2360,
+          "opponents": [
+            {
+              "profileId": 23500663,
+              "name": "Ux'DonChauron"
+            },
+            {
+              "profileId": 4040353,
+              "name": "Izuru Alexandros R\u00c6"
+            },
+            {
+              "profileId": 13714194,
+              "name": "Ux'Tycho0201"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1208101,
+              "name": "DR. DERB"
+            },
+            {
+              "profileId": 1103612,
+              "name": "draxa"
+            }
+          ]
+        },
         {
           "matchId": 508293290,
           "civ": "Burgundians",
@@ -91995,5 +92106,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

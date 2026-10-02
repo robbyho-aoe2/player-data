@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 35,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1569,
         "peakRating": 1623
       },
@@ -589,12 +589,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1237,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1716,
+        "totalGames": 1241,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1675,
         "peakRating": 1753
       },
       "matches": [
+        {
+          "matchId": 510413712,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:52:27.000Z",
+          "dur": 1519,
+          "opponents": [
+            {
+              "profileId": 1255733,
+              "name": "gore"
+            },
+            {
+              "profileId": 1256130,
+              "name": "Aurelia"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
+        {
+          "matchId": 510408159,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:16:55.000Z",
+          "dur": 1489,
+          "opponents": [
+            {
+              "profileId": 1326290,
+              "name": "[KO19] Westequator"
+            },
+            {
+              "profileId": 1202225,
+              "name": "[KO19] Tony"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
+        {
+          "matchId": 510405672,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T22:00:35.000Z",
+          "dur": 818,
+          "opponents": [
+            {
+              "profileId": 209917,
+              "name": "Envetel"
+            },
+            {
+              "profileId": 25945611,
+              "name": "\u8840\u5203"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
+        {
+          "matchId": 510401023,
+          "civ": "Maya",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:33:05.000Z",
+          "dur": 1411,
+          "opponents": [
+            {
+              "profileId": 2302476,
+              "name": "Manuel hormigaiper"
+            },
+            {
+              "profileId": 331639,
+              "name": "Joaquin12"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 275726,
+              "name": "Atomicus"
+            }
+          ]
+        },
         {
           "matchId": 509755210,
           "civ": "Saxons",
@@ -31872,5 +31976,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Steam"
 }

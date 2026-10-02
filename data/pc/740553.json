@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-14"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 119,
-        "pulledDate": "2026-09-14",
+        "pulledDate": "2026-10-02",
         "latestRating": 976,
         "peakRating": 1041
       },
@@ -2052,12 +2052,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 60,
-        "pulledDate": "2026-09-14",
-        "latestRating": 1058,
+        "totalGames": 64,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1028,
         "peakRating": 1150
       },
       "matches": [
+        {
+          "matchId": 510429903,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:38:57.000Z",
+          "dur": 1479,
+          "opponents": [
+            {
+              "profileId": 25531857,
+              "name": "c190"
+            },
+            {
+              "profileId": 1174579,
+              "name": "chazychaz"
+            },
+            {
+              "profileId": 971537,
+              "name": "Batkon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17861064,
+              "name": "The Law"
+            },
+            {
+              "profileId": 12088405,
+              "name": "ismail ahmad kanabawi"
+            }
+          ]
+        },
+        {
+          "matchId": 510427383,
+          "civ": "Byzantines",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:22:42.000Z",
+          "dur": 789,
+          "opponents": [
+            {
+              "profileId": 11350789,
+              "name": "AndGio1"
+            },
+            {
+              "profileId": 16842565,
+              "name": "Barbeituss"
+            },
+            {
+              "profileId": 583992,
+              "name": "Tog Rulgay"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17861064,
+              "name": "The Law"
+            },
+            {
+              "profileId": 12088405,
+              "name": "ismail ahmad kanabawi"
+            }
+          ]
+        },
+        {
+          "matchId": 510422900,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:52:09.000Z",
+          "dur": 1548,
+          "opponents": [
+            {
+              "profileId": 12868632,
+              "name": "Soup Crackkers"
+            },
+            {
+              "profileId": 22935868,
+              "name": "Yudgers555"
+            },
+            {
+              "profileId": 6348434,
+              "name": "HUASTECO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12088405,
+              "name": "ismail ahmad kanabawi"
+            },
+            {
+              "profileId": 17861064,
+              "name": "The Law"
+            }
+          ]
+        },
+        {
+          "matchId": 510418818,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:25:43.000Z",
+          "dur": 1229,
+          "opponents": [
+            {
+              "profileId": 20815398,
+              "name": "SnK ISKooL"
+            },
+            {
+              "profileId": 22602633,
+              "name": "Trueno"
+            },
+            {
+              "profileId": 6297423,
+              "name": "SnK | ARA\u00d1A"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12088405,
+              "name": "ismail ahmad kanabawi"
+            },
+            {
+              "profileId": 17861064,
+              "name": "The Law"
+            }
+          ]
+        },
         {
           "matchId": 280134305,
           "civ": "Turks",
@@ -4167,5 +4303,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }
