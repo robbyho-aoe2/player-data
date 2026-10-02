@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-10-01"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -31,14 +31,14 @@
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-01"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 32,
-        "pulledDate": "2026-10-01",
+        "pulledDate": "2026-10-02",
         "latestRating": 585,
         "peakRating": 739
       },
@@ -591,12 +591,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 44,
-        "pulledDate": "2026-10-01",
-        "latestRating": 671,
+        "totalGames": 46,
+        "pulledDate": "2026-10-02",
+        "latestRating": 672,
         "peakRating": 892
       },
       "matches": [
+        {
+          "matchId": 510663262,
+          "civ": "Romans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T01:55:49.000Z",
+          "dur": 2752,
+          "opponents": [
+            {
+              "profileId": 7212965,
+              "name": "DASEBA"
+            },
+            {
+              "profileId": 6389756,
+              "name": "gabhiso"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2443425,
+              "name": "neville_longbottom"
+            }
+          ]
+        },
+        {
+          "matchId": 510652259,
+          "civ": "Romans",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T00:48:00.000Z",
+          "dur": 3085,
+          "opponents": [
+            {
+              "profileId": 1477248,
+              "name": "Mecenas Kaszewiak"
+            },
+            {
+              "profileId": 24743589,
+              "name": "Israelo517"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13508509,
+              "name": "The Snkb"
+            }
+          ]
+        },
         {
           "matchId": 510460436,
           "civ": "Britons",
