@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 201,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1538,
+        "totalGames": 202,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1557,
         "peakRating": 1733
       },
       "matches": [
+        {
+          "matchId": 510178373,
+          "civ": "Slavs",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:59:10.000Z",
+          "dur": 1078,
+          "opponents": [
+            {
+              "profileId": 16848372,
+              "name": "------"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509727465,
           "civ": "Franks",
@@ -3258,12 +3275,148 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 679,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1659,
+        "totalGames": 683,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1685,
         "peakRating": 1691
       },
       "matches": [
+        {
+          "matchId": 510165355,
+          "civ": "Romans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:56:17.000Z",
+          "dur": 3088,
+          "opponents": [
+            {
+              "profileId": 252562,
+              "name": "WBM91"
+            },
+            {
+              "profileId": 583689,
+              "name": "TrCL.Gyeseongyeon"
+            },
+            {
+              "profileId": 2041940,
+              "name": "Arzach"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19155755,
+              "name": "SiraZaika"
+            },
+            {
+              "profileId": 3156635,
+              "name": "Bourb\u043en"
+            }
+          ]
+        },
+        {
+          "matchId": 510160625,
+          "civ": "Incas",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:34:55.000Z",
+          "dur": 904,
+          "opponents": [
+            {
+              "profileId": 394471,
+              "name": "Dasran"
+            },
+            {
+              "profileId": 2965011,
+              "name": "Morso"
+            },
+            {
+              "profileId": 1812193,
+              "name": "Shyles"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19155755,
+              "name": "SiraZaika"
+            },
+            {
+              "profileId": 3156635,
+              "name": "Bourb\u043en"
+            }
+          ]
+        },
+        {
+          "matchId": 510155601,
+          "civ": "Bohemians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:12:12.000Z",
+          "dur": 1015,
+          "opponents": [
+            {
+              "profileId": 699745,
+              "name": "LordCow"
+            },
+            {
+              "profileId": 24126829,
+              "name": "botas.el.gato"
+            },
+            {
+              "profileId": 799270,
+              "name": "[IMGG] JuanCa"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19155755,
+              "name": "SiraZaika"
+            },
+            {
+              "profileId": 3156635,
+              "name": "Bourb\u043en"
+            }
+          ]
+        },
+        {
+          "matchId": 510144714,
+          "civ": "Chinese",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:22:59.000Z",
+          "dur": 2021,
+          "opponents": [
+            {
+              "profileId": 229173,
+              "name": "AR12"
+            },
+            {
+              "profileId": 1292487,
+              "name": "ilovebaskets"
+            },
+            {
+              "profileId": 1541409,
+              "name": "LaochraGael"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3156635,
+              "name": "Bourb\u043en"
+            },
+            {
+              "profileId": 3023744,
+              "name": "Zyzz"
+            }
+          ]
+        },
         {
           "matchId": 508710482,
           "civ": "Italians",
@@ -26493,5 +26646,6 @@
   },
   "country": "ru",
   "countryIcon": "\ud83c\uddf7\ud83c\uddfa",
-  "countryName": "Russian Federation"
+  "countryName": "Russian Federation",
+  "platform": "Steam"
 }

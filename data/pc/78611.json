@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 362,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1732,
         "peakRating": 1768
       },
@@ -5821,12 +5821,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1458,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1611,
-        "peakRating": 1629
+        "totalGames": 1460,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1634,
+        "peakRating": 1634
       },
       "matches": [
+        {
+          "matchId": 510396176,
+          "civ": "Britons",
+          "map": "Yucatan",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:06:28.000Z",
+          "dur": 758,
+          "opponents": [
+            {
+              "profileId": 15358594,
+              "name": "mbxmm"
+            },
+            {
+              "profileId": 6127777,
+              "name": "Le\u00f3n Sin Melena"
+            },
+            {
+              "profileId": 4659070,
+              "name": "Doctor Simi"
+            },
+            {
+              "profileId": 210350,
+              "name": "GdR_Tuna"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4818662,
+              "name": "Ds3.Herno"
+            },
+            {
+              "profileId": 3174913,
+              "name": "Ds3.War Machine"
+            },
+            {
+              "profileId": 2809718,
+              "name": "Ds3.FranCamet"
+            }
+          ]
+        },
+        {
+          "matchId": 510395182,
+          "civ": "Britons",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T21:01:29.000Z",
+          "dur": 126,
+          "opponents": [
+            {
+              "profileId": 1972720,
+              "name": "boo"
+            },
+            {
+              "profileId": 19650995,
+              "name": "mxrider971"
+            },
+            {
+              "profileId": 17166347,
+              "name": "championqc82"
+            },
+            {
+              "profileId": 3765401,
+              "name": "[DDocs] Haasal"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4818662,
+              "name": "Ds3.Herno"
+            },
+            {
+              "profileId": 3174913,
+              "name": "Ds3.War Machine"
+            },
+            {
+              "profileId": 2809718,
+              "name": "Ds3.FranCamet"
+            }
+          ]
+        },
         {
           "matchId": 509740817,
           "civ": "Italians",
@@ -55460,5 +55544,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

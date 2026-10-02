@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 45,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1174,
         "peakRating": 1174
       },
@@ -749,12 +749,88 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1000,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1194,
+        "totalGames": 1002,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1222,
         "peakRating": 1378
       },
       "matches": [
+        {
+          "matchId": 510227309,
+          "civ": "Sicilians",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:05:35.000Z",
+          "dur": 619,
+          "opponents": [
+            {
+              "profileId": 14608285,
+              "name": "AiM | Josema"
+            },
+            {
+              "profileId": 3526702,
+              "name": "mentat"
+            },
+            {
+              "profileId": 2482871,
+              "name": "Bread"
+            },
+            {
+              "profileId": 708697,
+              "name": "Ashweight"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4466899,
+              "name": "alvex"
+            },
+            {
+              "profileId": 4372183,
+              "name": "LeCoD13"
+            },
+            {
+              "profileId": 4011880,
+              "name": "PmP_CoYuNo-"
+            }
+          ]
+        },
+        {
+          "matchId": 510218541,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:11:30.000Z",
+          "dur": 1977,
+          "opponents": [
+            {
+              "profileId": 25079179,
+              "name": "udhangafranz09"
+            },
+            {
+              "profileId": 18022826,
+              "name": "cafifi(*_*)#"
+            },
+            {
+              "profileId": 10111103,
+              "name": "Mustaf\u00e1 \u2122"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 827327,
+              "name": "Nonna_Nero"
+            },
+            {
+              "profileId": 20768892,
+              "name": "J Stacks"
+            }
+          ]
+        },
         {
           "matchId": 509452399,
           "civ": "Persians",
@@ -36103,5 +36179,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

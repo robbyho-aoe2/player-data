@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 721,
         "peakRating": 771
       },
@@ -335,10 +335,36 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3,
-        "pulledDate": "2026-09-24"
+        "totalGames": 4,
+        "pulledDate": "2026-10-02"
       },
       "matches": [
+        {
+          "matchId": 510577738,
+          "civ": "Bulgarians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T18:00:42.000Z",
+          "dur": 1179,
+          "opponents": [
+            {
+              "profileId": 1798051,
+              "name": "wereld9"
+            },
+            {
+              "profileId": 25434936,
+              "name": "basvanhaalen"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16024886,
+              "name": "moloneita"
+            }
+          ]
+        },
         {
           "matchId": 500839213,
           "civ": "Bohemians",
@@ -422,5 +448,6 @@
   },
   "country": "ve",
   "countryIcon": "\ud83c\uddfb\ud83c\uddea",
-  "countryName": "Venezuela, Bolivarian Republic of"
+  "countryName": "Venezuela, Bolivarian Republic of",
+  "platform": "Steam"
 }

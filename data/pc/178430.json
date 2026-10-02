@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 3146,
-        "pulledDate": "2026-09-27",
-        "latestRating": 2125,
+        "totalGames": 3150,
+        "pulledDate": "2026-10-02",
+        "latestRating": 2101,
         "peakRating": 2442
       },
       "matches": [
+        {
+          "matchId": 510423518,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T23:55:07.000Z",
+          "dur": 1795,
+          "opponents": [
+            {
+              "profileId": 4422117,
+              "name": "Monkey Boy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510215572,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:52:09.000Z",
+          "dur": 692,
+          "opponents": [
+            {
+              "profileId": 5464646,
+              "name": "[VL] Lil Franco"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509998143,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:35:54.000Z",
+          "dur": 1583,
+          "opponents": [
+            {
+              "profileId": 24742141,
+              "name": "Sung Jinwoo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509785347,
+          "civ": "Gurjaras",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:31:20.000Z",
+          "dur": 1324,
+          "opponents": [
+            {
+              "profileId": 247224,
+              "name": "Survivalist"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509538925,
           "civ": "Berbers",
@@ -50403,7 +50471,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 310,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1632,
         "peakRating": 1821
       },
@@ -61220,5 +61288,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

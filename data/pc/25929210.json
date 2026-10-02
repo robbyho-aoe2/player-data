@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 53,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1001,
         "peakRating": 1035
       },
@@ -930,12 +930,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 10,
-        "pulledDate": "2026-09-24",
-        "latestRating": 921,
+        "totalGames": 12,
+        "pulledDate": "2026-10-02",
+        "latestRating": 872,
         "peakRating": 921
       },
       "matches": [
+        {
+          "matchId": 510138303,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:51:47.000Z",
+          "dur": 2692,
+          "opponents": [
+            {
+              "profileId": 501845,
+              "name": "#"
+            },
+            {
+              "profileId": 4481218,
+              "name": "Swarly"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25959626,
+              "name": "\u8721\u7b14\u5c0f\u65b0"
+            }
+          ]
+        },
+        {
+          "matchId": 510131246,
+          "civ": "Magyars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:15:54.000Z",
+          "dur": 2026,
+          "opponents": [
+            {
+              "profileId": 883914,
+              "name": "Artem"
+            },
+            {
+              "profileId": 1378735,
+              "name": "alabataille"
+            },
+            {
+              "profileId": 9113765,
+              "name": "Saeer"
+            },
+            {
+              "profileId": 21799287,
+              "name": "liviescu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25959626,
+              "name": "\u8721\u7b14\u5c0f\u65b0"
+            },
+            {
+              "profileId": 2404650,
+              "name": "Mitnickek"
+            },
+            {
+              "profileId": 17810858,
+              "name": "Asturon"
+            }
+          ]
+        },
         {
           "matchId": 508666843,
           "civ": "Magyars",
@@ -1313,5 +1381,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 14,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-01",
         "peakRating": 1355,
         "latestRating": 1308
       },
@@ -253,12 +253,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 196,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1213,
+        "totalGames": 198,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1209,
         "peakRating": 1353
       },
       "matches": [
+        {
+          "matchId": 510005301,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:20:07.000Z",
+          "dur": 1687,
+          "opponents": [
+            {
+              "profileId": 18296062,
+              "name": "gobenjc"
+            },
+            {
+              "profileId": 17102823,
+              "name": "Oki Doki"
+            },
+            {
+              "profileId": 4280365,
+              "name": "tomitom"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2429860,
+              "name": "Mr_McWhite"
+            },
+            {
+              "profileId": 2611803,
+              "name": "Choconi\u00f1o"
+            }
+          ]
+        },
+        {
+          "matchId": 510001205,
+          "civ": "Vietnamese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:55:08.000Z",
+          "dur": 1217,
+          "opponents": [
+            {
+              "profileId": 20480088,
+              "name": "Lauta_mdp"
+            },
+            {
+              "profileId": 14813869,
+              "name": "Thorin escudo de Roble"
+            },
+            {
+              "profileId": 2777331,
+              "name": "Alato"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2611803,
+              "name": "Choconi\u00f1o"
+            },
+            {
+              "profileId": 2429860,
+              "name": "Mr_McWhite"
+            }
+          ]
+        },
         {
           "matchId": 491482813,
           "civ": "Magyars",
@@ -6531,5 +6599,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

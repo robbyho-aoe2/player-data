@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 25,
-        "pulledDate": "2026-09-27",
-        "latestRating": 974,
+        "totalGames": 27,
+        "pulledDate": "2026-10-02",
+        "latestRating": 976,
         "peakRating": 1052
       },
       "matches": [
+        {
+          "matchId": 510335229,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:12:29.000Z",
+          "dur": 1708,
+          "opponents": [
+            {
+              "profileId": 10172008,
+              "name": "Naysayer90"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510333390,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:03:03.000Z",
+          "dur": 367,
+          "opponents": [
+            {
+              "profileId": 2241414,
+              "name": "Rabita llego!"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509156905,
           "civ": "Goths",
@@ -455,12 +489,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     }
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

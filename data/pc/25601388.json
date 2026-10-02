@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 163,
-        "pulledDate": "2026-09-28",
-        "latestRating": 944,
+        "totalGames": 165,
+        "pulledDate": "2026-10-02",
+        "latestRating": 942,
         "peakRating": 961
       },
       "matches": [
+        {
+          "matchId": 510579126,
+          "civ": "Mongols",
+          "map": "Scandinavia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T18:06:56.000Z",
+          "dur": 782,
+          "opponents": [
+            {
+              "profileId": 18373831,
+              "name": "kevin.adhira19"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510565669,
+          "civ": "Franks",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T16:59:16.000Z",
+          "dur": 1268,
+          "opponents": [
+            {
+              "profileId": 22737395,
+              "name": "bar2nice"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509617864,
           "civ": "Franks",
@@ -2730,12 +2764,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     }
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 160,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1209,
         "peakRating": 1225
       },
@@ -2589,12 +2589,122 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2210,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1259,
+        "totalGames": 2213,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1279,
         "peakRating": 1447
       },
       "matches": [
+        {
+          "matchId": 510203152,
+          "civ": "Italians",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:30:20.000Z",
+          "dur": 1775,
+          "opponents": [
+            {
+              "profileId": 2111663,
+              "name": "[GDL] Maldito Pantoja"
+            },
+            {
+              "profileId": 22240,
+              "name": "ajanderson120"
+            },
+            {
+              "profileId": 17367574,
+              "name": "QuesoPlas"
+            },
+            {
+              "profileId": 15912008,
+              "name": "matias98ish"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 793456,
+              "name": "iskk"
+            },
+            {
+              "profileId": 914378,
+              "name": "ryaNNN"
+            },
+            {
+              "profileId": 5866251,
+              "name": "el maldito asfalto"
+            }
+          ]
+        },
+        {
+          "matchId": 509993327,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:05:15.000Z",
+          "dur": 1571,
+          "opponents": [
+            {
+              "profileId": 285327,
+              "name": "Tommy Kangaroo"
+            },
+            {
+              "profileId": 270562,
+              "name": "Johnny Walrus"
+            },
+            {
+              "profileId": 2160712,
+              "name": "Pierogi King"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10139459,
+              "name": "\u5c0f\u660e"
+            },
+            {
+              "profileId": 1700937,
+              "name": "Atos 4:12 | Jo\u00e3o 14:6"
+            }
+          ]
+        },
+        {
+          "matchId": 509844046,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T09:51:45.000Z",
+          "dur": 1741,
+          "opponents": [
+            {
+              "profileId": 20193934,
+              "name": "dashuaibi"
+            },
+            {
+              "profileId": 10346571,
+              "name": "\u79e6\u58a8\u5b50"
+            },
+            {
+              "profileId": 5624022,
+              "name": "Advanced Micro Devices"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4475967,
+              "name": "Problem"
+            },
+            {
+              "profileId": 565186,
+              "name": "N"
+            }
+          ]
+        },
         {
           "matchId": 509455954,
           "civ": "Bulgarians",
@@ -80920,5 +81030,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

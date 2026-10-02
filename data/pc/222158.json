@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1301,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1563,
         "peakRating": 1665
       },
@@ -20874,12 +20874,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 799,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1328,
+        "totalGames": 804,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1280,
         "peakRating": 1425
       },
       "matches": [
+        {
+          "matchId": 510577476,
+          "civ": "Spanish",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:59:35.000Z",
+          "dur": 2610,
+          "opponents": [
+            {
+              "profileId": 1470137,
+              "name": "Dschinges Khan"
+            },
+            {
+              "profileId": 10012841,
+              "name": "BigBones_27"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 225445,
+              "name": "Froggy Freak"
+            }
+          ]
+        },
+        {
+          "matchId": 510570693,
+          "civ": "Bohemians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:24:52.000Z",
+          "dur": 1728,
+          "opponents": [
+            {
+              "profileId": 6857157,
+              "name": "Rubenbauer"
+            },
+            {
+              "profileId": 6231997,
+              "name": "flo_aoe2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 225445,
+              "name": "Froggy Freak"
+            }
+          ]
+        },
+        {
+          "matchId": 510362331,
+          "civ": "Varangians",
+          "map": "Baltic",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:29:44.000Z",
+          "dur": 1572,
+          "opponents": [
+            {
+              "profileId": 3895715,
+              "name": "jordialg97"
+            },
+            {
+              "profileId": 12081630,
+              "name": "cueromagico2"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 225445,
+              "name": "Froggy Freak"
+            }
+          ]
+        },
+        {
+          "matchId": 510356714,
+          "civ": "Saxons",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:03:01.000Z",
+          "dur": 1387,
+          "opponents": [
+            {
+              "profileId": 17626189,
+              "name": "pietro91"
+            },
+            {
+              "profileId": 2582820,
+              "name": "RevolveR"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 225445,
+              "name": "Froggy Freak"
+            }
+          ]
+        },
+        {
+          "matchId": 510351264,
+          "civ": "Danes",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:37:00.000Z",
+          "dur": 1408,
+          "opponents": [
+            {
+              "profileId": 20935312,
+              "name": "stevenfenner59"
+            },
+            {
+              "profileId": 25309482,
+              "name": "228811348"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 225445,
+              "name": "Froggy Freak"
+            }
+          ]
+        },
         {
           "matchId": 509206491,
           "civ": "Varangians",
@@ -48298,5 +48428,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

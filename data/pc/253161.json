@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 17,
-        "pulledDate": "2026-09-28",
-        "latestRating": 867,
+        "totalGames": 18,
+        "pulledDate": "2026-10-02",
+        "latestRating": 885,
         "peakRating": 897
       },
       "matches": [
+        {
+          "matchId": 510287948,
+          "civ": "Saxons",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T11:24:20.000Z",
+          "dur": 1685,
+          "opponents": [
+            {
+              "profileId": 2758162,
+              "name": "Ld720"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509691630,
           "civ": "Saxons",
@@ -319,7 +336,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 6,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -483,5 +500,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

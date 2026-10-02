@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 472,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1167,
         "peakRating": 1244
       },
@@ -7583,12 +7583,98 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 896,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1098,
+        "totalGames": 899,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1107,
         "peakRating": 1243
       },
       "matches": [
+        {
+          "matchId": 510154663,
+          "civ": "Slavs",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:08:15.000Z",
+          "dur": 1804,
+          "opponents": [
+            {
+              "profileId": 13501520,
+              "name": "kinqpinq"
+            },
+            {
+              "profileId": 5773724,
+              "name": "Exo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19515138,
+              "name": "Lord Ice"
+            }
+          ]
+        },
+        {
+          "matchId": 510148517,
+          "civ": "Sicilians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T18:40:36.000Z",
+          "dur": 1269,
+          "opponents": [
+            {
+              "profileId": 6894291,
+              "name": "zer0ths"
+            },
+            {
+              "profileId": 5746760,
+              "name": "ask"
+            },
+            {
+              "profileId": 1910549,
+              "name": "AquarianAge"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 234935,
+              "name": "wololo"
+            },
+            {
+              "profileId": 19515138,
+              "name": "Lord Ice"
+            }
+          ]
+        },
+        {
+          "matchId": 510092376,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T13:40:35.000Z",
+          "dur": 1894,
+          "opponents": [
+            {
+              "profileId": 10610889,
+              "name": "Santi/ARG/"
+            },
+            {
+              "profileId": 1200258,
+              "name": "Prcmt"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19515138,
+              "name": "Lord Ice"
+            }
+          ]
+        },
         {
           "matchId": 509708450,
           "civ": "Sicilians",
@@ -35159,5 +35245,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

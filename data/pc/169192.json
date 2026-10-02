@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 171,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1865,
         "peakRating": 1941
       },
@@ -1568,12 +1568,142 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1601,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1685,
+        "totalGames": 1606,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1704,
         "peakRating": 1863
       },
       "matches": [
+        {
+          "matchId": 510495534,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:13:23.000Z",
+          "dur": 1534,
+          "opponents": [
+            {
+              "profileId": 2598916,
+              "name": "Flow"
+            },
+            {
+              "profileId": 1093258,
+              "name": "Sir Godua"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 464662,
+              "name": "GasparovV"
+            }
+          ]
+        },
+        {
+          "matchId": 510492721,
+          "civ": "Khmer",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T08:47:21.000Z",
+          "dur": 1243,
+          "opponents": [
+            {
+              "profileId": 1202225,
+              "name": "[KO19] Tony"
+            },
+            {
+              "profileId": 1326290,
+              "name": "[KO19] Westequator"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 464662,
+              "name": "GasparovV"
+            }
+          ]
+        },
+        {
+          "matchId": 510490618,
+          "civ": "Vikings",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T08:28:05.000Z",
+          "dur": 977,
+          "opponents": [
+            {
+              "profileId": 1326290,
+              "name": "[KO19] Westequator"
+            },
+            {
+              "profileId": 1202225,
+              "name": "[KO19] Tony"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 464662,
+              "name": "GasparovV"
+            }
+          ]
+        },
+        {
+          "matchId": 510281223,
+          "civ": "Bohemians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:20:59.000Z",
+          "dur": 940,
+          "opponents": [
+            {
+              "profileId": 26117494,
+              "name": "zizu"
+            },
+            {
+              "profileId": 2598916,
+              "name": "Flow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 464662,
+              "name": "GasparovV"
+            }
+          ]
+        },
+        {
+          "matchId": 510279568,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:03:41.000Z",
+          "dur": 848,
+          "opponents": [
+            {
+              "profileId": 24752449,
+              "name": "Balgrodor"
+            },
+            {
+              "profileId": 2140711,
+              "name": "iFxrY"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 464662,
+              "name": "GasparovV"
+            }
+          ]
+        },
         {
           "matchId": 509552873,
           "civ": "Franks",
@@ -16605,5 +16735,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

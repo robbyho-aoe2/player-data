@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 48,
-        "pulledDate": "2026-09-28",
-        "latestRating": 904,
-        "peakRating": 904
+        "totalGames": 49,
+        "pulledDate": "2026-10-02",
+        "latestRating": 920,
+        "peakRating": 920
       },
       "matches": [
+        {
+          "matchId": 509794624,
+          "civ": "Vikings",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:24:32.000Z",
+          "dur": 2564,
+          "opponents": [
+            {
+              "profileId": 23836743,
+              "name": "UrNotHimYDF"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509142029,
           "civ": "Franks",
@@ -846,7 +863,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 813,
         "peakRating": 843
       },
@@ -1808,5 +1825,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

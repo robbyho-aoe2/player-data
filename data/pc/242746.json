@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1336,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1194,
         "peakRating": 1358
       },
@@ -21406,12 +21406,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 850,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1227,
+        "totalGames": 851,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1220,
         "peakRating": 1331
       },
       "matches": [
+        {
+          "matchId": 509926920,
+          "civ": "Magyars",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:17:29.000Z",
+          "dur": 1831,
+          "opponents": [
+            {
+              "profileId": 24126829,
+              "name": "botas.el.gato"
+            },
+            {
+              "profileId": 25283460,
+              "name": "Veni Vidi Elmo"
+            },
+            {
+              "profileId": 942980,
+              "name": "RoU_MaNiA"
+            },
+            {
+              "profileId": 16649922,
+              "name": "der Mondgulasch"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4561505,
+              "name": "ClaesErik"
+            },
+            {
+              "profileId": 881501,
+              "name": "KilledByTheBoar"
+            },
+            {
+              "profileId": 4681562,
+              "name": "RFR_im_no_pro"
+            }
+          ]
+        },
         {
           "matchId": 509414159,
           "civ": "Byzantines",
@@ -53243,5 +53285,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

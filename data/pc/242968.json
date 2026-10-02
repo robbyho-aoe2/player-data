@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-18"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 43,
-        "pulledDate": "2026-09-18",
+        "pulledDate": "2026-10-02",
         "latestRating": 898,
         "peakRating": 903
       },
@@ -760,12 +760,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 776,
-        "pulledDate": "2026-09-18",
-        "latestRating": 1014,
+        "totalGames": 778,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1050,
         "peakRating": 1145
       },
       "matches": [
+        {
+          "matchId": 510127990,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:58:09.000Z",
+          "dur": 1953,
+          "opponents": [
+            {
+              "profileId": 2192997,
+              "name": "BananaRepublic"
+            },
+            {
+              "profileId": 11551786,
+              "name": "Rik\u2019Nohol"
+            },
+            {
+              "profileId": 438691,
+              "name": "Ghost"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1388127,
+              "name": "salan"
+            },
+            {
+              "profileId": 5528889,
+              "name": "Veyron"
+            }
+          ]
+        },
+        {
+          "matchId": 510118926,
+          "civ": "Italians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:08:44.000Z",
+          "dur": 2601,
+          "opponents": [
+            {
+              "profileId": 26022338,
+              "name": "Bothstarling2.0"
+            },
+            {
+              "profileId": 22059940,
+              "name": "LLBHLJ"
+            },
+            {
+              "profileId": 2666585,
+              "name": "tonydf3"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5528889,
+              "name": "Veyron"
+            },
+            {
+              "profileId": 1388127,
+              "name": "salan"
+            }
+          ]
+        },
         {
           "matchId": 505476531,
           "civ": "Italians",
@@ -27138,5 +27206,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

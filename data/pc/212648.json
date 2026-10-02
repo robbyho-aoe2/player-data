@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 50,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 720,
         "peakRating": 751
       },
@@ -829,12 +829,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 69,
-        "pulledDate": "2026-09-24",
-        "latestRating": 723,
+        "totalGames": 70,
+        "pulledDate": "2026-10-02",
+        "latestRating": 737,
         "peakRating": 921
       },
       "matches": [
+        {
+          "matchId": 510203603,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:33:21.000Z",
+          "dur": 1161,
+          "opponents": [
+            {
+              "profileId": 21976695,
+              "name": "radeonhd1991"
+            },
+            {
+              "profileId": 21960636,
+              "name": "Mardx"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3284985,
+              "name": "Pope3961"
+            }
+          ]
+        },
         {
           "matchId": 508049451,
           "civ": "Teutons",
@@ -2732,5 +2758,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 108,
-        "pulledDate": "2026-09-28",
-        "latestRating": 803,
+        "totalGames": 113,
+        "pulledDate": "2026-10-02",
+        "latestRating": 850,
         "peakRating": 1015
       },
       "matches": [
+        {
+          "matchId": 510607492,
+          "civ": "Khmer",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:17:54.000Z",
+          "dur": 1230,
+          "opponents": [
+            {
+              "profileId": 1452514,
+              "name": "gerp"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510602597,
+          "civ": "Khmer",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:55:02.000Z",
+          "dur": 1257,
+          "opponents": [
+            {
+              "profileId": 5929758,
+              "name": "Enripanda"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510440093,
+          "civ": "Britons",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T01:42:39.000Z",
+          "dur": 1067,
+          "opponents": [
+            {
+              "profileId": 19319055,
+              "name": "Leonidas0203"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510225185,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:51:26.000Z",
+          "dur": 1518,
+          "opponents": [
+            {
+              "profileId": 24614296,
+              "name": "Materia_Fox"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510221375,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:28:08.000Z",
+          "dur": 1374,
+          "opponents": [
+            {
+              "profileId": 15322323,
+              "name": "fazisred"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509520517,
           "civ": "Lithuanians",
@@ -1865,12 +1950,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 60,
-        "pulledDate": "2026-09-28",
-        "latestRating": 799,
+        "totalGames": 62,
+        "pulledDate": "2026-10-02",
+        "latestRating": 766,
         "peakRating": 809
       },
       "matches": [
+        {
+          "matchId": 510619929,
+          "civ": "Khmer",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:21:12.000Z",
+          "dur": 3285,
+          "opponents": [
+            {
+              "profileId": 19728966,
+              "name": "Skaikru Raven"
+            },
+            {
+              "profileId": 11304166,
+              "name": "Ujio.AF"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4613397,
+              "name": "g.ulloa"
+            }
+          ]
+        },
+        {
+          "matchId": 510612481,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:42:26.000Z",
+          "dur": 3478,
+          "opponents": [
+            {
+              "profileId": 25445298,
+              "name": "Voldur"
+            },
+            {
+              "profileId": 1209360,
+              "name": "devil"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10054875,
+              "name": "IsackGtz"
+            }
+          ]
+        },
         {
           "matchId": 509655059,
           "civ": "Khmer",
@@ -3444,5 +3581,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

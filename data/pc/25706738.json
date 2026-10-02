@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 4,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 951
       },
       "matches": [
@@ -94,12 +94,124 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 177,
-        "pulledDate": "2026-09-28",
-        "latestRating": 883,
+        "totalGames": 181,
+        "pulledDate": "2026-10-02",
+        "latestRating": 857,
         "peakRating": 940
       },
       "matches": [
+        {
+          "matchId": 510622438,
+          "civ": "Malay",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:35:06.000Z",
+          "dur": 3594,
+          "opponents": [
+            {
+              "profileId": 19586762,
+              "name": "radescanicolas7"
+            },
+            {
+              "profileId": 2698779,
+              "name": "Guillito P"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18610845,
+              "name": "Rad el B\u00e1rbaro"
+            }
+          ]
+        },
+        {
+          "matchId": 510615625,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:58:14.000Z",
+          "dur": 1908,
+          "opponents": [
+            {
+              "profileId": 18497668,
+              "name": "NIXXT103"
+            },
+            {
+              "profileId": 5105366,
+              "name": "wilderbeest1"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18610845,
+              "name": "Rad el B\u00e1rbaro"
+            }
+          ]
+        },
+        {
+          "matchId": 510603491,
+          "civ": "Franks",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:58:53.000Z",
+          "dur": 3372,
+          "opponents": [
+            {
+              "profileId": 26058941,
+              "name": "Mini Pepe"
+            },
+            {
+              "profileId": 9176250,
+              "name": "El Pepe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18610845,
+              "name": "Rad el B\u00e1rbaro"
+            }
+          ]
+        },
+        {
+          "matchId": 509924811,
+          "civ": "Franks",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:08:06.000Z",
+          "dur": 2867,
+          "opponents": [
+            {
+              "profileId": 1004697,
+              "name": "Ezer"
+            },
+            {
+              "profileId": 4056355,
+              "name": "TheB0ldOne"
+            },
+            {
+              "profileId": 24948621,
+              "name": "Karlos"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24587726,
+              "name": "paingemBN"
+            },
+            {
+              "profileId": 20918091,
+              "name": "SupremeSEITAN"
+            }
+          ]
+        },
         {
           "matchId": 509747872,
           "civ": "Bohemians",
@@ -6970,5 +7082,6 @@
   },
   "country": "es",
   "countryIcon": "\ud83c\uddea\ud83c\uddf8",
-  "countryName": "Spain"
+  "countryName": "Spain",
+  "platform": "Steam"
 }

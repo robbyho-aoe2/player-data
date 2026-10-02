@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 94,
-        "pulledDate": "2026-09-28",
-        "latestRating": 590,
+        "totalGames": 97,
+        "pulledDate": "2026-10-02",
+        "latestRating": 570,
         "peakRating": 605
       },
       "matches": [
+        {
+          "matchId": 510232663,
+          "civ": "Burgundians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:37:20.000Z",
+          "dur": 1729,
+          "opponents": [
+            {
+              "profileId": 21814127,
+              "name": "lilith"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510214337,
+          "civ": "Burgundians",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:44:06.000Z",
+          "dur": 1916,
+          "opponents": [
+            {
+              "profileId": 2016338,
+              "name": "pelaboton"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510207411,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:57:53.000Z",
+          "dur": 2659,
+          "opponents": [
+            {
+              "profileId": 24619398,
+              "name": "joshua63775"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509454406,
           "civ": "Burgundians",
@@ -1594,12 +1645,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 41,
-        "pulledDate": "2026-09-28",
-        "latestRating": 636,
+        "totalGames": 43,
+        "pulledDate": "2026-10-02",
+        "latestRating": 637,
         "peakRating": 757
       },
       "matches": [
+        {
+          "matchId": 510226979,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:03:55.000Z",
+          "dur": 1867,
+          "opponents": [
+            {
+              "profileId": 3131158,
+              "name": "AIRSOFT RATAS ARMADAS YT"
+            },
+            {
+              "profileId": 13705238,
+              "name": "RancidMeerkat"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5147501,
+              "name": "Amachali"
+            }
+          ]
+        },
+        {
+          "matchId": 510219857,
+          "civ": "Burgundians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:19:22.000Z",
+          "dur": 2365,
+          "opponents": [
+            {
+              "profileId": 25676701,
+              "name": "SpacyTK [BalaDeLeche]"
+            },
+            {
+              "profileId": 25672247,
+              "name": "EL RABINO GOLDMAN [BalaDeLeche]"
+            },
+            {
+              "profileId": 25251401,
+              "name": "el_viola_perros [BalaDeLeche]"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20390766,
+              "name": "GustavoSL82"
+            },
+            {
+              "profileId": 6218089,
+              "name": "GallantHurdle6"
+            }
+          ]
+        },
         {
           "matchId": 509461822,
           "civ": "Burgundians",
@@ -2899,5 +3010,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Xbox"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 240,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1533,
-        "peakRating": 1536
+        "totalGames": 241,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1550,
+        "peakRating": 1550
       },
       "matches": [
+        {
+          "matchId": 510052904,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:50:17.000Z",
+          "dur": 1312,
+          "opponents": [
+            {
+              "profileId": 18955481,
+              "name": "hogrider249"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509667771,
           "civ": "Maya",
@@ -4110,7 +4127,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 456,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1240,
         "peakRating": 1477
       },
@@ -19034,5 +19051,6 @@
   },
   "country": "be",
   "countryIcon": "\ud83c\udde7\ud83c\uddea",
-  "countryName": "Belgium"
+  "countryName": "Belgium",
+  "platform": "Steam"
 }

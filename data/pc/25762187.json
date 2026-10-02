@@ -6,32 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 46,
-        "pulledDate": "2026-09-28",
-        "latestRating": 571,
+        "totalGames": 49,
+        "pulledDate": "2026-10-02",
+        "latestRating": 530,
         "peakRating": 736
       },
       "matches": [
+        {
+          "matchId": 510211022,
+          "civ": "Bulgarians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T00:23:13.000Z",
+          "dur": 1968,
+          "opponents": [
+            {
+              "profileId": 557321,
+              "name": "Kb"
+            },
+            {
+              "profileId": 15498208,
+              "name": "FortifiedChicken"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19742749,
+              "name": "Sisu.sukha"
+            }
+          ]
+        },
+        {
+          "matchId": 510205162,
+          "civ": "Chinese",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:43:18.000Z",
+          "dur": 2070,
+          "opponents": [
+            {
+              "profileId": 2317696,
+              "name": "Med"
+            },
+            {
+              "profileId": 15806092,
+              "name": "Raphael"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 9645341,
+              "name": "Umbrylical"
+            }
+          ]
+        },
+        {
+          "matchId": 509883174,
+          "civ": "Franks",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:31:10.000Z",
+          "dur": 2134,
+          "opponents": [
+            {
+              "profileId": 17784074,
+              "name": "Wei-Wei"
+            },
+            {
+              "profileId": 18226286,
+              "name": "n26066416"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 19702140,
+              "name": "Dream"
+            }
+          ]
+        },
         {
           "matchId": 509440559,
           "civ": "Franks",
@@ -1218,5 +1296,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

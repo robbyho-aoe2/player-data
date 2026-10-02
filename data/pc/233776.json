@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 1841,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1777,
         "peakRating": 1901
       },
@@ -31326,12 +31326,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 525,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1487,
+        "totalGames": 529,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1462,
         "peakRating": 1593
       },
       "matches": [
+        {
+          "matchId": 510266289,
+          "civ": "Danes",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T07:37:04.000Z",
+          "dur": 2099,
+          "opponents": [
+            {
+              "profileId": 5154812,
+              "name": "bayirm17"
+            },
+            {
+              "profileId": 311950,
+              "name": "Ohlan100"
+            },
+            {
+              "profileId": 309448,
+              "name": "PEHF"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2288541,
+              "name": "Mr.Brrum"
+            },
+            {
+              "profileId": 22647713,
+              "name": "\u00a1No hate!"
+            }
+          ]
+        },
+        {
+          "matchId": 510262830,
+          "civ": "Maya",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:56:50.000Z",
+          "dur": 2229,
+          "opponents": [
+            {
+              "profileId": 5601064,
+              "name": "Chimirindo"
+            },
+            {
+              "profileId": 1442266,
+              "name": "feeling.yang.nlp"
+            },
+            {
+              "profileId": 23336030,
+              "name": "Echidna"
+            },
+            {
+              "profileId": 21627109,
+              "name": "Uzzi"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2386120,
+              "name": "Martin Eden"
+            },
+            {
+              "profileId": 2777697,
+              "name": "meh"
+            },
+            {
+              "profileId": 17168667,
+              "name": "DUDA"
+            }
+          ]
+        },
+        {
+          "matchId": 509877442,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T14:01:15.000Z",
+          "dur": 877,
+          "opponents": [
+            {
+              "profileId": 21119457,
+              "name": "El \u0425\u043e\u0440\u043e\u0448\u0438\u0439"
+            },
+            {
+              "profileId": 11458718,
+              "name": "Fox | NoMoney"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21196971,
+              "name": "Maech_"
+            }
+          ]
+        },
+        {
+          "matchId": 509847589,
+          "civ": "Ethiopians",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T10:26:05.000Z",
+          "dur": 732,
+          "opponents": [
+            {
+              "profileId": 2093873,
+              "name": "Stev"
+            },
+            {
+              "profileId": 2094049,
+              "name": "Lloydy_23"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 530444,
+              "name": "TheSonder"
+            }
+          ]
+        },
         {
           "matchId": 509600626,
           "civ": "Varangians",
@@ -49469,5 +49597,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

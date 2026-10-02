@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 35,
-        "pulledDate": "2026-09-28",
-        "latestRating": 758,
+        "totalGames": 40,
+        "pulledDate": "2026-10-02",
+        "latestRating": 771,
         "peakRating": 807
       },
       "matches": [
+        {
+          "matchId": 510496301,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T09:19:46.000Z",
+          "dur": 1574,
+          "opponents": [
+            {
+              "profileId": 555045,
+              "name": "yusadincay"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510339469,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:34:23.000Z",
+          "dur": 2243,
+          "opponents": [
+            {
+              "profileId": 1237521,
+              "name": "ZeRoXTOULOUSE"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510336127,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:16:57.000Z",
+          "dur": 974,
+          "opponents": [
+            {
+              "profileId": 24966010,
+              "name": "worms_79"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510335734,
+          "civ": "Byzantines",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:14:53.000Z",
+          "dur": 35,
+          "opponents": [
+            {
+              "profileId": 14420428,
+              "name": "GS_JL"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510064841,
+          "civ": "Byzantines",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T10:01:10.000Z",
+          "dur": 1824,
+          "opponents": [
+            {
+              "profileId": 20154394,
+              "name": "alb_236"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509592287,
           "civ": "Byzantines",
@@ -625,7 +710,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -659,5 +744,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

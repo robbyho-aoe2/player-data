@@ -6,25 +6,144 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 99,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1422,
+        "totalGames": 106,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1478,
         "peakRating": 1803
       },
       "matches": [
+        {
+          "matchId": 510468521,
+          "civ": "Burmese",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T04:55:21.000Z",
+          "dur": 6,
+          "opponents": [
+            {
+              "profileId": 5925711,
+              "name": "GAX | GGui"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510464763,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T04:23:37.000Z",
+          "dur": 1843,
+          "opponents": [
+            {
+              "profileId": 11827652,
+              "name": "793970306"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510324310,
+          "civ": "Berbers",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:13:28.000Z",
+          "dur": 1099,
+          "opponents": [
+            {
+              "profileId": 25206277,
+              "name": "Kelly271888"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510320788,
+          "civ": "Slavs",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T14:54:55.000Z",
+          "dur": 823,
+          "opponents": [
+            {
+              "profileId": 11119216,
+              "name": "yukino"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510281079,
+          "civ": "Mongols",
+          "map": "Scandinavia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:19:16.000Z",
+          "dur": 546,
+          "opponents": [
+            {
+              "profileId": 3440673,
+              "name": "JoRogue"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510280872,
+          "civ": "Mongols",
+          "map": "Scandinavia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:17:02.000Z",
+          "dur": 68,
+          "opponents": [
+            {
+              "profileId": 13117321,
+              "name": "TriTone"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510279644,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T10:03:58.000Z",
+          "dur": 630,
+          "opponents": [
+            {
+              "profileId": 3355214,
+              "name": "Alan FEVM"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508357737,
           "civ": "Magyars",
@@ -1713,7 +1832,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 435,
         "peakRating": 503
       },
@@ -2239,5 +2358,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

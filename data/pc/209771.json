@@ -6,25 +6,59 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1599,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1595,
+        "totalGames": 1601,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1609,
         "peakRating": 1726
       },
       "matches": [
+        {
+          "matchId": 510163290,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:46:50.000Z",
+          "dur": 93,
+          "opponents": [
+            {
+              "profileId": 4673433,
+              "name": "Yam"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510161166,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:36:28.000Z",
+          "dur": 480,
+          "opponents": [
+            {
+              "profileId": 1233624,
+              "name": "Wishbear"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 493369095,
           "civ": "Koreans",
@@ -25614,7 +25648,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 22,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-02",
         "latestRating": 1174,
         "peakRating": 1188
       },
@@ -26366,5 +26400,6 @@
   },
   "country": "fi",
   "countryIcon": "\ud83c\uddeb\ud83c\uddee",
-  "countryName": "Finland"
+  "countryName": "Finland",
+  "platform": "Steam"
 }

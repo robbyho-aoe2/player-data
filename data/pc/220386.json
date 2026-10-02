@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 181,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1058,
+        "totalGames": 184,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1075,
         "peakRating": 1206
       },
       "matches": [
+        {
+          "matchId": 510576378,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:53:49.000Z",
+          "dur": 3230,
+          "opponents": [
+            {
+              "profileId": 23252356,
+              "name": "SW\u786c\u864e"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510571534,
+          "civ": "Vikings",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:28:36.000Z",
+          "dur": 1431,
+          "opponents": [
+            {
+              "profileId": 3144089,
+              "name": "Eric the \u5927\u9e21\u5df4\u82f1\u96c4"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510350886,
+          "civ": "Vikings",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T17:35:02.000Z",
+          "dur": 1233,
+          "opponents": [
+            {
+              "profileId": 22642811,
+              "name": "JavierU"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509633084,
           "civ": "Vikings",
@@ -3107,12 +3158,13 @@
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     }
   },
   "country": "bg",
   "countryIcon": "\ud83c\udde7\ud83c\uddec",
-  "countryName": "Bulgaria"
+  "countryName": "Bulgaria",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 904,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1256,
-        "peakRating": 1256
+        "totalGames": 905,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1271,
+        "peakRating": 1271
       },
       "matches": [
+        {
+          "matchId": 510356443,
+          "civ": "Saxons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:02:18.000Z",
+          "dur": 1054,
+          "opponents": [
+            {
+              "profileId": 21149984,
+              "name": "SLA"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509697133,
           "civ": "Saxons",
@@ -13521,12 +13538,164 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1183,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1187,
+        "totalGames": 1187,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1186,
         "peakRating": 1358
       },
       "matches": [
+        {
+          "matchId": 510360969,
+          "civ": "Saxons",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:23:19.000Z",
+          "dur": 317,
+          "opponents": [
+            {
+              "profileId": 15603460,
+              "name": "Marldox"
+            },
+            {
+              "profileId": 15602988,
+              "name": "Mankito77"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3304069,
+              "name": "elPreto"
+            }
+          ]
+        },
+        {
+          "matchId": 509946487,
+          "civ": "Lithuanians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:44:58.000Z",
+          "dur": 1610,
+          "opponents": [
+            {
+              "profileId": 25887341,
+              "name": "Abraham"
+            },
+            {
+              "profileId": 25488911,
+              "name": "Donki"
+            },
+            {
+              "profileId": 12308952,
+              "name": "Brandon"
+            },
+            {
+              "profileId": 2900970,
+              "name": "DartPlayerCZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 435022,
+              "name": "adam.stendahl"
+            },
+            {
+              "profileId": 380941,
+              "name": "Tarongil"
+            },
+            {
+              "profileId": 3477340,
+              "name": "tommybee"
+            }
+          ]
+        },
+        {
+          "matchId": 509938959,
+          "civ": "Saxons",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:11:18.000Z",
+          "dur": 1722,
+          "opponents": [
+            {
+              "profileId": 7394368,
+              "name": "7shuttlecock"
+            },
+            {
+              "profileId": 23411095,
+              "name": "Kabale"
+            },
+            {
+              "profileId": 10501826,
+              "name": "Apostate of Hate"
+            },
+            {
+              "profileId": 1720993,
+              "name": "Haribo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 435022,
+              "name": "adam.stendahl"
+            },
+            {
+              "profileId": 380941,
+              "name": "Tarongil"
+            },
+            {
+              "profileId": 3477340,
+              "name": "tommybee"
+            }
+          ]
+        },
+        {
+          "matchId": 509932027,
+          "civ": "Saxons",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:40:42.000Z",
+          "dur": 1558,
+          "opponents": [
+            {
+              "profileId": 6335613,
+              "name": "Mimon"
+            },
+            {
+              "profileId": 11728235,
+              "name": "in'Thomas"
+            },
+            {
+              "profileId": 2131035,
+              "name": "Nova_Wolf"
+            },
+            {
+              "profileId": 5244696,
+              "name": "Dagis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 435022,
+              "name": "adam.stendahl"
+            },
+            {
+              "profileId": 3477340,
+              "name": "tommybee"
+            },
+            {
+              "profileId": 380941,
+              "name": "Tarongil"
+            }
+          ]
+        },
         {
           "matchId": 509734645,
           "civ": "Saxons",
@@ -39808,5 +39977,6 @@
   },
   "country": "se",
   "countryIcon": "\ud83c\uddf8\ud83c\uddea",
-  "countryName": "Sweden"
+  "countryName": "Sweden",
+  "platform": "Steam"
 }

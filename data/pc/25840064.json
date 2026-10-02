@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 94,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1327,
-        "peakRating": 1327
+        "totalGames": 95,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1341,
+        "peakRating": 1341
       },
       "matches": [
+        {
+          "matchId": 510043482,
+          "civ": "Bulgarians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T06:05:45.000Z",
+          "dur": 2651,
+          "opponents": [
+            {
+              "profileId": 23546811,
+              "name": "Vaci\u0107"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509346301,
           "civ": "Bulgarians",
@@ -1593,7 +1610,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 80,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1227,
         "peakRating": 1228
       },
@@ -4222,5 +4239,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

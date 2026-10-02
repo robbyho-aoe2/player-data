@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 26,
-        "pulledDate": "2026-09-28",
-        "latestRating": 617,
+        "totalGames": 27,
+        "pulledDate": "2026-10-02",
+        "latestRating": 635,
         "peakRating": 806
       },
       "matches": [
+        {
+          "matchId": 510013833,
+          "civ": "Bulgarians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T02:09:22.000Z",
+          "dur": 72,
+          "opponents": [
+            {
+              "profileId": 1394327,
+              "name": "XkranionX"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509770838,
           "civ": "Bulgarians",
@@ -472,7 +489,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 39,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 638,
         "peakRating": 676
       },
@@ -1760,5 +1777,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

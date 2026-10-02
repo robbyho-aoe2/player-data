@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2319,
-        "pulledDate": "2026-09-24",
-        "latestRating": 2820,
-        "peakRating": 2820
+        "totalGames": 2322,
+        "pulledDate": "2026-10-02",
+        "latestRating": 2821,
+        "peakRating": 2830
       },
       "matches": [
+        {
+          "matchId": 510273192,
+          "civ": "Shu",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:54:09.000Z",
+          "dur": 778,
+          "opponents": [
+            {
+              "profileId": 2589331,
+              "name": "AntagonisT"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510083776,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:46:05.000Z",
+          "dur": 1610,
+          "opponents": [
+            {
+              "profileId": 4632681,
+              "name": "Overtaken"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510073202,
+          "civ": "Tatars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T11:25:22.000Z",
+          "dur": 1549,
+          "opponents": [
+            {
+              "profileId": 25365699,
+              "name": "Jibatong"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508421042,
           "civ": "Georgians",
@@ -34873,7 +34924,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 293,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1876,
         "peakRating": 1937
       },
@@ -41977,5 +42028,6 @@
   },
   "country": "jp",
   "countryIcon": "\ud83c\uddef\ud83c\uddf5",
-  "countryName": "Japan"
+  "countryName": "Japan",
+  "platform": "Steam"
 }

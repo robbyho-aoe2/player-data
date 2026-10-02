@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 18,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-01",
         "latestRating": 1080,
         "peakRating": 1112
       },
@@ -317,12 +317,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 93,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1199,
+        "totalGames": 95,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1195,
         "peakRating": 1214
       },
       "matches": [
+        {
+          "matchId": 509999940,
+          "civ": "Malians",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:47:27.000Z",
+          "dur": 2221,
+          "opponents": [
+            {
+              "profileId": 22686651,
+              "name": "GoEchi"
+            },
+            {
+              "profileId": 3297072,
+              "name": "Wojtek"
+            },
+            {
+              "profileId": 9211907,
+              "name": "Atila el Huno"
+            },
+            {
+              "profileId": 19745813,
+              "name": "Pampuliupampam"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22166413,
+              "name": "\u4e00\u676f\u8336"
+            },
+            {
+              "profileId": 5158626,
+              "name": "DIYwoo"
+            },
+            {
+              "profileId": 21408265,
+              "name": "dong"
+            }
+          ]
+        },
+        {
+          "matchId": 509996674,
+          "civ": "Tatars",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:27:25.000Z",
+          "dur": 1089,
+          "opponents": [
+            {
+              "profileId": 6380070,
+              "name": "S.enpaii"
+            },
+            {
+              "profileId": 6379998,
+              "name": "Zangytangy"
+            },
+            {
+              "profileId": 25371413,
+              "name": "\u6211\u6709\u4f4e\u4fdd\u6211\u5148\u4e0a"
+            },
+            {
+              "profileId": 9211907,
+              "name": "Atila el Huno"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2134468,
+              "name": "Locomaxi"
+            },
+            {
+              "profileId": 1002468,
+              "name": "NobregaPF"
+            },
+            {
+              "profileId": 361405,
+              "name": "zaackvader10"
+            }
+          ]
+        },
         {
           "matchId": 491707046,
           "civ": "Ethiopians",
@@ -3480,5 +3564,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Xbox"
 }

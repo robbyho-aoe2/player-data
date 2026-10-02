@@ -6,25 +6,195 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 82,
-        "pulledDate": "2026-09-28",
-        "latestRating": 977,
+        "totalGames": 92,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1065,
         "peakRating": 1081
       },
       "matches": [
+        {
+          "matchId": 510641492,
+          "civ": "Franks",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T23:35:30.000Z",
+          "dur": 1032,
+          "opponents": [
+            {
+              "profileId": 25830958,
+              "name": "bastos021"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510428260,
+          "civ": "Turks",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T00:28:04.000Z",
+          "dur": 1045,
+          "opponents": [
+            {
+              "profileId": 23905282,
+              "name": "zhaoliang0723"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510245746,
+          "civ": "Byzantines",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T04:11:10.000Z",
+          "dur": 1380,
+          "opponents": [
+            {
+              "profileId": 5802999,
+              "name": "fercho.castro"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510217560,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T01:04:56.000Z",
+          "dur": 1678,
+          "opponents": [
+            {
+              "profileId": 5860265,
+              "name": "Ray"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510206438,
+          "civ": "Teutons",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:51:41.000Z",
+          "dur": 1066,
+          "opponents": [
+            {
+              "profileId": 22722542,
+              "name": "Teus_Lopes"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510156993,
+          "civ": "Poles",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:18:34.000Z",
+          "dur": 1512,
+          "opponents": [
+            {
+              "profileId": 6835800,
+              "name": "Fr|DarkAngel"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510035226,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T04:43:32.000Z",
+          "dur": 901,
+          "opponents": [
+            {
+              "profileId": 22726786,
+              "name": "Kenichimar"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510029062,
+          "civ": "Burgundians",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:52:19.000Z",
+          "dur": 1569,
+          "opponents": [
+            {
+              "profileId": 24946659,
+              "name": "diegolalms"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510028389,
+          "civ": "Franks",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T03:47:14.000Z",
+          "dur": 163,
+          "opponents": [
+            {
+              "profileId": 9036056,
+              "name": "ycetra"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509788735,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:51:30.000Z",
+          "dur": 942,
+          "opponents": [
+            {
+              "profileId": 312837,
+              "name": "Augusta"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509747371,
           "civ": "Japanese",
@@ -1424,7 +1594,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 3,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": [
         {
@@ -1510,5 +1680,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

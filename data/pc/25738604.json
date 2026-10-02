@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 84,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1013,
+        "totalGames": 87,
+        "pulledDate": "2026-10-02",
+        "latestRating": 967,
         "peakRating": 1028
       },
       "matches": [
+        {
+          "matchId": 510540515,
+          "civ": "Khmer",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T14:45:24.000Z",
+          "dur": 1209,
+          "opponents": [
+            {
+              "profileId": 14752886,
+              "name": "I Nathaan I"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510179910,
+          "civ": "Franks",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:06:53.000Z",
+          "dur": 970,
+          "opponents": [
+            {
+              "profileId": 4786901,
+              "name": "Slazinater"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510080999,
+          "civ": "Tupi",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T12:26:54.000Z",
+          "dur": 1192,
+          "opponents": [
+            {
+              "profileId": 659489,
+              "name": "Vetinari"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509142637,
           "civ": "Spanish",
@@ -1410,7 +1461,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 42,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1100,
         "peakRating": 1146
       },
@@ -2524,5 +2575,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

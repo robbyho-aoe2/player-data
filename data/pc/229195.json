@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 122,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1672,
+        "totalGames": 127,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1693,
         "peakRating": 1785
       },
       "matches": [
+        {
+          "matchId": 510131927,
+          "civ": "Cumans",
+          "map": "Hideout",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T17:18:33.000Z",
+          "dur": 1096,
+          "opponents": [
+            {
+              "profileId": 10396450,
+              "name": "joethebro229"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510127273,
+          "civ": "Aztecs",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T16:53:58.000Z",
+          "dur": 1371,
+          "opponents": [
+            {
+              "profileId": 5035140,
+              "name": "Ronin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509901337,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T16:08:57.000Z",
+          "dur": 1199,
+          "opponents": [
+            {
+              "profileId": 5757611,
+              "name": "thankyou9527"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509897783,
+          "civ": "Italians",
+          "map": "Migration",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:49:52.000Z",
+          "dur": 1067,
+          "opponents": [
+            {
+              "profileId": 9753390,
+              "name": "Gkings"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509894867,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T15:34:13.000Z",
+          "dur": 861,
+          "opponents": [
+            {
+              "profileId": 5757611,
+              "name": "thankyou9527"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509585037,
           "civ": "Cumans",
@@ -1994,7 +2079,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1563,
         "peakRating": 1623
       },
@@ -2236,5 +2321,6 @@
   },
   "country": "ch",
   "countryIcon": "\ud83c\udde8\ud83c\udded",
-  "countryName": "Switzerland"
+  "countryName": "Switzerland",
+  "platform": "Steam"
 }

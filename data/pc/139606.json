@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-01",
         "latestRating": 1515,
         "peakRating": 1515
       },
@@ -353,12 +353,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 160,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1490,
+        "totalGames": 163,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1503,
         "peakRating": 1514
       },
       "matches": [
+        {
+          "matchId": 510271888,
+          "civ": "Italians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:40:02.000Z",
+          "dur": 2367,
+          "opponents": [
+            {
+              "profileId": 23768591,
+              "name": "nono"
+            },
+            {
+              "profileId": 22629697,
+              "name": "shenxu"
+            },
+            {
+              "profileId": 20578209,
+              "name": "\u96c0\u5de2\u963f\u5e06"
+            },
+            {
+              "profileId": 9771239,
+              "name": "\u7ed9\u4f60\u4e00\u68d2\u69cc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13462337,
+              "name": "daumasson"
+            },
+            {
+              "profileId": 1041990,
+              "name": "belgawizard"
+            },
+            {
+              "profileId": 637186,
+              "name": "Zlap"
+            }
+          ]
+        },
+        {
+          "matchId": 510271080,
+          "civ": "Danes",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:30:41.000Z",
+          "dur": 403,
+          "opponents": [
+            {
+              "profileId": 23768591,
+              "name": "nono"
+            },
+            {
+              "profileId": 22629697,
+              "name": "shenxu"
+            },
+            {
+              "profileId": 20578209,
+              "name": "\u96c0\u5de2\u963f\u5e06"
+            },
+            {
+              "profileId": 9771239,
+              "name": "\u7ed9\u4f60\u4e00\u68d2\u69cc"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23855872,
+              "name": "Honda"
+            },
+            {
+              "profileId": 2672175,
+              "name": "Sakmelo"
+            },
+            {
+              "profileId": 1776432,
+              "name": "Toan Perfect"
+            }
+          ]
+        },
+        {
+          "matchId": 510268424,
+          "civ": "Danes",
+          "map": "Pilgrims",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:01:05.000Z",
+          "dur": 1715,
+          "opponents": [
+            {
+              "profileId": 1252382,
+              "name": "mia"
+            },
+            {
+              "profileId": 18037702,
+              "name": "\u56fd\u9645\u608d\u532aArosy"
+            },
+            {
+              "profileId": 19410487,
+              "name": "\u897f\u5df4\u8001\u561b"
+            },
+            {
+              "profileId": 24039869,
+              "name": "VX | Obligame Perro!"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2777697,
+              "name": "meh"
+            },
+            {
+              "profileId": 9071974,
+              "name": "\u660e\u5f81\u5317\u5927\u5c06\u519b"
+            },
+            {
+              "profileId": 15952678,
+              "name": "Joseph90"
+            }
+          ]
+        },
         {
           "matchId": 503168963,
           "civ": "Italians",
@@ -2576,5 +2702,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

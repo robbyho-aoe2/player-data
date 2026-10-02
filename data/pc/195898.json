@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 847
       },
       "matches": [
@@ -172,12 +172,46 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 249,
-        "pulledDate": "2026-09-27",
-        "latestRating": 808,
+        "totalGames": 250,
+        "pulledDate": "2026-10-02",
+        "latestRating": 792,
         "peakRating": 939
       },
       "matches": [
+        {
+          "matchId": 510387833,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T20:24:17.000Z",
+          "dur": 3181,
+          "opponents": [
+            {
+              "profileId": 24690316,
+              "name": "EuroPavo"
+            },
+            {
+              "profileId": 21082601,
+              "name": "solana20011"
+            },
+            {
+              "profileId": 24896832,
+              "name": "Maister_one"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3532212,
+              "name": "CoBrA"
+            },
+            {
+              "profileId": 25628591,
+              "name": "Nikabrek"
+            }
+          ]
+        },
         {
           "matchId": 509184268,
           "civ": "Persians",
@@ -7722,5 +7756,6 @@
   },
   "country": "dk",
   "countryIcon": "\ud83c\udde9\ud83c\uddf0",
-  "countryName": "Denmark"
+  "countryName": "Denmark",
+  "platform": "Steam"
 }

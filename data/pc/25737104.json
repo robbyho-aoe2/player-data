@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 60,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1388,
         "peakRating": 1406
       },
@@ -1000,12 +1000,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 127,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1344,
+        "totalGames": 129,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1312,
         "peakRating": 1400
       },
       "matches": [
+        {
+          "matchId": 510207105,
+          "civ": "Spanish",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T23:56:33.000Z",
+          "dur": 1119,
+          "opponents": [
+            {
+              "profileId": 393099,
+              "name": "Rhythm_"
+            },
+            {
+              "profileId": 5736603,
+              "name": "Manee"
+            },
+            {
+              "profileId": 4981650,
+              "name": "wagwan_son"
+            },
+            {
+              "profileId": 2482871,
+              "name": "Bread"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3307479,
+              "name": "| CZK | - Yamil62 -"
+            },
+            {
+              "profileId": 3220922,
+              "name": "| CZK | - GranAguila"
+            },
+            {
+              "profileId": 1412573,
+              "name": "| CZK | CONANJD"
+            }
+          ]
+        },
+        {
+          "matchId": 510116402,
+          "civ": "Mongols",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T15:54:56.000Z",
+          "dur": 242,
+          "opponents": [
+            {
+              "profileId": 9196431,
+              "name": "Frimbolin"
+            },
+            {
+              "profileId": 14904503,
+              "name": "Stinky"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2658165,
+              "name": "NightPlane492"
+            }
+          ]
+        },
         {
           "matchId": 508715415,
           "civ": "Mongols",
@@ -5447,5 +5515,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

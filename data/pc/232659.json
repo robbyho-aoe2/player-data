@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 862,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1619,
+        "totalGames": 866,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1658,
         "peakRating": 1754
       },
       "matches": [
+        {
+          "matchId": 510520234,
+          "civ": "Poles",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T12:46:32.000Z",
+          "dur": 1215,
+          "opponents": [
+            {
+              "profileId": 214257,
+              "name": "shengdanlaoren"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510513991,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T11:59:58.000Z",
+          "dur": 2485,
+          "opponents": [
+            {
+              "profileId": 14012927,
+              "name": "jo8313"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510338948,
+          "civ": "Maya",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T16:31:53.000Z",
+          "dur": 514,
+          "opponents": [
+            {
+              "profileId": 3440529,
+              "name": "Pol"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510332622,
+          "civ": "Persians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T15:58:53.000Z",
+          "dur": 1805,
+          "opponents": [
+            {
+              "profileId": 10139185,
+              "name": "The Crusader"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509293563,
           "civ": "Maya",
@@ -13837,7 +13905,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 692,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1550,
         "peakRating": 1674
       },
@@ -35236,5 +35304,6 @@
   },
   "country": "br",
   "countryIcon": "\ud83c\udde7\ud83c\uddf7",
-  "countryName": "Brazil"
+  "countryName": "Brazil",
+  "platform": "Steam"
 }

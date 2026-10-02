@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 69,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-02",
         "latestRating": 1020,
         "peakRating": 1218
       },
@@ -1133,12 +1133,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 2121,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1320,
+        "totalGames": 2124,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1333,
         "peakRating": 1464
       },
       "matches": [
+        {
+          "matchId": 510471323,
+          "civ": "Cumans",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T05:20:57.000Z",
+          "dur": 4657,
+          "opponents": [
+            {
+              "profileId": 59190,
+              "name": "\u54e5\u4eec\u8fd9\u74dc\u591a\u5c11\u94b1\u4e00\u65a4\uff1f"
+            },
+            {
+              "profileId": 20468045,
+              "name": "\u53cd\u6d3e\u4e16\u754c\u7537\u4e3b\u89d2"
+            },
+            {
+              "profileId": 20467150,
+              "name": "\u4e2d\u8d24\u826f\u5e08"
+            },
+            {
+              "profileId": 18429084,
+              "name": "Respected Mr.Lang"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15772275,
+              "name": "anhdeptraibd"
+            },
+            {
+              "profileId": 11246760,
+              "name": "vuongan255"
+            },
+            {
+              "profileId": 817625,
+              "name": "jaimeerp"
+            }
+          ]
+        },
+        {
+          "matchId": 509797395,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:41:29.000Z",
+          "dur": 115,
+          "opponents": [
+            {
+              "profileId": 10836099,
+              "name": "\u80a5\u80a5\u732b"
+            },
+            {
+              "profileId": 8520112,
+              "name": "juanpasp2001825"
+            },
+            {
+              "profileId": 2576215,
+              "name": "italyspaladin"
+            },
+            {
+              "profileId": 2764403,
+              "name": "Charles R Norris"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 15691150,
+              "name": "RafixRuche"
+            },
+            {
+              "profileId": 2256842,
+              "name": "SATOLEP"
+            },
+            {
+              "profileId": 3443877,
+              "name": "[NuMa] cristo22B"
+            }
+          ]
+        },
+        {
+          "matchId": 509784778,
+          "civ": "Persians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:29:10.000Z",
+          "dur": 1266,
+          "opponents": [
+            {
+              "profileId": 22604291,
+              "name": "only_mousee"
+            },
+            {
+              "profileId": 20628823,
+              "name": "CTM | FullChow"
+            },
+            {
+              "profileId": 20428939,
+              "name": "CTM | El Profesor Pingafales"
+            },
+            {
+              "profileId": 14835150,
+              "name": "Condorito"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2017996,
+              "name": "alemarioh"
+            },
+            {
+              "profileId": 15455883,
+              "name": "Caronte"
+            },
+            {
+              "profileId": 2205533,
+              "name": "OLD_SAINT_DICK"
+            }
+          ]
+        },
         {
           "matchId": 503300389,
           "civ": "Mongols",
@@ -82508,5 +82634,6 @@
   },
   "country": "mx",
   "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
-  "countryName": "Mexico"
+  "countryName": "Mexico",
+  "platform": "Steam"
 }

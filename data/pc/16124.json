@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 475,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1159,
         "peakRating": 1311
       },
@@ -7642,12 +7642,72 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1429,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1066,
+        "totalGames": 1431,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1037,
         "peakRating": 1219
       },
       "matches": [
+        {
+          "matchId": 510612349,
+          "civ": "Tatars",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:41:57.000Z",
+          "dur": 1762,
+          "opponents": [
+            {
+              "profileId": 22170064,
+              "name": "Gkzaim"
+            },
+            {
+              "profileId": 22675421,
+              "name": "seher9203"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21405,
+              "name": "Mandalorian"
+            }
+          ]
+        },
+        {
+          "matchId": 510597288,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T19:30:23.000Z",
+          "dur": 3551,
+          "opponents": [
+            {
+              "profileId": 4231853,
+              "name": "You_can't_see_me"
+            },
+            {
+              "profileId": 4722890,
+              "name": "stoibech"
+            },
+            {
+              "profileId": 4725400,
+              "name": "Awkward Conversation"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6624549,
+              "name": "AndiBoy"
+            },
+            {
+              "profileId": 21405,
+              "name": "Mandalorian"
+            }
+          ]
+        },
         {
           "matchId": 508759106,
           "civ": "Mapuche",
@@ -53702,5 +53762,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Steam"
 }

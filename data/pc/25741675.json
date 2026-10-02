@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 128,
-        "pulledDate": "2026-09-28",
-        "latestRating": 973,
+        "totalGames": 131,
+        "pulledDate": "2026-10-02",
+        "latestRating": 984,
         "peakRating": 1017
       },
       "matches": [
+        {
+          "matchId": 509799532,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:54:18.000Z",
+          "dur": 2257,
+          "opponents": [
+            {
+              "profileId": 15634731,
+              "name": "TuGanzo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509794992,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T02:26:45.000Z",
+          "dur": 1595,
+          "opponents": [
+            {
+              "profileId": 26176524,
+              "name": "luisvala631"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509785157,
+          "civ": "Burmese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T01:30:55.000Z",
+          "dur": 2731,
+          "opponents": [
+            {
+              "profileId": 2070407,
+              "name": "Gekko777"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509305837,
           "civ": "Varangians",
@@ -2205,10 +2256,130 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 8,
-        "pulledDate": "2026-09-28"
+        "totalGames": 11,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1037,
+        "peakRating": 1037
       },
       "matches": [
+        {
+          "matchId": 510651580,
+          "civ": "Cumans",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T00:44:10.000Z",
+          "dur": 1762,
+          "opponents": [
+            {
+              "profileId": 21788333,
+              "name": "Rage of Khorne"
+            },
+            {
+              "profileId": 26139812,
+              "name": "DonaldTrumpet"
+            },
+            {
+              "profileId": 25641956,
+              "name": "Formidable Bacon"
+            },
+            {
+              "profileId": 24788727,
+              "name": "xxyvonnederful"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 21105681,
+              "name": "Roccia"
+            },
+            {
+              "profileId": 10243358,
+              "name": "Sebastian Quintero Arias"
+            },
+            {
+              "profileId": 11738403,
+              "name": "JoseeeeRobleees"
+            }
+          ]
+        },
+        {
+          "matchId": 510647349,
+          "civ": "Cumans",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T00:15:34.000Z",
+          "dur": 1485,
+          "opponents": [
+            {
+              "profileId": 5587425,
+              "name": "doodysniffer69"
+            },
+            {
+              "profileId": 26118122,
+              "name": "\u5e1d\u56fd\u7684\u94c1\u9a91"
+            },
+            {
+              "profileId": 22120106,
+              "name": "Dad"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10243358,
+              "name": "Sebastian Quintero Arias"
+            },
+            {
+              "profileId": 11738403,
+              "name": "JoseeeeRobleees"
+            }
+          ]
+        },
+        {
+          "matchId": 510643691,
+          "civ": "Burmese",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T23:49:59.000Z",
+          "dur": 1321,
+          "opponents": [
+            {
+              "profileId": 3540435,
+              "name": "SER"
+            },
+            {
+              "profileId": 1707402,
+              "name": "Hecklefish for President"
+            },
+            {
+              "profileId": 6732728,
+              "name": "Nuhro"
+            },
+            {
+              "profileId": 16842565,
+              "name": "Barbeituss"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 20493063,
+              "name": "ERIKXG20"
+            },
+            {
+              "profileId": 10243358,
+              "name": "Sebastian Quintero Arias"
+            },
+            {
+              "profileId": 11738403,
+              "name": "JoseeeeRobleees"
+            }
+          ]
+        },
         {
           "matchId": 509232810,
           "civ": "Spanish",
@@ -2534,5 +2705,6 @@
   },
   "country": "co",
   "countryIcon": "\ud83c\udde8\ud83c\uddf4",
-  "countryName": "Colombia"
+  "countryName": "Colombia",
+  "platform": "Steam"
 }

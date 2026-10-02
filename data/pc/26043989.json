@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 34,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 724,
         "peakRating": 756
       },
@@ -607,10 +607,62 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 7,
-        "pulledDate": "2026-09-28"
+        "totalGames": 9,
+        "pulledDate": "2026-10-02"
       },
       "matches": [
+        {
+          "matchId": 509960243,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:49:18.000Z",
+          "dur": 1834,
+          "opponents": [
+            {
+              "profileId": 11703658,
+              "name": "2022aoe2"
+            },
+            {
+              "profileId": 20717762,
+              "name": "tHe ChArLyEr"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26057677,
+              "name": "Castelhano"
+            }
+          ]
+        },
+        {
+          "matchId": 509957382,
+          "civ": "Goths",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:34:24.000Z",
+          "dur": 629,
+          "opponents": [
+            {
+              "profileId": 2084248,
+              "name": "Kurtkapan\u0131"
+            },
+            {
+              "profileId": 10212054,
+              "name": "Gaunter O'Dimm"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26057677,
+              "name": "Castelhano"
+            }
+          ]
+        },
         {
           "matchId": 509468699,
           "civ": "Goths",
@@ -806,5 +858,6 @@
   },
   "country": "pt",
   "countryIcon": "\ud83c\uddf5\ud83c\uddf9",
-  "countryName": "Portugal"
+  "countryName": "Portugal",
+  "platform": "Steam"
 }

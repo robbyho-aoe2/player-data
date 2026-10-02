@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 709,
-        "pulledDate": "2026-09-24",
-        "latestRating": 1739,
-        "peakRating": 1752
+        "totalGames": 713,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1737,
+        "peakRating": 1758
       },
       "matches": [
+        {
+          "matchId": 510166639,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:01:24.000Z",
+          "dur": 959,
+          "opponents": [
+            {
+              "profileId": 2360919,
+              "name": "goodguy"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510161684,
+          "civ": "Romans",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T19:38:40.000Z",
+          "dur": 1199,
+          "opponents": [
+            {
+              "profileId": 2363846,
+              "name": "TulparFYNH"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509947987,
+          "civ": "Mapuche",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:52:02.000Z",
+          "dur": 1484,
+          "opponents": [
+            {
+              "profileId": 5981668,
+              "name": "BTJ | ThC_Lobo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509939943,
+          "civ": "Magyars",
+          "map": "Four Lakes",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:14:57.000Z",
+          "dur": 2200,
+          "opponents": [
+            {
+              "profileId": 184422,
+              "name": "OIDA | Brix"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508278278,
           "civ": "Huns",
@@ -11419,7 +11487,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 670,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1513,
         "peakRating": 1604
       },
@@ -35291,5 +35359,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

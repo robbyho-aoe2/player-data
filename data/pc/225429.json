@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1390,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1221,
+        "totalGames": 1393,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1234,
         "peakRating": 1332
       },
       "matches": [
+        {
+          "matchId": 509874224,
+          "civ": "Maya",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:43:08.000Z",
+          "dur": 1970,
+          "opponents": [
+            {
+              "profileId": 15509343,
+              "name": "ruling-dg"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509870861,
+          "civ": "Magyars",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T13:22:42.000Z",
+          "dur": 977,
+          "opponents": [
+            {
+              "profileId": 25070485,
+              "name": "golemnewton"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509866194,
+          "civ": "Britons",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T12:53:55.000Z",
+          "dur": 1666,
+          "opponents": [
+            {
+              "profileId": 6009255,
+              "name": "35234525642"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 505658636,
           "civ": "Japanese",
@@ -20829,7 +20880,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 431,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-02",
         "latestRating": 1136,
         "peakRating": 1314
       },
@@ -28885,5 +28936,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

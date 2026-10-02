@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1264,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1201,
+        "totalGames": 1265,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1219,
         "peakRating": 1284
       },
       "matches": [
+        {
+          "matchId": 510510212,
+          "civ": "Mongols",
+          "map": "Fortress",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T11:29:05.000Z",
+          "dur": 1401,
+          "opponents": [
+            {
+              "profileId": 23270612,
+              "name": "Philip Morris"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508987210,
           "civ": "Saracens",
@@ -21518,7 +21535,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 212,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1216,
         "peakRating": 1294
       },
@@ -27079,5 +27096,6 @@
   },
   "country": "sk",
   "countryIcon": "\ud83c\uddf8\ud83c\uddf0",
-  "countryName": "Slovakia"
+  "countryName": "Slovakia",
+  "platform": "Steam"
 }

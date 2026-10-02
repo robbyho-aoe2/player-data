@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 7,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-02",
         "latestRating": 729
       },
       "matches": [
@@ -140,12 +140,38 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 37,
-        "pulledDate": "2026-09-11",
-        "latestRating": 753,
+        "totalGames": 38,
+        "pulledDate": "2026-10-02",
+        "latestRating": 777,
         "peakRating": 876
       },
       "matches": [
+        {
+          "matchId": 510568323,
+          "civ": "Dravidians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T17:12:47.000Z",
+          "dur": 1443,
+          "opponents": [
+            {
+              "profileId": 26187860,
+              "name": "DarkGian5621"
+            },
+            {
+              "profileId": 24548877,
+              "name": "Jon Doe9482"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25584566,
+              "name": "La arana2897"
+            }
+          ]
+        },
         {
           "matchId": 497612722,
           "civ": "Sicilians",
@@ -1092,5 +1118,6 @@
   },
   "country": "ar",
   "countryIcon": "\ud83c\udde6\ud83c\uddf7",
-  "countryName": "Argentina"
+  "countryName": "Argentina",
+  "platform": "Xbox"
 }

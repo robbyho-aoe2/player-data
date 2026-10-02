@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 40,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1114,
         "peakRating": 1185
       },
@@ -671,12 +671,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 799,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1129,
+        "totalGames": 802,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1133,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 510261014,
+          "civ": "Khitans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:39:31.000Z",
+          "dur": 1389,
+          "opponents": [
+            {
+              "profileId": 15743662,
+              "name": "darkcry7562"
+            },
+            {
+              "profileId": 8516040,
+              "name": "Tarak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 300829,
+              "name": "RabidMongoose"
+            }
+          ]
+        },
+        {
+          "matchId": 510258188,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T06:09:04.000Z",
+          "dur": 1720,
+          "opponents": [
+            {
+              "profileId": 25721019,
+              "name": "bumap"
+            },
+            {
+              "profileId": 2911209,
+              "name": "\u7231\u671f\u6ee1\u540e"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 300829,
+              "name": "RabidMongoose"
+            }
+          ]
+        },
+        {
+          "matchId": 510256399,
+          "civ": "Berbers",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T05:51:51.000Z",
+          "dur": 820,
+          "opponents": [
+            {
+              "profileId": 3877994,
+              "name": "11RICOPOLLO11"
+            },
+            {
+              "profileId": 1647182,
+              "name": "Mal Vecino"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 300829,
+              "name": "RabidMongoose"
+            }
+          ]
+        },
         {
           "matchId": 509562676,
           "civ": "Lithuanians",
@@ -30133,5 +30211,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 192,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1061,
         "peakRating": 1078
       },
@@ -3293,12 +3293,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 321,
-        "pulledDate": "2026-09-27",
+        "totalGames": 323,
+        "pulledDate": "2026-10-01",
         "latestRating": 854,
         "peakRating": 987
       },
       "matches": [
+        {
+          "matchId": 510235773,
+          "civ": "Danes",
+          "map": "Lombardia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:57:46.000Z",
+          "dur": 4206,
+          "opponents": [
+            {
+              "profileId": 8636863,
+              "name": "Matthias9"
+            },
+            {
+              "profileId": 8655988,
+              "name": "AZULA"
+            },
+            {
+              "profileId": 9177435,
+              "name": "bad machine \u2661"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 285166,
+              "name": "Raseri"
+            },
+            {
+              "profileId": 313524,
+              "name": "GladiusDecimus"
+            }
+          ]
+        },
+        {
+          "matchId": 510228718,
+          "civ": "Danes",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T02:12:59.000Z",
+          "dur": 2351,
+          "opponents": [
+            {
+              "profileId": 14131392,
+              "name": "Serdy"
+            },
+            {
+              "profileId": 5320568,
+              "name": "Hunter_22X"
+            },
+            {
+              "profileId": 4050523,
+              "name": "Speedyk2000"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 285166,
+              "name": "Raseri"
+            },
+            {
+              "profileId": 313524,
+              "name": "GladiusDecimus"
+            }
+          ]
+        },
         {
           "matchId": 509014692,
           "civ": "Danes",
@@ -12826,5 +12894,6 @@
   },
   "country": "us",
   "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America"
+  "countryName": "United States of America",
+  "platform": "Steam"
 }

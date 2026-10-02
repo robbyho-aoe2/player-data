@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 129,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-01",
         "latestRating": 1606,
         "peakRating": 1606
       },
@@ -2093,12 +2093,168 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1434,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1400,
+        "totalGames": 1440,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1373,
         "peakRating": 1460
       },
       "matches": [
+        {
+          "matchId": 510643997,
+          "civ": "Persians",
+          "map": "African Clearing",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T23:52:13.000Z",
+          "dur": null,
+          "opponents": [
+            {
+              "profileId": 3462992,
+              "name": "Bugzy"
+            },
+            {
+              "profileId": 1572404,
+              "name": "Troya"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 5714034,
+              "name": "Thek"
+            }
+          ]
+        },
+        {
+          "matchId": 510008912,
+          "civ": "Mongols",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:41:05.000Z",
+          "dur": 2883,
+          "opponents": [
+            {
+              "profileId": 4819441,
+              "name": "[HAV] Papi de Jardin"
+            },
+            {
+              "profileId": 3322326,
+              "name": "[HAV] Mitalca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2984690,
+              "name": "Etienne"
+            }
+          ]
+        },
+        {
+          "matchId": 510005867,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:23:01.000Z",
+          "dur": 959,
+          "opponents": [
+            {
+              "profileId": 21908476,
+              "name": "gabrielmatgs7"
+            },
+            {
+              "profileId": 2224607,
+              "name": "Xerg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2984690,
+              "name": "Etienne"
+            }
+          ]
+        },
+        {
+          "matchId": 510002498,
+          "civ": "Saracens",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:03:35.000Z",
+          "dur": 1072,
+          "opponents": [
+            {
+              "profileId": 4909396,
+              "name": "[aM] Hera"
+            },
+            {
+              "profileId": 2682004,
+              "name": "edespanu"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2984690,
+              "name": "Etienne"
+            }
+          ]
+        },
+        {
+          "matchId": 509999113,
+          "civ": "Wu",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:41:56.000Z",
+          "dur": 1172,
+          "opponents": [
+            {
+              "profileId": 17945164,
+              "name": "MXTS | \u00bfSe vale nuevo DLC?"
+            },
+            {
+              "profileId": 22593082,
+              "name": "yecjoel"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2984690,
+              "name": "Etienne"
+            }
+          ]
+        },
+        {
+          "matchId": 509996037,
+          "civ": "Varangians",
+          "map": "MegaRandom",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T00:23:01.000Z",
+          "dur": 963,
+          "opponents": [
+            {
+              "profileId": 5177138,
+              "name": "cobmouth"
+            },
+            {
+              "profileId": 9027109,
+              "name": "Yagatan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2984690,
+              "name": "Etienne"
+            }
+          ]
+        },
         {
           "matchId": 508999462,
           "civ": "Danes",
@@ -48739,5 +48895,6 @@
   },
   "country": "ca",
   "countryIcon": "\ud83c\udde8\ud83c\udde6",
-  "countryName": "Canada"
+  "countryName": "Canada",
+  "platform": "Steam"
 }

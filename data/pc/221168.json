@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-11"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 1386,
-        "pulledDate": "2026-09-11",
-        "latestRating": 1638,
+        "totalGames": 1389,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1625,
         "peakRating": 1702
       },
       "matches": [
+        {
+          "matchId": 510633422,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:39:57.000Z",
+          "dur": 883,
+          "opponents": [
+            {
+              "profileId": 18906915,
+              "name": "CORP | Diego_Corsant"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510631119,
+          "civ": "Lithuanians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T22:26:52.000Z",
+          "dur": 711,
+          "opponents": [
+            {
+              "profileId": 25672067,
+              "name": "Im_16Years_Old_IamCaPte"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510623131,
+          "civ": "Romans",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T21:38:11.000Z",
+          "dur": 1608,
+          "opponents": [
+            {
+              "profileId": 4734477,
+              "name": "dean_moriarty"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 496272094,
           "civ": "Persians",
@@ -22206,7 +22257,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 1031,
-        "pulledDate": "2026-09-11",
+        "pulledDate": "2026-10-02",
         "latestRating": 1466,
         "peakRating": 1556
       },
@@ -60245,5 +60296,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 95,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1388,
+        "totalGames": 100,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1327,
         "peakRating": 1432
       },
       "matches": [
+        {
+          "matchId": 510059104,
+          "civ": "Bengalis",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:58:56.000Z",
+          "dur": 1591,
+          "opponents": [
+            {
+              "profileId": 23113626,
+              "name": "Tensorflow"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510054781,
+          "civ": "Wei",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:10:58.000Z",
+          "dur": 699,
+          "opponents": [
+            {
+              "profileId": 26050620,
+              "name": "Amo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510053805,
+          "civ": "Britons",
+          "map": "Arabia",
+          "won": null,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:00:31.000Z",
+          "dur": 160,
+          "opponents": [
+            {
+              "profileId": 25382081,
+              "name": "Korondo"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510053647,
+          "civ": "Bengalis",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:58:04.000Z",
+          "dur": 11,
+          "opponents": [
+            {
+              "profileId": 1267077,
+              "name": "\u72af\u5927\u5434\u7586\u571f\u8005\u76db\u5fc5\u51fb\u800c\u7834\u4e4b"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510052505,
+          "civ": "Turks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T07:46:03.000Z",
+          "dur": 661,
+          "opponents": [
+            {
+              "profileId": 3209710,
+              "name": "nico"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 508450145,
           "civ": "Tatars",
@@ -1644,12 +1729,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 53,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1290,
+        "totalGames": 54,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1307,
         "peakRating": 1399
       },
       "matches": [
+        {
+          "matchId": 510056871,
+          "civ": "Britons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T08:33:50.000Z",
+          "dur": 1304,
+          "opponents": [
+            {
+              "profileId": 23021957,
+              "name": "Mike"
+            },
+            {
+              "profileId": 4126207,
+              "name": "Lothwen"
+            },
+            {
+              "profileId": 4623233,
+              "name": "Nhitty"
+            },
+            {
+              "profileId": 6894398,
+              "name": "iiiiice"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10258433,
+              "name": "\u51c9\u62cc\u76ae\u86cb"
+            },
+            {
+              "profileId": 19832561,
+              "name": "wuyu"
+            },
+            {
+              "profileId": 2333226,
+              "name": "\u7ea2\u9ed1EX"
+            }
+          ]
+        },
         {
           "matchId": 509374524,
           "civ": "Magyars",
@@ -3721,5 +3848,6 @@
   },
   "country": "cn",
   "countryIcon": "\ud83c\udde8\ud83c\uddf3",
-  "countryName": "China"
+  "countryName": "China",
+  "platform": "Steam"
 }

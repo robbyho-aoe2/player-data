@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 26,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1299,
         "peakRating": 1299
       },
@@ -471,12 +471,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1652,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1321,
+        "totalGames": 1654,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1324,
         "peakRating": 1523
       },
       "matches": [
+        {
+          "matchId": 510526053,
+          "civ": "Mongols",
+          "map": "Coastal Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T13:23:55.000Z",
+          "dur": 1570,
+          "opponents": [
+            {
+              "profileId": 9924709,
+              "name": "flinT"
+            },
+            {
+              "profileId": 6779393,
+              "name": "CaptainQS"
+            },
+            {
+              "profileId": 1226330,
+              "name": "Wololooo"
+            },
+            {
+              "profileId": 267256,
+              "name": "Chungus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 4925269,
+              "name": "Chielch"
+            },
+            {
+              "profileId": 263228,
+              "name": "Fr\u00e4nk"
+            },
+            {
+              "profileId": 213395,
+              "name": "BobLoggIII"
+            }
+          ]
+        },
+        {
+          "matchId": 510520666,
+          "civ": "Mongols",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T12:49:29.000Z",
+          "dur": 1738,
+          "opponents": [
+            {
+              "profileId": 1483740,
+              "name": "[TAIDA]\u99ac\u5176"
+            },
+            {
+              "profileId": 5872468,
+              "name": "[TAIDA]= ="
+            },
+            {
+              "profileId": 22522091,
+              "name": "felixaleman1010"
+            },
+            {
+              "profileId": 344218,
+              "name": "BraveHeart"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 213395,
+              "name": "BobLoggIII"
+            },
+            {
+              "profileId": 4925269,
+              "name": "Chielch"
+            },
+            {
+              "profileId": 263228,
+              "name": "Fr\u00e4nk"
+            }
+          ]
+        },
         {
           "matchId": 509430260,
           "civ": "Spanish",
@@ -59679,5 +59763,6 @@
   },
   "country": "de",
   "countryIcon": "\ud83c\udde9\ud83c\uddea",
-  "countryName": "Germany"
+  "countryName": "Germany",
+  "platform": "Steam"
 }

@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 55,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1477,
+        "totalGames": 56,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1463,
         "peakRating": 1477
       },
       "matches": [
+        {
+          "matchId": 510268523,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T08:01:38.000Z",
+          "dur": 1235,
+          "opponents": [
+            {
+              "profileId": 5834305,
+              "name": "Kkk"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509664754,
           "civ": "Wei",
@@ -965,7 +982,7 @@
     "Team PC": {
       "meta": {
         "totalGames": 20,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1198,
         "peakRating": 1199
       },
@@ -1623,5 +1640,6 @@
   },
   "country": "tw",
   "countryIcon": "\ud83c\uddf9\ud83c\uddfc",
-  "countryName": "Taiwan"
+  "countryName": "Taiwan",
+  "platform": "Steam"
 }

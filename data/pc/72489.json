@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-01"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 272,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1273,
+        "totalGames": 273,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1287,
         "peakRating": 1466
       },
       "matches": [
+        {
+          "matchId": 510242859,
+          "civ": "Tatars",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T03:46:21.000Z",
+          "dur": 1136,
+          "opponents": [
+            {
+              "profileId": 5079284,
+              "name": "noe_alvarado14"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509693337,
           "civ": "Portuguese",
@@ -4653,12 +4670,54 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 764,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1356,
+        "totalGames": 765,
+        "pulledDate": "2026-10-01",
+        "latestRating": 1372,
         "peakRating": 1504
       },
       "matches": [
+        {
+          "matchId": 510008893,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T01:40:57.000Z",
+          "dur": 1943,
+          "opponents": [
+            {
+              "profileId": 2226417,
+              "name": "[RZ] Matheus"
+            },
+            {
+              "profileId": 12002176,
+              "name": "[RZ] Icaro"
+            },
+            {
+              "profileId": 19850234,
+              "name": "[Rz] TK_puxa"
+            },
+            {
+              "profileId": 14415011,
+              "name": "[RZ] James Rocha"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 971495,
+              "name": "Siny"
+            },
+            {
+              "profileId": 6969941,
+              "name": "\u9152\u9189\u4e0a\u7fa9\u59ec"
+            },
+            {
+              "profileId": 5773643,
+              "name": ":)"
+            }
+          ]
+        },
         {
           "matchId": 509708027,
           "civ": "Goths",
@@ -31842,5 +31901,6 @@
   },
   "country": "cl",
   "countryIcon": "\ud83c\udde8\ud83c\uddf1",
-  "countryName": "Chile"
+  "countryName": "Chile",
+  "platform": "Steam"
 }

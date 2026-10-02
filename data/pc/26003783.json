@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 13,
-        "pulledDate": "2026-09-28",
-        "latestRating": 858,
+        "totalGames": 16,
+        "pulledDate": "2026-10-02",
+        "latestRating": 777,
         "peakRating": 947
       },
       "matches": [
+        {
+          "matchId": 509970566,
+          "civ": "Bohemians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:42:15.000Z",
+          "dur": 2067,
+          "opponents": [
+            {
+              "profileId": 5444195,
+              "name": "Avelio"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509964508,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T21:10:08.000Z",
+          "dur": 1092,
+          "opponents": [
+            {
+              "profileId": 26006827,
+              "name": "jacinto99991"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 509953220,
+          "civ": "Bohemians",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T20:15:15.000Z",
+          "dur": 2356,
+          "opponents": [
+            {
+              "profileId": 11575000,
+              "name": "gary.burton"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 509467640,
           "civ": "Bohemians",
@@ -250,12 +301,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 11,
-        "pulledDate": "2026-09-28",
-        "latestRating": 813,
+        "totalGames": 13,
+        "pulledDate": "2026-10-02",
+        "latestRating": 815,
         "peakRating": 843
       },
       "matches": [
+        {
+          "matchId": 509936145,
+          "civ": "Bohemians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:58:40.000Z",
+          "dur": 3690,
+          "opponents": [
+            {
+              "profileId": 10715783,
+              "name": "vetegroddan"
+            },
+            {
+              "profileId": 2797895,
+              "name": "hmbrick"
+            },
+            {
+              "profileId": 1442577,
+              "name": "Baron3n"
+            },
+            {
+              "profileId": 12316454,
+              "name": "anzolablan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6404652,
+              "name": "poopinator"
+            },
+            {
+              "profileId": 6030340,
+              "name": "FoXx"
+            },
+            {
+              "profileId": 19347999,
+              "name": "He"
+            }
+          ]
+        },
+        {
+          "matchId": 509926241,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:14:19.000Z",
+          "dur": 1800,
+          "opponents": [
+            {
+              "profileId": 309913,
+              "name": "Sk\u00f6llShadow"
+            },
+            {
+              "profileId": 1846775,
+              "name": "Kassiber"
+            },
+            {
+              "profileId": 880514,
+              "name": "MamD\u00e962"
+            },
+            {
+              "profileId": 285028,
+              "name": "Broseidon"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26178666,
+              "name": "\u79cd\u7530\u517b\u9c7c"
+            },
+            {
+              "profileId": 26138554,
+              "name": "L_Exsmthng"
+            },
+            {
+              "profileId": 21617929,
+              "name": "xjotapex"
+            }
+          ]
+        },
         {
           "matchId": 509685174,
           "civ": "Bohemians",
@@ -691,5 +826,6 @@
   },
   "country": "cz",
   "countryIcon": "\ud83c\udde8\ud83c\uddff",
-  "countryName": "Czechia"
+  "countryName": "Czechia",
+  "platform": "Steam"
 }

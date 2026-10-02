@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-27"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-09-27",
+        "pulledDate": "2026-10-02",
         "latestRating": 1104,
         "peakRating": 1185
       },
@@ -285,12 +285,140 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 1786,
-        "pulledDate": "2026-09-27",
-        "latestRating": 1190,
+        "totalGames": 1790,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1196,
         "peakRating": 1349
       },
       "matches": [
+        {
+          "matchId": 510607828,
+          "civ": "Celts",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T20:19:53.000Z",
+          "dur": 2051,
+          "opponents": [
+            {
+              "profileId": 1740749,
+              "name": "nstuartmilne"
+            },
+            {
+              "profileId": 9569558,
+              "name": "leopoldstrauss420"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1887545,
+              "name": "imperioooso"
+            }
+          ]
+        },
+        {
+          "matchId": 510191127,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T22:13:11.000Z",
+          "dur": 1789,
+          "opponents": [
+            {
+              "profileId": 199325,
+              "name": "Hera"
+            },
+            {
+              "profileId": 20480405,
+              "name": "beigebaths"
+            },
+            {
+              "profileId": 15393780,
+              "name": "Kyumsi"
+            },
+            {
+              "profileId": 8242611,
+              "name": "Lord Snow"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6208699,
+              "name": "Launger"
+            },
+            {
+              "profileId": 3070464,
+              "name": "ju@mpi"
+            },
+            {
+              "profileId": 754955,
+              "name": "Capixo"
+            }
+          ]
+        },
+        {
+          "matchId": 510186266,
+          "civ": "Celts",
+          "map": "Nomad",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T21:43:05.000Z",
+          "dur": 1582,
+          "opponents": [
+            {
+              "profileId": 25667868,
+              "name": "_MZTK_SIRO_"
+            },
+            {
+              "profileId": 13477903,
+              "name": "MZTK l ROD"
+            },
+            {
+              "profileId": 2785970,
+              "name": "MZTK | GaboxNet .i."
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2436303,
+              "name": "a.tarikcam"
+            },
+            {
+              "profileId": 5038306,
+              "name": "\u0412\u043e\u0440\u043e\u043d\u044f"
+            }
+          ]
+        },
+        {
+          "matchId": 510177394,
+          "civ": "Celts",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-29",
+          "startedAt": "2026-09-29T20:54:06.000Z",
+          "dur": 2637,
+          "opponents": [
+            {
+              "profileId": 23665240,
+              "name": "petey_hs"
+            },
+            {
+              "profileId": 30802,
+              "name": "CazadorGT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 10803274,
+              "name": "TheShade"
+            }
+          ]
+        },
         {
           "matchId": 509725449,
           "civ": "Celts",
@@ -56736,5 +56864,6 @@
   },
   "country": "fr",
   "countryIcon": "\ud83c\uddeb\ud83c\uddf7",
-  "countryName": "France"
+  "countryName": "France",
+  "platform": "Steam"
 }

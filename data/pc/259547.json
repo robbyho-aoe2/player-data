@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-24"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 36,
-        "pulledDate": "2026-09-24",
+        "pulledDate": "2026-10-02",
         "latestRating": 1225,
         "peakRating": 1225
       },
@@ -605,12 +605,80 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 239,
-        "pulledDate": "2026-09-24",
+        "totalGames": 241,
+        "pulledDate": "2026-10-02",
         "latestRating": 1176,
         "peakRating": 1291
       },
       "matches": [
+        {
+          "matchId": 510371017,
+          "civ": "Saxons",
+          "map": "Yucatan",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T19:08:42.000Z",
+          "dur": 1080,
+          "opponents": [
+            {
+              "profileId": 437692,
+              "name": "Teufelchen"
+            },
+            {
+              "profileId": 25030851,
+              "name": "LIGHTYRIX"
+            },
+            {
+              "profileId": 25054394,
+              "name": "zeron"
+            },
+            {
+              "profileId": 21573369,
+              "name": "Sahiro"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2729490,
+              "name": "Exe188"
+            },
+            {
+              "profileId": 11736034,
+              "name": "BuFu1"
+            },
+            {
+              "profileId": 18029804,
+              "name": "JM-POL"
+            }
+          ]
+        },
+        {
+          "matchId": 510364995,
+          "civ": "Vikings",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-30",
+          "startedAt": "2026-09-30T18:41:50.000Z",
+          "dur": 1280,
+          "opponents": [
+            {
+              "profileId": 18385939,
+              "name": "oriol.hs97"
+            },
+            {
+              "profileId": 5897159,
+              "name": "Glenn\u8eca\u8eca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2729490,
+              "name": "Exe188"
+            }
+          ]
+        },
         {
           "matchId": 508700534,
           "civ": "Saxons",
@@ -7966,5 +8034,6 @@
   },
   "country": "nl",
   "countryIcon": "\ud83c\uddf3\ud83c\uddf1",
-  "countryName": "Netherlands"
+  "countryName": "Netherlands",
+  "platform": "Steam"
 }

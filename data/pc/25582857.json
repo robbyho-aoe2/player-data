@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-28"
+        "pulledDate": "2026-10-02"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-09-28",
+        "pulledDate": "2026-10-02",
         "latestRating": 1019,
         "peakRating": 1061
       },
@@ -368,12 +368,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 303,
-        "pulledDate": "2026-09-28",
-        "latestRating": 1293,
+        "totalGames": 306,
+        "pulledDate": "2026-10-02",
+        "latestRating": 1272,
         "peakRating": 1335
       },
       "matches": [
+        {
+          "matchId": 509947870,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T19:51:25.000Z",
+          "dur": 1731,
+          "opponents": [
+            {
+              "profileId": 6300318,
+              "name": "Laxsus"
+            },
+            {
+              "profileId": 1205119,
+              "name": "boxser25"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 207573,
+              "name": "Krastar"
+            }
+          ]
+        },
+        {
+          "matchId": 509933494,
+          "civ": "Celts",
+          "map": "Lombardia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:47:24.000Z",
+          "dur": 3186,
+          "opponents": [
+            {
+              "profileId": 1864751,
+              "name": "Kakkabart"
+            },
+            {
+              "profileId": 2343996,
+              "name": "CyMan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2576405,
+              "name": "German3333"
+            }
+          ]
+        },
+        {
+          "matchId": 509926393,
+          "civ": "Celts",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-09-28",
+          "startedAt": "2026-09-28T18:15:00.000Z",
+          "dur": 1240,
+          "opponents": [
+            {
+              "profileId": 9302656,
+              "name": "ppjohnn"
+            },
+            {
+              "profileId": 18835281,
+              "name": "SULIMAN"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18227044,
+              "name": "Erranth"
+            }
+          ]
+        },
         {
           "matchId": 509773203,
           "civ": "Celts",
@@ -11501,5 +11579,6 @@
   },
   "country": "ma",
   "countryIcon": "\ud83c\uddf2\ud83c\udde6",
-  "countryName": "Morocco"
+  "countryName": "Morocco",
+  "platform": "Steam"
 }
