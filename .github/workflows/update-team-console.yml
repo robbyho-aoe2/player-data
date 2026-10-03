@@ -64,13 +64,36 @@ jobs:
         # any commit that happened elsewhere while this run's fetch was in
         # flight BEFORE regenerating the aggregate/insights files, so the
         # final push below has nothing left to conflict on.
+        #
+        # Unlike update-players.yml, this job's fetch step runs for 3+ hours
+        # over a roster that heavily overlaps the general population, so the
+        # general backfill/update pipeline (which runs every few hours) is
+        # very likely to touch some of the same player files mid-flight —
+        # on 2026-09-27 this produced "both modified" conflicts in 21 files
+        # and a bare `git stash pop` failure aborted the whole job, silently
+        # discarding all 3.5 hours of freshly-fetched data (build, roster
+        # refresh, and commit/push all got skipped). On a stash-pop conflict,
+        # resolve in favor of this run's own stash: it just re-fetched those
+        # exact players live, so it's at least as current as whatever the
+        # general pipeline additionally wrote during the overlap, and
+        # keeping it beats losing the whole run.
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
             git stash push -u -m "freshly fetched player data"
             git pull --rebase
-            git stash pop
+            if ! git stash pop; then
+              echo "::warning::stash pop conflicted — keeping this run's freshly-fetched data for the conflicting files"
+              conflicts="$(git diff --name-only --diff-filter=U)"
+              if [ -z "$conflicts" ]; then
+                echo "::error::stash pop failed with no conflicted files reported — not safe to auto-resolve"
+                exit 1
+              fi
+              echo "$conflicts" | xargs git checkout --theirs --
+              git add -A
+              git stash drop
+            fi
           else
             git pull --rebase
           fi
