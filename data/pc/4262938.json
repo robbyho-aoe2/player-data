@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-29"
+        "pulledDate": "2026-10-03"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-29"
+        "pulledDate": "2026-10-03"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 46,
-        "pulledDate": "2026-09-29",
-        "latestRating": 552,
+        "totalGames": 47,
+        "pulledDate": "2026-10-03",
+        "latestRating": 537,
         "peakRating": 909
       },
       "matches": [
+        {
+          "matchId": 510750444,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T13:33:34.000Z",
+          "dur": 3373,
+          "opponents": [
+            {
+              "profileId": 23381682,
+              "name": "StWhat"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 510087984,
           "civ": "Franks",
@@ -791,10 +808,89 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-09-29"
+        "totalGames": 3,
+        "pulledDate": "2026-10-03"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 510745675,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T13:07:51.000Z",
+          "dur": 1275,
+          "opponents": [
+            {
+              "profileId": 21686278,
+              "name": "joycebb96"
+            },
+            {
+              "profileId": 5337651,
+              "name": "ROnaLD_G4"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17913326,
+              "name": "Aaron28358"
+            }
+          ]
+        },
+        {
+          "matchId": 510520794,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T12:50:16.000Z",
+          "dur": 1347,
+          "opponents": [
+            {
+              "profileId": 1272678,
+              "name": "-(-0-0-)-+(,_o)+$(*^_^*)$"
+            },
+            {
+              "profileId": 15809622,
+              "name": "xuwg2001"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25399475,
+              "name": "hejonathan111"
+            }
+          ]
+        },
+        {
+          "matchId": 510517674,
+          "civ": "Franks",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T12:28:09.000Z",
+          "dur": 1211,
+          "opponents": [
+            {
+              "profileId": 10892220,
+              "name": "Arietediron"
+            },
+            {
+              "profileId": 21743074,
+              "name": "niyazifatihalbayrak"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25399475,
+              "name": "hejonathan111"
+            }
+          ]
+        }
+      ]
     }
   },
   "country": "tw",
