@@ -9,7 +9,22 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: player-data-write
+  # Its own group, not the shared player-data-write one: this job queues
+  # for hours waiting its turn (3+ hour fetch, weekly), while backfill.yml
+  # (every 2h) and update-players.yml (every 6h, which also triggers an
+  # extra backfill.yml run on completion) keep refilling that queue's
+  # single pending slot. GitHub replaces an already-queued run with a
+  # newer one in the same group regardless of cancel-in-progress — that
+  # setting only protects an IN-PROGRESS run — so this job kept getting
+  # bumped before it ever started (observed 2026-09-20 and 2026-10-04,
+  # both "cancelled" with zero job runs). A dedicated group means it's
+  # never queued behind anyone and always actually runs. It can now
+  # genuinely overlap with the other pipelines writing to the same player
+  # files mid-fetch, but the "Sync with origin" step below already
+  # resolves that (added 2026-10-03 for the same overlap when this was
+  # merely queued) by keeping this run's own freshly-fetched data on a
+  # stash-pop conflict instead of aborting.
+  group: team-console-write
   cancel-in-progress: false
 
 jobs:
