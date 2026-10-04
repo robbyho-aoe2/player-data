@@ -6,14 +6,14 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-01"
+        "pulledDate": "2026-10-04"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 182,
-        "pulledDate": "2026-10-01",
+        "pulledDate": "2026-10-04",
         "latestRating": 874,
         "peakRating": 1065
       },
@@ -6150,17 +6150,89 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-10-01"
+        "totalGames": 1,
+        "pulledDate": "2026-10-04"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 511136596,
+          "civ": "Sicilians",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-03",
+          "startedAt": "2026-10-03T22:30:23.000Z",
+          "dur": 1067,
+          "opponents": [
+            {
+              "profileId": 14131935,
+              "name": "AlbertRAWWWR"
+            }
+          ],
+          "teammates": []
+        }
+      ]
     },
     "Team PC": {
       "meta": {
-        "totalGames": 8,
-        "pulledDate": "2026-10-01"
+        "totalGames": 10,
+        "pulledDate": "2026-10-04",
+        "latestRating": 711,
+        "peakRating": 711
       },
       "matches": [
+        {
+          "matchId": 511144086,
+          "civ": "Sicilians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-03",
+          "startedAt": "2026-10-03T23:09:23.000Z",
+          "dur": 1939,
+          "opponents": [
+            {
+              "profileId": 12602187,
+              "name": "IIErich"
+            },
+            {
+              "profileId": 22523165,
+              "name": "YBiel21"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 13187677,
+              "name": "IceboundRAIDER"
+            }
+          ]
+        },
+        {
+          "matchId": 511142881,
+          "civ": "Sicilians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-03",
+          "startedAt": "2026-10-03T23:03:00.000Z",
+          "dur": 70,
+          "opponents": [
+            {
+              "profileId": 12602187,
+              "name": "IIErich"
+            },
+            {
+              "profileId": 22523165,
+              "name": "YBiel21"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1899550,
+              "name": "limetree1978"
+            }
+          ]
+        },
         {
           "matchId": 249730500,
           "civ": "Goths",
