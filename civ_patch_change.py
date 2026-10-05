@@ -14,12 +14,15 @@ report. Win rates are raw (not rating-adjusted).
 
 Output (data/civ-patch-change.json):
   {"generatedAt", "through", "beforePatch", "afterPatchMin", "beforeRange": [first, last],
+   "lowSampleBelow": 40,
    "1v1 Console": {"before": [games, wr%], "after": [games, wr%],
                    "rows":    [[civ, wrBefore%, gamesBefore, wrAfter%, gamesAfter], ...],
                    "newOnly": [[civ, null, gamesBefore, wrAfter%, gamesAfter], ...]},
    "Team Console": {...}}
-A civ needs at least MIN_AFTER games after the patch to be listed; one with fewer than
-MIN_BEFORE games before it goes in "newOnly" (the three Viking Sagas civs have none).
+Every civ with at least one game after the patch is listed. "lowSampleBelow" (MIN_AFTER)
+tells the site which ones have too few games after the patch to trust, so it can flag them;
+a civ with fewer than MIN_BEFORE games before the patch goes in "newOnly" (the three Viking
+Sagas civs have none).
 
 Usage:  python3 civ_patch_change.py [--out data/civ-patch-change.json]
         [--before-patch 1800] [--after-patch-min 1815]
@@ -66,7 +69,7 @@ def compute(players, before_patch, after_patch_min):
         rows, new_only = [], []
         for civ in sorted(set(before) | set(after)):
             a, b = before.get(civ, {"g": 0, "w": 0}), after.get(civ, {"g": 0, "w": 0})
-            if b["g"] < MIN_AFTER:
+            if b["g"] == 0:
                 continue
             wr_after = round(b["w"] / b["g"] * 100, 1)
             if a["g"] < MIN_BEFORE:
@@ -98,6 +101,7 @@ def main():
         "beforePatch": args.before_patch,
         "afterPatchMin": args.after_patch_min,
         "beforeRange": [first, last],
+        "lowSampleBelow": MIN_AFTER,
         **ladders,
     }
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
