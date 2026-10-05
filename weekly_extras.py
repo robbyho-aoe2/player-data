@@ -170,15 +170,13 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
     confirm who the full squad was), rather than counting a partial subset.
     Pass the full console profileId set here to match the SNL report's
     behavior; omit (None) for the old any-teammate behavior."""
-    seen = {}  # matchId -> (tuple sorted (pid,name) of exact size, won, size)
+    seen = {}  # (matchId, squad) -> (tuple sorted (pid,name) of exact size, won, size)
     for p in players:
         owner_id = p.get("profileId")
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
             if not in_window(m.get("date"), start, end) or is_void_match(m):
                 continue
             mid = m.get("matchId")
-            if mid in seen:
-                continue
             teammates = m.get("teammates") or []
             true_size = 1 + len(teammates)
             if true_size not in (2, 3, 4):
@@ -193,7 +191,11 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
                 squad.append((tid, t.get("name")))
             if not fully_tracked:
                 continue  # can't verify the whole squad — skip rather than guess
-            seen[mid] = (tuple(sorted(squad)), m.get("won"), true_size)
+            squad_key = tuple(sorted(squad))
+            key = (mid, squad_key)
+            if key in seen:
+                continue  # same side's own teammates reporting the same match — dedup
+            seen[key] = (squad_key, m.get("won"), true_size)
 
     stats = {2: defaultdict(lambda: {"games": 0, "wins": 0}),
               3: defaultdict(lambda: {"games": 0, "wins": 0}),
