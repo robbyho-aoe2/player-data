@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-04"
+        "pulledDate": "2026-10-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-04"
+        "pulledDate": "2026-10-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 823,
-        "pulledDate": "2026-10-04",
-        "latestRating": 1718,
+        "totalGames": 824,
+        "pulledDate": "2026-10-09",
+        "latestRating": 1700,
         "peakRating": 1765
       },
       "matches": [
+        {
+          "matchId": 512374074,
+          "civ": "Saracens",
+          "map": "Arabian Desert",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-09",
+          "startedAt": "2026-10-09T13:23:00.000Z",
+          "dur": 874,
+          "opponents": [
+            {
+              "profileId": 8837009,
+              "name": "Archer on duty"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 510992590,
           "civ": "Poles",
@@ -13219,12 +13236,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 314,
-        "pulledDate": "2026-10-04",
-        "latestRating": 1462,
+        "totalGames": 316,
+        "pulledDate": "2026-10-09",
+        "latestRating": 1468,
         "peakRating": 1576
       },
       "matches": [
+        {
+          "matchId": 512387894,
+          "civ": "Armenians",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-09",
+          "startedAt": "2026-10-09T14:33:49.000Z",
+          "dur": 1190,
+          "opponents": [
+            {
+              "profileId": 3110738,
+              "name": "Boubou"
+            },
+            {
+              "profileId": 3104052,
+              "name": "Naramwig"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227587,
+              "name": "Flying Mouse -AOE-"
+            }
+          ]
+        },
+        {
+          "matchId": 512380603,
+          "civ": "Persians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-09",
+          "startedAt": "2026-10-09T13:58:25.000Z",
+          "dur": 1680,
+          "opponents": [
+            {
+              "profileId": 4537808,
+              "name": "Arie"
+            },
+            {
+              "profileId": 1430213,
+              "name": "Mazer"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 227587,
+              "name": "Flying Mouse -AOE-"
+            }
+          ]
+        },
         {
           "matchId": 509883831,
           "civ": "Cumans",
