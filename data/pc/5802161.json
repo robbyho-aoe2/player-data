@@ -6,25 +6,110 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-03"
+        "pulledDate": "2026-10-09"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-03"
+        "pulledDate": "2026-10-09"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 51,
-        "pulledDate": "2026-10-03",
-        "latestRating": 638,
+        "totalGames": 56,
+        "pulledDate": "2026-10-09",
+        "latestRating": 623,
         "peakRating": 772
       },
       "matches": [
+        {
+          "matchId": 511634358,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T22:50:59.000Z",
+          "dur": 2681,
+          "opponents": [
+            {
+              "profileId": 25411650,
+              "name": "pacoviking88"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 511632245,
+          "civ": "Huns",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T22:37:14.000Z",
+          "dur": 739,
+          "opponents": [
+            {
+              "profileId": 2976199,
+              "name": "Chillin"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 511508798,
+          "civ": "Huns",
+          "map": "Fortress",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T11:19:09.000Z",
+          "dur": 1469,
+          "opponents": [
+            {
+              "profileId": 18453460,
+              "name": "Cruzetinho"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 511506394,
+          "civ": "Huns",
+          "map": "Scandinavia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T10:57:21.000Z",
+          "dur": 1170,
+          "opponents": [
+            {
+              "profileId": 5123938,
+              "name": "ashthenew2010"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 511501311,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T10:07:47.000Z",
+          "dur": 977,
+          "opponents": [
+            {
+              "profileId": 26024658,
+              "name": "TrickyEPP"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 510421187,
           "civ": "Huns",
@@ -896,10 +981,37 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-10-03"
+        "totalGames": 1,
+        "pulledDate": "2026-10-09"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 511512784,
+          "civ": "Huns",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T11:52:15.000Z",
+          "dur": 2397,
+          "opponents": [
+            {
+              "profileId": 23958370,
+              "name": "Ragnar\u00f6k"
+            },
+            {
+              "profileId": 4308613,
+              "name": "Greggz87"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18453460,
+              "name": "Cruzetinho"
+            }
+          ]
+        }
+      ]
     }
   },
   "country": "es",
