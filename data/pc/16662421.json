@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-01"
+        "pulledDate": "2026-10-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-01"
+        "pulledDate": "2026-10-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 10,
-        "pulledDate": "2026-10-01",
-        "latestRating": 893,
+        "totalGames": 11,
+        "pulledDate": "2026-10-10",
+        "latestRating": 863,
         "peakRating": 893
       },
       "matches": [
+        {
+          "matchId": 511150510,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-03",
+          "startedAt": "2026-10-03T23:45:18.000Z",
+          "dur": 1672,
+          "opponents": [
+            {
+              "profileId": 2619895,
+              "name": "Wiselessons"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 502594259,
           "civ": "Spanish",
@@ -199,12 +216,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 120,
-        "pulledDate": "2026-10-01",
-        "latestRating": 924,
+        "totalGames": 123,
+        "pulledDate": "2026-10-10",
+        "latestRating": 969,
         "peakRating": 995
       },
       "matches": [
+        {
+          "matchId": 512134006,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-08",
+          "startedAt": "2026-10-08T07:55:43.000Z",
+          "dur": 1873,
+          "opponents": [
+            {
+              "profileId": 19630331,
+              "name": "Splinter"
+            },
+            {
+              "profileId": 19601272,
+              "name": "Rastaroh"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16663012,
+              "name": "Finny17"
+            }
+          ]
+        },
+        {
+          "matchId": 511920309,
+          "civ": "Teutons",
+          "map": "Baltic",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-07",
+          "startedAt": "2026-10-07T07:54:32.000Z",
+          "dur": 2091,
+          "opponents": [
+            {
+              "profileId": 12506035,
+              "name": "LittleLogiBear"
+            },
+            {
+              "profileId": 13448823,
+              "name": "UnknownAxis0"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16663012,
+              "name": "Finny17"
+            }
+          ]
+        },
+        {
+          "matchId": 511917924,
+          "civ": "Mongols",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-07",
+          "startedAt": "2026-10-07T07:28:24.000Z",
+          "dur": 1355,
+          "opponents": [
+            {
+              "profileId": 13448823,
+              "name": "UnknownAxis0"
+            },
+            {
+              "profileId": 12506035,
+              "name": "LittleLogiBear"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 16663012,
+              "name": "Finny17"
+            }
+          ]
+        },
         {
           "matchId": 509572542,
           "civ": "Persians",

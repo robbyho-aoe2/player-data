@@ -6,25 +6,93 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-01"
+        "pulledDate": "2026-10-10"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-01"
+        "pulledDate": "2026-10-10"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 70,
-        "pulledDate": "2026-10-01",
-        "latestRating": 1553,
+        "totalGames": 74,
+        "pulledDate": "2026-10-10",
+        "latestRating": 1587,
         "peakRating": 1594
       },
       "matches": [
+        {
+          "matchId": 510549222,
+          "civ": "Wu",
+          "map": "Northern Isles",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T15:31:28.000Z",
+          "dur": 1155,
+          "opponents": [
+            {
+              "profileId": 8727964,
+              "name": "General Nguy\u1ec5n"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510544758,
+          "civ": "Malians",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T15:08:08.000Z",
+          "dur": 1282,
+          "opponents": [
+            {
+              "profileId": 1218169,
+              "name": "anmolmaly"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510540966,
+          "civ": "Chinese",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T14:47:06.000Z",
+          "dur": 1095,
+          "opponents": [
+            {
+              "profileId": 6876529,
+              "name": "Sarbu"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 510453799,
+          "civ": "Vikings",
+          "map": "Glade",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-01",
+          "startedAt": "2026-10-01T03:05:30.000Z",
+          "dur": 1039,
+          "opponents": [
+            {
+              "profileId": 526502,
+              "name": "Stumpthorn"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 510427486,
           "civ": "Mapuche",
@@ -1219,12 +1287,138 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 45,
-        "pulledDate": "2026-10-01",
-        "latestRating": 1281,
+        "totalGames": 48,
+        "pulledDate": "2026-10-10",
+        "latestRating": 1293,
         "peakRating": 1370
       },
       "matches": [
+        {
+          "matchId": 510828981,
+          "civ": "Huns",
+          "map": "African Clearing",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T19:49:48.000Z",
+          "dur": 986,
+          "opponents": [
+            {
+              "profileId": 8635634,
+              "name": "IlikeStone"
+            },
+            {
+              "profileId": 1463505,
+              "name": "Pronyx"
+            },
+            {
+              "profileId": 879810,
+              "name": "tridentlei"
+            },
+            {
+              "profileId": 455567,
+              "name": "zabijucha"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 644838,
+              "name": "Gabo_Reyes"
+            },
+            {
+              "profileId": 12241868,
+              "name": "Dunha"
+            },
+            {
+              "profileId": 3163564,
+              "name": "\u725b\u6bd4\u65e0\u6781\u9650"
+            }
+          ]
+        },
+        {
+          "matchId": 510695173,
+          "civ": "Wei",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T05:58:43.000Z",
+          "dur": 1666,
+          "opponents": [
+            {
+              "profileId": 25616202,
+              "name": "1. d4"
+            },
+            {
+              "profileId": 14772499,
+              "name": "RMXs | EnanoMora"
+            },
+            {
+              "profileId": 13021360,
+              "name": "CoolDude0p0"
+            },
+            {
+              "profileId": 2937252,
+              "name": "Loki_GT"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2110870,
+              "name": "FernecitoBranca"
+            },
+            {
+              "profileId": 17402207,
+              "name": "Vector"
+            },
+            {
+              "profileId": 16343657,
+              "name": "\u6218\u6b4c"
+            }
+          ]
+        },
+        {
+          "matchId": 510691474,
+          "civ": "Bohemians",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-02",
+          "startedAt": "2026-10-02T05:23:33.000Z",
+          "dur": 2141,
+          "opponents": [
+            {
+              "profileId": 1693432,
+              "name": "Cryptomage"
+            },
+            {
+              "profileId": 9517780,
+              "name": "Ra"
+            },
+            {
+              "profileId": 9733344,
+              "name": "8"
+            },
+            {
+              "profileId": 11976153,
+              "name": "shaggy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1690436,
+              "name": "IGBBMN"
+            },
+            {
+              "profileId": 306828,
+              "name": "Christ"
+            },
+            {
+              "profileId": 17402207,
+              "name": "Vector"
+            }
+          ]
+        },
         {
           "matchId": 505876982,
           "civ": "Muisca",
