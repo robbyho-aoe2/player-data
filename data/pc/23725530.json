@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-05"
+        "pulledDate": "2026-10-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-05"
+        "pulledDate": "2026-10-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 35,
-        "pulledDate": "2026-10-05",
-        "latestRating": 865,
-        "peakRating": 879
+        "totalGames": 36,
+        "pulledDate": "2026-10-11",
+        "latestRating": 882,
+        "peakRating": 882
       },
       "matches": [
+        {
+          "matchId": 512032849,
+          "civ": "Celts",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-07",
+          "startedAt": "2026-10-07T19:49:56.000Z",
+          "dur": 2532,
+          "opponents": [
+            {
+              "profileId": 6857731,
+              "name": "Boaty McBoatface"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 511360040,
           "civ": "Poles",
@@ -624,12 +641,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 123,
-        "pulledDate": "2026-10-05",
+        "totalGames": 125,
+        "pulledDate": "2026-10-11",
         "latestRating": 935,
-        "peakRating": 936
+        "peakRating": 949
       },
       "matches": [
+        {
+          "matchId": 511599686,
+          "civ": "Britons",
+          "map": "Yucatan",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T19:44:53.000Z",
+          "dur": 2570,
+          "opponents": [
+            {
+              "profileId": 22350585,
+              "name": "eerc"
+            },
+            {
+              "profileId": 552524,
+              "name": "PeKo"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25970064,
+              "name": "\u043c\u044f\u0441\u043d\u0430\u044f \u0431\u0438\u043c\u0431\u0430"
+            }
+          ]
+        },
+        {
+          "matchId": 511593099,
+          "civ": "Britons",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-05",
+          "startedAt": "2026-10-05T19:15:12.000Z",
+          "dur": 1580,
+          "opponents": [
+            {
+              "profileId": 4336471,
+              "name": "VastStarling392"
+            },
+            {
+              "profileId": 11250534,
+              "name": "niqca123"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25970064,
+              "name": "\u043c\u044f\u0441\u043d\u0430\u044f \u0431\u0438\u043c\u0431\u0430"
+            }
+          ]
+        },
         {
           "matchId": 511383119,
           "civ": "Britons",

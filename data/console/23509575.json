@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 9,
-        "pulledDate": "2026-10-09"
+        "pulledDate": "2026-10-11"
       },
       "matches": [
         {
@@ -167,18 +167,35 @@
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-09"
+        "pulledDate": "2026-10-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 81,
-        "pulledDate": "2026-10-09",
-        "latestRating": 884,
+        "totalGames": 82,
+        "pulledDate": "2026-10-11",
+        "latestRating": 901,
         "peakRating": 916
       },
       "matches": [
+        {
+          "matchId": 512718420,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-10",
+          "startedAt": "2026-10-10T19:42:59.000Z",
+          "dur": 1431,
+          "opponents": [
+            {
+              "profileId": 23094842,
+              "name": "king_in_the_north"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 504567671,
           "civ": "Khmer",
@@ -1560,12 +1577,96 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 236,
-        "pulledDate": "2026-10-09",
-        "latestRating": 1003,
+        "totalGames": 238,
+        "pulledDate": "2026-10-11",
+        "latestRating": 967,
         "peakRating": 1095
       },
       "matches": [
+        {
+          "matchId": 512731451,
+          "civ": "Khmer",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-10",
+          "startedAt": "2026-10-10T20:34:53.000Z",
+          "dur": 50,
+          "opponents": [
+            {
+              "profileId": 1833957,
+              "name": "Tonyukuk"
+            },
+            {
+              "profileId": 25078398,
+              "name": "Zeus"
+            },
+            {
+              "profileId": 1840671,
+              "name": "|TSK|CAKIRHAN"
+            },
+            {
+              "profileId": 1839327,
+              "name": "SEFA"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25289087,
+              "name": "albe.nuneza"
+            },
+            {
+              "profileId": 18329501,
+              "name": "Geroncio Sofronio"
+            },
+            {
+              "profileId": 11679029,
+              "name": "fallenjbird"
+            }
+          ]
+        },
+        {
+          "matchId": 512730582,
+          "civ": "Khmer",
+          "map": "Yucatan",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-10",
+          "startedAt": "2026-10-10T20:31:36.000Z",
+          "dur": 70,
+          "opponents": [
+            {
+              "profileId": 13468086,
+              "name": "Jeanne d'Arc"
+            },
+            {
+              "profileId": 13501227,
+              "name": "ButterMyHead"
+            },
+            {
+              "profileId": 13576988,
+              "name": "Kim-Jong-Kill"
+            },
+            {
+              "profileId": 13621097,
+              "name": "PROJECTX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25572186,
+              "name": "juniorhernandez2675"
+            },
+            {
+              "profileId": 5396585,
+              "name": "Tequila Midnight"
+            },
+            {
+              "profileId": 20845349,
+              "name": "Elbaron"
+            }
+          ]
+        },
         {
           "matchId": 511841498,
           "civ": "Japanese",

@@ -6,25 +6,76 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-02"
+        "pulledDate": "2026-10-11"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-02"
+        "pulledDate": "2026-10-11"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 54,
-        "pulledDate": "2026-10-02",
-        "latestRating": 595,
+        "totalGames": 57,
+        "pulledDate": "2026-10-11",
+        "latestRating": 603,
         "peakRating": 745
       },
       "matches": [
+        {
+          "matchId": 511895321,
+          "civ": "Saracens",
+          "map": "Arena",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-07",
+          "startedAt": "2026-10-07T03:51:05.000Z",
+          "dur": 1186,
+          "opponents": [
+            {
+              "profileId": 5147501,
+              "name": "Amachali"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 511873176,
+          "civ": "Saracens",
+          "map": "Scandinavia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-07",
+          "startedAt": "2026-10-07T01:28:07.000Z",
+          "dur": 1070,
+          "opponents": [
+            {
+              "profileId": 1602387,
+              "name": "LeapnLeprechaun"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 511871173,
+          "civ": "Saracens",
+          "map": "Glade",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-07",
+          "startedAt": "2026-10-07T01:15:02.000Z",
+          "dur": 727,
+          "opponents": [
+            {
+              "profileId": 5385759,
+              "name": "TheNesanesa"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507047307,
           "civ": "Byzantines",
@@ -947,10 +998,37 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-10-02"
+        "totalGames": 1,
+        "pulledDate": "2026-10-11"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 511865951,
+          "civ": "Spanish",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-07",
+          "startedAt": "2026-10-07T00:38:38.000Z",
+          "dur": 2007,
+          "opponents": [
+            {
+              "profileId": 22704448,
+              "name": "emignba"
+            },
+            {
+              "profileId": 21181529,
+              "name": "diegoperezprofe"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24589073,
+              "name": "chitumin"
+            }
+          ]
+        }
+      ]
     }
   },
   "country": "gb",
