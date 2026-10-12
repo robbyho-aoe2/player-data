@@ -169,8 +169,17 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
     match with even one untracked teammate is skipped entirely (we can't
     confirm who the full squad was), rather than counting a partial subset.
     Pass the full console profileId set here to match the SNL report's
-    behavior; omit (None) for the old any-teammate behavior."""
-    seen = {}  # (matchId, squad) -> (tuple sorted (pid,name) of exact size, won, size)
+    behavior; omit (None) for the old any-teammate behavior.
+
+    Squad identity is by profileId alone, never (profileId, name): a
+    teammate's reported display name on an older match can carry different
+    capitalization than that player's own current file (e.g. "VolcanLoup"
+    vs "volcanloup" for 12893749), and keying on the pair split one real
+    squad into two near-duplicate rows in the output. Each player's own
+    "name" field (read from their own file, not a teammate's copy of it)
+    is the only name used for display."""
+    name_by_id = {p.get("profileId"): p.get("name") for p in players}
+    seen = {}  # (matchId, squad_ids) -> (tuple sorted pid of exact size, won, size)
     for p in players:
         owner_id = p.get("profileId")
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
@@ -181,14 +190,14 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
             true_size = 1 + len(teammates)
             if true_size not in (2, 3, 4):
                 continue  # only exact 2v2/3v3/4v4 squads count
-            squad = [(owner_id, p.get("name"))]
+            squad = [owner_id]
             fully_tracked = True
             for t in teammates:
                 tid = t.get("profileId")
                 if tid is None or (roster_ids is not None and tid not in roster_ids):
                     fully_tracked = False
                     break
-                squad.append((tid, t.get("name")))
+                squad.append(tid)
             if not fully_tracked:
                 continue  # can't verify the whole squad — skip rather than guess
             squad_key = tuple(sorted(squad))
@@ -212,8 +221,8 @@ def compute_squads(players, start, end, top=5, min_games=1, roster_ids=None):
             if v["games"] < min_games:
                 continue
             rows.append({
-                "names": [c[1] for c in combo],
-                "profileIds": [c[0] for c in combo],
+                "names": [name_by_id.get(pid) for pid in combo],
+                "profileIds": list(combo),
                 "games": v["games"],
                 "winRate": round(v["wins"] / v["games"], 4),
             })
