@@ -1,0 +1,66 @@
+name: Console Discovery
+
+# Every 30 minutes: read aoe2companion's live feed, find players in console-ladder games that we do not track
+# (or track under the wrong group), and add them at the front of the backfill queue. See console_discovery.py.
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Look but don't write anything (true/false)"
+        required: false
+        default: "false"
+
+# Its own concurrency group on purpose: sharing "player-data-write" would let this short job replace a pending
+# backfill or refresh run (only one run can wait per group). Conflicting pushes are handled by the retry loop below,
+# which simply re-runs the (idempotent) script on top of the latest commit.
+concurrency:
+  group: console-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests websocket-client
+
+      - name: Find and add console players
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 console_discovery.py --dry-run
+            exit 0
+          fi
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 console_discovery.py
+            git add players.json data/backfill_queue.json data/console-discovery-log.json
+            if git diff --staged --quiet; then
+              echo "Nothing to commit."
+              exit 0
+            fi
+            git commit -q -m "chore: console discovery $(date -u '+%Y-%m-%d %H:%M')"
+            if git push -q origin HEAD:main; then
+              echo "Pushed."
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt): another job committed first. Re-running on the latest commit."
+          done
+          echo "Gave up after 3 attempts; the next scheduled run will try again."
+          exit 0

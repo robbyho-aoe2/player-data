@@ -632,7 +632,8 @@ def main():
     with open(meta_path, "w") as f:
         json.dump(meta, f, indent=2)
     print(f"\nWrote {meta_path} ({meta_path.stat().st_size / 1024:.1f} KB)")
-    write_console_roster(meta["players"], data_dir, run_timestamp)
+    # data/console-roster.json is now rebuilt from the console leaderboards by console_roster.py (daily),
+    # which also covers players we have no data file for yet; write_console_roster() above is kept for reference.
 
     for g in ALL_GROUPS:
         out_path = data_dir / f"aggregate-{g}.json"

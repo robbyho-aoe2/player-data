@@ -1,0 +1,63 @@
+name: Console Roster
+
+# Daily: rebuild data/console-roster.json (the list of console players the Console Live page watches) from the
+# console leaderboards, so new players appear with their real rating before they have a data file. See console_roster.py.
+
+on:
+  schedule:
+    - cron: "20 8 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch but don't write the roster (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: console-roster
+  cancel-in-progress: false
+
+jobs:
+  roster:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Rebuild the roster
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 console_roster.py --dry-run
+            exit 0
+          fi
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 console_roster.py
+            git add data/console-roster.json
+            if git diff --staged --quiet; then
+              echo "Nothing to commit."
+              exit 0
+            fi
+            git commit -q -m "chore: console roster refresh $(date -u '+%Y-%m-%d')"
+            if git push -q origin HEAD:main; then
+              echo "Pushed."
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt): another job committed first. Re-running on the latest commit."
+          done
+          echo "Gave up after 3 attempts; tomorrow's run will try again."
+          exit 0
