@@ -20,6 +20,7 @@ Usage:  python3 console_discovery.py [--seconds 20] [--dry-run]
 """
 import argparse
 import json
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -57,6 +58,25 @@ def plan_changes(found, players_by_id, has_pc_file):
         elif p.get("group") == "pc":
             (skipped if has_pc_file(pid) else regroups).append((pid, name, ladder))
     return adds, regroups, skipped
+
+
+def pc_data_ids():
+    """profileIds that already have a data/pc file. Read from git's file list so the (huge) data/pc folder does not
+    have to be checked out in Actions; falls back to the folder itself when it is there (local runs)."""
+    ids = set()
+    try:
+        out = subprocess.run(["git", "ls-tree", "--name-only", "HEAD", "data/pc/"], cwd=REPO,
+                             capture_output=True, text=True, timeout=180)
+        for line in out.stdout.splitlines():
+            name = line.rsplit("/", 1)[-1]
+            if name.endswith(".json") and name[:-5].isdigit():
+                ids.add(int(name[:-5]))
+    except Exception as e:
+        print(f"git ls-tree failed: {e}")
+    pc_dir = REPO / "data" / "pc"
+    if pc_dir.is_dir():
+        ids |= {int(f.stem) for f in pc_dir.glob("*.json") if f.stem.isdigit()}
+    return ids
 
 
 def collect_live(seconds):
@@ -113,8 +133,8 @@ def main():
     players_path = REPO / "players.json"
     players = json.loads(players_path.read_text(encoding="utf-8"))
     by_id = {p["profileId"]: p for p in players}
-    pc_dir = REPO / "data" / "pc"
-    adds, regroups, skipped = plan_changes(found, by_id, lambda pid: (pc_dir / f"{pid}.json").exists())
+    pc_files = pc_data_ids()
+    adds, regroups, skipped = plan_changes(found, by_id, lambda pid: pid in pc_files)
     print(f"New: {len(adds)} | PC->console: {len(regroups)} | left alone (has PC data): {len(skipped)}")
     for tag, rows in (("add", adds), ("regroup", regroups), ("skip", skipped)):
         for pid, name, ladder in rows[:30]:
