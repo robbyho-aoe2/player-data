@@ -6,21 +6,21 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-30"
+        "pulledDate": "2026-10-14"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-09-30"
+        "pulledDate": "2026-10-14"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 10,
-        "pulledDate": "2026-09-30",
+        "pulledDate": "2026-10-14",
         "latestRating": 999,
         "peakRating": 999
       },
@@ -199,12 +199,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 20,
-        "pulledDate": "2026-09-30",
-        "latestRating": 1005,
-        "peakRating": 1005
+        "totalGames": 22,
+        "pulledDate": "2026-10-14",
+        "latestRating": 1010,
+        "peakRating": 1022
       },
       "matches": [
+        {
+          "matchId": 512888590,
+          "civ": "Koreans",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-11",
+          "startedAt": "2026-10-11T12:03:16.000Z",
+          "dur": 1967,
+          "opponents": [
+            {
+              "profileId": 10234449,
+              "name": "Mr.Bean"
+            },
+            {
+              "profileId": 4793142,
+              "name": "B\u7ad9-\u5c0f\u4f0d\u957f-\u53ee\u549a\u9e21\u4f60\u5728\u54ea"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1005754,
+              "name": "KZR_Saladin"
+            }
+          ]
+        },
+        {
+          "matchId": 512662714,
+          "civ": "Chinese",
+          "map": "Coastal Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-10",
+          "startedAt": "2026-10-10T15:50:19.000Z",
+          "dur": 1324,
+          "opponents": [
+            {
+              "profileId": 4952312,
+              "name": "MouseManPeelsePerson"
+            },
+            {
+              "profileId": 17475128,
+              "name": "Mouseperson"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 24286661,
+              "name": "Rak"
+            }
+          ]
+        },
         {
           "matchId": 505023472,
           "civ": "Wei",
