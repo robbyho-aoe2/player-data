@@ -475,6 +475,7 @@ def build_player_summary(players_list, group_files):
         ratings     = {}
         peaks       = {}
         total_games = 0
+        last_played = {}
 
         allowed_ladders = GROUP_LADDERS.get(player["group"])
         try:
@@ -499,10 +500,14 @@ def build_player_summary(players_list, group_files):
                 if meta.get("latestRating"):
                     ratings[ladder_name] = meta["latestRating"]
                 total_games += meta.get("totalGames", 0)
+                _ms = ladder_data.get("matches") or []
+                if _ms:
+                    last_played[ladder_name] = max((m.get("date") or "") for m in _ms)
         except Exception as e:
             print(f"  WARNING: could not read {path}: {e}")
             continue
 
+        LAST_PLAYED[pid] = last_played
         summary.append({
             "name":        player.get("name", str(pid)),
             "profileId":   pid,
@@ -517,6 +522,35 @@ def build_player_summary(players_list, group_files):
         })
 
     return summary
+
+# profileId -> {ladder: latest match date}; filled while the player summary is built and used by
+# write_console_roster() for the Console Live page's activity filter.
+LAST_PLAYED = {}
+
+
+def write_console_roster(players, data_dir, run_timestamp):
+    """data/console-roster.json: a small list of every tracked console player (rating, platform, last game
+    date per ladder) so the Console Live page can pick who to watch without downloading aggregate-meta.json.
+    Row: [profileId, name, 'X'|'P'|'', 1v1 Console rating, Team Console rating, last 1v1 date, last team date]."""
+    plat = {"Xbox": "X", "PSN": "P"}
+    rows = []
+    for pl in players:
+        if pl.get("group") != "console":
+            continue
+        r = pl.get("ratings") or {}
+        r1, rt = r.get("1v1 Console") or 0, r.get("Team Console") or 0
+        if not (r1 or rt):
+            continue
+        last = LAST_PLAYED.get(pl["profileId"], {})
+        rows.append([pl["profileId"], pl.get("name") or str(pl["profileId"]), plat.get(pl.get("platform"), ""), r1, rt,
+                     last.get("1v1 Console", ""), last.get("Team Console", "")])
+    out = {"generatedAt": run_timestamp,
+           "cols": ["id", "name", "plat", "r1v1", "rTeam", "last1v1", "lastTeam"], "players": rows}
+    path = data_dir / "console-roster.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(out, f, separators=(",", ":"), ensure_ascii=False)
+    print(f"Wrote {path} ({len(rows)} console players, {path.stat().st_size / 1024:.1f} KB)")
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -598,6 +632,7 @@ def main():
     with open(meta_path, "w") as f:
         json.dump(meta, f, indent=2)
     print(f"\nWrote {meta_path} ({meta_path.stat().st_size / 1024:.1f} KB)")
+    write_console_roster(meta["players"], data_dir, run_timestamp)
 
     for g in ALL_GROUPS:
         out_path = data_dir / f"aggregate-{g}.json"
