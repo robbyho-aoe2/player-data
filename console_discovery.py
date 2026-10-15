@@ -160,7 +160,12 @@ def main():
     if roster_doc is not None:
         plat_path = REPO / "data" / "platforms.json"
         plat_map = json.loads(plat_path.read_text(encoding="utf-8")) if plat_path.exists() else {}
-        new_roster_rows = roster_additions(found, roster_doc.get("players", []), plat_map, datetime.now(timezone.utc).date().isoformat())
+        # earlier discoveries that are still missing (not on a leaderboard yet) are included too, not just whoever is playing now
+        _log_path = REPO / "data" / "console-discovery-log.json"
+        _older = json.loads(_log_path.read_text(encoding="utf-8")) if _log_path.exists() else []
+        _wanted = {e["profileId"]: (e["name"], e["ladder"]) for e in _older if e["action"] in ("added", "regrouped")}
+        _wanted.update(found)
+        new_roster_rows = roster_additions(_wanted, roster_doc.get("players", []), plat_map, datetime.now(timezone.utc).date().isoformat())
         print(f"Console Live roster: {len(new_roster_rows)} players to add")
     if args.dry_run or not (adds or regroups or skipped or new_roster_rows):
         if args.dry_run:
