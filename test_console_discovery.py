@@ -69,6 +69,18 @@ check("platform filled from platforms.json", rows[4][2] == "P" and rows[1][2] ==
 check("long-inactive off-board player dropped", 2 not in rows)
 check("recent off-board player kept", 3 in rows)
 
+# --- roster additions (new console accounts that are not on a leaderboard yet) -----------------------------
+roster_rows = [[10, "A", "X", 1900, 1700, "2026-10-01", "2026-10-02"]]
+found3 = {10: ("A", "rm_1v1_console"), 77: ("Newbie", "rm_team_console"), 78: ("Other", "rm_1v1_console")}
+new_rows = cd.roster_additions(found3, roster_rows, {"78": "PSN"}, "2026-10-15")
+check("only players missing from the roster are added", [r[0] for r in new_rows] == [77, 78])
+check("new rows are unrated with today's date", new_rows[0] == [77, "Newbie", "", 0, 0, "2026-10-15", "2026-10-15"])
+check("platform filled from platforms.json", new_rows[1][2] == "P")
+# a later leaderboard refresh keeps an unrated recent row, and fills in the rating once there is one
+merged = {r[0]: r for r in cr.merge(new_rows, [{"profileId": 78, "name": "Other", "rating": 1234, "lastMatchTime": "2026-10-15T01:00:00.000Z"}], [], {}, date(2026, 10, 16))}
+check("recent unrated row survives the daily rebuild", 77 in merged)
+check("rating arrives from the leaderboard", merged[78][3] == 1234)
+
 if FAILURES:
     print(f"\n{len(FAILURES)} failure(s)")
     sys.exit(1)

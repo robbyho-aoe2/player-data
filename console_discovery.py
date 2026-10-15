@@ -15,6 +15,8 @@ live feed lists every game in progress, tagged with its ladder. Any player in a 
 
 Only console-ladder presence counts, so a PC player who joins a custom game with console players is never added.
 Every change is appended to data/console-discovery-log.json (newest last, capped) so it can be reviewed.
+Any console-ladder player missing from data/console-roster.json (the Console Live watch list) is also added there with an
+unrated row, so new accounts are watched straight away, before they appear on a leaderboard.
 
 Usage:  python3 console_discovery.py [--seconds 20] [--dry-run]
 """
@@ -58,6 +60,19 @@ def plan_changes(found, players_by_id, has_pc_file):
         elif p.get("group") == "pc":
             (skipped if has_pc_file(pid) else regroups).append((pid, name, ladder))
     return adds, regroups, skipped
+
+
+def roster_additions(found, roster_rows, plat_map, today):
+    """Rows for console-ladder players the Console Live roster does not have yet (new accounts that are not on a
+    leaderboard, so console_roster.py cannot see them). Rating 0 means "unrated so far": they show up under
+    "Everyone" and in followed lists, and get their real rating from the leaderboards once they have one."""
+    have = {r[0] for r in roster_rows}
+    letter = {"Xbox": "X", "PSN": "P"}
+    out = []
+    for pid, (name, _ladder) in sorted(found.items()):
+        if pid not in have:
+            out.append([pid, name, letter.get(plat_map.get(str(pid)), ""), 0, 0, today, today])
+    return out
 
 
 def pc_data_ids():
@@ -139,13 +154,25 @@ def main():
     for tag, rows in (("add", adds), ("regroup", regroups), ("skip", skipped)):
         for pid, name, ladder in rows[:30]:
             print(f"  {tag:7} {pid} {name} ({ladder})")
-    if args.dry_run or not (adds or regroups or skipped):
+    roster_path = REPO / "data" / "console-roster.json"
+    roster_doc = json.loads(roster_path.read_text(encoding="utf-8")) if roster_path.exists() else None
+    new_roster_rows = []
+    if roster_doc is not None:
+        plat_path = REPO / "data" / "platforms.json"
+        plat_map = json.loads(plat_path.read_text(encoding="utf-8")) if plat_path.exists() else {}
+        new_roster_rows = roster_additions(found, roster_doc.get("players", []), plat_map, datetime.now(timezone.utc).date().isoformat())
+        print(f"Console Live roster: {len(new_roster_rows)} players to add")
+    if args.dry_run or not (adds or regroups or skipped or new_roster_rows):
         if args.dry_run:
             print("[dry-run] nothing written")
         return 0
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     changed = False
+    if new_roster_rows:
+        roster_doc["players"].extend(new_roster_rows)
+        roster_path.write_text(json.dumps(roster_doc, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+        changed = True
     if adds or regroups:
         for pid, name, _ in adds:
             players.append({"profileId": pid, "name": name, "group": "console"})

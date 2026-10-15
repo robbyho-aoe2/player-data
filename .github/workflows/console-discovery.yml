@@ -54,14 +54,14 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            python3 console_discovery.py --dry-run
+            python3 console_discovery.py --seconds 60 --dry-run
             exit 0
           fi
           for attempt in 1 2 3; do
             git fetch -q origin main
             git reset -q --hard origin/main
-            python3 console_discovery.py
-            git add players.json data/backfill_queue.json data/console-discovery-log.json
+            python3 console_discovery.py --seconds 60
+            git add players.json data/backfill_queue.json data/console-discovery-log.json data/console-roster.json
             if git diff --staged --quiet; then
               echo "Nothing to commit."
               exit 0
