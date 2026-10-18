@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-14"
+        "pulledDate": "2026-10-18"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-14"
+        "pulledDate": "2026-10-18"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 16,
-        "pulledDate": "2026-10-14",
-        "latestRating": 1038,
+        "totalGames": 17,
+        "pulledDate": "2026-10-18",
+        "latestRating": 1054,
         "peakRating": 1070
       },
       "matches": [
+        {
+          "matchId": 513950597,
+          "civ": "Khmer",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-16",
+          "startedAt": "2026-10-16T02:06:21.000Z",
+          "dur": 2271,
+          "opponents": [
+            {
+              "profileId": 21167274,
+              "name": "Shivers"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 507170556,
           "civ": "Mongols",
@@ -301,12 +318,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 12,
-        "pulledDate": "2026-10-14",
-        "latestRating": 1034,
+        "totalGames": 14,
+        "pulledDate": "2026-10-18",
+        "latestRating": 1004,
         "peakRating": 1142
       },
       "matches": [
+        {
+          "matchId": 513919722,
+          "civ": "Spanish",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-15",
+          "startedAt": "2026-10-15T22:41:15.000Z",
+          "dur": 1292,
+          "opponents": [
+            {
+              "profileId": 4828779,
+              "name": "dinio"
+            },
+            {
+              "profileId": 4826233,
+              "name": "AnS"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22248055,
+              "name": "rizzy"
+            }
+          ]
+        },
+        {
+          "matchId": 513914921,
+          "civ": "Khmer",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-15",
+          "startedAt": "2026-10-15T22:11:26.000Z",
+          "dur": 1555,
+          "opponents": [
+            {
+              "profileId": 5644877,
+              "name": "Don Quixote"
+            },
+            {
+              "profileId": 1203369,
+              "name": "Garion"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22248055,
+              "name": "rizzy"
+            }
+          ]
+        },
         {
           "matchId": 513533816,
           "civ": "Franks",

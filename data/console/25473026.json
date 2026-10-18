@@ -5,12 +5,29 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 14,
-        "pulledDate": "2026-10-13",
-        "latestRating": 999,
+        "totalGames": 15,
+        "pulledDate": "2026-10-18",
+        "latestRating": 976,
         "peakRating": 999
       },
       "matches": [
+        {
+          "matchId": 513456602,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-13",
+          "startedAt": "2026-10-13T19:19:03.000Z",
+          "dur": 1369,
+          "opponents": [
+            {
+              "profileId": 22945991,
+              "name": "JAMIE_ARTHUR13"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 512858716,
           "civ": "Spanish",
@@ -253,22 +270,49 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-10-13"
+        "totalGames": 1,
+        "pulledDate": "2026-10-18"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 513465225,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-13",
+          "startedAt": "2026-10-13T20:01:33.000Z",
+          "dur": 3760,
+          "opponents": [
+            {
+              "profileId": 25207254,
+              "name": "fgtfddr"
+            },
+            {
+              "profileId": 25160061,
+              "name": "Goxo7"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 22708107,
+              "name": "Hans_Wurst_89"
+            }
+          ]
+        }
+      ]
     },
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-13"
+        "pulledDate": "2026-10-18"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-13"
+        "pulledDate": "2026-10-18"
       },
       "matches": []
     }
