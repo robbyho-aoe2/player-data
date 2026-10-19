@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-04"
+        "pulledDate": "2026-10-19"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-04"
+        "pulledDate": "2026-10-19"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 10,
-        "pulledDate": "2026-10-04",
-        "latestRating": 565,
+        "totalGames": 11,
+        "pulledDate": "2026-10-19",
+        "latestRating": 531,
         "peakRating": 565
       },
       "matches": [
+        {
+          "matchId": 512820373,
+          "civ": "Portuguese",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-11",
+          "startedAt": "2026-10-11T04:32:34.000Z",
+          "dur": 811,
+          "opponents": [
+            {
+              "profileId": 21973013,
+              "name": "germanp80"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 499134595,
           "civ": "Britons",
@@ -199,10 +216,37 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-10-04"
+        "totalGames": 1,
+        "pulledDate": "2026-10-19"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 512815911,
+          "civ": "Khmer",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-11",
+          "startedAt": "2026-10-11T04:05:40.000Z",
+          "dur": 1345,
+          "opponents": [
+            {
+              "profileId": 757571,
+              "name": "jdaviddrake.jd"
+            },
+            {
+              "profileId": 632255,
+              "name": "Dov413"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23914394,
+              "name": "Jojo"
+            }
+          ]
+        }
+      ]
     }
   },
   "country": "cn",
