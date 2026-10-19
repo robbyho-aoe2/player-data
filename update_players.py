@@ -410,9 +410,17 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     # Same idea for platform: first write (or a change) fills it in even for a quiet player.
     platform_changed = bool(profile_country.get("platform")) and profile_country.get("platform") != existing.get("platform")
 
-    if total_new == 0 and not current_changed and not peak_changed and not country_changed and not platform_changed:
+    # A data file created while the player only had a placeholder name ("player_<id>") keeps it forever unless it is
+    # healed here: use the real name from the API, or the one players.json has since been given.
+    real_name = found_name or (name if not name.startswith("player_") else None)
+    name_changed = bool(real_name) and str(existing.get("name", "")).startswith("player_")
+
+    if total_new == 0 and not current_changed and not peak_changed and not country_changed and not platform_changed and not name_changed:
         print(f"  no changes — skipping write")
         return False, found_name, None
+
+    if name_changed:
+        existing["name"] = real_name
 
     # Only overwrite on a real value — a transient fetch failure (empty
     # profile_country) must never clobber a country already on file.
