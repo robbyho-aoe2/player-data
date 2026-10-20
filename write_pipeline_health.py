@@ -12,6 +12,7 @@ timestamp would otherwise always show a diff.
 """
 import json
 import os
+import subprocess
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -30,7 +31,16 @@ def main():
         (p.get("group", "console"), data_dir / p.get("group", "console") / f"{p['profileId']}.json")
         for p in players
     ]
-    scoped_paths = [(group, path) for group, path in scoped_paths if path.exists()]
+    if os.environ.get("HEALTH_FROM_GIT_TREE") == "1":
+        # Sparse checkout (update-players.yml): only the run's batch files exist on disk, so the pool comes from git's
+        # file list instead. PC players are no longer refreshed, so they are left out of the pool entirely.
+        listing = set(subprocess.run(
+            ["git", "ls-tree", "-r", "--name-only", "HEAD", "data/console/", "data/pro/", "data/streamer/"],
+            capture_output=True, text=True, check=True, cwd=repo_root).stdout.split())
+        scoped_paths = [(g, p) for g, p in scoped_paths if g in ("console", "pro", "streamer")
+                        and p.relative_to(repo_root).as_posix() in listing]
+    else:
+        scoped_paths = [(group, path) for group, path in scoped_paths if path.exists()]
     scoped_pool_size = len(scoped_paths)
     console_pool_size = sum(1 for group, _ in scoped_paths if group == "console")
 
@@ -56,7 +66,7 @@ def main():
     console_fresh_count = 0
     for group, path in scoped_paths:
         is_fresh = (checked.get(path.stem) or "") >= cutoff
-        if not is_fresh:
+        if not is_fresh and path.exists():
             try:
                 player = json.loads(path.read_text())
             except (json.JSONDecodeError, OSError):

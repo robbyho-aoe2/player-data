@@ -1,11 +1,27 @@
 name: Update Player Data
+
+# Console-only refresh (pro and streamer players ride along because there are only ~200 of them).
+# PC players are no longer refreshed here: the console weekly report and the console pages are what this feeds.
+#
+# The checkout is sparse and blob-less on purpose. The whole repo is ~12 GB (9.8 GB of it PC player files), and a
+# full checkout used to eat ~50 minutes of the 180 minute cap before the fetch even started. Now only the scripts
+# and a few small files are checked out, the batch is chosen from the file LIST (git ls-tree), and just the
+# batch's own data files are pulled in before the fetch.
+#
+# build_aggregate.py is NOT run here any more: it reads every group (including PC), so it needs the full checkout.
+# backfill.yml (every 2 hours) and the other full-checkout workflows still rebuild the aggregates.
 on:
   schedule:
-    - cron: "43 */6 * * *"
+    - cron: "43 */4 * * *"
+  # Editing this workflow also starts a run, so a change to it can be tried straight away.
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-players.yml"
   workflow_dispatch:
     inputs:
       player_ids:
-        description: "Comma-separated profileIds to update (leave empty for all)"
+        description: "Comma-separated profileIds to update (leave empty for the normal rotating batch)"
         required: false
         default: ""
       pages:
@@ -34,64 +50,36 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Single source of truth for the rotation batch size — read by both the
-  # "Compute refresh batch" step and write_pipeline_health.py, so the
-  # health file's reported batchSize can never drift from what actually ran.
-  #
-  # Sized from 4 real successful full-batch runs (all BATCH_SIZE=2500) during
-  # the 2026-08-25 -> 2026-09-02 timeout outage, using the "Update player
-  # data" step's own start/end timestamps from the job's step list:
-  #   2026-08-25 run: 10009s / 2500 players = 4.004s/player
-  #   2026-08-28 run: 10067s / 2500 players = 4.027s/player
-  #   2026-08-29 run:  9675s / 2500 players = 3.870s/player (commit landed
-  #     via a pushed cursor/data commit moments before the job was killed at
-  #     the 180min cap and reported conclusion=cancelled — the fetch itself
-  #     completed cleanly, so its timing is still valid)
-  #   2026-09-02 run:  9425s / 2500 players = 3.770s/player
-  #   average: 3.918s/player
-  # Target: keep "Update player data" itself under 120 minutes (7200s),
-  # leaving a full 60 minutes of the 180min timeout-minutes cap as real
-  # margin for checkout/sync/build/commit overhead (observed 15-25min) plus
-  # API slowness/variance:
-  #   7200s / 3.918s per player = ~1838 players
-  # Rounded down to 1800 for a clean number — worst-observed rate still
-  # finishes in ~121 minutes, comfortably inside the 60-minute margin.
-  # 2026-10-20: lowered from 1800 to 1200. Recent runs spend ~50 min in checkout and the cursor push before the fetch
-  # even starts, then ~115 min fetching 1800 players, so most runs hit the 180 min cap and were cancelled (about 20 of
-  # the last 30), losing their whole batch. 600 console + 600 everyone else is ~75 min of fetching, which fits.
-  REFRESH_BATCH_SIZE: "1200"
-  # Console gets its own reserved slice of every batch, rotated with its
-  # own cursor (data/refresh_cursor_console.json), instead of competing
-  # for freshness against the whole (much larger, still-growing) pool on
-  # a single shared cursor. The console weekly report needs the full
-  # console roster fresh every Monday — a flat rotation over all ~15k+
-  # tracked players (console/pro/pc/streamer) only cycles back to any
-  # given console player every ~2+ days and degrades further as the pool
-  # grows, which is what forced a manual 2-batch console-only refresh on
-  # 2026-09-19/20 just to fix that week's report. At 600/run x 4 runs/day
-  # = 2400/day, the ~2975-player console pool fully rotates in ~1.25
-  # days — several days of margin before the next Monday even if a run
-  # is skipped or fails outright. The remaining 1200 of the 1800 total
-  # still goes to everyone else via the pre-existing cursor, so overall
-  # runtime budget (and its timeout margin, see above) is unchanged.
-  CONSOLE_BATCH_SIZE: "600"
+  # Console players per run, rotated with their own cursor (data/refresh_cursor_console.json). The rest pool
+  # (pro + streamer, ~200 players) is refreshed in full every run. ~4 s per player means ~1300 players is
+  # ~85 minutes of fetching; with the now-small checkout that fits the 180 minute cap with room to spare.
+  # 6 runs a day x 1100 = 6600 console players a day against a pool of ~3600, so the pool is covered about
+  # every 14 hours even if a couple of runs are skipped.
+  CONSOLE_BATCH_SIZE: "1100"
+  REFRESH_BATCH_SIZE: "1400"
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    # No explicit cap before meant a hang fell back to GitHub's 360min
-    # default — and because this shares the player-data-write concurrency
-    # group with cancel-in-progress:false, a single hung run blocked every
-    # subsequent scheduled/chained trigger behind it indefinitely (this is
-    # what caused the week-long update outage on 2026-08-23). A firm cap
-    # guarantees the lock frees up every cycle even if a run gets stuck.
+    # A firm cap so a hung run frees the shared player-data-write lock instead of blocking every other writer.
     timeout-minutes: 180
     permissions:
       contents: write
       actions: write
     steps:
-      - name: Checkout repo
+      - name: Checkout repo (sparse, no file contents yet)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /*.py
+            players.json
+            data/refresh_cursor.json
+            data/refresh_cursor_console.json
+            data/refresh_checked.json
+            data/pipeline_health.json
+          sparse-checkout-cone-mode: false
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -116,23 +104,9 @@ jobs:
         if: github.event.inputs.player_ids == ''
         run: |
           python3 - <<'EOF'
-          import json, os
+          import json, os, subprocess
           from pathlib import Path
 
-          # Refreshing the FULL already-backfilled roster every run used to
-          # be fine, but that scope only grows as backfill.yml keeps adding
-          # players — by 2026-08-16 it had grown enough that a full pass
-          # started taking longer than this job's timeout, so every run got
-          # killed mid-way with nothing committed, forever (the root cause
-          # of the week-long outage this was added to fix). Rotating a
-          # bounded batch each run keeps runtime predictable regardless of
-          # how large the backfilled pool gets — freshness per player
-          # degrades gracefully (a full rotation just takes more cycles)
-          # instead of the whole pipeline breaking.
-          #
-          # Console is carved out into its own rotation (own cursor, own
-          # batch size) so its freshness guarantee doesn't dilute as the
-          # rest of the pool grows — see CONSOLE_BATCH_SIZE's comment.
           CONSOLE_BATCH_SIZE = int(os.environ["CONSOLE_BATCH_SIZE"])
           REST_BATCH_SIZE = int(os.environ["REFRESH_BATCH_SIZE"]) - CONSOLE_BATCH_SIZE
 
@@ -144,7 +118,6 @@ jobs:
                   batch, next_cursor = pool, 0
               else:
                   start = cursor % len(pool)
-                  # wrap around the end of the list back to the start
                   batch = (pool[start:] + pool[:start])[:batch_size]
                   next_cursor = (start + batch_size) % len(pool)
               cursor_path.write_text(json.dumps({"index": next_cursor}, indent=2))
@@ -152,42 +125,31 @@ jobs:
 
           data_dir = Path("data")
           players = json.loads(Path("players.json").read_text())
+          # Which players have a data file, from git's file list (the files themselves are not checked out).
+          listing = subprocess.run(["git", "ls-tree", "-r", "--name-only", "HEAD", "data/console/", "data/pro/", "data/streamer/"],
+                                   capture_output=True, text=True, check=True).stdout.split()
+          have = set(listing)
           tracked = [
               p for p in players
-              if (data_dir / p.get("group", "console") / f"{p['profileId']}.json").exists()
+              if p.get("group", "console") in ("console", "pro", "streamer")
+              and f"data/{p.get('group', 'console')}/{p['profileId']}.json" in have
           ]
           console_pool = sorted(p["profileId"] for p in tracked if p.get("group", "console") == "console")
           rest_pool = sorted(p["profileId"] for p in tracked if p.get("group", "console") != "console")
 
-          console_batch, console_cursor, console_next = rotate(
-              console_pool, CONSOLE_BATCH_SIZE, data_dir / "refresh_cursor_console.json"
-          )
-          rest_batch, rest_cursor, rest_next = rotate(
-              rest_pool, REST_BATCH_SIZE, data_dir / "refresh_cursor.json"
-          )
+          console_batch, console_cursor, console_next = rotate(console_pool, CONSOLE_BATCH_SIZE, data_dir / "refresh_cursor_console.json")
+          rest_batch, rest_cursor, rest_next = rotate(rest_pool, REST_BATCH_SIZE, data_dir / "refresh_cursor.json")
           batch = console_batch + rest_batch
 
           print(f"Console pool: {len(console_pool)} — refreshing {len(console_batch)} this run, cursor {console_cursor} -> {console_next}")
-          print(f"Rest pool: {len(rest_pool)} — refreshing {len(rest_batch)} this run, cursor {rest_cursor} -> {rest_next}")
+          print(f"Rest pool (pro + streamer): {len(rest_pool)} — refreshing {len(rest_batch)} this run, cursor {rest_cursor} -> {rest_next}")
 
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write("player_ids=" + ",".join(str(i) for i in batch) + "\n")
           EOF
       - name: Commit and push cursor advance
-        # Push the cursor's new position to origin NOW, before the slow
-        # "Update player data" fetch below even starts — not at the very end
-        # alongside the fetch results. This is what makes batch rotation
-        # actually rotate during an outage: the 2026-08-25 -> 2026-09-02
-        # timeout streak kept retrying the SAME batch run after run, because
-        # the cursor only advanced on a fully successful run and every run
-        # was getting killed by timeout-minutes:180 first. With the cursor
-        # committed up front, a fetch that later times out or fails just
-        # means that batch waits one full rotation to be retried — the next
-        # scheduled run tries a different batch instead of the pipeline
-        # being stuck on one forever. Safe to run with no prior `git pull`:
-        # the shared player-data-write concurrency group (cancel-in-progress
-        # false) guarantees no other writer workflow is running concurrently,
-        # so origin can't have moved since Checkout repo.
+        # Push the cursor's new position BEFORE the slow fetch, so a run that later times out only means that batch
+        # waits one rotation instead of the same batch being retried forever.
         if: github.event.inputs.player_ids == ''
         run: |
           git config user.name  "github-actions[bot]"
@@ -211,6 +173,36 @@ jobs:
           done
           echo "::error::Failed to push cursor advance after 3 attempts"
           exit 1
+      - name: Check out the batch's data files
+        # Pull in only the files this run will read and rewrite. update_players.py treats a missing file as a brand new
+        # player, so every file is verified to be present before the fetch starts.
+        run: |
+          IDS="${{ github.event.inputs.player_ids }}"
+          if [ -z "$IDS" ]; then IDS="${{ steps.batch.outputs.player_ids }}"; fi
+          IDS="$IDS" python3 - <<'EOF'
+          import json, os, subprocess
+          from pathlib import Path
+
+          ids = [i for i in os.environ["IDS"].split(",") if i.strip()]
+          players = {str(p["profileId"]): p.get("group", "console") for p in json.loads(Path("players.json").read_text())}
+          listing = set(subprocess.run(["git", "ls-tree", "-r", "--name-only", "HEAD", "data/"],
+                                       capture_output=True, text=True, check=True).stdout.split())
+          want = []
+          for i in ids:
+              path = f"data/{players.get(i, 'console')}/{i}.json"
+              if path in listing:
+                  want.append(path)
+              else:
+                  print(f"{i}: no data file yet ({path}) — it will be created as a new player")
+          if want:
+              with open(".git/info/sparse-checkout", "a") as f:
+                  f.write("\n" + "\n".join("/" + p for p in want) + "\n")
+              subprocess.run(["git", "sparse-checkout", "reapply"], check=True)
+          missing = [p for p in want if not Path(p).exists()]
+          print(f"Checked out {len(want) - len(missing)} of {len(want)} data files")
+          if missing:
+              raise SystemExit(f"{len(missing)} data files did not check out, e.g. {missing[:3]} — stopping so nothing is overwritten")
+          EOF
       - name: Update player data
         id: update
         run: |
@@ -233,41 +225,17 @@ jobs:
             ARGS="$ARGS --group ${{ github.event.inputs.group }}"
           fi
           python3 update_players.py $ARGS
-      - name: Sync with origin before building aggregate
-        # The aggregate/insights files under data/ are a full regeneration
-        # of every player's data, so committing them BEFORE syncing with
-        # origin means any commit that lands elsewhere while this run's
-        # multi-hour fetch is in flight (e.g. backfill.yml's own cron, or a
-        # manual push) turns into an unresolvable rebase conflict on those
-        # generated blobs later. Pulling now — before Build aggregate even
-        # runs — means the aggregate step always regenerates from
-        # already-merged data, so the final push below has nothing left to
-        # conflict on.
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then
-            git stash push -u -m "freshly fetched player data"
-            git pull --rebase
-            git stash pop
-          else
-            git pull --rebase
-          fi
-      - name: Build aggregate
-        run: python3 build_aggregate.py
       - name: Write pipeline health
-        # DATA_CHANGED must be computed from `git status` here, before this
-        # writes data/pipeline_health.json — that file's own timestamp
-        # changes every run, so checking `git status` after writing it would
-        # always show a diff regardless of whether any player data actually
-        # changed.
+        # DATA_CHANGED must be computed from `git status` before this writes data/pipeline_health.json (that file's
+        # own timestamp changes every run). HEALTH_FROM_GIT_TREE makes the script read the pool from git's file list and
+        # freshness from data/refresh_checked.json, because only the batch's files are checked out here.
         run: |
           if [ -n "$(git status --porcelain -- data/ players.json)" ]; then
             export DATA_CHANGED=true
           else
             export DATA_CHANGED=false
           fi
-          python3 write_pipeline_health.py
+          HEALTH_FROM_GIT_TREE=1 python3 write_pipeline_health.py
       - name: Commit and push if changed
         run: |
           git config user.name  "github-actions[bot]"
@@ -277,36 +245,19 @@ jobs:
             echo "Nothing to commit"
             exit 0
           fi
-          git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
-
-          # A commit that fails to push here used to be silently discarded
-          # by `|| echo "Nothing to push"` (see run 32888585741 on
-          # 2026-08-25: 2405 files / 4.76M insertions were fetched,
-          # committed locally, then lost to a swallowed rebase conflict —
-          # the job still reported conclusion=success). Retry instead of
-          # swallowing, and fail loudly if data genuinely can't be saved.
+          git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d %H:%M')"
           for attempt in 1 2 3; do
             if git push; then
               echo "Pushed on attempt $attempt"
               exit 0
             fi
             echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
-            git reset --soft HEAD^
             git pull --rebase
-            python3 build_aggregate.py
-            git add data/ players.json
-            git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d')"
             sleep $((5 * attempt))
           done
           echo "::error::Failed to push player data after 3 attempts — this run's fetched data was NOT saved to origin"
           exit 1
       - name: Trigger Backfill if looping
-        # A one-shot nudge (no loop=true) — backfill.yml no longer
-        # auto-chains off queue-remaining, so this doesn't restart the
-        # continuous self-chain that was starving this very workflow's
-        # own cron out of the shared concurrency lock. Backfill still
-        # gets one extra round after each refresh, plus its normal 2h
-        # cron for ongoing progress.
         if: success() && github.event.inputs.dry_run != 'true' && (github.event.inputs.loop == 'true' || github.event_name == 'schedule')
         run: |
           gh workflow run backfill.yml \
