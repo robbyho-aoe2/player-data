@@ -570,10 +570,21 @@ def main():
     needs_group_update = False
     errors = []
 
+    # update_player() skips the file write when a player has no new matches and no rating change, so a quiet player's
+    # own pulledDate stays old even though they were just checked. This sidecar records the check itself
+    # (profileId -> date), which is what write_pipeline_health.py measures freshness from.
+    checked_path = data_dir / "refresh_checked.json"
+    try:
+        checked = json.loads(checked_path.read_text()) if checked_path.exists() else {}
+    except (json.JSONDecodeError, OSError):
+        checked = {}
+    checked_before = dict(checked)
+
     for i, player in enumerate(players):
         try:
             changed, real_name, new_group = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
             any_changed = any_changed or changed
+            checked[str(player["profileId"])] = date.today().isoformat()
             # Update players.json if we found a real name for a placeholder entry
             if real_name and player["name"].startswith("player_") and not args.dry_run:
                 player["name"] = real_name
@@ -588,6 +599,10 @@ def main():
 
         if i < len(players) - 1:
             time.sleep(PLAYER_DELAY)
+
+    if checked != checked_before and not args.dry_run:
+        checked_path.write_text(json.dumps(dict(sorted(checked.items(), key=lambda kv: int(kv[0]))), separators=(",", ":")))
+        print(f"Recorded {len(checked) - len(checked_before)} new and {sum(1 for k in checked_before if checked_before[k] != checked[k])} refreshed check dates in {checked_path.name}")
 
     if (needs_name_update or needs_group_update) and not args.dry_run:
         with open(players_path) as f:

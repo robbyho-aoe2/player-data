@@ -43,19 +43,31 @@ def main():
     console_batch_size = int(os.environ.get("CONSOLE_BATCH_SIZE", 0))
 
     cutoff = (date.today() - timedelta(days=FRESHNESS_WINDOW_DAYS)).isoformat()
+    # A player counts as fresh if their file was written recently (pulledDate) OR the refresh recently checked them and
+    # found nothing new (data/refresh_checked.json, written by update_players.py). Without the second source, any
+    # player who simply has not played this week looks stale forever, so the percentage measured how many people played
+    # in the last 7 days instead of how well the refresh was keeping up.
+    checked_path = data_dir / "refresh_checked.json"
+    try:
+        checked = json.loads(checked_path.read_text()) if checked_path.exists() else {}
+    except (json.JSONDecodeError, OSError):
+        checked = {}
     fresh_count = 0
     console_fresh_count = 0
     for group, path in scoped_paths:
-        try:
-            player = json.loads(path.read_text())
-        except (json.JSONDecodeError, OSError):
-            continue
-        pulled_dates = [
-            ladder.get("meta", {}).get("pulledDate")
-            for ladder in player.get("ladders", {}).values()
-        ]
-        pulled_dates = [d for d in pulled_dates if d]
-        if pulled_dates and max(pulled_dates) >= cutoff:
+        is_fresh = (checked.get(path.stem) or "") >= cutoff
+        if not is_fresh:
+            try:
+                player = json.loads(path.read_text())
+            except (json.JSONDecodeError, OSError):
+                continue
+            pulled_dates = [
+                ladder.get("meta", {}).get("pulledDate")
+                for ladder in player.get("ladders", {}).values()
+            ]
+            pulled_dates = [d for d in pulled_dates if d]
+            is_fresh = bool(pulled_dates) and max(pulled_dates) >= cutoff
+        if is_fresh:
             fresh_count += 1
             if group == "console":
                 console_fresh_count += 1

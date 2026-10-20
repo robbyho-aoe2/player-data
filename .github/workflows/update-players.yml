@@ -56,7 +56,10 @@ env:
   #   7200s / 3.918s per player = ~1838 players
   # Rounded down to 1800 for a clean number — worst-observed rate still
   # finishes in ~121 minutes, comfortably inside the 60-minute margin.
-  REFRESH_BATCH_SIZE: "1800"
+  # 2026-10-20: lowered from 1800 to 1200. Recent runs spend ~50 min in checkout and the cursor push before the fetch
+  # even starts, then ~115 min fetching 1800 players, so most runs hit the 180 min cap and were cancelled (about 20 of
+  # the last 30), losing their whole batch. 600 console + 600 everyone else is ~75 min of fetching, which fits.
+  REFRESH_BATCH_SIZE: "1200"
   # Console gets its own reserved slice of every batch, rotated with its
   # own cursor (data/refresh_cursor_console.json), instead of competing
   # for freshness against the whole (much larger, still-growing) pool on
