@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-06"
+        "pulledDate": "2026-10-20"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-06"
+        "pulledDate": "2026-10-20"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 32,
-        "pulledDate": "2026-10-06",
-        "latestRating": 1026,
+        "totalGames": 33,
+        "pulledDate": "2026-10-20",
+        "latestRating": 1012,
         "peakRating": 1026
       },
       "matches": [
+        {
+          "matchId": 514863730,
+          "civ": "Saracens",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-19",
+          "startedAt": "2026-10-19T17:29:15.000Z",
+          "dur": 1726,
+          "opponents": [
+            {
+              "profileId": 11504434,
+              "name": "Hakan Fidan"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 510809987,
           "civ": "Vikings",
@@ -573,12 +590,116 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 186,
-        "pulledDate": "2026-10-06",
-        "latestRating": 942,
+        "totalGames": 190,
+        "pulledDate": "2026-10-20",
+        "latestRating": 978,
         "peakRating": 1007
       },
       "matches": [
+        {
+          "matchId": 514896831,
+          "civ": "Teutons",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1815,
+          "date": "2026-10-19",
+          "startedAt": "2026-10-19T20:00:42.000Z",
+          "dur": 1567,
+          "opponents": [
+            {
+              "profileId": 4393462,
+              "name": "Dorlov"
+            },
+            {
+              "profileId": 4134472,
+              "name": "MLGGandalf"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1131144,
+              "name": "tobik_m_f"
+            }
+          ]
+        },
+        {
+          "matchId": 514885220,
+          "civ": "Teutons",
+          "map": "Oasis",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-19",
+          "startedAt": "2026-10-19T19:09:32.000Z",
+          "dur": 2657,
+          "opponents": [
+            {
+              "profileId": 20524268,
+              "name": "Caderousse"
+            },
+            {
+              "profileId": 3500428,
+              "name": "JakubCZ"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1131144,
+              "name": "tobik_m_f"
+            }
+          ]
+        },
+        {
+          "matchId": 514656377,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-18",
+          "startedAt": "2026-10-18T18:53:30.000Z",
+          "dur": 2127,
+          "opponents": [
+            {
+              "profileId": 23951878,
+              "name": "trn25"
+            },
+            {
+              "profileId": 25334161,
+              "name": "SMHD007"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1131144,
+              "name": "tobik_m_f"
+            }
+          ]
+        },
+        {
+          "matchId": 514640128,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1815,
+          "date": "2026-10-18",
+          "startedAt": "2026-10-18T17:50:37.000Z",
+          "dur": 3360,
+          "opponents": [
+            {
+              "profileId": 3960408,
+              "name": "MediumSizedGoose"
+            },
+            {
+              "profileId": 17553332,
+              "name": "A Nerdy Egg"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 1131144,
+              "name": "tobik_m_f"
+            }
+          ]
+        },
         {
           "matchId": 506492231,
           "civ": "Turks",
