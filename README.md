@@ -119,6 +119,18 @@ per player (alongside the existing `rating1v1`) every week from here on.
 Team Elo deltas become available starting the week *after* two consecutive
 snapshots carry `ratingTeam`.
 
+**Most customs (`weekly_customs.py`):** custom games (scrims, Nations Cup
+sets, lobby games with friends) are not in `data/console/*.json`, because
+`update_players.py` only keeps ranked leaderboards. aoe2companion files them
+under `leaderboard_ids=unranked`, and its matches endpoint accepts many
+`profile_ids` at once, so the script queries the whole console roster in
+chunks of 100 and pages each chunk back to the window start (about 40
+chunks, a few minutes). A game counts when at least two humans are in it and
+its date is in `(windowStart, windowEnd]`. Record is wins-losses over games
+with a recorded result. Output goes into the report as `mostCustoms` (top 5),
+`totalCustomGames` and `playersWithCustoms`; `insights.html` renders it when
+present and skips it for older reports.
+
 ## Triggering manually
 
 Go to **Actions → Update Player Data → Run workflow**. Optionally specify:
