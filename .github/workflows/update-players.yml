@@ -45,8 +45,13 @@ on:
         required: false
         default: "false"
 
+# Its own concurrency group, not the shared player-data-write one. With the shared group, backfill.yml (every 2 hours,
+# 80-100 minutes a run) kept taking the single "pending" slot and a waiting update run was cancelled when the next
+# backfill queued, so about half the scheduled console refreshes never ran. The two workflows touch different files
+# (this one: data/console, data/pro, data/streamer, the cursors, the checked-dates file and the health file; backfill:
+# the PC data, the queue and the aggregates), and both already retry a rejected push with `git pull --rebase`.
 concurrency:
-  group: player-data-write
+  group: player-data-update
   cancel-in-progress: false
 
 env:
