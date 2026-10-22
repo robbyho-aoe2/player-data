@@ -1,4 +1,12 @@
 name: Backfill New Players
+
+# Pulls the full game history for players that have a players.json entry but no data file yet. Console players go first
+# (the queue is sorted console-first every run), then everyone else.
+#
+# Faster than it used to be (2026-10-22): the checkout is sparse and blob-less, like update-players.yml, because a
+# full checkout of the ~12 GB repo took ~35 minutes of every run before a single player was fetched. Only the scripts,
+# players.json, the queue and the batch's own data files are checked out. The aggregate rebuild, which does need the
+# whole repo, moved to its own workflow (build-aggregate.yml). With the overhead gone a run takes a much bigger batch.
 on:
   schedule:
     - cron: "17 */2 * * *"
@@ -9,15 +17,15 @@ on:
         required: false
         default: "1000"
       max_players:
-        description: "Max players to process per run (default 40)"
+        description: "Max players to process per run (default 250)"
         required: false
-        default: "40"
+        default: "250"
       dry_run:
         description: "Fetch but don't commit (true/false)"
         required: false
         default: "false"
       loop:
-        description: "Chain into Update Player Data on completion (true/false)"
+        description: "Chain another Backfill round on completion (true/false)"
         required: false
         default: "false"
 
@@ -33,8 +41,17 @@ jobs:
       contents: write
       actions: write
     steps:
-      - name: Checkout repo
+      - name: Checkout repo (sparse, no file contents yet)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /*.py
+            players.json
+            data/backfill_queue.json
+            data/refresh_checked.json
+          sparse-checkout-cone-mode: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -51,7 +68,7 @@ jobs:
           import json, os
           from pathlib import Path
 
-          max_players  = int(os.environ.get("MAX_PLAYERS", "40"))
+          max_players  = int(os.environ.get("MAX_PLAYERS", "250"))
           queue_path   = Path("data/backfill_queue.json")
           players_path = Path("players.json")
 
@@ -74,9 +91,8 @@ jobs:
                   with open(os.environ["GITHUB_OUTPUT"], "a") as f:
                       f.write("has_queue=false\n")
               else:
-                  # Prioritize console players — they move to the front of the
-                  # queue (stable sort, so arrival order is preserved within
-                  # each priority tier).
+                  # Console players first (stable sort, so arrival order is
+                  # kept within each tier).
                   group_of = {}
                   if players_path.exists():
                       for p in json.loads(players_path.read_text()):
@@ -87,7 +103,8 @@ jobs:
                   batch    = all_ids[:max_players]
                   remaining = all_ids[max_players:]
                   id_str   = ",".join(str(i) for i in batch)
-                  print(f"Queue total: {len(all_ids)} — processing {len(batch)} (console-prioritized), leaving {len(remaining)}")
+                  console_in_batch = sum(1 for i in batch if group_of.get(i) == "console")
+                  print(f"Queue total: {len(all_ids)} — processing {len(batch)} ({console_in_batch} console), leaving {len(remaining)}")
                   print(f"Batch: {id_str}")
 
                   # Write remaining back to queue (not cleared until empty)
@@ -100,7 +117,31 @@ jobs:
                       f.write(f"remaining={len(remaining)}\n")
           EOF
         env:
-          MAX_PLAYERS: ${{ github.event.inputs.max_players || '40' }}
+          MAX_PLAYERS: ${{ github.event.inputs.max_players || '250' }}
+
+      - name: Check out the batch's existing data files
+        # A queued player normally has no file yet and update_players.py creates it, but a re-queued player does have one,
+        # and a missing file would be treated as brand new and overwrite it, so every existing file is checked out first.
+        if: steps.read_queue.outputs.has_queue == 'true'
+        run: |
+          IDS="${{ steps.read_queue.outputs.queue_ids }}" python3 - <<'EOF'
+          import json, os, subprocess
+          from pathlib import Path
+
+          ids = [i for i in os.environ["IDS"].split(",") if i.strip()]
+          players = {str(p["profileId"]): p.get("group", "console") for p in json.loads(Path("players.json").read_text())}
+          listing = set(subprocess.run(["git", "ls-tree", "-r", "--name-only", "HEAD", "data/"],
+                                       capture_output=True, text=True, check=True).stdout.split())
+          want = [f"data/{players.get(i, 'console')}/{i}.json" for i in ids if f"data/{players.get(i, 'console')}/{i}.json" in listing]
+          if want:
+              with open(".git/info/sparse-checkout", "a") as f:
+                  f.write("\n" + "\n".join("/" + p for p in want) + "\n")
+              subprocess.run(["git", "sparse-checkout", "reapply"], check=True)
+          missing = [p for p in want if not Path(p).exists()]
+          print(f"{len(ids)} in the batch, {len(want)} already have a data file, {len(missing)} failed to check out")
+          if missing:
+              raise SystemExit(f"{len(missing)} data files did not check out, e.g. {missing[:3]} — stopping so nothing is overwritten")
+          EOF
 
       - name: Backfill player data
         if: steps.read_queue.outputs.has_queue == 'true'
@@ -111,10 +152,6 @@ jobs:
           fi
           echo "Running: python3 update_players.py $ARGS"
           python3 update_players.py $ARGS
-
-      - name: Build aggregate
-        if: steps.read_queue.outputs.has_queue == 'true' && github.event.inputs.dry_run != 'true'
-        run: python3 build_aggregate.py
 
       - name: Commit and push if changed
         if: github.event.inputs.dry_run != 'true'
@@ -127,10 +164,9 @@ jobs:
             exit 0
           fi
           git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} players, ${{ steps.read_queue.outputs.remaining }} remaining $(date -u '+%Y-%m-%d')"
-          # This step used to be `git pull --rebase && git push || echo "Nothing to push"`: when another workflow pushed
-          # during the long job, the single push attempt was rejected, the `||` swallowed the failure and printed a
-          # misleading message, and the run still showed green. Nothing from 2026-10-21 02:00 UTC on (including the
-          # insights civ aggregate) reached main that way. Now it retries and fails the run if it cannot push.
+          # Retry, and fail the run if the push never lands. This step used to be
+          # `git pull --rebase && git push || echo "Nothing to push"`, which swallowed a rejected push (another workflow
+          # pushed during the long job) and left the run green with nothing saved.
           for attempt in 1 2 3 4; do
             if git pull --rebase && git push; then
               echo "Pushed on attempt $attempt"
@@ -140,7 +176,7 @@ jobs:
             git rebase --abort 2>/dev/null || true
             sleep $((10 * attempt))
           done
-          echo "::error::Failed to push the backfill commit after 4 attempts — this run's data and aggregates were NOT saved to origin"
+          echo "::error::Failed to push the backfill commit after 4 attempts — this run's data was NOT saved to origin"
           exit 1
 
       - name: Trigger another Backfill round if looping
@@ -152,15 +188,9 @@ jobs:
         # lock's single queued slot indefinitely (observed 2026-08-24).
         #
         # IMPORTANT: this dispatches the next round WITHOUT --field
-        # loop=true. The first fix here still passed loop=true forward,
-        # which meant any chain already seeded with loop=true (every
-        # link before this fix, and any future manual loop=true dispatch)
-        # kept perpetuating itself under the new gate too — same
-        # starvation, just relabeled. loop=true is now consumed by
-        # exactly one extra round: this step fires once for the run that
-        # requested it, then stops, instead of manufacturing a new
-        # opt-in each generation. Chain a longer burst explicitly (repeat
-        # manual loop=true dispatches) if one is ever actually wanted.
+        # loop=true. loop=true is consumed by exactly one extra round: this
+        # step fires once for the run that requested it, then stops, instead
+        # of manufacturing a new opt-in each generation.
         if: success() && github.event.inputs.dry_run != 'true' && github.event.inputs.loop == 'true'
         run: |
           gh workflow run backfill.yml \

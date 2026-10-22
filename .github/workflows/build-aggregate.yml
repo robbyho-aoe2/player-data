@@ -1,0 +1,56 @@
+name: Build Aggregates
+
+# Rebuilds data/aggregate-*.json and the slim Insights exports (insights-console-civs.json, squads, the Console Live
+# roster, ...) from every player file. This used to be a step at the end of backfill.yml and only ran when the backfill
+# queue had work; it needs the whole repo, which made every backfill run spend ~35 minutes on a full checkout. Now it is
+# its own job on its own schedule, with its own concurrency group so it never holds up the backfill or the refresh.
+on:
+  schedule:
+    - cron: "47 */3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: player-data-aggregate
+  cancel-in-progress: false
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build aggregate
+        run: python3 build_aggregate.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ players.json
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: rebuild aggregates $(date -u '+%Y-%m-%d %H:%M')"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase && git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep $((10 * attempt))
+          done
+          echo "::error::Failed to push the aggregates after 4 attempts — this build was NOT saved to origin"
+          exit 1
