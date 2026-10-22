@@ -131,6 +131,16 @@ with a recorded result. Output goes into the report as `mostCustoms` (top 5),
 `totalCustomGames` and `playersWithCustoms`; `insights.html` renders it when
 present and skips it for older reports.
 
+## PC player summaries (data/pc-summary)
+The PC group is ~130,000 accounts and a full match file averages ~600 KB, which would put ~70 GB in git. PC players
+added by the backfill from 2026-10-22 on therefore get a compact summary, `data/pc-summary/<profileId>.json.gz`
+(~3 KB), instead of a full history file. A summary keeps the win/loss counts the aggregates are built from
+(civ x map x patch x week x game phase x ladder, see `pc_summary.py`) plus ratings, country and platform.
+`build_aggregate.py` reads summaries and full files through the same `iter_tuples()`, so the PC aggregates are the
+same as they would be from full files (`test_pc_summary.py` checks this). Summary-only players are counted in the
+aggregates but are not part of the player list in `aggregate-meta.json`. PC players with an existing full file are
+untouched; a PC player found to have console games is still reclassified and saved as a full console file.
+
 ## Triggering manually
 
 Go to **Actions → Update Player Data → Run workflow**. Optionally specify:

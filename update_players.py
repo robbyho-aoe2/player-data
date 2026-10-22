@@ -14,6 +14,8 @@ import urllib.error
 from datetime import datetime, timezone, date
 from pathlib import Path
 
+from pc_summary import build_summary, summary_path, write_summary
+
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 BASE_URL      = "https://data.aoe2companion.com/api/matches"
@@ -299,8 +301,13 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     profile_id = player_def["profileId"]
     group      = player_def.get("group", "console")
     out_path   = get_player_path(data_dir, group, profile_id)
+    # PC players that have no full file yet get a compact summary (pc_summary.py) instead of a ~600 KB history file:
+    # the PC group is ~130k accounts and the site only needs their win/loss counts and ratings. A PC player who already
+    # has a full file keeps being updated as before, and one found to have console games is still reclassified below
+    # and saved as a full console file.
+    summary_mode = group == "pc" and not out_path.exists() and not repair
 
-    print(f"\n[{name}] profileId={profile_id} group={group}")
+    print(f"\n[{name}] profileId={profile_id} group={group}{' (summary)' if summary_mode else ''}")
 
     if out_path.exists():
         with open(out_path) as f:
@@ -475,6 +482,15 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
                 out_path.unlink(missing_ok=True)
                 print(f"  moved {out_path} -> {new_out_path}")
             return True, found_name, reclassified_group
+
+    if summary_mode:
+        spath = summary_path(data_dir, profile_id)
+        if dry_run:
+            print(f"  DRY RUN — would write {spath}")
+            return False, found_name, None
+        write_summary(spath, build_summary(existing))
+        print(f"  wrote summary {spath}")
+        return True, found_name, None
 
     if dry_run:
         print(f"  DRY RUN — would write {out_path}")

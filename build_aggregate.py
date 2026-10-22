@@ -5,6 +5,8 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from pc_summary import SUMMARY_DIRNAME, iter_tuples, load_player
+
 ELO_BRACKETS = [
     ("high",   1700, 99999),
     ("himid",  1300, 1699),
@@ -97,6 +99,11 @@ def add_win(d, key, won):
     if won:
         d[key]["wins"] += 1
 
+def add_n(d, key, games, wins):
+    """add_win for a pre-counted cell (a PC summary row): `games` games of which `wins` were won."""
+    d[key]["games"] += games
+    d[key]["wins"] += wins
+
 def add_pick_rates(civ_dict):
     total = sum(v["games"] for v in civ_dict.values())
     if total == 0:
@@ -175,6 +182,19 @@ def collect_files(data_dir, group_map, cleanup=False):
 
     return group_files, stale_files
 
+def collect_pc_summaries(data_dir, group_map, full_pc_ids):
+    """data/pc-summary/*.json.gz for players that players.json still has in the pc group and that have no full file.
+    Summaries of players who have since moved to another group (or got a full file) are ignored, not deleted."""
+    out = []
+    subpath = data_dir / SUMMARY_DIRNAME
+    if not subpath.exists():
+        return out
+    for f in sorted(subpath.glob("*.json.gz")):
+        pid = f.name[:-len(".json.gz")]
+        if group_map.get(pid) == "pc" and pid not in full_pc_ids:
+            out.append(f)
+    return out
+
 def process_group(player_files, group=None):
     # Restrict which ladders count toward a group's aggregate. Without this,
     # a console-group player's PC-ladder crossplay matches (or vice versa)
@@ -214,8 +234,7 @@ def process_group(player_files, group=None):
     unknown_civs  = defaultdict(int)
 
     for path in player_files:
-        with open(path) as f:
-            player = json.load(f)
+        player = load_player(path)
         total_players += 1
 
         console_rating = (
@@ -226,62 +245,56 @@ def process_group(player_files, group=None):
         )
         bracket = get_bracket(console_rating)
 
-        for ladder_name, ladder_data in player.get("ladders", {}).items():
+        # iter_tuples yields one tuple per match for a full file and one per pre-counted row for a PC summary
+        # (pc_summary.py), so both feed the same breakdowns below.
+        for ladder_name, civ_raw, map_, patch, week, phase, games, wins in iter_tuples(player):
             if allowed_ladders is not None and ladder_name not in allowed_ladders:
                 continue
-            for match in ladder_data.get("matches", []):
-                civ   = normalize_civ(match.get("civ"))
-                map_  = match.get("map")
-                won   = match.get("won")
-                dur   = match.get("dur")
-                patch = match.get("patch")
-                week  = week_start(match.get("date"))
+            civ = normalize_civ(civ_raw)
+            if civ is None or civ in CIV_SKIP:
+                continue
 
-                if civ is None or won is None or civ in CIV_SKIP:
-                    continue
+            total_matches += games
 
-                total_matches += 1
-                phase = get_phase(dur)
+            if civ not in OFFICIAL_CIVS:
+                unknown_civs[civ] += games
 
-                if civ not in OFFICIAL_CIVS:
-                    unknown_civs[civ] += 1
+            add_n(civ_overall, civ, games, wins)
 
-                add_win(civ_overall, civ, won)
-
-                if map_:
-                    add_win(by_map[map_]["civWinRates"], civ, won)
-                    if bracket:
-                        add_win(by_map[map_]["byEloBracket"][bracket], civ, won)
-                    if patch is not None:
-                        add_win(by_map[map_]["byPatch"][str(patch)], civ, won)
-                    if week is not None:
-                        add_win(by_map[map_]["byWeek"][week], civ, won)
-
-                add_win(by_ladder[ladder_name]["civWinRates"], civ, won)
-                if map_:
-                    add_win(by_ladder[ladder_name]["byMap"][map_]["civWinRates"], civ, won)
-                    if week is not None:
-                        add_win(by_ladder[ladder_name]["byMap"][map_]["byWeek"][week], civ, won)
-                if patch is not None:
-                    add_win(by_ladder[ladder_name]["byPatch"][str(patch)], civ, won)
-                if week is not None:
-                    add_win(by_ladder[ladder_name]["byWeek"][week], civ, won)
-
+            if map_:
+                add_n(by_map[map_]["civWinRates"], civ, games, wins)
                 if bracket:
-                    add_win(by_bracket[bracket]["civWinRates"], civ, won)
-                    if patch is not None:
-                        add_win(by_bracket[bracket]["byPatch"][str(patch)], civ, won)
-                    if week is not None:
-                        add_win(by_bracket[bracket]["byWeek"][week], civ, won)
-
-                if phase:
-                    add_win(by_phase[phase], civ, won)
-
+                    add_n(by_map[map_]["byEloBracket"][bracket], civ, games, wins)
                 if patch is not None:
-                    add_win(by_patch[str(patch)], civ, won)
-
+                    add_n(by_map[map_]["byPatch"][str(patch)], civ, games, wins)
                 if week is not None:
-                    add_win(by_week[week], civ, won)
+                    add_n(by_map[map_]["byWeek"][week], civ, games, wins)
+
+            add_n(by_ladder[ladder_name]["civWinRates"], civ, games, wins)
+            if map_:
+                add_n(by_ladder[ladder_name]["byMap"][map_]["civWinRates"], civ, games, wins)
+                if week is not None:
+                    add_n(by_ladder[ladder_name]["byMap"][map_]["byWeek"][week], civ, games, wins)
+            if patch is not None:
+                add_n(by_ladder[ladder_name]["byPatch"][str(patch)], civ, games, wins)
+            if week is not None:
+                add_n(by_ladder[ladder_name]["byWeek"][week], civ, games, wins)
+
+            if bracket:
+                add_n(by_bracket[bracket]["civWinRates"], civ, games, wins)
+                if patch is not None:
+                    add_n(by_bracket[bracket]["byPatch"][str(patch)], civ, games, wins)
+                if week is not None:
+                    add_n(by_bracket[bracket]["byWeek"][week], civ, games, wins)
+
+            if phase:
+                add_n(by_phase[phase], civ, games, wins)
+
+            if patch is not None:
+                add_n(by_patch[str(patch)], civ, games, wins)
+
+            if week is not None:
+                add_n(by_week[week], civ, games, wins)
 
     print(f"  players={total_players}, matches={total_matches}")
     print(f"  civs tracked: {len(civ_overall)}")
@@ -382,25 +395,24 @@ def process_pc_civs(player_files):
     by_bracket = {k: defaultdict(empty_civ_map) for k in scopes}
 
     for path in player_files:
-        with open(path) as f:
-            player = json.load(f)
+        player = load_player(path)
         ladders = player.get("ladders", {})
         rating = (
             ladders.get("1v1 PC", {}).get("meta", {}).get("latestRating")
             or ladders.get("Team PC", {}).get("meta", {}).get("latestRating")
         )
         bracket = get_pc_bracket(rating)
-        for ladder_name in ("1v1 PC", "Team PC"):
-            for match in ladders.get(ladder_name, {}).get("matches", []):
-                civ = normalize_civ(match.get("civ"))
-                won = match.get("won")
-                if civ is None or won is None or civ in CIV_SKIP:
-                    continue
-                for scope, names in scopes.items():
-                    if ladder_name in names:
-                        add_win(overall[scope], civ, won)
-                        if bracket:
-                            add_win(by_bracket[scope][bracket], civ, won)
+        for ladder_name, civ_raw, _map, _patch, _week, _phase, games, wins in iter_tuples(player):
+            if ladder_name not in ("1v1 PC", "Team PC"):
+                continue
+            civ = normalize_civ(civ_raw)
+            if civ is None or civ in CIV_SKIP:
+                continue
+            for scope, names in scopes.items():
+                if ladder_name in names:
+                    add_n(overall[scope], civ, games, wins)
+                    if bracket:
+                        add_n(by_bracket[scope][bracket], civ, games, wins)
 
     def pack(scope):
         return {
@@ -625,6 +637,14 @@ def main():
     # Collect files — players.json is the source of truth for group assignment
     group_files, stale_files = collect_files(data_dir, group_map, cleanup=args.cleanup)
 
+    # PC players added by the backfill from 2026-10-22 on have only a compact summary (pc_summary.py), not a full
+    # match file. They feed the PC aggregates but are NOT part of the player list in aggregate-meta.json, which every
+    # site visitor downloads.
+    pc_summary_files = collect_pc_summaries(data_dir, group_map, {f.stem for f in group_files["pc"]})
+    print(f"  pc summaries: {len(pc_summary_files)} players")
+    group_agg_files = {g: list(group_files[g]) for g in ALL_GROUPS}
+    group_agg_files["pc"] += pc_summary_files
+
     # Shared across every "lastUpdated" field this run writes, so they all
     # reflect the same generation instant rather than drifting a few
     # minutes apart across a multi-minute build. Full timestamp (not just
@@ -638,8 +658,8 @@ def main():
     group_aggs = {}
     for g in ALL_GROUPS:
         print(f"\nProcessing {g}...")
-        if group_files[g]:
-            group_aggs[g] = process_group(group_files[g], group=g)
+        if group_agg_files[g]:
+            group_aggs[g] = process_group(group_agg_files[g], group=g)
         else:
             print(f"  no players — skipping")
             group_aggs[g] = {
@@ -652,6 +672,7 @@ def main():
     print(f"  players in summary: {len(player_summary)}")
 
     player_counts = {g: len(group_files[g]) for g in ALL_GROUPS}
+    player_counts["pcSummaries"] = len(pc_summary_files)
 
     # Determine current patch — highest patch number seen across all groups
     all_patches = set()
@@ -737,7 +758,7 @@ def main():
         "pcArabia1v1ByWeek":      group_aggs["pc"]["byLadder"].get("1v1 PC", {}).get("byMap", {}).get("Arabia", {}).get("byWeek", {}),
         # PC players' civ win rates in the same shape as overall/brackets/ladders above (PC skill brackets) — powers
         # the PC pills on the Insights civ leaderboard.
-        "pc": process_pc_civs(group_files["pc"]),
+        "pc": process_pc_civs(group_agg_files["pc"]),
     }
     insights_path = data_dir / "insights-console-civs.json"
     with open(insights_path, "w") as f:

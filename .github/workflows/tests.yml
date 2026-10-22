@@ -9,6 +9,10 @@ on:
       - "console_discovery.py"
       - "console_roster.py"
       - "test_console_discovery.py"
+      - "pc_summary.py"
+      - "build_aggregate.py"
+      - "update_players.py"
+      - "test_pc_summary.py"
       - "data/weekly-reports/**"
   pull_request:
     paths:
@@ -19,6 +23,10 @@ on:
       - "console_discovery.py"
       - "console_roster.py"
       - "test_console_discovery.py"
+      - "pc_summary.py"
+      - "build_aggregate.py"
+      - "update_players.py"
+      - "test_pc_summary.py"
       - "data/weekly-reports/**"
   workflow_dispatch:
 
@@ -45,3 +53,5 @@ jobs:
         run: |
           pip install requests websocket-client
           python3 test_console_discovery.py
+      - name: Run PC summary tests
+        run: python3 test_pc_summary.py
