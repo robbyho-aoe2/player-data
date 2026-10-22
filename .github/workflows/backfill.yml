@@ -122,8 +122,26 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ players.json
-          git diff --staged --quiet || git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} players, ${{ steps.read_queue.outputs.remaining }} remaining $(date -u '+%Y-%m-%d')"
-          git pull --rebase && git push || echo "Nothing to push"
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} players, ${{ steps.read_queue.outputs.remaining }} remaining $(date -u '+%Y-%m-%d')"
+          # This step used to be `git pull --rebase && git push || echo "Nothing to push"`: when another workflow pushed
+          # during the long job, the single push attempt was rejected, the `||` swallowed the failure and printed a
+          # misleading message, and the run still showed green. Nothing from 2026-10-21 02:00 UTC on (including the
+          # insights civ aggregate) reached main that way. Now it retries and fails the run if it cannot push.
+          for attempt in 1 2 3 4; do
+            if git pull --rebase && git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep $((10 * attempt))
+          done
+          echo "::error::Failed to push the backfill commit after 4 attempts — this run's data and aggregates were NOT saved to origin"
+          exit 1
 
       - name: Trigger another Backfill round if looping
         # Only chains on an EXPLICIT loop=true dispatch — it used to also

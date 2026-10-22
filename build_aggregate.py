@@ -11,6 +11,14 @@ ELO_BRACKETS = [
     ("lomid",   900, 1299),
     ("low",       0,  899),
 ]
+# PC ratings run higher than console, so the PC civ leaderboard uses higher cutoffs. Same values as PC_ELO_BRACKETS
+# in index.html (a starting estimate there too).
+PC_ELO_BRACKETS = [
+    ("high",   2000, 99999),
+    ("himid",  1600, 1999),
+    ("lomid",  1200, 1599),
+    ("low",       0, 1199),
+]
 PHASE_THRESHOLDS = [
     ("early",     0,  1200),
     ("mid",    1200,  2400),
@@ -48,6 +56,14 @@ def get_bracket(rating):
     if rating is None:
         return None
     for name, lo, hi in ELO_BRACKETS:
+        if lo <= rating <= hi:
+            return name
+    return None
+
+def get_pc_bracket(rating):
+    if rating is None:
+        return None
+    for name, lo, hi in PC_ELO_BRACKETS:
         if lo <= rating <= hi:
             return name
     return None
@@ -353,6 +369,45 @@ def process_civs_by_ladder(player_files, ladder_names):
         "overall":  add_pick_rates(dict(civ_overall)),
         "brackets": {b: add_pick_rates(dict(v)) for b, v in by_bracket.items()},
     }
+
+def process_pc_civs(player_files):
+    """
+    The PC counterpart of the console civ leaderboard slice: every PC-group player's 1v1 PC and Team PC games, split
+    by PC skill bracket (PC_ELO_BRACKETS, taken from the player's own 1v1 PC rating, falling back to Team PC).
+    One pass over the files builds all three views the Insights pills need (all PC, 1v1 PC only, Team PC only),
+    because the PC group is thousands of files and reading them three times would triple the build.
+    """
+    scopes = {"all": ("1v1 PC", "Team PC"), "1v1 PC": ("1v1 PC",), "Team PC": ("Team PC",)}
+    overall = {k: empty_civ_map() for k in scopes}
+    by_bracket = {k: defaultdict(empty_civ_map) for k in scopes}
+
+    for path in player_files:
+        with open(path) as f:
+            player = json.load(f)
+        ladders = player.get("ladders", {})
+        rating = (
+            ladders.get("1v1 PC", {}).get("meta", {}).get("latestRating")
+            or ladders.get("Team PC", {}).get("meta", {}).get("latestRating")
+        )
+        bracket = get_pc_bracket(rating)
+        for ladder_name in ("1v1 PC", "Team PC"):
+            for match in ladders.get(ladder_name, {}).get("matches", []):
+                civ = normalize_civ(match.get("civ"))
+                won = match.get("won")
+                if civ is None or won is None or civ in CIV_SKIP:
+                    continue
+                for scope, names in scopes.items():
+                    if ladder_name in names:
+                        add_win(overall[scope], civ, won)
+                        if bracket:
+                            add_win(by_bracket[scope][bracket], civ, won)
+
+    def pack(scope):
+        return {
+            "overall":  add_pick_rates(dict(overall[scope])),
+            "brackets": {b: add_pick_rates(dict(v)) for b, v in by_bracket[scope].items()},
+        }
+    return {**pack("all"), "ladders": {"1v1 PC": pack("1v1 PC"), "Team PC": pack("Team PC")}}
 
 def build_squad_stats(player_files, ladder_scopes, tracked_ids):
     """Find groups of TRACKED players who repeatedly queue together as
@@ -680,6 +735,9 @@ def main():
         # everywhere else.
         "consoleArabia1v1ByWeek": group_aggs["console"]["byLadder"].get("1v1 Console", {}).get("byMap", {}).get("Arabia", {}).get("byWeek", {}),
         "pcArabia1v1ByWeek":      group_aggs["pc"]["byLadder"].get("1v1 PC", {}).get("byMap", {}).get("Arabia", {}).get("byWeek", {}),
+        # PC players' civ win rates in the same shape as overall/brackets/ladders above (PC skill brackets) — powers
+        # the PC pills on the Insights civ leaderboard.
+        "pc": process_pc_civs(group_files["pc"]),
     }
     insights_path = data_dir / "insights-console-civs.json"
     with open(insights_path, "w") as f:
