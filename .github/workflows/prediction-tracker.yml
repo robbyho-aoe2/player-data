@@ -1,0 +1,70 @@
+name: Prediction Tracker
+
+# Nightly forward test of the win-chance model used on Console Live and Player Spotlight (scout.js in the civ-lookup repo).
+# Scores every ranked console game that finished since the last run (predicted from what was known at its start) and appends
+# the rows plus a summary (hit rate, calibration, log-loss against a rating-only prediction) to data/prediction-eval.json.
+# Runs for a week (the script stops on 2026-10-31); disable the workflow after that.
+on:
+  schedule:
+    - cron: "35 8 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: player-data-prediction
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout player-data (sparse)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            prediction_tracker.js
+            data/console-roster.json
+            data/prediction-eval.json
+          sparse-checkout-cone-mode: false
+
+      - name: Checkout the model (civ-lookup)
+        uses: actions/checkout@v4
+        with:
+          repository: robbyho-aoe2/civ-lookup
+          path: civ-lookup
+          fetch-depth: 1
+          sparse-checkout: scout.js
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Score yesterday's games
+        run: node prediction_tracker.js civ-lookup/scout.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prediction-eval.json
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: prediction tracker $(date -u '+%Y-%m-%d %H:%M')"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase && git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep $((10 * attempt))
+          done
+          echo "::error::Failed to push the prediction results after 4 attempts"
+          exit 1
