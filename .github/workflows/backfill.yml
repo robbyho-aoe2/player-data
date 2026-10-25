@@ -164,16 +164,26 @@ jobs:
             exit 0
           fi
           git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} players, ${{ steps.read_queue.outputs.remaining }} remaining $(date -u '+%Y-%m-%d')"
-          # Retry, and fail the run if the push never lands. This step used to be
-          # `git pull --rebase && git push || echo "Nothing to push"`, which swallowed a rejected push (another workflow
-          # pushed during the long job) and left the run green with nothing saved.
+          # Retry, and fail the run if the push never lands. A batch runs for hours and Console Discovery appends to
+          # players.json and data/backfill_queue.json every 30 minutes, so a plain `git pull --rebase` conflicted on those two
+          # files and every run since 2026-10-22 failed here with its data unsaved. The rebase is done by hand instead, and
+          # merge_shared.py merges the two shared files record by record when it stops on them.
           for attempt in 1 2 3 4; do
-            if git pull --rebase && git push; then
+            git fetch -q origin main
+            if ! git rebase origin/main; then
+              if python3 merge_shared.py && [ -z "$(git diff --name-only --diff-filter=U)" ]; then
+                GIT_EDITOR=true git rebase --continue || { git rebase --abort 2>/dev/null || true; sleep $((10 * attempt)); continue; }
+              else
+                echo "::warning::rebase stopped on files merge_shared.py does not handle: $(git diff --name-only --diff-filter=U)"
+                git rebase --abort 2>/dev/null || true
+                sleep $((10 * attempt)); continue
+              fi
+            fi
+            if git push; then
               echo "Pushed on attempt $attempt"
               exit 0
             fi
             echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
-            git rebase --abort 2>/dev/null || true
             sleep $((10 * attempt))
           done
           echo "::error::Failed to push the backfill commit after 4 attempts — this run's data was NOT saved to origin"
