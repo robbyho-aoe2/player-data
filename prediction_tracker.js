@@ -110,7 +110,6 @@ async function main() {
 }
 main().catch(e => {
   // an annotation shows up in the run's check data, which can be read without logging in
-  console.log('::error::prediction tracker failed: ' + String((e && e.stack) || e).replace(/?
-/g, ' | ').slice(0, 900));
+  console.log('::error::prediction tracker failed: ' + String((e && e.stack) || e).split(String.fromCharCode(10)).join(' | ').slice(0, 900));
   process.exit(1);
 });
