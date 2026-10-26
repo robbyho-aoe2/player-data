@@ -158,7 +158,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ players.json
+          # --sparse: the checkout is sparse and a backfilled player's brand-new data file is outside it; a plain `git add data/`
+          # refuses those files and exits 1, which failed every run's push step from 2026-10-22 on
+          git add --sparse data/ players.json
           if git diff --staged --quiet; then
             echo "Nothing to commit"
             exit 0
