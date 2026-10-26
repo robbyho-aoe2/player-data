@@ -43,20 +43,22 @@ MIN_BEFORE = 40
 
 
 def compute(players, before_patch, after_patch_min):
-    out = {}
+    """One pass over `players` (any iterable, a generator is fine) for both ladders: the console data is over a
+    gigabyte of JSON, so it is read file by file and never held in memory all at once."""
+    tally = {lad: (defaultdict(lambda: {"g": 0, "w": 0}), defaultdict(lambda: {"g": 0, "w": 0})) for lad in LADDERS}
     through = ""
-    before_dates = []
-    for lad in LADDERS:
-        before = defaultdict(lambda: {"g": 0, "w": 0})
-        after = defaultdict(lambda: {"g": 0, "w": 0})
-        for p in players:
+    first = last = None
+    for p in players:
+        for lad in LADDERS:
+            before, after = tally[lad]
             for m in p.get("ladders", {}).get(lad, {}).get("matches", []):
                 d, civ, patch = m.get("date"), m.get("civ"), m.get("patch")
                 if not d or not civ or patch is None or we.is_void_match(m):
                     continue
                 if patch == before_patch:
                     tgt = before
-                    before_dates.append(d)
+                    first = d if first is None or d < first else first
+                    last = d if last is None or d > last else last
                 elif patch >= after_patch_min:
                     tgt = after
                     through = max(through, d)
@@ -64,6 +66,9 @@ def compute(players, before_patch, after_patch_min):
                     continue
                 tgt[civ]["g"] += 1
                 tgt[civ]["w"] += 1 if m.get("won") else 0
+    out = {}
+    for lad in LADDERS:
+        before, after = tally[lad]
         tb = sum(v["g"] for v in before.values())
         ta = sum(v["g"] for v in after.values())
         rows, new_only = [], []
@@ -82,7 +87,7 @@ def compute(players, before_patch, after_patch_min):
             "rows": rows,
             "newOnly": new_only,
         }
-    return out, through, (min(before_dates), max(before_dates)) if before_dates else (None, None)
+    return out, through, (first, last)
 
 
 def main():
@@ -93,7 +98,7 @@ def main():
     ap.add_argument("--after-patch-min", type=int, default=1815)
     args = ap.parse_args()
 
-    players = list(we.load_players(args.data_dir))
+    players = we.load_players(args.data_dir)   # a generator: one player file in memory at a time
     ladders, through, (first, last) = compute(players, args.before_patch, args.after_patch_min)
     result = {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

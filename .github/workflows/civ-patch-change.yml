@@ -1,0 +1,69 @@
+name: Civ Patch Change
+
+# Rebuilds data/civ-patch-change.json, the numbers behind "Civ Win Rate Change Since the Viking Sagas Update" on insights.html
+# (civ win rate before vs. after the Sept 22 DLC patch, console 1v1 and team). Nothing was refreshing it: the file stayed at
+# its Oct 12 snapshot and the page fell back to the older copy embedded in insights.html. This runs daily, and once when
+# this file is pushed.
+#
+# It reads every data/console/*.json (about 1.5 GB), so the checkout is sparse and blob-less like backfill.yml, and the
+# script reads one player file at a time.
+on:
+  schedule:
+    - cron: "10 10 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/civ-patch-change.yml"
+      - "civ_patch_change.py"
+
+concurrency:
+  group: player-data-civ-patch
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo (sparse, scripts and the console player files)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /*.py
+            data/console/
+            data/civ-patch-change.json
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build civ-patch-change.json
+        run: python3 civ_patch_change.py --out data/civ-patch-change.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add --sparse data/civ-patch-change.json
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: civ patch change $(date -u '+%Y-%m-%d %H:%M')"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase && git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep $((10 * attempt))
+          done
+          echo "::error::Failed to push civ-patch-change.json after 4 attempts"
+          exit 1
