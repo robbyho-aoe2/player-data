@@ -54,7 +54,7 @@ function summarize(rows) {
     daily: days.map(d => { const o = one(rows.filter(r => r.t.slice(0, 10) === d)); return { date: d, n: o.n, hitRate: o.hitRate, logLoss: o.logLoss, logLossRatingOnly: o.logLossRatingOnly }; }) };
 }
 
-(async () => {
+async function main() {
   const prev = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : { cut: CUT, rows: [] };
   const seen = new Set(prev.rows.map(r => r.id));
   const roster = JSON.parse(fs.readFileSync('data/console-roster.json', 'utf8'));
@@ -107,4 +107,10 @@ function summarize(rows) {
   fs.mkdirSync('data', { recursive: true });
   fs.writeFileSync(FILE, JSON.stringify({ cut: CUT, updated: new Date().toISOString(), engines: [...new Set(all.map(r => r.v))], summary: summarize(all), rows: all }));
   console.log(`scored ${rows.length} new games; ${all.length} in total`);
-})();
+}
+main().catch(e => {
+  // an annotation shows up in the run's check data, which can be read without logging in
+  console.log('::error::prediction tracker failed: ' + String((e && e.stack) || e).replace(/?
+/g, ' | ').slice(0, 900));
+  process.exit(1);
+});
