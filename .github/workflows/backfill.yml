@@ -100,8 +100,13 @@ jobs:
 
                   all_ids.sort(key=lambda pid: 0 if group_of.get(pid) == "console" else 1)
 
-                  batch    = all_ids[:max_players]
-                  remaining = all_ids[max_players:]
+                  # Console players only, while any are left: a batch is never topped up with PC players (a batch of long PC
+                  # histories is what ran past the job's time limit). PC players start once no console player is queued.
+                  console_ids = [i for i in all_ids if group_of.get(i) == "console"]
+                  pool      = console_ids if console_ids else all_ids
+                  batch     = pool[:max_players]
+                  batch_set = set(batch)
+                  remaining = [i for i in all_ids if i not in batch_set]
                   id_str   = ",".join(str(i) for i in batch)
                   console_in_batch = sum(1 for i in batch if group_of.get(i) == "console")
                   print(f"Queue total: {len(all_ids)} — processing {len(batch)} ({console_in_batch} console), leaving {len(remaining)}")
