@@ -150,8 +150,30 @@ jobs:
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
+          # A batch of 250 players with deep histories (and rate-limit waits) can outlast the job's 340 minute limit, and a job
+          # killed by the limit commits nothing: two runs on 2026-10-26/27 lost about 11 hours that way. The script now stops
+          # starting players after 230 minutes and lists the ones it did not reach, which go back to the front of the queue.
+          ARGS="$ARGS --budget-minutes 230 --leftover-file backfill_leftover.txt"
           echo "Running: python3 update_players.py $ARGS"
           python3 update_players.py $ARGS
+
+      - name: Put players the time budget did not reach back on the queue
+        if: steps.read_queue.outputs.has_queue == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+          left = Path("backfill_leftover.txt")
+          if not left.exists():
+              raise SystemExit(0)
+          ids = [int(x) for x in left.read_text().split() if x.strip()]
+          if ids:
+              q = Path("data/backfill_queue.json")
+              rest = json.loads(q.read_text()) if q.exists() else []
+              q.write_text(json.dumps(ids + [i for i in rest if i not in set(ids)], indent=2))
+              print(f"{len(ids)} players put back at the front of the queue")
+          left.unlink()
+          EOF
 
       - name: Commit and push if changed
         if: github.event.inputs.dry_run != 'true'

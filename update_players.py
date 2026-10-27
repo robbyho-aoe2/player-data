@@ -513,6 +513,8 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Fetch but don't write files")
     parser.add_argument("--repair", action="store_true", help="Clear existing match data before re-fetching (fixes null civ/won)")
     parser.add_argument("--group", type=str, default="console", help="Group for newly added players (default: console)")
+    parser.add_argument("--budget-minutes", type=float, default=0, help="Stop starting new players after this many minutes (0 = no limit)")
+    parser.add_argument("--leftover-file", type=str, default="", help="With --budget-minutes: write the profileIds that were not reached here, one per line")
     args = parser.parse_args()
 
     repo_root = Path(__file__).parent
@@ -596,7 +598,13 @@ def main():
         checked = {}
     checked_before = dict(checked)
 
+    started = time.monotonic()
+    leftover = []
     for i, player in enumerate(players):
+        if args.budget_minutes and time.monotonic() - started > args.budget_minutes * 60:
+            leftover = [p["profileId"] for p in players[i:]]
+            print(f"Time budget of {args.budget_minutes:g} min used up after {i} of {len(players)} players; {len(leftover)} left for the next run")
+            break
         try:
             changed, real_name, new_group = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
             any_changed = any_changed or changed
@@ -615,6 +623,9 @@ def main():
 
         if i < len(players) - 1:
             time.sleep(PLAYER_DELAY)
+
+    if args.leftover_file and not args.dry_run:
+        Path(args.leftover_file).write_text("".join(f"{pid}\n" for pid in leftover))
 
     if checked != checked_before and not args.dry_run:
         checked_path.write_text(json.dumps(dict(sorted(checked.items(), key=lambda kv: int(kv[0]))), separators=(",", ":")))
