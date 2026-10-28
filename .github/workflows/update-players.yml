@@ -251,16 +251,28 @@ jobs:
             exit 0
           fi
           git commit -m "chore: auto-update player data $(date -u '+%Y-%m-%d %H:%M')"
-          for attempt in 1 2 3; do
+          # Console Discovery appends to players.json and data/backfill_queue.json every 30 minutes, so a plain
+          # `git pull --rebase` stopped on a conflict there and failed this step with the run's data unsaved (2026-10-27).
+          # The rebase is done by hand instead, and merge_shared.py merges those two shared files record by record.
+          for attempt in 1 2 3 4; do
+            git fetch -q origin main
+            if ! git rebase origin/main; then
+              if python3 merge_shared.py && [ -z "$(git diff --name-only --diff-filter=U)" ]; then
+                GIT_EDITOR=true git rebase --continue || { git rebase --abort 2>/dev/null || true; sleep $((10 * attempt)); continue; }
+              else
+                echo "::warning::rebase stopped on files merge_shared.py does not handle: $(git diff --name-only --diff-filter=U)"
+                git rebase --abort 2>/dev/null || true
+                sleep $((10 * attempt)); continue
+              fi
+            fi
             if git push; then
               echo "Pushed on attempt $attempt"
               exit 0
             fi
             echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
-            git pull --rebase
-            sleep $((5 * attempt))
+            sleep $((10 * attempt))
           done
-          echo "::error::Failed to push player data after 3 attempts — this run's fetched data was NOT saved to origin"
+          echo "::error::Failed to push player data after 4 attempts — this run's fetched data was NOT saved to origin"
           exit 1
       - name: Trigger Backfill if looping
         if: success() && github.event.inputs.dry_run != 'true' && (github.event.inputs.loop == 'true' || github.event_name == 'schedule')
