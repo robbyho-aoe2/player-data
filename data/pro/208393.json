@@ -6,25 +6,42 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-24"
+        "pulledDate": "2026-10-29"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-10-24"
+        "pulledDate": "2026-10-29"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 2000,
-        "pulledDate": "2026-10-24",
-        "latestRating": 2893,
+        "totalGames": 2001,
+        "pulledDate": "2026-10-29",
+        "latestRating": 2897,
         "peakRating": 2910
       },
       "matches": [
+        {
+          "matchId": 516995133,
+          "civ": "Slavs",
+          "map": "Arabian Desert",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-10-28",
+          "startedAt": "2026-10-28T17:38:16.000Z",
+          "dur": 1744,
+          "opponents": [
+            {
+              "profileId": 196310,
+              "name": "F1Re"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 515835062,
           "civ": "Maya",
@@ -30123,12 +30140,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 796,
-        "pulledDate": "2026-10-24",
-        "latestRating": 1843,
+        "totalGames": 799,
+        "pulledDate": "2026-10-29",
+        "latestRating": 1823,
         "peakRating": 2156
       },
       "matches": [
+        {
+          "matchId": 516990318,
+          "civ": "Armenians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-10-28",
+          "startedAt": "2026-10-28T17:13:21.000Z",
+          "dur": 1271,
+          "opponents": [
+            {
+              "profileId": 572017,
+              "name": "TheMax"
+            },
+            {
+              "profileId": 208611,
+              "name": "Villese"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6779041,
+              "name": "Monoz"
+            }
+          ]
+        },
+        {
+          "matchId": 516986282,
+          "civ": "Malay",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-10-28",
+          "startedAt": "2026-10-28T16:52:36.000Z",
+          "dur": 922,
+          "opponents": [
+            {
+              "profileId": 208611,
+              "name": "Villese"
+            },
+            {
+              "profileId": 572017,
+              "name": "TheMax"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6779041,
+              "name": "Monoz"
+            }
+          ]
+        },
+        {
+          "matchId": 516980226,
+          "civ": "Persians",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-10-28",
+          "startedAt": "2026-10-28T16:19:57.000Z",
+          "dur": 1633,
+          "opponents": [
+            {
+              "profileId": 572017,
+              "name": "TheMax"
+            },
+            {
+              "profileId": 208611,
+              "name": "Villese"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 6779041,
+              "name": "Monoz"
+            }
+          ]
+        },
         {
           "matchId": 510557677,
           "civ": "Shu",

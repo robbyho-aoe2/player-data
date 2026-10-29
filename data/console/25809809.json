@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 43,
-        "pulledDate": "2026-10-28",
+        "pulledDate": "2026-10-29",
         "latestRating": 847,
         "peakRating": 921
       },
@@ -747,7 +747,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-10-28"
+        "pulledDate": "2026-10-29"
       },
       "matches": [
         {
@@ -780,12 +780,29 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 50,
-        "pulledDate": "2026-10-28",
-        "latestRating": 469,
+        "totalGames": 51,
+        "pulledDate": "2026-10-29",
+        "latestRating": 455,
         "peakRating": 745
       },
       "matches": [
+        {
+          "matchId": 517039023,
+          "civ": "Teutons",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-10-28",
+          "startedAt": "2026-10-28T20:59:27.000Z",
+          "dur": 452,
+          "opponents": [
+            {
+              "profileId": 18636433,
+              "name": "throiiBolton"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 516762559,
           "civ": "Teutons",
@@ -1640,10 +1657,114 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 3,
-        "pulledDate": "2026-10-28"
+        "totalGames": 7,
+        "pulledDate": "2026-10-29"
       },
       "matches": [
+        {
+          "matchId": 517107568,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-10-29",
+          "startedAt": "2026-10-29T03:18:36.000Z",
+          "dur": 1339,
+          "opponents": [
+            {
+              "profileId": 2967878,
+              "name": "SAXES27"
+            },
+            {
+              "profileId": 10286077,
+              "name": "yhosvan"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26089986,
+              "name": "TheButler8220"
+            }
+          ]
+        },
+        {
+          "matchId": 517102061,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-10-29",
+          "startedAt": "2026-10-29T02:43:42.000Z",
+          "dur": 1810,
+          "opponents": [
+            {
+              "profileId": 24992265,
+              "name": "the image ruiner"
+            },
+            {
+              "profileId": 13550431,
+              "name": "Reaper20131"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26089986,
+              "name": "TheButler8220"
+            }
+          ]
+        },
+        {
+          "matchId": 517097253,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-10-29",
+          "startedAt": "2026-10-29T02:15:58.000Z",
+          "dur": 1439,
+          "opponents": [
+            {
+              "profileId": 26295374,
+              "name": "Francorto8020"
+            },
+            {
+              "profileId": 26294756,
+              "name": "AxeelDz"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26089986,
+              "name": "TheButler8220"
+            }
+          ]
+        },
+        {
+          "matchId": 517095181,
+          "civ": "Teutons",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-10-29",
+          "startedAt": "2026-10-29T02:04:17.000Z",
+          "dur": 548,
+          "opponents": [
+            {
+              "profileId": 2764464,
+              "name": "King L"
+            },
+            {
+              "profileId": 2630521,
+              "name": "tuto"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26089986,
+              "name": "TheButler8220"
+            }
+          ]
+        },
         {
           "matchId": 503715034,
           "civ": "Burgundians",
