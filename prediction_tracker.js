@@ -27,7 +27,8 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 // the API answers 403/429 "too many requests" when asked too fast: pause and retry
 async function getJson(url) {
   for (let a = 0; a < 5; a++) {
-    const r = await run(`histGet(${JSON.stringify(url)})`);
+    let r = null;
+    try { r = await run(`histGet(${JSON.stringify(url)})`); } catch (e) { /* a dropped connection ("fetch failed") is retried like a rate limit */ }
     if (r && r.ok) { try { return await r.json(); } catch (e) { return null; } }
     await sleep(4000 * (a + 1));
   }
