@@ -2,8 +2,8 @@ name: Prediction Tracker
 
 # Nightly forward test of the win-chance model used on Console Live and Player Spotlight (scout.js in the civ-lookup repo).
 # Scores every ranked console game that finished since the last run (predicted from what was known at its start) and appends
-# the rows plus a summary (hit rate, calibration, log-loss against a rating-only prediction) to data/prediction-eval.json.
-# Runs for a week (the script stops on 2026-10-31); disable the workflow after that.
+# the rows plus a summary (hit rate, calibration, log-loss against a rating-only prediction) to data/prediction-eval-2.json.
+# Test 2: five days of games from 2026-10-30 16:00 UTC (the script stops on 2026-11-06); disable the workflow after that. Test 1 stays in data/prediction-eval.json.
 on:
   schedule:
     - cron: "35 8 * * *"
@@ -30,7 +30,7 @@ jobs:
           sparse-checkout: |
             prediction_tracker.js
             data/console-roster.json
-            data/prediction-eval.json
+            data/prediction-eval-2.json
           sparse-checkout-cone-mode: false
 
       - name: Checkout the model (civ-lookup)
@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/prediction-eval.json
+          git add data/prediction-eval-2.json
           if git diff --staged --quiet; then
             echo "Nothing to commit"
             exit 0

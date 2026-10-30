@@ -1,5 +1,9 @@
 // Nightly forward test of the Console Live / Player Spotlight win-chance model (scout.js in the civ-lookup repo).
 //
+// Test 2 (this file): the model with 1v1 odds above 70% pulled back toward it, scored on games that started from 2026-10-30 16:00 UTC
+// for five days. Test 1 (2026-10-23 to 2026-10-30, 4,398+ games) is kept in data/prediction-eval.json. Each row also keeps the
+// unshrunk odds (pRaw), both players' ratings and the odds after every step (st), so a single term can be tested on its own.
+//
 // Takes ranked console games (1v1 and team) that started after the model was fitted, predicts each from what was known at its
 // start (ratings, civs, map and, for 1v1, each player's earlier games), and compares with the result. Rows are appended to
 // data/prediction-eval.json together with a summary. A game is predicted once, the first night it is seen finished.
@@ -10,8 +14,8 @@
 // 70% of the time) and log-loss / Brier score against a rating-only prediction and a coin flip.
 const fs = require('fs'), vm = require('vm'), crypto = require('crypto');
 const SCOUT_JS = process.argv[2] || '../civ-lookup/scout.js', MAX_PLAYERS = Number(process.argv[3] || 700);
-const CUT = '2026-10-23T02:00:00Z', END = Date.parse('2026-10-31T00:00:00Z'), FILE = 'data/prediction-eval.json';
-if (Date.now() > END) { console.log('Test window is over (ends 2026-10-31); nothing to do. Disable the workflow.'); process.exit(0); }
+const CUT = '2026-10-30T16:00:00Z', CUT_END = '2026-11-04T16:00:00Z', END = Date.parse('2026-11-06T00:00:00Z'), FILE = 'data/prediction-eval-2.json';
+if (Date.now() > END) { console.log('Test window is over (ends 2026-11-06); nothing to do. Disable the workflow.'); process.exit(0); }
 
 const UA = { 'User-Agent': 'AoE2DataPipeline/1.0' };
 const uaFetch = (u, o = {}) => fetch(u, Object.assign({ headers: UA }, o));
@@ -74,7 +78,7 @@ async function main() {
       const j = await getJson(`https://data.aoe2companion.com/api/matches?profile_ids=${p[0]}&leaderboard_ids=${lb}&per_page=100&page=1`);
       if (!j) continue;
       for (const m of (j.matches || j)) {
-        if (!m.started || m.started < CUT || m.abandoned || !m.finished || seen.has(m.matchId)) continue;
+        if (!m.started || m.started < CUT || m.started >= CUT_END || m.abandoned || !m.finished || seen.has(m.matchId)) continue;
         const ps = m.teams.flatMap(t => t.players);
         if (ps.some(q => q.won == null || !(q.rating > 0))) continue;
         games.set(m.matchId, m);
@@ -102,7 +106,10 @@ async function main() {
       const f = h => h ? { games: h.games.filter(x => x.ts && Date.parse(x.ts) < t0) } : null, ha = f(H.get(a[0].profileId)), hb = f(H.get(b[0].profileId));
       o = run(`oddsFor('1v1', ${JSON.stringify(a[0])}, ${JSON.stringify(b[0])}, ${JSON.stringify(ha && hb ? ha : null)}, ${JSON.stringify(ha && hb ? hb : null)}, ${JSON.stringify(m.mapName || '')})`);
     } else { mode = 'team'; o = run(`oddsTeam(${JSON.stringify(a)}, ${JSON.stringify(b)})`); }
-    rows.push({ id: m.matchId, t: m.started, mode, map: m.mapName || '', p: +o.p.toFixed(4), pr: +o.steps[0].p.toFixed(4), dr: Math.round(dr), won, v: ENGINE });
+    const mean = ps => ps.reduce((s, q) => s + q.rating, 0) / ps.length, st = {};
+    o.steps.forEach(x => { st[x.label] = +x.p.toFixed(4); });
+    rows.push({ id: m.matchId, t: m.started, mode, map: m.mapName || '', p: +o.p.toFixed(4), pRaw: +(o.raw == null ? o.p : o.raw).toFixed(4), pr: +o.steps[0].p.toFixed(4),
+      dr: Math.round(dr), ra: Math.round(mean(a)), rb: Math.round(mean(b)), st, won, v: ENGINE });
   }
   const all = prev.rows.concat(rows).sort((x, y) => x.t < y.t ? -1 : 1);
   fs.mkdirSync('data', { recursive: true });
