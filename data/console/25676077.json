@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 15,
-        "pulledDate": "2026-11-01",
+        "pulledDate": "2026-11-02",
         "latestRating": 1098,
         "peakRating": 1121
       },
@@ -270,12 +270,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 10,
-        "pulledDate": "2026-11-01",
-        "latestRating": 979,
-        "peakRating": 979
+        "totalGames": 11,
+        "pulledDate": "2026-11-02",
+        "latestRating": 1013,
+        "peakRating": 1013
       },
       "matches": [
+        {
+          "matchId": 518053739,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-01",
+          "startedAt": "2026-11-01T20:04:49.000Z",
+          "dur": 2136,
+          "opponents": [
+            {
+              "profileId": 23355408,
+              "name": "adxro"
+            },
+            {
+              "profileId": 22777108,
+              "name": "Charfeddine-est"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25831202,
+              "name": "MrChicha14"
+            }
+          ]
+        },
         {
           "matchId": 517615360,
           "civ": "Mongols",
@@ -541,16 +567,68 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-01"
+        "pulledDate": "2026-11-02"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 6,
-        "pulledDate": "2026-11-01"
+        "totalGames": 8,
+        "pulledDate": "2026-11-02"
       },
       "matches": [
+        {
+          "matchId": 518052262,
+          "civ": "Teutons",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-01",
+          "startedAt": "2026-11-01T19:59:06.000Z",
+          "dur": 30,
+          "opponents": [
+            {
+              "profileId": 25819381,
+              "name": "Leeeroy__Jenkins"
+            },
+            {
+              "profileId": 14099893,
+              "name": "PrincePoise"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25831202,
+              "name": "MrChicha14"
+            }
+          ]
+        },
+        {
+          "matchId": 518039901,
+          "civ": "Teutons",
+          "map": "Arena",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-01",
+          "startedAt": "2026-11-01T19:13:32.000Z",
+          "dur": 1420,
+          "opponents": [
+            {
+              "profileId": 24374109,
+              "name": "Titan17098480"
+            },
+            {
+              "profileId": 19766625,
+              "name": "Gorduchi12"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25831202,
+              "name": "MrChicha14"
+            }
+          ]
+        },
         {
           "matchId": 517881484,
           "civ": "Lithuanians",
