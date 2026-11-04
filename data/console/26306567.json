@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 2,
-        "pulledDate": "2026-11-03"
+        "pulledDate": "2026-11-04"
       },
       "matches": [
         {
@@ -48,7 +48,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-11-03"
+        "pulledDate": "2026-11-04"
       },
       "matches": [
         {
@@ -82,16 +82,60 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-03"
+        "pulledDate": "2026-11-04"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 9,
-        "pulledDate": "2026-11-03"
+        "totalGames": 10,
+        "pulledDate": "2026-11-04",
+        "latestRating": 676,
+        "peakRating": 676
       },
       "matches": [
+        {
+          "matchId": 518519463,
+          "civ": "Mongols",
+          "map": "African Clearing",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-03",
+          "startedAt": "2026-11-03T19:15:03.000Z",
+          "dur": 1601,
+          "opponents": [
+            {
+              "profileId": 25108407,
+              "name": "NomadRider5217"
+            },
+            {
+              "profileId": 23684160,
+              "name": "jyri.hyppanen"
+            },
+            {
+              "profileId": 3237045,
+              "name": "ValenC"
+            },
+            {
+              "profileId": 1888553,
+              "name": "ReyTheoden"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26307197,
+              "name": "Lo Xtascy"
+            },
+            {
+              "profileId": 25904049,
+              "name": "mrbeast2mrbeast2"
+            },
+            {
+              "profileId": 25503034,
+              "name": "\u00dfonera"
+            }
+          ]
+        },
         {
           "matchId": 518037577,
           "civ": "Mongols",
@@ -425,5 +469,8 @@
       ]
     }
   },
-  "platform": "Xbox"
+  "platform": "Xbox",
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }
