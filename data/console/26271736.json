@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 8,
-        "pulledDate": "2026-11-05"
+        "pulledDate": "2026-11-06"
       },
       "matches": [
         {
@@ -149,12 +149,64 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 44,
-        "pulledDate": "2026-11-05",
-        "latestRating": 1422,
-        "peakRating": 1435
+        "totalGames": 46,
+        "pulledDate": "2026-11-06",
+        "latestRating": 1427,
+        "peakRating": 1439
       },
       "matches": [
+        {
+          "matchId": 519010847,
+          "civ": "Japanese",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-05",
+          "startedAt": "2026-11-05T23:25:01.000Z",
+          "dur": 1498,
+          "opponents": [
+            {
+              "profileId": 23053270,
+              "name": "I Move Soft"
+            },
+            {
+              "profileId": 12686066,
+              "name": "SaltyNCO"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18893080,
+              "name": "Boss5895"
+            }
+          ]
+        },
+        {
+          "matchId": 519004713,
+          "civ": "Lithuanians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-05",
+          "startedAt": "2026-11-05T22:49:47.000Z",
+          "dur": 1570,
+          "opponents": [
+            {
+              "profileId": 13623295,
+              "name": "ALPO4769"
+            },
+            {
+              "profileId": 22707278,
+              "name": "THEPADDYDOC"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 14275922,
+              "name": "PiiLow4496"
+            }
+          ]
+        },
         {
           "matchId": 518857585,
           "civ": "Saracens",
@@ -1384,20 +1436,73 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-05"
+        "pulledDate": "2026-11-06"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 0,
-        "pulledDate": "2026-11-05"
+        "totalGames": 2,
+        "pulledDate": "2026-11-06"
       },
-      "matches": []
+      "matches": [
+        {
+          "matchId": 519002915,
+          "civ": "Ethiopians",
+          "map": "Fortified Clearing",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-05",
+          "startedAt": "2026-11-05T22:39:46.000Z",
+          "dur": 71,
+          "opponents": [
+            {
+              "profileId": 15191705,
+              "name": "m.muratk"
+            },
+            {
+              "profileId": 4206453,
+              "name": "Ern"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 3042452,
+              "name": "CORP_vash774"
+            }
+          ]
+        },
+        {
+          "matchId": 518941609,
+          "civ": "Ethiopians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-05",
+          "startedAt": "2026-11-05T17:41:50.000Z",
+          "dur": 1133,
+          "opponents": [
+            {
+              "profileId": 19947811,
+              "name": "Bengal.Bhainse"
+            },
+            {
+              "profileId": 20719476,
+              "name": "harshdeep"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 2082772,
+              "name": "Libertatis94"
+            }
+          ]
+        }
+      ]
     }
   },
-  "country": "us",
-  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
-  "countryName": "United States of America",
+  "country": "gb",
+  "countryIcon": "\ud83c\uddec\ud83c\udde7",
+  "countryName": "United Kingdom of Great Britain and Northern Ireland",
   "platform": "Xbox"
 }
