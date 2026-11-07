@@ -48,6 +48,11 @@ jobs:
       - name: Checkout repo (sparse, no file contents yet)
         uses: actions/checkout@v4
         with:
+          # The branch as it is NOW, not the commit the run was queued at. A run waiting behind another (the player-data-write
+          # group lets only one go at a time) otherwise checks out the old commit, reads the same queue the earlier run took
+          # its batch from, redoes the same players for hours and then conflicts on their files at the push (the scheduled
+          # runs that failed on 2026-11-06 and 2026-11-07 both did this: the same 70 players as the manual run just before).
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 1
           filter: blob:none
           sparse-checkout: |
