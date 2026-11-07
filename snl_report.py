@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Saturday Night Live report: Team Console 3v3/4v4 games played Saturday
-6pm EDT through Sunday 3am EDT, scoped to data/team_console_players.json
+6pm through Sunday 3am US Eastern (EDT or EST, follows daylight saving), scoped to data/team_console_players.json
 (the console roster with real Team Console history).
 
 Window is computed from a target Saturday date. Per match, inclusion uses
@@ -29,7 +29,6 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-EDT_OFFSET = datetime.timedelta(hours=4)  # UTC-4; see DST note in report script docstring/output
 
 
 def load_roster(repo_root):
@@ -65,14 +64,30 @@ def parse_started_at(s):
         return None
 
 
+def _nth_sunday(year, month, n):
+    d = datetime.date(year, month, 1)
+    d += datetime.timedelta(days=(6 - d.weekday()) % 7)  # first Sunday
+    return d + datetime.timedelta(days=7 * (n - 1))
+
+
+def eastern_offset(d):
+    """Hours behind UTC for US Eastern on calendar date d (4 = EDT, 5 = EST).
+    DST runs from the second Sunday of March to the first Sunday of November."""
+    dst_start = _nth_sunday(d.year, 3, 2)
+    dst_end = _nth_sunday(d.year, 11, 1)
+    return 4 if dst_start <= d < dst_end else 5
+
+
 def compute_window(saturday_date):
-    window_start = datetime.datetime.combine(
-        saturday_date, datetime.time(22, 0), tzinfo=datetime.timezone.utc
-    )
+    """Saturday 6pm to Sunday 3am US Eastern, as UTC. Follows daylight saving:
+    EDT (UTC-4) gives 22:00 to 07:00 UTC, EST (UTC-5) gives 23:00 to 08:00 UTC."""
     sunday_date = saturday_date + datetime.timedelta(days=1)
+    window_start = datetime.datetime.combine(
+        saturday_date, datetime.time(18, 0), tzinfo=datetime.timezone.utc
+    ) + datetime.timedelta(hours=eastern_offset(saturday_date))
     window_end = datetime.datetime.combine(
-        sunday_date, datetime.time(7, 0), tzinfo=datetime.timezone.utc
-    )
+        sunday_date, datetime.time(3, 0), tzinfo=datetime.timezone.utc
+    ) + datetime.timedelta(hours=eastern_offset(sunday_date))
     return window_start, window_end, sunday_date
 
 
