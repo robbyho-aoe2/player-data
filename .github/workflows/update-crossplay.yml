@@ -1,0 +1,153 @@
+name: Update Crossplay Roster
+
+# Dedicated refresh for "console players with real 1v1 PC history" — the
+# Crossplay Ceiling section on insights.html. This roster is a strict
+# subset of the console pool (~538 players, vs. ~11.5k scoped by
+# update-players.yml's rotation), so it can run every 6 hours in one pass
+# instead of waiting on the main rotation's multi-day cycle to refresh
+# these specific players' 1v1 PC ratings.
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: "Max pages to fetch per player — safety cap only (default 10)"
+        required: false
+        default: "10"
+      dry_run:
+        description: "Fetch but don't commit (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: player-data-write
+  cancel-in-progress: false
+
+jobs:
+  update-crossplay:
+    runs-on: ubuntu-latest
+    # Roster is ~538 players at 3.918s/player (measured rate from
+    # update-players.yml, see that file) — ~35min fetch. 90min leaves
+    # generous margin for checkout/sync/build/commit overhead (observed
+    # 15-25min on update-players.yml) plus API variance.
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install requests
+      - name: Read crossplay roster
+        id: roster
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from pathlib import Path
+
+          roster_path = Path("data/crossplay_players.json")
+          if not roster_path.exists():
+              print("No data/crossplay_players.json found — nothing to do.")
+              ids = []
+          else:
+              ids = json.loads(roster_path.read_text())
+
+          print(f"Crossplay roster: {len(ids)} players")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("player_ids=" + ",".join(str(i) for i in ids) + "\n")
+              f.write(f"count={len(ids)}\n")
+          EOF
+      - name: Update crossplay player data
+        if: steps.roster.outputs.count != '0'
+        run: |
+          ARGS="--players ${{ steps.roster.outputs.player_ids }} --pages ${{ github.event.inputs.pages || '10' }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python3 update_players.py $ARGS
+      - name: Sync with origin before building aggregate
+        # Same rationale as update-players.yml: regenerate the aggregate
+        # from already-merged data so the final push has nothing left to
+        # conflict on, since this shares the player-data-write concurrency
+        # group with update-players.yml and backfill.yml.
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git stash push -u -m "freshly fetched crossplay data"
+            git pull --rebase
+            git stash pop
+          else
+            git pull --rebase
+          fi
+      - name: Build aggregate
+        if: github.event.inputs.dry_run != 'true'
+        run: python3 build_aggregate.py
+      - name: Grow roster with newly-qualifying players
+        # A console player who crosses the ~10-game placement threshold
+        # between refreshes gains a peaks['1v1 PC'].peak entry the next
+        # time update-players.yml's own rotation happens to touch them —
+        # which can lag days behind. Catching it here, right after this
+        # workflow's own aggregate rebuild, means the crossplay roster
+        # (and hence the next run's coverage) grows as soon as this
+        # dedicated refresh sees it, not on the slower rotation's clock.
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+
+          agg = json.loads(Path("data/aggregate-meta.json").read_text())
+          roster_path = Path("data/crossplay_players.json")
+          roster = set(json.loads(roster_path.read_text())) if roster_path.exists() else set()
+
+          before = len(roster)
+          for p in agg["players"]:
+              if p.get("group") != "console":
+                  continue
+              if p.get("peaks", {}).get("1v1 PC", {}).get("peak"):
+                  roster.add(p["profileId"])
+
+          added = len(roster) - before
+          if added:
+              roster_path.write_text(json.dumps(sorted(roster), indent=2))
+              print(f"Roster grew by {added} newly-qualifying player(s) — now {len(roster)}")
+          else:
+              print(f"No newly-qualifying players — roster stays at {len(roster)}")
+          EOF
+      - name: Commit and push if changed
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: update crossplay roster $(date -u '+%Y-%m-%d')"
+
+          # Retry-not-swallow, same pattern as update-players.yml: a push
+          # that fails to a concurrent commit gets resynced and retried,
+          # not silently discarded.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            git reset --soft HEAD^
+            git pull --rebase
+            python3 build_aggregate.py
+            git add data/
+            git commit -m "chore: update crossplay roster $(date -u '+%Y-%m-%d')"
+            sleep $((5 * attempt))
+          done
+          echo "::error::Failed to push crossplay roster after 3 attempts — this run's fetched data was NOT saved to origin"
+          exit 1

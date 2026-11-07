@@ -1,0 +1,415 @@
+#!/usr/bin/env python3
+"""
+spider.py — Discover new AoE2 players from existing match history.
+
+Reads all match files in data/console/ and data/pc/, collects every
+profileId from teams[*].players[*], probes unknown candidates against
+the API, classifies them, and appends qualifying players to players.json.
+
+Classification logic (applied after probing PROBE_PAGES pages):
+
+  console_games >= MIN_CONSOLE_GAMES
+    AND pc_games <  PC_DOMINANCE_RATIO × console_games  →  "console"
+
+  console_games >= MIN_CONSOLE_GAMES
+    AND pc_games >= PC_DOMINANCE_RATIO × console_games  →  "pc"  (ratio override)
+
+  pc_games >= MIN_PC_GAMES  (console threshold not met)  →  "pc"
+
+  below both thresholds                                  →  skip
+
+Console candidates fill the --max-new quota first; if there aren't enough
+qualifying console candidates, qualifying PC candidates seen along the way
+backfill the remaining slots. --console-only disables that fallback and
+skips PC candidates entirely.
+
+Usage examples:
+  python spider.py                          # standard run, up to 50 new players
+  python spider.py --dry-run               # show results without writing
+  python spider.py --max-new 100           # raise per-run cap
+  python spider.py --probe-pages 3         # faster probe, less accurate ratio
+  python spider.py --console-only          # never backfill with PC candidates
+"""
+
+import json
+import os
+import time
+import argparse
+import requests
+from pathlib import Path
+
+# ── Tunable constants ────────────────────────────────────────────────────────
+MIN_CONSOLE_GAMES  = 10   # Minimum console games (in probe window) to qualify
+MIN_PC_GAMES       = 10   # Minimum PC games (in probe window) to qualify
+PC_DOMINANCE_RATIO = 8    # pc_games >= this × console_games → classify as PC
+MAX_NEW_PLAYERS    = 50   # Cap on new players added per spider run
+PROBE_PAGES        = 5    # Pages fetched per candidate (~50 matches)
+RATE_LIMIT_DELAY   = 1.0  # Seconds between API calls
+
+API_BASE = "https://data.aoe2companion.com/api/matches"
+HEADERS  = {"User-Agent": "AoE2DataPipeline/1.0"}
+
+# Canonical ladder name → normalised group
+def api_get(profile_id: int, page: int) -> list[dict]:
+    """
+    Fetch one page of matches for profile_id.
+    Retries up to 3 times on 429 with exponential backoff.
+    Returns the matches list, or [] on unrecoverable error.
+    """
+    for attempt in range(3):
+        try:
+            resp = requests.get(
+                API_BASE,
+                params={"profile_ids": profile_id, "page": page, "perPage": 10},
+                headers=HEADERS,
+                timeout=15,
+            )
+            if resp.status_code == 429:
+                wait = [10, 30, 60][attempt]
+                print(f"    [429] rate limited — waiting {wait}s (attempt {attempt+1}/3)")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json().get("matches", [])
+        except Exception as e:
+            print(f"    [api error] id={profile_id} page={page}: {e}")
+            return []
+    print(f"    [api error] id={profile_id} page={page}: gave up after 3 attempts")
+    return []
+
+
+LADDER_MAP = {
+    "1v1 Random Map (Console)":    "console",
+    "1v1 Random Map (Controller)": "console",
+    "Team Random Map (Console)":   "console",
+    "Team Random Map (Controller)":"console",
+    "1v1 Random Map":              "pc",
+    "Team Random Map":             "pc",
+}
+
+
+# ── Helpers ──────────────────────────────────────────────────────────────────
+
+def match_group(match: dict) -> str | None:
+    """Return 'console', 'pc', or None for unrecognised leaderboards."""
+    return LADDER_MAP.get(match.get("leaderboardName", ""))
+
+
+def load_players(path: str) -> list[dict]:
+    with open(path) as f:
+        return json.load(f)
+
+
+def save_players(players: list[dict], path: str) -> None:
+    with open(path, "w") as f:
+        json.dump(players, f, indent=2)
+
+
+# ── Phase 1: Harvest ─────────────────────────────────────────────────────────
+
+def harvest_candidates(
+    players: list[dict], harvest_pages: int = 1
+) -> tuple[dict[int, set[str]], dict[int, int]]:
+    """
+    For each NON-PC tracked player, fetch `harvest_pages` pages from the API
+    and collect every profileId seen in teams[*].players[*].
+
+    PC players are skipped during harvest — they tend to play against huge
+    pools and slow the harvest down without adding useful console candidates.
+
+    Returns:
+        candidates  — { profileId: set_of_discovery_groups }
+        frequency   — { profileId: times_seen_across_all_harvested_matches }
+    """
+    candidates: dict[int, set[str]] = {}
+    frequency:  dict[int, int]      = {}
+
+    harvest_players = [p for p in players if p.get("group", "console") != "pc"]
+    print(f"  Harvesting from {len(harvest_players)} non-PC players "
+          f"(skipping {len(players) - len(harvest_players)} PC players)")
+
+    for i, player in enumerate(harvest_players, 1):
+        pid = player["profileId"]
+        print(f"  Harvesting {pid} ({player.get('name', '?')}) [{i}/{len(harvest_players)}]")
+
+        for page in range(1, harvest_pages + 1):
+            matches = api_get(pid, page)
+            if not matches:
+                break
+
+            for match in matches:
+                mg = match_group(match)
+                if mg is None:
+                    continue
+                for team in match.get("teams", []):
+                    for opponent in team.get("players", []):
+                        oid = opponent.get("profileId")
+                        if oid is None or oid == pid:
+                            continue
+                        if oid not in candidates:
+                            candidates[oid] = set()
+                            frequency[oid]  = 0
+                        candidates[oid].add(mg)
+                        frequency[oid] += 1
+
+            time.sleep(RATE_LIMIT_DELAY)
+
+    return candidates, frequency
+
+
+# ── Phase 2: Probe ───────────────────────────────────────────────────────────
+
+def probe_player(profile_id: int, pages: int) -> tuple[int, int, str | None]:
+    """
+    Fetch up to `pages` pages of match history for profile_id.
+    Returns (console_games, pc_games, name_or_None).
+
+    Stops early if the API returns an empty page (reached end of history).
+    """
+    console_games = 0
+    pc_games = 0
+    name: str | None = None
+
+    for page in range(1, pages + 1):
+        matches = api_get(profile_id, page)
+        if not matches:
+            break
+
+        for match in matches:
+            mg = match_group(match)
+            if mg == "console":
+                console_games += 1
+            elif mg == "pc":
+                pc_games += 1
+
+            # Grab name on first appearance — not all APIs return this field
+            if name is None:
+                for team in match.get("teams", []):
+                    for p in team.get("players", []):
+                        if p.get("profileId") == profile_id:
+                            candidate_name = p.get("name")
+                            if candidate_name:
+                                name = candidate_name
+
+        time.sleep(RATE_LIMIT_DELAY)
+
+    return console_games, pc_games, name
+
+
+# ── Phase 3: Classify ────────────────────────────────────────────────────────
+
+def classify(
+    console_games: int,
+    pc_games: int,
+) -> tuple[bool, str | None, str]:
+    """
+    Returns (qualifies, group, reason).
+
+    Ratio override: if a player technically clears the console threshold but
+    PC games dwarf console games by PC_DOMINANCE_RATIO, they're a PC player
+    who happened to play a handful of console matches.
+    """
+    if console_games >= MIN_CONSOLE_GAMES:
+        if pc_games >= PC_DOMINANCE_RATIO * console_games:
+            return (
+                True, "pc",
+                f"ratio override: pc={pc_games} >= {PC_DOMINANCE_RATIO}× "
+                f"console={console_games}",
+            )
+        return (
+            True, "console",
+            f"console={console_games}, pc={pc_games}",
+        )
+
+    if pc_games >= MIN_PC_GAMES:
+        return (
+            True, "pc",
+            f"pc={pc_games} (console={console_games} below threshold)",
+        )
+
+    return (
+        False, None,
+        f"below both thresholds: console={console_games}, pc={pc_games}",
+    )
+
+
+# ── Main ─────────────────────────────────────────────────────────────────────
+
+def main() -> None:
+    global MIN_CONSOLE_GAMES, MIN_PC_GAMES, PC_DOMINANCE_RATIO
+
+    parser = argparse.ArgumentParser(
+        description="Spider for new AoE2 players from match history"
+    )
+    parser.add_argument(
+        "--players", default="players.json",
+        help="Path to players.json (default: players.json)",
+    )
+    parser.add_argument(
+        "--max-new", type=int, default=MAX_NEW_PLAYERS,
+        help=f"Max new players to add per run (default: {MAX_NEW_PLAYERS})",
+    )
+    parser.add_argument(
+        "--probe-pages", type=int, default=PROBE_PAGES,
+        help=f"API pages to fetch per candidate (default: {PROBE_PAGES})",
+    )
+    parser.add_argument(
+        "--min-console", type=int, default=MIN_CONSOLE_GAMES,
+        help=f"Min console games to qualify (default: {MIN_CONSOLE_GAMES})",
+    )
+    parser.add_argument(
+        "--min-pc", type=int, default=MIN_PC_GAMES,
+        help=f"Min PC games to qualify (default: {MIN_PC_GAMES})",
+    )
+    parser.add_argument(
+        "--ratio", type=int, default=PC_DOMINANCE_RATIO,
+        help=f"PC dominance ratio for override (default: {PC_DOMINANCE_RATIO})",
+    )
+    parser.add_argument(
+        "--harvest-pages", type=int, default=1,
+        help="API pages to fetch per tracked player during harvest (default: 1)",
+    )
+    parser.add_argument(
+        "--console-only", action="store_true",
+        help="Skip players classified as PC (console discovery only)",
+    )
+    parser.add_argument(
+        "--dry-run", action="store_true",
+        help="Print results without writing players.json",
+    )
+    args = parser.parse_args()
+
+    # Override module-level constants with CLI args so classify() picks them up
+    MIN_CONSOLE_GAMES  = args.min_console
+    MIN_PC_GAMES       = args.min_pc
+    PC_DOMINANCE_RATIO = args.ratio
+
+    # ── Load existing players ────────────────────────────────────────────────
+    players = load_players(args.players)
+    tracked: set[int] = {p["profileId"] for p in players}
+    print(f"Loaded {len(players)} tracked players from {args.players}")
+
+    # ── Harvest ──────────────────────────────────────────────────────────────
+    print(f"\nHarvesting candidates via API ({args.harvest_pages} page(s) per player) …")
+    all_candidates, frequency = harvest_candidates(players, harvest_pages=args.harvest_pages)
+    new_candidates = {
+        pid: groups
+        for pid, groups in all_candidates.items()
+        if pid not in tracked
+    }
+
+    print(f"  Unique IDs seen in match history: {len(all_candidates)}")
+    print(f"  Already tracked:                  {len(all_candidates) - len(new_candidates)}")
+    print(f"  New candidates to probe:          {len(new_candidates)}")
+
+    if not new_candidates:
+        print("\nNo new candidates. Exiting.")
+        return
+
+    # Sort: console-discovered first, then by frequency (most connected first)
+    def sort_priority(item: tuple[int, set[str]]) -> tuple[int, int]:
+        pid, groups = item
+        return (0 if "console" in groups else 1, -frequency.get(pid, 0))
+
+    sorted_candidates = sorted(new_candidates.items(), key=sort_priority)
+
+    # ── Probe & classify ─────────────────────────────────────────────────────
+    # Console candidates fill the quota first. If console supply runs short,
+    # qualifying PC candidates seen along the way backfill the remaining
+    # slots — unless --console-only, which never falls back to PC.
+    probe_cap = max(args.max_new * 3, args.max_new)
+    print(f"\nProbing up to {probe_cap} candidates to fill {args.max_new} slots, "
+          f"console-first ({args.probe_pages} pages each) …")
+
+    console_added: list[dict] = []
+    pc_added: list[dict] = []
+    skipped = 0
+    probed = 0
+    total = len(sorted_candidates)
+
+    for pid, discovery_groups in sorted_candidates:
+        if len(console_added) >= args.max_new:
+            print(f"\n  Console quota of {args.max_new} reached — stopping.")
+            break
+        if probed >= probe_cap:
+            print(f"\n  Probe cap of {probe_cap} reached — stopping.")
+            break
+
+        probed += 1
+        disc_label = ", ".join(sorted(discovery_groups))
+        print(f"\n[{probed}/{total}] profileId={pid}  discovered_via={disc_label}")
+
+        console_games, pc_games, name = probe_player(pid, args.probe_pages)
+        qualifies, group, reason = classify(console_games, pc_games)
+
+        if not qualifies:
+            print(f"  → SKIP: {reason}")
+            skipped += 1
+            continue
+
+        if group == "pc" and args.console_only:
+            print(f"  → SKIP (--console-only, would be pc): {reason}")
+            skipped += 1
+            continue
+
+        # Name may be None if the API doesn't return it in match objects;
+        # update_players.py will populate it on the first weekly run.
+        display_name = name or f"player_{pid}"
+        entry = {"profileId": pid, "name": display_name, "group": group}
+
+        if group == "console":
+            console_added.append(entry)
+            print(f"  → ADD (console)  name={display_name!r}  ({reason})")
+        else:
+            pc_added.append(entry)
+            print(f"  → HOLD (pc backup)  name={display_name!r}  ({reason})")
+
+    shortfall = args.max_new - len(console_added)
+    backfilled = pc_added[:shortfall] if shortfall > 0 else []
+    added = console_added + backfilled
+
+    # ── Summary & write ──────────────────────────────────────────────────────
+    print(f"\n{'─' * 50}")
+    print(f"Probed:          {probed}/{total}")
+    print(f"Console added:   {len(console_added)}")
+    print(f"PC backfilled:   {len(backfilled)} (of {len(pc_added)} qualifying)")
+    print(f"Skipped:         {skipped}")
+    print(f"Total added:     {len(added)}")
+    remaining = total - probed
+    if remaining:
+        print(f"Unchecked (cap reached): {remaining}")
+
+    if added:
+        backfill_ids = ",".join(str(p["profileId"]) for p in added)
+        print(f"\nBackfill IDs (paste into workflow_dispatch player_ids):")
+        print(f"  {backfill_ids}")
+
+        # Write to GITHUB_OUTPUT so the backfill step can consume it
+        github_output = os.environ.get("GITHUB_OUTPUT")
+        if github_output:
+            with open(github_output, "a") as f:
+                f.write(f"new_ids={backfill_ids}\n")
+
+    if args.dry_run:
+        print("\n[dry-run] Would add:")
+        for p in added:
+            print(f"  {p}")
+        print("[dry-run] players.json not written.")
+    else:
+        if added:
+            players.extend(added)
+            save_players(players, args.players)
+            print(f"\nWrote {len(players)} total players to {args.players}")
+
+            # Append new IDs to the backfill queue
+            queue_path = Path("data") / "backfill_queue.json"
+            existing_queue = json.loads(queue_path.read_text()) if queue_path.exists() else []
+            existing_queue.extend(p["profileId"] for p in added)
+            queue_path.write_text(json.dumps(existing_queue, indent=2))
+            print(f"Queued {len(added)} players for backfill -> {queue_path}")
+        else:
+            print("\nNothing to write.")
+
+
+if __name__ == "__main__":
+    main()

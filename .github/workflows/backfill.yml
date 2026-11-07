@@ -1,0 +1,247 @@
+name: Backfill New Players
+
+# Pulls the full game history for players that have a players.json entry but no data file yet. Console players go first
+# (the queue is sorted console-first every run), then everyone else.
+#
+# Faster than it used to be (2026-10-22): the checkout is sparse and blob-less, like update-players.yml, because a
+# full checkout of the ~12 GB repo took ~35 minutes of every run before a single player was fetched. Only the scripts,
+# players.json, the queue and the batch's own data files are checked out. The aggregate rebuild, which does need the
+# whole repo, moved to its own workflow (build-aggregate.yml). With the overhead gone a run takes a much bigger batch.
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: "Pages to fetch per player (default 1000)"
+        required: false
+        default: "1000"
+      max_players:
+        description: "Max players to process per run (default 250)"
+        required: false
+        default: "250"
+      pc_per_run:
+        description: "PC players to add after the console players in a run (default 60)"
+        required: false
+        default: "60"
+      dry_run:
+        description: "Fetch but don't commit (true/false)"
+        required: false
+        default: "false"
+      loop:
+        description: "Chain another Backfill round on completion (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: player-data-write
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Checkout repo (sparse, no file contents yet)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /*.py
+            players.json
+            data/backfill_queue.json
+            data/refresh_checked.json
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Read backfill queue
+        id: read_queue
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from pathlib import Path
+
+          max_players  = int(os.environ.get("MAX_PLAYERS", "250"))
+          queue_path   = Path("data/backfill_queue.json")
+          players_path = Path("players.json")
+
+          if not queue_path.exists():
+              print("No backfill_queue.json found — nothing to do.")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                  f.write("has_queue=false\n")
+          else:
+              all_ids = json.loads(queue_path.read_text())
+              # A bad entry (e.g. a stray null from a players.json record
+              # with no profileId) shouldn't crash the whole batch — drop
+              # it and keep going.
+              bad = [x for x in all_ids if not isinstance(x, int)]
+              if bad:
+                  print(f"Dropping {len(bad)} invalid queue entr{'y' if len(bad)==1 else 'ies'}: {bad!r}")
+                  all_ids = [x for x in all_ids if isinstance(x, int)]
+                  queue_path.write_text(json.dumps(all_ids, indent=2))
+              if not all_ids:
+                  print("Queue is empty — nothing to do.")
+                  with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                      f.write("has_queue=false\n")
+              else:
+                  # Console players first (stable sort, so arrival order is
+                  # kept within each tier).
+                  group_of = {}
+                  if players_path.exists():
+                      for p in json.loads(players_path.read_text()):
+                          group_of[p["profileId"]] = p.get("group")
+
+                  all_ids.sort(key=lambda pid: 0 if group_of.get(pid) == "console" else 1)
+
+                  # Console players first, then a capped number of PC players. Console Discovery adds a few console players every
+                  # 30 minutes, so at least one is nearly always queued and "console only while any are left" meant the PC queue
+                  # (over 113,000 players) never moved. Each run now takes every queued console player and tops the batch up with
+                  # up to PC_PER_RUN PC players; the time budget below stops a run that has gone long, and the players it did not
+                  # reach go back to the front of the queue. Console players are first in the batch, so they are always done.
+                  pc_cap       = int(os.environ.get("PC_PER_RUN", "60"))
+                  console_ids = [i for i in all_ids if group_of.get(i) == "console"][:max_players]
+                  pc_ids      = [i for i in all_ids if group_of.get(i) != "console"]
+                  batch     = console_ids + pc_ids[:max(0, min(pc_cap, max_players - len(console_ids)))]
+                  batch_set = set(batch)
+                  remaining = [i for i in all_ids if i not in batch_set]
+                  id_str   = ",".join(str(i) for i in batch)
+                  console_in_batch = sum(1 for i in batch if group_of.get(i) == "console")
+                  print(f"Queue total: {len(all_ids)} — processing {len(batch)} ({console_in_batch} console), leaving {len(remaining)}")
+                  print(f"Batch: {id_str}")
+
+                  # Write remaining back to queue (not cleared until empty)
+                  queue_path.write_text(json.dumps(remaining, indent=2))
+
+                  with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                      f.write(f"has_queue=true\n")
+                      f.write(f"queue_ids={id_str}\n")
+                      f.write(f"queue_count={len(batch)}\n")
+                      f.write(f"remaining={len(remaining)}\n")
+          EOF
+        env:
+          MAX_PLAYERS: ${{ github.event.inputs.max_players || '250' }}
+          PC_PER_RUN: ${{ github.event.inputs.pc_per_run || '60' }}
+
+      - name: Check out the batch's existing data files
+        # A queued player normally has no file yet and update_players.py creates it, but a re-queued player does have one,
+        # and a missing file would be treated as brand new and overwrite it, so every existing file is checked out first.
+        if: steps.read_queue.outputs.has_queue == 'true'
+        run: |
+          IDS="${{ steps.read_queue.outputs.queue_ids }}" python3 - <<'EOF'
+          import json, os, subprocess
+          from pathlib import Path
+
+          ids = [i for i in os.environ["IDS"].split(",") if i.strip()]
+          players = {str(p["profileId"]): p.get("group", "console") for p in json.loads(Path("players.json").read_text())}
+          listing = set(subprocess.run(["git", "ls-tree", "-r", "--name-only", "HEAD", "data/"],
+                                       capture_output=True, text=True, check=True).stdout.split())
+          want = [f"data/{players.get(i, 'console')}/{i}.json" for i in ids if f"data/{players.get(i, 'console')}/{i}.json" in listing]
+          if want:
+              with open(".git/info/sparse-checkout", "a") as f:
+                  f.write("\n" + "\n".join("/" + p for p in want) + "\n")
+              subprocess.run(["git", "sparse-checkout", "reapply"], check=True)
+          missing = [p for p in want if not Path(p).exists()]
+          print(f"{len(ids)} in the batch, {len(want)} already have a data file, {len(missing)} failed to check out")
+          if missing:
+              raise SystemExit(f"{len(missing)} data files did not check out, e.g. {missing[:3]} — stopping so nothing is overwritten")
+          EOF
+
+      - name: Backfill player data
+        if: steps.read_queue.outputs.has_queue == 'true'
+        run: |
+          ARGS="--players ${{ steps.read_queue.outputs.queue_ids }} --pages ${{ github.event.inputs.pages || '1000' }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          # A batch of 250 players with deep histories (and rate-limit waits) can outlast the job's 340 minute limit, and a job
+          # killed by the limit commits nothing: two runs on 2026-10-26/27 lost about 11 hours that way. The script now stops
+          # starting players after 100 minutes (cut from 230 so a run that includes PC players ends before the next 2-hourly run) and lists the ones it did not reach, which go back to the front of the queue.
+          ARGS="$ARGS --budget-minutes 100 --leftover-file backfill_leftover.txt"
+          echo "Running: python3 update_players.py $ARGS"
+          python3 update_players.py $ARGS
+
+      - name: Put players the time budget did not reach back on the queue
+        if: steps.read_queue.outputs.has_queue == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+          left = Path("backfill_leftover.txt")
+          if not left.exists():
+              raise SystemExit(0)
+          ids = [int(x) for x in left.read_text().split() if x.strip()]
+          if ids:
+              q = Path("data/backfill_queue.json")
+              rest = json.loads(q.read_text()) if q.exists() else []
+              q.write_text(json.dumps(ids + [i for i in rest if i not in set(ids)], indent=2))
+              print(f"{len(ids)} players put back at the front of the queue")
+          left.unlink()
+          EOF
+
+      - name: Commit and push if changed
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # --sparse: the checkout is sparse and a backfilled player's brand-new data file is outside it; a plain `git add data/`
+          # refuses those files and exits 1, which failed every run's push step from 2026-10-22 on
+          git add --sparse data/ players.json
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: backfill ${{ steps.read_queue.outputs.queue_count }} players, ${{ steps.read_queue.outputs.remaining }} remaining $(date -u '+%Y-%m-%d')"
+          # Retry, and fail the run if the push never lands. A batch runs for hours and Console Discovery appends to
+          # players.json and data/backfill_queue.json every 30 minutes, so a plain `git pull --rebase` conflicted on those two
+          # files and every run since 2026-10-22 failed here with its data unsaved. The rebase is done by hand instead, and
+          # merge_shared.py merges the two shared files record by record when it stops on them.
+          for attempt in 1 2 3 4; do
+            git fetch -q origin main
+            if ! git rebase origin/main; then
+              if python3 merge_shared.py && [ -z "$(git diff --name-only --diff-filter=U)" ]; then
+                GIT_EDITOR=true git rebase --continue || { git rebase --abort 2>/dev/null || true; sleep $((10 * attempt)); continue; }
+              else
+                echo "::warning::rebase stopped on files merge_shared.py does not handle: $(git diff --name-only --diff-filter=U)"
+                git rebase --abort 2>/dev/null || true
+                sleep $((10 * attempt)); continue
+              fi
+            fi
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::push attempt $attempt failed (likely a concurrent commit) — resyncing and retrying"
+            sleep $((10 * attempt))
+          done
+          echo "::error::Failed to push the backfill commit after 4 attempts — this run's data was NOT saved to origin"
+          exit 1
+
+      - name: Trigger another Backfill round if looping
+        # Only chains on an EXPLICIT loop=true dispatch — it used to also
+        # auto-chain whenever queue remained (i.e. always, given an 85k+
+        # backlog), which meant this workflow re-claimed the shared
+        # player-data-write concurrency lock the instant each ~80min batch
+        # finished, starving Update Player Data's 6h cron out of the
+        # lock's single queued slot indefinitely (observed 2026-08-24).
+        #
+        # IMPORTANT: this dispatches the next round WITHOUT --field
+        # loop=true. loop=true is consumed by exactly one extra round: this
+        # step fires once for the run that requested it, then stops, instead
+        # of manufacturing a new opt-in each generation.
+        if: success() && github.event.inputs.dry_run != 'true' && github.event.inputs.loop == 'true'
+        run: |
+          gh workflow run backfill.yml \
+            --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
