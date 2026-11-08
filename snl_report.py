@@ -193,23 +193,28 @@ def build_report(repo_root, saturday_date):
     most_games.sort(key=lambda r: (-r["games"], -r["winRate"]))
     most_games = most_games[:15]
 
-    # Ratstacks: squads restricted to roster members, in-window matches only,
-    # deduped by matchId.
-    seen = {}  # matchId -> (frozenset[(profileId, name)], won)
+    # Ratstacks: squads restricted to roster members, in-window matches only.
+    # A match is deduped per team (both sides can hold roster players), and a
+    # copy with a known result wins over one where "won" is missing.
+    seen = {}  # (matchId, frozenset of every team member's profileId) -> [squad, won]
     for pid, p in players.items():
         name = p.get("name")
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
             mid = m.get("matchId")
-            if mid not in match_info or mid in seen:
+            if mid not in match_info:
                 continue
             teammates = m.get("teammates") or []
+            team = frozenset({pid} | {t.get("profileId") for t in teammates})
             squad = {(pid, name)} | {
                 (t.get("profileId"), t.get("name"))
                 for t in teammates
                 if t.get("profileId") in roster_set
             }
-            if len(squad) >= 2:
-                seen[mid] = (frozenset(squad), m.get("won"))
+            entry = seen.setdefault((mid, team), [set(), None])
+            entry[0] |= squad
+            if entry[1] is None:
+                entry[1] = m.get("won")
+    seen = {k: (frozenset(v[0]), v[1]) for k, v in seen.items() if len(v[0]) >= 2}
 
     stats = {n: defaultdict(lambda: {"games": 0, "wins": 0}) for n in (2, 3, 4)}
     for squad, won in seen.values():
