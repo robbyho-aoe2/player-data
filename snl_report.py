@@ -126,13 +126,39 @@ def build_report(repo_root, saturday_date):
         if p is not None:
             players[pid] = p
 
+    # Match discovery also reads console files of players outside the roster:
+    # a roster player's own file can be stale, so a game they played may only
+    # exist in a non-roster player's file. A match counts when at least one
+    # roster player took part (as owner, teammate or opponent).
+    scan = dict(players)
+    for path in sorted((repo_root / "data" / "console").glob("*.json")):
+        try:
+            fid = int(path.stem)
+        except ValueError:
+            continue
+        if fid in scan:
+            continue
+        p = load_player(repo_root, fid)
+        if p is not None:
+            scan[fid] = p
+
+    def involves_roster(pid, m):
+        if pid in roster_set:
+            return True
+        return any(
+            t.get("profileId") in roster_set
+            for t in (m.get("teammates") or []) + (m.get("opponents") or [])
+        )
+
     # Pass 1: determine, per unique matchId, inclusion + classification method
     # + qualifying team size, using the first roster-player copy encountered.
     match_info = {}  # matchId -> dict(size, method)
-    for pid, p in players.items():
+    for pid, p in scan.items():
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
             mid = m.get("matchId")
             if mid is None or mid in match_info:
+                continue
+            if not involves_roster(pid, m):
                 continue
             included, method = classify_match(m, window_start, window_end, saturday_date, sunday_date)
             if not included:
@@ -158,12 +184,12 @@ def build_report(repo_root, saturday_date):
     # teammate's (a player's own file can be stale), deduped by matchId.
     player_stats = defaultdict(lambda: {"games": 0, "wins": 0, "name": None})
     results = {}  # (profileId, matchId) -> won; a copy with a known result wins
-    for pid, p in players.items():
+    for pid, p in scan.items():
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
             mid = m.get("matchId")
             if mid not in match_info:
                 continue
-            members = [(pid, p.get("name"))] + [
+            members = ([(pid, p.get("name"))] if pid in roster_set else []) + [
                 (t.get("profileId"), t.get("name"))
                 for t in (m.get("teammates") or [])
                 if t.get("profileId") in roster_set
@@ -211,7 +237,7 @@ def build_report(repo_root, saturday_date):
     # player count twice and invent quads out of 3v3 teams. Names come from
     # the player's own file.
     seen = {}  # (matchId, frozenset of every team member's profileId) -> [squad, won]
-    for pid, p in players.items():
+    for pid, p in scan.items():
         name = p.get("name")
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
             mid = m.get("matchId")
@@ -219,7 +245,7 @@ def build_report(repo_root, saturday_date):
                 continue
             teammates = m.get("teammates") or []
             team = frozenset({pid} | {t.get("profileId") for t in teammates})
-            squad = {pid} | {
+            squad = ({pid} if pid in roster_set else set()) | {
                 t.get("profileId")
                 for t in teammates
                 if t.get("profileId") in roster_set
