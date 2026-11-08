@@ -173,7 +173,8 @@ def build_report(repo_root, saturday_date):
                 if results.get(key) is None:
                     results[key] = m.get("won")
                 if player_stats[mpid]["name"] is None:
-                    player_stats[mpid]["name"] = mname
+                    # own file's current name beats the name on a teammate record
+                    player_stats[mpid]["name"] = players[mpid].get("name") if mpid in players else mname
 
     for (mpid, _mid), won in results.items():
         player_stats[mpid]["games"] += 1
@@ -196,6 +197,10 @@ def build_report(repo_root, saturday_date):
     # Ratstacks: squads restricted to roster members, in-window matches only.
     # A match is deduped per team (both sides can hold roster players), and a
     # copy with a known result wins over one where "won" is missing.
+    # Squads hold profile ids only: the same profile can carry different
+    # names in different copies (renamed account), which used to make one
+    # player count twice and invent quads out of 3v3 teams. Names come from
+    # the player's own file.
     seen = {}  # (matchId, frozenset of every team member's profileId) -> [squad, won]
     for pid, p in players.items():
         name = p.get("name")
@@ -205,8 +210,8 @@ def build_report(repo_root, saturday_date):
                 continue
             teammates = m.get("teammates") or []
             team = frozenset({pid} | {t.get("profileId") for t in teammates})
-            squad = {(pid, name)} | {
-                (t.get("profileId"), t.get("name"))
+            squad = {pid} | {
+                t.get("profileId")
                 for t in teammates
                 if t.get("profileId") in roster_set
             }
@@ -231,8 +236,8 @@ def build_report(repo_root, saturday_date):
         rows = []
         for combo, v in stats[n].items():
             rows.append({
-                "names": [c[1] for c in combo],
-                "profileIds": [c[0] for c in combo],
+                "names": [players[c].get("name") if c in players else str(c) for c in combo],
+                "profileIds": list(combo),
                 "games": v["games"],
                 "winRate": round(v["wins"] / v["games"], 4),
             })
