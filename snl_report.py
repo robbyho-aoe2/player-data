@@ -168,10 +168,19 @@ def build_report(repo_root, saturday_date):
                 for t in (m.get("teammates") or [])
                 if t.get("profileId") in roster_set
             ]
-            for mpid, mname in members:
+            won = m.get("won")
+            # Roster players on the other side count too: their own file may
+            # lack the match, and the opposing copy's result is the inverse.
+            opp_won = None if won is None else not won
+            members = [(mpid, mname, won) for mpid, mname in members] + [
+                (t.get("profileId"), t.get("name"), opp_won)
+                for t in (m.get("opponents") or [])
+                if t.get("profileId") in roster_set
+            ]
+            for mpid, mname, res in members:
                 key = (mpid, mid)
                 if results.get(key) is None:
-                    results[key] = m.get("won")
+                    results[key] = res
                 if player_stats[mpid]["name"] is None:
                     # own file's current name beats the name on a teammate record
                     player_stats[mpid]["name"] = players[mpid].get("name") if mpid in players else mname
