@@ -153,19 +153,32 @@ def build_report(repo_root, saturday_date):
     }
     data_complete = total_in_window == 0 or fallback_count <= exact_count
 
-    # Pass 2: per-player game counts (each roster player's own perspective;
-    # a match with N in-window roster participants contributes to N players).
+    # Pass 2: per-player game counts. A match counts for every roster player
+    # on the team, whether it came from their own file or only from a
+    # teammate's (a player's own file can be stale), deduped by matchId.
     player_stats = defaultdict(lambda: {"games": 0, "wins": 0, "name": None})
+    results = {}  # (profileId, matchId) -> won; a copy with a known result wins
     for pid, p in players.items():
-        name = p.get("name")
         for m in p.get("ladders", {}).get("Team Console", {}).get("matches", []):
             mid = m.get("matchId")
             if mid not in match_info:
                 continue
-            player_stats[pid]["name"] = name
-            player_stats[pid]["games"] += 1
-            if m.get("won"):
-                player_stats[pid]["wins"] += 1
+            members = [(pid, p.get("name"))] + [
+                (t.get("profileId"), t.get("name"))
+                for t in (m.get("teammates") or [])
+                if t.get("profileId") in roster_set
+            ]
+            for mpid, mname in members:
+                key = (mpid, mid)
+                if results.get(key) is None:
+                    results[key] = m.get("won")
+                if player_stats[mpid]["name"] is None:
+                    player_stats[mpid]["name"] = mname
+
+    for (mpid, _mid), won in results.items():
+        player_stats[mpid]["games"] += 1
+        if won:
+            player_stats[mpid]["wins"] += 1
 
     most_games = []
     for pid, v in player_stats.items():
