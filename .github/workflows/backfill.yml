@@ -24,6 +24,10 @@ on:
         description: "PC players to add after the console players in a run (default 60)"
         required: false
         default: "60"
+      workers:
+        description: "Players fetched in parallel (default 1 = one at a time; the batch is much faster with 4-8)"
+        required: false
+        default: "1"
       dry_run:
         description: "Fetch but don't commit (true/false)"
         required: false
@@ -172,7 +176,7 @@ jobs:
           # A batch of 250 players with deep histories (and rate-limit waits) can outlast the job's 340 minute limit, and a job
           # killed by the limit commits nothing: two runs on 2026-10-26/27 lost about 11 hours that way. The script now stops
           # starting players after 100 minutes (cut from 230 so a run that includes PC players ends before the next 2-hourly run) and lists the ones it did not reach, which go back to the front of the queue.
-          ARGS="$ARGS --budget-minutes 100 --leftover-file backfill_leftover.txt"
+          ARGS="$ARGS --budget-minutes 100 --leftover-file backfill_leftover.txt --workers ${{ github.event.inputs.workers || '1' }}"
           echo "Running: python3 update_players.py $ARGS"
           python3 update_players.py $ARGS
 
