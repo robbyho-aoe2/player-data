@@ -7,10 +7,12 @@ import argparse
 import json
 import os
 import sys
+import threading
 import time
 import urllib.request
 import urllib.parse
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, date
 from pathlib import Path
 
@@ -76,6 +78,27 @@ def get_player_path(data_dir, group, profile_id):
     return subfolder / f"{profile_id}.json"
 
 
+# A 429 from the API pauses every worker, not just the one that got it (with --workers > 1 the others would otherwise keep
+# hammering an API that just asked for a break).
+_cooldown_lock  = threading.Lock()
+_cooldown_until = 0.0
+
+
+def _wait_cooldown():
+    while True:
+        with _cooldown_lock:
+            wait = _cooldown_until - time.monotonic()
+        if wait <= 0:
+            return
+        time.sleep(min(wait, 5))
+
+
+def _start_cooldown(seconds):
+    global _cooldown_until
+    with _cooldown_lock:
+        _cooldown_until = max(_cooldown_until, time.monotonic() + seconds)
+
+
 def api_fetch(profile_id, page):
     params = urllib.parse.urlencode({"profile_ids": profile_id, "page": page})
     url = f"{BASE_URL}?{params}"
@@ -84,6 +107,7 @@ def api_fetch(profile_id, page):
         headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"}
     )
     for attempt in range(4):
+        _wait_cooldown()
         try:
             with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
                 data = json.loads(resp.read().decode())
@@ -92,7 +116,7 @@ def api_fetch(profile_id, page):
             if e.code == 429:
                 wait = 30 * (attempt + 1)
                 print(f"  429 rate limit — waiting {wait}s before retry {attempt + 1}/3")
-                time.sleep(wait)
+                _start_cooldown(wait)
             else:
                 raise
     raise RuntimeError("Failed after 3 retries due to rate limiting")
@@ -114,6 +138,7 @@ def fetch_profile_ratings(profile_id):
         headers={"User-Agent": "AoE2DataPipeline/1.0 (github.com/robbyho-aoe2)"}
     )
     for attempt in range(4):
+        _wait_cooldown()
         try:
             with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
                 data = json.loads(resp.read().decode())
@@ -122,7 +147,7 @@ def fetch_profile_ratings(profile_id):
             if e.code == 429:
                 wait = 30 * (attempt + 1)
                 print(f"  429 rate limit (profile) — waiting {wait}s before retry {attempt + 1}/3")
-                time.sleep(wait)
+                _start_cooldown(wait)
             elif e.code == 404:
                 return {}, {}
             else:
@@ -292,6 +317,42 @@ def extract_match(raw, profile_id):
         "teammates": teammates,
     }
     return ladder, record
+
+
+# ─── Parallel runs ────────────────────────────────────────────────────────────
+
+class _ThreadLogStdout:
+    """With --workers > 1 each worker's output is collected per player and printed in one piece when the player is done,
+    so the log stays readable (one player's lines together) instead of interleaving."""
+    def __init__(self, real):
+        self._real = real
+        self._local = threading.local()
+        self._lock = threading.Lock()
+
+    def write(self, text):
+        buf = getattr(self._local, "buf", None)
+        if buf is None:
+            with self._lock:
+                return self._real.write(text)
+        buf.append(text)
+        return len(text)
+
+    def flush(self):
+        with self._lock:
+            self._real.flush()
+
+    def begin(self):
+        self._local.buf = []
+
+    def end(self):
+        text = "".join(self._local.buf)
+        self._local.buf = None
+        with self._lock:
+            self._real.write(text)
+            self._real.flush()
+
+    def __getattr__(self, name):
+        return getattr(self._real, name)
 
 
 # ─── Per-player update ────────────────────────────────────────────────────────
@@ -515,6 +576,7 @@ def main():
     parser.add_argument("--group", type=str, default="console", help="Group for newly added players (default: console)")
     parser.add_argument("--budget-minutes", type=float, default=0, help="Stop starting new players after this many minutes (0 = no limit)")
     parser.add_argument("--leftover-file", type=str, default="", help="With --budget-minutes: write the profileIds that were not reached here, one per line")
+    parser.add_argument("--workers", type=int, default=1, help="Players fetched in parallel (default 1 = one at a time, as before)")
     args = parser.parse_args()
 
     repo_root = Path(__file__).parent
@@ -600,29 +662,75 @@ def main():
 
     started = time.monotonic()
     leftover = []
-    for i, player in enumerate(players):
-        if args.budget_minutes and time.monotonic() - started > args.budget_minutes * 60:
-            leftover = [p["profileId"] for p in players[i:]]
-            print(f"Time budget of {args.budget_minutes:g} min used up after {i} of {len(players)} players; {len(leftover)} left for the next run")
-            break
-        try:
-            changed, real_name, new_group = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
-            any_changed = any_changed or changed
-            checked[str(player["profileId"])] = date.today().isoformat()
-            # Update players.json if we found a real name for a placeholder entry
-            if real_name and player["name"].startswith("player_") and not args.dry_run:
-                player["name"] = real_name
-                needs_name_update = True
-            if new_group and not args.dry_run:
-                player["group"] = new_group
-                needs_group_update = True
-        except Exception as e:
-            msg = f"{player['name']} ({player['profileId']}): {type(e).__name__}: {e}"
+
+    def over_budget():
+        return bool(args.budget_minutes) and time.monotonic() - started > args.budget_minutes * 60
+
+    def record(player, outcome):
+        """Fold one player's result into the shared state. Always runs on the main thread."""
+        nonlocal any_changed, needs_name_update, needs_group_update
+        if isinstance(outcome, Exception):
+            msg = f"{player['name']} ({player['profileId']}): {type(outcome).__name__}: {outcome}"
             print(f"  ERROR — {msg}")
             errors.append(msg)
+            return
+        changed, real_name, new_group = outcome
+        any_changed = any_changed or changed
+        checked[str(player["profileId"])] = date.today().isoformat()
+        # Update players.json if we found a real name for a placeholder entry
+        if real_name and player["name"].startswith("player_") and not args.dry_run:
+            player["name"] = real_name
+            needs_name_update = True
+        if new_group and not args.dry_run:
+            player["group"] = new_group
+            needs_group_update = True
 
-        if i < len(players) - 1:
+    workers = max(1, args.workers)
+    if workers == 1:
+        for i, player in enumerate(players):
+            if over_budget():
+                leftover = [p["profileId"] for p in players[i:]]
+                print(f"Time budget of {args.budget_minutes:g} min used up after {i} of {len(players)} players; {len(leftover)} left for the next run")
+                break
+            try:
+                outcome = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
+            except Exception as e:
+                outcome = e
+            record(player, outcome)
+
+            if i < len(players) - 1:
+                time.sleep(PLAYER_DELAY)
+    else:
+        print(f"Running {workers} players at a time")
+        log = _ThreadLogStdout(sys.stdout)
+        sys.stdout = log
+
+        def work(player):
+            # Same rule as the serial loop: a player not started when the budget runs out goes back on the queue.
+            if over_budget():
+                return None
+            log.begin()
+            try:
+                outcome = update_player(player, data_dir, args.pages, args.dry_run, args.repair)
+            except Exception as e:
+                outcome = e
+            finally:
+                log.end()
             time.sleep(PLAYER_DELAY)
+            return outcome
+
+        try:
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                results = list(pool.map(work, players))
+        finally:
+            sys.stdout = log._real
+        for player, outcome in zip(players, results):
+            if outcome is None:
+                leftover.append(player["profileId"])
+            else:
+                record(player, outcome)
+        if leftover:
+            print(f"Time budget of {args.budget_minutes:g} min used up; {len(players) - len(leftover)} of {len(players)} players done, {len(leftover)} left for the next run")
 
     if args.leftover_file and not args.dry_run:
         Path(args.leftover_file).write_text("".join(f"{pid}\n" for pid in leftover))
