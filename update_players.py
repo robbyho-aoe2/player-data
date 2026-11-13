@@ -375,6 +375,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
 
     eff_pages = PC_SUMMARY_PAGES if (summary_mode and PC_SUMMARY_PAGES) else pages
     hit_cap = False
+    last_raw = None   # the oldest game on the last page read (pages come newest-first)
 
     print(f"\n[{name}] profileId={profile_id} group={group}{' (summary)' if summary_mode else ''}")
 
@@ -421,6 +422,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
             break
 
         total_fetched += len(raw_matches)
+        last_raw = raw_matches[-1]
         page_new = 0
 
         for raw in raw_matches:
@@ -565,7 +567,10 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
             return False, found_name, None
         summ = build_summary(existing)
         if hit_cap:
-            summ["partial"] = {"games": total_fetched, "pages": eff_pages}
+            # Where the read stopped. Page numbers drift as the player plays more (new games push old ones down), so a later pass
+            # must not trust "start at page N": it counts only games that started before oldestStarted (ties on oldestMatchId).
+            summ["partial"] = {"games": total_fetched, "pages": eff_pages,
+                               "oldestStarted": (last_raw or {}).get("started"), "oldestMatchId": (last_raw or {}).get("matchId")}
         write_summary(spath, summ)
         print(f"  wrote summary {spath}")
         return True, found_name, None
