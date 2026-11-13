@@ -25,6 +25,11 @@ PROFILE_URL   = "https://data.aoe2companion.com/api/profiles"
 PAGES         = 1
 PAGE_DELAY    = 1.0
 PLAYER_DELAY  = 3.0
+# Backfill only: cap on pages (20 games each) for a PC player who is getting a first summary. 0 = use --pages. A summary only needs
+# recent form, and the heaviest accounts (thousands of games) were what made a backfill run crawl. Players cut short here are
+# listed in TRUNCATED and their summary carries "partial", so a later pass can go deeper.
+PC_SUMMARY_PAGES = 0
+TRUNCATED = []
 TIMEOUT       = 20
 MAX_DUR       = 5 * 3600
 
@@ -368,6 +373,9 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     # and saved as a full console file.
     summary_mode = group == "pc" and not out_path.exists() and not repair
 
+    eff_pages = PC_SUMMARY_PAGES if (summary_mode and PC_SUMMARY_PAGES) else pages
+    hit_cap = False
+
     print(f"\n[{name}] profileId={profile_id} group={group}{' (summary)' if summary_mode else ''}")
 
     if out_path.exists():
@@ -401,7 +409,7 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
     total_fetched = 0
     total_new     = 0
 
-    for page in range(1, pages + 1):
+    for page in range(1, eff_pages + 1):
         try:
             raw_matches = api_fetch(profile_id, page)
         except Exception as e:
@@ -445,10 +453,16 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
             print(f"  page {page}: no new matches — caught up, stopping")
             break
 
-        if page < pages:
+        if page < eff_pages:
             time.sleep(PAGE_DELAY)
+    else:
+        # every page up to the cap came back full: there may be older games we did not read
+        hit_cap = summary_mode and eff_pages < pages
 
     print(f"  total fetched={total_fetched}, new={total_new}")
+    if hit_cap:
+        TRUNCATED.append(profile_id)
+        print(f"  history cut at {eff_pages} pages ({total_fetched} games) - older games left for a later pass")
 
     try:
         profile_ratings, profile_country = fetch_profile_ratings(profile_id)
@@ -549,7 +563,10 @@ def update_player(player_def, data_dir, pages, dry_run, repair):
         if dry_run:
             print(f"  DRY RUN — would write {spath}")
             return False, found_name, None
-        write_summary(spath, build_summary(existing))
+        summ = build_summary(existing)
+        if hit_cap:
+            summ["partial"] = {"games": total_fetched, "pages": eff_pages}
+        write_summary(spath, summ)
         print(f"  wrote summary {spath}")
         return True, found_name, None
 
@@ -576,8 +593,12 @@ def main():
     parser.add_argument("--group", type=str, default="console", help="Group for newly added players (default: console)")
     parser.add_argument("--budget-minutes", type=float, default=0, help="Stop starting new players after this many minutes (0 = no limit)")
     parser.add_argument("--leftover-file", type=str, default="", help="With --budget-minutes: write the profileIds that were not reached here, one per line")
+    parser.add_argument("--pc-pages", type=int, default=0, help="Backfill: pages (20 games each) to read for a PC player's first summary; 0 = same as --pages")
+    parser.add_argument("--truncated-file", type=str, default="", help="Write the PC players whose history was cut at --pc-pages here, one per line")
     parser.add_argument("--workers", type=int, default=1, help="Players fetched in parallel (default 1 = one at a time, as before)")
     args = parser.parse_args()
+    global PC_SUMMARY_PAGES
+    PC_SUMMARY_PAGES = max(0, args.pc_pages)
 
     repo_root = Path(__file__).parent
     data_dir  = repo_root / "data"
@@ -734,6 +755,11 @@ def main():
 
     if args.leftover_file and not args.dry_run:
         Path(args.leftover_file).write_text("".join(f"{pid}\n" for pid in leftover))
+
+    if args.pc_pages:
+        print(f"{len(TRUNCATED)} PC players had their history cut at {args.pc_pages} pages")
+    if args.truncated_file and not args.dry_run:
+        Path(args.truncated_file).write_text("".join(f"{pid}" + chr(10) for pid in TRUNCATED))
 
     if checked != checked_before and not args.dry_run:
         checked_path.write_text(json.dumps(dict(sorted(checked.items(), key=lambda kv: int(kv[0]))), separators=(",", ":")))
