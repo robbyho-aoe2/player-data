@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 43,
-        "pulledDate": "2026-11-15",
+        "pulledDate": "2026-11-17",
         "latestRating": 847,
         "peakRating": 921
       },
@@ -747,7 +747,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 1,
-        "pulledDate": "2026-11-15"
+        "pulledDate": "2026-11-17"
       },
       "matches": [
         {
@@ -780,12 +780,29 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 70,
-        "pulledDate": "2026-11-15",
-        "latestRating": 481,
+        "totalGames": 71,
+        "pulledDate": "2026-11-17",
+        "latestRating": 464,
         "peakRating": 745
       },
       "matches": [
+        {
+          "matchId": 521710700,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-16",
+          "startedAt": "2026-11-16T23:13:42.000Z",
+          "dur": 2525,
+          "opponents": [
+            {
+              "profileId": 25147090,
+              "name": "playboy42"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 521416307,
           "civ": "Franks",
@@ -1980,12 +1997,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 23,
-        "pulledDate": "2026-11-15",
-        "latestRating": 567,
+        "totalGames": 26,
+        "pulledDate": "2026-11-17",
+        "latestRating": 583,
         "peakRating": 827
       },
       "matches": [
+        {
+          "matchId": 521738972,
+          "civ": "Japanese",
+          "map": "Arena",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-17",
+          "startedAt": "2026-11-17T02:03:00.000Z",
+          "dur": 1998,
+          "opponents": [
+            {
+              "profileId": 26294873,
+              "name": "Charlymanda"
+            },
+            {
+              "profileId": 26277171,
+              "name": "benilol777"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26364008,
+              "name": "Miss Atomic Bomb"
+            }
+          ]
+        },
+        {
+          "matchId": 521497214,
+          "civ": "Teutons",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-15",
+          "startedAt": "2026-11-15T23:43:58.000Z",
+          "dur": 1305,
+          "opponents": [
+            {
+              "profileId": 24620403,
+              "name": "juanestatto"
+            },
+            {
+              "profileId": 25576135,
+              "name": "khaldoun.lakkis"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26364008,
+              "name": "Miss Atomic Bomb"
+            }
+          ]
+        },
+        {
+          "matchId": 521489846,
+          "civ": "Franks",
+          "map": "Nomad",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-15",
+          "startedAt": "2026-11-15T23:05:42.000Z",
+          "dur": 2080,
+          "opponents": [
+            {
+              "profileId": 9789648,
+              "name": "AFRF1752"
+            },
+            {
+              "profileId": 1385305,
+              "name": "BingoDabber"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 26364008,
+              "name": "Miss Atomic Bomb"
+            }
+          ]
+        },
         {
           "matchId": 521216219,
           "civ": "Khmer",
