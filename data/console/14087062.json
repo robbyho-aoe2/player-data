@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 16,
-        "pulledDate": "2026-11-16",
+        "pulledDate": "2026-11-18",
         "latestRating": 1231,
         "peakRating": 1231
       },
@@ -288,18 +288,69 @@
     "Team Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-16"
+        "pulledDate": "2026-11-18"
       },
       "matches": []
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 114,
-        "pulledDate": "2026-11-16",
-        "latestRating": 1021,
+        "totalGames": 117,
+        "pulledDate": "2026-11-18",
+        "latestRating": 1033,
         "peakRating": 1052
       },
       "matches": [
+        {
+          "matchId": 521981618,
+          "civ": "Franks",
+          "map": "Golden Pit",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-18",
+          "startedAt": "2026-11-18T05:59:54.000Z",
+          "dur": 575,
+          "opponents": [
+            {
+              "profileId": 8278630,
+              "name": "HAN SOLO"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 521979925,
+          "civ": "Malians",
+          "map": "Golden Pit",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-18",
+          "startedAt": "2026-11-18T05:40:33.000Z",
+          "dur": 1062,
+          "opponents": [
+            {
+              "profileId": 2354359,
+              "name": "Thorag"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 521977056,
+          "civ": "Bulgarians",
+          "map": "Socotra",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-18",
+          "startedAt": "2026-11-18T05:11:19.000Z",
+          "dur": 1635,
+          "opponents": [
+            {
+              "profileId": 2354359,
+              "name": "Thorag"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 521551204,
           "civ": "Jurchens",
@@ -2242,12 +2293,64 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 402,
-        "pulledDate": "2026-11-16",
-        "latestRating": 1132,
-        "peakRating": 1132
+        "totalGames": 404,
+        "pulledDate": "2026-11-18",
+        "latestRating": 1136,
+        "peakRating": 1136
       },
       "matches": [
+        {
+          "matchId": 521984975,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-18",
+          "startedAt": "2026-11-18T06:41:17.000Z",
+          "dur": 610,
+          "opponents": [
+            {
+              "profileId": 3244827,
+              "name": "TintyJ"
+            },
+            {
+              "profileId": 2643863,
+              "name": "Milkus Dilkus"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23990388,
+              "name": "MKNG I MAU"
+            }
+          ]
+        },
+        {
+          "matchId": 521982674,
+          "civ": "Franks",
+          "map": "Arabia",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-18",
+          "startedAt": "2026-11-18T06:12:48.000Z",
+          "dur": 1423,
+          "opponents": [
+            {
+              "profileId": 2147247,
+              "name": "Hogos"
+            },
+            {
+              "profileId": 2620455,
+              "name": "GianpaMX"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 23990388,
+              "name": "MKNG I MAU"
+            }
+          ]
+        },
         {
           "matchId": 521015396,
           "civ": "Franks",
