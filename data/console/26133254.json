@@ -5,10 +5,44 @@
   "ladders": {
     "1v1 Console": {
       "meta": {
-        "totalGames": 3,
-        "pulledDate": "2026-11-17"
+        "totalGames": 5,
+        "pulledDate": "2026-11-19"
       },
       "matches": [
+        {
+          "matchId": 522197139,
+          "civ": "Spanish",
+          "map": "Arena",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-19",
+          "startedAt": "2026-11-19T08:50:44.000Z",
+          "dur": 2697,
+          "opponents": [
+            {
+              "profileId": 26330434,
+              "name": "jaygaines15"
+            }
+          ],
+          "teammates": []
+        },
+        {
+          "matchId": 521957511,
+          "civ": "Spanish",
+          "map": "Hideout",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-18",
+          "startedAt": "2026-11-18T02:43:34.000Z",
+          "dur": 2981,
+          "opponents": [
+            {
+              "profileId": 12617655,
+              "name": "ErroneousRex207"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 521685608,
           "civ": "Spanish",
@@ -64,10 +98,38 @@
     },
     "Team Console": {
       "meta": {
-        "totalGames": 7,
-        "pulledDate": "2026-11-17"
+        "totalGames": 8,
+        "pulledDate": "2026-11-19",
+        "latestRating": 785,
+        "peakRating": 785
       },
       "matches": [
+        {
+          "matchId": 522038683,
+          "civ": "Spanish",
+          "map": "MegaRandom",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-18",
+          "startedAt": "2026-11-18T15:05:18.000Z",
+          "dur": 2256,
+          "opponents": [
+            {
+              "profileId": 20474368,
+              "name": "Walkdog38"
+            },
+            {
+              "profileId": 13376506,
+              "name": "Syd Barrett3933"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 12827080,
+              "name": "KaosEmperor6961"
+            }
+          ]
+        },
         {
           "matchId": 521679198,
           "civ": "Spanish",
@@ -255,17 +317,20 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-17"
+        "pulledDate": "2026-11-19"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-17"
+        "pulledDate": "2026-11-19"
       },
       "matches": []
     }
   },
-  "platform": "Xbox"
+  "platform": "Xbox",
+  "country": "us",
+  "countryIcon": "\ud83c\uddfa\ud83c\uddf8",
+  "countryName": "United States of America"
 }
