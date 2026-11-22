@@ -6,7 +6,7 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 21,
-        "pulledDate": "2026-11-20",
+        "pulledDate": "2026-11-22",
         "latestRating": 882,
         "peakRating": 882
       },
@@ -364,7 +364,7 @@
     "Team Console": {
       "meta": {
         "totalGames": 351,
-        "pulledDate": "2026-11-20",
+        "pulledDate": "2026-11-22",
         "latestRating": 1060,
         "peakRating": 1177
       },
@@ -9299,12 +9299,29 @@
     },
     "1v1 PC": {
       "meta": {
-        "totalGames": 223,
-        "pulledDate": "2026-11-20",
-        "latestRating": 603,
+        "totalGames": 224,
+        "pulledDate": "2026-11-22",
+        "latestRating": 592,
         "peakRating": 768
       },
       "matches": [
+        {
+          "matchId": 522804718,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-22",
+          "startedAt": "2026-11-22T00:02:57.000Z",
+          "dur": 1890,
+          "opponents": [
+            {
+              "profileId": 213112,
+              "name": "Brianth1146"
+            }
+          ],
+          "teammates": []
+        },
         {
           "matchId": 521368313,
           "civ": "Incas",
@@ -12893,12 +12910,90 @@
     },
     "Team PC": {
       "meta": {
-        "totalGames": 23,
-        "pulledDate": "2026-11-20",
-        "latestRating": 805,
-        "peakRating": 844
+        "totalGames": 26,
+        "pulledDate": "2026-11-22",
+        "latestRating": 825,
+        "peakRating": 847
       },
       "matches": [
+        {
+          "matchId": 522577746,
+          "civ": "Varangians",
+          "map": "Black Forest",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-21",
+          "startedAt": "2026-11-21T02:26:57.000Z",
+          "dur": 2037,
+          "opponents": [
+            {
+              "profileId": 24328526,
+              "name": "Clavo8225"
+            },
+            {
+              "profileId": 13705238,
+              "name": "RancidMeerkat"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17182174,
+              "name": "ChampinzeeLoose"
+            }
+          ]
+        },
+        {
+          "matchId": 522569182,
+          "civ": "Varangians",
+          "map": "Arena",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-21",
+          "startedAt": "2026-11-21T01:38:10.000Z",
+          "dur": 2247,
+          "opponents": [
+            {
+              "profileId": 2542211,
+              "name": "Familia AV"
+            },
+            {
+              "profileId": 2505563,
+              "name": "Konig Orca"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17182174,
+              "name": "ChampinzeeLoose"
+            }
+          ]
+        },
+        {
+          "matchId": 522479938,
+          "civ": "Varangians",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-20",
+          "startedAt": "2026-11-20T18:06:55.000Z",
+          "dur": 2359,
+          "opponents": [
+            {
+              "profileId": 8265605,
+              "name": "DarkLennonMX"
+            },
+            {
+              "profileId": 15707611,
+              "name": "Tedyoners"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 17182174,
+              "name": "ChampinzeeLoose"
+            }
+          ]
+        },
         {
           "matchId": 521380037,
           "civ": "Incas",
