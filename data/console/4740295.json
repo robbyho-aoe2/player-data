@@ -6,14 +6,14 @@
     "1v1 Console": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-22"
+        "pulledDate": "2026-11-24"
       },
       "matches": []
     },
     "Team Console": {
       "meta": {
         "totalGames": 5,
-        "pulledDate": "2026-11-22"
+        "pulledDate": "2026-11-24"
       },
       "matches": [
         {
@@ -159,16 +159,86 @@
     "1v1 PC": {
       "meta": {
         "totalGames": 0,
-        "pulledDate": "2026-11-22"
+        "pulledDate": "2026-11-24"
       },
       "matches": []
     },
     "Team PC": {
       "meta": {
-        "totalGames": 8,
-        "pulledDate": "2026-11-22"
+        "totalGames": 10,
+        "pulledDate": "2026-11-24",
+        "latestRating": 738,
+        "peakRating": 738
       },
       "matches": [
+        {
+          "matchId": 523309978,
+          "civ": "Huns",
+          "map": "Arabia",
+          "won": true,
+          "patch": 1824,
+          "date": "2026-11-24",
+          "startedAt": "2026-11-24T04:04:27.000Z",
+          "dur": 3540,
+          "opponents": [
+            {
+              "profileId": 4790508,
+              "name": "Amauta"
+            },
+            {
+              "profileId": 5886553,
+              "name": "El manitas"
+            },
+            {
+              "profileId": 23128809,
+              "name": "Obi Xeneize"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 25712190,
+              "name": "cesarlunaalanis1"
+            },
+            {
+              "profileId": 18934141,
+              "name": "Raz Noir"
+            }
+          ]
+        },
+        {
+          "matchId": 523305976,
+          "civ": "Spanish",
+          "map": "Black Forest",
+          "won": false,
+          "patch": 1824,
+          "date": "2026-11-24",
+          "startedAt": "2026-11-24T03:35:04.000Z",
+          "dur": 1539,
+          "opponents": [
+            {
+              "profileId": 26413430,
+              "name": "Luka Don\u010di\u0107"
+            },
+            {
+              "profileId": 25837409,
+              "name": "crustytots409"
+            },
+            {
+              "profileId": 25890566,
+              "name": "amityy"
+            }
+          ],
+          "teammates": [
+            {
+              "profileId": 18934141,
+              "name": "Raz Noir"
+            },
+            {
+              "profileId": 25712190,
+              "name": "cesarlunaalanis1"
+            }
+          ]
+        },
         {
           "matchId": 522615420,
           "civ": "Huns",
@@ -460,5 +530,8 @@
       ]
     }
   },
-  "platform": "Xbox"
+  "platform": "Xbox",
+  "country": "mx",
+  "countryIcon": "\ud83c\uddf2\ud83c\uddfd",
+  "countryName": "Mexico"
 }
